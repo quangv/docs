@@ -4,8 +4,6 @@
 Monaca Localkit Overview
 ================================================
 
-.. rst-class:: right-menu
-
 
 Introduction
 ===============================
@@ -59,11 +57,15 @@ Starting Monaca Localkit
     :width: 400px
     :align: left
 
+  .. rst-class:: clear
+
 2. After a successful login, Monaca Localkit dashboard will appear.
 
   .. figure:: images/overview/2.png
     :width: 600px
     :align: left
+
+  .. rst-class:: clear
 
 
 .. _create_project_localkit:
@@ -79,6 +81,8 @@ You can create a new project based on templates provided by Monaca.
     :width: 600px
     :align: left
 
+  .. rst-class:: clear
+
 2. Fill in the necessary information such as:
 
   - Project Name: create a name to represent your new project which will be shown in the project list.
@@ -88,6 +92,8 @@ You can create a new project based on templates provided by Monaca.
   .. figure:: images/overview/4.png
     :width: 500px
     :align: left
+
+  .. rst-class:: clear
 
 3. If the project is created successfully, the new project will be shown in the project list.
 
@@ -116,6 +122,8 @@ In order to import a project into Monaca Localkit, please do as follows:
     :width: 600px
     :align: left
 
+  .. rst-class:: clear
+
 2. If you choose :guilabel:`From Cloud IDE` option, fill in the necessary information such as:
 
   - Select Project: select a project from a list of all projects you have in Monaca Cloud IDE.
@@ -125,6 +133,8 @@ In order to import a project into Monaca Localkit, please do as follows:
     :width: 500px
     :align: left
 
+  .. rst-class:: clear
+
 3. On the other hand, if you choose :guilabel:`From Local Cordova Project` option, fill in the necessary information such as:
 
   - Working Directory: specify a directory where you want to keep your project files.
@@ -133,6 +143,8 @@ In order to import a project into Monaca Localkit, please do as follows:
   .. figure:: images/overview/7.png
     :width: 500px
     :align: left
+
+  .. rst-class:: clear
 
 4. After that, the new project will be shown in the project list.
 
@@ -157,6 +169,8 @@ In order to add an editor program to Monaca Localkit, please do as follows:
     :width: 300px
     :align: left
 
+  .. rst-class:: clear
+
 3. Then, Add Editor Application dialog will appear. Fill in the necessary information related to the editor program such as:
   
   - Application Path: browse the editor execution file (``.app`` file for Mac or ``.exe`` file for Windows).
@@ -167,11 +181,15 @@ In order to add an editor program to Monaca Localkit, please do as follows:
       :width: 400px
       :align: left
 
+    .. rst-class:: clear
+
 4. Click :guilabel:`OK`. Now, the new editor program should appear in the "Open in" list as shown below:
 
   .. figure:: images/overview/10.png
     :width: 250px
     :align: left
+
+  .. rst-class:: clear
 
 .. _localkit_preference:
 
@@ -184,6 +202,8 @@ Preference Dialog
     :width: 250px
     :align: left
 
+  .. rst-class:: clear
+
 2. In this Preferences dialog, you can do the following settings:
 
   - Working Directory: specify a default location to store your local projects.
@@ -194,6 +214,8 @@ Preference Dialog
   .. figure:: images/overview/12.png
     :width: 500px
     :align: left
+
+  .. rst-class:: clear
 
 3. Save the settings.
 

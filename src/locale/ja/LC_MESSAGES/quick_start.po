@@ -146,7 +146,7 @@ msgstr "ビルドの設定画面から、 :menuselection:`Build Configuration --
 #: ../doc/quick_start/cli/building_app.rst:49
 #: ../doc/quick_start/cli/building_app.rst:133
 #: ../doc/quick_start/cloud_ide/building_app.rst:43
-#: ../doc/quick_start/cloud_ide/building_app.rst:121
+#: ../doc/quick_start/cloud_ide/building_app.rst:141
 #: ../doc/quick_start/localkit/building_app.rst:45
 #: ../doc/quick_start/localkit/building_app.rst:126
 #: ../doc/quick_start/monaca_vs/building_app.rst:43
@@ -157,7 +157,7 @@ msgstr "必要なアプリ情報を入力します。"
 #: ../doc/quick_start/cli/building_app.rst:51
 #: ../doc/quick_start/cli/building_app.rst:135
 #: ../doc/quick_start/cloud_ide/building_app.rst:45
-#: ../doc/quick_start/cloud_ide/building_app.rst:123
+#: ../doc/quick_start/cloud_ide/building_app.rst:143
 #: ../doc/quick_start/localkit/building_app.rst:47
 #: ../doc/quick_start/localkit/building_app.rst:128
 msgid ""
@@ -190,7 +190,7 @@ msgstr "バージョン : iTune Connect 経由で、アプリをアップロー�
 #: ../doc/quick_start/cli/building_app.rst:54
 #: ../doc/quick_start/cli/building_app.rst:139
 #: ../doc/quick_start/cloud_ide/building_app.rst:48
-#: ../doc/quick_start/cloud_ide/building_app.rst:127
+#: ../doc/quick_start/cloud_ide/building_app.rst:147
 #: ../doc/quick_start/localkit/building_app.rst:50
 #: ../doc/quick_start/localkit/building_app.rst:132
 msgid ""
@@ -199,7 +199,7 @@ msgid ""
 msgstr "他の設定項目は、任意です。こちらの設定画面では、アイコン、スプラッシュ画像などを設定できます。"
 
 #: ../doc/quick_start/cli/building_app.rst:59
-#: ../doc/quick_start/cloud_ide/building_app.rst:53
+#: ../doc/quick_start/cloud_ide/building_app.rst:56
 #: ../doc/quick_start/localkit/building_app.rst:55
 #: ../doc/quick_start/monaca_vs/building_app.rst:56
 msgid ""
@@ -210,8 +210,8 @@ msgstr "Monaca のビルド設定で使用する App ID には、iOS Provisionin
 
 #: ../doc/quick_start/cli/building_app.rst:61
 #: ../doc/quick_start/cli/building_app.rst:144
-#: ../doc/quick_start/cloud_ide/building_app.rst:55
-#: ../doc/quick_start/cloud_ide/building_app.rst:132
+#: ../doc/quick_start/cloud_ide/building_app.rst:58
+#: ../doc/quick_start/cloud_ide/building_app.rst:152
 #: ../doc/quick_start/localkit/building_app.rst:57
 #: ../doc/quick_start/localkit/building_app.rst:137
 #: ../doc/quick_start/monaca_vs/building_app.rst:58
@@ -220,7 +220,7 @@ msgid "After finishing the configurations, click :guilabel:`Save`."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
 #: ../doc/quick_start/cli/building_app.rst:65
-#: ../doc/quick_start/cloud_ide/building_app.rst:59
+#: ../doc/quick_start/cloud_ide/building_app.rst:62
 #: ../doc/quick_start/localkit/building_app.rst:61
 #: ../doc/quick_start/monaca_vs/building_app.rst:62
 msgid "Step 2: Configuring iOS Build Settings"
@@ -233,7 +233,7 @@ msgid ""
 msgstr "ビルドの設定画面から、 :menuselection:`Build Configuration --> iOS Build` ( 左枠 ) を選択します。"
 
 #: ../doc/quick_start/cli/building_app.rst:69
-#: ../doc/quick_start/cloud_ide/building_app.rst:63
+#: ../doc/quick_start/cloud_ide/building_app.rst:66
 #: ../doc/quick_start/localkit/building_app.rst:67
 msgid ""
 "Click on :guilabel:`Generate Key and CSR...` button and fill in your Apple "
@@ -243,14 +243,14 @@ msgid ""
 msgstr ":guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` ボタンをクリックします。既存の秘密鍵がある場合には、[ インポート... ] を選択します。"
 
 #: ../doc/quick_start/cli/building_app.rst:74
-#: ../doc/quick_start/cloud_ide/building_app.rst:68
+#: ../doc/quick_start/cloud_ide/building_app.rst:74
 #: ../doc/quick_start/localkit/building_app.rst:72
 msgid ""
 "The following dialog box will appear if your authentication is successful."
 msgstr "認証が成功すると、次のダイアログボックスが表示されます。"
 
 #: ../doc/quick_start/cli/building_app.rst:79
-#: ../doc/quick_start/cloud_ide/building_app.rst:73
+#: ../doc/quick_start/cloud_ide/building_app.rst:82
 #: ../doc/quick_start/localkit/building_app.rst:77
 msgid ""
 "Export the CSR file. It will be required to issue the certificates later in "
@@ -258,7 +258,7 @@ msgid ""
 msgstr "CSR ファイルをエクスポートします。iOS Provisioning Portal 上で、証明書を発行するときに、このファイルが必要となります。"
 
 #: ../doc/quick_start/cli/building_app.rst:85
-#: ../doc/quick_start/cloud_ide/building_app.rst:79
+#: ../doc/quick_start/cloud_ide/building_app.rst:90
 #: ../doc/quick_start/localkit/building_app.rst:83
 msgid ""
 "If you import an existing private key, you need to use the certificates "
@@ -269,8 +269,8 @@ msgstr "既存の秘密鍵をインポートする場合、インポートする
 
 #: ../doc/quick_start/cli/building_app.rst:88
 #: ../doc/quick_start/cli/building_app.rst:173
-#: ../doc/quick_start/cloud_ide/building_app.rst:82
-#: ../doc/quick_start/cloud_ide/building_app.rst:160
+#: ../doc/quick_start/cloud_ide/building_app.rst:93
+#: ../doc/quick_start/cloud_ide/building_app.rst:180
 #: ../doc/quick_start/localkit/building_app.rst:86
 #: ../doc/quick_start/localkit/building_app.rst:168
 #: ../doc/quick_start/monaca_vs/building_app.rst:86
@@ -298,7 +298,7 @@ msgid ""
 msgstr "開発用 プロビジョニング プロファイルをアップロードして、 :guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/quick_start/cli/building_app.rst:102
-#: ../doc/quick_start/cloud_ide/building_app.rst:96
+#: ../doc/quick_start/cloud_ide/building_app.rst:113
 #: ../doc/quick_start/localkit/building_app.rst:99
 msgid ""
 "It may take several minutes for the build to complete. Please wait. The "
@@ -307,34 +307,34 @@ msgstr "ビルドが完了するまで数分かかる場合もありますので
 
 #: ../doc/quick_start/cli/building_app.rst:108
 #: ../doc/quick_start/cli/building_app.rst:188
-#: ../doc/quick_start/cloud_ide/building_app.rst:103
-#: ../doc/quick_start/cloud_ide/building_app.rst:176
+#: ../doc/quick_start/cloud_ide/building_app.rst:123
+#: ../doc/quick_start/cloud_ide/building_app.rst:196
 #: ../doc/quick_start/localkit/building_app.rst:105
 #: ../doc/quick_start/localkit/building_app.rst:185
 msgid "Step 4: Installing the Built App"
 msgstr "ステップ 4 : ビルドしたアプリのインストール"
 
 #: ../doc/quick_start/cli/building_app.rst:110
-#: ../doc/quick_start/cloud_ide/building_app.rst:105
+#: ../doc/quick_start/cloud_ide/building_app.rst:125
 #: ../doc/quick_start/localkit/building_app.rst:107
 msgid "Download the built app."
 msgstr "ビルドしたアプリをダウンロードします。"
 
 #: ../doc/quick_start/cli/building_app.rst:111
-#: ../doc/quick_start/cloud_ide/building_app.rst:106
+#: ../doc/quick_start/cloud_ide/building_app.rst:126
 #: ../doc/quick_start/localkit/building_app.rst:108
 msgid "Use iTunes to install the built app on your iOS device."
 msgstr "iTunes を使用して、ビルド済みアプリを iOS 端末にインストールします。"
 
 #: ../doc/quick_start/cli/building_app.rst:117
-#: ../doc/quick_start/cloud_ide/building_app.rst:111
+#: ../doc/quick_start/cloud_ide/building_app.rst:131
 #: ../doc/quick_start/localkit/building_app.rst:114
 #: ../doc/quick_start/monaca_vs/building_app.rst:121
 msgid "Building a Monaca App for Android"
 msgstr "Android 向け Monaca アプリのビルド"
 
 #: ../doc/quick_start/cli/building_app.rst:119
-#: ../doc/quick_start/cloud_ide/building_app.rst:113
+#: ../doc/quick_start/cloud_ide/building_app.rst:133
 #: ../doc/quick_start/localkit/building_app.rst:116
 msgid ""
 "This section will cover an instruction of how to create a Debug Build "
@@ -343,7 +343,7 @@ msgid ""
 msgstr "デバッグビルド版 Android アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 :ref:`types_of_build_android` をご確認ください。"
 
 #: ../doc/quick_start/cli/building_app.rst:123
-#: ../doc/quick_start/cloud_ide/building_app.rst:117
+#: ../doc/quick_start/cloud_ide/building_app.rst:137
 #: ../doc/quick_start/localkit/building_app.rst:120
 #: ../doc/quick_start/monaca_vs/building_app.rst:127
 msgid "Step 1: Configuring Android App Settings"
@@ -356,7 +356,7 @@ msgid ""
 msgstr "ビルドの設定画面から、 :menuselection:`Build Configuration --> Android App` を選択します。"
 
 #: ../doc/quick_start/cli/building_app.rst:136
-#: ../doc/quick_start/cloud_ide/building_app.rst:124
+#: ../doc/quick_start/cloud_ide/building_app.rst:144
 #: ../doc/quick_start/localkit/building_app.rst:129
 #: ../doc/quick_start/monaca_vs/building_app.rst:134
 msgid ""
@@ -368,7 +368,7 @@ msgid ""
 msgstr "パッケージ名 : アプリを識別する一意の ID です。ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) の使用を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) は、ピリオドで区切られ、英字から始まります。"
 
 #: ../doc/quick_start/cli/building_app.rst:137
-#: ../doc/quick_start/cloud_ide/building_app.rst:125
+#: ../doc/quick_start/cloud_ide/building_app.rst:145
 #: ../doc/quick_start/localkit/building_app.rst:130
 #: ../doc/quick_start/monaca_vs/building_app.rst:135
 msgid ""
@@ -378,7 +378,7 @@ msgid ""
 msgstr "バージョン : アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] の範囲にします。"
 
 #: ../doc/quick_start/cli/building_app.rst:138
-#: ../doc/quick_start/cloud_ide/building_app.rst:126
+#: ../doc/quick_start/cloud_ide/building_app.rst:146
 #: ../doc/quick_start/localkit/building_app.rst:131
 msgid ""
 "Use Different Package Name for Debug Build: if checked, the package name of "
@@ -391,14 +391,14 @@ msgid ""
 msgstr "ビルド種別ごとにパッケージ名を分ける : チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は ``.debug`` となり、プロジェクトのデバッガーのパッケージ名の拡張子は ``.debugger`` となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
 
 #: ../doc/quick_start/cli/building_app.rst:148
-#: ../doc/quick_start/cloud_ide/building_app.rst:135
+#: ../doc/quick_start/cloud_ide/building_app.rst:155
 #: ../doc/quick_start/localkit/building_app.rst:141
 #: ../doc/quick_start/monaca_vs/building_app.rst:149
 msgid "Step 2: Configuring Android KeyStore"
 msgstr "ステップ 2 : Android キーストア ( Keystore ) の設定"
 
 #: ../doc/quick_start/cli/building_app.rst:150
-#: ../doc/quick_start/cloud_ide/building_app.rst:137
+#: ../doc/quick_start/cloud_ide/building_app.rst:157
 #: ../doc/quick_start/localkit/building_app.rst:143
 msgid ""
 "Android KeyStore is used for storing the keys (Alias) needed to sign a "
@@ -409,7 +409,7 @@ msgid ""
 msgstr "Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時には、エイリアスを 1 つのみ、使用します。"
 
 #: ../doc/quick_start/cli/building_app.rst:152
-#: ../doc/quick_start/cloud_ide/building_app.rst:139
+#: ../doc/quick_start/cloud_ide/building_app.rst:159
 #: ../doc/quick_start/localkit/building_app.rst:145
 msgid ""
 "In order to configure Android KeyStore in Monaca, please do as follows:"
@@ -430,13 +430,13 @@ msgid ""
 msgstr "キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、 :guilabel:`Clear and Generate New ...` ボタンをクリックします。"
 
 #: ../doc/quick_start/cli/building_app.rst:161
-#: ../doc/quick_start/cloud_ide/building_app.rst:148
+#: ../doc/quick_start/cloud_ide/building_app.rst:168
 #: ../doc/quick_start/localkit/building_app.rst:156
 msgid "Fill in the necessary information related to the KeyStore such as:"
 msgstr "キーストアに関する情報を入力します。"
 
 #: ../doc/quick_start/cli/building_app.rst:163
-#: ../doc/quick_start/cloud_ide/building_app.rst:150
+#: ../doc/quick_start/cloud_ide/building_app.rst:170
 #: ../doc/quick_start/localkit/building_app.rst:158
 msgid ""
 "Alias: key information stored in the KeyStore which is used to sign an app "
@@ -444,19 +444,19 @@ msgid ""
 msgstr "エイリアス : キーストアに格納された鍵情報を指します。パッケージの署名時に使用します。"
 
 #: ../doc/quick_start/cli/building_app.rst:164
-#: ../doc/quick_start/cloud_ide/building_app.rst:151
+#: ../doc/quick_start/cloud_ide/building_app.rst:171
 #: ../doc/quick_start/localkit/building_app.rst:159
 msgid "Password: password for the Alias."
 msgstr "エイリアスのパスワード : エイリアス用のパスワードです。"
 
 #: ../doc/quick_start/cli/building_app.rst:165
-#: ../doc/quick_start/cloud_ide/building_app.rst:152
+#: ../doc/quick_start/cloud_ide/building_app.rst:172
 #: ../doc/quick_start/localkit/building_app.rst:160
 msgid "KeyStore Password: password for the new KeyStore."
 msgstr "キーストアのパスワード : 新規のキーストア用のパスワードです。"
 
 #: ../doc/quick_start/cli/building_app.rst:170
-#: ../doc/quick_start/cloud_ide/building_app.rst:157
+#: ../doc/quick_start/cloud_ide/building_app.rst:177
 #: ../doc/quick_start/localkit/building_app.rst:165
 #: ../doc/quick_start/monaca_vs/building_app.rst:177
 msgid "Then, click :guilabel:`Generate KeyStore and Alias` button."
@@ -467,7 +467,7 @@ msgid "From the build interface, Select ``Android`` platform."
 msgstr "ビルドの設定画面から、 :menuselection:`Build --> Android` プラットフォームを選択します。"
 
 #: ../doc/quick_start/cli/building_app.rst:182
-#: ../doc/quick_start/cloud_ide/building_app.rst:169
+#: ../doc/quick_start/cloud_ide/building_app.rst:189
 #: ../doc/quick_start/localkit/building_app.rst:179
 msgid ""
 "It may take several minutes for the build to complete. Please wait. The "
@@ -475,35 +475,35 @@ msgid ""
 msgstr "ビルドが完了するまで数分かかる場合もありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。"
 
 #: ../doc/quick_start/cli/building_app.rst:190
-#: ../doc/quick_start/cloud_ide/building_app.rst:178
+#: ../doc/quick_start/cloud_ide/building_app.rst:198
 #: ../doc/quick_start/localkit/building_app.rst:187
 #: ../doc/quick_start/monaca_vs/building_app.rst:206
 msgid "There are several ways you can install the built app:"
 msgstr "ビルドしたアプリのインストール方法は、数通りあります。"
 
 #: ../doc/quick_start/cli/building_app.rst:192
-#: ../doc/quick_start/cloud_ide/building_app.rst:180
+#: ../doc/quick_start/cloud_ide/building_app.rst:200
 #: ../doc/quick_start/localkit/building_app.rst:189
 #: ../doc/quick_start/monaca_vs/building_app.rst:208
 msgid ":ref:`network_and`"
 msgstr ":ref:`network_and` を使用します。"
 
 #: ../doc/quick_start/cli/building_app.rst:193
-#: ../doc/quick_start/cloud_ide/building_app.rst:181
+#: ../doc/quick_start/cloud_ide/building_app.rst:201
 #: ../doc/quick_start/localkit/building_app.rst:190
 #: ../doc/quick_start/monaca_vs/building_app.rst:209
 msgid "use QR Barcode"
 msgstr "QR コードを使用します。"
 
 #: ../doc/quick_start/cli/building_app.rst:194
-#: ../doc/quick_start/cloud_ide/building_app.rst:182
+#: ../doc/quick_start/cloud_ide/building_app.rst:202
 #: ../doc/quick_start/localkit/building_app.rst:191
 #: ../doc/quick_start/monaca_vs/building_app.rst:210
 msgid "download the built app directly to your computer"
 msgstr "コンピューターに、ビルド済みアプリを直接ダウンロードします。"
 
 #: ../doc/quick_start/cli/building_app.rst:195
-#: ../doc/quick_start/cloud_ide/building_app.rst:183
+#: ../doc/quick_start/cloud_ide/building_app.rst:203
 #: ../doc/quick_start/localkit/building_app.rst:192
 #: ../doc/quick_start/monaca_vs/building_app.rst:211
 msgid ""
@@ -516,7 +516,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 #: ../doc/quick_start/cli/starting_project.rst:61
 #: ../doc/quick_start/cli/testing_debugging.rst:132
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
-#: ../doc/quick_start/cloud_ide/building_app.rst:187
+#: ../doc/quick_start/cloud_ide/building_app.rst:207
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
 #: ../doc/quick_start/cloud_ide/starting_project.rst:117
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
@@ -941,14 +941,14 @@ msgid ""
 msgstr "ここまでの手順を行えば、バックエンドを使用したアプリの開発ができます。また、 :ref:`backend_database_memo` には、実際のアプリを使用した、Monaca バックエンドの操作に関する記述がありますので、Monaca バックエンドを使用したアプリのコーディングを始める前に、こちらの内容もご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:93
-#: ../doc/quick_start/cloud_ide/building_app.rst:189
+#: ../doc/quick_start/cloud_ide/building_app.rst:209
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:27
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_starting_project`"
 msgstr ":ref:`cloud_ide_starting_project`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:94
-#: ../doc/quick_start/cloud_ide/building_app.rst:190
+#: ../doc/quick_start/cloud_ide/building_app.rst:210
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:28
 #: ../doc/quick_start/cloud_ide/starting_project.rst:119
 msgid ":ref:`cloud_ide_testing_debugging`"
@@ -962,7 +962,7 @@ msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:96
-#: ../doc/quick_start/cloud_ide/building_app.rst:192
+#: ../doc/quick_start/cloud_ide/building_app.rst:212
 #: ../doc/quick_start/cloud_ide/starting_project.rst:122
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:123
 msgid ":ref:`cloud_ide_publishing_app`"
@@ -1000,43 +1000,43 @@ msgid ""
 "Each number should be in [0-99]."
 msgstr "バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] の範囲にします。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:61
+#: ../doc/quick_start/cloud_ide/building_app.rst:64
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Config --> iOS Build "
 "Settings...`."
 msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> iOS ビルド設定...` を選択します。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:84
+#: ../doc/quick_start/cloud_ide/building_app.rst:95
 msgid ""
 "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App "
 "for iOS`."
 msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`ビルド --> iOS アプリのビルド` を選択します。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:86
+#: ../doc/quick_start/cloud_ide/building_app.rst:97
 msgid ""
 "Select appropriate type of build you want (in this case debug build) and "
 "click :guilabel:`Next` button."
 msgstr "適当なビルドの種類を選択して ( この場合、デバッグビルド )、 :guilabel:`次に` ボタンをクリックします。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:91
+#: ../doc/quick_start/cloud_ide/building_app.rst:105
 msgid ""
 "Upload an appropriate provisioning profile (in this case your development "
 "provisioning profile) and click :guilabel:`Next` button."
 msgstr "適当なプロビジョニング プロファイルをアップロードして ( この場合、開発用 プロビジョニング プロファイル )、 :guilabel:`次に` ボタンをクリックします。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:119
+#: ../doc/quick_start/cloud_ide/building_app.rst:139
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Android App "
 "Settings...`"
 msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Android アプリ設定...` を選択します。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:141
+#: ../doc/quick_start/cloud_ide/building_app.rst:161
 msgid ""
 "Go to :guilabel:`Config` then :guilabel:`Android KeyStore Settings...` from "
 "Monaca Cloud IDE menu as shown below:"
 msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`設定` を選択して、次に、 :guilabel:`Android キーストア設定...` を選択します。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:143
+#: ../doc/quick_start/cloud_ide/building_app.rst:163
 #: ../doc/quick_start/localkit/building_app.rst:151
 msgid ""
 "Now, you will need to generate a new KeyStore if you haven't created one "
@@ -1046,17 +1046,17 @@ msgid ""
 "will appear:"
 msgstr "これまでにキーストアを作成したことがない場合、キーストアを新規に作成します。新規作成の他にも、既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアを新規に作成することを前提として解説します。 :guilabel:`初期化して作成 ...` ボタンをクリックして、「 エイリアスの追加 」 ダイアログを表示させます。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:162
+#: ../doc/quick_start/cloud_ide/building_app.rst:182
 msgid ""
 "From the Monaca Cloud IDE menu, select :guilabel:`Build` then choose "
 ":guilabel:`Build App for Android`."
 msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`ビルド` を選択して、次に、 :guilabel:`Android アプリのビルド` を選択します。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:164
+#: ../doc/quick_start/cloud_ide/building_app.rst:184
 msgid "Select Debug Build option and click :guilabel:`Next` button."
 msgstr "デバッグビルドのオプションを選択して、 :guilabel:`次へ` ボタンをクリックします。"
 
-#: ../doc/quick_start/cloud_ide/building_app.rst:191
+#: ../doc/quick_start/cloud_ide/building_app.rst:211
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:29
 #: ../doc/quick_start/cloud_ide/starting_project.rst:120
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
