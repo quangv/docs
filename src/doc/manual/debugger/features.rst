@@ -4,11 +4,6 @@
 Functionalities
 ================================================
 
-.. rst-class:: right-menu
-
-
-
-
 .. _debugger_functions:
 
 Debugger Functions
@@ -16,17 +11,11 @@ Debugger Functions
 
 Monaca Debugger provides useful functions for testing/debugging your apps. You can find Debugger Functions button when you run a project in Monaca Debugger. When you click on Debugger Functions button, you will see:
 
-- Back button
-
-- Reload button
-
-- :ref:`Screenshot button <screenshot>`
-
-- :ref:`Chat button <chat>`
-
-- :ref:`App Log button <app_log>`
-
-- :ref:`Inspector button <debugger_inspector>`
+  - Back button
+  - Reload button
+  - :ref:`Screenshot button <screenshot>`
+  - :ref:`App Log button <app_log>`
+  - :ref:`Inspector button <debugger_inspector>`
 
 
   .. figure:: images/features/1.png
@@ -50,39 +39,15 @@ While running your project on Monaca Debugger, you may want to send any specific
 
 In the screenshot screen, you can:
 
-- edit the screenshot.
-
-- upload to Cloud IDE.
-
-- save to phone storage.
+  - edit the screenshot.
+  - upload to Cloud IDE.
+  - save to phone storage.
   
   .. figure:: images/features/4.png
     :width: 250px
     :align: left
 
   .. rst-class:: clear
-
-.. _chat:
-
-Chat
-^^^^^^^^^^^^^^^^^^^^
-
-Chat function allows you to share conversations with your team members of a shared project or between Monaca Debugger and Cloud IDE. The screenshot below shows a conversation between Monaca Debugger and Cloud IDE.
-
-  .. figure:: images/features/5.png
-     :width: 250px
-     :align: left
-
-     Monaca Debugger
-
-  .. figure:: images/features/6.png
-     :width: 241px
-     :align: left
-
-     Monaca Cloud IDE
-
-  .. rst-class:: clear
-
 
 .. _app_log:
 

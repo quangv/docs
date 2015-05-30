@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-06 04:13+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-05-30 09:42+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -519,7 +519,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
-#: ../doc/quick_start/cloud_ide/starting_project.rst:117
+#: ../doc/quick_start/cloud_ide/starting_project.rst:123
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
 #: ../doc/quick_start/localkit/building_app.rst:230
 #: ../doc/quick_start/localkit/publishing_app.rst:26
@@ -638,7 +638,7 @@ msgid "Part 1: Starting a Project"
 msgstr "パート 1 : プロジェクトの作成"
 
 #: ../doc/quick_start/cli/starting_project.rst:12
-#: ../doc/quick_start/cloud_ide/starting_project.rst:13
+#: ../doc/quick_start/cloud_ide/starting_project.rst:9
 #: ../doc/quick_start/monaca_vs/starting_project.rst:11
 msgid "Step 1: Logging into Monaca"
 msgstr "ステップ 1 : Monaca へのログイン"
@@ -655,7 +655,7 @@ msgid ""
 msgstr "次に、Monaca アカウントで使用している電子メールとパスワードを入力します。"
 
 #: ../doc/quick_start/cli/starting_project.rst:31
-#: ../doc/quick_start/cloud_ide/starting_project.rst:26
+#: ../doc/quick_start/cloud_ide/starting_project.rst:22
 #: ../doc/quick_start/localkit/starting_project.rst:29
 msgid "Step 2: Creating a New Project"
 msgstr "ステップ 2 : プロジェクトの新規作成"
@@ -943,26 +943,26 @@ msgstr ":ref:`cloud_ide_starting_project`"
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:94
 #: ../doc/quick_start/cloud_ide/building_app.rst:225
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:28
-#: ../doc/quick_start/cloud_ide/starting_project.rst:119
+#: ../doc/quick_start/cloud_ide/starting_project.rst:125
 msgid ":ref:`cloud_ide_testing_debugging`"
 msgstr ":ref:`cloud_ide_testing_debugging`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:95
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:30
-#: ../doc/quick_start/cloud_ide/starting_project.rst:121
+#: ../doc/quick_start/cloud_ide/starting_project.rst:127
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:122
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:96
 #: ../doc/quick_start/cloud_ide/building_app.rst:227
-#: ../doc/quick_start/cloud_ide/starting_project.rst:122
+#: ../doc/quick_start/cloud_ide/starting_project.rst:128
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:123
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ":ref:`cloud_ide_publishing_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:97
-#: ../doc/quick_start/cloud_ide/starting_project.rst:123
+#: ../doc/quick_start/cloud_ide/starting_project.rst:129
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:124
 msgid ":ref:`sample_apps_index`"
 msgstr ":ref:`sample_apps_index`"
@@ -1051,7 +1051,7 @@ msgstr "デバッグビルドのオプションを選択して、 :guilabel:`次
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:226
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:29
-#: ../doc/quick_start/cloud_ide/starting_project.rst:120
+#: ../doc/quick_start/cloud_ide/starting_project.rst:126
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ":ref:`cloud_ide_adding_backend`"
@@ -1084,57 +1084,77 @@ msgstr "スマートデバイス ( 任意、iOS または Android 端末 )。端
 msgid "Part 5: Publishing Monaca App"
 msgstr "パート 5 : Monaca アプリの配布申請"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:15
+#: ../doc/quick_start/cloud_ide/starting_project.rst:11
 msgid "Login to `Monaca <https://monaca.mobi/en/login>`_."
 msgstr "`Monaca <https://monaca.mobi/en/login>`_ にログインします。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:17
+#: ../doc/quick_start/cloud_ide/starting_project.rst:13
 #: ../doc/quick_start/monaca_vs/starting_project.rst:17
 msgid "Input your Monaca account information."
 msgstr "Monaca アカウント情報を入力します。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:28
+#: ../doc/quick_start/cloud_ide/starting_project.rst:24
 msgid ""
 "After a successful sign in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
 msgstr "サインイン後、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:30
+#: ../doc/quick_start/cloud_ide/starting_project.rst:26
 msgid ""
-"From Monaca Dashboard, click on :guilabel:`New Project` to create a new "
-"Monaca project."
-msgstr "Monaca プロジェクトを新規作成するためには、Monaca のダッシュボード上で、 :guilabel:`新規プロジェクト` をクリックします。"
+"From Monaca Dashboard, click on :guilabel:`Create Project` or "
+":guilabel:`Import Project` to create a new Monaca project."
+msgstr ""
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:38
+#: ../doc/quick_start/cloud_ide/starting_project.rst:34
 msgid ""
-"Choose a project template. In this tutorial, we will select "
-":ref:`memo_application` template using `jQuery Mobile "
-"<http://jquerymobile.com/>`_ with local storage."
-msgstr "プロジェクトのテンプレートを選択します。このチュートリアルでは、:ref:`memo_application` のテンプレート (  `jQuery Mobile <http://jquerymobile.com/>`_ と LocalStorage を使用 ) を選択します。"
+"If you choose :guilabel:`Create Project`, you will be able to create a new "
+"Monaca project based on various templates. On the other hand, if you choose "
+":guilabel:`Import Project`, you will be able to create a new Monaca project "
+"by importing an existing project in 3 ways such as filling in the project's "
+"url, uploading the project package or selecting your existing Github "
+"repository. Please refer to :ref:`version_control` on how to set up Github "
+"integration with Monaca."
+msgstr ""
+
+#: ../doc/quick_start/cloud_ide/starting_project.rst:40
+msgid "Create Project Dialog"
+msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:46
+msgid "Import Project Dialog"
+msgstr ""
+
+#: ../doc/quick_start/cloud_ide/starting_project.rst:50
+msgid ""
+"In this tutorial, we will choose :guilabel:`Create Project` option. In the "
+"Create Project dialog, select :guilabel:`Sample Applications` and choose "
+"``jQuery TODO App`` template by clicking on its :guilabel:`Create New` "
+"button."
+msgstr ""
+
+#: ../doc/quick_start/cloud_ide/starting_project.rst:58
 msgid ""
 "Fill in the project's information and click on :guilabel:`Make Project` "
 "button."
 msgstr "プロジェクト情報を入力して、:guilabel:`プロジェクトを作成する` ボタンをクリックします。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:54
+#: ../doc/quick_start/cloud_ide/starting_project.rst:66
 msgid ""
 "Then, you will see your newly created project listed under the "
 ":guilabel:`Online` tab."
 msgstr ":guilabel:`オンライン` タブ上に、新規作成したプロジェクトが表示されます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:64
+#: ../doc/quick_start/cloud_ide/starting_project.rst:70
 msgid "Step 3: Previewing a Project"
 msgstr "ステップ 3 : プロジェクトのプレビュー"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:65
+#: ../doc/quick_start/cloud_ide/starting_project.rst:71
 msgid ""
 "Monaca Cloud IDE allows you to preview your project through a Preview window"
 " without any real devices."
 msgstr "端末を使用しなくても、「 プレビューウィンドウ 」 を使用すれば、Monaca クラウド IDE 上で、プロジェクトをプレビューできます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:67
+#: ../doc/quick_start/cloud_ide/starting_project.rst:73
 msgid ""
 "Some functionalities of applications might not be properly previewed because"
 " the Preview window has several limitations such as Ajax requests, Cordova "
@@ -1142,38 +1162,38 @@ msgid ""
 " limitation of Live Preview <preview_tab>`."
 msgstr "プレビューウィンドウを使用して、実際に検証できる機能には、制限があります。制限としては、たとえば、使用できる Cordova API の種類、Ajax リクエストなどがあります。詳細は、 :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:70
+#: ../doc/quick_start/cloud_ide/starting_project.rst:76
 msgid ""
 "From the Monaca Dashboard, open the project. Then, Monaca Cloud IDE will be "
 "open. You can find the Preview window on the right panel of the IDE."
 msgstr "Monaca ダッシュボード上でプロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE が起動します。Monaca クラウド IDE の右側に、プレビューウィンドウが表示されます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:78
+#: ../doc/quick_start/cloud_ide/starting_project.rst:84
 msgid "Try adding/deleting the memo in the Preview window."
 msgstr "プレビューウィンドウ上で、メモを追加・削除して、アプリの動作を確認してみましょう。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:86
+#: ../doc/quick_start/cloud_ide/starting_project.rst:92
 msgid ""
 "By default, when you open a project in Monaca Cloud IDE, the Preview window "
 "is enabled automatically. However, for some reasons, if you want to disable "
 "it when the IDE is open, open the project in safe mode as shown below:"
 msgstr "デフォルトでは、Monaca クラウド IDE のダッシュボード上でプロジェクトを開けば、プレビューウィンドウも自動的に開きます。なんらかの理由で、IDE の起動時にプレビューウィンドウを開きたくない場合には、下のスクリーンショットのように、セーフモードでプロジェクトを開くこともできます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:98
+#: ../doc/quick_start/cloud_ide/starting_project.rst:104
 msgid "Step 4: Editing your Project"
 msgstr "ステップ 4 : プロジェクトの編集"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:100
+#: ../doc/quick_start/cloud_ide/starting_project.rst:106
 msgid "All editable files are listed under ``www`` folder."
 msgstr "編集の対象は、``www`` 下のファイルのみです。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:102
+#: ../doc/quick_start/cloud_ide/starting_project.rst:108
 msgid ""
 "From the File Tree panel, choose a file to edit. Let's make some changes in "
 ":file:`index.html` file in the code editor."
 msgstr "左側のプロジェクトツリー画面から、編集対象のファイルを選択します。ここでは、コードエディター ( 画面中央の領域 ) を使用して、:file:`index.html` ファイルの内容を変更してみます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:104
+#: ../doc/quick_start/cloud_ide/starting_project.rst:110
 msgid ""
 "Save the changes, then you will be able to see the updates constantly in the"
 " Preview window. Feel free to edit the project as you wish. For more "
@@ -1181,7 +1201,7 @@ msgid ""
 "about Memo Application <memo_application>`."
 msgstr "変更の保存後、プレビューウィンドウ上でも変更箇所が反映されていることを確認しましょう。また、他の箇所も変更・保存して、更新されているか確認してみましょう。なお、今回使用したテンプレートの詳細は、:ref:`こちら <memo_application>` をご確認ください。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:113
+#: ../doc/quick_start/cloud_ide/starting_project.rst:119
 msgid ""
 "For more information regarding the code editor in Monaca Cloud IDE, please "
 "refer to :ref:`code_editor`."
