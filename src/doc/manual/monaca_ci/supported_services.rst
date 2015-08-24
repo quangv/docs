@@ -81,7 +81,7 @@ You may need to use the following parameters in the recipe script.
 |                      |   - ``1`` to not allow users to download the version                             |                                 |
 |                      |   - ``2`` to make the version available for download                             |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
-|``tags``              | [Optional] restrict download to comma-separated list of tags                     |                                 | 
+|``tags``              | [Optional] restrict download to comma-separated list of tags                     |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 | ``teams``            | [Optional] restrict download to comma-separated list of team IDs. For example:   |                                 |
 |                      |                                                                                  |                                 |
@@ -113,8 +113,55 @@ Test Flight
 Appetize.io
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+`Appetize.io <https://appetize.io/>`_ is alson a beta-app distribution platform. For more information, please refer to `Appetize.io documentation <https://appetize.io/docs>`_.
 
+Parameters
+--------------------
 
+You may need to use the following parameters in the recipe script.
+
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+| Param                   | Description                                                                   | Remark                          |
++=========================+===============================================================================+=================================+
+|``url``                  | (string) a publicly accessible link to your ``.zip``, ``.tar.gz``, or ``.apk``|                                 |
+|                         | file.                                                                         |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``platform``             | (string) valid values are: ``ios`` or ``android``.                            | Automatically populated.        |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+| ``file``                | specify a file location on the local filesystem, rather than using the field  | Automatically populated.        |
+|                         | url. All other field names are identical. To delete a field, set it to an     |                                 |
+|                         | empty string.                                                                 |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``fileType``             | [Optional](string) the type of file that the url points to. Valid values are  |                                 |
+|                         | ``zip``, ``tar.gz`` or ``apk``. Default values is ``zip`` for ios and ``apk`` |                                 |
+|                         | for android.                                                                  |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+| ``timeout``             | [Optional](number) the number of seconds to wait until automatically ending   |                                 |
+|                         | the session due to user inactivity. Valid values are: ``30``, ``60``, ``90``, |                                 |
+|                         | ``120``,``180``, ``300`` or ``600``. Default value is ``120``.                |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``disableHome``          | [Optional](boolean) disables the home button on the iOS simulator.            |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``disabled``             | [Optional](boolean) disables streaming for this app.                          |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``protectedByAccount``   | [Optional](boolean) allows only logged-in users with the same account to      |                                 |
+|                         | stream the app.                                                               |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``useLastFrame``         | [Optional](boolean) show the last image on the screen in the simulator after  |                                 |
+|                         | session ends.                                                                 |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``buttonText``           | [Optional](string) customize the message prompting the user to start the      |                                 |
+|                         | session. The default value is ``"Tap to play"``.                              |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``postSessionButtonText``| [Optional](string) customize the message prompting the user to restart the    |                                 |
+|                         | session. The default value is ``"Tap to play"``.                              |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``launchUrl``            | [Optional](string) specify a deep link to bring your users to a specific      |                                 |
+|                         | location when your app is launched.                                           |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
+|``note``                 | [Optional](string) a note for your own purposes which will appear on your     |                                 |
+|                         | management dashboard.                                                         |                                 |
++-------------------------+-------------------------------------------------------------------------------+---------------------------------+
 
 .. seealso::
 
@@ -122,4 +169,3 @@ Appetize.io
 
   - :ref:`monaca_ci_overview`
   - :ref:`json_sample`
-  - :ref:`troubleshooting`
