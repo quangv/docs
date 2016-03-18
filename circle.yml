@@ -1,0 +1,31 @@
+general:
+  branches:
+    only:
+      - master
+      - production
+machine:
+  node:
+    version: 4.2.2
+  python:
+    version: 2.7.6
+checkout:
+  post:
+    - git submodule sync
+dependencies:
+  override:
+    - pip install sphinx
+    - npm install
+    - npm rebuild node-sass
+deployment:
+  staging:
+    branch: master
+    commands:
+      - export S3_BUCKET="s.docs.monaca.io"
+      - ./node_modules/.bin/gulp generate
+      - ./node_modules/.bin/gulp deploy
+  production:
+    branch: production
+    commands:
+      - export S3_BUCKET="docs.monaca.io"
+      - ./node_modules/.bin/gulp generate
+      - ./node_modules/.bin/gulp deploy

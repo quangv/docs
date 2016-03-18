@@ -15,6 +15,8 @@ var config = (fs.existsSync("./config.json")) ? JSON.parse(fs.readFileSync("./co
 var exec = require('child-process-promise').exec;
 var sass = require('gulp-sass');
 var bourbon = require('node-bourbon');
+var awspublish = require('gulp-awspublish');
+var parallelize = require("concurrent-transform");
 
 bourbon.with('./src/web/static/css/common.scss');
 
@@ -60,11 +62,14 @@ gulp.task('build-json-en', function(done) {
 gulp.task('build-json-ja', function(done) {
   exec('sphinx-build -D language=ja -A lang=ja -b json src/doc build/json/ja')
     .then(function(result) {
-      gutil.log("build-json-ja complete.")
-      gutil.log(result.stderr)
+      gutil.log("build-json-ja complete.");
+      gutil.log(result.stderr);
+      gutil.log("Cleaning compiled .mo files.");
+
       gulp.src("src/locale/*/LC_MESSAGES/*.mo", { read: false })
         .pipe(clean())
-        .on('end', function() {
+        .on('finish', function() {
+          gutil.log("Done!");
           done();
         })
     })
@@ -82,11 +87,13 @@ gulp.task('build-pot', function(done) {
   exec('sphinx-build -b gettext src/doc src/locale')
     .then(function(result) {
       gutil.log(result.stderr);
+      gutil.log("Removing POT Creation Date")
       gulp.src('src/locale/*.pot')
         // Remove POT-Creation-Date from pot files.
         .pipe(replace(/"POT-Creation-Date.+"\n/, ''))
         .pipe(gulp.dest('src/locale/'))
         .on('end', function() {
+          gutil.log("Done!")
           done();
         })
     })
@@ -204,51 +211,22 @@ gulp.task('serve', ['metalsmith'], function() {
 //////////////////////////////
 // deploy
 //////////////////////////////
-gulp.task('deploy', ['clean', 'generate'], function() {
-  var aws,
-    fn = 'aws_' + lang + (env == 'production' ? '_prod' : '') + '.json';
+gulp.task('deploy', function() {
+  var publisher = awspublish.create({
+    params: {
+      Bucket: process.env.S3_BUCKET
+    },
+    accessKeyId: process.env.AWS_KEY,
+    secretAccessKey: process.env.AWS_SECRET
+  });
+ 
+  // define custom headers 
+  var headers = {
+    'Cache-Control': 'max-age=7200, no-transform, public'
+  };
 
-  try {
-    aws = JSON.parse(fs.readFileSync(path.join(__dirname, fn)));
-  } catch(e) {
-  }
-
-  if (!aws) {
-    throw new Error(fn + ' is missing! Please create it before trying to deploy!');
-  }
-
-  var dst = 'out_' + lang;
-  var publisher = $.awspublish.create(aws);
-
-  var site = gulp.src([
-    dst + '/**',
-    '!' + dst + '/OnsenUI',
-    '!' + dst + '/2/OnsenUI',
-    '!' + dst + '/project-templates'
-  ]);
-
-  var templates = gulp.src('project-templates/gen/**')
-    .pipe($.rename(function(path) {
-      path.dirname = 'project-templates/gen/' + path.dirname;
-    }));
-
-  var build = gulp.src('OnsenUI/build/**')
-    .pipe($.rename(function(path) {
-      path.dirname = 'OnsenUI/build/' + path.dirname;
-    }));
-
-  var build2 = gulp.src('2/OnsenUI/build/**')
-    .pipe($.rename(function(path) {
-      path.dirname = '2/OnsenUI/build/' + path.dirname;
-    }));
-
-  var headers = env == 'production' ? {'Cache-Control': 'max-age=7200, no-transform, public'} : {'Cache-Control': 'no-cache'};
-
-  var stream = merge(site, templates, build, build2)
-    .pipe($.awspublish.gzip())
-    .pipe(publisher.publish(headers))
+  return gulp.src('build/web/**/*')
+    .pipe(parallelize(publisher.publish(headers), 10))
     .pipe(publisher.sync())
-    .pipe($.awspublish.reporter());
-
-  return stream;
+    .pipe(awspublish.reporter());
 });
