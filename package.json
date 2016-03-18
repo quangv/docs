@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Source codes for Monaca Document (http://docs.monaca.mobi)",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.2.1",
+    "chalk": "^1.1.1",
     "cheerio": "^0.20.0",
     "child-process-promise": "^1.1.0",
     "concurrent-transform": "^1.0.0",
+    "debug": "^2.2.0",
     "eco": "^1.0.3",
     "grunt": "^0.4.5",
     "gulp": "^3.8.10",
@@ -21,15 +23,18 @@
     "gulp-util": "^3.0.7",
     "handlebars": "^4.0.5",
     "handlebars-helpers": "^0.5.8",
+    "lodash": "^4.6.1",
     "merge-stream": "^1.0.0",
     "metalsmith": "^1.0.1",
     "metalsmith-layouts": "^1.6.4",
     "metalsmith-register-helpers": "^0.1.2",
     "metalsmith-static": "0.0.5",
+    "minimatch": "^3.0.0",
     "node-bourbon": "^4.2.3",
     "run-sequence": "^1.1.5",
     "shell": "^0.3.2",
-    "sprintf": "^0.1.5"
+    "sprintf": "^0.1.5",
+    "through2": "^2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
