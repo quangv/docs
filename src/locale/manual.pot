@@ -490,7 +490,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_ide/editor.rst:61
 #: ../doc/manual/development/monaca_ide/type_script.rst:313
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:53
-#: ../doc/manual/development/monaca_localkit/overview.rst:207
+#: ../doc/manual/development/monaca_localkit/overview.rst:203
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:73
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:66
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
@@ -2039,7 +2039,7 @@ msgid "Building for iOS"
 msgstr ""
 
 #: ../doc/manual/debugger/debug.rst:5
-#: ../doc/manual/development/monaca_localkit/overview.rst:55
+#: ../doc/manual/development/monaca_localkit/overview.rst:51
 msgid "Usage"
 msgstr ""
 
@@ -4984,7 +4984,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_cli/build_publish.rst:54
 #: ../doc/manual/development/monaca_cli/overview.rst:127
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:57
-#: ../doc/manual/development/monaca_localkit/overview.rst:210
+#: ../doc/manual/development/monaca_localkit/overview.rst:206
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:70
 #: ../doc/manual/development/monaca_vs/build_publish.rst:53
 #: ../doc/manual/development/monaca_vs/overview.rst:267
@@ -5667,7 +5667,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/overview.rst:128
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:99
-#: ../doc/manual/development/monaca_localkit/overview.rst:211
+#: ../doc/manual/development/monaca_localkit/overview.rst:207
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:77
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:71
 #: ../doc/manual/development/monaca_vs/overview.rst:266
@@ -7397,14 +7397,14 @@ msgid "It selects the whole content of the child element insides the element whi
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:55
-#: ../doc/manual/development/monaca_localkit/overview.rst:209
+#: ../doc/manual/development/monaca_localkit/overview.rst:205
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:75
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:68
 msgid ":doc:`../../../quick_start/localkit/index`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:58
-#: ../doc/manual/development/monaca_localkit/overview.rst:212
+#: ../doc/manual/development/monaca_localkit/overview.rst:208
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:78
 msgid ":doc:`troubleshooting`"
 msgstr ""
@@ -7450,205 +7450,205 @@ msgid "You are required to have a valid plan in order to use Monaca Localkit. Ot
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:31
-msgid "<<<<<<< HEAD:src/doc/manual/development/monaca_localkit/overview.rst .. warning:: Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet. ======= .. note:: Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet. >>>>>>> origin/master:source/manual/development/monaca_localkit/overview.rst"
+msgid "Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:38
+#: ../doc/manual/development/monaca_localkit/overview.rst:34
 msgid "Installation and Setup"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:40
+#: ../doc/manual/development/monaca_localkit/overview.rst:36
 msgid "Before getting started, you need to install Monaca Localkit on the computer and :ref:`monaca_debugger_index` on the device(s)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:50
+#: ../doc/manual/development/monaca_localkit/overview.rst:46
 msgid "Download the latest version of Monaca Localkit `here <https://monaca.io/localkit.html>`_. Please refer to `GitHub release page <https://github.com/monaca/Localkit/releases>`_ for change logs."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:51
+#: ../doc/manual/development/monaca_localkit/overview.rst:47
 msgid "Install Monaca Debugger as described in :ref:`Debugger Installation<debugger_installation_index>`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:58
+#: ../doc/manual/development/monaca_localkit/overview.rst:54
 msgid "Starting Monaca Localkit"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:60
+#: ../doc/manual/development/monaca_localkit/overview.rst:56
 msgid "Open Monaca Localkit and then sign in using Monaca account."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:66
+#: ../doc/manual/development/monaca_localkit/overview.rst:62
 msgid "After a successful login, Monaca Localkit dashboard will appear."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:76
+#: ../doc/manual/development/monaca_localkit/overview.rst:72
 msgid "Creating a New Project"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:78
+#: ../doc/manual/development/monaca_localkit/overview.rst:74
 msgid "You can create a new project based on templates provided by Monaca."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:80
+#: ../doc/manual/development/monaca_localkit/overview.rst:76
 msgid "From Monaca Localkit dashboard, click on :guilabel:`+` button. Then, click :guilabel:`Create` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:86
+#: ../doc/manual/development/monaca_localkit/overview.rst:82
 msgid "Fill in the necessary information such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:88
-#: ../doc/manual/development/monaca_localkit/overview.rst:135
+#: ../doc/manual/development/monaca_localkit/overview.rst:84
+#: ../doc/manual/development/monaca_localkit/overview.rst:131
 msgid "Project Name: create a name to represent your new project which will be shown in the project list."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:89
-#: ../doc/manual/development/monaca_localkit/overview.rst:126
-#: ../doc/manual/development/monaca_localkit/overview.rst:134
+#: ../doc/manual/development/monaca_localkit/overview.rst:85
+#: ../doc/manual/development/monaca_localkit/overview.rst:122
+#: ../doc/manual/development/monaca_localkit/overview.rst:130
 msgid "Working Directory: specify a directory where you want to keep your project files."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:90
+#: ../doc/manual/development/monaca_localkit/overview.rst:86
 msgid "Select Template: choose a template for your new project. Please use :guilabel:`Preview` button to see how each template looks like."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:96
+#: ../doc/manual/development/monaca_localkit/overview.rst:92
 msgid "If the project is created successfully, the new project will be shown in the project list."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:102
+#: ../doc/manual/development/monaca_localkit/overview.rst:98
 msgid "Importing a Project"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:104
+#: ../doc/manual/development/monaca_localkit/overview.rst:100
 msgid "There are two types of projects you can import into Monaca Localkit:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:106
+#: ../doc/manual/development/monaca_localkit/overview.rst:102
 msgid "From Cloud IDE: projects you have in your Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:108
+#: ../doc/manual/development/monaca_localkit/overview.rst:104
 msgid "From Local Cordova Project: Cordova projects you have on your PC. There some limitations while importing Cordova projects such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:110
+#: ../doc/manual/development/monaca_localkit/overview.rst:106
 msgid "App icons and splash images may not be imported. They can be configured on Build Config screen."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:111
+#: ../doc/manual/development/monaca_localkit/overview.rst:107
 msgid "The scripts in hooks directory are ignored."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:112
+#: ../doc/manual/development/monaca_localkit/overview.rst:108
 msgid "Platform specific codes including Cordova are not imported. Monaca will use its own Cordova and surrounded libraries."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:115
+#: ../doc/manual/development/monaca_localkit/overview.rst:111
 msgid "In order to import a project into Monaca Localkit, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:117
+#: ../doc/manual/development/monaca_localkit/overview.rst:113
 msgid "From Monaca Localkit dashboard, click on :guilabel:`+` button on the top right corner of the left panel. Then, click :guilabel:`Import` button. Then, choose which option you want to import Monaca project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:123
+#: ../doc/manual/development/monaca_localkit/overview.rst:119
 msgid "If you choose :guilabel:`From Cloud IDE` option, fill in the necessary information such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:125
+#: ../doc/manual/development/monaca_localkit/overview.rst:121
 msgid "Select Project: select a project from a list of all projects you have in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:132
+#: ../doc/manual/development/monaca_localkit/overview.rst:128
 msgid "On the other hand, if you choose :guilabel:`From Local Cordova Project` option, fill in the necessary information such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:141
+#: ../doc/manual/development/monaca_localkit/overview.rst:137
 msgid "After that, the new project will be shown in the project list."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:146
+#: ../doc/manual/development/monaca_localkit/overview.rst:142
 msgid "Adding Editor Program for Local Projects"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:148
+#: ../doc/manual/development/monaca_localkit/overview.rst:144
 msgid "Monaca Localkit provides an \"Open in\" feature which is used to open your local project files in different ways such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:150
+#: ../doc/manual/development/monaca_localkit/overview.rst:146
 msgid "Finder/File Explorer: This will reveal the selected project's folder in Finder (for Mac) or File Explorer (for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:151
+#: ../doc/manual/development/monaca_localkit/overview.rst:147
 msgid "Terminal/Command Prompt: This will open the selected project's folder in Terminal (for Mac) or Command Prompt for (Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:152
+#: ../doc/manual/development/monaca_localkit/overview.rst:148
 msgid "Other editor programs: You can also add any preferred editors to open your local project files from Monaca Localkit."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:154
+#: ../doc/manual/development/monaca_localkit/overview.rst:150
 msgid "In order to add an editor program to Monaca Localkit, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:156
+#: ../doc/manual/development/monaca_localkit/overview.rst:152
 msgid "In Monaca Localkit, select a project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:158
+#: ../doc/manual/development/monaca_localkit/overview.rst:154
 msgid "Click :guilabel:`Open in...` button and select :guilabel:`Add More Program...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:164
+#: ../doc/manual/development/monaca_localkit/overview.rst:160
 msgid "Then, Add Editor Application dialog will appear. Fill in the necessary information related to the editor program such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:166
+#: ../doc/manual/development/monaca_localkit/overview.rst:162
 msgid "Application Path: browse the editor execution file (``.app`` file for Mac or ``.exe`` file for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:167
+#: ../doc/manual/development/monaca_localkit/overview.rst:163
 msgid "Application Name: name the selected editor program. It will be shown in the list of programs when you click :guilabel:`Open in...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:168
+#: ../doc/manual/development/monaca_localkit/overview.rst:164
 msgid "Command-line Arguments: [optional] applicable arguments for the selected editor program."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:174
+#: ../doc/manual/development/monaca_localkit/overview.rst:170
 msgid "Click :guilabel:`OK`. Now, the new editor program should appear in the \"Open in\" list as shown below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:183
+#: ../doc/manual/development/monaca_localkit/overview.rst:179
 msgid "Preference Dialog"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:185
+#: ../doc/manual/development/monaca_localkit/overview.rst:181
 msgid "From Monaca Localkit menu, go to :guilabel:`Preferences` (for Mac) or go to :menuselection:`File --> Preferences` (for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:191
+#: ../doc/manual/development/monaca_localkit/overview.rst:187
 msgid "In this Preferences dialog, you can do the following settings:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:193
+#: ../doc/manual/development/monaca_localkit/overview.rst:189
 msgid "Working Directory: specify a default location to store your local projects."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:194
+#: ../doc/manual/development/monaca_localkit/overview.rst:190
 msgid "Listening Port: specify a port number to be used when pairing Monaca Localkit with Monaca Debugger."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:195
+#: ../doc/manual/development/monaca_localkit/overview.rst:191
 msgid "Proxy Server: specify a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:196
+#: ../doc/manual/development/monaca_localkit/overview.rst:192
 msgid "Log Output: specify where you want to store a log file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:202
+#: ../doc/manual/development/monaca_localkit/overview.rst:198
 msgid "Save the settings."
 msgstr ""
 
