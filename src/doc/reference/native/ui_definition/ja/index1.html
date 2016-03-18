@@ -1,0 +1,66 @@
+{
+      "top" : {
+          "container" : "toolbar",
+          "style" : {
+              "title" : "ツールバーのタイトル"
+          },
+          "left": [
+              {
+                  "component": "button",
+                  "style": {
+                          "text": "ボタン１"
+                  },
+                  "event": {
+                      "onTap": "alert('ボタン1');"
+                  },
+                  "id": "button1"
+              }
+          ],
+          "right": [
+              {
+                  "component": "button",
+                  "style": {
+                          "text": "ボタン2"
+                  },
+                  "event": {
+                      "onTap": "alert('ボタン2');"
+                  },
+                  "id": "button2"
+              }
+          ]
+      },
+      "bottom": {
+          "container": "tabbar",
+          "id": "footer",
+          "style": {
+              "visibility": "true"
+          },
+          "items": 
+              [
+                  {
+                      "component": "tabbarItem",
+                      "style": {
+                          "text": "アイテム１",
+                          "image": "icon.png"
+                      },
+                      "link": "index.html"
+                  },
+                  {
+                      "component": "tabbarItem",
+                      "style": {
+                          "text": "アイテム２",
+                          "image": "icon.png"
+                      },
+                      "link": "page2.html"
+                  },
+                  {
+                      "component": "tabbarItem",
+                      "style": {
+                          "text": "アイテム３",
+                          "image": "icon.png"
+                      },
+                      "link": "page3.html"
+                  }
+              ]
+      }
+  }

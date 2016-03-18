@@ -1,0 +1,174 @@
+<div id="indexContents">
+  <ul id="shortcuts" class="box-tri">
+    <li>
+      <a href="/ja/quick_start/"><img src="/static/img/index/img_shortcut_1.png" alt="" /></a>
+      <dt><a href="/ja/quick_start/">Monaca入門</a></dt>
+      <dd>
+        初心者向けのMonacaアプリ開発チュートリアルです。テキストの流れに沿っていくつかの簡単なアプリ開発を体験できます。
+      </dd>
+    </a></li>
+    <li>
+      <a href="/ja/sampleapp/samples/"><img src="/static/img/index/img_shortcut_2.png" alt="" /></a>
+      <dt><a href="/ja/sampleapp/samples/">サンプルアプリ＆テンプレート</a></dt>
+      <dd>
+        サンプルアプリの解説や逆引き集を揃えています。
+      </dd>
+    </li>
+    <li>
+      <a href="/ja/reference/"><img src="/static/img/index/img_shortcut_3.png" alt="" /></a>
+      <dt><a href="/ja/reference/">開発リファレンス</a></dt>
+      <dd>
+        Monacaでの開発をもっと楽にするMonaca APIやPhoneGapプラグインについての説明です。
+      </dd>
+    </li>
+  </ul><!-- /shortcuts -->
+
+
+  <table id="index-local-nav" class="left-menu">
+    <tr>
+      <td><h2>対応環境</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Monaca クラウド IDE</h3>
+        <ul>
+          <li>ブラウザー: 最新版のChrome</li>
+          <li>安定したインターネット環境</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Monaca デバッガー</h3>
+        <ul>
+          <li>iOS 8以上</li>
+          <li>Android 4.0以上</li>
+          <li>Wi-Fi接続を推奨します</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>ビルドアプリ</h3>
+        <ul>
+          <li>iOS 8以上</li>
+          <li>Android 4.0以上</li>
+          <li>Windows 8.1</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Cordova 5.2 ビルド環境</h3>
+        <p>Android</p>
+        <ul>
+          <li>AndroidSDK バージョン: 22</li>
+          <li>Crosswalk バージョン : <a href="http://docs.monaca.mobi/cur/ja/reference/phonegap_5.2/ja/crosswalk/">プラグイン</a>に依存します</li>
+        </ul>
+        <p>iOS</p>
+        <ul>
+          <li>Xcode バージョン : 6.4</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Cordova 4.1 ビルド環境</h3>
+        <p>Android</p>
+        <ul>
+          <li>AndroidSDK バージョン: 21</li>
+          <li>Crosswalk バージョン : 13.42.319.11</li>
+        </ul>
+        <p>iOS</p>
+        <ul>
+          <li>Xcode バージョン : 6.2</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Cordova 3.5 ビルド環境</h3>
+        <p>Android</p>   
+        <ul>
+          <li>AndroidSDK バージョン : 19</li>
+          <li>Crosswalk バージョン : 7.36.154.15</li>
+        </ul>
+        <p>iOS</p>
+        <ul>
+          <li>Xcode バージョン : 6.0.1</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <!-- /index-local-nav -->
+
+  <section class="environment">
+    <table class="more-options">
+      <tr>
+        <td class="leftimg" style="padding-right: 10px;padding-left: 0;">
+          <a href="/ja/manual/"><img src="/static/img/index/img_nav_1.png" alt=""></a>
+        </td>
+        <td>
+          <dl>
+            <dt style="font-weight: boold;"><a href="/ja/manual/" style="font-weight: bold;">マニュアル</a></dt>
+            <dd>チュートリアルより一歩進んだMonacaの取り扱い説明書です。</dd>
+          </dl>
+        </td>
+    
+        <td class="leftimg" style="padding-left: 10px; padding-right: 5px;">
+          <a href="/ja/tips/"><img src="/static/img/index/img_nav_4.png" alt=""></a>
+        </td>
+        <td>
+          <dl>
+            <dt><a href="/ja/sampleapp/tips/" style="font-weight: bold;">Tips</a></dt>
+            <dd>アプリを開発する上でのTipsです。</dd>
+          </dl>
+        </td>
+    
+        <td class="leftimg" style="padding-left: 10px; padding-right: 5px;">
+          <a href="/ja/faq/"><img src="/static/img/index/img_nav_3.png" alt=""></a>
+        </td>
+        <td>
+          <dl>
+            <dt><a href="/ja/faq/" style="font-weight: bold;">FAQ</a></dt>
+            <dd>Monacaに関するよくある質問をFAQとしてまとめました。ご一読下さい。</dd>
+          </dl>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section class="whatsnew">
+    <h2 class="border">更新履歴</h2>
+           <table>
+            </table>
+  </section><!-- /whatsnew -->
+
+
+  <script>
+    $(function() {
+      var lang = $("body").data("lang");
+      var url = "http://monaca.mobi/" + lang + "/api/headline/release?lang=" + lang;
+      $.get(url, function(data) {
+        var data = JSON.parse(data);
+        var n = 0;
+        for (i in data.newsList) {
+          if (n++ > 5) break;
+          var news = data.newsList[i];
+          if (lang == "en") {
+              myDate = moment(news.date, "YYYY-MM-DD");
+              news.date = myDate.format("MMM D");
+          }
+          var tr = "<tr><th style='white-space:nowrap'>" + news.date + "</th><td>" + news.body + "</td></tr>";
+          $(".whatsnew table").append(tr);
+        }
+      });
+    });
+  </script>
+</div>

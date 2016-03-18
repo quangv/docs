@@ -1,0 +1,44 @@
+<!-- Monaca global header -->
+<header class="monaca-global">
+  <div class="container">
+    <p class="logo"><a href="https://{{#is lang "ja"}}ja.{{/is}}monaca.io/"><img src="/static/img/common/header_logo.png" alt="Monaca"></a></p>
+    <nav>
+      <ul>
+        {{#is lang "ja"}}
+          {{> navigation.ja }}
+        {{else}}
+          {{> navigation.en }}
+        {{/is}}
+      </ul> 
+    </nav>
+  </div>
+</header>
+
+<script>
+function switchVersion(switchVersion) {
+  var currentVersion = "{{cordovaVersion.versionPath}}";
+  location.href = location.href.replace(currentVersion, switchVersion);
+}
+</script>
+
+<!-- Docs local header -->
+<header class="global">
+  <div class="headcont">
+    <a href="/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
+    <nav class="global" data-pjax>
+    {{{globaltoc}}}
+    </nav>
+    <p class="version_selector">
+      {{#if cordovaVersions}}
+        {{#is lang "ja"}}Cordovaバージョン: {{else}}Cordova Version: {{/is}}
+        {{#eachProperty cordovaVersions}}
+          {{#if value.selected}}
+            <span class="currentVersion">{{value.versionName}}</span>
+          {{else}}
+            <span class="alternativeVersion"><a href="javascript:void(0)" onclick='switchVersion("{{value.versionPath}}")'>{{value.versionName}}</a></span>
+          {{/if}}
+        {{/eachProperty}}
+      {{/if}}
+    </p>
+  </div>
+</header>

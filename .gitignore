@@ -1,0 +1,8 @@
+/config.json
+/node_modules/
+/build/
+*.DS_Store
+._*
+.doctrees/
+src/web/static/.sass-cache
+themes/monaca/static/.sass-cache

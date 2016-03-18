@@ -1,0 +1,44 @@
+{
+  "name": "monaca-docs",
+  "version": "1.0.0",
+  "description": "Source codes for Monaca Document (http://docs.monaca.mobi)",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.2.1",
+    "cheerio": "^0.20.0",
+    "child-process-promise": "^1.1.0",
+    "eco": "^1.0.3",
+    "grunt": "^0.4.5",
+    "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-prompt": "^0.1.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.5.8",
+    "merge-stream": "^1.0.0",
+    "metalsmith": "^1.0.1",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-register-helpers": "^0.1.2",
+    "metalsmith-static": "0.0.5",
+    "node-bourbon": "^4.2.3",
+    "run-sequence": "^1.1.5",
+    "shell": "^0.3.2",
+    "sprintf": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monaca/monaca-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monaca/monaca-docs/issues"
+  }
+}

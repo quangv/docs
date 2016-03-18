@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.7.0/jquery.pjax.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+  <script src="/static/js/jquery.fancybox.pack.js"></script>
+  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
+  <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
+  <link rel="stylesheet" href="/static/css/common.css?20150406" type="text/css" />
+  <link rel="stylesheet" href="/static/css/highlight.css?20150406" type="text/css" />
+  <link rel="stylesheet" href="/static/css/print.css?20150406" type="text/css" media="print" />
+  <link rel="stylesheet" href="/static/css/spinner.css" type="text/css" />
+
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="/static/js/html5shiv.js"></script>
+  <script type="text/javascript" src="/static/js/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="/static/js/util.js"></script>
+  <script type="text/javascript" src="/static/js/jquery.highlight-4.closure.js"></script>
+  <script type="text/javascript">
+    var LANG = "{{lang}}";
+    var VERSION = "{{VERSION}}";
+  </script>
+  <script type="text/javascript" src="/static/js/main.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-526750-24']);
+    _gaq.push(['_setDomainName', '.monaca.mobi']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+
+<body id="" data-lang="{{lang}}">
+  <a name="top"></a>
+
+  {{> header }}
+
+  <article id="body-container" class="main" data-pjax>
+    {{#if fjson.body}}
+      {{{fjson.body}}}
+    {{else}}
+      {{{contents}}}
+    {{/if}}
+  </article>
+
+  {{#if toctree}}
+    {{> sidebar }}
+  {{/if}}
+
+  <a href="#top" class="scrollup">Scroll</a>
+
+  <footer class="global">
+    <div class="footer-nav">
+      {{#is lang "ja"}}
+        <a href="/en/" id="footer-nav-feedback">English</a>
+      {{else}}
+        <a href="/ja/" id="footer-nav-feedback">日本語版</a>
+      {{/is}}
+      <a href="http://monaca.mobi/page/contact" id="footer-nav-feedback">Feedback</a>
+    </div>
+    <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
+  </footer>
+
+  <script>
+    if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
+      document.body.classList.add("home");
+    }
+
+  </script>
+</body>
+</html>

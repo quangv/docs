@@ -1,0 +1,301 @@
+body {
+  min-width: 1020px;
+  position: relative;
+}
+
+article.main {
+  @include all-box-shadow(-1px,0,1px,rgba(0,0,0,0.05));
+  @include clearfix-after;
+  background-color: #fff;
+  border: none;
+  box-sizing: border-box;
+  color: #444;
+  float: left;
+  margin: 0;
+  padding: 142px 30px 50px 30px;
+  width: calc(100% - 288px);
+
+  > .body {
+    margin-right: 223px;
+  }
+  table.field-list {
+    margin-bottom: 20px;
+    width: 100%;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    border-spacing: 0;
+    border-collapse: separate;
+    tr {
+      th {
+        padding: 3px 1em;
+        white-space: nowrap;
+        border: none;
+      }
+      td {
+        padding: 3px;
+        border: none;
+        width: 100%;
+      }
+    }
+  }
+
+  a:link { text-decoration: none; color: #5d89cb;}
+  a:visited { text-decoration: underline; color: #5d89cb;}
+  a:hover { text-decoration: underline; color: #5d89cb;}
+  a:active { text-decoration: underline; color: #5d89cb;}
+  
+  a.download {
+    display: block;
+    margin: 1em 0;
+    padding: 1em 1em 1em 80px;
+    border: 1px solid #aaa;
+    background: #fff url(../img/common/icon_download.png) 10px center no-repeat;
+    border-radius: 5px;
+    font-size: 110%;
+    font-weight: bold;
+  }
+
+  a.headerlink {
+    display: none;
+  }
+
+  nav.header-nav,
+  nav.header-nav-bottom {
+    font-size: 13px;
+    line-height: 13px;
+    padding-top: 0;
+    margin-bottom: 35px;
+    clear: both;
+    @include clearfix-after;
+    p.prev {
+      float: left;
+      margin-bottom: 0;
+      text-align: left;
+      &:before {
+        content: url(../img/common/icon_triangle_left.png);
+        margin-right: 5px;
+      }
+    }
+    p.next {
+      @extend p.prev;
+      float: right;
+      text-align: right;
+      &:before { content: none; margin-right: 0;}
+      &:after {
+        content: url(../img/common/icon_triangle.png);
+        margin-left: 5px;
+      }
+    }
+  }
+
+  nav.header-nav-bottom {
+    border-top: 1px solid #35527c;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+
+  .breadcrumb {
+    font-size: 13px;
+    margin-right: 223px;
+  }
+
+  table.docutils {
+    width: 100%;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-right: 0;
+    border-left: 0;
+    thead {
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #cccccc;
+    }
+    tr {
+      th,td {
+        border-radius: 2px;
+        background-color: #f9f9f9;
+        padding: 12px 20px 12px 20px;
+        &:first-child {
+          border-left: 1px solid #cccccc;
+        }
+        &:last-child {
+          border-right: 1px solid #cccccc;
+        }
+      }
+      td {
+        border-bottom: 1px solid #cccccc;
+        background-color: #fff;
+        line-height: 20px;
+        &:first-child {
+          border-left: 1px solid #cccccc;
+        }
+        &:last-child {
+          border-right: 1px solid #cccccc;
+        }
+      }
+    }
+  }
+}
+
+div.contents {
+  padding: 1em 0;
+  ul:first-child {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+  }
+  a {
+    color: #444;
+    text-decoration: none;
+    &:hover {
+      color: #3372FF;
+    }
+  }
+  li {
+    background: none;
+    list-style: url(../img/common/icon_triangle_black.png) outside;
+    margin-left: 2em;
+  }
+}
+
+//TOC in main pane
+article.main div.toctree-wrapper {
+  line-height: 30px;
+  &.compact {
+    padding: 0;
+
+    li.toctree-l1 {
+      font-size: 14px;
+    }
+    li.toctree-l2:first-child {
+      margin-top: 0;
+    }
+    li.toctree-l2 {
+      font-size: 15px;
+      margin-left: 3em;
+    }
+    li.toctree-l3 {
+      font-size: 14px;
+      margin-left: 3em;
+    }
+  }
+
+  ul:first-child {
+    padding: 0;
+    margin: 0;
+    line-height: 26px;
+  }
+
+  li {
+    background: none;
+    padding-left: 0;
+    list-style-position: outsinde;
+
+    &.toctree-l1:first-child {
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: bold;
+      padding-top: 40px;
+      margin-bottom: 10px;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.toctree-l1 {
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: bold;
+      padding-top: 10px;
+      margin-bottom: 10px;
+      a {
+        text-decoration: none;
+        color: #35527c;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.toctree-l2:first-child {
+      margin-left: 0px;
+      padding-left: 45px;
+      border-top: 2px solid #35527c;
+      margin-top: 4px;
+      padding-top: 14px;
+      a {
+        text-decoration: none;
+        color: #5d89cb;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.toctree-l2 {
+      font-size: 15px;
+      font-weight: normal;
+      margin-left: 45px;
+      list-style: url(../img/common/icon_triangle_black.png) inside;
+      a {
+        text-decoration: none;
+        color: #5d89cb;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.toctree-l2:last-child {
+      font-size: 15px;
+      font-weight: normal;
+      margin-left: 0px;
+      padding-left: 45px;
+      margin-bottom: 40px;
+      list-style: url(../img/common/icon_triangle_black.png) inside;
+      a {
+        text-decoration: none;
+        color: #5d89cb;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.toctree-l3 {
+      font-size: 14px;
+      font-weight: normal;
+      list-style: url(../img/common/icon_triangle_black.png) inside;
+      a {
+        text-decoration: none;
+        color: #5d89cb;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+a.scrollup {
+  width: 46px;
+  height: 53px;
+  position: fixed;
+  bottom: 90px;
+  right: 12px;
+  display: none;
+  text-indent: -9999px;
+  background: url(../img/common/btn_top.png) no-repeat;
+  background-color: none;
+  &:hover {
+  background: url(../img/common/btn_top_hover.png) no-repeat;
+  }
+  &:active {
+    background: url(../img/common/btn_top_active.png) no-repeat;
+  }
+}

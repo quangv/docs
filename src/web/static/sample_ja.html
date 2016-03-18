@@ -1,0 +1,241 @@
+<section>
+
+    <script type="text/javascript">
+        function GoTo(path) {
+          window.location.href = window.location.origin + path;
+        }
+    </script>
+  
+    <h1>サンプルアプリ & テンプレート</h1>
+
+    <div class="contents local right-menu topic" id="id1">
+        <p class="topic-title first">
+            <cite>Sample &amp; Templates</cite>
+        </p>
+        <ul class="simple">
+            <li><a class="reference internal" href="#1" id="id2">サンプルアプリ</a><ul>
+            <li><a class="reference internal" href="#1" id="id3">Hello World アプリ</a></li>
+            <li><a class="reference internal" href="#1" id="id4">RSS リーダーのサンプル</a></li>
+            <li><a class="reference internal" href="#1" id="id5">メモ帳アプリ</a></li>
+
+            <li><a class="reference internal" href="#2" id="id8">ブロック崩しゲーム</a></li>
+            <li><a class="reference internal" href="#2" id="id13">Twitter クライアント</a></li>
+            <li><a class="reference internal" href="#2" id="id14">Facebook クライアント</a></li>
+
+            <li><a class="reference internal" href="#3" id="id12">バックエンド メモ帳アプリ</a></li>
+            <li><a class="reference internal" href="#3" id="id15">Inmobi クライアント</a></li>
+            <li><a class="reference internal" href="#3" id="id9">Flickr サンプル</a></li>
+
+            <li><a class="reference internal" href="#4" id="id10">TODO 管理アプリ</a></li>
+            <li><a class="reference internal" href="#4" id="id7">電車図鑑アプリ</a></li>
+            <li><a class="reference internal" href="#4" id="id6">時計アプリ</a></li>
+            <li><a class="reference internal" href="#5" id="id25">iBeacon</a></li>
+
+            <li><a class="reference internal" href="#5" id="id11">おみくじ占いアプリ</a></li>
+            <li><a class="reference internal" href="#5" id="id16">誕生年の計算アプリ</a></li>
+            
+            </ul>
+            </li>
+            <li><a class="reference internal" href="#6" id="id19">テンプレート</a><ul>
+            <li><a class="reference internal" href="#6" id="id20">最小限のテンプレート</a></li>
+            <li><a class="reference internal" href="#6" id="id21">Onsen UI 最小限のテンプレート</a></li>
+            <li><a class="reference internal" href="#6" id="id22">Onsen UI スライディングメニュー</a></li>
+
+            <li><a class="reference internal" href="#7" id="id24">Onsen UI ナビ付きタブバー</a></li>
+            </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <p>サンプルアプリをこのページでご紹介します。別ページにて、これらのアプリのソースコードと解説をご提供していますので、ぜひご確認ください。</p>
+
+    <div class="sampleapp">
+
+        <!-- SAMPLE APPS -->
+        <h2 id="1">サンプルアプリ</h2>
+
+        <div class="column-left">
+            <img src="/static/img/samples/helloworld.png" alt="" class="thumb">
+            <div align="center">
+                <h3 id="hello-world-app">Hello World アプリ</h3>
+                <p align="left">PhoneGap を使用したデモアプリです。デバイス側の複数の機能 ( カメラ、連絡帳など ) にアクセスしています。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/hello_world/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/rss.png" alt="" class="thumb">
+            <div align="center">
+                <h3>RSS リーダーのサンプル</h3>
+                <p align="left">jQuery Mobile を使用した、RSS リーダーのサンプルアプリです。</p><br><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/sample_rss_reader/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-right">
+            <img src="/static/img/samples/memo.png" alt="" class="thumb">
+            <div align="center">
+                <h3>メモ帳アプリ</h3>
+                <p align="left">jQuery Mobile と localStorage を使用した、簡単なメモ帳アプリです。</p><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/memo_application/')">解説</button> 
+            </div>
+        </div>
+
+        <hr id="2">
+
+        <div class="column-left">
+            <img src="/static/img/samples/monacanoid.png" alt="" class="thumb">
+            <div align="center">
+                <h3>ブロック崩しゲーム</h3>
+                <p align="left">パドルを操作して、ボールを落とさないように打ち返して、ブロックを崩していくゲームです。</p><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/break_the_bricks/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/twitter.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Twitter クライアント</h3>
+                <p align="left">Twitter のタイムラインを表示するサンプルアプリです。</p><br><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/twitter/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-right">
+            <img src="/static/img/samples/facebook.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Facebook クライアント</h3>
+                <p align="left">Monaca から　Facebook に接続を行い、友達一覧を表示するサンプルアプリです。Onsen UI と InAppBrowser を使用します。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/facebook/')">解説</button> 
+            </div>
+        </div>
+
+        <hr id="3">
+
+        <div class="column-left">
+            <img src="/static/img/samples/backend_memo.png" alt="" class="thumb">
+            <div align="center">
+                <h3>バックエンド メモ帳アプリ</h3>
+                <p align="left">Monaca Backend API を使用したメモ帳アプリを作成できる、サンプルアプリです。</p><br><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/backend_memo/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/inmobi.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Inmobi クライアント</h3>
+                <p align="left">モバイルアド ( 携帯端末への広告配信ネットワーク ) を Monaca に組み込んだアプリです。ここでは、モバイルアドとして、Inmobi を使用します。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/inmobi/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-right">
+            <img src="/static/img/samples/flickr.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Flickr サンプル</h3>
+                <p align="left">Flickr を使用したサンプルアプリです。Flickr から写真を取得して、スライドショーで表示します。</p><br><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/flickr/')">解説</button> 
+            </div>
+        </div>
+
+        <hr id="4">
+
+        <div class="column-left">
+            <img src="/static/img/samples/todo.png" alt="" class="thumb">
+            <div align="center">
+                <h3>TODO 管理アプリ</h3>
+                <p align="left">TODO 管理のサンプルアプリです。TODO の一覧表示と TODO の登録をすることができます。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/todo/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/shinkansen.png" alt="" class="thumb">
+            <div align="center">
+                <h3>電車図鑑アプリ</h3>
+                <p align="left">電車図鑑のサンプルアプリです。東海道から東北区間で運行されている車両を表示します。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/shinkansen/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-right">
+            <img src="/static/img/samples/clock.png" alt="" class="thumb">
+            <div align="center">
+                <h3>時計アプリ</h3>
+                <p align="left">簡単なアニメーションを使用して、現在の日付と時間を表示する時計アプリです。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/clock/')">解説</button> 
+            </div>
+        </div>
+
+        <hr id="5">
+
+        <div class="column-left">
+            <img src="/static/img/samples/agecalc.png" alt="" class="thumb">
+            <div align="center">
+                <h3>誕生年の計算アプリ</h3>
+                <p align="left">誕生年を計算するアプリです。</p><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/age-calc/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/omikuji.png" alt="" class="thumb">
+            <div align="center">
+                <h3>おみくじ占いアプリ</h3>
+                <p align="left">おみくじ占いができるアプリです。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/omikuji/')">解説</button> 
+            </div>
+        </div>
+
+        <div class="column-right">
+            <img src="/static/img/samples/ibeacon.png" alt="" class="thumb">
+            <div align="center">
+                <h3>iBeacon</h3>
+                <p align="left">iBeaconデバイスの基本的な利用方法を扱うサンプルアプリ。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/ibeacon/')">解説</button> 
+            </div>
+        </div>
+
+        <!-- TEMPLATES -->
+
+        <h2 id="6">テンプレート</h2>
+
+        <div class="column-left">
+            <img src="/static/img/samples/minimum.png" alt="" class="thumb">
+            <div align="center">
+                <h3>最小限のテンプレート</h3>
+                <p align="left">Monaca アプリ作成時に使用する、最小限のテンプレートです。</p><br><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/minimum_project/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-center">
+            <img src="/static/img/samples/onsen_minimum.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Onsen UI 最小限のテンプレート</h3>
+                <p align="left">Onsen UI アプリ用の最小限のテンプレートです。Onsen UI が持つ機能をいくつか使用しています。</p><br>
+                <button onclick="GoTo('/ja/sampleapp/samples/onsen_ui_minimum_project/')">解説</button> 
+            </div>
+        </div>
+        <div class="column-right">
+            <img src="/static/img/samples/onsen_sliding.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Onsen UI スライディングメニュー</h3>
+                <p align="left">Onsen UI のスライディングメニューとナビゲーションを使用しています。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/onsen_ui_sliding_menu/')">解説</button> 
+            </div>
+        </div>
+
+        <hr id="7">
+
+         <div class="column-left">
+            <img src="/static/img/samples/onsen_tabbar.png" alt="" class="thumb">
+            <div align="center">
+                <h3>Onsen UI ナビ付きタブバー</h3>
+                <p align="left">Onsen UI を使用したアプリに、タブバーを組み込んでいます。</p>
+                <button onclick="GoTo('/ja/sampleapp/samples/onsen_ui_tabbar_navigator/')">解説</button> 
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+

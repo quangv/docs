@@ -1,0 +1,1 @@
+========================Configuration Files========================With Monaca Cloud IDE, you can specify more behaviors for iOS and Android apps by using the app setting page or by manually editing the configuration files... toctree::  :maxdepth: 2  android_configuration  ios_configuration

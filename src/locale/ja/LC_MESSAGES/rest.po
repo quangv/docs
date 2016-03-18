@@ -1,0 +1,370 @@
+# Japanese translations for Monaca package
+# Monaca パッケージに対する英訳.
+# Copyright (C) 2011-, Asial Corporation
+# This file is distributed under the same license as the Monaca package.
+# Automatically generated, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Monaca 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-19 15:58\n"
+"PO-Revision-Date: 2013-11-15 14:26\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# 3404a82dee624b3b95fc6d6fbb8e5bf3
+#: ../monaca-docs-src/rest/sample.rst:5
+msgid "Monacaドキュメント記述規定"
+msgstr ""
+
+# 32a191b039c44932ac824ae7d4d69a5e
+#: ../monaca-docs-src/rest/sample.rst:7
+msgid ""
+"見出しは下記の通り、レベル1、レベル2、レベル3の定義を行う。レベル１はイコール"
+"文字を上下に、レベル２は「^」文字を下に、レベル３は「*」文字を下に記述する。"
+msgstr ""
+
+# 44f0f2d414234485bee9f8a18a27c9ee
+#: ../monaca-docs-src/rest/sample.rst:10
+msgid "見出し２"
+msgstr ""
+
+# 886ca6aebff14f17abb06f1ac9ddc996
+#: ../monaca-docs-src/rest/sample.rst:13
+msgid "見出し３"
+msgstr ""
+
+# b6742931140a4c389af0ca09f4818d27
+#: ../monaca-docs-src/rest/sample.rst:16
+msgid "段落"
+msgstr ""
+
+# a34b4b6e07454294b2bedbf25d7ce92b
+#: ../monaca-docs-src/rest/sample.rst:18
+msgid ""
+"1段落には、同じ意味・目的を持つ文章をまとめて記述する。段落の中には、メニュー"
+"表記や関数・変数などのインライン要素を含む場合がある。必ず「。」で終わらせ"
+"る。それ以外の終わり文字(:など)は、Monacaドキュメントでは許容しない。"
+msgstr ""
+
+# bb716a59860146b2b1a3b62fd9bdad0c
+#: ../monaca-docs-src/rest/sample.rst:21
+msgid "ノート"
+msgstr ""
+
+# 41e72c03eb564b2a8e33f27d8e7d7490
+#: ../monaca-docs-src/rest/sample.rst:23
+msgid ""
+"本文と直接関係しないが、関連する話題や追加で知っておく方がいい内容を記述する"
+msgstr ""
+
+# 1ae7011660be48ffa11f897b2f99d73e
+#: ../monaca-docs-src/rest/sample.rst:26
+msgid "本文に記述されている内容の理解や実行には注意を伴う場合に指定する"
+msgstr ""
+
+# a4ea444d8a7445c5b25191e16433fa6c
+#: ../monaca-docs-src/rest/sample.rst:29
+msgid "画像・画面"
+msgstr ""
+
+# a935ed9d77f2496d9691977678ff4b67
+#: ../monaca-docs-src/rest/sample.rst:31
+msgid ""
+"本文中に画像に関する言及があり、その画像として明らかな場合に用いる。本文中で"
+"は、 *左の画像* 、 *右図* 、 *下の画面* など、「画像」「図」「画面」という言"
+"葉を使い、その画像を貼り付けた場所を書く。また、画面やモバイルフォンのスク"
+"リーンショット画像を掲載する場合は、収まりがいいよう、他のページと大きさを合"
+"わせて ``width`` もしくは ``height`` 指定を行う。"
+msgstr ""
+
+# 5d1625ade5194c4a9c2bf09da7044cad
+#: None:None
+msgid "スマートフォン縦長"
+msgstr ""
+
+# bf146f25104e42d5977d3eb6bf5b2202
+#: ../monaca-docs-src/rest/sample.rst:33
+msgid "180pxを主に用いる"
+msgstr ""
+
+# f136ed743eaf4d8a933817532ec11736
+#: None:None
+msgid "ブラウザー画面など"
+msgstr ""
+
+# 4b7218e2e7624faab41f89d7677dd907
+#: ../monaca-docs-src/rest/sample.rst:34
+msgid "360pxや480pxを主に用いる"
+msgstr ""
+
+# 605d628b47ae44608ab9aa4a29098239
+#: ../monaca-docs-src/rest/sample.rst:36
+msgid ""
+"画像ファイルは :file:`images` フォルダーの中に、ReSTファイル名のディレクトリ"
+"を作成し、そのなかに配置する。"
+msgstr ""
+
+# 5002ef296c694de1a418c52569972e87
+#: ../monaca-docs-src/rest/sample.rst:38
+msgid "画像を貼り付ける際は、下記の件について考慮する。"
+msgstr ""
+
+# 940f8fe66f6f4db98d0163915af491cc
+#: ../monaca-docs-src/rest/sample.rst:40
+msgid "中身が読める必要があるのか？"
+msgstr ""
+
+# 5466f0bbbc084a15b4c76f8563926796
+#: ../monaca-docs-src/rest/sample.rst:41
+msgid "それとも、どういうイメージの画面が出ることを伝えたいのか？"
+msgstr ""
+
+# 9e9f01a7ccfb40bc82572606a87897e6
+#: ../monaca-docs-src/rest/sample.rst:43
+msgid ""
+"画像はできるだけコンパクトに表示された方が望ましいため、少し小さ目でも問題な"
+"いのでは無いか？と常に考えてほしい。"
+msgstr ""
+
+# dca1a0d9ce984780a6b387d009a65381
+#: ../monaca-docs-src/rest/sample.rst:46
+msgid "画像を並べる"
+msgstr ""
+
+# c89d38c5110e4e2abe190024b4adeefe
+#: ../monaca-docs-src/rest/sample.rst:48
+msgid ""
+"スマートフォン縦長画面の場合、横に3つまで並べてもいい。この場合、 ``:align: "
+"left`` を指定する。この場合、最後に必ず ``rst-class:: clear`` を指定しない"
+"と、回り込みをしてしまうので注意。"
+msgstr ""
+
+# 1f277bc8e53445b48bf7d9911fc80512
+#: ../monaca-docs-src/rest/sample.rst:65
+msgid "本文の左右に画像をはめたい場合"
+msgstr ""
+
+# f7b928df9e4040ce936e12c736870076
+#: ../monaca-docs-src/rest/sample.rst:67
+msgid ""
+"``:class: leftfit`` もしくは ``:class: rightfit`` を用いると、下記のような記"
+"述ができるようになる。この場合、 ``align`` の指定は不要である。"
+msgstr ""
+
+# 1deea6c090ee4064a2f5b68a6456acfa
+#: ../monaca-docs-src/rest/sample.rst:73
+msgid ""
+"この例では、左寄せで画像を配置しています。 ``:align: left`` との違いは、 "
+"``leftfit`` の場合は余分な余白を作りません。そのため、段落内に画像を記述する"
+"場合に適しています。"
+msgstr ""
+
+# ba4f7036d8b24a83b8c97b7f17762396
+#: ../monaca-docs-src/rest/sample.rst:76
+msgid "図"
+msgstr ""
+
+# f018c6072d72460f83feeda3dc49c887
+#: ../monaca-docs-src/rest/sample.rst:78
+msgid ""
+"ここでいう図とは、画像に対してタイトルが付与されたものを刺します。この場合"
+"は、 ``image`` でなく ``figure`` を用います。"
+msgstr ""
+
+# d3876d3953c14e658564060549e2475d
+#: ../monaca-docs-src/rest/sample.rst:80
+msgid "``image`` との使い分けとしては、下記の通りです。"
+msgstr ""
+
+# 911b5d615dce47ed9b0a730579c3235c
+#: ../monaca-docs-src/rest/sample.rst:82
+msgid ""
+"本文中に参照が入っており、タイトルを明記せずとも何の画像か分かる場合は "
+"``image`` を用いる。"
+msgstr ""
+
+# 032198af991b4502a760cb30906c4a9f
+#: ../monaca-docs-src/rest/sample.rst:83
+msgid ""
+"本文中に参照がなかったり、並んでいてどういう意味の画像かが分かりづらい場合は "
+"``figure`` を用いて、タイトルを記述する"
+msgstr ""
+
+# 787940c6f16042b693ff361154e050bb
+#: ../monaca-docs-src/rest/sample.rst:89
+msgid "タイトルが付与された画像"
+msgstr ""
+
+# 517bf8b40c734287865b5ae83600d515
+#: ../monaca-docs-src/rest/sample.rst:94
+msgid "コード"
+msgstr ""
+
+# 0640a29d8d774ae6b186f6e691ee584e
+#: ../monaca-docs-src/rest/sample.rst:96
+msgid ""
+"ソースコード全体を取り込む場合は、 ``literalinclude`` を利用する。ソースコー"
+"ドは :file:`download` フォルダーの中に、ReSTファイル名のディレクトリを作成"
+"し、そのなかに配置する。 ``language`` 以外にも ``linenos`` ``start-after`` "
+"``end-before`` など便利な指定方法があるので学んでおくこと。"
+msgstr ""
+
+# 8e0de3fa61dd4d7da9cc1c14eb01d0ba
+#: ../monaca-docs-src/rest/sample.rst:101
+msgid ""
+"直接本文中に記述する場合は、 ``code-block`` を用いて、必ず言語指定を行う。言"
+"語としては ``javascript`` ``css`` ``html`` を主に用いている。"
+msgstr ""
+
+# 6e7bed14384841e0bd1013dad237c9b6
+#: ../monaca-docs-src/rest/sample.rst:108
+msgid "表"
+msgstr ""
+
+# f16958415a464f8082d0f462e0192ffa
+#: ../monaca-docs-src/rest/sample.rst:110
+msgid "表は基本的にReSTの定義通りに用います。List Tableが便利です。"
+msgstr ""
+
+# 56ea2be957254c5997c4de62d9270a15
+#: ../monaca-docs-src/rest/sample.rst:113
+msgid "List"
+msgstr "リスト"
+
+# 2b67d16be5c442e7a77b9c82b71e5f4b
+#: ../monaca-docs-src/rest/sample.rst:115
+msgid "「-」を用いてListを作成します。"
+msgstr ""
+
+# fe00a5c90a85467495a7c44b7def26a1
+#: ../monaca-docs-src/rest/sample.rst:117
+msgid "List１"
+msgstr ""
+
+# bd6adec845374543ac8be27d8cef013c
+#: ../monaca-docs-src/rest/sample.rst:118
+msgid "List２"
+msgstr ""
+
+# 8115ca5fa6804673a148788650bca639
+#: ../monaca-docs-src/rest/sample.rst:120
+msgid ""
+"なお、本文は「です・ます調」ですが、リストでは体言止め、もしくは「だ・である"
+"調」使用します。またリストの場合、最後に「。」は付与しないことに注意が必要で"
+"す。"
+msgstr ""
+
+# 7eabc660d05b4581be2953c84c67bf50
+#: ../monaca-docs-src/rest/sample.rst:123
+msgid "定義リスト"
+msgstr ""
+
+# f1783215226641ecbe35808673e29125
+#: ../monaca-docs-src/rest/sample.rst:125
+msgid "画面や引数の説明などは、定義リストの記述が便利です。"
+msgstr ""
+
+# 0419f296c4914e6bb0a46ce82fa94c81
+#: ../monaca-docs-src/rest/sample.rst:127
+msgid "*例*"
+msgstr ""
+
+# 7127889f970441e0a99261a7d7bf394a
+#: None:None
+msgid "Skeleton"
+msgstr "スケルトンの種類"
+
+# 86cb353b9fca4814be5672bf724cafd6
+#: ../monaca-docs-src/rest/sample.rst:129
+msgid "Minimum Project"
+msgstr "最小限のプロジェクト"
+
+# 9d91582281ee4ac2844c0ee886ac15f4
+#: None:None
+msgid "Project Name"
+msgstr "プロジェクト名"
+
+# 0e2690d1da0241e49740047daca1ada8
+#: ../monaca-docs-src/rest/sample.rst:130
+msgid "Railway Encyclopedia App"
+msgstr "鉄道図鑑アプリ"
+
+# c774be634cda4267a6ff41f560ebcd5d
+#: None:None
+msgid "Description"
+msgstr "説明"
+
+# cd854693664946bbaceecd9451bfbf18
+#: ../monaca-docs-src/rest/sample.rst:131
+msgid ""
+"A sample app created in the quick start advanced guide using native UI "
+"components."
+msgstr ""
+"クイックスタート応用編で作成する、ネイティブUIコンポーネントを用いたサンプル"
+"アプリです"
+
+# 6b9fd05e816547db8437474446834b80
+#: ../monaca-docs-src/rest/sample.rst:134
+msgid "TOCツリー"
+msgstr ""
+
+# 64d7830cff1540d5958a93203eb5bb6e
+#: ../monaca-docs-src/rest/sample.rst:136
+msgid ""
+"Sphinxにとって非常に重要な ``toctree`` コマンドについて、学んで意味を理解して"
+"おくこと。"
+msgstr ""
+
+# e559bfcbf74341ef9d3143aede2f136f
+#: ../monaca-docs-src/rest/sample.rst:139
+msgid "目次"
+msgstr ""
+
+# 2c17b1bff4cd4491b5f239bb2233ba6b
+#: ../monaca-docs-src/rest/sample.rst:141
+msgid ""
+"本文中に目次を設置する場合は ``index`` を用います。FAQで使用しています。"
+msgstr ""
+
+# 5275800f7d1a480496aebf33291e5597
+#: ../monaca-docs-src/rest/sample.rst:144
+msgid "インライン要素"
+msgstr ""
+
+# 35493239353c4c45814242a6595e2f7e
+#: ../monaca-docs-src/rest/sample.rst:146
+msgid ""
+"ここでは、段落などに含むことができる各種表記について書きます。 :guilabel:"
+"`guilabel` は画面中の文字やButtonの表記などに使います。 :menuselection:`File "
+"--> 新しいファイル作成` はメニューの表記に用います。 ``monaca.pushPage`` や "
+"``monaca.queryParams`` 変数、といったプログラミングの変数名・関数名・定数など"
+"は、2重のバックティックで表します。 :file:`index.html` のように、ファイルを表"
+"す場合は ``:file:`` を利用します。"
+msgstr ""
+
+# 735eb1fb1dbe42e5bf0c3f3628e3949b
+#: ../monaca-docs-src/rest/sample.rst:149
+msgid "ダウンロード要素"
+msgstr ""
+
+# 76472cf047184f2ea5ce05360101be6a
+#: ../monaca-docs-src/rest/sample.rst:151
+msgid "``download`` を用いて、ダウンロードリンクを表現します。"
+msgstr ""
+
+# 726dcda9576e4808811ba7643c55b9df
+#: ../monaca-docs-src/rest/sample.rst:153
+msgid ":download:`Omikuji App 画像s <download/beginning/omikuji.zip>`"
+msgstr ""
+
+# 79f46947d109419a8562f2aeaf8d7ee0
+#: ../monaca-docs-src/rest/sample.rst:156
+msgid "このページのソース"
+msgstr ""
