@@ -3,12 +3,14 @@
 # This file is distributed under the same license as the Monaca package.
 # 
 # Translators:
+# fabby goh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
+# Masahiro Tanaka <masahiro@asial.co.jp>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-15 12:24+0000\n"
+"PO-Revision-Date: 2016-03-19 13:33+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -560,7 +562,7 @@ msgid ""
 "you to debug your app with inspector integration and remote build your "
 "projects without any setups locally. Read more :ref:`here "
 "<monaca_cli_index>`."
-msgstr ""
+msgstr "Monaca CLI は、Monaca アプリ向けのローカル環境用の開発ツールです。Monaca CLI は、コマンドライン形式のインターフェイスであり、Monaca CLI を使用すれば、Monaca クラウドが提供するサービスをローカル PC から使用できます。Monaca CLI の機能は多岐にわたり、ローカルプロジェクトの作成、既存のプロジェクトのインポートまたはクローン ( Monaca クラウドからローカル PC へ )、インスペクタと連携したデバッグ、リモートビルド ( ローカルでの各種設定は不要 ) などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら <monaca_cli_index>` をご確認ください。"
 
 #: ../doc/quick_start/cli/index.rst:7
 msgid ""
@@ -1291,7 +1293,7 @@ msgstr "Monaca でのデバッグをお楽しみください！"
 
 #: ../doc/quick_start/index.rst:5
 msgid "Quick Start"
-msgstr "開発手順 ( 入門編 )"
+msgstr "開発手順（入門編）"
 
 #: ../doc/quick_start/localkit/building_app.rst:12
 msgid ":ref:`localkit_building_for_ios`"
@@ -1396,13 +1398,13 @@ msgstr "事前準備として、以下を行います。"
 msgid ""
 "get a Monaca account. Register `here "
 "<https://monaca.mobi/en/register/start>`__."
-msgstr ""
+msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/en/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/localkit/index.rst:22
 msgid ""
 "install Monaca Localkit. Download `here "
 "<https://monaca.io/localkit.html>`__."
-msgstr ""
+msgstr "Monaca Localkit のインストール。`こちら <https://monaca.io/localkit.html>`__ からダウンロードできます。"
 
 #: ../doc/quick_start/localkit/publishing_app.rst:30
 #: ../doc/quick_start/localkit/starting_project.rst:119
@@ -1560,7 +1562,7 @@ msgstr "Chrome DevTools を使用して、プロジェクトをデバッグし�
 msgid ""
 "Pair the Monaca Debugger with the PC hosting Monaca Localkit. Please refer "
 "to :ref:`localkit_pairing_debugging`."
-msgstr ""
+msgstr "Monaca デバッガーと PC ( Monaca Localkit を実行中であること ) をペアリングします。詳細は、 :ref:`localkit_pairing_debugging` をご確認ください。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:43
 msgid ""
@@ -1663,7 +1665,7 @@ msgstr "Chrome DevTools は、Monaca Localkit から、直接、起動するこ�
 
 #: ../doc/quick_start/monaca_intro.rst:5
 msgid "Monaca Development Overview"
-msgstr ""
+msgstr "Monaca での開発の概要"
 
 #: ../doc/quick_start/monaca_intro.rst:13
 msgid "What is Monaca?"
@@ -1723,7 +1725,7 @@ msgid ""
 "seamlessly use our :ref:`CLI <monaca_cli_index>` to take advantage of the "
 "cloud-powered services without switching or any complicated porting. We take"
 " OPEN seriously."
-msgstr ""
+msgstr "非依存型 ( フロントエンドのフレームワーク、各種開発ツール ) : 使用するフレームワークとツールは、開発者が自由に選択できます。現在開発者がお使いのツールと、たとえば、:ref:`Monaca CLI <monaca_cli_index>` は、併用でき、開発環境・ツールの切り替え処理、別環境への移植処理 ( ポーティング / porting ) などをせずとも、このツールを介して、Monaca のクラウドサービスを利用できます。また、HTML5 レイヤーのフレームワークに関しては、私たちが開発・提供しているオープンソースの 「 `Onsen フレームワーク <http://onsen.io/>`_ 」 ( Angular が基盤 ) もぜひお試しください。Monaca が提供しているツールとも親和性があります。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
 
 #: ../doc/quick_start/monaca_intro.rst:37
 msgid "Monaca Development Tools"
@@ -1810,7 +1812,7 @@ msgid ""
 "installed on your mobile devices. The app will automatically sync all your "
 "development projects and run them without the build process. :ref:`Read more"
 " <monaca_debugger_index>`."
-msgstr ""
+msgstr "上述のような多様な開発環境の提供に加えて、Monaca では、Monaca デバッガーを提供しています。Monaca デバッガーは、デバッグ用のアプリであり、このアプリを使用してデバッグを行えば、デバッグ効率を大幅に向上できます。このアプリでは、他の環境で開発中のプロジェクトと自動で同期が行われるので、プロジェクトの更新のたびにビルドをせずとも、コーディング中のアプリを携帯端末上で実行できます ( よって、Monaca デバッガーでは、開発中のアプリの動作を実際の端末上で、リアルタイムで検証できます )。他のアプリ同様、Monaca デバッガーアプリも携帯端末にインストールして使用します。:ref:`詳細はこちら。 <monaca_debugger_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:90
 msgid "Monaca Debugger App"
@@ -1821,7 +1823,7 @@ msgid ""
 "Here is a table summarizing the debugging options between Monaca Debugger "
 "and Monaca development tools. For more information, please refer to "
 ":ref:`Debugging Monaca Apps <debugging_monaca_app>`."
-msgstr ""
+msgstr "Monaca 使用時のデバッグ方法の概要を、表と図で記します ( デバッグパネル・USB デバッグ・Monaca デバッガーを使用 )。詳細は、:ref:`Monaca アプリのデバッグ方法と具体例  <debugging_monaca_app>` をご確認ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:99
 msgid "*Monaca Development Tools*"
@@ -1848,7 +1850,7 @@ msgid ""
 "The OS of your device and PC isn't a problem. You can use this debug option "
 "whether you have a Mac/Windows and your device can either be an iOS or "
 "Android."
-msgstr ""
+msgstr "Monaca が推奨するブラウザーを使用しているのであれば、この機能を使用できます ( OS による影響は受けません )。いずれの OS ( Mac または Windows ) と端末 ( iOS または Android ) の組み合わせでも使用できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:103
 msgid "Not available"
@@ -1864,7 +1866,7 @@ msgid ""
 "debugging) is only available on Mac. If you have an Android device, you can "
 "use either a Mac/Windows as long as you have a Chrome Browser (Chrome "
 "DevTools)."
-msgstr ""
+msgstr "このデバッグ方法の場合、iOS 端末をお持ちのときには Safari ( Safari のリモートデバッグ機能 ) が使用できる Mac 環境、一方、Android 端末をお持ちのときには Chrome ブラウザー ( Chrome DevTools のリモートデバッグ機能 ) が使用できる Mac または Windows 環境が必要となります。"
 
 #: ../doc/quick_start/monaca_intro.rst:116
 msgid "Relationship between Monaca Debugger and Monaca Development Tools"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-15 12:39+0000\n"
-"Last-Translator: fabby goh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-03-19 12:53+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -438,7 +438,6 @@ msgstr "``1.0.0``"
 #: ../doc/reference/monaca_api/monaca_viewport.rst:11
 #: ../doc/reference/monaca_api/native.rst:13
 #: ../doc/reference/monaca_api/transition.rst:11
-#: ../doc/reference/monaca_api/utility-29.rst:11
 #: ../doc/reference/monaca_api/utility-34.rst:11
 #: ../doc/reference/native/background.rst:20
 #: ../doc/reference/native/background.rst:35
@@ -486,8 +485,6 @@ msgstr "ユーザー側に表示するバージョン番号です。"
 #: ../doc/reference/monaca_api/cloud/user.rst:408
 #: ../doc/reference/monaca_api/cloud/user.rst:568
 #: ../doc/reference/monaca_api/cloud/user.rst:617
-#: ../doc/reference/monaca_api/utility-29.rst:80
-#: ../doc/reference/monaca_api/utility-29.rst:132
 #: ../doc/reference/monaca_api/utility-34.rst:69
 msgid "Example:"
 msgstr "例"
@@ -3084,11 +3081,6 @@ msgstr ""
 #: ../doc/reference/monaca_api/transition.rst:176
 #: ../doc/reference/monaca_api/transition.rst:211
 #: ../doc/reference/monaca_api/transition.rst:258
-#: ../doc/reference/monaca_api/utility-29.rst:52
-#: ../doc/reference/monaca_api/utility-29.rst:104
-#: ../doc/reference/monaca_api/utility-29.rst:163
-#: ../doc/reference/monaca_api/utility-29.rst:186
-#: ../doc/reference/monaca_api/utility-29.rst:243
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
@@ -16316,12 +16308,6 @@ msgstr ""
 #: ../doc/reference/monaca_api/transition.rst:152
 #: ../doc/reference/monaca_api/transition.rst:200
 #: ../doc/reference/monaca_api/transition.rst:232
-#: ../doc/reference/monaca_api/utility-29.rst:41
-#: ../doc/reference/monaca_api/utility-29.rst:68
-#: ../doc/reference/monaca_api/utility-29.rst:124
-#: ../doc/reference/monaca_api/utility-29.rst:219
-#: ../doc/reference/monaca_api/utility-29.rst:280
-#: ../doc/reference/monaca_api/utility-29.rst:301
 #: ../doc/reference/monaca_api/utility-34.rst:61
 #: ../doc/reference/third_party_phonegap/http_server.rst:62
 #: ../doc/reference/third_party_phonegap/http_server.rst:97
@@ -16523,7 +16509,6 @@ msgstr "バックエンド API にアクセスする場合、 ``jQuery`` の読�
 #: ../doc/reference/monaca_api/cloud/user.rst:17
 #: ../doc/reference/monaca_api/native.rst:13
 #: ../doc/reference/monaca_api/transition.rst:11
-#: ../doc/reference/monaca_api/utility-29.rst:11
 #: ../doc/reference/monaca_api/utility-34.rst:11
 #: ../doc/reference/third_party_phonegap/http_server.rst:33
 #: ../doc/reference/third_party_phonegap/statusbar.rst:24
@@ -16676,14 +16661,6 @@ msgstr "コレクション名を指定します。"
 #: ../doc/reference/monaca_api/transition.rst:157
 #: ../doc/reference/monaca_api/transition.rst:205
 #: ../doc/reference/monaca_api/transition.rst:237
-#: ../doc/reference/monaca_api/utility-29.rst:46
-#: ../doc/reference/monaca_api/utility-29.rst:73
-#: ../doc/reference/monaca_api/utility-29.rst:96
-#: ../doc/reference/monaca_api/utility-29.rst:130
-#: ../doc/reference/monaca_api/utility-29.rst:156
-#: ../doc/reference/monaca_api/utility-29.rst:179
-#: ../doc/reference/monaca_api/utility-29.rst:232
-#: ../doc/reference/monaca_api/utility-29.rst:285
 #: ../doc/reference/monaca_api/utility-34.rst:33
 #: ../doc/reference/monaca_api/utility-34.rst:67
 #: ../doc/reference/monaca_api/utility-34.rst:93
@@ -16772,7 +16749,6 @@ msgstr "\"field_name ASC|DESC\" 。並べ替え条件を複数指定する場合
 #: ../doc/reference/monaca_api/cloud/collection.rst:201
 #: ../doc/reference/monaca_api/cloud/collection.rst:254
 #: ../doc/reference/monaca_api/cloud/user.rst:438
-#: ../doc/reference/monaca_api/utility-29.rst:208
 msgid "``options``"
 msgstr "``options``"
 
@@ -17520,14 +17496,6 @@ msgstr ":dfn:`CollectionItem.update() : $.Promise`"
 #: ../doc/reference/monaca_api/transition.rst:156
 #: ../doc/reference/monaca_api/transition.rst:204
 #: ../doc/reference/monaca_api/transition.rst:230
-#: ../doc/reference/monaca_api/utility-29.rst:45
-#: ../doc/reference/monaca_api/utility-29.rst:67
-#: ../doc/reference/monaca_api/utility-29.rst:72
-#: ../doc/reference/monaca_api/utility-29.rst:128
-#: ../doc/reference/monaca_api/utility-29.rst:223
-#: ../doc/reference/monaca_api/utility-29.rst:278
-#: ../doc/reference/monaca_api/utility-29.rst:284
-#: ../doc/reference/monaca_api/utility-29.rst:305
 #: ../doc/reference/monaca_api/utility-34.rst:65
 #: ../doc/reference/third_party_phonegap/http_server.rst:96
 #: ../doc/reference/third_party_phonegap/http_server.rst:101
@@ -17583,7 +17551,6 @@ msgstr "``なし``"
 #: ../doc/reference/monaca_api/cloud/user.rst:491
 #: ../doc/reference/monaca_api/cloud_management/user.rst:168
 #: ../doc/reference/monaca_api/monaca_viewport.rst:115
-#: ../doc/reference/monaca_api/utility-29.rst:208
 msgid "Object"
 msgstr "オブジェクト"
 
@@ -17600,7 +17567,6 @@ msgstr "Key と Value の組み合わせ。例 : {public: ‘rw’}"
 #: ../doc/reference/monaca_api/cloud/user.rst:594
 #: ../doc/reference/monaca_api/cloud/user.rst:644
 #: ../doc/reference/monaca_api/cloud/user.rst:689
-#: ../doc/reference/monaca_api/utility-29.rst:306
 msgid "Return Value:"
 msgstr "戻り値:"
 
@@ -18534,8 +18500,6 @@ msgstr "``userOid``"
 #: ../doc/reference/monaca_api/native.rst:34
 #: ../doc/reference/monaca_api/native.rst:69
 #: ../doc/reference/monaca_api/native.rst:70
-#: ../doc/reference/monaca_api/utility-29.rst:40
-#: ../doc/reference/monaca_api/utility-29.rst:300
 #: ../doc/reference/native/android_menu.rst:27
 #: ../doc/reference/native/android_menu.rst:28
 #: ../doc/reference/native/android_menu.rst:29
@@ -18758,7 +18722,6 @@ msgid ":dfn:`monaca.cloud.Push.setHandler(callback: Function) : void`"
 msgstr ":dfn:`monaca.cloud.Push.setHandler(callback: Function) : void`"
 
 #: ../doc/reference/monaca_api/cloud/push.rst:35
-#: ../doc/reference/monaca_api/utility-29.rst:123
 #: ../doc/reference/monaca_api/utility-34.rst:60
 msgid "``callback``"
 msgstr "``callback``"
@@ -20058,7 +20021,6 @@ msgid ""
 msgstr "アプリのビルドの種類です。 ``\"debug\"`` 、 ``\"release\"`` 、 ``\"adhoc\"`` のいずれかを選択します。"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:36
-#: ../doc/reference/monaca_api/utility-29.rst:300
 msgid "``title``"
 msgstr "``title``"
 
@@ -20782,7 +20744,6 @@ msgid "``function(value) { .. }``"
 msgstr "``function(value) { .. }``"
 
 #: ../doc/reference/monaca_api/native.rst:71
-#: ../doc/reference/monaca_api/utility-29.rst:123
 #: ../doc/reference/monaca_api/utility-34.rst:60
 msgid "Function"
 msgstr "関数"
@@ -21067,419 +21028,124 @@ msgstr "``Object``"
 msgid "Containing attached parameters."
 msgstr "渡されたパラメーターを格納します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:3
 #: ../doc/reference/monaca_api/utility-34.rst:3
 msgid "Utilities"
 msgstr "ユーティリティー"
 
-#: ../doc/reference/monaca_api/utility-29.rst:8
 #: ../doc/reference/monaca_api/utility-34.rst:8
 msgid "We describe other functions provided by Monaca."
 msgstr "Monaca で提供している、他の関数を紹介します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:13
-msgid ":ref:`monaca.invokeBrowser()<browser>`"
-msgstr ":ref:`monaca.invokeBrowser()<browser>`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:13
-msgid "Open an external browser"
-msgstr "外部ブラウザーを起動します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:14
-msgid ":ref:`monaca.splashScreen.hide()<hide>`"
-msgstr ":ref:`monaca.splashScreen.hide()<hide>`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:14
-msgid "Hide splashScreen"
-msgstr "スプラッシュ画像を非表示にします。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:15
-msgid ":ref:`monaca.showSpinner()<showSN>`"
-msgstr ":ref:`monaca.showSpinner()<showSN>`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:15
-msgid "Display spinner animation"
-msgstr "スピナーアニメーションを表示します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:16
-msgid ":ref:`monaca.hideSpinner()<hideSN>`"
-msgstr ":ref:`monaca.hideSpinner()<hideSN>`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:16
-msgid "Hide spinner window"
-msgstr "スピナーウィンドウを非表示にします。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:17
-msgid ":ref:`monaca.updateSpinner()<updateSN>`"
-msgstr ":ref:`monaca.updateSpinner()<updateSN>`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:17
-msgid "Update spinner title"
-msgstr "スピナーアニメーションのタイトルを更新します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:18
 #: ../doc/reference/monaca_api/utility-34.rst:13
 msgid ":ref:`monaca.getDeviceId()<getDeviceId>`"
 msgstr ":ref:`monaca.getDeviceId()<getDeviceId>`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:18
 #: ../doc/reference/monaca_api/utility-34.rst:13
 msgid "Get the unique device ID"
 msgstr "一意のデバイス ID を取得します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:19
 #: ../doc/reference/monaca_api/utility-34.rst:14
 msgid ":ref:`monaca.baseUrl<baseUrl>`"
 msgstr ":ref:`monaca.baseUrl<baseUrl>`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:19
 #: ../doc/reference/monaca_api/utility-34.rst:14
 msgid "Get absolute URL to www folder."
 msgstr "www フォルダーへの絶対 URL を取得します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:20
 #: ../doc/reference/monaca_api/utility-34.rst:15
 msgid ":ref:`monaca.isAndroid<isAndroid>`"
 msgstr ":ref:`monaca.isAndroid<isAndroid>`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:20
 #: ../doc/reference/monaca_api/utility-34.rst:15
 msgid "Check whether the device is Android or not"
 msgstr "Android 端末かどうか判別します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:21
 #: ../doc/reference/monaca_api/utility-34.rst:16
 msgid ":ref:`monaca.isIOS<isIOS>`"
 msgstr ":ref:`monaca.isIOS<isIOS>`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:21
 #: ../doc/reference/monaca_api/utility-34.rst:16
 msgid "Check the device is iOS or not"
 msgstr "iOS 端末かどうか判別します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:30
-msgid "monaca.invokeBrowser() - Open an external browser"
-msgstr "monaca.invokeBrowser() - 外部ブラウザーを開く"
-
-#: ../doc/reference/monaca_api/utility-29.rst:32
-msgid "Open the url in an external browser."
-msgstr "外部のブラウザーで、指定された URL を開きます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:35
-msgid ":dfn:`monaca.invokeBrowser(url)`"
-msgstr ":dfn:`monaca.invokeBrowser(url)`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:40
-msgid "``url``"
-msgstr "``url``"
-
-#: ../doc/reference/monaca_api/utility-29.rst:40
-msgid "specify the URL for the external browser to open."
-msgstr "外部ブラウザーで開く URL を指定します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:59
-msgid "monaca.splashScreen.hide() - Hide splashScreen"
-msgstr "monaca.splashScreen.hide() - スプラッシュ画面の非表示"
-
-#: ../doc/reference/monaca_api/utility-29.rst:61
-msgid "Hide the splashScreen."
-msgstr "スプラッシュ画像を非表示にします。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:63
-msgid ":dfn:`monaca.splashScreen.hide()`"
-msgstr ":dfn:`monaca.splashScreen.hide()`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:80
-msgid ""
-"For more details, please refer to :doc:`../../sampleapp/tips/splashScreen`."
-msgstr "詳細は、 :doc:`../../sampleapp/tips/splashScreen` をご確認ください。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:87
 #: ../doc/reference/monaca_api/utility-34.rst:24
 msgid "monaca.baseUrl - Get absolute URL to www folder."
 msgstr "monaca.baseUrl - www フォルダーへの絶対 URL の取得"
 
-#: ../doc/reference/monaca_api/utility-29.rst:89
 #: ../doc/reference/monaca_api/utility-34.rst:26
 msgid "Get an absolute URL to *www* folder."
 msgstr "*www* フォルダーへの絶対 URL を取得します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:91
 #: ../doc/reference/monaca_api/utility-34.rst:28
 msgid ":dfn:`monaca.baseUrl`"
 msgstr ":dfn:`monaca.baseUrl`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:95
 #: ../doc/reference/monaca_api/utility-34.rst:32
 msgid "``Absolute URI``"
 msgstr "``絶対 URI``"
 
-#: ../doc/reference/monaca_api/utility-29.rst:95
 #: ../doc/reference/monaca_api/utility-34.rst:32
 msgid "The absolute URL of application"
 msgstr "アプリの絶対 URL です。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:111
 #: ../doc/reference/monaca_api/utility-34.rst:48
 msgid "monaca.getDeviceId() - Get the unique device ID"
 msgstr "monaca.getDeviceId() - 一意のデバイス ID の取得"
 
-#: ../doc/reference/monaca_api/utility-29.rst:113
 #: ../doc/reference/monaca_api/utility-34.rst:50
 msgid "Get the unique device ID which has been created randomly."
 msgstr "ランダムに割り当てられた、一意のデバイス ID を取得します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:115
 #: ../doc/reference/monaca_api/utility-34.rst:52
 msgid ""
 "Monaca framework automatically creates a unique device ID at the first time "
 "app launch."
 msgstr "Monaca フレームワークでは、アプリの初回起動時に、一意のデバイス ID を、自動的に生成します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:118
 #: ../doc/reference/monaca_api/utility-34.rst:55
 msgid ":dfn:`monaca.getDeviceId(callback)`"
 msgstr ":dfn:`monaca.getDeviceId(callback)`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:123
 #: ../doc/reference/monaca_api/utility-34.rst:60
 msgid "A callback function where device ID is the first parameter"
 msgstr "コールバック関数です。第一引数は、デバイス ID です。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:147
 #: ../doc/reference/monaca_api/utility-34.rst:84
 msgid "monaca.isAndroid - Check whether the device is Android or not"
 msgstr "monaca.isAndroid - Android 端末かどうか判別"
 
-#: ../doc/reference/monaca_api/utility-29.rst:149
 #: ../doc/reference/monaca_api/utility-34.rst:86
 msgid "Check whether the device is an Android device or not."
 msgstr "Android 端末 かどうかを判別します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:151
 #: ../doc/reference/monaca_api/utility-34.rst:88
 msgid ":dfn:`monaca.isAndroid`"
 msgstr ":dfn:`monaca.isAndroid`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:155
-#: ../doc/reference/monaca_api/utility-29.rst:178
 #: ../doc/reference/monaca_api/utility-34.rst:92
 #: ../doc/reference/monaca_api/utility-34.rst:115
 msgid "``boolean`` value"
 msgstr "``boolean`` 値"
 
-#: ../doc/reference/monaca_api/utility-29.rst:155
 #: ../doc/reference/monaca_api/utility-34.rst:92
 msgid "The device is Android device if the return value is *true*."
 msgstr "Android 端末であれば、 *true* を返します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:170
 #: ../doc/reference/monaca_api/utility-34.rst:107
 msgid "monaca.isIOS - Check whether the device is iOS or not"
 msgstr "monaca.isIOS - iOS 端末かどうかを判別"
 
-#: ../doc/reference/monaca_api/utility-29.rst:172
 #: ../doc/reference/monaca_api/utility-34.rst:109
 msgid "Check whether the device is an iOS device or not ."
 msgstr "iOS 端末かどうかを判別します。"
 
-#: ../doc/reference/monaca_api/utility-29.rst:174
 #: ../doc/reference/monaca_api/utility-34.rst:111
 msgid ":dfn:`monaca.isIOS`"
 msgstr ":dfn:`monaca.isIOS`"
 
-#: ../doc/reference/monaca_api/utility-29.rst:178
 #: ../doc/reference/monaca_api/utility-34.rst:115
 msgid "The device is iOS device if the return value is *true*."
 msgstr "iOS 端末であれば、 *true* を返します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:193
-msgid "monaca.showSpinner() - Display spinner animation"
-msgstr "monaca.showSpinner() - スピナーアニメーションを表示"
-
-#: ../doc/reference/monaca_api/utility-29.rst:195
-msgid ""
-"Display spinner animation which will be rendered in native. It helps to "
-"flicker and smoothen the JavaScript animations."
-msgstr "スピナーアニメーションを表示します。この Monaca ネイティブ機能を使用すれば、JavaScriptのアニメーションをより滑らかにできます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:197
-msgid ""
-"In order to use monaca.showSpinner() on Android devices, you need to add a "
-"following line to your AndroidManifest.xml. ``<uses-permission "
-"android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>``"
-msgstr "monaca.showSpinner() を Android 端末で使用する場合には、「  ``<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>``  」 を AndroidManifest.xml に追加します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:203
-msgid ":dfn:`monaca.showSpinner([options])`"
-msgstr ":dfn:`monaca.showSpinner([options])`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:208
-msgid "Object that may contain following items:"
-msgstr "object には、次の項目を格納できます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:210
-msgid ""
-"``src`` : ``String`` - Path to spinner image (relative to this HTML file) "
-"[optional]"
-msgstr "``src`` : ``String`` - スピナー画像へのパス ( この HTML ファイルへの相対パス ) です ( 任意 )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:211
-msgid ""
-"``frames`` : ``Number`` - Number of spinner images contained in the source "
-"(frames are stacked vertically) [optional, default=1]"
-msgstr "``frames`` : ``Number``  - src 内に置いてあるスピナー画像の数です ( 任意、default = 1 )。フレームは垂直にスタックされます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:212
-msgid ""
-"``interval`` : ``Number`` - Animation interval (in milliseconds) [optional, "
-"default=100]"
-msgstr "``interval`` : ``Number`` - アニメーションの間隔 ( ミリ秒単位 ) です( 任意、default = 100 ) 。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:213
-msgid ""
-"``backgroundColor`` : ``String`` - Background color (#RRGGBB) [optional, "
-"default=#000000]"
-msgstr "``backgroundColor`` : ``String`` - 背景色 ( #RRGGBB ) を設定します ( 任意、default = #000000 )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:214
-msgid ""
-"``backgroundOpacity`` : ``Number`` - Background opacity (from 0.0 to 1.0) "
-"[optional, default=0.8]"
-msgstr "``backgroundOpacity`` : ``Number`` - 背景透過度 ( 0.0 から 1.0 ) です ( 任意、default = 0.8 ) 。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:215
-msgid ""
-"``title`` : ``String`` - Display title underneath spinner image [optional, "
-"default=””]"
-msgstr "``title`` : ``String``  - スピナー画像の下に表示されるタイトルです ( 任意、default = ”” )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:216
-msgid "``titleColor`` : ``String`` - Title color [optional, default=#FFFFFF]"
-msgstr "``titleColor`` : ``String`` - タイトルの色です ( 任意、default = #FFFFFF )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:217
-msgid ""
-"``titleFontScale`` : ``Number`` - Title text scale relative to the default "
-"[optional, default=1.0]"
-msgstr "``titleFontScale`` : ``Number`` - タイトルのテキストの倍率 ( デフォルト値からの相対値 ) です ( 任意、default = 1.0 )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:218
-msgid ""
-"``showFullScreen`` : ``Boolean`` - Whether to show spinner background in "
-"full screen (true/false) [default=false]"
-msgstr "``showFullScreen`` : ``Boolean`` - 全画面表示で、スピナーのバックグラウンドを表示するかどうか ( true/false ) を設定します ( default = false )。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:226
-msgid "The ``src`` needs to be a valid *PNG* format."
-msgstr "``src`` には、有効な *PNG* 形式を使用する必要があります。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:228
-msgid ""
-"If you use ``monaca.pushPage`` or other functions while displaying the "
-"spinner, the spinner must not be hidden and it has to wait for "
-"``monaca.hideSpinner`` to be called."
-msgstr "スピナーの表示中に、``monaca.pushPage`` または 他の関数を使用した場合でも、スピナーをすぐに非表示にせず、``monaca.hideSpinner`` が呼ばれるまで待ちます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:230
-msgid ""
-"If ``src`` is not specified, default spinner image contained in Monaca "
-"Framework will be rendered."
-msgstr "``src`` が指定されていない場合、Monacaフレームワークに実装されている、デフォルトのスピナー画像が使用されます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:232
-msgid ""
-"If ``frames`` is greater than 1, the spinner will do the animation. The "
-"spinner height is calculated by dividing original image height by frames."
-msgstr "``frames`` が 1 以上に設定されている場合、スピナーアニメーションが実行されます。スピナーの高さは、画像の縦の長さを ``frames`` で割って、計算されます。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:263
-msgid "Errors"
-msgstr "エラー"
-
-#: ../doc/reference/monaca_api/utility-29.rst:252
-msgid ""
-"Below are the errors you may encounter while using ``monaca.showSpinner`` "
-"function:"
-msgstr "``monaca.showSpinner`` 関数の使用時に表示されるエラーは、次のとおりです。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:255
-msgid "Case"
-msgstr "原因"
-
-#: ../doc/reference/monaca_api/utility-29.rst:255
-msgid "Error Message (English Only)"
-msgstr "エラーメッセージ ( 英語表記 )"
-
-#: ../doc/reference/monaca_api/utility-29.rst:257
-msgid "When specified image file is not found"
-msgstr "指定された画像ファイルが見つからない場合"
-
-#: ../doc/reference/monaca_api/utility-29.rst:257
-msgid "Spinner image not found: SRC_PATH"
-msgstr "Spinner image not found: SRC_PATH"
-
-#: ../doc/reference/monaca_api/utility-29.rst:258
-msgid "When specified image format is invalid"
-msgstr "指定された画像の形式がサポートされていない場合"
-
-#: ../doc/reference/monaca_api/utility-29.rst:258
-msgid "Spinner image is not a PNG format: SRC_PATH"
-msgstr "Spinner image is not a PNG format: SRC_PATH"
-
-#: ../doc/reference/monaca_api/utility-29.rst:259
-msgid "When ``interval`` is less than 50, or not string"
-msgstr "``interval`` が 50 よりも小さい場合、または、文字列の場合"
-
-#: ../doc/reference/monaca_api/utility-29.rst:259
-msgid "Spinner interval needs to be greater than 50 milliseconds"
-msgstr "Spinner interval needs to be greater than 50 milliseconds"
-
-#: ../doc/reference/monaca_api/utility-29.rst:260
-msgid "When ``backgroundColor`` format is wrong"
-msgstr "``backgroundColor`` の形式が誤っている場合"
-
-#: ../doc/reference/monaca_api/utility-29.rst:260
-msgid "Spinner background color is invalid."
-msgstr "Spinner background color is invalid."
-
-#: ../doc/reference/monaca_api/utility-29.rst:261
-msgid "When ``backgroundOpacity`` is not between 0 and 1"
-msgstr "``backgroundOpacity`` が 0 から 1 まで以外の場合"
-
-#: ../doc/reference/monaca_api/utility-29.rst:261
-msgid "Spinner background opacity is invalid."
-msgstr "Spinner background opacity is invalid."
-
-#: ../doc/reference/monaca_api/utility-29.rst:270
-msgid "monaca.hideSpinner() - Hide spinner window"
-msgstr "monaca.hideSpinner() - スピナーアニメーションの非表示"
-
-#: ../doc/reference/monaca_api/utility-29.rst:272
-msgid ""
-"Hide spinner window. Does nothing if spinner is not shown (not even output "
-"any error)."
-msgstr "スピナーウィンドウを非表示にします。スピナーが非表示の場合、何も起こらず、エラーも出力されません。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:274
-msgid ":dfn:`monaca.hideSpinner()`"
-msgstr ":dfn:`monaca.hideSpinner()`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:292
-msgid "monaca.updateSpinnerTitle() - Update spinner title"
-msgstr "monaca.updateSpinnerTitle() - スピナーのタイトルの更新"
-
-#: ../doc/reference/monaca_api/utility-29.rst:294
-msgid "Update spinner title as specified."
-msgstr "指定されたタイトルを使用して、スピナーのタイトルを更新します。"
-
-#: ../doc/reference/monaca_api/utility-29.rst:296
-msgid ":dfn:`monaca.updateSpinnerTitle(title)`"
-msgstr ":dfn:`monaca.updateSpinnerTitle(title)`"
-
-#: ../doc/reference/monaca_api/utility-29.rst:300
-msgid "The title of the spinner."
-msgstr "スピナーのタイトル"
 
 #: ../doc/reference/native/android_menu.rst:5
 msgid "Native Menu (Android)"
