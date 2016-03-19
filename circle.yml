@@ -25,6 +25,12 @@ deployment:
     commands:
       - ./node_modules/.bin/gulp generate
       - S3_BUCKET="s.docs.monaca.io" ./node_modules/.bin/gulp deploy
+      - git add src/locale
+      - git config user.name "CircleCI"
+      - git config user.email "nobody@monaca.io"
+      - git commit -v -m 'Updated po files.'
+      - git remote set-url --push origin "$GITHUB_URL"
+      - git push origin master
   production:
     branch: production
     commands:
