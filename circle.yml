@@ -23,12 +23,10 @@ deployment:
   staging:
     branch: master
     commands:
-      - export S3_BUCKET="s.docs.monaca.io"
       - ./node_modules/.bin/gulp generate
-      - ./node_modules/.bin/gulp deploy
+      - S3_BUCKET="s.docs.monaca.io" ./node_modules/.bin/gulp deploy
   production:
     branch: production
     commands:
-      - export S3_BUCKET="docs.monaca.io"
       - ./node_modules/.bin/gulp generate
-      - ./node_modules/.bin/gulp deploy
+      - S3_BUCKET="docs.monaca.io" ./node_modules/.bin/gulp deploy
