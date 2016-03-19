@@ -135,7 +135,7 @@ gulp.task('transifex-download', function(done){
 // metalsmith
 //////////////////////////////
 gulp.task('metalsmith', function(done) {
-  runSequence(['metalsmith-en', 'metalsmith-ja'], 'metalsmith-common', done);
+  runSequence('metalsmith-en', 'metalsmith-ja', 'metalsmith-common', done);
 });
 gulp.task('metalsmith-en', function(done) {
   metalsmith({ lang: "en" }).build(done);
@@ -145,7 +145,7 @@ gulp.task('metalsmith-ja', function(done) {
 });
 gulp.task('metalsmith-common', function(done) {
   // Copy only src/web/pages/index.html and other files in the root dir.
-  return gulp.src("src/web/page/*").pipe(gulp.dest('build/web'));
+  return gulp.src("src/web/page/*").pipe(gulp.dest('build/web', {overwrite: true}));
 })
 
 //////////////////////////////
