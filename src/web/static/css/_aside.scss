@@ -7,125 +7,6 @@ aside.global {
   width: 288px;
   @include box-sizing(border-box);
 
-  /* searchbox */
-  div.aside-search {
-    background-color: #e0e0e0;
-    padding: 15px 13px;
-
-    ::-webkit-input-placeholder { /* WebKit browsers */
-      color: #777;
-    }
-    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-      color: #777;
-    }
-    ::-moz-placeholder { /* Mozilla Firefox 19+ */
-      color: #777;
-    }
-
-    .spinner {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    > input[type=text] {
-      background: url(/static/img/common/ico_magnifying_glass.png) no-repeat 9px 6px #ffffff;
-      border-radius: 14px;
-      height: 28px;
-      border-width: 0px;
-      display: inline-block;
-      width: 224px;
-      padding: 0px 0 0 35px;
-      color: #333333;
-      font-size: 14px;
-
-      &:-ms-input-placeholder { /* Internet Explorer 10+ */
-        color: #777;
-      }
-    }
-
-    > span.button {
-      position: absolute;
-    }
-
-    > span#aside-search-upper-arrow {
-      background-image: url(/static/img/common/arrow_upper_14px.png);
-      top: 24px;
-      left: 268px;
-      height: 10px;
-      cursor: pointer;
-      width: 14px;
-      &:hover {
-        background-position: 0px 10px;
-      }
-    }
-
-    > span#aside-search-down-arrow {
-      background-image: url(/static/img/common/arrow_lower_14px.png);
-      top: 24px;
-      left: 288px;
-      height: 10px;
-      width: 14px;
-      cursor: pointer;
-      &:hover {
-        background-position: 0px 10px;
-      }
-    }
-
-    > span#aside-search-clear {
-      background-image: url(/static/img/common/btn_close_16px.png);
-      top: 21px;
-      right: 24px;
-      height: 16px;
-      width: 16px;
-      cursor: pointer;
-      &:hover {
-        background-position: 0px 16px;
-      }
-    }
-  }
-
-  div.aside-search-notfound {
-    position: absolute;
-    top: 58px;
-    right: 0px;
-    left: 0px;
-
-    text-align: center;
-    > h2 {
-      border: 0px;
-      margin: 20px 0 7px 0;
-      padding: 0;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: bold;
-      color: #444;
-    }
-    > p {
-      font-size: 14px;
-      line-height: 20px;
-      color: #444;
-    }
-  }
-
-  div.aside-searching {
-    position: absolute;
-    top: 58px;
-    right: 0px;
-    left: 0px;
-    text-align: center;
-    > h2 {
-      border: 0px;
-      margin: 20px 0 7px 0;
-      padding: 0;
-    }
-    > p {
-      font-size: 14px;
-      line-height: 20px;
-      color: #444;
-    }
-  }
-
   ::-webkit-scrollbar {
     width: 8px;
   }
@@ -152,49 +33,59 @@ aside.global {
       > ul {
         margin-left: 0;
         padding-top: 10px;
-        li {
-          color: #5d89cb;
-          font-size: 1.14rem;
-          line-height: 1.2;
-          margin: 0;
-          padding: 6px 0 6px $aside-padding;
-          position: relative;
-          @include all-a(#5d89cb,none);
-          @include transition(background-color 100ms);
-          &:before {
-            content: "";
-            width: 0;
-            height: 0;
-            border: 3px solid transparent;
-            border-top-color: #444;
-            border-right-color: #444;
-            @include transform(rotate(45deg));
-            position: absolute;
-            top: 14px;
-            left: 10px;
+        > li {
+          > a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
           }
+          > ul {
+            padding: 10px;
+            li {
+              color: #5d89cb;
+              line-height: 1.2;
+              margin: 0;
+              padding: 6px 0 6px $aside-padding;
+              position: relative;
+              @include all-a(#5d89cb,none);
+              @include transition(background-color 100ms);
 
-          a {
-            box-sizing: border-box;
-            display: inline-block;
-            font-weight: 700;
-            width: 100%;
-            height: 100%;
-            word-break: break-word;
-            &:link,
-            &:visited {
-              color: #444;
-            }
-            &:hover {
-              color: #444;
-              text-decoration: underline;
-            }
-            &:active {
-              color: #444;
-            }
-            > img {
-              width: 9px;
-              margin-right: 7px;
+              a {
+                padding-left: 5px;
+                box-sizing: border-box;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                word-break: break-word;
+                &:link,
+                &:visited {
+                  color: $monaca-blue;
+                }
+                &:hover {
+                  color: $monaca-blue;
+                  text-decoration: underline;
+                }
+                &:active {
+                  color: $monaca-blue;
+                }
+                > img {
+                  width: 9px;
+                  margin-right: 7px;
+                }
+              }
+
+              &.current {
+                > a {
+                  background-color: $monaca-blue;
+                  padding-top: 0.5em;
+                  padding-bottom: 0.5em;
+                  text-decoration: none;
+                  &, &:link, &:hover, &:visited {
+                    color: white;
+                  }
+                }
+              }
             }
           }
           
@@ -204,17 +95,6 @@ aside.global {
             padding-bottom: 0;
             &:before {
               top: 14px;
-            }
-          }
-          &.current {
-            padding: 0;
-            > a {
-              background-color: $monaca-blue;
-              padding-left: $aside-padding;
-              font-weight: bold;
-              &, &:link, &:hover, &:visited {
-                color: white;
-              }
             }
           }
         }

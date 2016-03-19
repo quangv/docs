@@ -37,140 +37,6 @@ $(function(){
 
   new ImagePreloader(["/static/img/common/btn_top.png", "/static/img/common/btn_top_hover.png", "/static/img/common/btn_top_active.png"]).load();
 
-  var changeTitle = function(url) {
-    var h1 = $("h1").text();
-    var suffix = " | Monaca";
-      if (url.split("en/quick_start/").pop()==="") {
-        h1 ="Monaca Quick Start Guide";
-      } else if (url.split("en/quick_start/overview/").pop()==="") {
-        h1 = "Monaca Quick Start Guide - Overview";
-      } else if (url.indexOf("en/quick_start/overview/") > -1) {
-        h1 = "Monaca Overview - " + h1;
-      } else if (url.split("en/quick_start/tutorials/").pop()==="") {
-        h1 ="Monaca Quick Start Guide - Tutorials";
-      } else if (url.indexOf("en/quick_start/tutorials/cloud_ide/") > -1) {
-        if (url.split("en/quick_start/tutorials/cloud_ide/").pop()==="") {
-          h1 ="Monaca Tutorials - Online IDE";
-        } else {
-          h1 ="Online IDE - " + h1.split(": ").pop();
-        }
-      } else if (url.indexOf("en/quick_start/tutorials/localkit/") > -1) {
-        if (url.split("en/quick_start/tutorials/localkit/").pop()==="") {
-          h1 ="Monaca Tutorials - " + h1;
-        } else {
-          h1 ="Monaca Localkit - " + h1.split(": ").pop();
-        }
-      } else if (url.split("en/sampleapp/samples/").pop()==="") {
-        h1 = "Monaca Sample Apps";
-      } else if (url.split("en/sampleapp/").pop()==="") {
-        h1 = "Monaca Samples & Development Tips";
-      } else if (url.indexOf("en/sampleapp/samples/") > -1) {
-          h1 = "Monaca Sample Apps - " + h1;
-      } else if (url.split("en/sampleapp/tips/").pop()==="") {
-        h1 = "Monaca Tips & Tricks";
-      } else if (url.indexOf("en/sampleapp/tips/") > -1) {
-        h1 = "Monaca Tips & Tricks - " + h1;
-      } else if (url.split("en/manual/").pop()==="") {
-        h1 = "Monaca Development Manual";
-      } else if (url.split("en/manual/development/").pop()==="") {                                                                   
-        h1 = "Monaca Development Manual - Development Environment"; 
-      } else if (url.indexOf("en/manual/development/monaca_ide/") > -1) {
-        if (url.split("en/manual/development/monaca_ide/").pop()==="") {
-          h1 ="Monaca Development Manual - Online IDE";
-        } else {
-          h1 ="Monaca Development Manual - Online IDE - " + h1;
-        }
-      } else if (url.split("en/manual/development/monaca_localkit/").pop()==="") {                                                       
-        h1 = "Monaca Localkit Documentation";
-      } else if (url.split("en/manual/development/monaca_cli/").pop()==="") {
-        h1 = "Monaca CLI Documentation";
-      } else if (url.indexOf("en/manual/development/monaca_vs/") > -1) {
-        if (url.split("en/manual/development/monaca_vs/").pop()==="") {
-          h1 ="Monaca for Visual Studio Documentation";
-        } else {
-          h1 ="Monaca for Visual Studio Documentation - " + h1;
-        }  
-      } else if (url.indexOf("en/manual/debugger/") > -1) {
-        if (url.split("en/manual/debugger/").pop()==="") {
-          h1 ="Monaca Development Manual - Debugger";
-        } else {
-          h1 ="Monaca Development Manual - Debugger - " + h1;
-        }
-      } else if (url.indexOf("en/manual/backend/") > -1) {
-        if (url.split("en/manual/backend/").pop()==="") {
-          h1 ="Monaca Development Manual - Backend";
-        } else {
-          h1 ="Monaca Development Manual - Backend - " + h1;
-        }  
-      } else if (url.indexOf("en/manual/dependencies/") > -1) {
-        if (url.split("en/manual/dependencies/").pop()==="") {
-          h1 ="Monaca Development Manual - " + h1;
-        } else {
-          h1 ="Monaca Development Manual - Project Dependencies - " + h1;
-        }
-      } else if (url.indexOf("en/manual/build/") > -1) {
-        if (url.split("en/manual/build/").pop()==="") {
-          h1 ="Monaca Development Manual - " + h1;
-        } else {
-          h1 ="Monaca Development Manual - " + h1;
-        } 
-      } else if (url.indexOf("en/manual/deploy/") > -1) {
-        if (url.split("en/manual/deploy/").pop()==="") {
-          h1 ="Monaca Development Manual - App Distribution";
-        } else {
-          h1 ="Monaca Development Manual - " + h1;
-        } 
-      } else if (url.indexOf("en/reference/") > -1) {
-        if (url.split("en/reference/").pop()==="") {
-          h1 ="Monaca Documentation - " + h1;
-        } else if (url.indexOf("en/reference/monaca_api/") > -1) {
-          if (url.split("en/reference/monaca_api/").pop()==="") {
-            h1 = "API - " + h1;
-          } else {
-            h1 = "Monaca API - " + h1;
-          }
-        } else if (url.indexOf("en/reference/third_party_phonegap/") > -1) {
-          if (url.split("en/reference/third_party_phonegap/").pop()==="") {
-            h1 = "API - " + h1;
-          } else {
-            h1 = "Third-party Cordova Plugins - " + h1;
-          }
-         } else if (url.indexOf("en/reference/phonegap_") > -1) {
-          if (url.split("en/reference/phonegap_2.9/en/").pop()==="" || url.split("en/reference/phonegap_3.5/en/").pop()==="" || url.split("en/reference/phonegap_4.1/en/").pop()==="") {
-            h1 = "API - " + h1;
-          } else {
-            h1 = "Cordova Core Plugins - " + h1;
-          }
-        } else if (url.indexOf("en/reference/config/") > -1) {
-          h1 = "API - " + h1 + "  File";
-        
-        } else if (url.split("network-information/").pop()==="") {
-          h1 ="API - Network Information Plugin";
-        } else {
-          h1 ="API - " + h1;
-        } 
-      } else if (url.split("en/onsenui/").pop()==="") {
-        h1 = "Monaca Documentation - Onsen";
-      } else if (url.indexOf("en/faq/") > -1) {
-        if (url.split("en/faq/").pop()==="") {
-          h1 ="Monaca Documentation - FAQs Top";
-        } else if (url.split("en/faq/environment/").pop()==="") {
-          h1 = "Monaca FAQs - Online IDE";
-        } else {
-          h1 ="Monaca FAQs - " + h1.split(". ").pop();
-        }
-      } else {
-        if (LANG === "ja") {
-          h1 = "Monacaドキュメント";
-        } else {
-          h1 = "Monaca Documentation";
-        }
-      }
-      document.title = h1 + suffix;
-  }
-
-  changeTitle(document.URL);
-
   var highlight = {};
   //Initialize the document version
   $('#v_selector').val(VERSION);
@@ -225,26 +91,6 @@ $(function(){
       $(".body").highlight(keywords[i]);
   }
 
-  
-
-  var changeLangLink = function(url) {
-      if (LANG === "ja") {
-        url = url.replace("2.9/ja/reference/phonegap_2.9/ja", "2.9/en/reference/phonegap_2.9/en");
-        url = url.replace("3.5/ja/reference/phonegap_3.5/ja", "3.5/en/reference/phonegap_3.5/en");    
-        url = url.replace("4.1/ja/reference/phonegap_4.1/ja", "4.1/en/reference/phonegap_4.1/en");    
-        url = url.replace("cur/ja/reference/phonegap_5.2/ja", "cur/en/reference/phonegap_5.2/en");    
-        url = url.replace("/ja/", "/en/");
-      } else {
-        url = url.replace("2.9/en/reference/phonegap_2.9/en", "2.9/ja/reference/phonegap_2.9/ja");
-        url = url.replace("3.5/en/reference/phonegap_3.5/en", "3.5/ja/reference/phonegap_3.5/ja");
-        url = url.replace("4.1/en/reference/phonegap_4.1/en", "4.1/ja/reference/phonegap_4.1/ja");
-        url = url.replace("cur/en/reference/phonegap_5.2/en", "cur/ja/reference/phonegap_5.2/ja");
-        url = url.replace("/en/", "/ja/");
-      }
-
-      $("#footer-nav-feedback").attr("href", url);
-  }
-
   var loadLocalTocs = function() {
     //Javascript code for the right menus (See Also & Table of Contents)
     var contents_element = document.getElementsByClassName('contents local right-menu topic')[0];
@@ -264,38 +110,35 @@ $(function(){
   }
 
   var setNavCurrent = function(url) {
-    var $items = $(".aside-main ul li");
+    var parser = document.createElement('a');
+    parser.href = url;
+    url = parser.pathname;
+
+    // Global menu
+    var $items = $("nav.global > div > ul > li");
     $items.removeClass("current");
     $items.each(function() {
-      var itemUrl = document.domain + $("a", this).attr("href");
-      if (itemUrl === url.replace(/^(http:\/\/|https:\/\/)|(#.*)$/, "")) {
+      var itemUrl = $("a", this).attr("href");
+      if (url.indexOf(itemUrl) != -1) {
         $(this).addClass("current");
-        $(this).parent().show();
       }
     })
 
-    var $items = $("nav.global > ul > li");
+    // Side menu
+    var $items = $(".aside-main ul li");
     $items.removeClass("current");
     $items.each(function() {
-      var path = $(this).children("a").attr("href");
-      if (url.indexOf(path) >= 0) {
+      var itemUrl = $("a", this).attr("href");
+      if (url == itemUrl) {
         $(this).addClass("current");
+        //$(this).parent().show();
+        console.log(this)
       }
     })
   }
 
   loadLocalTocs();
   setNavCurrent(location.href);
-
-  $(document).pjax('[data-pjax] a:not(.image-reference, .download, .fancybox)', '#body-container');
-  $(document).on('pjax:complete', function(e, xhr, status, options) {
-    tweakdocs();
-    highlighter();
-    changeTitle(e.currentTarget.URL);
-    changeLangLink(e.currentTarget.URL);
-    loadLocalTocs();
-    setNavCurrent(options.url);
-  });
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {

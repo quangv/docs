@@ -14,7 +14,10 @@ function plugin(options) {
   return function(files, metalsmith, done) {
     setImmediate(done);
     Object.keys(files).forEach(function(file) {
-      if (!fjson(file)) return;
+      if (!fjson(file)) {
+        files[file].fjson = {};
+        return;
+      }
 
       var jsonMeta = JSON.parse(files[file].contents.toString());
       files[file].fjson = jsonMeta;

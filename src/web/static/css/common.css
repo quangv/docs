@@ -1039,98 +1039,7 @@ aside.global {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* searchbox */
   /* toc */ }
-  aside.global div.aside-search {
-    background-color: #e0e0e0;
-    padding: 15px 13px; }
-    aside.global div.aside-search ::-webkit-input-placeholder {
-      /* WebKit browsers */
-      color: #777; }
-    aside.global div.aside-search :-moz-placeholder {
-      /* Mozilla Firefox 4 to 18 */
-      color: #777; }
-    aside.global div.aside-search ::-moz-placeholder {
-      /* Mozilla Firefox 19+ */
-      color: #777; }
-    aside.global div.aside-search .spinner {
-      position: absolute;
-      top: 0;
-      left: 0; }
-    aside.global div.aside-search > input[type=text] {
-      background: url(/static/img/common/ico_magnifying_glass.png) no-repeat 9px 6px #ffffff;
-      border-radius: 14px;
-      height: 28px;
-      border-width: 0px;
-      display: inline-block;
-      width: 224px;
-      padding: 0px 0 0 35px;
-      color: #333333;
-      font-size: 14px; }
-      aside.global div.aside-search > input[type=text]:-ms-input-placeholder {
-        /* Internet Explorer 10+ */
-        color: #777; }
-    aside.global div.aside-search > span.button {
-      position: absolute; }
-    aside.global div.aside-search > span#aside-search-upper-arrow {
-      background-image: url(/static/img/common/arrow_upper_14px.png);
-      top: 24px;
-      left: 268px;
-      height: 10px;
-      cursor: pointer;
-      width: 14px; }
-      aside.global div.aside-search > span#aside-search-upper-arrow:hover {
-        background-position: 0px 10px; }
-    aside.global div.aside-search > span#aside-search-down-arrow {
-      background-image: url(/static/img/common/arrow_lower_14px.png);
-      top: 24px;
-      left: 288px;
-      height: 10px;
-      width: 14px;
-      cursor: pointer; }
-      aside.global div.aside-search > span#aside-search-down-arrow:hover {
-        background-position: 0px 10px; }
-    aside.global div.aside-search > span#aside-search-clear {
-      background-image: url(/static/img/common/btn_close_16px.png);
-      top: 21px;
-      right: 24px;
-      height: 16px;
-      width: 16px;
-      cursor: pointer; }
-      aside.global div.aside-search > span#aside-search-clear:hover {
-        background-position: 0px 16px; }
-  aside.global div.aside-search-notfound {
-    position: absolute;
-    top: 58px;
-    right: 0px;
-    left: 0px;
-    text-align: center; }
-    aside.global div.aside-search-notfound > h2 {
-      border: 0px;
-      margin: 20px 0 7px 0;
-      padding: 0;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: bold;
-      color: #444; }
-    aside.global div.aside-search-notfound > p {
-      font-size: 14px;
-      line-height: 20px;
-      color: #444; }
-  aside.global div.aside-searching {
-    position: absolute;
-    top: 58px;
-    right: 0px;
-    left: 0px;
-    text-align: center; }
-    aside.global div.aside-searching > h2 {
-      border: 0px;
-      margin: 20px 0 7px 0;
-      padding: 0; }
-    aside.global div.aside-searching > p {
-      font-size: 14px;
-      line-height: 20px;
-      color: #444; }
   aside.global ::-webkit-scrollbar {
     width: 8px; }
   aside.global nav.aside-main {
@@ -1149,71 +1058,61 @@ aside.global {
     aside.global nav.aside-main > div > ul {
       margin-left: 0;
       padding-top: 10px; }
-      aside.global nav.aside-main > div > ul li {
-        color: #5d89cb;
-        font-size: 1.14rem;
-        line-height: 1.2;
-        margin: 0;
-        padding: 6px 0 6px 22px;
-        position: relative;
-        -webkit-transition: background-color 100ms;
-        -moz-transition: background-color 100ms;
-        transition: background-color 100ms; }
-        aside.global nav.aside-main > div > ul li a:link, aside.global nav.aside-main > div > ul li a:visited {
+      aside.global nav.aside-main > div > ul > li > a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px; }
+      aside.global nav.aside-main > div > ul > li > ul {
+        padding: 10px; }
+        aside.global nav.aside-main > div > ul > li > ul li {
           color: #5d89cb;
-          text-decoration: none; }
-        aside.global nav.aside-main > div > ul li a:hover {
-          color: #5d89cb;
-          text-decoration: underline; }
-        aside.global nav.aside-main > div > ul li a:active {
-          color: #5d89cb;
-          text-decoration: none; }
-        aside.global nav.aside-main > div > ul li:before {
-          content: "";
-          width: 0;
-          height: 0;
-          border: 3px solid transparent;
-          border-top-color: #444;
-          border-right-color: #444;
-          -webkit-transform: rotate(45deg);
-          -moz-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          -o-transform: rotate(45deg);
-          transform: rotate(45deg);
-          position: absolute;
-          top: 14px;
-          left: 10px; }
-        aside.global nav.aside-main > div > ul li a {
-          box-sizing: border-box;
-          display: inline-block;
-          font-weight: 700;
-          width: 100%;
-          height: 100%;
-          word-break: break-word; }
-          aside.global nav.aside-main > div > ul li a:link, aside.global nav.aside-main > div > ul li a:visited {
-            color: #444; }
-          aside.global nav.aside-main > div > ul li a:hover {
-            color: #444;
+          line-height: 1.2;
+          margin: 0;
+          padding: 6px 0 6px 22px;
+          position: relative;
+          -webkit-transition: background-color 100ms;
+          -moz-transition: background-color 100ms;
+          transition: background-color 100ms; }
+          aside.global nav.aside-main > div > ul > li > ul li a:link, aside.global nav.aside-main > div > ul > li > ul li a:visited {
+            color: #5d89cb;
+            text-decoration: none; }
+          aside.global nav.aside-main > div > ul > li > ul li a:hover {
+            color: #5d89cb;
             text-decoration: underline; }
-          aside.global nav.aside-main > div > ul li a:active {
-            color: #444; }
-          aside.global nav.aside-main > div > ul li a > img {
-            width: 9px;
-            margin-right: 7px; }
-        aside.global nav.aside-main > div > ul li li {
-          font-size: 0.93rem;
-          padding-top: 8px;
-          padding-bottom: 0; }
-          aside.global nav.aside-main > div > ul li li:before {
-            top: 14px; }
-        aside.global nav.aside-main > div > ul li.current {
-          padding: 0; }
-          aside.global nav.aside-main > div > ul li.current > a {
+          aside.global nav.aside-main > div > ul > li > ul li a:active {
+            color: #5d89cb;
+            text-decoration: none; }
+          aside.global nav.aside-main > div > ul > li > ul li a {
+            padding-left: 5px;
+            box-sizing: border-box;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            word-break: break-word; }
+            aside.global nav.aside-main > div > ul > li > ul li a:link, aside.global nav.aside-main > div > ul > li > ul li a:visited {
+              color: #5d89cb; }
+            aside.global nav.aside-main > div > ul > li > ul li a:hover {
+              color: #5d89cb;
+              text-decoration: underline; }
+            aside.global nav.aside-main > div > ul > li > ul li a:active {
+              color: #5d89cb; }
+            aside.global nav.aside-main > div > ul > li > ul li a > img {
+              width: 9px;
+              margin-right: 7px; }
+          aside.global nav.aside-main > div > ul > li > ul li.current > a {
             background-color: #5d89cb;
-            padding-left: 22px;
-            font-weight: bold; }
-            aside.global nav.aside-main > div > ul li.current > a, aside.global nav.aside-main > div > ul li.current > a:link, aside.global nav.aside-main > div > ul li.current > a:hover, aside.global nav.aside-main > div > ul li.current > a:visited {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            text-decoration: none; }
+            aside.global nav.aside-main > div > ul > li > ul li.current > a, aside.global nav.aside-main > div > ul > li > ul li.current > a:link, aside.global nav.aside-main > div > ul > li > ul li.current > a:hover, aside.global nav.aside-main > div > ul > li > ul li.current > a:visited {
               color: white; }
+      aside.global nav.aside-main > div > ul > li li {
+        font-size: 0.93rem;
+        padding-top: 8px;
+        padding-bottom: 0; }
+        aside.global nav.aside-main > div > ul > li li:before {
+          top: 14px; }
 
 /*Table of Content (right menu)*/
 div.contents.local.right-menu.topic {

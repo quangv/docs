@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200" />
+
+  {{#if fjson.title}}
+    <title>{{{fjson.title}}} - Monaca Docs</title>
+  {{else}}
+    <title>Monaca Docs - Cloud-powered Cordova Dev Platform</title>
+  {{/if}}
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.7.0/jquery.pjax.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
   <script src="/static/js/jquery.fancybox.pack.js"></script>
-  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
+  <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
   <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
   <link rel="stylesheet" href="/static/css/common.css?20150406" type="text/css" />
   <link rel="stylesheet" href="/static/css/highlight.css?20150406" type="text/css" />
@@ -47,7 +52,7 @@
 
   {{> header }}
 
-  <article id="body-container" class="main" data-pjax>
+  <article id="body-container" class="main">
     {{#if fjson.body}}
       {{{fjson.body}}}
     {{else}}
