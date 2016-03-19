@@ -144,7 +144,7 @@ gulp.task('metalsmith-ja', function(done) {
   metalsmith({ lang: "ja" }).build(done);
 });
 gulp.task('metalsmith-common', function(done) {
-  return gulp.src("src/web/page/*").pipe(gulp.dest('build/web'));
+  return gulp.src("src/web/page/**/*").pipe(gulp.dest('build/web'));
 })
 
 //////////////////////////////
