@@ -3,6 +3,13 @@ body {
   position: relative;
 }
 
+body.no-sidebar {
+  article.main {
+    float: none;
+    width: auto;
+  }
+}
+
 article.main {
   @include all-box-shadow(-1px,0,1px,rgba(0,0,0,0.05));
   @include clearfix-after;

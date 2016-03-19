@@ -24,13 +24,13 @@ function switchVersion(switchVersion) {
 <!-- Docs local header -->
 <header class="global">
   <div class="headcont">
-    <a href="/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
+    <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
     <nav class="global" data-pjax>
-    {{{globaltoc}}}
+      {{{globaltoc}}}
     </nav>
     <p class="version_selector">
       {{#if cordovaVersions}}
-        {{#is lang "ja"}}Cordovaバージョン: {{else}}Cordova Version: {{/is}}
+        {{#is lang "ja"}}Cordova {{else}}Cordova {{/is}}
         {{#eachProperty cordovaVersions}}
           {{#if value.selected}}
             <span class="currentVersion">{{value.versionName}}</span>

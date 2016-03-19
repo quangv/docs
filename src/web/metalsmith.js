@@ -66,7 +66,6 @@ module.exports = function(options) {
 
   function generate(done) {
     metalsmith(__dirname + '/../../')
-      .clean(false)
       .source('build/json/' + lang)
       .destination('build/web/' + lang)
       .use(function(files, metalsmith, done) {
@@ -130,6 +129,9 @@ module.exports = function(options) {
         if (err) {
            return gutil.log("Error copying page: " + err);
         }
+
+        gutil.log("Copied pages to build/json.");
+
         // Run metalsmith
         generate(done);
       });
