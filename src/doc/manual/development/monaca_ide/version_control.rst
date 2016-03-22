@@ -2,14 +2,6 @@
 Version Control (GitHub)
 ================================================
 
-.. rst-class:: right-menu
-
-.. contents:: `Version Control (GitHub)`
-   :depth: 2
-   :backlinks: none
-   :local:
-
-
 
 Introduction
 ================================================
@@ -88,7 +80,7 @@ If you want to unlink your Monaca account from GitHub, just click on :guilabel:`
 
 .. figure:: images/version_control/4.png
   :width: 600px   
-  :align: center
+  :align: left
 
 .. rst-class:: clear
 
@@ -100,7 +92,7 @@ If you accidentally revoke Monaca access with Github account, attempt to re-link
 
 .. figure:: images/version_control/14.png
   :width: 600px   
-  :align: center
+  :align: left
 
 .. rst-class:: clear
 
@@ -279,7 +271,7 @@ Every commit you made in your Monaca Cloud IDE is called Local Commit. You are a
 
 .. figure:: images/version_control/13.png
   :width: 600px   
-  :align: center
+  :align: left
 
-.. rst-class:: clear
+  .. rst-class:: clear
 
