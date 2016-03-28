@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 09:28+0000\n"
+"PO-Revision-Date: 2016-03-28 11:15+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -588,7 +588,7 @@ msgid "Click :guilabel:`Create` button to generate the API key."
 msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを生成します。"
 
 #: ../doc/manual/backend/control_panel.rst:141
-#: ../doc/manual/backend/push_notification/overview.rst:117
+#: ../doc/manual/backend/push_notification/overview.rst:112
 #: ../doc/manual/build/build_android.rst:179
 #: ../doc/manual/build/build_chrome_app.rst:96
 #: ../doc/manual/build/build_history.rst:32
@@ -596,7 +596,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/build/ios/build_ios.rst:296
 #: ../doc/manual/build/ios/import_export.rst:154
 #: ../doc/manual/debugger/debug.rst:307
-#: ../doc/manual/debugger/features.rst:196
+#: ../doc/manual/debugger/features.rst:198
 #: ../doc/manual/debugger/installation/debugger_android.rst:156
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:106
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:139
@@ -617,7 +617,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:73
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:66
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
-#: ../doc/manual/development/monaca_vs/overview.rst:263
+#: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 msgid "*See Also*"
 msgstr "*参考ページ*"
@@ -1109,33 +1109,33 @@ msgstr "プッシュ通知画面では、通知の送信状況を確認できま
 msgid "Platform: The platform of the recipient."
 msgstr "プラットフォーム : 送信先のプラットフォームが表示されます。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:80
+#: ../doc/manual/backend/push_notification/overview.rst:79
 msgid ""
 "Status: Status of the push notification which can be Queued or Finished."
 msgstr "ステータス : プッシュ通知の現在の状況が表示されます。ステータスは、Queued ( 保留中 ) または Finished ( 完了 ) のいずれかとなります。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:82
+#: ../doc/manual/backend/push_notification/overview.rst:80
 msgid "Date: The date and time when sending the push notification."
 msgstr "日付 : 通知を行った日時が表示されます。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:84
+#: ../doc/manual/backend/push_notification/overview.rst:81
 msgid ""
 "Devices: It displays ``Successful Distribution Number/Total Number of "
 "Distribution`` in which Successful Distribution represents the number of "
 "successfully sent notification while the Total Number of Distribution is the"
 " total number of sent notifications. (See the example in the screenshot "
-"below)"
-msgstr "配信端末 : ``成功した配信数/合計配信数`` の形式で、結果が表示されます。「 成功した配信数 」 は通知が成功した数を示し、「 合計配信数 」 は実際に発信した通知の数を指します。下のスクリーンショットをご確認ください。　"
+"below.)"
+msgstr ""
 
-#: ../doc/manual/backend/push_notification/overview.rst:86
+#: ../doc/manual/backend/push_notification/overview.rst:82
 msgid "Message: The content of the notification."
 msgstr "メッセージ : 通知の内容が表示されます。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:97
+#: ../doc/manual/backend/push_notification/overview.rst:92
 msgid "How to Receive JSON Data"
 msgstr "JSON データの受信方法について"
 
-#: ../doc/manual/backend/push_notification/overview.rst:99
+#: ../doc/manual/backend/push_notification/overview.rst:94
 msgid ""
 "When sending a push notification, data can be sent from the application and "
 "received by a JavaScript program. You can receive JSON data by using "
@@ -1144,24 +1144,24 @@ msgid ""
 "callback."
 msgstr "プッシュ通知の送信時、アプリに対してデータを送信できます ( ``monaca.cloud.Push.setHandler`` 関数を使用して、JSON データを受け取れます。この関数の第一引数にコールバック関数を指定すれば、JSON データをそのコールバックに渡せます )。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:101
+#: ../doc/manual/backend/push_notification/overview.rst:96
 msgid ""
 "The callback function will be called after the page is loaded; However, "
 "there may be some time lag. Therefore, please be cautious about this."
 msgstr "コールバック関数は、ページが読み込まれた後に、呼び出されます。呼び出しには、多少の時間がかかるため、この点を留意ください。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:103
+#: ../doc/manual/backend/push_notification/overview.rst:98
 msgid ""
 "An example of the data sent from an application after receiving a push "
 "notification is shown below."
 msgstr "下記は、プッシュ通信で受け取ったデータを、アプリ側で使用するサンプルです。"
 
-#: ../doc/manual/backend/push_notification/overview.rst:119
+#: ../doc/manual/backend/push_notification/overview.rst:114
 msgid ""
 ":ref:`Monaca Backend APIs for Push Notifications <push_notification_api>`"
 msgstr ":ref:`プッシュ通知用の Monaca バックエンド API <push_notification_api>`"
 
-#: ../doc/manual/backend/push_notification/overview.rst:120
+#: ../doc/manual/backend/push_notification/overview.rst:115
 msgid ""
 ":ref:`Monaca Backend Management APIs for Push Notifications "
 "<push_notification_for_backend_management_api>`"
@@ -1929,7 +1929,7 @@ msgid "Building an iOS App"
 msgstr "iOS アプリのビルド"
 
 #: ../doc/manual/build/ios/build_ios.rst:11
-#: ../doc/manual/development/monaca_ide/version_control.rst:20
+#: ../doc/manual/development/monaca_ide/version_control.rst:19
 #: ../doc/manual/development/monaca_vs/overview.rst:20
 msgid "Prerequisites"
 msgstr "事前準備"
@@ -3046,7 +3046,7 @@ msgid ":ref:`monaca_debugger_features`"
 msgstr ":ref:`monaca_debugger_features`"
 
 #: ../doc/manual/debugger/debug.rst:310
-#: ../doc/manual/debugger/features.rst:198
+#: ../doc/manual/debugger/features.rst:200
 msgid ":ref:`debugger_installation_index`"
 msgstr ":ref:`debugger_installation_index`"
 
@@ -3158,7 +3158,7 @@ msgid ""
 "you need to enable USB debugging on your device."
 msgstr "インスペクタ機能では、`Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_ を使用して、プロジェクトをデバッグ・検証できます。なお、使用時には、端末上の [ USB デバッグ ] を有効化する必要があります。"
 
-#: ../doc/manual/debugger/features.rst:111
+#: ../doc/manual/debugger/features.rst:113
 msgid ""
 "Inspector function is only available when you are using :ref:`Monaca "
 "Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. "
@@ -3167,25 +3167,25 @@ msgid ""
 "<cli_debug_app>`."
 msgstr ":ref:`Monaca Localkit <monaca_localkit_index>` または :ref:`Monaca CLI <monaca_cli_index>` の使用時のみ、このインスペクタ機能を利用できます。詳細は、:ref:`Monaca Localkit を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <localkit_debug_app>` または :ref:`Monaca CLI を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <cli_debug_app>` をご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:117
+#: ../doc/manual/debugger/features.rst:119
 msgid "Debugger Menu"
 msgstr "デバッガーのメニュー"
 
-#: ../doc/manual/debugger/features.rst:125
+#: ../doc/manual/debugger/features.rst:127
 msgid "Inside Debugger Menu, there are:"
 msgstr "デバッガーのメニューでは、次の操作・設定を行えます。"
 
-#: ../doc/manual/debugger/features.rst:127
+#: ../doc/manual/debugger/features.rst:129
 msgid ""
 "*All Projects*: shows a list of all Monaca projects which can be run on "
 "Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
 msgstr "*すべてのプロジェクト* : Monaca デバッガー上で実行可能な Monaca プロジェクトの一覧を表示します。一覧上のプロジェクトには、2 つのサブカテゴリーがあります。"
 
-#: ../doc/manual/debugger/features.rst:129
+#: ../doc/manual/debugger/features.rst:131
 msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
 msgstr "Monaca.io プロジェクト : Monaca クラウド IDE 上で作成されたプロジェクトの一覧を表示します。"
 
-#: ../doc/manual/debugger/features.rst:130
+#: ../doc/manual/debugger/features.rst:132
 msgid ""
 "Local projects: projects created in :ref:`Monaca Localkit "
 "<monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored "
@@ -3193,7 +3193,7 @@ msgid ""
 "with Monaca Localkit/CLI."
 msgstr "ローカルプロジェクト : ローカル環境用の開発ツール ( :ref:`Monaca Localkit <monaca_localkit_index>` と :ref:`Monaca CLI <monaca_cli_index>` ) を使用して作成し、ローカルに保存されているプロジェクトの一覧です。なお、Monaca Localkit ( または Monaca CLI ) とデバッガーがペアリングされているときのみ、ローカルプロジェクトの一覧は表示されます。"
 
-#: ../doc/manual/debugger/features.rst:137
+#: ../doc/manual/debugger/features.rst:139
 msgid ""
 "*Local Computers*: shows a list of all currently paired and available "
 "computers. Paired computers are local computers running Monaca Localkit/CLI "
@@ -3201,23 +3201,23 @@ msgid ""
 "following pages:"
 msgstr "*ローカルコンピュータ* : ペアリング済み、または、利用可能 ( 未接続 ) なコンピューターの一覧を表示します。ペアリング済みのコンピューターとは、Monaca Locakit または Monaca CLI がインストールされ、デバッガーに現在接続されているローカルのコンピューターです。各開発ツールとのペアリング方法は、次のリンクをご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:139
+#: ../doc/manual/debugger/features.rst:141
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca Localkit "
 "<localkit_pairing_debugging>`"
 msgstr ":ref:`Monaca Localkit と Monaca デバッガーのペアリング方法 <localkit_pairing_debugging>`"
 
-#: ../doc/manual/debugger/features.rst:140
+#: ../doc/manual/debugger/features.rst:142
 msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
 msgstr ":ref:`Monaca CLI  と Monaca デバッガーのペアリング方法 <connect_to_debugger>`"
 
-#: ../doc/manual/debugger/features.rst:141
+#: ../doc/manual/debugger/features.rst:143
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca for Visual "
 "Studio<monaca_vs_testing_debugging>`"
 msgstr ":ref:`Monaca for Visual Studio と Monaca デバッガーのペアリング方法 <monaca_vs_testing_debugging>`"
 
-#: ../doc/manual/debugger/features.rst:148
+#: ../doc/manual/debugger/features.rst:150
 msgid ""
 "*Debugger Settings*: shows debugger's configurations such as allow device to"
 " sleep, show memory usage, show splash screen (Android only), restart after "
@@ -3227,42 +3227,42 @@ msgid ""
 "your device's memory."
 msgstr "*設定* : デバッガー側の各種設定を行えます。設定可能な項目は、[ スリープを許可する ]、[ メモリー使用量表示 ]、[ スプラッシュ表示 ] ( Android のみ )、[ アプリの復帰時にプロジェクトを再実行 ]、[ ネットワーク再接続時にプロジェクトを再実行 ]、[ 同期データを削除する ]、[ Local Storage を削除する ] です。同期データとは、ローカル側と同期を行ったプロジェクトファイルを指します。また、Local Storage とは、端末のメモリー ( LocalStorage ) 上に、プロジェクト側で作成・保存したデータを指します。"
 
-#: ../doc/manual/debugger/features.rst:155
+#: ../doc/manual/debugger/features.rst:157
 msgid ""
 "*Debugger Information*: shows detailed information of the debugger such as "
 "version, platform, CLI version, WebView Engine (Android only) and available "
 "plugins."
 msgstr "*このデバッガーについて* : デバッガーの詳細情報を表示します。表示する情報は、デバッガーのバージョン番号、プラットフォーム情報、CLI バージョン番号、WebView エンジン ( Android のみ )、利用可能なプラグインの一覧などです。"
 
-#: ../doc/manual/debugger/features.rst:165
+#: ../doc/manual/debugger/features.rst:167
 msgid "Project Options"
 msgstr "プロジェクトオプション"
 
-#: ../doc/manual/debugger/features.rst:167
+#: ../doc/manual/debugger/features.rst:169
 msgid ""
 "From the project list inside Monaca Debugger, there is a Project Options "
 "button for each Monaca.io project."
 msgstr "Monaca デバッガー上のプロジェクト一覧の [ Monaca.io プロジェクト ] では、各プロジェクトの右側に [ プロジェクトオプション ] アイコンが表示されています。"
 
-#: ../doc/manual/debugger/features.rst:181
+#: ../doc/manual/debugger/features.rst:183
 msgid "Inside this Project Options button, you can:"
 msgstr "[ プロジェクトオプション ] 上では、次の設定が行えます。"
 
-#: ../doc/manual/debugger/features.rst:183
+#: ../doc/manual/debugger/features.rst:185
 msgid "favorite current project: moves it to the top of the project list."
 msgstr "スター : スター ( 星マーク ) を付けると、「 お気に入り 」 プロジェクトとして、Monaca クラウド IDE 上のプロジェクト一覧の最上位に表示されます。"
 
-#: ../doc/manual/debugger/features.rst:185
+#: ../doc/manual/debugger/features.rst:187
 msgid "lunch app: runs current project in the debugger."
 msgstr "実行する : デバッガー上で、プロジェクトを実行します。"
 
-#: ../doc/manual/debugger/features.rst:187
+#: ../doc/manual/debugger/features.rst:189
 msgid ""
 "network install: installs a built app of the current project directly from "
 "Monaca debugger."
 msgstr "インスト ( ネットワークインストール ) : Monaca デバッガー経由で、ビルド済みアプリを、端末にインストールします。"
 
-#: ../doc/manual/debugger/features.rst:189
+#: ../doc/manual/debugger/features.rst:191
 msgid ""
 "In order to use network install, you need to create a debug build of the "
 "project from Monaca Cloud IDE first. Please refer to :ref:`debug build for "
@@ -3270,14 +3270,14 @@ msgid ""
 "<types_of_build_android>`."
 msgstr "ネットワークインストールを行う前に、Monaca クラウド IDE 上で、プロジェクトをビルドして、デバッグビルド版のアプリを作成する必要があります。詳細は、:ref:`iOS 向けアプリのデバッグビルド <types_of_build_ios>` または :ref:`Android 向けアプリのデバッグビルド <types_of_build_android>` をご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:191
+#: ../doc/manual/debugger/features.rst:193
 msgid ""
 "For iOS debugger, network install is only available for the :ref:`custom "
 "built debugger <custom_debugger_ios>`. The App store version doesn't have "
 "this function."
 msgstr "ネットワークインストールは、iOS デバッガーでは、:ref:`カスタムビルド版デバッガー <custom_debugger_ios>` でのみ使用できます。App Store 版のデバッガーでは、ネットワークインストールは使用できません。"
 
-#: ../doc/manual/debugger/features.rst:199
+#: ../doc/manual/debugger/features.rst:201
 #: ../doc/manual/debugger/installation/debugger_android.rst:161
 #: ../doc/manual/debugger/installation/debugger_ios.rst:173
 msgid ":ref:`debugging_monaca_app`"
@@ -6322,7 +6322,7 @@ msgstr ":doc:`cli_commands`"
 #: ../doc/manual/development/monaca_localkit/overview.rst:228
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:70
 #: ../doc/manual/development/monaca_vs/build_publish.rst:53
-#: ../doc/manual/development/monaca_vs/overview.rst:267
+#: ../doc/manual/development/monaca_vs/overview.rst:268
 msgid ":doc:`pairing_debugging`"
 msgstr ":doc:`pairing_debugging`"
 
@@ -7129,7 +7129,7 @@ msgstr "ローカル PC 側のファイアーウォールを無効化するこ�
 #: ../doc/manual/development/monaca_localkit/overview.rst:229
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:77
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:71
-#: ../doc/manual/development/monaca_vs/overview.rst:266
+#: ../doc/manual/development/monaca_vs/overview.rst:267
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:93
 msgid ":doc:`build_publish`"
 msgstr ":doc:`build_publish`"
@@ -8669,202 +8669,195 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:9
 msgid ""
-"Version control is the management of changes to your source code/project and"
-" other collections of information. Usually, changes are determined by "
-"revision number or letter code represented as \"revision 1\" and so on. A "
-"simple and logical way to organize and manage the changes to your source "
-"code is known as version control. With version control, revisions can be "
-"compared, restored and merged to control the whole set of your source code."
+"Version control is a management tool that helps manage the changes to your "
+"project's source code and other collections of information. Usually, changes"
+" are determined by a revision code which is comprised of numbers and/or "
+"letters.  With version control, revision history can easily be tracked, "
+"compared against, restored and merged to control the whole set of your "
+"source code.  Additionally, version control systems provide is the ability "
+"to allow multiple team members or individuals to collaborate and maintain "
+"tracking over the source code."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:11
 msgid ""
-"`Git <https://en.wikipedia.org/wiki/Git_(software)>`_ is one of the popular "
-"version control systems being used to manage source code development. It is "
-"a distributed version control system which allows you to control and track "
-"your revision history. It also allows users to version projects and review "
-"changes and collaborate with team members within a project."
+"Version Control is now available within Monaca Cloud IDE with user-friendly "
+"interface. There are many version control systems; however, currently Monaca"
+" Cloud IDE supports the integration of one of the most popular Git services "
+"called `GitHub <https://github.com>`_. If you integrate your Monaca project "
+"to your repository, you can simply manage your source code right away from "
+"Monaca Cloud IDE."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:13
 msgid ""
-"Now Version Control is also available within Monaca Cloud IDE with user-"
-"friendly interface. There are many version control systems; however, Monaca "
-"Cloud IDE supports the integration of one of the most popular Git service "
-"provider called `GitHub <https://github.com>`_. If you integrate your Monaca"
-" project to your repository, you can simply manage your source code right "
-"away from Monaca Cloud IDE."
+"In this section, we will guide you on how to integrate your GitHub account "
+"with your Monaca account and configuring your Monaca project with a GitHub "
+"repository."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:15
 msgid ""
-"In this section, we will guide you on how to integrate your GitHub account "
-"and configure your working repository to sync with your Monaca projects "
-"within Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/version_control.rst:17
-msgid ""
-"Generally, you can only connect to your public repositories. However, with "
-"valid Monaca subscription plan, you can connect to your private "
+"Generally, you can only connect to public repositories. However, with valid "
+"Monaca subscription plan, you can additionally connect to private "
 "repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:22
+#: ../doc/manual/development/monaca_ide/version_control.rst:21
 msgid "In order to use version control in Monaca Cloud IDE, you will need:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:24
+#: ../doc/manual/development/monaca_ide/version_control.rst:23
 msgid "a GitHub account. Register `here <https://github.com/join>`_."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:25
+#: ../doc/manual/development/monaca_ide/version_control.rst:24
 msgid ""
 "a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:29
+#: ../doc/manual/development/monaca_ide/version_control.rst:28
 msgid "GitHub Integration"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:34
+#: ../doc/manual/development/monaca_ide/version_control.rst:33
 msgid "Link Monaca Account to GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:36
-#: ../doc/manual/development/monaca_ide/version_control.rst:138
-#: ../doc/manual/development/monaca_ide/version_control.rst:189
+#: ../doc/manual/development/monaca_ide/version_control.rst:35
+#: ../doc/manual/development/monaca_ide/version_control.rst:137
+#: ../doc/manual/development/monaca_ide/version_control.rst:183
 msgid ""
 "Log into `Monaca Cloud IDE <https://monaca.mobi/en/login>`_ with your Monaca"
 " account."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:38
+#: ../doc/manual/development/monaca_ide/version_control.rst:37
 msgid "Go to :menuselection:`Your profile name --> GitHub Integration`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:47
+#: ../doc/manual/development/monaca_ide/version_control.rst:46
 msgid ""
 "Click on :guilabel:`Link` button. You are required to login with your GitHub"
 " account before being redirected to GitHub's Authorize Application page."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:55
+#: ../doc/manual/development/monaca_ide/version_control.rst:54
 msgid ""
 "In the Authorize Application page, you will be asked to authorize the "
 "application in order to link Monaca account to GitHub. Click on "
 ":guilabel:`Authorize application` to proceed."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:64
+#: ../doc/manual/development/monaca_ide/version_control.rst:63
 msgid "Now your Monaca account is successfully linked to your GitHub account."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:73
+#: ../doc/manual/development/monaca_ide/version_control.rst:72
 msgid ""
 "Please note that you can only link one GitHub account to a Monaca account. "
 "If you try to link with multiple accounts, you will encounter an error."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:77
+#: ../doc/manual/development/monaca_ide/version_control.rst:76
 msgid "Unlink Monaca Account from GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:79
+#: ../doc/manual/development/monaca_ide/version_control.rst:78
 msgid ""
 "If you want to unlink your Monaca account from GitHub, just click on "
 ":guilabel:`Unlink` button in Link to GitHub page."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:89
+#: ../doc/manual/development/monaca_ide/version_control.rst:88
 msgid "Unable to Re-link to GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:91
+#: ../doc/manual/development/monaca_ide/version_control.rst:90
 msgid ""
 "If you accidentally revoke Monaca access with Github account, attempt to re-"
 "link with the steps described in :ref:`link_monaca_to_github` will not be "
 "possible. You will see the following error:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:100
+#: ../doc/manual/development/monaca_ide/version_control.rst:99
 msgid ""
 "Therefore, in order to re-link your account in this case, please do as "
 "follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:102
+#: ../doc/manual/development/monaca_ide/version_control.rst:101
 msgid "Logout from Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:104
+#: ../doc/manual/development/monaca_ide/version_control.rst:103
 msgid ""
 "Go to `Monaca Login <https://monaca.mobi/en/login>`_ page and choose "
 ":guilabel:`Sign in with GitHub`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:112
+#: ../doc/manual/development/monaca_ide/version_control.rst:111
 msgid "Fill in your GitHub account information."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:114
+#: ../doc/manual/development/monaca_ide/version_control.rst:113
 msgid ""
 "Then, you will be redirected to GitHub's Authorize Application page. Click "
 "on :guilabel:`Authorize application` to proceed."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:122
+#: ../doc/manual/development/monaca_ide/version_control.rst:121
 msgid ""
 "After this, your Monaca account should be successfully linked to GitHub "
 "account. You can confirm in the Link to GitHub page. It should appear like "
 "this:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:132
+#: ../doc/manual/development/monaca_ide/version_control.rst:131
 msgid "Version Control Configuration"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:134
+#: ../doc/manual/development/monaca_ide/version_control.rst:133
 msgid ""
 "Assuming that you have successfully integrated your Monaca account to GitHub"
 " account, you need to do some configurations in Monaca Cloud IDE in order to"
 " connect your project to your repository."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:136
+#: ../doc/manual/development/monaca_ide/version_control.rst:135
 msgid "Please follow the configuration instruction below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:140
+#: ../doc/manual/development/monaca_ide/version_control.rst:139
 msgid "Open a project you want to connect to a repository."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:142
+#: ../doc/manual/development/monaca_ide/version_control.rst:141
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Configure...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:150
+#: ../doc/manual/development/monaca_ide/version_control.rst:149
 msgid ""
 "Then, Monaca will list all of your empty GitHub repositories. If you do not "
 "have any empty repositories yet, you will be asked to create one."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:152
+#: ../doc/manual/development/monaca_ide/version_control.rst:151
 msgid ""
 "Only an empty repository can be used to connect to a Monaca project. Please "
 "be aware that you cannot change to another repository after configuration."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:160
+#: ../doc/manual/development/monaca_ide/version_control.rst:159
 msgid ""
 "Once you have an empty repository in GitHub, you are now able to select your"
 " remote repository. Then, click on :guilabel:`Initialize` button to save the"
 " configuration."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:168
+#: ../doc/manual/development/monaca_ide/version_control.rst:167
 msgid ""
 "Your project is then being uploaded to your new repository in GitHub. By "
 "default, your working branch will be configured as master. If you want to "
@@ -8874,28 +8867,28 @@ msgid ""
 "Configure...`)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:185
+#: ../doc/manual/development/monaca_ide/version_control.rst:179
 msgid "Import Existing Project from GitHub Repository"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:187
+#: ../doc/manual/development/monaca_ide/version_control.rst:181
 msgid ""
 "Once you have linked your Monaca account with GitHub, you can import any "
 "existing projects from GitHub repositories to Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:191
+#: ../doc/manual/development/monaca_ide/version_control.rst:185
 msgid "From Dashboard, go to :menuselection:`New Project --> Import Project`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:193
+#: ../doc/manual/development/monaca_ide/version_control.rst:187
 msgid ""
 "In Import Project dialog, fill in the necessary information and choose "
 "``Import from GitHub Repository``. Then, select the repository and click on "
 ":guilabel:`Import` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:201
+#: ../doc/manual/development/monaca_ide/version_control.rst:195
 msgid ""
 "If the import is successful, the new project will be added to Monaca "
 "Dashboard. By default, master branch will be applied to the imported "
@@ -8903,47 +8896,47 @@ msgid ""
 "Configuration page (:menuselection:`Version Control --> Configure...`)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:205
+#: ../doc/manual/development/monaca_ide/version_control.rst:199
 msgid "Working with Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:207
+#: ../doc/manual/development/monaca_ide/version_control.rst:201
 msgid ""
 "Once you have successfully connected your project with a repository, you can"
 " start working on the same project with your team members and keep it "
 "synchronized to the latest updates in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:209
+#: ../doc/manual/development/monaca_ide/version_control.rst:203
 msgid ""
 "Monaca Cloud IDE provides a very user-friendly interface supporting version "
 "control of your code. Without learning Git from the scratch, you can still "
 "perform some basic Git commands directly from the IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:213
+#: ../doc/manual/development/monaca_ide/version_control.rst:207
 msgid "Checkout Current Working Branch"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:215
+#: ../doc/manual/development/monaca_ide/version_control.rst:209
 msgid ""
 "If you have more than one branch and want to switch the current working "
 "branch, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:217
+#: ../doc/manual/development/monaca_ide/version_control.rst:211
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Configure`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:219
+#: ../doc/manual/development/monaca_ide/version_control.rst:213
 msgid ""
 "Choose the branch you want to switch to from current working branch, and "
 "click :guilabel:`Save` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:227
+#: ../doc/manual/development/monaca_ide/version_control.rst:221
 msgid ""
 "You will get an error message if you try to checkout to a new branch while "
 "you have not committed changes on the current working branch yet. Please "
@@ -8951,70 +8944,70 @@ msgid ""
 "branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:231
+#: ../doc/manual/development/monaca_ide/version_control.rst:225
 msgid "Retrieve Changes from Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:233
+#: ../doc/manual/development/monaca_ide/version_control.rst:227
 msgid ""
 "If you are familiar with Git commands, retrieve changes from remotes here "
 "refers to ``git pull`` command. In order to retrieve the changes from "
 "remotes, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:235
+#: ../doc/manual/development/monaca_ide/version_control.rst:229
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Pull`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:237
+#: ../doc/manual/development/monaca_ide/version_control.rst:231
 msgid ""
 "If there are changes in your remotes, you will receive those updates in your"
 " working branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:239
+#: ../doc/manual/development/monaca_ide/version_control.rst:233
 msgid ""
 "When you create a project in IDE, Monaca keeps all the files in "
 ":guilabel:`www` folder. Files outside of this folder are also synced even "
 "though they will not appear in the IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:244
+#: ../doc/manual/development/monaca_ide/version_control.rst:238
 msgid "Commit Changes to Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:246
+#: ../doc/manual/development/monaca_ide/version_control.rst:240
 msgid ""
 "After making changes in the current working branch, you are able to commit "
 "them back to your remote repository. To commit your changes, please do as "
 "follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:248
+#: ../doc/manual/development/monaca_ide/version_control.rst:242
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Commit`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:250
+#: ../doc/manual/development/monaca_ide/version_control.rst:244
 msgid ""
 "Fill in your commit message and check files you want to commit. Then, click "
 "on :guilabel:`Commit` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:258
+#: ../doc/manual/development/monaca_ide/version_control.rst:252
 msgid ""
 "Once you are ready to push those updates to the remote repository, select "
 ":menuselection:`Version Control --> Push`. Once it is successfully pushed, "
 "your remotes will contain latest changes made in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:262
+#: ../doc/manual/development/monaca_ide/version_control.rst:256
 msgid "Show Remote Commit History"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:264
+#: ../doc/manual/development/monaca_ide/version_control.rst:258
 msgid ""
 "In order to see full history of your previous commits in remote repository, "
 "go to :menuselection:`Version Control --> Show Remote History`. You will be "
@@ -9022,11 +9015,11 @@ msgid ""
 "history of your current branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:268
+#: ../doc/manual/development/monaca_ide/version_control.rst:262
 msgid "Show Local Commit History"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:270
+#: ../doc/manual/development/monaca_ide/version_control.rst:264
 msgid ""
 "Every commit you made in your Monaca Cloud IDE is called Local Commit. You "
 "are able to view your local commit history through :menuselection:`Version "
@@ -9925,7 +9918,7 @@ msgid ""
 msgstr "Monaca Localkit をアンインストールしても、ファイルが残っている場合があります。この場合、Program Files フォルダーから、手動で削除します。"
 
 #: ../doc/manual/development/monaca_vs/build_publish.rst:51
-#: ../doc/manual/development/monaca_vs/overview.rst:265
+#: ../doc/manual/development/monaca_vs/overview.rst:266
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:91
 msgid ":doc:`../../../quick_start/monaca_vs/index`"
 msgstr ":doc:`../../../quick_start/monaca_vs/index`"
@@ -10214,15 +10207,15 @@ msgid ""
 "Preferences`."
 msgstr ":menuselection:`MONACA --> 設定` を選択して、これらの設定を行います。"
 
-#: ../doc/manual/development/monaca_vs/overview.rst:246
+#: ../doc/manual/development/monaca_vs/overview.rst:247
 msgid "There are two ways to define the proxy server address as follows:"
 msgstr "プロキシサーバーのアドレスは、次のように設定します。"
 
-#: ../doc/manual/development/monaca_vs/overview.rst:248
+#: ../doc/manual/development/monaca_vs/overview.rst:249
 msgid "Proxy Server with basic authentication"
 msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用している場合"
 
-#: ../doc/manual/development/monaca_vs/overview.rst:254
+#: ../doc/manual/development/monaca_vs/overview.rst:255
 msgid "Proxy Server without basic authentication"
 msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用していない場合"
 

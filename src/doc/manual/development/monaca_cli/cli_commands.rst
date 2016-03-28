@@ -390,10 +390,10 @@ Builds the project on Monaca Cloud. If your project is not existed in Monaca Clo
 
 Please refer to :ref:`build_index` for more information on how to:
 
-  - config build settings for each platform
-  - types of build
-  - build the application for each platform
-  - get/install the built apps. 
+- config build settings for each platform
+- types of build
+- build the application for each platform
+- get/install the built apps. 
 
 :dfn:`$ monaca remote build [options]`
 

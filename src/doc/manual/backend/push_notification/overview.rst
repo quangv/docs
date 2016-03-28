@@ -76,15 +76,10 @@ Confirmation of Push Notification Delivery
 You can monitor your push notification activities in the Push Status & History page. In this page, you can see various information related to each push notification such as:
 
 - Platform: The platform of the recipient.
-
 - Status: Status of the push notification which can be Queued or Finished.
-
 - Date: The date and time when sending the push notification.
-
-- Devices: It displays ``Successful Distribution Number/Total Number of Distribution`` in which Successful Distribution represents the number of successfully sent notification while the Total Number of Distribution is the total number of sent notifications. (See the example in the screenshot below)
-
+- Devices: It displays ``Successful Distribution Number/Total Number of Distribution`` in which Successful Distribution represents the number of successfully sent notification while the Total Number of Distribution is the total number of sent notifications. (See the example in the screenshot below.)
 - Message: The content of the notification.
-
 
   .. figure:: images/overview/3.png
       :width: 600px

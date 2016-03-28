@@ -148,8 +148,8 @@ If you use Activation Code:
 
 Characteristics of hybrid apps:
 
- - The app consists of Web app and native characteristics. (See the picture below) 
- - Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms.
+- The app consists of Web app and native characteristics. (See the picture below) 
+- Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms.
 
 .. figure:: images/monaca_intro/4.png
   :width: 600px
@@ -160,9 +160,9 @@ Characteristics of hybrid apps:
 
 Required knowledge for hybrid app development:
 
- - HTML and CSS for UI (User Interface) design
- - JavaScript for controlling the app
- - JavaScript libraries for accessing the native functions of a device and additional plugins
+- HTML and CSS for UI (User Interface) design
+- JavaScript for controlling the app
+- JavaScript libraries for accessing the native functions of a device and additional plugins
 
 .. note:: iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, a JavaScript library, to access native functions of a device. Windows apps run on Windows runtime while Chrome apps run on Chrome runtime.
 

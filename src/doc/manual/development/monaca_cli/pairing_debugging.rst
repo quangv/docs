@@ -13,9 +13,9 @@ In order to debug Monaca app with Monaca CLI, you need to pair your host PC (run
 
 Before connecting Monaca Debugger to your local PC, please pay attention to the following points:
 
-  1. Monaca Debugger and the local PC have to connect to the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case.
-  2. Use the same Monaca account for either Monaca Debugger and the local PC.
-  3. Disable the local PC's firewall.
+1. Monaca Debugger and the local PC have to connect to the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case.
+2. Use the same Monaca account for either Monaca Debugger and the local PC.
+3. Disable the local PC's firewall.
 
 
 .. _cli_pairing:

@@ -272,7 +272,7 @@ ul.simple {
   padding-left: 0px; }
   blockquote ul li,
   ul.simple li {
-    margin-left: 40px;
+    margin-left: 50px;
     line-height: 30px;
     list-style-type: disc;
     list-style-position: outsinde; }
@@ -979,7 +979,7 @@ article.main div.toctree-wrapper {
           text-decoration: underline; }
     article.main div.toctree-wrapper li.toctree-l2:first-child {
       margin-left: 0px;
-      padding-left: 45px;
+      padding-left: 35px;
       border-top: 2px solid #35527c;
       margin-top: 4px;
       padding-top: 14px; }
@@ -991,7 +991,7 @@ article.main div.toctree-wrapper {
     article.main div.toctree-wrapper li.toctree-l2 {
       font-size: 15px;
       font-weight: normal;
-      margin-left: 45px;
+      margin-left: 35px;
       list-style: url(../img/common/icon_triangle_black.png) inside; }
       article.main div.toctree-wrapper li.toctree-l2 a {
         text-decoration: none;
@@ -1002,7 +1002,7 @@ article.main div.toctree-wrapper {
       font-size: 15px;
       font-weight: normal;
       margin-left: 0px;
-      padding-left: 45px;
+      padding-left: 35px;
       margin-bottom: 40px;
       list-style: url(../img/common/icon_triangle_black.png) inside; }
       article.main div.toctree-wrapper li.toctree-l2:last-child a {
@@ -1191,7 +1191,7 @@ div.admonition {
       color: #333;
       font-size: 13px;
       padding-top: 10px;
-      margin-left: -5px; }
+      margin-left: -10px; }
       div.admonition.seealso ul.simple li {
         line-height: 200%; }
   div.admonition p.admonition-title {

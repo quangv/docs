@@ -6,15 +6,14 @@ Version Control (GitHub)
 Introduction
 ================================================
 
-Version control is the management of changes to your source code/project and other collections of information. Usually, changes are determined by revision number or letter code represented as "revision 1" and so on. A simple and logical way to organize and manage the changes to your source code is known as version control. With version control, revisions can be compared, restored and merged to control the whole set of your source code.
+Version control is a management tool that helps manage the changes to your project's source code and other collections of information. Usually, changes are determined by a revision code which is comprised of numbers and/or letters.  With version control, revision history can easily be tracked, compared against, restored and merged to control the whole set of your source code.  Additionally, version control systems provide is the ability to allow multiple team members or individuals to collaborate and maintain tracking over the source code.
 
-`Git <https://en.wikipedia.org/wiki/Git_(software)>`_ is one of the popular version control systems being used to manage source code development. It is a distributed version control system which allows you to control and track your revision history. It also allows users to version projects and review changes and collaborate with team members within a project.
+Version Control is now available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, currently Monaca Cloud IDE supports the integration of one of the most popular Git services called `GitHub <https://github.com>`_. If you integrate your Monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE.
 
-Now Version Control is also available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, Monaca Cloud IDE supports the integration of one of the most popular Git service provider called `GitHub <https://github.com>`_. If you integrate your Monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE. 
+In this section, we will guide you on how to integrate your GitHub account with your Monaca account and configuring your Monaca project with a GitHub repository.
 
-In this section, we will guide you on how to integrate your GitHub account and configure your working repository to sync with your Monaca projects within Monaca Cloud IDE.
+.. note:: Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
 
-.. note:: Generally, you can only connect to your public repositories. However, with valid Monaca subscription plan, you can connect to your private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
 
 Prerequisites
 ================================================
@@ -80,7 +79,7 @@ If you want to unlink your Monaca account from GitHub, just click on :guilabel:`
 
 .. figure:: images/version_control/4.png
   :width: 600px   
-  :align: left
+  :align: center
 
 .. rst-class:: clear
 
@@ -92,7 +91,7 @@ If you accidentally revoke Monaca access with Github account, attempt to re-link
 
 .. figure:: images/version_control/14.png
   :width: 600px   
-  :align: left
+  :align: center
 
 .. rst-class:: clear
 
@@ -172,11 +171,6 @@ Please follow the configuration instruction below:
     :align: left
 
   .. rst-class:: clear
-
-
-
-
-
 
 
 .. _version_control_import_project_github:
@@ -273,5 +267,4 @@ Every commit you made in your Monaca Cloud IDE is called Local Commit. You are a
   :width: 600px   
   :align: left
 
-  .. rst-class:: clear
 
