@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 11:25+0000\n"
+"PO-Revision-Date: 2016-03-28 11:30+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3592,7 +3592,7 @@ msgid ""
 " returns a ``CameraPopoverHandle`` object, which can be used to reposition "
 "the image selection dialog, for example, when the device orientation "
 "changes."
-msgstr ""
+msgstr "``Camera.sourceType`` が ``Camera.PictureSourceType.PHOTOLIBRARY``の場合、または、 ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` の場合、画像用のダイアログが表示され、既存の画像を選択できます。``camera.getPicture`` 関数は ``CameraPopoverHandle``\nオブジェクトを返します。このオブジェクトを使用して、画像選択用のダイアログの位置を変更できます。例えば、端末の向きを変えた場合に使用します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:64
 #: ../doc/reference/cordova_4.1/camera/index.rst:96
@@ -3600,13 +3600,13 @@ msgstr ""
 msgid ""
 "The return value is sent to the ``cameraSuccess`` callback function, in one "
 "of the following formats, depending on the specified ``cameraOptions``:"
-msgstr ""
+msgstr "返り値は ``cameraSuccess`` 関数に渡されます。値 ( 文字列 ) は ``cameraOptions`` の設定に基づき、以下のいずれかのフォーマットで送られます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:68
 #: ../doc/reference/cordova_4.1/camera/index.rst:100
 #: ../doc/reference/cordova_5.2/camera/index.rst:95
 msgid "A ``String`` containing the base64-encoded photo image."
-msgstr ""
+msgstr "Base64 形式でエンコードされた写真画像を表す ``文字列``"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:70
 #: ../doc/reference/cordova_4.1/camera/index.rst:102
@@ -3614,20 +3614,20 @@ msgstr ""
 msgid ""
 "A ``String`` representing the image file location on local storage "
 "(default)."
-msgstr ""
+msgstr "ローカルストレージ内の画像ファイルの場所を表す ``文字列`` (デフォルト )"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:73
 #: ../doc/reference/cordova_4.1/camera/index.rst:105
 #: ../doc/reference/cordova_5.2/camera/index.rst:100
 msgid ""
 "You can do whatever you want with the encoded image or URI, for example:"
-msgstr ""
+msgstr "エンコードされた画像または URIを使用して、さまざまな処理を行うことができます。以下に例を示します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:75
 #: ../doc/reference/cordova_4.1/camera/index.rst:107
 #: ../doc/reference/cordova_5.2/camera/index.rst:102
 msgid "Render the image in an ``<img>`` tag, as in the example below"
-msgstr ""
+msgstr "``<img>`` タグで画像を表示。使用例を次のセクションで示します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:77
 #: ../doc/reference/cordova_4.1/camera/index.rst:109
@@ -3635,13 +3635,13 @@ msgstr ""
 msgid ""
 "Save the data locally (``LocalStorage``, `Lawnchair "
 "<http://brianleroux.github.com/lawnchair/>`__, etc.)"
-msgstr ""
+msgstr "ローカルにデータを保存 ( ``LocalStorage`` 、`Lawnchair <http://brianleroux.github.com/lawnchair/>`__ など )"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:80
 #: ../doc/reference/cordova_4.1/camera/index.rst:112
 #: ../doc/reference/cordova_5.2/camera/index.rst:107
 msgid "Post the data to a remote server"
-msgstr ""
+msgstr "リモートサーバーにデータを送信"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:82
 #: ../doc/reference/cordova_4.1/camera/index.rst:114
@@ -3651,7 +3651,7 @@ msgid ""
 "from the device's gallery are not downscaled to a lower quality, even if a "
 "``quality`` parameter is specified. To avoid common memory problems, set "
 "``Camera.destinationType`` to ``FILE_URI`` rather than ``DATA_URL``."
-msgstr ""
+msgstr "**注意:** 最新のデバイスで撮影した写真は高い解像度になります。デバイスのギャラリーから取得する画像は ``quality`` パラメーターで画質を指定しても、縮小されません。メモリー問題を回避するために、 ``Camera.destinationType`` を、\\ ``DATA_URL`` ではなく、\\ ``FILE_URI``\nに設定してください。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:95
 #: ../doc/reference/cordova_3.5/camera/index.rst:266
@@ -3712,7 +3712,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media/index.rst:505
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:102
 msgid "Android Quirks"
-msgstr ""
+msgstr "Android 特有の動作"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:97
 msgid ""
@@ -3731,7 +3731,7 @@ msgid ""
 "returns-different-uri-for-intent-action-get-content/20177611>`__. Please see"
 " `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ to track this "
 "issue."
-msgstr ""
+msgstr "*Android 4.4 特有*: Android 4.4 では、新しい `ストレージ アクセスフレームワーク <https://developer.android.com/guide/topics/providers/document-provider.html>`__ を導入しました。このフレームワークを使用して、各ドキュメント ストレージプロバイダーが保有するドキュメントの検索と表示が簡単に行えるようになりました。Cordovaでは、 ``destinationType`` を ``FILE_URI`` に設定して、\"Recent\" 、\"Drive\" 、 \"Images\" 、 \"External Storage\"のいずれかをユーザが選択したとき、 ``getPicture()``メソッドが写真を適当に返さないため、このストレージ アクセスフレームワークを完全には実装していません。ただし、\"Gallery\"アプリを最初に使用した場合、写真の選択を適当に行うことができます。この問題に対する一時的な回避策として `StackOverflow 問題解決策<http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`__ をご確認ください。また、この問題の途中経過に関しては `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ をご確認ください。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:112
 #: ../doc/reference/cordova_4.1/camera/index.rst:149
@@ -3741,7 +3741,7 @@ msgid ""
 "images, and on phones with low memory, the Cordova activity may be killed. "
 "In this scenario, the image may not appear when the Cordova activity is "
 "restored."
-msgstr ""
+msgstr "画像のキャプチャーを行うために、Android はインテント群 ( intent )を使用して、デバイスのカメラアクティビティを起動します。メモリーが少ないデバイスでは、Cordovaアクティビティが停止することがあります。この場合、Cordova アクティビティがリストアされても、画像が表示されない可能性があります。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:120
 #: ../doc/reference/cordova_4.1/camera/index.rst:157
@@ -3750,7 +3750,7 @@ msgid ""
 "Including a JavaScript ``alert()`` in either of the callback functions can "
 "cause problems. Wrap the alert within a ``setTimeout()`` to allow the iOS "
 "image picker or popover to fully close before the alert displays:"
-msgstr ""
+msgstr "コールバック関数のいづれかに JavaScript の ``alert()``を記述すると、問題が生じることがあります。この場合、alert を``setTimeout()`` 内に記述します。これにより、alert が表示される前に、iOS の image picker または ポップオーバー ( popover ) を完全に閉じることができます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:134
 #: ../doc/reference/cordova_4.1/camera/index.rst:171
