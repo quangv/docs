@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 08:28+0000\n"
+"PO-Revision-Date: 2016-03-28 11:21+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3439,7 +3439,7 @@ msgid ""
 "In order to use this plugin, please enable ``org.apache.cordova.battery-"
 "status`` plugin in Monaca Cloud IDE. Please refer to :ref:`standard_plugins`"
 " docs for how to enable the plugin in Monaca."
-msgstr ""
+msgstr "このプラグインを使用するには ``org.apache.cordova.battery-status`` を有効にする必要があります。 MonacaでCordovaプラグインを使用する方法につきましては :ref:`standard_plugins` を参照してください。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:45
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:62
@@ -3447,14 +3447,14 @@ msgstr ""
 msgid ""
 "This event fires when the percentage of battery charge changes by at least 1"
 " percent, or if the device is plugged in or unplugged."
-msgstr ""
+msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、デバイスの充電または充電を停止した場合、このイベントが発火します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:48
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:65
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:74
 msgid ""
 "The battery status handler is passed an object that contains two properties:"
-msgstr ""
+msgstr "以下の 2 つのプロパティーを格納したオブジェクトを、battery status ハンドラーに渡します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:51
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:86
@@ -3466,7 +3466,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:143
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:195
 msgid "**level**: The percentage of battery charge (0-100). *(Number)*"
-msgstr ""
+msgstr "**level**: バッテリー残量を示すパーセンテージ ( 0-100 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:53
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:88
@@ -3480,13 +3480,13 @@ msgstr ""
 msgid ""
 "**isPlugged**: A boolean that indicates whether the device is plugged in. "
 "*(Boolean)*"
-msgstr ""
+msgstr "**isPlugged**: デバイスが充電中かどうか示す boolean 値 *(Boolean)*"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:56
 msgid ""
 "Applications typically should use ``window.addEventListener`` to attach an "
 "event listener once the ``deviceready`` event fires. e.g.:"
-msgstr ""
+msgstr "``deviceready`` イベントが発火した後にイベントリスナーをアタッチ (attach ) するとき、\\ ``window.addEventListener``を、アプリは通常使用します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:80
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:98
