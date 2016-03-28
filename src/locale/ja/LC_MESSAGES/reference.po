@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 11:36+0000\n"
+"PO-Revision-Date: 2016-03-28 11:39+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3981,28 +3981,28 @@ msgstr "**imageData**: Base64形式でエンコードした画像データ、\\ 
 #: ../doc/reference/cordova_4.1/camera/index.rst:381
 #: ../doc/reference/cordova_5.2/camera/index.rst:459
 msgid "CameraPopoverHandle"
-msgstr ""
+msgstr "CameraPopoverHandle"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:335
 #: ../doc/reference/cordova_4.1/camera/index.rst:383
 msgid ""
 "A handle to the popover dialog created by ``navigator.camera.getPicture``."
-msgstr ""
+msgstr "``navigator.camera.getPicture`` で生成したポップオーバー ( popover )ダイアログへのハンドルです。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:341
 #: ../doc/reference/cordova_4.1/camera/index.rst:389
 msgid "**setPosition**: Set the position of the popover."
-msgstr ""
+msgstr "**setPosition**: ポップオーバー ( popover ) の位置を設定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:349
 #: ../doc/reference/cordova_4.1/camera/index.rst:397
 msgid "setPosition"
-msgstr ""
+msgstr "setPosition"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:351
 #: ../doc/reference/cordova_4.1/camera/index.rst:399
 msgid "Set the position of the popover."
-msgstr ""
+msgstr "ポップオーバー ( popover ) の位置を設定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:353
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:65
@@ -4013,14 +4013,14 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:113
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:260
 msgid "**Parameters**:"
-msgstr ""
+msgstr "**パラメーター**:"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:355
 #: ../doc/reference/cordova_4.1/camera/index.rst:403
 msgid ""
 "``cameraPopoverOptions``: the ``CameraPopoverOptions`` that specify the new "
 "position"
-msgstr ""
+msgstr "``cameraPopoverOptions``: ``CameraPopoverOptions``で、新しい位置を指定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:376
 #: ../doc/reference/cordova_3.5/camera/index.rst:392
@@ -4028,7 +4028,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/camera/index.rst:440
 #: ../doc/reference/cordova_5.2/camera/index.rst:433
 msgid "CameraPopoverOptions"
-msgstr ""
+msgstr "CameraPopoverOptions"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:378
 #: ../doc/reference/cordova_4.1/camera/index.rst:426
@@ -4036,42 +4036,42 @@ msgid ""
 "iOS-only parameters that specify the anchor element location and arrow "
 "direction of the popover when selecting images from an iPad's library or "
 "album."
-msgstr ""
+msgstr "iOS 専用のパラメーターです。iPadのライブラリまたはアルバムから画像を選択するときのポップオーバー (popover ) の固定位置と矢印の方向を指定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:394
 #: ../doc/reference/cordova_4.1/camera/index.rst:442
 msgid ""
 "**x**: x pixel coordinate of screen element onto which to anchor the "
 "popover. *(Number)*"
-msgstr ""
+msgstr "**x**: 画面上に表示するポップオーバー ( popover ) の x座標をピクセルで表します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:397
 #: ../doc/reference/cordova_4.1/camera/index.rst:445
 msgid ""
 "**y**: y pixel coordinate of screen element onto which to anchor the "
 "popover. *(Number)*"
-msgstr ""
+msgstr "**y**: 画面上に表示するポップオーバー ( popover ) の y 座標をピクセルで表します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:400
 #: ../doc/reference/cordova_4.1/camera/index.rst:448
 msgid ""
 "**width**: width, in pixels, of the screen element onto which to anchor the "
 "popover. *(Number)*"
-msgstr ""
+msgstr "**width**: 画面上に表示するポップオーバー ( popover ) の幅をピクセルで表します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:403
 #: ../doc/reference/cordova_4.1/camera/index.rst:451
 msgid ""
 "**height**: height, in pixels, of the screen element onto which to anchor "
 "the popover. *(Number)*"
-msgstr ""
+msgstr "**height**: 画面上に表示するポップオーバー ( popover )の縦の長さをピクセルで表します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:406
 #: ../doc/reference/cordova_4.1/camera/index.rst:454
 msgid ""
 "**arrowDir**: Direction the arrow on the popover should point. Defined in "
 "``Camera.PopoverArrowDirection`` *(Number)*"
-msgstr ""
+msgstr "**arrowDir**: ポップオーバー ( popover ) の矢印の向きを表します。 ``Camera.PopoverArrowDirection`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:419
 #: ../doc/reference/cordova_4.1/camera/index.rst:467
@@ -4079,18 +4079,18 @@ msgid ""
 "Note that the size of the popover may change to adjust to the direction of "
 "the arrow and orientation of the screen. Make sure to account for "
 "orientation changes when specifying the anchor element location."
-msgstr ""
+msgstr "注意 ：ポップオーバーのサイズは矢印の方向や画面の向きによって調節され、変化することがあります。位置を固定するとき、画面の向きの変化を考慮に入れてください。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:424
 #: ../doc/reference/cordova_4.1/camera/index.rst:472
 msgid "navigator.camera.cleanup"
-msgstr ""
+msgstr "navigator.camera.cleanup"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:426
 #: ../doc/reference/cordova_4.1/camera/index.rst:474
 msgid ""
 "Removes intermediate photos taken by the camera from temporary storage."
-msgstr ""
+msgstr "一時的なストレージに保存されている処理前の写真を削除します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:435
 #: ../doc/reference/cordova_4.1/camera/index.rst:483
@@ -4099,7 +4099,7 @@ msgid ""
 "calling ``camera.getPicture``. Applies only when the value of "
 "``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` and the "
 "``Camera.destinationType`` equals ``Camera.DestinationType.FILE_URI``."
-msgstr ""
+msgstr "``camera.getPicture``を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。\\ ``Camera.sourceType``の値と``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が``Camera.DestinationType.FILE_URI``と等しい場合のみ有効です。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:2
 #: ../doc/reference/cordova_4.1/compass/index.rst:23
