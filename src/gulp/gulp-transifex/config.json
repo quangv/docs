@@ -5,13 +5,18 @@
     "base_path": "/api/2/project/",
     "local_path": "locale",
     "test":{
-      "user":"",
-      "password":"",
+      "user":"fabbygoh",
+      "password":"abc8142010",
       "project":""
     },
     "production": {
-      "user":"",
-      "password":"",
+      "user":"fabbygoh",
+      "password":"abc8142010",
+      "project":""
+    },
+    "master": {
+      "user":"fabbygoh",
+      "password":"abc8142010",
       "project":""
     }
   }

@@ -92,21 +92,23 @@ $(function(){
   }
 
   var loadLocalTocs = function() {
-    //Javascript code for the right menus (See Also & Table of Contents)
-    var contents_element = document.getElementsByClassName('contents local right-menu topic')[0];
-    // when there is Table of Content insides a page
-    if (contents_element) {
-      var contents_height = contents_element.offsetTop + contents_element.offsetHeight;
+    var contents_element_aside = document.getElementsByClassName('aside-main')[0];
+    var contents_element_main = document.getElementsByClassName('main')[0];
+    if (contents_element_aside) {
+      var contents_height = contents_element_aside.offsetTop + contents_element_aside.offsetHeight;
+      var contents_left = contents_element_main.offsetWidth;
       var see_also_element = document.getElementsByClassName('admonition seealso')[0];
       if(see_also_element)
-        see_also_element.style.top = contents_height - 10 + 'px';
+        see_also_element.style.top = contents_height - 55 + 'px';
+        see_also_element.style.left = contents_left + 'px';
+        console.log(see_also_element.style.top);
 
     }
-    else {
-      var see_also_element = document.getElementsByClassName('admonition seealso')[0];
-      if(see_also_element != null )
-        see_also_element.style.top = '172px';
-    }
+    // else {
+    //   var see_also_element = document.getElementsByClassName('admonition seealso')[0];
+    //   if(see_also_element != null )
+    //     see_also_element.style.top = '172px';
+    // }
   }
 
   var setNavCurrent = function(url) {

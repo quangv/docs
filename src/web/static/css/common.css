@@ -1169,15 +1169,18 @@ div.admonition {
     border: 1px solid #a42d2d;
     background: #fae8e8 url(../img/common/icon_warning.png) 20px center no-repeat; }
   div.admonition.seealso {
+    position: absolute;
+    width: 267px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid #ededed;
     border-top: 3px solid #35527c;
-    background-color: #f9f9f9;
-    font-family: 'Open Sans Condensed';
+    /*background-color: #f9f9f9;*/
+    background-color: #f2f2f2;
+    font-family: 'Open Sans';
     /*font-family: "Open Sans Condensed"*/
-    font-size: 20px;
+    font-size: 16px;
     color: #35527c;
     padding-bottom: 5px; }
     div.admonition.seealso a {
@@ -1188,9 +1191,9 @@ div.admonition {
       color: #333;
       font-size: 13px;
       padding-top: 10px;
-      margin-left: -25px; }
+      margin-left: -5px; }
       div.admonition.seealso ul.simple li {
-        line-height: 150%; }
+        line-height: 200%; }
   div.admonition p.admonition-title {
     display: none; }
 

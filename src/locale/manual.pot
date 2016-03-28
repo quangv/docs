@@ -7025,7 +7025,7 @@ msgid "`Git <https://en.wikipedia.org/wiki/Git_(software)>`_ is one of the popul
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:13
-msgid "Now Version Control is also available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, currently Monaca Cloud IDE supports the integration of one of the most popular Git servers called `GitHub <https://github.com>`_. If you integrate your monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE."
+msgid "Now Version Control is also available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, Monaca Cloud IDE supports the integration of one of the most popular Git service provider called `GitHub <https://github.com>`_. If you integrate your Monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:15
@@ -7255,7 +7255,7 @@ msgid "Show Remote Commit History"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:264
-msgid "In order to see full history of your previous commits in remote repository, go to :menuselection:`Version Control --> Show Remote History`. You will be redirected to your current branch and a list of commit history will be displayed."
+msgid "In order to see full history of your previous commits in remote repository, go to :menuselection:`Version Control --> Show Remote History`. You will be redirected to the remote Git service provider's website showing a commit history of your current branch."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:268

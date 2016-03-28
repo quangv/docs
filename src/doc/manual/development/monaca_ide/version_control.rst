@@ -10,7 +10,7 @@ Version control is the management of changes to your source code/project and oth
 
 `Git <https://en.wikipedia.org/wiki/Git_(software)>`_ is one of the popular version control systems being used to manage source code development. It is a distributed version control system which allows you to control and track your revision history. It also allows users to version projects and review changes and collaborate with team members within a project.
 
-Now Version Control is also available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, currently Monaca Cloud IDE supports the integration of one of the most popular Git servers called `GitHub <https://github.com>`_. If you integrate your monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE. 
+Now Version Control is also available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, Monaca Cloud IDE supports the integration of one of the most popular Git service provider called `GitHub <https://github.com>`_. If you integrate your Monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE. 
 
 In this section, we will guide you on how to integrate your GitHub account and configure your working repository to sync with your Monaca projects within Monaca Cloud IDE.
 
@@ -261,7 +261,7 @@ After making changes in the current working branch, you are able to commit them 
 Show Remote Commit History
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to see full history of your previous commits in remote repository, go to :menuselection:`Version Control --> Show Remote History`. You will be redirected to your current branch and a list of commit history will be displayed.
+In order to see full history of your previous commits in remote repository, go to :menuselection:`Version Control --> Show Remote History`. You will be redirected to the remote Git service provider's website showing a commit history of your current branch.
 
 
 Show Local Commit History
