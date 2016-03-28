@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 11:30+0000\n"
+"PO-Revision-Date: 2016-03-28 11:36+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3756,24 +3756,24 @@ msgstr "コールバック関数のいづれかに JavaScript の ``alert()``を
 #: ../doc/reference/cordova_4.1/camera/index.rst:171
 #: ../doc/reference/cordova_5.2/camera/index.rst:495
 msgid "Take a photo and retrieve it as a base64-encoded image:"
-msgstr ""
+msgstr "写真を撮影し、 Base64 形式の画像として取得します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:151
 #: ../doc/reference/cordova_4.1/camera/index.rst:188
 #: ../doc/reference/cordova_5.2/camera/index.rst:512
 msgid "Take a photo and retrieve the image's file location:"
-msgstr ""
+msgstr "写真を撮影し、画像ファイルの位置を取得します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:168
 #: ../doc/reference/cordova_4.1/camera/index.rst:205
 #: ../doc/reference/cordova_5.2/camera/index.rst:144
 msgid "CameraOptions"
-msgstr ""
+msgstr "CameraOptions"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:170
 #: ../doc/reference/cordova_4.1/camera/index.rst:207
 msgid "Optional parameters to customize the camera settings."
-msgstr ""
+msgstr "カメラの設定をカスタマイズするオプションのパラメーターです。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:185
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:203
@@ -3789,45 +3789,45 @@ msgid ""
 "where 100 is typically full resolution with no loss from file compression. "
 "*(Number)* (Note that information about the camera's resolution is "
 "unavailable.)"
-msgstr ""
+msgstr "**quality**: 保存した画像の画質を指定します。 範囲は 0 から 100まであり、100 を指定すると非圧縮時の解像度となります (カメラ解像度に関する情報は利用できません )。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:192
 msgid ""
 "**destinationType**: Choose the format of the return value. Defined in "
 "``navigator.camera.DestinationType`` *(Number)*"
-msgstr ""
+msgstr "**destinationType**: 返り値のフォーマットを指定します。フォーマットは\n``navigator.camera.DestinationType`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:203
 msgid ""
 "**sourceType**: Set the source of the picture. Defined in "
 "``navigator.camera.PictureSourceType`` *(Number)*"
-msgstr ""
+msgstr "**sourceType**: 写真の取得先のソースを設定します。ソースは ``navigator.camera.PictureSourceType`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:214
 #: ../doc/reference/cordova_4.1/camera/index.rst:252
 msgid ""
 "**allowEdit**: Allow simple editing of image before selection. *(Boolean)*"
-msgstr ""
+msgstr "**allowEdit**: 画像選択の前に、簡単な編集を許可します。 *(Boolean)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:217
 msgid ""
 "**encodingType**: Choose the returned image file's encoding. Defined in "
 "``navigator.camera.EncodingType`` *(Number)*"
-msgstr ""
+msgstr "**encodingType**: 返される画像ファイルのエンコード形式を選択します。形式は``navigator.camera.EncodingType`` で定義します。\\ *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:227
 #: ../doc/reference/cordova_4.1/camera/index.rst:265
 msgid ""
 "**targetWidth**: Width in pixels to scale image. Must be used with "
 "**targetHeight**. Aspect ratio remains constant. *(Number)*"
-msgstr ""
+msgstr "**targetWidth**: 画像を拡大・縮小するための幅をピクセルで指定します。**targetHeight** と共に使用しなければなりません。アスペクト比は一定に保持されます。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:230
 #: ../doc/reference/cordova_4.1/camera/index.rst:268
 msgid ""
 "**targetHeight**: Height in pixels to scale image. Must be used with "
 "**targetWidth**. Aspect ratio remains constant. *(Number)*"
-msgstr ""
+msgstr "**targetHeight**: 画像を拡大・縮小するための縦の長さをピクセルで指定します。\n **targetWidth** と共に使用しなければなりません。アスペクト比は一定に保持されます。\n   *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:233
 #: ../doc/reference/cordova_4.1/camera/index.rst:271
@@ -3835,38 +3835,38 @@ msgid ""
 "**mediaType**: Set the type of media to select from. Only works when "
 "``PictureSourceType`` is ``PHOTOLIBRARY`` or ``SAVEDPHOTOALBUM``. Defined in"
 " ``nagivator.camera.MediaType`` *(Number)*"
-msgstr ""
+msgstr "**mediaType**: 画像の取得元のメディアの種類を指定します。``PictureSourceType`` に ``PHOTOLIBRARY`` または ``SAVEDPHOTOALBUM``が指定されている場合のみ有効です。メディアの種類は``nagivator.camera.MediaType`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:244
 msgid "};"
-msgstr ""
+msgstr "};"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:246
 #: ../doc/reference/cordova_4.1/camera/index.rst:283
 msgid ""
 "**correctOrientation**: Rotate the image to correct for the orientation of "
 "the device during capture. *(Boolean)*"
-msgstr ""
+msgstr "**correctOrientation**: キャプチャーを行ったときのデバイスの向きになるよう、画像を回転させます。*(Boolean)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:249
 #: ../doc/reference/cordova_4.1/camera/index.rst:286
 msgid ""
 "**saveToPhotoAlbum**: Save the image to the photo album on the device after "
 "capture. *(Boolean)*"
-msgstr ""
+msgstr "**saveToPhotoAlbum**: キャプチャーを行った後、デバイスのフォトアルバムに画像を保存します。 *(Boolean)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:252
 #: ../doc/reference/cordova_4.1/camera/index.rst:289
 msgid ""
 "**popoverOptions**: iOS-only options that specify popover location in iPad. "
 "Defined in ``CameraPopoverOptions``."
-msgstr ""
+msgstr "**popoverOptions**: iOS 専用のオプションです。iPad でのポップオーバー( popover ) の位置を指定します。 ``CameraPopoverOptions``で定義します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:255
 msgid ""
 "**cameraDirection**: Choose the camera to use (front- or back-facing). "
 "Defined in ``navigator.camera.Direction`` *(Number)*"
-msgstr ""
+msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面か背面のカメラ )。``navigator.camera.Direction`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:268
 #: ../doc/reference/cordova_4.1/camera/index.rst:306
@@ -3874,7 +3874,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:605
 #: ../doc/reference/cordova_5.2/camera/index.rst:616
 msgid "Any ``cameraDirection`` value results in a back-facing photo."
-msgstr ""
+msgstr "``cameraDirection`` を指定しても、背面のカメラで写真を撮ります。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:270
 #: ../doc/reference/cordova_4.1/camera/index.rst:308
@@ -3884,7 +3884,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:663
 #: ../doc/reference/cordova_5.2/camera/index.rst:699
 msgid "Ignores the ``allowEdit`` parameter."
-msgstr ""
+msgstr "``allowEdit`` パラメータを無視します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:272
 #: ../doc/reference/cordova_4.1/camera/index.rst:310
@@ -3895,12 +3895,12 @@ msgid ""
 "``Camera.PictureSourceType.PHOTOLIBRARY`` and "
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo "
 "album."
-msgstr ""
+msgstr "``Camera.PictureSourceType.PHOTOLIBRARY`` と``Camera.PictureSourceType.SAVEDPHOTOALBUM``は、共に、同じフォトアルバムを表示します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:279
 #: ../doc/reference/cordova_4.1/camera/index.rst:328
 msgid "Set ``quality`` below 50 to avoid memory errors on some devices."
-msgstr ""
+msgstr "一部のデバイスで発生するメモリーエラーを防ぐため、 ``quality`` を 50以下に設定してください。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:281
 msgid ""
@@ -3908,17 +3908,17 @@ msgid ""
 "application's temporary directory. You may delete the contents of this "
 "directory using the ``navigator.fileMgr`` APIs if storage space is a "
 "concern."
-msgstr ""
+msgstr "``destinationType.FILE_URI`` を使用した場合、アプリケーションのtemporaryディレクトリに写真を保存します。ストレージの空きが少ない場合、``navigator.fileMgr`` APIを使用して、ディレクトリ内のコンテンツを消去できます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:287
 #: ../doc/reference/cordova_4.1/camera/index.rst:335
 msgid "CameraError"
-msgstr ""
+msgstr "CameraError"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:289
 #: ../doc/reference/cordova_4.1/camera/index.rst:337
 msgid "onError callback function that provides an error message."
-msgstr ""
+msgstr "エラーメッセージを表示する、onError 時のコールバック関数です。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:298
 #: ../doc/reference/cordova_3.5/camera/index.rst:315
@@ -3958,24 +3958,24 @@ msgstr "パラメーター"
 #: ../doc/reference/cordova_4.1/camera/index.rst:348
 msgid ""
 "**message**: The message is provided by the device's native code. *(String)*"
-msgstr ""
+msgstr "**message**: デバイスのネイティブコードが提供するメッセージ\n   *(String)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:304
 #: ../doc/reference/cordova_4.1/camera/index.rst:352
 msgid "cameraSuccess"
-msgstr ""
+msgstr "cameraSuccess"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:306
 #: ../doc/reference/cordova_4.1/camera/index.rst:354
 msgid "onSuccess callback function that provides the image data."
-msgstr ""
+msgstr "画像データを返す、onSuccess 時のコールバック関数です。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:317
 #: ../doc/reference/cordova_4.1/camera/index.rst:365
 msgid ""
 "**imageData**: Base64 encoding of the image data, *or* the image file URI, "
 "depending on ``cameraOptions`` in effect. *(String)*"
-msgstr ""
+msgstr "**imageData**: Base64形式でエンコードした画像データ、\\ *または*\\ 、画像を指す file\n   URI。どちらになるかは、\\ ``cameraOptions`` に基づきます。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:333
 #: ../doc/reference/cordova_4.1/camera/index.rst:381
