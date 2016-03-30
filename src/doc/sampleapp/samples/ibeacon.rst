@@ -14,19 +14,11 @@ This sample app uses iBeacon service to detect its proximity to iBeacon device. 
 
 | *Tested Environments:* Android 4.4, iOS 8.0.2
 
-  .. figure:: images/ibeacon/1.png
-     :width: 250px
-     :align: left
-     
-     Top Page
+.. raw:: html
 
-  .. figure:: images/ibeacon/2.png
-     :width: 250px
-     :align: left
-
-     Info Page
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/24-ibeacon/www/index.html"></iframe>
+  </div>
 
 
 .. note:: In order to test this application, you can either build the application or use the custom built Monaca Debugger.

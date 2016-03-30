@@ -216,6 +216,13 @@ em {
     background-color: #f5f5f5;
     padding: 0 2px; }
 
+.menuselection {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 0 2px; }
+
 a:link, a:visited {
   color: #3372ff;
   text-decoration: underline; }
@@ -272,7 +279,7 @@ ul.simple {
   padding-left: 0px; }
   blockquote ul li,
   ul.simple li {
-    margin-left: 40px;
+    margin-left: 50px;
     line-height: 30px;
     list-style-type: disc;
     list-style-position: outsinde; }
@@ -754,7 +761,7 @@ html[lang=en] header.global nav > div > ul > li:nth-child(6) {
   width: 70px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(1) {
-  width: 140px; }
+  width: 170px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(2) {
   width: 134px; }
@@ -979,7 +986,7 @@ article.main div.toctree-wrapper {
           text-decoration: underline; }
     article.main div.toctree-wrapper li.toctree-l2:first-child {
       margin-left: 0px;
-      padding-left: 45px;
+      padding-left: 35px;
       border-top: 2px solid #35527c;
       margin-top: 4px;
       padding-top: 14px; }
@@ -991,7 +998,7 @@ article.main div.toctree-wrapper {
     article.main div.toctree-wrapper li.toctree-l2 {
       font-size: 15px;
       font-weight: normal;
-      margin-left: 45px;
+      margin-left: 35px;
       list-style: url(../img/common/icon_triangle_black.png) inside; }
       article.main div.toctree-wrapper li.toctree-l2 a {
         text-decoration: none;
@@ -1002,7 +1009,7 @@ article.main div.toctree-wrapper {
       font-size: 15px;
       font-weight: normal;
       margin-left: 0px;
-      padding-left: 45px;
+      padding-left: 35px;
       margin-bottom: 40px;
       list-style: url(../img/common/icon_triangle_black.png) inside; }
       article.main div.toctree-wrapper li.toctree-l2:last-child a {
@@ -1169,15 +1176,18 @@ div.admonition {
     border: 1px solid #a42d2d;
     background: #fae8e8 url(../img/common/icon_warning.png) 20px center no-repeat; }
   div.admonition.seealso {
+    position: absolute;
+    width: 267px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid #ededed;
     border-top: 3px solid #35527c;
-    background-color: #f9f9f9;
-    font-family: 'Open Sans Condensed';
+    /*background-color: #f9f9f9;*/
+    background-color: #f2f2f2;
+    font-family: 'Open Sans';
     /*font-family: "Open Sans Condensed"*/
-    font-size: 20px;
+    font-size: 16px;
     color: #35527c;
     padding-bottom: 5px; }
     div.admonition.seealso a {
@@ -1188,9 +1198,9 @@ div.admonition {
       color: #333;
       font-size: 13px;
       padding-top: 10px;
-      margin-left: -25px; }
+      margin-left: -30px; }
       div.admonition.seealso ul.simple li {
-        line-height: 150%; }
+        line-height: 200%; }
   div.admonition p.admonition-title {
     display: none; }
 
@@ -1934,13 +1944,32 @@ div.sampleapp {
   div.sampleapp .column-right {
     float: left;
     margin-bottom: 40px;
-    width: 33.33%; }
+    width: 30%;
+    margin-right: 20px; }
     div.sampleapp .column-left .thumb,
     div.sampleapp .column-center .thumb,
     div.sampleapp .column-right .thumb {
-      max-width: 100%; }
+      max-width: 100%;
+      border: none; }
   div.sampleapp .column-left {
     clear: both; }
 
 .sampleapp-list a {
   font-weight: 700; }
+
+iframe {
+  margin-top: 107px;
+  margin-left: 30px;
+  transform: scale(1);
+  width: 285px;
+  height: 505px; }
+
+.iframe-samples {
+  background-image: url(../img/samples/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 346px;
+  height: 717px;
+  margin: auto;
+  border: none;
+  margin-top: 20px; }

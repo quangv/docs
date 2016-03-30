@@ -55,9 +55,11 @@ div.sampleapp {
   .column-right {
     float: left;
     margin-bottom: 40px;
-    width: 33.33%;
+    width: 30%;
+    margin-right: 20px;
     .thumb {
       max-width: 100%;
+      border: none;
     }
   }
   .column-left {
@@ -69,4 +71,23 @@ div.sampleapp {
   a {
     font-weight: 700;
   }
+}
+
+iframe {
+    margin-top: 107px;
+    margin-left: 30px;
+    transform: scale(1);
+    width: 285px;
+    height: 505px;
+}
+
+.iframe-samples {
+  background-image: url(../img/samples/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 346px; 
+  height: 717px; 
+  margin:auto;
+  border: none;
+  margin-top: 20px;
 }

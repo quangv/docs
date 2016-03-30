@@ -75,14 +75,14 @@ Inspector Isn't Loaded
 ================================================
 
 If the inspector does not open, please try the following actions:
-    
-  - verify if you have done all necessary setups described :ref:`here<localkit_debug_app>`.
-  - verify that you are running the application on the debugger.
-  - try plug off & in to see if the computer can find the device.
-  - check if the device and the host PC are connected via USB cable.
-  - check if you use the right Monaca Debugger. :ref:`Read more<localkit_debug_app>`.
-  - kill all ``adb`` processes if multiple of them are running.
-  - kill all ``iosWebKitDebugProxy`` processes if multiple of them are running.
-  - restart the host PC.
+  
+- verify if you have done all necessary setups described :ref:`here<localkit_debug_app>`.
+- verify that you are running the application on the debugger.
+- try plug off & in to see if the computer can find the device.
+- check if the device and the host PC are connected via USB cable.
+- check if you use the right Monaca Debugger. :ref:`Read more<localkit_debug_app>`.
+- kill all ``adb`` processes if multiple of them are running.
+- kill all ``iosWebKitDebugProxy`` processes if multiple of them are running.
+- restart the host PC.
 
 

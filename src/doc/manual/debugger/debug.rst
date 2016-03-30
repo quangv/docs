@@ -288,7 +288,7 @@ In order to start this debugging, please do as follows:
   .. rst-class:: clear
 
 
-5. The Chrome DevTools/`Safari Web Inspector should be opened in the host PC; otherwise, please refer to :ref:`troubleshoot_inspector`. For more information, please refer to:
+5. The Chrome DevTools/Safari Web Inspector should be opened in the host PC; otherwise, please refer to :ref:`troubleshoot_inspector`. For more information, please refer to:
 
   - `How to Use Safari Web Inspector <https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html>`_
   - `How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_

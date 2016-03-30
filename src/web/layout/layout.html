@@ -53,6 +53,30 @@
   {{> header }}
 
   <article id="body-container" class="main">
+
+      <nav class="header-nav">
+        {{#if fjson.prev}}
+          <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
+        {{/if}}
+        {{#if fjson.next}}
+          <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
+        {{/if}}
+      </nav>
+    
+    <!-- {{#if fjson.title}}     -->
+      <div class="breadcrumb">
+        {{#is lang "ja"}}
+          <a href="/ja/">ドキュメントTOP</a>
+        {{else}}
+          <a href="/en/">Document TOP</a>
+        {{/is}}
+        {{#each fjson.parents as |parent|}}
+        &raquo; <a href="{{{parent.link}}}"><span>{{{parent.title}}}</span></a>
+        {{/each}}
+        &raquo; <span>{{{fjson.title}}}</span>
+      </div>
+    <!-- {{/if}} -->
+
     {{#if fjson.body}}
       {{{fjson.body}}}
     {{else}}

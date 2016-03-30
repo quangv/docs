@@ -7,18 +7,17 @@ Memo Application
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This sample app allows user to create a memo application using local storage.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/memo_application/memo_3.png
-     :width: 250px
-     :align: center
-     
-     Home Screen
+
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/4-jqm-memo/www/index.html"></iframe>
+  </div>
 
 
 File Components

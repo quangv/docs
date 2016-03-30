@@ -7,26 +7,16 @@ TODO App
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/25)
-
 The application allows you to add a todo list. 
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/todo/2.png
-     :width: 250px
-     :align: left
-     
-     List Screen
+.. raw:: html
 
-  .. figure:: images/todo/3.png
-     :width: 250px
-     :align: left
-
-     Add Screen
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/19-todo-app/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

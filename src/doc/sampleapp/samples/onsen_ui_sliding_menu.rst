@@ -6,19 +6,17 @@ Onsen UI Sliding Menu
 
 .. rst-class:: right-menu
 
-
-(Last Updated: 2014/06/18)
-
 This is a template using `Onsen UI sliding menu <http://onsenui.io/guide/overview.html#UsingSlidingMenu>`_.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/onsen_ui_sliding_menu/sliding_2.png
-     :width: 250px
-     :align: center
-     
-     Page 1
+
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/8-ons-sliding-menu-nav/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components

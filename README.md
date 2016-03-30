@@ -33,6 +33,8 @@ Also, translation files are stored in Transifex. In order to push or pull change
 }
 ```
 
+# Only maintainer privilege will be able to upload/download translation files from transifex.
+
 After this is done, `gulp generate` will automatically upload/download the translations.
 
 ## All Gulp Tasks

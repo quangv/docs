@@ -7,19 +7,17 @@ Onsen UI Minimum Template
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
 
-    .. figure:: images/onsen_ui_minimum_project/minimum_2.png
-     :width: 250px
-     :align: center
-     
-     Page 1
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/7-ons-minimum/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components

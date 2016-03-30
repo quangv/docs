@@ -7,26 +7,16 @@ Omikuji Fortune Telling App
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/25)
-
 Omikuji is a Japanese word means “random fortunes”. In Monaca, app development is done using HTML and JavaScript just like webpages. JavaScript is a scripting language with simple syntax and functions, and often used for smartphone development compared to other languages.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/omikuji/4.png
-     :width: 250px
-     :align: left
-     
-     Start Page
+.. raw:: html
 
-  .. figure:: images/omikuji/5.png
-     :width: 250px
-     :align: left
-
-     Result Page
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/23-omikuji/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

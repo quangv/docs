@@ -7,18 +7,14 @@ Inmobi Client
 .. rst-class:: right-menu
 
 
-(Last Updated: 2015/05/13)
-
 In this page, we will show how to integrate the mobile ads using the mobile ads network Inmobi with Monaca. For more information about the Inmobi, please visit `Inmobi\'s website <http://www.inmobi.com/>`_ and `Inmobi Mobile Web Integration Guide <https://support.inmobi.com/monetize/integration/mobile-web/>`_.
 
 
-| *Tested Environments:* Android 4.4.2, iOS 8.1.1
+.. raw:: html
 
-  .. figure:: images/inmobi/inmobi.png
-     :width: 250px
-     :align: center
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/17-inmobi-client/www/index.html"></iframe>
+  </div>
 
 
 

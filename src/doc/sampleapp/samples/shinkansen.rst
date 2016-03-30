@@ -7,25 +7,16 @@ Train Catalog
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/25)
-
 This sample app is a train catalog which displaying the types trains towards Tokaido and Tohoku areas.
 
 | *Tested Environments:* Android 4.0, iOS 7.1.1
 
-  .. figure:: images/shinkansen/1.png
-     :width: 250px
-     :align: left
-     
-     Top Screen
 
-  .. figure:: images/shinkansen/2.png
-     :width: 250px
-     :align: left
+.. raw:: html
 
-     Detail Screen
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/20-train-catalog/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

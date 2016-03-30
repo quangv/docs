@@ -7,26 +7,17 @@ Twitter Client
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/09)
-
 This sample app is showing the Twitter Timeline of a specifice user. It allows user to connect to Twitter from Monaca app by using `OAuth protocol <https://dev.twitter.com/docs/auth/oauth>`_ and InAppBrowser. If you want to use other APIs, please refer `Twitter Documentation <https://dev.twitter.com/docs>`_ .
 
 
 | *Tested Environments:* Android 4.3, iOS 7.1.1
 
-  .. figure:: images/twitter/twitter_1.png
-     :width: 250px
-     :align: left
-     
-     Connect Screen
 
-  .. figure:: images/twitter/twitter_6.png
-     :width: 250px
-     :align: left
+.. raw:: html
 
-     Tweets Screen
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/14-twitter-client/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 
