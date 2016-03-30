@@ -125,7 +125,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/building_app.rst:43
 #: ../doc/quick_start/cloud_ide/building_app.rst:141
 #: ../doc/quick_start/localkit/building_app.rst:45
-#: ../doc/quick_start/localkit/building_app.rst:126
+#: ../doc/quick_start/localkit/building_app.rst:144
 #: ../doc/quick_start/monaca_vs/building_app.rst:43
 #: ../doc/quick_start/monaca_vs/building_app.rst:131
 msgid "Fill in the necessary information of your app:"
@@ -136,7 +136,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/building_app.rst:45
 #: ../doc/quick_start/cloud_ide/building_app.rst:143
 #: ../doc/quick_start/localkit/building_app.rst:47
-#: ../doc/quick_start/localkit/building_app.rst:128
+#: ../doc/quick_start/localkit/building_app.rst:146
 msgid "Application Name: a name representing your app publicly such as in the Market."
 msgstr ""
 
@@ -158,13 +158,13 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/building_app.rst:48
 #: ../doc/quick_start/cloud_ide/building_app.rst:147
 #: ../doc/quick_start/localkit/building_app.rst:50
-#: ../doc/quick_start/localkit/building_app.rst:132
+#: ../doc/quick_start/localkit/building_app.rst:150
 msgid "The remaining information is optional. You can configure icon, splash screen and other configurations in the page."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:62
 #: ../doc/quick_start/cloud_ide/building_app.rst:56
-#: ../doc/quick_start/localkit/building_app.rst:55
+#: ../doc/quick_start/localkit/building_app.rst:58
 #: ../doc/quick_start/monaca_vs/building_app.rst:56
 msgid "The App ID in Monaca Build Settings must be the same as the App ID you have registered in iOS Provisioning Portal. This App ID (in Monaca Build Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
 msgstr ""
@@ -173,8 +173,8 @@ msgstr ""
 #: ../doc/quick_start/cli/building_app.rst:168
 #: ../doc/quick_start/cloud_ide/building_app.rst:58
 #: ../doc/quick_start/cloud_ide/building_app.rst:155
-#: ../doc/quick_start/localkit/building_app.rst:57
-#: ../doc/quick_start/localkit/building_app.rst:137
+#: ../doc/quick_start/localkit/building_app.rst:60
+#: ../doc/quick_start/localkit/building_app.rst:158
 #: ../doc/quick_start/monaca_vs/building_app.rst:58
 #: ../doc/quick_start/monaca_vs/building_app.rst:145
 msgid "After finishing the configurations, click :guilabel:`Save`."
@@ -182,7 +182,7 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:68
 #: ../doc/quick_start/cloud_ide/building_app.rst:62
-#: ../doc/quick_start/localkit/building_app.rst:61
+#: ../doc/quick_start/localkit/building_app.rst:64
 #: ../doc/quick_start/monaca_vs/building_app.rst:62
 msgid "Step 2: Configuring iOS Build Settings"
 msgstr ""
@@ -193,25 +193,25 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:72
 #: ../doc/quick_start/cloud_ide/building_app.rst:66
-#: ../doc/quick_start/localkit/building_app.rst:67
+#: ../doc/quick_start/localkit/building_app.rst:70
 msgid "Click on :guilabel:`Generate Key and CSR...` button and fill in your Apple ID information (user name and email address). Then, click :guilabel:`Generate Key and CSR` button. You can also import an existing Private Key if you have one."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:80
 #: ../doc/quick_start/cloud_ide/building_app.rst:74
-#: ../doc/quick_start/localkit/building_app.rst:72
+#: ../doc/quick_start/localkit/building_app.rst:78
 msgid "The following dialog box will appear if your authentication is successful."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:88
 #: ../doc/quick_start/cloud_ide/building_app.rst:82
-#: ../doc/quick_start/localkit/building_app.rst:77
+#: ../doc/quick_start/localkit/building_app.rst:86
 msgid "Export the CSR file. It will be required to issue the certificates later in iOS Provisioning Portal."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:97
 #: ../doc/quick_start/cloud_ide/building_app.rst:90
-#: ../doc/quick_start/localkit/building_app.rst:83
+#: ../doc/quick_start/localkit/building_app.rst:95
 msgid "If you import an existing private key, you need to use the certificates which are issued based on that imported private key. However, if you create a new private key and CRS file, you will need to use the new CRS file to issue new certificates."
 msgstr ""
 
@@ -219,8 +219,8 @@ msgstr ""
 #: ../doc/quick_start/cli/building_app.rst:203
 #: ../doc/quick_start/cloud_ide/building_app.rst:93
 #: ../doc/quick_start/cloud_ide/building_app.rst:189
-#: ../doc/quick_start/localkit/building_app.rst:86
-#: ../doc/quick_start/localkit/building_app.rst:168
+#: ../doc/quick_start/localkit/building_app.rst:98
+#: ../doc/quick_start/localkit/building_app.rst:195
 #: ../doc/quick_start/monaca_vs/building_app.rst:86
 #: ../doc/quick_start/monaca_vs/building_app.rst:181
 msgid "Step 3: Building the App"
@@ -232,20 +232,20 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:110
 #: ../doc/quick_start/cli/building_app.rst:207
-#: ../doc/quick_start/localkit/building_app.rst:92
-#: ../doc/quick_start/localkit/building_app.rst:174
+#: ../doc/quick_start/localkit/building_app.rst:104
+#: ../doc/quick_start/localkit/building_app.rst:201
 msgid "Select Debug Build and click :guilabel:`Next` button."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:118
-#: ../doc/quick_start/localkit/building_app.rst:97
+#: ../doc/quick_start/localkit/building_app.rst:112
 #: ../doc/quick_start/monaca_vs/building_app.rst:100
 msgid "Upload the development provisioning profile and click :guilabel:`Next` button."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:120
 #: ../doc/quick_start/cloud_ide/building_app.rst:113
-#: ../doc/quick_start/localkit/building_app.rst:99
+#: ../doc/quick_start/localkit/building_app.rst:114
 msgid "It may take several minutes for the build to complete. Please wait. The following screen will appear after the build is complete."
 msgstr ""
 
@@ -253,39 +253,39 @@ msgstr ""
 #: ../doc/quick_start/cli/building_app.rst:224
 #: ../doc/quick_start/cloud_ide/building_app.rst:123
 #: ../doc/quick_start/cloud_ide/building_app.rst:211
-#: ../doc/quick_start/localkit/building_app.rst:105
-#: ../doc/quick_start/localkit/building_app.rst:185
+#: ../doc/quick_start/localkit/building_app.rst:123
+#: ../doc/quick_start/localkit/building_app.rst:218
 msgid "Step 4: Installing the Built App"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:131
 #: ../doc/quick_start/cloud_ide/building_app.rst:125
-#: ../doc/quick_start/localkit/building_app.rst:107
+#: ../doc/quick_start/localkit/building_app.rst:125
 msgid "Download the built app."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:132
 #: ../doc/quick_start/cloud_ide/building_app.rst:126
-#: ../doc/quick_start/localkit/building_app.rst:108
+#: ../doc/quick_start/localkit/building_app.rst:126
 msgid "Use iTunes to install the built app on your iOS device."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:138
 #: ../doc/quick_start/cloud_ide/building_app.rst:131
-#: ../doc/quick_start/localkit/building_app.rst:114
+#: ../doc/quick_start/localkit/building_app.rst:132
 #: ../doc/quick_start/monaca_vs/building_app.rst:121
 msgid "Building a Monaca App for Android"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:140
 #: ../doc/quick_start/cloud_ide/building_app.rst:133
-#: ../doc/quick_start/localkit/building_app.rst:116
+#: ../doc/quick_start/localkit/building_app.rst:134
 msgid "This section will cover an instruction of how to create a Debug Build version of your app for Android. For more information about other types of build, please refer to :ref:`types_of_build_android`."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:144
 #: ../doc/quick_start/cloud_ide/building_app.rst:137
-#: ../doc/quick_start/localkit/building_app.rst:120
+#: ../doc/quick_start/localkit/building_app.rst:138
 #: ../doc/quick_start/monaca_vs/building_app.rst:127
 msgid "Step 1: Configuring Android App Settings"
 msgstr ""
@@ -296,40 +296,40 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:157
 #: ../doc/quick_start/cloud_ide/building_app.rst:144
-#: ../doc/quick_start/localkit/building_app.rst:129
+#: ../doc/quick_start/localkit/building_app.rst:147
 #: ../doc/quick_start/monaca_vs/building_app.rst:134
 msgid "Package Name: a unique ID representing your app. It is recommended to use reverse-domain style (for example, mobi.monaca.appname) for App ID. Only alphanumeric characters and periods (at least one period must be used) are allowed. Each segment separated by a period should begin with an alphabetic character."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:158
 #: ../doc/quick_start/cloud_ide/building_app.rst:145
-#: ../doc/quick_start/localkit/building_app.rst:130
+#: ../doc/quick_start/localkit/building_app.rst:148
 #: ../doc/quick_start/monaca_vs/building_app.rst:135
 msgid "Version Number: a number representing the version of your app. It needs 3 numbers separated by dots (for example, 1.10.2). Each number should be in [0-99]."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:159
 #: ../doc/quick_start/cloud_ide/building_app.rst:146
-#: ../doc/quick_start/localkit/building_app.rst:131
+#: ../doc/quick_start/localkit/building_app.rst:149
 msgid "Use Different Package Name for Debug Build: if checked, the package name of the debug-built app and custom-built debugger are different. In other words, the package name of debug-built app will have ``.debug`` extension, and the one for project debugger will have ``.debugger`` extension. However, this option is disable by default because it made some plugins impossible to be debugged due to the fact that they are tied to exact package names (eg. in-app purchase)."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:172
 #: ../doc/quick_start/cloud_ide/building_app.rst:158
-#: ../doc/quick_start/localkit/building_app.rst:141
+#: ../doc/quick_start/localkit/building_app.rst:162
 #: ../doc/quick_start/monaca_vs/building_app.rst:149
 msgid "Step 2: Configuring Android KeyStore"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:174
 #: ../doc/quick_start/cloud_ide/building_app.rst:160
-#: ../doc/quick_start/localkit/building_app.rst:143
+#: ../doc/quick_start/localkit/building_app.rst:164
 msgid "Android KeyStore is used for storing the keys (Alias) needed to sign a package. When a KeyStore is lost or it is overwritten by another KeyStore, it is impossible to re-sign the signed package with the same key. One KeyStore can contain multiple Alias, but only one Alias is used for code-sign an application."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:176
 #: ../doc/quick_start/cloud_ide/building_app.rst:162
-#: ../doc/quick_start/localkit/building_app.rst:145
+#: ../doc/quick_start/localkit/building_app.rst:166
 msgid "In order to configure Android KeyStore in Monaca, please do as follows:"
 msgstr ""
 
@@ -343,31 +343,31 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:188
 #: ../doc/quick_start/cloud_ide/building_app.rst:174
-#: ../doc/quick_start/localkit/building_app.rst:156
+#: ../doc/quick_start/localkit/building_app.rst:180
 msgid "Fill in the necessary information related to the KeyStore such as:"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:190
 #: ../doc/quick_start/cloud_ide/building_app.rst:176
-#: ../doc/quick_start/localkit/building_app.rst:158
+#: ../doc/quick_start/localkit/building_app.rst:182
 msgid "Alias: key information stored in the KeyStore which is used to sign an app package."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:191
 #: ../doc/quick_start/cloud_ide/building_app.rst:177
-#: ../doc/quick_start/localkit/building_app.rst:159
+#: ../doc/quick_start/localkit/building_app.rst:183
 msgid "Password: password for the Alias."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:192
 #: ../doc/quick_start/cloud_ide/building_app.rst:178
-#: ../doc/quick_start/localkit/building_app.rst:160
+#: ../doc/quick_start/localkit/building_app.rst:184
 msgid "KeyStore Password: password for the new KeyStore."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:200
 #: ../doc/quick_start/cloud_ide/building_app.rst:186
-#: ../doc/quick_start/localkit/building_app.rst:165
+#: ../doc/quick_start/localkit/building_app.rst:192
 #: ../doc/quick_start/monaca_vs/building_app.rst:177
 msgid "Then, click :guilabel:`Generate KeyStore and Alias` button."
 msgstr ""
@@ -378,41 +378,41 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:215
 #: ../doc/quick_start/cloud_ide/building_app.rst:201
-#: ../doc/quick_start/localkit/building_app.rst:179
+#: ../doc/quick_start/localkit/building_app.rst:209
 msgid "It may take several minutes for the build to complete. Please wait. The following screen will appear after the build is successfully completed."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:226
 #: ../doc/quick_start/cloud_ide/building_app.rst:213
-#: ../doc/quick_start/localkit/building_app.rst:187
+#: ../doc/quick_start/localkit/building_app.rst:220
 #: ../doc/quick_start/monaca_vs/building_app.rst:206
 msgid "There are several ways you can install the built app:"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:228
 #: ../doc/quick_start/cloud_ide/building_app.rst:215
-#: ../doc/quick_start/localkit/building_app.rst:189
+#: ../doc/quick_start/localkit/building_app.rst:222
 #: ../doc/quick_start/monaca_vs/building_app.rst:208
 msgid ":ref:`network_and`"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:229
 #: ../doc/quick_start/cloud_ide/building_app.rst:216
-#: ../doc/quick_start/localkit/building_app.rst:190
+#: ../doc/quick_start/localkit/building_app.rst:223
 #: ../doc/quick_start/monaca_vs/building_app.rst:209
 msgid "use QR Barcode"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:230
 #: ../doc/quick_start/cloud_ide/building_app.rst:217
-#: ../doc/quick_start/localkit/building_app.rst:191
+#: ../doc/quick_start/localkit/building_app.rst:224
 #: ../doc/quick_start/monaca_vs/building_app.rst:210
 msgid "download the built app directly to your computer"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:231
 #: ../doc/quick_start/cloud_ide/building_app.rst:218
-#: ../doc/quick_start/localkit/building_app.rst:192
+#: ../doc/quick_start/localkit/building_app.rst:225
 #: ../doc/quick_start/monaca_vs/building_app.rst:211
 msgid "send the URL to download the built app  to your email address (registered with Monaca)."
 msgstr ""
@@ -426,7 +426,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
 #: ../doc/quick_start/cloud_ide/starting_project.rst:117
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
-#: ../doc/quick_start/localkit/building_app.rst:197
+#: ../doc/quick_start/localkit/building_app.rst:230
 #: ../doc/quick_start/localkit/publishing_app.rst:26
 #: ../doc/quick_start/localkit/starting_project.rst:116
 #: ../doc/quick_start/localkit/testing_debugging.rst:142
@@ -569,7 +569,7 @@ msgid "You can also use Monaca CLI to :ref:`import<monaca_import>` or :ref:`clon
 msgstr ""
 
 #: ../doc/quick_start/cli/starting_project.rst:65
-#: ../doc/quick_start/localkit/building_app.rst:201
+#: ../doc/quick_start/localkit/building_app.rst:234
 #: ../doc/quick_start/localkit/starting_project.rst:120
 #: ../doc/quick_start/localkit/testing_debugging.rst:146
 msgid ":ref:`localkit_publishing_app`"
@@ -829,7 +829,7 @@ msgid "Go to :guilabel:`Config` then :guilabel:`Android KeyStore Settings...` fr
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:166
-#: ../doc/quick_start/localkit/building_app.rst:151
+#: ../doc/quick_start/localkit/building_app.rst:172
 msgid "Now, you will need to generate a new KeyStore if you haven't created one yet. The KeyStore can either be created or imported. In this tutorial, we assume that you need to create a new KeyStore. Therefore, click on :guilabel:`Clear and Generate New...` button. Then, the following screen will appear:"
 msgstr ""
 
@@ -1029,7 +1029,7 @@ msgid ":ref:`localkit_building_for_android`"
 msgstr ""
 
 #: ../doc/quick_start/localkit/building_app.rst:41
-#: ../doc/quick_start/localkit/building_app.rst:63
+#: ../doc/quick_start/localkit/building_app.rst:66
 msgid "From Monaca Localkit, select a project you want to build and go to :guilabel:`Build Configuration`."
 msgstr ""
 
@@ -1037,45 +1037,45 @@ msgstr ""
 msgid "Go to :guilabel:`iOS App`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:65
+#: ../doc/quick_start/localkit/building_app.rst:68
 msgid "Go to :guilabel:`iOS Build`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:88
-#: ../doc/quick_start/localkit/building_app.rst:170
+#: ../doc/quick_start/localkit/building_app.rst:100
+#: ../doc/quick_start/localkit/building_app.rst:197
 msgid "From Monaca Localkit, select a project you want to build and go to :guilabel:`Remote Build`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:90
+#: ../doc/quick_start/localkit/building_app.rst:102
 #: ../doc/quick_start/monaca_vs/building_app.rst:90
 msgid "Select ``iOS`` platform."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:122
-#: ../doc/quick_start/localkit/building_app.rst:147
+#: ../doc/quick_start/localkit/building_app.rst:140
+#: ../doc/quick_start/localkit/building_app.rst:168
 msgid "From Monaca Localkit, select a project you want to build and go to :guilabel:`Build Settings`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:124
+#: ../doc/quick_start/localkit/building_app.rst:142
 msgid "Go to :guilabel:`Android App`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:149
+#: ../doc/quick_start/localkit/building_app.rst:170
 msgid "Go to :guilabel:`Android Build`."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:172
+#: ../doc/quick_start/localkit/building_app.rst:199
 #: ../doc/quick_start/monaca_vs/building_app.rst:185
 msgid "Select ``Android`` platform."
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:199
+#: ../doc/quick_start/localkit/building_app.rst:232
 #: ../doc/quick_start/localkit/publishing_app.rst:28
 #: ../doc/quick_start/localkit/testing_debugging.rst:144
 msgid ":ref:`localkit_starting_project`"
 msgstr ""
 
-#: ../doc/quick_start/localkit/building_app.rst:200
+#: ../doc/quick_start/localkit/building_app.rst:233
 #: ../doc/quick_start/localkit/publishing_app.rst:29
 #: ../doc/quick_start/localkit/starting_project.rst:118
 msgid ":ref:`localkit_testing_debugging`"
