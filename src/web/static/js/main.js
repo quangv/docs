@@ -47,6 +47,8 @@ $(function(){
     modal: false
     });
 
+
+
   var tweakdocs = function() {
     $("a.external").each(function() {
         if ($(this).attr("href").indexOf("http") != -1) {
@@ -104,6 +106,17 @@ $(function(){
       }
     }
   }
+
+  // remove breadcrumb in top page
+  var RemoveBreadcrumb = function(){
+    var current_url = document.URL;
+    if (current_url.endsWith('en/') || current_url.endsWith('ja/')) {
+      $('.breadcrumb').remove();
+    }
+    
+  }
+
+  RemoveBreadcrumb();
 
   var setNavCurrent = function(url) {
     var parser = document.createElement('a');
