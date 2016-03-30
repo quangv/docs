@@ -55,9 +55,11 @@ div.sampleapp {
   .column-right {
     float: left;
     margin-bottom: 40px;
-    width: 33.33%;
+    width: 30%;
+    margin-right: 20px;
     .thumb {
       max-width: 100%;
+      border: none;
     }
   }
   .column-left {

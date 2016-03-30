@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-30 09:40+0000\n"
+"PO-Revision-Date: 2016-03-30 11:08+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1415,8 +1415,8 @@ msgid ""
 msgstr ":envvar:`InfoPageCtrl` は、 :file:`info-page.html` ファイル内の各種処理を行っています。このコントローラ関数では、主に、 ``iBeaconService`` 経由で渡された UUID 値を使用して、最も近接する iBeacon 発信機の UUID を表示します。この解説で使用している 「 最も近接 」 とは、iBeacon 用語の 「 Immediate 」 ( 3 段階評価の最も近いこと ) を意味します。これ以外の場合には、 :file:`info-page.html` が表示されません。"
 
 #: ../doc/sampleapp/samples/index.rst:5
-msgid "Sample Apps"
-msgstr "サンプルアプリ"
+msgid "Sample Apps & Templates"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:5
 msgid "Inmobi Client"
