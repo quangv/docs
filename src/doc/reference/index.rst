@@ -9,5 +9,4 @@ API
   third_party_phonegap/index
   service_integration/index
   config/index
-  native/index
 
