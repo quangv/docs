@@ -7,20 +7,15 @@ Flickr Sample
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This sample app shows how to retrieve pictures from Flickr and displays them as a slide show.
 
 | *Tested Environments:* Android 4.1.1, iOS 7.1.1
 
-  .. figure:: images/flickr/2.png
-     :width: 250px
-     :align: center
-     
-     Home Screen
+.. raw:: html
 
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/18-flickr-sample/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

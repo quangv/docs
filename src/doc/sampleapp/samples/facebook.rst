@@ -7,26 +7,16 @@ Facebook Client
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ and InAppBrowser.
 
 
 | *Tested Environments:* Android 4.3, iOS 7.1.1
 
-  .. figure:: images/facebook/facebook_1.png
-     :width: 250px
-     :align: left
-     
-     Connect Screen
+.. raw:: html
 
-  .. figure:: images/facebook/facebook_3.png
-     :width: 250px
-     :align: left
-
-     Friends List Screen
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/15-facebook-client/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 

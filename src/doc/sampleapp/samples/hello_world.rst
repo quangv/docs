@@ -7,26 +7,17 @@ Hello World App
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This sample app is a PhoneGap Demo showing several device functionalities such as camera, contacts, compass and so on. 
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/hello_world/hello_1.png
-     :width: 250px
-     :align: left
-     
-     Home Tab (Home Screen)
 
-  .. figure:: images/hello_world/hello_2.png
-     :width: 250px
-     :align: left
+.. raw:: html
 
-     PhoneGap Demo Page
-
-.. rst-class:: clear
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/0-helloworld/www/index.html"></iframe>
+  </div>
 
 
 File Components

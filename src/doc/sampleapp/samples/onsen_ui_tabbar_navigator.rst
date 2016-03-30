@@ -7,18 +7,16 @@ Onsen UI Tabbar Navigation
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This is a template using `Onsen UI tabbar <http://onsenui.io/guide/overview.html#UsingTabBar>`_ and `navigator <http://onsenui.io/guide/overview.html#PageNavigation>`_.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-.. figure:: images/onsen_ui_tabbar_navigator/tabbar_2.png
-   :width: 250px
-   :align: center
-   
-   Home Page
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/9-ons-tab-nav/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components

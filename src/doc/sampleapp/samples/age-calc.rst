@@ -7,8 +7,6 @@ BirthYear App
 .. rst-class:: right-menu
 
 
-(Last update: 2014/06/25)
-
 .. note:: This sample application is a reprint of an article first featured on Think I­T on the 12/26/2012. 
 
 The app will calculate a user's birthyear and display it after he/she entered his/her name and age.
@@ -16,13 +14,13 @@ The app will calculate a user's birthyear and display it after he/she entered hi
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/age-calc/2.png
-     :width: 250px
-     :align: center
-     
-     Home Screen
 
-.. rst-class:: clear
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/22-birth-year-app/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
+
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

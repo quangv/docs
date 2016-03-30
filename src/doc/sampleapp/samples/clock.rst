@@ -7,20 +7,18 @@ Clock App
 .. rst-class:: right-menu
 
 
-(Last Update: 2014/06/18)
-
 .. note:: This sample application is reprinting of `Think IT article <http://thinkit.co.jp/story/2013/03/11/3987>`_ relaesed on 3/11/2013.
 
 This sample app is a clock app displaying current Date and time.
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/clock/2.png
-     :width: 250px
-     
-     Home Screen
 
-.. rst-class:: clear
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/21-clock-app/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components

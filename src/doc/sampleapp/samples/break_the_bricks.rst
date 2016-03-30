@@ -7,18 +7,17 @@ Break the Bricks
 .. rst-class:: right-menu
 
 
-(Last Updated: 2015/04/09)
-
 This is a sample game based on :file:`pixi.js` which is a super fast HTML5 2D rendering engine that uses webGL with canvas fallback. For more information about Pixi, please refer to `here <https://github.com/GoodBoyDigital/pixi.js>`_. In the game, player controlls a paddle to prevent a ball from falling while trying to clear the bricks. The objective of the game is to clear all the bricks.
 
 
 | *Tested Environments:* Android 4.4, iOS 8.1.1
 
-  .. figure:: images/break_the_bricks/break_2.png
-     :width: 250px
-     :align: center
-     
-     Home page
+
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/5-monacanoid/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

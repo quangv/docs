@@ -7,18 +7,17 @@ Minimum Template
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This is an empty template of a Monaca project. 
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/minimum_project/minimum_2.png
-     :width: 250px
-     :align: center
-     
-     Home Screen
+
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/1-minimum/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components

@@ -6,26 +6,17 @@ Backend Memo
 
 .. rst-class:: right-menu
 
-
-(Last Updated: 2014/06/25)
-
 This sample app allows user to create a memo app using Monaca Backend API.
 
 | *Tested Environments:* Android 4.1.1, iOS 7.1.1
 
-  .. figure:: images/backend_memo/signup.png
-     :width: 250px
-     :align: left
-     
-     Login Page
 
-  .. figure:: images/backend_memo/list_memo.png
-     :width: 250px
-     :align: left
-     
-     List Page
 
-.. rst-class:: clear
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/16-backend-memo/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

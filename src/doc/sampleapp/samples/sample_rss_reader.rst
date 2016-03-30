@@ -7,20 +7,17 @@ RSS Reader Example
 .. rst-class:: right-menu
 
 
-(Last Updated: 2014/06/18)
-
 This is an RSS reader application using jQuery.
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
 
-  .. figure:: images/sample_rss_reader/rss_reader_2.png
-     :width: 250px
-     :align: Center
-     
-     Home Screen
 
-.. rst-class:: clear
+.. raw:: html
+
+  <div class="iframe-samples">
+    <iframe src="https://monaca.github.io/project-templates/2-rss/www/index.html" style="max-width: 150%;"></iframe>
+  </div>
 
 
 File Components
