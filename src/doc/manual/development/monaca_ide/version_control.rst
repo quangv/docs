@@ -140,12 +140,6 @@ Please follow the configuration instruction below:
 
 3. From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Configure...`.
 
-  .. figure:: images/version_control/6.png
-    :width: 270px   
-    :align: left
-
-  .. rst-class:: clear
-
 4. Then, Monaca will list all of your empty GitHub repositories. If you do not have any empty repositories yet, you will be asked to create one.
 
   .. note:: Only an empty repository can be used to connect to a Monaca project. Please be aware that you cannot change to another repository after configuration.
@@ -164,14 +158,7 @@ Please follow the configuration instruction below:
 
   .. rst-class:: clear
 
-6. Your project is then being uploaded to your new repository in GitHub. By default, your working branch will be configured as master. If you want to switch to another working branch, click on :guilabel:`Advance Configurations` button. You can also switch branch anytime in the Version Control Configuration page (:menuselection:`Version Control --> Configure...`).
-
-  .. figure:: images/version_control/9.png
-    :width: 600px   
-    :align: left
-
-  .. rst-class:: clear
-
+6. Your project is then being uploaded to your new repository in GitHub. By default, your working branch will be configured as master. If you want to switch to another working branch, please go to Version Control Configuration page (:menuselection:`Version Control --> Configure...`).
 
 .. _version_control_import_project_github:
 
@@ -224,11 +211,7 @@ If you have more than one branch and want to switch the current working branch, 
 Retrieve Changes from Remotes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are familiar with Git commands, retrieve changes from remotes here refers to ``git pull`` command. In order to retrieve the changes from remotes, please do as follows:
-
-1. From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Pull`.
-
-2. If there are changes in your remotes, you will receive those updates in your working branch.
+If you are familiar with Git commands, retrieve changes from remotes here refers to ``git pull`` command. In order to retrieve the changes from remotes, from Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Pull`. If there are changes in your remotes, you will receive those updates in your working branch.
 
 .. note:: When you create a project in IDE, Monaca keeps all the files in :guilabel:`www` folder. Files outside of this folder are also synced even though they will not appear in the IDE.
 
@@ -243,12 +226,6 @@ After making changes in the current working branch, you are able to commit them 
 
 2. Fill in your commit message and check files you want to commit. Then, click on :guilabel:`Commit` button.
 
-  .. figure:: images/version_control/12.png
-    :width: 600px   
-    :align: left
-
-  .. rst-class:: clear
-
 3. Once you are ready to push those updates to the remote repository, select :menuselection:`Version Control --> Push`. Once it is successfully pushed, your remotes will contain latest changes made in Monaca Cloud IDE.
 
 
@@ -262,9 +239,5 @@ Show Local Commit History
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Every commit you made in your Monaca Cloud IDE is called Local Commit. You are able to view your local commit history through :menuselection:`Version Control --> Show Commit History`. To view the changes in each commit, click on the commit on the left panel.
-
-.. figure:: images/version_control/13.png
-  :width: 600px   
-  :align: left
 
 

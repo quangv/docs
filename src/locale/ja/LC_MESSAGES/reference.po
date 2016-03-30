@@ -5,13 +5,14 @@
 # Translators:
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
+# fabbygoh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-28 11:39+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-03-29 03:07+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3411,7 +3412,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:47
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:69
 msgid "batterystatus"
-msgstr ""
+msgstr "batterystatus"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:27
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:78
@@ -3421,7 +3422,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:48
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:135
 msgid "batterycritical"
-msgstr ""
+msgstr "batterycritical"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:28
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:113
@@ -3431,7 +3432,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:49
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:187
 msgid "batterylow"
-msgstr ""
+msgstr "batterylow"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:40
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:57
@@ -6742,7 +6743,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:326
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:364
 msgid "FileTransferError"
-msgstr ""
+msgstr "FileTransferError"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:291
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:328
@@ -6784,19 +6785,19 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:307
 msgid "``FileTransferError.FILE_NOT_FOUND_ERR``"
-msgstr ""
+msgstr "``FileTransferError.FILE_NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:308
 msgid "``FileTransferError.INVALID_URL_ERR``"
-msgstr ""
+msgstr "``FileTransferError.INVALID_URL_ERR``"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:309
 msgid "``FileTransferError.CONNECTION_ERR``"
-msgstr ""
+msgstr "``FileTransferError.CONNECTION_ERR``"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:310
 msgid "``FileTransferError.ABORT_ERR``"
-msgstr ""
+msgstr "``FileTransferError.ABORT_ERR``"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:313
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:354
@@ -7080,12 +7081,12 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 #: ../doc/reference/cordova_4.1/file/index.rst:237
 msgid "``cordova.file.*``"
-msgstr ""
+msgstr "``cordova.file.*``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:147
 #: ../doc/reference/cordova_4.1/file/index.rst:158
 msgid "``iosExtraFileSystems``"
-msgstr ""
+msgstr "``iosExtraFileSystems``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:147
 #: ../doc/reference/cordova_3.5/file/index.rst:189
@@ -7093,7 +7094,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 #: ../doc/reference/cordova_4.1/file/index.rst:237
 msgid "r/w?"
-msgstr ""
+msgstr "r/w?"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:147
 #: ../doc/reference/cordova_3.5/file/index.rst:189
@@ -7127,7 +7128,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file/index.rst:149
 #: ../doc/reference/cordova_4.1/file/index.rst:160
 msgid "``/var/mobile/Applications/<UUID>/``"
-msgstr ""
+msgstr "``/var/mobile/Applications/<UUID>/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:149
 #: ../doc/reference/cordova_3.5/file/index.rst:193
@@ -7142,7 +7143,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file/index.rst:153
 #: ../doc/reference/cordova_3.5/file/index.rst:191
 msgid "r/o"
-msgstr ""
+msgstr "r/o"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:149
 #: ../doc/reference/cordova_3.5/file/index.rst:149
@@ -7175,7 +7176,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:241
 #: ../doc/reference/cordova_4.1/file/index.rst:241
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:149
 #: ../doc/reference/cordova_3.5/file/index.rst:151
@@ -7401,7 +7402,7 @@ msgstr "Yes"
 #: ../doc/reference/cordova_3.5/file/index.rst:151
 #: ../doc/reference/cordova_4.1/file/index.rst:162
 msgid "``appname.app/``"
-msgstr ""
+msgstr "``appname.app/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:151
 #: ../doc/reference/cordova_3.5/file/index.rst:191
@@ -7409,12 +7410,12 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:202
 #: ../doc/reference/cordova_4.1/file/index.rst:241
 msgid "applicationDirectory"
-msgstr ""
+msgstr "applicationDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:151
 #: ../doc/reference/cordova_4.1/file/index.rst:162
 msgid "bundle"
-msgstr ""
+msgstr "bundle"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:153
 #: ../doc/reference/cordova_4.1/file/index.rst:164
@@ -7424,19 +7425,19 @@ msgstr "``www/``"
 #: ../doc/reference/cordova_3.5/file/index.rst:155
 #: ../doc/reference/cordova_4.1/file/index.rst:166
 msgid "``Documents/``"
-msgstr ""
+msgstr "``Documents/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:155
 #: ../doc/reference/cordova_4.1/file/index.rst:166
 msgid "documentsDirectory"
-msgstr ""
+msgstr "documentsDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:155
 #: ../doc/reference/cordova_3.5/file/index.rst:199
 #: ../doc/reference/cordova_4.1/file/index.rst:166
 #: ../doc/reference/cordova_4.1/file/index.rst:210
 msgid "documents"
-msgstr ""
+msgstr "documents"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:155
 #: ../doc/reference/cordova_3.5/file/index.rst:157
@@ -7473,7 +7474,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:247
 #: ../doc/reference/cordova_4.1/file/index.rst:249
 msgid "r/w"
-msgstr ""
+msgstr "r/w"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:155
 #: ../doc/reference/cordova_3.5/file/index.rst:157
@@ -7584,17 +7585,17 @@ msgstr "No"
 #: ../doc/reference/cordova_4.1/file/index.rst:168
 #: ../doc/reference/cordova_4.1/file/index.rst:172
 msgid "``NoCloud/``"
-msgstr ""
+msgstr "``NoCloud/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:157
 #: ../doc/reference/cordova_4.1/file/index.rst:168
 msgid "documents-nosync"
-msgstr ""
+msgstr "documents-nosync"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:159
 #: ../doc/reference/cordova_4.1/file/index.rst:170
 msgid "``Library``"
-msgstr ""
+msgstr "``Library``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:159
 #: ../doc/reference/cordova_4.1/file/index.rst:170
@@ -7612,27 +7613,27 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:208
 #: ../doc/reference/cordova_4.1/file/index.rst:245
 msgid "dataDirectory"
-msgstr ""
+msgstr "dataDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:161
 #: ../doc/reference/cordova_4.1/file/index.rst:172
 msgid "library-nosync"
-msgstr ""
+msgstr "library-nosync"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:163
 #: ../doc/reference/cordova_4.1/file/index.rst:174
 msgid "``Cloud/``"
-msgstr ""
+msgstr "``Cloud/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:163
 #: ../doc/reference/cordova_4.1/file/index.rst:174
 msgid "syncedDataDirectory"
-msgstr ""
+msgstr "syncedDataDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:165
 #: ../doc/reference/cordova_4.1/file/index.rst:176
 msgid "``Caches/``"
-msgstr ""
+msgstr "``Caches/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:165
 #: ../doc/reference/cordova_3.5/file/index.rst:195
@@ -7640,7 +7641,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:206
 #: ../doc/reference/cordova_4.1/file/index.rst:243
 msgid "cacheDirectory"
-msgstr ""
+msgstr "cacheDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:165
 #: ../doc/reference/cordova_3.5/file/index.rst:195
@@ -7654,31 +7655,31 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:176
 #: ../doc/reference/cordova_4.1/file/index.rst:206
 msgid "Yes\\*"
-msgstr ""
+msgstr "Yes\\*"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:165
 #: ../doc/reference/cordova_3.5/file/index.rst:167
 #: ../doc/reference/cordova_4.1/file/index.rst:176
 #: ../doc/reference/cordova_4.1/file/index.rst:178
 msgid "Yes\\*\\*\\*"
-msgstr ""
+msgstr "Yes\\*\\*\\*"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:167
 #: ../doc/reference/cordova_4.1/file/index.rst:178
 msgid "``tmp/``"
-msgstr ""
+msgstr "``tmp/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:167
 #: ../doc/reference/cordova_4.1/file/index.rst:178
 msgid "tempDirectory"
-msgstr ""
+msgstr "tempDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:167
 #: ../doc/reference/cordova_3.5/file/index.rst:205
 #: ../doc/reference/cordova_4.1/file/index.rst:178
 #: ../doc/reference/cordova_4.1/file/index.rst:216
 msgid "No\\*\\*"
-msgstr ""
+msgstr "No\\*\\*"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:170
 #: ../doc/reference/cordova_4.1/file/index.rst:181
@@ -7713,31 +7714,31 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file/index.rst:189
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 msgid "``AndroidExtraFileSystems``"
-msgstr ""
+msgstr "``AndroidExtraFileSystems``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:191
 #: ../doc/reference/cordova_4.1/file/index.rst:202
 msgid "``file:///android_asset/``"
-msgstr ""
+msgstr "``file:///android_asset/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:193
 #: ../doc/reference/cordova_4.1/file/index.rst:204
 msgid "``/data/data/<app-id>/``"
-msgstr ""
+msgstr "``/data/data/<app-id>/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:195
 #: ../doc/reference/cordova_3.5/file/index.rst:205
 #: ../doc/reference/cordova_4.1/file/index.rst:206
 #: ../doc/reference/cordova_4.1/file/index.rst:216
 msgid "``cache``"
-msgstr ""
+msgstr "``cache``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:197
 #: ../doc/reference/cordova_3.5/file/index.rst:207
 #: ../doc/reference/cordova_4.1/file/index.rst:208
 #: ../doc/reference/cordova_4.1/file/index.rst:218
 msgid "``files``"
-msgstr ""
+msgstr "``files``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:197
 #: ../doc/reference/cordova_4.1/file/index.rst:208
@@ -7747,52 +7748,52 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file/index.rst:199
 #: ../doc/reference/cordova_4.1/file/index.rst:210
 msgid "``Documents``"
-msgstr ""
+msgstr "``Documents``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:201
 #: ../doc/reference/cordova_4.1/file/index.rst:212
 msgid "``<sdcard>/``"
-msgstr ""
+msgstr "``<sdcard>/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:201
 #: ../doc/reference/cordova_4.1/file/index.rst:212
 msgid "externalRootDirectory"
-msgstr ""
+msgstr "externalRootDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:201
 #: ../doc/reference/cordova_4.1/file/index.rst:212
 msgid "sdcard"
-msgstr ""
+msgstr "sdcard"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:203
 #: ../doc/reference/cordova_4.1/file/index.rst:214
 msgid "``Android/data/<app-id>/``"
-msgstr ""
+msgstr "``Android/data/<app-id>/``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:203
 #: ../doc/reference/cordova_4.1/file/index.rst:214
 msgid "externalApplicationStorageDirectory"
-msgstr ""
+msgstr "externalApplicationStorageDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:205
 #: ../doc/reference/cordova_4.1/file/index.rst:216
 msgid "externalCacheDirectry"
-msgstr ""
+msgstr "externalCacheDirectry"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:205
 #: ../doc/reference/cordova_4.1/file/index.rst:216
 msgid "cache-external"
-msgstr ""
+msgstr "cache-external"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:207
 #: ../doc/reference/cordova_4.1/file/index.rst:218
 msgid "externalDataDirectory"
-msgstr ""
+msgstr "externalDataDirectory"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:207
 #: ../doc/reference/cordova_4.1/file/index.rst:218
 msgid "files-external"
-msgstr ""
+msgstr "files-external"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:210
 #: ../doc/reference/cordova_4.1/file/index.rst:221
@@ -8136,13 +8137,13 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:427
 #: ../doc/reference/cordova_5.2/file/index.rst:547
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:400
 #: ../doc/reference/cordova_4.1/file/index.rst:417
 #: ../doc/reference/cordova_5.2/file/index.rst:547
 msgid "``NOT_FOUND_ERR``"
-msgstr ""
+msgstr "``NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:402
 #: ../doc/reference/cordova_4.1/file/index.rst:419
@@ -8152,135 +8153,135 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:400
 #: ../doc/reference/cordova_5.2/file/index.rst:549
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:402
 #: ../doc/reference/cordova_4.1/file/index.rst:419
 #: ../doc/reference/cordova_5.2/file/index.rst:549
 msgid "``SECURITY_ERR``"
-msgstr ""
+msgstr "``SECURITY_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:404
 #: ../doc/reference/cordova_4.1/file/index.rst:421
 #: ../doc/reference/cordova_5.2/file/index.rst:551
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:404
 #: ../doc/reference/cordova_4.1/file/index.rst:421
 #: ../doc/reference/cordova_5.2/file/index.rst:551
 msgid "``ABORT_ERR``"
-msgstr ""
+msgstr "``ABORT_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:406
 #: ../doc/reference/cordova_4.1/file/index.rst:423
 #: ../doc/reference/cordova_5.2/camera/index.rst:402
 #: ../doc/reference/cordova_5.2/file/index.rst:553
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:406
 #: ../doc/reference/cordova_4.1/file/index.rst:423
 #: ../doc/reference/cordova_5.2/file/index.rst:553
 msgid "``NOT_READABLE_ERR``"
-msgstr ""
+msgstr "``NOT_READABLE_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:408
 #: ../doc/reference/cordova_4.1/file/index.rst:425
 #: ../doc/reference/cordova_5.2/file/index.rst:555
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:408
 #: ../doc/reference/cordova_4.1/file/index.rst:425
 #: ../doc/reference/cordova_5.2/file/index.rst:555
 msgid "``ENCODING_ERR``"
-msgstr ""
+msgstr "``ENCODING_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:410
 #: ../doc/reference/cordova_4.1/file/index.rst:427
 #: ../doc/reference/cordova_5.2/file/index.rst:557
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:410
 #: ../doc/reference/cordova_4.1/file/index.rst:427
 #: ../doc/reference/cordova_5.2/file/index.rst:557
 msgid "``NO_MODIFICATION_ALLOWED_ERR``"
-msgstr ""
+msgstr "``NO_MODIFICATION_ALLOWED_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:412
 #: ../doc/reference/cordova_4.1/file/index.rst:429
 #: ../doc/reference/cordova_5.2/file/index.rst:559
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:412
 #: ../doc/reference/cordova_4.1/file/index.rst:429
 #: ../doc/reference/cordova_5.2/file/index.rst:559
 msgid "``INVALID_STATE_ERR``"
-msgstr ""
+msgstr "``INVALID_STATE_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:414
 #: ../doc/reference/cordova_4.1/file/index.rst:431
 #: ../doc/reference/cordova_5.2/camera/index.rst:404
 #: ../doc/reference/cordova_5.2/file/index.rst:561
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:414
 #: ../doc/reference/cordova_4.1/file/index.rst:431
 #: ../doc/reference/cordova_5.2/file/index.rst:561
 msgid "``SYNTAX_ERR``"
-msgstr ""
+msgstr "``SYNTAX_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:416
 #: ../doc/reference/cordova_4.1/file/index.rst:433
 #: ../doc/reference/cordova_5.2/file/index.rst:563
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:416
 #: ../doc/reference/cordova_4.1/file/index.rst:433
 #: ../doc/reference/cordova_5.2/file/index.rst:563
 msgid "``INVALID_MODIFICATION_ERR``"
-msgstr ""
+msgstr "``INVALID_MODIFICATION_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:418
 #: ../doc/reference/cordova_4.1/file/index.rst:435
 #: ../doc/reference/cordova_5.2/file/index.rst:565
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:418
 #: ../doc/reference/cordova_4.1/file/index.rst:435
 #: ../doc/reference/cordova_5.2/file/index.rst:565
 msgid "``QUOTA_EXCEEDED_ERR``"
-msgstr ""
+msgstr "``QUOTA_EXCEEDED_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:420
 #: ../doc/reference/cordova_4.1/file/index.rst:437
 #: ../doc/reference/cordova_5.2/file/index.rst:567
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:420
 #: ../doc/reference/cordova_4.1/file/index.rst:437
 #: ../doc/reference/cordova_5.2/file/index.rst:567
 msgid "``TYPE_MISMATCH_ERR``"
-msgstr ""
+msgstr "``TYPE_MISMATCH_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:422
 #: ../doc/reference/cordova_4.1/file/index.rst:439
 #: ../doc/reference/cordova_5.2/file/index.rst:569
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:422
 #: ../doc/reference/cordova_4.1/file/index.rst:439
 #: ../doc/reference/cordova_5.2/file/index.rst:569
 msgid "``PATH_EXISTS_ERR``"
-msgstr ""
+msgstr "``PATH_EXISTS_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:426
 #: ../doc/reference/cordova_4.1/file/index.rst:443
@@ -8465,7 +8466,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/file/plugins.rst:127
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: ../doc/reference/cordova_3.5/file/plugins.rst:129
 msgid ""
@@ -8547,7 +8548,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:111
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:123
 msgid "navigator.geolocation.getCurrentPosition"
-msgstr ""
+msgstr "navigator.geolocation.getCurrentPosition"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:67
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:132
@@ -8556,7 +8557,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:112
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:177
 msgid "navigator.geolocation.watchPosition"
-msgstr ""
+msgstr "navigator.geolocation.watchPosition"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:68
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:233
@@ -8565,7 +8566,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:113
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:278
 msgid "navigator.geolocation.clearWatch"
-msgstr ""
+msgstr "navigator.geolocation.clearWatch"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:71
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:105
@@ -8880,7 +8881,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:375
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:386
 msgid "``PositionError.TIMEOUT``"
-msgstr ""
+msgstr "``PositionError.TIMEOUT``"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:336
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:376
@@ -8896,20 +8897,20 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/globalization/index.rst:23
 #: ../doc/reference/cordova_5.2/globalization/index.rst:24
 msgid "Globalization Plugin"
-msgstr ""
+msgstr "国際化プラグイン"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:17
 msgid ""
 "This document is based on the original Cordova docs available at `Cordova "
 "Docs <https://github.com/apache/cordova-plugin-"
 "globalization/blob/master/README.md>`_."
-msgstr ""
+msgstr "このドキュメントは `Adobe Cordovaのドキュメント <https://github.com/apache/cordova-plugin-globalization/blob/master/doc/ja/index.md>`_ を翻訳したものになります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:19
 msgid ""
 "This plugin obtains information and performs operations specific to the "
 "user's locale and timezone."
-msgstr ""
+msgstr "このプラグインを使用して、ユーザのロケール ( locale ) と タイムゾーン (timezone )に基づいた情報の取得、および、それに付随する各種処理を行います。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:32
 #: ../doc/reference/cordova_4.1/globalization/index.rst:61
@@ -8918,7 +8919,7 @@ msgid ""
 "``org.apache.cordova.globalization`` plugin in Monaca Cloud IDE. Please "
 "refer to :ref:`standard_plugins` docs for how to enable the plugin in "
 "Monaca."
-msgstr ""
+msgstr "このプラグインを使用するには ``org.apache.cordova.globalization`` を有効にする必要があります。 MonacaでCordovaプラグインを使用する方法につきましては :ref:`standard_plugins` を参照してください。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:37
 #: ../doc/reference/cordova_3.5/globalization/index.rst:755
@@ -8927,7 +8928,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:83
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1157
 msgid "GlobalizationError"
-msgstr ""
+msgstr "GlobalizationError"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:42
 #: ../doc/reference/cordova_3.5/globalization/index.rst:493
@@ -8936,7 +8937,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:88
 #: ../doc/reference/cordova_5.2/globalization/index.rst:102
 msgid "navigator.globalization.getPreferredLanguage"
-msgstr ""
+msgstr "navigator.globalization.getPreferredLanguage"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:43
 #: ../doc/reference/cordova_4.1/globalization/index.rst:72
@@ -8944,7 +8945,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:89
 #: ../doc/reference/cordova_5.2/globalization/index.rst:177
 msgid "navigator.globalization.getLocaleName"
-msgstr ""
+msgstr "navigator.globalization.getLocaleName"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:44
 #: ../doc/reference/cordova_3.5/globalization/index.rst:56
@@ -8953,7 +8954,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:90
 #: ../doc/reference/cordova_5.2/globalization/index.rst:254
 msgid "navigator.globalization.dateToString"
-msgstr ""
+msgstr "navigator.globalization.dateToString"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:45
 #: ../doc/reference/cordova_3.5/globalization/index.rst:628
@@ -8962,7 +8963,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:91
 #: ../doc/reference/cordova_5.2/globalization/index.rst:968
 msgid "navigator.globalization.stringToDate"
-msgstr ""
+msgstr "navigator.globalization.stringToDate"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:46
 #: ../doc/reference/cordova_3.5/globalization/index.rst:252
@@ -8971,7 +8972,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:92
 #: ../doc/reference/cordova_5.2/globalization/index.rst:550
 msgid "navigator.globalization.getDatePattern"
-msgstr ""
+msgstr "navigator.globalization.getDatePattern"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:47
 #: ../doc/reference/cordova_3.5/globalization/index.rst:194
@@ -8980,7 +8981,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:93
 #: ../doc/reference/cordova_5.2/globalization/index.rst:459
 msgid "navigator.globalization.getDateNames"
-msgstr ""
+msgstr "navigator.globalization.getDateNames"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:48
 #: ../doc/reference/cordova_3.5/globalization/index.rst:533
@@ -8989,7 +8990,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:94
 #: ../doc/reference/cordova_5.2/globalization/index.rst:842
 msgid "navigator.globalization.isDayLightSavingsTime"
-msgstr ""
+msgstr "navigator.globalization.isDayLightSavingsTime"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:49
 #: ../doc/reference/cordova_3.5/globalization/index.rst:319
@@ -8998,7 +8999,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:95
 #: ../doc/reference/cordova_5.2/globalization/index.rst:663
 msgid "navigator.globalization.getFirstDayOfWeek"
-msgstr ""
+msgstr "navigator.globalization.getFirstDayOfWeek"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:50
 #: ../doc/reference/cordova_3.5/globalization/index.rst:578
@@ -9007,7 +9008,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:96
 #: ../doc/reference/cordova_5.2/globalization/index.rst:894
 msgid "navigator.globalization.numberToString"
-msgstr ""
+msgstr "navigator.globalization.numberToString"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:51
 #: ../doc/reference/cordova_3.5/globalization/index.rst:703
@@ -9016,7 +9017,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:97
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1086
 msgid "navigator.globalization.stringToNumber"
-msgstr ""
+msgstr "navigator.globalization.stringToNumber"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:52
 #: ../doc/reference/cordova_3.5/globalization/index.rst:399
@@ -9025,7 +9026,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:98
 #: ../doc/reference/cordova_5.2/globalization/index.rst:723
 msgid "navigator.globalization.getNumberPattern"
-msgstr ""
+msgstr "navigator.globalization.getNumberPattern"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:53
 #: ../doc/reference/cordova_3.5/globalization/index.rst:113
@@ -9034,7 +9035,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:99
 #: ../doc/reference/cordova_5.2/globalization/index.rst:369
 msgid "navigator.globalization.getCurrencyPattern"
-msgstr ""
+msgstr "navigator.globalization.getCurrencyPattern"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:58
 #: ../doc/reference/cordova_4.1/globalization/index.rst:195
@@ -9042,7 +9043,7 @@ msgstr ""
 msgid ""
 "Returns a date formatted as a string according to the client's locale and "
 "timezone."
-msgstr ""
+msgstr "クライアントのロケールとタイムゾーンに基づき、文字列形式の日付を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:68
 #: ../doc/reference/cordova_4.1/globalization/index.rst:205
@@ -9050,20 +9051,20 @@ msgstr ""
 msgid ""
 "Returns the formatted date ``String`` via a ``value`` property accessible "
 "from the object passed as a parameter to the ``successCallback``."
-msgstr ""
+msgstr "``value`` プロパティー経由で、\\ ``文字列`` ( String )形式の日付を返します。 ``successCallback``にパラメーターとして渡したオブジェクトが、 ``value``プロパティーを格納しています"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:72
 #: ../doc/reference/cordova_4.1/globalization/index.rst:209
 #: ../doc/reference/cordova_5.2/globalization/index.rst:270
 msgid "The inbound ``date`` parameter should be of type ``Date``."
-msgstr ""
+msgstr "インバウンド ( inbound ) する ``date`` パラメーターは、 ``Date``型です。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:74
 msgid ""
 "If there is an error formatting the date, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.FORMATTING\\_ERROR``."
-msgstr ""
+msgstr "日付のフォーマット時にエラーが発生した場合、 ``GlobalizationError``オブジェクトをパラメーターとして使用して、 ``errorCallback``を実行します。このときに使用するエラーコードは、``GlobalizationError.FORMATTING\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:78
 #: ../doc/reference/cordova_3.5/globalization/index.rst:216
@@ -9075,7 +9076,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:481
 #: ../doc/reference/cordova_5.2/globalization/index.rst:914
 msgid "The ``options`` parameter is optional, and its default values are:"
-msgstr ""
+msgstr "``options`` パラメーターの設定は任意です。デフォルト値を以下に示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:84
 #: ../doc/reference/cordova_4.1/globalization/index.rst:221
@@ -9083,21 +9084,21 @@ msgstr ""
 msgid ""
 "The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or "
 "``full``."
-msgstr ""
+msgstr "``options.formatLength`` は、 ``short`` 、 ``medium`` 、 ``long`` 、``full`` のいづれかとなります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:87
 #: ../doc/reference/cordova_4.1/globalization/index.rst:224
 #: ../doc/reference/cordova_5.2/globalization/index.rst:285
 msgid ""
 "The ``options.selector`` can be ``date``, ``time`` or ``date and time``."
-msgstr ""
+msgstr "``options.selector`` は、 ``date`` 、 ``time`` 、 ``date and time`` のいづれかとなります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:98
 msgid ""
 "If the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with text similar to ``date: 9/25/2012 4:21PM`` using the default "
 "options:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US``に設定した場合、以下のオプションを使用して、 ``date: 9/25/2012 4:21PM`` 形式のテキストをポップアップ ダイアログに表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:115
 #: ../doc/reference/cordova_4.1/globalization/index.rst:253
@@ -9105,7 +9106,7 @@ msgstr ""
 msgid ""
 "Returns a pattern string to format and parse currency values according to "
 "the client's user preferences and ISO 4217 currency code."
-msgstr ""
+msgstr "クライアントが行った設定と ISO 4217通貨コードの選択に基づき、通貨価値のパース処理 ( parse )と通貨のフォーマット処理 ( format )を行うときに使用・適用する、文字列形式の パターン ( pattern )を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:125
 #: ../doc/reference/cordova_4.1/globalization/index.rst:263
@@ -9113,7 +9114,7 @@ msgstr ""
 msgid ""
 "Returns the pattern to the ``successCallback`` with a ``properties`` object "
 "as a parameter. That object should contain the following properties:"
-msgstr ""
+msgstr "``properties`` オブジェクトをパラメーターとして使用し、``successCallback`` に パターン ( pattern ) を渡します。オブジェクトは、以下のパラメーターを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:129
 #: ../doc/reference/cordova_4.1/globalization/index.rst:267
@@ -9122,13 +9123,13 @@ msgid ""
 "**pattern**: The currency pattern to format and parse currency values. The "
 "patterns follow `Unicode Technical Standard #35 "
 "<http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*"
-msgstr ""
+msgstr "**pattern**: 通貨価値のパース処理と通貨のフォーマット処理を行うときに使用する、通貨に関するパターン  ( pattern )。 パターンは、 `Unicode Technical Standard#35 <http://unicode.org/reports/tr35/tr35-4.html>`__ に準拠しています。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:133
 #: ../doc/reference/cordova_4.1/globalization/index.rst:271
 #: ../doc/reference/cordova_5.2/globalization/index.rst:389
 msgid "**code**: The ISO 4217 currency code for the pattern. *(String)*"
-msgstr ""
+msgstr "**code**: パターン ( pattern ) に使用する ISO 4217 の通貨コード\n   *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:135
 #: ../doc/reference/cordova_4.1/globalization/index.rst:273
@@ -9136,7 +9137,7 @@ msgstr ""
 msgid ""
 "**fraction**: The number of fractional digits to use when parsing and "
 "formatting currency. *(Number)*"
-msgstr ""
+msgstr "**fraction**:\n   通貨のパース処理とフォーマット処理を行うときに使用する、小数の桁数\n   *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:138
 #: ../doc/reference/cordova_3.5/globalization/index.rst:424
@@ -9147,7 +9148,7 @@ msgstr ""
 msgid ""
 "**rounding**: The rounding increment to use when parsing and formatting. "
 "*(Number)*"
-msgstr ""
+msgstr "**rounding**:\n   通貨のパース処理とフォーマット処理を行うときに適用する、端数処理 (\n   切り捨て・切り上げ ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:141
 #: ../doc/reference/cordova_3.5/globalization/index.rst:433
@@ -9158,7 +9159,7 @@ msgstr ""
 msgid ""
 "**decimal**: The decimal symbol to use for parsing and formatting. "
 "*(String)*"
-msgstr ""
+msgstr "**decimal**:\n   通貨のパース処理とフォーマット処理を行うときに使用する、小数点の記号\n   *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:144
 #: ../doc/reference/cordova_3.5/globalization/index.rst:436
@@ -9169,7 +9170,7 @@ msgstr ""
 msgid ""
 "**grouping**: The grouping symbol to use for parsing and formatting. "
 "*(String)*"
-msgstr ""
+msgstr "**grouping**:\n   通貨のパース処理とフォーマット処理を行うときに使用する、区切り記号 (\n   grouping symbol/separtor ) *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:147
 #: ../doc/reference/cordova_4.1/globalization/index.rst:285
@@ -9177,27 +9178,27 @@ msgstr ""
 msgid ""
 "The inbound ``currencyCode`` parameter should be a ``String`` of one of the "
 "ISO 4217 currency codes, for example 'USD'."
-msgstr ""
+msgstr "インバウンド ( inbound ) する ``currencyCode`` パラメーターには、ISO\n4217 の通貨コードの ``定義`` ( 文字列 ) を使用します。例 : 'USD'"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:150
 msgid ""
 "If there is an error obtaining the pattern, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.FORMATTING\\_ERROR``."
-msgstr ""
+msgstr "パターン ( pattern ) の取得時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.FORMATTING\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:163
 msgid ""
 "When the browser is set to the ``en\\_US`` locale and the selected currency "
 "is United States Dollars, this example displays a popup dialog with text "
 "similar to the results that follow:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定して、また、通貨を USドルに選択した場合、以下の結果をポップアップ ダイアログに表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:182
 #: ../doc/reference/cordova_4.1/globalization/index.rst:321
 #: ../doc/reference/cordova_5.2/globalization/index.rst:442
 msgid "Expected result:"
-msgstr ""
+msgstr "期待する結果 :"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:196
 #: ../doc/reference/cordova_4.1/globalization/index.rst:335
@@ -9205,7 +9206,7 @@ msgstr ""
 msgid ""
 "Returns an array of the names of the months or days of the week, depending "
 "on the client's user preferences and calendar."
-msgstr ""
+msgstr "クライアントが行った設定とカレンダーの選択にに基づき、曜日または月の名が入った配列を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:206
 #: ../doc/reference/cordova_4.1/globalization/index.rst:345
@@ -9216,33 +9217,33 @@ msgid ""
 "``Array`` of ``String`` values. The array features names starting from "
 "either the first month in the year or the first day of the week, depending "
 "on the option selected."
-msgstr ""
+msgstr "``properties`` オブジェクトをパラメーターとして使用して、曜日または月の名を入れた配列を``successCallback`` に渡します。 ``配列`` ( ``文字列`` の値が入る )を使用している ``value``プロパティーを、オブジェクトは格納しています。また、この配列には、その年の最初の月名、または、週の最初の曜日名が入っています。どちらかが入るかは、オプション設定に依ります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:212
 msgid ""
 "If there is an error obtaining the names, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.UNKNOWN\\_ERROR``."
-msgstr ""
+msgstr "月または曜日名の取得時にエラーが発生した場合、 ``GlobalizationError``オブジェクトをパラメーターとして使用して、 ``errorCallback``を実行します。このときに使用するエラーコードは、``GlobalizationError.UNKNOWN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:222
 #: ../doc/reference/cordova_4.1/globalization/index.rst:361
 #: ../doc/reference/cordova_5.2/globalization/index.rst:487
 msgid "The value of ``options.type`` can be ``narrow`` or ``wide``."
-msgstr ""
+msgstr "``options.type`` の値は、 ``narrow`` または ``wide`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:224
 #: ../doc/reference/cordova_4.1/globalization/index.rst:363
 #: ../doc/reference/cordova_5.2/globalization/index.rst:489
 msgid "The value of ``options.item`` can be ``months`` or ``days``."
-msgstr ""
+msgstr "``options.item`` の値は、 ``months`` または ``days`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:235
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this example displays a "
 "series of twelve popup dialogs, one per month, with text similar to ``month:"
 " January``:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、一連の 12 個 ( 1個あたり ひと月 ) のポップアップ ダイアログ上に、\\ ``month: January``に似たテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:254
 #: ../doc/reference/cordova_4.1/globalization/index.rst:394
@@ -9250,7 +9251,7 @@ msgstr ""
 msgid ""
 "Returns a pattern string to format and parse dates according to the client's"
 " user preferences."
-msgstr ""
+msgstr "クライアントの選択肢に基づき、日付のパース処理 ( parse )と日付のフォーマット処理 ( format )を行うときに使用・適用する、文字列形式の パターン ( pattern )を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:264
 #: ../doc/reference/cordova_4.1/globalization/index.rst:404
@@ -9258,7 +9259,7 @@ msgstr ""
 msgid ""
 "Returns the pattern to the ``successCallback``. The object passed in as a "
 "parameter contains the following properties:"
-msgstr ""
+msgstr "``successCallback`` に パターン ( pattern )を渡します。そのときにパラメータとして使用するオブジェクトは、以下のプロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:267
 #: ../doc/reference/cordova_4.1/globalization/index.rst:407
@@ -9267,7 +9268,7 @@ msgid ""
 "**pattern**: The date and time pattern to format and parse dates. The "
 "patterns follow `Unicode Technical Standard #35 "
 "<http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*"
-msgstr ""
+msgstr "**pattern**:日付のパース処理とフォーマット処理を行うときに使用する、日時に関するパターン  ( pattern )。パターンは、 `Unicode Technical Standard#35 <http://unicode.org/reports/tr35/tr35-4.html>`__に準拠しています。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:271
 #: ../doc/reference/cordova_4.1/globalization/index.rst:411
@@ -9275,7 +9276,7 @@ msgstr ""
 msgid ""
 "**timezone**: The abbreviated name of the time zone on the client. "
 "*(String)*"
-msgstr ""
+msgstr " **timezone**: クライアントのタイムゾーンの略称 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:274
 #: ../doc/reference/cordova_4.1/globalization/index.rst:414
@@ -9283,7 +9284,7 @@ msgstr ""
 msgid ""
 "**utc\\_offset**: The current difference in seconds between the client's "
 "time zone and coordinated universal time. *(Number)*"
-msgstr ""
+msgstr "**utc\\_offset**: クライアントのタイムゾーンと協定世界時 ( UTC )\n   間の時差 ( 秒単位 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:277
 #: ../doc/reference/cordova_4.1/globalization/index.rst:417
@@ -9292,14 +9293,14 @@ msgid ""
 "**dst\\_offset**: The current daylight saving time offset in seconds between"
 " the client's non-daylight saving's time zone and the client's daylight "
 "saving's time zone. *(Number)*"
-msgstr ""
+msgstr "**dst\\_offset**: 夏時間 ( DST )\n   を適用および不適用している、クライアントのタイムゾーン間の時差 (\n   秒単位 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:281
 msgid ""
 "If there is an error obtaining the pattern, the ``errorCallback`` executes "
 "with a ``GlobalizationError`` object as a parameter. The error's expected "
 "code is ``GlobalizationError.PATTERN\\_ERROR``."
-msgstr ""
+msgstr "パターン ( pattern ) の取得時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.PATTERN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:285
 #: ../doc/reference/cordova_3.5/globalization/index.rst:661
@@ -9312,7 +9313,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1107
 msgid ""
 "The ``options`` parameter is optional, and defaults to the following values:"
-msgstr ""
+msgstr "``options`` パラメーターの設定は任意です。デフォルト値を以下に示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:292
 #: ../doc/reference/cordova_3.5/globalization/index.rst:668
@@ -9324,13 +9325,13 @@ msgid ""
 "The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or "
 "``full``. The ``options.selector`` can be ``date``, ``time`` or ``date and "
 "time``."
-msgstr ""
+msgstr "``options.formatLength`` の値は、 ``short`` 、 ``medium`` 、 ``long`` 、``full`` のいづれかとなります。 ``options.selector`` の値は、 ``date``、 ``time`` 、 ``date and time`` のいづれかとなります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:305
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this example displays a "
 "popup dialog with text such as ``pattern: M/d/yyyy h:mm a``:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、ポップアップダイアログ上に、 ``pattern: M/d/yyyy h:mm a``に似たテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:321
 #: ../doc/reference/cordova_4.1/globalization/index.rst:462
@@ -9338,7 +9339,7 @@ msgstr ""
 msgid ""
 "Returns the first day of the week according to the client's user preferences"
 " and calendar."
-msgstr ""
+msgstr "クライアントの選択肢とカレンダーに基づき、週の最初の曜日を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:331
 #: ../doc/reference/cordova_4.1/globalization/index.rst:472
@@ -9348,14 +9349,14 @@ msgid ""
 "Sunday. Returns the day to the ``successCallback`` with a ``properties`` "
 "object as a parameter. That object should have a ``value`` property with a "
 "``Number`` value."
-msgstr ""
+msgstr "週の曜日には、1 から始まる番号が割り当てられます。1は、日曜日を指します。 ``properties``オブジェクトをパラメーターとして使用して、 ``successCallback``に曜日を渡します。このオブジェクトは、 ``曜日番号`` の値を設定した``value`` プロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:336
 msgid ""
 "If there is an error obtaining the pattern, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.UNKNOWN\\_ERROR``."
-msgstr ""
+msgstr "パターン ( pattern ) の取得時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.UNKNOWN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:346
 #: ../doc/reference/cordova_5.2/camera/index.rst:125
@@ -9391,37 +9392,37 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:247
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:267
 msgid "Windows Phone 8"
-msgstr ""
+msgstr "Windows Phone 8"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:351
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with text similar to ``day: 1``."
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、ポップアップダイアログ上に、 ``day: 1`` に似たテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:361
 msgid "Get the string identifier for the client's current locale setting."
-msgstr ""
+msgstr "クライアントの現在のロケール設定に基づき、文字列形式の識別子を取得します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:370
 msgid ""
 "Returns the locale identifier string to the ``successCallback`` with a "
 "``properties`` object as a parameter. That object should have a ``value`` "
 "property with a ``String`` value."
-msgstr ""
+msgstr "``properties``オブジェクトをパラメーターとして使用して、文字列形式のロケール識別子 (\nlocale ID ) を ``successCallback`` に渡します。このオブジェクトは、``ロケール識別子`` の値を設定した ``value``プロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:374
 msgid ""
 "If there is an error getting the locale, then the ``errorCallback`` executes"
 " with a ``GlobalizationError`` object as a parameter. The error's expected "
 "code is ``GlobalizationError.UNKNOWN\\_ERROR``."
-msgstr ""
+msgstr "ロケールの取得時にエラーが発生した場合、 ``GlobalizationError``オブジェクトをパラメーターとして使用して、 ``errorCallback``を実行します。このときに使用するエラーコードは、``GlobalizationError.UNKNOWN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:387
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with the text ``locale: en\\_US``."
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、ポップアップダイアログ上に、 ``locale: en\\_US`` のテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:401
 #: ../doc/reference/cordova_4.1/globalization/index.rst:504
@@ -9429,7 +9430,7 @@ msgstr ""
 msgid ""
 "Returns a pattern string to format and parse numbers according to the "
 "client's user preferences."
-msgstr ""
+msgstr "クライアントが行った設定に基づき、数値のパース処理 ( parse )と数値のフォーマット処理 ( format )を行うときに使用・適用する、文字列形式の パターン ( pattern )を返します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:411
 #: ../doc/reference/cordova_4.1/globalization/index.rst:514
@@ -9437,7 +9438,7 @@ msgstr ""
 msgid ""
 "Returns the pattern to the ``successCallback`` with a ``properties`` object "
 "as a parameter. That object contains the following properties:"
-msgstr ""
+msgstr "``successCallback`` に パターン ( pattern )を渡します。そのときにパラメータとして使用する ``properties``オブジェクトは、以下のプロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:414
 #: ../doc/reference/cordova_4.1/globalization/index.rst:517
@@ -9446,7 +9447,7 @@ msgid ""
 "**pattern**: The number pattern to format and parse numbers. The patterns "
 "follow `Unicode Technical Standard #35 "
 "<http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*"
-msgstr ""
+msgstr " **pattern**:数値のパース処理とフォーマット処理を行うときに使用する、数値に関するパターン   ( pattern )。パターンは、 `Unicode Technical Standard   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__   に準拠しています。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:418
 #: ../doc/reference/cordova_4.1/globalization/index.rst:521
@@ -9454,7 +9455,7 @@ msgstr ""
 msgid ""
 "**symbol**: The symbol to use when formatting and parsing, such as a percent"
 " or currency symbol. *(String)*"
-msgstr ""
+msgstr "**symbol**: パース処理とフォーマット処理を行うときに使用する、記号 (\n   例 : 通貨記号またはパーセント表示 ) *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:421
 #: ../doc/reference/cordova_4.1/globalization/index.rst:524
@@ -9462,7 +9463,7 @@ msgstr ""
 msgid ""
 "**fraction**: The number of fractional digits to use when parsing and "
 "formatting numbers. *(Number)*"
-msgstr ""
+msgstr "**fraction**:\n   数値のパース処理とフォーマット処理を行うときに使用する、小数の桁数\n   *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:427
 #: ../doc/reference/cordova_4.1/globalization/index.rst:530
@@ -9470,7 +9471,7 @@ msgstr ""
 msgid ""
 "**positive**: The symbol to use for positive numbers when parsing and "
 "formatting. *(String)*"
-msgstr ""
+msgstr "**positive**:\n   パース処理とフォーマット処理を行うとき、正の数に使用する記号\n   *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:430
 #: ../doc/reference/cordova_4.1/globalization/index.rst:533
@@ -9478,20 +9479,20 @@ msgstr ""
 msgid ""
 "**negative**: The symbol to use for negative numbers when parsing and "
 "formatting. *(String)*"
-msgstr ""
+msgstr "**negative**:\n   パース処理とフォーマット処理を行うとき、負の数に使用する記号\n   *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:439
 msgid ""
 "If there is an error obtaining the pattern, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.PATTERN\\_ERROR``."
-msgstr ""
+msgstr "パターン ( pattern ) の取得時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.PATTERN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:443
 #: ../doc/reference/cordova_4.1/globalization/index.rst:546
 #: ../doc/reference/cordova_5.2/globalization/index.rst:767
 msgid "The ``options`` parameter is optional, and default values are:"
-msgstr ""
+msgstr "``options`` パラメーターの設定は任意です。デフォルト値を以下に示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:449
 #: ../doc/reference/cordova_3.5/globalization/index.rst:731
@@ -9500,43 +9501,43 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/globalization/index.rst:773
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1114
 msgid "The ``options.type`` can be ``decimal``, ``percent``, or ``currency``."
-msgstr ""
+msgstr "The ``options.type`` の値は、 ``decimal`` 、 ``percent`` 、 ``currency``のいづれかとなります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:460
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this should display a "
 "popup dialog with text similar to the results that follow:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、ポップアップダイアログ上に、以下と同じような結果のテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:478
 #: ../doc/reference/cordova_4.1/globalization/index.rst:582
 #: ../doc/reference/cordova_5.2/globalization/index.rst:808
 msgid "Results:"
-msgstr ""
+msgstr "結果 :"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:495
 msgid "Get the string identifier for the client's current language."
-msgstr ""
+msgstr "クライアントの現在の言語設定に基づき、文字列形式の識別子を取得します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:504
 msgid ""
 "Returns the language identifier string to the ``successCallback`` with a "
 "``properties`` object as a parameter. That object should have a ``value`` "
 "property with a ``String`` value."
-msgstr ""
+msgstr "``properties``オブジェクトをパラメーターとして使用して、文字列形式の言語識別子 (\nlanguage ID ) を ``successCallback`` に渡します。このオブジェクトは、``言語識別子`` の値を設定した ``value`` プロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:508
 msgid ""
 "If there is an error getting the language, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.UNKNOWN\\_ERROR``."
-msgstr ""
+msgstr "言語情報の取得時にエラーが発生した場合、 ``GlobalizationError``オブジェクトをパラメーターとして使用して、 ``errorCallback``を実行します。このときに使用するエラーコードは、``GlobalizationError.UNKNOWN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:521
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this should display a "
 "popup dialog with the text ``language: English``:"
-msgstr ""
+msgstr "ブラウザーのロケールを ``en\\_US`` に設定した場合、ポップアップダイアログ上に、 ``language: English`` のテキストを表示します。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:535
 #: ../doc/reference/cordova_4.1/globalization/index.rst:598
@@ -9742,25 +9743,25 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/globalization/index.rst:831
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1166
 msgid "GlobalizationError.UNKNOWN\\_ERROR: 0"
-msgstr ""
+msgstr "GlobalizationError.UNKNOWN\\_ERROR: 0"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:765
 #: ../doc/reference/cordova_4.1/globalization/index.rst:832
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1167
 msgid "GlobalizationError.FORMATTING\\_ERROR: 1"
-msgstr ""
+msgstr "GlobalizationError.FORMATTING\\_ERROR: 1"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:766
 #: ../doc/reference/cordova_4.1/globalization/index.rst:833
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1168
 msgid "GlobalizationError.PARSING\\_ERROR: 2"
-msgstr ""
+msgstr "GlobalizationError.PARSING\\_ERROR: 2"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:767
 #: ../doc/reference/cordova_4.1/globalization/index.rst:834
 #: ../doc/reference/cordova_5.2/globalization/index.rst:1169
 msgid "GlobalizationError.PATTERN\\_ERROR: 3"
-msgstr ""
+msgstr "GlobalizationError.PATTERN\\_ERROR: 3"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:768
 #: ../doc/reference/cordova_4.1/globalization/index.rst:835
@@ -9822,7 +9823,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:43
 #: ../doc/reference/cordova_4.1/inappbrowser/index.rst:81
 msgid "window.open"
-msgstr ""
+msgstr "window.open"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:45
 #: ../doc/reference/cordova_4.1/inappbrowser/index.rst:83
@@ -10044,7 +10045,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/inappbrowser/index.rst:192
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:286
 msgid "InAppBrowser"
-msgstr ""
+msgstr "InAppBrowser"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:146
 #: ../doc/reference/cordova_4.1/inappbrowser/index.rst:194
@@ -10058,7 +10059,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:293
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:301
 msgid "addEventListener"
-msgstr ""
+msgstr "addEventListener"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:152
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:211
@@ -10067,7 +10068,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:294
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:362
 msgid "removeEventListener"
-msgstr ""
+msgstr "removeEventListener"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:153
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:251
@@ -10076,7 +10077,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:295
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:406
 msgid "close"
-msgstr ""
+msgstr "close"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:154
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:276
@@ -10085,7 +10086,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:296
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:436
 msgid "show"
-msgstr ""
+msgstr "show"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:155
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:303
@@ -10094,7 +10095,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:297
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:466
 msgid "executeScript"
-msgstr ""
+msgstr "executeScript"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:156
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:344
@@ -10103,7 +10104,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:298
 #: ../doc/reference/cordova_5.2/inappbrowser/index.rst:523
 msgid "insertCSS"
-msgstr ""
+msgstr "insertCSS"
 
 #: ../doc/reference/cordova_3.5/inappbrowser/index.rst:161
 #: ../doc/reference/cordova_4.1/inappbrowser/index.rst:209
@@ -10403,7 +10404,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:103
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:210
 msgid "CaptureAudioOptions"
-msgstr ""
+msgstr "CaptureAudioOptions"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:59
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:252
@@ -10412,7 +10413,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:104
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:343
 msgid "CaptureImageOptions"
-msgstr ""
+msgstr "CaptureImageOptions"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:60
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:341
@@ -10421,13 +10422,13 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:105
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:444
 msgid "CaptureVideoOptions"
-msgstr ""
+msgstr "CaptureVideoOptions"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:61
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:83
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:106
 msgid "CaptureCallback"
-msgstr ""
+msgstr "CaptureCallback"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:62
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:433
@@ -10436,7 +10437,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:107
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:561
 msgid "CaptureErrorCB"
-msgstr ""
+msgstr "CaptureErrorCB"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:63
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:463
@@ -10445,7 +10446,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:108
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:591
 msgid "ConfigurationData"
-msgstr ""
+msgstr "ConfigurationData"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:64
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:557
@@ -10454,7 +10455,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:109
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:701
 msgid "MediaFile"
-msgstr ""
+msgstr "MediaFile"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:65
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:583
@@ -10463,7 +10464,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:110
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:727
 msgid "MediaFileData"
-msgstr ""
+msgstr "MediaFileData"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:70
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:88
@@ -10472,7 +10473,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:115
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:133
 msgid "capture.captureAudio"
-msgstr ""
+msgstr "capture.captureAudio"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:71
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:193
@@ -10481,7 +10482,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:116
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:261
 msgid "capture.captureImage"
-msgstr ""
+msgstr "capture.captureImage"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:72
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:280
@@ -10490,7 +10491,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:117
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:371
 msgid "capture.captureVideo"
-msgstr ""
+msgstr "capture.captureVideo"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:73
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:517
@@ -10499,7 +10500,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:118
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:645
 msgid "MediaFile.getFormatData"
-msgstr ""
+msgstr "MediaFile.getFormatData"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:78
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:100
@@ -10744,7 +10745,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:399
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:499
 msgid "CaptureCB"
-msgstr ""
+msgstr "CaptureCB"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:373
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:401
@@ -10771,7 +10772,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:432
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:532
 msgid "CaptureError"
-msgstr ""
+msgstr "CaptureError"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:406
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:434
@@ -10877,31 +10878,31 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:506
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:606
 msgid "``video/3gpp``"
-msgstr ""
+msgstr "``video/3gpp``"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:479
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:507
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:607
 msgid "``video/quicktime``"
-msgstr ""
+msgstr "``video/quicktime``"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:480
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:508
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:608
 msgid "``image/jpeg``"
-msgstr ""
+msgstr "``image/jpeg``"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:481
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:509
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:609
 msgid "``audio/amr``"
-msgstr ""
+msgstr "``audio/amr``"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:482
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:510
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:610
 msgid "``audio/wav``"
-msgstr ""
+msgstr "``audio/wav``"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:487
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:515
@@ -11213,31 +11214,31 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:115
 #: ../doc/reference/cordova_5.2/media/index.rst:134
 msgid "``Media.MEDIA_NONE`` = 0;"
-msgstr ""
+msgstr "``Media.MEDIA_NONE`` = 0;"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:74
 #: ../doc/reference/cordova_4.1/media/index.rst:116
 #: ../doc/reference/cordova_5.2/media/index.rst:135
 msgid "``Media.MEDIA_STARTING`` = 1;"
-msgstr ""
+msgstr "``Media.MEDIA_STARTING`` = 1;"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:75
 #: ../doc/reference/cordova_4.1/media/index.rst:117
 #: ../doc/reference/cordova_5.2/media/index.rst:136
 msgid "``Media.MEDIA_RUNNING`` = 2;"
-msgstr ""
+msgstr "``Media.MEDIA_RUNNING`` = 2;"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:76
 #: ../doc/reference/cordova_4.1/media/index.rst:118
 #: ../doc/reference/cordova_5.2/media/index.rst:137
 msgid "``Media.MEDIA_PAUSED`` = 3;"
-msgstr ""
+msgstr "``Media.MEDIA_PAUSED`` = 3;"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:77
 #: ../doc/reference/cordova_4.1/media/index.rst:119
 #: ../doc/reference/cordova_5.2/media/index.rst:138
 msgid "``Media.MEDIA_STOPPED`` = 4;"
-msgstr ""
+msgstr "``Media.MEDIA_STOPPED`` = 4;"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:82
 #: ../doc/reference/cordova_4.1/media/index.rst:124
@@ -11333,7 +11334,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:157
 #: ../doc/reference/cordova_5.2/media/index.rst:176
 msgid "media.getCurrentPosition"
-msgstr ""
+msgstr "media.getCurrentPosition"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:117
 #: ../doc/reference/cordova_4.1/media/index.rst:159
@@ -11361,7 +11362,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:202
 #: ../doc/reference/cordova_5.2/media/index.rst:221
 msgid "media.getDuration"
-msgstr ""
+msgstr "media.getDuration"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:162
 #: ../doc/reference/cordova_4.1/media/index.rst:204
@@ -11375,7 +11376,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:235
 #: ../doc/reference/cordova_5.2/media/index.rst:254
 msgid "media.pause"
-msgstr ""
+msgstr "media.pause"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:195
 #: ../doc/reference/cordova_4.1/media/index.rst:237
@@ -11387,7 +11388,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:269
 #: ../doc/reference/cordova_5.2/media/index.rst:288
 msgid "media.play"
-msgstr ""
+msgstr "media.play"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:229
 #: ../doc/reference/cordova_4.1/media/index.rst:271
@@ -11426,7 +11427,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:331
 #: ../doc/reference/cordova_5.2/media/index.rst:350
 msgid "media.release"
-msgstr ""
+msgstr "media.release"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:291
 #: ../doc/reference/cordova_4.1/media/index.rst:333
@@ -11442,7 +11443,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:357
 #: ../doc/reference/cordova_5.2/media/index.rst:376
 msgid "media.seekTo"
-msgstr ""
+msgstr "media.seekTo"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:317
 #: ../doc/reference/cordova_4.1/media/index.rst:359
@@ -11462,7 +11463,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:386
 #: ../doc/reference/cordova_5.2/media/index.rst:410
 msgid "media.setVolume"
-msgstr ""
+msgstr "media.setVolume"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:346
 #: ../doc/reference/cordova_4.1/media/index.rst:388
@@ -11482,7 +11483,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:440
 #: ../doc/reference/cordova_5.2/media/index.rst:464
 msgid "media.startRecord"
-msgstr ""
+msgstr "media.startRecord"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:400
 #: ../doc/reference/cordova_4.1/media/index.rst:442
@@ -11526,7 +11527,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:507
 #: ../doc/reference/cordova_5.2/media/index.rst:553
 msgid "media.stop"
-msgstr ""
+msgstr "media.stop"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:462
 #: ../doc/reference/cordova_4.1/media/index.rst:509
@@ -11538,7 +11539,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:545
 #: ../doc/reference/cordova_5.2/media/index.rst:591
 msgid "media.stopRecord"
-msgstr ""
+msgstr "media.stopRecord"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:500
 #: ../doc/reference/cordova_4.1/media/index.rst:547
@@ -11550,7 +11551,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:590
 #: ../doc/reference/cordova_5.2/media/index.rst:643
 msgid "MediaError"
-msgstr ""
+msgstr "MediaError"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:548
 #: ../doc/reference/cordova_4.1/media/index.rst:592
@@ -11568,19 +11569,19 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/media/index.rst:561
 msgid "``MediaError.MEDIA_ERR_ABORTED``"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_ABORTED``"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:562
 msgid "``MediaError.MEDIA_ERR_NETWORK``"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_NETWORK``"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:563
 msgid "``MediaError.MEDIA_ERR_DECODE``"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_DECODE``"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:564
 msgid "``MediaError.MEDIA_ERR_NONE_SUPPORTED``"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_NONE_SUPPORTED``"
 
 #: ../doc/reference/cordova_3.5/splashscreen/index.rst:2
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:23
@@ -11745,7 +11746,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:147
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:63
 msgid "StatusBar.overlaysWebView"
-msgstr ""
+msgstr "StatusBar.overlaysWebView"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:77
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:132
@@ -11753,7 +11754,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:175
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:91
 msgid "StatusBar.styleDefault"
-msgstr ""
+msgstr "StatusBar.styleDefault"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:78
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:146
@@ -11761,7 +11762,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:189
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:108
 msgid "StatusBar.styleLightContent"
-msgstr ""
+msgstr "StatusBar.styleLightContent"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:79
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:160
@@ -11769,7 +11770,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:203
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:125
 msgid "StatusBar.styleBlackTranslucent"
-msgstr ""
+msgstr "StatusBar.styleBlackTranslucent"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:80
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:174
@@ -11777,7 +11778,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:217
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:142
 msgid "StatusBar.styleBlackOpaque"
-msgstr ""
+msgstr "StatusBar.styleBlackOpaque"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:81
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:188
@@ -11785,7 +11786,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:231
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:159
 msgid "StatusBar.backgroundColorByName"
-msgstr ""
+msgstr "StatusBar.backgroundColorByName"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:82
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:209
@@ -11793,7 +11794,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:252
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:184
 msgid "StatusBar.backgroundColorByHexString"
-msgstr ""
+msgstr "StatusBar.backgroundColorByHexString"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:83
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:236
@@ -11801,7 +11802,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:279
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:215
 msgid "StatusBar.hide"
-msgstr ""
+msgstr "StatusBar.hide"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:84
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:251
@@ -11809,7 +11810,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:294
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:233
 msgid "StatusBar.show"
-msgstr ""
+msgstr "StatusBar.show"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:89
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:266
@@ -11817,7 +11818,7 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:309
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:251
 msgid "StatusBar.isVisible"
-msgstr ""
+msgstr "StatusBar.isVisible"
 
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:92
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:135
@@ -11965,7 +11966,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/storage/storage.rst:31
 msgid "WebSQL"
-msgstr ""
+msgstr "WebSQL"
 
 #: ../doc/reference/cordova_3.5/storage/storage.rst:33
 msgid ""
@@ -12020,7 +12021,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/vibration/index.rst:41
 #: ../doc/reference/cordova_4.1/vibration/index.rst:64
 msgid "notification.vibrate"
-msgstr ""
+msgstr "notification.vibrate"
 
 #: ../doc/reference/cordova_3.5/vibration/index.rst:43
 msgid "Vibrates the device for the specified amount of time."
@@ -12535,27 +12536,27 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:347
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:389
 msgid "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
-msgstr ""
+msgstr "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:348
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:390
 msgid "2 = ``FileTransferError.INVALID_URL_ERR``"
-msgstr ""
+msgstr "2 = ``FileTransferError.INVALID_URL_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:349
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:391
 msgid "3 = ``FileTransferError.CONNECTION_ERR``"
-msgstr ""
+msgstr "3 = ``FileTransferError.CONNECTION_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:350
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:392
 msgid "4 = ``FileTransferError.ABORT_ERR``"
-msgstr ""
+msgstr "4 = ``FileTransferError.ABORT_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:351
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:393
 msgid "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
-msgstr ""
+msgstr "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:38
 #: ../doc/reference/cordova_5.2/file/index.rst:40
@@ -12596,23 +12597,23 @@ msgstr ""
 
 #: ../doc/reference/cordova_4.1/file/index.rst:239
 msgid "``file:///accounts/1000/appdata/<app id>/``"
-msgstr ""
+msgstr "``file:///accounts/1000/appdata/<app id>/``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:241
 msgid "``app/native``"
-msgstr ""
+msgstr "``app/native``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:243
 msgid "``data/webviews/webfs/temporary/local__0``"
-msgstr ""
+msgstr "``data/webviews/webfs/temporary/local__0``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:245
 msgid "``data/webviews/webfs/persistent/local__0``"
-msgstr ""
+msgstr "``data/webviews/webfs/persistent/local__0``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:247
 msgid "``file:///accounts/1000/removable/sdcard``"
-msgstr ""
+msgstr "``file:///accounts/1000/removable/sdcard``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:247
 msgid "externalRemovableDirectory"
@@ -12620,7 +12621,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_4.1/file/index.rst:249
 msgid "``file:///accounts/1000/shared``"
-msgstr ""
+msgstr "``file:///accounts/1000/shared``"
 
 #: ../doc/reference/cordova_4.1/file/index.rst:249
 msgid "sharedDirectory"
@@ -13065,22 +13066,22 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/media/index.rst:605
 #: ../doc/reference/cordova_5.2/media/index.rst:658
 msgid "``MediaError.MEDIA_ERR_ABORTED`` = 1"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_ABORTED`` = 1"
 
 #: ../doc/reference/cordova_4.1/media/index.rst:606
 #: ../doc/reference/cordova_5.2/media/index.rst:659
 msgid "``MediaError.MEDIA_ERR_NETWORK`` = 2"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_NETWORK`` = 2"
 
 #: ../doc/reference/cordova_4.1/media/index.rst:607
 #: ../doc/reference/cordova_5.2/media/index.rst:660
 msgid "``MediaError.MEDIA_ERR_DECODE`` = 3"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_DECODE`` = 3"
 
 #: ../doc/reference/cordova_4.1/media/index.rst:608
 #: ../doc/reference/cordova_5.2/media/index.rst:661
 msgid "``MediaError.MEDIA_ERR_NONE_SUPPORTED`` = 4"
-msgstr ""
+msgstr "``MediaError.MEDIA_ERR_NONE_SUPPORTED`` = 4"
 
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:38
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:39
@@ -13286,7 +13287,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media/index.rst:82
 #: ../doc/reference/cordova_5.2/network-information/index.rst:68
 msgid "Tizen"
-msgstr ""
+msgstr "Tizen"
 
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:96
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:161
@@ -13492,7 +13493,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:119
 msgid "Blackberry10"
-msgstr ""
+msgstr "Blackberry10"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:124
 #: ../doc/reference/cordova_5.2/contacts/index.rst:249
@@ -13573,19 +13574,19 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:140
 msgid "successCallback"
-msgstr ""
+msgstr "successCallback"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:140
 msgid ":ref:`onSuccess <camera_onsuccess_function>`"
-msgstr ""
+msgstr ":ref:`onSuccess <camera_onsuccess_function>`"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:142
 msgid "errorCallback"
-msgstr ""
+msgstr "errorCallback"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:142
 msgid ":ref:`onError <camera_onerror_function>`"
-msgstr ""
+msgstr ":ref:`onError <camera_onerror_function>`"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:144
 msgid "options"
@@ -13593,7 +13594,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:144
 msgid ":ref:`CameraOptions <camera_cameraoptions_Object>`"
-msgstr ""
+msgstr ":ref:`CameraOptions <camera_cameraoptions_Object>`"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:149
 msgid "camera.onSuccess : function .. code:: js"
@@ -13606,7 +13607,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:156
 msgid "camera.cleanup()"
-msgstr ""
+msgstr "camera.cleanup()"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:158
 msgid ""
@@ -13692,7 +13693,7 @@ msgstr "quality"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:260
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:260
 msgid ""
@@ -13711,7 +13712,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:262
 msgid "FILE\\_URI"
-msgstr ""
+msgstr "FILE\\_URI"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:262
 msgid "Choose the format of the return value."
@@ -13728,7 +13729,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:264
 #: ../doc/reference/cordova_5.2/camera/index.rst:375
 msgid "CAMERA"
-msgstr ""
+msgstr "CAMERA"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:264
 msgid "Set the source of the picture."
@@ -13760,7 +13761,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:268
 #: ../doc/reference/cordova_5.2/camera/index.rst:328
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:268
 msgid "Choose the returned image file's encoding."
@@ -13797,7 +13798,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:274
 #: ../doc/reference/cordova_5.2/camera/index.rst:350
 msgid "PICTURE"
-msgstr ""
+msgstr "PICTURE"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:274
 msgid ""
@@ -13846,7 +13847,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/camera/index.rst:282
 #: ../doc/reference/cordova_5.2/camera/index.rst:425
 msgid "BACK"
-msgstr ""
+msgstr "BACK"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:282
 msgid "Choose the camera to use (front- or back-facing)."
@@ -13867,7 +13868,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:305
 msgid "DATA_URL"
-msgstr ""
+msgstr "DATA_URL"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:305
 #: ../doc/reference/cordova_5.2/camera/index.rst:328
@@ -13887,7 +13888,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:307
 msgid "FILE_URI"
-msgstr ""
+msgstr "FILE_URI"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:307
 msgid "Return file uri (content://media/external/images/media/2 for Android)"
@@ -13895,7 +13896,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:309
 msgid "NATIVE_URI"
-msgstr ""
+msgstr "NATIVE_URI"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:309
 msgid "Return native uri (eg. asset-library://... for iOS)"
@@ -13911,7 +13912,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:330
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:330
 msgid "Return PNG encoded image"
@@ -13929,7 +13930,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:352
 msgid "VIDEO"
-msgstr ""
+msgstr "VIDEO"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:352
 msgid "Allow selection of video only, ONLY RETURNS URL"
@@ -13937,7 +13938,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:354
 msgid "ALLMEDIA"
-msgstr ""
+msgstr "ALLMEDIA"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:354
 msgid "Allow selection from all media types"
@@ -13949,7 +13950,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:373
 msgid "PHOTOLIBRARY"
-msgstr ""
+msgstr "PHOTOLIBRARY"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:373
 msgid ""
@@ -13962,7 +13963,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:377
 msgid "SAVEDPHOTOALBUM"
-msgstr ""
+msgstr "SAVEDPHOTOALBUM"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:377
 msgid "Choose image from picture library (same as PHOTOLIBRARY for Android)"
@@ -13980,27 +13981,27 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:398
 msgid "ARROW_UP"
-msgstr ""
+msgstr "ARROW_UP"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:400
 msgid "ARROW_DOWN"
-msgstr ""
+msgstr "ARROW_DOWN"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:402
 msgid "ARROW_LEFT"
-msgstr ""
+msgstr "ARROW_LEFT"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:404
 msgid "ARROW_RIGHT"
-msgstr ""
+msgstr "ARROW_RIGHT"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:406
 msgid "ARROW_ANY"
-msgstr ""
+msgstr "ARROW_ANY"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:406
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:412
 msgid "Camera.Direction : enum"
@@ -14012,7 +14013,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:427
 msgid "FRONT"
-msgstr ""
+msgstr "FRONT"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:427
 msgid "Use the front-facing camera"
@@ -14052,7 +14053,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:447
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:447
 msgid "y pixel coordinate of screen element onto which to anchor the popover."
@@ -14064,7 +14065,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:449
 msgid "320"
-msgstr ""
+msgstr "320"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:449
 msgid ""
@@ -14077,7 +14078,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:451
 msgid "480"
-msgstr ""
+msgstr "480"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:451
 msgid ""
@@ -14094,7 +14095,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:453
 msgid "ARROW\\_ANY"
-msgstr ""
+msgstr "ARROW\\_ANY"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:453
 msgid "Direction the arrow on the popover should point."
@@ -14740,12 +14741,12 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/device/index.rst:79
 #: ../doc/reference/cordova_5.2/device/index.rst:308
 msgid "device.isVirtual"
-msgstr ""
+msgstr "device.isVirtual"
 
 #: ../doc/reference/cordova_5.2/device/index.rst:80
 #: ../doc/reference/cordova_5.2/device/index.rst:325
 msgid "device.serial"
-msgstr ""
+msgstr "device.serial"
 
 #: ../doc/reference/cordova_5.2/device/index.rst:145
 msgid ""
@@ -14887,7 +14888,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:77
 msgid "Firefox OS\\*\\*"
-msgstr ""
+msgstr "Firefox OS\\*\\*"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:79
 #: ../doc/reference/cordova_5.2/file/index.rst:96
@@ -14942,15 +14943,15 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/file/index.rst:95
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:97
 msgid "Windows 8\\*"
-msgstr ""
+msgstr "Windows 8\\*"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:98
 msgid "Windows\\*"
-msgstr ""
+msgstr "Windows\\*"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:115
 msgid ""
@@ -16052,7 +16053,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:246
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:266
 msgid "Windows Phone 7"
-msgstr ""
+msgstr "Windows Phone 7"
 
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:105
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:122
@@ -16064,12 +16065,12 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:248
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:268
 msgid "Windows Phone 8.1"
-msgstr ""
+msgstr "Windows Phone 8.1"
 
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:178
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:209
 msgid "Android 5+"
-msgstr ""
+msgstr "Android 5+"
 
 #: ../doc/reference/cordova_5.2/vibration/index.rst:41
 msgid ""
@@ -16228,7 +16229,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:80
 msgid ":dfn:`<allow-navigation href=\"*\" />`"
-msgstr ""
+msgstr ":dfn:`<allow-navigation href=\"*\" />`"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:86
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:124
@@ -16352,7 +16353,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:119
 msgid ":dfn:`<allow-intent href=\"*\" />`"
-msgstr ""
+msgstr ":dfn:`<allow-intent href=\"*\" />`"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:123
 msgid "default: ``\"\"`` : No external URLs are allowed."
@@ -16391,7 +16392,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:167
 msgid ":dfn:`<access origin=\"*\" />`"
-msgstr ""
+msgstr ":dfn:`<access origin=\"*\" />`"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:175
 msgid "In ``config.xml``, add ``<access>`` tags, like this:"

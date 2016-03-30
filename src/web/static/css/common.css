@@ -216,6 +216,13 @@ em {
     background-color: #f5f5f5;
     padding: 0 2px; }
 
+.menuselection {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 0 2px; }
+
 a:link, a:visited {
   color: #3372ff;
   text-decoration: underline; }
