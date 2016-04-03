@@ -1,4 +1,25 @@
-<script>
-  console.log(document.cookie);
-  location.href="/en/";
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <script>
+      function browserLanguage() {
+        try {
+          return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0, 2).toLowerCase()
+        }
+        catch(e) {
+          return undefined;
+        }
+      }
+      if (browserLanguage() == "ja") {
+        location.href="/ja/";
+      }
+      location.href="/en/";
+    </script>
+  </head>
+  <body>
+    <a href="/en/">Click here for Monaca English document.</a>
+    <a href="/ja/">Monaca日本語のドキュメントはこちら</a>
+  </body>
+</html>
