@@ -144,19 +144,19 @@
 
   <section class="whatsnew">
     <h2 class="border">Update Information</h2>
+    <div class="whatsnew-loading">Loading...</div>
     <table></table>
   </section><!-- /whatsnew -->
 
   <script>
     $(function() {
       var lang = $("body").data("lang");
-      var url = "https://monaca.mobi/" + lang + "/api/headline/release?lang=" + lang;
+      var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=10&type=allnews";
       $.get(url, function(data) {
-        var data = JSON.parse(data);
+        $(".whatsnew-loading").hide();
         var n = 0;
-        for (i in data.newsList) {
-          if (n++ > 5) break;
-          var news = data.newsList[i];
+        for (i in data.result) {
+          var news = data.result[i];
           if (lang == "en") {
               myDate = moment(news.date, "YYYY-MM-DD");
               news.date = myDate.format("MMM D");
