@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-30 03:18+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-03-31 03:22+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1127,7 +1127,7 @@ msgid ""
 "successfully sent notification while the Total Number of Distribution is the"
 " total number of sent notifications. (See the example in the screenshot "
 "below.)"
-msgstr ""
+msgstr "配信端末 :``成功した配信数/合計配信数`` の形式で、結果が表示されます。「 成功した配信数 」 は通知に成功した数を示し、「 合計配信数 」 は実際に発信した通知の数を指します。下のスクリーンショットをご確認ください。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:82
 msgid "Message: The content of the notification."
@@ -3029,7 +3029,7 @@ msgid ""
 "The Chrome DevTools/Safari Web Inspector should be opened in the host PC; "
 "otherwise, please refer to :ref:`troubleshoot_inspector`. For more "
 "information, please refer to:"
-msgstr ""
+msgstr "Chrome DevTools または Safari の Web インスペクタがホスト PC 側で起動されているか確認します。起動されていない場合、:ref:`troubleshoot_inspector` をご確認ください。また、併せて、次のリンク先もご確認ください。"
 
 #: ../doc/manual/debugger/debug.rst:293
 msgid ""
@@ -8679,7 +8679,7 @@ msgid ""
 "source code.  Additionally, version control systems provide is the ability "
 "to allow multiple team members or individuals to collaborate and maintain "
 "tracking over the source code."
-msgstr ""
+msgstr "バージョン管理システムとは、変更履歴の記録を含む、ソースコードに対して行われた操作を管理するためのツールです。通常、変更履歴を追うためには、リビジョンコード ( 数と文字の組み合わせ ) などを、変更のたびに割り振っていく必要がありますが、バージョン管理システムを使用すれば、このようなことをしなくても、変更履歴を簡単に追うことができます。加えて、以前のファイルとの比較、以前の状態へのリストア、複数のファイルとのマージなど、ソースコードに関わる全般の操作も行えます。他にも、バージョン管理システムを使用する利点として、システムを介すれば、オープンソースの開発に参加している開発者全員で、または、あるプロジェクトに参加している特定のチームメンバー間で、共同で作業を行うことができます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:11
 msgid ""
@@ -8689,21 +8689,21 @@ msgid ""
 "called `GitHub <https://github.com>`_. If you integrate your Monaca project "
 "to your repository, you can simply manage your source code right away from "
 "Monaca Cloud IDE."
-msgstr ""
+msgstr "今回新たに、Monaca クラウド IDE にバージョン管理機能が実装されました。ユーザーフレンドリーなインスターフェイスが提供されているので、処理も簡単です。実装したバージョン管理機能は、数あるシステムの中でも最も認知度が高い `GitHub <https://github.com>`_ ( Git を使用 ) です。この機能を使用すれば、リモートレポジトリと Monaca プロジェクトの接続後、Monaca クラウド IDE からソースコードの管理ができるようになります。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:13
 msgid ""
 "In this section, we will guide you on how to integrate your GitHub account "
 "with your Monaca account and configuring your Monaca project with a GitHub "
 "repository."
-msgstr ""
+msgstr "ここでは、GitHub と Monaca の連携方法、リモートレポジトリと Monaca プロジェクトの同期方法に関して解説します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:15
 msgid ""
 "Generally, you can only connect to public repositories. However, with valid "
 "Monaca subscription plan, you can additionally connect to private "
 "repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr ""
+msgstr "ここでは、Public 指定されたレポジトリを対象として解説を進めます。Private 指定のレポジトリに接続する場合には、対応する Monaca プランに加入する必要があります。詳細は、`料金プラン <https://monaca.mobi/en/pricing>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:21
 msgid "In order to use version control in Monaca Cloud IDE, you will need:"
@@ -8844,7 +8844,7 @@ msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バー�
 msgid ""
 "Then, Monaca will list all of your empty GitHub repositories. If you do not "
 "have any empty repositories yet, you will be asked to create one."
-msgstr ""
+msgstr "GitHub 上に空のリポジトリが置かれている場合、ドロップダウン形式でその一覧が表示されます。空のレポジトリが存在しない場合には、表示される画面から作成します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:145
 msgid ""
@@ -8865,28 +8865,28 @@ msgid ""
 "default, your working branch will be configured as master. If you want to "
 "switch to another working branch, please go to Version Control Configuration"
 " page (:menuselection:`Version Control --> Configure...`)."
-msgstr ""
+msgstr "クリックすると、GitHub 上の新規のレポジトリにプロジェクトがアップロードされます。使用できるブランチは、デフォルトでは、master となります。他のブランチに切り替える場合には、「 バージョン管理設定 」 ページへ移動します ( :menuselection:`バージョン管理 --> 設定...` を選択 )。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:166
 msgid "Import Existing Project from GitHub Repository"
-msgstr ""
+msgstr "既存のプロジェクトを GitHub レポジトリからインポートする場合"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:168
 msgid ""
 "Once you have linked your Monaca account with GitHub, you can import any "
 "existing projects from GitHub repositories to Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca と GitHub の連携後、GitHub レポジトリ―に置かれているプロジェクトを、Monaca クラウド IDE にインポートすることもできます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:172
 msgid "From Dashboard, go to :menuselection:`New Project --> Import Project`."
-msgstr ""
+msgstr "ダッシュボード上で :menuselection:`新規プロジェクト --> Import Project` を選択します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:174
 msgid ""
 "In Import Project dialog, fill in the necessary information and choose "
 "``Import from GitHub Repository``. Then, select the repository and click on "
 ":guilabel:`Import` button."
-msgstr ""
+msgstr "「 プロジェクトのインポート 」 ダイアログが表示されます。必要な情報を入力して、``GitHub のレポジトリからインポート`` を選択します。次に、対象のレポジトリを選択して、 :guilabel:`インポート` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:182
 msgid ""
@@ -8894,47 +8894,47 @@ msgid ""
 "Dashboard. By default, master branch will be applied to the imported "
 "project. You can switch the current working branch in the Version Control "
 "Configuration page (:menuselection:`Version Control --> Configure...`)."
-msgstr ""
+msgstr "インポートの完了後、Monaca ダッシュボード上で対象のプロジェクトが表示されていることを確認します。デフォルトでは、master ブランチのコンテンツがインポート対象となります。ブランチは、「 バージョン管理設定 」 ページ上で切り替えることができます ( :menuselection:`バージョン管理 --> 設定...` )。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:186
 msgid "Working with Remotes"
-msgstr ""
+msgstr "リモートリポジトリを使用した作業"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:188
 msgid ""
 "Once you have successfully connected your project with a repository, you can"
 " start working on the same project with your team members and keep it "
 "synchronized to the latest updates in Monaca Cloud IDE."
-msgstr ""
+msgstr "プロジェクトとレポジトリ間の接続完了後、Monaca クラウド IDE 上で行った作業は、リモートのレポジトリの方にも随時反映できます。以後は、他のプロジェクト参加メンバーと共同で作業できます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:190
 msgid ""
 "Monaca Cloud IDE provides a very user-friendly interface supporting version "
 "control of your code. Without learning Git from the scratch, you can still "
 "perform some basic Git commands directly from the IDE."
-msgstr ""
+msgstr "Monaca クラウド IDE では、ユーザーフレンドリーなバージョン管理用のインターフェイスを提供しています。このインターフェイスを使用すれば、Git のコマンドの詳細を意識せずとも、基本的な操作を一通り行うことができます。 "
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:194
 msgid "Checkout Current Working Branch"
-msgstr ""
+msgstr "ブランチの切り替え ( Git コマンドの checkout ) "
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:196
 msgid ""
 "If you have more than one branch and want to switch the current working "
 "branch, please do as follows:"
-msgstr ""
+msgstr "複数のブランチを使用したプロジェクトで、ブランチの切り替えを行う場合は、次の手順に従います。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:198
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Configure`."
-msgstr ""
+msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> 設定` を選択します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:200
 msgid ""
 "Choose the branch you want to switch to from current working branch, and "
 "click :guilabel:`Save` button."
-msgstr ""
+msgstr "[ ブランチ ] 項目でブランチを切り替え、:guilabel:`アップデート` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:208
 msgid ""
@@ -8942,11 +8942,11 @@ msgid ""
 "you have not committed changes on the current working branch yet. Please "
 "push your changes to current branch first before checking out to another "
 "branch."
-msgstr ""
+msgstr "現在のブランチで行った変更をコミットせずに、ブランチの切り替えを行う場合、エラーが表示されます。ブランチを切り替える場合には、最初に、作業内容をコミット ( 場合によっては、リモートにプッシュまで ) してください。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:212
 msgid "Retrieve Changes from Remotes"
-msgstr ""
+msgstr "リモートリポジトリから最新の内容を取得"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:214
 msgid ""
@@ -8955,48 +8955,48 @@ msgid ""
 "remotes, from Monaca Cloud IDE menu, go to :menuselection:`Version Control "
 "--> Pull`. If there are changes in your remotes, you will receive those "
 "updates in your working branch."
-msgstr ""
+msgstr "Git コマンドでは、リモートリポジトリから最新の情報を取得・ダウンロードする場合、``git pull`` ( git プル ) コマンドを使用します。リモートリポジトリから最新の情報を取得する場合には、Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> プル` を選択します。リモートリポジトリ側の内容が更新されている場合、その内容がダウンロードされ、対応するブランチ側に反映されます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:216
 msgid ""
 "When you create a project in IDE, Monaca keeps all the files in "
 ":guilabel:`www` folder. Files outside of this folder are also synced even "
 "though they will not appear in the IDE."
-msgstr ""
+msgstr "IDE 上でプロジェクトを作成した場合、開発者側が自由に作業できるファイルのほとんどは、:guilabel:`www` フォルダー内に格納されています。これ以外にも、IDE 上には表示されないシステム側のファイルもありますが、リモートリポジトリとの同期時には、これらのファイルも一緒にアップロード・ダウンロードされています。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:221
 msgid "Commit Changes to Remotes"
-msgstr ""
+msgstr "変更箇所のコミットとリモートリポジトリへの反映"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:223
 msgid ""
 "After making changes in the current working branch, you are able to commit "
 "them back to your remote repository. To commit your changes, please do as "
 "follows:"
-msgstr ""
+msgstr "現在作業をしているブランチで行った変更を、リモートリポジトリ―側に反映させます。最初に、次の手順に従い、コミットを行います ( コミット前に、ファイルを保存 )。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:225
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Commit`."
-msgstr ""
+msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> コミット` を選択します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:227
 msgid ""
 "Fill in your commit message and check files you want to commit. Then, click "
 "on :guilabel:`Commit` button."
-msgstr ""
+msgstr "コミットメッセージを入力して、コミット対象のファイルにチェックを入れます。次に、:guilabel:`コミット` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:229
 msgid ""
 "Once you are ready to push those updates to the remote repository, select "
 ":menuselection:`Version Control --> Push`. Once it is successfully pushed, "
 "your remotes will contain latest changes made in Monaca Cloud IDE."
-msgstr ""
+msgstr "ここまでの手順で、リモートリポジトリに更新を反映させる準備ができました。次に、:menuselection:`バージョン管理 --> プッシュ` を選択します。コミット後、リモートリポジトリ―側が更新されているか確認します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:233
 msgid "Show Remote Commit History"
-msgstr ""
+msgstr "リモートリポジトリ側のコミット履歴の表示 ( GitHub 側の履歴ページ )"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:235
 msgid ""
@@ -9004,11 +9004,11 @@ msgid ""
 "go to :menuselection:`Version Control --> Show Remote History`. You will be "
 "redirected to the remote Git service provider's website showing a commit "
 "history of your current branch."
-msgstr ""
+msgstr "リモートリポジトリ側 ( GitHub 側 ) のコミット履歴を確認する場合、:menuselection:`バージョン管理 --> リモートのコミット履歴` を選択します。現在作業しているブランチのコミット履歴が表示された、GitHub 側のサイト ( 外部ページ ) にリダイレクトされます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:239
 msgid "Show Local Commit History"
-msgstr ""
+msgstr "ローカルコミットの履歴表示 ( Monaca クラウド IDE 側の履歴ページ )"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:241
 msgid ""
@@ -9016,7 +9016,7 @@ msgid ""
 "are able to view your local commit history through :menuselection:`Version "
 "Control --> Show Commit History`. To view the changes in each commit, click "
 "on the commit on the left panel."
-msgstr ""
+msgstr "ローカルコミットとは、Monaca クラウド IDE 上で行ったコミットを指します。menuselection:`バージョン管理 --> コミット履歴` を選択すれば、ローカルコミットの履歴を表示できます。各コミットの内容を確認する場合には、コミットメッセージ横の ID をクリックします。"
 
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:5
 msgid "Emmet"
@@ -10262,4 +10262,4 @@ msgstr "マニュアル"
 
 #: ../doc/manual/index.rst:4
 msgid "In this chapter, features in various Monaca products are described."
-msgstr ""
+msgstr "Monaca が提供する環境・ツールに関する詳細に関しては、こちらの解説をご確認ください。"
