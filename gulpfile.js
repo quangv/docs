@@ -223,7 +223,7 @@ gulp.task('deploy', function() {
  
   // define custom headers 
   var headers = {
-    'Cache-Control': 'max-age=7200, no-transform, public'
+    'Cache-Control': 'max-age=600, no-transform, public'
   };
 
   return gulp.src('build/web/**/*')
