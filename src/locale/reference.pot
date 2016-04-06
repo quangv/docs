@@ -403,15 +403,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/push.rst:13
 #: ../doc/reference/monaca_api/cloud_management/user.rst:14
 #: ../doc/reference/monaca_api/utility-34.rst:11
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:33
 #: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/http_server.rst:33
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
 #: ../doc/reference/third_party_phonegap/share.rst:30
-#: ../doc/reference/third_party_phonegap/statusbar.rst:24
-#: ../doc/reference/third_party_phonegap/statusbar.rst:42
-#: ../doc/reference/third_party_phonegap/websocket.rst:33
 msgid "Description"
 msgstr ""
 
@@ -1120,17 +1115,13 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
 #: ../doc/reference/monaca_api/cloud_management/user.rst:212
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:31
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:252
 #: ../doc/reference/third_party_phonegap/datepicker.rst:184
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:65
-#: ../doc/reference/third_party_phonegap/http_server.rst:296
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:191
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:95
 #: ../doc/reference/third_party_phonegap/share.rst:77
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:124
-#: ../doc/reference/third_party_phonegap/statusbar.rst:198
 #: ../doc/reference/third_party_phonegap/webintent.rst:70
-#: ../doc/reference/third_party_phonegap/websocket.rst:558
 msgid "*See Also*"
 msgstr ""
 
@@ -1816,13 +1807,10 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/vibration/index.rst:50
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:12
 #: ../doc/reference/third_party_phonegap/datepicker.rst:23
-#: ../doc/reference/third_party_phonegap/http_server.rst:14
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:42
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:31
 #: ../doc/reference/third_party_phonegap/share.rst:14
-#: ../doc/reference/third_party_phonegap/statusbar.rst:13
 #: ../doc/reference/third_party_phonegap/webintent.rst:15
-#: ../doc/reference/third_party_phonegap/websocket.rst:14
 msgid "Enable Plugin in Monaca"
 msgstr ""
 
@@ -2513,13 +2501,9 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:721
 #: ../doc/reference/cordova_5.2/media/index.rst:141
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:178
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:25
 #: ../doc/reference/third_party_phonegap/datepicker.rst:34
-#: ../doc/reference/third_party_phonegap/http_server.rst:28
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:43
 #: ../doc/reference/third_party_phonegap/share.rst:27
-#: ../doc/reference/third_party_phonegap/statusbar.rst:18
-#: ../doc/reference/third_party_phonegap/websocket.rst:28
 msgid "Methods"
 msgstr ""
 
@@ -2789,25 +2773,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
-#: ../doc/reference/third_party_phonegap/http_server.rst:83
-#: ../doc/reference/third_party_phonegap/http_server.rst:124
-#: ../doc/reference/third_party_phonegap/http_server.rst:167
-#: ../doc/reference/third_party_phonegap/http_server.rst:211
-#: ../doc/reference/third_party_phonegap/http_server.rst:255
-#: ../doc/reference/third_party_phonegap/http_server.rst:292
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:92
-#: ../doc/reference/third_party_phonegap/websocket.rst:92
-#: ../doc/reference/third_party_phonegap/websocket.rst:134
-#: ../doc/reference/third_party_phonegap/websocket.rst:175
-#: ../doc/reference/third_party_phonegap/websocket.rst:219
-#: ../doc/reference/third_party_phonegap/websocket.rst:262
-#: ../doc/reference/third_party_phonegap/websocket.rst:306
-#: ../doc/reference/third_party_phonegap/websocket.rst:355
-#: ../doc/reference/third_party_phonegap/websocket.rst:401
-#: ../doc/reference/third_party_phonegap/websocket.rst:439
-#: ../doc/reference/third_party_phonegap/websocket.rst:477
-#: ../doc/reference/third_party_phonegap/websocket.rst:515
-#: ../doc/reference/third_party_phonegap/websocket.rst:554
 msgid "Example"
 msgstr ""
 
@@ -3523,7 +3489,6 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/media/index.rst:186
 #: ../doc/reference/cordova_5.2/media/index.rst:385
 #: ../doc/reference/cordova_5.2/media/index.rst:419
-#: ../doc/reference/third_party_phonegap/websocket.rst:455
 msgid "Parameters"
 msgstr ""
 
@@ -11152,17 +11117,13 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/vibration/index.rst:277
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:249
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:254
 #: ../doc/reference/third_party_phonegap/datepicker.rst:186
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
-#: ../doc/reference/third_party_phonegap/http_server.rst:298
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:193
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:97
 #: ../doc/reference/third_party_phonegap/share.rst:79
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:126
-#: ../doc/reference/third_party_phonegap/statusbar.rst:200
 #: ../doc/reference/third_party_phonegap/webintent.rst:72
-#: ../doc/reference/third_party_phonegap/websocket.rst:560
 msgid ":ref:`third_party_cordova_index`"
 msgstr ""
 
@@ -11187,16 +11148,12 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/vibration/index.rst:278
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:250
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:255
 #: ../doc/reference/third_party_phonegap/datepicker.rst:187
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
-#: ../doc/reference/third_party_phonegap/http_server.rst:299
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:194
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:98
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:127
-#: ../doc/reference/third_party_phonegap/statusbar.rst:201
 #: ../doc/reference/third_party_phonegap/webintent.rst:73
-#: ../doc/reference/third_party_phonegap/websocket.rst:561
 msgid ":ref:`cordova_core_plugins`"
 msgstr ""
 
@@ -13412,31 +13369,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:169
 #: ../doc/reference/monaca_api/cloud_management/user.rst:197
 #: ../doc/reference/monaca_api/utility-34.rst:61
-#: ../doc/reference/third_party_phonegap/http_server.rst:62
-#: ../doc/reference/third_party_phonegap/http_server.rst:97
-#: ../doc/reference/third_party_phonegap/http_server.rst:140
-#: ../doc/reference/third_party_phonegap/http_server.rst:183
-#: ../doc/reference/third_party_phonegap/http_server.rst:227
-#: ../doc/reference/third_party_phonegap/http_server.rst:272
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:53
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:117
-#: ../doc/reference/third_party_phonegap/statusbar.rst:79
-#: ../doc/reference/third_party_phonegap/statusbar.rst:101
-#: ../doc/reference/third_party_phonegap/statusbar.rst:123
-#: ../doc/reference/third_party_phonegap/statusbar.rst:144
-#: ../doc/reference/third_party_phonegap/statusbar.rst:165
-#: ../doc/reference/third_party_phonegap/statusbar.rst:188
-#: ../doc/reference/third_party_phonegap/websocket.rst:73
-#: ../doc/reference/third_party_phonegap/websocket.rst:108
-#: ../doc/reference/third_party_phonegap/websocket.rst:150
-#: ../doc/reference/third_party_phonegap/websocket.rst:191
-#: ../doc/reference/third_party_phonegap/websocket.rst:235
-#: ../doc/reference/third_party_phonegap/websocket.rst:278
-#: ../doc/reference/third_party_phonegap/websocket.rst:324
-#: ../doc/reference/third_party_phonegap/websocket.rst:372
-#: ../doc/reference/third_party_phonegap/websocket.rst:417
-#: ../doc/reference/third_party_phonegap/websocket.rst:493
-#: ../doc/reference/third_party_phonegap/websocket.rst:531
 msgid "Parameter"
 msgstr ""
 
@@ -13568,9 +13502,6 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/other.rst:11
 #: ../doc/reference/monaca_api/cloud/user.rst:17
 #: ../doc/reference/monaca_api/utility-34.rst:11
-#: ../doc/reference/third_party_phonegap/http_server.rst:33
-#: ../doc/reference/third_party_phonegap/statusbar.rst:24
-#: ../doc/reference/third_party_phonegap/websocket.rst:33
 msgid "Method/Property"
 msgstr ""
 
@@ -13711,30 +13642,6 @@ msgstr ""
 #: ../doc/reference/monaca_api/utility-34.rst:67
 #: ../doc/reference/monaca_api/utility-34.rst:93
 #: ../doc/reference/monaca_api/utility-34.rst:116
-#: ../doc/reference/third_party_phonegap/http_server.rst:67
-#: ../doc/reference/third_party_phonegap/http_server.rst:102
-#: ../doc/reference/third_party_phonegap/http_server.rst:145
-#: ../doc/reference/third_party_phonegap/http_server.rst:188
-#: ../doc/reference/third_party_phonegap/http_server.rst:232
-#: ../doc/reference/third_party_phonegap/http_server.rst:277
-#: ../doc/reference/third_party_phonegap/statusbar.rst:85
-#: ../doc/reference/third_party_phonegap/statusbar.rst:107
-#: ../doc/reference/third_party_phonegap/statusbar.rst:128
-#: ../doc/reference/third_party_phonegap/statusbar.rst:149
-#: ../doc/reference/third_party_phonegap/statusbar.rst:172
-#: ../doc/reference/third_party_phonegap/statusbar.rst:194
-#: ../doc/reference/third_party_phonegap/websocket.rst:78
-#: ../doc/reference/third_party_phonegap/websocket.rst:113
-#: ../doc/reference/third_party_phonegap/websocket.rst:155
-#: ../doc/reference/third_party_phonegap/websocket.rst:196
-#: ../doc/reference/third_party_phonegap/websocket.rst:240
-#: ../doc/reference/third_party_phonegap/websocket.rst:283
-#: ../doc/reference/third_party_phonegap/websocket.rst:329
-#: ../doc/reference/third_party_phonegap/websocket.rst:377
-#: ../doc/reference/third_party_phonegap/websocket.rst:422
-#: ../doc/reference/third_party_phonegap/websocket.rst:460
-#: ../doc/reference/third_party_phonegap/websocket.rst:498
-#: ../doc/reference/third_party_phonegap/websocket.rst:536
 msgid "Return Value"
 msgstr ""
 
@@ -14472,47 +14379,6 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:173
 #: ../doc/reference/monaca_api/cloud_management/user.rst:196
 #: ../doc/reference/monaca_api/utility-34.rst:65
-#: ../doc/reference/third_party_phonegap/http_server.rst:96
-#: ../doc/reference/third_party_phonegap/http_server.rst:101
-#: ../doc/reference/third_party_phonegap/http_server.rst:139
-#: ../doc/reference/third_party_phonegap/http_server.rst:144
-#: ../doc/reference/third_party_phonegap/http_server.rst:182
-#: ../doc/reference/third_party_phonegap/http_server.rst:187
-#: ../doc/reference/third_party_phonegap/http_server.rst:226
-#: ../doc/reference/third_party_phonegap/http_server.rst:231
-#: ../doc/reference/third_party_phonegap/http_server.rst:271
-#: ../doc/reference/third_party_phonegap/statusbar.rst:78
-#: ../doc/reference/third_party_phonegap/statusbar.rst:83
-#: ../doc/reference/third_party_phonegap/statusbar.rst:100
-#: ../doc/reference/third_party_phonegap/statusbar.rst:105
-#: ../doc/reference/third_party_phonegap/statusbar.rst:122
-#: ../doc/reference/third_party_phonegap/statusbar.rst:127
-#: ../doc/reference/third_party_phonegap/statusbar.rst:143
-#: ../doc/reference/third_party_phonegap/statusbar.rst:148
-#: ../doc/reference/third_party_phonegap/statusbar.rst:164
-#: ../doc/reference/third_party_phonegap/statusbar.rst:169
-#: ../doc/reference/third_party_phonegap/statusbar.rst:187
-#: ../doc/reference/third_party_phonegap/statusbar.rst:192
-#: ../doc/reference/third_party_phonegap/websocket.rst:107
-#: ../doc/reference/third_party_phonegap/websocket.rst:112
-#: ../doc/reference/third_party_phonegap/websocket.rst:149
-#: ../doc/reference/third_party_phonegap/websocket.rst:154
-#: ../doc/reference/third_party_phonegap/websocket.rst:190
-#: ../doc/reference/third_party_phonegap/websocket.rst:195
-#: ../doc/reference/third_party_phonegap/websocket.rst:234
-#: ../doc/reference/third_party_phonegap/websocket.rst:239
-#: ../doc/reference/third_party_phonegap/websocket.rst:277
-#: ../doc/reference/third_party_phonegap/websocket.rst:282
-#: ../doc/reference/third_party_phonegap/websocket.rst:328
-#: ../doc/reference/third_party_phonegap/websocket.rst:376
-#: ../doc/reference/third_party_phonegap/websocket.rst:416
-#: ../doc/reference/third_party_phonegap/websocket.rst:421
-#: ../doc/reference/third_party_phonegap/websocket.rst:454
-#: ../doc/reference/third_party_phonegap/websocket.rst:459
-#: ../doc/reference/third_party_phonegap/websocket.rst:492
-#: ../doc/reference/third_party_phonegap/websocket.rst:497
-#: ../doc/reference/third_party_phonegap/websocket.rst:530
-#: ../doc/reference/third_party_phonegap/websocket.rst:535
 msgid "``None``"
 msgstr ""
 
@@ -15120,8 +14986,6 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/error.rst:20
 #: ../doc/reference/monaca_api/cloud_management/push.rst:37
-#: ../doc/reference/third_party_phonegap/websocket.rst:323
-#: ../doc/reference/third_party_phonegap/websocket.rst:371
 msgid "``message``"
 msgstr ""
 
@@ -17588,130 +17452,6 @@ msgstr ""
 msgid "BarcodeScanner Demo"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:5
-msgid "Bluetooth Plugin (Android)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:11
-msgid "It's available for Android platform only. Also, this plugin only supports SPP (Serial Port Profile)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:14
-msgid "Enable Bluetooth Plugin in Monaca"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:16
-#: ../doc/reference/third_party_phonegap/http_server.rst:16
-#: ../doc/reference/third_party_phonegap/websocket.rst:16
-msgid "From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:18
-msgid "Click :guilabel:`Enable` button of the BluetoothPlugin to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:28
-msgid "For convenience, here we assign the bluetooth plugin to ``\"g_bluetoothPlugin\"`` variable. From now on, Bluetooth functionality can be utilized through our ``\"g_bluetoothPlugin\"`` variable."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:33
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/share.rst:30
-msgid "Function Name"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:35
-msgid "isSupported()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:35
-msgid "Check whether the device support the Bluetooth API."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:37
-msgid "isEnabled(onSuccess, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:37
-msgid "Check if the device's Bluetooth is enabled or not."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:39
-msgid "enable(onSuccess, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:39
-msgid "Enable Bluetooth connection."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:41
-msgid "disable(onSuccess, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:41
-msgid "Disable Bluetooth connection."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:43
-msgid "startDiscovery(onDeviceDiscovered, onDiscoveryFinished, onError, opts)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:43
-msgid "Discover nearby Bluetooth devices."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:45
-msgid "getUuids(onSuccess, onError, address)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:45
-msgid "List the UUID of the available devices. This function returns multiple UUIDs, but the last one is the correct UUID for Bluetooth connection."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:49
-msgid "connect(onSuccess, onError, opts)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:49
-msgid "Connect to a Bluetooth device using RFCOMM protocol."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:51
-msgid "write(onSuccess, onError, data, encoding, forceString)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:51
-msgid "Write to the connected Bluetooth device."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:53
-msgid "startConnectionManager(onDataRead, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:53
-msgid "Start connection management: allowing read and write."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:55
-msgid "stopConnectionManager(onSuccess, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:55
-msgid "Stop connection management. It doesn't invoke disconnection. You can reinvoke startConnectionManager without having to invoke connect first."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:59
-msgid "disconnect(onSuccess, onError)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:59
-msgid "Disconnect from a connected Bluetooth device."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/bluetooth.rst:64
-msgid "Bluetooth Plugin Demo"
-msgstr ""
-
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"
 msgstr ""
@@ -17727,6 +17467,11 @@ msgstr ""
 #: ../doc/reference/third_party_phonegap/datepicker.rst:37
 #: ../doc/reference/third_party_phonegap/datepicker.rst:52
 msgid "For Android"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/datepicker.rst:40
+#: ../doc/reference/third_party_phonegap/share.rst:30
+msgid "Function Name"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:43
@@ -17838,198 +17583,6 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:55
 msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the AppStore, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:5
-msgid "HTTP Server Plugin (Android)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:10
-msgid "Use HTTP Server plugin to establish an HTTP connection."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:18
-msgid "Click :guilabel:`Enable` button of the HttpServer to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:24
-#: ../doc/reference/third_party_phonegap/share.rst:24
-#: ../doc/reference/third_party_phonegap/webintent.rst:25
-#: ../doc/reference/third_party_phonegap/websocket.rst:24
-msgid "It's available only to Android platform."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:30
-msgid "With HTTP Server plugin in Monaca, the following functions can be used:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:35
-msgid ":ref:`plugins.httpServer()<plugins.httpServer>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:35
-msgid "Create an HTTP Server object"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:37
-msgid ":ref:`plugins.httpServer.start()<httpServer.start>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:37
-msgid "Start HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:39
-msgid ":ref:`plugins.httpServer.stop()<httpServer.stop>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:39
-msgid "Stop HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:41
-msgid ":ref:`plugins.httpServer.getAddress()<httpServer.getAddress>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:41
-msgid "Get address of an HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:43
-msgid ":ref:`plugins.httpServer.getStatus()<httpServer.getStatus>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:43
-msgid "Get current status of an HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:45
-msgid ":ref:`plugins.httpServer.rootDirectoryAbsolutePath<hs.AbsPath>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:45
-msgid "An absolute path of root directory"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:52
-msgid "plugins.httpServer() - Create an HTTP Server Object"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:54
-msgid "Create an HTTP Server object with an appropriate HTTP Server port number and server root directory. The port number has to be free which hasn't been used yet."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:56
-msgid ":dfn:`plugins.httpServer([serverRootDir: string, PORT: string]): Object`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:60
-msgid "``serverRootDir``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:60
-msgid "Root directory of HTTP Server (default: ``\"\"``). Please note that the ``baseUrl`` is ``\"/www/\"``."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:61
-#: ../doc/reference/third_party_phonegap/websocket.rst:72
-msgid "``PORT``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:61
-msgid "The port number of HTTP Server (default: ``3000``)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:66
-msgid "An HTTP Server object is returned."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:70
-msgid "The following example indicates how to create HTTP Server objects with default and specific port numbers."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:88
-msgid "plugins.httpServer.start() - Start HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:90
-msgid "Start an HTTP Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:92
-msgid ":dfn:`plugins.httpServer.start(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:105
-msgid "The following example indicates how to start an HTTP Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:131
-msgid "plugins.httpServer.stop() - Stop HTTP Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:133
-msgid "Stop an HTTP Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:135
-msgid ":dfn:`plugins.httpServer.stop(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:148
-msgid "The following example indicates how to stop an HTTP Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:174
-msgid "plugins.httpServer.getAddress() - Get Address"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:176
-msgid "Get address(IP and port number) of an HTTP Server which has already started."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:178
-msgid ":dfn:`plugins.httpServer.getAddress(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:191
-msgid "The following example indicates how to retrieve the address of an HTTP Server which has already started."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:218
-msgid "plugins.httpServer.getStatus() - Get Status"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:220
-msgid "Get current status of an HTTP Server which has already started."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:222
-msgid ":dfn:`plugins.httpServer.getStatus(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:235
-msgid "The following example indicates how to retrieve current status of an HTTP Server which has already started."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:262
-msgid "plugins.httpServer.rootDirectoryAbsolutePath - Absolute Path of Root Directory"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:264
-msgid "Get an absolute path of root directory of HTTP server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:266
-msgid ":dfn:`plugins.httpServer.rootDirectoryAbsolutePath: string`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:276
-msgid "A string of root directory's absolute path is returned."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/http_server.rst:280
-msgid "The following example indicates how to get an absolute path of root directory of HTTP server."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
@@ -18329,6 +17882,11 @@ msgstr ""
 msgid "Click :guilabel:`Enable` button of the Share to add it into your project."
 msgstr ""
 
+#: ../doc/reference/third_party_phonegap/share.rst:24
+#: ../doc/reference/third_party_phonegap/webintent.rst:25
+msgid "It's available only to Android platform."
+msgstr ""
+
 #: ../doc/reference/third_party_phonegap/share.rst:33
 msgid "Show a list of apps for user to choose and share the data when an app is selected."
 msgstr ""
@@ -18447,212 +18005,6 @@ msgstr ""
 msgid "This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 or higher."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/statusbar.rst:5
-msgid "iOS Status Bar Plugin"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:10
-msgid "This plugin is used to controll the properties and behaviour of the status bar in iOS."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:15
-msgid "This plugin is enabled by default."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:21
-msgid "With iOS Status Bar plugin in Monaca, the following functions can be used:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:24
-msgid "Support"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:26
-msgid ":ref:`window.StatusBar.hideStatusBar()<hideStatusBar>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:26
-#: ../doc/reference/third_party_phonegap/statusbar.rst:28
-#: ../doc/reference/third_party_phonegap/statusbar.rst:30
-msgid "iOS 6, iOS 7"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:26
-msgid "Hide the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:28
-msgid ":ref:`window.StatusBar.showStatusBar()<ShowStatusBar>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:28
-msgid "Show the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:30
-msgid ":ref:`window.StatusBar.statusBarStyleDefault()<statusBarStyleDefault>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:30
-msgid "Apply the default style to the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:32
-msgid ":ref:`window.StatusBar.statusBarStyleLightContent()<statusBarStyleLightContent>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:32
-#: ../doc/reference/third_party_phonegap/statusbar.rst:45
-#: ../doc/reference/third_party_phonegap/statusbar.rst:46
-msgid "iOS 7"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:32
-msgid "Apply the light content style to the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:34
-msgid ":ref:`window.StatusBar.statusBarStyleBlackOpaque()<statusBarStyleBlackOpaque>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:34
-#: ../doc/reference/third_party_phonegap/statusbar.rst:36
-#: ../doc/reference/third_party_phonegap/statusbar.rst:44
-#: ../doc/reference/third_party_phonegap/statusbar.rst:47
-#: ../doc/reference/third_party_phonegap/statusbar.rst:48
-msgid "iOS 6"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:34
-msgid "Apply the black opaque style to the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:36
-msgid ":ref:`window.StatusBar.statusBarStyleBlackTranslucent()<statusBarStyleBlackTranslucent>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:36
-#: ../doc/reference/third_party_phonegap/statusbar.rst:181
-msgid "Apply the black translucent style to the status bar"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:39
-msgid "Image list of the iOS status bar:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:42
-msgid "Image"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:42
-msgid "Version"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:44
-msgid "|iOS6Default|"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:44
-#: ../doc/reference/third_party_phonegap/statusbar.rst:45
-msgid "Default style"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:45
-msgid "|iOS7Default|"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:46
-msgid "|iOS7L|"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:46
-msgid "Light content style"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:47
-msgid "|iOS6D|"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:47
-msgid "Black opaque style"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:48
-msgid "|iOS6T|"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:48
-msgid "Black translucent style"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:70
-msgid "window.StatusBar.hideStatusBar()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:72
-msgid "Use this function to hide the status bar."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:74
-msgid ":dfn:`window.StatusBar.hideStatusBar()`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:92
-msgid "window.StatusBar.ShowStatusBar()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:94
-msgid "Use this function to show the status bar."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:96
-msgid ":dfn:`window.StatusBar.showStatusBar()`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:114
-msgid "window.StatusBar.statusBarStyleDefault()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:116
-msgid "Apply the default style to the status bar."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:118
-msgid ":dfn:`window.StatusBar.statusBarStyleDefault()`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:135
-msgid "window.StatusBar.statusBarStyleLightContent()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:137
-msgid "Apply the light content style to the status bar."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:139
-msgid ":dfn:`window.StatusBar.statusBarStyleLightContent()`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:156
-msgid "window.StatusBar.statusBarStyleBlackOpaque()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:158
-msgid "Apply the black opaque style to the status bar."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:160
-msgid ":dfn:`window.StatusBar.statusBarStyleBlackOpaque()`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:179
-msgid "window.StatusBar.statusBarStyleBlackTranslucent()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/statusbar.rst:183
-msgid ":dfn:`window.StatusBar.statusBarStyleBlackTranslucent()`"
-msgstr ""
-
 #: ../doc/reference/third_party_phonegap/webintent.rst:5
 msgid "WebIntent Plugin (Android)"
 msgstr ""
@@ -18671,330 +18023,5 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:61
 msgid "Using ``\"url\"`` attribute of the ``\"startActivity\"`` function, an app can specify the target app to be launched. Here are some examples:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:5
-msgid "WebSocket Server Plugin (Android)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:10
-msgid "Using WebSocket Server plugin, you can create different channels over one HTTP connection. Please refer to :ref:`http_server_plugin` on how to establish an HTTP connection with Monaca."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:18
-msgid "Click :guilabel:`Enable` button of the WebsocketServer to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:30
-msgid "With WebSocket Server plugin in Monaca, the following functions and events can be used:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:35
-msgid ":ref:`plugins.webSocketServer()<m.WebSocketServer>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:35
-msgid "Create a WebSocket Server object"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:37
-msgid ":ref:`plugins.webSocketServer.start()<ss.start>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:37
-msgid "Start WebSocket Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:39
-msgid ":ref:`plugins.webSocketServer.stop()<ss.stop>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:39
-msgid "Stop WebSocket Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:41
-msgid ":ref:`plugins.webSocketServer.getAddress()<ss.getAddress>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:41
-msgid "Get address of WebSocket Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:43
-msgid ":ref:`plugins.webSocketServer.getClients()<ss.getClients>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:43
-msgid "Get all clients connected to a WebSocket Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:45
-msgid ":ref:`plugins.webSocketServer.getStatus()<ss.getStatus>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:45
-msgid "Get current status of a WebSocket Server"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:47
-msgid ":ref:`plugins.webSocketServer.send()<ss.send>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:47
-msgid "Send a message to a specific client"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:49
-msgid ":ref:`plugins.webSocketServer.sendToAllClients()<ss.ToAllClients>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:49
-msgid "Send a message to all clients"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:51
-msgid ":ref:`plugins.webSocketServer.onClientConnected<ss.ClientCon>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:51
-msgid "Client is Connected"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:53
-msgid ":ref:`plugins.webSocketServer.onClientDisconnected<ss.ClientDiscon>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:53
-msgid "Client is Disconnected"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:55
-msgid ":ref:`plugins.webSocketServer.onmessage<ss.onmessage>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:55
-msgid "Message has arrived"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:57
-msgid ":ref:`plugins.webSocketServer.onerror<ss.onerror>`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:57
-msgid "Error has occurred"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:64
-msgid "plugins.webSocketServer()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:66
-msgid "Create a WebSocket Server object with an appropriate WebSocket Server port number. The port number has to be free which hasn't been used yet."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:68
-msgid ":dfn:`plugins.webSocketServer([PORT: number]) : Object`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:72
-msgid "The port number of WebSocket Server (default: ``3001``)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:77
-msgid "A WebSocket Server object is returned."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:81
-msgid "The following example indicates how to create WebSocket Server objects with default and specific port numbers."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:99
-msgid "plugins.webSocketServer.start()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:101
-msgid "Start WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:103
-msgid ":dfn:`plugins.webSocketServer.start(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:116
-msgid "The following example indicates how to start a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:141
-msgid "plugins.webSocketServer.stop()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:143
-msgid "Stop WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:145
-msgid ":dfn:`plugins.webSocketServer.stop(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:158
-msgid "The following example indicates how to stop a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:182
-msgid "plugins.webSocketServer.getAddress()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:184
-msgid "Get address (IP and port number) of a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:186
-msgid ":dfn:`plugins.webSocketServer.getAddress(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:199
-msgid "The following example indicates how to retrieve the address of a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:226
-msgid "plugins.webSocketServer.getClients()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:228
-msgid "Get all clients connected to a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:230
-msgid ":dfn:`plugins.webSocketServer.getClients(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:243
-msgid "The following example indicates how to retrieve all clients currently connected to a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:269
-msgid "plugins.webSocketServer.getStatus()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:271
-msgid "Get current status of a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:273
-msgid ":dfn:`plugins.webSocketServer.getStatus(onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:286
-msgid "The following example indicates how to retrieve current status of a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:313
-msgid "plugins.webSocketServer.send()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:315
-msgid "Send a message to a specific client currently connected to a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:317
-msgid ":dfn:`plugins.webSocketServer.send(clientId: string, message: string, onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:322
-msgid "``clientId``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:322
-msgid "ID of the client that you intend to send a message to."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:323
-#: ../doc/reference/third_party_phonegap/websocket.rst:371
-msgid "Text content to send."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:332
-msgid "The following example indicates how to send a message to a currently connected client. ``clientId`` is used to distinguish each client. You can receive ``clientId`` by ``onClientConnected`` event or ``webSocketServer.getClients()`` function."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:362
-msgid "plugins.webSocketServer.sendToAllClients()"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:364
-msgid "Send a message to all clients currently connected to a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:366
-msgid ":dfn:`plugins.webSocketServer.sendToAllClients(message: string, onSuccess: callback, onFailure: callback)`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:380
-msgid "The following example indicates how to send a message to all clients."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:408
-msgid "plugins.webSocketServer.onClientConnected"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:410
-msgid "An event triggered when a client is successfully connected to a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:412
-msgid ":dfn:`plugins.webSocketServer.onClientConnected = callback`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:425
-msgid "The following example indicates how to handle an ``OnClientConnected`` event."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:446
-msgid "plugins.webSocketServer.onClientDisconnected"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:448
-msgid "An event triggered when a client is successfully disconnected from a WebSocket Server."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:450
-msgid ":dfn:`plugins.webSocketServer.onClientDisconnected = callback`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:463
-msgid "The following example indicates how to handle an ``onClientDisconnected`` event."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:484
-msgid "plugins.webSocketServer.onmessage"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:486
-msgid "An event triggered when WebSocket Server received a message from a client."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:488
-msgid ":dfn:`plugins.webSocketServer.onmessage = callback`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:501
-msgid "The following example indicates how to handle an ``onmessage`` event."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:522
-msgid "plugins.webSocketServer.onerror"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:524
-msgid "An event triggered when WebSocket Server encounters errors."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:526
-msgid ":dfn:`plugins.webSocketServer.onerror = callback`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/websocket.rst:539
-msgid "The following example indicates how to handle an ``onerror`` event."
 msgstr ""
 
