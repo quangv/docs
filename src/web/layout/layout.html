@@ -94,10 +94,11 @@
     <div class="footer-nav">
       {{#is lang "ja"}}
         <a href="/en/" id="footer-nav-feedback">English</a>
+        <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a>
       {{else}}
         <a href="/ja/" id="footer-nav-feedback">日本語版</a>
+        <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a>
       {{/is}}
-      <a href="http://monaca.mobi/page/contact" id="footer-nav-feedback">Feedback</a>
     </div>
     <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
   </footer>
@@ -106,7 +107,7 @@
     if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
       document.body.classList.add("home");
     }
-
   </script>
+
 </body>
 </html>
