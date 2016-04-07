@@ -31,7 +31,7 @@ There are 2 main debugging mechanism can be used to debug Monaca apps with Monac
 Monaca Debug Panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A popular Web debugging tool, `Weinre (WEb INspector REmote) <https://people.apache.org/~pmuellr/weinre-docs/latest/>`_, is embedded in debug panel of Monaca Cloud IDE. This tool allows you to debug your app using console debugging and DOM inspection. 
+A popular Web debugging tool, `Weinre (WEb INspector REmote) <https://people.apache.org/~pmuellr/weinre/docs/latest/>`_, is embedded in debug panel of Monaca Cloud IDE. This tool allows you to debug your app using console debugging and DOM inspection. 
 
 .. figure:: images/debug/1.png
   :align: center
