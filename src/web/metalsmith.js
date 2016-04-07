@@ -40,7 +40,7 @@ module.exports = function(options) {
     };
     for (file in files) {
       var path = nodePath.join(metalsmith.source(), file);
-      if (file.indexOf("cordova_") != -1) {
+      if (file.indexOf("/reference/cordova_") != -1) {
         var currentVersion = null;
 
         files[file].cordovaVersions = {};
