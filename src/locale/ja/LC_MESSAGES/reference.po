@@ -10,13 +10,14 @@
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
 # Hotellook, 2014
+# Masakazu Watabe <watabe08@gmail.com>, 2016
 # Rudolf Schnapka <rs@techno-flex.de>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-04-06 12:15+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-04-14 12:58+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1920,7 +1921,7 @@ msgstr ":ref:`android_configuration_file`"
 #: ../doc/reference/cordova_4.1/accelerometor/index.rst:23
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:24
 msgid "Device Motion Plugin"
-msgstr "加速度センサープラグイン"
+msgstr "端末のモーション検知 プラグイン"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:17
 msgid ""
@@ -1937,7 +1938,7 @@ msgid ""
 " is a motion sensor that detects the change (*delta*) in movement relative "
 "to the current device orientation, in three dimensions along the *x*, *y*, "
 "and *z* axis."
-msgstr "このプラグインを使用して、デバイス内臓の加速度センサーが持つ情報を取得します。加速度センサーは、*x*, *y*, *z* 軸の 3 次元で、デバイスの傾きの変化 ( *delta* )を検知するモーションセンサーの 1 種です。"
+msgstr "このプラグインを使用して、端末の加速度センサーにアクセスします。加速度センサーは、 *x*、*y*、*z* 軸の 3 次元で、現在の端末の位置を基に、傾きの変化 ( *delta* ) を検知するモーションセンサーの 1 種です。"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:25
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:31
@@ -1996,7 +1997,7 @@ msgstr "このプラグインを使用して、デバイス内臓の加速度セ
 #: ../doc/reference/cordova_5.2/vibration/index.rst:59
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:49
 msgid "Plugin ID"
-msgstr "プラグインID"
+msgstr "プラグイン ID"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:32
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:38
@@ -2041,7 +2042,7 @@ msgstr "プラグインID"
 #: ../doc/reference/third_party_phonegap/share.rst:14
 #: ../doc/reference/third_party_phonegap/webintent.rst:15
 msgid "Enable Plugin in Monaca"
-msgstr "MonacaでCordovaプラグインを有効にする"
+msgstr "プラグインの追加方法 ( Monaca 上での処理 )"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:34
 #: ../doc/reference/cordova_4.1/accelerometor/index.rst:67
@@ -2788,7 +2789,7 @@ msgstr "オブジェクト"
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:99
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:233
 msgid "Acceleration"
-msgstr "端末のモーション検知 プラグイン"
+msgstr "Acceleration"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:57
 #: ../doc/reference/cordova_4.1/accelerometor/index.rst:91
@@ -2802,7 +2803,7 @@ msgstr "*x*、*y*、*z* 軸方向に働いている現在の加速度を取得�
 msgid ""
 "These acceleration values are returned to the ``accelerometerSuccess`` "
 "callback function."
-msgstr "``accelerometerSuccess`` コールバック関数に、これらの加速度の値が渡されます。"
+msgstr "``accelerometerSuccess`` コールバック関数に、これらの加速度の値が返ってきます。"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:67
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:119
@@ -3009,7 +3010,7 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/monaca_api/utility-34.rst:123
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:92
 msgid "Example"
-msgstr "【具体例】"
+msgstr "例"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:85
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:139
@@ -3095,7 +3096,7 @@ msgstr "iOS 特有の動作"
 msgid ""
 "iOS doesn't recognize the concept of getting the current acceleration at any"
 " given point."
-msgstr "iOS では、時間を指定して、加速度の値を取得することができません。"
+msgstr "iOS では、時間を指定して、加速度情報を取得することができません。"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:90
 #: ../doc/reference/cordova_4.1/accelerometor/index.rst:124
@@ -3121,7 +3122,7 @@ msgid ""
 "executing the ``accelerometerSuccess`` callback function each time. Specify "
 "the interval in milliseconds via the ``acceleratorOptions`` object's "
 "``frequency`` parameter."
-msgstr "端末の現在の ``加速度`` ( Acceleration オブジェクト ) を、一定の間隔で取得します。また、取得するたび、`accelerometerSuccess` コールバック関数を実行します。取得の間隔は、``acceleratorOptions`` オブジェクトの ``frequency`` パラメーターを使用して指定します ( ミリ秒単位 )。"
+msgstr "端末の現在の ``加速度`` ( Acceleration オブジェクト ) を、一定の間隔で取得します。また、取得の都度、`accelerometerSuccess` コールバック関数を実行します。取得の間隔は、``acceleratorOptions`` オブジェクトの ``frequency`` パラメーターを使用して指定します ( ミリ秒単位 )。"
 
 #: ../doc/reference/cordova_3.5/accelerometor/index.rst:104
 #: ../doc/reference/cordova_4.1/accelerometor/index.rst:138
@@ -3362,14 +3363,14 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.battery-
 msgid ""
 "This event fires when the percentage of battery charge changes by at least 1"
 " percent, or if the device is plugged in or unplugged."
-msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、デバイスの充電または充電を停止した場合、このイベントが発火します。"
+msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始または停止した場合、このイベントが発火します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:48
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:65
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:74
 msgid ""
 "The battery status handler is passed an object that contains two properties:"
-msgstr "以下の 2 つのプロパティーを格納したオブジェクトを、battery status ハンドラーに渡します。"
+msgstr "batterystatus ハンドラーには、次の 2 つのプロパティーを格納したオブジェクトが渡されます。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:51
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:86
@@ -3395,13 +3396,13 @@ msgstr "**level**: バッテリー残量を示すパーセンテージ ( 0-100 )
 msgid ""
 "**isPlugged**: A boolean that indicates whether the device is plugged in. "
 "*(Boolean)*"
-msgstr "**isPlugged**: デバイスが充電中かどうか示す boolean 値 *(Boolean)*"
+msgstr "**isPlugged**: 端末が充電中かを示す真偽値 *(Boolean)*"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:56
 msgid ""
 "Applications typically should use ``window.addEventListener`` to attach an "
 "event listener once the ``deviceready`` event fires. e.g.:"
-msgstr "``deviceready`` イベントが発火した後にイベントリスナーをアタッチ (attach ) するとき、\\ ``window.addEventListener``を、アプリは通常使用します。"
+msgstr "``deviceready`` イベントが発火した後にイベントリスナーをアタッチ (attach ) するとき、``window.addEventListener`` を、アプリは通常使用します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:80
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:98
@@ -3409,7 +3410,7 @@ msgstr "``deviceready`` イベントが発火した後にイベントリスナ�
 msgid ""
 "The event fires when the percentage of battery charge has reached the "
 "critical battery threshold. The value is device-specific."
-msgstr "バッテリー残量が非常に少なった場合に、このイベントが発火します。しきい値は、デバイス毎に異なります。"
+msgstr "バッテリー残量が非常に少なくなった場合に、このイベントが発火します。しきい値は、端末によって異なります。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:83
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:101
@@ -3417,7 +3418,7 @@ msgstr "バッテリー残量が非常に少なった場合に、このイベン
 msgid ""
 "The ``batterycritical`` handler is passed an object that contains two "
 "properties:"
-msgstr "以下の 2 つのプロパティーを格納したオブジェクトを、 ``batterycritical``ハンドラーに渡します。"
+msgstr "``batterycritical`` ハンドラーには、次の 2 つのプロパティーを格納したオブジェクトが渡されます。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:91
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:126
@@ -3428,7 +3429,7 @@ msgstr "以下の 2 つのプロパティーを格納したオブジェクトを
 msgid ""
 "Applications typically should use ``window.addEventListener`` to attach an "
 "event listener once the ``deviceready`` event fires."
-msgstr "``deviceready`` イベントが発火した後にイベントリスナーをアタッチ (attach ) するとき、\\ ``window.addEventListener``を、アプリは通常使用します。"
+msgstr "原則、イベントリスナーの登録には、 ``window.addEventListener`` を使用します。また、JavaScript からネイティブ機能へのアクセスは、``deviceready`` イベントの発火後に行います。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:115
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:134
@@ -3436,20 +3437,20 @@ msgstr "``deviceready`` イベントが発火した後にイベントリスナ�
 msgid ""
 "The event fires when the percentage of battery charge has reached the low "
 "battery threshold, device-specific value."
-msgstr "バッテリー残量が少なった場合に、このイベントが発火します。しきい値は、デバイス毎に異なります。"
+msgstr "バッテリー残量が少なくなった場合に、このイベントが発火します。しきい値は、端末によって異なります。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:118
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:137
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:192
 msgid ""
 "The ``batterylow`` handler is passed an object that contains two properties:"
-msgstr "以下の 2 つのプロパティーを格納したオブジェクトを、 ``batterylow``ハンドラーに渡します。"
+msgstr "``batterylow`` ハンドラーには、次の 2 つのプロパティーを格納したオブジェクトが渡されます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:2
 #: ../doc/reference/cordova_4.1/camera/index.rst:23
 #: ../doc/reference/cordova_5.2/camera/index.rst:24
 msgid "Camera Plugin"
-msgstr "カメラプラグイン"
+msgstr "カメラ操作 プラグイン"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:17
 msgid ""
@@ -3507,7 +3508,7 @@ msgid ""
 " returns a ``CameraPopoverHandle`` object, which can be used to reposition "
 "the image selection dialog, for example, when the device orientation "
 "changes."
-msgstr "``Camera.sourceType`` が ``Camera.PictureSourceType.PHOTOLIBRARY``の場合、または、 ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` の場合、画像用のダイアログが表示され、既存の画像を選択できます。``camera.getPicture`` 関数は ``CameraPopoverHandle``\nオブジェクトを返します。このオブジェクトを使用して、画像選択用のダイアログの位置を変更できます。例えば、端末の向きを変えた場合に使用します。"
+msgstr "``Camera.sourceType`` が ``Camera.PictureSourceType.PHOTOLIBRARY``、または、``Camera.PictureSourceType.SAVEDPHOTOALBUM`` の場合、画像選択用のダイアログが表示され、既存の画像があれば、その中から選択できます。また、``camera.getPicture`` 関数は、``CameraPopoverHandle`` オブジェクトを返すので、このオブジェクトを使用して、画像選択用のダイアログの位置を変更できます。たとえば、端末の向きが変わった場合に使用できます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:64
 #: ../doc/reference/cordova_4.1/camera/index.rst:96
@@ -3515,13 +3516,13 @@ msgstr "``Camera.sourceType`` が ``Camera.PictureSourceType.PHOTOLIBRARY``の�
 msgid ""
 "The return value is sent to the ``cameraSuccess`` callback function, in one "
 "of the following formats, depending on the specified ``cameraOptions``:"
-msgstr "返り値は ``cameraSuccess`` 関数に渡されます。値 ( 文字列 ) は ``cameraOptions`` の設定に基づき、以下のいずれかのフォーマットで送られます。"
+msgstr "戻り値は、``cameraSuccess`` コールバック関数に渡されます。戻り値は、``cameraOptions`` の設定に応じて、次のいずれかの形式で返されます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:68
 #: ../doc/reference/cordova_4.1/camera/index.rst:100
 #: ../doc/reference/cordova_5.2/camera/index.rst:95
 msgid "A ``String`` containing the base64-encoded photo image."
-msgstr "Base64 形式でエンコードされた写真画像を表す ``文字列``"
+msgstr "``文字列`` : Base64 形式でエンコードされた写真画像"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:70
 #: ../doc/reference/cordova_4.1/camera/index.rst:102
@@ -3529,20 +3530,20 @@ msgstr "Base64 形式でエンコードされた写真画像を表す ``文字�
 msgid ""
 "A ``String`` representing the image file location on local storage "
 "(default)."
-msgstr "ローカルストレージ内の画像ファイルの場所を表す ``文字列`` (デフォルト )"
+msgstr "``文字列`` : 画像ファイルの保存場所 ( ローカルのストレージ内、デフォルトはこちら )"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:73
 #: ../doc/reference/cordova_4.1/camera/index.rst:105
 #: ../doc/reference/cordova_5.2/camera/index.rst:100
 msgid ""
 "You can do whatever you want with the encoded image or URI, for example:"
-msgstr "エンコードされた画像または URIを使用して、さまざまな処理を行うことができます。以下に例を示します。"
+msgstr "上記の値 ( エンコードされた画像、または、URI ) を使用して、次のような、さまざまな処理ができます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:75
 #: ../doc/reference/cordova_4.1/camera/index.rst:107
 #: ../doc/reference/cordova_5.2/camera/index.rst:102
 msgid "Render the image in an ``<img>`` tag, as in the example below"
-msgstr "``<img>`` タグで画像を表示。使用例を次のセクションで示します。"
+msgstr "``<img>`` タグ内への画像のレンダリング ( このページ内にサンプルがあります )"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:77
 #: ../doc/reference/cordova_4.1/camera/index.rst:109
@@ -3550,13 +3551,13 @@ msgstr "``<img>`` タグで画像を表示。使用例を次のセクション�
 msgid ""
 "Save the data locally (``LocalStorage``, `Lawnchair "
 "<http://brianleroux.github.com/lawnchair/>`__, etc.)"
-msgstr "ローカルにデータを保存 ( ``LocalStorage`` 、`Lawnchair <http://brianleroux.github.com/lawnchair/>`__ など )"
+msgstr "ローカルへのデータの保存 ( ``LocalStorage``、`Lawnchair <http://brianleroux.github.com/lawnchair/>`__ など )"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:80
 #: ../doc/reference/cordova_4.1/camera/index.rst:112
 #: ../doc/reference/cordova_5.2/camera/index.rst:107
 msgid "Post the data to a remote server"
-msgstr "リモートサーバーにデータを送信"
+msgstr "外部サーバーへのデータの送信"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:82
 #: ../doc/reference/cordova_4.1/camera/index.rst:114
@@ -3566,7 +3567,7 @@ msgid ""
 "from the device's gallery are not downscaled to a lower quality, even if a "
 "``quality`` parameter is specified. To avoid common memory problems, set "
 "``Camera.destinationType`` to ``FILE_URI`` rather than ``DATA_URL``."
-msgstr "**注意:** 最新のデバイスで撮影した写真は高い解像度になります。デバイスのギャラリーから取得する画像は ``quality`` パラメーターで画質を指定しても、縮小されません。メモリー問題を回避するために、 ``Camera.destinationType`` を、\\ ``DATA_URL`` ではなく、\\ ``FILE_URI``\nに設定してください。"
+msgstr "**注意** : 最新の端末で撮影した写真の解像度は、高くなります。端末のギャラリーから取得する画像は、``quality`` パラメーターで画質を指定しても、解像度の低い画像に変換されません。メモリー問題を回避するためには、``Camera.destinationType`` を、``DATA_URL`` ではなく、``FILE_URI`` に設定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:95
 #: ../doc/reference/cordova_3.5/camera/index.rst:266
@@ -3656,7 +3657,7 @@ msgid ""
 "images, and on phones with low memory, the Cordova activity may be killed. "
 "In this scenario, the image may not appear when the Cordova activity is "
 "restored."
-msgstr "画像のキャプチャーを行うために、Android はインテント群 ( intent )を使用して、デバイスのカメラアクティビティを起動します。メモリーが少ないデバイスでは、Cordovaアクティビティが停止することがあります。この場合、Cordova アクティビティがリストアされても、画像が表示されない可能性があります。"
+msgstr "Android では、インテント ( intent ) を使用し、カメラのアクティビティ ( activity ) を起動させ、画像のキャプチャーを行います。また、メモリーの空きが少ない携帯端末では、Cordova 側のアクティビティが強制終了 ( kill ) させられることがあります。この場合、Cordova 側のアクティビティがリストアされても、画像が表示されないことがあります。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:120
 #: ../doc/reference/cordova_4.1/camera/index.rst:157
@@ -3665,19 +3666,19 @@ msgid ""
 "Including a JavaScript ``alert()`` in either of the callback functions can "
 "cause problems. Wrap the alert within a ``setTimeout()`` to allow the iOS "
 "image picker or popover to fully close before the alert displays:"
-msgstr "コールバック関数のいづれかに JavaScript の ``alert()``を記述すると、問題が生じることがあります。この場合、alert を``setTimeout()`` 内に記述します。これにより、alert が表示される前に、iOS の image picker または ポップオーバー ( popover ) を完全に閉じることができます。"
+msgstr "コールバック関数の中で、JavaScript の ``alert()`` を使用すると、問題が生じる場合があります。この問題を避けるため、alert を ``setTimeout()`` 内に記述します。この方法を使用されば、alert が表示される前に、iOS の 画像選択用ダイアログ ( image picker ) または ポップオーバー ( popover ) を、完全に閉じることができます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:134
 #: ../doc/reference/cordova_4.1/camera/index.rst:171
 #: ../doc/reference/cordova_5.2/camera/index.rst:495
 msgid "Take a photo and retrieve it as a base64-encoded image:"
-msgstr "写真を撮影し、 Base64 形式の画像として取得します。"
+msgstr "写真の撮影時、および、写真 ( Base64 エンコード形式の画像 ) の取得時に使用します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:151
 #: ../doc/reference/cordova_4.1/camera/index.rst:188
 #: ../doc/reference/cordova_5.2/camera/index.rst:512
 msgid "Take a photo and retrieve the image's file location:"
-msgstr "写真を撮影し、画像ファイルの位置を取得します。"
+msgstr "写真撮影および画像ファイルの保存場所を取得します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:168
 #: ../doc/reference/cordova_4.1/camera/index.rst:205
@@ -3728,7 +3729,7 @@ msgstr "**allowEdit**: 画像選択の前に、簡単な編集を許可します
 msgid ""
 "**encodingType**: Choose the returned image file's encoding. Defined in "
 "``navigator.camera.EncodingType`` *(Number)*"
-msgstr "**encodingType**: 返される画像ファイルのエンコード形式を選択します。形式は``navigator.camera.EncodingType`` で定義します。\\ *(Number)*"
+msgstr ""
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:227
 #: ../doc/reference/cordova_4.1/camera/index.rst:265
@@ -3789,7 +3790,7 @@ msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面か
 #: ../doc/reference/cordova_5.2/camera/index.rst:605
 #: ../doc/reference/cordova_5.2/camera/index.rst:616
 msgid "Any ``cameraDirection`` value results in a back-facing photo."
-msgstr "``cameraDirection`` を指定しても、背面のカメラで写真を撮ります。"
+msgstr "``cameraDirection`` にどんな値を設定しても、背面のカメラを使用した撮影になります。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:270
 #: ../doc/reference/cordova_4.1/camera/index.rst:308
@@ -3799,7 +3800,7 @@ msgstr "``cameraDirection`` を指定しても、背面のカメラで写真を�
 #: ../doc/reference/cordova_5.2/camera/index.rst:663
 #: ../doc/reference/cordova_5.2/camera/index.rst:699
 msgid "Ignores the ``allowEdit`` parameter."
-msgstr "``allowEdit`` パラメータを無視します。"
+msgstr "``allowEdit`` パラメーターを無視します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:272
 #: ../doc/reference/cordova_4.1/camera/index.rst:310
@@ -3810,7 +3811,7 @@ msgid ""
 "``Camera.PictureSourceType.PHOTOLIBRARY`` and "
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo "
 "album."
-msgstr "``Camera.PictureSourceType.PHOTOLIBRARY`` と``Camera.PictureSourceType.SAVEDPHOTOALBUM``は、共に、同じフォトアルバムを表示します。"
+msgstr "``Camera.PictureSourceType.PHOTOLIBRARY`` と ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` では、どちらの場合でも、同一のフォトアルバムを表示します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:279
 #: ../doc/reference/cordova_4.1/camera/index.rst:328
@@ -4019,7 +4020,7 @@ msgstr "``camera.getPicture``を呼び出した後に取得し、一時的なス
 #: ../doc/reference/cordova_4.1/compass/index.rst:23
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:24
 msgid "Device Orientation Plugin"
-msgstr "コンパスプラグイン"
+msgstr "端末のオリエンテーション検知 プラグイン"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:18
 msgid ""
@@ -4036,7 +4037,7 @@ msgid ""
 " that detects the direction or heading that the device is pointed, typically"
 " from the top of the device. It measures the heading in degrees from 0 to "
 "359.99, where 0 is north."
-msgstr "このプラグインを使用して、デバイスのコンパスにアクセスします。コンパスは、デバイスが指し示す方向・方位を検知するセンサーの1 種です。通常、デバイスの上部最先端を起点とします。0 から 359.99度の角度で方位を計算します。0 は、北を意味します。"
+msgstr "このプラグインを使用して、端末のコンパスにアクセスします。コンパスは、端末が指し示す方向・方位を検知するセンサーの 1 種です。通常、デバイスの上部最先端を起点とします。0 から 359.99 度の角度で方位を計算します。0 は、北を意味します。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:35
 #: ../doc/reference/cordova_4.1/compass/index.rst:67
@@ -4079,7 +4080,7 @@ msgstr "navigator.compass.clearWatch"
 msgid ""
 "Get the current compass heading. The compass heading is returned via a "
 "``CompassHeading`` object using the ``compassSuccess`` callback function."
-msgstr "コンパスの現在の方位を取得します。 ``compassSuccess``コールバック関数を使用して、 ``CompassHeading``オブジェクト経由でコンパスの方位を返します。"
+msgstr "コンパスの現在の方位を取得します。コンパスの方位は、``CompassHeading`` オブジェクトから取得できます。また、このオブジェクトは、``compassSuccess`` コールバック関数で使用します。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:79
 #: ../doc/reference/cordova_4.1/compass/index.rst:112
@@ -4087,7 +4088,7 @@ msgstr "コンパスの現在の方位を取得します。 ``compassSuccess``�
 msgid ""
 "Gets the device's current heading at a regular interval. Each time the "
 "heading is retrieved, the ``headingSuccess`` callback function is executed."
-msgstr "デバイスの方位を一定の間隔で取得します。方位を取得するたび、``headingSuccess`` コールバック関数を実行します。"
+msgstr "端末の方位を、一定の間隔で取得します。方位情報を取得するたび、``headingSuccess`` コールバック関数が実行されます。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:83
 #: ../doc/reference/cordova_4.1/compass/index.rst:116
@@ -4096,13 +4097,13 @@ msgid ""
 "The returned watch ID references the compass watch interval. The watch ID "
 "can be used with ``navigator.compass.clearWatch`` to stop watching the "
 "navigator.compass."
-msgstr "返された watch ID を使用して、コンパスを監視する間隔を参照します``navigator.compass.clearWatch`` に watch IDを使用して、navigator.compass の監視を停止できます。"
+msgstr "返された watch ID を使用して、コンパスの監視状態を確認できます。navigator.compass を停止するときには、``navigator.compass.clearWatch`` に、この watchID を渡します。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:91
 #: ../doc/reference/cordova_4.1/compass/index.rst:124
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:139
 msgid "``compassOptions`` may contain the following keys:"
-msgstr "``compassOptions`` には、以下のオプションを格納できます。"
+msgstr "``compassOptions`` には、次のパラメーターを使用できます"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:93
 #: ../doc/reference/cordova_4.1/compass/index.rst:126
@@ -4110,7 +4111,7 @@ msgstr "``compassOptions`` には、以下のオプションを格納できま�
 msgid ""
 "**frequency**: How often to retrieve the compass heading in milliseconds. "
 "*(Number)* (Default: 100)"
-msgstr "**frequency**: コンパスの方位の取得頻度 ( ミリ秒、デフォルト : 100 ) *(Number)*"
+msgstr "**frequency**: 方位情報の取得頻度です ( ミリ秒単位、デフォルトでは 100 )。 *(Number)* "
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:95
 #: ../doc/reference/cordova_4.1/compass/index.rst:128
@@ -4119,7 +4120,7 @@ msgid ""
 "**filter**: The change in degrees required to initiate a watchHeading "
 "success callback. When this value is set, **frequency** is ignored. "
 "*(Number)*"
-msgstr "**filter**: watchHeadingの成功時のコールバック関数を実行する際に必要となる、角度の変化です。値を設定した場合、**frequency:** を無視します。 *(Number)*"
+msgstr "**filter**: watchHeading の成功時のコールバック関数を実行するか否かの しきい値 となる、角度の変化です。値を設定した場合、**frequency** は無視されます。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:122
 #: ../doc/reference/cordova_4.1/compass/index.rst:161
@@ -4130,7 +4131,7 @@ msgid ""
 "``watchHeading`` uses the existing filter value to specify heading changes. "
 "Watching heading changes with a filter is more efficient than with time "
 "intervals."
-msgstr "iOS では、1 度に 1 つの ``watchHeading`` のみ有効です。 ``watchHeading``が filter を使用する場合、\\ ``getCurrentHeading`` または``watchHeading`` を呼び出す際、方位の変化を特定するため、既存の filter値を使用します。filterを使用した方位の変化の監視は、時間の間隔を使用するより、効率的です。"
+msgstr "iOS では、1 度に 1 つの ``watchHeading`` のみ有効です。``watchHeading`` で filter を設定した場合、``getCurrentHeading`` または ``watchHeading`` のいずれを呼び出した場合でも、設定された filter 値を使用して、方位の変化を特定します。これは、filter を使用した方位の監視の方が、時間の間隔 ( frequency ) を使用するより、有効な方法のためです。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:131
 #: ../doc/reference/cordova_4.1/compass/index.rst:175
@@ -4139,19 +4140,19 @@ msgstr "iOS では、1 度に 1 つの ``watchHeading`` のみ有効です。 ``
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:200
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:205
 msgid "No support for ``filter``."
-msgstr "``filter`` はサポートしません。"
+msgstr "``filter`` は使用できません。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:136
 #: ../doc/reference/cordova_4.1/compass/index.rst:180
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:210
 msgid "Stop watching the compass referenced by the watch ID parameter."
-msgstr "watch IDパラメーターを使用して参照を行っている、方位の監視を停止します。"
+msgstr "watchID パラメーターを使用して、方位の監視を停止します。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:142
 #: ../doc/reference/cordova_4.1/compass/index.rst:186
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:216
 msgid "**watchID**: The ID returned by ``navigator.compass.watchHeading``."
-msgstr "**watchID**: ``navigator.compass.watchHeading`` が返す ID."
+msgstr "**watchID**: ``navigator.compass.watchHeading`` が返す ID"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:156
 #: ../doc/reference/cordova_4.1/compass/index.rst:200
@@ -4165,7 +4166,7 @@ msgstr "CompassHeading"
 msgid ""
 "A ``CompassHeading`` object is returned to the ``compassSuccess`` callback "
 "function."
-msgstr "``compassSuccess`` コールバック関数に ``CompassHeading``オブジェクトを渡します。"
+msgstr "``CompassHeading`` オブジェクトは、``compassSuccess`` コールバック関数に渡されます。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:164
 #: ../doc/reference/cordova_4.1/compass/index.rst:208
@@ -4173,7 +4174,7 @@ msgstr "``compassSuccess`` コールバック関数に ``CompassHeading``オブ�
 msgid ""
 "**magneticHeading**: The heading in degrees from 0-359.99 at a single moment"
 " in time. *(Number)*"
-msgstr "**magneticHeading**: ある瞬間の磁方位 （ 磁北を基準 ）。0 から 359.99 度の範囲で表します。 *(Number)*"
+msgstr "**magneticHeading**: ある瞬間の磁方位 ( 磁北を基準 )。0 から 359.99 度の方位角で表します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:167
 #: ../doc/reference/cordova_4.1/compass/index.rst:211
@@ -4182,7 +4183,7 @@ msgid ""
 "**trueHeading**: The heading relative to the geographic North Pole in "
 "degrees 0-359.99 at a single moment in time. A negative value indicates that"
 " the true heading can't be determined. *(Number)*"
-msgstr "**trueHeading**: ある瞬間の真方位 （ 真北を基準 ）。0 から 359.99度の範囲で表します。負の値は、真方位の値が定まっていないことを示します。*(Number)*"
+msgstr "**trueHeading**: ある瞬間の真方位 ( 真北を基準 )。0 から 359.99 度の方位角で表します。負の値は、真方位の値が定まっていないことを示します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:171
 #: ../doc/reference/cordova_4.1/compass/index.rst:215
@@ -4190,7 +4191,7 @@ msgstr "**trueHeading**: ある瞬間の真方位 （ 真北を基準 ）。0 �
 msgid ""
 "**headingAccuracy**: The deviation in degrees between the reported heading "
 "and the true heading. *(Number)*"
-msgstr "**headingAccuracy**: 取得した磁方位と真方位との角度の差 （ 偏角 )*(Number)*"
+msgstr "**headingAccuracy**: 取得した磁方位と真方位との角度の差 ( 偏角 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:174
 #: ../doc/reference/cordova_4.1/compass/index.rst:218
@@ -4206,7 +4207,7 @@ msgstr "**timestamp**: 方位を取得した時間 *(milliseconds)*"
 msgid ""
 "The ``trueHeading`` property is not supported, but reports the same value as"
 " ``magneticHeading``."
-msgstr "``trueHeading`` プロパティーをサポートしません。 ``magneticHeading`` と同じ値を取得します。"
+msgstr "``trueHeading`` は使用できません。``magneticHeading`` と同じ値が返ってきます。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:183
 #: ../doc/reference/cordova_4.1/compass/index.rst:236
@@ -4215,7 +4216,7 @@ msgstr "``trueHeading`` プロパティーをサポートしません。 ``magne
 msgid ""
 "The ``headingAccuracy`` property is always 0 because there is no difference "
 "between the ``magneticHeading`` and ``trueHeading``."
-msgstr "``trueHeading`` と ``magneticHeading`` が同じ値になるため、``headingAccuracy`` プロパティーは常に 0 となります。"
+msgstr "``trueHeading`` と ``magneticHeading`` が同じ値になるため、``headingAccuracy`` は、常に 0 となります。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:189
 #: ../doc/reference/cordova_4.1/compass/index.rst:242
@@ -4223,7 +4224,7 @@ msgstr "``trueHeading`` と ``magneticHeading`` が同じ値になるため、``
 msgid ""
 "The ``trueHeading`` property is only returned for location services enabled "
 "via ``navigator.geolocation.watchLocation()``."
-msgstr "``navigator.geolocation.watchLocation()`` 経由で、位置情報サービスが使用できる場合のみ、\\ ``trueHeading``"
+msgstr "位置情報サービスを有効にした場合のみ、``navigator.geolocation.watchLocation()`` 経由で、``trueHeading`` プロパティーを取得できます。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:192
 #: ../doc/reference/cordova_4.1/compass/index.rst:245
@@ -4246,7 +4247,7 @@ msgstr "CompassError"
 msgid ""
 "A ``CompassError`` object is returned to the ``compassError`` callback "
 "function when an error occurs."
-msgstr "エラーが起きたとき、 ``compassError`` コールバック関数に``CompassError`` オブジェクトを渡します。"
+msgstr "エラーが発生した場合、``CompassError`` オブジェクトが ``compassError`` コールバック関数に渡されます。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:205
 #: ../doc/reference/cordova_3.5/contacts/index.rst:402
@@ -4261,7 +4262,7 @@ msgstr "エラーが起きたとき、 ``compassError`` コールバック関数
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:371
 #: ../doc/reference/cordova_5.2/media/index.rst:651
 msgid "**code**: One of the predefined error codes listed below."
-msgstr "**code**: 事前に定義された以下のエラーコードのうちの 1 つ"
+msgstr "**code**: 次のエラーコードのいずれか"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:208
 #: ../doc/reference/cordova_3.5/connection/index.rst:55
@@ -4305,7 +4306,7 @@ msgstr "``CompassError.COMPASS_NOT_SUPPORTED``"
 #: ../doc/reference/cordova_4.1/connection/index.rst:23
 #: ../doc/reference/cordova_5.2/network-information/index.rst:24
 msgid "Network Information Plugin"
-msgstr "コネクションプラグイン"
+msgstr "ネットワーク情報の取得 プラグイン"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:17
 msgid ""
@@ -4322,7 +4323,7 @@ msgid ""
 "Information API <http://www.w3.org/TR/2011/WD-netinfo-api-20110607/>`__. It "
 "provides information about the device's cellular and wifi connection, and "
 "whether the device has an internet connection."
-msgstr "このプラグインを使用して、 `Network Information\nAPI <http://www.w3.org/TR/2011/WD-netinfo-api-20110607/>`__ (\n旧バージョン ) の実装を行います。携帯電話ネットワークと wifi\n接続に関する情報、および、デバイスのインターネット接続情報を取得するときに使用します。"
+msgstr "このプラグインでは、旧バージョンの `Network Information API <http://www.w3.org/TR/2011/WD-netinfo-api-20110607/>`__ が使用されています。このプラグインを使用すれば、セルラー ( Cellular ) 情報、WiFi 接続情報などのインターネット接続情報を取得できます。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:34
 #: ../doc/reference/cordova_4.1/connection/index.rst:55
@@ -4407,7 +4408,7 @@ msgstr "Connection.NONE"
 msgid ""
 "This property offers a fast way to determine the device's network connection"
 " state, and type of connection."
-msgstr "このプロパティーを使用して、デバイスのネットワーク接続の状態および接続のタイプを確認します。"
+msgstr "このプロパティーを使用して、ネットワーク接続の状態と接続のタイプを確認します。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:72
 #: ../doc/reference/cordova_3.5/connection/index.rst:133
@@ -4428,7 +4429,7 @@ msgid ""
 "``navigator.connection`` to match the W3C specification. It's still "
 "available at its original location, but is deprecated and will eventually be"
 " removed."
-msgstr "Cordova 2.3.0 までは、 ``navigator.network.connection`` 経由で``Connection`` オブジェクトにアクセスしましたが、W3Cの仕様に準拠するため、 ``navigator.connection`` 経由に変更しました。``navigator.network.connection``は利用できますが、推奨しません。将来、削除する予定です。"
+msgstr "Cordova 2.3.0 までは、``navigator.network.connection`` 経由で ``Connection`` オブジェクトにアクセスしていましたが、W3C の仕様に準拠するため、``navigator.connection`` 経由に変更しました。 ``navigator.network.connection`` は利用できますが、将来的には廃止します。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:102
 #: ../doc/reference/cordova_3.5/connection/index.rst:144
@@ -4441,7 +4442,7 @@ msgstr "**iOS 特有の動作**"
 #: ../doc/reference/cordova_4.1/connection/index.rst:129
 #: ../doc/reference/cordova_5.2/network-information/index.rst:137
 msgid "iOS can't detect the type of cellular network connection."
-msgstr "iOS では、携帯ネットワーク接続のタイプを特定できません。"
+msgstr "iOS では、セルラー接続のタイプを識別できません。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:106
 #: ../doc/reference/cordova_4.1/connection/index.rst:131
@@ -4451,7 +4452,7 @@ msgstr "iOS では、携帯ネットワーク接続のタイプを特定でき�
 msgid ""
 "``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular"
 " data."
-msgstr "すべての携帯ネットワークデータにおいて、``navigator.connection.type`` を ``Connection.CELL``に設定します。"
+msgstr "モバイルデータ通信 ( セルラーを使用したデータ通信 ) に関しては、``navigator.connection.type`` は ``Connection.CELL`` になります。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:110
 #: ../doc/reference/cordova_4.1/connection/index.rst:135
@@ -4472,7 +4473,7 @@ msgstr "offline"
 msgid ""
 "The event fires when an application goes offline, and the device is not "
 "connected to the Internet."
-msgstr "アプリがオフラインになったときに、このイベントが発火して、インターネット接続が切れます。"
+msgstr "アプリがオフラインになったときに、このイベントが発火します。端末は、インターネットに接続されていません。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:122
 #: ../doc/reference/cordova_3.5/connection/index.rst:159
@@ -4485,7 +4486,7 @@ msgid ""
 "network connection so that an application can no longer access the Internet."
 " It relies on the same information as the Connection API, and fires when the"
 " ``connection.type`` changes from ``NONE`` to any other value."
-msgstr "デバイスのネットワーク接続が切れたときに、 ``オフライン`` ( offline )イベントが発火します。ネットワーク接続が切れているため、アプリは、インターネットへアクセスできません。ConnectionAPI と同じ情報を使用して、 ``connection.type`` が ``NONE``\nから他の値に変わったときに発火します。"
+msgstr "デバイスのネットワーク接続が切れたときに、``offline`` ( オフライン ) イベントが発火します ( ``connection.type`` が ``NONE`` に変わったときに発火します )。ネットワーク接続が切れているため、アプリは、インターネットへアクセスできません。Connection API と同じ情報を使用します。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:130
 #: ../doc/reference/cordova_3.5/connection/index.rst:166
@@ -4500,7 +4501,7 @@ msgstr "デバイスのネットワーク接続が切れたときに、 ``オフ
 msgid ""
 "Applications typically should use ``document.addEventListener`` to attach an"
 " event listener once the ``deviceready`` event fires."
-msgstr "``deviceready`` イベントの発火後、イベントリスナーをアタッチ ( attach )するには、通常、 ``document.addEventListener``を使用しなければなりません。"
+msgstr "原則、イベントリスナーの登録には、 ``document.addEventListener`` を使用します。また、JavaScript からネイティブ機能へのアクセスは、``deviceready`` イベントの発火後に行います。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:146
 #: ../doc/reference/cordova_4.1/connection/index.rst:172
@@ -4508,7 +4509,7 @@ msgstr "``deviceready`` イベントの発火後、イベントリスナーを�
 msgid ""
 "During initial startup, the first offline event (if applicable) takes at "
 "least a second to fire."
-msgstr "初回起動 ( initial startup ) 中は、最初の オフライン ( offline )イベントが発火するまで ( 発火の条件が揃った場合 )、最低 1 秒かかります。"
+msgstr "初回起動時は、``offline`` ( オフライン ) イベントが発火するまで ( 発火の条件が揃ってること )、最低 1 秒かかります。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:150
 #: ../doc/reference/cordova_3.5/events/events.rst:34
@@ -4523,7 +4524,7 @@ msgstr "online"
 msgid ""
 "This event fires when an application goes online, and the device becomes "
 "connected to the Internet."
-msgstr "アプリが、オンラインになったとき、このイベントが発火し、インターネットに接続します。"
+msgstr "アプリがオンラインになったときに、このイベントが発火します。端末は、インターネットに接続されています。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:161
 msgid ""
@@ -4531,7 +4532,7 @@ msgid ""
 "network connection to allow an application access to the Internet. It relies"
 " on the same information as the Connection API, and fires when the value of "
 "``connection.type`` becomes ``NONE``."
-msgstr "アプリからのインターネットへの接続を行うため、ネットワーク接続を行っていないデバイスがネットワーク接続を行うとき、``オンライン`` ( online ) イベントが発火します。Connection APIと同じ情報を使用して、 ``connection.type`` が ``NONE``に変わったときに発火します。"
+msgstr "端末がネットワークに接続して、アプリからインターネットが使用できる状態になったときに、``online`` ( オンライン ) イベントが発火します ( ``connection.type`` が ``NONE`` から他の値に変わったときに発火します )。Connection API と同じ情報を使用します。"
 
 #: ../doc/reference/cordova_3.5/connection/index.rst:181
 #: ../doc/reference/cordova_4.1/connection/index.rst:211
@@ -4539,13 +4540,13 @@ msgstr "アプリからのインターネットへの接続を行うため、ネ
 msgid ""
 "During initial startup, the first ``online`` event (if applicable) takes at "
 "least a second to fire, prior to which ``connection.type`` is ``UNKNOWN``."
-msgstr "初回起動 ( initial startup ) 中は、最初の オンライン ( online )\nイベントが発火するまで ( 発火の条件が揃った場合 )、最低 1\n秒かかります。また、このイベントは、 ``connection.type`` が ``UNKNOWN``\nと認識される前に発火します。"
+msgstr "初回起動時は、``online`` ( オンライン ) イベントが発火するまで ( 発火の条件が揃ってること )、最低 1 秒かかります ( ``connection.type`` が ``UNKNOWN`` になる前に )。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:2
 #: ../doc/reference/cordova_4.1/contacts/index.rst:23
 #: ../doc/reference/cordova_5.2/contacts/index.rst:24
 msgid "Contacts Plugin"
-msgstr "連絡先プラグイン"
+msgstr "住所録の取得 プラグイン"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:17
 msgid ""
@@ -4576,7 +4577,7 @@ msgid ""
 "accessing contact data. A clear and easy-to-understand user experience "
 "surrounding the use of contact data helps avoid user confusion and perceived"
 " misuse of contact data. For more information, please see the Privacy Guide."
-msgstr "**注意** :\n連絡先データの取得・利用には、個人情報保護の観点から、細心の注意が必要です。連絡先データの取り扱い方法と第三者への情報提供に関しては、アプリの個人情報の取り扱いに関するポリシーの中で議論すべき問題です。個人情報の中でもとりわけ連絡先情報は、交友関係等の個人のプライバシーの侵害に深く関わることから、その取り扱いには特に注意が求められます。そのため、アプリのプライバシーに関するポリシーの策定に加え、アプリが連絡先にアクセスまたは利用する際には、その直前にユーザへの通知および許諾を得る必要があります。デバイスのオペレーティングシステムがこの通知および許諾の要請を行ってない場合には、改善する必要があります。また、ユーザへの通知および許諾の要請を行う際には、必ず、個人情報の取り扱いに関するポリシーの開示および使用方法に関する同意の意思表示を求める必要があります( **許可する** 、または、 **許可しない**\nのように、明示的に判断できる必要があります )。また、ユーザの情報へアクセスを行う前に、ユーザへの通知および許諾を得ることを条件とする、アプリのマーケットプレースも一部に存在します。連絡先データの取り扱いの説明に関しては、ユーザの不安や困惑を取り除くため、内容を明快に理解できるよう、考慮が求められます。詳細な情報に関しては、『Privacy Guide 』 をご覧ください。"
+msgstr "**注意** : 住所録データの取得・利用には、個人情報保護の観点から、細心の注意が必要です。住所録データの取り扱い方法と第三者への情報提供に関しては、個人情報の取り扱いポリシーの策定時に議論されるべき問題です。個人情報の中でも、とりわけ住所録の情報は、交友関係などの個人のプライバシーに深く関わることから、その取り扱いには、特に注意が求められます。そのため、アプリのプライバシーに関するポリシーの策定に加え、アプリが住所録にアクセスまたは利用する場合には、事前にユーザーへの通知および許諾を得る必要があります。端末のオペレーティング システム側でこの通知および許諾の要求を行ってない場合には、開発者側で改善する必要があります。また、ユーザーへの通知および許諾の要求を行う場合には、必ず、個人情報の取り扱いに関するポリシーの開示および使用方法に関する同意の意思表示を求める必要があります ( **許可する**、または、**許可しない** のように、明示的に判断できる必要があります )。また、住所録へアクセスする前に、ユーザーへの通知および許諾を得ることを配布の条件とする、アプリのマーケットプレースも一部に存在します。住所録データの取り扱いの説明に関しては、ユーザーの不安や困惑を取り除くため、内容を明快に理解できるよう、考慮が求められます。詳細は、『 プライバシーに関する注意点 』 ( Apache Cordova のドキュメント ) をご確認ください。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:47
 #: ../doc/reference/cordova_4.1/contacts/index.rst:79
@@ -4676,7 +4677,7 @@ msgstr "ContactError"
 msgid ""
 "The ``navigator.contacts.create`` method is synchronous, and returns a new "
 "``Contact`` object."
-msgstr "``navigator.contacts.create`` メソッドを使用して、新しい ``Contact``オブジェクトを同期的に作成します。"
+msgstr "``navigator.contacts.create`` メソッドは、同期的に処理されます。また、``Contact`` オブジェクトを返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:76
 #: ../doc/reference/cordova_4.1/contacts/index.rst:109
@@ -4684,7 +4685,7 @@ msgstr "``navigator.contacts.create`` メソッドを使用して、新しい ``
 msgid ""
 "This method does not retain the Contact object in the device contacts "
 "database, for which you need to invoke the ``Contact.save`` method."
-msgstr "このメソッドで作成した Contactオブジェクトは、デバイスの連絡先データベースには保存されません。 Contactオブジェクトをデバイスに保存するには、 ``Contact.save``メソッドを使用します。"
+msgstr "このメソッドで作成した Contact オブジェクトが保持する情報は、そのままでは、端末側の住所録データベースには保存されません。 Contact オブジェクトを端末に保存する場合には、``Contact.save`` メソッドを使用します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:95
 #: ../doc/reference/cordova_4.1/contacts/index.rst:129
@@ -4694,7 +4695,7 @@ msgid ""
 " device contacts database and returning an array of ``Contact`` objects. The"
 " resulting objects are passed to the ``contactSuccess`` callback function "
 "specified by the **contactSuccess** parameter."
-msgstr "``navigator.contacts.find``メソッドを非同期で実行して、デバイスの連絡先データベースの検索、``Contact`` オブジェクト群の配列の取得を行います。 **contactSuccess**\nパラメータで指定した ``contactSuccess``コールバック関数に対して、実行結果として返されたオブジェクトを引き渡します。"
+msgstr "``navigator.contacts.find`` メソッドは、非同期的に実行され、住所録データベースへの問い合わせ、および、その結果として、 ``Contact`` オブジェクト群を配列に入れ返します。また、その返ってきたオブジェクトは、**contactSuccess** パラメーターに指定されている ``contactSuccess`` コールバック関数に渡されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:100
 msgid ""
@@ -4727,7 +4728,7 @@ msgstr "**contactFields**: 検索時に使用する連絡先の項目。検索�
 msgid ""
 "**contactSuccess**: Success callback function invoked with the array of "
 "Contact objects returned from the database. [Required]"
-msgstr "**contactSuccess**: データベースから取得した Contactオブジェクト群の配列を使用して呼び出す、Success コールバック関数。[必須]"
+msgstr "**contactSuccess**: 成功時のコールバックです。Contact オブジェクト群が入れられた配列 ( オブジェクトはデータベースから取得 ) が渡されます。 [ 必須 ]"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:123
 #: ../doc/reference/cordova_4.1/contacts/index.rst:156
@@ -4737,7 +4738,7 @@ msgstr "**contactSuccess**: データベースから取得した Contactオブ�
 msgid ""
 "**contactError**: Error callback function, invoked when an error occurs. "
 "[Optional]"
-msgstr "**contactError**: エラー発生時に呼び出す Error コールバック関数。[任意]"
+msgstr "**contactError**: 失敗時のコールバックです。エラー発生時に実行されます。 [ 任意 ]"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:126
 msgid ""
@@ -4751,7 +4752,7 @@ msgstr "**contactFindOptions**: navigator.contactsで使用する絞り込み検
 msgid ""
 "**filter**: The search string used to find navigator.contacts. *(DOMString)*"
 " (Default: ``\"\"``)"
-msgstr "**filter**: navigator.contacts の find で使用する検索文字列 *(DOMString)* ( デフォルト : ``\"\"`` )"
+msgstr "**filter**: 検索時に使用する文字列です。 *(DOMString)* ( デフォルトでは ``\"\"`` )"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:132
 #: ../doc/reference/cordova_4.1/contacts/index.rst:167
@@ -4759,7 +4760,7 @@ msgstr "**filter**: navigator.contacts の find で使用する検索文字列 *
 msgid ""
 "**multiple**: Determines if the find operation returns multiple "
 "navigator.contacts. *(Boolean)* (Default: ``false``)"
-msgstr "**multiple**: navigator.contacts　の findの検索結果を複数にするか指定します。 *(Boolean)* ( デフォルト : ``false`` )"
+msgstr "**multiple**: 複数の navigator.contacts を、検索結果として返すようにするための真偽値を設定します。 *(Boolean)* ( デフォルトでは ``false`` )"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:164
 #: ../doc/reference/cordova_4.1/contacts/index.rst:240
@@ -4769,7 +4770,7 @@ msgid ""
 " stored, or removed from the device contacts database. Contacts can also be "
 "retrieved (individually or in bulk) from the database by invoking the "
 "``navigator.contacts.find`` method."
-msgstr "``Contact``オブジェクトは、ユーザの連絡先情報を格納します。デバイスの連絡先データベースから、Contactsの作成・格納・削除を行えます。 また、 ``navigator.contacts.find``メソッドを呼び出して、単数または複数の Contactを、データベースから取得できます。"
+msgstr "``Contact`` オブジェクトは、住所録の情報を処理するときに使用されます。住所録は、作成・保存・削除できます ( 端末側の住所録用のデータベース上 )。また、住所録は、``navigator.contacts.find`` を使用して、データベース上で検索 ( retrieve、個々または一括で取得可 ) できます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:169
 #: ../doc/reference/cordova_4.1/contacts/index.rst:245
@@ -4777,13 +4778,13 @@ msgstr "``Contact``オブジェクトは、ユーザの連絡先情報を格納�
 msgid ""
 "**NOTE**: Not all of the contact fields listed above are supported on every "
 "device platform. Please check each platform's *Quirks* section for details."
-msgstr "**注意** :上記のすべての連絡先関連の項目が、すべてのデバイスのプラットフォームでサポートされているわけではありません。各プラットフォームの動作の詳細に関しては、各\n*プラットフォーム特有の動作* の記載内容をご確認ください。"
+msgstr "**注意** : ここで紹介している住所録の項目は、一部のプラットフォームでは使用できません。各プラットフォームのサポート状況に関しては、各 *プラットフォーム特有の動作* の記載内容をご確認ください。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:176
 #: ../doc/reference/cordova_4.1/contacts/index.rst:252
 #: ../doc/reference/cordova_5.2/contacts/index.rst:277
 msgid "**id**: A globally unique identifier. *(DOMString)*"
-msgstr "**id**: グローバルな識別子 *(DOMString)*"
+msgstr "**id**: グローバルな一意の識別子です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:178
 #: ../doc/reference/cordova_4.1/contacts/index.rst:254
@@ -4791,7 +4792,7 @@ msgstr "**id**: グローバルな識別子 *(DOMString)*"
 msgid ""
 "**displayName**: The name of this Contact, suitable for display to end "
 "users. *(DOMString)*"
-msgstr "**displayName**: 各 Contact の名称。ユーザに表示する際に利用できます。 *(DOMString)*"
+msgstr "**displayName**: Contact の名称です ( 各 Contact に設定 )。ユーザーに対して表示する場合に使用できます。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:181
 #: ../doc/reference/cordova_4.1/contacts/index.rst:257
@@ -4799,14 +4800,14 @@ msgstr "**displayName**: 各 Contact の名称。ユーザに表示する際に�
 msgid ""
 "**name**: An object containing all components of a persons name. "
 "*(ContactName)*"
-msgstr "**name**: 個人名に関するすべての要素を格納するオブジェクト*(ContactName)*"
+msgstr "**name**: 個人の名に関する、すべての要素を格納するオブジェクトです。 *(ContactName)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:184
 #: ../doc/reference/cordova_4.1/contacts/index.rst:260
 #: ../doc/reference/cordova_5.2/contacts/index.rst:285
 msgid ""
 "**nickname**: A casual name by which to address the contact. *(DOMString)*"
-msgstr "**nickname**: 連絡先に使用するニックネーム *(DOMString)*"
+msgstr "**nickname**: 住所録で使用するニックネームです。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:187
 #: ../doc/reference/cordova_4.1/contacts/index.rst:263
@@ -4814,7 +4815,7 @@ msgstr "**nickname**: 連絡先に使用するニックネーム *(DOMString)*"
 msgid ""
 "**phoneNumbers**: An array of all the contact's phone numbers. "
 "*(ContactField[])*"
-msgstr "**phoneNumbers**: 連絡先に関するすべての電話番号の配列 *(ContactField[])*"
+msgstr "**phoneNumbers**: 電話番号を格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:190
 #: ../doc/reference/cordova_4.1/contacts/index.rst:266
@@ -4822,21 +4823,21 @@ msgstr "**phoneNumbers**: 連絡先に関するすべての電話番号の配列
 msgid ""
 "**emails**: An array of all the contact's email addresses. "
 "*(ContactField[])*"
-msgstr "**emails**: 連絡先に関するすべてのメールアドレスの配列*(ContactField[])*"
+msgstr "**emails**: メールアドレスを格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:193
 #: ../doc/reference/cordova_4.1/contacts/index.rst:269
 #: ../doc/reference/cordova_5.2/contacts/index.rst:294
 msgid ""
 "**addresses**: An array of all the contact's addresses. *(ContactAddress[])*"
-msgstr "**addresses**: 連絡先に関するすべての住所の配列 *(ContactAddress[])*"
+msgstr "**addresses**: 住所を格納する配列です。 *(ContactAddress[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:196
 #: ../doc/reference/cordova_4.1/contacts/index.rst:272
 #: ../doc/reference/cordova_5.2/contacts/index.rst:297
 msgid ""
 "**ims**: An array of all the contact's IM addresses. *(ContactField[])*"
-msgstr "**ims**: 連絡先に関するすべての IM　 ( インスタントメッセンジャー ) アドレスの配列 *(ContactField[])*"
+msgstr "**ims**: IM ( インスタント メッセンジャー ) アドレスを格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:199
 #: ../doc/reference/cordova_4.1/contacts/index.rst:275
@@ -4844,25 +4845,25 @@ msgstr "**ims**: 連絡先に関するすべての IM　 ( インスタントメ
 msgid ""
 "**organizations**: An array of all the contact's organizations. "
 "*(ContactOrganization[])*"
-msgstr "**organizations**: 連絡先に関するすべての組織名の配列 *(ContactOrganization[])*"
+msgstr "**organizations**: 所属組織名を格納する配列です。 *(ContactOrganization[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:202
 #: ../doc/reference/cordova_4.1/contacts/index.rst:278
 #: ../doc/reference/cordova_5.2/contacts/index.rst:303
 msgid "**birthday**: The birthday of the contact. *(Date)*"
-msgstr "**birthday**: 連絡先の誕生日 *(Date)*"
+msgstr "**birthday**: 誕生日です。 *(Date)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:204
 #: ../doc/reference/cordova_4.1/contacts/index.rst:280
 #: ../doc/reference/cordova_5.2/contacts/index.rst:305
 msgid "**note**: A note about the contact. *(DOMString)*"
-msgstr "**note**: 連絡先のメモ *(DOMString)*"
+msgstr "**note**: メモ書きです。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:206
 #: ../doc/reference/cordova_4.1/contacts/index.rst:282
 #: ../doc/reference/cordova_5.2/contacts/index.rst:307
 msgid "**photos**: An array of the contact's photos. *(ContactField[])*"
-msgstr "**photos**: 連絡先の写真の配列 *(ContactField[])*"
+msgstr "**photos**: 写真を格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:208
 #: ../doc/reference/cordova_4.1/contacts/index.rst:284
@@ -4870,7 +4871,7 @@ msgstr "**photos**: 連絡先の写真の配列 *(ContactField[])*"
 msgid ""
 "**categories**: An array of all the user-defined categories associated with "
 "the contact. *(ContactField[])*"
-msgstr "**categories**: 連絡先に関する、すべてのユーザ定義のカテゴリーの配列 *(ContactField[])*"
+msgstr "**categories**: ユーザー定義のカテゴリーを格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:211
 #: ../doc/reference/cordova_4.1/contacts/index.rst:287
@@ -4878,7 +4879,7 @@ msgstr "**categories**: 連絡先に関する、すべてのユーザ定義の�
 msgid ""
 "**urls**: An array of web pages associated with the contact. "
 "*(ContactField[])*"
-msgstr "**urls**: 連絡先に関する Web ページの配列 *(ContactField[])*"
+msgstr "**urls**: Web ページのリンク先を格納する配列です。 *(ContactField[])*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:217
 #: ../doc/reference/cordova_4.1/contacts/index.rst:293
@@ -4886,7 +4887,7 @@ msgstr "**urls**: 連絡先に関する Web ページの配列 *(ContactField[])
 msgid ""
 "**clone**: Returns a new ``Contact`` object that is a deep copy of the "
 "calling object, with the ``id`` property set to ``null``."
-msgstr "**clone**: 呼び出したオブジェクトのディープコピー ( deep copy ) を行い、新しい ``Contact`` オブジェクトとして返します。 ``id``プロパティーは ``null`` に設定されます。"
+msgstr "**clone**: 呼び出し元 ( コピー元 ) のオブジェクトのディープコピー ( deep copy ) である、新規の ``Contact`` オブジェクトを返します。``id`` プロパティーは ``null`` に設定されています。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:220
 #: ../doc/reference/cordova_4.1/contacts/index.rst:296
@@ -4894,7 +4895,7 @@ msgstr "**clone**: 呼び出したオブジェクトのディープコピー ( d
 msgid ""
 "**remove**: Removes the contact from the device contacts database, otherwise"
 " executes an error callback with a ``ContactError`` object."
-msgstr "**remove**: 連絡先データベースからオブジェクトを削除します。削除が失敗した場合は ``ContactError`` オブジェクトを使用して、errorコールバック関数を呼び出します。"
+msgstr "**remove**: 住所録データベースから、対象の住所録を削除します。削除が失敗した場合は、``ContactError`` オブジェクトを使用して、失敗時のコールバック関数が呼び出されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:223
 #: ../doc/reference/cordova_4.1/contacts/index.rst:299
@@ -4902,7 +4903,7 @@ msgstr "**remove**: 連絡先データベースからオブジェクトを削除
 msgid ""
 "**save**: Saves a new contact to the device contacts database, or updates an"
 " existing contact if a contact with the same **id** already exists."
-msgstr "**save**: 新しい連絡先を連絡先データベースに保存し、 既存の **id**場合には、連絡先データベースを更新します。"
+msgstr "**save**: 新しい住所録を、住所録データベースに保存します。同じ **id** を持つ住所録が存在する場合には、既存の住所録を更新します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:230
 #: ../doc/reference/cordova_3.5/globalization/index.rst:343
@@ -5116,7 +5117,7 @@ msgstr "Firefox OS"
 #: ../doc/reference/cordova_5.2/network-information/index.rst:67
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:64
 msgid "Windows Phone 7 and 8"
-msgstr "Windows Phone 7 and 8"
+msgstr "Windows Phone 7 と 8"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:236
 #: ../doc/reference/cordova_3.5/media/index.rst:512
@@ -5197,7 +5198,7 @@ msgstr "Android 2.X 特有の動作"
 #: ../doc/reference/cordova_5.2/contacts/index.rst:397
 msgid ""
 "**categories**: Not supported on Android 2.X devices, returning ``null``."
-msgstr "**categories**: Android 2.X搭載のデバイスでは、このプロパティーをサポートしません。 ``null`` を返します。"
+msgstr "**categories**: Android 2.X 端末では、このプロパティーは使用できません。 ``null`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:301
 #: ../doc/reference/cordova_4.1/contacts/index.rst:383
@@ -5206,7 +5207,7 @@ msgid ""
 "**displayName**: Not supported on iOS, returning ``null`` unless there is no"
 " ``ContactName`` specified, in which case it returns the composite name, "
 "**nickname** or ``\"\"``, respectively."
-msgstr "**displayName**: iOS ではサポートしません。 ``ContactName`` を指定しない場合、 ``null`` を返します。この場合、合成した名前 ( composite name )、 **nickname** 、 ``\"\"`` のいづれかを返します。"
+msgstr "**displayName**: iOS では使用できません。 ``ContactName`` を指定しない場合、 ``null`` を返します。指定した場合、連結させた名前 ( composite name )、**nickname**、``\"\"`` のいづれかを返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:305
 #: ../doc/reference/cordova_4.1/contacts/index.rst:387
@@ -5214,7 +5215,7 @@ msgstr "**displayName**: iOS ではサポートしません。 ``ContactName`` �
 msgid ""
 "**birthday**: Must be input as a JavaScript ``Date`` object, the same way it"
 " is returned."
-msgstr "**birthday**: JavaScript の ``Date``オブジェクトとして入力をしなければなりません。また、返ってくるときも、同オブジェクトのそれと同じように返ってきます。"
+msgstr "**birthday**: JavaScript の ``Date`` オブジェクトとして取り扱う必要があります ( 入力時・取得時の両方 )。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:308
 #: ../doc/reference/cordova_4.1/contacts/index.rst:390
@@ -5223,7 +5224,7 @@ msgid ""
 "**photos**: Returns a File URL to the image, which is stored in the "
 "application's temporary directory. Contents of the temporary directory are "
 "removed when the application exits."
-msgstr "**photos**: アプリの temporaryダイレクトリに保存されたイメージを指し示す File URLを返します。アプリを閉じたときに、temporaryダイレクトリに残るコンテンツは削除されます。"
+msgstr "**photos**: アプリの tmp ディレクトリーに保存された画像を指す File URL を返します。なお、tmp ディレクトリーに置かれたコンテンツは、アプリを閉じたときに削除されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:312
 #: ../doc/reference/cordova_4.1/contacts/index.rst:394
@@ -5231,7 +5232,7 @@ msgstr "**photos**: アプリの temporaryダイレクトリに保存された�
 msgid ""
 "**categories**: This property is currently not supported, returning "
 "``null``."
-msgstr "**categories**: このプロパティーは、現在、サポートしません。 ``null``を返します。"
+msgstr "**categories**: 使用できません。 ``null`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:318
 #: ../doc/reference/cordova_4.1/contacts/index.rst:400
@@ -5240,7 +5241,7 @@ msgid ""
 "The ``ContactAddress`` object stores the properties of a single address of a"
 " contact. A ``Contact`` object may include more than one address in a "
 "``ContactAddress[]`` array."
-msgstr "``ContactAddress`` オブジェクトを使用して、1 つの連絡先の 1つのアドレスのプロパティー群を格納します。 ``Contact``オブジェクトでは、 ``ContactAddress[]``の配列を使用して、複数の住所を格納することができます。"
+msgstr "``ContactAddress`` オブジェクトを使用して、住所録中の 「 住所 」 に関連したプロパティー群を格納します。1 つの ``Contact`` オブジェクトには、``ContactAddress[]`` の配列を使用して、複数の住所を格納できます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:325
 #: ../doc/reference/cordova_4.1/contacts/index.rst:407
@@ -5248,7 +5249,7 @@ msgstr "``ContactAddress`` オブジェクトを使用して、1 つの連絡先
 msgid ""
 "**pref**: Set to ``true`` if this ``ContactAddress`` contains the user's "
 "preferred value. *(boolean)*"
-msgstr "**pref**: 最優先する値を ``ContactAddress`` が格納している場合、 ``true`` に設定します。 *(boolean)*"
+msgstr "**pref**: 最優先にする値を格納する ``ContactAddress`` であれば、``true`` に設定します。 *(boolean)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:328
 #: ../doc/reference/cordova_4.1/contacts/index.rst:410
@@ -5256,49 +5257,49 @@ msgstr "**pref**: 最優先する値を ``ContactAddress`` が格納している
 msgid ""
 "**type**: A string indicating what type of field this is, *home* for "
 "example. *(DOMString)*"
-msgstr "**type**: 項目のタイプを示す文字列。例 ： *home* *(DOMString)*"
+msgstr "**type**: 項目のタイプを示した文字列です。例 : *home* ( 自宅用 )  *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:331
 #: ../doc/reference/cordova_4.1/contacts/index.rst:413
 #: ../doc/reference/cordova_5.2/contacts/index.rst:496
 msgid "**formatted**: The full address formatted for display. *(DOMString)*"
-msgstr "**formatted**: 表示用にフォーマットした住所 *(DOMString)*"
+msgstr "**formatted**: 表示用の住所です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:333
 #: ../doc/reference/cordova_4.1/contacts/index.rst:415
 #: ../doc/reference/cordova_5.2/contacts/index.rst:498
 msgid "**streetAddress**: The full street address. *(DOMString)*"
-msgstr "**streetAddress**: 番地 *(DOMString)*"
+msgstr "**streetAddress**: 番地です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:335
 #: ../doc/reference/cordova_4.1/contacts/index.rst:417
 #: ../doc/reference/cordova_5.2/contacts/index.rst:500
 msgid "**locality**: The city or locality. *(DOMString)*"
-msgstr "**locality**: 市区町村 *(DOMString)*"
+msgstr "**locality**: 市区町村です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:337
 #: ../doc/reference/cordova_4.1/contacts/index.rst:419
 #: ../doc/reference/cordova_5.2/contacts/index.rst:502
 msgid "**region**: The state or region. *(DOMString)*"
-msgstr "**region**: 都道府県 *(DOMString)*"
+msgstr "**region**: 都道府県です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:339
 #: ../doc/reference/cordova_4.1/contacts/index.rst:421
 #: ../doc/reference/cordova_5.2/contacts/index.rst:504
 msgid "**postalCode**: The zip code or postal code. *(DOMString)*"
-msgstr "**postalCode**: 郵便番号 *(DOMString)*"
+msgstr "**postalCode**: 郵便番号です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:341
 #: ../doc/reference/cordova_4.1/contacts/index.rst:423
 #: ../doc/reference/cordova_5.2/contacts/index.rst:506
 msgid "**country**: The country name. *(DOMString)*"
-msgstr "**country**: 国 *(DOMString)*"
+msgstr "**country**: 国です *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:384
 #: ../doc/reference/cordova_4.1/contacts/index.rst:467
 #: ../doc/reference/cordova_5.2/contacts/index.rst:555
 msgid "**pref**: Not supported, returning ``false`` on Android 2.X devices."
-msgstr "**pref**: Android 2.X 搭載のデバイスでは、サポートしておらず、``false`` を返します。"
+msgstr "**pref**: Android 2.X 端末では使用できず、``false`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:389
 #: ../doc/reference/cordova_3.5/contacts/index.rst:608
@@ -5307,13 +5308,13 @@ msgstr "**pref**: Android 2.X 搭載のデバイスでは、サポートして�
 #: ../doc/reference/cordova_5.2/contacts/index.rst:589
 #: ../doc/reference/cordova_5.2/contacts/index.rst:924
 msgid "**pref**: Not supported on iOS devices, returning ``false``."
-msgstr "**pref**: iOS ではサポートしておらず、 ``false`` を返します。"
+msgstr "**pref**: iOS 端末では使用できず、``false`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:391
 #: ../doc/reference/cordova_4.1/contacts/index.rst:479
 #: ../doc/reference/cordova_5.2/contacts/index.rst:591
 msgid "**formatted**: Currently not supported."
-msgstr "**formatted**: 現在、サポートしません。"
+msgstr "**formatted**: 現在、使用できません。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:396
 #: ../doc/reference/cordova_4.1/contacts/index.rst:484
@@ -5321,7 +5322,7 @@ msgstr "**formatted**: 現在、サポートしません。"
 msgid ""
 "The ``ContactError`` object is returned to the user through the "
 "``contactError`` callback function when an error occurs."
-msgstr "エラーの発生時に、 ``ContactError`` オブジェクトを、 ``contactError``コールバック関数が返します。"
+msgstr "エラーの発生時には、``contactError`` コールバック関数から、``ContactError`` オブジェクトが返されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:407
 msgid "``ContactError.UNKNOWN_ERROR``"
@@ -5360,7 +5361,7 @@ msgid ""
 "``type``, and ``pref`` property. A ``Contact`` object stores several "
 "properties in ``ContactField[]`` arrays, such as phone numbers and email "
 "addresses."
-msgstr "``ContactField``オブジェクトは、連絡先の各項目を汎用的に格納するための再利用可能なコンポーネントです。各``ContactField`` オブジェクトには、 ``value`` 、 ``type`` 、 ``pref``プロパティーを 1 つずつ格納します。 ``Contact``オブジェクトは、電話番号・メールアドレスのような複数のプロパティーを、``ContactField[]`` 配列に格納します。"
+msgstr "``ContactField`` オブジェクトは、再利用可能で、汎用的なコンポーネントです。住所録の各項目の値を格納するために使用します。各 ``ContactField`` オブジェクトには、``value``、``type``、``pref`` プロパティーを 1 つずつ格納できます。``ContactField[]`` の配列を使用して、電話番号・メールアドレスのような、複数登録する必要があるプロパティーを格納します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:424
 #: ../doc/reference/cordova_4.1/contacts/index.rst:512
@@ -5374,7 +5375,7 @@ msgid ""
 "the format of the returned image: **url** when the **value** attribute "
 "contains a URL to the photo image, or *base64* when the **value** contains a"
 " base64-encoded image string."
-msgstr "``ContactField`` オブジェクトの **type**属性に関しては、多くの場合、事前に定義した値はありません。たとえば、電話番号に関しては、\\ **type**に設定する値として、 *home* 、 *work* 、 *mobile* 、 *iPhone*、または、特定のデバイスのプラットフォームの連絡先データベースがサポートしているその他の値を指定できます。ただし、\\ ``Contact``の **photos** 項目に関しては、 **type**項目を使用して、返すイメージの形式を設定します。 **value**属性が、写真のイメージの URL を格納している場合には **url** を、Base64形式のイメージの文字列を格納している場合には、 *base64* が入ります。"
+msgstr "``ContactField`` オブジェクトの **type** 属性に関しては、多くの場合、事前に定義された値はありません。**type** に設定する値として、たとえば、電話番号に関しては、 *home*、*work*、*mobile*、 *iPhone* があります。または、特定のプラットフォームで使用されている住所録データベースがサポートしている、他の値も設定できます。ただし、``Contact`` の **photos** 項目に関しては、**type** 属性を使用して、返される画像の形式を設定します。 **value** 属性に、写真の画像の URL を格納する場合には *url* を、Base64 形式の画像の文字列を格納する場合には *base64* を設定します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:436
 #: ../doc/reference/cordova_4.1/contacts/index.rst:524
@@ -5382,7 +5383,7 @@ msgstr "``ContactField`` オブジェクトの **type**属性に関しては、�
 msgid ""
 "**type**: A string that indicates what type of field this is, *home* for "
 "example. *(DOMString)*"
-msgstr "**type**: 項目のタイプを示す文字列。例 ： *home* *(DOMString)*"
+msgstr "**type**: 項目のタイプを示した文字列です。例 : *home* ( 自宅用 )  *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:439
 #: ../doc/reference/cordova_4.1/contacts/index.rst:527
@@ -5390,7 +5391,7 @@ msgstr "**type**: 項目のタイプを示す文字列。例 ： *home* *(DOMStr
 msgid ""
 "**value**: The value of the field, such as a phone number or email address. "
 "*(DOMString)*"
-msgstr "**value**: 項目の値。例 ： 電話番号またはメールアドレス *(DOMString)*"
+msgstr "**value**: 項目の値です。例 : *電話番号*、*メールアドレス* *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:442
 #: ../doc/reference/cordova_4.1/contacts/index.rst:530
@@ -5398,7 +5399,7 @@ msgstr "**value**: 項目の値。例 ： 電話番号またはメールアド�
 msgid ""
 "**pref**: Set to ``true`` if this ``ContactField`` contains the user's "
 "preferred value. *(boolean)*"
-msgstr "**pref**: 最優先する値を ``ContactField`` が格納している場合、 ``true`` に設定します。 *(boolean)*"
+msgstr "**pref**: 最優先にする値を格納する ``ContactField`` であれば、``true`` に設定します。 *(boolean)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:472
 #: ../doc/reference/cordova_3.5/contacts/index.rst:477
@@ -5411,38 +5412,38 @@ msgstr "**pref**: 最優先する値を ``ContactField`` が格納している�
 #: ../doc/reference/cordova_5.2/contacts/index.rst:713
 #: ../doc/reference/cordova_5.2/contacts/index.rst:940
 msgid "**pref**: Not supported, returning ``false``."
-msgstr "**pref**: サポートしません。 ``false`` を返します。"
+msgstr "**pref**: 使用できません。 ``false`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:482
 #: ../doc/reference/cordova_4.1/contacts/index.rst:571
 #: ../doc/reference/cordova_5.2/contacts/index.rst:718
 msgid ""
 "Contains different kinds of information about a ``Contact`` object's name."
-msgstr "**pref**: サポートしません。 ``false`` を返します。"
+msgstr "``Contact`` オブジェクトが保持する 「 名前 」 に関する、さまざまな情報を格納します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:488
 #: ../doc/reference/cordova_4.1/contacts/index.rst:577
 #: ../doc/reference/cordova_5.2/contacts/index.rst:724
 msgid "**formatted**: The complete name of the contact. *(DOMString)*"
-msgstr "**formatted**: 連絡先のフルネーム *(DOMString)*"
+msgstr "**formatted**: フルネームです。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:490
 #: ../doc/reference/cordova_4.1/contacts/index.rst:579
 #: ../doc/reference/cordova_5.2/contacts/index.rst:726
 msgid "**familyName**: The contact's family name. *(DOMString)*"
-msgstr "**familyName**: 連絡先の姓 *(DOMString)*"
+msgstr "**familyName**: 姓です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:492
 #: ../doc/reference/cordova_4.1/contacts/index.rst:581
 #: ../doc/reference/cordova_5.2/contacts/index.rst:728
 msgid "**givenName**: The contact's given name. *(DOMString)*"
-msgstr "**givenName**: 連絡先の名 *(DOMString)*"
+msgstr "**givenName**: 名です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:494
 #: ../doc/reference/cordova_4.1/contacts/index.rst:583
 #: ../doc/reference/cordova_5.2/contacts/index.rst:730
 msgid "**middleName**: The contact's middle name. *(DOMString)*"
-msgstr "**middleName**: 連絡先のミドルネーム *(DOMString)*"
+msgstr "**middleName**: ミドルネームです。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:496
 #: ../doc/reference/cordova_4.1/contacts/index.rst:585
@@ -5450,14 +5451,14 @@ msgstr "**middleName**: 連絡先のミドルネーム *(DOMString)*"
 msgid ""
 "**honorificPrefix**: The contact's prefix (example *Mr.* or *Dr.*) "
 "*(DOMString)*"
-msgstr "**honorificPrefix**: 連絡先の接頭敬称 ( 例 : *Mr.* または *Dr.* ) *(DOMString)*"
+msgstr "**honorificPrefix**: 接頭敬称です。例 : *Mr.*、*Dr.* *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:499
 #: ../doc/reference/cordova_4.1/contacts/index.rst:588
 #: ../doc/reference/cordova_5.2/contacts/index.rst:735
 msgid ""
 "**honorificSuffix**: The contact's suffix (example *Esq.*). *(DOMString)*"
-msgstr "**honorificSuffix**: 連絡先の接尾敬称 ( 例 : *Esq.* ) *(DOMString)*"
+msgstr "**honorificSuffix**: 接尾敬称です。例 *Esq.* *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:505
 #: ../doc/reference/cordova_4.1/contacts/index.rst:595
@@ -5472,7 +5473,7 @@ msgid ""
 "**formatted**: Partially supported, and read-only. Returns a concatenation "
 "of ``honorificPrefix``, ``givenName``, ``middleName``, ``familyName``, and "
 "``honorificSuffix``."
-msgstr "**formatted**: 部分的にサポートしますが、読み取り専用です。\\ ``honorificPrefix`` 、\n   ``givenName`` 、 ``middleName`` 、 ``familyName`` 、 ``honorificSuffix`` を連結して返します。"
+msgstr "**formatted**: 部分的に使用できますが、読み取り専用です。``honorificPrefix``、``givenName``、``middleName``、``familyName``、``honorificSuffix`` を連結して返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:543
 #: ../doc/reference/cordova_4.1/contacts/index.rst:633
@@ -5480,7 +5481,7 @@ msgstr "**formatted**: 部分的にサポートしますが、読み取り専用
 msgid ""
 "**formatted**: Partially supported. Returns iOS Composite Name, but is read-"
 "only."
-msgstr "**formatted**: 部分的にサポートします。読み取り専用の iOS の合成名 ( Composite Name ) を返します。"
+msgstr "**formatted**: 部分的に使用できます。読み取り専用の iOS の連結名 ( Composite Name ) を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:549
 #: ../doc/reference/cordova_4.1/contacts/index.rst:639
@@ -5489,7 +5490,7 @@ msgid ""
 "The ``ContactOrganization`` object stores a contact's organization "
 "properties. A ``Contact`` object stores one or more ``ContactOrganization`` "
 "objects in an array."
-msgstr "``ContactOrganization``を使用して、連絡先の組織に関するプロパティー群を格納します。 ``Contact``では、単数または複数の ``ContactOrganization``オブジェクトを配列に格納します。"
+msgstr "``ContactOrganization`` オブジェクトを使用して、組織に関するプロパティーを格納します。 ``Contact`` オブジェクトは、単数または複数の ``ContactOrganization`` オブジェクトを配列形式で保持します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:556
 #: ../doc/reference/cordova_4.1/contacts/index.rst:646
@@ -5497,7 +5498,7 @@ msgstr "``ContactOrganization``を使用して、連絡先の組織に関する�
 msgid ""
 "**pref**: Set to ``true`` if this ``ContactOrganization`` contains the "
 "user's preferred value. *(boolean)*"
-msgstr "**pref**: 最優先する値を ``ContactOrganization`` が格納している場合、``true`` に設定します。 *(boolean)*"
+msgstr "**pref**: 最優先にする値を格納する ``ContactOrganization`` であれば、``true`` に設定します。 *(boolean)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:559
 #: ../doc/reference/cordova_4.1/contacts/index.rst:649
@@ -5505,37 +5506,37 @@ msgstr "**pref**: 最優先する値を ``ContactOrganization`` が格納して�
 msgid ""
 "**type**: A string that indicates what type of field this is, *home* for "
 "example. \\_(DOMString)"
-msgstr "**type**: 項目のタイプを示す文字列。 例 ： *home* *(DOMString)*"
+msgstr "**type**: 項目のタイプを示した文字列です。例 : *home* ( 自宅用 )  *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:562
 #: ../doc/reference/cordova_4.1/contacts/index.rst:652
 #: ../doc/reference/cordova_5.2/contacts/index.rst:848
 msgid "**name**: The name of the organization. *(DOMString)*"
-msgstr "**name**: 組織名 *(DOMString)*"
+msgstr "**name**: 組織名です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:564
 #: ../doc/reference/cordova_4.1/contacts/index.rst:654
 #: ../doc/reference/cordova_5.2/contacts/index.rst:850
 msgid "**department**: The department the contract works for. *(DOMString)*"
-msgstr "**department**: 所属する部署名 *(DOMString)*"
+msgstr "**department**: 所属する部署名です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:566
 #: ../doc/reference/cordova_4.1/contacts/index.rst:656
 #: ../doc/reference/cordova_5.2/contacts/index.rst:852
 msgid "**title**: The contact's title at the organization. *(DOMString)*"
-msgstr "**title**: 役職名 *(DOMString)*"
+msgstr "**title**: 役職名です。 *(DOMString)*"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:603
 #: ../doc/reference/cordova_4.1/contacts/index.rst:693
 #: ../doc/reference/cordova_5.2/contacts/index.rst:893
 msgid "**pref**: Not supported by Android 2.X devices, returning ``false``."
-msgstr "**pref**: Android 2.X 搭載のデバイスでは、サポートしておらず、``false`` を返します。"
+msgstr "**pref**: Android 2.X 端末では使用できず、``false`` を返します."
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:610
 #: ../doc/reference/cordova_4.1/contacts/index.rst:700
 #: ../doc/reference/cordova_5.2/contacts/index.rst:926
 msgid "**type**: Not supported on iOS devices, returning ``null``."
-msgstr "**type**: iOS 搭載のデバイスではサポートしません。 ``null`` を返します。"
+msgstr "**type**: iOS 端末では使用できず、``null`` を返します。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:612
 #: ../doc/reference/cordova_4.1/contacts/index.rst:702
@@ -5543,7 +5544,7 @@ msgstr "**type**: iOS 搭載のデバイスではサポートしません。 ``n
 msgid ""
 "**name**: Partially supported. The first organization name is stored in the "
 "iOS **kABPersonOrganizationProperty** field."
-msgstr "**name**: 部分的にサポートします。1 つ目の組織名を iOS の\n   **kABPersonOrganizationProperty** 項目に格納します。"
+msgstr "**name**: 部分的に使用できます。最初の組織名は、iOS の **kABPersonOrganizationProperty** 項目に格納されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:615
 #: ../doc/reference/cordova_4.1/contacts/index.rst:705
@@ -5551,7 +5552,7 @@ msgstr "**name**: 部分的にサポートします。1 つ目の組織名を iO
 msgid ""
 "**department**: Partially supported. The first department name is stored in "
 "the iOS **kABPersonDepartmentProperty** field."
-msgstr "**department**: 部分的にサポートします。1 つ目の部署名を iOS の\n   **kABPersonDepartmentProperty** 項目に格納します。"
+msgstr "**department**: 部分的に使用できます。最初の部署名は、iOS の **kABPersonDepartmentProperty** 項目に格納されます。"
 
 #: ../doc/reference/cordova_3.5/contacts/index.rst:618
 #: ../doc/reference/cordova_4.1/contacts/index.rst:708
@@ -5559,13 +5560,13 @@ msgstr "**department**: 部分的にサポートします。1 つ目の部署名
 msgid ""
 "**title**: Partially supported. The first title is stored in the iOS "
 "**kABPersonJobTitleProperty** field."
-msgstr "**title**: 部分的にサポートします。1 つ目の役職を iOS の **kABPersonJobTitleProperty** 項目に格納します。"
+msgstr "**title**: 部分的に使用できます。1 つ目の役職は、iOS の **kABPersonJobTitleProperty** 項目に格納されます。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:2
 #: ../doc/reference/cordova_4.1/device/index.rst:23
 #: ../doc/reference/cordova_5.2/device/index.rst:24
 msgid "Device Plugin"
-msgstr "デバイスプラグイン"
+msgstr "端末情報の取得 プラグイン"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:17
 msgid ""
@@ -5581,7 +5582,7 @@ msgid ""
 "This plugin defines a global ``device`` object, which describes the device's"
 " hardware and software. Although the object is in the global scope, it is "
 "not available until after the ``deviceready`` event."
-msgstr "このプラグインを使用して、グローバルな ``device``オブジェクトを生成します。このオブジェクトを使用して、デバイスのハードウェアとソフトウェアに関する情報を格納します。このオブジェクトは、グローバルスコープに属しますが、利用できるのは\n``deviceready`` イベント後となります。"
+msgstr "このプラグインでは、グローバルオブジェクト 「 ``device`` 」 を使用し、端末側のハードウェアとソフトウェア情報を取り扱います。このオブジェクトは、グローバルスコープに属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:40
 #: ../doc/reference/cordova_4.1/device/index.rst:62
@@ -5645,7 +5646,7 @@ msgstr "device.version"
 #: ../doc/reference/cordova_4.1/device/index.rst:77
 #: ../doc/reference/cordova_5.2/device/index.rst:85
 msgid "Get the version of Cordova running on the device."
-msgstr "デバイスで使用している Cordova のバージョン情報を取得します."
+msgstr "端末上で実行されている Cordova のバージョンを取得します。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:66
 #: ../doc/reference/cordova_4.1/device/index.rst:89
@@ -5654,7 +5655,7 @@ msgid ""
 "The ``device.model`` returns the name of the device's model or product. The "
 "value is set by the device manufacturer and may be different across versions"
 " of the same product."
-msgstr "``device.model``を使用して、デバイスのモデル名または製品名を取得します。デバイスの製造元がこの値を設定するため、同じモデルでも異なるバージョンで値が異なる場合があります。"
+msgstr "``device.model`` を使用して、端末のモデル名 ( model ) または製品名 ( product ) を取得します。これらの値は、端末の製造元が設定するため、同じ製品でも、異なるバージョン間では、値が異なる場合があります。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:77
 #: ../doc/reference/cordova_3.5/device/index.rst:120
@@ -5744,7 +5745,7 @@ msgid ""
 "<http://developer.android.com/reference/android/os/Build.html#MODEL>`__, "
 "which is often the production code name. For example, the Nexus One returns "
 "``Passion``, and Motorola Droid returns ``voles``."
-msgstr "`モデル名 <http://developer.android.com/reference/android/os/Build.html#MODEL>`__の代わりに`製品名 <http://developer.android.com/reference/android/os/Build.html#PRODUCT>`__を取得します。製品名はほとんどの場合、生産時のコードネームになります。たとえば、NexusOne では ``Passion`` を返し、 Motorola Droid では ``voles``を返します。"
+msgstr "`モデル名 <http://developer.android.com/reference/android/os/Build.html#MODEL>`__ ( model ) の代わりに、`製品名 <http://developer.android.com/reference/android/os/Build.html#PRODUCT>`__ ( product ) を取得します。製品名は、ほとんどの場合、製品のコードネームになります。たとえば、Nexus One では ``Passion`` を返し、 Motorola Droid では ``voles`` を返します。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:101
 msgid ""
@@ -5756,7 +5757,7 @@ msgstr "**注意:** バージョン 2.3.0 では ``device.name`` を使用しま
 #: ../doc/reference/cordova_4.1/device/index.rst:126
 #: ../doc/reference/cordova_5.2/device/index.rst:157
 msgid "Get the device's operating system name."
-msgstr "デバイスのオペレーティングシステム名を取得します。"
+msgstr "端末側のオペレーティングシステム名を取得します。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:136
 #: ../doc/reference/cordova_4.1/device/index.rst:156
@@ -5764,7 +5765,7 @@ msgstr "デバイスのオペレーティングシステム名を取得します
 msgid ""
 "Get the device's Universally Unique Identifier (`UUID "
 "<http://en.wikipedia.org/wiki/Universally_Unique_Identifier>`__)."
-msgstr "デバイスの UUID ( Universally Unique Identifier ) を取得します。(`UUID <http://en.wikipedia.org/wiki/Universally_Unique_Identifier>`__)."
+msgstr "端末の UUID ( Universally Unique Identifier ) を取得します ( UUID に関しては、`こちら <http://en.wikipedia.org/wiki/Universally_Unique_Identifier>`__ を参照のこと )。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:146
 #: ../doc/reference/cordova_4.1/device/index.rst:166
@@ -5772,7 +5773,7 @@ msgstr "デバイスの UUID ( Universally Unique Identifier ) を取得しま�
 msgid ""
 "The details of how a UUID is generated are determined by the device "
 "manufacturer and are specific to the device's platform or model."
-msgstr "UUIDの生成方法は、デバイスの製造元が主導して、デバイスのプラットフォームまたはモデルにより決定されます。"
+msgstr "UUID の生成方法は、端末の製造元が決定し、端末のプラットフォームまたはモデル毎に、値が割り振られます。"
 
 #: ../doc/reference/cordova_3.5/device/index.rst:177
 #: ../doc/reference/cordova_3.5/splashscreen/index.rst:73
@@ -5807,7 +5808,7 @@ msgstr "Android 2.1+"
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:23
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:24
 msgid "Dialogs Plugin"
-msgstr "ダイアログプラグイン"
+msgstr "ダイアログの制御 プラグイン"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:17
 msgid ""
@@ -5865,7 +5866,7 @@ msgid ""
 "Shows a custom alert or dialog box. Most Cordova implementations use a "
 "native dialog box for this feature, but some platforms use the browser's "
 "``alert`` function, which is typically less customizable."
-msgstr "カスタマイズしたアラートまたはダイアログボックスを表示します。通常、ネイティブのダイアログボックスをCordovaアプリでは使用しますが、一部のプラットフォームにおいては、ブラウザーの\\ ``アラート``( alert )機能を使用します。ブラウザーの標準アラート機能では、カスタマイズが困難な場合もあります。"
+msgstr "アラートまたはダイアログを、カスタマイズして表示します。多くの場合、Cordova では、ネイティブ側のダイアログを使用していますが、プラットフォームによっては、ブラウザー側の ``alert`` 関数を使用しており、 カスタマイズが制限されている場合があります。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:52
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:106
@@ -5885,19 +5886,19 @@ msgstr "**message**: ダイアログのメッセージ *(String)*"
 msgid ""
 "**alertCallback**: Callback to invoke when alert dialog is dismissed. "
 "*(Function)*"
-msgstr "**alertCallback**: アラートダイアログを消した後に呼ぶコールバック *(Function)*"
+msgstr "**alertCallback**: アラートダイアログを閉じたときに呼ぶコールバック *(Function)*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:57
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:89
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:96
 msgid "**title**: Dialog title. *(String)* (Optional, defaults to ``Alert``)"
-msgstr "**title**: ダイアログのタイトル ( 任意、デフォルトでは ``Alert`` ) *(String)*"
+msgstr "**title**: ダイアログのタイトル *( String、任意、デフォルトでは ``Alert`` )*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:59
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:91
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:98
 msgid "**buttonName**: Button name. *(String)* (Optional, defaults to ``OK``)"
-msgstr "**buttonName**: ボタンの表示名 ( 任意、デフォルトでは ``OK`` ) *(String)*"
+msgstr "**buttonName**: ボタンの名前 *( String、任意、デフォルトでは ``OK`` )*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:85
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:105
@@ -5936,7 +5937,7 @@ msgstr "navigator.notification.confirm"
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:120
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:158
 msgid "Displays a customizable confirmation dialog box."
-msgstr "設定をカスタマイズできる、確認用ダイアログボックスを表示します。"
+msgstr "確認用ダイアログを表示します ( カスタマイズ可 )。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:108
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:128
@@ -5945,14 +5946,14 @@ msgid ""
 "**confirmCallback**: Callback to invoke with index of button pressed (1, 2, "
 "or 3) or when the dialog is dismissed without a button press (0). "
 "*(Function)*"
-msgstr "**confirmCallback**: 押されたボタン番号のインデックス ( index、例 ：1、2、3 など ) を使用して呼び出すコールバック、または、ボタンを押さず ( 0 ) にダイアログを消したときに呼び出すコールバック *(Function)*"
+msgstr "**confirmCallback**: 押されたボタンのインデックス ( 1・2・3 など ) に応じて、または、ボタンを押さずにダイアログを閉じたときに ( 0 )、呼ばれるコールバック *(Function)*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:112
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:132
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:170
 msgid ""
 "**title**: Dialog title. *(String)* (Optional, defaults to ``Confirm``)"
-msgstr "**title**: ダイアログのタイトル ( 任意、デフォルトでは ``Confirm`` ) *(String)*"
+msgstr "**title**: ダイアログのタイトル *(String、任意、デフォルトでは ``Confirm``)* "
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:115
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:135
@@ -5960,7 +5961,7 @@ msgstr "**title**: ダイアログのタイトル ( 任意、デフォルトで�
 msgid ""
 "**buttonLabels**: Array of strings specifying button labels. *(Array)* "
 "(Optional, defaults to [``OK,Cancel``\\ ])"
-msgstr "**buttonLabels**: ボタンのラベル名を入れた文字列の配列 (任意、デフォルトでは [``OK,Cancel``\\ ] ) *(Array)*"
+msgstr "**buttonLabels**: ボタンの名前の配列 *(Array、任意、デフォルトでは [``OK,Cancel``\\ ])* "
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:119
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:139
@@ -5974,7 +5975,7 @@ msgstr "confirmCallback"
 msgid ""
 "The ``confirmCallback`` executes when the user presses one of the buttons in"
 " the confirmation dialog box."
-msgstr "確認用ダイアログボックスに表示した複数ボタンのうちの 1つを押したときに、 ``confirmCallback`` を実行します。"
+msgstr "確認用ダイアログ上に表示されたボタンを押したときに、 ``confirmCallback`` が実行されます。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:124
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:144
@@ -5983,7 +5984,7 @@ msgid ""
 "The callback takes the argument ``buttonIndex`` *(Number)*, which is the "
 "index of the pressed button. Note that the index uses one-based indexing, so"
 " the value is ``1``, ``2``, ``3``, etc."
-msgstr "このコールバックは、引数として、\\ ``buttonIndex`` (押されたボタンのインデックス ) *(Number)* を取ります。インデックスは、1から始まり ( 1 オリジンインデッス方式 )、値は、\\ ``1`` 、 ``2`` 、 ``3``、・・・　となります。"
+msgstr "このコールバックは、引数として、``buttonIndex`` ( *Number*、押されたボタンのインデックス ) を取ります。インデックスは、1 から始まり、値は、``1``、``2``、``3``、・・・　となります ( 1 オリジンインデックス方式 )。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:151
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:172
@@ -5997,7 +5998,7 @@ msgstr "navigator.notification.prompt"
 msgid ""
 "Displays a native dialog box that is more customizable than the browser's "
 "``prompt`` function."
-msgstr "ブラウザー標準の ``prompt``機能よりも自由にカスタマイズできる、ネイティブのダイアログボックスを表示します。"
+msgstr "ネイティブのダイアログを表示します ( ブラウザー標準の ``prompt`` 関数よりも、カスタマイズが容易 )。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:162
 msgid ""
@@ -6009,7 +6010,7 @@ msgstr "**promptCallback**: ボタンを押したときに呼び出すコール�
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:187
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:259
 msgid "**title**: Dialog title *(String)* (Optional, defaults to ``Prompt``)"
-msgstr "**title**: ダイアログのタイトル ( 任意、デフォルトでは ``Prompt``)\n   *(String)*"
+msgstr "**title**: ダイアログのタイトル *( String、任意、デフォルトでは ``Prompt`` )* "
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:167
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:189
@@ -6017,7 +6018,7 @@ msgstr "**title**: ダイアログのタイトル ( 任意、デフォルトで�
 msgid ""
 "**buttonLabels**: Array of strings specifying button labels *(Array)* "
 "(Optional, defaults to ``[\"OK\",\"Cancel\"]``)"
-msgstr "**buttonLabels**: ボタンのラベル名を入れた文字列の配列 (任意、デフォルトでは ``[\"OK\",\"Cancel\"]``) *(Array)*"
+msgstr "**buttonLabels**: ボタンの名前の配列 *( Array、任意、デフォルトでは ``[\"OK\",\"Cancel\"]`` )* "
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:170
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:192
@@ -6025,7 +6026,7 @@ msgstr "**buttonLabels**: ボタンのラベル名を入れた文字列の配列
 msgid ""
 "**defaultText**: Default textbox input value (``String``) (Optional, "
 "Default: empty string)"
-msgstr "**defaultText**: テキストボックスへのデフォルトの入力値 (任意、デフォルトでは、空の文字列 ) *(String)*"
+msgstr "**defaultText**: テキストボックスのデフォルトの入力値 ( ``String``、任意、デフォルトでは空の文字列 )"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:174
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:196
@@ -6040,7 +6041,7 @@ msgid ""
 "The ``promptCallback`` executes when the user presses one of the buttons in "
 "the prompt dialog box. The ``results`` object passed to the callback "
 "contains the following properties:"
-msgstr "入力用 ( prompt ) ダイアログボックスに表示した複数ボタンのうちの 1つを押したときに、 ``promptCallback`` を実行します。以下のプロパティーを格納した ``results``オブジェクトをこのコールバックに渡します。"
+msgstr "prompt ダイアログ上に表示されたボタンを押したときに、``promptCallback`` が実行されます。次のプロパティーを格納した ``results`` オブジェクトが、このコールバックに渡されます。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:180
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:202
@@ -6048,20 +6049,20 @@ msgstr "入力用 ( prompt ) ダイアログボックスに表示した複数ボ
 msgid ""
 "**buttonIndex**: The index of the pressed button. *(Number)* Note that the "
 "index uses one-based indexing, so the value is ``1``, ``2``, ``3``, etc."
-msgstr "**buttonIndex**: 押されたボタンのインデックス *(Number)*\\ 。インデックスは、1 から始まり ( 1 オリジンインデッス方式 )、値は、\\ ``1`` 、 ``2`` 、 ``3`` 、・・・　となります。"
+msgstr "**buttonIndex**: 押されるボタンのインデックスです。インデックスには、1 オリジンインデックス方式 を使用しており、値は、``1``、``2``、``3``、・・・　となります。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:184
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:206
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:278
 msgid "**input1**: The text entered in the prompt dialog box. *(String)*"
-msgstr "**input1**: 入力用 ( prompt ) ダイアログボックスに入力されたテキスト\n   *(String)*"
+msgstr "**input1**: prompt ダイアログに入力されたテキスト *(String)*"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:212
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:235
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:311
 msgid ""
 "Android supports a maximum of three buttons, and ignores any more than that."
-msgstr "Android では、最大 3 個のボタンをサポートします。それ以上のボタンは無視します。"
+msgstr "Android では、最大 3 個のボタンを使用できます。それ以上のボタンは無視します。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:215
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:238
@@ -6069,7 +6070,7 @@ msgstr "Android では、最大 3 個のボタンをサポートします。そ�
 msgid ""
 "On Android 3.0 and later, buttons are displayed in reverse order for devices"
 " that use the Holo theme."
-msgstr "Android 3.0 以降において、Holo テーマを使用するデバイスでは、ボタンの表示順序を逆順にしています。"
+msgstr "Android 3.0 以上の場合、Holo テーマを使用している端末では、ボタンの表示が逆順になります。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:220
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:242
@@ -6081,7 +6082,7 @@ msgstr "navigator.notification.beep"
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:244
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:332
 msgid "The device plays a beep sound."
-msgstr "ビープ ( beep ) 音を、デバイスが鳴らします。"
+msgstr "ビープ ( beep ) 音を鳴らします。"
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:228
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:250
@@ -6095,7 +6096,7 @@ msgstr "**times**: ビープ音のリピート回数 *(Number)*"
 msgid ""
 "Android plays the default **Notification ringtone** specified under the "
 "**Settings/Sound & Display** panel."
-msgstr "Android では、デフォルトの **Notification ringtone** を鳴らします (**Settings/Sound & Display** パネルで設定 )。"
+msgstr "Android では、デフォルトの **着信音** を鳴らします [ **設定/音と通知 ( または、ディスプレイ )** 画面で設定 ]。"
 
 #: ../doc/reference/cordova_3.5/events/events.rst:2
 msgid "Events"
@@ -6374,7 +6375,7 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:39
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:83
 msgid "\\* *Do not support ``onprogress`` nor ``abort()``*"
-msgstr "\\* *の付いたプラットフォームでは、``onprogress`` と ``abort()`` は使用できません。* "
+msgstr "\\* *の付いたプラットフォームでは、「 onprogress 」 と 「 abort() 」 は使用できません。* "
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:42
 msgid "FileTransfer"
@@ -6848,7 +6849,7 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 msgid ""
 "\\* *These platforms do not support ``FileReader.readAsArrayBuffer`` nor "
 "``FileWriter.write(blob)``.*"
-msgstr "\\* *の付いたプラットフォームでは、``FileReader.readAsArrayBuffer`` と ``FileWriter.write(blob)`` は使用できません。*"
+msgstr "\\* *の付いたプラットフォームでは、「 FileReader.readAsArrayBuffer 」 と 「 FileWriter.write(blob) 」 は使用できません。*"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:82
 #: ../doc/reference/cordova_4.1/file/index.rst:93
@@ -7577,7 +7578,7 @@ msgid ""
 "Without this line, the File plugin will use ``Compatibility`` as the "
 "default. If a preference tag is present, and is not one of these values, the"
 " application will not start."
-msgstr "この記述を追加しない場合、ファイル操作プラグイン ( File プラグイン ) では、デフォルトとして、``Internal`` ( 内部 ) を使用します。なお、preference タグが存在する場合でも、上記の値のいずれかが設定されていなければ、アプリは起動しません。"
+msgstr "この記述を追加しない場合、ファイル操作プラグイン ( File プラグイン ) では、デフォルトとして、``Compatibility`` を使用します。なお、preference タグが存在する場合でも、上記の値のいずれかが設定されていなければ、アプリは起動しません。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:260
 #: ../doc/reference/cordova_4.1/file/index.rst:293
@@ -7607,7 +7608,7 @@ msgid ""
 "store files within the root directory will fail. Use one of the other "
 "``cordova.file.*`` properties defined for iOS (only ``applicationDirectory``"
 " and ``applicationStorageDirectory`` are read-only)."
-msgstr "``cordova.file.applicationStorageDirectory`` は、読み取り専用です。このルートディレクトリーへファイルを保存しようとした場合、失敗します。よって、iOS をサポートしている他の ``cordova.file.*`` プロパティーを使用します ( ``applicationDirectory`` と ``applicationStorageDirectory`` のみ、読み取り専用です )。"
+msgstr "``cordova.file.applicationStorageDirectory`` は、読み取り専用です。このルートディレクトリーへファイルを保存しようとした場合、失敗します。よって、iOS がサポートしている他の ``cordova.file.*`` プロパティーを使用します ( ``applicationDirectory`` と ``applicationStorageDirectory`` のみ、読み取り専用です )。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:279
 #: ../doc/reference/cordova_4.1/file/index.rst:312
@@ -7797,7 +7798,7 @@ msgid ""
 "'file://' URL. wherever possible. To ensure a 'cdvfile:'-URL you can use "
 "``toInternalURL()`` now. This method will now return filesystem URLs of the "
 "form"
-msgstr "v1.1.0 では、``toURL()`` の戻り値は、可能であれば、'file://' 形式の絶対 URL を返すように変わりました ( \n`CB-6394 <https://issues.apache.org/jira/browse/CB-6394>`__ を参照のこと )。 'cdvfile:' 形式の URL の取得したい場合には、現在、``toInternalURL()`` を使用できます。このメソッドでは、次の形式の URL を返します。"
+msgstr "v1.1.0 では、``toURL()`` の戻り値は、可能であれば、'file://' 形式の絶対 URL を返すように変わりました ( `CB-6394 <https://issues.apache.org/jira/browse/CB-6394>`__ を参照のこと )。 'cdvfile:' 形式の URL の取得したい場合には、現在、``toInternalURL()`` を使用できます。このメソッドでは、次の形式の URL を返します。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:390
 #: ../doc/reference/cordova_4.1/file/index.rst:407
@@ -8040,7 +8041,7 @@ msgstr "``cache-external``: アプリが使用する、キャッシュ用のデ�
 #: ../doc/reference/cordova_5.2/file/index.rst:595
 #: ../doc/reference/cordova_5.2/file/index.rst:608
 msgid "``root``: The entire device filesystem"
-msgstr "``root``: 端末のファイルシステム全体"
+msgstr "``root``: 端末のすべてのファイルシステム"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:450
 #: ../doc/reference/cordova_4.1/file/index.rst:467
@@ -8048,7 +8049,7 @@ msgstr "``root``: 端末のファイルシステム全体"
 msgid ""
 "Android also supports a special filesystem named \"documents\", which "
 "represents a \"/Documents/\" subdirectory within the \"files\" filesystem."
-msgstr "他にも、Android では \"documents\" と呼ばれるファイルシステムが使用できます ( このファイルシステムは、\"files\" ファイルシステム内の \"/Documents/\" サブディレクトリーです )。"
+msgstr "他にも、Android では 「 documents 」 と呼ばれるファイルシステムが使用できます ( このファイルシステムは、「 files 」 ファイルシステム内の 「 /Documents/ 」 のサブディレクトリーです )。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:456
 #: ../doc/reference/cordova_4.1/file/index.rst:473
@@ -8215,7 +8216,7 @@ msgid ""
 "This API is based on the `W3C Geolocation API Specification "
 "<http://dev.w3.org/geo/api/spec-source.html>`__, and only executes on "
 "devices that don't already provide an implementation."
-msgstr "この API は  `W3C Geolocation API\nの仕様 ( 外部サイト ) <http://dev.w3.org/geo/api/spec-source.html>`__ に準拠しています。位置情報の取得を行っていない端末上で、この API を使用することになります。"
+msgstr "この API は  `W3C Geolocation API の仕様 ( 外部サイト ) <http://dev.w3.org/geo/api/spec-source.html>`__ に準拠しています。位置情報の取得を行っていない端末上で、この API を使用することになります。"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:30
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:51
@@ -8334,7 +8335,7 @@ msgstr "**geolocationError**: *( 任意 )* エラーが発生した場合に実�
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:134
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:145
 msgid "**geolocationOptions**: *(Optional)* The geolocation options."
-msgstr "**geolocationOptions**: *( 任意 )* 設定できるオプション"
+msgstr "**geolocationOptions**: *( 任意 )* オプション"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:134
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:168
@@ -8359,7 +8360,7 @@ msgstr "**geolocationError**: ( 任意 ) エラーが発生した場合に実行
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:189
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:200
 msgid "**geolocationOptions**: (Optional) The geolocation options."
-msgstr "**geolocationOptions**: ( 任意 ) 使用できるオプション"
+msgstr "**geolocationOptions**: ( 任意 ) オプション"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:158
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:192
@@ -8388,7 +8389,7 @@ msgstr "geolocationOptions"
 msgid ""
 "Optional parameters to customize the retrieval of the geolocation "
 "``Position``."
-msgstr "``Position`` の取得処理をカスタマイズするための任意のパラメーターです。"
+msgstr "``Position`` の 「 取得 」 処理をカスタマイズするための任意のパラメーターです。"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:205
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:239
@@ -8421,7 +8422,7 @@ msgstr "**timeout**: ``navigator.geolocation.getCurrentPosition`` または ``ge
 msgid ""
 "**maximumAge**: Accept a cached position whose age is no greater than the "
 "specified time in milliseconds. *(Number)*"
-msgstr "**maximumAge**: キャッシュ内に置かれている、有効期間内 ( ミリ秒単位で指定 ) の位置情報のみ使用します。 *(Number)*"
+msgstr "**maximumAge**: キャッシュ内に置かれた、有効期間内 ( ミリ秒単位で指定 ) の位置情報のみ使用します。 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:229
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:263
@@ -8525,7 +8526,7 @@ msgstr "**heading**: 真方位を基準とする時計回りの方位角を使�
 msgid ""
 "**speed**: Current ground speed of the device, specified in meters per "
 "second. *(Number)*"
-msgstr "**speed**: 1 秒あたりのスピードをメートル単位で示す、デバイスの現在の対地速度 *(Number)*"
+msgstr "**speed**: 1 秒あたりのスピードをメートル単位で示す、端末の現在の対地速度 *(Number)*"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:308
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:342
@@ -8534,7 +8535,7 @@ msgstr "**speed**: 1 秒あたりのスピードをメートル単位で示す�
 #: ../doc/reference/cordova_5.2/geolocation/index.rst:359
 msgid ""
 "**altitudeAccuracy**: Not supported by Android devices, returning ``null``."
-msgstr "**altitudeAccuracy**: Android 端末では使用できません。 `null` を返します。"
+msgstr "**altitudeAccuracy**: Android 端末では使用できません。 ``null`` を返します。"
 
 #: ../doc/reference/cordova_3.5/geolocation/index.rst:314
 #: ../doc/reference/cordova_4.1/geolocation/index.rst:354
@@ -8599,7 +8600,7 @@ msgstr "``geolocationOptions`` の ``timeout`` で指定した時間内に、位
 #: ../doc/reference/cordova_4.1/globalization/index.rst:23
 #: ../doc/reference/cordova_5.2/globalization/index.rst:24
 msgid "Globalization Plugin"
-msgstr "国際化プラグイン"
+msgstr "表記の国際化対応 プラグイン"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:17
 msgid ""
@@ -8753,20 +8754,20 @@ msgstr "クライアントのロケールとタイムゾーンに基づき、文
 msgid ""
 "Returns the formatted date ``String`` via a ``value`` property accessible "
 "from the object passed as a parameter to the ``successCallback``."
-msgstr "``value`` プロパティー経由で、\\ ``文字列`` ( String )形式の日付を返します。 ``successCallback``にパラメーターとして渡したオブジェクトが、 ``value``プロパティーを格納しています"
+msgstr "``value`` プロパティーを使用して、``文字列`` 形式の日付を返します。``successCallback`` にパラメーターとして渡されたオブジェクト内に、この ``value`` プロパティーが格納されています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:72
 #: ../doc/reference/cordova_4.1/globalization/index.rst:209
 #: ../doc/reference/cordova_5.2/globalization/index.rst:270
 msgid "The inbound ``date`` parameter should be of type ``Date``."
-msgstr "インバウンド ( inbound ) する ``date`` パラメーターは、 ``Date``型です。"
+msgstr "``date`` パラメーターは、``Date`` 型です。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:74
 msgid ""
 "If there is an error formatting the date, then the ``errorCallback`` "
 "executes with a ``GlobalizationError`` object as a parameter. The error's "
 "expected code is ``GlobalizationError.FORMATTING\\_ERROR``."
-msgstr "日付のフォーマット時にエラーが発生した場合、 ``GlobalizationError``オブジェクトをパラメーターとして使用して、 ``errorCallback``を実行します。このときに使用するエラーコードは、``GlobalizationError.FORMATTING\\_ERROR`` となります。"
+msgstr "日付のフォーマット時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.FORMATTING\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:78
 #: ../doc/reference/cordova_3.5/globalization/index.rst:216
@@ -8919,7 +8920,7 @@ msgid ""
 "``Array`` of ``String`` values. The array features names starting from "
 "either the first month in the year or the first day of the week, depending "
 "on the option selected."
-msgstr "``properties`` オブジェクトをパラメーターとして使用して、曜日または月の名を入れた配列を``successCallback`` に渡します。 ``配列`` ( ``文字列`` の値が入る )を使用している ``value``プロパティーを、オブジェクトは格納しています。また、この配列には、その年の最初の月名、または、週の最初の曜日名が入っています。どちらかが入るかは、オプション設定に依ります。"
+msgstr "``properties`` オブジェクトをパラメーターとして使用して、曜日または月の名を入れた配列を ``successCallback`` に渡します。 ``配列`` ( ``文字列`` の値が入る )を使用している ``value`` プロパティーを、オブジェクトは格納しています。また、この配列には、その年の最初の月名、または、週の最初の曜日名が入っています。どちらかが入るかは、オプション設定に依ります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:212
 msgid ""
@@ -8970,7 +8971,7 @@ msgid ""
 "**pattern**: The date and time pattern to format and parse dates. The "
 "patterns follow `Unicode Technical Standard #35 "
 "<http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*"
-msgstr "**pattern**:日付のパース処理とフォーマット処理を行うときに使用する、日時に関するパターン  ( pattern )。パターンは、 `Unicode Technical Standard#35 <http://unicode.org/reports/tr35/tr35-4.html>`__に準拠しています。 *(String)*"
+msgstr "**pattern**: 日付のパース処理とフォーマット処理を行うときに使用する、日時に関するパターン  ( pattern )。パターンは、 `Unicode Technical Standard#35 <http://unicode.org/reports/tr35/tr35-4.html>`__ に準拠しています。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:271
 #: ../doc/reference/cordova_4.1/globalization/index.rst:411
@@ -8978,7 +8979,7 @@ msgstr "**pattern**:日付のパース処理とフォーマット処理を行う
 msgid ""
 "**timezone**: The abbreviated name of the time zone on the client. "
 "*(String)*"
-msgstr " **timezone**: クライアントのタイムゾーンの略称 *(String)*"
+msgstr "**timezone**: クライアントのタイムゾーンの略称 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:274
 #: ../doc/reference/cordova_4.1/globalization/index.rst:414
@@ -8986,7 +8987,7 @@ msgstr " **timezone**: クライアントのタイムゾーンの略称 *(String
 msgid ""
 "**utc\\_offset**: The current difference in seconds between the client's "
 "time zone and coordinated universal time. *(Number)*"
-msgstr "**utc\\_offset**: クライアントのタイムゾーンと協定世界時 ( UTC )\n   間の時差 ( 秒単位 ) *(Number)*"
+msgstr "**utc\\_offset**: クライアントのタイムゾーンと協定世界時 ( UTC ) 間の時差 ( 秒単位 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:277
 #: ../doc/reference/cordova_4.1/globalization/index.rst:417
@@ -8995,7 +8996,7 @@ msgid ""
 "**dst\\_offset**: The current daylight saving time offset in seconds between"
 " the client's non-daylight saving's time zone and the client's daylight "
 "saving's time zone. *(Number)*"
-msgstr "**dst\\_offset**: 夏時間 ( DST )\n   を適用および不適用している、クライアントのタイムゾーン間の時差 (\n   秒単位 ) *(Number)*"
+msgstr "**dst\\_offset**: 夏時間 ( DST ) を適用および不適用している、クライアントのタイムゾーン間の時差 ( 秒単位 ) *(Number)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:281
 msgid ""
@@ -9051,7 +9052,7 @@ msgid ""
 "Sunday. Returns the day to the ``successCallback`` with a ``properties`` "
 "object as a parameter. That object should have a ``value`` property with a "
 "``Number`` value."
-msgstr "週の曜日には、1 から始まる番号が割り当てられます。1は、日曜日を指します。 ``properties``オブジェクトをパラメーターとして使用して、 ``successCallback``に曜日を渡します。このオブジェクトは、 ``曜日番号`` の値を設定した``value`` プロパティーを格納しています。"
+msgstr "週の曜日には、1 から始まる番号が割り当てられます。1は、日曜日を指します。 ``properties`` オブジェクトをパラメーターとして使用して、 ``successCallback`` に曜日を渡します。このオブジェクトは、 ``曜日番号`` の値を設定した ``value`` プロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:336
 msgid ""
@@ -9140,7 +9141,7 @@ msgstr "クライアントが行った設定に基づき、数値のパース処
 msgid ""
 "Returns the pattern to the ``successCallback`` with a ``properties`` object "
 "as a parameter. That object contains the following properties:"
-msgstr "``successCallback`` に パターン ( pattern )を渡します。そのときにパラメータとして使用する ``properties``オブジェクトは、以下のプロパティーを格納しています。"
+msgstr "``successCallback`` に パターン ( pattern )を渡します。そのときにパラメータとして使用する ``properties`` オブジェクトは、以下のプロパティーを格納しています。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:414
 #: ../doc/reference/cordova_4.1/globalization/index.rst:517
@@ -9149,7 +9150,7 @@ msgid ""
 "**pattern**: The number pattern to format and parse numbers. The patterns "
 "follow `Unicode Technical Standard #35 "
 "<http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*"
-msgstr " **pattern**:数値のパース処理とフォーマット処理を行うときに使用する、数値に関するパターン   ( pattern )。パターンは、 `Unicode Technical Standard   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__   に準拠しています。 *(String)*"
+msgstr "**pattern**:数値のパース処理とフォーマット処理を行うときに使用する、数値に関するパターン ( pattern )。パターンは、 `Unicode Technical Standard #35 <http://unicode.org/reports/tr35/tr35-4.html>`__ に準拠しています。 *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:418
 #: ../doc/reference/cordova_4.1/globalization/index.rst:521
@@ -9157,7 +9158,7 @@ msgstr " **pattern**:数値のパース処理とフォーマット処理を行�
 msgid ""
 "**symbol**: The symbol to use when formatting and parsing, such as a percent"
 " or currency symbol. *(String)*"
-msgstr "**symbol**: パース処理とフォーマット処理を行うときに使用する、記号 (\n   例 : 通貨記号またはパーセント表示 ) *(String)*"
+msgstr "**symbol**: パース処理とフォーマット処理を行うときに使用する、記号 ( 例 : 通貨記号またはパーセント表示 ) *(String)*"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:421
 #: ../doc/reference/cordova_4.1/globalization/index.rst:524
@@ -12867,7 +12868,7 @@ msgstr "このプラグインの詳細は、`こちらの原文 ( GitHub ) <http
 msgid ""
 "navigator.notification.vibrate - Amazon Fire OS - Android - BlackBerry 10 - "
 "Firefox OS - iOS - Windows Phone 7 and 8"
-msgstr "navigator.notification.vibrate が使用できるプラットフォーム \n- Amazon Fire OS \n- Android \n- BlackBerry 10 \n- Firefox OS \n- iOS \n- Windows Phone 7 and 8"
+msgstr "navigator.notification.vibrate が使用できるプラットフォーム \n- Amazon Fire OS \n- Android \n- BlackBerry 10 \n- Firefox OS \n- iOS \n- Windows Phone 7 と 8"
 
 #: ../doc/reference/cordova_4.1/vibration/index.rst:60
 msgid ""
@@ -14589,7 +14590,7 @@ msgstr "Windows Phone 7 と 8\\*"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:85
 msgid "\\*\\* *Do not support ``onprogress``*"
-msgstr "\\*\\* *の付いたプラットフォームでは、``onprogress`` は使用できません。* "
+msgstr "\\*\\* *の付いたプラットフォームでは、「 onprogress 」 は使用できません。* "
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:92
 msgid ""
@@ -14762,7 +14763,7 @@ msgid ""
 "The plugin does not follow `\"File System API 8.3 Naming restrictions\" "
 "<http://www.w3.org/TR/2011/WD-file-system-api-20110419/#naming-"
 "restrictions>`__."
-msgstr "このプラグインは、`\"File System API の 「 8.3 Naming restrictions ( 命名規則 ) 」 \" <http://www.w3.org/TR/2011/WD-file-system-api-20110419/#naming-restrictions>`__ には準拠していません。"
+msgstr "このプラグインは、`File System API の 「 8.3 Naming restrictions ( 命名規則 ) 」 <http://www.w3.org/TR/2011/WD-file-system-api-20110419/#naming-restrictions>`__ には準拠していません。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:309
 msgid "Blob and File' ``close`` function is not supported."
@@ -14806,14 +14807,14 @@ msgid ""
 "stream;base64,YWJjZGVmZw==``, IE returns ``data:;base64,YWJjZGVmZw==``, "
 "Chrome returns ``data:<mediatype depending on extension of entry "
 "name>;base64,YWJjZGVmZw==``."
-msgstr "``readAsDataURL`` 関数は使用できます。ただし、Chrome で使用されるメディアタイプ ( mediatype ) は、エントリー ( entry )名に付けられている拡張子に影響されます。また、IE のメディアタイプは、常に空白です ( 仕様によれば、``text-plain`` に相当 )。Firefox のメディアタイプは、常に ``application/octet-stream`` です。たとえば、コンテンツが ``abcdefg`` の場合、Firefox であれば ``data:application/octet-stream;base64,YWJjZGVmZw==``、IE であれば ``data:;base64,YWJjZGVmZw==``、Chrome であれば ``data:<mediatype は entry 名に付けられている拡張子に影響される>;base64,YWJjZGVmZw==`` を返します。"
+msgstr "``readAsDataURL`` 関数は使用できます。ただし、Chrome で使用されるメディアタイプ ( mediatype ) は、エントリー ( entry )名に付けられている拡張子に影響されます。また、IE のメディアタイプは、常に空白です ( 仕様によれば、``text-plain`` に相当 )。Firefox のメディアタイプは、常に 「 ``application/octet-stream`` 」 です。たとえば、コンテンツが ``abcdefg`` の場合、Firefox であれば 「 ``data:application/octet-stream;base64,YWJjZGVmZw==`` 」、IE であれば 「 ``data:;base64,YWJjZGVmZw==`` 」、Chrome であれば 「 ``data:<mediatype は entry 名に付けられている拡張子に影響される>;base64,YWJjZGVmZw==`` 」 を返します。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:327
 msgid ""
 "``toInternalURL`` returns the path in the form "
 "``file:///persistent/path/to/entry`` (Firefox, IE). Chrome returns the path "
 "in the form ``cdvfile://localhost/persistent/file``."
-msgstr "``toInternalURL`` は、``file:///persistent/path/to/entry`` 形式のパスを返します ( Firefox、IE )。Chrome の場合、``cdvfile://localhost/persistent/file`` 形式のパスを返します。"
+msgstr "``toInternalURL`` は、「 ``file:///persistent/path/to/entry`` 」 形式のパスを返します ( Firefox、IE )。Chrome の場合、「 ``cdvfile://localhost/persistent/file`` 」 形式のパスを返します。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:332
 msgid "Chrome quirks"
@@ -15035,7 +15036,7 @@ msgid ""
 "`File System Layouts <#file-system-layouts>`__ and `Configuring the Plugin "
 "<#configuring-the-plugin-optional>`__ for more details about available fs "
 "roots."
-msgstr "\\_\\_\\*注意\\_\\_: 使用できるファイルシステムのルートに関しては、「 `ファイルの保存場所 <#where-to-store-files>`__ 」、「 \n`File System Layouts ( 外部サイト ) <https://www.npmjs.com/package/cordova-plugin-file#file-system-layouts>`__ 」、「 `プラグインの設定 <https://www.npmjs.com/package/cordova-plugin-file#configuring-the-plugin-optional>`__ 」 をご確認ください。"
+msgstr "**注意** : 使用できるファイルシステムのルートに関しては、「 `ファイルの保存場所 <#where-to-store-files>`__ 」、「 \n`File System Layouts ( 外部サイト ) <https://www.npmjs.com/package/cordova-plugin-file#file-system-layouts>`__ 」、「 `プラグインの設定 <https://www.npmjs.com/package/cordova-plugin-file#configuring-the-plugin-optional>`__ 」 をご確認ください。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:490
 msgid ""
@@ -15070,7 +15071,7 @@ msgstr "**ネイティブパス ( native path ) から cdvfile:// への変換**
 
 #: ../doc/reference/cordova_5.2/file/index.rst:522
 msgid "**Using cdvfile in core plugins**"
-msgstr "** 基本 Cordova プラグイン ( Cordova コアプラグイン ) で cdvfile を使用する場合**"
+msgstr "**基本 Cordova プラグイン ( Cordova コアプラグイン ) で cdvfile を使用する場合**"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:534
 msgid "cdvfile quirks"
@@ -15142,7 +15143,7 @@ msgid ""
 "only with 4 digits, not 2 digits. This means that it is not completely "
 "aligned with `ICU <http://demo.icu-project.org/icu-"
 "bin/locexp?d_=en_US&_=en_US>`__."
-msgstr "``formatLength``　オプションは、Unicode の `UTS #35 <http://unicode.org/reports/tr35/tr35-4.html>`__ のサブセットです。デフォルトの ``short`` は、``設定 -> システム -> 日付と時刻 -> 日付設定`` で、ユーザーが選択している日付の形式に影響を受けます。また、このデフォルト設定では、``年`` は、2 桁ではなく、4 桁で表示されます。よって、`ICU <http://demo.icu-project.org/icu-bin/locexp?d_=en_US&_=en_US>`__ の仕様とは、若干異なります。"
+msgstr "``formatLength`` オプションは、Unicode の `UTS #35 <http://unicode.org/reports/tr35/tr35-4.html>`__ のサブセットです。デフォルトの ``short`` は、``設定 -> システム -> 日付と時刻 -> 日付設定`` で、ユーザーが選択している日付の形式に影響を受けます。また、このデフォルト設定では、``年`` は、2 桁ではなく、4 桁で表示されます。よって、`ICU <http://demo.icu-project.org/icu-bin/locexp?d_=en_US&_=en_US>`__ の仕様とは、若干異なります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:330
 #: ../doc/reference/cordova_5.2/globalization/index.rst:342
