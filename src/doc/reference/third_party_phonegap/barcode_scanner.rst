@@ -22,7 +22,7 @@ Enable Plugin in Monaca
 BarcodeScanner Demo
 ===========================
 
-.. literalinclude:: @barcode_scanner/index.html
+.. literalinclude:: barcode_scanner/en/index.html
    :language: html
 
   

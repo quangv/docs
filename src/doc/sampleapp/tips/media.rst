@@ -78,13 +78,13 @@ Using PhoneGap Media API to Play Sound
 This API can be used to play sound located locally. It is compatible with both iOS and Android devices. Following sample code loads and plays :file:`sample.mp3` file located in a Monaca project. 
 
 
-.. image:: @images/media-img.png
+.. image:: images/en/media-img.png
    :alt: sample.mp3
 
 
 *index.html*
 
-.. literalinclude:: @download/media/index.html
+.. literalinclude:: download/media/en/index.html
    :language: html
 
 
@@ -97,7 +97,7 @@ This sample modifies `Fortune Teller App <http://docs.monaca.mobi/sampleapp/samp
 
 
 
-.. image:: @images/omikuji-media.png
+.. image:: images/en/omikuji-media.png
    :alt: location of mp3 file for Omikuji
 
 You can download the complete source code here. 
@@ -107,7 +107,7 @@ You can download the complete source code here.
 
 *index.html*
 
-.. literalinclude:: @download/media/index1.html
+.. literalinclude:: download/media/en/index1.html
    :language: html
 
 

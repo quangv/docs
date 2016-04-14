@@ -4,7 +4,7 @@ Using Location (GPS)
 .. rst-class:: right-menu
 
 
-.. literalinclude:: @download/gps/index.html
+.. literalinclude:: download/gps/en/index.html
    :language: html
 
 

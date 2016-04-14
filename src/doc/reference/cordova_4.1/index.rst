@@ -11,7 +11,6 @@ Cordova Core Plugins
   camera/index
   contacts/index
   device/index
-  accelerometor/index
   compass/index
   dialogs/index
   file/index

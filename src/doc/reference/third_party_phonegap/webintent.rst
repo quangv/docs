@@ -60,7 +60,7 @@ WebIntent Plugin Demo
 
 Using ``"url"`` attribute of the ``"startActivity"`` function, an app can specify the target app to be launched. Here are some examples:
 
-.. literalinclude:: @webintent/index.html
+.. literalinclude:: webintent/en/index.html
    :language: javascript
 
 
