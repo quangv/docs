@@ -19,8 +19,6 @@
        under the License.
    -->
 
-.. _status_bar_plugin:
-
 Statusbar Plugin
 ================================================
 

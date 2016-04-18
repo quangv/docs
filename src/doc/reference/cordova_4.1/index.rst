@@ -1,4 +1,4 @@
-.. _cordova_core_plugins:
+:orphan:
 
 ===========================
 Cordova Core Plugins

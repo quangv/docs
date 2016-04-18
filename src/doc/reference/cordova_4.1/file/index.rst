@@ -218,17 +218,11 @@ Android File System Layout
   |       ``files``                 | externalDataDirectory                 | files-external                | r/w    | Yes           | No          | No        |
   +---------------------------------+---------------------------------------+-------------------------------+--------+---------------+-------------+-----------+
 
-\* The OS may periodically clear this directory, but do not rely on this
-behavior. Clear the contents of this directory as appropriate for your
-application. Should a user purge the cache manually, the contents of
-this directory are removed.
+\* The OS may periodically clear this directory, but do not rely on this behavior. Clear the contents of this directory as appropriate for your application. Should a user purge the cache manually, the contents of this directory are removed.
 
-\*\* The OS does not clear this directory automatically; you are
-responsible for managing the contents yourself. Should the user purge
-the cache manually, the contents of the directory are removed.
+\* The OS does not clear this directory automatically; you are responsible for managing the contents yourself. Should the user purge the cache manually, the contents of the directory are removed.
 
-**Note**: If external storage can't be mounted, the
-``cordova.file.external*`` properties are ``null``.
+**Note**: If external storage can't be mounted, the ``cordova.file.external*`` properties are ``null``.
 
 BlackBerry 10 File System Layout
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

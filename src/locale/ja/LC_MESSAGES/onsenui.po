@@ -17,15 +17,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../doc/onsenui/index.rst:2
+#: ..\doc\onsenui\index.rst:2
 msgid "Onsen UI"
 msgstr "Onsen UI"
 
-#: ../doc/onsenui/index.rst:12
+#: ..\doc\onsenui\index.rst:12
 msgid "HTML5 Framework for Building Mobile App Front End"
 msgstr "携帯端末用アプリのフロントエンドを構築するための HTML5 フレームワークです。"
 
-#: ../doc/onsenui/index.rst:17
+#: ..\doc\onsenui\index.rst:17
 msgid ""
 "**Onsen UI** is a front-end development tool that radically improves "
 "PhoneGap/Cordova apps. Differing from previous frameworks, it is highly "
@@ -34,33 +34,33 @@ msgid ""
 "support, resulting in a publishable app."
 msgstr "**Onsen UI** はフロントエンド開発用のツールです。**Onsen UI** が提供する UI を使用すれば、PhoneGap / Cordova アプリを飛躍的に改善できます。他のフレームワークよりも洗練された柔軟性を持ち、ハイブリッドアプリにおいても、ネイティブ並みの外観と操作性を、すべてのプラットフォーム上で実現できます。Monaca と共に使用すれば、バックエンド機能の追加と各種端末のサポートを容易に行え、公開可能なアプリを簡単に作成できます。"
 
-#: ../doc/onsenui/index.rst:22
+#: ..\doc\onsenui\index.rst:22
 msgid ""
 "For more information on **Onsen UI**, please go to `Onsen UI home page "
 "<http://onsenui.io>`_."
 msgstr "**Onsen UI** の詳細に関しては `Onsen UI ホームページ <http://ja.onsenui.io>`_ をご確認ください。"
 
-#: ../doc/onsenui/index.rst:25
+#: ..\doc\onsenui\index.rst:25
 msgid "Starting a new Onsen UI project in Monaca"
 msgstr "Onsen UI を使用した、新規プロジェクトの作成"
 
-#: ../doc/onsenui/index.rst:28
+#: ..\doc\onsenui\index.rst:28
 msgid "Go to Dashboard"
 msgstr "ダッシュボード画面の表示"
 
-#: ../doc/onsenui/index.rst:30
+#: ..\doc\onsenui\index.rst:30
 msgid "Go to Dashboard and click *New Project*"
 msgstr "ダッシュボード画面を表示して *開発をスタート* をクリックします。"
 
-#: ../doc/onsenui/index.rst:36
+#: ..\doc\onsenui\index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr "用途に合ったテンプレートを 1 つ選択"
 
-#: ../doc/onsenui/index.rst:42
+#: ..\doc\onsenui\index.rst:42
 msgid "Where to go from here"
 msgstr "テンプレート選択後の手順に関して"
 
-#: ../doc/onsenui/index.rst:44
+#: ..\doc\onsenui\index.rst:44
 msgid ""
 "Now you have Onsen UI installed. See examples in `Onsen UI Docs "
 "<http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI "

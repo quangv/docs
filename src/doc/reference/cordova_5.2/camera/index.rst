@@ -197,7 +197,7 @@ Callback function that provides an error message.
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 +-----------+----------+--------------------------------------------------------+
 | Param     | Type     | Description                                            |
@@ -294,7 +294,7 @@ Camera.DestinationType : enum
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~
@@ -317,7 +317,7 @@ Camera.EncodingType : enum
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~
@@ -339,7 +339,7 @@ Camera.MediaType : enum
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~
@@ -362,7 +362,7 @@ Camera.PictureSourceType : enum
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~
@@ -387,7 +387,7 @@ Matches iOS UIPopoverArrowDirection constants to specify arrow location on popov
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~
@@ -414,7 +414,7 @@ Camera.Direction : enum
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 Property
 ~~~~~~~~~~~~~~~~~~~

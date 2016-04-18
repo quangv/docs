@@ -497,11 +497,15 @@ You can also use ``cdvfile://`` paths directly in the DOM, for example:
 
     <img src="cdvfile://localhost/persistent/img/logo.png" />
 
+
 **Note**: This method requires following Content Security rules updates:
+
 \* Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of
 the index page, e.g.: -
 ``<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:``\ **cdvfile:**\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">``
+
 \* Add ``<access origin="cdvfile://*" />`` to ``config.xml``.
+
 
 **Converting cdvfile:// to native path**
 
