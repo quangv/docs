@@ -286,7 +286,7 @@ Options
 -  **saveToPhotoAlbum**: Save the image to the photo album on the device
    after capture. *(Boolean)*
 
--  \**popoverOptions\**: iOS-only options that specify popover location in
+-  **popoverOptions**: iOS-only options that specify popover location in
    iPad. Defined in ``CameraPopoverOptions``.
 
 -  **cameraDirection**: Choose the camera to use (front- or

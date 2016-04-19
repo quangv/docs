@@ -146,7 +146,9 @@ static method of :ref:`camera <api_reference>`
 
 Example
 ~~~~~~~~~~~~~~~~~~~
-camera.onSuccess : function
+
+camera.onSuccess: function
+
 .. code:: js
 
     navigator.camera.getPicture(cameraSuccess, cameraError, cameraOptions);
@@ -217,7 +219,7 @@ image data.
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`camera <api_reference>` 
+static typedef of :ref:`camera <api_reference>`
 
 +-------------+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | Param       | Type     | Description                                                                                                                                |

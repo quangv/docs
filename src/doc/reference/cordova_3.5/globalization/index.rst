@@ -202,7 +202,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en\*US`` locale, this example displays a series of twelve popup dialogs, one per month, with text similar to ``month: January``:
+When the browser is set to the ``en\_US`` locale, this example displays a series of twelve popup dialogs, one per month, with text similar to ``month: January``:
 
 .. code-block:: javascript
 
@@ -257,7 +257,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en\*US`` locale, this example displays a popup dialog with text such as ``pattern: M/d/yyyy h:mm a``:
+When the browser is set to the ``en\_US`` locale, this example displays a popup dialog with text such as ``pattern: M/d/yyyy h:mm a``:
 
 .. code-block:: javascript
 

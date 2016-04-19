@@ -73,7 +73,7 @@ Supported Platforms
 Android Quirks
 ~~~~~~~~~~~~~~
 
-\*Android 4.4 only\*: Android 4.4 introduced a new `Storage Access Framework <https://developer.android.com/guide/topics/providers/document-provider.html>`__ that makes it easier for users to browse and open documents across all of their preferred document storage providers. Cordova has not yet been fully integrated with this new Storage Access Framework. Because of this, the ``getPicture()`` method will not correctly return pictures when the user selects from the "Recent", "Drive", "Images", or "External Storage" folders when the ``destinationType`` is ``FILE_URI``. However, the user will be able to correctly select any pictures if they go through the "Gallery" app first. Potential workarounds for this issue are documented on `this StackOverflow question <http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`__. Please see `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ to track this issue.
+*Android 4.4 only*: Android 4.4 introduced a new `Storage Access Framework <https://developer.android.com/guide/topics/providers/document-provider.html>`__ that makes it easier for users to browse and open documents across all of their preferred document storage providers. Cordova has not yet been fully integrated with this new Storage Access Framework. Because of this, the ``getPicture()`` method will not correctly return pictures when the user selects from the "Recent", "Drive", "Images", or "External Storage" folders when the ``destinationType`` is ``FILE_URI``. However, the user will be able to correctly select any pictures if they go through the "Gallery" app first. Potential workarounds for this issue are documented on `this StackOverflow question <http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`__. Please see `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ to track this issue.
 
 Android uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the Cordova activity is restored.
 
@@ -196,9 +196,9 @@ Options
 
 -  **saveToPhotoAlbum**: Save the image to the photo album on the device after capture. *(Boolean)*
 
--  \**popoverOptions\**: iOS-only options that specify popover location in iPad. Defined in ``CameraPopoverOptions``.
+-  **popoverOptions**: iOS-only options that specify popover location in iPad. Defined in ``CameraPopoverOptions``.
 
--  **cameraDirection**: Choose the camera to use (front- or back-facing). Defined in ``navigator.camera.Direction`` *(Number)*
+-  **cameraDirection**: Choose the camera to use (front- or back-facing). Defined in ``navigator.camera.Direction``. *(Number)*
 
    .. code-block:: javascript
 

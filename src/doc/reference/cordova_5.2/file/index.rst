@@ -339,78 +339,38 @@ Chrome quirks
 
        window.addEventListener('filePluginIsReady', function(){ console.log('File plugin is ready');}, false);
 
-   You can use ``window.isFilePluginReadyRaised`` function to check
-   whether event was already raised.
--  window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas
-   are not limited in Chrome.
--  To increase persistent storage in Chrome you need to call
-   ``window.initPersistentFileSystem`` method. Persistent storage quota
-   is 5 MB by default.
--  Chrome requires ``--allow-file-access-from-files`` run argument to
-   support API via ``file:///`` protocol.
--  ``File`` object will be not changed if you use flag ``{create:true}``
-   when getting an existing ``Entry``.
--  events ``cancelable`` property is set to true in Chrome. This is
-   contrary to the
-   `specification <http://dev.w3.org/2009/dap/file-system/file-writer.html>`__.
--  ``toURL`` function in Chrome returns ``filesystem:``-prefixed path
-   depending on application host. For example,
-   ``filesystem:file:///persistent/somefile.txt``,
-   ``filesystem:http://localhost:8080/persistent/somefile.txt``.
--  ``toURL`` function result does not contain trailing slash in case of
-   directory entry. Chrome resolves directories with slash-trailed urls
-   correctly though.
--  ``resolveLocalFileSystemURL`` method requires the inbound ``url`` to
-   have ``filesystem`` prefix. For example, ``url`` parameter for
-   ``resolveLocalFileSystemURL`` should be in the form
-   ``filesystem:file:///persistent/somefile.txt`` as opposed to the form
-   ``file:///persistent/somefile.txt`` in Android.
--  Deprecated ``toNativeURL`` function is not supported and does not
-   have a stub.
--  ``setMetadata`` function is not stated in the specifications and not
-   supported.
--  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of
-   SYNTAX\_ERR(code: 8) on requesting of a non-existant filesystem.
--  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of
-   PATH\_EXISTS\_ERR(code: 12) on trying to exclusively create a file or
-   directory, which already exists.
--  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of
-   NO\_MODIFICATION\_ALLOWED\_ERR(code: 6) on trying to call
-   removeRecursively on the root file system.
--  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of
-   NOT\_FOUND\_ERR(code: 1) on trying to moveTo directory that does not
-   exist.
+
+You can use ``window.isFilePluginReadyRaised`` function to check whether event was already raised.
+-  window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas are not limited in Chrome.
+-  To increase persistent storage in Chrome you need to call ``window.initPersistentFileSystem`` method. Persistent storage quota is 5 MB by default.
+-  Chrome requires ``--allow-file-access-from-files`` run argument to support API via ``file:///`` protocol.
+-  ``File`` object will be not changed if you use flag ``{create:true}`` when getting an existing ``Entry``.
+-  events ``cancelable`` property is set to true in Chrome. This is contrary to the `specification <http://dev.w3.org/2009/dap/file-system/file-writer.html>`__.
+-  ``toURL`` function in Chrome returns ``filesystem:``-prefixed path depending on application host. For example, ``filesystem:file:///persistent/somefile.txt``, ``filesystem:http://localhost:8080/persistent/somefile.txt``.
+-  ``toURL`` function result does not contain trailing slash in case of directory entry. Chrome resolves directories with slash-trailed urls correctly though.
+-  ``resolveLocalFileSystemURL`` method requires the inbound ``url`` to have ``filesystem`` prefix. For example, ``url`` parameter for ``resolveLocalFileSystemURL`` should be in the form ``filesystem:file:///persistent/somefile.txt`` as opposed to the form ``file:///persistent/somefile.txt`` in Android.
+-  Deprecated ``toNativeURL`` function is not supported and does not have a stub.
+-  ``setMetadata`` function is not stated in the specifications and not supported.
+-  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of SYNTAX\_ERR(code: 8) on requesting of a non-existant filesystem.
+-  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of PATH\_EXISTS\_ERR(code: 12) on trying to exclusively create a file or directory, which already exists.
+-  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of NO\_MODIFICATION\_ALLOWED\_ERR(code: 6) on trying to call removeRecursively on the root file system.
+-  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of NOT\_FOUND\_ERR(code: 1) on trying to moveTo directory that does not exist.
 
 IndexedDB-based impl quirks (Firefox and IE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  ``.`` and ``..`` are not supported.
--  IE does not support ``file:///``-mode; only hosted mode is supported
-   (http://localhost:xxxx).
--  Firefox filesystem size is not limited but each 50MB extension will
-   request a user permission. IE10 allows up to 10mb of combined
-   AppCache and IndexedDB used in implementation of filesystem without
-   prompting, once you hit that level you will be asked if you want to
-   allow it to be increased up to a max of 250mb per site. So ``size``
-   parameter for ``requestFileSystem`` function does not affect
-   filesystem in Firefox and IE.
--  ``readAsBinaryString`` function is not stated in the Specs and not
-   supported in IE and does not have a stub.
+-  IE does not support ``file:///``-mode; only hosted mode is supported (http://localhost:xxxx).
+-  Firefox filesystem size is not limited but each 50MB extension will request a user permission. IE10 allows up to 10mb of combined AppCache and IndexedDB used in implementation of filesystem without prompting, once you hit that level you will be asked if you want to allow it to be increased up to a max of 250mb per site. So ``size`` parameter for ``requestFileSystem`` function does not affect filesystem in Firefox and IE.
+-  ``readAsBinaryString`` function is not stated in the Specs and not supported in IE and does not have a stub.
 -  ``file.type`` is always null.
--  You should not create entry using DirectoryEntry instance callback
-   result which was deleted. Otherwise, you will get a 'hanging entry'.
--  Before you can read a file, which was just written you need to get a
-   new instance of this file.
--  ``setMetadata`` function, which is not stated in the Specs supports
-   ``modificationTime`` field change only.
--  ``copyTo`` and ``moveTo`` functions do not support directories.
--  Directories metadata is not supported.
--  Both Entry.remove and directoryEntry.removeRecursively don't fail
-   when removing non-empty directories - directories being removed are
-   cleaned along with contents instead.
+-  You should not create entry using DirectoryEntry instance callback result which was deleted. Otherwise, you will get a 'hanging entry'.
+-  Before you can read a file, which was just written you need to get a new instance of this file.
+-  ``setMetadata`` function, which is not stated in the Specs supports ``modificationTime`` field change only.
+-  ``copyTo`` and ``moveTo`` functions do not support directories. Directories metadata is not supported.
+-  Both Entry.remove and directoryEntry.removeRecursively don't fail when removing non-empty directories - directories being removed are cleaned along with contents instead.
 -  ``abort`` and ``truncate`` functions are not supported.
--  progress events are not fired. For example, this handler will be not
-   executed:
+-  progress events are not fired. For example, this handler will be not executed:
 
    .. code:: javascript
 
@@ -419,51 +379,30 @@ IndexedDB-based impl quirks (Firefox and IE)
 Upgrading Notes
 ---------------
 
-In v1.0.0 of this plugin, the ``FileEntry`` and ``DirectoryEntry``
-structures have changed, to be more in line with the published
-specification.
+In v1.0.0 of this plugin, the ``FileEntry`` and ``DirectoryEntry`` structures have changed, to be more in line with the published specification.
 
-Previous (pre-1.0.0) versions of the plugin stored the
-device-absolute-file-location in the ``fullPath`` property of ``Entry``
-objects. These paths would typically look like
+Previous (pre-1.0.0) versions of the plugin stored the device-absolute-file-location in the ``fullPath`` property of ``Entry`` objects. These paths would typically look like
 
 ::
 
     /var/mobile/Applications/<application UUID>/Documents/path/to/file  (iOS)
     /storage/emulated/0/path/to/file                                    (Android)
 
-These paths were also returned by the ``toURL()`` method of the
-``Entry`` objects.
+These paths were also returned by the ``toURL()`` method of the ``Entry`` objects.
 
-With v1.0.0, the ``fullPath`` attribute is the path to the file,
-*relative to the root of the HTML filesystem*. So, the above paths would
-now both be represented by a ``FileEntry`` object with a ``fullPath`` of
+With v1.0.0, the ``fullPath`` attribute is the path to the file, *relative to the root of the HTML filesystem*. So, the above paths would now both be represented by a ``FileEntry`` object with a ``fullPath`` of
 
 ::
 
     /path/to/file
 
-If your application works with device-absolute-paths, and you previously
-retrieved those paths through the ``fullPath`` property of ``Entry``
-objects, then you should update your code to use ``entry.toURL()``
-instead.
+If your application works with device-absolute-paths, and you previously retrieved those paths through the ``fullPath`` property of ``Entry`` objects, then you should update your code to use ``entry.toURL()`` instead.
 
-For backwards compatibility, the ``resolveLocalFileSystemURL()`` method
-will accept a device-absolute-path, and will return an ``Entry`` object
-corresponding to it, as long as that file exists within either the
-``TEMPORARY`` or ``PERSISTENT`` filesystems.
+For backwards compatibility, the ``resolveLocalFileSystemURL()`` method will accept a device-absolute-path, and will return an ``Entry`` object corresponding to it, as long as that file exists within either the ``TEMPORARY`` or ``PERSISTENT`` filesystems.
 
-This has particularly been an issue with the File-Transfer plugin, which
-previously used device-absolute-paths (and can still accept them). It
-has been updated to work correctly with FileSystem URLs, so replacing
-``entry.fullPath`` with ``entry.toURL()`` should resolve any issues
-getting that plugin to work with files on the device.
+This has particularly been an issue with the File-Transfer plugin, which previously used device-absolute-paths (and can still accept them). It has been updated to work correctly with FileSystem URLs, so replacing ``entry.fullPath`` with ``entry.toURL()`` should resolve any issues getting that plugin to work with files on the device.
 
-In v1.1.0 the return value of ``toURL()`` was changed (see
-`CB-6394 <https://issues.apache.org/jira/browse/CB-6394>`__) to return
-an absolute 'file://' URL. wherever possible. To ensure a 'cdvfile:'-URL
-you can use ``toInternalURL()`` now. This method will now return
-filesystem URLs of the form
+In v1.1.0 the return value of ``toURL()`` was changed (see `CB-6394 <https://issues.apache.org/jira/browse/CB-6394>`__) to return an absolute 'file://' URL. wherever possible. To ensure a 'cdvfile:'-URL you can use ``toInternalURL()`` now. This method will now return filesystem URLs of the form
 
 ::
 
@@ -476,20 +415,11 @@ cdvfile protocol
 
 **Purpose**
 
-``cdvfile://localhost/persistent|temporary|another-fs-root*/path/to/file``
-can be used for platform-independent file paths. cdvfile paths are
-supported by core plugins - for example you can download an mp3 file to
-cdvfile-path via ``cordova-plugin-file-transfer`` and play it via
-``cordova-plugin-media``.
+``cdvfile://localhost/persistent|temporary|another-fs-root*/path/to/file`` can be used for platform-independent file paths. cdvfile paths are supported by core plugins - for example you can download an mp3 file to cdvfile-path via ``cordova-plugin-file-transfer`` and play it via ``cordova-plugin-media``.
 
-\_\_\*Note\_\_: See `Where to Store Files <#where-to-store-files>`__,
-`File System Layouts <#file-system-layouts>`__ and `Configuring the
-Plugin <#configuring-the-plugin-optional>`__ for more details about
-available fs roots.
+\_\_\*Note\_\_: See `Where to Store Files <#where-to-store-files>`__, `File System Layouts <#file-system-layouts>`__ and `Configuring the Plugin <#configuring-the-plugin-optional>`__ for more details about available fs roots.
 
-To use ``cdvfile`` as a tag' ``src`` you can convert it to native path
-via ``toURL()`` method of the resolved fileEntry, which you can get via
-``resolveLocalFileSystemURL`` - see examples below.
+To use ``cdvfile`` as a tag' ``src`` you can convert it to native path via ``toURL()`` method of the resolved fileEntry, which you can get via ``resolveLocalFileSystemURL`` - see examples below.
 
 You can also use ``cdvfile://`` paths directly in the DOM, for example:
 
@@ -500,8 +430,7 @@ You can also use ``cdvfile://`` paths directly in the DOM, for example:
 
 **Note**: This method requires following Content Security rules updates:
 
-\* Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of
-the index page, e.g.: -
+\* Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of the index page, e.g.: -
 ``<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:``\ **cdvfile:**\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">``
 
 \* Add ``<access origin="cdvfile://*" />`` to ``config.xml``.
@@ -531,14 +460,12 @@ the index page, e.g.: -
 
 .. code:: javascript
 
-    var my_media = new Media('cdvfile://localhost/temporary/path/to/file.mp3', ...);
-    my_media.play();
+    var my_media = new Media('cdvfile://localhost/temporary/path/to/file.mp3', ...); my_media.play();
 
 cdvfile quirks
 ~~~~~~~~~~~~~~~~~~~~~
 
--  Using ``cdvfile://`` paths in the DOM is not supported on Windows
-   platform (a path can be converted to native instead).
+-  Using ``cdvfile://`` paths in the DOM is not supported on Windows platform (a path can be converted to native instead).
 
 List of Error Codes and Meanings
 --------------------------------
@@ -576,10 +503,7 @@ When an error is thrown, one of the following codes will be used.
 Configuring the Plugin (Optional)
 ---------------------------------
 
-The set of available filesystems can be configured per-platform. Both
-iOS and Android recognize a tag in ``config.xml`` which names the
-filesystems to be installed. By default, all file-system roots are
-enabled.
+The set of available filesystems can be configured per-platform. Both iOS and Android recognize a tag in ``config.xml`` which names the filesystems to be installed. By default, all file-system roots are enabled.
 
 ::
 
@@ -591,15 +515,12 @@ Android
 
 -  ``files``: The application's internal file storage directory
 -  ``files-external``: The application's external file storage directory
--  ``sdcard``: The global external file storage directory (this is the
-   root of the SD card, if one is installed). You must have the
-   ``android.permission.WRITE_EXTERNAL_STORAGE`` permission to use this.
+-  ``sdcard``: The global external file storage directory (this is the root of the SD card, if one is installed). You must have the ``android.permission.WRITE_EXTERNAL_STORAGE`` permission to use this.
 -  ``cache``: The application's internal cache directory
 -  ``cache-external``: The application's external cache directory
 -  ``root``: The entire device filesystem
 
-Android also supports a special filesystem named "documents", which
-represents a "/Documents/" subdirectory within the "files" filesystem.
+Android also supports a special filesystem named "documents", which represents a "/Documents/" subdirectory within the "files" filesystem.
 
 iOS
 ~~~
@@ -607,16 +528,10 @@ iOS
 -  ``library``: The application's Library directory
 -  ``documents``: The application's Documents directory
 -  ``cache``: The application's Cache directory
--  ``bundle``: The application's bundle; the location of the app itself
-   on disk (read-only)
+-  ``bundle``: The application's bundle; the location of the app itself on disk (read-only)
 -  ``root``: The entire device filesystem
 
-By default, the library and documents directories can be synced to
-iCloud. You can also request two additional filesystems,
-``library-nosync`` and ``documents-nosync``, which represent a special
-non-synced directory within the ``/Library`` or ``/Documents``
-filesystem.
-
+By default, the library and documents directories can be synced to iCloud. You can also request two additional filesystems, ``library-nosync`` and ``documents-nosync``, which represent a special non-synced directory within the ``/Library`` or ``/Documents`` filesystem.
 
 
 .. seealso::
