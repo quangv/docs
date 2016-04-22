@@ -38,21 +38,11 @@ Globalization Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-globalization>`_.
 
-This plugin obtains information and performs operations specific to the
-user's locale, language, and timezone. Note the difference between
-locale and language: locale controls how numbers, dates, and times are
-displayed for a region, while language determines what language text
-appears as, independently of locale settings. Often developers use
-locale to set both settings, but there is no reason a user couldn't set
-her language to "English" but locale to "French", so that text is
-displayed in English but dates, times, etc., are displayed as they are
-in France. Unfortunately, most mobile platforms currently do not make a
-distinction between these settings.
+This plugin obtains information and performs operations specific to the user's locale, language, and timezone. Note the difference between locale and language: locale controls how numbers, dates, and times are displayed for a region, while language determines what language text appears as, independently of locale settings. Often developers use locale to set both settings, but there is no reason a user couldn't set her language to "English" but locale to "French", so that text is displayed in English but dates, times, etc., are displayed as they are in France. Unfortunately, most mobile platforms currently do not make a distinction between these settings.
 
 This plugin defines global ``navigator.globalization`` object.
 
-Although in the global scope, it is not available until after the
-``deviceready`` event.
+Although in the global scope, it is not available until after the ``deviceready`` event.
 
 ::
 
@@ -110,13 +100,9 @@ Get the BCP 47 language tag for the client's current language.
 Description
 ~~~~~~~~~~~
 
-Returns the BCP-47 compliant language identifier tag to the
-``successCallback`` with a ``properties`` object as a parameter. That
-object should have a ``value`` property with a ``String`` value.
+Returns the BCP-47 compliant language identifier tag to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``value`` property with a ``String`` value.
 
-If there is an error getting the language, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
+If there is an error getting the language, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -134,8 +120,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en-US`` language, this should display a
-popup dialog with the text ``language: en-US``:
+When the browser is set to the ``en-US`` language, this should display a popup dialog with the text ``language: en-US``:
 
 ::
 
@@ -147,26 +132,18 @@ popup dialog with the text ``language: en-US``:
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  Returns the ISO 639-1 two-letter language code, upper case ISO 3166-1
-   country code and variant separated by hyphens. Examples: "en",
-   "en-US", "US"
+-  Returns the ISO 639-1 two-letter language code, upper case ISO 3166-1 country code and variant separated by hyphens. Examples: "en", "en-US", "US"
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country
-   code of the regional variant corresponding to the "Language" setting,
-   separated by a hyphen.
--  Note that the regional variant is a property of the "Language"
-   setting and not determined by the unrelated "Country/Region" setting
-   on Windows Phone.
+-  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country code of the regional variant corresponding to the "Language" setting, separated by a hyphen.
+-  Note that the regional variant is a property of the "Language" setting and not determined by the unrelated "Country/Region" setting on Windows Phone.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country
-   code of the regional variant corresponding to the "Language" setting,
-   separated by a hyphen.
+-  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country code of the regional variant corresponding to the "Language" setting, separated by a hyphen.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
@@ -186,16 +163,9 @@ setting.
 Description
 ~~~~~~~~~~~
 
-Returns the BCP 47 compliant locale identifier string to the
-``successCallback`` with a ``properties`` object as a parameter. That
-object should have a ``value`` property with a ``String`` value. The
-locale tag will consist of a two-letter lower case language code,
-two-letter upper case country code, and (unspecified) variant code,
-separated by a hyphen.
+Returns the BCP 47 compliant locale identifier string to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``value`` property with a ``String`` value. The locale tag will consist of a two-letter lower case language code, two-letter upper case country code, and (unspecified) variant code, separated by a hyphen.
 
-If there is an error getting the locale, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
+If there is an error getting the locale, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -213,8 +183,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en-US`` locale, this displays a popup
-dialog with the text ``locale: en-US``.
+When the browser is set to the ``en-US`` locale, this displays a popup dialog with the text ``locale: en-US``.
 
 ::
 
@@ -226,29 +195,22 @@ dialog with the text ``locale: en-US``.
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  Java does not distinguish between a set "langauge" and set "locale,"
-   so this method is essentially the same as
-   ``navigator.globalization.getPreferredLanguage()``.
+-  Java does not distinguish between a set "langauge" and set "locale," so this method is essentially the same as ``navigator.globalization.getPreferredLanguage()``.
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country
-   code of the regional variant corresponding to the "Regional Format"
-   setting, separated by a hyphen.
+-  Returns the ISO 639-1 two-letter language code and ISO 3166-1 country code of the regional variant corresponding to the "Regional Format" setting, separated by a hyphen.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  Locale setting can be changed in Control Panel -> Clock, Language and
-   Region -> Region -> Formats -> Format, and in Settings -> Region ->
-   Regional Format on Windows Phone 8.1.
+-  Locale setting can be changed in Control Panel -> Clock, Language and Region -> Region -> Formats -> Format, and in Settings -> Region -> Regional Format on Windows Phone 8.1.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  IE returns the locale of operating system. Chrome and Firefox return
-   browser language tag.
+-  IE returns the locale of operating system. Chrome and Firefox return browser language tag.
 
 navigator.globalization.dateToString
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -263,15 +225,11 @@ and timezone.
 Description
 ~~~~~~~~~~~
 
-Returns the formatted date ``String`` via a ``value`` property
-accessible from the object passed as a parameter to the
-``successCallback``.
+Returns the formatted date ``String`` via a ``value`` property accessible from the object passed as a parameter to the ``successCallback``.
 
 The inbound ``date`` parameter should be of type ``Date``.
 
-If there is an error formatting the date, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
+If there is an error formatting the date, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
 
 The ``options`` parameter is optional, and its default values are:
 
@@ -279,8 +237,7 @@ The ``options`` parameter is optional, and its default values are:
 
     {formatLength:'short', selector:'date and time'}
 
-The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or
-``full``.
+The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or ``full``.
 
 The ``options.selector`` can be ``date``, ``time`` or ``date and time``.
 
@@ -300,9 +257,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-If the browser is set to the ``en_US`` locale, this displays a popup
-dialog with text similar to ``date: 9/25/2012 4:21PM`` using the default
-options:
+If the browser is set to the ``en_US`` locale, this displays a popup dialog with text similar to ``date: 9/25/2012 4:21PM`` using the default options:
 
 ::
 
@@ -316,46 +271,32 @@ options:
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  ``formatLength`` options are a subset of Unicode `UTS
-   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. The default
-   option ``short`` depends on a user selected date format within
-   ``Settings -> System -> Date & time -> Choose date format``, which
-   provide a ``year`` pattern only with 4 digits, not 2 digits. This
-   means that it is not completely aligned with
-   `ICU <http://demo.icu-project.org/icu-bin/locexp?d_=en_US&_=en_US>`__.
+-  ``formatLength`` options are a subset of Unicode `UTS #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. The default option ``short`` depends on a user selected date format within ``Settings -> System -> Date & time -> Choose date format``, which provide a ``year`` pattern only with 4 digits, not 2 digits. This means that it is not completely aligned with `ICU <http://demo.icu-project.org/icu-bin/locexp?d_=en_US&_=en_US>`__.
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  The ``formatLength`` option supports only ``short`` and ``full``
-   values.
+-  The ``formatLength`` option supports only ``short`` and ``full`` values.
 
--  The pattern for 'date and time' selector is always a full datetime
-   format.
+-  The pattern for 'date and time' selector is always a full datetime format.
 
--  The returned value may be not completely aligned with ICU depending
-   on a user locale.
+-  The returned value may be not completely aligned with ICU depending on a user locale.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  The ``formatLength`` option supports only ``short`` and ``full``
-   values.
+-  The ``formatLength`` option supports only ``short`` and ``full`` values.
 
--  The pattern for 'date and time' selector is always a full datetime
-   format.
+-  The pattern for 'date and time' selector is always a full datetime format.
 
--  The returned value may be not completely aligned with ICU depending
-   on a user locale.
+-  The returned value may be not completely aligned with ICU depending on a user locale.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  Only 79 locales are supported because moment.js is used in this
-   method.
+-  Only 79 locales are supported because moment.js is used in this method.
 
--  The returned value may be not completely aligned with ICU depending
-   on a user locale.
+-  The returned value may be not completely aligned with ICU depending on a user locale.
 
 -  ``time`` selector supports ``full`` and ``short`` formatLength only.
 
@@ -372,8 +313,8 @@ Returns a pattern string to format and parse currency values according
 to the client's user preferences and ISO 4217 currency code.
 
 ::
-
-     navigator.globalization.getCurrencyPattern(currencyCode, successCallback, errorCallback);
+    
+    navigator.globalization.getCurrencyPattern(currencyCode, successCallback, errorCallback);
 
 Description
 ~~~~~~~~~~~
@@ -382,30 +323,22 @@ Returns the pattern to the ``successCallback`` with a ``properties``
 object as a parameter. That object should contain the following
 properties:
 
--  **pattern**: The currency pattern to format and parse currency
-   values. The patterns follow `Unicode Technical Standard
-   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
+-  **pattern**: The currency pattern to format and parse currency values. The patterns follow `Unicode Technical Standard #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
 
 -  **code**: The ISO 4217 currency code for the pattern. *(String)*
 
--  **fraction**: The number of fractional digits to use when parsing and
-   formatting currency. *(Number)*
+-  **fraction**: The number of fractional digits to use when parsing and formatting currency. *(Number)*
 
--  **rounding**: The rounding increment to use when parsing and
-   formatting. *(Number)*
+-  **rounding**: The rounding increment to use when parsing and formatting. *(Number)*
 
--  **decimal**: The decimal symbol to use for parsing and formatting.
-   *(String)*
+-  **decimal**: The decimal symbol to use for parsing and formatting. *(String)*
 
--  **grouping**: The grouping symbol to use for parsing and formatting.
-   *(String)*
+-  **grouping**: The grouping symbol to use for parsing and formatting. *(String)*
 
 The inbound ``currencyCode`` parameter should be a ``String`` of one of
 the ISO 4217 currency codes, for example 'USD'.
 
-If there is an error obtaining the pattern, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
+If there is an error obtaining the pattern, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -420,8 +353,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale and the selected
-currency is United States Dollars, this example displays a popup dialog
+When the browser is set to the ``en_US`` locale and the selectedd currency is United States Dollars, this example displays a popup dialog
 with text similar to the results that follow:
 
 ::
@@ -458,8 +390,7 @@ Windows Quirks
 navigator.globalization.getDateNames
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Returns an array of the names of the months or days of the week,
-depending on the client's user preferences and calendar.
+Returns an array of the names of the months or days of the week, depending on the client's user preferences and calendar.
 
 ::
 
@@ -468,15 +399,9 @@ depending on the client's user preferences and calendar.
 Description
 ~~~~~~~~~~~
 
-Returns the array of names to the ``successCallback`` with a
-``properties`` object as a parameter. That object contains a ``value``
-property with an ``Array`` of ``String`` values. The array features
-names starting from either the first month in the year or the first day
-of the week, depending on the option selected.
+Returns the array of names to the ``successCallback`` with a ``properties`` object as a parameter. That object contains a ``value`` property with an ``Array`` of ``String`` values. The array features names starting from either the first month in the year or the first day of the week, depending on the option selected.
 
-If there is an error obtaining the names, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
+If there is an error obtaining the names, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
 
 The ``options`` parameter is optional, and its default values are:
 
@@ -504,8 +429,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this example displays a
-series of twelve popup dialogs, one per month, with text similar to
+When the browser is set to the ``en_US`` locale, this example displays a series of twelve popup dialogs, one per month, with text similar to
 ``month: January``:
 
 ::
@@ -523,22 +447,19 @@ series of twelve popup dialogs, one per month, with text similar to
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
 
--  ``options.type`` supports a ``genitive`` value, important for some
-   languages
+-  ``options.type`` supports a ``genitive`` value, important for some languages
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
 -  The array of months contains 13 elements.
--  The returned array may be not completely aligned with ICU depending
-   on a user locale.
+-  The returned array may be not completely aligned with ICU depending on a user locale.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
 -  The array of months contains 12 elements.
--  The returned array may be not completely aligned with ICU depending
-   on a user locale.
+-  The returned array may be not completely aligned with ICU depending on a user locale.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
@@ -549,8 +470,7 @@ Browser Quirks
 navigator.globalization.getDatePattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Returns a pattern string to format and parse dates according to the
-client's user preferences.
+Returns a pattern string to format and parse dates according to the client's user preferences.
 
 ::
 
@@ -559,37 +479,25 @@ client's user preferences.
 Description
 ~~~~~~~~~~~
 
-Returns the pattern to the ``successCallback``. The object passed in as
-a parameter contains the following properties:
+Returns the pattern to the ``successCallback``. The object passed in as a parameter contains the following properties:
 
--  **pattern**: The date and time pattern to format and parse dates. The
-   patterns follow `Unicode Technical Standard
-   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
+-  **pattern**: The date and time pattern to format and parse dates. The patterns follow `Unicode Technical Standard #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
 
--  **timezone**: The abbreviated name of the time zone on the client.
-   *(String)*
+-  **timezone**: The abbreviated name of the time zone on the client. *(String)*
 
--  **utc\_offset**: The current difference in seconds between the
-   client's time zone and coordinated universal time. *(Number)*
+-  **utc\_offset**: The current difference in seconds between the client's time zone and coordinated universal time. *(Number)*
 
--  **dst\_offset**: The current daylight saving time offset in seconds
-   between the client's non-daylight saving's time zone and the client's
-   daylight saving's time zone. *(Number)*
+-  **dst\_offset**: The current daylight saving time offset in seconds between the client's non-daylight saving's time zone and the client's daylight saving's time zone. *(Number)*
 
-If there is an error obtaining the pattern, the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.PATTERN_ERROR``.
+If there is an error obtaining the pattern, the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.PATTERN_ERROR``.
 
-The ``options`` parameter is optional, and defaults to the following
-values:
+The ``options`` parameter is optional, and defaults to the following values:
 
 ::
 
     {formatLength:'short', selector:'date and time'}
 
-The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or
-``full``. The ``options.selector`` can be ``date``, ``time`` or
-``date and time``.
+The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or ``full``. The ``options.selector`` can be ``date``, ``time`` or ``date and time``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -606,8 +514,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this example displays a
-popup dialog with text such as ``pattern: M/d/yyyy h:mm a``:
+When the browser is set to the ``en_US`` locale, this example displays a popup dialog with text such as ``pattern: M/d/yyyy h:mm a``:
 
 ::
 
@@ -624,40 +531,33 @@ Windows Phone 8 Quirks
 
 -  The ``formatLength`` supports only ``short`` and ``full`` values.
 
--  The ``pattern`` for ``date and time`` pattern returns only full
-   datetime format.
+-  The ``pattern`` for ``date and time`` pattern returns only full datetime format.
 
 -  The ``timezone`` returns the full time zone name.
 
--  The ``dst_offset`` property is not supported, and always returns
-   zero.
+-  The ``dst_offset`` property is not supported, and always returns zero.
 
--  The pattern may be not completely aligned with ICU depending on a
-   user locale.
+-  The pattern may be not completely aligned with ICU depending on a user locale.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
 -  The ``formatLength`` supports only ``short`` and ``full`` values.
 
--  The ``pattern`` for ``date and time`` pattern returns only full
-   datetime format.
+-  The ``pattern`` for ``date and time`` pattern returns only full datetime format.
 
 -  The ``timezone`` returns the full time zone name.
 
--  The ``dst_offset`` property is not supported, and always returns
-   zero.
+-  The ``dst_offset`` property is not supported, and always returns zero.
 
--  The pattern may be not completely aligned with ICU depending on a
-   user locale.
+-  The pattern may be not completely aligned with ICU depending on a user locale.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
 -  The 'pattern' property is not supported and returns empty string.
 
--  Only Chrome returns 'timezone' property. Its format is "Part of the
-   world/{City}". Other browsers return empty string.
+-  Only Chrome returns 'timezone' property. Its format is "Part of the world/{City}". Other browsers return empty string.
 
 navigator.globalization.getFirstDayOfWeek
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -672,14 +572,9 @@ preferences and calendar.
 Description
 ~~~~~~~~~~~
 
-The days of the week are numbered starting from 1, where 1 is assumed to
-be Sunday. Returns the day to the ``successCallback`` with a
-``properties`` object as a parameter. That object should have a
-``value`` property with a ``Number`` value.
+The days of the week are numbered starting from 1, where 1 is assumed to be Sunday. Returns the day to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``value`` property with a ``Number`` value.
 
-If there is an error obtaining the pattern, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
+If there is an error obtaining the pattern, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -697,8 +592,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this displays a popup
-dialog with text similar to ``day: 1``.
+When the browser is set to the ``en_US`` locale, this displays a popup dialog with text similar to ``day: 1``.
 
 ::
 
@@ -710,14 +604,12 @@ dialog with text similar to ``day: 1``.
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  On Windows 8.0/8.1 the value depends on user' calendar preferences.
-   On Windows Phone 8.1 the value depends on current locale.
+-  On Windows 8.0/8.1 the value depends on user' calendar preferences. On Windows Phone 8.1 the value depends on current locale.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  Only 79 locales are supported because moment.js is used in this
-   method.
+-  Only 79 locales are supported because moment.js is used in this method.
 
 navigator.globalization.getNumberPattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -732,37 +624,25 @@ client's user preferences.
 Description
 ~~~~~~~~~~~
 
-Returns the pattern to the ``successCallback`` with a ``properties``
-object as a parameter. That object contains the following properties:
+Returns the pattern to the ``successCallback`` with a ``properties`` object as a parameter. That object contains the following properties:
 
--  **pattern**: The number pattern to format and parse numbers. The
-   patterns follow `Unicode Technical Standard
-   #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
+-  **pattern**: The number pattern to format and parse numbers. The patterns follow `Unicode Technical Standard #35 <http://unicode.org/reports/tr35/tr35-4.html>`__. *(String)*
 
--  **symbol**: The symbol to use when formatting and parsing, such as a
-   percent or currency symbol. *(String)*
+-  **symbol**: The symbol to use when formatting and parsing, such as a percent or currency symbol. *(String)*
 
--  **fraction**: The number of fractional digits to use when parsing and
-   formatting numbers. *(Number)*
+-  **fraction**: The number of fractional digits to use when parsing and formatting numbers. *(Number)*
 
--  **rounding**: The rounding increment to use when parsing and
-   formatting. *(Number)*
+-  **rounding**: The rounding increment to use when parsing and formatting. *(Number)*
 
--  **positive**: The symbol to use for positive numbers when parsing and
-   formatting. *(String)*
+-  **positive**: The symbol to use for positive numbers when parsing and formatting. *(String)*
 
--  **negative**: The symbol to use for negative numbers when parsing and
-   formatting. *(String)*
+-  **negative**: The symbol to use for negative numbers when parsing and formatting. *(String)*
 
--  **decimal**: The decimal symbol to use for parsing and formatting.
-   *(String)*
+-  **decimal**: The decimal symbol to use for parsing and formatting. *(String)*
 
--  **grouping**: The grouping symbol to use for parsing and formatting.
-   *(String)*
+-  **grouping**: The grouping symbol to use for parsing and formatting. *(String)*
 
-If there is an error obtaining the pattern, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.PATTERN_ERROR``.
+If there is an error obtaining the pattern, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.PATTERN_ERROR``.
 
 The ``options`` parameter is optional, and default values are:
 
@@ -787,8 +667,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this should display a
-popup dialog with text similar to the results that follow:
+When the browser is set to the ``en_US`` locale, this should display a popup dialog with text similar to the results that follow:
 
 ::
 
@@ -821,28 +700,24 @@ Results:
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  The ``pattern`` property is not supported, and returns an empty
-   string.
+-  The ``pattern`` property is not supported, and returns an empty string.
 
 -  The ``fraction`` property is not supported, and returns zero.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  The ``pattern`` property is not supported, and returns an empty
-   string.
+-  The ``pattern`` property is not supported, and returns an empty string.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  getNumberPattern is supported in Chrome only; the only defined
-   property is ``pattern``.
+-  getNumberPattern is supported in Chrome only; the only defined property is ``pattern``.
 
 navigator.globalization.isDayLightSavingsTime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Indicates whether daylight savings time is in effect for a given date
-using the client's time zone and calendar.
+Indicates whether daylight savings time is in effect for a given date using the client's time zone and calendar.
 
 ::
 
@@ -851,17 +726,11 @@ using the client's time zone and calendar.
 Description
 ~~~~~~~~~~~
 
-Indicates whether or not daylight savings time is in effect to the
-``successCallback`` with a ``properties`` object as a parameter. That
-object should have a ``dst`` property with a ``Boolean`` value. A
-``true`` value indicates that daylight savings time is in effect for the
-given date, and ``false`` indicates that it is not.
+Indicates whether or not daylight savings time is in effect to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``dst`` property with a ``Boolean`` value. A ``true`` value indicates that daylight savings time is in effect for the given date, and ``false`` indicates that it is not.
 
 The inbound parameter ``date`` should be of type ``Date``.
 
-If there is an error reading the date, then the ``errorCallback``
-executes. The error's expected code is
-``GlobalizationError.UNKNOWN_ERROR``.
+If there is an error reading the date, then the ``errorCallback`` executes. The error's expected code is ``GlobalizationError.UNKNOWN_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -879,8 +748,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-During the summer, and if the browser is set to a DST-enabled timezone,
-this should display a popup dialog with text similar to ``dst: true``:
+During the summer, and if the browser is set to a DST-enabled timezone, this should display a popup dialog with text similar to ``dst: true``:
 
 ::
 
@@ -893,8 +761,7 @@ this should display a popup dialog with text similar to ``dst: true``:
 navigator.globalization.numberToString
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Returns a number formatted as a string according to the client's user
-preferences.
+Returns a number formatted as a string according to the client's user preferences.
 
 ::
 
@@ -903,13 +770,9 @@ preferences.
 Description
 ~~~~~~~~~~~
 
-Returns the formatted number string to the ``successCallback`` with a
-``properties`` object as a parameter. That object should have a
-``value`` property with a ``String`` value.
+Returns the formatted number string to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``value`` property with a ``String`` value.
 
-If there is an error formatting the number, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
+If there is an error formatting the number, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.FORMATTING_ERROR``.
 
 The ``options`` parameter is optional, and its default values are:
 
@@ -934,8 +797,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this displays a popup
-dialog with text similar to ``number: 3.142``:
+When the browser is set to the ``en_US`` locale, this displays a popup dialog with text similar to ``number: 3.142``:
 
 ::
 
@@ -949,15 +811,11 @@ dialog with text similar to ``number: 3.142``:
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  Windows 8.0 does not support number rounding, therefore values will
-   not be rounded automatically.
+-  Windows 8.0 does not support number rounding, therefore values will not be rounded automatically.
 
--  On Windows 8.1 and Windows Phone 8.1 fractional part is being
-   truncated instead of rounded in case of ``percent`` number type
-   therefore fractional digits count is set to 0.
+-  On Windows 8.1 and Windows Phone 8.1 fractional part is being truncated instead of rounded in case of ``percent`` number type therefore fractional digits count is set to 0.
 
--  ``percent`` numbers are not grouped as they can't be parsed in
-   stringToNumber if grouped.
+-  ``percent`` numbers are not grouped as they can't be parsed in stringToNumber if grouped.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
@@ -967,9 +825,7 @@ Browser Quirks
 navigator.globalization.stringToDate
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Parses a date formatted as a string, according to the client's user
-preferences and calendar using the time zone of the client, and returns
-the corresponding date object.
+Parses a date formatted as a string, according to the client's user preferences and calendar using the time zone of the client, and returns the corresponding date object.
 
 ::
 
@@ -978,8 +834,7 @@ the corresponding date object.
 Description
 ~~~~~~~~~~~
 
-Returns the date to the success callback with a ``properties`` object as
-a parameter. That object should have the following properties:
+Returns the date to the success callback with a ``properties`` object as a parameter. That object should have the following properties:
 
 -  **year**: The four digit year. *(Number)*
 
@@ -993,25 +848,19 @@ a parameter. That object should have the following properties:
 
 -  **second**: The second from (0-59). *(Number)*
 
--  **millisecond**: The milliseconds (from 0-999), not available on all
-   platforms. *(Number)*
+-  **millisecond**: The milliseconds (from 0-999), not available on all platforms. *(Number)*
 
 The inbound ``dateString`` parameter should be of type ``String``.
 
-The ``options`` parameter is optional, and defaults to the following
-values:
+The ``options`` parameter is optional, and defaults to the following values:
 
 ::
 
     {formatLength:'short', selector:'date and time'}
 
-The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or
-``full``. The ``options.selector`` can be ``date``, ``time`` or
-``date and time``.
+The ``options.formatLength`` can be ``short``, ``medium``, ``long``, or ``full``. The ``options.selector`` can be ``date``, ``time`` or ``date and time``.
 
-If there is an error parsing the date string, then the ``errorCallback``
-executes with a ``GlobalizationError`` object as a parameter. The
-error's expected code is ``GlobalizationError.PARSING_ERROR``.
+If there is an error parsing the date string, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.PARSING_ERROR``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -1029,10 +878,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this displays a popup
-dialog with text similar to ``month:8 day:25 year:2012``. Note that the
-month integer is one less than the string, as the month integer
-represents an array index.
+When the browser is set to the ``en_US`` locale, this displays a popup dialog with text similar to ``month:8 day:25 year:2012``. Note that the month integer is one less than the string, as the month integer represents an array index.
 
 ::
 
@@ -1048,45 +894,34 @@ represents an array index.
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  The ``formatLength`` option supports only ``short`` and ``full``
-   values.
+-  The ``formatLength`` option supports only ``short`` and ``full`` values.
 
--  The pattern for 'date and time' selector is always a full datetime
-   format.
+-  The pattern for 'date and time' selector is always a full datetime format.
 
--  The inbound ``dateString`` parameter should be formed in compliance
-   with a pattern returned by getDatePattern. This pattern may be not
-   completely aligned with ICU depending on a user locale.
+-  The inbound ``dateString`` parameter should be formed in compliance with a pattern returned by getDatePattern. This pattern may be not completely aligned with ICU depending on a user locale.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  The ``formatLength`` option supports only ``short`` and ``full``
-   values.
+-  The ``formatLength`` option supports only ``short`` and ``full`` values.
 
--  The pattern for 'date and time' selector is always a full datetime
-   format.
+-  The pattern for 'date and time' selector is always a full datetime format.
 
--  The inbound ``dateString`` parameter should be formed in compliance
-   with a pattern returned by getDatePattern. This pattern may be not
-   completely aligned with ICU depending on a user locale.
+-  The inbound ``dateString`` parameter should be formed in compliance with a pattern returned by getDatePattern. This pattern may be not completely aligned with ICU depending on a user locale.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  Only 79 locales are supported because moment.js is used in this
-   method.
+-  Only 79 locales are supported because moment.js is used in this method.
 
--  Inbound string should be aligned with ``dateToString`` output format
-   and may not completely aligned with ICU depending on a user locale.
+-  Inbound string should be aligned with ``dateToString`` output format and may not completely aligned with ICU depending on a user locale.
 
 -  ``time`` selector supports ``full`` and ``short`` formatLength only.
 
 navigator.globalization.stringToNumber
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Parses a number formatted as a string according to the client's user
-preferences and returns the corresponding number.
+Parses a number formatted as a string according to the client's user preferences and returns the corresponding number.
 
 ::
 
@@ -1095,17 +930,11 @@ preferences and returns the corresponding number.
 Description
 ~~~~~~~~~~~
 
-Returns the number to the ``successCallback`` with a ``properties``
-object as a parameter. That object should have a ``value`` property with
-a ``Number`` value.
+Returns the number to the ``successCallback`` with a ``properties`` object as a parameter. That object should have a ``value`` property with a ``Number`` value.
 
-If there is an error parsing the number string, then the
-``errorCallback`` executes with a ``GlobalizationError`` object as a
-parameter. The error's expected code is
-``GlobalizationError.PARSING_ERROR``.
+If there is an error parsing the number string, then the ``errorCallback`` executes with a ``GlobalizationError`` object as a parameter. The error's expected code is ``GlobalizationError.PARSING_ERROR``.
 
-The ``options`` parameter is optional, and defaults to the following
-values:
+The ``options`` parameter is optional, and defaults to the following values:
 
 ::
 
@@ -1127,8 +956,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the browser is set to the ``en_US`` locale, this should display a
-popup dialog with text similar to ``number: 1234.56``:
+When the browser is set to the ``en_US`` locale, this should display a popup dialog with text similar to ``number: 1234.56``:
 
 ::
 
@@ -1147,9 +975,7 @@ Windows Phone 8 Quirks
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  The string must strictly conform to the locale format. For example,
-   percent symbol should be separated by space for 'en-US' locale if the
-   type parameter is 'percent'.
+-  The string must strictly conform to the locale format. For example, percent symbol should be separated by space for 'en-US' locale if the type parameter is 'percent'.
 
 -  ``percent`` numbers must not be grouped to be parsed correctly.
 
@@ -1161,14 +987,12 @@ An object representing a error from the Globalization API.
 Properties
 ~~~~~~~~~~
 
--  **code**: One of the following codes representing the error type
-   *(Number)*
+-  **code**: One of the following codes representing the error type *(Number)*
 -  GlobalizationError.UNKNOWN\_ERROR: 0
 -  GlobalizationError.FORMATTING\_ERROR: 1
 -  GlobalizationError.PARSING\_ERROR: 2
 -  GlobalizationError.PATTERN\_ERROR: 3
--  **message**: A text message that includes the error's explanation
-   and/or details *(String)*
+-  **message**: A text message that includes the error's explanation and/or details *(String)*
 
 Description
 ~~~~~~~~~~~
@@ -1191,8 +1015,7 @@ Supported Platforms
 Example
 ~~~~~~~
 
-When the following error callback executes, it displays a popup dialog
-with the text similar to ``code: 3`` and ``message:``
+When the following error callback executes, it displays a popup dialog with the text similar to ``code: 3`` and ``message:``
 
 ::
 

@@ -14,10 +14,9 @@ Camera Plugin
 
 .. note:: 
     
-    This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-camera/blob/master/README.md>`_. 
+    This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-camera/blob/master/README.md>`_.
 
-This plugin provides an API for taking pictures and for choosing images
-from the system's image libarary.
+This plugin provides an API for taking pictures and for choosing images from the system's image libarary.
 
 Plugin ID
 -----------------------
@@ -58,7 +57,7 @@ You can do whatever you want with the encoded image or URI, for example:
 
 -  Render the image in an ``<img>`` tag, as in the example below
 
--  Save the data locally (``LocalStorage``, `Lawnchair <http://brianleroux.github.com/lawnchair/>`__, etc.)
+-  Save the data locally (``LocalStorage``, `Lawnchair <http://brianleroux.github.com/lawnchair/>`_, etc.)
 
 -  Post the data to a remote server
 
@@ -73,7 +72,7 @@ Supported Platforms
 Android Quirks
 ~~~~~~~~~~~~~~
 
-*Android 4.4 only*: Android 4.4 introduced a new `Storage Access Framework <https://developer.android.com/guide/topics/providers/document-provider.html>`__ that makes it easier for users to browse and open documents across all of their preferred document storage providers. Cordova has not yet been fully integrated with this new Storage Access Framework. Because of this, the ``getPicture()`` method will not correctly return pictures when the user selects from the "Recent", "Drive", "Images", or "External Storage" folders when the ``destinationType`` is ``FILE_URI``. However, the user will be able to correctly select any pictures if they go through the "Gallery" app first. Potential workarounds for this issue are documented on `this StackOverflow question <http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`__. Please see `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ to track this issue.
+*Android 4.4 only*: Android 4.4 introduced a new `Storage Access Framework <https://developer.android.com/guide/topics/providers/document-provider.html>`_ that makes it easier for users to browse and open documents across all of their preferred document storage providers. Cordova has not yet been fully integrated with this new Storage Access Framework. Because of this, the ``getPicture()`` method will not correctly return pictures when the user selects from the "Recent", "Drive", "Images", or "External Storage" folders when the ``destinationType`` is ``FILE_URI``. However, the user will be able to correctly select any pictures if they go through the "Gallery" app first. Potential workarounds for this issue are documented on `this StackOverflow question <http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`_. Please see `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`_ to track this issue.
 
 Android uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the Cordova activity is restored.
 
@@ -144,11 +143,13 @@ Optional parameters to customize the camera settings.
 Options
 ~~~~~~~
 
--  **quality**: Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no loss from file compression. *(Number)* (Note that information about the camera's resolution is unavailable.)
+-  **quality**: Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no loss from file compression. *(Number)*
+
+(Note that information about the camera's resolution is unavailable.)
 
 -  **destinationType**: Choose the format of the return value. Defined in ``navigator.camera.DestinationType`` *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
        Camera.DestinationType = {
            DATA_URL : 0,      // Return image as base64-encoded string
@@ -158,7 +159,7 @@ Options
 
 -  **sourceType**: Set the source of the picture. Defined in ``navigator.camera.PictureSourceType`` *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
        Camera.PictureSourceType = {
            PHOTOLIBRARY : 0,
@@ -170,7 +171,7 @@ Options
 
 -  **encodingType**: Choose the returned image file's encoding. Defined in ``navigator.camera.EncodingType`` *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
        Camera.EncodingType = {
            JPEG : 0,               // Return JPEG encoded image
@@ -183,7 +184,7 @@ Options
 
 -  **mediaType**: Set the type of media to select from. Only works when ``PictureSourceType`` is ``PHOTOLIBRARY`` or ``SAVEDPHOTOALBUM``. Defined in ``nagivator.camera.MediaType`` *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
        Camera.MediaType = {
            PICTURE: 0,    // allow selection of still pictures only. DEFAULT. Will return format specified via DestinationType
@@ -196,11 +197,11 @@ Options
 
 -  **saveToPhotoAlbum**: Save the image to the photo album on the device after capture. *(Boolean)*
 
--  **popoverOptions**: iOS-only options that specify popover location in iPad. Defined in ``CameraPopoverOptions``.
+-  *popoverOptions*: iOS-only options that specify popover location in iPad. Defined in ``CameraPopoverOptions``.
 
 -  **cameraDirection**: Choose the camera to use (front- or back-facing). Defined in ``navigator.camera.Direction``. *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
        Camera.Direction = {
            BACK : 0,      // Use the back-facing camera
@@ -336,7 +337,7 @@ CameraPopoverOptions
 
 -  **arrowDir**: Direction the arrow on the popover should point. Defined in ``Camera.PopoverArrowDirection`` *(Number)*
 
-   .. code-block:: javascript
+.. code-block:: javascript
 
            Camera.PopoverArrowDirection = {
                ARROW_UP : 1,        // matches iOS UIPopoverArrowDirection constants

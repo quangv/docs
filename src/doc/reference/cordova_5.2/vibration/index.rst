@@ -38,15 +38,13 @@ Vibration Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-vibration>`_.
 
-This plugin aligns with the W3C vibration specification
-http://www.w3.org/TR/vibration/
+This plugin aligns with the W3C vibration specification http://www.w3.org/TR/vibration/
 
 This plugin provides a way to vibrate the device.
 
 This plugin defines global objects including ``navigator.vibrate``.
 
-Although in the global scope, they are not available until after the
-``deviceready`` event.
+Although in the global scope, they are not available until after the ``deviceready`` event.
 
 ::
 
@@ -92,8 +90,7 @@ API Reference
 vibrate (recommended)
 ---------------------
 
-This function has three different functionalities based on parameters
-passed to it.
+This function has three different functionalities based on parameters passed to it.
 
 Standard vibrate
 ~~~~~~~~~~~~~~~~
@@ -126,8 +123,7 @@ Example
 iOS Quirks
 ^^^^^^^^^^
 
--  **time**: Ignores the specified time and vibrates for a pre-set
-   amount of time.
+-  **time**: Ignores the specified time and vibrates for a pre-set amount of time.
 
    navigator.vibrate(3000); // 3000 is ignored
 
@@ -147,8 +143,7 @@ Vibrates the device with a given pattern
 
     navigator.vibrate(pattern);   
 
--  **pattern**: Sequence of durations (in milliseconds) for which to
-   turn on or off the vibrator. *(Array of Numbers)*
+-  **pattern**: Sequence of durations (in milliseconds) for which to turn on or off the vibrator. *(Array of Numbers)*
 
 Example
 ^^^^^^^
@@ -193,8 +188,7 @@ or
 
     navigator.vibrate([0])
 
-Passing in a parameter of 0, an empty array, or an array with one
-element of value 0 will cancel any vibrations.
+Passing in a parameter of 0, an empty array, or an array with one element of value 0 will cancel any vibrations.
 
 \*notification.vibrate (deprecated)
 -----------------------------------
@@ -218,8 +212,7 @@ Example
 iOS Quirks
 ~~~~~~~~~~
 
--  **time**: Ignores the specified time and vibrates for a pre-set
-   amount of time.
+-  **time**: Ignores the specified time and vibrates for a pre-set amount of time.
 
    ::
 
@@ -235,11 +228,9 @@ Vibrates the device with a given pattern.
 
     navigator.notification.vibrateWithPattern(pattern, repeat)
 
--  **pattern**: Sequence of durations (in milliseconds) for which to
-   turn on or off the vibrator. *(Array of Numbers)*
--  **repeat**: Optional index into the pattern array at which to start
-   repeating (will repeat until canceled), or -1 for no repetition
-   (default). *(Number)*
+-  **pattern**: Sequence of durations (in milliseconds) for which to turn on or off the vibrator. *(Array of Numbers)*
+
+-  **repeat**: Optional index into the pattern array at which to start repeating (will repeat until canceled), or -1 for no repetition (default). *(Number)*
 
 Example
 ~~~~~~~
@@ -266,8 +257,7 @@ Immediately cancels any currently running vibration.
 
     navigator.notification.cancelVibration()
 
-\*Note - due to alignment with w3c spec, the starred methods will be
-phased out
+\*Note - due to alignment with w3c spec, the starred methods will be phased out
 
 
 .. seealso::

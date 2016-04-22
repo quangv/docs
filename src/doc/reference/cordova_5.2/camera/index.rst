@@ -38,12 +38,9 @@ Camera Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-camera>`_.
 
-This plugin defines a global ``navigator.camera`` object, which provides
-an API for taking pictures and for choosing images from the system's
-image library.
+This plugin defines a global ``navigator.camera`` object, which provides an API for taking pictures and for choosing images from the system's image library.
 
-Although the object is attached to the global scoped ``navigator``, it
-is not available until after the ``deviceready`` event.
+Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
 
 .. code-block:: javascript
 
@@ -73,44 +70,27 @@ API Reference
 camera.getPicture(successCallback, errorCallback, options) 
 ---------------------------------------------------------------------------------
 
-Takes a photo using the camera, or retrieves a photo from the
-device's image gallery. The image is passed to the success callback as a
-base64-encoded ``String``, or as the URI for the image file.
+Takes a photo using the camera, or retrieves a photo from the device's image gallery. The image is passed to the success callback as a base64-encoded ``String``, or as the URI for the image file.
 
-The ``camera.getPicture`` function opens the device's default camera application that allows users to snap pictures by default - this
-behavior occurs, when ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA``. Once the user snaps the photo, the camera application closes and the
-application is restored.
+The ``camera.getPicture`` function opens the device's default camera application that allows users to snap pictures by default - this behavior occurs, when ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA``. Once the user snaps the photo, the camera application closes and the application is restored.
 
-If ``Camera.sourceType`` is ``Camera.PictureSourceType.PHOTOLIBRARY`` or
-``Camera.PictureSourceType.SAVEDPHOTOALBUM``, then a dialog displays
-that allows users to select an existing image. The ``camera.getPicture``
-function returns a ``CameraPopoverHandle`` object, which
-can be used to reposition the image selection dialog, for example, when
-the device orientation changes.
+If ``Camera.sourceType`` is ``Camera.PictureSourceType.PHOTOLIBRARY`` or ``Camera.PictureSourceType.SAVEDPHOTOALBUM``, then a dialog displays that allows users to select an existing image. The ``camera.getPicture`` function returns a ``CameraPopoverHandle`` object, which can be used to reposition the image selection dialog, for example, when the device orientation changes.
 
-The return value is sent to the ``cameraSuccess`` callback function, in
-one of the following formats, depending on the specified
-``cameraOptions``:
+The return value is sent to the ``cameraSuccess`` callback function, in one of the following formats, depending on the specified ``cameraOptions``:
 
 -  A ``String`` containing the base64-encoded photo image.
 
--  A ``String`` representing the image file location on local storage
-   (default).
+-  A ``String`` representing the image file location on local storage (default).
 
 You can do whatever you want with the encoded image or URI, for example:
 
 -  Render the image in an ``<img>`` tag, as in the example below
 
--  Save the data locally (``LocalStorage``,
-   `Lawnchair <http://brianleroux.github.com/lawnchair/>`__, etc.)
+-  Save the data locally (``LocalStorage``, `Lawnchair <http://brianleroux.github.com/lawnchair/>`__, etc.)
 
 -  Post the data to a remote server
 
-**NOTE**: Photo resolution on newer devices is quite good. Photos
-selected from the device's gallery are not downscaled to a lower
-quality, even if a ``quality`` parameter is specified. To avoid common
-memory problems, set ``Camera.destinationType`` to ``FILE_URI`` rather
-than ``DATA_URL``.
+**NOTE**: Photo resolution on newer devices is quite good. Photos selected from the device's gallery are not downscaled to a lower quality, even if a ``quality`` parameter is specified. To avoid common memory problems, set ``Camera.destinationType`` to ``FILE_URI`` rather than ``DATA_URL``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -132,7 +112,7 @@ Supported Platforms
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static method of :ref:`camera <api_reference>` 
+static method of :ref:`camera <api_reference>`
 
 +-------------------+--------------------------------------------------------+-----------------+
 | Param             | Type                                                   | Description     |
@@ -157,12 +137,7 @@ camera.onSuccess: function
 camera.cleanup()
 ---------------------------------------------------------------------------------
 
-Removes intermediate image files that are kept in
-temporary storage after calling
-```camera.getPicture`` <camera.getPicture(successCallback, errorCallback, options)>`__. Applies only when
-the value of ``Camera.sourceType`` equals
-``Camera.PictureSourceType.CAMERA`` and the ``Camera.destinationType``
-equals ``Camera.DestinationType.FILE_URI``.
+Removes intermediate image files that are kept in temporary storage after calling ```camera.getPicture`` <camera.getPicture(successCallback, errorCallback, options)>`__. Applies only when the value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` and the ``Camera.destinationType`` equals ``Camera.DestinationType.FILE_URI``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -172,7 +147,7 @@ Supported Platforms
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static method of :ref:`camera <api_reference>` 
+static method of :ref:`camera <api_reference>`
 
 Example
 ~~~~~~~~~~~~~~~~~~~
@@ -213,8 +188,7 @@ static typedef of :ref:`camera <api_reference>`
 camera.onSuccess : function 
 ---------------------------------------------------------------------------------
 
-Callback function that provides the
-image data.
+Callback function that provides the image data.
 
 Kind
 ~~~~~~~~~~~~~~~~~~~
@@ -245,13 +219,12 @@ Example
 camera.CameraOptions : Object 
 -------------------------------------
 
-Optional parameters to customize the
-camera settings. :ref:`Quirks <amazon_fire_os_quirks>`
+Optional parameters to customize the camera settings. :ref:`Quirks <amazon_fire_os_quirks>`
 
 Kind
 ~~~~~~~~~~~~~~~~~~~
 
-static typedef of :ref:`Camera <api_reference>`
+static typedef of :ref:`camera <api_reference>`
 
 Properties
 ~~~~~~~~~~~~~~~~~~~
@@ -434,12 +407,7 @@ Property
 CameraPopoverOptions 
 -----------------------------
 
-iOS-only parameters that specify the anchor
-element location and arrow direction of the popover when selecting
-images from an iPad's library or album. Note that the size of the
-popover may change to adjust to the direction of the arrow and
-orientation of the screen. Make sure to account for orientation changes
-when specifying the anchor element location.
+iOS-only parameters that specify the anchor element location and arrow direction of the popover when selecting images from an iPad's library or album. Note that the size of the popover may change to adjust to the direction of the arrow and orientation of the screen. Make sure to account for orientation changes when specifying the anchor element location.
 
 +--------------+------------------------------------------------------------------------+--------------+------------------------------------------------------------------------------+
 | Param        | Type                                                                   | Default      | Description                                                                  |
@@ -530,9 +498,7 @@ Take a photo and retrieve the image's file location:
 Preferences (iOS)
 ~~~~~~~~~~~~~~~~~~~
 
--  **CameraUsesGeolocation** (boolean, defaults to false). For capturing
-   JPEGs, set to true to get geolocation data in the EXIF header. This
-   will trigger a request for geolocation permissions if set to true.
+-  **CameraUsesGeolocation** (boolean, defaults to false). For capturing JPEGs, set to true to get geolocation data in the EXIF header. This will trigger a request for geolocation permissions if set to true.
 
    ::
 
@@ -543,20 +509,14 @@ Preferences (iOS)
 Amazon Fire OS Quirks 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Amazon Fire OS uses intents to launch the camera activity on the device
-to capture images, and on phones with low memory, the Cordova activity
-may be killed. In this scenario, the image may not appear when the
-cordova activity is restored.
+Amazon Fire OS uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the cordova activity is restored.
 
 .. _android_quirks:
 
 Android Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Android uses intents to launch the camera activity on the device to
-capture images, and on phones with low memory, the Cordova activity may
-be killed. In this scenario, the image may not appear when the Cordova
-activity is restored.
+Android uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the Cordova activity is restored.
 
 Browser Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -568,16 +528,12 @@ Can only return photos as base64-encoded image.
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Camera plugin is currently implemented using `Web
-Activities <https://hacks.mozilla.org/2013/01/introducing-web-activities/>`__.
+Camera plugin is currently implemented using `Web Activities <https://hacks.mozilla.org/2013/01/introducing-web-activities/>`__.
 
 iOS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Including a JavaScript ``alert()`` in either of the callback functions
-can cause problems. Wrap the alert within a ``setTimeout()`` to allow
-the iOS image picker or popover to fully close before the alert
-displays:
+Including a JavaScript ``alert()`` in either of the callback functions can cause problems. Wrap the alert within a ``setTimeout()`` to allow the iOS image picker or popover to fully close before the alert displays:
 
 ::
 
@@ -588,15 +544,12 @@ displays:
 Windows Phone 7 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Invoking the native camera application while the device is connected via
-Zune does not work, and triggers an error callback.
+Invoking the native camera application while the device is connected via Zune does not work, and triggers an error callback.
 
 Tizen Quirks
 ~~~~~~~~~~~~~~~~~~~
 
-Tizen only supports a ``destinationType`` of
-``Camera.DestinationType.FILE_URI`` and a ``sourceType`` of
-``Camera.PictureSourceType.PHOTOLIBRARY``.
+Tizen only supports a ``destinationType`` of ``Camera.DestinationType.FILE_URI`` and a ``sourceType`` of ``Camera.PictureSourceType.PHOTOLIBRARY``.
 
 ``CameraOptions`` Errata 
 -------------------------
@@ -608,38 +561,18 @@ Amazon Fire OS Quirks
 
 -  Ignores the ``allowEdit`` parameter.
 
--  ``Camera.PictureSourceType.PHOTOLIBRARY`` and
-   ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same
-   photo album.
+-  ``Camera.PictureSourceType.PHOTOLIBRARY`` and ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo album.
 
 Android Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Any ``cameraDirection`` value results in a back-facing photo.
 
--  **``allowEdit`` is unpredictable on Android and it should not be
-   used!** The Android implementation of this plugin tries to find and
-   use an application on the user's device to do image cropping. The
-   plugin has no control over what application the user selects to
-   perform the image cropping and it is very possible that the user
-   could choose an incompatible option and cause the plugin to fail.
-   This sometimes works because most devices come with an application
-   that handles cropping in a way that is compatible with this plugin
-   (Google Plus Photos), but it is unwise to rely on that being the
-   case. If image editing is essential to your application, consider
-   seeking a third party library or plugin that provides its own image
-   editing utility for a more robust solution.
+-  **``allowEdit`` is unpredictable on Android and it should not be used!** The Android implementation of this plugin tries to find and use an application on the user's device to do image cropping. The plugin has no control over what application the user selects to perform the image cropping and it is very possible that the user could choose an incompatible option and cause the plugin to fail. This sometimes works because most devices come with an application that handles cropping in a way that is compatible with this plugin (Google Plus Photos), but it is unwise to rely on that being the case. If image editing is essential to your application, consider seeking a third party library or plugin that provides its own image editing utility for a more robust solution.
 
--  ``Camera.PictureSourceType.PHOTOLIBRARY`` and
-   ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same
-   photo album.
+-  ``Camera.PictureSourceType.PHOTOLIBRARY`` and ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo album.
 
--  Ignores the ``encodingType`` parameter if the image is unedited (i.e.
-   ``quality`` is 100, ``correctOrientation`` is false, and no
-   ``targetHeight`` or ``targetWidth`` are specified). The ``CAMERA``
-   source will always return the JPEG file given by the native camera
-   and the ``PHOTOLIBRARY`` and ``SAVEDPHOTOALBUM`` sources will return
-   the selected file in its existing encoding.
+-  Ignores the ``encodingType`` parameter if the image is unedited (i.e. ``quality`` is 100, ``correctOrientation`` is false, and no ``targetHeight`` or ``targetWidth`` are specified). The ``CAMERA`` source will always return the JPEG file given by the native camera and the ``PHOTOLIBRARY`` and ``SAVEDPHOTOALBUM`` sources will return the selected file in its existing encoding.
 
 BlackBerry 10 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -659,13 +592,11 @@ Firefox OS Quirks
 
 -  Ignores the ``quality`` parameter.
 
--  ``Camera.DestinationType`` is ignored and equals ``1`` (image file
-   URI)
+-  ``Camera.DestinationType`` is ignored and equals ``1`` (image file URI)
 
 -  Ignores the ``allowEdit`` parameter.
 
--  Ignores the ``PictureSourceType`` parameter (user chooses it in a
-   dialog window)
+-  Ignores the ``PictureSourceType`` parameter (user chooses it in a dialog window)
 
 -  Ignores the ``encodingType``
 
@@ -680,13 +611,9 @@ Firefox OS Quirks
 iOS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  When using ``destinationType.FILE_URI``, photos are saved in the
-   application's temporary directory. The contents of the application's
-   temporary directory is deleted when the application ends.
+-  When using ``destinationType.FILE_URI``, photos are saved in the application's temporary directory. The contents of the application's temporary directory is deleted when the application ends.
 
--  When using ``destinationType.NATIVE_URI`` and ``sourceType.CAMERA``,
-   photos are saved in the saved photo album regardless on the value of
-   ``saveToPhotoAlbum`` parameter.
+-  When using ``destinationType.NATIVE_URI`` and ``sourceType.CAMERA``, photos are saved in the saved photo album regardless on the value of ``saveToPhotoAlbum`` parameter.
 
 Tizen Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -704,20 +631,9 @@ Windows Phone 7 and 8 Quirks
 
 -  Ignores the ``cameraDirection`` parameter.
 
--  Ignores the ``saveToPhotoAlbum`` parameter. IMPORTANT: All images
-   taken with the wp7/8 cordova camera API are always copied to the
-   phone's camera roll. Depending on the user's settings, this could
-   also mean the image is auto-uploaded to their OneDrive. This could
-   potentially mean the image is available to a wider audience than your
-   app intended. If this a blocker for your application, you will need
-   to implement the CameraCaptureTask as documented on msdn :
-   http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx
-   You may also comment or up-vote the related issue in the `issue
-   tracker <https://issues.apache.org/jira/browse/CB-2083>`__
+-  Ignores the ``saveToPhotoAlbum`` parameter. IMPORTANT: All images taken with the wp7/8 cordova camera API are always copied to the phone's camera roll. Depending on the user's settings, this could also mean the image is auto-uploaded to their OneDrive. This could potentially mean the image is available to a wider audience than your app intended. If this a blocker for your application, you will need to implement the CameraCaptureTask as documented on msdn : http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx You may also comment or up-vote the related issue in the `issue tracker <https://issues.apache.org/jira/browse/CB-2083>`__
 
--  Ignores the ``mediaType`` property of ``cameraOptions`` as the
-   Windows Phone SDK does not provide a way to choose videos from
-   PHOTOLIBRARY.
+-  Ignores the ``mediaType`` property of ``cameraOptions`` as the Windows Phone SDK does not provide a way to choose videos from PHOTOLIBRARY.
 
 
 .. seealso::

@@ -38,11 +38,9 @@ Contacts Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-contacts>`_.
 
-This plugin defines a global ``navigator.contacts`` object, which
-provides access to the device contacts database.
+This plugin defines a global ``navigator.contacts`` object, which provides access to the device contacts database.
 
-Although the object is attached to the global scoped ``navigator``, it
-is not available until after the ``deviceready`` event.
+Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 
@@ -51,21 +49,7 @@ is not available until after the ``deviceready`` event.
         console.log(navigator.contacts);
     }
 
-**WARNING**: Collection and use of contact data raises important privacy
-issues. Your app's privacy policy should discuss how the app uses
-contact data and whether it is shared with any other parties. Contact
-information is considered sensitive because it reveals the people with
-whom a person communicates. Therefore, in addition to the app's privacy
-policy, you should strongly consider providing a just-in-time notice
-before the app accesses or uses contact data, if the device operating
-system doesn't do so already. That notice should provide the same
-information noted above, as well as obtaining the user's permission
-(e.g., by presenting choices for **OK** and **No Thanks**). Note that
-some app marketplaces may require the app to provide a just-in-time
-notice and obtain the user's permission before accessing contact data. A
-clear and easy-to-understand user experience surrounding the use of
-contact data helps avoid user confusion and perceived misuse of contact
-data. For more information, please see the Privacy Guide.
+**WARNING**: Collection and use of contact data raises important privacy issues. Your app's privacy policy should discuss how the app uses contact data and whether it is shared with any other parties. Contact information is considered sensitive because it reveals the people with whom a person communicates. Therefore, in addition to the app's privacy policy, you should strongly consider providing a just-in-time notice before the app accesses or uses contact data, if the device operating system doesn't do so already. That notice should provide the same information noted above, as well as obtaining the user's permission (e.g., by presenting choices for **OK** and **No Thanks**). Note that some app marketplaces may require the app to provide a just-in-time notice and obtain the user's permission before accessing contact data. A clear and easy-to-understand user experience surrounding the use of contact data helps avoid user confusion and perceived misuse of contact data. For more information, please see the Privacy Guide.
 
 Plugin ID
 ===========================
@@ -109,11 +93,9 @@ Objects
 navigator.contacts.create
 -------------------------
 
-The ``navigator.contacts.create`` method is synchronous, and returns a
-new ``Contact`` object.
+The ``navigator.contacts.create`` method is synchronous, and returns a new ``Contact`` object.
 
-This method does not retain the Contact object in the device contacts
-database, for which you need to invoke the ``Contact.save`` method.
+This method does not retain the Contact object in the device contacts database, for which you need to invoke the ``Contact.save`` method.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -134,54 +116,32 @@ Example
 navigator.contacts.find
 -----------------------
 
-The ``navigator.contacts.find`` method executes asynchronously, querying
-the device contacts database and returning an array of ``Contact``
-objects. The resulting objects are passed to the ``contactSuccess``
-callback function specified by the **contactSuccess** parameter.
+The ``navigator.contacts.find`` method executes asynchronously, querying the device contacts database and returning an array of ``Contact`` objects. The resulting objects are passed to the ``contactSuccess`` callback function specified by the **contactSuccess** parameter.
 
-The **contactFields** parameter specifies the fields to be used as a
-search qualifier. A zero-length **contactFields** parameter is invalid
-and results in ``ContactError.INVALID_ARGUMENT_ERROR``. A
-**contactFields** value of ``"*"`` searches all contact fields.
+The **contactFields** parameter specifies the fields to be used as a search qualifier. A zero-length **contactFields** parameter is invalid and results in ``ContactError.INVALID_ARGUMENT_ERROR``. A **contactFields** value of ``"*"`` searches all contact fields.
 
-The **contactFindOptions.filter** string can be used as a search filter
-when querying the contacts database. If provided, a case-insensitive,
-partial value match is applied to each field specified in the
-**contactFields** parameter. If there's a match for *any* of the
-specified fields, the contact is returned. Use
-**contactFindOptions.desiredFields** parameter to control which contact
-properties must be returned back.
+The **contactFindOptions.filter** string can be used as a search filter when querying the contacts database. If provided, a case-insensitive, partial value match is applied to each field specified in the **contactFields** parameter. If there's a match for *any* of the specified fields, the contact is returned. Use **contactFindOptions.desiredFields** parameter to control which contact properties must be returned back.
 
 Parameters
 ~~~~~~~~~~
 
--  **contactFields**: Contact fields to use as a search qualifier.
-   *(DOMString[])* [Required]
+-  **contactFields**: Contact fields to use as a search qualifier. *(DOMString[])* [Required]
 
--  **contactSuccess**: Success callback function invoked with the array
-   of Contact objects returned from the database. [Required]
+-  **contactSuccess**: Success callback function invoked with the array of Contact objects returned from the database. [Required]
 
--  **contactError**: Error callback function, invoked when an error
-   occurs. [Optional]
+-  **contactError**: Error callback function, invoked when an error occurs. [Optional]
 
--  **contactFindOptions**: Search options to filter navigator.contacts.
-   [Optional]
+-  **contactFindOptions**: Search options to filter navigator.contacts. [Optional]
 
    Keys include:
 
-   -  **filter**: The search string used to find navigator.contacts.
-      *(DOMString)* (Default: ``""``)
+-  **filter**: The search string used to find navigator.contacts. *(DOMString)* (Default: ``""``)
 
-   -  **multiple**: Determines if the find operation returns multiple
-      navigator.contacts. *(Boolean)* (Default: ``false``)
+-  **multiple**: Determines if the find operation returns multiple navigator.contacts. *(Boolean)* (Default: ``false``)
 
-   -  **desiredFields**: Contact fields to be returned back. If
-      specified, the resulting ``Contact`` object only features values
-      for these fields. *(DOMString[])* [Optional]
+-  **desiredFields**: Contact fields to be returned back. If specified, the resulting ``Contact`` object only features values for these fields. *(DOMString[])* [Optional]
 
-   -  **hasPhoneNumber**\ (Android only): Filters the search to only
-      return contacts with a phone number informed. *(Boolean)*
-      (Default: ``false``)
+-  **hasPhoneNumber**\ (Android only): Filters the search to only return contacts with a phone number informed. *(Boolean)* (Default: ``false``)
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -218,26 +178,19 @@ Example
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  ``__contactFields__`` is not supported and will be ignored. ``find``
-   method will always attempt to match the name, email address, or phone
-   number of a contact.
+-  ``__contactFields__`` is not supported and will be ignored. ``find`` method will always attempt to match the name, email address, or phone number of a contact.
 
 navigator.contacts.pickContact
 ------------------------------
 
-The ``navigator.contacts.pickContact`` method launches the Contact
-Picker to select a single contact. The resulting object is passed to the
-``contactSuccess`` callback function specified by the **contactSuccess**
-parameter.
+The ``navigator.contacts.pickContact`` method launches the Contact Picker to select a single contact. The resulting object is passed to the ``contactSuccess`` callback function specified by the **contactSuccess** parameter.
 
 Parameters
 ~~~~~~~~~~
 
--  **contactSuccess**: Success callback function invoked with the single
-   Contact object. [Required]
+-  **contactSuccess**: Success callback function invoked with the single Contact object. [Required]
 
--  **contactError**: Error callback function, invoked when an error
-   occurs. [Optional]
+-  **contactError**: Error callback function, invoked when an error occurs. [Optional]
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -262,43 +215,30 @@ Example
 Contact
 -------
 
-The ``Contact`` object represents a user's contact. Contacts can be
-created, stored, or removed from the device contacts database. Contacts
-can also be retrieved (individually or in bulk) from the database by
-invoking the ``navigator.contacts.find`` method.
+The ``Contact`` object represents a user's contact. Contacts can be created, stored, or removed from the device contacts database. Contacts can also be retrieved (individually or in bulk) from the database by invoking the ``navigator.contacts.find`` method.
 
-**NOTE**: Not all of the contact fields listed above are supported on
-every device platform. Please check each platform's *Quirks* section for
-details.
+**NOTE**: Not all of the contact fields listed above are supported on every device platform. Please check each platform's *Quirks* section for details.
 
 Properties
 ~~~~~~~~~~
 
 -  **id**: A globally unique identifier. *(DOMString)*
 
--  **displayName**: The name of this Contact, suitable for display to
-   end users. *(DOMString)*
+-  **displayName**: The name of this Contact, suitable for display to end users. *(DOMString)*
 
--  **name**: An object containing all components of a persons name.
-   *(ContactName)*
+-  **name**: An object containing all components of a persons name. *(ContactName)*
 
--  **nickname**: A casual name by which to address the contact.
-   *(DOMString)*
+-  **nickname**: A casual name by which to address the contact. *(DOMString)*
 
--  **phoneNumbers**: An array of all the contact's phone numbers.
-   *(ContactField[])*
+-  **phoneNumbers**: An array of all the contact's phone numbers. *(ContactField[])*
 
--  **emails**: An array of all the contact's email addresses.
-   *(ContactField[])*
+-  **emails**: An array of all the contact's email addresses. *(ContactField[])*
 
--  **addresses**: An array of all the contact's addresses.
-   *(ContactAddress[])*
+-  **addresses**: An array of all the contact's addresses. *(ContactAddress[])*
 
--  **ims**: An array of all the contact's IM addresses.
-   *(ContactField[])*
+-  **ims**: An array of all the contact's IM addresses. *(ContactField[])*
 
--  **organizations**: An array of all the contact's organizations.
-   *(ContactOrganization[])*
+-  **organizations**: An array of all the contact's organizations. *(ContactOrganization[])*
 
 -  **birthday**: The birthday of the contact. *(Date)*
 
@@ -306,24 +246,18 @@ Properties
 
 -  **photos**: An array of the contact's photos. *(ContactField[])*
 
--  **categories**: An array of all the user-defined categories
-   associated with the contact. *(ContactField[])*
+-  **categories**: An array of all the user-defined categories associated with the contact. *(ContactField[])*
 
--  **urls**: An array of web pages associated with the contact.
-   *(ContactField[])*
+-  **urls**: An array of web pages associated with the contact. *(ContactField[])*
 
 Methods
 ~~~~~~~
 
--  **clone**: Returns a new ``Contact`` object that is a deep copy of
-   the calling object, with the ``id`` property set to ``null``.
+-  **clone**: Returns a new ``Contact`` object that is a deep copy of the calling object, with the ``id`` property set to ``null``.
 
--  **remove**: Removes the contact from the device contacts database,
-   otherwise executes an error callback with a ``ContactError`` object.
+-  **remove**: Removes the contact from the device contacts database, otherwise executes an error callback with a ``ContactError`` object.
 
--  **save**: Saves a new contact to the device contacts database, or
-   updates an existing contact if a contact with the same **id** already
-   exists.
+-  **save**: Saves a new contact to the device contacts database, or updates an existing contact if a contact with the same **id** already exists.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -394,8 +328,7 @@ Remove Example
 Android 2.X Quirks
 ~~~~~~~~~~~~~~~~~~
 
--  **categories**: Not supported on Android 2.X devices, returning
-   ``null``.
+-  **categories**: Not supported on Android 2.X devices, returning ``null``.
 
 BlackBerry 10 Quirks
 ~~~~~~~~~~~~~~~~~~~~
@@ -405,8 +338,7 @@ BlackBerry 10 Quirks
 FirefoxOS Quirks
 ~~~~~~~~~~~~~~~~
 
--  **categories**: Partially supported. Fields **pref** and **type** are
-   returning ``null``
+-  **categories**: Partially supported. Fields **pref** and **type** are returning ``null``
 
 -  **ims**: Not supported
 
@@ -415,45 +347,28 @@ FirefoxOS Quirks
 iOS Quirks
 ~~~~~~~~~~
 
--  **displayName**: Not supported on iOS, returning ``null`` unless
-   there is no ``ContactName`` specified, in which case it returns the
-   composite name, **nickname** or ``""``, respectively.
+-  **displayName**: Not supported on iOS, returning ``null`` unless there is no ``ContactName`` specified, in which case it returns the composite name, **nickname** or ``""``, respectively.
 
--  **birthday**: Must be input as a JavaScript ``Date`` object, the same
-   way it is returned.
+-  **birthday**: Must be input as a JavaScript ``Date`` object, the same way it is returned.
 
--  **photos**: Returns a File URL to the image, which is stored in the
-   application's temporary directory. Contents of the temporary
-   directory are removed when the application exits.
+-  **photos**: Returns a File URL to the image, which is stored in the application's temporary directory. Contents of the temporary directory are removed when the application exits.
 
--  **categories**: This property is currently not supported, returning
-   ``null``.
+-  **categories**: This property is currently not supported, returning ``null``.
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  **displayName**: When creating a contact, the value provided for the
-   display name parameter differs from the display name retrieved when
-   finding the contact.
+-  **displayName**: When creating a contact, the value provided for the display name parameter differs from the display name retrieved when finding the contact.
 
--  **urls**: When creating a contact, users can input and save more than
-   one web address, but only one is available when searching the
-   contact.
+-  **urls**: When creating a contact, users can input and save more than one web address, but only one is available when searching the contact.
 
--  **phoneNumbers**: The *pref* option is not supported. The *type* is
-   not supported in a *find* operation. Only one ``phoneNumber`` is
-   allowed for each *type*.
+-  **phoneNumbers**: The *pref* option is not supported. The *type* is not supported in a *find* operation. Only one ``phoneNumber`` is allowed for each *type*.
 
--  **emails**: The *pref* option is not supported. Home and personal
-   references same email entry. Only one entry is allowed for each
-   *type*.
+-  **emails**: The *pref* option is not supported. Home and personal references same email entry. Only one entry is allowed for each *type*.
 
--  **addresses**: Supports only work, and home/personal *type*. The home
-   and personal *type* reference the same address entry. Only one entry
-   is allowed for each *type*.
+-  **addresses**: Supports only work, and home/personal *type*. The home and personal *type* reference the same address entry. Only one entry is allowed for each *type*.
 
--  **organizations**: Only one is allowed, and does not support the
-   *pref*, *type*, and *department* attributes.
+-  **organizations**: Only one is allowed, and does not support the *pref*, *type*, and *department* attributes.
 
 -  **note**: Not supported, returning ``null``.
 
@@ -468,8 +383,7 @@ Windows Phone 8 Quirks
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  **photos**: Returns a File URL to the image, which is stored in the
-   application's temporary directory.
+-  **photos**: Returns a File URL to the image, which is stored in the application's temporary directory.
 
 -  **birthdays**: Not supported, returning ``null``.
 
@@ -480,18 +394,14 @@ Windows Quirks
 ContactAddress
 --------------
 
-The ``ContactAddress`` object stores the properties of a single address
-of a contact. A ``Contact`` object may include more than one address in
-a ``ContactAddress[]`` array.
+The ``ContactAddress`` object stores the properties of a single address of a contact. A ``Contact`` object may include more than one address in a ``ContactAddress[]`` array.
 
 Properties
 ~~~~~~~~~~
 
--  **pref**: Set to ``true`` if this ``ContactAddress`` contains the
-   user's preferred value. *(boolean)*
+-  **pref**: Set to ``true`` if this ``ContactAddress`` contains the user's preferred value. *(boolean)*
 
--  **type**: A string indicating what type of field this is, *home* for
-   example. *(DOMString)*
+-  **type**: A string indicating what type of field this is, *home* for example. *(DOMString)*
 
 -  **formatted**: The full address formatted for display. *(DOMString)*
 
@@ -559,14 +469,11 @@ BlackBerry 10 Quirks
 
 -  **pref**: Not supported on BlackBerry devices, returning ``false``.
 
--  **type**: Partially supported. Only one each of *Work* and *Home*
-   type addresses can be stored per contact.
+-  **type**: Partially supported. Only one each of *Work* and *Home* type addresses can be stored per contact.
 
--  **formatted**: Partially supported. Returns a concatenation of all
-   BlackBerry address fields.
+-  **formatted**: Partially supported. Returns a concatenation of all BlackBerry address fields.
 
--  **streetAddress**: Supported. Returns a concatenation of BlackBerry
-   **address1** and **address2** address fields.
+-  **streetAddress**: Supported. Returns a concatenation of BlackBerry **address1** and **address2** address fields.
 
 -  **locality**: Supported. Stored in BlackBerry **city** address field.
 
@@ -603,8 +510,7 @@ Windows Quirks
 ContactError
 ------------
 
-The ``ContactError`` object is returned to the user through the
-``contactError`` callback function when an error occurs.
+The ``ContactError`` object is returned to the user through the ``contactError`` callback function when an error occurs.
 
 Properties
 ~~~~~~~~~~
@@ -626,32 +532,18 @@ Constants
 ContactField
 ------------
 
-The ``ContactField`` object is a reusable component that represents
-contact fields generically. Each ``ContactField`` object contains a
-``value``, ``type``, and ``pref`` property. A ``Contact`` object stores
-several properties in ``ContactField[]`` arrays, such as phone numbers
-and email addresses.
+The ``ContactField`` object is a reusable component that represents contact fields generically. Each ``ContactField`` object contains a ``value``, ``type``, and ``pref`` property. A ``Contact`` object stores several properties in ``ContactField[]`` arrays, such as phone numbers and email addresses.
 
-In most instances, there are no pre-determined values for a
-``ContactField`` object's **type** attribute. For example, a phone
-number can specify **type** values of *home*, *work*, *mobile*,
-*iPhone*, or any other value that is supported by a particular device
-platform's contact database. However, for the ``Contact`` **photos**
-field, the **type** field indicates the format of the returned image:
-**url** when the **value** attribute contains a URL to the photo image,
-or *base64* when the **value** contains a base64-encoded image string.
+In most instances, there are no pre-determined values for a ``ContactField`` object's **type** attribute. For example, a phone number can specify **type** values of *home*, *work*, *mobile*, *iPhone*, or any other value that is supported by a particular device platform's contact database. However, for the ``Contact`` **photos** field, the **type** field indicates the format of the returned image: **url** when the **value** attribute contains a URL to the photo image, or *base64* when the **value** contains a base64-encoded image string.
 
 Properties
 ~~~~~~~~~~
 
--  **type**: A string that indicates what type of field this is, *home*
-   for example. *(DOMString)*
+-  **type**: A string that indicates what type of field this is, *home* for example. *(DOMString)*
 
--  **value**: The value of the field, such as a phone number or email
-   address. *(DOMString)*
+-  **value**: The value of the field, such as a phone number or email address. *(DOMString)*
 
--  **pref**: Set to ``true`` if this ``ContactField`` contains the
-   user's preferred value. *(boolean)*
+-  **pref**: Set to ``true`` if this ``ContactField`` contains the user's preferred value. *(boolean)*
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -715,8 +607,7 @@ Windows Quirks
 ContactName
 -----------
 
-Contains different kinds of information about a ``Contact`` object's
-name.
+Contains different kinds of information about a ``Contact`` object's name.
 
 Properties
 ~~~~~~~~~~
@@ -729,11 +620,9 @@ Properties
 
 -  **middleName**: The contact's middle name. *(DOMString)*
 
--  **honorificPrefix**: The contact's prefix (example *Mr.* or *Dr.*)
-   *(DOMString)*
+-  **honorificPrefix**: The contact's prefix (example *Mr.* or *Dr.*) *(DOMString)*
 
--  **honorificSuffix**: The contact's suffix (example *Esq.*).
-   *(DOMString)*
+-  **honorificSuffix**: The contact's suffix (example *Esq.*). *(DOMString)*
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -775,15 +664,12 @@ Example
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  **formatted**: Partially supported, and read-only. Returns a
-   concatenation of ``honorificPrefix``, ``givenName``, ``middleName``,
-   ``familyName``, and ``honorificSuffix``.
+-  **formatted**: Partially supported, and read-only. Returns a concatenation of ``honorificPrefix``, ``givenName``, ``middleName``, ``familyName``, and ``honorificSuffix``.
 
 BlackBerry 10 Quirks
 ~~~~~~~~~~~~~~~~~~~~
 
--  **formatted**: Partially supported. Returns a concatenation of
-   BlackBerry **firstName** and **lastName** fields.
+-  **formatted**: Partially supported. Returns a concatenation of BlackBerry **firstName** and **lastName** fields.
 
 -  **familyName**: Supported. Stored in BlackBerry **lastName** field.
 
@@ -798,21 +684,17 @@ BlackBerry 10 Quirks
 FirefoxOS Quirks
 ~~~~~~~~~~~~~~~~
 
--  **formatted**: Partially supported, and read-only. Returns a
-   concatenation of ``honorificPrefix``, ``givenName``, ``middleName``,
-   ``familyName``, and ``honorificSuffix``.
+-  **formatted**: Partially supported, and read-only. Returns a concatenation of ``honorificPrefix``, ``givenName``, ``middleName``, ``familyName``, and ``honorificSuffix``.
 
 iOS Quirks
 ~~~~~~~~~~
 
--  **formatted**: Partially supported. Returns iOS Composite Name, but
-   is read-only.
+-  **formatted**: Partially supported. Returns iOS Composite Name, but is read-only.
 
 Windows 8 Quirks
 ~~~~~~~~~~~~~~~~
 
--  **formatted**: This is the only name property, and is identical to
-   ``displayName``, and ``nickname``
+-  **formatted**: This is the only name property, and is identical to ``displayName``, and ``nickname``
 
 -  **familyName**: not supported
 
@@ -832,18 +714,14 @@ Windows Quirks
 ContactOrganization
 -------------------
 
-The ``ContactOrganization`` object stores a contact's organization
-properties. A ``Contact`` object stores one or more
-``ContactOrganization`` objects in an array.
+The ``ContactOrganization`` object stores a contact's organization properties. A ``Contact`` object stores one or more ``ContactOrganization`` objects in an array.
 
 Properties
 ~~~~~~~~~~
 
--  **pref**: Set to ``true`` if this ``ContactOrganization`` contains
-   the user's preferred value. *(boolean)*
+-  **pref**: Set to ``true`` if this ``ContactOrganization`` contains the user's preferred value. *(boolean)*
 
--  **type**: A string that indicates what type of field this is, *home*
-   for example. \_(DOMString)
+-  **type**: A string that indicates what type of field this is, *home* for example. \_(DOMString)
 
 -  **name**: The name of the organization. *(DOMString)*
 
@@ -899,13 +777,11 @@ BlackBerry 10 Quirks
 
 -  **type**: Not supported by BlackBerry devices, returning ``null``.
 
--  **name**: Partially supported. The first organization name is stored
-   in the BlackBerry **company** field.
+-  **name**: Partially supported. The first organization name is stored in the BlackBerry **company** field.
 
 -  **department**: Not supported, returning ``null``.
 
--  **title**: Partially supported. The first organization title is
-   stored in the BlackBerry **jobTitle** field.
+-  **title**: Partially supported. The first organization title is stored in the BlackBerry **jobTitle** field.
 
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
@@ -925,14 +801,11 @@ iOS Quirks
 
 -  **type**: Not supported on iOS devices, returning ``null``.
 
--  **name**: Partially supported. The first organization name is stored
-   in the iOS **kABPersonOrganizationProperty** field.
+-  **name**: Partially supported. The first organization name is stored in the iOS **kABPersonOrganizationProperty** field.
 
--  **department**: Partially supported. The first department name is
-   stored in the iOS **kABPersonDepartmentProperty** field.
+-  **department**: Partially supported. The first department name is stored in the iOS **kABPersonDepartmentProperty** field.
 
--  **title**: Partially supported. The first title is stored in the iOS
-   **kABPersonJobTitleProperty** field.
+-  **title**: Partially supported. The first title is stored in the iOS **kABPersonJobTitleProperty** field.
 
 Windows Quirks
 ~~~~~~~~~~~~~~

@@ -42,19 +42,15 @@ In order to use this plugin, please enable ``org.apache.cordova.battery-status``
 batterystatus
 -------------
 
-This event fires when the percentage of battery charge changes by at
-least 1 percent, or if the device is plugged in or unplugged.
+This event fires when the percentage of battery charge changes by at least 1 percent, or if the device is plugged in or unplugged.
 
-The battery status handler is passed an object that contains two
-properties:
+The battery status handler is passed an object that contains two properties:
 
 -  **level**: The percentage of battery charge (0-100). *(Number)*
 
--  **isPlugged**: A boolean that indicates whether the device is plugged
-   in. *(Boolean)*
+-  **isPlugged**: A boolean that indicates whether the device is plugged in. *(Boolean)*
 
-Applications typically should use ``window.addEventListener`` to attach
-an event listener once the ``deviceready`` event fires. e.g.:
+Applications typically should use ``window.addEventListener`` to attach an event listener once the ``deviceready`` event fires. e.g.:
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~

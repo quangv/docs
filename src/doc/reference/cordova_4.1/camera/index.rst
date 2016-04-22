@@ -37,12 +37,9 @@ Camera Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-camera>`_.
 
-This plugin defines a global ``navigator.camera`` object, which provides
-an API for taking pictures and for choosing images from the system's
-image library.
+This plugin defines a global ``navigator.camera`` object, which provides an API for taking pictures and for choosing images from the system's image library.
 
-Although the object is attached to the global scoped ``navigator``, it
-is not available until after the ``deviceready`` event.
+Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 
@@ -67,11 +64,7 @@ In order to use this plugin, please enable ``org.apache.cordova.camera`` plugin 
 navigator.camera.getPicture
 ---------------------------
 
-Takes a photo using the camera, or retrieves a photo from the device's
-image gallery. The image is passed to the success callback as a
-base64-encoded ``String``, or as the URI for the image file. The method
-itself returns a ``CameraPopoverHandle`` object that can be used to
-reposition the file selection popover.
+Takes a photo using the camera, or retrieves a photo from the device's image gallery. The image is passed to the success callback as a base64-encoded ``String``, or as the URI for the image file. The method itself returns a ``CameraPopoverHandle`` object that can be used to reposition the file selection popover.
 
 ::
 
@@ -80,42 +73,25 @@ reposition the file selection popover.
 Description
 ~~~~~~~~~~~
 
-The ``camera.getPicture`` function opens the device's default camera
-application that allows users to snap pictures. This behavior occurs by
-default, when ``Camera.sourceType`` equals
-``Camera.PictureSourceType.CAMERA``. Once the user snaps the photo, the
-camera application closes and the application is restored.
+The ``camera.getPicture`` function opens the device's default camera application that allows users to snap pictures. This behavior occurs by default, when ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA``. Once the user snaps the photo, the camera application closes and the application is restored.
 
-If ``Camera.sourceType`` is ``Camera.PictureSourceType.PHOTOLIBRARY`` or
-``Camera.PictureSourceType.SAVEDPHOTOALBUM``, then a dialog displays
-that allows users to select an existing image. The ``camera.getPicture``
-function returns a ``CameraPopoverHandle`` object, which can be used to
-reposition the image selection dialog, for example, when the device
-orientation changes.
+If ``Camera.sourceType`` is ``Camera.PictureSourceType.PHOTOLIBRARY`` or ``Camera.PictureSourceType.SAVEDPHOTOALBUM``, then a dialog displays that allows users to select an existing image. The ``camera.getPicture`` function returns a ``CameraPopoverHandle`` object, which can be used to reposition the image selection dialog, for example, when the device orientation changes.
 
-The return value is sent to the ``cameraSuccess`` callback function, in
-one of the following formats, depending on the specified
-``cameraOptions``:
+The return value is sent to the ``cameraSuccess`` callback function, in one of the following formats, depending on the specified ``cameraOptions``:
 
 -  A ``String`` containing the base64-encoded photo image.
 
--  A ``String`` representing the image file location on local storage
-   (default).
+-  A ``String`` representing the image file location on local storage (default).
 
 You can do whatever you want with the encoded image or URI, for example:
 
 -  Render the image in an ``<img>`` tag, as in the example below
 
--  Save the data locally (``LocalStorage``,
-   `Lawnchair <http://brianleroux.github.com/lawnchair/>`__, etc.)
+-  Save the data locally (``LocalStorage``, `Lawnchair <http://brianleroux.github.com/lawnchair/>`__, etc.)
 
 -  Post the data to a remote server
 
-**NOTE**: Photo resolution on newer devices is quite good. Photos
-selected from the device's gallery are not downscaled to a lower
-quality, even if a ``quality`` parameter is specified. To avoid common
-memory problems, set ``Camera.destinationType`` to ``FILE_URI`` rather
-than ``DATA_URL``.
+**NOTE**: Photo resolution on newer devices is quite good. Photos selected from the device's gallery are not downscaled to a lower quality, even if a ``quality`` parameter is specified. To avoid common memory problems, set ``Camera.destinationType`` to ``FILE_URI`` rather than ``DATA_URL``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -127,9 +103,7 @@ Supported Platforms
 Preferences (iOS)
 ~~~~~~~~~~~~~~~~~
 
--  **CameraUsesGeolocation** (boolean, defaults to false). For capturing
-   JPEGs, set to true to get geolocation data in the EXIF header. This
-   will trigger a request for geolocation permissions if set to true.
+-  **CameraUsesGeolocation** (boolean, defaults to false). For capturing JPEGs, set to true to get geolocation data in the EXIF header. This will trigger a request for geolocation permissions if set to true.
 
    ::
 
@@ -138,26 +112,17 @@ Preferences (iOS)
 Amazon Fire OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~
 
-Amazon Fire OS uses intents to launch the camera activity on the device
-to capture images, and on phones with low memory, the Cordova activity
-may be killed. In this scenario, the image may not appear when the
-cordova activity is restored.
+Amazon Fire OS uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the cordova activity is restored.
 
 Android Quirks
 ~~~~~~~~~~~~~~
 
-Android uses intents to launch the camera activity on the device to
-capture images, and on phones with low memory, the Cordova activity may
-be killed. In this scenario, the image may not appear when the Cordova
-activity is restored.
+Android uses intents to launch the camera activity on the device to capture images, and on phones with low memory, the Cordova activity may be killed. In this scenario, the image may not appear when the Cordova activity is restored.
 
 iOS Quirks
 ~~~~~~~~~~
 
-Including a JavaScript ``alert()`` in either of the callback functions
-can cause problems. Wrap the alert within a ``setTimeout()`` to allow
-the iOS image picker or popover to fully close before the alert
-displays:
+Including a JavaScript ``alert()`` in either of the callback functions can cause problems. Wrap the alert within a ``setTimeout()`` to allow the iOS image picker or popover to fully close before the alert displays:
 
 ::
 
@@ -221,14 +186,9 @@ Optional parameters to customize the camera settings.
 Options
 ~~~~~~~
 
--  **quality**: Quality of the saved image, expressed as a range of
-   0-100, where 100 is typically full resolution with no loss from file
-   compression. The default is 50. *(Number)* (Note that information
-   about the camera's resolution is unavailable.)
+-  **quality**: Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no loss from file compression. The default is 50. *(Number)* (Note that information about the camera's resolution is unavailable.)
 
--  **destinationType**: Choose the format of the return value. The
-   default is FILE\_URI. Defined in ``navigator.camera.DestinationType``
-   *(Number)*
+-  **destinationType**: Choose the format of the return value. The default is FILE\_URI. Defined in ``navigator.camera.DestinationType`` *(Number)*
 
    ::
 
@@ -238,8 +198,7 @@ Options
            NATIVE_URI : 2     // Return image native URI (e.g., assets-library:// on iOS or content:// on Android)
        };
 
--  **sourceType**: Set the source of the picture. The default is CAMERA.
-   Defined in ``navigator.camera.PictureSourceType`` *(Number)*
+-  **sourceType**: Set the source of the picture. The default is CAMERA. Defined in ``navigator.camera.PictureSourceType`` *(Number)*
 
    ::
 
@@ -249,11 +208,9 @@ Options
            SAVEDPHOTOALBUM : 2
        };
 
--  **allowEdit**: Allow simple editing of image before selection.
-   *(Boolean)*
+-  **allowEdit**: Allow simple editing of image before selection. *(Boolean)*
 
--  **encodingType**: Choose the returned image file's encoding. Default
-   is JPEG. Defined in ``navigator.camera.EncodingType`` *(Number)*
+-  **encodingType**: Choose the returned image file's encoding. Default is JPEG. Defined in ``navigator.camera.EncodingType`` *(Number)*
 
    ::
 
@@ -262,15 +219,11 @@ Options
            PNG : 1                 // Return PNG encoded image
        };
 
--  **targetWidth**: Width in pixels to scale image. Must be used with
-   **targetHeight**. Aspect ratio remains constant. *(Number)*
+-  **targetWidth**: Width in pixels to scale image. Must be used with **targetHeight**. Aspect ratio remains constant. *(Number)*
 
--  **targetHeight**: Height in pixels to scale image. Must be used with
-   **targetWidth**. Aspect ratio remains constant. *(Number)*
+-  **targetHeight**: Height in pixels to scale image. Must be used with **targetWidth**. Aspect ratio remains constant. *(Number)*
 
--  **mediaType**: Set the type of media to select from. Only works when
-   ``PictureSourceType`` is ``PHOTOLIBRARY`` or ``SAVEDPHOTOALBUM``.
-   Defined in ``nagivator.camera.MediaType`` *(Number)*
+-  **mediaType**: Set the type of media to select from. Only works when ``PictureSourceType`` is ``PHOTOLIBRARY`` or ``SAVEDPHOTOALBUM``. Defined in ``nagivator.camera.MediaType`` *(Number)*
 
    ::
 
@@ -280,18 +233,13 @@ Options
            ALLMEDIA : 2   // allow selection from all media types
        };
 
--  **correctOrientation**: Rotate the image to correct for the
-   orientation of the device during capture. *(Boolean)*
+-  **correctOrientation**: Rotate the image to correct for the orientation of the device during capture. *(Boolean)*
 
--  **saveToPhotoAlbum**: Save the image to the photo album on the device
-   after capture. *(Boolean)*
+-  **saveToPhotoAlbum**: Save the image to the photo album on the device after capture. *(Boolean)*
 
--  **popoverOptions**: iOS-only options that specify popover location in
-   iPad. Defined in ``CameraPopoverOptions``.
+-  \**popoverOptions**: iOS-only options that specify popover location in iPad. Defined in ``CameraPopoverOptions``.
 
--  **cameraDirection**: Choose the camera to use (front- or
-   back-facing). The default is BACK. Defined in
-   ``navigator.camera.Direction`` *(Number)*
+-  **cameraDirection**: Choose the camera to use (front- or back-facing). The default is BACK. Defined in ``navigator.camera.Direction`` *(Number)*
 
    ::
 
@@ -327,9 +275,7 @@ iOS Quirks
 
 -  Set ``quality`` below 50 to avoid memory errors on some devices.
 
--  When using ``destinationType.FILE_URI``, photos are saved in the
-   application's temporary directory. The contents of the application's
-   temporary directory is deleted when the application ends.
+-  When using ``destinationType.FILE_URI``, photos are saved in the application's temporary directory. The contents of the application's temporary directory is deleted when the application ends.
 
 CameraError
 -----------
@@ -345,8 +291,7 @@ onError callback function that provides an error message.
 Parameters
 ~~~~~~~~~~
 
--  **message**: The message is provided by the device's native code.
-   *(String)*
+-  **message**: The message is provided by the device's native code. *(String)*
 
 cameraSuccess
 -------------

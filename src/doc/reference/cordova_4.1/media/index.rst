@@ -82,7 +82,7 @@ Windows Phone Quirks
 
 -  There are strict restrictions on how your application interacts with
    other media. See the `Microsoft documentation for
-   details <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh184838(v=vs.92).aspx>`__.
+   details <https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx>`__.
 
 Media
 -----
