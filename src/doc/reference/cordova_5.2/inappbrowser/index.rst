@@ -245,7 +245,7 @@ Methods
 addEventListener
 ----------------
 
-    Adds a listener for an event from the ``InAppBrowser``.
+Adds a listener for an event from the ``InAppBrowser``.
 
 ::
 
@@ -345,7 +345,7 @@ Quick Example
 close
 -----
 
-    Closes the ``InAppBrowser`` window.
+Closes the ``InAppBrowser`` window.
 
 ::
 
@@ -375,7 +375,7 @@ Quick Example
 show
 ----
 
-    Displays an InAppBrowser window that was opened hidden. Calling this has no effect if the InAppBrowser was already visible.
+Displays an InAppBrowser window that was opened hidden. Calling this has no effect if the InAppBrowser was already visible.
 
 ::
 
@@ -404,7 +404,7 @@ Quick Example
 executeScript
 -------------
 
-    Injects JavaScript code into the ``InAppBrowser`` window
+Injects JavaScript code into the ``InAppBrowser`` window
 
 ::
 
@@ -454,7 +454,7 @@ Due to `MSDN docs <https://msdn.microsoft.com/en-us/library/windows.ui.xaml.cont
 insertCSS
 ---------
 
-    Injects CSS into the ``InAppBrowser`` window.
+Injects CSS into the ``InAppBrowser`` window.
 
 ::
 

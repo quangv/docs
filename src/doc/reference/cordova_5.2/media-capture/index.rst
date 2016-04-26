@@ -115,8 +115,7 @@ Properties
 capture.captureAudio
 --------------------
 
-    Start the audio recorder application and return information about
-    captured audio clip files.
+Start the audio recorder application and return information about captured audio clip files.
 
 ::
 
@@ -179,7 +178,7 @@ Windows Phone 7 and 8 Quirks
 CaptureAudioOptions
 -------------------
 
-    Encapsulates audio capture configuration options.
+Encapsulates audio capture configuration options.
 
 Properties
 ~~~~~~~~~~
@@ -223,8 +222,7 @@ iOS Quirks
 capture.captureImage
 --------------------
 
-    Start the camera application and return information about captured
-    image files.
+Start the camera application and return information about captured image files.
 
 ::
 
@@ -290,7 +288,7 @@ Example
 CaptureImageOptions
 -------------------
 
-    Encapsulates image capture configuration options.
+Encapsulates image capture configuration options.
 
 Properties
 ~~~~~~~~~~
@@ -315,8 +313,7 @@ iOS Quirks
 capture.captureVideo
 --------------------
 
-    Start the video recorder application and return information about
-    captured video clip files.
+Start the video recorder application and return information about captured video clip files.
 
 ::
 
@@ -374,7 +371,7 @@ BlackBerry 10 Quirks
 CaptureVideoOptions
 -------------------
 
-    Encapsulates video capture configuration options.
+Encapsulates video capture configuration options.
 
 Properties
 ~~~~~~~~~~
@@ -420,7 +417,7 @@ Example ( Android w/ quality )
 CaptureCB
 ---------
 
-    Invoked upon a successful media capture operation.
+Invoked upon a successful media capture operation.
 
 ::
 
@@ -450,8 +447,7 @@ Example
 CaptureError
 ------------
 
-    Encapsulates the error code resulting from a failed media capture
-    operation.
+Encapsulates the error code resulting from a failed media capture operation.
 
 Properties
 ~~~~~~~~~~
@@ -474,7 +470,7 @@ Constants
 CaptureErrorCB
 --------------
 
-    Invoked if an error occurs during a media capture operation.
+Invoked if an error occurs during a media capture operation.
 
 ::
 
@@ -500,8 +496,7 @@ Example
 ConfigurationData
 -----------------
 
-    Encapsulates a set of media capture parameters that a device
-    supports.
+Encapsulates a set of media capture parameters that a device supports.
 
 Description
 ~~~~~~~~~~~
@@ -548,7 +543,7 @@ Not supported by any platform. All configuration data arrays are empty.
 MediaFile.getFormatData
 -----------------------
 
-    Retrieves format information about the media capture file.
+Retrieves format information about the media capture file.
 
 ::
 
@@ -596,7 +591,7 @@ The API to access media file format information is limited, so not all ``MediaFi
 MediaFile
 ---------
 
-    Encapsulates properties of a media capture file.
+Encapsulates properties of a media capture file.
 
 Properties
 ~~~~~~~~~~
@@ -619,7 +614,7 @@ Methods
 MediaFileData
 -------------
 
-    Encapsulates format information about a media file.
+Encapsulates format information about a media file.
 
 Properties
 ~~~~~~~~~~

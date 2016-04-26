@@ -58,7 +58,6 @@ Plugin ID
   
   cordova-plugin-contacts
 
-
 Adding the Plugin in Monaca
 =========================================
 
@@ -124,6 +123,7 @@ The **contactFindOptions.filter** string can be used as a search filter when que
 
 Parameters
 ~~~~~~~~~~
+
 
 -  **contactFields**: Contact fields to use as a search qualifier. *(DOMString[])* [Required]
 

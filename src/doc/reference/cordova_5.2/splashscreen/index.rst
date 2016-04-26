@@ -72,25 +72,26 @@ Preferences
 -----------
 
 config.xml
-~~~~~~~~~~~~~~
+~~~~~~~~~~
+
 
 -  **SplashScreen** (string). The resource name which is used for the displaying splash screen. Different platforms use values for this.
 
-   ::
+::
 
-       <preference name="SplashScreen" value="resourcename" />
+    <preference name="SplashScreen" value="resourcename" />
 
 -  **AutoHideSplashScreen** (boolean, default to ``true``). Indicates wherether hide splash screen automatically or not. Splash screen hidden after amount of time specified in the ``SplashScreenDelay`` preference.
 
-   ::
+::
 
-       <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="AutoHideSplashScreen" value="true" />
 
 -  **SplashScreenDelay** (number, default to 3000). Amount of time in milliseconds to wait before automatically hide splash screen.
 
-   ::
+::
 
-       <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="3000" />
 
 Android Quirks
 ~~~~~~~~~~~~~~
@@ -128,25 +129,26 @@ You can use the following preferences in your ``config.xml``:
 iOS Quirks
 ~~~~~~~~~~
 
+
 -  ``FadeSplashScreen`` (boolean, defaults to ``true``): Set to ``false`` to prevent the splash screen from fading in and out when its display state changes.
 
-   ::
+::
 
-       <preference name="FadeSplashScreen" value="false"/>
+    <preference name="FadeSplashScreen" value="false"/>
 
 -  ``FadeSplashScreenDuration`` (float, defaults to ``3000``): Specifies the number of milliseconds for the splash screen fade effect to execute.
 
-   ::
+::
 
-       <preference name="FadeSplashScreenDuration" value="3000"/>
+    <preference name="FadeSplashScreenDuration" value="3000"/>
 
 Note also that this value used to be seconds, and not milliseconds, so values less than 30 will still be treated as seconds. ( Consider this a deprecated patch that will disapear in some future version. )
 
 -  ``ShowSplashScreenSpinner`` (boolean, defaults to ``true``): Set to ``false`` to hide the splash-screen spinner.
 
-   ::
+::
 
-       <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="ShowSplashScreenSpinner" value="false"/>
 
 Methods
 -------
@@ -170,9 +172,9 @@ The ``config.xml`` file's ``AutoHideSplashScreen`` setting must be ``false``. To
 
 ::
 
-        setTimeout(function() {
-            navigator.splashscreen.hide();
-        }, 2000);
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 2000);
 
 splashscreen.show
 -----------------

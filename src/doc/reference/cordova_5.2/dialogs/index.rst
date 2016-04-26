@@ -124,7 +124,8 @@ Supported Platforms
 Windows Phone 7 and 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  There is no built-in browser alert, but you can bind one as follows to call ``alert()`` in the global scope:
+
+There is no built-in browser alert, but you can bind one as follows to call ``alert()`` in the global scope:
 
    ::
 
@@ -198,7 +199,7 @@ Supported Platforms
 Windows Phone 7 and 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  There is no built-in browser function for ``window.confirm``, but you can bind it by assigning:
+There is no built-in browser function for ``window.confirm``, but you can bind it by assigning:
 
    ::
 

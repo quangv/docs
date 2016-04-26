@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-04-22 12:49+0000\n"
+"PO-Revision-Date: 2016-04-26 11:57+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -464,6 +464,7 @@ msgstr "ユーザー側に表示するバージョン番号です。"
 #: ..\doc\reference\config\android_configuration.rst:273
 #: ..\doc\reference\config\android_configuration.rst:300
 #: ..\doc\reference\cordova_5.2\file\index.rst:239
+#: ..\doc\reference\cordova_5.2\file\index.rst:303
 #: ..\doc\reference\monaca_api\cloud\collection.rst:185
 #: ..\doc\reference\monaca_api\cloud\other.rst:112
 #: ..\doc\reference\monaca_api\cloud\user.rst:326
@@ -1227,16 +1228,16 @@ msgstr "カテゴリー名です。"
 
 #: ..\doc\reference\config\android_configuration.rst:588
 #: ..\doc\reference\config\ios_configuration.rst:452
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:220
-#: ..\doc\reference\cordova_5.2\camera\index.rst:641
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:224
+#: ..\doc\reference\cordova_5.2\camera\index.rst:648
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:820
 #: ..\doc\reference\cordova_5.2\crosswalk\index.rst:109
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:226
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:275
 #: ..\doc\reference\cordova_5.2\device\index.rst:320
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:351
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:352
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:385
-#: ..\doc\reference\cordova_5.2\file\index.rst:475
+#: ..\doc\reference\cordova_5.2\file\index.rst:479
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:328
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:1031
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:495
@@ -2193,12 +2194,12 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:319
 #: ..\doc\reference\cordova_4.1\vibration\index.rst:55
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:80
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:138
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:185
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:140
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:188
 #: ..\doc\reference\cordova_5.2\camera\index.rst:96
 #: ..\doc\reference\cordova_5.2\camera\index.rst:143
 #: ..\doc\reference\cordova_5.2\camera\index.rst:434
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:101
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:100
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:147
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:196
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:263
@@ -2217,9 +2218,9 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ..\doc\reference\cordova_5.2\device\index.rst:295
 #: ..\doc\reference\cordova_5.2\device\index.rst:312
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:112
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:186
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:269
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:316
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:187
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:270
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:317
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:69
 #: ..\doc\reference\cordova_5.2\file\index.rst:79
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:72
@@ -2398,11 +2399,11 @@ msgstr "サポート対象のプラットフォーム"
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:290
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:305
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:322
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:84
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:142
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:189
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:85
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:145
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:193
 #: ..\doc\reference\cordova_5.2\camera\index.rst:98
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:103
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:102
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:149
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:198
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:266
@@ -2418,12 +2419,12 @@ msgstr "サポート対象のプラットフォーム"
 #: ..\doc\reference\cordova_5.2\device\index.rst:207
 #: ..\doc\reference\cordova_5.2\device\index.rst:314
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:115
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:189
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:272
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:319
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:190
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:273
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:320
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:72
 #: ..\doc\reference\cordova_5.2\file\index.rst:82
-#: ..\doc\reference\cordova_5.2\file\index.rst:441
+#: ..\doc\reference\cordova_5.2\file\index.rst:445
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:75
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:111
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:174
@@ -2608,13 +2609,13 @@ msgstr "Android"
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:289
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:304
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:321
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:83
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:141
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:188
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:84
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:144
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:192
 #: ..\doc\reference\cordova_5.2\camera\index.rst:103
 #: ..\doc\reference\cordova_5.2\camera\index.rst:145
 #: ..\doc\reference\cordova_5.2\camera\index.rst:436
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:106
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:105
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:152
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:199
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:269
@@ -2631,12 +2632,12 @@ msgstr "Android"
 #: ..\doc\reference\cordova_5.2\device\index.rst:260
 #: ..\doc\reference\cordova_5.2\device\index.rst:298
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:118
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:192
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:274
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:321
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:193
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:275
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:322
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:76
 #: ..\doc\reference\cordova_5.2\file\index.rst:85
-#: ..\doc\reference\cordova_5.2\file\index.rst:458
+#: ..\doc\reference\cordova_5.2\file\index.rst:462
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:78
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:114
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:177
@@ -2713,7 +2714,7 @@ msgstr "iOS"
 #: ..\doc\reference\cordova_4.1\media\index.rst:122
 #: ..\doc\reference\cordova_4.1\splashscreen\index.rst:66
 #: ..\doc\reference\cordova_4.1\statusbar\index.rst:104
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:75
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:74
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:254
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:86
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:89
@@ -2760,7 +2761,7 @@ msgstr "navigator.accelerometer.clearWatch"
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:92
 #: ..\doc\reference\cordova_4.1\globalization\index.rst:64
 #: ..\doc\reference\cordova_4.1\media-capture\index.rst:77
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:82
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:81
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:93
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:71
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:86
@@ -2888,15 +2889,15 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ..\doc\reference\cordova_4.1\media-capture\index.rst:525
 #: ..\doc\reference\cordova_4.1\vibration\index.rst:75
 #: ..\doc\reference\cordova_4.1\vibration\index.rst:109
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:113
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:155
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:202
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:115
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:158
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:206
 #: ..\doc\reference\cordova_5.2\camera\index.rst:128
 #: ..\doc\reference\cordova_5.2\camera\index.rst:153
 #: ..\doc\reference\cordova_5.2\camera\index.rst:205
 #: ..\doc\reference\cordova_5.2\camera\index.rst:439
 #: ..\doc\reference\cordova_5.2\camera\index.rst:463
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:110
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:109
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:157
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:205
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:431
@@ -2910,9 +2911,9 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:136
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:202
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:96
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:170
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:252
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:308
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:171
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:253
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:309
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:140
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:257
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:302
@@ -3037,7 +3038,7 @@ msgstr "例"
 #: ..\doc\reference\cordova_4.1\media\index.rst:490
 #: ..\doc\reference\cordova_4.1\vibration\index.rst:83
 #: ..\doc\reference\cordova_5.2\camera\index.rst:534
-#: ..\doc\reference\cordova_5.2\camera\index.rst:612
+#: ..\doc\reference\cordova_5.2\camera\index.rst:616
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:348
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:494
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:593
@@ -3296,7 +3297,7 @@ msgstr "batterystatus"
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:44
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:96
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:46
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:125
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:127
 msgid "batterycritical"
 msgstr "batterycritical"
 
@@ -3306,7 +3307,7 @@ msgstr "batterycritical"
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:45
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:132
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:47
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:172
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:175
 msgid "batterylow"
 msgstr "batterylow"
 
@@ -3340,8 +3341,8 @@ msgstr "batterystatus ハンドラーには、次の 2 つのプロパティー�
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:104
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:140
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:73
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:131
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:178
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:133
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:181
 msgid "**level**: The percentage of battery charge (0-100). *(Number)*"
 msgstr "**level**: バッテリー残量を示すパーセンテージ ( 0-100 ) *(Number)*"
 
@@ -3352,8 +3353,8 @@ msgstr "**level**: バッテリー残量を示すパーセンテージ ( 0-100 )
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:106
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:142
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:75
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:133
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:180
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:135
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:183
 msgid ""
 "**isPlugged**: A boolean that indicates whether the device is plugged in. "
 "*(Boolean)*"
@@ -3367,7 +3368,7 @@ msgstr "``deviceready`` イベントが発火した後にイベントリスナ�
 
 #: ..\doc\reference\cordova_3.5\battery-status\index.rst:76
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:98
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:127
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:129
 msgid ""
 "The event fires when the percentage of battery charge has reached the "
 "critical battery threshold. The value is device-specific."
@@ -3375,7 +3376,7 @@ msgstr "バッテリー残量が非常に少なくなった場合に、このイ
 
 #: ..\doc\reference\cordova_3.5\battery-status\index.rst:79
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:101
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:129
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:131
 msgid ""
 "The ``batterycritical`` handler is passed an object that contains two "
 "properties:"
@@ -3385,8 +3386,8 @@ msgstr "``batterycritical`` ハンドラーには、次の 2 つのプロパテ�
 #: ..\doc\reference\cordova_3.5\battery-status\index.rst:122
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:109
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:145
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:135
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:182
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:137
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:185
 msgid ""
 "Applications typically should use ``window.addEventListener`` to attach an "
 "event listener once the ``deviceready`` event fires."
@@ -3394,7 +3395,7 @@ msgstr "原則、イベントリスナーの登録には、 ``window.addEventLis
 
 #: ..\doc\reference\cordova_3.5\battery-status\index.rst:111
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:134
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:174
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:177
 msgid ""
 "The event fires when the percentage of battery charge has reached the low "
 "battery threshold, device-specific value."
@@ -3402,7 +3403,7 @@ msgstr "バッテリー残量が少なくなった場合に、このイベント
 
 #: ..\doc\reference\cordova_3.5\battery-status\index.rst:114
 #: ..\doc\reference\cordova_4.1\battery-status\index.rst:137
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:176
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:179
 msgid ""
 "The ``batterylow`` handler is passed an object that contains two properties:"
 msgstr "``batterylow`` ハンドラーには、次の 2 つのプロパティーを格納したオブジェクトが渡されます。"
@@ -3418,7 +3419,7 @@ msgid ""
 "This document is based on the original Cordova docs available at `Cordova "
 "Docs <https://github.com/apache/cordova-plugin-"
 "camera/blob/master/README.md>`_."
-msgstr ""
+msgstr "このプラグインの詳細は、`こちら ( GitHub ) <https://github.com/apache/cordova-plugin-camera/blob/master/README.md>`_ をご確認ください。"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:19
 msgid ""
@@ -3510,7 +3511,7 @@ msgstr "``<img>`` タグ内への画像のレンダリング ( このページ�
 msgid ""
 "Save the data locally (``LocalStorage``, `Lawnchair "
 "<http://brianleroux.github.com/lawnchair/>`_, etc.)"
-msgstr ""
+msgstr "ローカルへのデータの保存 ( ``LocalStorage``、`Lawnchair <http://brianleroux.github.com/lawnchair/>`__ など )"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:62
 #: ..\doc\reference\cordova_4.1\camera\index.rst:92
@@ -3565,15 +3566,15 @@ msgstr "**注意** : 最新の端末で撮影した写真の解像度は、高�
 #: ..\doc\reference\cordova_4.1\media\index.rst:479
 #: ..\doc\reference\cordova_4.1\splashscreen\index.rst:72
 #: ..\doc\reference\cordova_5.2\camera\index.rst:517
-#: ..\doc\reference\cordova_5.2\camera\index.rst:567
+#: ..\doc\reference\cordova_5.2\camera\index.rst:568
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:579
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:665
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:132
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:171
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:236
 #: ..\doc\reference\cordova_5.2\device\index.rst:129
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:280
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:332
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:281
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:333
 #: ..\doc\reference\cordova_5.2\file\index.rst:129
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:221
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:293
@@ -3605,7 +3606,7 @@ msgid ""
 "/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-"
 "content/20177611>`_. Please see `CB-5398 "
 "<https://issues.apache.org/jira/browse/CB-5398>`_ to track this issue."
-msgstr ""
+msgstr "*Android 4.4 特有*: Android 4.4 では、新しい `ストレージ アクセス フレームワーク ( SAF ) <https://developer.android.com/guide/topics/providers/document-provider.html>`__ を導入しました。このフレームワークを使用して、各ドキュメント ストレージ プロバイダーが保有するドキュメントの検索と参照が簡単に行えるようになりました。Cordova とこのフレームワークは、現時点ではスムーズな連携が行われていません。このため、``destinationType`` を ``FILE_URI`` に設定して、\"Recent\"、\"Drive\"、\"Images\"、\"External Storage\" フォルダーのいずれかをユーザが選択したとき、``getPicture()`` メソッドが写真を正しく返しません。ただし、ユーザーが \"Gallery\" アプリを最初に使用した場合は、正しく写真を選択できます。この問題に対する一時的な回避策は、`StackOverflow 問題解決策<http://stackoverflow.com/questions/19834842/android-gallery-on-kitkat-returns-different-uri-for-intent-action-get-content/20177611>`__ をご確認ください。また、この問題の途中経過に関しては `CB-5398 <https://issues.apache.org/jira/browse/CB-5398>`__ をご確認ください。"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:77
 #: ..\doc\reference\cordova_4.1\camera\index.rst:120
@@ -3662,11 +3663,11 @@ msgid ""
 "**quality**: Quality of the saved image, expressed as a range of 0-100, "
 "where 100 is typically full resolution with no loss from file compression. "
 "*(Number)*"
-msgstr ""
+msgstr "**quality**: 保存時の画像の画質です。0 から 100 の間で設定します。100 に設定した場合、フル解像度 ( ファイル圧縮によるロスはなし ) となります。 *(Number)*"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:148
 msgid "(Note that information about the camera's resolution is unavailable.)"
-msgstr ""
+msgstr "( カメラ側の解像度に関する情報は取得できません。 )"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:150
 msgid ""
@@ -3732,7 +3733,7 @@ msgstr "**saveToPhotoAlbum**: キャプチャーを行った後、デバイス�
 msgid ""
 "*popoverOptions*: iOS-only options that specify popover location in iPad. "
 "Defined in ``CameraPopoverOptions``."
-msgstr ""
+msgstr "*popoverOptions*: iOS 専用のオプションです。iPad でのポップオーバー ( popover ) の位置を指定します。 ``CameraPopoverOptions`` を使用して設定します。"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:202
 msgid ""
@@ -3743,26 +3744,26 @@ msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面か
 #: ..\doc\reference\cordova_3.5\camera\index.rst:214
 #: ..\doc\reference\cordova_4.1\camera\index.rst:254
 #: ..\doc\reference\cordova_4.1\camera\index.rst:265
-#: ..\doc\reference\cordova_5.2\camera\index.rst:560
-#: ..\doc\reference\cordova_5.2\camera\index.rst:569
+#: ..\doc\reference\cordova_5.2\camera\index.rst:561
+#: ..\doc\reference\cordova_5.2\camera\index.rst:571
 msgid "Any ``cameraDirection`` value results in a back-facing photo."
 msgstr "``cameraDirection`` にどんな値を設定しても、背面のカメラを使用した撮影になります。"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:216
 #: ..\doc\reference\cordova_4.1\camera\index.rst:256
 #: ..\doc\reference\cordova_4.1\camera\index.rst:267
-#: ..\doc\reference\cordova_5.2\camera\index.rst:562
-#: ..\doc\reference\cordova_5.2\camera\index.rst:582
-#: ..\doc\reference\cordova_5.2\camera\index.rst:597
-#: ..\doc\reference\cordova_5.2\camera\index.rst:628
+#: ..\doc\reference\cordova_5.2\camera\index.rst:563
+#: ..\doc\reference\cordova_5.2\camera\index.rst:585
+#: ..\doc\reference\cordova_5.2\camera\index.rst:601
+#: ..\doc\reference\cordova_5.2\camera\index.rst:635
 msgid "Ignores the ``allowEdit`` parameter."
 msgstr "``allowEdit`` パラメーターを無視します。"
 
 #: ..\doc\reference\cordova_3.5\camera\index.rst:218
 #: ..\doc\reference\cordova_4.1\camera\index.rst:258
 #: ..\doc\reference\cordova_4.1\camera\index.rst:269
-#: ..\doc\reference\cordova_5.2\camera\index.rst:564
-#: ..\doc\reference\cordova_5.2\camera\index.rst:573
+#: ..\doc\reference\cordova_5.2\camera\index.rst:565
+#: ..\doc\reference\cordova_5.2\camera\index.rst:575
 msgid ""
 "``Camera.PictureSourceType.PHOTOLIBRARY`` and "
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo "
@@ -3815,7 +3816,7 @@ msgstr "エラーメッセージを表示する、onError 時のコールバッ�
 #: ..\doc\reference\cordova_4.1\media\index.rst:167
 #: ..\doc\reference\cordova_4.1\media\index.rst:366
 #: ..\doc\reference\cordova_4.1\media\index.rst:395
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:126
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:125
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:189
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:113
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:162
@@ -3984,7 +3985,7 @@ msgid ""
 " that detects the direction or heading that the device is pointed, typically"
 " from the top of the device. It measures the heading in degrees from 0 to "
 "359.99, where 0 is north."
-msgstr "このプラグインを使用して、端末のコンパスにアクセスします。コンパスは、端末が指し示す方向・方位を検知するセンサーの 1 種です。通常、デバイスの上部最先端を起点とします。0 から 359.99 度の角度で方位を計算します。0 は、北を意味します。"
+msgstr "このプラグインを使用して、端末のコンパスにアクセスします。コンパスは、端末が指し示す方向・方位を検知するセンサーの 1 種です。通常、端末の上部最先端を起点として、0 から 359.99 度の角度で方位を示します。0 は、北を意味します。"
 
 #: ..\doc\reference\cordova_3.5\compass\index.rst:35
 msgid ""
@@ -4077,7 +4078,7 @@ msgid ""
 "``watchHeading`` uses the existing filter value to specify heading changes. "
 "Watching heading changes with a filter is more efficient than with time "
 "intervals."
-msgstr "iOS では、1 度に 1 つの ``watchHeading`` のみ有効です。``watchHeading`` で filter を設定した場合、``getCurrentHeading`` または ``watchHeading`` のいずれを呼び出した場合でも、設定された filter 値を使用して、方位の変化を特定します。これは、filter を使用した方位の監視の方が、時間の間隔 ( frequency ) を使用するより、有効な方法のためです。"
+msgstr "iOS では、1 度に 1 つの ``watchHeading`` のみ有効です。``watchHeading`` で filter を設定した場合、``getCurrentHeading`` または ``watchHeading`` のいずれを呼び出したときでも、設定された filter 値を使用して、方位の変化を特定します。これは、filter を使用した方位の監視の方が、時間の間隔 ( frequency ) を使用するより、有効な方法のためです。"
 
 #: ..\doc\reference\cordova_3.5\compass\index.rst:118
 #: ..\doc\reference\cordova_4.1\compass\index.rst:175
@@ -4536,7 +4537,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.contacts
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:37
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:82
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:72
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:71
 msgid "navigator.contacts"
 msgstr "navigator.contacts"
 
@@ -4544,8 +4545,8 @@ msgstr "navigator.contacts"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:57
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:87
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:104
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:77
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:94
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:76
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:93
 msgid "navigator.contacts.create"
 msgstr "navigator.contacts.create"
 
@@ -4553,8 +4554,8 @@ msgstr "navigator.contacts.create"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:77
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:88
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:127
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:78
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:117
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:77
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:116
 msgid "navigator.contacts.find"
 msgstr "navigator.contacts.find"
 
@@ -4562,7 +4563,7 @@ msgstr "navigator.contacts.find"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:127
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:94
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:238
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:84
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:83
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:216
 msgid "Contact"
 msgstr "Contact"
@@ -4571,7 +4572,7 @@ msgstr "Contact"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:400
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:95
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:569
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:85
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:84
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:608
 msgid "ContactName"
 msgstr "ContactName"
@@ -4580,7 +4581,7 @@ msgstr "ContactName"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:350
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:96
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:504
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:86
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:85
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:533
 msgid "ContactField"
 msgstr "ContactField"
@@ -4589,7 +4590,7 @@ msgstr "ContactField"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:255
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:97
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:398
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:87
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:86
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:395
 msgid "ContactAddress"
 msgstr "ContactAddress"
@@ -4598,14 +4599,14 @@ msgstr "ContactAddress"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:461
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:98
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:637
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:88
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:87
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:715
 msgid "ContactOrganization"
 msgstr "ContactOrganization"
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:53
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:99
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:89
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:88
 msgid "ContactFindOptions"
 msgstr "ContactFindOptions"
 
@@ -4613,14 +4614,14 @@ msgstr "ContactFindOptions"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:329
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:100
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:482
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:90
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:89
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:511
 msgid "ContactError"
 msgstr "ContactError"
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:59
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:106
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:96
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:95
 msgid ""
 "The ``navigator.contacts.create`` method is synchronous, and returns a new "
 "``Contact`` object."
@@ -4628,7 +4629,7 @@ msgstr "``navigator.contacts.create`` メソッドは、同期的に処理され
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:61
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:109
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:98
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:97
 msgid ""
 "This method does not retain the Contact object in the device contacts "
 "database, for which you need to invoke the ``Contact.save`` method."
@@ -4636,7 +4637,7 @@ msgstr "このメソッドで作成した Contact オブジェクトが保持す
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:79
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:129
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:119
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:118
 msgid ""
 "The ``navigator.contacts.find`` method executes asynchronously, querying the"
 " device contacts database and returning an array of ``Contact`` objects. The"
@@ -4899,9 +4900,9 @@ msgstr "**save**: 新しい住所録を、住所録データベースに保存�
 #: ..\doc\reference\cordova_4.1\media-capture\index.rst:342
 #: ..\doc\reference\cordova_4.1\media-capture\index.rst:568
 #: ..\doc\reference\cordova_4.1\splashscreen\index.rst:58
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:82
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:140
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:187
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:83
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:143
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:191
 #: ..\doc\reference\cordova_5.2\camera\index.rst:102
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:265
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:421
@@ -4911,9 +4912,9 @@ msgstr "**save**: 新しい住所録を、住所録データベースに保存�
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:75
 #: ..\doc\reference\cordova_5.2\device\index.rst:88
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:114
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:188
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:271
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:318
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:189
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:272
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:319
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:71
 #: ..\doc\reference\cordova_5.2\file\index.rst:81
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:74
@@ -4949,10 +4950,10 @@ msgstr "Amazon Fire OS"
 
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:178
 #: ..\doc\reference\cordova_4.1\splashscreen\index.rst:60
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:85
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:143
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:190
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:104
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:86
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:146
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:194
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:103
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:150
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:267
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:423
@@ -4967,8 +4968,8 @@ msgstr "Amazon Fire OS"
 #: ..\doc\reference\cordova_5.2\device\index.rst:208
 #: ..\doc\reference\cordova_5.2\device\index.rst:258
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:116
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:190
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:320
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:191
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:321
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:73
 #: ..\doc\reference\cordova_5.2\file\index.rst:83
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:76
@@ -5000,11 +5001,11 @@ msgstr "BlackBerry 10"
 #: ..\doc\reference\cordova_3.5\contacts\index.rst:179
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:116
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:178
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:89
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:145
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:192
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:90
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:148
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:196
 #: ..\doc\reference\cordova_5.2\camera\index.rst:101
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:105
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:104
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:151
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:268
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:424
@@ -5016,8 +5017,8 @@ msgstr "BlackBerry 10"
 #: ..\doc\reference\cordova_5.2\device\index.rst:92
 #: ..\doc\reference\cordova_5.2\device\index.rst:158
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:117
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:191
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:273
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:192
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:274
 #: ..\doc\reference\cordova_5.2\file\index.rst:84
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:77
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:113
@@ -5038,16 +5039,16 @@ msgstr "Firefox OS"
 #: ..\doc\reference\cordova_3.5\media\index.rst:511
 #: ..\doc\reference\cordova_4.1\inappbrowser\index.rst:290
 #: ..\doc\reference\cordova_4.1\splashscreen\index.rst:62
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:86
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:87
 #: ..\doc\reference\cordova_5.2\device\index.rst:95
 #: ..\doc\reference\cordova_5.2\device\index.rst:111
 #: ..\doc\reference\cordova_5.2\device\index.rst:161
 #: ..\doc\reference\cordova_5.2\device\index.rst:211
 #: ..\doc\reference\cordova_5.2\device\index.rst:262
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:120
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:194
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:275
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:323
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:195
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:276
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:324
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:80
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:172
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:286
@@ -5082,9 +5083,9 @@ msgstr "Windows Phone 7 と 8"
 #: ..\doc\reference\cordova_5.2\device\index.rst:263
 #: ..\doc\reference\cordova_5.2\device\index.rst:300
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:121
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:195
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:276
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:324
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:196
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:277
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:325
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:78
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:81
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:116
@@ -5822,8 +5823,8 @@ msgstr "アラートまたはダイアログを、カスタマイズして表示
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:126
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:181
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:87
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:154
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:230
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:155
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:231
 msgid "**message**: Dialog message. *(String)*"
 msgstr "**message**: ダイアログのメッセージ *(String)*"
 
@@ -5839,36 +5840,36 @@ msgstr "**alertCallback**: アラートダイアログを閉じたときに呼�
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:89
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:91
 msgid "**title**: Dialog title. *(String)* (Optional, defaults to ``Alert``)"
-msgstr "**title**: ダイアログのタイトル *( String、任意、デフォルトでは Alert )*"
+msgstr "**title**: ダイアログのタイトル ( *String*、任意、デフォルトでは ``Alert`` )"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:59
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:91
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:93
 msgid "**buttonName**: Button name. *(String)* (Optional, defaults to ``OK``)"
-msgstr "**buttonName**: ボタンの名前 *( String、任意、デフォルトでは OK )*"
+msgstr "**buttonName**: ボタンの名前 ( *String*、任意、デフォルトでは ``OK`` )"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:85
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:98
-#: ..\doc\reference\cordova_5.2\camera\index.rst:626
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:100
+#: ..\doc\reference\cordova_5.2\camera\index.rst:632
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:186
 #: ..\doc\reference\cordova_5.2\device\index.rst:139
 #: ..\doc\reference\cordova_5.2\device\index.rst:241
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:125
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:199
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:337
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:200
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:338
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:175
 msgid "Windows Phone 7 and 8 Quirks"
 msgstr "Windows Phone 7 と 8 特有の動作"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:87
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:127
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:128
 msgid ""
 "There is no built-in browser alert, but you can bind one as follows to call "
 "``alert()`` in the global scope:"
 msgstr "ブラウザー標準の alert 関数はありません。``alert()`` を実行する場合には、次のように、記述します ( グローバルスコープ )。"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:94
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:133
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:134
 msgid ""
 "Both ``alert`` and ``confirm`` are non-blocking calls, results of which are "
 "only available asynchronously."
@@ -5876,19 +5877,19 @@ msgstr "``alert`` と ``confirm`` は、どちらも非同期処理 ( non-blocki
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:98
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:118
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:146
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:147
 msgid "navigator.notification.confirm"
 msgstr "navigator.notification.confirm"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:100
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:120
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:148
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:149
 msgid "Displays a customizable confirmation dialog box."
 msgstr "確認用ダイアログを表示します ( カスタマイズ可 )。"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:108
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:128
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:156
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:157
 msgid ""
 "**confirmCallback**: Callback to invoke with index of button pressed (1, 2, "
 "or 3) or when the dialog is dismissed without a button press (0). "
@@ -5897,28 +5898,28 @@ msgstr "**confirmCallback**: 押されたボタンのインデックス ( 1・2�
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:112
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:132
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:158
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:159
 msgid ""
 "**title**: Dialog title. *(String)* (Optional, defaults to ``Confirm``)"
-msgstr "**title**: ダイアログのタイトル *(String、任意、デフォルトでは Confirm )* "
+msgstr "**title**: ダイアログのタイトル ( *String*、任意、デフォルトでは ``Confirm`` )"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:115
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:135
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:160
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:161
 msgid ""
 "**buttonLabels**: Array of strings specifying button labels. *(Array)* "
 "(Optional, defaults to [``OK,Cancel``\\ ])"
-msgstr "**buttonLabels**: ボタンの名前の配列 *(Array、任意、デフォルトでは [OK,Cancel])* "
+msgstr "**buttonLabels**: ボタンの名前の配列 ( *Array*、任意、デフォルトでは [``OK,Cancel``])"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:119
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:139
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:163
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:164
 msgid "confirmCallback"
 msgstr "confirmCallback"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:121
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:141
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:165
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:166
 msgid ""
 "The ``confirmCallback`` executes when the user presses one of the buttons in"
 " the confirmation dialog box."
@@ -5926,22 +5927,22 @@ msgstr "確認用ダイアログ上に表示されたボタンを押したとき
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:124
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:144
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:167
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:168
 msgid ""
 "The callback takes the argument ``buttonIndex`` *(Number)*, which is the "
 "index of the pressed button. Note that the index uses one-based indexing, so"
 " the value is ``1``, ``2``, ``3``, etc."
-msgstr "このコールバックは、引数として、``buttonIndex`` ( *Number*、押されたボタンのインデックス ) を取ります。インデックスは、1 から始まり、値は、``1``、``2``、``3``、・・・　となります ( 1 オリジンインデックス方式 )。"
+msgstr "このコールバックは、引数として、``buttonIndex`` ( 押されたボタンのインデックス、*Number* ) を取ります。インデックスは、1 から始まり、値は、``1``、``2``、``3``、・・・　となります ( 1 オリジンインデックス方式 )。"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:151
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:172
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:222
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:223
 msgid "navigator.notification.prompt"
 msgstr "navigator.notification.prompt"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:153
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:174
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:224
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:225
 msgid ""
 "Displays a native dialog box that is more customizable than the browser's "
 "``prompt`` function."
@@ -5955,21 +5956,21 @@ msgstr "**promptCallback**: ボタンを押したときに呼び出すコール�
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:165
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:187
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:234
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:235
 msgid "**title**: Dialog title *(String)* (Optional, defaults to ``Prompt``)"
-msgstr "**title**: ダイアログのタイトル *( String、任意、デフォルトでは Prompt )* "
+msgstr "**title**: ダイアログのタイトル ( *String*、任意、デフォルトでは ``Prompt`` )"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:167
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:189
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:236
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:237
 msgid ""
 "**buttonLabels**: Array of strings specifying button labels *(Array)* "
 "(Optional, defaults to ``[\"OK\",\"Cancel\"]``)"
-msgstr "**buttonLabels**: ボタンの名前の配列 *( Array、任意、デフォルトでは [OK,Cancel] )* "
+msgstr "**buttonLabels**: ボタンの名前の配列 ( *Array*、任意、デフォルトでは [``OK,Cancel``] )"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:170
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:192
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:238
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:239
 msgid ""
 "**defaultText**: Default textbox input value (``String``) (Optional, "
 "Default: empty string)"
@@ -5977,13 +5978,13 @@ msgstr "**defaultText**: テキストボックスのデフォルトの入力値 
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:174
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:196
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:241
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:242
 msgid "promptCallback"
 msgstr "promptCallback"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:176
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:198
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:243
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:244
 msgid ""
 "The ``promptCallback`` executes when the user presses one of the buttons in "
 "the prompt dialog box. The ``results`` object passed to the callback "
@@ -5992,7 +5993,7 @@ msgstr "prompt ダイアログ上に表示されたボタンを押したとき�
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:180
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:202
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:247
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:248
 msgid ""
 "**buttonIndex**: The index of the pressed button. *(Number)* Note that the "
 "index uses one-based indexing, so the value is ``1``, ``2``, ``3``, etc."
@@ -6000,20 +6001,20 @@ msgstr "**buttonIndex**: 押されるボタンのインデックスです。イ�
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:184
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:206
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:249
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:250
 msgid "**input1**: The text entered in the prompt dialog box. *(String)*"
 msgstr "**input1**: prompt ダイアログに入力されたテキスト *(String)*"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:212
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:235
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:282
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:283
 msgid ""
 "Android supports a maximum of three buttons, and ignores any more than that."
 msgstr "Android では、最大 3 個のボタンを使用できます。それ以上のボタンは無視します。"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:215
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:238
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:284
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:285
 msgid ""
 "On Android 3.0 and later, buttons are displayed in reverse order for devices"
 " that use the Holo theme."
@@ -6021,25 +6022,25 @@ msgstr "Android 3.0 以上の場合、Holo テーマを使用している端末�
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:220
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:242
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:297
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:298
 msgid "navigator.notification.beep"
 msgstr "navigator.notification.beep"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:222
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:244
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:299
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:300
 msgid "The device plays a beep sound."
 msgstr "ビープ ( beep ) 音を鳴らします。"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:228
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:250
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:305
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:306
 msgid "**times**: The number of times to repeat the beep. *(Number)*"
 msgstr "**times**: ビープ音のリピート回数 *(Number)*"
 
 #: ..\doc\reference\cordova_3.5\dialogs\index.rst:247
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:276
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:334
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:335
 msgid ""
 "Android plays the default **Notification ringtone** specified under the "
 "**Settings/Sound & Display** panel."
@@ -7642,7 +7643,7 @@ msgstr "ここ最近で開発されたアプリの場合、または、永続的
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:255
 #: ..\doc\reference\cordova_5.2\camera\index.rst:529
-#: ..\doc\reference\cordova_5.2\camera\index.rst:591
+#: ..\doc\reference\cordova_5.2\camera\index.rst:594
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:787
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:176
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:243
@@ -7687,13 +7688,13 @@ msgstr "次のパスを使用できます。 \n\n\\* ``applicationDirectory`` - 
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:266
 #: ..\doc\reference\cordova_4.1\file\index.rst:349
-#: ..\doc\reference\cordova_5.2\file\index.rst:307
+#: ..\doc\reference\cordova_5.2\file\index.rst:311
 msgid "Upgrading Notes"
 msgstr "アップグレード時の注意点"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:268
 #: ..\doc\reference\cordova_4.1\file\index.rst:351
-#: ..\doc\reference\cordova_5.2\file\index.rst:309
+#: ..\doc\reference\cordova_5.2\file\index.rst:313
 msgid ""
 "In v1.0.0 of this plugin, the ``FileEntry`` and ``DirectoryEntry`` "
 "structures have changed, to be more in line with the published "
@@ -7702,7 +7703,7 @@ msgstr "公開されている仕様に近づくように、このプラグイン
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:270
 #: ..\doc\reference\cordova_4.1\file\index.rst:355
-#: ..\doc\reference\cordova_5.2\file\index.rst:311
+#: ..\doc\reference\cordova_5.2\file\index.rst:315
 msgid ""
 "Previous (pre-1.0.0) versions of the plugin stored the device-absolute-file-"
 "location in the ``fullPath`` property of ``Entry`` objects. These paths "
@@ -7711,7 +7712,7 @@ msgstr "以前のバーション ( 1.0.0 より前 ) のプラグインでは、
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:277
 #: ..\doc\reference\cordova_4.1\file\index.rst:364
-#: ..\doc\reference\cordova_5.2\file\index.rst:318
+#: ..\doc\reference\cordova_5.2\file\index.rst:322
 msgid ""
 "These paths were also returned by the ``toURL()`` method of the ``Entry`` "
 "objects."
@@ -7719,7 +7720,7 @@ msgstr "また、これらのパスは、``Entry`` オブジェクトの ``toURL
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:279
 #: ..\doc\reference\cordova_4.1\file\index.rst:367
-#: ..\doc\reference\cordova_5.2\file\index.rst:320
+#: ..\doc\reference\cordova_5.2\file\index.rst:324
 msgid ""
 "With v1.0.0, the ``fullPath`` attribute is the path to the file, *relative "
 "to the root of the HTML filesystem*. So, the above paths would now both be "
@@ -7728,7 +7729,7 @@ msgstr "v1.0.0 では、*HTML ファイルシステムのルート構造に近�
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:285
 #: ..\doc\reference\cordova_4.1\file\index.rst:375
-#: ..\doc\reference\cordova_5.2\file\index.rst:326
+#: ..\doc\reference\cordova_5.2\file\index.rst:330
 msgid ""
 "If your application works with device-absolute-paths, and you previously "
 "retrieved those paths through the ``fullPath`` property of ``Entry`` "
@@ -7737,7 +7738,7 @@ msgstr "現在でもアプリ側で 「 端末固有の絶対パス ( device-abs
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:287
 #: ..\doc\reference\cordova_4.1\file\index.rst:380
-#: ..\doc\reference\cordova_5.2\file\index.rst:328
+#: ..\doc\reference\cordova_5.2\file\index.rst:332
 msgid ""
 "For backwards compatibility, the ``resolveLocalFileSystemURL()`` method will"
 " accept a device-absolute-path, and will return an ``Entry`` object "
@@ -7747,7 +7748,7 @@ msgstr "後方互換性 ( backwards compatibility ) に関して付け加える�
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:289
 #: ..\doc\reference\cordova_4.1\file\index.rst:385
-#: ..\doc\reference\cordova_5.2\file\index.rst:330
+#: ..\doc\reference\cordova_5.2\file\index.rst:334
 msgid ""
 "This has particularly been an issue with the File-Transfer plugin, which "
 "previously used device-absolute-paths (and can still accept them). It has "
@@ -7768,32 +7769,32 @@ msgstr "v1.1.0 では、``toURL()`` の戻り値は、可能であれば、'file
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:297
 #: ..\doc\reference\cordova_4.1\file\index.rst:401
-#: ..\doc\reference\cordova_5.2\file\index.rst:338
+#: ..\doc\reference\cordova_5.2\file\index.rst:342
 msgid "which can be used to identify the file uniquely."
 msgstr "この形式で、ファイルを、一意に識別できます。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:300
 #: ..\doc\reference\cordova_4.1\file\index.rst:404
-#: ..\doc\reference\cordova_5.2\file\index.rst:398
+#: ..\doc\reference\cordova_5.2\file\index.rst:402
 msgid "List of Error Codes and Meanings"
 msgstr "エラーコードの種類と解説"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:302
 #: ..\doc\reference\cordova_4.1\file\index.rst:406
-#: ..\doc\reference\cordova_5.2\file\index.rst:400
+#: ..\doc\reference\cordova_5.2\file\index.rst:404
 msgid "When an error is thrown, one of the following codes will be used."
 msgstr "エラーが投げられた場合、次のいずれかのコードが使用されています。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:305
 #: ..\doc\reference\cordova_4.1\file\index.rst:409
-#: ..\doc\reference\cordova_5.2\file\index.rst:403
+#: ..\doc\reference\cordova_5.2\file\index.rst:407
 #: ..\doc\reference\monaca_api\cloud\error.rst:28
 msgid "Code"
 msgstr "コード"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:305
 #: ..\doc\reference\cordova_4.1\file\index.rst:409
-#: ..\doc\reference\cordova_5.2\file\index.rst:403
+#: ..\doc\reference\cordova_5.2\file\index.rst:407
 msgid "Constant"
 msgstr "定数"
 
@@ -7804,13 +7805,13 @@ msgstr "定数"
 #: ..\doc\reference\cordova_5.2\camera\index.rst:327
 #: ..\doc\reference\cordova_5.2\camera\index.rst:350
 #: ..\doc\reference\cordova_5.2\camera\index.rst:402
-#: ..\doc\reference\cordova_5.2\file\index.rst:405
+#: ..\doc\reference\cordova_5.2\file\index.rst:409
 msgid "1"
 msgstr "1"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:307
 #: ..\doc\reference\cordova_4.1\file\index.rst:411
-#: ..\doc\reference\cordova_5.2\file\index.rst:405
+#: ..\doc\reference\cordova_5.2\file\index.rst:409
 msgid "``NOT_FOUND_ERR``"
 msgstr "``NOT_FOUND_ERR``"
 
@@ -7820,147 +7821,147 @@ msgstr "``NOT_FOUND_ERR``"
 #: ..\doc\reference\cordova_5.2\camera\index.rst:329
 #: ..\doc\reference\cordova_5.2\camera\index.rst:352
 #: ..\doc\reference\cordova_5.2\camera\index.rst:375
-#: ..\doc\reference\cordova_5.2\file\index.rst:407
+#: ..\doc\reference\cordova_5.2\file\index.rst:411
 msgid "2"
 msgstr "2"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:309
 #: ..\doc\reference\cordova_4.1\file\index.rst:413
-#: ..\doc\reference\cordova_5.2\file\index.rst:407
+#: ..\doc\reference\cordova_5.2\file\index.rst:411
 msgid "``SECURITY_ERR``"
 msgstr "``SECURITY_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:311
 #: ..\doc\reference\cordova_4.1\file\index.rst:415
-#: ..\doc\reference\cordova_5.2\file\index.rst:409
+#: ..\doc\reference\cordova_5.2\file\index.rst:413
 msgid "3"
 msgstr "3"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:311
 #: ..\doc\reference\cordova_4.1\file\index.rst:415
-#: ..\doc\reference\cordova_5.2\file\index.rst:409
+#: ..\doc\reference\cordova_5.2\file\index.rst:413
 msgid "``ABORT_ERR``"
 msgstr "``ABORT_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:313
 #: ..\doc\reference\cordova_4.1\file\index.rst:417
 #: ..\doc\reference\cordova_5.2\camera\index.rst:377
-#: ..\doc\reference\cordova_5.2\file\index.rst:411
+#: ..\doc\reference\cordova_5.2\file\index.rst:415
 msgid "4"
 msgstr "4"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:313
 #: ..\doc\reference\cordova_4.1\file\index.rst:417
-#: ..\doc\reference\cordova_5.2\file\index.rst:411
+#: ..\doc\reference\cordova_5.2\file\index.rst:415
 msgid "``NOT_READABLE_ERR``"
 msgstr "``NOT_READABLE_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:315
 #: ..\doc\reference\cordova_4.1\file\index.rst:419
-#: ..\doc\reference\cordova_5.2\file\index.rst:413
+#: ..\doc\reference\cordova_5.2\file\index.rst:417
 msgid "5"
 msgstr "5"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:315
 #: ..\doc\reference\cordova_4.1\file\index.rst:419
-#: ..\doc\reference\cordova_5.2\file\index.rst:413
+#: ..\doc\reference\cordova_5.2\file\index.rst:417
 msgid "``ENCODING_ERR``"
 msgstr "``ENCODING_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:317
 #: ..\doc\reference\cordova_4.1\file\index.rst:421
-#: ..\doc\reference\cordova_5.2\file\index.rst:415
+#: ..\doc\reference\cordova_5.2\file\index.rst:419
 msgid "6"
 msgstr "6"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:317
 #: ..\doc\reference\cordova_4.1\file\index.rst:421
-#: ..\doc\reference\cordova_5.2\file\index.rst:415
+#: ..\doc\reference\cordova_5.2\file\index.rst:419
 msgid "``NO_MODIFICATION_ALLOWED_ERR``"
 msgstr "``NO_MODIFICATION_ALLOWED_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:319
 #: ..\doc\reference\cordova_4.1\file\index.rst:423
-#: ..\doc\reference\cordova_5.2\file\index.rst:417
+#: ..\doc\reference\cordova_5.2\file\index.rst:421
 msgid "7"
 msgstr "7"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:319
 #: ..\doc\reference\cordova_4.1\file\index.rst:423
-#: ..\doc\reference\cordova_5.2\file\index.rst:417
+#: ..\doc\reference\cordova_5.2\file\index.rst:421
 msgid "``INVALID_STATE_ERR``"
 msgstr "``INVALID_STATE_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:321
 #: ..\doc\reference\cordova_4.1\file\index.rst:425
 #: ..\doc\reference\cordova_5.2\camera\index.rst:379
-#: ..\doc\reference\cordova_5.2\file\index.rst:419
+#: ..\doc\reference\cordova_5.2\file\index.rst:423
 msgid "8"
 msgstr "8"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:321
 #: ..\doc\reference\cordova_4.1\file\index.rst:425
-#: ..\doc\reference\cordova_5.2\file\index.rst:419
+#: ..\doc\reference\cordova_5.2\file\index.rst:423
 msgid "``SYNTAX_ERR``"
 msgstr "``SYNTAX_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:323
 #: ..\doc\reference\cordova_4.1\file\index.rst:427
-#: ..\doc\reference\cordova_5.2\file\index.rst:421
+#: ..\doc\reference\cordova_5.2\file\index.rst:425
 msgid "9"
 msgstr "9"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:323
 #: ..\doc\reference\cordova_4.1\file\index.rst:427
-#: ..\doc\reference\cordova_5.2\file\index.rst:421
+#: ..\doc\reference\cordova_5.2\file\index.rst:425
 msgid "``INVALID_MODIFICATION_ERR``"
 msgstr "``INVALID_MODIFICATION_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:325
 #: ..\doc\reference\cordova_4.1\file\index.rst:429
-#: ..\doc\reference\cordova_5.2\file\index.rst:423
+#: ..\doc\reference\cordova_5.2\file\index.rst:427
 msgid "10"
 msgstr "10"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:325
 #: ..\doc\reference\cordova_4.1\file\index.rst:429
-#: ..\doc\reference\cordova_5.2\file\index.rst:423
+#: ..\doc\reference\cordova_5.2\file\index.rst:427
 msgid "``QUOTA_EXCEEDED_ERR``"
 msgstr "``QUOTA_EXCEEDED_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:327
 #: ..\doc\reference\cordova_4.1\file\index.rst:431
-#: ..\doc\reference\cordova_5.2\file\index.rst:425
+#: ..\doc\reference\cordova_5.2\file\index.rst:429
 msgid "11"
 msgstr "11"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:327
 #: ..\doc\reference\cordova_4.1\file\index.rst:431
-#: ..\doc\reference\cordova_5.2\file\index.rst:425
+#: ..\doc\reference\cordova_5.2\file\index.rst:429
 msgid "``TYPE_MISMATCH_ERR``"
 msgstr "``TYPE_MISMATCH_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:329
 #: ..\doc\reference\cordova_4.1\file\index.rst:433
-#: ..\doc\reference\cordova_5.2\file\index.rst:427
+#: ..\doc\reference\cordova_5.2\file\index.rst:431
 msgid "12"
 msgstr "12"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:329
 #: ..\doc\reference\cordova_4.1\file\index.rst:433
-#: ..\doc\reference\cordova_5.2\file\index.rst:427
+#: ..\doc\reference\cordova_5.2\file\index.rst:431
 msgid "``PATH_EXISTS_ERR``"
 msgstr "``PATH_EXISTS_ERR``"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:333
 #: ..\doc\reference\cordova_4.1\file\index.rst:437
-#: ..\doc\reference\cordova_5.2\file\index.rst:431
+#: ..\doc\reference\cordova_5.2\file\index.rst:435
 msgid "Configuring the Plugin (Optional)"
 msgstr "プラグインの設定 ( 任意 )"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:335
 #: ..\doc\reference\cordova_4.1\file\index.rst:439
-#: ..\doc\reference\cordova_5.2\file\index.rst:433
+#: ..\doc\reference\cordova_5.2\file\index.rst:437
 msgid ""
 "The set of available filesystems can be configured per-platform. Both iOS "
 "and Android recognize a tag in ``config.xml`` which names the filesystems to"
@@ -7969,19 +7970,19 @@ msgstr "使用するファイルシステムは、プラットフォーム毎に
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:345
 #: ..\doc\reference\cordova_4.1\file\index.rst:452
-#: ..\doc\reference\cordova_5.2\file\index.rst:443
+#: ..\doc\reference\cordova_5.2\file\index.rst:447
 msgid "``files``: The application's internal file storage directory"
 msgstr "``files``: アプリが使用する、ファイルストレージ用のディレクトリーです ( 内部 )。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:346
 #: ..\doc\reference\cordova_4.1\file\index.rst:453
-#: ..\doc\reference\cordova_5.2\file\index.rst:445
+#: ..\doc\reference\cordova_5.2\file\index.rst:449
 msgid "``files-external``: The application's external file storage directory"
 msgstr "``files-external``: アプリが使用する、ファイルストレージ用のディレクトリーです ( 外部 )。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:347
 #: ..\doc\reference\cordova_4.1\file\index.rst:454
-#: ..\doc\reference\cordova_5.2\file\index.rst:447
+#: ..\doc\reference\cordova_5.2\file\index.rst:451
 msgid ""
 "``sdcard``: The global external file storage directory (this is the root of "
 "the SD card, if one is installed). You must have the "
@@ -7990,13 +7991,13 @@ msgstr "``sdcard``: グローバルに使用する、外部のファイルスト
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:348
 #: ..\doc\reference\cordova_4.1\file\index.rst:457
-#: ..\doc\reference\cordova_5.2\file\index.rst:449
+#: ..\doc\reference\cordova_5.2\file\index.rst:453
 msgid "``cache``: The application's internal cache directory"
 msgstr "``cache``: アプリが使用する、キャッシュ用のディレクトリーです ( 内部 )。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:349
 #: ..\doc\reference\cordova_4.1\file\index.rst:458
-#: ..\doc\reference\cordova_5.2\file\index.rst:451
+#: ..\doc\reference\cordova_5.2\file\index.rst:455
 msgid "``cache-external``: The application's external cache directory"
 msgstr "``cache-external``: アプリが使用する、キャッシュ用のディレクトリーです ( 外部 )。"
 
@@ -8004,14 +8005,14 @@ msgstr "``cache-external``: アプリが使用する、キャッシュ用のデ�
 #: ..\doc\reference\cordova_3.5\file\index.rst:361
 #: ..\doc\reference\cordova_4.1\file\index.rst:459
 #: ..\doc\reference\cordova_4.1\file\index.rst:472
-#: ..\doc\reference\cordova_5.2\file\index.rst:453
-#: ..\doc\reference\cordova_5.2\file\index.rst:468
+#: ..\doc\reference\cordova_5.2\file\index.rst:457
+#: ..\doc\reference\cordova_5.2\file\index.rst:472
 msgid "``root``: The entire device filesystem"
 msgstr "``root``: 端末のすべてのファイルシステム"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:352
 #: ..\doc\reference\cordova_4.1\file\index.rst:461
-#: ..\doc\reference\cordova_5.2\file\index.rst:455
+#: ..\doc\reference\cordova_5.2\file\index.rst:459
 msgid ""
 "Android also supports a special filesystem named \"documents\", which "
 "represents a \"/Documents/\" subdirectory within the \"files\" filesystem."
@@ -8019,25 +8020,25 @@ msgstr "他にも、Android では 「 documents 」 と呼ばれるファイル
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:357
 #: ..\doc\reference\cordova_4.1\file\index.rst:467
-#: ..\doc\reference\cordova_5.2\file\index.rst:460
+#: ..\doc\reference\cordova_5.2\file\index.rst:464
 msgid "``library``: The application's Library directory"
 msgstr "``library``: アプリの Library ディレクトリーです。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:358
 #: ..\doc\reference\cordova_4.1\file\index.rst:468
-#: ..\doc\reference\cordova_5.2\file\index.rst:462
+#: ..\doc\reference\cordova_5.2\file\index.rst:466
 msgid "``documents``: The application's Documents directory"
 msgstr "``documents``: アプリの Documents ディレクトリーです。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:359
 #: ..\doc\reference\cordova_4.1\file\index.rst:469
-#: ..\doc\reference\cordova_5.2\file\index.rst:464
+#: ..\doc\reference\cordova_5.2\file\index.rst:468
 msgid "``cache``: The application's Cache directory"
 msgstr "``cache``: アプリの Cache ディレクトリーです。"
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:360
 #: ..\doc\reference\cordova_4.1\file\index.rst:470
-#: ..\doc\reference\cordova_5.2\file\index.rst:466
+#: ..\doc\reference\cordova_5.2\file\index.rst:470
 msgid ""
 "``bundle``: The application's bundle; the location of the app itself on disk"
 " (read-only)"
@@ -8045,7 +8046,7 @@ msgstr "``bundle``: bundle container です ( ディスク上のアプリ本体�
 
 #: ..\doc\reference\cordova_3.5\file\index.rst:363
 #: ..\doc\reference\cordova_4.1\file\index.rst:474
-#: ..\doc\reference\cordova_5.2\file\index.rst:470
+#: ..\doc\reference\cordova_5.2\file\index.rst:474
 msgid ""
 "By default, the library and documents directories can be synced to iCloud. "
 "You can also request two additional filesystems, ``library-nosync`` and "
@@ -8173,7 +8174,7 @@ msgid ""
 "such as IP address, RFID, WiFi and Bluetooth MAC addresses, and GSM/CDMA "
 "cell IDs. There is no guarantee that the API returns the device's actual "
 "location."
-msgstr "このプラグインを使用して、端末の位置情報 ( 緯度・経度 ) を取得します。情報元として、GPS ( Global Positioning System ) からの情報、各ネットワーク信号 ( 例 ： IP address、RFID、WiFi・Bluetooth MAC アドレス、GSM/CDMA 基地局 ID) などを使用します。なお、この API が返す結果が、端末の正しい位置を示す保証はありません。"
+msgstr "このプラグインを使用して、端末の位置情報 ( 緯度・経度 ) を取得します。情報元として、GPS ( Global Positioning System ) からの情報、各ネットワーク信号 ( IP address、RFID、WiFi・Bluetooth MAC アドレス、GSM/CDMA 基地局 ID など ) を使用します。なお、この API が返す結果が、端末の正しい位置を示す保証はありません。"
 
 #: ..\doc\reference\cordova_3.5\geolocation\index.rst:26
 #: ..\doc\reference\cordova_4.1\geolocation\index.rst:47
@@ -8200,7 +8201,7 @@ msgid ""
 "provide the same information noted above, as well as obtaining the user's "
 "permission (e.g., by presenting choices for **OK** and **No Thanks**). For "
 "more information, please see the Privacy Guide."
-msgstr "**注意** : 位置情報に関するデータの取得・利用には、個人情報保護の観点から、細心の注意が必要です。位置情報に関するデータの取り扱い方法、第三者への情報提供およびデータの精度 ( 例 ： 大雑把な位置、詳細な位置、郵便番号枠レベルの位置など ) に関しては、アプリの個人情報の取り扱いに関するポリシーの中で議論されるべき問題です。個人情報の中でも位置情報は、個人の居場所の特定および移動記録として利用でき、その取り扱いには注意が求められます。そのため、アプリのプライバシーに関するポリシーの策定に加え、アプリが位置情報にアクセスまたは利用する場合には、事前にユーザーへの通知および許諾を得る必要があります。端末のオペレーティングシステム側でこの通知および許諾の要請を行ってない場合には、開発者側で対応する必要があります。また、ユーザーへの通知および許諾の要請を行う場合には、必ず、個人情報の取り扱いに関するポリシーの開示および使用方法・収集レベルに関する同意の意思表示を求める必要があります ( **許可する**、または、**許可しない** のように、明示的に判断できる必要があります ) 。詳細は、『 プライバシーに関する注意点 』 ( Apache Cordova のドキュメント ) をご確認ください。"
+msgstr "**注意** : 位置情報に関するデータの取得・利用には、個人情報保護の観点から、細心の注意が必要です。位置情報に関するデータの取り扱い方法、第三者への情報提供およびデータの精度 ( 大雑把な位置、詳細な位置、郵便番号枠レベルの位置など ) に関しては、アプリの個人情報の取り扱いに関するポリシーの中で議論されるべき問題です。個人情報の中でも位置情報は、個人の居場所の特定および移動記録として利用でき、その取り扱いには注意が求められます。そのため、アプリのプライバシーに関するポリシーの策定に加え、アプリが位置情報にアクセスまたは利用する場合には、事前にユーザーへの通知および許諾を得る必要があります。端末のオペレーティングシステム側でこの通知および許諾の要請を行ってない場合には、開発者側で対応する必要があります。また、ユーザーへの通知および許諾の要請を行う場合には、必ず、個人情報の取り扱いに関するポリシーの開示および使用方法・収集レベルに関する同意の意思表示を求める必要があります ( **許可する**、または、**許可しない** のように、明示的に判断できる必要があります ) 。詳細は、『 プライバシーに関する注意点 』 ( Apache Cordova のドキュメント ) をご確認ください。"
 
 #: ..\doc\reference\cordova_3.5\geolocation\index.rst:54
 #: ..\doc\reference\cordova_4.1\geolocation\index.rst:88
@@ -8775,7 +8776,7 @@ msgstr "ブラウザーのロケールを ``en\\_US``に設定した場合、以
 msgid ""
 "Returns a pattern string to format and parse currency values according to "
 "the client's user preferences and ISO 4217 currency code."
-msgstr "ユーザー側の設定と ISO 4217 通貨コードに基づき、通貨の値のパース処理 ( parse ) と通貨の値のフォーマット処理 ( format ) に使用する、文字列の pattern ( パターン ) を返します。"
+msgstr "ユーザー側の設定と ISO 4217 通貨コードに基づき、通貨の値のパース処理 ( parse ) と通貨の値のフォーマット処理 ( format ) に使用する、文字列の pattern ( パターン ) を返します。[ 翻訳者メモ：このプラグインの解説中に記述されている pattern には、2 つの意味 ( 「 Unicode Technical Standard #35 の Pattern 」 と 「 オブジェクトで使用されているプロパティーの名前である Pattern 」 ) がありますが、翻訳文中では、原文に沿うため、どちらも区別せず、Pattern としています。]"
 
 #: ..\doc\reference\cordova_3.5\globalization\index.rst:115
 #: ..\doc\reference\cordova_4.1\globalization\index.rst:263
@@ -8783,7 +8784,7 @@ msgstr "ユーザー側の設定と ISO 4217 通貨コードに基づき、通�
 msgid ""
 "Returns the pattern to the ``successCallback`` with a ``properties`` object "
 "as a parameter. That object should contain the following properties:"
-msgstr "``properties`` オブジェクトをパラメーターとして使用し、``successCallback`` に パターン ( pattern ) を渡します。オブジェクトは、以下のパラメーターを格納しています。\n\n[ 翻訳者メモ：このプラグインの解説中に記述されている pattern には、2 つの意味 ( 「 Unicode Technical Standard #35 の Pattern 」 と 「 オブジェクトで使用されているプロパティーの名前である Pattern 」 ) がありますが、翻訳文中では、原文に沿うため、どちらも区別せず、Pattern としています。]"
+msgstr "``properties`` オブジェクトをパラメーターとして使用し、``successCallback`` に パターン ( pattern ) を渡します。オブジェクトは、以下のパラメーターを格納しています。"
 
 #: ..\doc\reference\cordova_3.5\globalization\index.rst:117
 #: ..\doc\reference\cordova_4.1\globalization\index.rst:267
@@ -9029,7 +9030,7 @@ msgstr "パターン ( pattern ) の取得時にエラーが発生した場合�
 
 #: ..\doc\reference\cordova_3.5\globalization\index.rst:294
 #: ..\doc\reference\cordova_5.2\camera\index.rst:105
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:107
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:106
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:153
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:200
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:270
@@ -11786,7 +11787,7 @@ msgstr "**CameraUsesGeolocation** ( 真偽値、デフォルトは、false )。J
 #: ..\doc\reference\cordova_5.2\camera\index.rst:558
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:166
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:229
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:327
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:328
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:288
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:202
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:577
@@ -11833,7 +11834,7 @@ msgstr "**encodingType**: 返ってくる画像ファイルのエンコード形
 msgid ""
 "\\**popoverOptions**: iOS-only options that specify popover location in "
 "iPad. Defined in ``CameraPopoverOptions``."
-msgstr ""
+msgstr "\\**popoverOptions**: iOS 専用のオプションです。iPad でのポップオーバー ( popover ) の位置を指定します。 ``CameraPopoverOptions`` を使用して設定します。"
 
 #: ..\doc\reference\cordova_4.1\camera\index.rst:242
 msgid ""
@@ -11842,7 +11843,7 @@ msgid ""
 msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面または背面のカメラ )。デフォルトは、BACK です。``navigator.camera.Direction`` で定義します。 *(Number)*"
 
 #: ..\doc\reference\cordova_4.1\camera\index.rst:278
-#: ..\doc\reference\cordova_5.2\camera\index.rst:614
+#: ..\doc\reference\cordova_5.2\camera\index.rst:619
 msgid ""
 "When using ``destinationType.FILE_URI``, photos are saved in the "
 "application's temporary directory. The contents of the application's "
@@ -11867,9 +11868,9 @@ msgid ""
 msgstr "このプラグインを使用するには :ref:``org.apache.cordova.device-orientation`` を有効にする必要があります。 MonacaでCordovaプラグインを使用する方法につきましては :ref:`standard_plugins` を参照してください。"
 
 #: ..\doc\reference\cordova_4.1\compass\index.rst:153
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:108
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:167
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:214
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:110
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:170
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:218
 #: ..\doc\reference\cordova_5.2\camera\index.rst:522
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:127
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:156
@@ -11966,18 +11967,18 @@ msgstr "このプラグインでは、グローバルオブジェクト 「 ``na
 
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:89
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:204
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:79
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:78
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:184
 msgid "navigator.contacts.pickContact"
 msgstr "navigator.contacts.pickContact"
 
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:101
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:91
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:90
 msgid "ContactFieldType"
 msgstr "ContactFieldType"
 
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:134
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:121
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:120
 msgid ""
 "The **contactFields** parameter specifies the fields to be used as a search "
 "qualifier. A zero-length **contactFields** parameter is invalid and results "
@@ -11986,7 +11987,7 @@ msgid ""
 msgstr "**contactFields** パラメーターを使用して、検索時に使用する検索項目を指定します。**contactFields** のパラメーターに、空の文字列を使用することはできません。また、その場合、結果として、``ContactError.INVALID_ARGUMENT_ERROR`` が返ってきます。 **contactFields** の値に、 ``\"*\"`` を入力した場合、住所録のすべての項目を検索します。"
 
 #: ..\doc\reference\cordova_4.1\contacts\index.rst:139
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:123
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:122
 msgid ""
 "The **contactFindOptions.filter** string can be used as a search filter when"
 " querying the contacts database. If provided, a case-insensitive, partial "
@@ -12126,7 +12127,7 @@ msgid ""
 msgstr "このプラグインでは、グローバルオブジェクト 「 ``navigator.notification`` 」 を使用し、ネイティブ側の UI 要素 ( ダイアログ関連 ) にアクセスします。"
 
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:183
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:232
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:233
 msgid ""
 "**promptCallback**: Callback to invoke with index of button pressed (1, 2, "
 "or 3) or when the dialog is dismissed without a button press (0). "
@@ -12134,7 +12135,7 @@ msgid ""
 msgstr "**promptCallback**: 押されたボタンのインデックス ( 1・2・3 など ) に応じて、または、ボタンを押さずにダイアログを閉じたときに ( 0 )、呼ばれるコールバック *(Function)*"
 
 #: ..\doc\reference\cordova_4.1\dialogs\index.rst:270
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:329
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:330
 msgid ""
 "Amazon Fire OS plays the default **Notification Sound** specified under the "
 "**Settings/Display & Sound** panel."
@@ -12719,7 +12720,7 @@ msgid ""
 " need to load third-party (untrusted) content, instead of loading that into "
 "the main Cordova webview. The InAppBrowser is not subject to the whitelist, "
 "nor is opening links in the system browser."
-msgstr "InAppBrowser を使用して開いたウィンドウ ( InAppBrowser ウィンドウ ) は、標準の Web ブラウザーと同じ動作をします。ただし、Cordova API へのアクセスはできません。使用方法としては、第三者提供 ( 提供元不明 ) のコンテンツを読み込む場合に、Cordova WebView の代わりに、InAppBrowser を使用するなどが考えられます。なお、InAppBrowser には、ホワイトリストは適用されません。また、system browser ( システムブラウザー ) 上で、リンクを開くこともありません。\n\n[ 翻訳者メモ ： system browser は、OS 標準のブラウザーを指しているものと思われます ( 他の選択肢としては、Android のシステムブラウザーがありました )。また、原文では、「 system's web browser 」、または、「 system browser 」 などと異なる言葉が使用されていますが、どちらもシステム標準のブラウザーを指しているものと思われます。なお、翻訳文では、前者は、「 システム標準の Web ブラウザー 」、後者は、「 system browser 」 ( 原文のまま ) としています。]"
+msgstr "InAppBrowser を使用して開いたウィンドウ ( InAppBrowser ウィンドウ ) は、標準の Web ブラウザーと同じ動作をします。ただし、Cordova API へのアクセスはできません。使用方法としては、提供元不明のコンテンツを読み込む場合に、Cordova WebView の代わりに、InAppBrowser を使用するなどが考えられます。なお、InAppBrowser には、ホワイトリストは適用されません。また、system browser ( システムブラウザー ) 上で、リンクを開くこともありません。[ 翻訳者メモ ： system browser は、OS 標準のブラウザーを指しているものと思われます ( 他の選択肢としては、Android のシステムブラウザーがありました )。また、原文では、「 system's web browser 」、または、「 system browser 」 などと異なる言葉が使用されていますが、どちらもシステム標準のブラウザーを指しているものと思われます。なお、翻訳文では、前者は、「 システム標準の Web ブラウザー 」、後者は、「 system browser 」 ( 原文のまま ) としています。]"
 
 #: ..\doc\reference\cordova_4.1\inappbrowser\index.rst:53
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:55
@@ -12818,7 +12819,7 @@ msgid ""
 "There are strict restrictions on how your application interacts with other "
 "media. See the `Microsoft documentation for details "
 "<https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx>`__."
-msgstr ""
+msgstr "アプリ上で行う、各種メディアの処理に関しては、厳格な制限があります。詳細は、`Microsoft のポリシー <https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx>`__ をご確認ください。"
 
 #: ..\doc\reference\cordova_4.1\media\index.rst:483
 #: ..\doc\reference\cordova_5.2\media\index.rst:478
@@ -12983,7 +12984,7 @@ msgstr "振動を即時に停止します。"
 
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:58
 #: ..\doc\reference\cordova_5.2\camera\index.rst:61
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:63
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:62
 #: ..\doc\reference\cordova_5.2\crosswalk\index.rst:46
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:64
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:67
@@ -13012,7 +13013,7 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 
 #: ..\doc\reference\cordova_5.2\battery-status\index.rst:64
 #: ..\doc\reference\cordova_5.2\camera\index.rst:68
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:69
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:68
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:83
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:86
 #: ..\doc\reference\cordova_5.2\device\index.rst:67
@@ -13031,15 +13032,15 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 msgid "API Reference"
 msgstr "API の解説"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:87
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:146
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:193
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:88
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:149
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:197
 msgid "Windows (Windows Phone 8.1 only)"
 msgstr "Windows ( Windows Phone 8.1 のみ )"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:88
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:144
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:191
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:89
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:147
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:195
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:78
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:81
 #: ..\doc\reference\cordova_5.2\device\index.rst:94
@@ -13048,17 +13049,17 @@ msgstr "Windows ( Windows Phone 8.1 のみ )"
 #: ..\doc\reference\cordova_5.2\device\index.rst:210
 #: ..\doc\reference\cordova_5.2\device\index.rst:261
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:119
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:193
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:322
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:194
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:323
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:79
 #: ..\doc\reference\cordova_5.2\media\index.rst:77
 #: ..\doc\reference\cordova_5.2\network-information\index.rst:65
 msgid "Tizen"
 msgstr "Tizen"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:90
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:147
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:194
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:91
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:150
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:198
 #: ..\doc\reference\cordova_5.2\camera\index.rst:100
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:75
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:78
@@ -13092,34 +13093,34 @@ msgstr "Tizen"
 msgid "Browser"
 msgstr "Browser"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:93
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:94
 msgid "Android and Amazon Fire OS Quirks"
 msgstr "Android と Amazon Fire OS 特有の動作"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:95
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:97
 msgid ""
 "Warning: the Android + Fire OS implementations are greedy and prolonged use "
 "will drain the user's battery."
 msgstr "Android + Fire OS の組み合わせは、バッテリーを多く消費するため、長時間の使用時には注意が必要です。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:100
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:102
 msgid ""
 "Windows Phone 7 does not provide native APIs to determine battery level, so "
 "the ``level`` property is unavailable. The ``isPlugged`` parameter *is* "
 "supported."
 msgstr "Windows Phone 7 では、バッテリー残量の確認に使用できる、ネイティブの API を提供していないため、 ``level`` パラメーターは使用できません。``isPlugged`` パラメーターは *使用できます*。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:103
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:150
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:197
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:105
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:153
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:201
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:179
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:384
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:506
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:603
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:710
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:811
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:210
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:287
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:211
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:288
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:144
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:206
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:286
@@ -13139,40 +13140,40 @@ msgstr "Windows Phone 7 では、バッテリー残量の確認に使用でき�
 msgid "Windows Quirks"
 msgstr "Windows 特有の動作"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:105
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:107
 msgid ""
 "Windows Phone 8.1 does not support ``isPlugged`` parameter. The ``level`` "
 "parameter *is* supported."
 msgstr "Windows Phone 8.1 では、``isPlugged`` パラメーターは使用できません。 ``level`` パラメーターは *使用できます*。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:110
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:169
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:216
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:112
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:172
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:220
 msgid "Supported browsers are Chrome, Firefox and Opera."
 msgstr "サポート対象のブラウザーは、Chrome、Firefox、Opera です。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:152
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:155
 msgid ""
 "Windows Phone 8.1 will fire ``batterycritical`` event regardless of plugged "
 "state as it is not supported."
 msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充電中か否かにかかわらず、``batterycritical`` が発火します。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:199
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:203
 msgid ""
 "Windows Phone 8.1 will fire ``batterylow`` event regardless of plugged state"
 " as it is not supported."
 msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充電中か否かにかかわらず、``batterylow`` が発火します。"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:222
-#: ..\doc\reference\cordova_5.2\camera\index.rst:643
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:226
+#: ..\doc\reference\cordova_5.2\camera\index.rst:650
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:822
 #: ..\doc\reference\cordova_5.2\crosswalk\index.rst:111
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:228
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:277
 #: ..\doc\reference\cordova_5.2\device\index.rst:322
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:353
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:354
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:387
-#: ..\doc\reference\cordova_5.2\file\index.rst:477
+#: ..\doc\reference\cordova_5.2\file\index.rst:481
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:330
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:1033
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:497
@@ -13194,16 +13195,16 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 msgid ":ref:`third_party_cordova_index`"
 msgstr ":ref:`third_party_cordova_index`"
 
-#: ..\doc\reference\cordova_5.2\battery-status\index.rst:223
-#: ..\doc\reference\cordova_5.2\camera\index.rst:644
+#: ..\doc\reference\cordova_5.2\battery-status\index.rst:227
+#: ..\doc\reference\cordova_5.2\camera\index.rst:651
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:823
 #: ..\doc\reference\cordova_5.2\crosswalk\index.rst:112
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:229
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:278
 #: ..\doc\reference\cordova_5.2\device\index.rst:323
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:354
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:355
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:388
-#: ..\doc\reference\cordova_5.2\file\index.rst:478
+#: ..\doc\reference\cordova_5.2\file\index.rst:482
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:331
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:1034
 #: ..\doc\reference\cordova_5.2\inappbrowser\index.rst:498
@@ -13262,8 +13263,8 @@ msgstr "Blackberry10"
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:637
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:80
 #: ..\doc\reference\cordova_5.2\dialogs\index.rst:122
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:196
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:277
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:197
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:278
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:79
 #: ..\doc\reference\cordova_5.2\geolocation\index.rst:82
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:117
@@ -13883,10 +13884,10 @@ msgid ""
 msgstr "Zune の使用時には、ネイティブ側のカメラアプリを呼んでも動作せず、エラー時に使用するコールバックが実行されます。"
 
 #: ..\doc\reference\cordova_5.2\camera\index.rst:550
-#: ..\doc\reference\cordova_5.2\camera\index.rst:619
+#: ..\doc\reference\cordova_5.2\camera\index.rst:624
 #: ..\doc\reference\cordova_5.2\device-orientation\index.rst:181
 #: ..\doc\reference\cordova_5.2\device\index.rst:134
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:342
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:343
 #: ..\doc\reference\cordova_5.2\media\index.rst:503
 #: ..\doc\reference\cordova_5.2\media\index.rst:593
 #: ..\doc\reference\cordova_5.2\network-information\index.rst:146
@@ -13904,7 +13905,7 @@ msgstr "Tizen では、``Camera.DestinationType.FILE_URI`` の ``destinationType
 msgid "``CameraOptions`` Errata"
 msgstr "``CameraOptions`` の補足"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:571
+#: ..\doc\reference\cordova_5.2\camera\index.rst:573
 msgid ""
 "**``allowEdit`` is unpredictable on Android and it should not be used!** The"
 " Android implementation of this plugin tries to find and use an application "
@@ -13919,7 +13920,7 @@ msgid ""
 "for a more robust solution."
 msgstr "**``allowEdit`` の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。** このプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このような場合、不具合が生じます。もちろん、端末側のアプリとこのプラグインの相性が合うことも場合によってはありますが ( たとえば、Google Plus Photos )、ごくまれなケースです。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリー・プラグインを使用することも代替案としてご検討ください。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:575
+#: ..\doc\reference\cordova_5.2\camera\index.rst:577
 msgid ""
 "Ignores the ``encodingType`` parameter if the image is unedited (i.e. "
 "``quality`` is 100, ``correctOrientation`` is false, and no ``targetHeight``"
@@ -13929,13 +13930,13 @@ msgid ""
 "encoding."
 msgstr "``quality`` を 100 に設定、``correctOrientation`` を false に設定、加えて、``targetHeight`` または ``targetWidth`` を未設定にした場合、``encodingType`` パラメーターは無視されます。画像の取得先が ``CAMERA`` の場合、JPEG ファイル ( システム側のカメラが提供 ) を常に返します。また、``PHOTOLIBRARY`` または ``SAVEDPHOTOALBUM`` の場合には、選択されたファイル ( 現状の形式のまま ) が返されます。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:578
+#: ..\doc\reference\cordova_5.2\camera\index.rst:580
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:334
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:468
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:584
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:670
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:774
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:141
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:142
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:212
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:370
 #: ..\doc\reference\cordova_5.2\media-capture\index.rst:397
@@ -13945,63 +13946,63 @@ msgstr "``quality`` を 100 に設定、``correctOrientation`` を false に設�
 msgid "BlackBerry 10 Quirks"
 msgstr "BlackBerry 10 特有の動作"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:580
-#: ..\doc\reference\cordova_5.2\camera\index.rst:593
+#: ..\doc\reference\cordova_5.2\camera\index.rst:583
+#: ..\doc\reference\cordova_5.2\camera\index.rst:597
 msgid "Ignores the ``quality`` parameter."
 msgstr "``quality`` パラメーターを無視します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:584
-#: ..\doc\reference\cordova_5.2\camera\index.rst:605
+#: ..\doc\reference\cordova_5.2\camera\index.rst:587
+#: ..\doc\reference\cordova_5.2\camera\index.rst:609
 msgid "``Camera.MediaType`` is not supported."
 msgstr "``Camera.MediaType`` は使用できません。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:586
-#: ..\doc\reference\cordova_5.2\camera\index.rst:607
-#: ..\doc\reference\cordova_5.2\camera\index.rst:630
+#: ..\doc\reference\cordova_5.2\camera\index.rst:589
+#: ..\doc\reference\cordova_5.2\camera\index.rst:611
+#: ..\doc\reference\cordova_5.2\camera\index.rst:637
 msgid "Ignores the ``correctOrientation`` parameter."
 msgstr "``correctOrientation`` パラメーターを無視します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:588
-#: ..\doc\reference\cordova_5.2\camera\index.rst:609
-#: ..\doc\reference\cordova_5.2\camera\index.rst:632
+#: ..\doc\reference\cordova_5.2\camera\index.rst:591
+#: ..\doc\reference\cordova_5.2\camera\index.rst:613
+#: ..\doc\reference\cordova_5.2\camera\index.rst:639
 msgid "Ignores the ``cameraDirection`` parameter."
 msgstr "``cameraDirection`` パラメーターを無視します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:595
+#: ..\doc\reference\cordova_5.2\camera\index.rst:599
 msgid ""
 "``Camera.DestinationType`` is ignored and equals ``1`` (image file URI)"
 msgstr "``Camera.DestinationType`` は無視され、``1`` として処理されます ( 画像の File URI )。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:599
+#: ..\doc\reference\cordova_5.2\camera\index.rst:603
 msgid ""
 "Ignores the ``PictureSourceType`` parameter (user chooses it in a dialog "
 "window)"
 msgstr "``PictureSourceType`` パラメーターを無視します ( ダイアログウィンドウ上で、ユーザーが自由に選択できます )。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:601
+#: ..\doc\reference\cordova_5.2\camera\index.rst:605
 msgid "Ignores the ``encodingType``"
 msgstr "``encodingType`` パラメーターを無視します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:603
+#: ..\doc\reference\cordova_5.2\camera\index.rst:607
 msgid "Ignores the ``targetWidth`` and ``targetHeight``"
 msgstr "``targetWidth`` と ``targetHeight`` パラメーターを無視します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:616
+#: ..\doc\reference\cordova_5.2\camera\index.rst:621
 msgid ""
 "When using ``destinationType.NATIVE_URI`` and ``sourceType.CAMERA``, photos "
 "are saved in the saved photo album regardless on the value of "
 "``saveToPhotoAlbum`` parameter."
 msgstr "``destinationType.NATIVE_URI`` と ``sourceType.CAMERA`` に設定している場合、``saveToPhotoAlbum`` パラメーターに関わらず、写真は、フォトアルバムに保存されます。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:621
+#: ..\doc\reference\cordova_5.2\camera\index.rst:627
 msgid "options not supported"
 msgstr "CameraOptions は使用できません。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:623
+#: ..\doc\reference\cordova_5.2\camera\index.rst:629
 msgid "always returns a FILE URI"
 msgstr "FILE URI を常に返します。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:634
+#: ..\doc\reference\cordova_5.2\camera\index.rst:641
 msgid ""
 "Ignores the ``saveToPhotoAlbum`` parameter. IMPORTANT: All images taken with"
 " the wp7/8 cordova camera API are always copied to the phone's camera roll. "
@@ -14015,13 +14016,13 @@ msgid ""
 "<https://issues.apache.org/jira/browse/CB-2083>`__"
 msgstr "``saveToPhotoAlbum`` パラメーターを無視します。なお、wp7/8 向けの cordova のカメラ API ( Camera API ) を使用して撮影した画像は、常に、端末側のカメラロール ( Camera Roll ) にコピーされます。ユーザーの設定によっては異なる場合がありますが、これは、OneDrive 側にも自動的に写真がアップロードされてしまうことを意味します。この結果、アプリ開発時の想定よりも、より多くの不特定多数の人に、閲覧される状態になってしまいます。これが障害になる場合には、msdn にも掲載されているように、CameraCaptureTask を実装させる必要があります ( http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx )。また、関連する問題点に関して、`こちら <https://issues.apache.org/jira/browse/CB-2083>`__ からコメントを寄せることもできます。"
 
-#: ..\doc\reference\cordova_5.2\camera\index.rst:636
+#: ..\doc\reference\cordova_5.2\camera\index.rst:643
 msgid ""
 "Ignores the ``mediaType`` property of ``cameraOptions`` as the Windows Phone"
 " SDK does not provide a way to choose videos from PHOTOLIBRARY."
 msgstr "``cameraOptions`` の ``mediaType`` プロパティーを無視します。これは、Windows Phone SDK では、PHOTOLIBRARY からビデオを選択する方法を提供していないためです。"
 
-#: ..\doc\reference\cordova_5.2\contacts\index.rst:65
+#: ..\doc\reference\cordova_5.2\contacts\index.rst:64
 msgid ""
 "In order to use this plugin, please :ref:`enable <add_plugins>` ``Contacts``"
 " plugin in Monaca Cloud IDE."
@@ -14042,7 +14043,7 @@ msgid ""
 "``__contactFields__`` is not supported and will be ignored. ``find`` method "
 "will always attempt to match the name, email address, or phone number of a "
 "contact."
-msgstr ""
+msgstr "``__contactFields__`` は使用できず、無視されます。 ``find`` メソッドを使用すると、常に、名前、メールアドレス、電話番号のいずれかと一致する住所録を検索します。"
 
 #: ..\doc\reference\cordova_5.2\contacts\index.rst:336
 msgid "**id**: Assigned by the device when saving the contact."
@@ -14456,7 +14457,7 @@ msgid ""
 "limits the maximum readout frequency to something between 20 and 60 Hz, "
 "depending on the device. Values for **period** corresponding to higher "
 "frequencies will result in duplicate samples."
-msgstr "加速度の値の取得時には、**SENSOR\\_DELAY\\_UI** フラグを使用します。このフラグを立てると、周波数の最大リードアウト ( readout ) は、20 ～ 60 Hz の間になります ( 端末により異なる )。これより高い周波数に相当する **周期** ( period ) の場合、結果として、サンプルが重複することになります。\n\n[ 翻訳者メモ : 上記の原文は 「 Values for **period** corresponding to higher frequencies will result in duplicate samples. 」 です。単語 「 period 」 の訳し方には議論 ( Android 側の固有設定 「 SENSOR_DELAY_XXXX など 」 を指している場合、Cordova 側の固有設定 「 period 」 を指している場合、周波数一般の単語 「 周期 」 を指している場合 ) があり、場合によっては、翻訳内容が異なる場合があります。ただ、いずれの場合でも、「 時間的な要素 」 を意味していることに変わりありません。ここでは、最も一般的な組み合わせと考えられる 「 周期 」 という単語を使用しています。 ]"
+msgstr "加速度の値の取得時には、**SENSOR\\_DELAY\\_UI** フラグを使用します。このフラグを立てると、周波数の最大リードアウト ( readout ) は、20 ～ 60 Hz の間になります ( 端末により異なる )。これより高い周波数に相当する **周期** ( period ) の場合、結果として、サンプルが重複することになります。[ 翻訳者メモ : 上記の原文は 「 Values for **period** corresponding to higher frequencies will result in duplicate samples. 」 です。単語 「 period 」 の訳し方には議論 ( Android 側の固有設定 「 SENSOR_DELAY_XXXX など 」 を指している場合、Cordova 側の固有設定 「 period 」 を指している場合、周波数一般の単語 「 周期 」 を指している場合 ) があり、場合によっては、翻訳内容が異なる場合があります。ただ、いずれの場合でも、「 時間的な要素 」 を意味していることに変わりありません。ここでは、最も一般的な組み合わせと考えられる 「 周期 」 という単語を使用しています。 ]"
 
 #: ..\doc\reference\cordova_5.2\device-motion\index.rst:159
 msgid ""
@@ -14555,7 +14556,7 @@ msgid ""
 "soon. If the capability is not available, the application generates a "
 "persistent guid that is maintained for the duration of the application's "
 "installation on the device."
-msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。\n\n[ 翻訳者メモ : 「 機能 」 とは、WP7 におけるパーミッションの呼称です」"
+msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です」"
 
 #: ..\doc\reference\cordova_5.2\device\index.rst:288
 msgid "whether the device is running on a simulator."
@@ -14573,73 +14574,73 @@ msgid ""
 "``Notification`` plugin in Monaca Cloud IDE."
 msgstr "このプラグインを使用する場合には、Monaca クラウド IDE の [ Cordova プラグインの管理 ] 上で、``Notification`` プラグインを :ref:`有効 <add_plugins>` にします。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:136
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:217
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:292
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:137
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:218
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:293
 msgid "Firefox OS Quirks:"
 msgstr "Firefox OS 特有の動作"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:138
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:139
 msgid ""
 "Both native-blocking ``window.alert()`` and non-blocking "
 "``navigator.notification.alert()`` are available."
 msgstr "同期的 ( native-blocking ) に実行される ``window.alert()``、および、非同期的 ( non-blocking ) に実行される ``navigator.notification.alert()`` の両方を使用できます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:143
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:144
 msgid ""
 "``navigator.notification.alert('text', callback, 'title', 'text')`` callback"
 " parameter is passed the number 1."
 msgstr "``navigator.notification.alert('text', callback, 'title', 'text')`` の callback パラメーターには、「 1 」 が渡されます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:201
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:202
 msgid ""
 "There is no built-in browser function for ``window.confirm``, but you can "
 "bind it by assigning:"
 msgstr "``window.confirm`` ( ブラウザー標準の機能 ) に相当する関数はありません。ただし、次のように記述して、バインド ( bind ) することができます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:207
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:208
 msgid ""
 "Calls to ``alert`` and ``confirm`` are non-blocking, so the result is only "
 "available asynchronously."
 msgstr "``alert`` と ``confirm`` は、どちらも非同期処理 ( non-blocking call ) です。よって処理結果も、非同期的にのみ、利用できます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:212
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:213
 msgid ""
 "On Windows8/8.1 it is not possible to add more than three buttons to "
 "MessageDialog instance."
 msgstr "Windows 8/8.1 では、MessageDialog のインスタンスに、4 つ以上、ボタンを追加できません。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:214
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:215
 msgid ""
 "On Windows Phone 8.1 it's not possible to show dialog with more than two "
 "buttons."
 msgstr "Windows 8.1 では、ダイアログ上に、3 つ以上、ボタンを表示できません。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:219
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:220
 msgid ""
 "Both native-blocking ``window.confirm()`` and non-blocking "
 "``navigator.notification.confirm()`` are available."
 msgstr "同期的 ( native-blocking ) に実行される ``window.confirm()``、および、非同期的 ( non-blocking ) に実行される ``navigator.notification.confirm()`` の両方を使用できます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:289
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:290
 msgid "On Windows prompt dialog is html-based due to lack of such native api."
 msgstr "Windows 上の prompt ダイアログは、ネイティブの API がないため、html で構築されています。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:294
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:295
 msgid ""
 "Both native-blocking ``window.prompt()`` and non-blocking "
 "``navigator.notification.prompt()`` are available."
 msgstr "同期的 ( native-blocking ) に実行される ``window.prompt()``、および、非同期的 ( non-blocking ) に実行される ``navigator.notification.prompt()`` の両方を使用できます。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:339
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:340
 msgid "Relies on a generic beep file from the Cordova distribution."
 msgstr "Cordova が提供するビープ音のファイルを使用します。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:344
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:345
 msgid "Tizen implements beeps by playing an audio file via the media API."
 msgstr "Tizen では、メディア操作 API ( Media API ) を使用して、オーディオファイルの再生を行い、ビープ音を鳴らします。"
 
-#: ..\doc\reference\cordova_5.2\dialogs\index.rst:346
+#: ..\doc\reference\cordova_5.2\dialogs\index.rst:347
 msgid ""
 "The beep file must be short, must be located in a ``sounds`` subdirectory of"
 " the application's root directory, and must be named ``beep.wav``."
@@ -14662,11 +14663,11 @@ msgstr "Windows Phone 7 と 8\\*"
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:81
 msgid "\\*Do not support ``onprogress`` nor ``abort()``"
-msgstr ""
+msgstr "\\* これらのプラットフォームでは、``onprogress`` と ``abort()`` は使用できません。"
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:83
 msgid "\\*\\*Do not support ``onprogress``"
-msgstr ""
+msgstr "\\*\\* これらのプラットフォームでは、``onprogress`` は使用できません。"
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:90
 msgid ""
@@ -14676,11 +14677,11 @@ msgstr "``FileTransfer`` オブジェクトを使用して、ファイルのア�
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:119
 msgid "**options**: Optional parameters *(Object)*."
-msgstr ""
+msgstr "**options**: 任意のパラメーター  *(Object)*"
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:121
 msgid "Valid keys:"
-msgstr ""
+msgstr "使用できる key は、次のとおりです。"
 
 #: ..\doc\reference\cordova_5.2\file-transfer\index.rst:135
 msgid ""
@@ -14716,19 +14717,19 @@ msgstr "**body** : レスポンスのボディー。HTTP 接続の状態を示�
 msgid ""
 "``FileEntry.toURL()`` and ``DirectoryEntry.toURL()`` return a filesystem "
 "ofURL of the form"
-msgstr ""
+msgstr "``FileEntry.toURL()`` と ``DirectoryEntry.toURL()`` では、ファイルシステムの URL を、次の形式で返します。"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:44
 msgid ""
 "This plugin is based on several specs, including: The HTML5 File API "
 "http://www.w3.org/TR/FileAPI/"
-msgstr ""
+msgstr "このプラグインは、http://www.w3.org/TR/FileAPI/ ( File API ) の仕様を含む、下記の仕様に準拠して構築されています。"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:48
 msgid ""
 "It also implements the FileWriter spec: http://dev.w3.org/2009/dap/file-"
 "system/file-writer.html"
-msgstr ""
+msgstr "http://dev.w3.org/2009/dap/file-system/file-writer.html ( File API: Writer ) "
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:75
 msgid ""
@@ -14833,23 +14834,23 @@ msgstr "Android の asset ディレクトリー内に置かれたファイル ( 
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:194
 msgid "The following data paths are supported:"
-msgstr ""
+msgstr "次のパスを使用できます。"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:196
 msgid ""
 "\\* ``applicationDirectory`` - Uses ``xhr`` to get local files that are "
 "packaged with the app."
-msgstr ""
+msgstr "\\* ``applicationDirectory`` - アプリのパッケージに含まれているローカルファイル ( local file ) へアクセスする場合には、``xhr`` を使用します。 "
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:198
 msgid "\\* ``dataDirectory`` - For persistent app-specific data files."
-msgstr ""
+msgstr "\\* ``dataDirectory`` - 永続的なデータファイル用 ( アプリ毎 ) です。"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:200
 msgid ""
 "\\* ``cacheDirectory`` - Cached files that should survive app restarts (Apps"
 " should not rely on the OS to delete files in here)."
-msgstr ""
+msgstr "\\* ``cacheDirectory`` - キャッシュファイル用 ( アプリの再起動後でも残っているファイル ) です。ディレクトリー内のコンテンツの削除は、OS に頼らずに、アプリ側で行うことを推奨します。"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:206
 msgid "Common quirks and remarks"
@@ -14946,119 +14947,124 @@ msgstr "Chrome 特有の動作"
 msgid ""
 "Chrome filesystem is not immediately ready after device ready event. As a "
 "workaround you can subscribe to ``filePluginIsReady`` event."
-msgstr ""
+msgstr "Chrome のファイルシステムは、device ready イベント後も、すぐには使用できません。回避策として、次のように、``filePluginIsReady`` イベントをサブスクライブ ( subscribe/購読 ) します。 [ 翻訳者メモ: JavaScript における 「 subscribe 」 は、サブスクライブ/購読などと、検索エンジン上では訳されています。イベントにリスナーを登録する処理を指しているので、「 監視 」 するくらいの意味でとらえるとわかりやすいかと思います。]"
 
 #: ..\doc\reference\cordova_5.2\file\index.rst:246
 msgid ""
 "You can use ``window.isFilePluginReadyRaised`` function to check whether "
-"event was already raised. -  window.requestFileSystem TEMPORARY and "
-"PERSISTENT filesystem quotas are not limited in Chrome."
+"event was already raised."
 msgstr ""
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:249
+#: ..\doc\reference\cordova_5.2\file\index.rst:248
+msgid ""
+"window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas are not "
+"limited in Chrome."
+msgstr ""
+
+#: ..\doc\reference\cordova_5.2\file\index.rst:250
 msgid ""
 "To increase persistent storage in Chrome you need to call "
 "``window.initPersistentFileSystem`` method. Persistent storage quota is 5 MB"
 " by default."
-msgstr ""
+msgstr "Chrome において永続的なストレージ ( persistent storage ) の容量を増やす場合には、``window.initPersistentFileSystem`` メソッドを使用します。デフォルトでは、永続的なストレージへの割り当ては、5 MB となっています。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:251
+#: ..\doc\reference\cordova_5.2\file\index.rst:252
 msgid ""
 "Chrome requires ``--allow-file-access-from-files`` run argument to support "
 "API via ``file:///`` protocol."
-msgstr ""
+msgstr "「 ``file:///`` 」 プロトコル経由で API を使用する場合 ( ``file:///`` 経由でアプリをデバッグする場合など )、「 ``--allow-file-access-from-files`` 」 を Chrome の起動オプションとして使用します。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:253
+#: ..\doc\reference\cordova_5.2\file\index.rst:254
 msgid ""
 "``File`` object will be not changed if you use flag ``{create:true}`` when "
 "getting an existing ``Entry``."
-msgstr ""
+msgstr "``File`` オブジェクトは、既存の ``エントリー`` ( Entry ) の取得時に、``{create:true}`` のフラグを立てている場合、更新できません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:255
+#: ..\doc\reference\cordova_5.2\file\index.rst:256
 msgid ""
 "events ``cancelable`` property is set to true in Chrome. This is contrary to"
 " the `specification <http://dev.w3.org/2009/dap/file-system/file-"
 "writer.html>`__."
-msgstr ""
+msgstr "Chrome では、``event.cancelable`` プロパティーは、true に設定されています。`こちらの仕様 <http://dev.w3.org/2009/dap/file-system/file-writer.html>`__ とは、逆の設定になっています。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:257
+#: ..\doc\reference\cordova_5.2\file\index.rst:258
 msgid ""
 "``toURL`` function in Chrome returns ``filesystem:``-prefixed path depending"
 " on application host. For example, "
 "``filesystem:file:///persistent/somefile.txt``, "
 "``filesystem:http://localhost:8080/persistent/somefile.txt``."
-msgstr ""
+msgstr "ホスト側となるアプリによっても異なりますが、Chrome の ``toURL`` 関数は、``filesystem:`` が先頭に付いたパスを返します。たとえば、「 ``filesystem:file:///persistent/somefile.txt`` 」、「 ``filesystem:http://localhost:8080/persistent/somefile.txt`` 」 となります。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:259
+#: ..\doc\reference\cordova_5.2\file\index.rst:260
 msgid ""
 "``toURL`` function result does not contain trailing slash in case of "
 "directory entry. Chrome resolves directories with slash-trailed urls "
 "correctly though."
-msgstr ""
+msgstr "``toURL`` 関数の実行結果には、ディレクトリーエントリー ( Directory Entry ) の場合、URL の末尾につけるスラッシュ ( トレイリングスラッシュ/Trailing Slash ) がつけられていません。なお、Chrome では、トレイリングスラッシュ付きの URL のディレクトリーでも、正しく解決 ( resolve ) してくれます ( 原文 「 Chrome resolves directories with slash-trailed urls correctly though. 」 )。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:261
+#: ..\doc\reference\cordova_5.2\file\index.rst:262
 msgid ""
 "``resolveLocalFileSystemURL`` method requires the inbound ``url`` to have "
 "``filesystem`` prefix. For example, ``url`` parameter for "
 "``resolveLocalFileSystemURL`` should be in the form "
 "``filesystem:file:///persistent/somefile.txt`` as opposed to the form "
 "``file:///persistent/somefile.txt`` in Android."
-msgstr ""
+msgstr "``resolveLocalFileSystemURL`` メソッドに渡される ``url`` の先頭には、``filesystem`` が付記されている必要があります。よって、``resolveLocalFileSystemURL`` の ``url`` パラメーターは、たとえば、「 ``filesystem:file:///persistent/somefile.txt`` 」 となります。一方、Android では、「 ``file:///persistent/somefile.txt`` 」 となっています。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:263
+#: ..\doc\reference\cordova_5.2\file\index.rst:264
 msgid ""
 "Deprecated ``toNativeURL`` function is not supported and does not have a "
 "stub."
-msgstr ""
+msgstr "廃止された ``toNativeURL`` 関数は使用できません。また、スタブ ( stub ) もありません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:265
+#: ..\doc\reference\cordova_5.2\file\index.rst:266
 msgid ""
 "``setMetadata`` function is not stated in the specifications and not "
 "supported."
-msgstr ""
+msgstr "``setMetadata`` 関数は、仕様には記されていないため、使用できません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:267
+#: ..\doc\reference\cordova_5.2\file\index.rst:268
 msgid ""
 "INVALID\\_MODIFICATION\\_ERR (code: 9) is thrown instead of "
-"SYNTAX\\_ERR(code: 8) on requesting of a non-existant filesystem."
+"SYNTAX\\_ERR(code: 8) on requesting of a non-existent filesystem."
 msgstr ""
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:269
+#: ..\doc\reference\cordova_5.2\file\index.rst:270
 msgid ""
 "INVALID\\_MODIFICATION\\_ERR (code: 9) is thrown instead of "
 "PATH\\_EXISTS\\_ERR(code: 12) on trying to exclusively create a file or "
 "directory, which already exists."
-msgstr ""
+msgstr "すでに存在するファイルまたはディレクトリーを、exclusive = true 設定で作成する場合には、PATH\\_EXISTS\\_ERR(code: 12) の代わりに、INVALID\\_MODIFICATION\\_ERR (code: 9) が投げられます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:271
+#: ..\doc\reference\cordova_5.2\file\index.rst:272
 msgid ""
 "INVALID\\_MODIFICATION\\_ERR (code: 9) is thrown instead of "
 "NO\\_MODIFICATION\\_ALLOWED\\_ERR(code: 6) on trying to call "
 "removeRecursively on the root file system."
-msgstr ""
+msgstr "ファイルシステムのルート上で、removeRecursively を呼び出した場合には、NO\\_MODIFICATION\\_ALLOWED\\_ERR(code: 6) の代わりに、INVALID\\_MODIFICATION\\_ERR (code: 9) が投げられます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:273
+#: ..\doc\reference\cordova_5.2\file\index.rst:274
 msgid ""
 "INVALID\\_MODIFICATION\\_ERR (code: 9) is thrown instead of "
 "NOT\\_FOUND\\_ERR(code: 1) on trying to moveTo directory that does not "
 "exist."
-msgstr ""
+msgstr "存在しないディレクトリーに対して、moveTo を実行したときには、NOT\\_FOUND\\_ERR(code: 1) の代わりに、INVALID\\_MODIFICATION\\_ERR (code: 9) が投げられます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:276
+#: ..\doc\reference\cordova_5.2\file\index.rst:277
 msgid "IndexedDB-based impl quirks (Firefox and IE)"
 msgstr "IndexedDB 使用時の特有の動作 ( Firefox と IE )"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:278
+#: ..\doc\reference\cordova_5.2\file\index.rst:279
 msgid "``.`` and ``..`` are not supported."
 msgstr ""
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:280
+#: ..\doc\reference\cordova_5.2\file\index.rst:281
 msgid ""
 "IE does not support ``file:///``-mode; only hosted mode is supported "
 "(http://localhost:xxxx)."
 msgstr "IE では、``file:///`` 形式は使用できず、http://localhost:xxxx 形式のみ使用できます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:282
+#: ..\doc\reference\cordova_5.2\file\index.rst:283
 msgid ""
 "Firefox filesystem size is not limited but each 50MB extension will request "
 "a user permission. IE10 allows up to 10mb of combined AppCache and IndexedDB"
@@ -15068,58 +15074,58 @@ msgid ""
 "does not affect filesystem in Firefox and IE."
 msgstr "Firefox では、ファイルシステムのサイズに制限はありませんが、50 MB を拡張するたびに、ユーザー側に許可を求めます。IE10 では、10 MB ( ファイルシステムの処理に、AppCache と IndexedDB を併用する場合 ) まで、許可を得ずに使用でき、それ以上に達すると上限 ( 1 サイトあたり、250 MB まで ) まで使用するか、ユーザー側に許可を求めます。よって、Firefox と IE では、``requestFileSystem`` 関数で ``容量の割り当て`` に関するパラメーターを設定しても、ファイルシステムの動作に影響を与えません ( 参考リンク : http://www.html5rocks.com/ja/tutorials/offline/quota-research/ )。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:284
+#: ..\doc\reference\cordova_5.2\file\index.rst:285
 msgid ""
 "``readAsBinaryString`` function is not stated in the Specs and not supported"
 " in IE and does not have a stub."
 msgstr "仕様では、``readAsBinaryString`` 関数に関しては記されていません。また、IE では使用できません。また、スタブ ( stub ) もありません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:286
+#: ..\doc\reference\cordova_5.2\file\index.rst:287
 msgid "``file.type`` is always null."
 msgstr "``file.type`` は、常に、null となります。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:288
+#: ..\doc\reference\cordova_5.2\file\index.rst:289
 msgid ""
 "You should not create entry using DirectoryEntry instance callback result "
 "which was deleted. Otherwise, you will get a 'hanging entry'."
 msgstr "すでに削除されている、DirectoryEntry インスタンスのコールバックの実行結果を使用して、エントリー ( Entry ) を作成してはいけません。作成した場合、いわゆる 「 保留状態のエントリー ( hanging entry ) 」 となります。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:290
+#: ..\doc\reference\cordova_5.2\file\index.rst:291
 msgid ""
 "Before you can read a file, which was just written you need to get a new "
 "instance of this file."
 msgstr "更新後のファイルをすぐに読み込む場合、まず、このファイルの新規インスタンスを作成する必要があります。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:292
+#: ..\doc\reference\cordova_5.2\file\index.rst:293
 msgid ""
 "``setMetadata`` function, which is not stated in the Specs supports "
 "``modificationTime`` field change only."
 msgstr "``setMetadata`` 関数 ( 仕様には記載なし ) では、``modificationTime`` の更新のみ行えます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:294
+#: ..\doc\reference\cordova_5.2\file\index.rst:295
 msgid ""
 "``copyTo`` and ``moveTo`` functions do not support directories. Directories "
 "metadata is not supported."
 msgstr "``copyTo`` と ``moveTo`` メソッドは、ディレクトリーに対しては使用できません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:296
+#: ..\doc\reference\cordova_5.2\file\index.rst:297
 msgid ""
 "Both Entry.remove and directoryEntry.removeRecursively don't fail when "
 "removing non-empty directories - directories being removed are cleaned along"
 " with contents instead."
 msgstr "Entry.remove と directoryEntry.removeRecursively は、コンテンツが置かれているディレクトリーに対しても使用できます。 \n\n[ 翻訳者メモ ： 混乱を避けるため、一部訳していない文もあります。なお、翻訳時に行ったリサーチでは、remove() は空のディレクトリーに対して、removeRecursively はコンテンツが置いてあるディレクトリーおよびそのサブディレクトリーに対して使用できるとありました。 ]"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:298
+#: ..\doc\reference\cordova_5.2\file\index.rst:299
 msgid "``abort`` and ``truncate`` functions are not supported."
 msgstr "``abort`` と ``truncate`` 関数は使用できません。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:300
+#: ..\doc\reference\cordova_5.2\file\index.rst:301
 msgid ""
 "progress events are not fired. For example, this handler will be not "
 "executed:"
-msgstr "progress イベントは発火しません。たとえば、次のハンドラーは実行されません。"
+msgstr ""
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:332
+#: ..\doc\reference\cordova_5.2\file\index.rst:336
 msgid ""
 "In v1.1.0 the return value of ``toURL()`` was changed (see `CB-6394 "
 "<https://issues.apache.org/jira/browse/CB-6394>`__) to return an absolute "
@@ -15128,15 +15134,15 @@ msgid ""
 "form"
 msgstr "v1.1.0 では、``toURL()`` の戻り値は、可能であれば、file:// 形式の絶対 URL を返すように仕様が変わりました ( `CB-6394 <https://issues.apache.org/jira/browse/CB-6394>`__ を参照のこと )。 cdvfile: 形式の URL を取得したい場合には、現在、``toInternalURL()`` を使用できます。このメソッドでは、次の形式の ファイルシステム URL ( FileSystem URL ) を返します。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:341
+#: ..\doc\reference\cordova_5.2\file\index.rst:345
 msgid "cdvfile protocol"
 msgstr "cdvfile プロトコル"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:343
+#: ..\doc\reference\cordova_5.2\file\index.rst:347
 msgid "**Purpose**"
 msgstr "**目的**"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:345
+#: ..\doc\reference\cordova_5.2\file\index.rst:349
 msgid ""
 "``cdvfile://localhost/persistent|temporary|another-fs-root*/path/to/file`` "
 "can be used for platform-independent file paths. cdvfile paths are supported"
@@ -15145,61 +15151,61 @@ msgid ""
 "media``."
 msgstr "「 ``cdvfile://localhost/persistent|temporary|another-fs-root*/path/to/file`` 」 形式のファイルパスを使用できます。この形式は、プラットフォームには依存せず、多くのプラットフォームでサポートされています。また、基本 Cordova プラグイン ( Core Cordova プラグイン ) でも、この cdvfile 形式のパスがサポートされています。たとえば、``ファイル転送プラグイン`` ( File Transfer プラグイン ) を使用して、mp3 ファイルを、cdvfile 形式で指定された場所へダウンロードすることができます。また、``メディア操作プラグイン`` ( Media プラグイン ) を使用すれば、そのファイルを再生できます。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:347
+#: ..\doc\reference\cordova_5.2\file\index.rst:351
 msgid ""
 "\\_\\_\\*Note\\_\\_: See `Where to Store Files <#where-to-store-files>`__, "
 "`File System Layouts <#file-system-layouts>`__ and `Configuring the Plugin "
 "<#configuring-the-plugin-optional>`__ for more details about available fs "
 "roots."
-msgstr ""
+msgstr "\\_\\_\\*注意\\_\\_: 使用できるファイルシステムのルートに関しては、「 `ファイルの保存場所 <#where-to-store-files>`__ 」、「 `ファイルシステムの一覧 ( 外部サイト ) <https://www.npmjs.com/package/cordova-plugin-file#file-system-layouts>`__ 」、「 `プラグインの設定 <#configuring-the-plugin-optional>`__ 」 をご確認ください。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:349
+#: ..\doc\reference\cordova_5.2\file\index.rst:353
 msgid ""
 "To use ``cdvfile`` as a tag' ``src`` you can convert it to native path via "
 "``toURL()`` method of the resolved fileEntry, which you can get via "
 "``resolveLocalFileSystemURL`` - see examples below."
 msgstr "タグの ``src`` に ``cdvfile`` を使用する場合、取得した fileEntry の ``toURL()`` メソッドを使用すれば、``cdvfile`` のパスをネイティブパス ( native path ) に変換することができます。fileEntry は、``resolveLocalFileSystemURL`` を使用して取得できます。下に例を示しています。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:351
+#: ..\doc\reference\cordova_5.2\file\index.rst:355
 msgid ""
 "You can also use ``cdvfile://`` paths directly in the DOM, for example:"
 msgstr "また、``cdvfile://`` パスは、DOM 上で直接使用することもできます。次に例を示します。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:358
+#: ..\doc\reference\cordova_5.2\file\index.rst:362
 msgid ""
 "**Note**: This method requires following Content Security rules updates:"
 msgstr "**注意**: この方法を使用する場合には、次の Content Security ルールが追加で必要となります。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:360
+#: ..\doc\reference\cordova_5.2\file\index.rst:364
 msgid ""
 "\\* Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of the "
 "index page, e.g.: - ``<meta http-equiv=\"Content-Security-Policy\" content"
 "=\"default-src 'self' data: gap:``\\ **cdvfile:**\\ "
 "``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; "
 "media-src *\">``"
-msgstr ""
+msgstr "index ページの ``Content-Security-Policy`` の meta タグに、``cdvfile:`` スキームを追加します。次に例を示します。``<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' data: gap:``\\ **cdvfile:**\\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *\">``"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:363
+#: ..\doc\reference\cordova_5.2\file\index.rst:367
 msgid "\\* Add ``<access origin=\"cdvfile://*\" />`` to ``config.xml``."
-msgstr ""
+msgstr "\\* ``<access origin=\"cdvfile://*\" />`` を ``config.xml`` に追加します。"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:366
+#: ..\doc\reference\cordova_5.2\file\index.rst:370
 msgid "**Converting cdvfile:// to native path**"
 msgstr "**cdvfile:// からネイティブパス ( native path ) への変換**"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:375
+#: ..\doc\reference\cordova_5.2\file\index.rst:379
 msgid "**Converting native path to cdvfile://**"
 msgstr "**ネイティブパス ( native path ) から cdvfile:// への変換**"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:382
+#: ..\doc\reference\cordova_5.2\file\index.rst:386
 msgid "**Using cdvfile in core plugins**"
 msgstr "**基本 Cordova プラグイン ( Cordova コアプラグイン ) で cdvfile を使用する場合**"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:393
+#: ..\doc\reference\cordova_5.2\file\index.rst:397
 msgid "cdvfile quirks"
 msgstr "cdvfile 特有の動作"
 
-#: ..\doc\reference\cordova_5.2\file\index.rst:395
+#: ..\doc\reference\cordova_5.2\file\index.rst:399
 msgid ""
 "Using ``cdvfile://`` paths in the DOM is not supported on Windows platform "
 "(a path can be converted to native instead)."
@@ -15316,7 +15322,7 @@ msgid ""
 "When the browser is set to the ``en_US`` locale and the selectedd currency "
 "is United States Dollars, this example displays a popup dialog with text "
 "similar to the results that follow:"
-msgstr ""
+msgstr "ブラウザーのロケール設定を ``en-US``、通貨の設定を US ドル にした場合、次の記述をしたときには、ポップアップダイアログ上に、下記の結果が表示されます。"
 
 #: ..\doc\reference\cordova_5.2\globalization\index.rst:388
 msgid "Only 'code' and 'fraction' properties are supported"
@@ -16039,7 +16045,7 @@ msgid ""
 "Apps’s WebView. If no designation is specified, ``allow-intent`` in http(s) "
 "is being designated, the external browswer page will be opened. If there is "
 "no ``allow-intent``, nothing will happen."
-msgstr ""
+msgstr "WebView 上で使用できる URL を制御します。この設定は、最上位のウィンドウ ( top-level navigation ) 上のページ遷移、および、http(s) スキーマを使用していない iframe に適用されます。``<a>`` タグまたは ``window.open('','_self')`` を使用した場合には、遷移先のページをユーザー側で指定でき、アプリの WebView 内で開くことができます。遷移先の指定がない場合、``allow-intent`` に設定された http(s) が使用され、外部のブラウザー上でページが開きます。``allow-intent`` の設定がない場合には、なにも起こりません。"
 
 #: ..\doc\reference\cordova_5.2\whitelist\index.rst:80
 msgid ":dfn:`<allow-navigation href=\"*\" />`"

@@ -234,7 +234,7 @@ Common quirks and remarks
 Chrome quirks
 ~~~~~~~~~~~~~
 
--  Chrome filesystem is not immediately ready after device ready event. As a workaround you can subscribe to ``filePluginIsReady`` event.
+Chrome filesystem is not immediately ready after device ready event. As a workaround you can subscribe to ``filePluginIsReady`` event.
 
    Example:
 
@@ -244,6 +244,7 @@ Chrome quirks
 
 
 You can use ``window.isFilePluginReadyRaised`` function to check whether event was already raised.
+
 -  window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas are not limited in Chrome.
 
 -  To increase persistent storage in Chrome you need to call ``window.initPersistentFileSystem`` method. Persistent storage quota is 5 MB by default.
@@ -264,7 +265,7 @@ You can use ``window.isFilePluginReadyRaised`` function to check whether event w
 
 -  ``setMetadata`` function is not stated in the specifications and not supported.
 
--  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of SYNTAX\_ERR(code: 8) on requesting of a non-existant filesystem.
+-  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of SYNTAX\_ERR(code: 8) on requesting of a non-existent filesystem.
 
 -  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of PATH\_EXISTS\_ERR(code: 12) on trying to exclusively create a file or directory, which already exists.
 
@@ -273,7 +274,7 @@ You can use ``window.isFilePluginReadyRaised`` function to check whether event w
 -  INVALID\_MODIFICATION\_ERR (code: 9) is thrown instead of NOT\_FOUND\_ERR(code: 1) on trying to moveTo directory that does not exist.
 
 IndexedDB-based impl quirks (Firefox and IE)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  ``.`` and ``..`` are not supported.
 
@@ -299,12 +300,15 @@ IndexedDB-based impl quirks (Firefox and IE)
 
 -  progress events are not fired. For example, this handler will be not executed:
 
+Example:
+
    .. code:: javascript
 
        writer.onprogress = function() { /*commands*/ };
 
+
 Upgrading Notes
----------------
+----------------
 
 In v1.0.0 of this plugin, the ``FileEntry`` and ``DirectoryEntry`` structures have changed, to be more in line with the published specification.
 

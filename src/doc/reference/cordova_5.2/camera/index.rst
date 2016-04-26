@@ -498,7 +498,7 @@ Take a photo and retrieve the image's file location:
 Preferences (iOS)
 ~~~~~~~~~~~~~~~~~~~
 
--  **CameraUsesGeolocation** (boolean, defaults to false). For capturing JPEGs, set to true to get geolocation data in the EXIF header. This will trigger a request for geolocation permissions if set to true.
+**CameraUsesGeolocation** (boolean, defaults to false). For capturing JPEGs, set to true to get geolocation data in the EXIF header. This will trigger a request for geolocation permissions if set to true.
 
    ::
 
@@ -557,6 +557,7 @@ Tizen only supports a ``destinationType`` of ``Camera.DestinationType.FILE_URI``
 Amazon Fire OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 -  Any ``cameraDirection`` value results in a back-facing photo.
 
 -  Ignores the ``allowEdit`` parameter.
@@ -565,6 +566,7 @@ Amazon Fire OS Quirks
 
 Android Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Any ``cameraDirection`` value results in a back-facing photo.
 
@@ -576,6 +578,7 @@ Android Quirks
 
 BlackBerry 10 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Ignores the ``quality`` parameter.
 
@@ -589,6 +592,7 @@ BlackBerry 10 Quirks
 
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Ignores the ``quality`` parameter.
 
@@ -611,6 +615,7 @@ Firefox OS Quirks
 iOS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 -  When using ``destinationType.FILE_URI``, photos are saved in the application's temporary directory. The contents of the application's temporary directory is deleted when the application ends.
 
 -  When using ``destinationType.NATIVE_URI`` and ``sourceType.CAMERA``, photos are saved in the saved photo album regardless on the value of ``saveToPhotoAlbum`` parameter.
@@ -618,12 +623,14 @@ iOS Quirks
 Tizen Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 -  options not supported
 
 -  always returns a FILE URI
 
 Windows Phone 7 and 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Ignores the ``allowEdit`` parameter.
 

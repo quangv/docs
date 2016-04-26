@@ -123,12 +123,14 @@ Example
 iOS Quirks
 ^^^^^^^^^^
 
+
 -  **time**: Ignores the specified time and vibrates for a pre-set amount of time.
 
    navigator.vibrate(3000); // 3000 is ignored
 
 Windows and Blackberry Quirks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 -  **time**: Max time is 5000ms (5s) and min time is 1ms
 
@@ -161,6 +163,7 @@ Windows Phone 8 Quirks
 ^^^^^^^^^^^^^^^^^^^^^^
 
 -  vibrate(pattern) falls back on vibrate with default duration
+
 
 Windows Quirks
 ^^^^^^^^^^^^^^
@@ -212,12 +215,13 @@ Example
 iOS Quirks
 ~~~~~~~~~~
 
+
 -  **time**: Ignores the specified time and vibrates for a pre-set amount of time.
 
-   ::
+::
 
-       navigator.notification.vibrate();
-       navigator.notification.vibrate(2500);   // 2500 is ignored
+    navigator.notification.vibrate();
+    navigator.notification.vibrate(2500);   // 2500 is ignored
 
 \*notification.vibrateWithPattern (deprecated)
 ----------------------------------------------

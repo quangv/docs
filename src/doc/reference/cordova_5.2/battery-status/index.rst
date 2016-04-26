@@ -79,6 +79,7 @@ Applications typically should use ``window.addEventListener`` to attach an event
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
 
+
 -  Amazon Fire OS
 -  iOS
 -  Android
@@ -91,6 +92,7 @@ Supported Platforms
 
 Android and Amazon Fire OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Warning: the Android + Fire OS implementations are greedy and prolonged use will drain the user's battery.
 
@@ -122,7 +124,7 @@ Example
     }
 
 batterycritical
----------------
+~~~~~~~~~~~~~~~~~
 
 The event fires when the percentage of battery charge has reached the critical battery threshold. The value is device-specific.
 
@@ -136,6 +138,7 @@ Applications typically should use ``window.addEventListener`` to attach an event
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
+
 
 -  Amazon Fire OS
 -  iOS
@@ -183,6 +186,7 @@ Applications typically should use ``window.addEventListener`` to attach an event
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
+
 
 -  Amazon Fire OS
 -  iOS

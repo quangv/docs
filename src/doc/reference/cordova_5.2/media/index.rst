@@ -486,9 +486,9 @@ iOS Quirks
 
 -  Files can be recorded and played back using the documents URI:
 
-   ::
+::
 
-       var myMedia = new Media("documents://beer.mp3")
+    var myMedia = new Media("documents://beer.mp3")
 
 Windows Quirks
 ~~~~~~~~~~~~~~
