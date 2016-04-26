@@ -93,10 +93,10 @@
   <footer class="global">
     <div class="footer-nav">
       {{#is lang "ja"}}
-        <a href="/en/" id="footer-nav-feedback">English</a>
+        <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
         <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a>
       {{else}}
-        <a href="/ja/" id="footer-nav-feedback">日本語版</a>
+        <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
         <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a>
       {{/is}}
     </div>
@@ -104,6 +104,9 @@
   </footer>
 
   <script>
+    function switchLanguage(currentLanguage,switchLanguage) {
+      location.href = location.href.replace(currentLanguage,switchLanguage);
+    }
     if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
       document.body.classList.add("home");
     }
