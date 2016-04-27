@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-04-26 11:57+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-04-26 23:51+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14953,13 +14953,13 @@ msgstr "Chrome のファイルシステムは、device ready イベント後も�
 msgid ""
 "You can use ``window.isFilePluginReadyRaised`` function to check whether "
 "event was already raised."
-msgstr ""
+msgstr "なお、``window.isFilePluginReadyRaised`` 関数を使用すれば、イベントが発火したか否かを確認できます。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:248
 msgid ""
 "window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas are not "
 "limited in Chrome."
-msgstr ""
+msgstr "Chrome では、window.requestFileSystem の実行時 ( TEMPORARY と PERSISTENT のいずれも ) に設定できるストレージ容量の割り当てに制限はありません。[ 翻訳者メモ ： 原文 「 window.requestFileSystem TEMPORARY and PERSISTENT filesystem quotas are not limited in Chrome. 」。Chrome Developer ページでは、ハードドライブの上限を超えた割り当て要求の場合、システム側からエラーが返ってくると記述されていることから、「 割り当て要求自体は無制限にできるが、ハードウェアの上限は超えられない 」 と読むこともできます。参考として、https://developer.chrome.com/apps/offline_storage  もご確認ください。]"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:250
 msgid ""
@@ -15027,7 +15027,7 @@ msgstr "``setMetadata`` 関数は、仕様には記されていないため、�
 msgid ""
 "INVALID\\_MODIFICATION\\_ERR (code: 9) is thrown instead of "
 "SYNTAX\\_ERR(code: 8) on requesting of a non-existent filesystem."
-msgstr ""
+msgstr "存在しないファイルシステムをリクエストした場合には、SYNTAX\\_ERR(code: 8) の代わりに、INVALID\\_MODIFICATION\\_ERR (code: 9) が投げられます。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:270
 msgid ""
@@ -15056,7 +15056,7 @@ msgstr "IndexedDB 使用時の特有の動作 ( Firefox と IE )"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:279
 msgid "``.`` and ``..`` are not supported."
-msgstr ""
+msgstr "「 ``.`` 」 と 「 ``..`` 」 は使用できません。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:281
 msgid ""
@@ -15123,7 +15123,7 @@ msgstr "``abort`` と ``truncate`` 関数は使用できません。"
 msgid ""
 "progress events are not fired. For example, this handler will be not "
 "executed:"
-msgstr ""
+msgstr "progress イベントは発火しません。たとえば、次のハンドラーは実行されません。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:336
 msgid ""
