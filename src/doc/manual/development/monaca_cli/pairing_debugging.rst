@@ -6,9 +6,6 @@ Pairing and Debugging
 
 .. rst-class:: right-menu
 
-
-
-
 In order to debug Monaca app with Monaca CLI, you need to pair your host PC (running Monaca CLI) with your device (running Monaca Debugger) first. 
 
 Before connecting Monaca Debugger to your local PC, please pay attention to the following points:
@@ -25,11 +22,11 @@ Start Pairing
 
 1. Launch Monaca Debugger app on your device and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca CLI.
 
-2. In the command window on your PC, navigate to your project folder and use :ref:`monaca_livesync` command to connect to your Monaca Debugger:
+2. In the command window on your PC, navigate to your project folder and use :ref:`monaca_debug` command to connect to your Monaca Debugger:
 
   .. code-block:: bash
 
-        $ monaca livesync
+        $ monaca debug
 
 3. Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. After this, your application should be running on your Monaca Debugger.
 
@@ -56,7 +53,7 @@ There are two ways to stop the pairing:
 From the PC
 ^^^^^^^^^^^^^^^^^^^^
 
-In the same command window on your PC which you are running :ref:`monaca_livesync` command, please use the following command to stop the pairing/break the livesync process between your PC and Monaca Debugger:
+In the same command window on your PC which you are running :ref:`monaca_debug` command, please use the following command to stop the pairing/break the debug process between your PC and Monaca Debugger:
 
   .. code-block:: bash
 
