@@ -38,18 +38,13 @@ Media Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-media>`_.
 
-This plugin provides the ability to record and play back audio files on
-a device.
+This plugin provides the ability to record and play back audio files on a device.
 
-**NOTE**: The current implementation does not adhere to a W3C
-specification for media capture, and is provided for convenience only. A
-future implementation will adhere to the latest W3C specification and
-may deprecate the current APIs.
+**NOTE**: The current implementation does not adhere to a W3C specification for media capture, and is provided for convenience only. A future implementation will adhere to the latest W3C specification and may deprecate the current APIs.
 
 This plugin defines a global ``Media`` Constructor.
 
-Although in the global scope, it is not available until after the
-``deviceready`` event.
+Although in the global scope, it is not available until after the ``deviceready`` event.
 
 ::
 
@@ -93,9 +88,7 @@ Windows Phone Quirks
 
 -  Only one media file can be played back at a time.
 
--  There are strict restrictions on how your application interacts with
-   other media. See the `Microsoft documentation for
-   details <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh184838(v=vs.92).aspx>`__.
+-  There are strict restrictions on how your application interacts with other media. See the `Microsoft documentation for details <https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx>`__.
 
 Media
 -----
@@ -109,15 +102,11 @@ Parameters
 
 -  **src**: A URI containing the audio content. *(DOMString)*
 
--  **mediaSuccess**: (Optional) The callback that executes after a
-   ``Media`` object has completed the current play, record, or stop
-   action. *(Function)*
+-  **mediaSuccess**: (Optional) The callback that executes after a ``Media`` object has completed the current play, record, or stop action. *(Function)*
 
--  **mediaError**: (Optional) The callback that executes if an error
-   occurs. *(Function)*
+-  **mediaError**: (Optional) The callback that executes if an error occurs. *(Function)*
 
--  **mediaStatus**: (Optional) The callback that executes to indicate
-   status changes. *(Function)*
+-  **mediaStatus**: (Optional) The callback that executes to indicate status changes. *(Function)*
 
 **NOTE**: ``cdvfile`` path is supported as ``src`` parameter:
 
@@ -128,8 +117,7 @@ Parameters
 Constants
 ~~~~~~~~~
 
-The following constants are reported as the only parameter to the
-``mediaStatus`` callback:
+The following constants are reported as the only parameter to the ``mediaStatus`` callback:
 
 -  ``Media.MEDIA_NONE`` = 0;
 -  ``Media.MEDIA_STARTING`` = 1;
@@ -140,8 +128,7 @@ The following constants are reported as the only parameter to the
 Methods
 ~~~~~~~
 
--  ``media.getCurrentPosition``: Returns the current position within an
-   audio file.
+-  ``media.getCurrentPosition``: Returns the current position within an audio file.
 
 -  ``media.getDuration``: Returns the duration of an audio file.
 
@@ -149,8 +136,7 @@ Methods
 
 -  ``media.pause``: Pause playback of an audio file.
 
--  ``media.release``: Releases the underlying operating system's audio
-   resources.
+-  ``media.release``: Releases the underlying operating system's audio resources.
 
 -  ``media.seekTo``: Moves the position within the audio file.
 
@@ -167,16 +153,14 @@ Additional ReadOnly Parameters
 
 -  **position**: The position within the audio playback, in seconds.
 
-   -  Not automatically updated during play; call ``getCurrentPosition``
-      to update.
+-  Not automatically updated during play; call ``getCurrentPosition`` to update.
 
 -  **duration**: The duration of the media, in seconds.
 
 media.getCurrentPosition
 ------------------------
 
-Returns the current position within an audio file. Also updates the
-``Media`` object's ``position`` parameter.
+Returns the current position within an audio file. Also updates the ``Media`` object's ``position`` parameter.
 
 ::
 
@@ -185,11 +169,9 @@ Returns the current position within an audio file. Also updates the
 Parameters
 ~~~~~~~~~~
 
--  **mediaSuccess**: The callback that is passed the current position in
-   seconds.
+-  **mediaSuccess**: The callback that is passed the current position in seconds.
 
--  **mediaError**: (Optional) The callback to execute if an error
-   occurs.
+-  **mediaError**: (Optional) The callback to execute if an error occurs.
 
 Quick Example
 ~~~~~~~~~~~~~
@@ -220,8 +202,7 @@ Quick Example
 media.getDuration
 -----------------
 
-Returns the duration of an audio file in seconds. If the duration is
-unknown, it returns a value of -1.
+Returns the duration of an audio file in seconds. If the duration is unknown, it returns a value of -1.
 
 ::
 
@@ -319,27 +300,21 @@ Quick Example
 iOS Quirks
 ~~~~~~~~~~
 
--  **numberOfLoops**: Pass this option to the ``play`` method to specify
-   the number of times you want the media file to play, e.g.:
+-  **numberOfLoops**: Pass this option to the ``play`` method to specify the number of times you want the media file to play, e.g.:
 
    ::
 
        var myMedia = new Media("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3")
        myMedia.play({ numberOfLoops: 2 })
 
--  **playAudioWhenScreenIsLocked**: Pass in this option to the ``play``
-   method to specify whether you want to allow playback when the screen
-   is locked. If set to ``true`` (the default value), the state of the
-   hardware mute button is ignored, e.g.:
+-  **playAudioWhenScreenIsLocked**: Pass in this option to the ``play`` method to specify whether you want to allow playback when the screen is locked. If set to ``true`` (the default value), the state of the hardware mute button is ignored, e.g.:
 
    ::
 
        var myMedia = new Media("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3")
        myMedia.play({ playAudioWhenScreenIsLocked : false })
 
--  **order of file search**: When only a file name or simple path is
-   provided, iOS searches in the ``www`` directory for the file, then in
-   the application's ``documents/tmp`` directory:
+-  **order of file search**: When only a file name or simple path is provided, iOS searches in the ``www`` directory for the file, then in the application's ``documents/tmp`` directory:
 
    ::
 
@@ -349,11 +324,7 @@ iOS Quirks
 media.release
 -------------
 
-Releases the underlying operating system's audio resources. This is
-particularly important for Android, since there are a finite amount of
-OpenCore instances for media playback. Applications should call the
-``release`` function for any ``Media`` resource that is no longer
-needed.
+Releases the underlying operating system's audio resources. This is particularly important for Android, since there are a finite amount of OpenCore instances for media playback. Applications should call the ``release`` function for any ``Media`` resource that is no longer needed.
 
 ::
 
@@ -384,8 +355,7 @@ Sets the current position within an audio file.
 Parameters
 ~~~~~~~~~~
 
--  **milliseconds**: The position to set the playback position within
-   the audio, in milliseconds.
+-  **milliseconds**: The position to set the playback position within the audio, in milliseconds.
 
 Quick Example
 ~~~~~~~~~~~~~
@@ -418,8 +388,7 @@ Set the volume for an audio file.
 Parameters
 ~~~~~~~~~~
 
--  **volume**: The volume to set for playback. The value must be within
-   the range of 0.0 to 1.0.
+-  **volume**: The volume to set for playback. The value must be within the range of 0.0 to 1.0.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -504,43 +473,29 @@ Quick Example
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  Android devices record audio in Adaptive Multi-Rate format. The
-   specified file should end with a *.amr* extension.
--  The hardware volume controls are wired up to the media volume while
-   any Media objects are alive. Once the last created Media object has
-   ``release()`` called on it, the volume controls revert to their
-   default behaviour. The controls are also reset on page navigation, as
-   this releases all Media objects.
+-  Android devices record audio in Adaptive Multi-Rate format. The specified file should end with a *.amr* extension.
+
+-  The hardware volume controls are wired up to the media volume while any Media objects are alive. Once the last created Media object has ``release()`` called on it, the volume controls revert to their default behaviour. The controls are also reset on page navigation, as this releases all Media objects.
 
 iOS Quirks
 ~~~~~~~~~~
 
--  iOS only records to files of type *.wav* and returns an error if the
-   file name extension is not correct.
+-  iOS only records to files of type *.wav* and returns an error if the file name extension is not correct.
 
--  If a full path is not provided, the recording is placed in the
-   application's ``documents/tmp`` directory. This can be accessed via
-   the ``File`` API using ``LocalFileSystem.TEMPORARY``. Any
-   subdirectory specified at record time must already exist.
+-  If a full path is not provided, the recording is placed in the application's ``documents/tmp`` directory. This can be accessed via the ``File`` API using ``LocalFileSystem.TEMPORARY``. Any subdirectory specified at record time must already exist.
 
 -  Files can be recorded and played back using the documents URI:
 
-   ::
+::
 
-       var myMedia = new Media("documents://beer.mp3")
+    var myMedia = new Media("documents://beer.mp3")
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  Windows devices can use MP3, M4A and WMA formats for recorded audio.
-   However in most cases it is not possible to use MP3 for audio
-   recording on *Windows Phone 8.1* devices, because an MP3 encoder is
-   `not shipped with Windows
-   Phone <https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.mediaproperties.mediaencodingprofile.createmp3.aspx>`__.
+-  Windows devices can use MP3, M4A and WMA formats for recorded audio. However in most cases it is not possible to use MP3 for audio recording on *Windows Phone 8.1* devices, because an MP3 encoder is `not shipped with Windows Phone <https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.mediaproperties.mediaencodingprofile.createmp3.aspx>`__.
 
--  If a full path is not provided, the recording is placed in the
-   AppData/temp directory. This can be accessed via the ``File`` API
-   using ``LocalFileSystem.TEMPORARY`` or 'ms-appdata:///temp/' URI.
+-  If a full path is not provided, the recording is placed in the AppData/temp directory. This can be accessed via the ``File`` API using ``LocalFileSystem.TEMPORARY`` or 'ms-appdata:///temp/' URI.
 
 -  Any subdirectory specified at record time must already exist.
 
@@ -642,8 +597,7 @@ Tizen Quirks
 MediaError
 ----------
 
-A ``MediaError`` object is returned to the ``mediaError`` callback
-function when an error occurs.
+A ``MediaError`` object is returned to the ``mediaError`` callback function when an error occurs.
 
 Properties
 ~~~~~~~~~~

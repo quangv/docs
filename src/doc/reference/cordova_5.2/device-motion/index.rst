@@ -38,15 +38,11 @@ Device Motion Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-device-motion>`_.
 
-This plugin provides access to the device's accelerometer. The
-accelerometer is a motion sensor that detects the change (*delta*) in
-movement relative to the current device orientation, in three dimensions
-along the *x*, *y*, and *z* axis.
+This plugin provides access to the device's accelerometer. The accelerometer is a motion sensor that detects the change (*delta*) in movement relative to the current device orientation, in three dimensions along the *x*, *y*, and *z* axis.
 
 Access is via a global ``navigator.accelerometer`` object.
 
-Although the object is attached to the global scoped ``navigator``, it
-is not available until after the ``deviceready`` event.
+Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 
@@ -103,8 +99,7 @@ navigator.accelerometer.getCurrentAcceleration
 
 Get the current acceleration along the *x*, *y*, and *z* axes.
 
-These acceleration values are returned to the ``accelerometerSuccess``
-callback function.
+These acceleration values are returned to the ``accelerometerSuccess`` callback function.
 
 ::
 
@@ -131,40 +126,28 @@ Example
 Browser Quirks
 ~~~~~~~~~~~~~~
 
-Values for X, Y, Z motion are all randomly generated in order to
-simulate the accelerometer.
+Values for X, Y, Z motion are all randomly generated in order to simulate the accelerometer.
 
 Android Quirks
 ~~~~~~~~~~~~~~
 
-The accelerometer is called with the **SENSOR\_DELAY\_UI** flag, which
-limits the maximum readout frequency to something between 20 and 60 Hz,
-depending on the device. Values for **period** corresponding to higher
-frequencies will result in duplicate samples.
+The accelerometer is called with the **SENSOR\_DELAY\_UI** flag, which limits the maximum readout frequency to something between 20 and 60 Hz, depending on the device. Values for **period** corresponding to higher frequencies will result in duplicate samples.
 
 iOS Quirks
 ~~~~~~~~~~
 
--  iOS doesn't recognize the concept of getting the current acceleration
-   at any given point.
+-  iOS doesn't recognize the concept of getting the current acceleration at any given point.
 
--  You must watch the acceleration and capture the data at given time
-   intervals.
+-  You must watch the acceleration and capture the data at given time intervals.
 
--  Thus, the ``getCurrentAcceleration`` function yields the last value
-   reported from a ``watchAccelerometer`` call.
+-  Thus, the ``getCurrentAcceleration`` function yields the last value reported from a ``watchAccelerometer`` call.
 
 navigator.accelerometer.watchAcceleration
 -----------------------------------------
 
-Retrieves the device's current ``Acceleration`` at a regular interval,
-executing the ``accelerometerSuccess`` callback function each time.
-Specify the interval in milliseconds via the ``acceleratorOptions``
-object's ``frequency`` parameter.
+Retrieves the device's current ``Acceleration`` at a regular interval, executing the ``accelerometerSuccess`` callback function each time. Specify the interval in milliseconds via the ``acceleratorOptions`` object's ``frequency`` parameter.
 
-The returned watch ID references the accelerometer's watch interval, and
-can be used with ``navigator.accelerometer.clearWatch`` to stop watching
-the accelerometer.
+The returned watch ID references the accelerometer's watch interval, and can be used with ``navigator.accelerometer.clearWatch`` to stop watching the accelerometer.
 
 ::
 
@@ -173,8 +156,7 @@ the accelerometer.
                                                            accelerometerOptions);
 
 -  **accelerometerOptions**: An object with the following optional keys:
--  **period**: requested period of calls to accelerometerSuccess with
-   acceleration data in Milliseconds. *(Number)* (Default: 10000)
+-  **period**: requested period of calls to accelerometerSuccess with acceleration data in Milliseconds. *(Number)* (Default: 10000)
 
 Example
 ~~~~~~~
@@ -199,17 +181,12 @@ Example
 iOS Quirks
 ~~~~~~~~~~
 
-The API calls the success callback function at the interval requested,
-but restricts the range of requests to the device between 40ms and
-1000ms. For example, if you request an interval of 3 seconds, (3000ms),
-the API requests data from the device every 1 second, but only executes
-the success callback every 3 seconds.
+The API calls the success callback function at the interval requested, but restricts the range of requests to the device between 40ms and 1000ms. For example, if you request an interval of 3 seconds, (3000ms), the API requests data from the device every 1 second, but only executes the success callback every 3 seconds.
 
 navigator.accelerometer.clearWatch
 ----------------------------------
 
-Stop watching the ``Acceleration`` referenced by the ``watchID``
-parameter.
+Stop watching the ``Acceleration`` referenced by the ``watchID`` parameter.
 
 ::
 
@@ -232,10 +209,7 @@ Example
 Acceleration
 ------------
 
-Contains ``Accelerometer`` data captured at a specific point in time.
-Acceleration values include the effect of gravity (9.81 m/s^2), so that
-when a device lies flat and facing up, *x*, *y*, and *z* values returned
-should be ``0``, ``0``, and ``9.81``.
+Contains ``Accelerometer`` data captured at a specific point in time. Acceleration values include the effect of gravity (9.81 m/s^2), so that when a device lies flat and facing up, *x*, *y*, and *z* values returned should be ``0``, ``0``, and ``9.81``.
 
 Properties
 ~~~~~~~~~~

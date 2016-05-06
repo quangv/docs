@@ -4,7 +4,7 @@ Using Compass
 .. rst-class:: right-menu
 
 
-.. literalinclude:: @download/compass/index.html
+.. literalinclude:: download/compass/en/index.html
    :language: html
 
 

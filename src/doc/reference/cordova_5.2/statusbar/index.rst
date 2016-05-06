@@ -71,8 +71,7 @@ On iOS 7, make the statusbar overlay or not overlay the WebView.
 Description
 -----------
 
-On iOS 7, set to false to make the statusbar appear like iOS 6. Set the
-style and background color to suit using the other functions.
+On iOS 7, set to false to make the statusbar appear like iOS 6. Set the style and background color to suit using the other functions.
 
 Supported Platforms
 -------------------
@@ -158,8 +157,7 @@ Supported Platforms
 StatusBar.backgroundColorByName
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On iOS 7, when you set StatusBar.statusBarOverlaysWebView to false, you
-can set the background color of the statusbar by color name.
+On iOS 7, when you set StatusBar.statusBarOverlaysWebView to false, you can set the background color of the statusbar by color name.
 
 ::
 
@@ -196,11 +194,9 @@ CSS shorthand properties are also supported.
     StatusBar.backgroundColorByHexString("#333"); // => #333333
     StatusBar.backgroundColorByHexString("#FAB"); // => #FFAABB
 
-On iOS 7, when you set StatusBar.statusBarOverlaysWebView to false, you
-can set the background color of the statusbar by a hex string (#RRGGBB).
+On iOS 7, when you set StatusBar.statusBarOverlaysWebView to false, you can set the background color of the statusbar by a hex string (#RRGGBB).
 
-On WP7 and WP8 you can also specify values as #AARRGGBB, where AA is an
-alpha value
+On WP7 and WP8 you can also specify values as #AARRGGBB, where AA is an alpha value
 
 Supported Platforms
 -------------------

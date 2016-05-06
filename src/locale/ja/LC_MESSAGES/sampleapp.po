@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the Monaca package.
 # 
 # Translators:
+# fabbygoh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
+# Yoshiki Nakagawa <yoshiki@asial.co.jp>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-31 03:21+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-05-01 07:26+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -861,7 +863,7 @@ msgid ""
 "the :envvar:`Connect()` function needs to open a Facebook authentication "
 "page first (as shown below) via a *InAppBrowser* using "
 ":envvar:`window.open()` function."
-msgstr "こちらのコントローラーには、Facebook 認証処理を行う :envvar:`connect` 関数を定義しています。 :guilabel:`Connect` ボタンを押したときに、この関数を呼び出します。この関数では、Facebook の認証ページを開き ( 下のスクリーンショットを参照のこと )、:envvar:`window.open()` 関数を使用して、 *InAppBrowser* 経由で認証処理を行っています。"
+msgstr "こちらのコントローラーには、Facebook 認証処理を行う :envvar:`connect` 関数を定義しています。 :guilabel:`Connect` ボタンを押したときに、この関数を呼び出します。:envvar:`Connect()` 関数では、Facebook の認証ページを開き ( 下のスクリーンショットを参照のこと )、:envvar:`window.open()` 関数を使用して、 *InAppBrowser* 経由で認証処理を行っています。"
 
 #: ../doc/sampleapp/samples/facebook.rst:297
 msgid ""
@@ -1590,7 +1592,7 @@ msgid ""
 "(``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This "
 "file is needed to be included after PhoneGap is fully loaded inside "
 ":envvar:`onDeviceReady()` function as shown above."
-msgstr "「 <script type=\"text/javascript\" src=\"inmobi.js\"></script> 」 のような通常の手順で行う処理 ( ヘッダー部分の記述 ) を、inmobi.js を読み込むときに使用しないでください。上記で示したように、このファイルは、必ず、PhoneGap 側の準備が完了した後、 onDeviceReady() 関数内で読み込む必要があります。"
+msgstr "「 <script type=\"text/javascript\" src=\"inmobi.js\"></script> 」 のような通常の手順で行う処理 ( ヘッダー部分の記述 ) を、:file:`inmobi.js` を読み込むときに使用しないでください。上記で示したように、このファイルは、必ず、PhoneGap 側の準備が完了した後、 :envvar:`onDeviceReady()` 関数内で読み込む必要があります。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:191
 msgid "showAds() function"
@@ -2640,93 +2642,6 @@ msgid ""
 "This function is used to display the twit information. It uses "
 "``underscore.js`` library for templating (see screenshot below)."
 msgstr "ツイート情報を表示するときに、この関数を使用します。テンプレートとして、 ``underscore.js`` ライブラリーを使用します ( 下のスクリーンショットを参照のこと )。"
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:4
-msgid "Disable Cookies"
-msgstr "Cookie を無効にする"
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:6
-msgid ""
-"Monaca supports Cookies with Android 3.0+ and iOS 6.0+ devices. By default, "
-"Cookies are enabled. However, it is not recommended to use cookies as data "
-"storage because cookies are OS's Webview dependent. Therefore, the data "
-"storage using cookies cannot be permanently stored. Instead of using "
-"cookies, please use other types of storage such as :doc:`../storage` or "
-"`Storage "
-"<http://docs.monaca.mobi/reference/phonegap_34/en/storage/storage/>`_."
-msgstr "Monaca では、Cookie をサポートしています。Android 3.0 以上、または、iOS 6.0 以上の端末が対象です。デフォルトでは、Cookie は有効化されています。ただし、OS 搭載の WebView によって、Cookie の扱い方が異なるため、データストレージとして Cookie を使用することは推奨しません。恒常的なデータのストレージとしては、Cookie を使用しません。Cookie を使用する代わりに、 :doc:`../storage` と `ストレージ <http://docs.monaca.mobi/reference/phonegap_34/en/storage/storage/>`_ に記載された、他の種類のストレージを使います。"
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:8
-msgid ""
-"To disable Cookies, please edit :file:`app.json` file and set "
-"``disableCookie`` to \"true\"."
-msgstr "Cookie を無効にする場合には、:file:`app.json` ファイルを開いて、``disableCookie`` を \"true\" に設定します。"
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:10
-msgid ""
-"Firstly, let's show hidden files by clicking the button on the top right "
-"corner of the Project tree panel as shown below. Then, check the \"show "
-"hidden files\" checkbox."
-msgstr "最初に、トップ右端の [ プロジェクトツリー ] のタブをクリックして、ファイルツリーを表示します。次に、以下のように、「 隠しファイルを表示 」 オプションを選択して、隠しファイルを表示します。"
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:15
-msgid ""
-"The :file:`app.json` file is located in the ``www`` folder. Next, add this "
-"code into the :file:`app.json` file."
-msgstr "上記のオプションを選択すると ``www`` フォルダー下に :file:`app.json` ファイルが表示されます。次に、 :file:`app.json` ファイルに次のコードを追加します。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:4
-msgid "How to Load Media Files (Android Built App Only)"
-msgstr "メディアファイルの読み込み方法 ( Android 向けのアプリ専用 )"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:6
-msgid ""
-"Android external process (eg. Media Player) cannot access asset files. Thus,"
-" media files cannot be played by Android Media Player."
-msgstr "Media Player など、Android 本体とは別の処理は、システム側のアセットファイルにアクセスできません。よって、Android Media Player では、各種メディアファイルを再生できません。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:8
-msgid ""
-"``LocalFileBootloader`` lets Android Media Player access asset files. It is "
-"disabled by default. If you want to enable ``localFileBootloader``, please "
-"edit :file:`app.json` file and set ``extractAssets`` to \"true\"."
-msgstr "Android Media Player 側から アセットファイルにアクセスする場合には、``LocalFileBootloader`` を使用します。デフォルトでは、この機能は無効になっています。 ``localFileBootloader`` を有効にする場合、:file:`app.json` ファイルを開き、``extractAssets`` を \"true\" に変更します。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:10
-msgid ""
-"Firstly, let's show hidden files by clicking the button on the top right "
-"corner of the Project tree panel as shown below. Then, tick the ``show "
-"hidden files`` checkbox."
-msgstr "こちらのファイルは隠しファイルのため、左パネルの右上の [ オプションメニュー ] アイコンから、 ``隠しファイルを表示`` を選択して、ファイルを表示させます。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:14
-msgid ""
-"Then, :file:`app.json` file will be displayed under ``www`` folder. After "
-"that, please add this code into :file:`app.json`."
-msgstr "``www`` フォルダーの下に :file:`app.json` ファイルが新しく表示されます。次に、:file:`app.json` に次のコードを追加します。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:25
-msgid ""
-"When ``extractAssets`` is set to \"true\", ``localFileBootloader`` will "
-"automatically run and copy asset files into a folder which can be accessed "
-"by Android Media Player."
-msgstr "``extractAssets`` を true に設定すると、 ``localFileBootloader`` が自動的に実行され、Android Media Player でもアクセスできるフォルダーに、アセットファイルがコピーされます。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:27
-msgid ""
-"You should be aware of the following disadvantages while enabling this "
-"feature:"
-msgstr "``localFileBootloader`` を使用する場合には、次の点に注意してください。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:29
-msgid ""
-"When the app starts for the first time, it may take some time to copy the "
-"asset files."
-msgstr "アプリの初回起動時、アセットファイルをコピーするため、起動時間が長くなる。"
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:30
-msgid "This may increase the space needed for the application."
-msgstr "アセットファイルの分だけ、アプリのサイズが大きくなる。"
 
 #: ../doc/sampleapp/tips/camera.rst:3
 msgid "Using Camera and Photo Album"

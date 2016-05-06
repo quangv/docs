@@ -1,4 +1,4 @@
-.. _cordova_core_plugins:
+:orphan:
 
 =======================
 Core Cordova Plugins
@@ -9,7 +9,6 @@ Core Cordova Plugins
 
   accelerometor/index
   battery-status/index
-  media-capture/index
   camera/index
   compass/index
   connection/index
@@ -22,6 +21,7 @@ Core Cordova Plugins
   globalization/index
   inappbrowser/index
   media/index
+  media-capture/index
   splashscreen/index
   statusbar/index
   vibration/index

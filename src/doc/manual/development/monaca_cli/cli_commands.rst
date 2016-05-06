@@ -18,7 +18,8 @@ Commands                                   Description
 :ref:`monaca_upload`                       uploads a project to Monaca Cloud.
 :ref:`monaca_download`                     downloads a project from Monaca Cloud.
 :ref:`monaca_plugin`                       manages installed plugins of a project.
-:ref:`monaca_livesync`                     serves a single project to Monaca Debugger.
+:ref:`monaca_debug`                        serves a single project to Monaca Debugger.
+:ref:`monaca_preview`                      serves a single project to browser.
 :ref:`monaca_multiserve`                   serves multiple projects to Monaca Debugger.
 :ref:`monaca_remote_build`                 builds a project remotely on Monaca Cloud.
 :ref:`monaca_proxy`                        configures proxy to use when connecting to Monaca Cloud.
@@ -294,18 +295,29 @@ Example
 
 .. rst-class:: function-reference
 
-
-
-.. _monaca_livesync:
+.. _monaca_preview:
 
 .. rst-class:: function-reference
 
-monaca livesync
+monaca preview
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Serves a single project to browser. Use this command when you want to run your project on the browser. 
+
+:dfn:`$ monaca preview [option]`
+
+.. rst-class:: function-reference
+
+.. _monaca_debug:
+
+.. rst-class:: function-reference
+
+monaca debug
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it.
 
-:dfn:`$ monaca livesync [option]`
+:dfn:`$ monaca debug [option]`
 
 Options:
   =========================================== ==============================================================================================
@@ -313,15 +325,15 @@ Options:
   =========================================== ==============================================================================================
 
 Example
-  Navigate to your project folder and use ``monaca livesync`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly.
+  Navigate to your project folder and use ``monaca debug`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly.
 
   .. code-block:: bash
 
       $ cd MyProjectFolder/ImportRssProject
-      $ monaca livesync
+      $ monaca debug
 
 
-.. note:: In order to stop ``monaca livesync`` process, press :guilabel:`Ctrl+c`.
+.. note:: In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`.
 
 .. note:: When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`.
      
@@ -350,7 +362,7 @@ Example
 monaca multiserve
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_livesync` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`.
+Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`.
 
 .. figure:: images/cli_commands/3.png
   :width: 250px

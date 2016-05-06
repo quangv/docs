@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:236
 #: ../doc/quick_start/cli/publishing_app.rst:26
-#: ../doc/quick_start/cli/starting_project.rst:61
+#: ../doc/quick_start/cli/starting_project.rst:60
 #: ../doc/quick_start/cli/testing_debugging.rst:132
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:239
 #: ../doc/quick_start/cli/publishing_app.rst:29
-#: ../doc/quick_start/cli/starting_project.rst:63
+#: ../doc/quick_start/cli/starting_project.rst:62
 msgid ":ref:`cli_testing_debugging`"
 msgstr ""
 
@@ -463,18 +463,14 @@ msgid "Monaca CLI is one of the local deveopment environments which can be used 
 msgstr ""
 
 #: ../doc/quick_start/cli/index.rst:7
-msgid "You are required to have a valid plan in order to use Monaca CLI. Otherwise, Monaca CLI will run in the evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ for more details."
-msgstr ""
-
-#: ../doc/quick_start/cli/index.rst:10
 msgid "Before getting started, you need to:"
 msgstr ""
 
-#: ../doc/quick_start/cli/index.rst:19
+#: ../doc/quick_start/cli/index.rst:16
 msgid "get a Monaca account. If you don't have one, please register `here <https://monaca.mobi/en/register/start>`_."
 msgstr ""
 
-#: ../doc/quick_start/cli/index.rst:20
+#: ../doc/quick_start/cli/index.rst:17
 msgid "install Monaca CLI. Please follow the installation instruction :ref:`here <install_monaca_cli>`."
 msgstr ""
 
@@ -520,7 +516,7 @@ msgid "For more information regarding the distribution of Monaca Apps for other 
 msgstr ""
 
 #: ../doc/quick_start/cli/publishing_app.rst:30
-#: ../doc/quick_start/cli/starting_project.rst:64
+#: ../doc/quick_start/cli/starting_project.rst:63
 #: ../doc/quick_start/cli/testing_debugging.rst:135
 msgid ":ref:`cli_building_app`"
 msgstr ""
@@ -542,33 +538,33 @@ msgstr ""
 msgid "Open a Command Prompt window (for Windows) or Terminal window (for Mac) and type the following command:"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:20
+#: ../doc/quick_start/cli/starting_project.rst:21
 msgid "Then, you will be asked to input email and password of your Monaca account."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:30
+#: ../doc/quick_start/cli/starting_project.rst:31
 #: ../doc/quick_start/cloud_ide/starting_project.rst:26
 #: ../doc/quick_start/localkit/starting_project.rst:29
 msgid "Step 2: Creating a New Project"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:32
+#: ../doc/quick_start/cli/starting_project.rst:33
 msgid "Create a new project by using the command below:"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:38
+#: ../doc/quick_start/cli/starting_project.rst:39
 msgid "Choose a project template by typing the number representing that template. Let's choose \"Onsen UI Sliding Menu\" in this example."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:46
+#: ../doc/quick_start/cli/starting_project.rst:47
 msgid "After creating the project, the project's folder will be created on your PC. You can then use any local editors to develop your Monaca projects."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:54
+#: ../doc/quick_start/cli/starting_project.rst:55
 msgid "You can also use Monaca CLI to :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:65
+#: ../doc/quick_start/cli/starting_project.rst:64
 #: ../doc/quick_start/localkit/building_app.rst:234
 #: ../doc/quick_start/localkit/starting_project.rst:120
 #: ../doc/quick_start/localkit/testing_debugging.rst:146
@@ -631,7 +627,7 @@ msgid "Disable the local PC's firewall."
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:48
-msgid "In the command window, navigate to your project folder and type :ref:`monaca_livesync` command to connect to your Monaca Debugger. Then, Monaca CLI will wait for requests from debugger."
+msgid "In the command window, navigate to your project folder and type :ref:`monaca_debug` command to connect to your Monaca Debugger. Then, Monaca CLI will wait for requests from debugger."
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:56

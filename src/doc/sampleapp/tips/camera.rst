@@ -35,7 +35,7 @@ PhoneGap has two JavaScript "Camera" object APIs.
 Take a Picture (Base64 Format)
 =========================================
 
-.. literalinclude:: @download/camera/index.html
+.. literalinclude:: download/camera/en/index.html
    :language: html
 
 
@@ -61,7 +61,7 @@ This is a sample to display a taken picture using an image tag.
 
 
 
-.. literalinclude:: @download/camera/index1.html
+.. literalinclude:: download/camera/en/index1.html
    :language: html
 
 
@@ -72,7 +72,7 @@ Obtain Pictures from a Device's Album
 
 
 
-.. literalinclude:: @download/camera/index2.html
+.. literalinclude:: download/camera/en/index2.html
    :language: html
 
   

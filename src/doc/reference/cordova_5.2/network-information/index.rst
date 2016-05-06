@@ -38,10 +38,7 @@ Network Information Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-network-information>`_.
 
-This plugin provides an implementation of an old version of the `Network
-Information API <http://www.w3.org/TR/2011/WD-netinfo-api-20110607/>`__.
-It provides information about the device's cellular and wifi connection,
-and whether the device has an internet connection.
+This plugin provides an implementation of an old version of the `Network Information API <http://www.w3.org/TR/2011/WD-netinfo-api-20110607/>`__. It provides information about the device's cellular and wifi connection, and whether the device has an internet connection.
 
 Plugin ID
 ======================================
@@ -72,9 +69,7 @@ Supported Platforms
 API Reference
 =========================================
 
-The ``connection`` object, exposed via ``navigator.connection``,
-    provides information about the device's cellular and wifi
-    connection.
+The ``connection`` object, exposed via ``navigator.connection``, provides information about the device's cellular and wifi connection.
 
 Properties
 ----------
@@ -96,8 +91,7 @@ Constants
 connection.type
 ---------------
 
-This property offers a fast way to determine the device's network
-connection state, and type of connection.
+This property offers a fast way to determine the device's network connection state, and type of connection.
 
 Quick Example
 ~~~~~~~~~~~~~
@@ -125,59 +119,47 @@ Quick Example
 API Change
 ~~~~~~~~~~
 
-Until Cordova 2.3.0, the ``Connection`` object was accessed via
-``navigator.network.connection``, after which it was changed to
-``navigator.connection`` to match the W3C specification. It's still
-available at its original location, but is deprecated and will
-eventually be removed.
+Until Cordova 2.3.0, the ``Connection`` object was accessed via ``navigator.network.connection``, after which it was changed to ``navigator.connection`` to match the W3C specification. It's still available at its original location, but is deprecated and will eventually be removed.
 
 iOS Quirks
 ~~~~~~~~~~
 
 -  iOS can't detect the type of cellular network connection.
 
-   -  ``navigator.connection.type`` is set to ``Connection.CELL`` for
-      all cellular data.
+-  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Windows Phone Quirks
 ~~~~~~~~~~~~~~~~~~~~
 
--  When running in the emulator, always detects
-   ``navigator.connection.type`` as ``Connection.UNKNOWN``.
+-  When running in the emulator, always detects ``navigator.connection.type`` as ``Connection.UNKNOWN``.
 
 -  Windows Phone can't detect the type of cellular network connection.
 
-   -  ``navigator.connection.type`` is set to ``Connection.CELL`` for
-      all cellular data.
+-  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  When running in the Phone 8.1 emulator, always detects
-   ``navigator.connection.type`` as ``Connection.ETHERNET``.
+-  When running in the Phone 8.1 emulator, always detects ``navigator.connection.type`` as ``Connection.ETHERNET``.
 
 Tizen Quirks
 ~~~~~~~~~~~~
 
 -  Tizen can only detect a WiFi or cellular connection.
 
-   -  ``navigator.connection.type`` is set to ``Connection.CELL_2G`` for
-      all cellular data.
+-  ``navigator.connection.type`` is set to ``Connection.CELL_2G`` for all cellular data.
 
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
 
 -  Firefox OS can't detect the type of cellular network connection.
 
-   -  ``navigator.connection.type`` is set to ``Connection.CELL`` for
-      all cellular data.
+-  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
--  Browser can't detect the type of network connection.
-   ``navigator.connection.type`` is always set to ``Connection.UNKNOWN``
-   when online.
+-  Browser can't detect the type of network connection. ``navigator.connection.type`` is always set to ``Connection.UNKNOWN`` when online.
 
 Network-related Events
 ======================
@@ -185,8 +167,7 @@ Network-related Events
 offline
 -------
 
-The event fires when an application goes offline, and the device is not
-connected to the Internet.
+The event fires when an application goes offline, and the device is not connected to the Internet.
 
 ::
 
@@ -195,13 +176,9 @@ connected to the Internet.
 Details
 ~~~~~~~
 
-The ``offline`` event fires when a previously connected device loses a
-network connection so that an application can no longer access the
-Internet. It relies on the same information as the Connection API, and
-fires when the value of ``connection.type`` becomes ``NONE``.
+The ``offline`` event fires when a previously connected device loses a network connection so that an application can no longer access the Internet. It relies on the same information as the Connection API, and fires when the value of ``connection.type`` becomes ``NONE``.
 
-Applications typically should use ``document.addEventListener`` to
-attach an event listener once the ``deviceready`` event fires.
+Applications typically should use ``document.addEventListener`` to attach an event listener once the ``deviceready`` event fires.
 
 Quick Example
 ~~~~~~~~~~~~~
@@ -217,20 +194,17 @@ Quick Example
 iOS Quirks
 ~~~~~~~~~~
 
-During initial startup, the first offline event (if applicable) takes at
-least a second to fire.
+During initial startup, the first offline event (if applicable) takes at least a second to fire.
 
 Windows Phone 7 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
-When running in the Emulator, the ``connection.status`` is always
-unknown, so this event does *not* fire.
+When running in the Emulator, the ``connection.status`` is always unknown, so this event does *not* fire.
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The Emulator reports the connection type as ``Cellular``, which does not
-change, so the event does *not* fire.
+The Emulator reports the connection type as ``Cellular``, which does not change, so the event does *not* fire.
 
 online
 ------
@@ -245,13 +219,9 @@ connected to the Internet.
 Details
 ~~~~~~~
 
-The ``online`` event fires when a previously unconnected device receives
-a network connection to allow an application access to the Internet. It
-relies on the same information as the Connection API, and fires when the
-``connection.type`` changes from ``NONE`` to any other value.
+The ``online`` event fires when a previously unconnected device receives a network connection to allow an application access to the Internet. It relies on the same information as the Connection API, and fires when the ``connection.type`` changes from ``NONE`` to any other value.
 
-Applications typically should use ``document.addEventListener`` to
-attach an event listener once the ``deviceready`` event fires.
+Applications typically should use ``document.addEventListener`` to attach an event listener once the ``deviceready`` event fires.
 
 Quick Example
 ~~~~~~~~~~~~~
@@ -267,21 +237,17 @@ Quick Example
 iOS Quirks
 ~~~~~~~~~~
 
-During initial startup, the first ``online`` event (if applicable) takes
-at least a second to fire, prior to which ``connection.type`` is
-``UNKNOWN``.
+During initial startup, the first ``online`` event (if applicable) takes at least a second to fire, prior to which ``connection.type`` is ``UNKNOWN``.
 
 Windows Phone 7 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
-When running in the Emulator, the ``connection.status`` is always
-unknown, so this event does *not* fire.
+When running in the Emulator, the ``connection.status`` is always unknown, so this event does *not* fire.
 
 Windows Phone 8 Quirks
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The Emulator reports the connection type as ``Cellular``, which does not
-change, so events does *not* fire.
+The Emulator reports the connection type as ``Cellular``, which does not change, so events does *not* fire.
 
 
 .. seealso::

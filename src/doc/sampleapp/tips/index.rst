@@ -1,1 +1,1 @@
-=============================Tips & Tricks=============================Here are some tips for development. .. toctree::  camera  media  splashScreen  storage  appc  compass  gps  external_services/nend_ad  phonegap  
+=============================Tips & Tricks=============================Here are some tips for development. .. toctree::  camera  media  splashScreen  storage  compass  gps  external_services/nend_ad  phonegap  

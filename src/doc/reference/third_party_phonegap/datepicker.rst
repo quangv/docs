@@ -9,11 +9,11 @@ DatePicker Plugin
 
 DatePicker plugin lets an app use the native DatePicker control.
 
-.. image:: @images/android_datepick.png
+.. image:: images/en/android_datepick.png
    :alt: AndroidDatepick
    :width: 250px
 
-.. image:: @images/ios_datepick.png
+.. image:: images/en/ios_datepick.png
    :alt: iOSdatepick
    :width: 250px
 

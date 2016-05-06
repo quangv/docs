@@ -1948,62 +1948,6 @@ msgstr ""
 msgid "This function is used to display the twit information. It uses ``underscore.js`` library for templating (see screenshot below)."
 msgstr ""
 
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:4
-msgid "Disable Cookies"
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:6
-msgid "Monaca supports Cookies with Android 3.0+ and iOS 6.0+ devices. By default, Cookies are enabled. However, it is not recommended to use cookies as data storage because cookies are OS's Webview dependent. Therefore, the data storage using cookies cannot be permanently stored. Instead of using cookies, please use other types of storage such as :doc:`../storage` or `Storage <http://docs.monaca.mobi/reference/phonegap_34/en/storage/storage/>`_."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:8
-msgid "To disable Cookies, please edit :file:`app.json` file and set ``disableCookie`` to \"true\"."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:10
-msgid "Firstly, let's show hidden files by clicking the button on the top right corner of the Project tree panel as shown below. Then, check the \"show hidden files\" checkbox."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/disable_cookie.rst:15
-msgid "The :file:`app.json` file is located in the ``www`` folder. Next, add this code into the :file:`app.json` file."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:4
-msgid "How to Load Media Files (Android Built App Only)"
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:6
-msgid "Android external process (eg. Media Player) cannot access asset files. Thus, media files cannot be played by Android Media Player."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:8
-msgid "``LocalFileBootloader`` lets Android Media Player access asset files. It is disabled by default. If you want to enable ``localFileBootloader``, please edit :file:`app.json` file and set ``extractAssets`` to \"true\"."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:10
-msgid "Firstly, let's show hidden files by clicking the button on the top right corner of the Project tree panel as shown below. Then, tick the ``show hidden files`` checkbox."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:14
-msgid "Then, :file:`app.json` file will be displayed under ``www`` folder. After that, please add this code into :file:`app.json`."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:25
-msgid "When ``extractAssets`` is set to \"true\", ``localFileBootloader`` will automatically run and copy asset files into a folder which can be accessed by Android Media Player."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:27
-msgid "You should be aware of the following disadvantages while enabling this feature:"
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:29
-msgid "When the app starts for the first time, it may take some time to copy the asset files."
-msgstr ""
-
-#: ../doc/sampleapp/tips/appjson/extract_assets.rst:30
-msgid "This may increase the space needed for the application."
-msgstr ""
-
 #: ../doc/sampleapp/tips/camera.rst:3
 msgid "Using Camera and Photo Album"
 msgstr ""

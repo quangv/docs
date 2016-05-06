@@ -38,44 +38,29 @@ InAppBrowser Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-inappbrowser>`_.
 
-This plugin provides a web browser view that displays when calling
-``cordova.InAppBrowser.open()``.
+This plugin provides a web browser view that displays when calling ``cordova.InAppBrowser.open()``.
 
 ::
 
     var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
 
-The ``cordova.InAppBrowser.open()`` function is defined to be a drop-in
-replacement for the ``window.open()`` function. Existing
-``window.open()`` calls can use the InAppBrowser window, by replacing
-window.open:
+The ``cordova.InAppBrowser.open()`` function is defined to be a drop-in replacement for the ``window.open()`` function. Existing ``window.open()`` calls can use the InAppBrowser window, by replacing window.open:
 
 ::
 
     window.open = cordova.InAppBrowser.open;
 
-The InAppBrowser window behaves like a standard web browser, and can't
-access Cordova APIs. For this reason, the InAppBrowser is recommended if
-you need to load third-party (untrusted) content, instead of loading
-that into the main Cordova webview. The InAppBrowser is not subject to
-the whitelist, nor is opening links in the system browser.
+The InAppBrowser window behaves like a standard web browser, and can't access Cordova APIs. For this reason, the InAppBrowser is recommended if you need to load third-party (untrusted) content, instead of loading that into the main Cordova webview. The InAppBrowser is not subject to the whitelist, nor is opening links in the system browser.
 
-The InAppBrowser provides by default its own GUI controls for the user
-(back, forward, done).
+The InAppBrowser provides by default its own GUI controls for the user (back, forward, done).
 
-For backwards compatibility, this plugin also hooks ``window.open``.
-However, the plugin-installed hook of ``window.open`` can have
-unintended side effects (especially if this plugin is included only as a
-dependency of another plugin). The hook of ``window.open`` will be
-removed in a future major release. Until the hook is removed from the
-plugin, apps can manually restore the default behaviour:
+For backwards compatibility, this plugin also hooks ``window.open``. However, the plugin-installed hook of ``window.open`` can have unintended side effects (especially if this plugin is included only as a dependency of another plugin). The hook of ``window.open`` will be removed in a future major release. Until the hook is removed from the plugin, apps can manually restore the default behaviour:
 
 ::
 
     delete window.open // Reverts the call back to it's prototype's default
 
-Although ``window.open`` is in the global scope, InAppBrowser is not
-available until after the ``deviceready`` event.
+Although ``window.open`` is in the global scope, InAppBrowser is not available until after the ``deviceready`` event.
 
 ::
 
@@ -103,8 +88,7 @@ API Reference
 cordova.InAppBrowser.open
 -------------------------
 
-Opens a URL in a new ``InAppBrowser`` instance, the current browser
-instance, or the system browser.
+Opens a URL in a new ``InAppBrowser`` instance, the current browser instance, or the system browser.
 
 ::
 
@@ -112,100 +96,69 @@ instance, or the system browser.
 
 -  **ref**: Reference to the ``InAppBrowser`` window. *(InAppBrowser)*
 
--  **url**: The URL to load *(String)*. Call ``encodeURI()`` on this if
-   the URL contains Unicode characters.
+-  **url**: The URL to load *(String)*. Call ``encodeURI()`` on this if the URL contains Unicode characters.
 
--  **target**: The target in which to load the URL, an optional
-   parameter that defaults to ``_self``. *(String)*
+-  **target**: The target in which to load the URL, an optional parameter that defaults to ``_self``. *(String)*
 
-   -  ``_self``: Opens in the Cordova WebView if the URL is in the white
-      list, otherwise it opens in the ``InAppBrowser``.
-   -  ``_blank``: Opens in the ``InAppBrowser``.
-   -  ``_system``: Opens in the system's web browser.
+-  ``_self``: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the ``InAppBrowser``.
 
--  **options**: Options for the ``InAppBrowser``. Optional, defaulting
-   to: ``location=yes``. *(String)*
+-  ``_blank``: Opens in the ``InAppBrowser``.
 
-   The ``options`` string must not contain any blank space, and each
-   feature's name/value pairs must be separated by a comma. Feature
-   names are case insensitive. All platforms support the value below:
+-  ``_system``: Opens in the system's web browser.
 
-   -  **location**: Set to ``yes`` or ``no`` to turn the
-      ``InAppBrowser``'s location bar on or off.
+-  **options**: Options for the ``InAppBrowser``. Optional, defaulting to: ``location=yes``. *(String)*
 
-   Android only:
+The ``options`` string must not contain any blank space, and each feature's name/value pairs must be separated by a comma. Feature names are case insensitive. All platforms support the value below:
 
-   -  **hidden**: set to ``yes`` to create the browser and load the
-      page, but not show it. The loadstop event fires when loading is
-      complete. Omit or set to ``no`` (default) to have the browser open
-      and load normally.
-   -  **clearcache**: set to ``yes`` to have the browser's cookie cache
-      cleared before the new window is opened
-   -  **clearsessioncache**: set to ``yes`` to have the session cookie
-      cache cleared before the new window is opened
-   -  **zoom**: set to ``yes`` to show Android browser's zoom controls,
-      set to ``no`` to hide them. Default value is ``yes``.
-   -  **hardwareback**: set to ``yes`` to use the hardware back button
-      to navigate backwards through the ``InAppBrowser``'s history. If
-      there is no previous page, the ``InAppBrowser`` will close. The
-      default value is ``yes``, so you must set it to ``no`` if you want
-      the back button to simply close the InAppBrowser.
+-  **location**: Set to ``yes`` or ``no`` to turn the ``InAppBrowser``'s location bar on or off.
 
-   iOS only:
+Android only:
 
-   -  **closebuttoncaption**: set to a string to use as the **Done**
-      button's caption. Note that you need to localize this value
-      yourself.
-   -  **disallowoverscroll**: Set to ``yes`` or ``no`` (default is
-      ``no``). Turns on/off the UIWebViewBounce property.
-   -  **hidden**: set to ``yes`` to create the browser and load the
-      page, but not show it. The loadstop event fires when loading is
-      complete. Omit or set to ``no`` (default) to have the browser open
-      and load normally.
-   -  **clearcache**: set to ``yes`` to have the browser's cookie cache
-      cleared before the new window is opened
-   -  **clearsessioncache**: set to ``yes`` to have the session cookie
-      cache cleared before the new window is opened
-   -  **toolbar**: set to ``yes`` or ``no`` to turn the toolbar on or
-      off for the InAppBrowser (defaults to ``yes``)
-   -  **enableViewportScale**: Set to ``yes`` or ``no`` to prevent
-      viewport scaling through a meta tag (defaults to ``no``).
-   -  **mediaPlaybackRequiresUserAction**: Set to ``yes`` or ``no`` to
-      prevent HTML5 audio or video from autoplaying (defaults to
-      ``no``).
-   -  **allowInlineMediaPlayback**: Set to ``yes`` or ``no`` to allow
-      in-line HTML5 media playback, displaying within the browser window
-      rather than a device-specific playback interface. The HTML's
-      ``video`` element must also include the ``webkit-playsinline``
-      attribute (defaults to ``no``)
-   -  **keyboardDisplayRequiresUserAction**: Set to ``yes`` or ``no`` to
-      open the keyboard when form elements receive focus via
-      JavaScript's ``focus()`` call (defaults to ``yes``).
-   -  **suppressesIncrementalRendering**: Set to ``yes`` or ``no`` to
-      wait until all new view content is received before being rendered
-      (defaults to ``no``).
-   -  **presentationstyle**: Set to ``pagesheet``, ``formsheet`` or
-      ``fullscreen`` to set the `presentation
-      style <http://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalPresentationStyle>`__
-      (defaults to ``fullscreen``).
-   -  **transitionstyle**: Set to ``fliphorizontal``, ``crossdissolve``
-      or ``coververtical`` to set the `transition
-      style <http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalTransitionStyle>`__
-      (defaults to ``coververtical``).
-   -  **toolbarposition**: Set to ``top`` or ``bottom`` (default is
-      ``bottom``). Causes the toolbar to be at the top or bottom of the
-      window.
+-  **hidden**: set to ``yes`` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to ``no`` (default) to have the browser open and load normally.
 
-   Windows only:
+-  **clearcache**: set to ``yes`` to have the browser's cookie cache cleared before the new window is opened
 
-   -  **hidden**: set to ``yes`` to create the browser and load the
-      page, but not show it. The loadstop event fires when loading is
-      complete. Omit or set to ``no`` (default) to have the browser open
-      and load normally.
-   -  **fullscreen**: set to ``yes`` to create the browser control
-      without a border around it. Please note that if **location=no** is
-      also specified, there will be no control presented to user to
-      close IAB window.
+-  **clearsessioncache**: set to ``yes`` to have the session cookie cache cleared before the new window is opened
+
+-  **zoom**: set to ``yes`` to show Android browser's zoom controls, set to ``no`` to hide them. Default value is ``yes``.
+
+-  **hardwareback**: set to ``yes`` to use the hardware back button to navigate backwards through the ``InAppBrowser``'s history. If there is no previous page, the ``InAppBrowser`` will close. The default value is ``yes``, so you must set it to ``no`` if you want the back button to simply close the InAppBrowser.
+
+iOS only:
+
+-  **closebuttoncaption**: set to a string to use as the **Done** button's caption. Note that you need to localize this value yourself.
+
+-  **disallowoverscroll**: Set to ``yes`` or ``no`` (default is ``no``). Turns on/off the UIWebViewBounce property.
+
+-  **hidden**: set to ``yes`` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to ``no`` (default) to have the browser open and load normally.
+
+-  **clearcache**: set to ``yes`` to have the browser's cookie cache cleared before the new window is opened
+
+-  **clearsessioncache**: set to ``yes`` to have the session cookie cache cleared before the new window is opened
+
+-  **toolbar**: set to ``yes`` or ``no`` to turn the toolbar on or off for the InAppBrowser (defaults to ``yes``)
+
+-  **enableViewportScale**: Set to ``yes`` or ``no`` to prevent viewport scaling through a meta tag (defaults to ``no``).
+
+-  **mediaPlaybackRequiresUserAction**: Set to ``yes`` or ``no`` to prevent HTML5 audio or video from autoplaying (defaults to ``no``).
+
+-  **allowInlineMediaPlayback**: Set to ``yes`` or ``no`` to allow in-line HTML5 media playback, displaying within the browser window rather than a device-specific playback interface. The HTML's ``video`` element must also include the ``webkit-playsinline`` attribute (defaults to ``no``)
+
+-  **keyboardDisplayRequiresUserAction**: Set to ``yes`` or ``no`` to open the keyboard when form elements receive focus via JavaScript's ``focus()`` call (defaults to ``yes``).
+
+-  **suppressesIncrementalRendering**: Set to ``yes`` or ``no`` to wait until all new view content is received before being rendered (defaults to ``no``).
+
+-  **presentationstyle**: Set to ``pagesheet``, ``formsheet`` or ``fullscreen`` to set the `presentation style <http://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalPresentationStyle>`__ (defaults to ``fullscreen``).
+
+-  **transitionstyle**: Set to ``fliphorizontal``, ``crossdissolve`` or ``coververtical`` to set the `transition style <http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalTransitionStyle>`__ (defaults to ``coververtical``).
+
+-  **toolbarposition**: Set to ``top`` or ``bottom`` (default is ``bottom``). Causes the toolbar to be at the top or bottom of the window.
+
+Windows only:
+
+-  **hidden**: set to ``yes`` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to ``no`` (default) to have the browser open and load normally.
+
+-  **fullscreen**: set to ``yes`` to create the browser control without a border around it. Please note that if **location=no** is also specified, there will be no control presented to user to close IAB window.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -230,9 +183,7 @@ Example
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
 
-As plugin doesn't enforce any design there is a need to add some CSS
-rules if opened with ``target='_blank'``. The rules might look like
-these
+As plugin doesn't enforce any design there is a need to add some CSS rules if opened with ``target='_blank'``. The rules might look like these
 
 .. code:: css
 
@@ -263,24 +214,18 @@ these
 Windows Quirks
 ~~~~~~~~~~~~~~
 
-Windows 8.0, 8.1 and Windows Phone 8.1 don't support remote urls to be
-opened in the Cordova WebView so remote urls are always showed in the
-system's web browser if opened with ``target='_self'``.
+Windows 8.0, 8.1 and Windows Phone 8.1 don't support remote urls to be opened in the Cordova WebView so remote urls are always showed in the system's web browser if opened with ``target='_self'``.
 
-On Windows 10 if the URL is NOT in the white list and is opened with
-``target='_self'`` it will be showed in the system's web browser instead
-of InAppBrowser popup.
+On Windows 10 if the URL is NOT in the white list and is opened with ``target='_self'`` it will be showed in the system's web browser instead of InAppBrowser popup.
 
-Similar to Firefox OS IAB window visual behaviour can be overridden via
-``inAppBrowserWrap``/``inAppBrowserWrapFullscreen`` CSS classes
+Similar to Firefox OS IAB window visual behaviour can be overridden via ``inAppBrowserWrap``/``inAppBrowserWrapFullscreen`` CSS classes
 
 Browser Quirks
 ~~~~~~~~~~~~~~
 
 -  Plugin is implemented via iframe,
 
--  Navigation history (``back`` and ``forward`` buttons in LocationBar)
-   is not implemented.
+-  Navigation history (``back`` and ``forward`` buttons in LocationBar) is not implemented.
 
 InAppBrowser
 ------------
@@ -300,7 +245,7 @@ Methods
 addEventListener
 ----------------
 
-    Adds a listener for an event from the ``InAppBrowser``.
+Adds a listener for an event from the ``InAppBrowser``.
 
 ::
 
@@ -310,30 +255,26 @@ addEventListener
 
 -  **eventname**: the event to listen for *(String)*
 
--  **loadstart**: event fires when the ``InAppBrowser`` starts to load a
-   URL.
--  **loadstop**: event fires when the ``InAppBrowser`` finishes loading
-   a URL.
--  **loaderror**: event fires when the ``InAppBrowser`` encounters an
-   error when loading a URL.
+-  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
+
+-  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
+
+-  **loaderror**: event fires when the ``InAppBrowser`` encounters an error when loading a URL.
+
 -  **exit**: event fires when the ``InAppBrowser`` window is closed.
 
--  **callback**: the function that executes when the event fires. The
-   function is passed an ``InAppBrowserEvent`` object as a parameter.
+-  **callback**: the function that executes when the event fires. The function is passed an ``InAppBrowserEvent`` object as a parameter.
 
 InAppBrowserEvent Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  **type**: the eventname, either ``loadstart``, ``loadstop``,
-   ``loaderror``, or ``exit``. *(String)*
+-  **type**: the eventname, either ``loadstart``, ``loadstop``, ``loaderror``, or ``exit``. *(String)*
 
 -  **url**: the URL that was loaded. *(String)*
 
--  **code**: the error code, only in the case of ``loaderror``.
-   *(Number)*
+-  **code**: the error code, only in the case of ``loaderror``. *(Number)*
 
--  **message**: the error message, only in the case of ``loaderror``.
-   *(String)*
+-  **message**: the error message, only in the case of ``loaderror``. *(String)*
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -371,16 +312,15 @@ removeEventListener
 
 -  **eventname**: the event to stop listening for. *(String)*
 
--  **loadstart**: event fires when the ``InAppBrowser`` starts to load a
-   URL.
--  **loadstop**: event fires when the ``InAppBrowser`` finishes loading
-   a URL.
--  **loaderror**: event fires when the ``InAppBrowser`` encounters an
-   error loading a URL.
+-  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
+
+-  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
+
+-  **loaderror**: event fires when the ``InAppBrowser`` encounters an error loading a URL.
+
 -  **exit**: event fires when the ``InAppBrowser`` window is closed.
 
--  **callback**: the function to execute when the event fires. The
-   function is passed an ``InAppBrowserEvent`` object.
+-  **callback**: the function to execute when the event fires. The function is passed an ``InAppBrowserEvent`` object.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -405,7 +345,7 @@ Quick Example
 close
 -----
 
-    Closes the ``InAppBrowser`` window.
+Closes the ``InAppBrowser`` window.
 
 ::
 
@@ -435,8 +375,7 @@ Quick Example
 show
 ----
 
-    Displays an InAppBrowser window that was opened hidden. Calling this
-    has no effect if the InAppBrowser was already visible.
+Displays an InAppBrowser window that was opened hidden. Calling this has no effect if the InAppBrowser was already visible.
 
 ::
 
@@ -465,7 +404,7 @@ Quick Example
 executeScript
 -------------
 
-    Injects JavaScript code into the ``InAppBrowser`` window
+Injects JavaScript code into the ``InAppBrowser`` window
 
 ::
 
@@ -473,19 +412,15 @@ executeScript
 
 -  **ref**: reference to the ``InAppBrowser`` window. *(InAppBrowser)*
 
--  **injectDetails**: details of the script to run, specifying either a
-   ``file`` or ``code`` key. *(Object)*
+-  **injectDetails**: details of the script to run, specifying either a ``file`` or ``code`` key. *(Object)*
+
 -  **file**: URL of the script to inject.
+
 -  **code**: Text of the script to inject.
 
--  **callback**: the function that executes after the JavaScript code is
-   injected.
+-  **callback**: the function that executes after the JavaScript code is injected.
 
-   -  If the injected script is of type ``code``, the callback executes
-      with a single parameter, which is the return value of the script,
-      wrapped in an ``Array``. For multi-line scripts, this is the
-      return value of the last statement, or the last expression
-      evaluated.
+-  If the injected script is of type ``code``, the callback executes with a single parameter, which is the return value of the script, wrapped in an ``Array``. For multi-line scripts, this is the return value of the last statement, or the last expression evaluated.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~
@@ -514,15 +449,12 @@ Browser Quirks
 Windows Quirks
 ~~~~~~~~~~~~~~
 
-Due to `MSDN
-docs <https://msdn.microsoft.com/en-us/library/windows.ui.xaml.controls.webview.invokescriptasync.aspx>`__
-the invoked script can return only string values, otherwise the
-parameter, passed to **callback** will be ``[null]``.
+Due to `MSDN docs <https://msdn.microsoft.com/en-us/library/windows.ui.xaml.controls.webview.invokescriptasync.aspx>`__ the invoked script can return only string values, otherwise the parameter, passed to **callback** will be ``[null]``.
 
 insertCSS
 ---------
 
-    Injects CSS into the ``InAppBrowser`` window.
+Injects CSS into the ``InAppBrowser`` window.
 
 ::
 
@@ -530,9 +462,10 @@ insertCSS
 
 -  **ref**: reference to the ``InAppBrowser`` window *(InAppBrowser)*
 
--  **injectDetails**: details of the script to run, specifying either a
-   ``file`` or ``code`` key. *(Object)*
+-  **injectDetails**: details of the script to run, specifying either a ``file`` or ``code`` key. *(Object)*
+
 -  **file**: URL of the stylesheet to inject.
+
 -  **code**: Text of the stylesheet to inject.
 
 -  **callback**: the function that executes after the CSS is injected.

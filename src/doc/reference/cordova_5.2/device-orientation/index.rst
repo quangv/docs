@@ -40,10 +40,7 @@ Device Orientation Plugin
 
 
 
-This plugin provides access to the device's compass. The compass is a
-sensor that detects the direction or heading that the device is pointed,
-typically from the top of the device. It measures the heading in degrees
-from 0 to 359.99, where 0 is north.
+This plugin provides access to the device's compass. The compass is a sensor that detects the direction or heading that the device is pointed, typically from the top of the device. It measures the heading in degrees from 0 to 359.99, where 0 is north.
 
 
 Access is via a global 「 ``navigator.compass`` 」.
@@ -98,9 +95,7 @@ Methods
 navigator.compass.getCurrentHeading
 -----------------------------------
 
-Get the current compass heading. The compass heading is returned via a
-``CompassHeading`` object using the ``compassSuccess`` callback
-function.
+Get the current compass heading. The compass heading is returned via a ``CompassHeading`` object using the ``compassSuccess`` callback function.
 
 ::
 
@@ -124,13 +119,9 @@ Example
 navigator.compass.watchHeading
 ------------------------------
 
-Gets the device's current heading at a regular interval. Each time the
-heading is retrieved, the ``headingSuccess`` callback function is
-executed.
+Gets the device's current heading at a regular interval. Each time the heading is retrieved, the ``headingSuccess`` callback function is executed.
 
-The returned watch ID references the compass watch interval. The watch
-ID can be used with ``navigator.compass.clearWatch`` to stop watching
-the navigator.compass.
+The returned watch ID references the compass watch interval. The watch ID can be used with ``navigator.compass.clearWatch`` to stop watching the navigator.compass.
 
 ::
 
@@ -138,11 +129,8 @@ the navigator.compass.
 
 ``compassOptions`` may contain the following keys:
 
--  **frequency**: How often to retrieve the compass heading in
-   milliseconds. *(Number)* (Default: 100)
--  **filter**: The change in degrees required to initiate a watchHeading
-   success callback. When this value is set, **frequency** is ignored.
-   *(Number)*
+-  **frequency**: How often to retrieve the compass heading in milliseconds. *(Number)* (Default: 100)
+-  **filter**: The change in degrees required to initiate a watchHeading success callback. When this value is set, **frequency** is ignored. *(Number)*
 
 Example
 ~~~~~~~
@@ -167,17 +155,12 @@ Example
 Browser Quirks
 ~~~~~~~~~~~~~~
 
-Values for current heading are randomly generated in order to simulate
-the compass.
+Values for current heading are randomly generated in order to simulate the compass.
 
 iOS Quirks
 ~~~~~~~~~~
 
-Only one ``watchHeading`` can be in effect at one time in iOS. If a
-``watchHeading`` uses a filter, calling ``getCurrentHeading`` or
-``watchHeading`` uses the existing filter value to specify heading
-changes. Watching heading changes with a filter is more efficient than
-with time intervals.
+Only one ``watchHeading`` can be in effect at one time in iOS. If a ``watchHeading`` uses a filter, calling ``getCurrentHeading`` or ``watchHeading`` uses the existing filter value to specify heading changes. Watching heading changes with a filter is more efficient than with time intervals.
 
 Amazon Fire OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~
@@ -229,67 +212,51 @@ Example
 CompassHeading
 --------------
 
-A ``CompassHeading`` object is returned to the ``compassSuccess``
-callback function.
+A ``CompassHeading`` object is returned to the ``compassSuccess`` callback function.
 
 Properties
 ~~~~~~~~~~
 
--  **magneticHeading**: The heading in degrees from 0-359.99 at a single
-   moment in time. *(Number)*
+-  **magneticHeading**: The heading in degrees from 0-359.99 at a single moment in time. *(Number)*
 
--  **trueHeading**: The heading relative to the geographic North Pole in
-   degrees 0-359.99 at a single moment in time. A negative value
-   indicates that the true heading can't be determined. *(Number)*
+-  **trueHeading**: The heading relative to the geographic North Pole in degrees 0-359.99 at a single moment in time. A negative value indicates that the true heading can't be determined. *(Number)*
 
--  **headingAccuracy**: The deviation in degrees between the reported
-   heading and the true heading. *(Number)*
+-  **headingAccuracy**: The deviation in degrees between the reported heading and the true heading. *(Number)*
 
--  **timestamp**: The time at which this heading was determined.
-   *(DOMTimeStamp)*
+-  **timestamp**: The time at which this heading was determined. *(DOMTimeStamp)*
 
 Amazon Fire OS Quirks
 ~~~~~~~~~~~~~~~~~~~~~
 
--  ``trueHeading`` is not supported, but reports the same value as
-   ``magneticHeading``
+-  ``trueHeading`` is not supported, but reports the same value as ``magneticHeading``
 
--  ``headingAccuracy`` is always 0 because there is no difference
-   between the ``magneticHeading`` and ``trueHeading``
+-  ``headingAccuracy`` is always 0 because there is no difference between the ``magneticHeading`` and ``trueHeading``
 
 Android Quirks
 ~~~~~~~~~~~~~~
 
--  The ``trueHeading`` property is not supported, but reports the same
-   value as ``magneticHeading``.
+-  The ``trueHeading`` property is not supported, but reports the same value as ``magneticHeading``.
 
--  The ``headingAccuracy`` property is always 0 because there is no
-   difference between the ``magneticHeading`` and ``trueHeading``.
+-  The ``headingAccuracy`` property is always 0 because there is no difference between the ``magneticHeading`` and ``trueHeading``.
 
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
 
--  The ``trueHeading`` property is not supported, but reports the same
-   value as ``magneticHeading``.
+-  The ``trueHeading`` property is not supported, but reports the same value as ``magneticHeading``.
 
--  The ``headingAccuracy`` property is always 0 because there is no
-   difference between the ``magneticHeading`` and ``trueHeading``.
+-  The ``headingAccuracy`` property is always 0 because there is no difference between the ``magneticHeading`` and ``trueHeading``.
 
 iOS Quirks
 ~~~~~~~~~~
 
--  The ``trueHeading`` property is only returned for location services
-   enabled via ``navigator.geolocation.watchLocation()``.
+-  The ``trueHeading`` property is only returned for location services enabled via ``navigator.geolocation.watchLocation()``.
 
--  For iOS 4 devices and above, heading factors in the device's current
-   orientation, and does not reference its absolute position, for apps
-   that supports that orientation.
+-  For iOS 4 devices and above, heading factors in the device's current orientation, and does not reference its absolute position, for apps that supports that orientation.
 
 CompassError
 ------------
 
-A ``CompassError`` object is returned to the ``compassError`` callback
-function when an error occurs.
+A ``CompassError`` object is returned to the ``compassError`` callback function when an error occurs.
 
 Properties
 ~~~~~~~~~~

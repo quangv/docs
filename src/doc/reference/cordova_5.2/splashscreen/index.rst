@@ -38,8 +38,7 @@ Splashscreen Plugin
     
     This document is based on the original Cordova docs available at `Cordova Docs <https://github.com/apache/cordova-plugin-splashscreen>`_.
 
-This plugin displays and hides a splash screen during application
-launch.
+This plugin displays and hides a splash screen during application launch.
 
 Plugin ID
 ===============================
@@ -73,30 +72,26 @@ Preferences
 -----------
 
 config.xml
-~~~~~~~~~~~~~~
+~~~~~~~~~~
 
--  **SplashScreen** (string). The resource name which is used for the
-   displaying splash screen. Different platforms use values for this.
 
-   ::
+-  **SplashScreen** (string). The resource name which is used for the displaying splash screen. Different platforms use values for this.
 
-       <preference name="SplashScreen" value="resourcename" />
+::
 
--  **AutoHideSplashScreen** (boolean, default to ``true``). Indicates
-   wherether hide splash screen automatically or not. Splash screen
-   hidden after amount of time specified in the ``SplashScreenDelay``
-   preference.
+    <preference name="SplashScreen" value="resourcename" />
 
-   ::
+-  **AutoHideSplashScreen** (boolean, default to ``true``). Indicates wherether hide splash screen automatically or not. Splash screen hidden after amount of time specified in the ``SplashScreenDelay`` preference.
 
-       <preference name="AutoHideSplashScreen" value="true" />
+::
 
--  **SplashScreenDelay** (number, default to 3000). Amount of time in
-   milliseconds to wait before automatically hide splash screen.
+    <preference name="AutoHideSplashScreen" value="true" />
 
-   ::
+-  **SplashScreenDelay** (number, default to 3000). Amount of time in milliseconds to wait before automatically hide splash screen.
 
-       <preference name="SplashScreenDelay" value="3000" />
+::
+
+    <preference name="SplashScreenDelay" value="3000" />
 
 Android Quirks
 ~~~~~~~~~~~~~~
@@ -109,24 +104,11 @@ In your ``config.xml``, you need to add the following preferences:
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="SplashMaintainAspectRatio" value="true|false" />
 
-Where foo is the name of the splashscreen file, preferably a 9 patch
-file. Make sure to add your splashcreen files to your res/xml directory
-under the appropriate folders. The second parameter represents how long
-the splashscreen will appear in milliseconds. It defaults to 3000 ms.
-See `Icons and Splash
-Screens <http://cordova.apache.org/docs/en/edge/config_ref_images.md.html>`__
-for more information.
+Where foo is the name of the splashscreen file, preferably a 9 patch file. Make sure to add your splashcreen files to your res/xml directory under the appropriate folders. The second parameter represents how long the splashscreen will appear in milliseconds. It defaults to 3000 ms. See `Icons and Splash Screens <http://cordova.apache.org/docs/en/edge/config_ref_images.md.html>`__ for more information.
 
-"SplashMaintainAspectRatio" preference is optional. If set to true,
-splash screen drawable is not stretched to fit screen, but instead
-simply "covers" the screen, like CSS "background-size:cover". This is
-very useful when splash screen images cannot be distorted in any way,
-for example when they contain scenery or text. This setting works best
-with images that have large margins (safe areas) that can be safely
-cropped on screens with different aspect ratios.
+"SplashMaintainAspectRatio" preference is optional. If set to true, splash screen drawable is not stretched to fit screen, but instead simply "covers" the screen, like CSS "background-size:cover". This is very useful when splash screen images cannot be distorted in any way, for example when they contain scenery or text. This setting works best with images that have large margins (safe areas) that can be safely cropped on screens with different aspect ratios.
 
-The plugin reloads splash drawable whenever orientation changes, so you
-can specify different drawables for portrait and landscape orientations.
+The plugin reloads splash drawable whenever orientation changes, so you can specify different drawables for portrait and landscape orientations.
 
 Browser Quirks
 ~~~~~~~~~~~~~~
@@ -147,32 +129,26 @@ You can use the following preferences in your ``config.xml``:
 iOS Quirks
 ~~~~~~~~~~
 
--  ``FadeSplashScreen`` (boolean, defaults to ``true``): Set to
-   ``false`` to prevent the splash screen from fading in and out when
-   its display state changes.
 
-   ::
+-  ``FadeSplashScreen`` (boolean, defaults to ``true``): Set to ``false`` to prevent the splash screen from fading in and out when its display state changes.
 
-       <preference name="FadeSplashScreen" value="false"/>
+::
 
--  ``FadeSplashScreenDuration`` (float, defaults to ``3000``): Specifies
-   the number of milliseconds for the splash screen fade effect to
-   execute.
+    <preference name="FadeSplashScreen" value="false"/>
 
-   ::
+-  ``FadeSplashScreenDuration`` (float, defaults to ``3000``): Specifies the number of milliseconds for the splash screen fade effect to execute.
 
-       <preference name="FadeSplashScreenDuration" value="3000"/>
+::
 
-Note also that this value used to be seconds, and not milliseconds, so
-values less than 30 will still be treated as seconds. ( Consider this a
-deprecated patch that will disapear in some future version. )
+    <preference name="FadeSplashScreenDuration" value="3000"/>
 
--  ``ShowSplashScreenSpinner`` (boolean, defaults to ``true``): Set to
-   ``false`` to hide the splash-screen spinner.
+Note also that this value used to be seconds, and not milliseconds, so values less than 30 will still be treated as seconds. ( Consider this a deprecated patch that will disapear in some future version. )
 
-   ::
+-  ``ShowSplashScreenSpinner`` (boolean, defaults to ``true``): Set to ``false`` to hide the splash-screen spinner.
 
-       <preference name="ShowSplashScreenSpinner" value="false"/>
+::
+
+    <preference name="ShowSplashScreenSpinner" value="false"/>
 
 Methods
 -------
@@ -192,15 +168,13 @@ Dismiss the splash screen.
 BlackBerry 10, WP8, iOS Quirk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ``config.xml`` file's ``AutoHideSplashScreen`` setting must be
-``false``. To delay hiding the splash screen for two seconds, add a
-timer such as the following in the ``deviceready`` event handler:
+The ``config.xml`` file's ``AutoHideSplashScreen`` setting must be ``false``. To delay hiding the splash screen for two seconds, add a timer such as the following in the ``deviceready`` event handler:
 
 ::
 
-        setTimeout(function() {
-            navigator.splashscreen.hide();
-        }, 2000);
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 2000);
 
 splashscreen.show
 -----------------
@@ -211,18 +185,7 @@ Displays the splash screen.
 
     navigator.splashscreen.show();
 
-Your application cannot call ``navigator.splashscreen.show()`` until the
-app has started and the ``deviceready`` event has fired. But since
-typically the splash screen is meant to be visible before your app has
-started, that would seem to defeat the purpose of the splash screen.
-Providing some configuration in ``config.xml`` will automatically
-``show`` the splash screen immediately after your app launch and before
-it has fully started and received the ``deviceready`` event. See `Icons
-and Splash
-Screens <http://cordova.apache.org/docs/en/edge/config_ref_images.md.html>`__
-for more information on doing this configuration. For this reason, it is
-unlikely you need to call ``navigator.splashscreen.show()`` to make the
-splash screen visible for app startup.
+Your application cannot call ``navigator.splashscreen.show()`` until the app has started and the ``deviceready`` event has fired. But since typically the splash screen is meant to be visible before your app has started, that would seem to defeat the purpose of the splash screen. Providing some configuration in ``config.xml`` will automatically ``show`` the splash screen immediately after your app launch and before it has fully started and received the ``deviceready`` event. See `Icons and Splash Screens <http://cordova.apache.org/docs/en/edge/config_ref_images.md.html>`__ for more information on doing this configuration. For this reason, it is unlikely you need to call ``navigator.splashscreen.show()`` to make the splash screen visible for app startup.
 
 
 .. seealso::

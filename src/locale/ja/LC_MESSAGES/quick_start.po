@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-19 13:33+0000\n"
+"PO-Revision-Date: 2016-05-01 23:33+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -513,7 +513,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 
 #: ../doc/quick_start/cli/building_app.rst:236
 #: ../doc/quick_start/cli/publishing_app.rst:26
-#: ../doc/quick_start/cli/starting_project.rst:61
+#: ../doc/quick_start/cli/starting_project.rst:60
 #: ../doc/quick_start/cli/testing_debugging.rst:132
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
@@ -539,7 +539,7 @@ msgstr ":ref:`cli_starting_project`"
 
 #: ../doc/quick_start/cli/building_app.rst:239
 #: ../doc/quick_start/cli/publishing_app.rst:29
-#: ../doc/quick_start/cli/starting_project.rst:63
+#: ../doc/quick_start/cli/starting_project.rst:62
 msgid ":ref:`cli_testing_debugging`"
 msgstr ":ref:`cli_testing_debugging`"
 
@@ -565,24 +565,16 @@ msgid ""
 msgstr "Monaca CLI は、Monaca アプリ向けのローカル環境用の開発ツールです。Monaca CLI は、コマンドライン形式のインターフェイスであり、Monaca CLI を使用すれば、Monaca クラウドが提供するサービスをローカル PC から使用できます。Monaca CLI の機能は多岐にわたり、ローカルプロジェクトの作成、既存のプロジェクトのインポートまたはクローン ( Monaca クラウドからローカル PC へ )、インスペクタと連携したデバッグ、リモートビルド ( ローカルでの各種設定は不要 ) などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら <monaca_cli_index>` をご確認ください。"
 
 #: ../doc/quick_start/cli/index.rst:7
-msgid ""
-"You are required to have a valid plan in order to use Monaca CLI. Otherwise,"
-" Monaca CLI will run in the evaluation mode for 30 days after the first "
-"login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ "
-"for more details."
-msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca CLI を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://monaca.mobi/en/pricing?type=2>`_ をご確認ください。"
-
-#: ../doc/quick_start/cli/index.rst:10
 msgid "Before getting started, you need to:"
 msgstr "事前準備として、以下を行います。"
 
-#: ../doc/quick_start/cli/index.rst:19
+#: ../doc/quick_start/cli/index.rst:16
 msgid ""
 "get a Monaca account. If you don't have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
 msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/en/register/start>`_ から登録できます。"
 
-#: ../doc/quick_start/cli/index.rst:20
+#: ../doc/quick_start/cli/index.rst:17
 msgid ""
 "install Monaca CLI. Please follow the installation instruction :ref:`here "
 "<install_monaca_cli>`."
@@ -632,7 +624,7 @@ msgid ""
 msgstr "他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
 
 #: ../doc/quick_start/cli/publishing_app.rst:30
-#: ../doc/quick_start/cli/starting_project.rst:64
+#: ../doc/quick_start/cli/starting_project.rst:63
 #: ../doc/quick_start/cli/testing_debugging.rst:135
 msgid ":ref:`cli_building_app`"
 msgstr ":ref:`cli_building_app`"
@@ -656,40 +648,40 @@ msgid ""
 "type the following command:"
 msgstr "コマンドプロンプト ( Windows の場合 ) またはターミナル ( Mac の場合 ) を開き、次のコマンドを実行します。"
 
-#: ../doc/quick_start/cli/starting_project.rst:20
+#: ../doc/quick_start/cli/starting_project.rst:21
 msgid ""
 "Then, you will be asked to input email and password of your Monaca account."
 msgstr "次に、Monaca アカウントで使用している電子メールとパスワードを入力します。"
 
-#: ../doc/quick_start/cli/starting_project.rst:30
+#: ../doc/quick_start/cli/starting_project.rst:31
 #: ../doc/quick_start/cloud_ide/starting_project.rst:26
 #: ../doc/quick_start/localkit/starting_project.rst:29
 msgid "Step 2: Creating a New Project"
 msgstr "ステップ 2 : プロジェクトの新規作成"
 
-#: ../doc/quick_start/cli/starting_project.rst:32
+#: ../doc/quick_start/cli/starting_project.rst:33
 msgid "Create a new project by using the command below:"
 msgstr "プロジェクトを新規作成する場合には、次のコマンドを実行します ( ディレクトリーは適宜変更 )。"
 
-#: ../doc/quick_start/cli/starting_project.rst:38
+#: ../doc/quick_start/cli/starting_project.rst:39
 msgid ""
 "Choose a project template by typing the number representing that template. "
 "Let's choose \"Onsen UI Sliding Menu\" in this example."
 msgstr "プロジェクトのテンプレートを選択します。テンプレートに割り振られた番号を入力します。ここでは、「 Onsen UI Sliding Menu 」 を選択します。"
 
-#: ../doc/quick_start/cli/starting_project.rst:46
+#: ../doc/quick_start/cli/starting_project.rst:47
 msgid ""
 "After creating the project, the project's folder will be created on your PC."
 " You can then use any local editors to develop your Monaca projects."
 msgstr "プロジェクトを作成すると、プロジェクトフォルダーが PC 上に作成されます。これ以後は、お好みのエディターを使用して、Monaca プロジェクトを開くことができます。"
 
-#: ../doc/quick_start/cli/starting_project.rst:54
+#: ../doc/quick_start/cli/starting_project.rst:55
 msgid ""
 "You can also use Monaca CLI to :ref:`import<monaca_import>` or "
 ":ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
 msgstr "上記では、テンプレートを使用したプロジェクトの作成方法を示しましたが、他にも、Monaca CLI を使用して、Monaca クラウドから既存のプロジェクトを :ref:`インポート <monaca_import>` または :ref:`クローン <monaca_clone>` できます。"
 
-#: ../doc/quick_start/cli/starting_project.rst:65
+#: ../doc/quick_start/cli/starting_project.rst:64
 #: ../doc/quick_start/localkit/building_app.rst:234
 #: ../doc/quick_start/localkit/starting_project.rst:120
 #: ../doc/quick_start/localkit/testing_debugging.rst:146
@@ -770,9 +762,9 @@ msgstr "ローカル PC 側のファイアーウォールを無効化してい�
 #: ../doc/quick_start/cli/testing_debugging.rst:48
 msgid ""
 "In the command window, navigate to your project folder and type "
-":ref:`monaca_livesync` command to connect to your Monaca Debugger. Then, "
-"Monaca CLI will wait for requests from debugger."
-msgstr "コマンドウィンドウ上で、プロジェクトのフォルダーまで移動し、 :ref:`monaca_livesync` ( Monaca デバッガーに接続 ) コマンドを実行します。実行すると、Monaca CLI 側では、デバッガーからのリクエストの待ち受けを開始します "
+":ref:`monaca_debug` command to connect to your Monaca Debugger. Then, Monaca"
+" CLI will wait for requests from debugger."
+msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:56
 msgid ""
