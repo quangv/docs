@@ -153,9 +153,10 @@ Additional ReadOnly Parameters
 
 -  **position**: The position within the audio playback, in seconds.
 
--  Not automatically updated during play; call ``getCurrentPosition`` to update.
+  -  Not automatically updated during play; call ``getCurrentPosition`` to update.
 
 -  **duration**: The duration of the media, in seconds.
+
 
 media.getCurrentPosition
 ------------------------

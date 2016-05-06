@@ -988,17 +988,19 @@ Properties
 ~~~~~~~~~~
 
 -  **code**: One of the following codes representing the error type *(Number)*
--  GlobalizationError.UNKNOWN\_ERROR: 0
--  GlobalizationError.FORMATTING\_ERROR: 1
--  GlobalizationError.PARSING\_ERROR: 2
--  GlobalizationError.PATTERN\_ERROR: 3
+
+  -  GlobalizationError.UNKNOWN\_ERROR: 0
+  -  GlobalizationError.FORMATTING\_ERROR: 1
+  -  GlobalizationError.PARSING\_ERROR: 2
+  -  GlobalizationError.PATTERN\_ERROR: 3
+
 -  **message**: A text message that includes the error's explanation and/or details *(String)*
+
 
 Description
 ~~~~~~~~~~~
 
-This object is created and populated by Cordova, and returned to a
-callback in the case of an error.
+This object is created and populated by Cordova, and returned to a callback in the case of an error.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~

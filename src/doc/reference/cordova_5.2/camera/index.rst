@@ -67,7 +67,10 @@ In order to use this plugin, please :ref:`enable <add_plugins>` ``Camera`` plugi
 API Reference
 =======================================================
 
-camera.getPicture(successCallback, errorCallback, options) 
+
+.. _camera_get_picture:
+
+camera.getPicture(successCallback, errorCallback, options)
 ---------------------------------------------------------------------------------
 
 Takes a photo using the camera, or retrieves a photo from the device's image gallery. The image is passed to the success callback as a base64-encoded ``String``, or as the URI for the image file.
@@ -137,7 +140,7 @@ camera.onSuccess: function
 camera.cleanup()
 ---------------------------------------------------------------------------------
 
-Removes intermediate image files that are kept in temporary storage after calling ```camera.getPicture`` <camera.getPicture(successCallback, errorCallback, options)>`__. Applies only when the value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` and the ``Camera.destinationType`` equals ``Camera.DestinationType.FILE_URI``.
+Removes intermediate image files that are kept in temporary storage after calling :ref:`camera.getPicture <camera_get_picture>`. Applies only when the value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` and the ``Camera.destinationType`` equals ``Camera.DestinationType.FILE_URI``.
 
 Supported Platforms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -570,7 +573,7 @@ Android Quirks
 
 -  Any ``cameraDirection`` value results in a back-facing photo.
 
--  **``allowEdit`` is unpredictable on Android and it should not be used!** The Android implementation of this plugin tries to find and use an application on the user's device to do image cropping. The plugin has no control over what application the user selects to perform the image cropping and it is very possible that the user could choose an incompatible option and cause the plugin to fail. This sometimes works because most devices come with an application that handles cropping in a way that is compatible with this plugin (Google Plus Photos), but it is unwise to rely on that being the case. If image editing is essential to your application, consider seeking a third party library or plugin that provides its own image editing utility for a more robust solution.
+-  ``allowEdit`` is unpredictable on Android and it should not be used!** The Android implementation of this plugin tries to find and use an application on the user's device to do image cropping. The plugin has no control over what application the user selects to perform the image cropping and it is very possible that the user could choose an incompatible option and cause the plugin to fail. This sometimes works because most devices come with an application that handles cropping in a way that is compatible with this plugin (Google Plus Photos), but it is unwise to rely on that being the case. If image editing is essential to your application, consider seeking a third party library or plugin that provides its own image editing utility for a more robust solution.
 
 -  ``Camera.PictureSourceType.PHOTOLIBRARY`` and ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo album.
 

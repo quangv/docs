@@ -122,7 +122,7 @@ The **contactFields** parameter specifies the fields to be used as a search qual
 The **contactFindOptions.filter** string can be used as a search filter when querying the contacts database. If provided, a case-insensitive, partial value match is applied to each field specified in the **contactFields** parameter. If there's a match for *any* of the specified fields, the contact is returned. Use **contactFindOptions.desiredFields** parameter to control which contact properties must be returned back.
 
 Parameters
-~~~~~~~~~~
+~~~~~~~~~~~
 
 
 -  **contactFields**: Contact fields to use as a search qualifier. *(DOMString[])* [Required]
@@ -133,7 +133,7 @@ Parameters
 
 -  **contactFindOptions**: Search options to filter navigator.contacts. [Optional]
 
-   Keys include:
+Keys include:
 
 -  **filter**: The search string used to find navigator.contacts. *(DOMString)* (Default: ``""``)
 
@@ -178,7 +178,7 @@ Example
 Windows Quirks
 ~~~~~~~~~~~~~~
 
--  ``__contactFields__`` is not supported and will be ignored. ``find`` method will always attempt to match the name, email address, or phone number of a contact.
+-  ``contactFields`` is not supported and will be ignored. ``find`` method will always attempt to match the name, email address, or phone number of a contact.
 
 navigator.contacts.pickContact
 ------------------------------

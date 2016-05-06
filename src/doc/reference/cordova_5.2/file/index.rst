@@ -89,7 +89,7 @@ Supported Platforms
 -  Windows\*
 -  Browser
 
-\* *These platforms do not support ``FileReader.readAsArrayBuffer`` nor ``FileWriter.write(blob)``.*
+\* *These platforms do not support ``FileReader.readAsArrayBuffer`` or ``FileWriter.write(blob)``.*
 
 API Reference
 =========================================
@@ -154,7 +154,7 @@ If your application is new, or has never previously stored files in the persiste
 Slow recursive operations for /android\_asset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Listing asset directories is really slow on Android. You can speed it up though, by adding ``src/android/build-extras.gradle`` to the root of your android project (also requires cordova-android@4.0.0 or greater).
+Listing asset directories is really slow on Android. You can speed it up though, by adding ``src/android/build-extras.gradle`` to the root of your android project (also requires cordova-android 4.0.0 or greater).
 
 iOS Quirks
 ----------
@@ -348,7 +348,7 @@ cdvfile protocol
 
 ``cdvfile://localhost/persistent|temporary|another-fs-root*/path/to/file`` can be used for platform-independent file paths. cdvfile paths are supported by core plugins - for example you can download an mp3 file to cdvfile-path via ``cordova-plugin-file-transfer`` and play it via ``cordova-plugin-media``.
 
-\_\_\*Note\_\_: See `Where to Store Files <#where-to-store-files>`__, `File System Layouts <#file-system-layouts>`__ and `Configuring the Plugin <#configuring-the-plugin-optional>`__ for more details about available fs roots.
+**Note**: See `Where to Store Files <#where-to-store-files>`__, `File System Layouts <#file-system-layouts>`__ and `Configuring the Plugin <#configuring-the-plugin-optional>`__ for more details about available fs roots.
 
 To use ``cdvfile`` as a tag' ``src`` you can convert it to native path via ``toURL()`` method of the resolved fileEntry, which you can get via ``resolveLocalFileSystemURL`` - see examples below.
 
@@ -361,10 +361,11 @@ You can also use ``cdvfile://`` paths directly in the DOM, for example:
 
 **Note**: This method requires following Content Security rules updates:
 
-\* Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of the index page, e.g.: -
-``<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:``\ **cdvfile:**\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">``
+-  Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of the index page, e.g.:
+  
+  -  ``<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:``\ **cdvfile:**\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">``
 
-\* Add ``<access origin="cdvfile://*" />`` to ``config.xml``.
+-  Add ``<access origin="cdvfile://*" />`` to ``config.xml``.
 
 
 **Converting cdvfile:// to native path**
