@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-01 23:33+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-05-06 04:13+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6399,7 +6399,7 @@ msgstr "プロジェクトで使用する、インストール済みプラグイ
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid ":ref:`monaca_debug`"
-msgstr ""
+msgstr ":ref:`monaca_debug`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid "serves a single project to Monaca Debugger."
@@ -6407,11 +6407,11 @@ msgstr "Monaca デバッガーへ、1 つのプロジェクトを送信します
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:22
 msgid ":ref:`monaca_preview`"
-msgstr ""
+msgstr ":ref:`monaca_preview`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:22
 msgid "serves a single project to browser."
-msgstr ""
+msgstr "ブラウザー上で、プロジェクトを 1 つ実行します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:23
 msgid ":ref:`monaca_multiserve`"
@@ -6758,21 +6758,21 @@ msgstr "プロジェクトフォルダーに移動して、次のコマンドを
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:303
 msgid "monaca preview"
-msgstr ""
+msgstr "monaca preview"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:305
 msgid ""
 "Serves a single project to browser. Use this command when you want to run "
 "your project on the browser."
-msgstr ""
+msgstr "ブラウザー上でプロジェクトを 1 つ実行します。ブラウザー上でプロジェクトを実行する場合には、このコマンドを使用します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:307
 msgid ":dfn:`$ monaca preview [option]`"
-msgstr ""
+msgstr ":dfn:`$ monaca preview [option]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:316
 msgid "monaca debug"
-msgstr ""
+msgstr "monaca debug"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:318
 msgid ""
@@ -6786,7 +6786,7 @@ msgstr "Monaca デバッガー上へ、1 つのプロジェクトを送信しま
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:320
 msgid ":dfn:`$ monaca debug [option]`"
-msgstr ""
+msgstr ":dfn:`$ monaca debug [option]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:325
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:423
@@ -6808,11 +6808,11 @@ msgid ""
 "Projects* section. Click on that project in order to run it. Please try to "
 "make some changes to the project and save them. You should be able to see "
 "those changes reflect instantly."
-msgstr ""
+msgstr "プロジェクトフォルダーへ移動して、``monaca debug`` コマンドを実行します。実行後、Monaca デバッガーの *ローカルプロジェクト* 下に対象のプロジェクトが表示されていることを確認し、プロジェクトをタップして、実行してみましょう。次に、プロジェクトに変更を加え、保存して、プロジェクトに変更点が即反映されることを確認してみましょう。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:336
 msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
-msgstr ""
+msgstr "``monaca debug`` の処理を停止する場合には、:guilabel:`Ctrl+c` を押します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:338
 msgid ""
@@ -6840,7 +6840,7 @@ msgid ""
 "Debugger (see the screenshot below). Therefore, successful "
 "pairing/connection between your debugger and local PC is required. "
 "Otherwise, please refer to :ref:`troubleshoot_pair`."
-msgstr ""
+msgstr "Monaca デバッガー上へ、複数のプロジェクトを送信します。 :ref:`monaca_debug` とほぼ同じ機能ですが、こちらのコマンドでは、Monaca デバッガー上に、プロジェクトの一覧が送信されます ( 下のスクリーンショットを参照のこと )。なお、デバッガーとローカル PC 間のペアリング ( 接続 ) を、事前に行っておく必要があります。障害が発生した場合には、 :ref:`troubleshoot_pair` をご確認ください。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:373
 msgid ":dfn:`$ monaca multiserve paths`"
@@ -7078,7 +7078,7 @@ msgstr "現在インストールされている Monaca CLI のバージョンを
 
 #: ../doc/manual/development/monaca_cli/overview.rst:47
 msgid "Step 2: Creating a New Project and Run on Browser"
-msgstr ""
+msgstr "ステップ 2 : プロジェクトの新規作成とブラウザー上での実行"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:49
 msgid ""
@@ -7092,11 +7092,11 @@ msgstr "次のコマンドを使用して、新規のプロジェクトを作成
 
 #: ../doc/manual/development/monaca_cli/overview.rst:57
 msgid "Choose a project template. Please see the example below:"
-msgstr ""
+msgstr "使用するプロジェクト テンプレートを選択します。下に例を示します。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:71
 msgid "Run on the browser."
-msgstr ""
+msgstr "ブラウザー上で実行します。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:81
 msgid "Step 3: Connecting to Monaca Debugger"
@@ -7104,7 +7104,7 @@ msgstr "ステップ 3 : Monaca デバッガーへの接続"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:83
 msgid "Use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
-msgstr ""
+msgstr ":ref:`monaca_debug` コマンドを実行して、Monaca デバッガーに接続します。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:89
 msgid ""
@@ -7188,7 +7188,7 @@ msgstr "Monaca デバッガーアプリを端末上で起動させ、Monaca ア�
 msgid ""
 "In the command window on your PC, navigate to your project folder and use "
 ":ref:`monaca_debug` command to connect to your Monaca Debugger:"
-msgstr ""
+msgstr "PC 側のコマンドウィンドウ上で、プロジェクトの保存先フォルダーへ移動し、:ref:`monaca_debug` コマンドを実行して、Monaca デバッガーに接続します。"
 
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:31
 msgid ""
@@ -7223,7 +7223,7 @@ msgid ""
 "In the same command window on your PC which you are running "
 ":ref:`monaca_debug` command, please use the following command to stop the "
 "pairing/break the debug process between your PC and Monaca Debugger:"
-msgstr ""
+msgstr ":ref:`monaca_debug` コマンドを実行したコマンドウィンドウと同じウィンドウ上で、次のコマンドを実行すれば、Monaca デバッガーと PC 間のペアリングとデバッグ処理を停止できます。"
 
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:64
 msgid "From Monaca Debugger"

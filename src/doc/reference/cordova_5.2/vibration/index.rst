@@ -69,7 +69,8 @@ In order to use this plugin, please :ref:`enable <add_plugins>` ``Vibration`` pl
 Supported Platforms
 ============================
 
-navigator.vibrate, navigator.notification.vibrate :
+navigator.vibrate, navigator.notification.vibrate:
+
 - Amazon Fire OS 
 - Android 
 - BlackBerry 10 
@@ -79,6 +80,7 @@ navigator.vibrate, navigator.notification.vibrate :
 - Windows (Windows Phone 8.1 devices only)
 
 navigator.notification.vibrateWithPattern, navigator.notification.cancelVibration:
+
 - Android 
 - Windows Phone 8 
 - Windows (Windows Phone 8.1 devices only)
@@ -107,10 +109,8 @@ or
 
     navigator.vibrate([time])
 
--**time**: Milliseconds to vibrate the device. *(Number)*
 
-Example
-^^^^^^^
+-  **time**: Milliseconds to vibrate the device. *(Number)*
 
 ::
 
@@ -120,21 +120,25 @@ Example
     // Vibrate for 3 seconds
     navigator.vibrate([3000]);
 
+
 iOS Quirks
 ^^^^^^^^^^
 
-
 -  **time**: Ignores the specified time and vibrates for a pre-set amount of time.
 
-   navigator.vibrate(3000); // 3000 is ignored
+::
+
+    navigator.vibrate(3000); // 3000 is ignored
 
 Windows and Blackberry Quirks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 -  **time**: Max time is 5000ms (5s) and min time is 1ms
 
-   navigator.vibrate(8000); // will be truncated to 5000
+::
+
+    navigator.vibrate(8000); // will be truncated to 5000
+
 
 Vibrate with a pattern (Android and Windows only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
