@@ -202,9 +202,12 @@ span.pre {
 
 tt {
   font-family: "Source Code Pro", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
-  font-weight: 500; }
-  tt.file {
-    font-weight: bold; }
+  font-weight: 500;
+}
+
+tt.file {
+  font-weight: bold;
+}
 
 em {
   font-weight: bold;
