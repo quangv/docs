@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-19 04:19+0000\n"
+"PO-Revision-Date: 2016-05-19 04:38+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -14760,7 +14760,7 @@ msgstr "Windows\\*"
 msgid ""
 "\\*These platforms do not support ``FileReader.readAsArrayBuffer`` or "
 "``FileWriter.write(blob)``."
-msgstr "\\*これらのプラットフォームでは、``FileReader.readAsArrayBuffer`` と ``FileWriter.write(blob)`` は使用できません。"
+msgstr ""
 
 #: ../doc/reference/cordova_5.2/file/index.rst:103
 msgid ""
@@ -20293,7 +20293,6 @@ msgid "Add AppsFlyer to Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:18
-#: ../doc/reference/service_integration/crittercism.rst:20
 #: ../doc/reference/service_integration/repro.rst:18
 msgid ""
 "For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` "
@@ -20306,13 +20305,11 @@ msgid "Click :guilabel:`See Details` button of AppsFlyer service."
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:22
-#: ../doc/reference/service_integration/crittercism.rst:24
 #: ../doc/reference/service_integration/repro.rst:22
 msgid "Then, click :guilabel:`Install` button to add it into your project."
 msgstr ":guilabel:`セットアップ` ボタンをクリックして、プロジェクトに組み込みます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:30
-#: ../doc/reference/service_integration/crittercism.rst:26
 #: ../doc/reference/service_integration/repro.rst:30
 msgid ""
 "You will be asked to confirm the setup. Click :guilabel:`OK` to start the "
@@ -20373,7 +20370,6 @@ msgid ""
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:91
-#: ../doc/reference/service_integration/crittercism.rst:64
 #: ../doc/reference/service_integration/repro.rst:76
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
@@ -20501,7 +20497,6 @@ msgid "Remove AppsFlyer from Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:191
-#: ../doc/reference/service_integration/crittercism.rst:32
 #: ../doc/reference/service_integration/repro.rst:36
 msgid ""
 "For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova "
@@ -20514,187 +20509,6 @@ msgid ""
 "Under :guilabel:`Enabled Plugins` section, hover over AppsFlyer plugin and "
 "click :guilabel:`Remove` button."
 msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:5
-msgid "Crittercism"
-msgstr "Crittercism"
-
-#: ../doc/reference/service_integration/crittercism.rst:11
-msgid ""
-"`Crittercism <http://www.crittercism.com/>`__ is used to monitor and provide"
-" detailed analysis of your app. This service is available for both iOS and "
-"Android."
-msgstr "`Crittercism <http://www.crittercism.com/>`__ は、アプリの監視と分析を行うためのサービスです。iOS と Android に対応しています。"
-
-#: ../doc/reference/service_integration/crittercism.rst:15
-msgid ""
-"Crittercism service integration is available for all Monaca users. However, "
-"if you want to use the latest Repro plugin via `Github "
-"<https://github.com/crittercism/PhoneGap>`_, you can :ref:`import "
-"<import_cordova_plugin>` it. In order to import this plugin, you need to "
-"subscribe to a valid plan. Please refer to `Pricing "
-"<https://monaca.mobi/en/pricing>`_."
-msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Crittercism サービスをご使用いただけます。最新の Crittercism プラグインを使用する場合 ( `Github <https://github.com/crittercism/PhoneGap>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/en/pricing>`_ をご確認ください。"
-
-#: ../doc/reference/service_integration/crittercism.rst:18
-msgid "Add Crittercism Service to Monaca"
-msgstr "Crittercism サービスの追加"
-
-#: ../doc/reference/service_integration/crittercism.rst:22
-msgid "Click :guilabel:`Detail` button of Crittercism service."
-msgstr "Crittercism サービスの :guilabel:`詳細` ボタンをクリックします。"
-
-#: ../doc/reference/service_integration/crittercism.rst:30
-msgid "Remove Crittercism Service from Monaca"
-msgstr "Crittercism サービスの削除"
-
-#: ../doc/reference/service_integration/crittercism.rst:34
-msgid "Look for Crittercism plugin and click :guilabel:`Remove` button."
-msgstr "Crittercism プラグインを選択して、 :guilabel:`削除` ボタンをクリックします。"
-
-#: ../doc/reference/service_integration/crittercism.rst:37
-msgid "Configure Crittercism Service in Monaca"
-msgstr "Crittercism サービスの設定"
-
-#: ../doc/reference/service_integration/crittercism.rst:39
-msgid ""
-"You are required to have the Crittercism App ID in order to use Crittercism "
-"with Monaca. In order to get this App ID, please do as follows:"
-msgstr "Crittercism サービスの使用には、「 Crittercism App ID 」 が必要です。Crittercism App ID の確認手順を次に記します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:41
-msgid "Register your app with Crittercism."
-msgstr "Crittercism のサイトに行き、アカウントを作成して、アプリを登録します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:43
-msgid ""
-"You can find Crittercism App ID by going to :guilabel:`App Settings` from "
-"Crittercism App Dashboard."
-msgstr "Crittercism ページ上部のドロップダウンリスト ( Jump to ) 上で、対象のアプリを選択して、アプリのダッシュボードへ移動します。次に、:guilabel:`App Settings` を選択して、表示されたページ上で、Crittercism App ID を確認します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:52
-msgid ""
-"After you get the Crittercism App ID, go to :menuselection:`Config --> "
-"Manage Cordova Plugins` from Monaca Cloud IDE."
-msgstr "Crittercism App ID の確認後、Monaca クラウド IDE のメニューから、:menuselection:`設定 --> Cordova プラグインの管理...` を選択します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:54
-msgid ""
-"Select Crittercism's :guilabel:`Settings` button and input the Crittercism "
-"App ID."
-msgstr "Crittercism プラグインに表示された :guilabel:`設定` ボタンをクリックして、Crittercism App ID を入力します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:61
-msgid ""
-"In Crittercism、Android & iOS platforms will be managed separately. However "
-"in Monaca, it is managed as one app; therefore, App ID has to be set "
-"differently. If users want to build only one platform, they can just set the"
-" App ID for that platform."
-msgstr "Crittercism では、Android と iOS プラットフォーム向けのアプリは、それぞれ別個に管理されます。一方、Monaca では、プラットフォームを区別せず、同一のアプリとして管理しますが、App ID だけは個別に設定します。Crittercism の使用時、どちらか一方のプラットフォームを対象とする場合には、対象プラットフォーム向けの App ID のみを設定します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:66
-msgid ""
-"In order to use Crittercism's APIs, except "
-"``setLogUnhandedExceptionAsCrash`` API, users need to subscribe to "
-"Professional Plus Plan in Crittercism. Please refer to `Crittercism Pricing "
-"<http://www.crittercism.com/plans/>`__."
-msgstr "Crittercism 提供の API を使用するためには、Crittercism の Professional Plus プランに加入する必要があります。なお、 ``setLogUnhandedExceptionAsCrash`` API のみ、加入の有無にかかわらずご使用いただけます。Crittercism 側のプランに関しては、`Crittercism プランの詳細 ( 外部ページ ) <http://www.crittercism.com/plans/>`__ をご確認ください。"
-
-#: ../doc/reference/service_integration/crittercism.rst:70
-msgid "JavaScript Error Crash"
-msgstr "「 捕捉されていない例外 」 の表示先の変更 ( [ Handled Exceptions ] メニューから [ Crash Reports ] メニューへ )"
-
-#: ../doc/reference/service_integration/crittercism.rst:72
-msgid ""
-"Unhandled JavaScript exceptions are normally reported to the Handled "
-"Exceptions area of the Crittercism server because the app itself doesn’t "
-"crash. Use the ``setLogUnhandledExceptionAsCrash`` API to request "
-"Crittercism to report unhandled JavaScript exceptions to the Crash Reports "
-"area of the Crittercism server instead."
-msgstr "「 捕捉されていない Javascript の例外 」 に関しては、Crittercism 管理画面の [ Handled Exceptions ] メニュー上で通常確認しますが、``setLogUnhandledExceptionAsCrash`` API を使用すれば、[ Crash Reports ] メニュー上でも確認できます ( 「 捕捉されていない Javascript の例外 」 が原因で、アプリはクラッシュしないため、クラッシュを分析する [ Crash Reports ] メニュー上には、デフォルトでは表示されません )。"
-
-#: ../doc/reference/service_integration/crittercism.rst:82
-msgid "Handled Exception"
-msgstr "「 捕捉した例外 」 ( [ Handled Exception ] メニュー )"
-
-#: ../doc/reference/service_integration/crittercism.rst:84
-msgid ""
-"Use the ``logHandledException`` API to track error conditions that do not "
-"necessarily cause a crash. The argument ``e`` has ``name``, ``message`` and "
-"``stack`` as its properties."
-msgstr "クラッシュの直接の原因とはならないエラーを監視する場合、``logHandledException`` API を使用します。引数の ``e`` には、プロパティーとして、``name``、``message``、``stack`` が含まれています。"
-
-#: ../doc/reference/service_integration/crittercism.rst:96
-msgid "Transaction Logs"
-msgstr "アプリ上の処理の監視 ( [ Transactions ] メニュー  )"
-
-#: ../doc/reference/service_integration/crittercism.rst:98
-msgid ""
-"Transactions allow companies to track key interactions or user flows in "
-"their app such as login, account registration, and in app purchase. If a "
-"crash occurs, all in-flight transactions will automatically be crashed and "
-"reported with the crash."
-msgstr "アプリ上のキーポイントとなる処理 ( ログイン、アカウント登録、アプリ内購入など ) に関するログを取ります。なんらかのクラッシュが発生した場合、すべての実行中の処理 ( in-flight transaction ) は、自動的に強制終了され、クラッシュといっしょに報告されます。"
-
-#: ../doc/reference/service_integration/crittercism.rst:100
-msgid ""
-"Here is an example of how to show the success or failed transaction logs:"
-msgstr "実行が完了した処理または失敗した処理のログの取得方法を、次に記します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:115
-msgid "Breadcrumb"
-msgstr "時系列のイベントログ ( [ Breadcrumb Trails ] タブ )"
-
-#: ../doc/reference/service_integration/crittercism.rst:117
-msgid ""
-"Use the ``leaveBreadcrumb`` API to write to a chronological log that is "
-"reported with crashes and handled exceptions. A breadcrumb is a developer-"
-"defined text string (up to 140 characters) that allows developers to capture"
-" app run-time information. Example breadcrumbs may include variable values, "
-"progress through the code, user actions, or low memory warnings."
-msgstr "``leaveBreadcrumb`` API を使用すれば、時系列でログ ( 「 breadcrumb 」 と呼ばれます ) を取ることができます。よって、アプリの実行過程を確認しながら、クラッシュまたは例外処理と照合できます。breadcrumb の表示内容は、開発者が自由に定義できます ( 140 文字まで )。breadcrumb は、変数の値、コードの実行順、ユーザーの操作、メモリーの使用量の監視などに対して、使用できます。"
-
-#: ../doc/reference/service_integration/crittercism.rst:124
-msgid "Set username"
-msgstr "username の使用"
-
-#: ../doc/reference/service_integration/crittercism.rst:126
-msgid ""
-"Setting a username will allow the ability to monitor app performance for "
-"each user. Once a username is set, the Crittercism portal’s “Search by User”"
-" feature may be used to lookup a list of crashes and errors a specific user "
-"has experienced. It is recommended to set a username to a value that can be "
-"tied back to your customer support system."
-msgstr "username を設定すると、ユーザーを特定して、アプリのパフォーマンスを監視できます。Crittercism のポータルサイト上で、[ Search by User ] メニューを使用して、特定のユーザーのクラッシュとエラーを確認できます。username には、お使いの顧客サポートシステムと関連付けた値を使用することを推奨します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:133
-msgid ""
-"For more information on how to use Crittercism, please refer to `PhoneGap "
-"Integration Guide with Crittercism "
-"<http://docs.crittercism.com/development_platforms/phonegap.html/>`_."
-msgstr "Crittercism の使用方法の詳細は、 `PhoneGap への Crittercism の組み込み方法 <http://docs.crittercism.com/development_platforms/phonegap.html/>`_ をご確認ください。"
-
-#: ../doc/reference/service_integration/crittercism.rst:138
-msgid "Show Crash Reports"
-msgstr "クラッシュレポートの表示"
-
-#: ../doc/reference/service_integration/crittercism.rst:140
-msgid "In order to check the Crash Log of your app:"
-msgstr "クラッシュログの確認方法を、次に記します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:142
-msgid "Log into Crittercism."
-msgstr "Crittercism にログインします。"
-
-#: ../doc/reference/service_integration/crittercism.rst:144
-msgid "Select on your app and click on :guilabel:`Crash Reports`."
-msgstr "対象のアプリを選択して、:guilabel:`Crash Reports` を選択します。"
-
-#: ../doc/reference/service_integration/crittercism.rst:152
-msgid ""
-"For further information regarding the usage of Crittercism with Monaca, "
-"please contact us `here <http://www.asial.co.jp/en/contactus.php>`_."
-msgstr "Monaca における Crittercism の使用方法の詳細に関しては、`こちら <http://www.asial.co.jp/en/contactus.php>`_ まで、お気軽にお問い合わせください。"
 
 #: ../doc/reference/service_integration/index.rst:5
 msgid "Service Integration"

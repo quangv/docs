@@ -17310,7 +17310,6 @@ msgid "Add AppsFlyer to Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:18
-#: ../doc/reference/service_integration/crittercism.rst:20
 #: ../doc/reference/service_integration/repro.rst:18
 msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` or go to :menuselection:`Build Settings --> Service Integration` for Monaca Localkit."
 msgstr ""
@@ -17320,13 +17319,11 @@ msgid "Click :guilabel:`See Details` button of AppsFlyer service."
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:22
-#: ../doc/reference/service_integration/crittercism.rst:24
 #: ../doc/reference/service_integration/repro.rst:22
 msgid "Then, click :guilabel:`Install` button to add it into your project."
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:30
-#: ../doc/reference/service_integration/crittercism.rst:26
 #: ../doc/reference/service_integration/repro.rst:30
 msgid "You will be asked to confirm the setup. Click :guilabel:`OK` to start the installation."
 msgstr ""
@@ -17364,7 +17361,6 @@ msgid "For more information on how to use AppsFlyer, please refer to `AppsFlyer 
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:91
-#: ../doc/reference/service_integration/crittercism.rst:64
 #: ../doc/reference/service_integration/repro.rst:76
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
@@ -17452,141 +17448,12 @@ msgid "Remove AppsFlyer from Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:191
-#: ../doc/reference/service_integration/crittercism.rst:32
 #: ../doc/reference/service_integration/repro.rst:36
 msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins` or go to :menuselection:`Build Settings --> Cordova Plugins` for Monaca Localkit."
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:193
 msgid "Under :guilabel:`Enabled Plugins` section, hover over AppsFlyer plugin and click :guilabel:`Remove` button."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:5
-msgid "Crittercism"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:11
-msgid "`Crittercism <http://www.crittercism.com/>`__ is used to monitor and provide detailed analysis of your app. This service is available for both iOS and Android."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:15
-msgid "Crittercism service integration is available for all Monaca users. However, if you want to use the latest Repro plugin via `Github <https://github.com/crittercism/PhoneGap>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:18
-msgid "Add Crittercism Service to Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:22
-msgid "Click :guilabel:`Detail` button of Crittercism service."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:30
-msgid "Remove Crittercism Service from Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:34
-msgid "Look for Crittercism plugin and click :guilabel:`Remove` button."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:37
-msgid "Configure Crittercism Service in Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:39
-msgid "You are required to have the Crittercism App ID in order to use Crittercism with Monaca. In order to get this App ID, please do as follows:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:41
-msgid "Register your app with Crittercism."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:43
-msgid "You can find Crittercism App ID by going to :guilabel:`App Settings` from Crittercism App Dashboard."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:52
-msgid "After you get the Crittercism App ID, go to :menuselection:`Config --> Manage Cordova Plugins` from Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:54
-msgid "Select Crittercism's :guilabel:`Settings` button and input the Crittercism App ID."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:61
-msgid "In Crittercism、Android & iOS platforms will be managed separately. However in Monaca, it is managed as one app; therefore, App ID has to be set differently. If users want to build only one platform, they can just set the App ID for that platform."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:66
-msgid "In order to use Crittercism's APIs, except ``setLogUnhandedExceptionAsCrash`` API, users need to subscribe to Professional Plus Plan in Crittercism. Please refer to `Crittercism Pricing <http://www.crittercism.com/plans/>`__."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:70
-msgid "JavaScript Error Crash"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:72
-msgid "Unhandled JavaScript exceptions are normally reported to the Handled Exceptions area of the Crittercism server because the app itself doesn’t crash. Use the ``setLogUnhandledExceptionAsCrash`` API to request Crittercism to report unhandled JavaScript exceptions to the Crash Reports area of the Crittercism server instead."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:82
-msgid "Handled Exception"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:84
-msgid "Use the ``logHandledException`` API to track error conditions that do not necessarily cause a crash. The argument ``e`` has ``name``, ``message`` and ``stack`` as its properties."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:96
-msgid "Transaction Logs"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:98
-msgid "Transactions allow companies to track key interactions or user flows in their app such as login, account registration, and in app purchase. If a crash occurs, all in-flight transactions will automatically be crashed and reported with the crash."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:100
-msgid "Here is an example of how to show the success or failed transaction logs:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:115
-msgid "Breadcrumb"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:117
-msgid "Use the ``leaveBreadcrumb`` API to write to a chronological log that is reported with crashes and handled exceptions. A breadcrumb is a developer-defined text string (up to 140 characters) that allows developers to capture app run-time information. Example breadcrumbs may include variable values, progress through the code, user actions, or low memory warnings."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:124
-msgid "Set username"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:126
-msgid "Setting a username will allow the ability to monitor app performance for each user. Once a username is set, the Crittercism portal’s “Search by User” feature may be used to lookup a list of crashes and errors a specific user has experienced. It is recommended to set a username to a value that can be tied back to your customer support system."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:133
-msgid "For more information on how to use Crittercism, please refer to `PhoneGap Integration Guide with Crittercism <http://docs.crittercism.com/development_platforms/phonegap.html/>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:138
-msgid "Show Crash Reports"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:140
-msgid "In order to check the Crash Log of your app:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:142
-msgid "Log into Crittercism."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:144
-msgid "Select on your app and click on :guilabel:`Crash Reports`."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:152
-msgid "For further information regarding the usage of Crittercism with Monaca, please contact us `here <http://www.asial.co.jp/en/contactus.php>`_."
 msgstr ""
 
 #: ../doc/reference/service_integration/index.rst:5
