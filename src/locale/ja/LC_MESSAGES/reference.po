@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-19 05:54+0000\n"
+"PO-Revision-Date: 2016-05-24 10:57+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -14760,7 +14760,7 @@ msgstr "Windows\\*"
 msgid ""
 "\\*These platforms do not support ``FileReader.readAsArrayBuffer`` or "
 "``FileWriter.write(blob)``."
-msgstr ""
+msgstr "\\*これらのプラットフォームでは、``FileReader.readAsArrayBuffer`` と ``FileWriter.write(blob)`` は使用できません。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:103
 msgid ""
@@ -20260,7 +20260,7 @@ msgstr "iOS 端末であれば、 *true* を返します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:5
 msgid "AppsFlyer"
-msgstr ""
+msgstr "AppsFlyer"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:7
 msgid ""
@@ -20268,18 +20268,18 @@ msgid ""
 "mobile advertising attribution and analytics, helping marketers to pinpoint "
 "their targeting, optimize their ad spend and boost their ROI (Return on "
 "Investment)."
-msgstr ""
+msgstr "`AppsFlyer <https://www.appsflyer.com/overview/>`_ は、モバイル広告に関する宣伝効果の測定 ( アトリビューション ) および収集したデータの分析 ( アナリティクス ) において、業界における標準のツールになりつつあります。AppsFlyer が提供する正確な測定・分析結果に基づき、広告の提供元は、広告のターゲットの絞り込み、投資額の見直しなどを行え、よって、投資対効果 ( ROI ) を最適化できます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:9
 msgid ""
 "AppsFlyer allows users to monitor and track application installations, "
 "downloads, and conversions. The AppsFlyer API allows developers to access "
 "and integrate the functionality of AppsFlyer with other applications."
-msgstr ""
+msgstr "AppsFlyer を使用すれば、アプリのインストール状況、ダウンロード状況、コンバージョン情報 ( conversion/目的達成の成否 ) などを監視・追跡できます。また、AppsFlyer 提供の API を使用すれば、他のアプリ/プラットフォームと連携することができます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:13
 msgid "Add AppsFlyer to Monaca"
-msgstr ""
+msgstr "Add AppsFlyer の追加方法 ( Monaca 上での処理 )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:15
 #: ../doc/reference/service_integration/repro.rst:18
@@ -20291,7 +20291,7 @@ msgstr "Monaca クラウド IDE から設定する場合、 :menuselection:`設�
 
 #: ../doc/reference/service_integration/apps_flyer.rst:17
 msgid "Click :guilabel:`See Details` button of AppsFlyer service."
-msgstr ""
+msgstr "AppsFlyer サービスの :guilabel:`詳細` ボタンをクリックします。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:19
 #: ../doc/reference/service_integration/repro.rst:22
@@ -20307,25 +20307,25 @@ msgstr "セットアップを継続するか確認する画面が表示されま
 
 #: ../doc/reference/service_integration/apps_flyer.rst:31
 msgid "Configure AppsFlyer in Monaca"
-msgstr ""
+msgstr "AppsFlyer の設定"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:33
 msgid ""
 "After adding AppsFlyer to your Monaca project, you need to make some "
 "configurations before starting to use the plugin. Please follow the "
 "configuration below:"
-msgstr ""
+msgstr "Monaca プロジェクトへ AppsFlyer を追加した後、実際にプラグインを使用する前に、いくつかの設定を行う必要があります。次の手順に従います。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:36
 msgid ""
 "Add the following xml to your :file:`config.xml` in the root directory of "
 "your ``www`` folder:"
-msgstr ""
+msgstr "プロジェクトの ``www`` フォルダーのルートディレクトリー下の :file:`config.xml` へ、次の記述を追加します ( Monaca 上での処理 )。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:54
 msgid ""
 "For Android, add the following xml to your :file:`AndroidManifest.xml`:"
-msgstr ""
+msgstr "Android の場合には、:file:`AndroidManifest.xml` へ、次の記述を追加します ( Monaca 上での処理 )。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:62
 msgid ""
@@ -20334,13 +20334,13 @@ msgid ""
 "installations for Android-Out-Of-Store Applications, please take a look "
 "`here <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-"
 "Installs-for-Out-Of-Store-Applications>`_."
-msgstr ""
+msgstr "AppsFlyer へログインして、アプリを登録します。アプリの登録時に入力する情報とマニフェストに登録する ( または、登録している ) 情報は、一致する必要があります。App Store/Google Play ストア/Microsoft ストア ( 旧 「 Windows Phone Store 」 と統合 ) を経由しない Android アプリのインストールの監視・追跡に関しては、`こちら <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-Installs-for-Out-Of-Store-Applications>`_ をご確認ください。[ 翻訳者メモ ： 各ストアを経由しないでインストールするアプリを、AppsFlyer では、 Out of Store アプリと呼称しています ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:65
 msgid ""
 "Add following lines to your code to initialize the tracking with your own "
 "AppsFlyer dev key:"
-msgstr ""
+msgstr "次の記述を、コードに追加します。この記述では、AppsFlyer 提供の DEV KEY を使用して、監視・追跡処理を初期化しています。[ 翻訳者メモ : DEV KEY は、AppsFlyer 管理画面上での インテグレーション/設定 > SDK インテグレーション 上で確認できます ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:82
 msgid ""
@@ -20350,13 +20350,13 @@ msgid ""
 "us/articles/207032046-Testing-AppsFlyer-iOS-SDK-Integration-Before-"
 "Submitting-to-the-App-Store->`_ before submitting to the Google Play/App "
 "Store."
-msgstr ""
+msgstr "Google Play/App Store に提出する前に、`Android <https://support.appsflyer.com/hc/en-us/articles/207032136-Testing-AppsFlyer-Android-SDK-Integration-Before-Submitting-to-Google-Play>`_/`iOS <https://support.appsflyer.com/hc/en-us/articles/207032046-Testing-AppsFlyer-iOS-SDK-Integration-Before-Submitting-to-the-App-Store->`_ 端末で検証することを推奨します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:84
 msgid ""
 "For more information on how to use AppsFlyer, please refer to `AppsFlyer "
 "Documentation <https://support.appsflyer.com/hc/en-us>`_."
-msgstr ""
+msgstr "AppsFlyer の使用に関する詳細は、`AppsFlyer ドキュメント ( 日本語あり ) <https://support.appsflyer.com/hc/en-us>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
@@ -20369,11 +20369,11 @@ msgstr "設定"
 msgid ""
 "Once, you have successfully configured AppsFlyer, the plugin is now ready to"
 " be used. In this section, we will briefly describe some AppsFly APIs."
-msgstr ""
+msgstr "上記の手順で、プラグインの準備が整いました。ここからは、AppsFly が提供する API をいくつか紹介します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:94
 msgid "Set Customer User ID (Advanced)"
-msgstr ""
+msgstr "顧客 ID ( Customer User ID ) を使用した監視・追跡の設定 ( 上級者向け ) "
 
 #: ../doc/reference/service_integration/apps_flyer.rst:96
 msgid ""
@@ -20381,34 +20381,34 @@ msgid ""
 "unique ID with AppsFlyer’s user ID and the other devices’ IDs. This ID will "
 "be available at AppsFlyer CSV reports along with postbacks APIs for cross-"
 "referencing with you internal IDs."
-msgstr ""
+msgstr "AppsFlyer 側のユーザー ID または 端末 ID を、業務上使用している顧客 ID ( Customer User ID ) に紐づけすることができます。AppsFlyer が提供するレポート ( CSV 形式でも出力可能 ) を出力するときに、この ID を使用できます。また、他の分析系プラットフォームとの連携時に使用する PostBack 系の API でも、この ID を使用することができます。[ 翻訳者メモ : ここでの PostBack とは、連携しているサービスへ、収集したデータを転送する仕組みを指すようです ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:103
 msgid ""
 "The ID must be set during the first launch of the app at the SDK "
 "initialization. The best practice is to call to this API during deviceready "
 "event if possible."
-msgstr ""
+msgstr "この ID の設定は、SDK の初期化時に行う必要があります ( アプリを初めて起動するとき )。実装方法としては、deviceready イベントの処理時に上記の API を呼び出すことを推奨します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:107
 msgid "Set Currency Code (Optional)"
-msgstr ""
+msgstr "通貨コード ( Currency Code ) の設定 ( 任意 )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:109
 msgid ""
 "By default, the currency code is set to be ``USD``. You can change it by "
 "using the following API:"
-msgstr ""
+msgstr "デフォルトでは、通貨コード ( Currency Code ) は、``USD`` ( 米ドル ) に設定されています。設定は、次のようにして変更できます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:117
 msgid ""
 "For all acceptable currency codes, please refer to `ISO 4217 Currency Codes "
 "<http://www.xe.com/iso4217.php>`_."
-msgstr ""
+msgstr "使用可能な通貨コードに関しては、`ISO 4217 Currency Codes <http://www.xe.com/iso4217.php>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:121
 msgid "In-App Events Tracking API (optional)"
-msgstr ""
+msgstr "アプリ内イベントの監視・追跡 API ( 任意 )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:123
 msgid ""
@@ -20416,18 +20416,18 @@ msgid ""
 "attribute them to specific campaigns/media-sources. Please take time to "
 "define the event(s) you would like to measure to allow you to track ROI "
 "(Return on Investment) and LTV (Lifetime Value)."
-msgstr ""
+msgstr "アプリ内イベントの監視・追跡 API ( In-App Events Tracking API ) を使用して、ユーザーの動向を分析し、各種キャンペーンおよびメディアソースへのアクセス向上につなげることができます。ROI ( 投資対効果 ) と LTV ( 顧客生涯価値 ) の計算に必要となる、データ収集対象のイベントに関しては、管理者側で熟考する必要があります。[ 翻訳者メモ : 「 アプリ内イベント 」 は、原文では 「 In-App Event 」 となっています。AppsFlyer では、この In-App Event を 2 つの意味で使用しているようです。1 つ目は、ここに記載されている 「 アプリ内イベント 」 の意味で、2 つ目は traceEvent メソッド使用時に適用する、イベント名とオプション値の 「 組み合わせ 」 を 「 In-App イベント 」 と呼称しています。ここでは、2 つ目の意味は使用していませんが、AppFlyer 社提供の原文のドキュメントを読むときは、この点もご留意ください。 ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:125
 msgid ""
 "The ``trackEvent`` method allows you to send in-app events to AppsFlyer "
 "analytics. This method allows you to add events dynamically by adding them "
 "directly to the application code."
-msgstr ""
+msgstr "``trackEvent`` メソッドを使用して、AppsFlyer の分析アルゴリズム ( AppsFlyer analytics ) 側に、アプリ内イベントの収集データを渡します。このメソッドを使用すれば、対象のイベントをアプリのコードへ追加するだけで、データを収集できるようになります。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:136
 msgid "Rich In-App Events Tracking API (optional)"
-msgstr ""
+msgstr "アプリ内イベントの監視・追跡 API の多彩なオプション設定 ( 任意 )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:138
 msgid ""
@@ -20435,27 +20435,27 @@ msgid ""
 "track any post­-install events and attribute them to a media source and "
 "campaign. An in­-app event is comprised of an event name and event "
 "parameters."
-msgstr ""
+msgstr "AppsFlyer が提供する 「 アプリ内イベントの監視・追跡 API 」 では、アプリのインストール直後から、イベントを監視でき、加えて、各種メディアソース・キャンペーンへのアクセス向上に役立つ、多彩な情報収集オプションも設定できます。オプション設定をする場合には、次のように、trackEvent 内で、イベント名とオプション設定を組み合わせて使用します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:148
 msgid "Get AppsFlyer’s Unique Device UID (Advanced)"
-msgstr ""
+msgstr "端末 UID ( AppsFlyer 独自の UID ) の取得 ( 上級者向け )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:150
 msgid ""
 "This API is used to get AppsFlyer’s proprietary device ID. AppsFlyer device "
 "ID is the main ID used by AppsFlyer in the Reports and APIs."
-msgstr ""
+msgstr "この API を使用すれば、AppsFlyer 側で独自に割り振っている端末 ID を取得できます。この AppsFlyer の端末 ID は、各種レポートの出力時、および、各種 API で使用されます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:157
 msgid "Here is an example of how to use this API:"
-msgstr ""
+msgstr "この API の使用方法を。次に示します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:169
 msgid ""
 "Accessing AppsFlyer Attribution/Conversion Data from the SDK (Deferred Deep-"
 "linking)"
-msgstr ""
+msgstr "AppsFlyer のアトリビューションデータ/コンバージョンデータ ( Attribution Data/Conversion Data ) へ SDK からアクセスする方法 ( ディファード ディープリング/Deferred Deep-linking )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:171
 msgid ""
@@ -20465,7 +20465,7 @@ msgid ""
 "commonly referred to as “deferred” deeplinking. This is very common on the "
 "web, however there is a big challenge doing this in the mobile app "
 "ecosystem. Luckily, AppsFlyer provides support for all cases and platforms."
-msgstr ""
+msgstr "AppsFlyer では、アトリビューション データへ、SDK 経由で、リアルタイムでアクセスできます。このデータを使用して、アプリの新規インストール・起動後、ユーザー側に最初に表示されるページをカスタマイズできます。このような処理は、「 ディファード ディープリンク 」 ( Deferred DeepLinking ) と呼ばれています ( Web でも同じ用語が使用されていますが、モバイルアプリのそれとは若干異なるようです )。このような動作をモバイルアプリで実現することは、技術的に大変難しいとされていますが、AppsFlyer では、プラットフォームの種類・状況にかかわらず、この処理をしてくれます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:173
 msgid ""
@@ -20473,17 +20473,17 @@ msgid ""
 "SDK for iOS and Android <https://support.appsflyer.com/hc/en-"
 "us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-"
 "the-SDK-Deferred-Deeplinking->`_."
-msgstr ""
+msgstr "詳細は、`AppsFlyer のアトリビューションデータ/コンバージョンデータへ SDK からアクセスする方法 ( iOS と Android 向け ) <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:175
 msgid ""
 "AppsFlyer plugin will fire ``onInstallConversionDataLoaded`` event with "
 "attribution data. You must implement an event listener to receive the data."
-msgstr ""
+msgstr "AppsFlyer プラグインでは、アトリビューション データを使用して、``onInstallConversionDataLoaded`` イベントを実行します。なお、データの取得には、イベントリスナーを使用します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:186
 msgid "Remove AppsFlyer from Monaca"
-msgstr ""
+msgstr "AppsFlyer の削除 ( Monaca 上での処理 )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:188
 #: ../doc/reference/service_integration/repro.rst:36
@@ -20497,7 +20497,7 @@ msgstr "Monaca クラウド IDE から行う場合、 :menuselection:`設定 -->
 msgid ""
 "Under :guilabel:`Enabled Plugins` section, hover over AppsFlyer plugin and "
 "click :guilabel:`Remove` button."
-msgstr ""
+msgstr ":guilabel:`組み込まれたプラグイン` 欄に表示された一覧上で、AppsFlyer プラグイン上にカーソルを置き、表示されたダイアログ上で :guilabel:`削除` ボタンをクリックします。"
 
 #: ../doc/reference/service_integration/index.rst:5
 msgid "Service Integration"
@@ -20537,7 +20537,7 @@ msgstr "Repro サービスの追加"
 
 #: ../doc/reference/service_integration/repro.rst:20
 msgid "Click :guilabel:`See Details` button of Repro service."
-msgstr ""
+msgstr "Repro サービスの :guilabel:`詳細` ボタンをクリックします。"
 
 #: ../doc/reference/service_integration/repro.rst:34
 msgid "Remove Repro Service from Monaca"
@@ -20545,7 +20545,7 @@ msgstr "Repro サービスの削除"
 
 #: ../doc/reference/service_integration/repro.rst:38
 msgid "Look for Repro plugin and click :guilabel:`Disable` button."
-msgstr ""
+msgstr "Repro プラグイン上にカーソルを置き、:guilabel:`無効` ボタンをクリックします。"
 
 #: ../doc/reference/service_integration/repro.rst:47
 msgid "Configure Repro Service in Monaca"
