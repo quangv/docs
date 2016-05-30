@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-30 09:42+0000\n"
+"PO-Revision-Date: 2016-05-30 10:20+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -519,7 +519,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
-#: ../doc/quick_start/cloud_ide/starting_project.rst:123
+#: ../doc/quick_start/cloud_ide/starting_project.rst:108
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
 #: ../doc/quick_start/localkit/building_app.rst:230
 #: ../doc/quick_start/localkit/publishing_app.rst:26
@@ -943,26 +943,26 @@ msgstr ":ref:`cloud_ide_starting_project`"
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:94
 #: ../doc/quick_start/cloud_ide/building_app.rst:225
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:28
-#: ../doc/quick_start/cloud_ide/starting_project.rst:125
+#: ../doc/quick_start/cloud_ide/starting_project.rst:110
 msgid ":ref:`cloud_ide_testing_debugging`"
 msgstr ":ref:`cloud_ide_testing_debugging`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:95
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:30
-#: ../doc/quick_start/cloud_ide/starting_project.rst:127
+#: ../doc/quick_start/cloud_ide/starting_project.rst:112
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:122
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:96
 #: ../doc/quick_start/cloud_ide/building_app.rst:227
-#: ../doc/quick_start/cloud_ide/starting_project.rst:128
+#: ../doc/quick_start/cloud_ide/starting_project.rst:113
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:123
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ":ref:`cloud_ide_publishing_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:97
-#: ../doc/quick_start/cloud_ide/starting_project.rst:129
+#: ../doc/quick_start/cloud_ide/starting_project.rst:114
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:124
 msgid ":ref:`sample_apps_index`"
 msgstr ":ref:`sample_apps_index`"
@@ -1051,7 +1051,7 @@ msgstr "デバッグビルドのオプションを選択して、 :guilabel:`次
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:226
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:29
-#: ../doc/quick_start/cloud_ide/starting_project.rst:126
+#: ../doc/quick_start/cloud_ide/starting_project.rst:111
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ":ref:`cloud_ide_adding_backend`"
@@ -1169,39 +1169,32 @@ msgid ""
 msgstr "Monaca ダッシュボード上でプロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE が起動します。Monaca クラウド IDE の右側に、プレビューウィンドウが表示されます。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:84
-msgid "Try adding/deleting the memo in the Preview window."
-msgstr "プレビューウィンドウ上で、メモを追加・削除して、アプリの動作を確認してみましょう。"
+msgid "Try adding some TODO items in the Preview window."
+msgstr ""
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:92
-msgid ""
-"By default, when you open a project in Monaca Cloud IDE, the Preview window "
-"is enabled automatically. However, for some reasons, if you want to disable "
-"it when the IDE is open, open the project in safe mode as shown below:"
-msgstr "デフォルトでは、Monaca クラウド IDE のダッシュボード上でプロジェクトを開けば、プレビューウィンドウも自動的に開きます。なんらかの理由で、IDE の起動時にプレビューウィンドウを開きたくない場合には、下のスクリーンショットのように、セーフモードでプロジェクトを開くこともできます。"
-
-#: ../doc/quick_start/cloud_ide/starting_project.rst:104
+#: ../doc/quick_start/cloud_ide/starting_project.rst:95
 msgid "Step 4: Editing your Project"
 msgstr "ステップ 4 : プロジェクトの編集"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:106
+#: ../doc/quick_start/cloud_ide/starting_project.rst:97
 msgid "All editable files are listed under ``www`` folder."
 msgstr "編集の対象は、``www`` 下のファイルのみです。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:108
+#: ../doc/quick_start/cloud_ide/starting_project.rst:99
 msgid ""
 "From the File Tree panel, choose a file to edit. Let's make some changes in "
 ":file:`index.html` file in the code editor."
 msgstr "左側のプロジェクトツリー画面から、編集対象のファイルを選択します。ここでは、コードエディター ( 画面中央の領域 ) を使用して、:file:`index.html` ファイルの内容を変更してみます。"
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:110
+#: ../doc/quick_start/cloud_ide/starting_project.rst:101
 msgid ""
 "Save the changes, then you will be able to see the updates constantly in the"
 " Preview window. Feel free to edit the project as you wish. For more "
 "detailed explanation about this template, please refer to :ref:`Explanation "
-"about Memo Application <memo_application>`."
-msgstr "変更の保存後、プレビューウィンドウ上でも変更箇所が反映されていることを確認しましょう。また、他の箇所も変更・保存して、更新されているか確認してみましょう。なお、今回使用したテンプレートの詳細は、:ref:`こちら <memo_application>` をご確認ください。"
+"about jQuery TODO App <todo>`."
+msgstr ""
 
-#: ../doc/quick_start/cloud_ide/starting_project.rst:119
+#: ../doc/quick_start/cloud_ide/starting_project.rst:104
 msgid ""
 "For more information regarding the code editor in Monaca Cloud IDE, please "
 "refer to :ref:`code_editor`."
