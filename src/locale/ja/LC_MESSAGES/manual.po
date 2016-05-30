@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-11 10:59+0000\n"
+"PO-Revision-Date: 2016-05-30 03:03+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -7233,7 +7233,7 @@ msgstr "インスト ( ネットワークインストール ) : Monaca デバッ
 msgid ""
 "click on the toggle menu on the top-left corner and go to :guilabel:`Local "
 "Computers` button."
-msgstr "Monaca デバッガーの左上端に表示された切り替えメニューをタップして、 :guilabel:`ローカルコンピュータ` を選択します。"
+msgstr "左上端に表示された切り替えメニューをクリックして、次に、:guilabel:`ローカルコンピュータ` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:68
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:52
@@ -8858,9 +8858,11 @@ msgstr "GitHub 上に空のリポジトリが置かれている場合、ドロ�
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:145
 msgid ""
-"Only an empty repository can be used to connect to a Monaca project. Please "
-"be aware that you cannot change to another repository after configuration."
-msgstr "Monaca プロジェクトとレポジトリを紐づけする場合には、空のレポジトリのみ使用できます。また、一度、紐づけすると、レポジトリは変更できませんのでご注意ください。"
+"Only an empty repository can be used to connect to a Monaca project.  An "
+"empty repository is a repository that has not been initialized with any "
+"branches or files (including readme). Please be aware that you cannot change"
+" to another repository after configuration."
+msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:153
 msgid ""
