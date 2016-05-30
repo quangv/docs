@@ -7159,7 +7159,7 @@ msgid "Then, Monaca will list all of your empty GitHub repositories. If you do n
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:145
-msgid "Only an empty repository can be used to connect to a Monaca project. Please be aware that you cannot change to another repository after configuration."
+msgid "Only an empty repository can be used to connect to a Monaca project.  An empty repository is a repository that has not been initialized with any branches or files (including readme). Please be aware that you cannot change to another repository after configuration."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:153

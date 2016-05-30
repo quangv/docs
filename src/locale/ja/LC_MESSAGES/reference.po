@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-24 10:57+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-05-26 03:01+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14487,7 +14487,7 @@ msgstr "このプラグインでは、グローバルオブジェクト 「 ``na
 msgid ""
 "Although the object is attached to the global scoped ( ``navigator`` ), it "
 "is not available until after the ``deviceready`` event."
-msgstr ""
+msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:69
 msgid ""
@@ -20296,7 +20296,7 @@ msgstr "AppsFlyer サービスの :guilabel:`詳細` ボタンをクリックし
 #: ../doc/reference/service_integration/apps_flyer.rst:19
 #: ../doc/reference/service_integration/repro.rst:22
 msgid "Then, click :guilabel:`Install` button to add it into your project."
-msgstr ":guilabel:`セットアップ` ボタンをクリックして、プロジェクトに組み込みます。"
+msgstr ":guilabel:`セットアップ` ボタンをクリックします。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:27
 #: ../doc/reference/service_integration/repro.rst:30
@@ -20334,13 +20334,13 @@ msgid ""
 "installations for Android-Out-Of-Store Applications, please take a look "
 "`here <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-"
 "Installs-for-Out-Of-Store-Applications>`_."
-msgstr "AppsFlyer へログインして、アプリを登録します。アプリの登録時に入力する情報とマニフェストに登録する ( または、登録している ) 情報は、一致する必要があります。App Store/Google Play ストア/Microsoft ストア ( 旧 「 Windows Phone Store 」 と統合 ) を経由しない Android アプリのインストールの監視・追跡に関しては、`こちら <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-Installs-for-Out-Of-Store-Applications>`_ をご確認ください。[ 翻訳者メモ ： 各ストアを経由しないでインストールするアプリを、AppsFlyer では、 Out of Store アプリと呼称しています ]"
+msgstr "AppsFlyer へログインして、アプリを登録します ( AppsFlyer 上での処理 )。アプリの登録時に入力する情報とマニフェストに登録する ( または、登録している ) 情報は、一致する必要があります。App Store/Google Play ストア/Microsoft ストア ( 旧 「 Windows Phone Store 」 と統合 ) を経由しない Android アプリのインストールの監視・追跡に関しては、`こちら <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-Installs-for-Out-Of-Store-Applications>`_ をご確認ください。[ 翻訳者メモ ： 各ストアを経由しないでインストールするアプリを、AppsFlyer では、 Out of Store アプリと呼称しています ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:65
 msgid ""
 "Add following lines to your code to initialize the tracking with your own "
 "AppsFlyer dev key:"
-msgstr "次の記述を、コードに追加します。この記述では、AppsFlyer 提供の DEV KEY を使用して、監視・追跡処理を初期化しています。[ 翻訳者メモ : DEV KEY は、AppsFlyer 管理画面上での インテグレーション/設定 > SDK インテグレーション 上で確認できます ]"
+msgstr "次の記述を、コードに追加します ( Monaca 上での処理 )。この記述では、AppsFlyer 提供の DEV KEY を使用して、監視・追跡処理を初期化しています。[ 翻訳者メモ : DEV KEY は、AppsFlyer 管理画面上での インテグレーション/設定 > SDK インテグレーション 上で確認できます ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:82
 msgid ""
@@ -20381,7 +20381,7 @@ msgid ""
 "unique ID with AppsFlyer’s user ID and the other devices’ IDs. This ID will "
 "be available at AppsFlyer CSV reports along with postbacks APIs for cross-"
 "referencing with you internal IDs."
-msgstr "AppsFlyer 側のユーザー ID または 端末 ID を、業務上使用している顧客 ID ( Customer User ID ) に紐づけすることができます。AppsFlyer が提供するレポート ( CSV 形式でも出力可能 ) を出力するときに、この ID を使用できます。また、他の分析系プラットフォームとの連携時に使用する PostBack 系の API でも、この ID を使用することができます。[ 翻訳者メモ : ここでの PostBack とは、連携しているサービスへ、収集したデータを転送する仕組みを指すようです ]"
+msgstr "AppsFlyer 側が割り振っている、ユーザー ID または 端末 ID を、業務上使用している顧客 ID ( Customer User ID ) に紐づけすることができます。AppsFlyer が提供するレポート ( CSV 形式での出力も可能 ) を出力するときに、この ID を使用できます。また、他の分析系プラットフォームとの連携時に使用する PostBack 系の API でも、この ID を使用することができます。[ 翻訳者メモ : ここでの PostBack とは、連携しているサービスへ、収集したデータを転送する仕組みを指すようです ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:103
 msgid ""
@@ -20416,7 +20416,7 @@ msgid ""
 "attribute them to specific campaigns/media-sources. Please take time to "
 "define the event(s) you would like to measure to allow you to track ROI "
 "(Return on Investment) and LTV (Lifetime Value)."
-msgstr "アプリ内イベントの監視・追跡 API ( In-App Events Tracking API ) を使用して、ユーザーの動向を分析し、各種キャンペーンおよびメディアソースへのアクセス向上につなげることができます。ROI ( 投資対効果 ) と LTV ( 顧客生涯価値 ) の計算に必要となる、データ収集対象のイベントに関しては、管理者側で熟考する必要があります。[ 翻訳者メモ : 「 アプリ内イベント 」 は、原文では 「 In-App Event 」 となっています。AppsFlyer では、この In-App Event を 2 つの意味で使用しているようです。1 つ目は、ここに記載されている 「 アプリ内イベント 」 の意味で、2 つ目は traceEvent メソッド使用時に適用する、イベント名とオプション値の 「 組み合わせ 」 を 「 In-App イベント 」 と呼称しています。ここでは、2 つ目の意味は使用していませんが、AppFlyer 社提供の原文のドキュメントを読むときは、この点もご留意ください。 ]"
+msgstr "アプリ内イベントの監視・追跡 API ( In-App Events Tracking API ) を使用して、ユーザーの動向を分析し、各種キャンペーンおよびメディアソースへのアクセス向上につなげることができます。ROI ( 投資対効果 ) と LTV ( 顧客生涯価値 ) の計算に必要となる、データ収集対象のイベントに関しては、慎重に選択する必要があります。[ 翻訳者メモ : 「 アプリ内イベント 」 は、原文では 「 In-App Event 」 となっています。AppsFlyer では、この In-App Event を 2 つの意味で使用しているようです。1 つ目は、ここに記載されている 「 アプリ内イベント 」 の意味で、2 つ目は traceEvent メソッド使用時に適用する、イベント名とオプション値の 「 組み合わせ 」 を 「 In-App イベント 」 と呼称しています。ここでは、2 つ目の意味は使用していませんが、AppFlyer 社提供の原文のドキュメントを読むときは、この点もご留意ください ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:125
 msgid ""
@@ -20449,13 +20449,13 @@ msgstr "この API を使用すれば、AppsFlyer 側で独自に割り振って
 
 #: ../doc/reference/service_integration/apps_flyer.rst:157
 msgid "Here is an example of how to use this API:"
-msgstr "この API の使用方法を。次に示します。"
+msgstr "この API の使用方法を、次に示します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:169
 msgid ""
 "Accessing AppsFlyer Attribution/Conversion Data from the SDK (Deferred Deep-"
 "linking)"
-msgstr "AppsFlyer のアトリビューションデータ/コンバージョンデータ ( Attribution Data/Conversion Data ) へ SDK からアクセスする方法 ( ディファード ディープリング/Deferred Deep-linking )"
+msgstr "AppsFlyer のアトリビューション データ/コンバージョンデータ ( Attribution Data/Conversion Data ) へ SDK からアクセスする方法 ( ディファード ディープリング/Deferred Deep-linking )"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:171
 msgid ""
@@ -20465,7 +20465,7 @@ msgid ""
 "commonly referred to as “deferred” deeplinking. This is very common on the "
 "web, however there is a big challenge doing this in the mobile app "
 "ecosystem. Luckily, AppsFlyer provides support for all cases and platforms."
-msgstr "AppsFlyer では、アトリビューション データへ、SDK 経由で、リアルタイムでアクセスできます。このデータを使用して、アプリの新規インストール・起動後、ユーザー側に最初に表示されるページをカスタマイズできます。このような処理は、「 ディファード ディープリンク 」 ( Deferred DeepLinking ) と呼ばれています ( Web でも同じ用語が使用されていますが、モバイルアプリのそれとは若干異なるようです )。このような動作をモバイルアプリで実現することは、技術的に大変難しいとされていますが、AppsFlyer では、プラットフォームの種類・状況にかかわらず、この処理をしてくれます。"
+msgstr "AppsFlyer では、アトリビューション データへ、SDK 経由で、リアルタイムにアクセスできます。このデータを使用して、アプリの新規インストール・起動後、ユーザー側に最初に表示されるページをカスタマイズできます。このような処理は、「 ディファード ディープリンク 」 ( Deferred DeepLinking ) と呼ばれています ( Web の分野でも、ディープリンクという用語が使用されていますが、モバイルアプリのそれとは若干異なるようです )。このような動作をモバイルアプリで実現することは、技術的に難しいとされていますが、AppsFlyer では、プラットフォームの種類および状況にかかわらず、この処理をしてくれます。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:173
 msgid ""

@@ -142,7 +142,7 @@ Please follow the configuration instruction below:
 
 4. Then, Monaca will list all of your empty GitHub repositories. If you do not have any empty repositories yet, you will be asked to create one.
 
-  .. note:: Only an empty repository can be used to connect to a Monaca project. Please be aware that you cannot change to another repository after configuration.
+  .. note:: Only an empty repository can be used to connect to a Monaca project.  An empty repository is a repository that has not been initialized with any branches or files (including readme). Please be aware that you cannot change to another repository after configuration.
 
   .. figure:: images/version_control/7.png
     :width: 600px   
