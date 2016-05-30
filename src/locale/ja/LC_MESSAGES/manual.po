@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-30 08:42+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-05-30 10:29+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -599,7 +599,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/build/ios/build_ios.rst:296
 #: ../doc/manual/build/ios/import_export.rst:154
 #: ../doc/manual/debugger/debug.rst:307
-#: ../doc/manual/debugger/features.rst:198
+#: ../doc/manual/debugger/features.rst:163
 #: ../doc/manual/debugger/installation/debugger_android.rst:156
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:106
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:139
@@ -3050,7 +3050,7 @@ msgid ":ref:`monaca_debugger_features`"
 msgstr ":ref:`monaca_debugger_features`"
 
 #: ../doc/manual/debugger/debug.rst:310
-#: ../doc/manual/debugger/features.rst:200
+#: ../doc/manual/debugger/features.rst:165
 msgid ":ref:`debugger_installation_index`"
 msgstr ":ref:`debugger_installation_index`"
 
@@ -3058,111 +3058,86 @@ msgstr ":ref:`debugger_installation_index`"
 msgid "Functionalities"
 msgstr "機能の概要"
 
-#: ../doc/manual/debugger/features.rst:15
+#: ../doc/manual/debugger/features.rst:10
 msgid "Debugger Functions"
 msgstr "デバッガーの機能"
 
-#: ../doc/manual/debugger/features.rst:17
+#: ../doc/manual/debugger/features.rst:12
 msgid ""
 "Monaca Debugger provides useful functions for testing/debugging your apps. "
 "You can find Debugger Functions button when you run a project in Monaca "
 "Debugger. When you click on Debugger Functions button, you will see:"
 msgstr "Monaca デバッガーでは、アプリの検証に役立つ、多彩な機能を提供しています。Monaca デバッガー上でプロジェクトを実行すると、画面の右下に [ デバッガーメニュー ] ボタンが表示されます。メニューボタンをクリックすると、次のようなメニュー画面が表示されます。現在使用できる機能は、次のとおりです。"
 
-#: ../doc/manual/debugger/features.rst:19
+#: ../doc/manual/debugger/features.rst:14
 msgid "Back button"
 msgstr "戻るボタン"
 
-#: ../doc/manual/debugger/features.rst:21
+#: ../doc/manual/debugger/features.rst:15
 msgid "Reload button"
 msgstr "更新ボタン"
 
-#: ../doc/manual/debugger/features.rst:23
+#: ../doc/manual/debugger/features.rst:16
 msgid ":ref:`Screenshot button <screenshot>`"
 msgstr ":ref:`スクリーンショット ボタン <screenshot>`"
 
-#: ../doc/manual/debugger/features.rst:25
-msgid ":ref:`Chat button <chat>`"
-msgstr ":ref:`チャットボタン <chat>`"
-
-#: ../doc/manual/debugger/features.rst:27
+#: ../doc/manual/debugger/features.rst:17
 msgid ":ref:`App Log button <app_log>`"
 msgstr ":ref:`アプリログの表示ボタン <app_log>`"
 
-#: ../doc/manual/debugger/features.rst:29
+#: ../doc/manual/debugger/features.rst:18
 msgid ":ref:`Inspector button <debugger_inspector>`"
 msgstr ":ref:`インスぺタの実行ボタン <debugger_on_ios>`"
 
-#: ../doc/manual/debugger/features.rst:46
+#: ../doc/manual/debugger/features.rst:35
 msgid "Screenshot"
 msgstr "スクリーンショット機能"
 
-#: ../doc/manual/debugger/features.rst:48
+#: ../doc/manual/debugger/features.rst:37
 msgid ""
 "While running your project on Monaca Debugger, you may want to send any "
 "specific screenshot of your project to Monaca Cloud IDE and share it with "
 "your team members."
 msgstr "Monaca デバッガーでのプロジェクトの検証時、プロジェクトのスクリーンショットをキャプチャーして、他のチームメンバーと共有したい場合に使用します ( Monaca クラウド IDE 経由で共有 )。"
 
-#: ../doc/manual/debugger/features.rst:51
+#: ../doc/manual/debugger/features.rst:40
 msgid "In the screenshot screen, you can:"
 msgstr "スクリーンショット機能では、次の操作・処理が行えます。"
 
-#: ../doc/manual/debugger/features.rst:53
+#: ../doc/manual/debugger/features.rst:42
 msgid "edit the screenshot."
 msgstr "スクリーンショットのキャプチャー、コメント手書き入力"
 
-#: ../doc/manual/debugger/features.rst:55
+#: ../doc/manual/debugger/features.rst:43
 msgid "upload to Cloud IDE."
 msgstr "クラウド IDE へのアップロード ( チャット機能を使用 )"
 
-#: ../doc/manual/debugger/features.rst:57
+#: ../doc/manual/debugger/features.rst:44
 msgid "save to phone storage."
 msgstr "ローカルストレージへの保存"
 
-#: ../doc/manual/debugger/features.rst:68
-msgid "Chat"
-msgstr "チャット機能"
-
-#: ../doc/manual/debugger/features.rst:70
-msgid ""
-"Chat function allows you to share conversations with your team members of a "
-"shared project or between Monaca Debugger and Cloud IDE. The screenshot "
-"below shows a conversation between Monaca Debugger and Cloud IDE."
-msgstr "チャット機能では、チームメンバー間 ( プロジェクトが共有されていること )、または、Monaca デバッガーとクラウド IDE 間で、会話を共有できます。下のスクリーンショットは、Monaca デバッガーとクラウド IDE 間で会話をしているときの画面です。"
-
-#: ../doc/manual/debugger/features.rst:76 ../doc/manual/debugger/index.rst:5
-#: ../doc/manual/debugger/installation/debugger_ios.rst:30
-#: ../doc/manual/development/monaca_vs/pairing_debugging.rst:43
-msgid "Monaca Debugger"
-msgstr "Monaca デバッガー"
-
-#: ../doc/manual/debugger/features.rst:82
-msgid "Monaca Cloud IDE"
-msgstr "Monaca クラウド IDE"
-
-#: ../doc/manual/debugger/features.rst:90
+#: ../doc/manual/debugger/features.rst:55
 msgid "App Log"
 msgstr "アプリログ"
 
-#: ../doc/manual/debugger/features.rst:92
+#: ../doc/manual/debugger/features.rst:57
 msgid ""
 "Monaca Debugger allows you to see the log of the app which will show the "
 "progress and errors of the app while running."
 msgstr "Monaca デバッガー上で、アプリのログを確認できます。ログには、実行中のアプリのエラーと進行状況が出力されます。"
 
-#: ../doc/manual/debugger/features.rst:103
+#: ../doc/manual/debugger/features.rst:68
 msgid "Inspector"
 msgstr "インスペクタ機能"
 
-#: ../doc/manual/debugger/features.rst:105
+#: ../doc/manual/debugger/features.rst:70
 msgid ""
 "Inspector function allows you to debug/inspect your project using `Chrome "
 "Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, "
 "you need to enable USB debugging on your device."
 msgstr "インスペクタ機能では、`Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_ を使用して、プロジェクトをデバッグ・検証できます。なお、使用時には、端末上の [ USB デバッグ ] を有効化する必要があります。"
 
-#: ../doc/manual/debugger/features.rst:113
+#: ../doc/manual/debugger/features.rst:78
 msgid ""
 "Inspector function is only available when you are using :ref:`Monaca "
 "Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. "
@@ -3171,25 +3146,25 @@ msgid ""
 "<cli_debug_app>`."
 msgstr ":ref:`Monaca Localkit <monaca_localkit_index>` または :ref:`Monaca CLI <monaca_cli_index>` の使用時のみ、このインスペクタ機能を利用できます。詳細は、:ref:`Monaca Localkit を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <localkit_debug_app>` または :ref:`Monaca CLI を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <cli_debug_app>` をご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:119
+#: ../doc/manual/debugger/features.rst:84
 msgid "Debugger Menu"
 msgstr "デバッガーのメニュー"
 
-#: ../doc/manual/debugger/features.rst:127
+#: ../doc/manual/debugger/features.rst:92
 msgid "Inside Debugger Menu, there are:"
 msgstr "デバッガーのメニューでは、次の操作・設定を行えます。"
 
-#: ../doc/manual/debugger/features.rst:129
+#: ../doc/manual/debugger/features.rst:94
 msgid ""
 "*All Projects*: shows a list of all Monaca projects which can be run on "
 "Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
 msgstr "*すべてのプロジェクト* : Monaca デバッガー上で実行可能な Monaca プロジェクトの一覧を表示します。一覧上のプロジェクトには、2 つのサブカテゴリーがあります。"
 
-#: ../doc/manual/debugger/features.rst:131
+#: ../doc/manual/debugger/features.rst:96
 msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
 msgstr "Monaca.io プロジェクト : Monaca クラウド IDE 上で作成されたプロジェクトの一覧を表示します。"
 
-#: ../doc/manual/debugger/features.rst:132
+#: ../doc/manual/debugger/features.rst:97
 msgid ""
 "Local projects: projects created in :ref:`Monaca Localkit "
 "<monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored "
@@ -3197,7 +3172,7 @@ msgid ""
 "with Monaca Localkit/CLI."
 msgstr "ローカルプロジェクト : ローカル環境用の開発ツール ( :ref:`Monaca Localkit <monaca_localkit_index>` と :ref:`Monaca CLI <monaca_cli_index>` ) を使用して作成し、ローカルに保存されているプロジェクトの一覧です。なお、Monaca Localkit ( または Monaca CLI ) とデバッガーがペアリングされているときのみ、ローカルプロジェクトの一覧は表示されます。"
 
-#: ../doc/manual/debugger/features.rst:139
+#: ../doc/manual/debugger/features.rst:104
 msgid ""
 "*Local Computers*: shows a list of all currently paired and available "
 "computers. Paired computers are local computers running Monaca Localkit/CLI "
@@ -3205,23 +3180,23 @@ msgid ""
 "following pages:"
 msgstr "*ローカルコンピュータ* : ペアリング済み、または、利用可能 ( 未接続 ) なコンピューターの一覧を表示します。ペアリング済みのコンピューターとは、Monaca Locakit または Monaca CLI がインストールされ、デバッガーに現在接続されているローカルのコンピューターです。各開発ツールとのペアリング方法は、次のリンクをご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:141
+#: ../doc/manual/debugger/features.rst:106
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca Localkit "
 "<localkit_pairing_debugging>`"
 msgstr ":ref:`Monaca Localkit と Monaca デバッガーのペアリング方法 <localkit_pairing_debugging>`"
 
-#: ../doc/manual/debugger/features.rst:142
+#: ../doc/manual/debugger/features.rst:107
 msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
 msgstr ":ref:`Monaca CLI  と Monaca デバッガーのペアリング方法 <connect_to_debugger>`"
 
-#: ../doc/manual/debugger/features.rst:143
+#: ../doc/manual/debugger/features.rst:108
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca for Visual "
 "Studio<monaca_vs_testing_debugging>`"
 msgstr ":ref:`Monaca for Visual Studio と Monaca デバッガーのペアリング方法 <monaca_vs_testing_debugging>`"
 
-#: ../doc/manual/debugger/features.rst:150
+#: ../doc/manual/debugger/features.rst:115
 msgid ""
 "*Debugger Settings*: shows debugger's configurations such as allow device to"
 " sleep, show memory usage, show splash screen (Android only), restart after "
@@ -3231,42 +3206,42 @@ msgid ""
 "your device's memory."
 msgstr "*設定* : デバッガー側の各種設定を行えます。設定可能な項目は、[ スリープを許可する ]、[ メモリー使用量表示 ]、[ スプラッシュ表示 ] ( Android のみ )、[ アプリの復帰時にプロジェクトを再実行 ]、[ ネットワーク再接続時にプロジェクトを再実行 ]、[ 同期データを削除する ]、[ Local Storage を削除する ] です。同期データとは、ローカル側と同期を行ったプロジェクトファイルを指します。また、Local Storage とは、端末のメモリー ( LocalStorage ) 上に、プロジェクト側で作成・保存したデータを指します。"
 
-#: ../doc/manual/debugger/features.rst:157
+#: ../doc/manual/debugger/features.rst:122
 msgid ""
 "*Debugger Information*: shows detailed information of the debugger such as "
 "version, platform, CLI version, WebView Engine (Android only) and available "
 "plugins."
 msgstr "*このデバッガーについて* : デバッガーの詳細情報を表示します。表示する情報は、デバッガーのバージョン番号、プラットフォーム情報、CLI バージョン番号、WebView エンジン ( Android のみ )、利用可能なプラグインの一覧などです。"
 
-#: ../doc/manual/debugger/features.rst:167
+#: ../doc/manual/debugger/features.rst:132
 msgid "Project Options"
 msgstr "プロジェクトオプション"
 
-#: ../doc/manual/debugger/features.rst:169
+#: ../doc/manual/debugger/features.rst:134
 msgid ""
 "From the project list inside Monaca Debugger, there is a Project Options "
 "button for each Monaca.io project."
 msgstr "Monaca デバッガー上のプロジェクト一覧の [ Monaca.io プロジェクト ] では、各プロジェクトの右側に [ プロジェクトオプション ] アイコンが表示されています。"
 
-#: ../doc/manual/debugger/features.rst:183
+#: ../doc/manual/debugger/features.rst:148
 msgid "Inside this Project Options button, you can:"
 msgstr "[ プロジェクトオプション ] 上では、次の設定が行えます。"
 
-#: ../doc/manual/debugger/features.rst:185
+#: ../doc/manual/debugger/features.rst:150
 msgid "favorite current project: moves it to the top of the project list."
 msgstr "スター : スター ( 星マーク ) を付けると、「 お気に入り 」 プロジェクトとして、Monaca クラウド IDE 上のプロジェクト一覧の最上位に表示されます。"
 
-#: ../doc/manual/debugger/features.rst:187
+#: ../doc/manual/debugger/features.rst:152
 msgid "lunch app: runs current project in the debugger."
 msgstr "実行する : デバッガー上で、プロジェクトを実行します。"
 
-#: ../doc/manual/debugger/features.rst:189
+#: ../doc/manual/debugger/features.rst:154
 msgid ""
 "network install: installs a built app of the current project directly from "
 "Monaca debugger."
 msgstr "インスト ( ネットワークインストール ) : Monaca デバッガー経由で、ビルド済みアプリを、端末にインストールします。"
 
-#: ../doc/manual/debugger/features.rst:191
+#: ../doc/manual/debugger/features.rst:156
 msgid ""
 "In order to use network install, you need to create a debug build of the "
 "project from Monaca Cloud IDE first. Please refer to :ref:`debug build for "
@@ -3274,18 +3249,24 @@ msgid ""
 "<types_of_build_android>`."
 msgstr "ネットワークインストールを行う前に、Monaca クラウド IDE 上で、プロジェクトをビルドして、デバッグビルド版のアプリを作成する必要があります。詳細は、:ref:`iOS 向けアプリのデバッグビルド <types_of_build_ios>` または :ref:`Android 向けアプリのデバッグビルド <types_of_build_android>` をご確認ください。"
 
-#: ../doc/manual/debugger/features.rst:193
+#: ../doc/manual/debugger/features.rst:158
 msgid ""
 "For iOS debugger, network install is only available for the :ref:`custom "
 "built debugger <custom_debugger_ios>`. The App store version doesn't have "
 "this function."
 msgstr "ネットワークインストールは、iOS デバッガーでは、:ref:`カスタムビルド版デバッガー <custom_debugger_ios>` でのみ使用できます。App Store 版のデバッガーでは、ネットワークインストールは使用できません。"
 
-#: ../doc/manual/debugger/features.rst:201
+#: ../doc/manual/debugger/features.rst:166
 #: ../doc/manual/debugger/installation/debugger_android.rst:161
 #: ../doc/manual/debugger/installation/debugger_ios.rst:173
 msgid ":ref:`debugging_monaca_app`"
 msgstr ":ref:`debugging_monaca_app`"
+
+#: ../doc/manual/debugger/index.rst:5
+#: ../doc/manual/debugger/installation/debugger_ios.rst:30
+#: ../doc/manual/development/monaca_vs/pairing_debugging.rst:43
+msgid "Monaca Debugger"
+msgstr "Monaca デバッガー"
 
 #: ../doc/manual/debugger/index.rst:7
 msgid ""
