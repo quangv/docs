@@ -162,7 +162,9 @@ It controls which network requests (images, XHRs, etc) are allowed to be made (v
 
 .. note:: Android also allows requests to ``https://ssl.gstatic.com/accessibility/javascript/android/`` by default, since this is required for TalkBack to function properly.
 
-.. note:: We suggest you use a :ref:`content_security_policy`, which is more secure. This whitelist is mostly historical for webviews which do not support CSP.
+.. note::
+
+    We suggest you use a :ref:`content_security_policy`, which is more secure. This whitelist is mostly historical for webviews which do not support CSP.
 
 :dfn:`<access origin="*" />`
 

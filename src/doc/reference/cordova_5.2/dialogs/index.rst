@@ -41,7 +41,7 @@ Dialogs Plugin
 
 This plugin provides access to some native dialog UI elements via a global ``navigator.notification`` object.
 
-Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
+Although the object is attached to the global scope ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 

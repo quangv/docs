@@ -45,7 +45,7 @@ This plugin provides access to the device's compass. The compass is a sensor tha
 
 Access is via a global 「 ``navigator.compass`` 」.
 
-Although the object is attached to the global scoped ( ``navigator`` ), it is not available until after the ``deviceready`` event.
+Although the object is attached to the global scope ( ``navigator`` ), it is not available until after the ``deviceready`` event.
 
 
 ::
