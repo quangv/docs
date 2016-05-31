@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-26 03:01+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-05-31 12:45+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -522,7 +522,7 @@ msgid "*<access> element*"
 msgstr "*<access> 要素*"
 
 #: ../doc/reference/config/android_configuration.rst:155
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:171
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:173
 msgid "``origin``"
 msgstr "``origin``"
 
@@ -1247,7 +1247,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:193
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:270
 #: ../doc/reference/cordova_5.2/vibration/index.rst:273
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:247
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:249
 #: ../doc/reference/monaca_api/cloud/collection.rst:421
 #: ../doc/reference/monaca_api/cloud/collection_item.rst:401
 #: ../doc/reference/monaca_api/cloud/criteria.rst:115
@@ -2951,8 +2951,8 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/cordova_5.2/vibration/index.rst:244
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:108
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:154
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:195
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:243
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:197
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:245
 #: ../doc/reference/monaca_api/cloud/collection.rst:54
 #: ../doc/reference/monaca_api/cloud/collection.rst:128
 #: ../doc/reference/monaca_api/cloud/collection.rst:237
@@ -11752,10 +11752,6 @@ msgstr "このプラグインでは、グローバルオブジェクト 「 ``na
 #: ../doc/reference/cordova_4.1/compass/index.rst:47
 #: ../doc/reference/cordova_4.1/contacts/index.rst:43
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:43
-#: ../doc/reference/cordova_5.2/camera/index.rst:43
-#: ../doc/reference/cordova_5.2/contacts/index.rst:43
-#: ../doc/reference/cordova_5.2/device-motion/index.rst:45
-#: ../doc/reference/cordova_5.2/dialogs/index.rst:44
 msgid ""
 "Although the object is attached to the global scoped ``navigator``, it is "
 "not available until after the ``deviceready`` event."
@@ -13190,7 +13186,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:195
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:272
 #: ../doc/reference/cordova_5.2/vibration/index.rst:275
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:249
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:251
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
 #: ../doc/reference/third_party_phonegap/datepicker.rst:186
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
@@ -13221,7 +13217,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:196
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:273
 #: ../doc/reference/cordova_5.2/vibration/index.rst:276
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:250
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:252
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
 #: ../doc/reference/third_party_phonegap/datepicker.rst:187
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
@@ -13231,6 +13227,15 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/third_party_phonegap/webintent.rst:73
 msgid ":ref:`cordova_core_plugins`"
 msgstr ":ref:`cordova_core_plugins`"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:43
+#: ../doc/reference/cordova_5.2/contacts/index.rst:43
+#: ../doc/reference/cordova_5.2/device-motion/index.rst:45
+#: ../doc/reference/cordova_5.2/dialogs/index.rst:44
+msgid ""
+"Although the object is attached to the global scope ``navigator``, it is not"
+" available until after the ``deviceready`` event."
+msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:63
 msgid ""
@@ -14485,9 +14490,9 @@ msgstr "このプラグインでは、グローバルオブジェクト 「 ``na
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:48
 msgid ""
-"Although the object is attached to the global scoped ( ``navigator`` ), it "
-"is not available until after the ``deviceready`` event."
-msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
+"Although the object is attached to the global scope ( ``navigator`` ), it is"
+" not available until after the ``deviceready`` event."
+msgstr ""
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:69
 msgid ""
@@ -16059,7 +16064,7 @@ msgstr ":dfn:`<allow-navigation href=\"*\" />`"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:86
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:124
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:172
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:174
 #: ../doc/reference/monaca_api/cloud/collection.rst:42
 #: ../doc/reference/monaca_api/cloud/collection.rst:76
 #: ../doc/reference/monaca_api/cloud/collection.rst:150
@@ -16126,7 +16131,7 @@ msgid "``href``"
 msgstr "``href``"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:84
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:171
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:173
 msgid "default: ``\"*\"`` : Allow permission for all addresses."
 msgstr "デフォルトでは ``\"*\"`` 。すべてのアドレスを許可します。"
 
@@ -16187,31 +16192,31 @@ msgid ""
 "since this is required for TalkBack to function properly."
 msgstr "Android では、TalkBack を正常に動作させるため、``https://ssl.gstatic.com/accessibility/javascript/android/`` へのリクエストがデフォルトで有効になっています。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:165
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:167
 msgid ""
 "We suggest you use a :ref:`content_security_policy`, which is more secure. "
 "This whitelist is mostly historical for webviews which do not support CSP."
 msgstr "セキュリティー強化の点から、:ref:`content_security_policy` も使用することを推奨しています。こちらのホワイトリスト設定は、CSP をサポートしていない WebView 向けです。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:167
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:169
 msgid ":dfn:`<access origin=\"*\" />`"
 msgstr ":dfn:`<access origin=\"*\" />`"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:175
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:177
 msgid "In ``config.xml``, add ``<access>`` tags, like this:"
 msgstr "次のように、 ``config.xml`` ファイルに ``<access>`` タグを追加します。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:202
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:204
 msgid "Content Security Policy"
 msgstr "コンテンツ セキュリティー ポリシー"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:204
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:206
 msgid ""
 "Controls which network requests (images, XHRs, etc) are allowed to be made "
 "(via webview directly)."
 msgstr "JavaScript からネイティブ側へのブリッジ越し ( WebView 経由で送信する場合 ) に送信されるネットワーク リクエスト ( 画像、XHR など ) に関して、どのリクエストを許可するか制御できます。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:206
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:208
 msgid ""
 "The network request whitelist (see above) is not able to filter all types of"
 " requests (e.g. ``<video>`` & WebSockets are not blocked). So, in addition "
@@ -16219,26 +16224,26 @@ msgid ""
 "security-policy.com/>`__ ``<meta>`` tag on all of your pages."
 msgstr "ネットワーク リクエスト用のホワイトリスト ( 上記を参照 ) では、リクエストの種類に応じたフィルターを行っていません ( たとえば、``<video>`` と WebSocket はブロックされません ) 。よって、上記のホワイトリストに加えて、`Content Security Policy <http://content-security-policy.com/>`__ の ``<meta>`` タグを、すべてのページに設定することを推奨します。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:208
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:210
 msgid ""
 "Support for CSP within the system webview starts with KitKat (but is "
 "available on all versions using Crosswalk WebView)."
 msgstr "なお、System WebView における　CSP のサポートは、KitKat から始りました ( Crosswalk WebView では、すべてのバージョンで利用できます )。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:210
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:212
 msgid ""
 ":dfn:`<meta http-equiv=\"Content-Security-Policy\" content=\"default-src *; "
 "style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'\">`"
 msgstr ":dfn:`<meta http-equiv=\"Content-Security-Policy\" content=\"default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'\">`"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:212
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:214
 msgid ""
 "When upgrading from Cordova 3.5/4.2, it will not be applied by default. If "
 "the setting isn't applied, there will be errors but application will work "
 "fine. To stop the errors, users need to add the above meta tag to HTML."
 msgstr "Cordova 3.5/4.2 からアップグレードする場合、デフォルトでは、CSP は設定されていません。CSP の設定がされていない場合、エラーが出力されますが、アプリの動作には影響ありません。エラーを解消するには、上記の meta タグを HTML に記述する必要があります。"
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:215
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:217
 msgid "Here are some example CSP declarations for your ``.html`` pages:"
 msgstr "CSP 宣言の例を、次に記します ( ``.html`` ページに記述 )。"
 

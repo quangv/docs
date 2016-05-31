@@ -474,7 +474,7 @@ msgid "*<access> element*"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:155
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:171
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:173
 msgid "``origin``"
 msgstr ""
 
@@ -1102,7 +1102,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:193
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:270
 #: ../doc/reference/cordova_5.2/vibration/index.rst:273
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:247
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:249
 #: ../doc/reference/monaca_api/cloud/collection.rst:421
 #: ../doc/reference/monaca_api/cloud/collection_item.rst:401
 #: ../doc/reference/monaca_api/cloud/criteria.rst:115
@@ -2716,8 +2716,8 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/vibration/index.rst:244
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:108
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:154
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:195
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:243
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:197
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:245
 #: ../doc/reference/monaca_api/cloud/collection.rst:54
 #: ../doc/reference/monaca_api/cloud/collection.rst:128
 #: ../doc/reference/monaca_api/cloud/collection.rst:237
@@ -10047,10 +10047,6 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/compass/index.rst:47
 #: ../doc/reference/cordova_4.1/contacts/index.rst:43
 #: ../doc/reference/cordova_4.1/dialogs/index.rst:43
-#: ../doc/reference/cordova_5.2/camera/index.rst:43
-#: ../doc/reference/cordova_5.2/contacts/index.rst:43
-#: ../doc/reference/cordova_5.2/device-motion/index.rst:45
-#: ../doc/reference/cordova_5.2/dialogs/index.rst:44
 msgid "Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event."
 msgstr ""
 
@@ -11160,7 +11156,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:195
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:272
 #: ../doc/reference/cordova_5.2/vibration/index.rst:275
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:249
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:251
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
 #: ../doc/reference/third_party_phonegap/datepicker.rst:186
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
@@ -11191,7 +11187,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:196
 #: ../doc/reference/cordova_5.2/statusbar/index.rst:273
 #: ../doc/reference/cordova_5.2/vibration/index.rst:276
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:250
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:252
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
 #: ../doc/reference/third_party_phonegap/datepicker.rst:187
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
@@ -11200,6 +11196,13 @@ msgstr ""
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/webintent.rst:73
 msgid ":ref:`cordova_core_plugins`"
+msgstr ""
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:43
+#: ../doc/reference/cordova_5.2/contacts/index.rst:43
+#: ../doc/reference/cordova_5.2/device-motion/index.rst:45
+#: ../doc/reference/cordova_5.2/dialogs/index.rst:44
+msgid "Although the object is attached to the global scope ``navigator``, it is not available until after the ``deviceready`` event."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:63
@@ -12274,7 +12277,7 @@ msgid "Access is via a global 「 ``navigator.compass`` 」."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:48
-msgid "Although the object is attached to the global scoped ( ``navigator`` ), it is not available until after the ``deviceready`` event."
+msgid "Although the object is attached to the global scope ( ``navigator`` ), it is not available until after the ``deviceready`` event."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:69
@@ -13404,7 +13407,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:86
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:124
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:172
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:174
 #: ../doc/reference/monaca_api/cloud/collection.rst:42
 #: ../doc/reference/monaca_api/cloud/collection.rst:76
 #: ../doc/reference/monaca_api/cloud/collection.rst:150
@@ -13471,7 +13474,7 @@ msgid "``href``"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:84
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:171
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:173
 msgid "default: ``\"*\"`` : Allow permission for all addresses."
 msgstr ""
 
@@ -13515,43 +13518,43 @@ msgstr ""
 msgid "Android also allows requests to ``https://ssl.gstatic.com/accessibility/javascript/android/`` by default, since this is required for TalkBack to function properly."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:165
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:167
 msgid "We suggest you use a :ref:`content_security_policy`, which is more secure. This whitelist is mostly historical for webviews which do not support CSP."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:167
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:169
 msgid ":dfn:`<access origin=\"*\" />`"
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:175
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:177
 msgid "In ``config.xml``, add ``<access>`` tags, like this:"
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:202
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:204
 msgid "Content Security Policy"
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:204
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:206
 msgid "Controls which network requests (images, XHRs, etc) are allowed to be made (via webview directly)."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:206
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:208
 msgid "The network request whitelist (see above) is not able to filter all types of requests (e.g. ``<video>`` & WebSockets are not blocked). So, in addition to the whitelist, you should use a `Content Security Policy <http://content-security-policy.com/>`__ ``<meta>`` tag on all of your pages."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:208
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:210
 msgid "Support for CSP within the system webview starts with KitKat (but is available on all versions using Crosswalk WebView)."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:210
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:212
 msgid ":dfn:`<meta http-equiv=\"Content-Security-Policy\" content=\"default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'\">`"
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:212
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:214
 msgid "When upgrading from Cordova 3.5/4.2, it will not be applied by default. If the setting isn't applied, there will be errors but application will work fine. To stop the errors, users need to add the above meta tag to HTML."
 msgstr ""
 
-#: ../doc/reference/cordova_5.2/whitelist/index.rst:215
+#: ../doc/reference/cordova_5.2/whitelist/index.rst:217
 msgid "Here are some example CSP declarations for your ``.html`` pages:"
 msgstr ""
 
