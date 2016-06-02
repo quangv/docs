@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-31 12:45+0000\n"
+"PO-Revision-Date: 2016-06-02 12:53+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -13235,7 +13235,7 @@ msgstr ":ref:`cordova_core_plugins`"
 msgid ""
 "Although the object is attached to the global scope ``navigator``, it is not"
 " available until after the ``deviceready`` event."
-msgstr ""
+msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:63
 msgid ""
@@ -13383,7 +13383,7 @@ msgid ""
 " value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` "
 "and the ``Camera.destinationType`` equals "
 "``Camera.DestinationType.FILE_URI``."
-msgstr "``camera.getPicture`` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
+msgstr ":ref:`camera.getPicture <camera_get_picture>` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:173
 msgid "camera.onError : function"
@@ -14492,7 +14492,7 @@ msgstr "このプラグインでは、グローバルオブジェクト 「 ``na
 msgid ""
 "Although the object is attached to the global scope ( ``navigator`` ), it is"
 " not available until after the ``deviceready`` event."
-msgstr ""
+msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:69
 msgid ""

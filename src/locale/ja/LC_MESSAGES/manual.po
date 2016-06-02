@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-30 10:29+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-06-01 02:23+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7760,11 +7760,11 @@ msgstr ":guilabel:`ビルド` サブメニューを開きます。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:53
 msgid ":ref:`ide_version_control`"
-msgstr ""
+msgstr ":ref:`ide_version_control`"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:54
 msgid "Manages version control of your project with Github."
-msgstr ""
+msgstr "GitHub に接続して、プロジェクトのバージョン管理を行います。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:55
 #: ../doc/manual/development/monaca_ide/overview.rst:78
@@ -7797,11 +7797,11 @@ msgstr "Monaca デバッガー上で、プロジェクトを実行します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:61
 msgid ":ref:`team_tab`"
-msgstr ""
+msgstr ":ref:`team_tab`"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:62
 msgid "Invites other Monaca users to join the project."
-msgstr ""
+msgstr "他の Monaca ユーザーをプロジェクトに招待します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:63
 msgid ":ref:`config`"
@@ -8076,63 +8076,63 @@ msgstr "Chrome 用のアプリをビルドします。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:177
 msgid "Show all build history of the current project."
-msgstr ""
+msgstr "現在開いているプロジェクトのビルド履歴を表示します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:182
 msgid "Version Control"
-msgstr ""
+msgstr "バージョン管理"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:187
 msgid "Commit"
-msgstr ""
+msgstr "コミット"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:188
 msgid "Commit local changes."
-msgstr ""
+msgstr "変更箇所をコミットします。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:189
 msgid "Push"
-msgstr ""
+msgstr "プッシュ"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:190
 msgid "Push local changes to remote server."
-msgstr ""
+msgstr "コミットした変更箇所を、リモートレポジトリにプッシュします。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:191
 msgid "Pull"
-msgstr ""
+msgstr "プル"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:192
 msgid "Pull remote changes."
-msgstr ""
+msgstr "リモートレポジトリの情報を取得・ダウンロード ( プル ) します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:193
 msgid "Show Remote History"
-msgstr ""
+msgstr "リモートのコミット履歴"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:194
 msgid "Show all commits history in remote server."
-msgstr ""
+msgstr "リモートレポジトリ ( GitHub 側 ) のコミット履歴を表示します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:195
 msgid "Show Commit History"
-msgstr ""
+msgstr "コミット履歴"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:196
 msgid "Show all commits history from Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca クラウド IDE 上で行ったコミットの履歴を表示します。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:197
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:198
 msgid "Config the remote repository."
-msgstr ""
+msgstr "リモートレポジトリ側の設定を行います。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:200
 msgid "For more information, please refer to :ref:`version_control`."
-msgstr ""
+msgstr "機能の詳細は、:ref:`version_control` をご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:205
 msgid "Config"
@@ -8327,7 +8327,7 @@ msgstr "Monaca バックエンド API とプッシュ通知機能は、初期化
 
 #: ../doc/manual/development/monaca_ide/overview.rst:317
 msgid "Share"
-msgstr ""
+msgstr "共有設定"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:319
 msgid ""
@@ -8338,7 +8338,7 @@ msgstr "ご利用のプランにより、この機能は使用できない場合
 
 #: ../doc/manual/development/monaca_ide/overview.rst:323
 msgid "The *Share* function allows you to:"
-msgstr ""
+msgstr "*共有設定* では、次のことができます。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:325
 msgid "manage the team: add/remove members to the shared project."
@@ -8395,7 +8395,7 @@ msgstr "プロジェクトは、他の Monaca ユーザーと共有すること�
 
 #: ../doc/manual/development/monaca_ide/overview.rst:343
 msgid "Click on :guilabel:`Share` button in the Menu panel."
-msgstr ""
+msgstr "メニューバー上で、:guilabel:`共有設定` をクリックします。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:345
 msgid ""
@@ -8893,7 +8893,7 @@ msgid ""
 "empty repository is a repository that has not been initialized with any "
 "branches or files (including readme). Please be aware that you cannot change"
 " to another repository after configuration."
-msgstr ""
+msgstr "Monaca プロジェクトとレポジトリを紐づけする場合には、空のレポジトリのみ使用できます。また、一度、紐づけすると、レポジトリは変更できませんのでご注意ください。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:155
 msgid ""
