@@ -40,7 +40,7 @@ Camera Plugin
 
 This plugin defines a global ``navigator.camera`` object, which provides an API for taking pictures and for choosing images from the system's image library.
 
-Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
+Although the object is attached to the global scope ``navigator``, it is not available until after the ``deviceready`` event.
 
 .. code-block:: javascript
 

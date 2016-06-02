@@ -40,7 +40,7 @@ Contacts Plugin
 
 This plugin defines a global ``navigator.contacts`` object, which provides access to the device contacts database.
 
-Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
+Although the object is attached to the global scope ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 
