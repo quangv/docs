@@ -2027,7 +2027,7 @@ msgid "Camera API Options"
 msgstr ""
 
 #: ../doc/sampleapp/tips/camera.rst:87
-msgid "``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check `Camera <http://docs.monaca.mobi/reference/phonegap_34/en/camera/camera/>`_ for more details."
+msgid "``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check :ref:`Camera <phone_gap_camera>` for more details."
 msgstr ""
 
 #: ../doc/sampleapp/tips/camera.rst:92

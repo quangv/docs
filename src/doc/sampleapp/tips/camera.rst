@@ -84,7 +84,7 @@ The 3rd argument of ``getPicture()`` function has ``"sourceType: navigator.camer
 Camera API Options
 ========================================
 
-``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check `Camera <http://docs.monaca.mobi/reference/phonegap_34/en/camera/camera/>`_ for more details. 
+``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check :ref:`Camera <phone_gap_camera>` for more details. 
 
 .. rst-class:: wide-table
 

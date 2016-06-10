@@ -69,40 +69,13 @@ Parameters
   =============== ============================================================================================================
 
 Example
-  The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside "Documents/CLI/MyProject" folder:
+  The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside "Documents/CLI/" folder:
 
-  .. code-block:: bash
+  .. figure:: images/cli_commands/6.png
+    :width: 600px
+    :align: center
 
-      $ monaca create Documents/CLI/MyProject SlidingProject
-      Which project template do you use?
-
-      1: Hello World App
-      2: Minimum Template
-      3: RSS Reader Example
-      4: Memo Application
-      5: Break the Bricks
-      6: Onsen UI Minimum Template
-      7: Onsen UI Sliding Menu
-      8: Onsen UI Tabbar
-      9: Onsen UI Master-Detail
-      10: Twitter Client
-      11: Facebook Client
-      12: Backend Memo
-      13: Inmobi Client
-      14: Flickr Sample
-      15: TODO App
-      16: Train Catalog
-      17: Clock App
-      18: BirthYear App
-      19: Omikuji Fortune Telling App
-      20: iBeacon
-      21: NIFTY Cloud mobile backend
-      22: Onsen UI Minimum Template for Universal App
-      
-      Type number>7
-      Project created successfully.
-
-.. rst-class:: function-reference
+  .. rst-class:: clear
 
 
 .. _monaca_clone:

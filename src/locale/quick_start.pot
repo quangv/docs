@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:236
 #: ../doc/quick_start/cli/publishing_app.rst:26
-#: ../doc/quick_start/cli/starting_project.rst:60
+#: ../doc/quick_start/cli/starting_project.rst:59
 #: ../doc/quick_start/cli/testing_debugging.rst:132
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:91
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:239
 #: ../doc/quick_start/cli/publishing_app.rst:29
-#: ../doc/quick_start/cli/starting_project.rst:62
+#: ../doc/quick_start/cli/starting_project.rst:61
 msgid ":ref:`cli_testing_debugging`"
 msgstr ""
 
@@ -516,7 +516,7 @@ msgid "For more information regarding the distribution of Monaca Apps for other 
 msgstr ""
 
 #: ../doc/quick_start/cli/publishing_app.rst:30
-#: ../doc/quick_start/cli/starting_project.rst:63
+#: ../doc/quick_start/cli/starting_project.rst:62
 #: ../doc/quick_start/cli/testing_debugging.rst:135
 msgid ":ref:`cli_building_app`"
 msgstr ""
@@ -528,43 +528,47 @@ msgstr ""
 msgid "Part 1: Starting a Project"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:12
+#: ../doc/quick_start/cli/starting_project.rst:9
 #: ../doc/quick_start/cloud_ide/starting_project.rst:9
 #: ../doc/quick_start/monaca_vs/starting_project.rst:11
 msgid "Step 1: Logging into Monaca"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:14
+#: ../doc/quick_start/cli/starting_project.rst:11
 msgid "Open a Command Prompt window (for Windows) or Terminal window (for Mac) and type the following command:"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:21
+#: ../doc/quick_start/cli/starting_project.rst:17
 msgid "Then, you will be asked to input email and password of your Monaca account."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:31
+#: ../doc/quick_start/cli/starting_project.rst:26
+msgid "You can use ``monaca signup`` command if you need to sign up."
+msgstr ""
+
+#: ../doc/quick_start/cli/starting_project.rst:30
 #: ../doc/quick_start/cloud_ide/starting_project.rst:22
 #: ../doc/quick_start/localkit/starting_project.rst:29
 msgid "Step 2: Creating a New Project"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:33
+#: ../doc/quick_start/cli/starting_project.rst:32
 msgid "Create a new project by using the command below:"
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:39
-msgid "Choose a project template by typing the number representing that template. Let's choose \"Onsen UI Sliding Menu\" in this example."
+#: ../doc/quick_start/cli/starting_project.rst:38
+msgid "Then, you will be asked to choose either ``Sample Apps`` or ``Templates`` to create a new Monaca project. In this tutorial, let's choose the ``Sample Apps`` option. Then, select ``jQuery TODO App``."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:47
+#: ../doc/quick_start/cli/starting_project.rst:46
 msgid "After creating the project, the project's folder will be created on your PC. You can then use any local editors to develop your Monaca projects."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:55
+#: ../doc/quick_start/cli/starting_project.rst:54
 msgid "You can also use Monaca CLI to :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
 msgstr ""
 
-#: ../doc/quick_start/cli/starting_project.rst:64
+#: ../doc/quick_start/cli/starting_project.rst:63
 #: ../doc/quick_start/localkit/building_app.rst:234
 #: ../doc/quick_start/localkit/starting_project.rst:120
 #: ../doc/quick_start/localkit/testing_debugging.rst:146

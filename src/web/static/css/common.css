@@ -276,7 +276,8 @@ ol.simple {
 
 blockquote ul,
 ul.simple {
-  /*margin-bottom: 20px;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-left: 0px; }
   blockquote ul li,
   ul.simple li {
@@ -630,7 +631,7 @@ header.global {
   header.global .version_selector {
     position: absolute;
     font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-    top: 30px;
+    top: 35px;
     right: 20px; }
     header.global .version_selector select {
       border-radius: 2px;

@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-02 12:53+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-06-03 03:03+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -212,17 +212,17 @@ msgstr "``version``"
 #: ../doc/reference/config/android_configuration.rst:265
 #: ../doc/reference/config/android_configuration.rst:288
 #: ../doc/reference/config/android_configuration.rst:317
-#: ../doc/reference/cordova_5.2/camera/index.rst:121
-#: ../doc/reference/cordova_5.2/camera/index.rst:183
-#: ../doc/reference/cordova_5.2/camera/index.rst:202
-#: ../doc/reference/cordova_5.2/camera/index.rst:236
-#: ../doc/reference/cordova_5.2/camera/index.rst:281
-#: ../doc/reference/cordova_5.2/camera/index.rst:304
-#: ../doc/reference/cordova_5.2/camera/index.rst:326
-#: ../doc/reference/cordova_5.2/camera/index.rst:349
-#: ../doc/reference/cordova_5.2/camera/index.rst:374
-#: ../doc/reference/cordova_5.2/camera/index.rst:401
-#: ../doc/reference/cordova_5.2/camera/index.rst:416
+#: ../doc/reference/cordova_5.2/camera/index.rst:123
+#: ../doc/reference/cordova_5.2/camera/index.rst:185
+#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:376
+#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:418
 #: ../doc/reference/monaca_api/cloud/error.rst:28
 msgid "Type"
 msgstr "型"
@@ -252,8 +252,8 @@ msgstr "型"
 #: ../doc/reference/config/ios_configuration.rst:372
 #: ../doc/reference/config/ios_configuration.rst:394
 #: ../doc/reference/config/ios_configuration.rst:414
-#: ../doc/reference/cordova_5.2/camera/index.rst:185
-#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:187
+#: ../doc/reference/cordova_5.2/camera/index.rst:206
 #: ../doc/reference/monaca_api/cloud/error.rst:20
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:66
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:68
@@ -308,14 +308,14 @@ msgstr "文字列"
 #: ../doc/reference/config/android_configuration.rst:267
 #: ../doc/reference/config/android_configuration.rst:290
 #: ../doc/reference/config/android_configuration.rst:319
-#: ../doc/reference/cordova_5.2/camera/index.rst:236
-#: ../doc/reference/cordova_5.2/camera/index.rst:281
-#: ../doc/reference/cordova_5.2/camera/index.rst:304
-#: ../doc/reference/cordova_5.2/camera/index.rst:326
-#: ../doc/reference/cordova_5.2/camera/index.rst:349
-#: ../doc/reference/cordova_5.2/camera/index.rst:374
-#: ../doc/reference/cordova_5.2/camera/index.rst:401
-#: ../doc/reference/cordova_5.2/camera/index.rst:416
+#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:376
+#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:418
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
 msgid "Default"
 msgstr "デフォルト値"
@@ -394,16 +394,16 @@ msgstr "``1.0.0``"
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:497
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:557
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:155
-#: ../doc/reference/cordova_5.2/camera/index.rst:121
-#: ../doc/reference/cordova_5.2/camera/index.rst:183
-#: ../doc/reference/cordova_5.2/camera/index.rst:202
-#: ../doc/reference/cordova_5.2/camera/index.rst:236
-#: ../doc/reference/cordova_5.2/camera/index.rst:281
-#: ../doc/reference/cordova_5.2/camera/index.rst:304
-#: ../doc/reference/cordova_5.2/camera/index.rst:326
-#: ../doc/reference/cordova_5.2/camera/index.rst:349
-#: ../doc/reference/cordova_5.2/camera/index.rst:401
-#: ../doc/reference/cordova_5.2/camera/index.rst:416
+#: ../doc/reference/cordova_5.2/camera/index.rst:123
+#: ../doc/reference/cordova_5.2/camera/index.rst:185
+#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:418
 #: ../doc/reference/cordova_5.2/device/index.rst:200
 #: ../doc/reference/cordova_5.2/globalization/index.rst:101
 #: ../doc/reference/cordova_5.2/globalization/index.rst:164
@@ -615,27 +615,27 @@ msgid "*SplashScreenDelay*"
 msgstr "*SplashScreenDelay*"
 
 #: ../doc/reference/config/android_configuration.rst:244
-#: ../doc/reference/cordova_5.2/camera/index.rst:238
-#: ../doc/reference/cordova_5.2/camera/index.rst:248
+#: ../doc/reference/cordova_5.2/camera/index.rst:240
 #: ../doc/reference/cordova_5.2/camera/index.rst:250
-#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:252
 #: ../doc/reference/cordova_5.2/camera/index.rst:285
 #: ../doc/reference/cordova_5.2/camera/index.rst:287
-#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:289
 #: ../doc/reference/cordova_5.2/camera/index.rst:308
-#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:310
 #: ../doc/reference/cordova_5.2/camera/index.rst:330
 #: ../doc/reference/cordova_5.2/camera/index.rst:332
-#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:334
 #: ../doc/reference/cordova_5.2/camera/index.rst:353
 #: ../doc/reference/cordova_5.2/camera/index.rst:355
-#: ../doc/reference/cordova_5.2/camera/index.rst:376
+#: ../doc/reference/cordova_5.2/camera/index.rst:357
 #: ../doc/reference/cordova_5.2/camera/index.rst:378
 #: ../doc/reference/cordova_5.2/camera/index.rst:380
 #: ../doc/reference/cordova_5.2/camera/index.rst:382
 #: ../doc/reference/cordova_5.2/camera/index.rst:384
-#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:386
 #: ../doc/reference/cordova_5.2/camera/index.rst:405
+#: ../doc/reference/cordova_5.2/camera/index.rst:407
 #: ../doc/reference/monaca_api/cloud/error.rst:19
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:39
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:40
@@ -955,7 +955,7 @@ msgid ""
 msgstr "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"></uses-permission>"
 
 #: ../doc/reference/config/android_configuration.rst:474
-#: ../doc/reference/cordova_5.2/camera/index.rst:265
+#: ../doc/reference/cordova_5.2/camera/index.rst:267
 msgid "Camera"
 msgstr "Camera"
 
@@ -1229,7 +1229,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/config/android_configuration.rst:588
 #: ../doc/reference/config/ios_configuration.rst:452
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
-#: ../doc/reference/cordova_5.2/camera/index.rst:651
+#: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
 #: ../doc/reference/cordova_5.2/crosswalk/index.rst:109
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:226
@@ -1473,7 +1473,7 @@ msgstr "データ"
 
 #: ../doc/reference/config/ios_configuration.rst:141
 #: ../doc/reference/config/ios_configuration.rst:164
-#: ../doc/reference/cordova_5.2/camera/index.rst:244
+#: ../doc/reference/cordova_5.2/camera/index.rst:246
 msgid "true"
 msgstr "true"
 
@@ -1976,7 +1976,7 @@ msgstr "このプラグインを使用して、端末の加速度センサーに
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:44
 #: ../doc/reference/cordova_4.1/vibration/index.rst:43
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:50
-#: ../doc/reference/cordova_5.2/camera/index.rst:53
+#: ../doc/reference/cordova_5.2/camera/index.rst:55
 #: ../doc/reference/cordova_5.2/contacts/index.rst:55
 #: ../doc/reference/cordova_5.2/crosswalk/index.rst:33
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:56
@@ -2196,9 +2196,9 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:80
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:140
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:188
-#: ../doc/reference/cordova_5.2/camera/index.rst:99
-#: ../doc/reference/cordova_5.2/camera/index.rst:146
-#: ../doc/reference/cordova_5.2/camera/index.rst:437
+#: ../doc/reference/cordova_5.2/camera/index.rst:101
+#: ../doc/reference/cordova_5.2/camera/index.rst:148
+#: ../doc/reference/cordova_5.2/camera/index.rst:439
 #: ../doc/reference/cordova_5.2/contacts/index.rst:100
 #: ../doc/reference/cordova_5.2/contacts/index.rst:147
 #: ../doc/reference/cordova_5.2/contacts/index.rst:196
@@ -2402,7 +2402,7 @@ msgstr "サポート対象のプラットフォーム"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:85
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:145
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:193
-#: ../doc/reference/cordova_5.2/camera/index.rst:101
+#: ../doc/reference/cordova_5.2/camera/index.rst:103
 #: ../doc/reference/cordova_5.2/contacts/index.rst:102
 #: ../doc/reference/cordova_5.2/contacts/index.rst:149
 #: ../doc/reference/cordova_5.2/contacts/index.rst:198
@@ -2614,9 +2614,9 @@ msgstr "Android"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:84
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:144
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:192
-#: ../doc/reference/cordova_5.2/camera/index.rst:106
-#: ../doc/reference/cordova_5.2/camera/index.rst:148
-#: ../doc/reference/cordova_5.2/camera/index.rst:439
+#: ../doc/reference/cordova_5.2/camera/index.rst:108
+#: ../doc/reference/cordova_5.2/camera/index.rst:150
+#: ../doc/reference/cordova_5.2/camera/index.rst:441
 #: ../doc/reference/cordova_5.2/contacts/index.rst:105
 #: ../doc/reference/cordova_5.2/contacts/index.rst:152
 #: ../doc/reference/cordova_5.2/contacts/index.rst:199
@@ -2895,11 +2895,11 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:115
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:158
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:206
-#: ../doc/reference/cordova_5.2/camera/index.rst:131
-#: ../doc/reference/cordova_5.2/camera/index.rst:156
-#: ../doc/reference/cordova_5.2/camera/index.rst:208
-#: ../doc/reference/cordova_5.2/camera/index.rst:442
-#: ../doc/reference/cordova_5.2/camera/index.rst:466
+#: ../doc/reference/cordova_5.2/camera/index.rst:133
+#: ../doc/reference/cordova_5.2/camera/index.rst:158
+#: ../doc/reference/cordova_5.2/camera/index.rst:210
+#: ../doc/reference/cordova_5.2/camera/index.rst:444
+#: ../doc/reference/cordova_5.2/camera/index.rst:468
 #: ../doc/reference/cordova_5.2/contacts/index.rst:109
 #: ../doc/reference/cordova_5.2/contacts/index.rst:157
 #: ../doc/reference/cordova_5.2/contacts/index.rst:205
@@ -3039,8 +3039,8 @@ msgstr "例"
 #: ../doc/reference/cordova_4.1/media/index.rst:301
 #: ../doc/reference/cordova_4.1/media/index.rst:490
 #: ../doc/reference/cordova_4.1/vibration/index.rst:83
-#: ../doc/reference/cordova_5.2/camera/index.rst:537
-#: ../doc/reference/cordova_5.2/camera/index.rst:619
+#: ../doc/reference/cordova_5.2/camera/index.rst:539
+#: ../doc/reference/cordova_5.2/camera/index.rst:621
 #: ../doc/reference/cordova_5.2/contacts/index.rst:348
 #: ../doc/reference/cordova_5.2/contacts/index.rst:494
 #: ../doc/reference/cordova_5.2/contacts/index.rst:593
@@ -3203,7 +3203,7 @@ msgstr "特定の時間に取得した ``加速度センサー`` のデータが
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:622
 #: ../doc/reference/cordova_4.1/media/index.rst:596
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:129
-#: ../doc/reference/cordova_5.2/camera/index.rst:233
+#: ../doc/reference/cordova_5.2/camera/index.rst:235
 #: ../doc/reference/cordova_5.2/contacts/index.rst:223
 #: ../doc/reference/cordova_5.2/contacts/index.rst:400
 #: ../doc/reference/cordova_5.2/contacts/index.rst:516
@@ -3412,7 +3412,7 @@ msgstr "``batterylow`` ハンドラーには、次の 2 つのプロパティー
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:2
 #: ../doc/reference/cordova_4.1/camera/index.rst:23
-#: ../doc/reference/cordova_5.2/camera/index.rst:24
+#: ../doc/reference/cordova_5.2/camera/index.rst:26
 msgid "Camera Plugin"
 msgstr "カメラ操作 プラグイン"
 
@@ -3464,7 +3464,7 @@ msgstr "The ``camera.getPicture`` 関数を使用して、デバイス搭載の�
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:48
 #: ../doc/reference/cordova_4.1/camera/index.rst:78
-#: ../doc/reference/cordova_5.2/camera/index.rst:80
+#: ../doc/reference/cordova_5.2/camera/index.rst:82
 msgid ""
 "If ``Camera.sourceType`` is ``Camera.PictureSourceType.PHOTOLIBRARY`` or "
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM``, then a dialog displays that "
@@ -3476,7 +3476,7 @@ msgstr "``Camera.sourceType`` が ``Camera.PictureSourceType.PHOTOLIBRARY``、�
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:50
 #: ../doc/reference/cordova_4.1/camera/index.rst:80
-#: ../doc/reference/cordova_5.2/camera/index.rst:82
+#: ../doc/reference/cordova_5.2/camera/index.rst:84
 msgid ""
 "The return value is sent to the ``cameraSuccess`` callback function, in one "
 "of the following formats, depending on the specified ``cameraOptions``:"
@@ -3484,13 +3484,13 @@ msgstr "戻り値は、``cameraSuccess`` コールバック関数に渡されま
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:52
 #: ../doc/reference/cordova_4.1/camera/index.rst:82
-#: ../doc/reference/cordova_5.2/camera/index.rst:84
+#: ../doc/reference/cordova_5.2/camera/index.rst:86
 msgid "A ``String`` containing the base64-encoded photo image."
 msgstr "``文字列`` : Base64 形式でエンコードされた写真画像"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:54
 #: ../doc/reference/cordova_4.1/camera/index.rst:84
-#: ../doc/reference/cordova_5.2/camera/index.rst:86
+#: ../doc/reference/cordova_5.2/camera/index.rst:88
 msgid ""
 "A ``String`` representing the image file location on local storage "
 "(default)."
@@ -3498,14 +3498,14 @@ msgstr "``文字列`` : 画像ファイルの保存場所 ( ローカルのス�
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:56
 #: ../doc/reference/cordova_4.1/camera/index.rst:86
-#: ../doc/reference/cordova_5.2/camera/index.rst:88
+#: ../doc/reference/cordova_5.2/camera/index.rst:90
 msgid ""
 "You can do whatever you want with the encoded image or URI, for example:"
 msgstr "上記の値 ( エンコードされた画像、または、URI ) を使用して、次のような、さまざまな処理ができます。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:58
 #: ../doc/reference/cordova_4.1/camera/index.rst:88
-#: ../doc/reference/cordova_5.2/camera/index.rst:90
+#: ../doc/reference/cordova_5.2/camera/index.rst:92
 msgid "Render the image in an ``<img>`` tag, as in the example below"
 msgstr "``<img>`` タグ内への画像のレンダリング ( このページ内にサンプルがあります )"
 
@@ -3517,13 +3517,13 @@ msgstr "ローカルへのデータの保存 ( ``LocalStorage``、`Lawnchair <ht
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:62
 #: ../doc/reference/cordova_4.1/camera/index.rst:92
-#: ../doc/reference/cordova_5.2/camera/index.rst:94
+#: ../doc/reference/cordova_5.2/camera/index.rst:96
 msgid "Post the data to a remote server"
 msgstr "外部サーバーへのデータの送信"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:64
 #: ../doc/reference/cordova_4.1/camera/index.rst:94
-#: ../doc/reference/cordova_5.2/camera/index.rst:96
+#: ../doc/reference/cordova_5.2/camera/index.rst:98
 msgid ""
 "**NOTE**: Photo resolution on newer devices is quite good. Photos selected "
 "from the device's gallery are not downscaled to a lower quality, even if a "
@@ -3567,8 +3567,8 @@ msgstr "**注意** : 最新の端末で撮影した写真の解像度は、高�
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:655
 #: ../doc/reference/cordova_4.1/media/index.rst:479
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:72
-#: ../doc/reference/cordova_5.2/camera/index.rst:520
-#: ../doc/reference/cordova_5.2/camera/index.rst:571
+#: ../doc/reference/cordova_5.2/camera/index.rst:522
+#: ../doc/reference/cordova_5.2/camera/index.rst:573
 #: ../doc/reference/cordova_5.2/contacts/index.rst:579
 #: ../doc/reference/cordova_5.2/contacts/index.rst:665
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:132
@@ -3612,7 +3612,7 @@ msgstr "*Android 4.4 特有*: Android 4.4 では、新しい `ストレージ �
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:77
 #: ../doc/reference/cordova_4.1/camera/index.rst:120
-#: ../doc/reference/cordova_5.2/camera/index.rst:522
+#: ../doc/reference/cordova_5.2/camera/index.rst:524
 msgid ""
 "Android uses intents to launch the camera activity on the device to capture "
 "images, and on phones with low memory, the Cordova activity may be killed. "
@@ -3622,7 +3622,7 @@ msgstr "Android では、インテント ( intent ) を使用し、カメラの�
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:82
 #: ../doc/reference/cordova_4.1/camera/index.rst:125
-#: ../doc/reference/cordova_5.2/camera/index.rst:539
+#: ../doc/reference/cordova_5.2/camera/index.rst:541
 msgid ""
 "Including a JavaScript ``alert()`` in either of the callback functions can "
 "cause problems. Wrap the alert within a ``setTimeout()`` to allow the iOS "
@@ -3631,19 +3631,19 @@ msgstr "コールバック関数の中で、JavaScript の ``alert()`` を使用
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:93
 #: ../doc/reference/cordova_4.1/camera/index.rst:136
-#: ../doc/reference/cordova_5.2/camera/index.rst:468
+#: ../doc/reference/cordova_5.2/camera/index.rst:470
 msgid "Take a photo and retrieve it as a base64-encoded image:"
 msgstr "写真の撮影時、および、写真 ( Base64 エンコード形式の画像 ) の取得時に使用します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:110
 #: ../doc/reference/cordova_4.1/camera/index.rst:153
-#: ../doc/reference/cordova_5.2/camera/index.rst:485
+#: ../doc/reference/cordova_5.2/camera/index.rst:487
 msgid "Take a photo and retrieve the image's file location:"
 msgstr "写真撮影および画像ファイルの保存場所を取得します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:127
 #: ../doc/reference/cordova_4.1/camera/index.rst:170
-#: ../doc/reference/cordova_5.2/camera/index.rst:127
+#: ../doc/reference/cordova_5.2/camera/index.rst:129
 msgid "CameraOptions"
 msgstr "CameraOptions を参照のこと"
 
@@ -3746,26 +3746,26 @@ msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面か
 #: ../doc/reference/cordova_3.5/camera/index.rst:214
 #: ../doc/reference/cordova_4.1/camera/index.rst:254
 #: ../doc/reference/cordova_4.1/camera/index.rst:265
-#: ../doc/reference/cordova_5.2/camera/index.rst:564
-#: ../doc/reference/cordova_5.2/camera/index.rst:574
+#: ../doc/reference/cordova_5.2/camera/index.rst:566
+#: ../doc/reference/cordova_5.2/camera/index.rst:576
 msgid "Any ``cameraDirection`` value results in a back-facing photo."
 msgstr "``cameraDirection`` にどんな値を設定しても、背面のカメラを使用した撮影になります。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:216
 #: ../doc/reference/cordova_4.1/camera/index.rst:256
 #: ../doc/reference/cordova_4.1/camera/index.rst:267
-#: ../doc/reference/cordova_5.2/camera/index.rst:566
-#: ../doc/reference/cordova_5.2/camera/index.rst:588
-#: ../doc/reference/cordova_5.2/camera/index.rst:604
-#: ../doc/reference/cordova_5.2/camera/index.rst:638
+#: ../doc/reference/cordova_5.2/camera/index.rst:568
+#: ../doc/reference/cordova_5.2/camera/index.rst:590
+#: ../doc/reference/cordova_5.2/camera/index.rst:606
+#: ../doc/reference/cordova_5.2/camera/index.rst:640
 msgid "Ignores the ``allowEdit`` parameter."
 msgstr "``allowEdit`` パラメーターを無視します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:218
 #: ../doc/reference/cordova_4.1/camera/index.rst:258
 #: ../doc/reference/cordova_4.1/camera/index.rst:269
-#: ../doc/reference/cordova_5.2/camera/index.rst:568
-#: ../doc/reference/cordova_5.2/camera/index.rst:578
+#: ../doc/reference/cordova_5.2/camera/index.rst:570
+#: ../doc/reference/cordova_5.2/camera/index.rst:580
 msgid ""
 "``Camera.PictureSourceType.PHOTOLIBRARY`` and "
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM`` both display the same photo "
@@ -3855,7 +3855,7 @@ msgstr "**imageData**: Base64形式でエンコードした画像データ、\\ 
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:272
 #: ../doc/reference/cordova_4.1/camera/index.rst:326
-#: ../doc/reference/cordova_5.2/camera/index.rst:432
+#: ../doc/reference/cordova_5.2/camera/index.rst:434
 msgid "CameraPopoverHandle"
 msgstr "CameraPopoverHandle"
 
@@ -3891,7 +3891,7 @@ msgstr "``cameraPopoverOptions``: ``CameraPopoverOptions`` で、新しい位置
 #: ../doc/reference/cordova_3.5/camera/index.rst:328
 #: ../doc/reference/cordova_4.1/camera/index.rst:369
 #: ../doc/reference/cordova_4.1/camera/index.rst:385
-#: ../doc/reference/cordova_5.2/camera/index.rst:411
+#: ../doc/reference/cordova_5.2/camera/index.rst:413
 msgid "CameraPopoverOptions"
 msgstr "CameraPopoverOptions"
 
@@ -4905,7 +4905,7 @@ msgstr "**save**: 新しい住所録を、住所録データベースに保存�
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:83
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:143
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:191
-#: ../doc/reference/cordova_5.2/camera/index.rst:105
+#: ../doc/reference/cordova_5.2/camera/index.rst:107
 #: ../doc/reference/cordova_5.2/contacts/index.rst:265
 #: ../doc/reference/cordova_5.2/contacts/index.rst:421
 #: ../doc/reference/cordova_5.2/contacts/index.rst:551
@@ -5008,7 +5008,7 @@ msgstr "BlackBerry 10"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:90
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:148
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:196
-#: ../doc/reference/cordova_5.2/camera/index.rst:104
+#: ../doc/reference/cordova_5.2/camera/index.rst:106
 #: ../doc/reference/cordova_5.2/contacts/index.rst:104
 #: ../doc/reference/cordova_5.2/contacts/index.rst:151
 #: ../doc/reference/cordova_5.2/contacts/index.rst:268
@@ -5856,7 +5856,7 @@ msgstr "**buttonName**: ボタンの名前 ( *String*、任意、デフォルト
 
 #: ../doc/reference/cordova_3.5/dialogs/index.rst:85
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:100
-#: ../doc/reference/cordova_5.2/camera/index.rst:635
+#: ../doc/reference/cordova_5.2/camera/index.rst:637
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:186
 #: ../doc/reference/cordova_5.2/device/index.rst:139
 #: ../doc/reference/cordova_5.2/device/index.rst:241
@@ -7647,8 +7647,8 @@ msgid ""
 msgstr "ここ最近で開発されたアプリの場合、または、永続的なファイルシステムにファイルを以前保存したことがない場合、``Library`` の設定を推奨します。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:255
-#: ../doc/reference/cordova_5.2/camera/index.rst:532
-#: ../doc/reference/cordova_5.2/camera/index.rst:597
+#: ../doc/reference/cordova_5.2/camera/index.rst:534
+#: ../doc/reference/cordova_5.2/camera/index.rst:599
 #: ../doc/reference/cordova_5.2/contacts/index.rst:787
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:176
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:243
@@ -7805,11 +7805,11 @@ msgstr "定数"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:307
 #: ../doc/reference/cordova_4.1/file/index.rst:411
-#: ../doc/reference/cordova_5.2/camera/index.rst:285
-#: ../doc/reference/cordova_5.2/camera/index.rst:308
-#: ../doc/reference/cordova_5.2/camera/index.rst:330
-#: ../doc/reference/cordova_5.2/camera/index.rst:353
-#: ../doc/reference/cordova_5.2/camera/index.rst:405
+#: ../doc/reference/cordova_5.2/camera/index.rst:287
+#: ../doc/reference/cordova_5.2/camera/index.rst:310
+#: ../doc/reference/cordova_5.2/camera/index.rst:332
+#: ../doc/reference/cordova_5.2/camera/index.rst:355
+#: ../doc/reference/cordova_5.2/camera/index.rst:407
 #: ../doc/reference/cordova_5.2/file/index.rst:410
 msgid "1"
 msgstr "1"
@@ -7822,10 +7822,10 @@ msgstr "``NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:309
 #: ../doc/reference/cordova_4.1/file/index.rst:413
-#: ../doc/reference/cordova_5.2/camera/index.rst:287
-#: ../doc/reference/cordova_5.2/camera/index.rst:332
-#: ../doc/reference/cordova_5.2/camera/index.rst:355
-#: ../doc/reference/cordova_5.2/camera/index.rst:378
+#: ../doc/reference/cordova_5.2/camera/index.rst:289
+#: ../doc/reference/cordova_5.2/camera/index.rst:334
+#: ../doc/reference/cordova_5.2/camera/index.rst:357
+#: ../doc/reference/cordova_5.2/camera/index.rst:380
 #: ../doc/reference/cordova_5.2/file/index.rst:412
 msgid "2"
 msgstr "2"
@@ -7850,7 +7850,7 @@ msgstr "``ABORT_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:313
 #: ../doc/reference/cordova_4.1/file/index.rst:417
-#: ../doc/reference/cordova_5.2/camera/index.rst:380
+#: ../doc/reference/cordova_5.2/camera/index.rst:382
 #: ../doc/reference/cordova_5.2/file/index.rst:416
 msgid "4"
 msgstr "4"
@@ -7899,7 +7899,7 @@ msgstr "``INVALID_STATE_ERR``"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:321
 #: ../doc/reference/cordova_4.1/file/index.rst:425
-#: ../doc/reference/cordova_5.2/camera/index.rst:382
+#: ../doc/reference/cordova_5.2/camera/index.rst:384
 #: ../doc/reference/cordova_5.2/file/index.rst:424
 msgid "8"
 msgstr "8"
@@ -9034,7 +9034,7 @@ msgid ""
 msgstr "パターン ( pattern ) の取得時にエラーが発生した場合、``GlobalizationError`` オブジェクトをパラメーターとして使用して、``errorCallback`` を実行します。このときに使用するエラーコードは、``GlobalizationError.UNKNOWN\\_ERROR`` となります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:294
-#: ../doc/reference/cordova_5.2/camera/index.rst:108
+#: ../doc/reference/cordova_5.2/camera/index.rst:110
 #: ../doc/reference/cordova_5.2/contacts/index.rst:106
 #: ../doc/reference/cordova_5.2/contacts/index.rst:153
 #: ../doc/reference/cordova_5.2/contacts/index.rst:200
@@ -11734,14 +11734,14 @@ msgid ""
 msgstr "原則、イベントリスナーの登録には、 ``window.addEventListener`` を使用します。また、JavaScript からネイティブ機能へのアクセスは、``deviceready`` イベントの発火後に行います。"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:38
-#: ../doc/reference/cordova_5.2/camera/index.rst:39
+#: ../doc/reference/cordova_5.2/camera/index.rst:41
 msgid ""
 "This document is based on the original Cordova docs available at `Cordova "
 "Docs <https://github.com/apache/cordova-plugin-camera>`_."
 msgstr "このプラグインの詳細は、`こちら ( GitHub ) <https://github.com/apache/cordova-plugin-camera>`_ をご確認ください。"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:40
-#: ../doc/reference/cordova_5.2/camera/index.rst:41
+#: ../doc/reference/cordova_5.2/camera/index.rst:43
 msgid ""
 "This plugin defines a global ``navigator.camera`` object, which provides an "
 "API for taking pictures and for choosing images from the system's image "
@@ -11758,19 +11758,19 @@ msgid ""
 msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:90
-#: ../doc/reference/cordova_5.2/camera/index.rst:92
+#: ../doc/reference/cordova_5.2/camera/index.rst:94
 msgid ""
 "Save the data locally (``LocalStorage``, `Lawnchair "
 "<http://brianleroux.github.com/lawnchair/>`__, etc.)"
 msgstr "ローカルへのデータの保存 ( ``LocalStorage``、`Lawnchair <http://brianleroux.github.com/lawnchair/>`__ など )"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:104
-#: ../doc/reference/cordova_5.2/camera/index.rst:502
+#: ../doc/reference/cordova_5.2/camera/index.rst:504
 msgid "Preferences (iOS)"
 msgstr "Preference ( iOS が対象 )"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:106
-#: ../doc/reference/cordova_5.2/camera/index.rst:504
+#: ../doc/reference/cordova_5.2/camera/index.rst:506
 msgid ""
 "**CameraUsesGeolocation** (boolean, defaults to false). For capturing JPEGs,"
 " set to true to get geolocation data in the EXIF header. This will trigger a"
@@ -11786,8 +11786,8 @@ msgstr "**CameraUsesGeolocation** ( 真偽値、デフォルトは、false )。J
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:202
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:573
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:640
-#: ../doc/reference/cordova_5.2/camera/index.rst:513
-#: ../doc/reference/cordova_5.2/camera/index.rst:561
+#: ../doc/reference/cordova_5.2/camera/index.rst:515
+#: ../doc/reference/cordova_5.2/camera/index.rst:563
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:166
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:229
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:328
@@ -11799,7 +11799,7 @@ msgid "Amazon Fire OS Quirks"
 msgstr "Amazon Fire OS 特有の動作"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:115
-#: ../doc/reference/cordova_5.2/camera/index.rst:515
+#: ../doc/reference/cordova_5.2/camera/index.rst:517
 msgid ""
 "Amazon Fire OS uses intents to launch the camera activity on the device to "
 "capture images, and on phones with low memory, the Cordova activity may be "
@@ -11846,7 +11846,7 @@ msgid ""
 msgstr "**cameraDirection**: 使用するカメラを選択します ( 前面または背面のカメラ )。デフォルトは、BACK です。``navigator.camera.Direction`` で定義します。 *(Number)*"
 
 #: ../doc/reference/cordova_4.1/camera/index.rst:278
-#: ../doc/reference/cordova_5.2/camera/index.rst:622
+#: ../doc/reference/cordova_5.2/camera/index.rst:624
 msgid ""
 "When using ``destinationType.FILE_URI``, photos are saved in the "
 "application's temporary directory. The contents of the application's "
@@ -11874,7 +11874,7 @@ msgstr "このプラグインを使用するには :ref:``org.apache.cordova.dev
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:110
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:170
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:218
-#: ../doc/reference/cordova_5.2/camera/index.rst:525
+#: ../doc/reference/cordova_5.2/camera/index.rst:527
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:127
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:156
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:235
@@ -12986,7 +12986,7 @@ msgid "Immediately cancels any currently running vibration."
 msgstr "振動を即時に停止します。"
 
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:58
-#: ../doc/reference/cordova_5.2/camera/index.rst:61
+#: ../doc/reference/cordova_5.2/camera/index.rst:63
 #: ../doc/reference/cordova_5.2/contacts/index.rst:62
 #: ../doc/reference/cordova_5.2/crosswalk/index.rst:46
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:64
@@ -13015,7 +13015,7 @@ msgid ""
 msgstr "このプラグインを使用する場合には、Monaca クラウド IDE の [ Cordova プラグインの管理 ] 上で、``Battery`` プラグインを :ref:`有効 <add_plugins>` にします。"
 
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:64
-#: ../doc/reference/cordova_5.2/camera/index.rst:68
+#: ../doc/reference/cordova_5.2/camera/index.rst:70
 #: ../doc/reference/cordova_5.2/contacts/index.rst:68
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:83
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:86
@@ -13063,7 +13063,7 @@ msgstr "Tizen"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:91
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:150
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:198
-#: ../doc/reference/cordova_5.2/camera/index.rst:103
+#: ../doc/reference/cordova_5.2/camera/index.rst:105
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:75
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:78
 #: ../doc/reference/cordova_5.2/device/index.rst:91
@@ -13168,7 +13168,7 @@ msgid ""
 msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充電中か否かにかかわらず、``batterylow`` が発火します。"
 
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:226
-#: ../doc/reference/cordova_5.2/camera/index.rst:653
+#: ../doc/reference/cordova_5.2/camera/index.rst:655
 #: ../doc/reference/cordova_5.2/contacts/index.rst:822
 #: ../doc/reference/cordova_5.2/crosswalk/index.rst:111
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:228
@@ -13199,7 +13199,7 @@ msgid ":ref:`third_party_cordova_index`"
 msgstr ":ref:`third_party_cordova_index`"
 
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:227
-#: ../doc/reference/cordova_5.2/camera/index.rst:654
+#: ../doc/reference/cordova_5.2/camera/index.rst:656
 #: ../doc/reference/cordova_5.2/contacts/index.rst:823
 #: ../doc/reference/cordova_5.2/crosswalk/index.rst:112
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:229
@@ -13228,7 +13228,7 @@ msgstr ":ref:`third_party_cordova_index`"
 msgid ":ref:`cordova_core_plugins`"
 msgstr ":ref:`cordova_core_plugins`"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:43
+#: ../doc/reference/cordova_5.2/camera/index.rst:45
 #: ../doc/reference/cordova_5.2/contacts/index.rst:43
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:45
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:44
@@ -13237,24 +13237,24 @@ msgid ""
 " available until after the ``deviceready`` event."
 msgstr "このオブジェクトは、グローバルスコープ ( ``navigator`` ) に属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:63
+#: ../doc/reference/cordova_5.2/camera/index.rst:65
 msgid ""
 "In order to use this plugin, please :ref:`enable <add_plugins>` ``Camera`` "
 "plugin in Monaca Cloud IDE."
 msgstr "このプラグインを使用する場合には、Monaca クラウド IDE の [ Cordova プラグインの管理 ] 上で、``Camera`` プラグインを :ref:`有効 <add_plugins>` にします。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:74
+#: ../doc/reference/cordova_5.2/camera/index.rst:76
 msgid "camera.getPicture(successCallback, errorCallback, options)"
 msgstr "camera.getPicture(successCallback, errorCallback, options)"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:76
+#: ../doc/reference/cordova_5.2/camera/index.rst:78
 msgid ""
 "Takes a photo using the camera, or retrieves a photo from the device's image"
 " gallery. The image is passed to the success callback as a base64-encoded "
 "``String``, or as the URI for the image file."
 msgstr "カメラでの写真撮影、または、端末の画像ギャラリーから、画像を取得します。画像は、Base64 形式の ``文字列`` として、または、画像ファイルを指す ``URI`` として、成功時のコールバック関数に引き渡されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:78
+#: ../doc/reference/cordova_5.2/camera/index.rst:80
 msgid ""
 "The ``camera.getPicture`` function opens the device's default camera "
 "application that allows users to snap pictures by default - this behavior "
@@ -13263,11 +13263,11 @@ msgid ""
 "camera application closes and the application is restored."
 msgstr "``camera.getPicture`` 関数では、端末にインストールされている標準のカメラアプリを起動させます ( ``Camera.sourceType`` が ``Camera.PictureSourceType.CAMERA`` に設定されている場合の動作 )。写真撮影後は、カメラアプリが終了し、使用していたアプリ ( カメラアプリの起動前になんらかのアプリを使用していた場合 ) が開きます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:102
+#: ../doc/reference/cordova_5.2/camera/index.rst:104
 msgid "Blackberry10"
 msgstr "Blackberry10"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:107
+#: ../doc/reference/cordova_5.2/camera/index.rst:109
 #: ../doc/reference/cordova_5.2/contacts/index.rst:202
 #: ../doc/reference/cordova_5.2/contacts/index.rst:272
 #: ../doc/reference/cordova_5.2/contacts/index.rst:428
@@ -13306,93 +13306,20 @@ msgstr "Blackberry10"
 msgid "Windows"
 msgstr "Windows"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:109
+#: ../doc/reference/cordova_5.2/camera/index.rst:111
 msgid "Ubuntu"
 msgstr "Ubuntu"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:111
+#: ../doc/reference/cordova_5.2/camera/index.rst:113
 msgid ":ref:`More examples <camera_getpicture_errata>`"
 msgstr ":ref:`使用例 <camera_getpicture_errata>`"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:113
+#: ../doc/reference/cordova_5.2/camera/index.rst:115
 msgid ":ref:`Quirks <amazon_fire_os_quirks>`"
 msgstr ":ref:`各 OS 特有の動作 <amazon_fire_os_quirks>`"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:116
-#: ../doc/reference/cordova_5.2/camera/index.rst:151
-#: ../doc/reference/cordova_5.2/camera/index.rst:178
-#: ../doc/reference/cordova_5.2/camera/index.rst:197
-#: ../doc/reference/cordova_5.2/camera/index.rst:228
-#: ../doc/reference/cordova_5.2/camera/index.rst:273
-#: ../doc/reference/cordova_5.2/camera/index.rst:296
-#: ../doc/reference/cordova_5.2/camera/index.rst:318
-#: ../doc/reference/cordova_5.2/camera/index.rst:341
-#: ../doc/reference/cordova_5.2/camera/index.rst:366
-#: ../doc/reference/cordova_5.2/camera/index.rst:393
-msgid "Kind"
-msgstr "解説"
-
 #: ../doc/reference/cordova_5.2/camera/index.rst:118
 #: ../doc/reference/cordova_5.2/camera/index.rst:153
-msgid "static method of :ref:`camera <api_reference>`"
-msgstr ":ref:`camera <api_reference>` の詳細または使用例を、次に記します。"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:121
-#: ../doc/reference/cordova_5.2/camera/index.rst:183
-#: ../doc/reference/cordova_5.2/camera/index.rst:202
-#: ../doc/reference/cordova_5.2/camera/index.rst:416
-msgid "Param"
-msgstr "パラメーター"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:123
-msgid "successCallback"
-msgstr "successCallback"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:123
-msgid ":ref:`onSuccess <camera_onsuccess_function>`"
-msgstr ":ref:`onSuccess <camera_onsuccess_function>` を参照のこと"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:125
-msgid "errorCallback"
-msgstr "errorCallback"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:125
-msgid ":ref:`onError <camera_onerror_function>`"
-msgstr ":ref:`onError <camera_onerror_function>` を参照のこと"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:127
-msgid "options"
-msgstr "options"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:127
-msgid ":ref:`CameraOptions <camera_cameraoptions_Object>`"
-msgstr ":ref:`cameraOptions <camera_cameraoptions_Object>` を参照のこと"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:133
-msgid "camera.onSuccess: function"
-msgstr "camera.onSuccess : 関数"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:141
-msgid "camera.cleanup()"
-msgstr "camera.cleanup()"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:143
-msgid ""
-"Removes intermediate image files that are kept in temporary storage after "
-"calling :ref:`camera.getPicture <camera_get_picture>`. Applies only when the"
-" value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` "
-"and the ``Camera.destinationType`` equals "
-"``Camera.DestinationType.FILE_URI``."
-msgstr ":ref:`camera.getPicture <camera_get_picture>` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:173
-msgid "camera.onError : function"
-msgstr "camera.onError : 関数"
-
-#: ../doc/reference/cordova_5.2/camera/index.rst:175
-msgid "Callback function that provides an error message."
-msgstr "エラーメッセージを出力するコールバック関数です。"
-
 #: ../doc/reference/cordova_5.2/camera/index.rst:180
 #: ../doc/reference/cordova_5.2/camera/index.rst:199
 #: ../doc/reference/cordova_5.2/camera/index.rst:230
@@ -13402,386 +13329,459 @@ msgstr "エラーメッセージを出力するコールバック関数です。
 #: ../doc/reference/cordova_5.2/camera/index.rst:343
 #: ../doc/reference/cordova_5.2/camera/index.rst:368
 #: ../doc/reference/cordova_5.2/camera/index.rst:395
+msgid "Kind"
+msgstr "解説"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:120
+#: ../doc/reference/cordova_5.2/camera/index.rst:155
+msgid "static method of :ref:`camera <api_reference>`"
+msgstr ":ref:`camera <api_reference>` の詳細または使用例を、次に記します。"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:123
+#: ../doc/reference/cordova_5.2/camera/index.rst:185
+#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:418
+msgid "Param"
+msgstr "パラメーター"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:125
+msgid "successCallback"
+msgstr "successCallback"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:125
+msgid ":ref:`onSuccess <camera_onsuccess_function>`"
+msgstr ":ref:`onSuccess <camera_onsuccess_function>` を参照のこと"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:127
+msgid "errorCallback"
+msgstr "errorCallback"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:127
+msgid ":ref:`onError <camera_onerror_function>`"
+msgstr ":ref:`onError <camera_onerror_function>` を参照のこと"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:129
+msgid "options"
+msgstr "options"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:129
+msgid ":ref:`CameraOptions <camera_cameraoptions_Object>`"
+msgstr ":ref:`cameraOptions <camera_cameraoptions_Object>` を参照のこと"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:135
+msgid "camera.onSuccess: function"
+msgstr "camera.onSuccess : 関数"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:143
+msgid "camera.cleanup()"
+msgstr "camera.cleanup()"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:145
+msgid ""
+"Removes intermediate image files that are kept in temporary storage after "
+"calling :ref:`camera.getPicture <camera_get_picture>`. Applies only when the"
+" value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` "
+"and the ``Camera.destinationType`` equals "
+"``Camera.DestinationType.FILE_URI``."
+msgstr ":ref:`camera.getPicture <camera_get_picture>` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:175
+msgid "camera.onError : function"
+msgstr "camera.onError : 関数"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:177
+msgid "Callback function that provides an error message."
+msgstr "エラーメッセージを出力するコールバック関数です。"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:182
+#: ../doc/reference/cordova_5.2/camera/index.rst:201
+#: ../doc/reference/cordova_5.2/camera/index.rst:232
+#: ../doc/reference/cordova_5.2/camera/index.rst:277
+#: ../doc/reference/cordova_5.2/camera/index.rst:300
+#: ../doc/reference/cordova_5.2/camera/index.rst:322
+#: ../doc/reference/cordova_5.2/camera/index.rst:345
+#: ../doc/reference/cordova_5.2/camera/index.rst:370
+#: ../doc/reference/cordova_5.2/camera/index.rst:397
 msgid "static typedef of :ref:`camera <api_reference>`"
 msgstr ":ref:`camera <api_reference>` の詳細または使用例を、次に記します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:185
+#: ../doc/reference/cordova_5.2/camera/index.rst:187
 msgid "message"
 msgstr "message"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:185
+#: ../doc/reference/cordova_5.2/camera/index.rst:187
 msgid "The message is provided by the device's native code."
 msgstr "端末のネイティブコード側で message が出力され、送られてきます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:192
+#: ../doc/reference/cordova_5.2/camera/index.rst:194
 msgid "camera.onSuccess : function"
 msgstr "camera.onSuccess : 関数 "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:194
+#: ../doc/reference/cordova_5.2/camera/index.rst:196
 msgid "Callback function that provides the image data."
 msgstr "画像データを返すコールバック関数です。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:206
 msgid "imageData"
 msgstr "imageData"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:204
+#: ../doc/reference/cordova_5.2/camera/index.rst:206
 msgid ""
 "Base64 encoding of the image data, *or* the image file URI, depending on "
 ":ref:`cameraOptions <camera_cameraoptions_Object>`  in effect."
 msgstr "画像データは Base64 エンコード形式です。*または*、画像ファイルを指し示す File URL が使用されます。どちらになるかは、:ref:`cameraOptions <camera_cameraoptions_Object>` の設定次第です。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:223
+#: ../doc/reference/cordova_5.2/camera/index.rst:225
 msgid "camera.CameraOptions : Object"
 msgstr "camera.CameraOptions : オブジェクト "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:225
+#: ../doc/reference/cordova_5.2/camera/index.rst:227
 msgid ""
 "Optional parameters to customize the camera settings. :ref:`Quirks "
 "<amazon_fire_os_quirks>`"
 msgstr "カメラの設定をカスタマイズするための任意のパラメーターです。サポート状況・設定時の動作が各 OS により異なりますので、詳細は、:ref:`特有の動作 <amazon_fire_os_quirks>` をご確認ください。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:236
-#: ../doc/reference/cordova_5.2/camera/index.rst:281
-#: ../doc/reference/cordova_5.2/camera/index.rst:304
-#: ../doc/reference/cordova_5.2/camera/index.rst:326
-#: ../doc/reference/cordova_5.2/camera/index.rst:349
-#: ../doc/reference/cordova_5.2/camera/index.rst:374
-#: ../doc/reference/cordova_5.2/camera/index.rst:401
+#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:376
+#: ../doc/reference/cordova_5.2/camera/index.rst:403
 msgid "Name"
 msgstr "名前"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:240
 msgid "quality"
 msgstr "quality"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:240
 msgid "50"
 msgstr "50"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:238
+#: ../doc/reference/cordova_5.2/camera/index.rst:240
 msgid ""
 "Quality of the saved image, expressed as a range of 0-100, where 100 is "
 "typically full resolution with no loss from file compression. (Note that "
 "information about the camera's resolution is unavailable.)"
 msgstr "保存時の画像の画質です。0 から 100 の間で設定します。100 に設定した場合、フル解像度 ( ファイル圧縮によるロスはなし ) となります。なお、カメラ側の解像度に関する情報は取得できません。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:240
+#: ../doc/reference/cordova_5.2/camera/index.rst:242
 msgid "destinationType"
 msgstr "destinationType"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:240
+#: ../doc/reference/cordova_5.2/camera/index.rst:242
 msgid ":ref:`DestinationType <camera_destinationtype>`"
 msgstr ":ref:`DestinationType <camera_destinationtype>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:240
+#: ../doc/reference/cordova_5.2/camera/index.rst:242
 msgid "FILE\\_URI"
 msgstr "FILE\\_URI"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:240
+#: ../doc/reference/cordova_5.2/camera/index.rst:242
 msgid "Choose the format of the return value."
 msgstr "戻り値の形式を選択します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:242
+#: ../doc/reference/cordova_5.2/camera/index.rst:244
 msgid "sourceType"
 msgstr "sourceType"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:242
+#: ../doc/reference/cordova_5.2/camera/index.rst:244
 msgid ":ref:`PictureSourceType <camera_picturesourcetype>`"
 msgstr ":ref:`PictureSourceType <camera_picturesourcetype>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:242
-#: ../doc/reference/cordova_5.2/camera/index.rst:353
+#: ../doc/reference/cordova_5.2/camera/index.rst:244
+#: ../doc/reference/cordova_5.2/camera/index.rst:355
 msgid "CAMERA"
 msgstr "CAMERA"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:242
+#: ../doc/reference/cordova_5.2/camera/index.rst:244
 msgid "Set the source of the picture."
 msgstr "画像の取得先を設定します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:244
+#: ../doc/reference/cordova_5.2/camera/index.rst:246
 msgid "allowEdit"
 msgstr "allowEdit"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:244
-#: ../doc/reference/cordova_5.2/camera/index.rst:254
+#: ../doc/reference/cordova_5.2/camera/index.rst:246
 #: ../doc/reference/cordova_5.2/camera/index.rst:256
+#: ../doc/reference/cordova_5.2/camera/index.rst:258
 #: ../doc/reference/monaca_api/cloud/criteria.rst:109
 msgid "Boolean"
 msgstr "真偽値"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:244
+#: ../doc/reference/cordova_5.2/camera/index.rst:246
 msgid "Allow simple editing of image before selection."
 msgstr "画像の選択前に、簡単な編集を許可します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:246
+#: ../doc/reference/cordova_5.2/camera/index.rst:248
 msgid "encodingType"
 msgstr "encodingType"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:246
+#: ../doc/reference/cordova_5.2/camera/index.rst:248
 msgid ":ref:`EncodingType <camera_encodingtype>`"
 msgstr ":ref:`EncodingType <camera_encodingtype>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:246
-#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:248
+#: ../doc/reference/cordova_5.2/camera/index.rst:308
 msgid "JPEG"
 msgstr "JPEG"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:246
+#: ../doc/reference/cordova_5.2/camera/index.rst:248
 msgid "Choose the returned image file's encoding."
 msgstr "返される画像ファイルのエンコード方式を選択します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:248
+#: ../doc/reference/cordova_5.2/camera/index.rst:250
 msgid "targetWidth"
 msgstr "targetWidth"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:248
+#: ../doc/reference/cordova_5.2/camera/index.rst:250
 msgid ""
 "Width in pixels to scale image. Must be used with ``targetHeight``. Aspect "
 "ratio remains constant."
 msgstr "画像を拡大・縮小するための幅を、ピクセルで指定します。``targetHeight`` と共に使用します。アスペクト比は、一定に保持されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:250
+#: ../doc/reference/cordova_5.2/camera/index.rst:252
 msgid "targetHeight"
 msgstr "targetHeight"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:250
+#: ../doc/reference/cordova_5.2/camera/index.rst:252
 msgid ""
 "Height in pixels to scale image. Must be used with ``targetWidth``. Aspect "
 "ratio remains constant."
 msgstr "画像を拡大・縮小するための縦の長さを、ピクセルで指定します。``targetWidth`` と共に使用します。アスペクト比は、一定に保持されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:252
+#: ../doc/reference/cordova_5.2/camera/index.rst:254
 msgid "mediaType"
 msgstr "mediaType"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:252
+#: ../doc/reference/cordova_5.2/camera/index.rst:254
 msgid ":ref:`MediaType <camera_mediatype>`"
 msgstr ":ref:`MediaType <camera_mediatype>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:252
-#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:254
+#: ../doc/reference/cordova_5.2/camera/index.rst:330
 msgid "PICTURE"
 msgstr "PICTURE"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:252
+#: ../doc/reference/cordova_5.2/camera/index.rst:254
 msgid ""
 "Set the type of media to select from. Only works when ``PictureSourceType`` "
 "is ``PHOTOLIBRARY`` or ``SAVEDPHOTOALBUM``."
 msgstr "画像の取得元のメディアの種類を指定します。``PictureSourceType`` に ``PHOTOLIBRARY`` または ``SAVEDPHOTOALBUM`` が指定されている場合のみ、この設定が有効です。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:254
+#: ../doc/reference/cordova_5.2/camera/index.rst:256
 msgid "correctOrientation"
 msgstr "correctOrientation"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:254
+#: ../doc/reference/cordova_5.2/camera/index.rst:256
 msgid ""
 "Rotate the image to correct for the orientation of the device during "
 "capture."
 msgstr "キャプチャー時の端末の向きになるように、画像を回転させます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:256
+#: ../doc/reference/cordova_5.2/camera/index.rst:258
 msgid "saveToPhotoAlbum"
 msgstr "saveToPhotoAlbum"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:256
+#: ../doc/reference/cordova_5.2/camera/index.rst:258
 msgid "Save the image to the photo album on the device after capture."
 msgstr "キャプチャー後、端末のフォトアルバムに、画像を保存します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:258
+#: ../doc/reference/cordova_5.2/camera/index.rst:260
 msgid "popoverOptions"
 msgstr "popoverOptions"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:258
+#: ../doc/reference/cordova_5.2/camera/index.rst:260
 msgid ":ref:`CameraPopoverOptions <camera_popover_options>`"
 msgstr ":ref:`CameraPopoverOptions <camera_popover_options>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:258
+#: ../doc/reference/cordova_5.2/camera/index.rst:260
 msgid "iOS-only options that specify popover location in iPad."
 msgstr "iOS 専用のオプションです。iPad でのポップオーバー ( popover ) の位置を指定します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:260
+#: ../doc/reference/cordova_5.2/camera/index.rst:262
 msgid "cameraDirection"
 msgstr "cameraDirection"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:260
+#: ../doc/reference/cordova_5.2/camera/index.rst:262
 msgid ":ref:`Direction <camera_direction>`"
 msgstr ":ref:`Direction <camera_direction>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:260
-#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:262
+#: ../doc/reference/cordova_5.2/camera/index.rst:405
 msgid "BACK"
 msgstr "BACK"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:260
+#: ../doc/reference/cordova_5.2/camera/index.rst:262
 msgid "Choose the camera to use (front- or back-facing)."
 msgstr "使用するカメラを選択します ( 前面または背面のカメラ )"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:270
+#: ../doc/reference/cordova_5.2/camera/index.rst:272
 msgid "Camera.DestinationType : enum"
 msgstr "Camera.DestinationType : パラメーターの一覧 "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:278
-#: ../doc/reference/cordova_5.2/camera/index.rst:301
-#: ../doc/reference/cordova_5.2/camera/index.rst:323
-#: ../doc/reference/cordova_5.2/camera/index.rst:346
-#: ../doc/reference/cordova_5.2/camera/index.rst:371
-#: ../doc/reference/cordova_5.2/camera/index.rst:398
+#: ../doc/reference/cordova_5.2/camera/index.rst:280
+#: ../doc/reference/cordova_5.2/camera/index.rst:303
+#: ../doc/reference/cordova_5.2/camera/index.rst:325
+#: ../doc/reference/cordova_5.2/camera/index.rst:348
+#: ../doc/reference/cordova_5.2/camera/index.rst:373
+#: ../doc/reference/cordova_5.2/camera/index.rst:400
 msgid "Property"
 msgstr "一覧表"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:285
 msgid "DATA_URL"
 msgstr "DATA_URL"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:283
-#: ../doc/reference/cordova_5.2/camera/index.rst:306
-#: ../doc/reference/cordova_5.2/camera/index.rst:328
-#: ../doc/reference/cordova_5.2/camera/index.rst:351
-#: ../doc/reference/cordova_5.2/camera/index.rst:376
-#: ../doc/reference/cordova_5.2/camera/index.rst:403
-#: ../doc/reference/cordova_5.2/camera/index.rst:418
+#: ../doc/reference/cordova_5.2/camera/index.rst:285
+#: ../doc/reference/cordova_5.2/camera/index.rst:308
+#: ../doc/reference/cordova_5.2/camera/index.rst:330
+#: ../doc/reference/cordova_5.2/camera/index.rst:353
+#: ../doc/reference/cordova_5.2/camera/index.rst:378
+#: ../doc/reference/cordova_5.2/camera/index.rst:405
+#: ../doc/reference/cordova_5.2/camera/index.rst:420
 msgid "0"
 msgstr "0"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:283
+#: ../doc/reference/cordova_5.2/camera/index.rst:285
 msgid "Return base64 encoded string"
 msgstr "Base64 エンコード形式の文字列を返します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:285
+#: ../doc/reference/cordova_5.2/camera/index.rst:287
 msgid "FILE_URI"
 msgstr "FILE_URI"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:285
+#: ../doc/reference/cordova_5.2/camera/index.rst:287
 msgid "Return file uri (content://media/external/images/media/2 for Android)"
 msgstr "File URI を返します ( Android では、content://media/external/images/media/2 )"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:287
+#: ../doc/reference/cordova_5.2/camera/index.rst:289
 msgid "NATIVE_URI"
 msgstr "NATIVE_URI"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:287
+#: ../doc/reference/cordova_5.2/camera/index.rst:289
 msgid "Return native uri (eg. asset-library://... for iOS)"
 msgstr "ネイティブ側を指す URI を返します ( iOS では、asset-library:// )"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:293
+#: ../doc/reference/cordova_5.2/camera/index.rst:295
 msgid "Camera.EncodingType : enum"
 msgstr "Camera.EncodingType : パラメーターの一覧 "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:306
+#: ../doc/reference/cordova_5.2/camera/index.rst:308
 msgid "Return JPEG encoded image"
 msgstr "JPEG 形式の画像を返します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:308
+#: ../doc/reference/cordova_5.2/camera/index.rst:310
 msgid "PNG"
 msgstr "PNG"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:308
+#: ../doc/reference/cordova_5.2/camera/index.rst:310
 msgid "Return PNG encoded image"
 msgstr "PNG 形式の画像を返します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:315
+#: ../doc/reference/cordova_5.2/camera/index.rst:317
 msgid "Camera.MediaType : enum"
 msgstr "Camera.MediaType : パラメーターの一覧"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:328
+#: ../doc/reference/cordova_5.2/camera/index.rst:330
 msgid ""
 "Allow selection of still pictures only. DEFAULT. Will return format "
 "specified via DestinationType"
 msgstr "静止画を選択できます。こちらがデフォルト設定となります。戻り値は、DestinationType で設定されている形式です。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:330
+#: ../doc/reference/cordova_5.2/camera/index.rst:332
 msgid "VIDEO"
 msgstr "VIDEO"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:330
+#: ../doc/reference/cordova_5.2/camera/index.rst:332
 msgid "Allow selection of video only, ONLY RETURNS URL"
 msgstr "ビデオを選択できます。戻り値は、URL です。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:332
+#: ../doc/reference/cordova_5.2/camera/index.rst:334
 msgid "ALLMEDIA"
 msgstr "ALLMEDIA"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:332
+#: ../doc/reference/cordova_5.2/camera/index.rst:334
 msgid "Allow selection from all media types"
 msgstr "メディアの種類を選択できます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:338
+#: ../doc/reference/cordova_5.2/camera/index.rst:340
 msgid "Camera.PictureSourceType : enum"
 msgstr "Camera.PictureSourceType : パラメーターの一覧"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:353
 msgid "PHOTOLIBRARY"
 msgstr "PHOTOLIBRARY"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:351
+#: ../doc/reference/cordova_5.2/camera/index.rst:353
 msgid ""
 "Choose image from picture library (same as SAVEDPHOTOALBUM for Android)"
 msgstr "写真のライブラリーから画像を選択できます ( Android の SAVEDPHOTOALBUM に相当 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:353
+#: ../doc/reference/cordova_5.2/camera/index.rst:355
 msgid "Take picture from camera"
 msgstr "カメラから写真を取得します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:355
+#: ../doc/reference/cordova_5.2/camera/index.rst:357
 msgid "SAVEDPHOTOALBUM"
 msgstr "SAVEDPHOTOALBUM"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:355
+#: ../doc/reference/cordova_5.2/camera/index.rst:357
 msgid "Choose image from picture library (same as PHOTOLIBRARY for Android)"
 msgstr "写真のライブラリーから画像を選択できます ( Android の PHOTOLIBRARY に相当 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:361
+#: ../doc/reference/cordova_5.2/camera/index.rst:363
 msgid "Camera.PopoverArrowDirection : enum"
 msgstr "Camera.PopoverArrowDirection : パラメーターの一覧"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:363
+#: ../doc/reference/cordova_5.2/camera/index.rst:365
 msgid ""
 "Matches iOS UIPopoverArrowDirection constants to specify arrow location on "
 "popover."
 msgstr "iOS の UIPopoverArrowDirection に相当します。ポップオーバーの矢印の位置を指定します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:376
+#: ../doc/reference/cordova_5.2/camera/index.rst:378
 msgid "ARROW_UP"
 msgstr "ARROW_UP"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:378
+#: ../doc/reference/cordova_5.2/camera/index.rst:380
 msgid "ARROW_DOWN"
 msgstr "ARROW_DOWN"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:380
+#: ../doc/reference/cordova_5.2/camera/index.rst:382
 msgid "ARROW_LEFT"
 msgstr "ARROW_LEFT"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:382
+#: ../doc/reference/cordova_5.2/camera/index.rst:384
 msgid "ARROW_RIGHT"
 msgstr "ARROW_RIGHT"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:384
+#: ../doc/reference/cordova_5.2/camera/index.rst:386
 msgid "ARROW_ANY"
 msgstr "ARROW_ANY"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:384
+#: ../doc/reference/cordova_5.2/camera/index.rst:386
 msgid "15"
 msgstr "15"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:390
+#: ../doc/reference/cordova_5.2/camera/index.rst:392
 msgid "Camera.Direction : enum"
 msgstr "Camera.Direction : パラメーターの一覧"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:403
+#: ../doc/reference/cordova_5.2/camera/index.rst:405
 msgid "Use the back-facing camera"
 msgstr "背面のカメラを使用します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:405
+#: ../doc/reference/cordova_5.2/camera/index.rst:407
 msgid "FRONT"
 msgstr "FRONT"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:405
+#: ../doc/reference/cordova_5.2/camera/index.rst:407
 msgid "Use the front-facing camera"
 msgstr "前面のカメラを使用します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:413
+#: ../doc/reference/cordova_5.2/camera/index.rst:415
 msgid ""
 "iOS-only parameters that specify the anchor element location and arrow "
 "direction of the popover when selecting images from an iPad's library or "
@@ -13790,14 +13790,14 @@ msgid ""
 "for orientation changes when specifying the anchor element location."
 msgstr "iOS 専用のパラメーターです。iPad のライブラリまたはフォトアルバムから、画像を選択するときのポップオーバー ( popover ) の位置とその矢印の方向を指定するときに使用します。画面のオリエンテーション ( および、矢印の表示位置 ) に合うように、ポップオーバーの大きさが修正される場合もあります。「 オリエンテーションは移り変わること 」 を念頭に置いて、矢印の位置を設定することを推奨します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:418
+#: ../doc/reference/cordova_5.2/camera/index.rst:420
 msgid "[x]"
 msgstr "[x]"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:418
 #: ../doc/reference/cordova_5.2/camera/index.rst:420
 #: ../doc/reference/cordova_5.2/camera/index.rst:422
 #: ../doc/reference/cordova_5.2/camera/index.rst:424
+#: ../doc/reference/cordova_5.2/camera/index.rst:426
 #: ../doc/reference/monaca_api/cloud/collection.rst:80
 #: ../doc/reference/monaca_api/cloud/collection.rst:154
 #: ../doc/reference/monaca_api/cloud/collection.rst:376
@@ -13805,83 +13805,83 @@ msgstr "[x]"
 msgid "Number"
 msgstr "数値"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:418
+#: ../doc/reference/cordova_5.2/camera/index.rst:420
 msgid "x pixel coordinate of screen element onto which to anchor the popover."
 msgstr "ポップオーバーを置く画面構成要素上の ｘ 座標です ( ピクセル単位 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:420
+#: ../doc/reference/cordova_5.2/camera/index.rst:422
 msgid "[y]"
 msgstr "[y]"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:420
+#: ../doc/reference/cordova_5.2/camera/index.rst:422
 msgid "32"
 msgstr "32"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:420
+#: ../doc/reference/cordova_5.2/camera/index.rst:422
 msgid "y pixel coordinate of screen element onto which to anchor the popover."
 msgstr "ポップオーバーを置く画面構成要素上の y 座標です ( ピクセル単位 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:422
+#: ../doc/reference/cordova_5.2/camera/index.rst:424
 msgid "[width]"
 msgstr "[width]"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:422
+#: ../doc/reference/cordova_5.2/camera/index.rst:424
 msgid "320"
 msgstr "320"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:422
+#: ../doc/reference/cordova_5.2/camera/index.rst:424
 msgid ""
 "width, in pixels, of the screen element onto which to anchor the popover."
 msgstr "ポップオーバーを置く画面構成要素の幅です ( ピクセル単位 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:424
+#: ../doc/reference/cordova_5.2/camera/index.rst:426
 msgid "[height]"
 msgstr "[height]"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:424
+#: ../doc/reference/cordova_5.2/camera/index.rst:426
 msgid "480"
 msgstr "480"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:424
+#: ../doc/reference/cordova_5.2/camera/index.rst:426
 msgid ""
 "height, in pixels, of the screen element onto which to anchor the popover."
 msgstr "ポップオーバーを置く画面構成要素の高さです ( ピクセル単位 )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:426
+#: ../doc/reference/cordova_5.2/camera/index.rst:428
 msgid "[arrowDir]"
 msgstr "[arrowDir]"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:426
+#: ../doc/reference/cordova_5.2/camera/index.rst:428
 msgid ":ref:`PopoverArrowDirection <camera_popover_arrow_direction>`"
 msgstr ":ref:`PopoverArrowDirection <camera_popover_arrow_direction>` を参照のこと"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:426
+#: ../doc/reference/cordova_5.2/camera/index.rst:428
 msgid "ARROW\\_ANY"
 msgstr "ARROW\\_ANY"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:426
+#: ../doc/reference/cordova_5.2/camera/index.rst:428
 msgid "Direction the arrow on the popover should point."
 msgstr "ポップオーバーに付く矢印の向きです。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:434
+#: ../doc/reference/cordova_5.2/camera/index.rst:436
 msgid "A handle to an image picker popover."
 msgstr "画像選択用のポップオーバーの処理に使用します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:463
+#: ../doc/reference/cordova_5.2/camera/index.rst:465
 msgid "``camera.getPicture`` Errata"
 msgstr "``camera.getPicture`` の補足"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:527
+#: ../doc/reference/cordova_5.2/camera/index.rst:529
 msgid "Can only return photos as base64-encoded image."
 msgstr "Base64 エンコード形式の画像として、写真を返します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:534
+#: ../doc/reference/cordova_5.2/camera/index.rst:536
 msgid ""
 "Camera plugin is currently implemented using `Web Activities "
 "<https://hacks.mozilla.org/2013/01/introducing-web-activities/>`__."
 msgstr "カメラプラグインには、現在、`Web Activities ( Web API の一種 ) <https://hacks.mozilla.org/2013/01/introducing-web-activities/>`__ を使用しています。 "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:548
+#: ../doc/reference/cordova_5.2/camera/index.rst:550
 #: ../doc/reference/cordova_5.2/device/index.rst:180
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:255
 #: ../doc/reference/cordova_5.2/network-information/index.rst:200
@@ -13889,14 +13889,14 @@ msgstr "カメラプラグインには、現在、`Web Activities ( Web API の�
 msgid "Windows Phone 7 Quirks"
 msgstr "Windows Phone 7 特有の動作"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:550
+#: ../doc/reference/cordova_5.2/camera/index.rst:552
 msgid ""
 "Invoking the native camera application while the device is connected via "
 "Zune does not work, and triggers an error callback."
 msgstr "Zune の使用時には、ネイティブ側のカメラアプリを呼んでも動作せず、エラー時に使用するコールバックが実行されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:553
-#: ../doc/reference/cordova_5.2/camera/index.rst:627
+#: ../doc/reference/cordova_5.2/camera/index.rst:555
+#: ../doc/reference/cordova_5.2/camera/index.rst:629
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:181
 #: ../doc/reference/cordova_5.2/device/index.rst:134
 #: ../doc/reference/cordova_5.2/dialogs/index.rst:343
@@ -13906,18 +13906,18 @@ msgstr "Zune の使用時には、ネイティブ側のカメラアプリを呼�
 msgid "Tizen Quirks"
 msgstr "Tizen 特有の動作"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:555
+#: ../doc/reference/cordova_5.2/camera/index.rst:557
 msgid ""
 "Tizen only supports a ``destinationType`` of "
 "``Camera.DestinationType.FILE_URI`` and a ``sourceType`` of "
 "``Camera.PictureSourceType.PHOTOLIBRARY``."
 msgstr "Tizen では、``Camera.DestinationType.FILE_URI`` の ``destinationType``、および、``Camera.PictureSourceType.PHOTOLIBRARY`` の ``sourceType`` のみ、使用できます。 "
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:558
+#: ../doc/reference/cordova_5.2/camera/index.rst:560
 msgid "``CameraOptions`` Errata"
 msgstr "``CameraOptions`` の補足"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:576
+#: ../doc/reference/cordova_5.2/camera/index.rst:578
 msgid ""
 "``allowEdit`` is unpredictable on Android and it should not be used!** The "
 "Android implementation of this plugin tries to find and use an application "
@@ -13932,7 +13932,7 @@ msgid ""
 "for a more robust solution."
 msgstr "``allowEdit`` の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。** このプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このような場合、不具合が生じます。もちろん、端末側のアプリとこのプラグインの相性が合うことも場合によってはありますが ( たとえば、Google Plus Photos )、ごくまれなケースです。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリー・プラグインを使用することも代替案としてご検討ください。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:580
+#: ../doc/reference/cordova_5.2/camera/index.rst:582
 msgid ""
 "Ignores the ``encodingType`` parameter if the image is unedited (i.e. "
 "``quality`` is 100, ``correctOrientation`` is false, and no ``targetHeight``"
@@ -13942,7 +13942,7 @@ msgid ""
 "encoding."
 msgstr "``quality`` を 100 に設定、``correctOrientation`` を false に設定、加えて、``targetHeight`` または ``targetWidth`` を未設定にした場合、``encodingType`` パラメーターは無視されます。画像の取得先が ``CAMERA`` の場合、JPEG ファイル ( システム側のカメラが提供 ) を常に返します。また、``PHOTOLIBRARY`` または ``SAVEDPHOTOALBUM`` の場合には、選択されたファイル ( 現状の形式のまま ) が返されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:583
+#: ../doc/reference/cordova_5.2/camera/index.rst:585
 #: ../doc/reference/cordova_5.2/contacts/index.rst:334
 #: ../doc/reference/cordova_5.2/contacts/index.rst:468
 #: ../doc/reference/cordova_5.2/contacts/index.rst:584
@@ -13958,63 +13958,63 @@ msgstr "``quality`` を 100 に設定、``correctOrientation`` を false に設�
 msgid "BlackBerry 10 Quirks"
 msgstr "BlackBerry 10 特有の動作"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:586
-#: ../doc/reference/cordova_5.2/camera/index.rst:600
+#: ../doc/reference/cordova_5.2/camera/index.rst:588
+#: ../doc/reference/cordova_5.2/camera/index.rst:602
 msgid "Ignores the ``quality`` parameter."
 msgstr "``quality`` パラメーターを無視します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:590
-#: ../doc/reference/cordova_5.2/camera/index.rst:612
-msgid "``Camera.MediaType`` is not supported."
-msgstr "``Camera.MediaType`` は使用できません。"
-
 #: ../doc/reference/cordova_5.2/camera/index.rst:592
 #: ../doc/reference/cordova_5.2/camera/index.rst:614
-#: ../doc/reference/cordova_5.2/camera/index.rst:640
-msgid "Ignores the ``correctOrientation`` parameter."
-msgstr "``correctOrientation`` パラメーターを無視します。"
+msgid "``Camera.MediaType`` is not supported."
+msgstr "``Camera.MediaType`` は使用できません。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:594
 #: ../doc/reference/cordova_5.2/camera/index.rst:616
 #: ../doc/reference/cordova_5.2/camera/index.rst:642
+msgid "Ignores the ``correctOrientation`` parameter."
+msgstr "``correctOrientation`` パラメーターを無視します。"
+
+#: ../doc/reference/cordova_5.2/camera/index.rst:596
+#: ../doc/reference/cordova_5.2/camera/index.rst:618
+#: ../doc/reference/cordova_5.2/camera/index.rst:644
 msgid "Ignores the ``cameraDirection`` parameter."
 msgstr "``cameraDirection`` パラメーターを無視します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:602
+#: ../doc/reference/cordova_5.2/camera/index.rst:604
 msgid ""
 "``Camera.DestinationType`` is ignored and equals ``1`` (image file URI)"
 msgstr "``Camera.DestinationType`` は無視され、``1`` として処理されます ( 画像の File URI )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:606
+#: ../doc/reference/cordova_5.2/camera/index.rst:608
 msgid ""
 "Ignores the ``PictureSourceType`` parameter (user chooses it in a dialog "
 "window)"
 msgstr "``PictureSourceType`` パラメーターを無視します ( ダイアログウィンドウ上で、ユーザーが自由に選択できます )。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:608
+#: ../doc/reference/cordova_5.2/camera/index.rst:610
 msgid "Ignores the ``encodingType``"
 msgstr "``encodingType`` パラメーターを無視します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:610
+#: ../doc/reference/cordova_5.2/camera/index.rst:612
 msgid "Ignores the ``targetWidth`` and ``targetHeight``"
 msgstr "``targetWidth`` と ``targetHeight`` パラメーターを無視します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:624
+#: ../doc/reference/cordova_5.2/camera/index.rst:626
 msgid ""
 "When using ``destinationType.NATIVE_URI`` and ``sourceType.CAMERA``, photos "
 "are saved in the saved photo album regardless on the value of "
 "``saveToPhotoAlbum`` parameter."
 msgstr "``destinationType.NATIVE_URI`` と ``sourceType.CAMERA`` に設定している場合、``saveToPhotoAlbum`` パラメーターに関わらず、写真は、フォトアルバムに保存されます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:630
+#: ../doc/reference/cordova_5.2/camera/index.rst:632
 msgid "options not supported"
 msgstr "CameraOptions は使用できません。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:632
+#: ../doc/reference/cordova_5.2/camera/index.rst:634
 msgid "always returns a FILE URI"
 msgstr "FILE URI を常に返します。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:644
+#: ../doc/reference/cordova_5.2/camera/index.rst:646
 msgid ""
 "Ignores the ``saveToPhotoAlbum`` parameter. IMPORTANT: All images taken with"
 " the wp7/8 cordova camera API are always copied to the phone's camera roll. "
@@ -14028,7 +14028,7 @@ msgid ""
 "<https://issues.apache.org/jira/browse/CB-2083>`__"
 msgstr "``saveToPhotoAlbum`` パラメーターを無視します。なお、wp7/8 向けの cordova のカメラ API ( Camera API ) を使用して撮影した画像は、常に、端末側のカメラロール ( Camera Roll ) にコピーされます。ユーザーの設定によっては異なる場合がありますが、これは、OneDrive 側にも自動的に写真がアップロードされてしまうことを意味します。この結果、アプリ開発時の想定よりも、より多くの不特定多数の人に、閲覧される状態になってしまいます。これが障害になる場合には、msdn にも掲載されているように、CameraCaptureTask を実装させる必要があります ( http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx )。また、関連する問題点に関して、`こちら <https://issues.apache.org/jira/browse/CB-2083>`__ からコメントを寄せることもできます。"
 
-#: ../doc/reference/cordova_5.2/camera/index.rst:646
+#: ../doc/reference/cordova_5.2/camera/index.rst:648
 msgid ""
 "Ignores the ``mediaType`` property of ``cameraOptions`` as the Windows Phone"
 " SDK does not provide a way to choose videos from PHOTOLIBRARY."

@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-01 02:23+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-06-10 10:36+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3968,29 +3968,29 @@ msgstr "Monaca デバッガーとのペアリングが失敗する場合"
 #: ../doc/manual/debugger/troubleshooting.rst:16
 msgid ""
 "Several reasons can be considered when Monaca Debugger fails to pair with "
-"Monaca Localkit."
-msgstr "Monaca デバッガーと Monaca Localkit のペアリングが失敗した場合には、いくつかの理由が考えられます。"
+"the host PC such as:"
+msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:18
 msgid ""
-"Monaca Debugger can see Monaca Localkit but fail to pair: this is most "
-"likely a firewall problem in the host PC. Localkit needs to accept TCP "
-"connection from the debugger. Port `8001` will be used, and you can change "
-"the server port in :ref:`Preferences dialog<localkit_preference>`. Please "
-"change the port or configure your firewall settings to try agian."
-msgstr "Monaca デバッガーは Monaca Localkit を認識しているが、ペアリングが失敗する場合 : 多くの場合、ホスト PC 側のファイアーウォールに起因します。なお、Localkit とデバッガー間の通信には、TCP 接続を使用します。ポート番号は、`8001` です。待ち受けポートの変更方法に関しては、 :ref:`設定ダイアログ <localkit_preference>` をご確認ください。ポート番号またはファイアーウォール設定の変更後、再度、ペアリングをします。"
+"Monaca Debugger can see the host PC but fail to pair: this is most likely a "
+"firewall problem in the host PC. The host PC needs to accept TCP connection "
+"from the debugger. Port `8001` will be used, and you can change the server "
+"port in :ref:`Preferences dialog<localkit_preference>`. Please change the "
+"port or configure your firewall settings to try agian."
+msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:20
 msgid ""
-"Monaca Debugger does not detect Monaca Localkit: please check and see if "
-"your device and the host PC are connected to the same network. If they are "
+"Monaca Debugger does not detect the host PC: please check and see if your "
+"device and the host PC are connected to the same network. If they are "
 "connected to the same network but Monaca Debugger still can't detect the "
 "host PC, please do a manual pairing."
-msgstr "Monaca デバッガーが Monaca Localkit を認識していない場合 : ホスト PC と端末が、同じネットワークに接続されているか確認します。同じネットワークに接続されているが、Monaca デバッガー側で、ホスト PC を検知できない場合には、次のように、手動でペアリングをします。"
+msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:22
-msgid "You can manually pair Monaca Debugger with Monaca Localkit as follows:"
-msgstr "Monaca デバッガーと Monaca Localkit を、次の手順に従い、手動でペアリングします。"
+msgid "You can manually pair Monaca Debugger with the host PC as follows:"
+msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:24
 msgid ""
@@ -4028,111 +4028,119 @@ msgstr "*IP アドレス と ポート番号*"
 #: ../doc/manual/debugger/troubleshooting.rst:56
 msgid ""
 "IP address and port number are needed to establish the communication path "
-"between Monaca Debugger and Monaca Localkit. IP address represents the host "
-"PC and port number (set to 8001 by default) represents Monaca Localkit. "
-"Please note that the communication can't be established if the port number "
-"you use is not opened or is already used."
-msgstr "Monaca デバッガーと Monaca Localkit を接続する場合、IP アドレスとポート番号が必要です。IP アドレスは、ホスト PC の識別に使用するもので、ポート番号 ( デフォルトでは、8001 ) は、Monaca Localkit 側が通信に使用するものです。また、ポートは、開放されていること、未使用であることが必要です。これ以外の場合、通信は確立できません。"
+"between Monaca Debugger and the host PC. IP address represents the host PC "
+"and port number (set to 8001 by default) represents Monaca local development"
+" tool (such as Monaca CLI, Localkit or Monaca for Visual Studio). Please "
+"note that the communication can't be established if the port number you use "
+"is not opened or is already used."
+msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:58
+msgid ""
+"In case, you are using more than one of Monaca local development tools at "
+"the same time on the same host PC, you are required to use different port "
+"for each tool. Otherwise, the pair will fail."
+msgstr ""
+
+#: ../doc/manual/debugger/troubleshooting.rst:61
 msgid "*OS*"
 msgstr "*OS*"
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:61
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 msgid "Mac"
 msgstr "Mac OS"
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:61
 msgid "Windows"
 msgstr "Windows"
 
-#: ../doc/manual/debugger/troubleshooting.rst:61
+#: ../doc/manual/debugger/troubleshooting.rst:63
 msgid "*IP Address*"
 msgstr "*IP アドレス*"
 
-#: ../doc/manual/debugger/troubleshooting.rst:61
-#: ../doc/manual/debugger/troubleshooting.rst:61
+#: ../doc/manual/debugger/troubleshooting.rst:63
+#: ../doc/manual/debugger/troubleshooting.rst:63
 msgid "Find IP address:"
 msgstr "IP アドレスの確認方法"
 
-#: ../doc/manual/debugger/troubleshooting.rst:63
-#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:65
+#: ../doc/manual/debugger/troubleshooting.rst:70
 msgid "Open \"Terminal\" window."
 msgstr "ターミナルを開きます。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:64
+#: ../doc/manual/debugger/troubleshooting.rst:66
 msgid "Type ``ifconfig``."
 msgstr "``ifconfig`` と入力して、実行します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:63
-#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:65
+#: ../doc/manual/debugger/troubleshooting.rst:70
 msgid "Open \"Command Prompt\" window."
 msgstr "コマンドプロンプトを開きます。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:64
+#: ../doc/manual/debugger/troubleshooting.rst:66
 msgid "Type ``ipconfig``."
 msgstr "``ipconfig`` と入力して、実行します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:66
+#: ../doc/manual/debugger/troubleshooting.rst:68
 msgid "*Port Number*"
 msgstr "*ポート番号*"
 
-#: ../doc/manual/debugger/troubleshooting.rst:66
-#: ../doc/manual/debugger/troubleshooting.rst:66
+#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:68
 msgid "Check if a port number is available:"
 msgstr "ポート状態の確認方法"
 
-#: ../doc/manual/debugger/troubleshooting.rst:69
+#: ../doc/manual/debugger/troubleshooting.rst:71
 msgid "Type ``lsof -i :PORT_NUMBER``."
 msgstr "``lsof -i :PORT_NUMBER`` と入力して、実行します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:69
+#: ../doc/manual/debugger/troubleshooting.rst:71
 msgid "type ``netstat``."
 msgstr "``netstat`` と入力して、実行します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:75
+#: ../doc/manual/debugger/troubleshooting.rst:77
 msgid "Inspector Isn't Loaded"
 msgstr "インスペクタが起動しない場合"
 
-#: ../doc/manual/debugger/troubleshooting.rst:77
+#: ../doc/manual/debugger/troubleshooting.rst:79
 msgid "If the inspector does not open, please try the following actions:"
 msgstr "インスペクタが開かない場合は、下記の点を確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:79
+#: ../doc/manual/debugger/troubleshooting.rst:81
 msgid ""
 "verify if you have done all necessary setups described "
 ":ref:`here<localkit_debug_app>`."
 msgstr "こちらの :ref:`手順 <localkit_debug_app>` を参考にして、行っていない箇所がないか、再確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:80
+#: ../doc/manual/debugger/troubleshooting.rst:82
 msgid "verify that you are running the application on the debugger."
 msgstr "デバッガー上でアプリが実行されているか確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:81
+#: ../doc/manual/debugger/troubleshooting.rst:83
 msgid "try plug off & in to see if the computer can find the device."
 msgstr "ケーブルを抜き差しして、コンピューターが端末を正しく認識するか、確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:82
+#: ../doc/manual/debugger/troubleshooting.rst:84
 msgid "check if the device and the host PC are connected via USB cable."
 msgstr "端末と ホスト PC 間が、USB ケーブルで接続されているか確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:83
+#: ../doc/manual/debugger/troubleshooting.rst:85
 msgid ""
 "check if you use the right Monaca Debugger. :ref:`Read "
 "more<localkit_debug_app>`."
 msgstr ":ref:`指定された <localkit_debug_app>` Monaca デバッガーを使用しているか確認します。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:84
+#: ../doc/manual/debugger/troubleshooting.rst:86
 msgid "kill all ``adb`` processes if multiple of them are running."
 msgstr "``adb`` プロセスを終了 ( kill ) させます。複数の ``adb`` プロセスが実行されている場合、すべてを終了させます。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:85
+#: ../doc/manual/debugger/troubleshooting.rst:87
 msgid ""
 "kill all ``iosWebKitDebugProxy`` processes if multiple of them are running."
 msgstr "``iosWebKitDebugProxy`` プロセスを終了 ( kill ) させます。複数の ``iosWebKitDebugProxy`` プロセスが実行されている場合、すべてを終了させます。"
 
-#: ../doc/manual/debugger/troubleshooting.rst:86
+#: ../doc/manual/debugger/troubleshooting.rst:88
 msgid "restart the host PC."
 msgstr "ホスト PC 側を再起動します。"
 
@@ -6442,17 +6450,17 @@ msgid ":dfn:`$ monaca login`"
 msgstr ":dfn:`$ monaca login`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:48
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:103
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:138
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:172
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:219
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:260
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:294
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:334
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:387
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:433
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:79
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:111
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:145
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:192
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:233
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:267
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:307
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:360
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:406
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:445
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:472
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:499
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:93
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:119
@@ -6489,7 +6497,7 @@ msgid ":dfn:`$ monaca create path [name]`"
 msgstr ":dfn:`$ monaca create path [name]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:69
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:463
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:436
 msgid "Parameters"
 msgstr "パラメーター"
 
@@ -6512,15 +6520,14 @@ msgstr "プロジェクトの名前"
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:72
 msgid ""
 "The following snippet shows how to create a new project based on a "
-":ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/MyProject\" "
-"folder:"
-msgstr "次の例では、:ref:`onsen_ui_sliding_menu` のテンプレートを使用して、「 Documents/CLI/MyProject 」 フォルダー下に、プロジェクトを新規作成します。"
+":ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/\" folder:"
+msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:113
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:86
 msgid "monaca clone"
 msgstr "monaca clone"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:115
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:88
 msgid ""
 "Clones a project from Monaca Cloud. Firstly, it will display a list of all "
 "projects you have in Monaca Cloud. Then, you will need to input a number "
@@ -6528,7 +6535,7 @@ msgid ""
 "local PC."
 msgstr "Monaca クラウドから、プロジェクトをクローン ( clone ) します。Monaca クラウド内のプロジェクトの一覧が、最初に表示されるので、クローンするプロジェクトに振られた番号を入力します ( 実行結果は、ローカル PC の指定されたディレクトリーへ出力されます )。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:117
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:90
 msgid ""
 "If you clone a project into your local PC from Monaca Cloud, the cloned "
 "project keeps cloud synced information. In other words, if you make changes "
@@ -6536,22 +6543,22 @@ msgid ""
 "Monaca Cloud, they will overwrite older files of the same project."
 msgstr "Monaca クラウドからローカル PC にプロジェクトをクローンする場合には、クローンしたプロジェクトに関する 「 クラウド同期情報 」 が作成 ・ 保持されます。この情報が作成 ・ 保持されている場合、プロジェクトをローカルで修正した後、Monaca クラウドにアップロード ( :ref:`monaca_upload` を使用 ) したときには、同一プロジェクト内の古いファイルが、上書きされます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:119
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:92
 msgid ":dfn:`$ monaca clone`"
 msgstr ":dfn:`$ monaca clone`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:123
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:96
 msgid ""
 "Here is an exmaple of how to clone a project called RSS Reader Example from "
 "Monaca Cloud into \"MyProjectFolder/CloneRssProject\" folder on your local "
 "PC."
 msgstr "次の例では、「 RSS Reader Example 」 と名付けられたプロジェクトを、ローカル PC の 「 MyProjectFolder/CloneRssProject 」 フォルダーへ、Monaca クラウドからクローンします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:148
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:121
 msgid "monaca import"
 msgstr "monaca import"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:150
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:123
 msgid ""
 "Imports a project from Monaca Cloud. Firstly, it will display a list of all "
 "projects you have in Monaca Cloud. Then, you will need to input a number "
@@ -6559,7 +6566,7 @@ msgid ""
 " local PC."
 msgstr "Monaca クラウドから、プロジェクトをインポートします。Monaca クラウド内のプロジェクトの一覧が、最初に表示されるので、インポートするプロジェクトに振られた番号を入力します ( 実行結果は、ローカル PC の指定されたディレクトリーへ出力されます )。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:152
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:125
 msgid ""
 "If you import a project into your local PC from Monaca Cloud, the imported "
 "project doesn't keep cloud synced information. In other words, if you make "
@@ -6568,195 +6575,195 @@ msgid ""
 "Cloud."
 msgstr "Monaca クラウドからローカル PC にプロジェクトをインポートする場合には、インポートしたプロジェクトに関する 「 クラウド同期情報 」 は作成されません。この情報が作成されない場合、プロジェクトをローカルで修正した後、Monaca クラウドにアップロード ( :ref:`monaca_upload` を使用 ) したときには、アップロードしたプロジェクトは、新規のプロジェクトとして、取り扱われます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:154
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:127
 msgid ":dfn:`$ monaca import`"
 msgstr ":dfn:`$ monaca import`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:157
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:130
 msgid ""
 "Here is an exmaple of how to import a project called RSS Reader Example from"
 " Monaca Cloud into \"MyProjectFolder/ImportRssProject\" folder on your local"
 " PC."
 msgstr "次の例では、「 RSS Reader Example 」 と名付けられたプロジェクトを、ローカル PC の 「 MyProjectFolder/ImportRssProject 」 フォルダーへ、Monaca クラウドからインポートします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:182
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:155
 msgid "monaca upload"
 msgstr "monaca upload"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:184
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:157
 msgid ""
 "Uploads the current project to Monaca Cloud. The project files will be "
 "compared with the remote files so only the changed and new files will be "
 "uploaded."
 msgstr "Monaca クラウドへ、対象のプロジェクトをアップロードします。プロジェクトファイルは、ローカルとリモート間で比較され、変更 ・ 追加があったファイルのみ、アップロードされます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:186
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:159
 msgid "This command works differently for different types of projects:"
 msgstr "このコマンドは、プロジェクトの種類により、動作が異なります。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:188
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:161
 msgid ""
 "new/imported project: this command will upload this whole project as a new "
 "project in Monaca Cloud."
 msgstr "新規作成またはインポートしたプロジェクトの場合 : 新規のプロジェクトとして、Monaca クラウド上に、対象のプロジェクトをアップロードします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:189
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:162
 msgid ""
 "cloned project: this command will overwrite the same project in Monaca "
 "Cloud."
 msgstr "クローンしたプロジェクトの場合 : Monaca クラウド上に置かれている同一プロジェクトを上書きします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:192
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:165
 msgid ":dfn:`$ monaca upload`"
 msgstr ":dfn:`$ monaca upload`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:201
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:243
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:283
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:174
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:216
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:256
 msgid "Options"
 msgstr "オプション"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:196
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:239
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:169
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:212
 msgid "``--delete``"
 msgstr "``--delete``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:196
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:169
 msgid "deletes those files on Monaca cloud which are not existed locally."
 msgstr "ローカルに存在しないファイルが、Monaca クラウド上に存在する場合、クラウド上のこれらのファイルを削除します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:197
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:240
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:170
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:213
 msgid "``--force``"
 msgstr "``--force``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:197
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:240
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:170
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:213
 msgid "doesn't ask user for permission to continue."
 msgstr "処理の実行時、ユーザー側に確認しません。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:198
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:241
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:171
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:214
 msgid "``--dry-run``"
 msgstr "``--dry-run``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:198
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:171
 msgid ""
 "simulates the upload operation and provides details of which files will be "
 "uploaded. There is no actual upload operation is done."
 msgstr "アップロード処理をシュミレートします。出力として、アップロード対象のファイルを表示します。シュミレートのみで、実際のアップロードは行われません。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:204
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:177
 msgid ""
 "Navigate to your project folder. Then, type ``monaca upload`` command with "
 "various options and see how it works."
 msgstr "プロジェクトフォルダーへ移動後、さまざまなオプションを組み合わせて、``monaca download`` コマンドを実行し、出力を確認してみましょう。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:229
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:202
 msgid "monaca download"
 msgstr "monaca download"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:231
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:204
 msgid ""
 "Downloads updates/changes (of the synced project) made in Monaca Cloud."
 msgstr "Monaca クラウド上で、同期対象のプロジェクトに対して行った更新 ・ 修正箇所をダウンロードします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:233
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:206
 msgid ""
 "This command will overwrite the changes into the local project. If your "
 "local project is not existed in Monaca Cloud, you can't use this command."
 msgstr "このコマンドを実行すると、ローカルのプロジェクトに、変更を反映できます。Monaca クラウド上に存在するプロジェクトと同一のプロジェクトが、ローカルに存在しない場合、このコマンドは使用できません。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:235
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:208
 msgid ":dfn:`$ monaca download`"
 msgstr ":dfn:`$ monaca download`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:239
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:212
 msgid "deletes those files locally which are not existed on Monaca Cloud."
 msgstr "Monaca クラウド上に存在しないファイルが、ローカルに存在する場合、ローカルのこれらのファイルを削除します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:241
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:214
 msgid ""
 "simulates the download operation and provides details of which files will be"
 " downloaded. There is no actual download operation is done."
 msgstr "ダウンロード処理をシュミレートします。出力として、ダウンロード対象のファイルを表示します。シュミレートのみで、実際のダウンロードは行われません。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:246
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:219
 msgid ""
 "Navigate to your project folder. Then, type ``monaca download`` command with"
 " various options and see how it works."
 msgstr "プロジェクトフォルダーに移動して、次に、さまざまなオプションを使用して、``monaca download`` コマンドを実行し、出力を確認してみましょう。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:270
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:243
 msgid "monaca plugin"
 msgstr "monaca plugin"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:272
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:245
 msgid ""
 "Manages plugins of a project such as adding new plugins, listing and "
 "removing installed plugins."
 msgstr "プロジェクトで使用するプラグインを管理します。プラグインの新規追加、および、既存プラグインの一覧化 ・ 削除を行えます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:275
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid ":dfn:`$ monaca plugin [options]`"
 msgstr ":dfn:`$ monaca plugin [options]`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:279
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:252
 msgid "``add <plugin>``"
 msgstr "``add <plugin>``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:279
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:252
 msgid "adds a plugin."
 msgstr "プラグインを追加します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:280
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:253
 msgid "``rm <plugin>``"
 msgstr "``rm <plugin>``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:280
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:253
 msgid "removes a plugin."
 msgstr "プラグインを削除します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:281
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:254
 msgid "``ls|list``"
 msgstr "``ls|list``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:281
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:254
 msgid "lists currently installed plugins."
 msgstr "インストール済みのプラグインを一覧化します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:282
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:255
 msgid "``search <query>``"
 msgstr "``search <query>``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:282
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:255
 msgid "searches the plugin directory."
 msgstr "プラグイン ディレクトリーを検索します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:286
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:466
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:259
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:439
 msgid "Navigate to your project folder and type the command below:"
 msgstr "プロジェクトフォルダーに移動して、次のコマンドを実行します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:303
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:276
 msgid "monaca preview"
 msgstr "monaca preview"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:305
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:278
 msgid ""
 "Serves a single project to browser. Use this command when you want to run "
 "your project on the browser."
 msgstr "ブラウザー上でプロジェクトを実行します。次のコマンドを使用します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:307
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:280
 msgid ":dfn:`$ monaca preview [option]`"
 msgstr ":dfn:`$ monaca preview [option]`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:316
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:289
 msgid "monaca debug"
 msgstr "monaca debug"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:318
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:291
 msgid ""
 "Serves a single project to Monaca Debugger. Use this command when you want "
 "to debug your project on a device (Monaca Debugger). It will reflect the "
@@ -6766,24 +6773,24 @@ msgid ""
 "changes will be sent to it."
 msgstr "Monaca デバッガー上へ、プロジェクトを 1 つ送信します。端末上 ( Monaca デバッガー ) で、プロジェクトをデバッグするときに、このコマンドを使用します。ローカルで行った、ファイルの修正は、端末上に、即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、ローカルネットワーク上に存在するデバッガーに対して、接続するか確認するメッセージも送信されます。デバッガーの接続後、ファイルシステム内に修正箇所があれば、デバッガー側に送信され、最新内容が反映されます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:320
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:293
 msgid ":dfn:`$ monaca debug [option]`"
 msgstr ":dfn:`$ monaca debug [option]`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:325
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:423
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:298
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:396
 msgid "Options:"
 msgstr "オプション"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:324
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:297
 msgid "``--port``"
 msgstr "``--port``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:324
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:297
 msgid "HTTP port to listen to (default value is 8001)"
 msgstr "HTTP の待ち受けポート番号 ( デフォルトは、8001 )"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:328
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:301
 msgid ""
 "Navigate to your project folder and use ``monaca debug`` command. Then, you "
 "should be able to see that project name in Monaca Debugger under *Local "
@@ -6792,30 +6799,30 @@ msgid ""
 "those changes reflect instantly."
 msgstr "プロジェクトフォルダーへ移動して、``monaca debug`` コマンドを実行します。実行後、Monaca デバッガーの *ローカルプロジェクト* 下に対象のプロジェクトが表示されていることを確認し、プロジェクトをタップして、実行してみましょう。次に、プロジェクトに変更を加え、保存して、プロジェクトに変更点が即反映されることを確認してみましょう。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:336
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:309
 msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
 msgstr "``monaca debug`` の処理を停止する場合には、:guilabel:`Ctrl+c` を押します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:338
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:311
 msgid ""
 "When runnig this command, you should be prompted to pair your debugger with "
 "your local PC or see the notification of successful network connection (see "
 "the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`."
 msgstr "このコマンドの実行時、次のようなダイアログ ( 左 ) または通知 ( 右 ) が表示されます。ダイアログには、ペアリングを行うか確認するメッセージが表示されます。また、通知には、ネットワーク接続の状態が表示されます。なにか問題がある場合には、 :ref:`troubleshoot_pair` をご確認ください。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:345
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:318
 msgid "Pairing Dialog"
 msgstr "接続確認用ダイアログ"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:351
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:324
 msgid "Network Connection Notification"
 msgstr "ネットワーク接続完了の通知"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:363
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:336
 msgid "monaca multiserve"
 msgstr "monaca multiserve"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:365
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:338
 msgid ""
 "Serves multiple projects to Monaca Debugger. It works in the same way as "
 ":ref:`monaca_debug` except it can serve a list of project at once to Monaca "
@@ -6824,23 +6831,23 @@ msgid ""
 "Otherwise, please refer to :ref:`troubleshoot_pair`."
 msgstr "Monaca デバッガー上へ、複数のプロジェクトを送信します。 :ref:`monaca_debug` とほぼ同じ機能ですが、こちらのコマンドでは、Monaca デバッガー上に、プロジェクトの一覧が送信されます ( 下のスクリーンショットを参照のこと )。なお、デバッガーとローカル PC 間のペアリング ( 接続 ) を、事前に行っておく必要があります。障害が発生した場合には、 :ref:`troubleshoot_pair` をご確認ください。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:373
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:346
 msgid ":dfn:`$ monaca multiserve paths`"
 msgstr ":dfn:`$ monaca multiserve paths`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:378
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:351
 msgid "Parameters:"
 msgstr "パラメーター"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:377
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:350
 msgid "``paths``"
 msgstr "``paths``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:377
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:350
 msgid "a list of project directories"
 msgstr "対象プロジェクトを格納したディレクトリー群 ( 複数可 )"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:381
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:354
 msgid ""
 "Try to use this command with a list of projects you have on your local PC. "
 "In this example, we are serving 3 projects (SlidingMenu, ImportRssProject "
@@ -6849,16 +6856,16 @@ msgid ""
 "pairing is successful."
 msgstr "このコマンドの使用時には、ローカル PC 上に置かれているプロジェクトを、複数、指定するようにしましょう。下の例では、「 MyProjectFolder/ 」 配下に置かれた、3 つのプロジェクト ( SlidingMenu、ImportRssProject、CloneRssProject ) を指定しています。実行後、デバッガー上に、指定したプロジェクトが一覧表示されていることを確認しましょう ( ペアリング済みであること )。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:389
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:362
 msgid ""
 "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
 msgstr "``monaca multiserve`` の処理を停止させるには、 :guilabel:`Ctrl+C` を押します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:399
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:372
 msgid "monaca remote build"
 msgstr "monaca remote build"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:401
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:374
 msgid ""
 "Builds the project on Monaca Cloud. If your project is not existed in Monaca"
 " Cloud yet, it will be automatically uploaded to the cloud first before the "
@@ -6867,86 +6874,86 @@ msgid ""
 " build starts."
 msgstr "Monaca クラウド上でプロジェクトをビルドします。Monaca クラウド上に、対象のプロジェクトが存在しない場合、ビルドを開始する前に、対象のプロジェクトが自動的にアップロードされます。一方、Monaca クラウド上に、対象のプロジェクトがすでに存在する場合には、ローカルで行った更新・修正は、ビルドを開始する前に、対象のプロジェクトに反映 ( アップロード ) されます。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:403
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:376
 msgid "Please refer to :ref:`build_index` for more information on how to:"
 msgstr "次の点に関する詳細は、:ref:`build_index` をご確認ください。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:405
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:378
 msgid "config build settings for each platform"
 msgstr "各プラットフォーム向けのビルドの設定方法"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:406
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:379
 msgid "types of build"
 msgstr "ビルドの種類"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:407
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:380
 msgid "build the application for each platform"
 msgstr "各プラットフォーム向けのアプリのビルド方法"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:408
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:381
 msgid "get/install the built apps."
 msgstr "ビルド済みアプリの入手 ・ インストール方法"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:410
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:383
 msgid ":dfn:`$ monaca remote build [options]`"
 msgstr ":dfn:`$ monaca remote build [options]`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:414
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:387
 msgid "``--platform``"
 msgstr "``--platform``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:414
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:387
 msgid ""
 "builds for specific platform. It can be: ``ios``, ``android`` or "
 "``windows``."
 msgstr "ビルド対象のプラットフォームを指定します。 ``ios``、``android``、``windows`` のいずれかを指定します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:415
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:388
 msgid "``--build-type``"
 msgstr "``--build-type``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:415
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:388
 msgid "chooses the build type. It can be:"
 msgstr "ビルドの種類を指定します。指定できるオプションを、次に記します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:417
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:390
 msgid "``debug`` (for iOS, Android and Windows. It is default option.)"
 msgstr "``debug`` ( iOS、Android、Windows 向け。こちらがデフォルトのオプションとなります。)"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:418
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:391
 msgid "``test`` (for iOS only)"
 msgstr "``test`` ( iOS 向け )"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:419
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:392
 msgid "``release`` (for iOS, Android and Chrome Apps)"
 msgstr "``release`` ( iOS、Android、Chrome アプリ向け )"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:421
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:394
 msgid "``--android_webview``"
 msgstr "``--android_webview``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:421
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:394
 msgid ""
 "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
 msgstr "``--platform`` を ``android`` に指定した場合、  ``default``、``crosswalk`` のいずれかを指定します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:422
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
 msgid "``--android_arch``"
 msgstr "``--android_arch``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:422
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
 msgid ""
 "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or "
 "``arm``."
 msgstr "``--android_webview`` を ``crosswalk`` に指定した場合、こちらは必須オプションになります。値は、``x86``、``arm`` のいずれかを指定します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:426
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:399
 msgid ""
 "Navigate to your project folder and try to use this command with different "
 "options:"
 msgstr "プロジェクトの保存先フォルダーへ移動し、さまざまなオプションを組み合わせて、このコマンドを実行してみましょう。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:408
 msgid ""
 "If you use ``monaca remote build`` command without any options, you will get"
 " an interactive build interface in your browser. In this page, you can "
@@ -6954,47 +6961,47 @@ msgid ""
 "(see the screenshots below)."
 msgstr "オプションを指定せずに、 ``monaca remote build`` コマンドを使用した場合、ビルドの設定画面がブラウザー上に表示されます。この画面では、ビルド対象のプラットフォームの指定とビルドの各種設定ができます ( 下のスクリーンショットを参照のこと )。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:453
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:426
 msgid "monaca proxy"
 msgstr "monaca proxy"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:455
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:428
 msgid "Configures proxy to use when connecting to Monaca Cloud."
 msgstr "Monaca クラウドへの接続時に使用するプロキシを設定します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:457
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:430
 msgid ":dfn:`$ monaca proxy <command>`"
 msgstr ":dfn:`$ monaca proxy <command>`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:461
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:434
 msgid "``set <URL:PORT_NUMBER>``"
 msgstr "``set <URL:PORT_NUMBER>``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:461
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:434
 msgid "sets a proxy server."
 msgstr "プロキシサーバーをセットします。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
 msgid "``rm``"
 msgstr "``rm``"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
 msgid "removes a proxy server."
 msgstr "プロキシサーバーの設定を解除します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:482
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:455
 msgid "monaca logout"
 msgstr "monaca logout"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:484
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:457
 msgid "Signs out from Monaca Cloud and removes stored login token."
 msgstr "Monaca クラウドからサインアウトして、保持していたログイントークン ( login token ) を削除します。"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:486
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:459
 msgid ":dfn:`$ monaca logout`"
 msgstr ":dfn:`$ monaca logout`"
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:489
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
 msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
 msgstr "Monaca CLI を使用して、Monaca クラウドからログアウトする例を、次に記します。"
 
@@ -7764,7 +7771,7 @@ msgstr ":ref:`ide_version_control`"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:54
 msgid "Manages version control of your project with Github."
-msgstr "GitHub に接続して、プロジェクトのバージョン管理を行います。"
+msgstr "GitHub に接続して、プロジェクトのバージョン管理を行えます。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:55
 #: ../doc/manual/development/monaca_ide/overview.rst:78
@@ -8730,7 +8737,7 @@ msgid ""
 "called `GitHub <https://github.com>`_. If you integrate your Monaca project "
 "to your repository, you can simply manage your source code right away from "
 "Monaca Cloud IDE."
-msgstr "今回新たに、Monaca クラウド IDE にバージョン管理機能が実装されました。ユーザーフレンドリーなインスターフェイスが提供されているので、処理も簡単です。実装したバージョン管理機能は、数あるシステムの中でも最も認知度が高い `GitHub <https://github.com>`_ ( Git を使用 ) です。この機能を使用すれば、リモートレポジトリと Monaca プロジェクトの接続後、Monaca クラウド IDE からソースコードの管理ができるようになります。"
+msgstr "今回新たに、Monaca クラウド IDE にバージョン管理機能が実装されました。ユーザーフレンドリーなインスターフェイスが使用できるので、コマンドを入力する必要もありません。実装したバージョン管理機能は、数あるシステムの中でも最も認知度が高い `GitHub <https://github.com>`_ ( Git を使用 ) です。この機能を使用すれば、リモートレポジトリと Monaca プロジェクトの接続後、Monaca クラウド IDE からソースコードの管理ができるようになります。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:15
 msgid ""
@@ -8948,14 +8955,14 @@ msgid ""
 "Once you have successfully connected your project with a repository, you can"
 " start working on the same project with your team members and keep it "
 "synchronized to the latest updates in Monaca Cloud IDE."
-msgstr "プロジェクトとレポジトリ間の接続完了後、Monaca クラウド IDE 上で行った作業は、リモートのレポジトリの方にも随時反映できます。以後は、他のプロジェクト参加メンバーと共同で作業できます。"
+msgstr "プロジェクトとレポジトリ間の接続完了後、Monaca クラウド IDE 上で行った作業は、リモートのレポジトリの方にも随時反映できます。以後は、他のプロジェクト参加メンバーとも共同で作業できます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:192
 msgid ""
 "Monaca Cloud IDE provides a very user-friendly interface supporting version "
 "control of your code. Without learning Git from the scratch, you can still "
 "perform some basic Git commands directly from the IDE."
-msgstr "Monaca クラウド IDE では、ユーザーフレンドリーなバージョン管理用のインターフェイスを提供しています。このインターフェイスを使用すれば、Git のコマンドの詳細を意識せずとも、基本的な操作を一通り行うことができます。 "
+msgstr "Monaca クラウド IDE では、ユーザーフレンドリーなバージョン管理用のインターフェイスを提供しています。このインターフェイスを使用すれば、Git のコマンドの詳細を意識せずに、基本的な操作を一通り行うことができます。 "
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:196
 msgid "Checkout Current Working Branch"
@@ -8998,14 +9005,14 @@ msgid ""
 "remotes, from Monaca Cloud IDE menu, go to :menuselection:`Version Control "
 "--> Pull`. If there are changes in your remotes, you will receive those "
 "updates in your working branch."
-msgstr "Git コマンドでは、リモートリポジトリから最新の情報を取得・ダウンロードする場合、``git pull`` ( git プル ) コマンドを使用します。リモートリポジトリから最新の情報を取得する場合には、Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> プル` を選択します。リモートリポジトリ側の内容が更新されている場合、その内容がダウンロードされ、対応するブランチ側に反映されます。"
+msgstr "Git コマンドでは、リモートリポジトリから最新の情報を取得・ダウンロードする場合、``git pull`` ( git プル ) コマンドを使用します。Monaca クラウド IDE では、リモートリポジトリから最新の情報を取得する場合、Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> プル` を選択します。リモートリポジトリ側の内容が更新されている場合、その内容がダウンロードされ、対応するブランチ側に反映されます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:218
 msgid ""
 "When you create a project in IDE, Monaca keeps all the files in "
 ":guilabel:`www` folder. Files outside of this folder are also synced even "
 "though they will not appear in the IDE."
-msgstr "IDE 上でプロジェクトを作成した場合、開発者側が自由に作業できるファイルのほとんどは、:guilabel:`www` フォルダー内に格納されています。これ以外にも、IDE 上には表示されないシステム側のファイルもありますが、リモートリポジトリとの同期時には、これらのファイルも一緒にアップロード・ダウンロードされています。"
+msgstr "IDE 上でプロジェクトを作成した場合、開発者側が自由に作業できるファイルのほとんどは、:guilabel:`www` フォルダー内に置かれています。これ以外にも、IDE 上には表示されないシステム側のファイルもありますが、リモートリポジトリとの同期時には、これらのファイルも一緒にアップロード・ダウンロードされています。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:223
 msgid "Commit Changes to Remotes"
@@ -9016,7 +9023,7 @@ msgid ""
 "After making changes in the current working branch, you are able to commit "
 "them back to your remote repository. To commit your changes, please do as "
 "follows:"
-msgstr "現在作業をしているブランチで行った変更を、リモートリポジトリ―側に反映させます。最初に、次の手順に従い、コミットを行います ( コミット前に、ファイルを保存 )。"
+msgstr "現在作業をしているブランチで行った変更を、リモートリポジトリ―側に反映させます。最初に、次の手順に従い、コミットを行い、リモートリポジトリ側へプッシュします ( コミット前に、ファイルを保存する必要があります )。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:227
 msgid ""
@@ -9059,7 +9066,7 @@ msgid ""
 "are able to view your local commit history through :menuselection:`Version "
 "Control --> Show Commit History`. To view the changes in each commit, click "
 "on the commit on the left panel."
-msgstr "ローカルコミットとは、Monaca クラウド IDE 上で行ったコミットを指します。menuselection:`バージョン管理 --> コミット履歴` を選択すれば、ローカルコミットの履歴を表示できます。各コミットの内容を確認する場合には、コミットメッセージ横の ID をクリックします。"
+msgstr "ローカルコミットとは、Monaca クラウド IDE 上で行ったコミットを指します。:menuselection:`バージョン管理 --> コミット履歴` を選択すれば、ローカルコミットの履歴を表示できます。各コミットの内容を確認する場合には、コミットメッセージ横の ID をクリックします。"
 
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:5
 msgid "Emmet"
