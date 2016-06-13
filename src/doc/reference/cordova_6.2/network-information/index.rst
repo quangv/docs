@@ -25,7 +25,7 @@ Network Information Plugin
 
 .. rst-class:: right-menu
 
-Tested Version: `1.32.1 <https://github.com/apache/cordova-plugin-network-information/releases/tag/1.2.1>`_
+Tested Version: `1.2.1 <https://github.com/apache/cordova-plugin-network-information/releases/tag/1.2.1>`_
 
 .. note:: 
     
