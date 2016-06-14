@@ -112,8 +112,7 @@ msgid "Step 1: Configuring iOS App Settings"
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:41
-#: ../doc/quick_start/cli/building_app.rst:146
-msgid "In the command window, navigate to your project folder and type :ref:`monaca_remote_build` command. This command will automatically upload your local project files to Monaca Cloud and open an interactive build interface in your browser."
+msgid "In the command window, navigate to your project folder and use :ref:`monaca_remote_build` command. This command will automatically upload your local project files to Monaca Cloud. Please type the following command to open an interactive build interface in your browser."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:47
@@ -288,6 +287,10 @@ msgstr ""
 #: ../doc/quick_start/localkit/building_app.rst:138
 #: ../doc/quick_start/monaca_vs/building_app.rst:127
 msgid "Step 1: Configuring Android App Settings"
+msgstr ""
+
+#: ../doc/quick_start/cli/building_app.rst:146
+msgid "In the command window, navigate to your project folder and type :ref:`monaca_remote_build` command. This command will automatically upload your local project files to Monaca Cloud and open an interactive build interface in your browser."
 msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:152
