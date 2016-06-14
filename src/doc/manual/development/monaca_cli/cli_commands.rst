@@ -389,7 +389,7 @@ Options:
 
                                                   - ``debug`` (for iOS, Android and Windows. It is default option.)
                                                   - ``test`` (for iOS only)
-                                                  - ``release`` (for iOS, Android and Chrome Apps)
+                                                  - ``release`` (for iOS and Android)
 
     ``--output``                                the path in which the built file will be stored (specify also the filename).
     ``--android_webview``                       if the platform is ``android``. It can be: ``default`` or ``crosswalk``.
