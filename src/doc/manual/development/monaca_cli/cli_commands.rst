@@ -380,19 +380,21 @@ Please refer to :ref:`build_index` for more information on how to:
 - build the application for each platform
 - get/install the built apps. 
 
-:dfn:`$ monaca remote build [options]`
+:dfn:`$ monaca remote build <platform> [options]`
 
 Options:
   =========================================== ==============================================================================================
-    ``--platform``                              builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
+    ``platform``                                builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
     ``--build-type``                            chooses the build type. It can be: 
 
                                                   - ``debug`` (for iOS, Android and Windows. It is default option.)
                                                   - ``test`` (for iOS only)
                                                   - ``release`` (for iOS, Android and Chrome Apps)
 
+    ``--output``                                the path in which the built file will be stored (specify also the filename).
     ``--android_webview``                       if the platform is ``android``. It can be: ``default`` or ``crosswalk``.
     ``--android_arch``                          required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``.
+    ``--browser``                               opens the build process in a browser (see the screenshots below).
   =========================================== ==============================================================================================
 
 Example
@@ -400,12 +402,11 @@ Example
 
   .. code-block:: bash
 
-      $ monaca remote build 
-      $ monaca remote build --platform=ios --build-type=test
-      $ monaca remote build --platform=android --build-type=debug --android_webview=crosswalk --android_arch=arm
+      $ monaca remote build ios
+      $ monaca remote build ios --build-type=debug
+      $ monaca remote build android --build-type=debug --android_webview=crosswalk --android_arch=arm
+      $ monaca remote build --browser
 
-
-.. note:: If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below). 
 
 .. figure:: images/cli_commands/4.png
   :width: 600px
