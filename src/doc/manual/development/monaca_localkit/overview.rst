@@ -113,16 +113,12 @@ There are two types of projects you can import into Monaca Localkit:
   - The scripts in hooks directory are ignored.
   - Platform specific codes including Cordova are not imported. Monaca will use its own Cordova and surrounded libraries.
 
+3. From Zip File: the zip file of a valid project.
+
 
 In order to import a project into Monaca Localkit, please do as follows:
 
 1. From Monaca Localkit dashboard, click on :guilabel:`+` button on the top right corner of the left panel. Then, click :guilabel:`Import` button. Then, choose which option you want to import Monaca project.
-
-  .. figure:: images/overview/5.png
-    :width: 600px
-    :align: left
-
-  .. rst-class:: clear
 
 2. If you choose :guilabel:`From Cloud IDE` option, fill in the necessary information such as:
 
@@ -141,6 +137,18 @@ In order to import a project into Monaca Localkit, please do as follows:
   - Project Name: create a name to represent your new project which will be shown in the project list.
 
   .. figure:: images/overview/7.png
+    :width: 500px
+    :align: left
+
+  .. rst-class:: clear
+
+3. Finally, if you choose :guilabel:`From Zip File` option, fill in the necessary information such as:
+
+  - Zip File: browse the zip file of your project.
+  - Project Name: create a name to represent your new project which will be shown in the project list.
+  - Working Directory: specify a directory where you want to keep your project files.
+
+  .. figure:: images/overview/13.png
     :width: 500px
     :align: left
 

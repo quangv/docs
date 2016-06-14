@@ -291,7 +291,7 @@ In this tab, you can:
 
 - refresh the Preview window.
 
-- change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, Galaxy, Nexus and so on. You can change the orientation of the screen as well.
+- change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, and Nexus. You can change the orientation of the screen as well.
 
 - detach/attach the Preview window.
 

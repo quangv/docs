@@ -50,7 +50,6 @@ Example
 .. rst-class:: function-reference
 
 
-
 .. _monaca_create:
 
 .. rst-class:: function-reference
@@ -58,24 +57,26 @@ Example
 monaca create
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template.
+Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. With this command, you can choose to create a new project with two options such as ``Sample Apps`` and ``Templates``.
 
-:dfn:`$ monaca create path [name]`
+:dfn:`$ monaca create path`
 
 Parameters
   =============== ============================================================================================================
   ``path``         location where you want to store your project files 
-  ``name``         project name
   =============== ============================================================================================================
 
 Example
-  The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside "Documents/CLI/" folder:
+  The following snippet shows how to create a new project based on a ``jQuery TODO App`` sample app under "MyCLIProject" folder:
 
-  .. figure:: images/cli_commands/6.png
-    :width: 600px
-    :align: center
+  .. code-block:: bash
 
-  .. rst-class:: clear
+      $ monaca create MyCLIProject
+      Select an option: Sample Apps
+      Select a sample app: jQuery TODO App
+      Downloading template...
+
+      Project created successfully.
 
 
 .. _monaca_clone:
@@ -85,7 +86,8 @@ Example
 monaca clone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC.
+Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have on Monaca Cloud. Then, use the arrow keys to select the project you want to clone. Next, input the directory path for the cloned project and wait for project files to be downloaded.
+
 
 .. note:: If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project.
 
@@ -93,22 +95,18 @@ Clones a project from Monaca Cloud. Firstly, it will display a list of all proje
 
 
 Example
-  Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into "MyProjectFolder/CloneRssProject" folder on your local PC.
+  Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into "ClonedMemoApp" folder on your local PC.
 
   .. code-block:: bash
 
       $ monaca clone
       Fetching project list...
-      Please choose one of the following projects:
-
-        1. RSS Reader Example
-        2. HelloCordova
-        3. Onsen UI Sliding Menu
-        4. Hello World App
-        5. Monaca Tunes
-
-      Project number: 1
-      Destination directory: MyProjectFolder/CloneRssProject
+      Which project would you like to synchronize? Memo Application
+      Destination directory: ClonedMemoApp
+      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ClonedMemoApp
+      ...
+      Project successfully cloned from Monaca Cloud!
+      
 
 .. rst-class:: function-reference
 
@@ -127,22 +125,18 @@ Imports a project from Monaca Cloud. Firstly, it will display a list of all proj
 :dfn:`$ monaca import`
   
 Example
-  Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into "MyProjectFolder/ImportRssProject" folder on your local PC.
+  Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApp" folder on your local PC.
 
   .. code-block:: bash
 
       $ monaca import
       Fetching project list...
-      Please choose one of the following projects:
+      Which project would you like to synchronize? Memo Application
+      Destination directory: ImportedMemoApp
+      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ImportedMemoApp
+      ...
+      Project successfully imported from Monaca Cloud!
 
-        1. RSS Reader Example
-        2. HelloCordova
-        3. Onsen UI Sliding Menu
-        4. Hello World App
-        5. Monaca Tunes
-
-      Project number: 1
-      Destination directory: MyProjectFolder/ImportRssProject
 
 .. rst-class:: function-reference
 
