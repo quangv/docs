@@ -5118,9 +5118,9 @@ msgstr ""
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:267
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:307
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:360
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:406
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:445
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:472
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:409
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:446
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:473
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:93
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:119
@@ -5153,7 +5153,7 @@ msgid ":dfn:`$ monaca create path [name]`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:69
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:436
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:437
 msgid "Parameters"
 msgstr ""
 
@@ -5352,7 +5352,7 @@ msgid "searches the plugin directory."
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:259
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:439
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:440
 msgid "Navigate to your project folder and type the command below:"
 msgstr ""
 
@@ -5381,7 +5381,7 @@ msgid ":dfn:`$ monaca debug [option]`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:298
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:396
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:398
 msgid "Options:"
 msgstr ""
 
@@ -5474,11 +5474,11 @@ msgid "get/install the built apps."
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:383
-msgid ":dfn:`$ monaca remote build [options]`"
+msgid ":dfn:`$ monaca remote build <platform> [options]`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:387
-msgid "``--platform``"
+msgid "``platform``"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:387
@@ -5506,70 +5506,82 @@ msgid "``release`` (for iOS, Android and Chrome Apps)"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:394
-msgid "``--android_webview``"
+msgid "``--output``"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:394
+msgid "the path in which the built file will be stored (specify also the filename)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
+msgid "``--android_webview``"
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
 msgid "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:396
 msgid "``--android_arch``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:396
 msgid "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:399
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:397
+msgid "``--browser``"
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:397
+msgid "opens the build process in a browser (see the screenshots below)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:401
 msgid "Navigate to your project folder and try to use this command with different options:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:408
-msgid "If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:426
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:427
 msgid "monaca proxy"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:428
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:429
 msgid "Configures proxy to use when connecting to Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:430
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:431
 msgid ":dfn:`$ monaca proxy <command>`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:434
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
 msgid "``set <URL:PORT_NUMBER>``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:434
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
 msgid "sets a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:436
 msgid "``rm``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:436
 msgid "removes a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:455
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:456
 msgid "monaca logout"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:457
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:458
 msgid "Signs out from Monaca Cloud and removes stored login token."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:459
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:460
 msgid ":dfn:`$ monaca logout`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:463
 msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
 msgstr ""
 

@@ -1957,11 +1957,11 @@ msgid "This sample code is confirmed to work with Android 2.3.6, Android 3.2, An
 msgstr ""
 
 #: ../doc/sampleapp/tips/camera.rst:10
-msgid "You will need to use PhoneGap Camera API to access the camera of a device. In order to use PhoneGap API, you need to load :file:`components/loader.js` file. Please be sure to add the following lines in the HTML files."
+msgid "You will need to use Cordova Camera API to access the camera of a device. In order to use Cordova API, you need to load :file:`components/loader.js` file. Please be sure to add the following lines in the HTML files."
 msgstr ""
 
 #: ../doc/sampleapp/tips/camera.rst:23
-msgid "PhoneGap has two JavaScript \"Camera\" object APIs."
+msgid "Cordova has two JavaScript \"Camera\" object APIs."
 msgstr ""
 
 #: ../doc/sampleapp/tips/camera.rst:26

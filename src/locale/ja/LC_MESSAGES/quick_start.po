@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-10 10:08+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-06-14 02:40+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,13 +130,12 @@ msgid "Step 1: Configuring iOS App Settings"
 msgstr "ステップ 1 : iOS アプリの設定"
 
 #: ../doc/quick_start/cli/building_app.rst:41
-#: ../doc/quick_start/cli/building_app.rst:146
 msgid ""
-"In the command window, navigate to your project folder and type "
+"In the command window, navigate to your project folder and use "
 ":ref:`monaca_remote_build` command. This command will automatically upload "
-"your local project files to Monaca Cloud and open an interactive build "
-"interface in your browser."
-msgstr "コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、 :ref:`monaca_remote_build` コマンドを実行します。このコマンドを実行すると、ローカルから Monaca クラウドへプロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます。"
+"your local project files to Monaca Cloud. Please type the following command "
+"to open an interactive build interface in your browser."
+msgstr ""
 
 #: ../doc/quick_start/cli/building_app.rst:47
 msgid ""
@@ -349,6 +348,14 @@ msgstr "デバッグビルド版 Android アプリの作成方法に関して、
 #: ../doc/quick_start/monaca_vs/building_app.rst:127
 msgid "Step 1: Configuring Android App Settings"
 msgstr "ステップ 1 : Android アプリの設定"
+
+#: ../doc/quick_start/cli/building_app.rst:146
+msgid ""
+"In the command window, navigate to your project folder and type "
+":ref:`monaca_remote_build` command. This command will automatically upload "
+"your local project files to Monaca Cloud and open an interactive build "
+"interface in your browser."
+msgstr "コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、 :ref:`monaca_remote_build` コマンドを実行します。このコマンドを実行すると、ローカルから Monaca クラウドへプロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます。"
 
 #: ../doc/quick_start/cli/building_app.rst:152
 msgid ""
@@ -656,7 +663,7 @@ msgstr "次に、Monaca アカウントで使用している、電子メール�
 
 #: ../doc/quick_start/cli/starting_project.rst:26
 msgid "You can use ``monaca signup`` command if you need to sign up."
-msgstr ""
+msgstr "Monaca に登録していない場合には、``monaca signup`` コマンドを使用して、登録から行ってください。"
 
 #: ../doc/quick_start/cli/starting_project.rst:30
 #: ../doc/quick_start/cloud_ide/starting_project.rst:22
@@ -673,7 +680,7 @@ msgid ""
 "Then, you will be asked to choose either ``Sample Apps`` or ``Templates`` to"
 " create a new Monaca project. In this tutorial, let's choose the ``Sample "
 "Apps`` option. Then, select ``jQuery TODO App``."
-msgstr ""
+msgstr "次に、Monaca プロジェクトを新規作成します。``Sample Apps`` ( サンプルアプリ )、``Templates`` ( テンプレート ) のいずれかを選択します。ここでは、``Sample Apps`` オプションを選択します。次に、``jQuery TODO App`` を選択します。"
 
 #: ../doc/quick_start/cli/starting_project.rst:46
 msgid ""
