@@ -27,7 +27,7 @@ Starting a new Onsen UI project in Monaca
 Go to Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Go to Dashboard and click *New Project*
+Go to Dashboard and click *Create Project*
 
 .. image:: images/new_project.png
   :width: 350px
@@ -37,6 +37,10 @@ Choose one Onsen UI template that best fit your project type
 
 .. image:: images/choose_template.png
   :width: 700px
+
+.. note:: 
+    
+    Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 framework type since it requires to transpile the source code to Javascript. Therefore, you need to setup the local environment with :ref:`Monaca CLI<cli_overview>`.
   
 Where to go from here
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

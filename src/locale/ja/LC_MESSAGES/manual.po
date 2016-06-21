@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-14 08:39+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-06-21 02:58+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,7 +104,7 @@ msgid ""
 "The properties can only be added/updated but not deleted. System properties "
 "which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) "
 "cannot be modified, except ``\"_username\"``."
-msgstr "プロパティーの追加と更新はできますが、削除はできません。また、システム側で使用するプロパティーは、原則、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。ただし、「 _username 」 だけは、更新することができます。"
+msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除・更新しても、再び表示されます )。また、システム側で使用するプロパティーは、原則、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。ただし、「 _username 」 だけは、更新することができます。"
 
 #: ../doc/manual/backend/control_operations.rst:76
 msgid "Deleting a User"
@@ -136,7 +136,7 @@ msgid ""
 "used within an application based on permissions you granted to each user. "
 "User permissions you can grant to each user are *create*, *access*, *edit*, "
 "*delete* or *read-only*."
-msgstr "「 コレクション 」 とはデータの集合体を意味します。データに対するパーミッション ( 権限 ) をユーザー別に設定できるので、アプリ内で使うデータを適切に管理できます。設定可能なパーミッションには、 *作成* 、 *アクセス許可* 、 *編集* 、 *削除* 、 *読み取り専用* の 5 種類があります。"
+msgstr "「 コレクション 」 とはデータの集合体を意味します。データに対するパーミッション ( 権限 ) をユーザー別に設定できるので、アプリ内で使うデータを適切に管理できます。設定可能なパーミッションには、*作成*、*アクセス許可*、*編集*、*削除*、*読み取り専用* の 5 種類があります。"
 
 #: ../doc/manual/backend/control_operations.rst:100
 msgid ""
@@ -316,7 +316,7 @@ msgstr "項目の表示位置は、手動で左右に変更できます。"
 msgid ""
 "When you want to hide a column, click on its dropdown icon and choose "
 ":guilabel:`Hide this column`."
-msgstr "項目を非表示にする場合、対象の項目上にカーソルを移動させ、表示されたドロップダウン アイコンから :guilabel:`この列を表示しない` を選択します。"
+msgstr "項目を非表示にする場合、対象の項目上にカーソルを移動させ、表示されたドロップダウン アイコンから :guilabel:`この列を表示しない` を選択します ( システムプロパティー以外が対象 )。"
 
 #: ../doc/manual/backend/control_operations.rst:223
 msgid "Updating a Collection Item"
@@ -340,7 +340,7 @@ msgid ""
 "The properties can only be added/updated but not deleted. System properties "
 "which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) "
 "cannot be modified."
-msgstr "プロパティーの追加と更新はできますが、削除はできません。また、システム側で使用するプロパティーは、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。"
+msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除・更新しても、再び表示されます )。また、システム側で使用するプロパティーは、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。"
 
 #: ../doc/manual/backend/control_operations.rst:240
 msgid "Deleting a Collection Item"
@@ -448,7 +448,7 @@ msgid ""
 "Backend provides these functionalities in advance as a cloud-based service "
 "that can manage users without a need for server-side development on the "
 "client's part."
-msgstr "ユーザーを登録 ・ 管理する機能を、モバイルアプリに実装するためには、クライアントアプリと連携するサーバーサイドのプログラムを、別途、組む必要があります。Monaca バックエンドでは、クラウドサービスとして、ユーザーの管理機能を提供しています。Monaca バックエンドを使用すれば、アプリ開発者はサーバーサイドの開発をせずとも、バックエンドの機能をアプリに実装できます。"
+msgstr "ユーザーを登録・管理する機能を、モバイルアプリに実装するためには、クライアントアプリと連携するサーバーサイドのプログラムを、別途、組む必要があります。Monaca バックエンドでは、クラウドサービスとして、ユーザーの管理機能を提供しています。Monaca バックエンドを使用すれば、アプリ開発者はサーバーサイドの開発をせずとも、バックエンドの機能をアプリに実装できます。"
 
 #: ../doc/manual/backend/control_panel.rst:11
 msgid ""
@@ -484,7 +484,7 @@ msgid ""
 "The following dialog will appear. You can create a new Backend, or select an"
 " existing one which is used in a different project. Then, click "
 ":guilabel:`Apply` to attach the Backend to your project."
-msgstr "下のダイアログが表示されます。ここでは、バックエンドの新規作成、または、他のプロジェクトで使用した既存のバックエンドを選択できます。選択後、:guilabel:`適用` ボタンをクリックして、プロジェクトにバックエンドを紐付けします。"
+msgstr "次のダイアログが表示されます。ここでは、バックエンドの新規作成、または、他のプロジェクトで使用しているバックエンドの再利用を選択できます。選択後、:guilabel:`適用` ボタンをクリックして、プロジェクトにバックエンドを紐付けします。"
 
 #: ../doc/manual/backend/control_panel.rst:39
 msgid ""
@@ -588,7 +588,7 @@ msgstr "IP アドレスの範囲 : 指定した IP アドレスの範囲に対�
 
 #: ../doc/manual/backend/control_panel.rst:136
 msgid "Click :guilabel:`Create` button to generate the API key."
-msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを生成します。"
+msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを生成します ( 画面中央に表示 )。"
 
 #: ../doc/manual/backend/control_panel.rst:141
 #: ../doc/manual/backend/push_notification/overview.rst:112
@@ -717,7 +717,7 @@ msgstr "Monaca クラウド IDE のバックエンド管理パネルから、:me
 msgid ""
 "Under iOS section, select :guilabel:`Generate Key and Make CSR` of "
 "Development or Production Push Certificate as you prefer."
-msgstr "[ iOS ] 項目上で、用途に応じて、[ 開発用プッシュ証明書 ] または [ 配布用プッシュ証明書 ] 下のいずれかの :guilabel:`秘密鍵の生成と CSR の発行`　ボタンをクリックします。"
+msgstr "[ iOS ] 項目上で、用途に応じて、[ 開発用プッシュ証明書 ] または [ 配布用プッシュ証明書 ] 下のいずれかの :guilabel:`秘密鍵の生成と CSR の発行` ボタンをクリックします。"
 
 #: ../doc/manual/backend/push_notification/apns.rst:46
 msgid ""
@@ -767,7 +767,7 @@ msgstr "iOS Developer Program に登録した、Apple ID とパスワードを�
 msgid ""
 "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following "
 "page will appear."
-msgstr ":guilabel:`Certificates, Identifiers & Profiles` へ行きます。下のページが表示されます。"
+msgstr ":guilabel:`Certificates, Identifiers & Profiles` へ行きます。次のページが表示されます。"
 
 #: ../doc/manual/backend/push_notification/apns.rst:77
 msgid ""
@@ -779,7 +779,7 @@ msgstr "App ID を Explicit App ID として登録し、プッシュ通知サー
 msgid ""
 "Push notification can't be used if your App ID is registered as Wildcard and"
 " Push Notifications service is not enable."
-msgstr "WildCard として App ID が登録され、プッシュ通知サービスが無効化されている場合、プッシュ通知は使用できません。"
+msgstr "WildCard として App ID が登録され、加えて、プッシュ通知サービスが無効化されている場合、プッシュ通知は使用できません。"
 
 #: ../doc/manual/backend/push_notification/apns.rst:81
 msgid ""
@@ -1106,7 +1106,7 @@ msgid ""
 "You can monitor your push notification activities in the Push Status & "
 "History page. In this page, you can see various information related to each "
 "push notification such as:"
-msgstr "プッシュ通知画面では、通知の送信状況を確認できます。下記の情報が表示されます。"
+msgstr "プッシュ通知画面では、通知の送信状況を確認できます。次の情報が表示されます。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:78
 msgid "Platform: The platform of the recipient."
@@ -1185,7 +1185,7 @@ msgstr "ビルドの種類"
 msgid ""
 "In Monaca, Android app has two types of build: debug version and release "
 "version. The differences between these types of build are as follows:"
-msgstr "Monaca では、デバッグビルド版、リリースビルド版の 2 種類の Android アプリをビルドできます。これらの違いは次のとおりです。"
+msgstr "Monaca では、デバッグビルド版、リリースビルド版の 2 種類の Android アプリをビルドできます。これらの相違点は、次のとおりです。"
 
 #: ../doc/manual/build/build_android.rst:18
 #: ../doc/manual/build/ios/build_ios.rst:28
@@ -1747,7 +1747,7 @@ msgid ""
 " Monaca are equipped with the same functionalities as created by development"
 " tools such as Visual Studio, and can use all native features including "
 "WinJS."
-msgstr "Windows ストアアプリは、HTML5 と JavaScript で作成され、WinRT アーキテクチャー上で、ネイティブと同じように、実行されます。また、Monaca で作成したアプリにも、Visual Studio などで作成したアプリと同じ機能が実装されており、WinJS を含む、すべてのネイティブ機能を使用できます。"
+msgstr "Windows ストアアプリは、HTML5 と JavaScript で作成され、WinRT アーキテクチャー上で、ネイティブと同じように実行されます。また、Monaca で作成したアプリにも、Visual Studio などで作成したアプリと同じ機能が実装されており、WinJS を含む、すべてのネイティブ機能を使用できます。"
 
 #: ../doc/manual/build/build_winrt.rst:14
 msgid ""
@@ -1761,7 +1761,7 @@ msgstr "また、Windows ストアアプリは、Windows および Windows RT �
 msgid ""
 "On the other hand, Windows Store apps have various constraints that are not "
 "found on Android or iOS such as:"
-msgstr "また、Windows ストアアプリには、Android と iOS 側にはない制約があります。"
+msgstr "また、Windows ストアアプリには、Android と iOS にはない制約があります。"
 
 #: ../doc/manual/build/build_winrt.rst:18
 msgid ""
@@ -1891,7 +1891,7 @@ msgstr "選択したファイルを開くか確認するメッセージが表示
 
 #: ../doc/manual/build/build_winrt.rst:113
 msgid "Press Enter to continue."
-msgstr "Enter を押して、処理を続けます。"
+msgstr "[ Enter ] を押して、処理を続けます。"
 
 #: ../doc/manual/build/build_winrt.rst:121
 msgid ""
@@ -1959,7 +1959,7 @@ msgid ""
 "In Monaca, iOS app has three types of build: debug version, test version and"
 " release version. The differences between these types of build are as "
 "follows:"
-msgstr "Monaca では、デバッグビルド、テストビルド ( Ad Hoc )、リリースビルドの 3 種類の iOS アプリをビルドできます。これらの違いは下記のとおりです。"
+msgstr "Monaca では、デバッグビルド、テストビルド ( Ad Hoc )、リリースビルドの 3 種類の iOS アプリをビルドできます。これらの相違点は、次のとおりです。"
 
 #: ../doc/manual/build/ios/build_ios.rst:28
 msgid "Requirement"
@@ -2018,7 +2018,7 @@ msgid ""
 "by using Ad Hoc provisioning profile can be shared with other iOS devices "
 "through Ad Hoc distribution. However, the application distribution from the "
 "developer organization will be limited to the development stakeholders."
-msgstr "Ad Hoc 配布とは、App Store を経由せずに、アプリを配布するための仕組みです。Ad Hoc プロビジョニング プロファイルを使ってビルドする、テストビルドのアプリは、現在、最大 *100 個* まで開発でき、Ad Hoc 形式で、iOS 端末に配布できます。ただし、アプリの配布先は、開発関係者に限定されます。"
+msgstr "Ad Hoc 配布とは、App Store を経由せずに、アプリを配布するための仕組みです。Ad Hoc プロビジョニング プロファイルを使ってビルドする、テストビルドのアプリは、現在、最大 *100 台* まで、Ad Hoc 形式で配布できます。ただし、アプリの配布先は、開発関係者に限定されます。"
 
 #: ../doc/manual/build/ios/build_ios.rst:48
 msgid "Step 1: Configure iOS App in Monaca"
@@ -2633,7 +2633,7 @@ msgstr "最初に、端末またはエミュレーター上に、Monaca デバ�
 
 #: ../doc/manual/debugger/debug.rst:21
 msgid "Monaca Debugger with Monaca Cloud IDE"
-msgstr "Monaca クラウド IDE と Monaca デバッガー ( Web 経由 )"
+msgstr "Monaca クラウド IDE と Monaca デバッガーとの連携 ( Web 経由 )"
 
 #: ../doc/manual/debugger/debug.rst:23
 msgid ""
@@ -3106,15 +3106,15 @@ msgstr "スクリーンショット機能では、次の操作・処理が行え
 
 #: ../doc/manual/debugger/features.rst:42
 msgid "edit the screenshot."
-msgstr "スクリーンショットのキャプチャー、コメント手書き入力"
+msgstr "Edit : スクリーンショットのキャプチャー、コメント手書き入力"
 
 #: ../doc/manual/debugger/features.rst:43
 msgid "upload to Cloud IDE."
-msgstr "クラウド IDE へのアップロード ( チャット機能を使用 )"
+msgstr "Upload : クラウド IDE へのアップロード ( チャット機能を使用 )"
 
 #: ../doc/manual/debugger/features.rst:44
 msgid "save to phone storage."
-msgstr "ローカルストレージへの保存"
+msgstr "Save : ローカルストレージへの保存"
 
 #: ../doc/manual/debugger/features.rst:55
 msgid "App Log"
@@ -3719,7 +3719,7 @@ msgstr "新規のプロジェクトを作成するか、または、既存のプ
 msgid ""
 "Click on :guilabel:`AVD Manager`. Then, Android Virtual Device Manager "
 "dialog will appear."
-msgstr ":guilabel:`AVD Manager` をクリックして、「 Android Virtual Device Manager 」 ダイアログを表示します。"
+msgstr ":guilabel:`AVD Manager` をクリックして、[ Android Virtual Device Manager ] ダイアログを表示します。"
 
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:31
 msgid "Click :guilabel:`+ Create Virtual Device`."
@@ -3800,7 +3800,7 @@ msgstr "これで、プロジェクトの検証の準備が整いました。ア
 #: ../doc/manual/debugger/installation/debugger_ios.rst:5
 #: ../doc/manual/debugger/installation/debugger_ios.rst:15
 msgid "Monaca Debugger for iOS"
-msgstr "Chrome 向け Monaca デバッガー"
+msgstr "iOS 向け Monaca デバッガー"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:23
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_ios>`."
@@ -3858,7 +3858,7 @@ msgid ""
 "DatePicker, BarcodeScanner, Bluetooth and so on. For a complete list of "
 "currently included third-party Cordova plugins, please refer to "
 ":ref:`third_party_cordova_index`."
-msgstr "また、DatePicker、BarcodeScanner、Bluetooth など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも Monaca には実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
+msgstr "また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも Monaca には実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:71
 msgid ""
@@ -3978,7 +3978,7 @@ msgid ""
 "from the debugger. Port `8001` will be used, and you can change the server "
 "port in :ref:`Preferences dialog<localkit_preference>`. Please change the "
 "port or configure your firewall settings to try agian."
-msgstr "Monaca デバッガー側は、ホスト PC を認識しているが、ペアリングが失敗する場合 : 多くの場合、ホスト PC 側のファイアーウォールに起因します。なお、ホスト PC とデバッガー間の通信には、TCP 接続を使用します。ポート番号は、`8001` です。待ち受けポートの変更方法に関しては、 :ref:`設定ダイアログ <localkit_preference>` をご確認ください。ポート番号またはファイアーウォール設定の変更後、再度、ペアリングをします。"
+msgstr "Monaca デバッガー側は、ホスト PC を認識しているが、ペアリングが失敗する場合 : 多くの場合、ホスト PC 側のファイアーウォールに起因します。なお、ホスト PC とデバッガー間の通信には、TCP 接続を使用します。ポート番号は、`8001` です。待ち受けポートの変更方法に関しては、 :ref:`設定ダイアログ <localkit_preference>` をご確認ください。ポート番号またはファイアーウォール設定の変更後は、再度、ペアリングをする必要があります。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:20
 msgid ""
@@ -3996,17 +3996,17 @@ msgstr "Monaca デバッガーと ホスト PC を、次の手順に従い、手
 msgid ""
 "From Monaca Debugger, click on the toggle menu on the top-left corner and "
 "select :guilabel:`Local Computers` button."
-msgstr "Monaca デバッガー画面の左上端に表示された切り替えメニューをクリックして、次に、 :guilabel:`ローカルコンピュータ` ボタンをクリックします。"
+msgstr "Monaca デバッガー画面の左上端に表示された切り替えメニューをクリックして、次に、 :guilabel:`ローカルコンピュータ` ボタンをタップします。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:32
 msgid "Click :guilabel:`Pair the New Computer` button."
-msgstr ":guilabel:`コンピュータを手動で追加する` ボタンをクリックします。"
+msgstr ":guilabel:`コンピュータを手動で追加する` ボタンをタップします。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:34
 msgid ""
 "Input :ref:`the IP address of the host PC and port number<ip_port>`. Then, "
 "click :guilabel:`Pair` button."
-msgstr ":ref:`ホスト PC の IP アドレスとポート番号 <ip_port>` を入力して、 :guilabel:`ペアリング` ボタンをクリックします。"
+msgstr ":ref:`ホスト PC の IP アドレスとポート番号 <ip_port>` を入力して、 :guilabel:`ペアリング` ボタンをタップします。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:42
 msgid ""
@@ -4156,7 +4156,7 @@ msgstr "JS・CSS コンポーネントとは、プロジェクトにインクル
 
 #: ../doc/manual/dependencies/components.rst:14
 msgid "In order to add a JavaScript/CSS library, please do as follows:"
-msgstr "JavaScript/CSS ライブライリーを追加する場合、次の手順に従います。"
+msgstr "JavaScript/CSS ライブラリーを追加する場合、次の手順に従います。"
 
 #: ../doc/manual/dependencies/components.rst:16
 msgid ""
@@ -4202,7 +4202,7 @@ msgid ""
 " The following JavaScript and CSS files will also be automatically updated. "
 "These files will always be presented regardless of which libraries are added"
 " into your project."
-msgstr "ライブラリーを追加すると、そのファイルは、``www/components`` フォルダーに追加されます。また、次の JavaScript ファイルと CSS ファイルも自動的に更新されます。プロジェクトに追加したライブラリーの種類にかかわらず、こちらのファイルは、常にこのフォルダー内におかれています。"
+msgstr "ライブラリーを追加すると、そのファイルは、``www/components`` フォルダーに追加されます。また、次の JavaScript ファイルと CSS ファイルも自動的に更新されます。プロジェクトに追加したライブラリーの種類にかかわらず、こちらのファイルは、常にこのフォルダー内に置かれています。"
 
 #: ../doc/manual/dependencies/components.rst:63
 msgid "``components/loader.js``"
@@ -4279,13 +4279,13 @@ msgid ""
 "As a trial, let's start up Camera functions by using device APIs. Please "
 "copy and paste the code below to your project in Monaca Cloud IDE then you "
 "can run it on  :ref:`monaca_debugger_index`."
-msgstr "ここでは、デバイス系の API を使用して、カメラ機能を起動するコードを例にしてみます。Monaca クラウド IDE 上のプロジェクトに、下記の内容をコピーして、 :ref:`monaca_debugger_index` 上で実行してみましょう。"
+msgstr "ここでは、デバイス系の API を使用して、カメラ機能を起動するコードを例にしてみます。Monaca クラウド IDE 上のプロジェクトに、次の内容をコピー＆ペーストして、 :ref:`monaca_debugger_index` 上で実行してみましょう。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:29
 msgid ""
 "This code was written for Cordova 4.1. We apologize in advance in case the "
 "code may behave differently on various devices."
-msgstr "このコードは、Cordova 4.1 向けです。なお、端末の種類によっては、動作が異なる場合があります。"
+msgstr "このコードは、Cordova 4.1 向けです。端末の種類によっては、動作が異なる場合があります。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:74
 msgid "Changing Cordova Version"
@@ -4366,7 +4366,7 @@ msgid ""
 "using :guilabel:`Import Cordova Plugin` button. A project containing "
 "external third-party Cordova plugin(s) requires a custom built Monaca "
 "Debugger. Please refer to :ref:`debugger_for_custom_plugins`."
-msgstr "「 Cordova とプラグインの管理 」 ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧化されています。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
+msgstr "「 Cordova とプラグインの管理 」 ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧表示されます。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:120
 msgid ""
@@ -4477,7 +4477,7 @@ msgstr ":download:`Cordovaプラグインのサンプル <download/cordova_plugi
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:55
 msgid ""
 "When you extract the package, you will see a directory structure as follows:"
-msgstr "パッケージを解凍すると、下記のようなディレクトリー構成が表示されます。"
+msgstr "パッケージを解凍すると、次のようなディレクトリー構成が表示されます。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:65
 msgid ":file:`plugin.xml` file"
@@ -4730,7 +4730,7 @@ msgid ""
 "Files of the application's main body are stored here. Files and folders can "
 "be arranged freely within this ``www`` folder, but the following files and "
 "folders have special significance."
-msgstr "アプリ本体のファイルを格納します。www フォルダー内では、ファイルとフォルダーを、自由に配置できますが、下記のファイルとフォルダーだけは、特別な意味を持ちます。"
+msgstr "アプリ本体のファイルを格納します。ファイルとフォルダーは、www フォルダー下であれば、自由に配置できますが、次のファイルとフォルダーだけは、特別な意味を持ちます。"
 
 #: ../doc/manual/dependencies/file_dir.rst:25
 msgid "``index.html``"
@@ -4771,7 +4771,7 @@ msgid ""
 "The folder ``www/components/`` is for all JS/CSS components used in the "
 "project. However, the following two files exist in that folder by default "
 "regardless of what kinds of components you have added for your project."
-msgstr "``www/components/`` フォルダーを使用して、プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納します。次の 2 つのファイルは、プロジェクトに追加したコンポーネントの種類にかかわらず、デフォルトで、このフォルダーに常に置かれているファイルです。"
+msgstr "``www/components/`` フォルダー下に、プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納します。次の 2 つのファイルは、プロジェクトに追加したコンポーネントの種類にかかわらず、デフォルトで、このフォルダーに常に置かれているファイルです。"
 
 #: ../doc/manual/dependencies/file_dir.rst:41
 msgid "``loader.js``"
@@ -4816,7 +4816,7 @@ msgstr "``AndroidManifest.xml``"
 
 #: ../doc/manual/dependencies/file_dir.rst:57
 msgid "Manifest file used when running Android applications"
-msgstr "Android アプリの実行時に使用する、Manifest ファイル"
+msgstr "Android アプリの実行時に使用する Manifest ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:60
 msgid ""
@@ -4839,7 +4839,7 @@ msgstr "``background.js``"
 
 #: ../doc/manual/dependencies/file_dir.rst:68
 msgid "A JavasSript file used when running Chrome applications"
-msgstr "Chrome アプリの実行時に使用する、JavaScript ファイル"
+msgstr "Chrome アプリの実行時に使用する JavaScript ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:69
 msgid "``manifest.json``"
@@ -4847,7 +4847,7 @@ msgstr "``manifest.json``"
 
 #: ../doc/manual/dependencies/file_dir.rst:69
 msgid "A Manifest file used when running Chrome applications"
-msgstr "Chrome アプリの実行時に使用する、Manifest ファイル"
+msgstr "Chrome アプリの実行時に使用する Manifest ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:75
 msgid "ios Folder"
@@ -4863,7 +4863,7 @@ msgstr "``MonacaApp-Info.plist``"
 
 #: ../doc/manual/dependencies/file_dir.rst:80
 msgid ":file:`Info.plist` file used when running iOS applications"
-msgstr "iOS アプリの実行時に使用する、Info.plist ファイル"
+msgstr "iOS アプリの実行時に使用する Info.plist ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:83
 msgid ""
@@ -5162,13 +5162,13 @@ msgid ""
 "If you use activation code to upgrade your account, you can use Monaca "
 "upload feature in case your plan supports this feature. Please `contact us "
 "<https://monaca.mobi/en/support/inquiry>`_ for more details."
-msgstr "アクティベーション コードを使用して、アカウントをアップグレードさせ、アップロード機能を使用する場合には、アップグレード後のプランがこの機能をサポートしている必要があります。なにかご質問がございましたら、こちらの `相談窓口 <https://monaca.mobi/en/support/inquiry>`_ までご連絡ください。"
+msgstr "アクティベーション コードを使用し、アカウントをアップグレードさせて、アップロード機能を使用する場合には、アップグレード後のプランがこの機能をサポートしている必要があります。なにかご質問がございましたら、こちらの `相談窓口 <https://monaca.mobi/en/support/inquiry>`_ までご連絡ください。"
 
 #: ../doc/manual/deploy/appstore/app_submission.rst:11
 msgid ""
 "Monaca allows you to upload your app to iTunes Connect right from Monaca "
 "IDE. In order to do this, please do as follows:"
-msgstr "Monaca 提供のアップロード機能を使用すれば、Monaca クラウド IDE から iTunes Connect にアプリをアップロードできます。手順は、次のとおりです。"
+msgstr "Monaca 提供のアップロード機能を使用すれば、Monaca クラウド IDE から iTunes Connect に、アプリをアップロードできます。手順は、次のとおりです。"
 
 #: ../doc/manual/deploy/appstore/app_submission.rst:14
 msgid ""
@@ -5248,7 +5248,7 @@ msgid ""
 "will check if your apps are eligible or qualified to be in the App Store. "
 "Usually, it takes two weeks for the review. Therefore, please wait patiently"
 " for it."
-msgstr "App Store で iOS アプリを配布するためには、Apple 社による審査を通過する必要があります。審査のため、アプリを提出するときには、iTunes Connect を使用します。iTunes Connect 上では、アプリの提出に必要な手続き ( アプリ情報の登録など ) を含む、さまざまな処理・操作を行います。なお、審査では、App Store での配布基準に適合しているかが審査されます。アプリの提出後、審査にはしばらく時間がかかります。"
+msgstr "App Store で iOS アプリを配布するためには、Apple 社による審査を通過する必要があります。審査のためにアプリを提出するときには、iTunes Connect を使用します。iTunes Connect 上では、アプリの提出に必要な手続き ( アプリ情報の登録など ) を含む、さまざまな処理・操作を行います。なお、審査では、App Store での配布基準に適合しているかが審査されます。アプリの提出後、審査終了までには、しばらく時間がかかります。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:5
 msgid "iTunes Connect Guide"
@@ -5551,7 +5551,7 @@ msgid ""
 "(one-time only). It will take ``48`` hours for your *Google Play Developer "
 "Console* registration to be fully processed. To register, please go `here "
 "<https://play.google.com/apps/publish/v2/>`_."
-msgstr "Google Play ストアでのアプリの配布には、 *Google Play Developer Console* アカウントに登録する必要があります。ディベロッパー登録料は、 ``25 ドル`` です ( 定期的な更新はありません )。 登録処理が完了するまで、``2`` 日ほど要します。登録は、 `ディベロッパー登録画面 <https://play.google.com/apps/publish/v2/>`_ から行えます。"
+msgstr "Google Play ストアでアプリを配布するためには、 *Google Play Developer Console* アカウントに登録しておく必要があります。ディベロッパー登録料は、 ``25 ドル`` です ( 定期的な更新はありません )。 登録処理が完了するまで、``2`` 日ほど要します。登録は、 `ディベロッパー登録画面 <https://play.google.com/apps/publish/v2/>`_ から行えます。"
 
 #: ../doc/manual/deploy/google_play.rst:17
 msgid ""
@@ -5740,7 +5740,7 @@ msgstr "メールアドレスを入力して、アプリのカテゴリーを選
 msgid ""
 "Click :guilabel:`Calculate rating`. Then, click :guilabel:`Apply rating`. "
 "Now, the page should look similar to this:"
-msgstr ":guilabel:`レーティングを算定` ボタンをクリックします。次に、:guilabel:`レーティングを適用` ボタンをクリックします。下のような画面が表示されます。"
+msgstr ":guilabel:`レーティングを算定` ボタンをクリックします。次に、:guilabel:`レーティングを適用` ボタンをクリックします。次のような画面が表示されます。"
 
 #: ../doc/manual/deploy/google_play.rst:132
 msgid ""
@@ -6178,7 +6178,7 @@ msgstr "リモートビルド"
 msgid ""
 "Inside :guilabel:`Remote Build`, there are several important functions such "
 "as:"
-msgstr ":guilabel:`リモートビルド` の機能を、次に記します ( 表示される画面のタブ上 )。"
+msgstr ":guilabel:`リモートビルド` の機能を解説します ( [ ビルド設定 ] 画面の各タブの解説 )。"
 
 #: ../doc/manual/development/monaca_cli/build_publish.rst:15
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:19
@@ -6223,7 +6223,7 @@ msgstr "ここまでの手順で、アプリの開発工程のすべてを終え
 msgid ""
 "Please refer to the following documentation on how to build your app "
 "according to each platform:"
-msgstr "アプリのビルド方法に関しては、次の、各プラットフォーム向けの解説をご確認ください。"
+msgstr "各プラットフォーム向けアプリのビルド方法に関しては、次の解説をご確認ください。"
 
 #: ../doc/manual/development/monaca_cli/build_publish.rst:24
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:28
@@ -6489,11 +6489,11 @@ msgid ""
 "Creates a new Monaca project locally based on Monaca Cloud templates at a "
 "specified path. With this command, you can choose to create a new project "
 "with two options such as ``Sample Apps`` and ``Templates``."
-msgstr ""
+msgstr "Monaca クラウドが提供する雛型を使用して、指定したパス ( ローカル ) に、Monaca プロジェクトを新規作成します。プロジェクトに使用する雛型として、``Sample Apps`` ( サンプルアプリ ) または ``Templates`` ( テンプレート ) のいずれかを選択します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:62
 msgid ":dfn:`$ monaca create path`"
-msgstr ""
+msgstr ":dfn:`$ monaca create path`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:67
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:431
@@ -6512,7 +6512,7 @@ msgstr "プロジェクトファイルの保存先"
 msgid ""
 "The following snippet shows how to create a new project based on a ``jQuery "
 "TODO App`` sample app under \"MyCLIProject\" folder:"
-msgstr ""
+msgstr "次の例では、サンプルアプリ 「 ``jQuery TODO App`` 」 を使用して、\"MyCLIProject\" フォルダー下に、プロジェクトを新規作成しています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:87
 msgid "monaca clone"
@@ -6524,7 +6524,7 @@ msgid ""
 "projects you have on Monaca Cloud. Then, use the arrow keys to select the "
 "project you want to clone. Next, input the directory path for the cloned "
 "project and wait for project files to be downloaded."
-msgstr ""
+msgstr "Monaca クラウドから、プロジェクトをクローン ( clone ) します。Monaca クラウド内のプロジェクトの一覧が表示されるので、矢印キーを操作して、対象のプロジェクトを選択します。次に、クローンするプロジェクトの保存先となるディレクトリーを入力します。ダウンロードが開始されるので、しばらく待ちます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:92
 msgid ""
@@ -6542,7 +6542,7 @@ msgstr ":dfn:`$ monaca clone`"
 msgid ""
 "Here is an exmaple of how to clone a project called ``Memo Application`` "
 "from Monaca Cloud into \"ClonedMemoApp\" folder on your local PC."
-msgstr ""
+msgstr "次の例では、Monaca クラウドから \"ClonedMemoApp\" フォルダーへ、``Memo Application`` をクローンしています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:119
 msgid "monaca import"
@@ -6573,7 +6573,7 @@ msgstr ":dfn:`$ monaca import`"
 msgid ""
 "Here is an exmaple of how to import a project called ``Memo Application`` "
 "from Monaca Cloud into \"ImportedMemoApp\" folder on your local PC."
-msgstr ""
+msgstr "次の例では、Monaca クラウドから \"ImportedMemoApp\" フォルダーへ、``Memo Application`` をインポートしています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:149
 msgid "monaca upload"
@@ -6646,7 +6646,7 @@ msgstr "アップロード処理をシュミレートします。出力として
 msgid ""
 "Navigate to your project folder. Then, type ``monaca upload`` command with "
 "various options and see how it works."
-msgstr "プロジェクトフォルダーへ移動後、さまざまなオプションを組み合わせて、``monaca download`` コマンドを実行し、出力を確認してみましょう。"
+msgstr "プロジェクトフォルダーへ移動後、さまざまなオプションを組み合わせて、``monaca upload`` コマンドを実行し、出力を確認してみましょう。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:196
 msgid "monaca download"
@@ -6715,7 +6715,7 @@ msgstr "プラグインを削除します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "``ls|list``"
-msgstr "``ls|list``"
+msgstr "``ls または list``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "lists currently installed plugins."
@@ -6881,15 +6881,15 @@ msgstr "各プラットフォーム向けのアプリのビルド方法"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:375
 msgid "get/install the built apps."
-msgstr "ビルド済みアプリの入手 ・ インストール方法"
+msgstr "ビルド済みアプリの入手・インストール方法"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:377
 msgid ":dfn:`$ monaca remote build <platform> [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:381
 msgid "``platform``"
-msgstr ""
+msgstr "``platform``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:381
 msgid ""
@@ -6915,16 +6915,16 @@ msgstr "``test`` ( iOS 向け )"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:386
 msgid "``release`` (for iOS and Android)"
-msgstr ""
+msgstr "``release`` ( iOS、Android 向け )"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:388
 msgid "``--output``"
-msgstr ""
+msgstr "``--output``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:388
 msgid ""
 "the path in which the built file will be stored (specify also the filename)."
-msgstr ""
+msgstr "ビルド済みファイルを保存するディレクトリーを指定します ( ファイル名まで含む )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid "``--android_webview``"
@@ -6947,11 +6947,11 @@ msgstr "``--android_webview`` を ``crosswalk`` に指定した場合、こち�
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
 msgid "``--browser``"
-msgstr ""
+msgstr "``--browser``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
 msgid "opens the build process in a browser (see the screenshots below)."
-msgstr ""
+msgstr "ブラウザー上で [ ビルド設定 ] 画面を開きます ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:395
 msgid ""
@@ -7214,7 +7214,7 @@ msgstr ":ref:`monaca_debug` コマンドを実行したコマンドウィンド�
 
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:64
 msgid "From Monaca Debugger"
-msgstr "インスト ( ネットワークインストール ) : Monaca デバッガー経由で、ビルド済みアプリを、端末にインストールします。"
+msgstr "Monaca デバッガー上で解除"
 
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:66
 msgid ""
@@ -8295,7 +8295,7 @@ msgid ""
 "icon in that tab. Then, you will see a drop-down list of different devices "
 "such as iPad, iPhone, and Nexus. You can change the orientation of the "
 "screen as well."
-msgstr ""
+msgstr "端末のオリエンテーションの変更および使用する機種の選択。:guilabel:`Configure` のアイコン ( 歯車のアイコン ) をクリックすると、適用可能なオリエンテーションと使用可能な機種が、ドロップダウンリスト形式で表示されます。使用可能な機種には、iPad、iPhone、Nexus があります。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:296
 msgid "detach/attach the Preview window."
@@ -8927,14 +8927,14 @@ msgstr "Monaca と GitHub の連携後、GitHub レポジトリ―に置かれ�
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:174
 msgid "From Dashboard, go to :menuselection:`Import Project`."
-msgstr ""
+msgstr "ダッシュボード上で、:menuselection:`Import Project` を選択します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:176
 msgid ""
 "In Import Project dialog, fill in the necessary information and choose "
 "``Import from GitHub Repository``. Then, select the repository and click on "
 ":guilabel:`Import` button."
-msgstr "「 プロジェクトのインポート 」 ダイアログが表示されます。必要な情報の入力後、``GitHub のレポジトリからインポート`` を選択します。次に、対象のレポジトリを選択して、 :guilabel:`インポート` ボタンをクリックします。"
+msgstr "[ プロジェクトのインポート ] ダイアログが表示されます。必要な情報の入力後、``GitHub のレポジトリからインポート`` を選択します。次に、対象のレポジトリを選択して、 :guilabel:`インポート` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:184
 msgid ""
@@ -9452,7 +9452,7 @@ msgid ""
 "abbreviation, expands it and places currently selected content or current "
 "cursor position in the last element of expanded abbreviation. For example, "
 "we have the following HTML code:"
-msgstr "適切なインデントを行えば、プログラミングがスムーズになるのは周知のとおりです。 ``CTRL+SHIFT+A`` で表示されるフォームに、Emmet の短縮形を入力すると、現在選択している範囲、または、カーソルを置いた位置を基準として、短縮形を展開します。次の HTML コードをご確認ください。"
+msgstr "この機能では、インデントも自動で付与されるので、プログラミングのスピードも向上します。使用方法を解説します。対象の行を選択するかまたは対象の行にカーソルを置き、``CTRL+SHIFT+A`` を押します。次に、表示された入力ダイアログ上で、Emmet の短縮形を入力すると、対象の行を囲むように、短縮形が展開されます。次の HTML コードをご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:390
 msgid ""
@@ -9666,7 +9666,7 @@ msgstr "プロジェクトのインポート"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:106
 msgid "There are two types of projects you can import into Monaca Localkit:"
-msgstr "Monaca Localkit にインポートできるプロジェクトは、次の 2 種類です。"
+msgstr "インポート方法は、次の 3 通りです"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:108
 msgid "From Cloud IDE: projects you have in your Monaca Cloud IDE."
@@ -9696,7 +9696,7 @@ msgstr "Cordova を含め、各プラットフォーム固有のソースコー�
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:116
 msgid "From Zip File: the zip file of a valid project."
-msgstr ""
+msgstr "Zip ファイルからインポート : zip ファイルをインポートします ( 有効な形式のプロジェクトを圧縮した Zip ファイルであること )。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:119
 msgid ""
@@ -9714,7 +9714,7 @@ msgstr "Monaca Localkit ダッシュボードの左パネルの上部に表示�
 msgid ""
 "If you choose :guilabel:`From Cloud IDE` option, fill in the necessary "
 "information such as:"
-msgstr ":guilabel:`クラウドIDEからインポート` を選択した場合には、次の情報を入力します。"
+msgstr ":guilabel:`クラウドIDEからインポート` を選択した場合には、次の情報を入力して、[ インポート ] ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:125
 msgid ""
@@ -9726,17 +9726,17 @@ msgstr "プロジェクトを選択 : Monaca クラウド IDE 上に保存され
 msgid ""
 "On the other hand, if you choose :guilabel:`From Local Cordova Project` "
 "option, fill in the necessary information such as:"
-msgstr ":guilabel:`Cordova プロジェクトをインポート` を選択した場合には、次に示す、必要な情報を入力します。"
+msgstr ":guilabel:`Cordova プロジェクトをインポート` を選択した場合には、次の情報を入力して、[ インポート ] ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:145
 msgid ""
 "Finally, if you choose :guilabel:`From Zip File` option, fill in the "
 "necessary information such as:"
-msgstr ""
+msgstr ":guilabel:`Zip ファイルからインポート` を選択した場合には、次の情報を入力して、[ インポート ] ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:147
 msgid "Zip File: browse the zip file of your project."
-msgstr ""
+msgstr "Zip ファイル : 対象の zip ファイルを選択します。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:157
 msgid "After that, the new project will be shown in the project list."

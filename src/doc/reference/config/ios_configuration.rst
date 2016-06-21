@@ -1,4 +1,4 @@
-.. _MonacaSkeleton-Info.plist:
+.. MonacaSkeleton-Info.plist:
 
 ===================================================================================================
 iOS Configuration
@@ -246,7 +246,7 @@ Statusbar Setting
   *UIViewControllerBasedStatusBarAppearance*      - *Type:* boolean
                                                   - *Default:* ``false``
                                                   - *Description:* if set to ``true``, the status bar at the top of the application will be hidden. 
-                                                  - *Note:* set to ``true`` in order to use :ref:`status_bar_plugin`.
+                                                  - *Note:* set to ``true`` in order to use :ref:`StatusBar Plugin<status_bar_plugin>`.
   ============================================= =================================================================================================
 
 .. _config_xml_ios:
