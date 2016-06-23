@@ -429,9 +429,9 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/collection.rst:185
 #: ../doc/reference/monaca_api/cloud/other.rst:112
 #: ../doc/reference/monaca_api/cloud/user.rst:326
-#: ../doc/reference/monaca_api/cloud/user.rst:408
-#: ../doc/reference/monaca_api/cloud/user.rst:568
-#: ../doc/reference/monaca_api/cloud/user.rst:617
+#: ../doc/reference/monaca_api/cloud/user.rst:421
+#: ../doc/reference/monaca_api/cloud/user.rst:567
+#: ../doc/reference/monaca_api/cloud/user.rst:616
 #: ../doc/reference/monaca_api/utility-34.rst:69
 msgid "Example:"
 msgstr ""
@@ -507,7 +507,7 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:286
 #: ../doc/reference/config/android_configuration.rst:315
 #: ../doc/reference/monaca_api/cloud/device.rst:136
-#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:632
 msgid "``value``"
 msgstr ""
 
@@ -1111,7 +1111,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:66
 #: ../doc/reference/monaca_api/cloud/other.rst:116
 #: ../doc/reference/monaca_api/cloud/push.rst:56
-#: ../doc/reference/monaca_api/cloud/user.rst:733
+#: ../doc/reference/monaca_api/cloud/user.rst:732
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:201
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:240
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
@@ -2746,11 +2746,11 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:242
 #: ../doc/reference/monaca_api/cloud/user.rst:271
 #: ../doc/reference/monaca_api/cloud/user.rst:375
-#: ../doc/reference/monaca_api/cloud/user.rst:469
-#: ../doc/reference/monaca_api/cloud/user.rst:524
-#: ../doc/reference/monaca_api/cloud/user.rst:668
-#: ../doc/reference/monaca_api/cloud/user.rst:712
-#: ../doc/reference/monaca_api/cloud/user.rst:729
+#: ../doc/reference/monaca_api/cloud/user.rst:468
+#: ../doc/reference/monaca_api/cloud/user.rst:523
+#: ../doc/reference/monaca_api/cloud/user.rst:667
+#: ../doc/reference/monaca_api/cloud/user.rst:711
+#: ../doc/reference/monaca_api/cloud/user.rst:728
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
@@ -13435,12 +13435,12 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:288
 #: ../doc/reference/monaca_api/cloud/user.rst:344
 #: ../doc/reference/monaca_api/cloud/user.rst:393
-#: ../doc/reference/monaca_api/cloud/user.rst:440
-#: ../doc/reference/monaca_api/cloud/user.rst:487
-#: ../doc/reference/monaca_api/cloud/user.rst:540
-#: ../doc/reference/monaca_api/cloud/user.rst:584
-#: ../doc/reference/monaca_api/cloud/user.rst:634
-#: ../doc/reference/monaca_api/cloud/user.rst:684
+#: ../doc/reference/monaca_api/cloud/user.rst:439
+#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:539
+#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:683
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:39
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:69
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:97
@@ -13709,8 +13709,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:164
 #: ../doc/reference/monaca_api/cloud/user.rst:220
 #: ../doc/reference/monaca_api/cloud/user.rst:302
-#: ../doc/reference/monaca_api/cloud/user.rst:501
-#: ../doc/reference/monaca_api/cloud/user.rst:545
+#: ../doc/reference/monaca_api/cloud/user.rst:500
+#: ../doc/reference/monaca_api/cloud/user.rst:544
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:44
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:74
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:102
@@ -13789,7 +13789,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/collection.rst:145
 #: ../doc/reference/monaca_api/cloud/collection.rst:201
 #: ../doc/reference/monaca_api/cloud/collection.rst:254
-#: ../doc/reference/monaca_api/cloud/user.rst:438
+#: ../doc/reference/monaca_api/cloud/user.rst:437
 msgid "``options``"
 msgstr ""
 
@@ -13828,8 +13828,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:61
 #: ../doc/reference/monaca_api/cloud/user.rst:214
 #: ../doc/reference/monaca_api/cloud/user.rst:297
-#: ../doc/reference/monaca_api/cloud/user.rst:496
-#: ../doc/reference/monaca_api/cloud/user.rst:589
+#: ../doc/reference/monaca_api/cloud/user.rst:495
+#: ../doc/reference/monaca_api/cloud/user.rst:588
 msgid "Result Parameter of done() Callback"
 msgstr ""
 
@@ -13882,12 +13882,12 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:301
 #: ../doc/reference/monaca_api/cloud/user.rst:348
 #: ../doc/reference/monaca_api/cloud/user.rst:397
-#: ../doc/reference/monaca_api/cloud/user.rst:444
-#: ../doc/reference/monaca_api/cloud/user.rst:500
-#: ../doc/reference/monaca_api/cloud/user.rst:544
-#: ../doc/reference/monaca_api/cloud/user.rst:593
-#: ../doc/reference/monaca_api/cloud/user.rst:643
-#: ../doc/reference/monaca_api/cloud/user.rst:688
+#: ../doc/reference/monaca_api/cloud/user.rst:443
+#: ../doc/reference/monaca_api/cloud/user.rst:499
+#: ../doc/reference/monaca_api/cloud/user.rst:543
+#: ../doc/reference/monaca_api/cloud/user.rst:592
+#: ../doc/reference/monaca_api/cloud/user.rst:642
+#: ../doc/reference/monaca_api/cloud/user.rst:687
 msgid "`$.Promise <../other>`_ object"
 msgstr ""
 
@@ -13912,12 +13912,12 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:301
 #: ../doc/reference/monaca_api/cloud/user.rst:348
 #: ../doc/reference/monaca_api/cloud/user.rst:397
-#: ../doc/reference/monaca_api/cloud/user.rst:444
-#: ../doc/reference/monaca_api/cloud/user.rst:500
-#: ../doc/reference/monaca_api/cloud/user.rst:544
-#: ../doc/reference/monaca_api/cloud/user.rst:593
-#: ../doc/reference/monaca_api/cloud/user.rst:643
-#: ../doc/reference/monaca_api/cloud/user.rst:688
+#: ../doc/reference/monaca_api/cloud/user.rst:443
+#: ../doc/reference/monaca_api/cloud/user.rst:499
+#: ../doc/reference/monaca_api/cloud/user.rst:543
+#: ../doc/reference/monaca_api/cloud/user.rst:592
+#: ../doc/reference/monaca_api/cloud/user.rst:642
+#: ../doc/reference/monaca_api/cloud/user.rst:687
 msgid "Use ``done()``, ``fail()`` and ``always()`` methods to get results."
 msgstr ""
 
@@ -13939,12 +13939,12 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:311
 #: ../doc/reference/monaca_api/cloud/user.rst:359
 #: ../doc/reference/monaca_api/cloud/user.rst:406
-#: ../doc/reference/monaca_api/cloud/user.rst:454
-#: ../doc/reference/monaca_api/cloud/user.rst:508
-#: ../doc/reference/monaca_api/cloud/user.rst:553
-#: ../doc/reference/monaca_api/cloud/user.rst:601
-#: ../doc/reference/monaca_api/cloud/user.rst:652
-#: ../doc/reference/monaca_api/cloud/user.rst:697
+#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:507
+#: ../doc/reference/monaca_api/cloud/user.rst:552
+#: ../doc/reference/monaca_api/cloud/user.rst:600
+#: ../doc/reference/monaca_api/cloud/user.rst:651
+#: ../doc/reference/monaca_api/cloud/user.rst:696
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:139
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:168
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:197
@@ -13976,10 +13976,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:167
 #: ../doc/reference/monaca_api/cloud/user.rst:305
 #: ../doc/reference/monaca_api/cloud/user.rst:401
-#: ../doc/reference/monaca_api/cloud/user.rst:449
-#: ../doc/reference/monaca_api/cloud/user.rst:504
-#: ../doc/reference/monaca_api/cloud/user.rst:647
-#: ../doc/reference/monaca_api/cloud/user.rst:692
+#: ../doc/reference/monaca_api/cloud/user.rst:448
+#: ../doc/reference/monaca_api/cloud/user.rst:503
+#: ../doc/reference/monaca_api/cloud/user.rst:646
+#: ../doc/reference/monaca_api/cloud/user.rst:691
 msgid "Errors are returned as :doc:`error` object."
 msgstr ""
 
@@ -14003,10 +14003,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:309
 #: ../doc/reference/monaca_api/cloud/user.rst:356
 #: ../doc/reference/monaca_api/cloud/user.rst:404
-#: ../doc/reference/monaca_api/cloud/user.rst:452
-#: ../doc/reference/monaca_api/cloud/user.rst:507
-#: ../doc/reference/monaca_api/cloud/user.rst:650
-#: ../doc/reference/monaca_api/cloud/user.rst:695
+#: ../doc/reference/monaca_api/cloud/user.rst:451
+#: ../doc/reference/monaca_api/cloud/user.rst:506
+#: ../doc/reference/monaca_api/cloud/user.rst:649
+#: ../doc/reference/monaca_api/cloud/user.rst:694
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:80
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:108
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:138
@@ -14048,10 +14048,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:309
 #: ../doc/reference/monaca_api/cloud/user.rst:356
 #: ../doc/reference/monaca_api/cloud/user.rst:404
-#: ../doc/reference/monaca_api/cloud/user.rst:452
-#: ../doc/reference/monaca_api/cloud/user.rst:507
-#: ../doc/reference/monaca_api/cloud/user.rst:650
-#: ../doc/reference/monaca_api/cloud/user.rst:695
+#: ../doc/reference/monaca_api/cloud/user.rst:451
+#: ../doc/reference/monaca_api/cloud/user.rst:506
+#: ../doc/reference/monaca_api/cloud/user.rst:649
+#: ../doc/reference/monaca_api/cloud/user.rst:694
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:80
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:108
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:138
@@ -14206,7 +14206,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/device.rst:143
 #: ../doc/reference/monaca_api/cloud/device.rst:198
 #: ../doc/reference/monaca_api/cloud/user.rst:70
-#: ../doc/reference/monaca_api/cloud/user.rst:639
+#: ../doc/reference/monaca_api/cloud/user.rst:638
 msgid "Requirement"
 msgstr ""
 
@@ -14298,7 +14298,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:68
 #: ../doc/reference/monaca_api/cloud/other.rst:118
 #: ../doc/reference/monaca_api/cloud/push.rst:60
-#: ../doc/reference/monaca_api/cloud/user.rst:736
+#: ../doc/reference/monaca_api/cloud/user.rst:735
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:205
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:245
 #: ../doc/reference/monaca_api/cloud_management/push.rst:138
@@ -14314,7 +14314,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:69
 #: ../doc/reference/monaca_api/cloud/other.rst:119
 #: ../doc/reference/monaca_api/cloud/push.rst:61
-#: ../doc/reference/monaca_api/cloud/user.rst:737
+#: ../doc/reference/monaca_api/cloud/user.rst:736
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:206
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:246
 #: ../doc/reference/monaca_api/cloud_management/push.rst:139
@@ -14330,7 +14330,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:70
 #: ../doc/reference/monaca_api/cloud/other.rst:120
 #: ../doc/reference/monaca_api/cloud/push.rst:62
-#: ../doc/reference/monaca_api/cloud/user.rst:738
+#: ../doc/reference/monaca_api/cloud/user.rst:737
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:207
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:247
 #: ../doc/reference/monaca_api/cloud_management/push.rst:140
@@ -14346,7 +14346,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:71
 #: ../doc/reference/monaca_api/cloud/other.rst:121
 #: ../doc/reference/monaca_api/cloud/push.rst:63
-#: ../doc/reference/monaca_api/cloud/user.rst:739
+#: ../doc/reference/monaca_api/cloud/user.rst:738
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:208
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:248
 #: ../doc/reference/monaca_api/cloud_management/push.rst:141
@@ -14362,7 +14362,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/mailer.rst:72
 #: ../doc/reference/monaca_api/cloud/other.rst:122
 #: ../doc/reference/monaca_api/cloud/push.rst:64
-#: ../doc/reference/monaca_api/cloud/user.rst:740
+#: ../doc/reference/monaca_api/cloud/user.rst:739
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:209
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:249
 #: ../doc/reference/monaca_api/cloud_management/push.rst:142
@@ -14483,7 +14483,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 #: ../doc/reference/monaca_api/cloud_management/user.rst:168
 msgid "Object"
 msgstr ""
@@ -14497,10 +14497,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:263
 #: ../doc/reference/monaca_api/cloud/user.rst:350
 #: ../doc/reference/monaca_api/cloud/user.rst:398
-#: ../doc/reference/monaca_api/cloud/user.rst:446
-#: ../doc/reference/monaca_api/cloud/user.rst:594
-#: ../doc/reference/monaca_api/cloud/user.rst:644
-#: ../doc/reference/monaca_api/cloud/user.rst:689
+#: ../doc/reference/monaca_api/cloud/user.rst:445
+#: ../doc/reference/monaca_api/cloud/user.rst:593
+#: ../doc/reference/monaca_api/cloud/user.rst:643
+#: ../doc/reference/monaca_api/cloud/user.rst:688
 msgid "Return Value:"
 msgstr ""
 
@@ -14939,9 +14939,9 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/device.rst:35
 #: ../doc/reference/monaca_api/cloud/device.rst:135
 #: ../doc/reference/monaca_api/cloud/device.rst:141
-#: ../doc/reference/monaca_api/cloud/user.rst:539
-#: ../doc/reference/monaca_api/cloud/user.rst:632
-#: ../doc/reference/monaca_api/cloud/user.rst:638
+#: ../doc/reference/monaca_api/cloud/user.rst:538
+#: ../doc/reference/monaca_api/cloud/user.rst:631
+#: ../doc/reference/monaca_api/cloud/user.rst:637
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
 msgid "``name``"
@@ -14949,7 +14949,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/device.rst:35
 #: ../doc/reference/monaca_api/cloud/device.rst:135
-#: ../doc/reference/monaca_api/cloud/user.rst:539
+#: ../doc/reference/monaca_api/cloud/user.rst:538
 msgid "A property name."
 msgstr ""
 
@@ -14959,7 +14959,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/device.rst:40
 #: ../doc/reference/monaca_api/cloud/device.rst:89
-#: ../doc/reference/monaca_api/cloud/user.rst:588
+#: ../doc/reference/monaca_api/cloud/user.rst:587
 msgid "Any"
 msgstr ""
 
@@ -14980,7 +14980,7 @@ msgid ":dfn:`monaca.cloud.Device.getProperties(names: Array) : $.Promise`"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/device.rst:84
-#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:582
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:188
 #: ../doc/reference/monaca_api/cloud_management/user.rst:201
 msgid "``names``"
@@ -15040,7 +15040,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:51
 #: ../doc/reference/monaca_api/cloud/user.rst:67
 #: ../doc/reference/monaca_api/cloud/user.rst:115
-#: ../doc/reference/monaca_api/cloud/user.rst:683
+#: ../doc/reference/monaca_api/cloud/user.rst:682
 #: ../doc/reference/monaca_api/cloud_management/user.rst:81
 msgid "``properties``"
 msgstr ""
@@ -15263,10 +15263,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:171
 #: ../doc/reference/monaca_api/cloud/user.rst:357
 #: ../doc/reference/monaca_api/cloud/user.rst:405
-#: ../doc/reference/monaca_api/cloud/user.rst:551
-#: ../doc/reference/monaca_api/cloud/user.rst:600
-#: ../doc/reference/monaca_api/cloud/user.rst:651
-#: ../doc/reference/monaca_api/cloud/user.rst:696
+#: ../doc/reference/monaca_api/cloud/user.rst:550
+#: ../doc/reference/monaca_api/cloud/user.rst:599
+#: ../doc/reference/monaca_api/cloud/user.rst:650
+#: ../doc/reference/monaca_api/cloud/user.rst:695
 msgid "``11``"
 msgstr ""
 
@@ -15292,7 +15292,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/error.rst:42
 #: ../doc/reference/monaca_api/cloud/user.rst:308
-#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:452
 msgid "``13``"
 msgstr ""
 
@@ -15418,10 +15418,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:171
 #: ../doc/reference/monaca_api/cloud/user.rst:357
 #: ../doc/reference/monaca_api/cloud/user.rst:405
-#: ../doc/reference/monaca_api/cloud/user.rst:551
-#: ../doc/reference/monaca_api/cloud/user.rst:600
-#: ../doc/reference/monaca_api/cloud/user.rst:651
-#: ../doc/reference/monaca_api/cloud/user.rst:696
+#: ../doc/reference/monaca_api/cloud/user.rst:550
+#: ../doc/reference/monaca_api/cloud/user.rst:599
+#: ../doc/reference/monaca_api/cloud/user.rst:650
+#: ../doc/reference/monaca_api/cloud/user.rst:695
 msgid "User login is required."
 msgstr ""
 
@@ -15732,8 +15732,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:65
 #: ../doc/reference/monaca_api/cloud/user.rst:114
 #: ../doc/reference/monaca_api/cloud/user.rst:203
-#: ../doc/reference/monaca_api/cloud/user.rst:437
-#: ../doc/reference/monaca_api/cloud/user.rst:484
+#: ../doc/reference/monaca_api/cloud/user.rst:436
+#: ../doc/reference/monaca_api/cloud/user.rst:483
 #: ../doc/reference/monaca_api/cloud_management/user.rst:79
 msgid "``username``"
 msgstr ""
@@ -15763,7 +15763,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 #: ../doc/reference/monaca_api/cloud_management/user.rst:86
 #: ../doc/reference/monaca_api/cloud_management/user.rst:115
 #: ../doc/reference/monaca_api/cloud_management/user.rst:139
@@ -15773,35 +15773,35 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 msgid "`_id` : {String}"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:57
 #: ../doc/reference/monaca_api/cloud/user.rst:210
 #: ../doc/reference/monaca_api/cloud/user.rst:293
-#: ../doc/reference/monaca_api/cloud/user.rst:492
+#: ../doc/reference/monaca_api/cloud/user.rst:491
 msgid "`_username` : {String}"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:58
 #: ../doc/reference/monaca_api/cloud/user.rst:211
 #: ../doc/reference/monaca_api/cloud/user.rst:294
-#: ../doc/reference/monaca_api/cloud/user.rst:493
+#: ../doc/reference/monaca_api/cloud/user.rst:492
 msgid "`_createdAt` : {Number} unixtime"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:59
 #: ../doc/reference/monaca_api/cloud/user.rst:212
 #: ../doc/reference/monaca_api/cloud/user.rst:295
-#: ../doc/reference/monaca_api/cloud/user.rst:494
+#: ../doc/reference/monaca_api/cloud/user.rst:493
 msgid "`_updateAt` : {Number} unixtime"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:60
 #: ../doc/reference/monaca_api/cloud/user.rst:213
 #: ../doc/reference/monaca_api/cloud/user.rst:296
-#: ../doc/reference/monaca_api/cloud/user.rst:495
+#: ../doc/reference/monaca_api/cloud/user.rst:494
 msgid "and other user-defined properties."
 msgstr ""
 
@@ -15874,7 +15874,7 @@ msgid ":dfn:`monaca.cloud.User.login(username: String, password: String) : $.Pro
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:203
-#: ../doc/reference/monaca_api/cloud/user.rst:484
+#: ../doc/reference/monaca_api/cloud/user.rst:483
 msgid "The username of the user."
 msgstr ""
 
@@ -15884,8 +15884,8 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:223
 #: ../doc/reference/monaca_api/cloud/user.rst:353
-#: ../doc/reference/monaca_api/cloud/user.rst:548
-#: ../doc/reference/monaca_api/cloud/user.rst:597
+#: ../doc/reference/monaca_api/cloud/user.rst:547
+#: ../doc/reference/monaca_api/cloud/user.rst:596
 msgid "Error is returned as :doc:`error` object."
 msgstr ""
 
@@ -15970,7 +15970,7 @@ msgid "Old password."
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/user.rst:391
-#: ../doc/reference/monaca_api/cloud/user.rst:485
+#: ../doc/reference/monaca_api/cloud/user.rst:484
 msgid "``newPassword``"
 msgstr ""
 
@@ -15978,171 +15978,171 @@ msgstr ""
 msgid "New password."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:410
+#: ../doc/reference/monaca_api/cloud/user.rst:409
 msgid "The following code will update the password of a current user from ``\"pass123\"`` to ``\"newPass123\"``."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:429
+#: ../doc/reference/monaca_api/cloud/user.rst:428
 msgid "User.sendPasswordResetToken()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:431
+#: ../doc/reference/monaca_api/cloud/user.rst:430
 msgid "Send an email with a token to reset the password in case a user could not log in because of a forgotten password. Before sending this email, it is required to create an email template by using Monaca Cloud IDE in advance. Please refer to :ref:`backend_control_panel_mail_template_management` for how to create an email template."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:433
+#: ../doc/reference/monaca_api/cloud/user.rst:432
 msgid ":dfn:`monaca.cloud.User.sendPasswordResetToken(username: String, options: Object) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:437
+#: ../doc/reference/monaca_api/cloud/user.rst:436
 msgid "the name of the user."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:438
+#: ../doc/reference/monaca_api/cloud/user.rst:437
 msgid "``emailPropertyName``: Specify the name field which has the user's email address (default: ``_username``)"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:439
+#: ../doc/reference/monaca_api/cloud/user.rst:438
 msgid "``templateName``: Specify a template to use (default: ``send_password_token``). The mail body must include ``\"%PASSWORD_RESET_TOKEN%\"`` which will be replaced with the token."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:452
 msgid "Invalid operation (When the user has already logged-in)."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:457
+#: ../doc/reference/monaca_api/cloud/user.rst:456
 msgid "The following snippet shows an example of how to send an email with the new token to a user called ``\"username\"`` with his registered email address registered with \"email\" field."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:476
+#: ../doc/reference/monaca_api/cloud/user.rst:475
 msgid "User.resetPasswordAndLogin()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:478
+#: ../doc/reference/monaca_api/cloud/user.rst:477
 msgid "Reset the password of the current user and relogin with the new password."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:480
+#: ../doc/reference/monaca_api/cloud/user.rst:479
 msgid ":dfn:`monaca.cloud.User.resetPasswordAndLogin(username: String, newPassword: String, token: String) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:485
+#: ../doc/reference/monaca_api/cloud/user.rst:484
 msgid "The new password."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:485
 msgid "``token``"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:485
 msgid "The token which the user received via email, sent by User.sendPasswordResetToken()."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:511
+#: ../doc/reference/monaca_api/cloud/user.rst:510
 msgid "The following example demonstrates how to reset the password of a user and then login with the new password."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:531
+#: ../doc/reference/monaca_api/cloud/user.rst:530
 msgid "User.getProperty()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:533
+#: ../doc/reference/monaca_api/cloud/user.rst:532
 msgid "Get a property value of the user. The user must be authenticated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:535
+#: ../doc/reference/monaca_api/cloud/user.rst:534
 msgid ":dfn:`monaca.cloud.User.getProperty(name: String) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:556
+#: ../doc/reference/monaca_api/cloud/user.rst:555
 msgid "Refer to the following code for an example of how to get a property value of ``\"age\"`` of a user."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:575
+#: ../doc/reference/monaca_api/cloud/user.rst:574
 msgid "User.getProperties()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:577
+#: ../doc/reference/monaca_api/cloud/user.rst:576
 msgid "Get an array of property values of the user. The user must be authenticated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:579
+#: ../doc/reference/monaca_api/cloud/user.rst:578
 msgid ":dfn:`monaca.cloud.User.getProperties(names: Array) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:582
 msgid "Properties names."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:588
+#: ../doc/reference/monaca_api/cloud/user.rst:587
 msgid "user-defined property name"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:604
+#: ../doc/reference/monaca_api/cloud/user.rst:603
 msgid "Below is how to get the values of 2 properties of a user."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:624
+#: ../doc/reference/monaca_api/cloud/user.rst:623
 msgid "User.saveProperty()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:626
+#: ../doc/reference/monaca_api/cloud/user.rst:625
 msgid "Update a property value of the user. The user must be authenticated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:628
+#: ../doc/reference/monaca_api/cloud/user.rst:627
 msgid ":dfn:`monaca.cloud.User.saveProperty(name: String, value: String) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:632
+#: ../doc/reference/monaca_api/cloud/user.rst:631
 msgid "Property name."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:632
 msgid "The value of the corresponding property name to be added or updated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:638
+#: ../doc/reference/monaca_api/cloud/user.rst:637
 msgid "Must consist of \\[a\\-zA\\-Z0\\-9\\] characters and must start with \\[a\\-zA\\-Z\\]."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:655
+#: ../doc/reference/monaca_api/cloud/user.rst:654
 msgid "The following example illustrates how to add/update the user's nickname to ``\"John\"``."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:675
+#: ../doc/reference/monaca_api/cloud/user.rst:674
 msgid "User.saveProperties()"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:677
+#: ../doc/reference/monaca_api/cloud/user.rst:676
 msgid "Update an array of property values of a user. The user must be authenticated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:679
+#: ../doc/reference/monaca_api/cloud/user.rst:678
 msgid ":dfn:`monaca.cloud.User.saveProperties(properties: Object) : $.Promise`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:683
+#: ../doc/reference/monaca_api/cloud/user.rst:682
 msgid "Additional properties of a user to be added/updated."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:700
+#: ../doc/reference/monaca_api/cloud/user.rst:699
 msgid "The following example illustrates how to add/update 2 properties (``nickname`` & ``email``) of a user."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:719
+#: ../doc/reference/monaca_api/cloud/user.rst:718
 msgid "User._oid"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:721
+#: ../doc/reference/monaca_api/cloud/user.rst:720
 msgid "Public identifier of a user. When the user has logged-in, ``monaca.cloud.User._oid`` is a long string. Otherwise, oid is ``null``."
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:723
+#: ../doc/reference/monaca_api/cloud/user.rst:722
 msgid ":dfn:`monaca.cloud.User._oid`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/cloud/user.rst:735
+#: ../doc/reference/monaca_api/cloud/user.rst:734
 msgid ":ref:`user_management`"
 msgstr ""
 
@@ -17168,7 +17168,7 @@ msgid ":file:`monaca-core-utils.js` provides a means to access each function of 
 msgstr ""
 
 #: ../doc/reference/monaca_api/index.rst:6
-msgid "In order to enable and access Monaca API, you need to load the Javascript file ``plungins/plugin-loader.js`` in the .html file."
+msgid "In order to enable and access Monaca API, you need to load the Javascript file ``components/loader.js`` in the .html file."
 msgstr ""
 
 #: ../doc/reference/monaca_api/utility-34.rst:3

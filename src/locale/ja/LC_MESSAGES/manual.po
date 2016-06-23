@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-21 02:58+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-06-23 04:30+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -375,28 +375,23 @@ msgstr "2 種類のユーザーがいます。"
 
 #: ../doc/manual/backend/control_operations.rst:265
 msgid ""
-"Owner refers to the user who create the Collection. Owner will always be "
-"granted read and write permissions."
-msgstr "「 所有者 」 は、コレクションを作成したユーザーを指します。所有者には、read ( 読み取り )・write ( 書き込み ) のパーミッションが常に付与されます。"
+"1. Owner refers to the user who create the Collection. Owner will always be "
+"granted read and write permissions. 2 Public refers to all users who are not"
+" logged in. By default, they are not granted the read or write permissions."
+msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:267
-msgid ""
-"2 Public refers to all users who are not logged in. By default, they are not"
-" granted the read or write permissions."
-msgstr "「 public 」 は、「 現在ログインしていない、すべてのユーザー 」 を指します。デフォルトでは、これらのユーザーには、どちらのパーミッション ( read と write ) も付与されていません。"
-
-#: ../doc/manual/backend/control_operations.rst:269
+#: ../doc/manual/backend/control_operations.rst:268
 msgid ""
 "In order to change the user's permission for each Collection Item, please do"
 " as follows:"
 msgstr "ユーザーのパーミッションをコレクション毎に変更する方法を、次に記します。"
 
-#: ../doc/manual/backend/control_operations.rst:271
+#: ../doc/manual/backend/control_operations.rst:270
 msgid ""
 "From the Collection tab, click on :guilabel:`Permission` icon of an item."
 msgstr "[ コレクション名 ] タブ上で、対象のアイテムに表示された :guilabel:`パーミッション` ( 南京錠 ) アイコンをクリックします。"
 
-#: ../doc/manual/backend/control_operations.rst:279
+#: ../doc/manual/backend/control_operations.rst:278
 msgid ""
 "The Permission dialog will appear. You can change the permissions for each "
 "Collection item for specific users. If your app has more than one user, a "
@@ -406,34 +401,34 @@ msgid ""
 " the selected user."
 msgstr "[ パーミッション設定 ] ダイアログが表示されます。ここでは、このコレクションアイテムに対するパーミッションを、ユーザー毎に変更できます。複数のユーザーが存在する場合には、ユーザーの一覧がコンボボックス上に表示され、ユーザーを選択できます。ユーザーの選択後、:guilabel:`read` または :guilabel:`write` にチェックを入れ、:guilabel:`追加する` ボタンをクリックします。これで、新規に設定したパーミッションが、選択したユーザーに適用されます。"
 
-#: ../doc/manual/backend/control_operations.rst:287
+#: ../doc/manual/backend/control_operations.rst:286
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:182
 msgid "Click :guilabel:`Save`."
 msgstr ":guilabel:`保存する` ボタンをクリックします。"
 
-#: ../doc/manual/backend/control_operations.rst:293
+#: ../doc/manual/backend/control_operations.rst:292
 msgid "Mail Template Management"
 msgstr "メールテンプレートの管理"
 
-#: ../doc/manual/backend/control_operations.rst:296
+#: ../doc/manual/backend/control_operations.rst:295
 msgid "You can edit/create the template for emails sent to your app's users."
 msgstr "アプリのユーザー宛に送信する電子メールのテンプレートを作成・編集できます。"
 
-#: ../doc/manual/backend/control_operations.rst:298
+#: ../doc/manual/backend/control_operations.rst:297
 msgid "From Backend Control Panel, select :guilabel:`Mail Template`."
 msgstr "バックエンド管理パネル上で、:guilabel:`メールテンプレート` を選択します。"
 
-#: ../doc/manual/backend/control_operations.rst:300
+#: ../doc/manual/backend/control_operations.rst:299
 msgid ""
 "Then, the mail template will apear. You can then edit/add mail template."
 msgstr "メールテンプレートの作成画面が表示されます。ここで、メールテンプレートの編集・追加を行えます。"
 
-#: ../doc/manual/backend/control_operations.rst:309
+#: ../doc/manual/backend/control_operations.rst:308
 msgid ""
 "Click :guilabel:`Apply` after you finish editing/creating the template."
 msgstr "テンプレートの作成・編集後、:guilabel:`適用` ボタンをクリックします。"
 
-#: ../doc/manual/backend/control_operations.rst:311
+#: ../doc/manual/backend/control_operations.rst:310
 msgid "Mail templates can only be edited/created from the Monaca Cloud IDE."
 msgstr "メールテンプレートの作成・編集を行えるのは、Monaca クラウド IDE 上だけです。"
 
@@ -592,7 +587,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 
 #: ../doc/manual/backend/control_panel.rst:141
 #: ../doc/manual/backend/push_notification/overview.rst:112
-#: ../doc/manual/build/build_android.rst:179
+#: ../doc/manual/build/build_android.rst:173
 #: ../doc/manual/build/build_chrome_app.rst:96
 #: ../doc/manual/build/build_history.rst:32
 #: ../doc/manual/build/build_winrt.rst:166
@@ -707,7 +702,7 @@ msgstr "ステップ 1 : CSR ファイルの作成 ( Monaca クラウド IDE 上
 
 #: ../doc/manual/backend/push_notification/apns.rst:30
 #: ../doc/manual/backend/push_notification/apns.rst:105
-#: ../doc/manual/backend/push_notification/gcm.rst:100
+#: ../doc/manual/backend/push_notification/gcm.rst:123
 msgid ""
 "From the Backend Panel in Monaca Cloud IDE, go to :menuselection:`Push "
 "Notification --> Backend Settings --> Push Configuration`."
@@ -849,81 +844,88 @@ msgstr "ここでは、Google Developer Console 上にアプリを登録して�
 
 #: ../doc/manual/backend/push_notification/gcm.rst:25
 msgid ""
-"Go to `Google Developer Console "
-"<https://console.developers.google.com/project>`_."
-msgstr "`Google Developer Console <https://console.developers.google.com/project>`_ に行きます。"
+"Go to `Google API Console <https://console.developers.google.com/>`_. and "
+"sign in with a valid Google account."
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:27
-msgid "Sign in using your Google account."
-msgstr "Google アカウントを使用して、サインインします。"
+msgid "Click on :guilabel:`Create a project`."
+msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:29
-msgid "Click :guilabel:`Create Project`."
-msgstr ":guilabel:`プロジェクトを作成` ボタンをクリックします。"
-
-#: ../doc/manual/backend/push_notification/gcm.rst:31
+#: ../doc/manual/backend/push_notification/gcm.rst:35
 msgid ""
 "Input the project's name and click :guilabel:`Create`. After the project is "
-"successfully created, the project dashboard page will appear."
-msgstr "プロジェクト名を入力して、:guilabel:`作成` ボタンをクリックします。プロジェクトの詳細を表示したダッシュボードページが表示されます。"
+"successfully created, the project Overview page will appear."
+msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:39
+#: ../doc/manual/backend/push_notification/gcm.rst:43
 msgid ""
-"From the left menu, go to :menuselection:`API & auth --> APIs --> Cloud "
-"Messaging for Android`."
-msgstr "左側のメニューから、:menuselection:`API と認証 --> API --> Cloud Messaging for Android` を選択します。"
-
-#: ../doc/manual/backend/push_notification/gcm.rst:47
-msgid "Click :guilabel:`Enable API`."
-msgstr ":guilabel:`API を有効にする` ボタンをクリックします。"
+"From the Overview page, select :guilabel:`Google Cloud Messaging` under "
+":guilabel:`Mobile APIs`."
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:51
+msgid "Click :guilabel:`Enable`."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:60
 msgid "Step 2: Obtain the Sender ID and Server API Key"
 msgstr "ステップ 2 : Sender ID と サーバー API キーの入手 ( Google API Console 上 )"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:54
+#: ../doc/manual/backend/push_notification/gcm.rst:64
 msgid "Find Sender ID"
 msgstr "Sender ID の確認"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:56
-msgid ""
-"Sender ID is the Project Number which can be found in the Project Dashboard "
-"page as shown below:"
-msgstr "Sender ID は、プロジェクト番号を指します。プロジェクト番号は、プロジェクト ダッシュボード上で、下の赤枠の場所に表示されています。"
-
 #: ../doc/manual/backend/push_notification/gcm.rst:66
+msgid ""
+"Sender ID is the Project Number which can be found in Settings page as shown"
+" below:"
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:69
+msgid "Click on Google APIs menu."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:77
+msgid "Go to :guilabel:`IAM & Admin`."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:85
+msgid ""
+"Then, go to :guilabel:`Settings`. There you can find the project number."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:95
 msgid "Find Server API Key"
 msgstr "サーバー API キーの確認"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:68
-msgid ""
-"From the Project Dashboard, go to :menuselection:`APIs & auth --> "
-"Credentials`."
-msgstr "プロジェクト ダッシュボード上から、:menuselection:`API と認証 --> 認証情報` を選択します。"
+#: ../doc/manual/backend/push_notification/gcm.rst:97
+msgid "From the API Manager page, go to :guilabel:`Credentials`."
+msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:70
-msgid "Click :guilabel:`add credentials` and choose :guilabel:`API key`."
-msgstr ":guilabel:`認証情報を追加` ボタンをクリックして、:guilabel:`API キー` を選択します。"
+#: ../doc/manual/backend/push_notification/gcm.rst:99
+msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
+msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:78
+#: ../doc/manual/backend/push_notification/gcm.rst:107
 msgid "Select :guilabel:`Server key`."
 msgstr ":guilabel:`サーバーキー` を選択します。"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:80
+#: ../doc/manual/backend/push_notification/gcm.rst:109
 msgid "Name your Server key and click :guilabel:`Create`."
 msgstr "サーバーキーの名前を入力して、:guilabel:`作成` ボタンをクリックします。"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:89
+#: ../doc/manual/backend/push_notification/gcm.rst:118
 msgid ""
 "Then, Server API key will be created and displayed as shown below. Copy it. "
 "You will need to use this key in Monaca Cloud IDE later."
 msgstr "次のように、API キーが作成・表示されます。後ほど、Monaca クラウド IDE 上で使用するので、キーをコピーして、手元に保存します。"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:98
+#: ../doc/manual/backend/push_notification/gcm.rst:121
 msgid "Step 3: Configure GCM Parameters in Monaca"
 msgstr "ステップ 3 : GCM パラメーターの設定 ( Monaca 上 )"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:108
+#: ../doc/manual/backend/push_notification/gcm.rst:131
 msgid ""
 "Under Android section, input the Sender ID and Server API Key and click "
 ":guilabel:`Save`. Then, the setup processes for Android app notifications "
@@ -1329,9 +1331,9 @@ msgstr "フルスクリーン"
 
 #: ../doc/manual/build/build_android.rst:65
 msgid ""
-"this option is only available with the PhoneGap 3.5 and later. If enable, "
+"this option is only available with the Cordova 3.5 and later. If enable, "
 "your app will be run in a fullscreen mode which hide the status bar."
-msgstr "このオプションは、PhoneGap 3.5 以降を使用している場合のみ、使用できます。有効にした場合、フルスクリーン ( 全画面表示 ) でアプリを実行します。ステータスバーは非表示になります。"
+msgstr ""
 
 #: ../doc/manual/build/build_android.rst:75
 msgid "Misc: various settings regarding your Android app such as:"
@@ -1393,9 +1395,9 @@ msgstr "Stock WebView"
 #: ../doc/manual/build/build_android.rst:90
 msgid ""
 "Set to High Performance (Crosswalk) for a more powerful and larger app size."
-" It's required Android 4.0 and up. For phonegap 5.2 and and higher, Stock "
+" It's required Android 4.0 and up. For Cordova 5.2 and and higher, Stock "
 "WebView will be applied as default."
-msgstr "標準のエンジンより高速なエンジン ( ハイパフォーマンス ) を希望する場合には、Crosswalk プラグインを有効にします ( アプリのサイズが大きくなります。また、Android 4.0 以上が対象です )。PhoneGap 5.2 以上の場合には、Stock WebView がデフォルトとして使用されます。"
+msgstr ""
 
 #: ../doc/manual/build/build_android.rst:94
 msgid "Screen Orientation"
@@ -1507,35 +1509,27 @@ msgstr "目的に応じたビルドの種類を選択し、:guilabel:`次へ` �
 
 #: ../doc/manual/build/build_android.rst:154
 msgid ""
-"Select the CPU architecture. ARM option is recommended since it has higher "
-"compatibility. For more information regarding the CPU architecture and its "
-"differences, please refer to `CPUs and Architectures "
-"<http://developer.android.com/ndk/guides/arch.html>`_. If you choose Release"
-" Build option in Step 2, you may also need to select an alias to sign your "
-"package."
-msgstr "CPU アーキテクチャーを選択します。Android との親和性の点から、ARM の使用を推奨します ( Android 向けに最適化 )。CPU のアーキテクチャーと相違に関しては、`CPUs and Architectures ( 英語サイト ) <http://developer.android.com/ndk/guides/arch.html>`_ をご確認ください。また、ステップ 2 でリリースビルドを選択した場合には、パッケージの署名に使用するエイリアスも選択します。"
+"If you choose Release Build option in Step 2, you may also need to select an"
+" alias to sign your package."
+msgstr ""
 
 #: ../doc/manual/build/build_android.rst:160
-msgid "Debug Build"
-msgstr "デバッグビルド"
-
-#: ../doc/manual/build/build_android.rst:166
 msgid "Release Build"
 msgstr "リリースビルド"
 
-#: ../doc/manual/build/build_android.rst:170
+#: ../doc/manual/build/build_android.rst:164
 #: ../doc/manual/build/build_chrome_app.rst:54
 #: ../doc/manual/build/build_winrt.rst:76
 #: ../doc/manual/development/monaca_vs/overview.rst:113
 msgid "Click :guilabel:`Next`."
 msgstr ":guilabel:`次へ` ボタンをクリックします。"
 
-#: ../doc/manual/build/build_android.rst:172
+#: ../doc/manual/build/build_android.rst:166
 #: ../doc/manual/build/ios/build_ios.rst:291
 msgid "It may take several minutes for the build to complete. Please wait."
 msgstr "ビルドが完了するまで、多少の時間がかかりますので、しばらく待ちます。"
 
-#: ../doc/manual/build/build_android.rst:181
+#: ../doc/manual/build/build_android.rst:175
 #: ../doc/manual/build/build_chrome_app.rst:99
 #: ../doc/manual/build/build_history.rst:34
 #: ../doc/manual/build/build_winrt.rst:168
@@ -1545,14 +1539,14 @@ msgstr "ビルドが完了するまで、多少の時間がかかりますので
 msgid ":ref:`building_for_ios`"
 msgstr ":ref:`building_for_ios`"
 
-#: ../doc/manual/build/build_android.rst:182
+#: ../doc/manual/build/build_android.rst:176
 #: ../doc/manual/build/build_chrome_app.rst:100
 #: ../doc/manual/build/build_history.rst:36
 #: ../doc/manual/build/ios/build_ios.rst:301
 msgid ":ref:`building_for_win8`"
 msgstr ":ref:`building_for_win8`"
 
-#: ../doc/manual/build/build_android.rst:183
+#: ../doc/manual/build/build_android.rst:177
 #: ../doc/manual/build/build_chrome_app.rst:101
 #: ../doc/manual/build/build_history.rst:37
 #: ../doc/manual/build/build_winrt.rst:170
@@ -1562,13 +1556,13 @@ msgstr ":ref:`building_for_win8`"
 msgid ":ref:`google_play_distribution`"
 msgstr ":ref:`google_play_distribution`"
 
-#: ../doc/manual/build/build_android.rst:184
+#: ../doc/manual/build/build_android.rst:178
 #: ../doc/manual/build/build_history.rst:38
 #: ../doc/manual/build/build_winrt.rst:171
 msgid ":ref:`building_for_chrome_app`"
 msgstr ":ref:`building_for_chrome_app`"
 
-#: ../doc/manual/build/build_android.rst:185
+#: ../doc/manual/build/build_android.rst:179
 #: ../doc/manual/build/build_chrome_app.rst:102
 #: ../doc/manual/build/build_winrt.rst:172
 #: ../doc/manual/build/ios/build_ios.rst:302
@@ -4487,9 +4481,8 @@ msgstr ":file:`plugin.xml` ファイル"
 msgid ""
 ":file:`plugin.xml` file is a plugin specification file containing plugin's "
 "definitions. For more details, please refer to `Cordova Plugin Specification"
-" "
-"<http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_."
-msgstr ":file:`plugin.xml` ファイルとは、プラグインの設定ファイルであり、プラグインの詳細が定義されています。詳細は、 `Cordova プラグインの仕様 ( 英語サイト ) <http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_ をご確認ください。"
+" <http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html>`_."
+msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:69
 msgid "Below is a :file:`plugin.xml` file from the downloaded sample plugin."
@@ -4510,8 +4503,8 @@ msgstr ":file:`hello_world.js` は、前述のプラグインの定義ファイ�
 msgid ""
 "For more details about how to write Cordova callback function, please refer "
 "to `Plugin Development Guide "
-"<http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_."
-msgstr "Cordova のコールバック関数の記法については、 `プラグインの開発ガイド ( 英語サイト )  <http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_ をご確認ください。"
+"<http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html>`_."
+msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:130
 msgid "iOS and Android Native Code"
@@ -4530,15 +4523,15 @@ msgstr "ネイティブコードの開発に関しては、下記のリンクを
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:136
 msgid ""
-"`Developing a Plugin on Android "
-"<http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_."
-msgstr "`Android 向けプラグインの開発 <http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_ ( 英語サイト )"
+"`Android Plugin Development Guide "
+"<http://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html>`_."
+msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:137
 msgid ""
-"`Developing a Plugin on iOS "
-"<http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_."
-msgstr "`iOS 向けプラグインの開発 <http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_ ( 英語サイト )"
+"`iOS Plugin Development Guide "
+"<http://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html>`_."
+msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:142
 msgid "Import Custom Cordova Plugin"
@@ -5811,13 +5804,13 @@ msgid ""
 "Testing Purpose: Before releasing your apps, you would want to test them as "
 "much as you can. Thus, you would want to distribute your apps to users "
 "(testers) by various ways besides the App Store."
-msgstr "検証目的の場合 : アプリのリリース前には、さまざまな検証を行います。このため、複数のテストユーザーに、App Store 経由以外の方法で、アプリを配布できる方が、都合がよい場合があります。"
+msgstr "検証目的の場合 : アプリのリリース前には、さまざまな検証を行います。このため、複数のテストユーザーに、App Store 経由以外の方法でアプリを配布できる方が、都合がよい場合があります。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:19
 msgid ""
 "In-house Applications: The applications are made for internal uses (in a "
 "company or organization) only."
-msgstr "社内 ( In-house ) での使用を前提にしたアプリの場合　: 企業/組織内での使用目的で作成されたアプリの場合、App Store 経由以外の方法で、アプリを配布できる方が、都合がよい場合があります。"
+msgstr "社内 ( In-house ) での使用を前提にしたアプリの場合 : 企業/組織内での使用目的で作成されたアプリの場合、App Store 経由以外の方法でアプリを配布できる方が、都合がよい場合があります。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:21
 msgid ""
@@ -5834,11 +5827,11 @@ msgstr "iOS Developer Proram と iOS Developer Enterprise Program の比較表�
 
 #: ../doc/manual/deploy/non_market_deploy.rst:26
 msgid "iOS Developer Program"
-msgstr "iOS デベロッパー プログラム"
+msgstr "iOS Developer Program"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:26
 msgid "iOS Developer Enterprise Program"
-msgstr "iOS エンタープライズ プログラム"
+msgstr "iOS Developer Enterprise Program"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:28
 msgid "TestFlight Beta Testing"
@@ -5886,7 +5879,7 @@ msgstr "プレリリース ( pre-release ) 版アプリの配布方法 ( 検証�
 msgid ""
 "using iTunes Connect: it's required iOS Developer Account and takes time "
 "since it needs approval from Apple Review prior to the distribution."
-msgstr "iTunes Connect の使用 : iOS Developer Program アカウントの登録、および、アプリの審査 ( Apple Review ) が、事前に必要です。"
+msgstr "iTunes Connect を使用 : iOS Developer Program アカウントの登録およびアプリの審査 ( Apple Review ) が、事前に必要です。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:45
 msgid ""
@@ -5902,25 +5895,25 @@ msgid ""
 "devices. However, if you want someone outside of your company to test your "
 "app or restrict distribution to specific devices, you can use Ad Hoc "
 "distribution."
-msgstr "社内 ( In-house ) 配布は、限定的 ( 社員 ・ スタッフ向け ) な、iOS アプリの配布時に使用されます。この配布形式を使用すれば、業務用のすべての端末に、アプリを配布できます。検証目的で、社外の関係者に配布する場合、または、配布対象の端末を限定する場合には、Ad Hoc 形式で配布します。"
+msgstr "社内 ( In-house ) 配布は、限定的 ( 社員・スタッフ向け ) な、iOS アプリの配布時に使用されます。この配布形式を使用すれば、業務用のすべての端末に、アプリを配布できます。検証目的で、社外の関係者に配布する場合、または、配布対象の端末を限定する場合には、Ad Hoc 形式で配布します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:50
 msgid ""
 "Ad Hoc distribution is to distribute your apps using Ad Hoc provisioning "
 "profile to registered devices up to 100."
-msgstr "Ad Hoc 配布では、Ad Hoc 配布用 プロビジョニング プロファイル を使用して、アプリの配布を行います。登録された端末が対象で、100 台まで、配布できます。"
+msgstr "Ad Hoc 配布では、Ad Hoc 配布用 プロビジョニング プロファイル を使用して、アプリの配布を行います。登録された端末が対象で、100 台まで配布できます。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:54
 msgid ""
 "Both types of distribution have the same ways for app installation. The "
 "difference is the provisioning profile."
-msgstr "アプリのインストール方法に関しては、いずれの配布形式でも同じですが、プロビジョニング プロファイルに関しては、異なります。"
+msgstr "アプリのインストール方法に関しては、いずれの配布形式でも同じです。プロビジョニング プロファイルはそれぞれ異なります。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:56
 msgid ""
 "There are several ways you can install your applications outside the App "
 "Store as shown in the following sections."
-msgstr "App Store 経由以外で、アプリを入手した場合、インストール方法は、次のように、数通りあります。"
+msgstr "App Store 経由以外でアプリを入手した場合、インストール方法は、次のように数通りあります。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:59
 msgid "Install using iTunes"
@@ -6014,7 +6007,7 @@ msgstr "``.plist`` ファイル作成時の注意点を、次に記します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:143
 msgid "``.plist`` file must be accessed via https protocol."
-msgstr "``.plist`` ファイルは、HTTPS プロトコル経由で、アクセスできること。"
+msgstr "``.plist`` ファイルは、HTTPS プロトコル経由でアクセスできること。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:144
 msgid "update bundle-identifier with the App ID."
@@ -6028,13 +6021,13 @@ msgstr ".ipa ファイルへのパスを、正しく指定すること。"
 msgid ""
 "Upload the ``.plist`` file to the site you want. Make sure this file must be"
 " accessed via HTTPS protocol."
-msgstr "ダウンロード元となるサイトに、 ``.plist`` ファイルをアップロードします。HTTPS プロトコル経由で、このファイルにアクセスできることを、ご確認ください。"
+msgstr "ダウンロード元となるサイトに、 ``.plist`` ファイルをアップロードします。HTTPS プロトコル経由で、このファイルにアクセスできることを確認します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:149
 msgid ""
 "Create a webpage embedded the link to the uploaded ``.plist`` file using "
 "special ``itms-services://`` protocol. See blow example:"
-msgstr "アップロードした ``.plist`` ファイルへのリンクを組み込んだ、Web ページを作成します。次の例のように、 ``itms-services://`` プロトコルも使用します。"
+msgstr "アップロードした ``.plist`` ファイルへのリンクを組み込んだ Web ページを作成します。次の例のように、 ``itms-services://`` プロトコルも使用します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:157
 msgid ""
@@ -6050,14 +6043,14 @@ msgstr "Android アプリの場合"
 msgid ""
 "There are two cases which you want to distribute your applications outside "
 "the offical markets such as Google Play Store, Amazon AppStore and so on:"
-msgstr "Google Play ストア、Amazon AppStore などの公式なストアーを経由せずに、アプリの配布を行う場合があります。次のような、2 つのシナリオが考えられます。"
+msgstr "Google Play ストア、Amazon AppStore などの公式なストアを経由せずに、アプリの配布を行う場合があります。次のような、2 つのシナリオが考えられます。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:176
 msgid ""
 "Testing Purpose: Before releasing your apps, you would want to test them as "
 "much as you can. Thus, you would want to distribute your apps to users "
 "(testers) by various ways besides the official markets."
-msgstr "検証目的 : アプリのリリース前には、さまざまな検証を行います。このため、複数のテストユーザーに、App Store 経由以外の方法で、アプリを配布できる方が、都合がよい場合があります。"
+msgstr "検証目的 : アプリのリリース前には、さまざまな検証を行います。このため、複数のテストユーザーに、App Store 経由以外の方法でアプリを配布できる方が、都合がよい場合があります。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:178
 msgid ""
@@ -6073,7 +6066,7 @@ msgstr "ADB コマンドを使用したインストール方法"
 msgid ""
 "ADB (Android Debug Bridge) is a tool enabling you to use various terminal "
 "commands to your phone."
-msgstr "ADB ( Android Debug Bridge / Android デバッグ ブリッジ ) は、コマンド ライン ツールです。このツールを使用して、端末 ・ PC 間で、各種処理を行えます。"
+msgstr "ADB ( Android Debug Bridge/Android デバッグ ブリッジ ) は、コマンド ライン ツールです。このツールを使用して、端末・PC 間で、各種処理を行えます。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:185
 msgid "Prerequisite:"
@@ -6091,7 +6084,7 @@ msgstr "Android SDK のインストール後、システム環境変数の設定
 msgid ""
 "enable USB Debugging and allow installation of apps from sources other than "
 "the Play Store on your device."
-msgstr "USB デバッグを有効化します。次に、セキュリティー設定を変更して、( Google ) Play ストアではなく、指定するソースから、アプリ ( 提供元不明のアプリ ) をインストールできるようにします。"
+msgstr "USB デバッグを有効化します。次に、セキュリティー設定を変更して、Google Play ストアではなく、指定するソースから、アプリ ( 提供元不明のアプリ ) をインストールできるようにします。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:191
 msgid "In order to install your built app via ADB command:"
@@ -6111,7 +6104,7 @@ msgstr "ビルド完了後、 ``.apk`` ファイルをダウンロードしま�
 
 #: ../doc/manual/deploy/non_market_deploy.rst:197
 msgid "Plug your device via USB to your computer."
-msgstr "USB を使用して、PC と　端末間を接続します。"
+msgstr "USB を使用して、PC と端末間を接続します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:199
 msgid ""
@@ -6130,7 +6123,7 @@ msgstr "こちらは、 ``.apk`` ファイルへの直リンクを使用した�
 
 #: ../doc/manual/deploy/non_market_deploy.rst:214
 msgid "Upload the downloaded file to any sites you want."
-msgstr "ビルド後にダウンロードしたファイルを、ダウンロード元となるサイトに、アップロードします。"
+msgstr "ビルド後にダウンロードしたファイルを、ダウンロード元となるサイトにアップロードします。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:216
 msgid ""
@@ -6140,7 +6133,7 @@ msgstr "端末からアップロードしたファイルへのリンクをクリ
 
 #: ../doc/manual/deploy/non_market_deploy.rst:219
 msgid "Please make sure make these settings on your device beforehand:"
-msgstr "次の設定がされているか、事前に確認します。"
+msgstr "事前に確認する事項を、次に記します。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:221
 msgid "enable USB Debugging"
@@ -6148,7 +6141,7 @@ msgstr "USB デバッグ の有効化"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:222
 msgid "allow installation of apps from sources other than the Play Store."
-msgstr "セキュリティー設定の変更 ( Play ストアではなく、指定するソースから、提供元不明のアプリをインストールできること )"
+msgstr "セキュリティー設定の変更 ( Google Play ストアではなく、指定するソースから、提供元不明のアプリをインストールできること )"
 
 #: ../doc/manual/development/index.rst:2
 msgid "Development Environment"

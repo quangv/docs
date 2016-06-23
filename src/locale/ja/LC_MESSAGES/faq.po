@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-17 06:49+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-06-23 02:53+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -951,7 +951,7 @@ msgid ""
 "IDE. We recommend to use **Safari** and **Google Chrome**. For users of "
 "other browsers, please install `Google Chrome <http://google.com/chrome>`_ "
 "or `Safari <http://apple.com/safari>`_."
-msgstr "インターネットに接続できる PC と モバイル端末が必要です。また、Monaca クラウド IDE を使用して、モバイルアプリを開発する場合には、インターネット ブラウザーとして、**Google Chrome** または **Safari** を使用することを推奨します。他のブラウザーを使用している場合は、推奨ブラウザーをインストールしてください ( `Google Chrome <http://google.com/chrome>`_ または `Safari <http://apple.com/safari>`_ )。"
+msgstr "インターネットに接続できる PC と モバイル端末が必要です。また、Monaca クラウド IDE を使用して、モバイルアプリを開発する場合には、インターネット ブラウザーとして、**Google Chrome** または **Safari** を使用することを推奨します。他のブラウザーを使用している場合は、左記の推奨ブラウザーをインストールしてください ( `Google Chrome <http://google.com/chrome>`_ または `Safari <http://apple.com/safari>`_ )。"
 
 #: ../doc/faq/environment.rst:12
 msgid ""
@@ -1086,7 +1086,7 @@ msgid ""
 ":doc:`../../manual/development/monaca_vs/index` to develop Monaca apps. This"
 " extension allows to develop as in Monaca Cloud IDE except using the "
 "functionalities of Visual Studio."
-msgstr ":doc:`../../manual/development/monaca_vs/index` を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能では、Monaca クラウド IDE と同様の開発機能を、Visual Studio に提供しています。"
+msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能では、Monaca クラウド IDE と同様の開発機能を、Visual Studio に移植しています。詳細は、:doc:`../../manual/development/monaca_vs/index` をご確認ください。"
 
 #: ../doc/faq/environment.rst:81
 msgid "Application does not run on preview in the IDE"
@@ -1096,7 +1096,7 @@ msgstr "IDE 上のプレビュー機能上で、アプリケーションが動�
 msgid ""
 "Cordova APIs and cross-domain ajax requests are not supported in the browser"
 " preview."
-msgstr "Ajax などを使用して、外部ドメインへアクセス ( クロスドメイン リクエスト ) する場合は、IDE のプレビュー機能を利用できません。"
+msgstr "プレビューではサポートしていない機能があり、これらを使用している場合、IDE のプレビュー機能は利用できません ( たとえば、Cordova API、クロスドメインの Ajax リクエストなど )。"
 
 #: ../doc/faq/environment.rst:88
 msgid "Why I can't archive my project?"
@@ -1275,7 +1275,7 @@ msgid ""
 "remaining in the month. In the case of a plan downgrading, there will be no "
 "refund of charges which have already been paid. For the year long contracts,"
 " please request details using our support form."
-msgstr "月額契約に関しては、ダッシュボードからプランを変更できます。プランをアップグレードする場合には、申し込み月の残りの日数を基に、旧プランとの差額料金を日割りして、追加課金します。プランをダウングレードする場合、支払済み分に関しては、返金いたしません。年額契約については、問い合わせ窓口より、お問い合わせください。"
+msgstr "月額契約に関しては、Monaca クラウド IDE のダッシュボードからプランを変更できます。プランをアップグレードする場合には、申し込み月の残りの日数を基に、旧プランとの差額料金を日割りして、追加課金します。プランをダウングレードする場合、支払済み分に関しては、返金いたしません。年額契約については、問い合わせ窓口より、お問い合わせください。"
 
 #: ../doc/faq/general.rst:141
 msgid "If I change my plan, will my project data remain intact?"
@@ -1290,7 +1290,7 @@ msgid ""
 "reduced to within the range of the limitation by archiving or deleting them."
 " Please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_ about "
 "the number of projects allowed for each plan."
-msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータを保持できます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブを行って、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <http://monaca.mobi/pricing/>`_ をご確認ください。"
+msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータを保持できます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <http://monaca.mobi/pricing/>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:149
 msgid ""
@@ -1371,7 +1371,7 @@ msgstr "Basic と Personal プランでも、各種組み込み Cordova プラ�
 
 #: ../doc/faq/general.rst:205
 msgid "How to unregister a Monaca account?"
-msgstr "Monaca アカウントの登録解除 ・ 退会方法を教えてください。"
+msgstr "Monaca アカウントの登録解除・退会方法を教えてください。"
 
 #: ../doc/faq/general.rst:207
 msgid "Login to `Monaca Dashboard <https://monaca.mobi/en/dashboard>`_."
@@ -1428,7 +1428,7 @@ msgstr "必要なチケット数は、原則、弊社側にて、お見積もり
 
 #: ../doc/faq/general.rst:229
 msgid "We will ask your problem and the details."
-msgstr "サポートをご希望される内容をお伺いします。"
+msgstr "ご希望されるサポート内容をお伺いします。"
 
 #: ../doc/faq/general.rst:230
 msgid ""
