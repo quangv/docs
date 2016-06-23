@@ -299,7 +299,11 @@ msgid "There are two type of users:"
 msgstr ""
 
 #: ../doc/manual/backend/control_operations.rst:265
-msgid "1. Owner refers to the user who create the Collection. Owner will always be granted read and write permissions. 2 Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
+msgid "Owner refers to the user who create the Collection. Owner will always be granted read and write permissions."
+msgstr ""
+
+#: ../doc/manual/backend/control_operations.rst:266
+msgid "Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
 msgstr ""
 
 #: ../doc/manual/backend/control_operations.rst:268
