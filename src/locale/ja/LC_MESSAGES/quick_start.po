@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-15 02:59+0000\n"
+"PO-Revision-Date: 2016-06-28 02:42+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -654,7 +654,7 @@ msgstr "ステップ 1 : Monaca へのログイン"
 msgid ""
 "Open a Command Prompt window (for Windows) or Terminal window (for Mac) and "
 "type the following command:"
-msgstr "コマンドプロンプト ( Windows の場合 ) またはターミナル ( Mac の場合 ) を開き、次のコマンドを実行します。アカウントをすでにお持ちの場合には、monaca login から始めます。"
+msgstr "コマンドプロンプト ( Windows の場合 ) またはターミナル ( Mac の場合 ) を開き、次のコマンドを実行します ( Monaca アカウントをすでにお持ちの場合には、monaca login から始めます )。"
 
 #: ../doc/quick_start/cli/starting_project.rst:17
 msgid ""
@@ -692,7 +692,7 @@ msgstr "プロジェクトを作成すると、プロジェクトフォルダー
 msgid ""
 "You can also use Monaca CLI to :ref:`import<monaca_import>` or "
 ":ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
-msgstr "上記では、テンプレートを使用したプロジェクトの作成方法を示しましたが、他にも、Monaca CLI を使用して、Monaca クラウドから既存のプロジェクトを :ref:`インポート <monaca_import>` または :ref:`クローン <monaca_clone>` できます。"
+msgstr "上記では、サンプルアプリを使用したプロジェクトの作成方法を示しましたが、他にも、Monaca CLI を使用して、Monaca クラウドから既存のプロジェクトを :ref:`インポート <monaca_import>` または :ref:`クローン <monaca_clone>` できます。"
 
 #: ../doc/quick_start/cli/starting_project.rst:63
 #: ../doc/quick_start/localkit/building_app.rst:234

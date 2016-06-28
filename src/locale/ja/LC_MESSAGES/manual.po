@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-23 06:21+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-06-28 02:42+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,7 +104,7 @@ msgid ""
 "The properties can only be added/updated but not deleted. System properties "
 "which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) "
 "cannot be modified, except ``\"_username\"``."
-msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除・更新しても、再び表示されます )。また、システム側で使用するプロパティーは、原則、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。ただし、「 _username 」 だけは、更新することができます。"
+msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除後、更新すると再び表示されます )。また、システム側で使用するプロパティーは、原則、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。ただし、「 _username 」 だけは、更新することができます。"
 
 #: ../doc/manual/backend/control_operations.rst:76
 msgid "Deleting a User"
@@ -124,7 +124,7 @@ msgstr ":guilabel:`ユーザー削除` をクリックします。"
 msgid ""
 "Data cannot be recovered once deleted. Therefore, please be careful when "
 "deleting the data."
-msgstr "データをいったん削除してしまうと、復旧できません。データを削除する場合には、ご注意ください。"
+msgstr "データをいったん削除してしまうと復旧できません。データを削除する場合には、ご注意ください。"
 
 #: ../doc/manual/backend/control_operations.rst:95
 msgid "Collection Management"
@@ -340,7 +340,7 @@ msgid ""
 "The properties can only be added/updated but not deleted. System properties "
 "which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) "
 "cannot be modified."
-msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除・更新しても、再び表示されます )。また、システム側で使用するプロパティーは、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。"
+msgstr "プロパティーの追加と更新はできますが、削除はできません ( 削除後、更新すると再び表示されます )。また、システム側で使用するプロパティーは、更新できません ( 「 _ 」 で始まるプロパティーがシステムプロパティーです。たとえば、「 _createdAt 」、「 _id 」 などがあります )。"
 
 #: ../doc/manual/backend/control_operations.rst:240
 msgid "Deleting a Collection Item"
@@ -377,13 +377,13 @@ msgstr "2 種類のユーザーがいます。"
 msgid ""
 "Owner refers to the user who create the Collection. Owner will always be "
 "granted read and write permissions."
-msgstr ""
+msgstr "「 所有者 」 は、コレクションを作成したユーザーを指します。所有者には、read ( 読み取り )・ write ( 書き込み ) のパーミッションが常に付与されます。"
 
 #: ../doc/manual/backend/control_operations.rst:266
 msgid ""
 "Public refers to all users who are not logged in. By default, they are not "
 "granted the read or write permissions."
-msgstr ""
+msgstr "「 public 」 は、「 現在ログインしていない、すべてのユーザー 」 を指します。デフォルトでは、これらのユーザーには、どちらのパーミッション ( read と write ) も付与されていません。"
 
 #: ../doc/manual/backend/control_operations.rst:268
 msgid ""
@@ -851,31 +851,31 @@ msgstr "ここでは、Google Developer Console 上にアプリを登録して�
 msgid ""
 "Go to `Google API Console <https://console.developers.google.com/>`_. and "
 "sign in with a valid Google account."
-msgstr ""
+msgstr "`Google API Console <https://console.developers.google.com/>`_ へ行き、Google アカウントを使用して、サインインします。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:27
 msgid "Click on :guilabel:`Create a project`."
-msgstr ""
+msgstr ":guilabel:`プロジェクトを作成` をクリックします。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:35
 msgid ""
 "Input the project's name and click :guilabel:`Create`. After the project is "
 "successfully created, the project Overview page will appear."
-msgstr ""
+msgstr "プロジェクト名を入力して、:guilabel:`作成` ボタンをクリックします。プロジェクトの作成後、[ 概要 ] ページ上で、作成したプロジェクトが表示されていることを確認します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:43
 msgid ""
 "From the Overview page, select :guilabel:`Google Cloud Messaging` under "
 ":guilabel:`Mobile APIs`."
-msgstr ""
+msgstr "[ 概要 ] ページのプロジェクト一覧から対象のプロジェクトを選択します。API 一覧にページが切り替わります ( または、自動で切り替わります )。切り替え後、:guilabel:`Mobile API` から :guilabel:`Google Cloud Messaging` を選択します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:51
 msgid "Click :guilabel:`Enable`."
-msgstr ""
+msgstr ":guilabel:`有効にする` ボタンをクリックします。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:60
 msgid "Step 2: Obtain the Sender ID and Server API Key"
-msgstr "ステップ 2 : Sender ID と サーバー API キーの入手 ( Google API Console 上 )"
+msgstr "ステップ 2 : Sender ID ( Monaca クラウド IDE ) と サーバー API キー ( Google API Console 上 )"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:64
 msgid "Find Sender ID"
@@ -885,20 +885,20 @@ msgstr "Sender ID の確認"
 msgid ""
 "Sender ID is the Project Number which can be found in Settings page as shown"
 " below:"
-msgstr ""
+msgstr "プッシュ通知の Sender ID ( Monaca クラウド IDE ) には、Google APIs Console のプロジェクト番号を使用します。プロジェクト番号の確認方法は、次のとおりです。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:69
 msgid "Click on Google APIs menu."
-msgstr ""
+msgstr "[ Google APIs ] 横の切り替えメニューをクリックします。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:77
 msgid "Go to :guilabel:`IAM & Admin`."
-msgstr ""
+msgstr ":guilabel:`IAM と 管理` を選択します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:85
 msgid ""
 "Then, go to :guilabel:`Settings`. There you can find the project number."
-msgstr ""
+msgstr "次に、:guilabel:`設定` を選択します。表示された画面上で、プロジェクト番号を確認します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:95
 msgid "Find Server API Key"
@@ -906,11 +906,11 @@ msgstr "サーバー API キーの確認"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:97
 msgid "From the API Manager page, go to :guilabel:`Credentials`."
-msgstr ""
+msgstr "Google APIs 横の切り替えメニュー ( Google APIs Console 上 ) から API Manager を選択して、次に、:guilabel:`認証情報` を選択します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:99
 msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
-msgstr ""
+msgstr ":guilabel:`認証情報を作成` をクリックして、:guilabel:`API キー` を選択します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:107
 msgid "Select :guilabel:`Server key`."
@@ -924,7 +924,7 @@ msgstr "サーバーキーの名前を入力して、:guilabel:`作成` ボタ�
 msgid ""
 "Then, Server API key will be created and displayed as shown below. Copy it. "
 "You will need to use this key in Monaca Cloud IDE later."
-msgstr "次のように、API キーが作成・表示されます。後ほど、Monaca クラウド IDE 上で使用するので、キーをコピーして、手元に保存します。"
+msgstr "API キーが作成・表示されます。後ほど、Monaca クラウド IDE 上で使用するので、キーをコピーして、手元に保存します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:121
 msgid "Step 3: Configure GCM Parameters in Monaca"
@@ -1338,7 +1338,7 @@ msgstr "フルスクリーン"
 msgid ""
 "this option is only available with the Cordova 3.5 and later. If enable, "
 "your app will be run in a fullscreen mode which hide the status bar."
-msgstr ""
+msgstr "このオプションは、Cordova 3.5 以降を使用している場合のみ、使用できます。有効にした場合、フルスクリーン ( 全画面表示 ) でアプリを実行します。ステータスバーは非表示になります。"
 
 #: ../doc/manual/build/build_android.rst:75
 msgid "Misc: various settings regarding your Android app such as:"
@@ -1402,7 +1402,7 @@ msgid ""
 "Set to High Performance (Crosswalk) for a more powerful and larger app size."
 " It's required Android 4.0 and up. For Cordova 5.2 and and higher, Stock "
 "WebView will be applied as default."
-msgstr ""
+msgstr "Cordova 5.2 以上の場合、Stocke WebView がデフォルトの設定となります。ハイパフォーマンス版 ( CrossWalk ) を使用する場合には、[ Cordova プラグインの管理 ] 画面から Crosswalk WebView Engine プラグインを有効化します ( Android 4.0 以上が対象 )。"
 
 #: ../doc/manual/build/build_android.rst:94
 msgid "Screen Orientation"
@@ -1516,7 +1516,7 @@ msgstr "目的に応じたビルドの種類を選択し、:guilabel:`次へ` �
 msgid ""
 "If you choose Release Build option in Step 2, you may also need to select an"
 " alias to sign your package."
-msgstr ""
+msgstr "ステップ 2 で [ リリースビルド ] オプションを選択した場合、次の画面で、パッケージの署名に使用するエイリアスを選択する必要があります。"
 
 #: ../doc/manual/build/build_android.rst:160
 msgid "Release Build"
@@ -4104,7 +4104,7 @@ msgstr "インスペクタが起動しない場合"
 
 #: ../doc/manual/debugger/troubleshooting.rst:79
 msgid "If the inspector does not open, please try the following actions:"
-msgstr "インスペクタが開かない場合は、下記の点を確認します。"
+msgstr "インスペクタが開かない場合は、次の点を確認します。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:81
 msgid ""
@@ -4118,7 +4118,7 @@ msgstr "デバッガー上でアプリが実行されているか確認します
 
 #: ../doc/manual/debugger/troubleshooting.rst:83
 msgid "try plug off & in to see if the computer can find the device."
-msgstr "ケーブルを抜き差しして、コンピューターが端末を正しく認識するか、確認します。"
+msgstr "ケーブルを抜き差しして、コンピューターが端末を正しく認識するか確認します。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:84
 msgid "check if the device and the host PC are connected via USB cable."
@@ -4487,7 +4487,7 @@ msgid ""
 ":file:`plugin.xml` file is a plugin specification file containing plugin's "
 "definitions. For more details, please refer to `Cordova Plugin Specification"
 " <http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html>`_."
-msgstr ""
+msgstr ":file:`plugin.xml` ファイルとは、プラグインの設定ファイルであり、プラグインの詳細が定義されています。詳細は、`Cordova プラグインの仕様 ( 英語サイト ) <http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html>`_ をご確認ください。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:69
 msgid "Below is a :file:`plugin.xml` file from the downloaded sample plugin."
@@ -4509,7 +4509,7 @@ msgid ""
 "For more details about how to write Cordova callback function, please refer "
 "to `Plugin Development Guide "
 "<http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html>`_."
-msgstr ""
+msgstr "Cordova のコールバック関数の記法については、`プラグインの開発ガイド ( 英語サイト ) <http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html>`_ をご確認ください。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:130
 msgid "iOS and Android Native Code"
@@ -4530,13 +4530,13 @@ msgstr "ネイティブコードの開発に関しては、下記のリンクを
 msgid ""
 "`Android Plugin Development Guide "
 "<http://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html>`_."
-msgstr ""
+msgstr "`Android 向けプラグインの開発 ( 英語サイト ) <http://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html>`_"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:137
 msgid ""
 "`iOS Plugin Development Guide "
 "<http://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html>`_."
-msgstr ""
+msgstr "`iOS 向けプラグインの開発 ( 英語サイト ) <http://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html>`_"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:142
 msgid "Import Custom Cordova Plugin"
@@ -6335,7 +6335,7 @@ msgstr ":ref:`monaca_login`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:14
 msgid "signs in to Monaca Cloud."
-msgstr "Monaca クラウドに、サインインします。"
+msgstr "Monaca クラウドにサインインします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:15
 msgid ":ref:`monaca_create`"
@@ -6431,7 +6431,7 @@ msgstr ":ref:`monaca_logout`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:26
 msgid "signs out from Monaca Cloud."
-msgstr "Monaca クラウドから、サインアウトします。"
+msgstr "Monaca クラウドからサインアウトします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:34
 msgid "monaca login"
@@ -6582,7 +6582,7 @@ msgid ""
 "Uploads the current project to Monaca Cloud. The project files will be "
 "compared with the remote files so only the changed and new files will be "
 "uploaded."
-msgstr "Monaca クラウドへ、対象のプロジェクトをアップロードします。プロジェクトファイルは、ローカルとリモート間で比較され、変更 ・ 追加があったファイルのみ、アップロードされます。"
+msgstr "Monaca クラウドへ、対象のプロジェクトをアップロードします。プロジェクトファイルは、ローカルとリモート間で比較され、変更・追加があったファイルのみ、アップロードされます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:153
 msgid "This command works differently for different types of projects:"
@@ -6653,7 +6653,7 @@ msgstr "monaca download"
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:198
 msgid ""
 "Downloads updates/changes (of the synced project) made in Monaca Cloud."
-msgstr "Monaca クラウド上で、同期対象のプロジェクトに対して行った更新 ・ 修正箇所をダウンロードします。"
+msgstr "Monaca クラウド上で同期対象のプロジェクトに対して行った更新・修正箇所をダウンロードします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:200
 msgid ""
@@ -6689,7 +6689,7 @@ msgstr "monaca plugin"
 msgid ""
 "Manages plugins of a project such as adding new plugins, listing and "
 "removing installed plugins."
-msgstr "プロジェクトで使用するプラグインを管理します。プラグインの新規追加、および、既存プラグインの一覧化 ・ 削除を行えます。"
+msgstr "プロジェクトで使用するプラグインを管理します。プラグインの新規追加、ならびに、既存プラグインの一覧化と削除を行えます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:242
 msgid ":dfn:`$ monaca plugin [options]`"
@@ -6758,7 +6758,7 @@ msgid ""
 "to connect to. It also starts broadcasting messages to tell debuggers in the"
 " local network to connect to it. When a debugger has connected, all file "
 "changes will be sent to it."
-msgstr "Monaca デバッガー上へ、プロジェクトを 1 つ送信します。端末上 ( Monaca デバッガー ) で、プロジェクトをデバッグするときに、このコマンドを使用します。ローカルで行った、ファイルの修正は、端末上に、即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、ローカルネットワーク上に存在するデバッガーに対して、接続するか確認するメッセージも送信されます。デバッガーの接続後、ファイルシステム内に修正箇所があれば、デバッガー側に送信され、最新内容が反映されます。"
+msgstr "Monaca デバッガー上へ、プロジェクトを 1 つ送信します。端末上 ( Monaca デバッガー ) で、プロジェクトをデバッグするときに、このコマンドを使用します。ローカルで行ったファイルの修正は、端末上にも即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、ローカルネットワーク上に存在するデバッガーに対して接続するか確認するメッセージも送信されます。デバッガーの接続後、ファイルシステム内に修正箇所があれば、デバッガー側に送信され、最新内容が反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:287
 msgid ":dfn:`$ monaca debug [option]`"
@@ -6784,7 +6784,7 @@ msgid ""
 "Projects* section. Click on that project in order to run it. Please try to "
 "make some changes to the project and save them. You should be able to see "
 "those changes reflect instantly."
-msgstr "プロジェクトフォルダーへ移動して、``monaca debug`` コマンドを実行します。実行後、Monaca デバッガーの *ローカルプロジェクト* 下に対象のプロジェクトが表示されていることを確認し、プロジェクトをタップして、実行してみましょう。次に、プロジェクトに変更を加え、保存して、プロジェクトに変更点が即反映されることを確認してみましょう。"
+msgstr "プロジェクトフォルダーへ移動して、``monaca debug`` コマンドを実行します。実行後、Monaca デバッガーの *ローカルプロジェクト* 下に対象のプロジェクトが表示されていることを確認し、プロジェクトをタップして実行してみましょう。次に、プロジェクトに変更を加え、保存して、プロジェクトに変更点が即反映されることを確認してみましょう。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:303
 msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
@@ -6816,7 +6816,7 @@ msgid ""
 "Debugger (see the screenshot below). Therefore, successful "
 "pairing/connection between your debugger and local PC is required. "
 "Otherwise, please refer to :ref:`troubleshoot_pair`."
-msgstr "Monaca デバッガー上へ、複数のプロジェクトを送信します。 :ref:`monaca_debug` とほぼ同じ機能ですが、こちらのコマンドでは、Monaca デバッガー上に、プロジェクトの一覧が送信されます ( 下のスクリーンショットを参照のこと )。なお、デバッガーとローカル PC 間のペアリング ( 接続 ) を、事前に行っておく必要があります。障害が発生した場合には、 :ref:`troubleshoot_pair` をご確認ください。"
+msgstr "Monaca デバッガー上へ、複数のプロジェクトを送信します。 :ref:`monaca_debug` とほぼ同じ機能ですが、こちらのコマンドでは、Monaca デバッガー上にプロジェクトの一覧が送信されます ( 下のスクリーンショットを参照のこと )。なお、デバッガーとローカル PC 間のペアリング ( 接続 ) を、事前に行っておく必要があります。障害が発生した場合には、 :ref:`troubleshoot_pair` をご確認ください。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:340
 msgid ":dfn:`$ monaca multiserve paths`"
@@ -6841,7 +6841,7 @@ msgid ""
 "and CloneRssProject) which are under \"MyProjectFolder/\" to Monaca "
 "Debugger. You should see a list of these projects in your debugger if the "
 "pairing is successful."
-msgstr "このコマンドの使用時には、ローカル PC 上に置かれているプロジェクトを、複数、指定するようにしましょう。下の例では、「 MyProjectFolder/ 」 配下に置かれた、3 つのプロジェクト ( SlidingMenu、ImportRssProject、CloneRssProject ) を指定しています。実行後、デバッガー上に、指定したプロジェクトが一覧表示されていることを確認しましょう ( ペアリング済みであること )。"
+msgstr "このコマンドの使用時には、ローカル PC 上に置かれているプロジェクトを、複数、指定するようにしましょう。下の例では、「 MyProjectFolder/ 」 配下に置かれた 3 つのプロジェクト ( SlidingMenu、ImportRssProject、CloneRssProject ) を指定しています。実行後、デバッガー上に、指定したプロジェクトが一覧表示されていることを確認しましょう ( ペアリング済みであること )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:356
 msgid ""
@@ -6931,7 +6931,7 @@ msgstr "``--android_webview``"
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid ""
 "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
-msgstr "``--platform`` を ``android`` に指定した場合、  ``default``、``crosswalk`` のいずれかを指定します。"
+msgstr "platform を ``android`` に指定した場合、  ``default``、``crosswalk`` のいずれかを指定します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:390
 msgid "``--android_arch``"
@@ -8277,7 +8277,7 @@ msgid ""
 "camera, contact and so on) and cross-origin network AJAX request. Along with"
 " the Monaca Debugger, you will have effective and efficient experiences "
 "during app development."
-msgstr "ライブプレビュー機能を使用すれば、リアルタイムで、アプリの外見を確認できます。また、実際の端末にインストールされているアプリのように操作もできるため、制限付きではありますが、動作確認も行えます ( カメラの使用、住所録の取得、クロスオリジンの Ajax リクエストなど、一部の機能は使用できません )。Monaca デバッガーと併用すれば、より効率的に、より洗練されたアプリの開発を行えます。"
+msgstr "ライブプレビュー機能を使用すれば、リアルタイムで、アプリのレイアウトを確認できます。また、実際の端末にインストールされているアプリのように操作もできるため、制限付きではありますが、動作確認も行えます ( カメラの使用、住所録の取得、クロスオリジンの Ajax リクエストなど、一部の機能は使用できません )。Monaca デバッガーと併用すれば、より効率的に、より洗練されたアプリの開発を行えます。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:290
 msgid "In this tab, you can:"
@@ -8407,7 +8407,7 @@ msgid ""
 "You can also assign the role of each member as Developer or Tester by "
 "choosing from the drop-down menu. Then, click :guilabel:`Add Member` button "
 "to send the invitation to them."
-msgstr "「 チームメンバー管理 」 画面が表示されます。ここから、参加メンバーを招待 ( 案内メールの送信 ) します。入力できるメールアドレスは、1 行あたり 1 つです。また、ドロップダウンメニューから参加メンバーに割り当てる権限 ( 開発者またはテスター ) を選択できます。入力後、:guilabel:`ユーザーを追加する` ボタンをクリックして、メンバーを追加します ( 通知メールを送信する場合には、[ 通知メールを送信する ] にチェックを入れます )。"
+msgstr "[ チームメンバー管理 ] 画面が表示されます。ここから、参加メンバーを招待 ( 案内メールの送信 ) します。入力できるメールアドレスは、1 行あたり 1 つです。また、ドロップダウンメニューから参加メンバーに割り当てる権限 ( 開発者またはテスター ) を選択できます。入力後、:guilabel:`ユーザーを追加する` ボタンをクリックして、メンバーを追加します ( 通知メールを送信する場合には、[ 通知メールを送信する ] にチェックを入れます )。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:353
 msgid ""
