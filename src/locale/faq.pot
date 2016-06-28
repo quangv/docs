@@ -56,11 +56,11 @@ msgid "With Monaca you can develop applications that are able to use all types o
 msgstr ""
 
 #: ../doc/faq/application.rst:37
-msgid "`PhoneGap API English <http://docs.monaca.mobi/3.5/en/reference/phonegap_34/en/>`_"
+msgid "`Cordova Core Plugins English <http://s.docs.monaca.io/en/reference/cordova_5.2/>`_"
 msgstr ""
 
 #: ../doc/faq/application.rst:38
-msgid "`PhoneGap API Japanese <http://docs.monaca.mobi/3.5/ja/reference/phonegap_34/ja/>`_"
+msgid "`Cordova Core Plugins Japanese <http://s.docs.monaca.io/ja/reference/cordova_5.2/>`_"
 msgstr ""
 
 #: ../doc/faq/application.rst:39
@@ -68,7 +68,7 @@ msgid ":doc:`../sampleapp/index`"
 msgstr ""
 
 #: ../doc/faq/application.rst:41
-msgid "Windows Store apps are not compatible with PhoneGap API, but compatible with developments that used WinJS."
+msgid "Windows Store apps are not compatible with Cordova Core Plugins, but compatible with developments that used WinJS."
 msgstr ""
 
 #: ../doc/faq/application.rst:47
@@ -132,7 +132,7 @@ msgid "Can I develop a full-screen app?"
 msgstr ""
 
 #: ../doc/faq/application.rst:110
-msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <http://docs.monaca.mobi/reference/config/ios_configuration/>`_ ."
+msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
 msgstr ""
 
 #: ../doc/faq/application.rst:116
@@ -200,7 +200,7 @@ msgid "When using Cordova APIs (such as camera, compass, and so on), you need to
 msgstr ""
 
 #: ../doc/faq/application.rst:187
-msgid "The ``deviceready`` event fires once the Cordova has fully loaded. You can safely use Cordova APIs when this event is fired. For more information, please refer to `deviceready event <http://docs.phonegap.com/en/4.0.0/cordova_events_events.md.html#deviceready>`_."
+msgid "The ``deviceready`` event fires once the Cordova has fully loaded. You can safely use Cordova APIs when this event is fired. For more information, please refer to `deviceready event <http://cordova.apache.org/docs/en/6.x/cordova/events/events.html#deviceready>`_."
 msgstr ""
 
 #: ../doc/faq/application.rst:189
@@ -272,7 +272,7 @@ msgid "Can I build an application for only iPhone using Monaca?"
 msgstr ""
 
 #: ../doc/faq/build.rst:54
-msgid "You can build an application just for iPhone by setting the build settings. We currently do not support deploying application for iPhone or iPad only."
+msgid "You can build an application just for iPhone by setting the target device family in iOS App Settings. By default, iPhone, iPod touch and iPad is selected."
 msgstr ""
 
 #: ../doc/faq/build.rst:60
@@ -816,11 +816,11 @@ msgid "If you are new to Monaca and interested to try it, please `sign up <https
 msgstr ""
 
 #: ../doc/faq/general.rst:83
-msgid "What is PhoneGap?"
+msgid "What is Cordova Core Plugins?"
 msgstr ""
 
 #: ../doc/faq/general.rst:84
-msgid "PhoneGap is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes PhoneGap to access the unique features of smartphones using JavaScript. For more information of PhoneGap usage in Monaca, please refer to :ref:`monaca_with_phonegap` and `here <http://docs.phonegap.com/>`_ ."
+msgid "Cordova Core Plugins is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ ."
 msgstr ""
 
 #: ../doc/faq/general.rst:89
@@ -1077,130 +1077,150 @@ msgid "Tell me about the steps to develop applications for mobile devices using 
 msgstr ""
 
 #: ../doc/faq/usage.rst:10
-msgid "Monaca was designed to work on the cloud, everything is happened in web browser via Internet. Therefore, there is no need of installing any development environments and other specific softwares in your PC or Mac. The following steps are the mobile app development steps using Monaca:"
+msgid "For your flexibility and convenience during app development process, Monaca provides four different development environments such as:"
 msgstr ""
 
 #: ../doc/faq/usage.rst:12
-msgid "Register user in Monaca."
+msgid ":ref:`monaca_ide_index`"
 msgstr ""
 
 #: ../doc/faq/usage.rst:13
-msgid "Write HTML5/CSS3/JavaScript with Editor on Monaca Cloud IDE."
+msgid ":ref:`monaca_localkit_index`"
 msgstr ""
 
 #: ../doc/faq/usage.rst:14
-msgid "If needed, check application operations using Monaca Debugger."
+msgid ":ref:`monaca_cli_index`"
 msgstr ""
 
 #: ../doc/faq/usage.rst:15
-msgid "Build the application using Monaca Cloud IDE."
+msgid ":ref:`monaca_vs_index`"
 msgstr ""
 
-#: ../doc/faq/usage.rst:16
+#: ../doc/faq/usage.rst:17
+msgid "You can choose your desired platform and start building your application. The following steps are the mobile app development steps using Monaca:"
+msgstr ""
+
+#: ../doc/faq/usage.rst:19
+msgid "Register user in Monaca `here <https://monaca.mobi/en/register/start>`_."
+msgstr ""
+
+#: ../doc/faq/usage.rst:20
+msgid "Write HTML5/CSS3/JavaScript in your desired platform."
+msgstr ""
+
+#: ../doc/faq/usage.rst:21
+msgid "If needed, check application operations using Monaca Debugger."
+msgstr ""
+
+#: ../doc/faq/usage.rst:22
+msgid "Configure your target device build settings and start building the application."
+msgstr ""
+
+#: ../doc/faq/usage.rst:23
 msgid "Download and install the built application file (.app/.apk) in a smartphone device."
 msgstr ""
 
-#: ../doc/faq/usage.rst:18
+#: ../doc/faq/usage.rst:25
 msgid "Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :doc:`../manual/build/ios/index/`."
 msgstr ""
 
-#: ../doc/faq/usage.rst:24
+#: ../doc/faq/usage.rst:31
 msgid "Can I create my own project template?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:26
+#: ../doc/faq/usage.rst:33
 msgid "We do not offer a template function for the projects."
 msgstr ""
 
-#: ../doc/faq/usage.rst:31
+#: ../doc/faq/usage.rst:38
 msgid "The Code Editor's cursor on the Monaca Cloud IDE is shown to be off in its alignment. What should I do?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:33
+#: ../doc/faq/usage.rst:40
 msgid "The Code Editor on the Monaca Cloud IDE may not be able to handle the scale from the display function of your browser. Please use the Monaca Cloud IDE without using the browser's enlarge/reduce functions. (In many browsers, you can reset with Ctrl+0.)"
 msgstr ""
 
-#: ../doc/faq/usage.rst:38
+#: ../doc/faq/usage.rst:45
 msgid "I don't know how to write the program."
 msgstr ""
 
-#: ../doc/faq/usage.rst:40
+#: ../doc/faq/usage.rst:47
 msgid "As references for app development using Monaca, we have prepared a tutorial, introductory guide, and sample apps. Each of these reference materials provides descriptions on how to write specific codes, so please do take a look. ( :ref:`third_party_cordova_index` and :doc:`../sampleapp/index` )"
 msgstr ""
 
-#: ../doc/faq/usage.rst:48
+#: ../doc/faq/usage.rst:55
 msgid "When developing an app, is it necessary to own a server?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:50
+#: ../doc/faq/usage.rst:57
 msgid "When developing an app with Monaca, you don't need to own a server because Monaca provides server functions with backend services. For more details, please refer to :ref:`monaca_backend_index`."
 msgstr ""
 
-#: ../doc/faq/usage.rst:55
+#: ../doc/faq/usage.rst:62
 msgid "Does Monaca support team development?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:57
+#: ../doc/faq/usage.rst:64
 msgid "Yes, Monaca supports team development. Users can share their projects to other registered users using the team function in Monaca Cloud IDE. For more detail, please refer to :ref:`team_tab`."
 msgstr ""
 
-#: ../doc/faq/usage.rst:59
+#: ../doc/faq/usage.rst:66
 msgid "The usability of this function depends on your usage plan with Monaca."
 msgstr ""
 
-#: ../doc/faq/usage.rst:61
+#: ../doc/faq/usage.rst:68
 msgid "If your plan is Gold, Platinum or Enterprise, team development allows you to:"
 msgstr ""
 
-#: ../doc/faq/usage.rst:63
+#: ../doc/faq/usage.rst:70
 msgid "Manage the team: add/remove members to the shared project."
 msgstr ""
 
-#: ../doc/faq/usage.rst:65
+#: ../doc/faq/usage.rst:72
 msgid "Share the source code with multiple people (members are assigned as Developers):"
 msgstr ""
 
-#: ../doc/faq/usage.rst:67
+#: ../doc/faq/usage.rst:74
 msgid "The easiest way is to use Monaca's built-in \"share\" feature. Then, two or more people can open the same project in the IDE. However, if there is any conflict, the previous version will be overwritten (still remains in the file history)."
 msgstr ""
 
-#: ../doc/faq/usage.rst:69
+#: ../doc/faq/usage.rst:76
 msgid "Another way is to set up a version control system and do the local development using Monaca Localkit or Monaca CLI. This requires a higher skill set, but more collaborative."
 msgstr ""
 
-#: ../doc/faq/usage.rst:71
+#: ../doc/faq/usage.rst:78
 msgid "The last option is to use Monaca for Visual Studios. In this case, the files can be managed by VS's built in Team Explorer functionality. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
 msgstr ""
 
-#: ../doc/faq/usage.rst:73
+#: ../doc/faq/usage.rst:80
 msgid "Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in \"share\" feature, and share the project with the test members."
 msgstr ""
 
-#: ../doc/faq/usage.rst:76
+#: ../doc/faq/usage.rst:83
 msgid "However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.mobi/en/pricing>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:81
+#: ../doc/faq/usage.rst:88
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:83
+#: ../doc/faq/usage.rst:90
 msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.mobi/page/contact>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:90
+#: ../doc/faq/usage.rst:97
 msgid "Are there any keyboard shortcuts or keybindings that can be used on the Monaca Cloud IDE?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:92
+#: ../doc/faq/usage.rst:99
 msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/faq/usage.rst:98
+#: ../doc/faq/usage.rst:105
 msgid "I want to change the background color of the Splash screen."
 msgstr ""
 
-#: ../doc/faq/usage.rst:100
+#: ../doc/faq/usage.rst:107
 msgid "For the changes to the Splash screen, you can configure from the \"Splash Screen Settings\" in :ref:`config_ios_app_monaca` and :ref:`config_android_app` for iOS and Android, respectively."
 msgstr ""
 

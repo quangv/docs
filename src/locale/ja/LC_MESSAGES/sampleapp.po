@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-28 02:44+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-06-28 12:56+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -641,8 +641,8 @@ msgstr "Facebook クライアント"
 #: ../doc/sampleapp/samples/facebook.rst:10
 msgid ""
 "This sample app allows users to connect to Facebook from Monaca by using "
-"`Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ and InAppBrowser."
-msgstr "こちらのサンプルアプリでは、 `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ と InAppBrowser を使用して、Monaca から Facebook に接続する方法を紹介します。"
+"`Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:13
 #: ../doc/sampleapp/samples/twitter.rst:13
@@ -763,8 +763,8 @@ msgstr "``InAppBrowser``"
 msgid ""
 "The User Interface of this sample app is based on *Onsen UI*. For more "
 "information on *Onsen UI* tags and components, please refer to `Onsen UI "
-"Documentation <http://docs.monaca.mobi/onsen/index.html>`_."
-msgstr "ユーザー インターフェースには、 *Onsen UI* を使用しています。 *Onsen UI* に関するタグとコンポーネントの詳細については、 `Onsen UI ドキュメント <http://docs.monaca.mobi/onsen/index.html>`_ をご確認ください。"
+"Documentation <https://docs.monaca.io/en/onsenui/>`_."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:96
 msgid ""
@@ -1266,11 +1266,10 @@ msgstr "( 最終更新日 : 2014/02/05 )"
 #: ../doc/sampleapp/samples/ibeacon.rst:12
 msgid ""
 "This sample app uses iBeacon service to detect its proximity to iBeacon "
-"device. This Monaca app has `Onsen UI "
-"<http://docs.monaca.mobi/onsen/index.html>`_ as its UI. When the mobile "
-"(running this app) gets close enough to a predefined iBeacon device, a new "
-"page showing its UUID will be displayed."
-msgstr "iBeacon ( アイビーコン ) サービスを組み込んだサンプルアプリです。iBeacon 発信機との距離を検知します。こちらの Monaca アプリでは、 `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ を使用して、UI を構築しています。iBeacon 発信機の射程内に、携帯端末が入ると、発信機の UUID が、画面上に表示されます ( このサンプルでは、アプリが起動中であること、発信機は端末側に登録済みであることが必要です )。"
+"device. This Monaca app has `Onsen UI <https://docs.monaca.io/en/onsenui/>`_"
+" as its UI. When the mobile (running this app) gets close enough to a "
+"predefined iBeacon device, a new page showing its UUID will be displayed."
+msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:15
 msgid "*Tested Environments:* Android 4.4, iOS 8.0.2"
@@ -2531,8 +2530,8 @@ msgstr "役立つプログラミング機能を複数提供してくれる、Jav
 msgid ""
 "The User Interface for this sample app is based on *Onsen UI Components*. "
 "For more information on *Onsen UI* tags and components, please refer to "
-"`Onsen UI Documentation <http://docs.monaca.mobi/onsen/en/index.html>`_."
-msgstr "このサンプルのユーザー インターフェースは、 *Onsen UI コンポーネント* で構築しています。Onsen UI のタグとコンポーネントの詳細については、 `Onsen UI ドキュメント <http://docs.monaca.mobi/onsen/ja/index.html>`_ をご確認ください。"
+"`Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
+msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:85
 msgid ""
@@ -3126,11 +3125,11 @@ msgstr "Cordova のメディア操作プラグイン使用した、効果音の�
 #: ../doc/sampleapp/tips/media.rst:96
 msgid ""
 "This sample modifies `Fortune Teller App "
-"<http://docs.monaca.mobi/sampleapp/samples/omikuji>`_ and adds a sound "
+"<https://docs.monaca.io/en/sampleapp/samples/omikuji/>`_ and adds a sound "
 "effect to it. This sample app will have different sounds for each fortune "
 "result. You will need to place *mp3* files and modify :file:`index.html` as "
 "follows."
-msgstr "このサンプルでは、 `おみくじアプリ <http://docs.monaca.mobi/sampleapp/samples/omikuji>`_ を修正して、効果音を追加しました。おみくじの結果ごとに、違う効果音を鳴らします。効果音の *mp3* ファイルは、各自で用意します。また、:file:`index.html` を次のように編集します。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:103
 msgid "You can download the complete source code here."

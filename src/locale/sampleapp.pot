@@ -517,7 +517,7 @@ msgid "Facebook Client"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:10
-msgid "This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ and InAppBrowser."
+msgid "This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:13
@@ -626,7 +626,7 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:94
 #: ../doc/sampleapp/samples/ibeacon.rst:77
-msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/index.html>`_."
+msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:96
@@ -994,7 +994,7 @@ msgid "(Last Updated: 2014/02/05)"
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:12
-msgid "This sample app uses iBeacon service to detect its proximity to iBeacon device. This Monaca app has `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ as its UI. When the mobile (running this app) gets close enough to a predefined iBeacon device, a new page showing its UUID will be displayed."
+msgid "This sample app uses iBeacon service to detect its proximity to iBeacon device. This Monaca app has `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ as its UI. When the mobile (running this app) gets close enough to a predefined iBeacon device, a new page showing its UUID will be displayed."
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:15
@@ -1869,7 +1869,7 @@ msgid "A JavaScript library that provides a whole mess of useful functional prog
 msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:83
-msgid "The User Interface for this sample app is based on *Onsen UI Components*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/en/index.html>`_."
+msgid "The User Interface for this sample app is based on *Onsen UI Components*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:85
@@ -2368,7 +2368,7 @@ msgid "Using Media API to Play Sound Effects"
 msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:96
-msgid "This sample modifies `Fortune Teller App <http://docs.monaca.mobi/sampleapp/samples/omikuji>`_ and adds a sound effect to it. This sample app will have different sounds for each fortune result. You will need to place *mp3* files and modify :file:`index.html` as follows."
+msgid "This sample modifies `Fortune Teller App <https://docs.monaca.io/en/sampleapp/samples/omikuji/>`_ and adds a sound effect to it. This sample app will have different sounds for each fortune result. You will need to place *mp3* files and modify :file:`index.html` as follows."
 msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:103
