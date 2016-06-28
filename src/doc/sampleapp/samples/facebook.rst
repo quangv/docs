@@ -7,7 +7,7 @@ Facebook Client
 .. rst-class:: right-menu
 
 
-This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ and InAppBrowser.
+This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser.
 
 
 | *Tested Environments:* Android 4.3, iOS 7.1.1
@@ -91,7 +91,7 @@ Required Cordova Plugins
 HTML Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/index.html>`_.
+The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_.
 
 The following contents of the HTML body of :file:`index.html` file loads the :file:`home_navigator.html` file at startup: 
 

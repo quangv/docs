@@ -7,15 +7,22 @@ Usage
 Tell me about the steps to develop applications for mobile devices using Monaca. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Monaca was designed to work on the cloud, everything is happened in web browser via Internet. Therefore, there is no need of installing any development environments and other specific softwares in your PC or Mac. The following steps are the mobile app development steps using Monaca:
+For your flexibility and convenience during app development process, Monaca provides four different development environments such as:
 
-* Register user in Monaca. 
-* Write HTML5/CSS3/JavaScript with Editor on Monaca Cloud IDE. 
+* :ref:`monaca_ide_index`
+* :ref:`monaca_localkit_index`
+* :ref:`monaca_cli_index`
+* :ref:`monaca_vs_index`
+
+You can choose your desired platform and start building your application. The following steps are the mobile app development steps using Monaca:
+
+* Register user in Monaca `here <https://monaca.mobi/en/register/start>`_. 
+* Write HTML5/CSS3/JavaScript in your desired platform. 
 * If needed, check application operations using Monaca Debugger. 
-* Build the application using Monaca Cloud IDE. 
+* Configure your target device build settings and start building the application. 
 * Download and install the built application file (.app/.apk) in a smartphone device. 
 
-Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :doc:`../manual/build/ios/index/`. 
+Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :doc:`../manual/build/ios/index/`.
 
 
 .. _faq05~002:

@@ -51,7 +51,7 @@ The procedures can be found in  :doc:`../manual/build/ios/index/`.  Please visit
 Can I build an application for only iPhone using Monaca?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can build an application just for iPhone by setting the build settings. We currently do not support deploying application for iPhone or iPad only.
+You can build an application just for iPhone by setting the target device family in iOS App Settings. By default, iPhone, iPod touch and iPad is selected. 
 
 
 .. _faq03~007:

@@ -80,7 +80,7 @@ Required Cordova Plugins
 HTML Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The User Interface for this sample app is based on *Onsen UI Components*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/en/index.html>`_.
+The User Interface for this sample app is based on *Onsen UI Components*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_.
 
 The following contents of the HTML body of :file:`index.html` file is for the navigation bar of the application which has a Twitter icon on the left, Search icon on the right and entitled as ``"Twitter Timeline"`` (see screenshot below): 
 
