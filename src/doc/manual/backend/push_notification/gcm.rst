@@ -22,41 +22,70 @@ Step 1: Enable GCM in the Google API Console
 
 In this example, we assume that you haven't registered your application to Google Developer Console yet.
 
-1. Go to `Google Developer Console <https://console.developers.google.com/project>`_.
+1. Go to `Google API Console <https://console.developers.google.com/>`_. and sign in with a valid Google account. 
 
-2. Sign in using your Google account. 
+2. Click on :guilabel:`Create a project`.
 
-3. Click :guilabel:`Create Project`.
+  .. figure:: images/gcm/9.png
+    :width: 700px
+    :align: left
 
-4. Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project dashboard page will appear.
+  .. rst-class:: clear
+
+3. Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project Overview page will appear.
 
   .. figure:: images/gcm/1.png
-    :width: 400px
+    :width: 500px
     :align: left
 
   .. rst-class:: clear
 
-5. From the left menu, go to :menuselection:`API & auth --> APIs --> Cloud Messaging for Android`.
+4. From the Overview page, select :guilabel:`Google Cloud Messaging` under :guilabel:`Mobile APIs`.
 
   .. figure:: images/gcm/2.png
-    :width: 400px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
 
-6. Click :guilabel:`Enable API`.
+5. Click :guilabel:`Enable`.
 
+  .. figure:: images/gcm/10.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
 
 Step 2: Obtain the Sender ID and Server API Key
 =====================================================
 
+
 Find Sender ID
 ^^^^^^^^^^^^^^^^^^
 
-Sender ID is the Project Number which can be found in the Project Dashboard page as shown below:
+Sender ID is the Project Number which can be found in Settings page as shown below:
+
+
+1. Click on Google APIs menu.
+
+  .. figure:: images/gcm/11.png
+    :width: 250px
+    :align: left
+
+  .. rst-class:: clear
+
+2. Go to :guilabel:`IAM & Admin`.
+
+  .. figure:: images/gcm/12.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+3. Then, go to :guilabel:`Settings`. There you can find the project number.
 
   .. figure:: images/gcm/3.png
-    :width: 500px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
@@ -65,12 +94,12 @@ Sender ID is the Project Number which can be found in the Project Dashboard page
 Find Server API Key
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. From the Project Dashboard, go to :menuselection:`APIs & auth --> Credentials`. 
+1. From the API Manager page, go to :guilabel:`Credentials`. 
 
-2. Click :guilabel:`add credentials` and choose :guilabel:`API key`.
+2. Click :guilabel:`Create credentials` and choose :guilabel:`API key`.
 
   .. figure:: images/gcm/4.png
-    :width: 500px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
@@ -80,19 +109,13 @@ Find Server API Key
 4. Name your Server key and click :guilabel:`Create`.
 
   .. figure:: images/gcm/5.png
-    :width: 500px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
 
 
 5. Then, Server API key will be created and displayed as shown below. Copy it. You will need to use this key in Monaca Cloud IDE later. 
-
-  .. figure:: images/gcm/6.png
-    :width: 400px
-    :align: left
-
-  .. rst-class:: clear
 
 Step 3: Configure GCM Parameters in Monaca
 ===================================================

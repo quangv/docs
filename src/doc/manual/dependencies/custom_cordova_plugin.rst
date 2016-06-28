@@ -64,7 +64,7 @@ When you extract the package, you will see a directory structure as follows:
 :file:`plugin.xml` file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_. 
+:file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html>`_. 
 
 Below is a :file:`plugin.xml` file from the downloaded sample plugin. 
 
@@ -123,7 +123,7 @@ hello_world.js file
     var helloWorld = new HelloWorld();
     module.exports = helloWorld;
 
-For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_.
+For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html>`_.
 
 
 iOS and Android Native Code
@@ -133,8 +133,8 @@ Native code must be written in either Objective-C or Java, depending on the plat
 
 Here are the guides about native code development.
 
-- `Developing a Plugin on Android <http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_.
-- `Developing a Plugin on iOS <http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_.
+- `Android Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html>`_.
+- `iOS Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html>`_.
 
 .. _import_cordova_plugin:
 

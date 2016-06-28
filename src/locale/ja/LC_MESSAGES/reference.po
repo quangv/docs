@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-03 03:03+0000\n"
+"PO-Revision-Date: 2016-06-23 04:17+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "*許可する外部 URL* : アプリからアクセスできる URL を�
 msgid ""
 "*Keep Running*: [Enable by default] Enable this if you want Cordova to keep "
 "running in the background."
-msgstr "*常に実行* : バックグラウンドでも Cordova を実行したい場合には、有効にします。デフォルトは有効です。"
+msgstr "*バックグランド時もアプリを常に実行* : バックグラウンドでも Cordova を実行したい場合には、有効にします。デフォルトは有効です。"
 
 #: ../doc/reference/config/android_configuration.rst:43
 #: ../doc/reference/config/ios_configuration.rst:45
@@ -468,9 +468,9 @@ msgstr "ユーザー側に表示するバージョン番号です。"
 #: ../doc/reference/monaca_api/cloud/collection.rst:185
 #: ../doc/reference/monaca_api/cloud/other.rst:112
 #: ../doc/reference/monaca_api/cloud/user.rst:326
-#: ../doc/reference/monaca_api/cloud/user.rst:408
-#: ../doc/reference/monaca_api/cloud/user.rst:568
-#: ../doc/reference/monaca_api/cloud/user.rst:617
+#: ../doc/reference/monaca_api/cloud/user.rst:421
+#: ../doc/reference/monaca_api/cloud/user.rst:567
+#: ../doc/reference/monaca_api/cloud/user.rst:616
 #: ../doc/reference/monaca_api/utility-34.rst:69
 msgid "Example:"
 msgstr "例"
@@ -547,7 +547,7 @@ msgid ""
 "attributes. Each preference's name is case-insensitive. Many preferences are"
 " unique to specific platforms, as listed at the top of this page. The "
 "following sections detail preferences that apply to more than one platform."
-msgstr "``<preference>`` タグでは、name と value の組み合わせ形式で、オプションを設定します。preference の name では、大文字小文字は区別されません。preference の多くは、各プラットフォーム毎に設定する必要があります。下記の preference に関しては、複数のプラットフォームに適用できます。"
+msgstr "``<preference>`` タグでは、name と value の組み合わせ形式で、オプションを設定します。preference の name では、大文字小文字は区別されません。preference の多くは、各プラットフォーム毎に設定する必要があります。次の preference に関しては、複数のプラットフォームに適用できます。"
 
 #: ../doc/reference/config/android_configuration.rst:179
 msgid "*KeepRunning*"
@@ -561,7 +561,7 @@ msgstr "*KeepRunning*"
 #: ../doc/reference/config/android_configuration.rst:286
 #: ../doc/reference/config/android_configuration.rst:315
 #: ../doc/reference/monaca_api/cloud/device.rst:136
-#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:632
 msgid "``value``"
 msgstr "``value``"
 
@@ -785,7 +785,7 @@ msgid ""
 "an internal version number. It is used only to determine whether one version"
 " is more recent than others. Higher number indicates a more recent version. "
 "This version number is not shown to users."
-msgstr "内部で使用するバージョン番号です。最新バージョンを決定するときに、使用されます。比較して、数が多いほうが、より新しいバージョンとなります。このバージョン番号は、ユーザー側には表示されません。"
+msgstr "内部で使用するバージョン番号です。最新バージョンを決定するときに使用されます。比較して、数が多いほうが、より新しいバージョンとなります。このバージョン番号は、ユーザー側には表示されません。"
 
 #: ../doc/reference/config/android_configuration.rst:409
 msgid "android:versionName"
@@ -1256,7 +1256,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:66
 #: ../doc/reference/monaca_api/cloud/other.rst:116
 #: ../doc/reference/monaca_api/cloud/push.rst:56
-#: ../doc/reference/monaca_api/cloud/user.rst:733
+#: ../doc/reference/monaca_api/cloud/user.rst:732
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:201
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:240
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
@@ -1645,7 +1645,7 @@ msgstr "``cloud`` に設定されている場合、データのバックアッ�
 #: ../doc/reference/config/ios_configuration.rst:170
 msgid ""
 "Here are some keys and values you may need to configure in your iOS apps:"
-msgstr "iOS アプリで設定すべき、Key と Value を、次に記します。"
+msgstr "iOS アプリで設定すべき Key と Value を、次に記します。"
 
 #: ../doc/reference/config/ios_configuration.rst:176
 msgid "*UISupportedInterfaceOrientations*"
@@ -1752,8 +1752,10 @@ msgid "*UIViewControllerBasedStatusBarAppearance*"
 msgstr "*UIViewControllerBasedStatusBarAppearance*"
 
 #: ../doc/reference/config/ios_configuration.rst:249
-msgid "*Note:* set to ``true`` in order to use :ref:`status_bar_plugin`."
-msgstr "*備考 :*  :ref:`status_bar_plugin` に記載されている内容を行う場合、 ``true`` に設定します。"
+msgid ""
+"*Note:* set to ``true`` in order to use :ref:`StatusBar "
+"Plugin<status_bar_plugin>`."
+msgstr "*備考 :* :ref:`ステータスバーの制御プラグイン <status_bar_plugin>` ( StatusBar プラグイン ) を使用する場合には、``true`` に設定します。"
 
 #: ../doc/reference/config/ios_configuration.rst:264
 msgid "Below are available preferences you may need to configure:"
@@ -2981,11 +2983,11 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/monaca_api/cloud/user.rst:242
 #: ../doc/reference/monaca_api/cloud/user.rst:271
 #: ../doc/reference/monaca_api/cloud/user.rst:375
-#: ../doc/reference/monaca_api/cloud/user.rst:469
-#: ../doc/reference/monaca_api/cloud/user.rst:524
-#: ../doc/reference/monaca_api/cloud/user.rst:668
-#: ../doc/reference/monaca_api/cloud/user.rst:712
-#: ../doc/reference/monaca_api/cloud/user.rst:729
+#: ../doc/reference/monaca_api/cloud/user.rst:468
+#: ../doc/reference/monaca_api/cloud/user.rst:523
+#: ../doc/reference/monaca_api/cloud/user.rst:667
+#: ../doc/reference/monaca_api/cloud/user.rst:711
+#: ../doc/reference/monaca_api/cloud/user.rst:728
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
@@ -16092,12 +16094,12 @@ msgstr ":dfn:`<allow-navigation href=\"*\" />`"
 #: ../doc/reference/monaca_api/cloud/user.rst:288
 #: ../doc/reference/monaca_api/cloud/user.rst:344
 #: ../doc/reference/monaca_api/cloud/user.rst:393
-#: ../doc/reference/monaca_api/cloud/user.rst:440
-#: ../doc/reference/monaca_api/cloud/user.rst:487
-#: ../doc/reference/monaca_api/cloud/user.rst:540
-#: ../doc/reference/monaca_api/cloud/user.rst:584
-#: ../doc/reference/monaca_api/cloud/user.rst:634
-#: ../doc/reference/monaca_api/cloud/user.rst:684
+#: ../doc/reference/monaca_api/cloud/user.rst:439
+#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:539
+#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:683
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:39
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:69
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:97
@@ -16287,7 +16289,7 @@ msgid ""
 "``cloud.monaca.mobi`` in the whitelist by editing each OS's configuration "
 "file. For more details, please refer to :ref:`Access Origin (Android) "
 "<access_origin_android>` and :ref:`Access Origin (iOS) <access_origin>`."
-msgstr "バックエンド API にアクセスする場合、 ``jQuery`` の読み込み、および、 ``cloud.monaca.mobi`` をホワイトリストへ登録 ( 各 OS の設定ファイル上で ) する必要があります。詳細は、 :ref:`Android の場合はこちら <access_origin_android>` または :ref:`iOS の場合はこちら <access_origin>` をご確認ください。"
+msgstr "バックエンド API にアクセスする場合、``jQuery`` の読み込み、および、ホワイトリストへの ``cloud.monaca.mobi`` の登録 ( 各 OS の設定ファイル上に ) を行います。詳細は、:ref:`Android の場合はこちら <access_origin_android>` または :ref:`iOS の場合はこちら <access_origin>` をご確認ください。"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:16
 #: ../doc/reference/monaca_api/cloud/collection_item.rst:16
@@ -16353,7 +16355,7 @@ msgstr ":ref:`monaca.cloud.Collection.updatePermission()<c.updatePer>`"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:24
 msgid "Bulk update the permissions of collection items."
-msgstr "コレクションアイテムのパーミッション ( 権限 ) を一括更新します。"
+msgstr "コレクション アイテムのパーミッション ( 権限 ) を一括更新します。"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:32
 msgid "Collection() - Retrieving a Collection"
@@ -16412,8 +16414,8 @@ msgstr "コレクション名を指定します。"
 #: ../doc/reference/monaca_api/cloud/user.rst:164
 #: ../doc/reference/monaca_api/cloud/user.rst:220
 #: ../doc/reference/monaca_api/cloud/user.rst:302
-#: ../doc/reference/monaca_api/cloud/user.rst:501
-#: ../doc/reference/monaca_api/cloud/user.rst:545
+#: ../doc/reference/monaca_api/cloud/user.rst:500
+#: ../doc/reference/monaca_api/cloud/user.rst:544
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:44
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:74
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:102
@@ -16444,7 +16446,7 @@ msgstr "戻り値"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:46
 msgid "A collection object is returned."
-msgstr "返されたコレクション オブジェクト"
+msgstr "コレクション オブジェクト"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:50
 msgid ""
@@ -16498,7 +16500,7 @@ msgstr "\"field_name ASC|DESC\" 。並べ替え条件を複数指定する場合
 #: ../doc/reference/monaca_api/cloud/collection.rst:145
 #: ../doc/reference/monaca_api/cloud/collection.rst:201
 #: ../doc/reference/monaca_api/cloud/collection.rst:254
-#: ../doc/reference/monaca_api/cloud/user.rst:438
+#: ../doc/reference/monaca_api/cloud/user.rst:437
 msgid "``options``"
 msgstr "``options``"
 
@@ -16513,7 +16515,7 @@ msgstr "利用可能なオプションを、次に記します。"
 msgid ""
 "``propertyNames``: specify the preferred user properties. If not specified, "
 "all user properties are returned."
-msgstr "``propertyNames`` : 検索対象のユーザーのプロパティーを指定します。指定がない場合、すべてのユーザープロパティーを返します。"
+msgstr "``propertyNames`` : 検索対象のユーザーのプロパティーを指定します。指定がない場合、ユーザーのすべてのプロパティーを返します。"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:74
 #: ../doc/reference/monaca_api/cloud/collection.rst:148
@@ -16539,8 +16541,8 @@ msgstr "``page`` : 指定したページ以降から、結果を取得します�
 #: ../doc/reference/monaca_api/cloud/user.rst:61
 #: ../doc/reference/monaca_api/cloud/user.rst:214
 #: ../doc/reference/monaca_api/cloud/user.rst:297
-#: ../doc/reference/monaca_api/cloud/user.rst:496
-#: ../doc/reference/monaca_api/cloud/user.rst:589
+#: ../doc/reference/monaca_api/cloud/user.rst:495
+#: ../doc/reference/monaca_api/cloud/user.rst:588
 msgid "Result Parameter of done() Callback"
 msgstr "done() コールバック関数の result パラメーター"
 
@@ -16569,7 +16571,7 @@ msgstr "``items``"
 #: ../doc/reference/monaca_api/cloud/collection.rst:155
 #: ../doc/reference/monaca_api/cloud/collection.rst:314
 msgid "Array of CollectionItem"
-msgstr "コレクションアイテムの配列"
+msgstr "コレクション アイテムの配列"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:86
 #: ../doc/reference/monaca_api/cloud/collection.rst:160
@@ -16593,12 +16595,12 @@ msgstr "コレクションアイテムの配列"
 #: ../doc/reference/monaca_api/cloud/user.rst:301
 #: ../doc/reference/monaca_api/cloud/user.rst:348
 #: ../doc/reference/monaca_api/cloud/user.rst:397
-#: ../doc/reference/monaca_api/cloud/user.rst:444
-#: ../doc/reference/monaca_api/cloud/user.rst:500
-#: ../doc/reference/monaca_api/cloud/user.rst:544
-#: ../doc/reference/monaca_api/cloud/user.rst:593
-#: ../doc/reference/monaca_api/cloud/user.rst:643
-#: ../doc/reference/monaca_api/cloud/user.rst:688
+#: ../doc/reference/monaca_api/cloud/user.rst:443
+#: ../doc/reference/monaca_api/cloud/user.rst:499
+#: ../doc/reference/monaca_api/cloud/user.rst:543
+#: ../doc/reference/monaca_api/cloud/user.rst:592
+#: ../doc/reference/monaca_api/cloud/user.rst:642
+#: ../doc/reference/monaca_api/cloud/user.rst:687
 msgid "`$.Promise <../other>`_ object"
 msgstr "`$.Promise <../other>`_ オブジェクト"
 
@@ -16623,14 +16625,14 @@ msgstr "`$.Promise <../other>`_ オブジェクト"
 #: ../doc/reference/monaca_api/cloud/user.rst:301
 #: ../doc/reference/monaca_api/cloud/user.rst:348
 #: ../doc/reference/monaca_api/cloud/user.rst:397
-#: ../doc/reference/monaca_api/cloud/user.rst:444
-#: ../doc/reference/monaca_api/cloud/user.rst:500
-#: ../doc/reference/monaca_api/cloud/user.rst:544
-#: ../doc/reference/monaca_api/cloud/user.rst:593
-#: ../doc/reference/monaca_api/cloud/user.rst:643
-#: ../doc/reference/monaca_api/cloud/user.rst:688
+#: ../doc/reference/monaca_api/cloud/user.rst:443
+#: ../doc/reference/monaca_api/cloud/user.rst:499
+#: ../doc/reference/monaca_api/cloud/user.rst:543
+#: ../doc/reference/monaca_api/cloud/user.rst:592
+#: ../doc/reference/monaca_api/cloud/user.rst:642
+#: ../doc/reference/monaca_api/cloud/user.rst:687
 msgid "Use ``done()``, ``fail()`` and ``always()`` methods to get results."
-msgstr "結果を取得するには、 ``done()``、``fail()``、``always()`` を使用します。"
+msgstr "結果の処理には、 ``done()``、``fail()``、``always()`` を使用します。"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:94
 #: ../doc/reference/monaca_api/cloud/collection.rst:168
@@ -16650,12 +16652,12 @@ msgstr "結果を取得するには、 ``done()``、``fail()``、``always()`` �
 #: ../doc/reference/monaca_api/cloud/user.rst:311
 #: ../doc/reference/monaca_api/cloud/user.rst:359
 #: ../doc/reference/monaca_api/cloud/user.rst:406
-#: ../doc/reference/monaca_api/cloud/user.rst:454
-#: ../doc/reference/monaca_api/cloud/user.rst:508
-#: ../doc/reference/monaca_api/cloud/user.rst:553
-#: ../doc/reference/monaca_api/cloud/user.rst:601
-#: ../doc/reference/monaca_api/cloud/user.rst:652
-#: ../doc/reference/monaca_api/cloud/user.rst:697
+#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:507
+#: ../doc/reference/monaca_api/cloud/user.rst:552
+#: ../doc/reference/monaca_api/cloud/user.rst:600
+#: ../doc/reference/monaca_api/cloud/user.rst:651
+#: ../doc/reference/monaca_api/cloud/user.rst:696
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:139
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:168
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:197
@@ -16687,10 +16689,10 @@ msgstr "エラーコード"
 #: ../doc/reference/monaca_api/cloud/user.rst:167
 #: ../doc/reference/monaca_api/cloud/user.rst:305
 #: ../doc/reference/monaca_api/cloud/user.rst:401
-#: ../doc/reference/monaca_api/cloud/user.rst:449
-#: ../doc/reference/monaca_api/cloud/user.rst:504
-#: ../doc/reference/monaca_api/cloud/user.rst:647
-#: ../doc/reference/monaca_api/cloud/user.rst:692
+#: ../doc/reference/monaca_api/cloud/user.rst:448
+#: ../doc/reference/monaca_api/cloud/user.rst:503
+#: ../doc/reference/monaca_api/cloud/user.rst:646
+#: ../doc/reference/monaca_api/cloud/user.rst:691
 msgid "Errors are returned as :doc:`error` object."
 msgstr "エラーが発生すると、 :doc:`error` オブジェクトを返します。"
 
@@ -16714,10 +16716,10 @@ msgstr "エラーが発生すると、 :doc:`error` オブジェクトを返し�
 #: ../doc/reference/monaca_api/cloud/user.rst:309
 #: ../doc/reference/monaca_api/cloud/user.rst:356
 #: ../doc/reference/monaca_api/cloud/user.rst:404
-#: ../doc/reference/monaca_api/cloud/user.rst:452
-#: ../doc/reference/monaca_api/cloud/user.rst:507
-#: ../doc/reference/monaca_api/cloud/user.rst:650
-#: ../doc/reference/monaca_api/cloud/user.rst:695
+#: ../doc/reference/monaca_api/cloud/user.rst:451
+#: ../doc/reference/monaca_api/cloud/user.rst:506
+#: ../doc/reference/monaca_api/cloud/user.rst:649
+#: ../doc/reference/monaca_api/cloud/user.rst:694
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:80
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:108
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:138
@@ -16759,10 +16761,10 @@ msgstr "``-32602``"
 #: ../doc/reference/monaca_api/cloud/user.rst:309
 #: ../doc/reference/monaca_api/cloud/user.rst:356
 #: ../doc/reference/monaca_api/cloud/user.rst:404
-#: ../doc/reference/monaca_api/cloud/user.rst:452
-#: ../doc/reference/monaca_api/cloud/user.rst:507
-#: ../doc/reference/monaca_api/cloud/user.rst:650
-#: ../doc/reference/monaca_api/cloud/user.rst:695
+#: ../doc/reference/monaca_api/cloud/user.rst:451
+#: ../doc/reference/monaca_api/cloud/user.rst:506
+#: ../doc/reference/monaca_api/cloud/user.rst:649
+#: ../doc/reference/monaca_api/cloud/user.rst:694
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:80
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:108
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:138
@@ -16865,7 +16867,7 @@ msgstr "``item``"
 #: ../doc/reference/monaca_api/cloud/collection.rst:208
 #: ../doc/reference/monaca_api/cloud/collection.rst:261
 msgid "A CollectionItem (or null when no result)"
-msgstr "コレクションアイテム [ result が空の場合には、ヌル ( null ) となります ]"
+msgstr "コレクション アイテム [ result が空の場合には、ヌル ( null ) となります ]"
 
 #: ../doc/reference/monaca_api/cloud/collection.rst:224
 msgid ""
@@ -16952,7 +16954,7 @@ msgstr "アイテムにパーミッションを設定するときに使用する
 #: ../doc/reference/monaca_api/cloud/device.rst:143
 #: ../doc/reference/monaca_api/cloud/device.rst:198
 #: ../doc/reference/monaca_api/cloud/user.rst:70
-#: ../doc/reference/monaca_api/cloud/user.rst:639
+#: ../doc/reference/monaca_api/cloud/user.rst:638
 msgid "Requirement"
 msgstr "必須"
 
@@ -17060,7 +17062,7 @@ msgstr ":ref:`collection_item_management`"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:68
 #: ../doc/reference/monaca_api/cloud/other.rst:118
 #: ../doc/reference/monaca_api/cloud/push.rst:60
-#: ../doc/reference/monaca_api/cloud/user.rst:736
+#: ../doc/reference/monaca_api/cloud/user.rst:735
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:205
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:245
 #: ../doc/reference/monaca_api/cloud_management/push.rst:138
@@ -17076,7 +17078,7 @@ msgstr ":ref:`backend_control_panel`"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:69
 #: ../doc/reference/monaca_api/cloud/other.rst:119
 #: ../doc/reference/monaca_api/cloud/push.rst:61
-#: ../doc/reference/monaca_api/cloud/user.rst:737
+#: ../doc/reference/monaca_api/cloud/user.rst:736
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:206
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:246
 #: ../doc/reference/monaca_api/cloud_management/push.rst:139
@@ -17092,7 +17094,7 @@ msgstr ":ref:`backend_api_index`"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:70
 #: ../doc/reference/monaca_api/cloud/other.rst:120
 #: ../doc/reference/monaca_api/cloud/push.rst:62
-#: ../doc/reference/monaca_api/cloud/user.rst:738
+#: ../doc/reference/monaca_api/cloud/user.rst:737
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:207
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:247
 #: ../doc/reference/monaca_api/cloud_management/push.rst:140
@@ -17108,7 +17110,7 @@ msgstr ":ref:`backend_database_memo`"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:71
 #: ../doc/reference/monaca_api/cloud/other.rst:121
 #: ../doc/reference/monaca_api/cloud/push.rst:63
-#: ../doc/reference/monaca_api/cloud/user.rst:739
+#: ../doc/reference/monaca_api/cloud/user.rst:738
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:208
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:248
 #: ../doc/reference/monaca_api/cloud_management/push.rst:141
@@ -17124,7 +17126,7 @@ msgstr ":ref:`backend_management_api_index`"
 #: ../doc/reference/monaca_api/cloud/mailer.rst:72
 #: ../doc/reference/monaca_api/cloud/other.rst:122
 #: ../doc/reference/monaca_api/cloud/push.rst:64
-#: ../doc/reference/monaca_api/cloud/user.rst:740
+#: ../doc/reference/monaca_api/cloud/user.rst:739
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:209
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:249
 #: ../doc/reference/monaca_api/cloud_management/push.rst:142
@@ -17247,7 +17249,7 @@ msgstr "``なし``"
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 #: ../doc/reference/monaca_api/cloud_management/user.rst:168
 msgid "Object"
 msgstr "オブジェクト"
@@ -17261,10 +17263,10 @@ msgstr "Key と Value の組み合わせ。例 : {public: ‘rw’}"
 #: ../doc/reference/monaca_api/cloud/user.rst:263
 #: ../doc/reference/monaca_api/cloud/user.rst:350
 #: ../doc/reference/monaca_api/cloud/user.rst:398
-#: ../doc/reference/monaca_api/cloud/user.rst:446
-#: ../doc/reference/monaca_api/cloud/user.rst:594
-#: ../doc/reference/monaca_api/cloud/user.rst:644
-#: ../doc/reference/monaca_api/cloud/user.rst:689
+#: ../doc/reference/monaca_api/cloud/user.rst:445
+#: ../doc/reference/monaca_api/cloud/user.rst:593
+#: ../doc/reference/monaca_api/cloud/user.rst:643
+#: ../doc/reference/monaca_api/cloud/user.rst:688
 msgid "Return Value:"
 msgstr "戻り値:"
 
@@ -17686,7 +17688,7 @@ msgstr ":ref:`monaca.cloud.Device.getProperty()<d.getProp>`"
 
 #: ../doc/reference/monaca_api/cloud/device.rst:16
 msgid "Get a property value of device"
-msgstr "端末のプロパティーを 1 件取得します"
+msgstr "端末のプロパティーを 1 つ取得します"
 
 #: ../doc/reference/monaca_api/cloud/device.rst:17
 msgid ":ref:`monaca.cloud.Device.getProperties()<d.getProps>`"
@@ -17727,9 +17729,9 @@ msgstr ":dfn:`monaca.cloud.Device.getProperty(name: String) : $.Promise`"
 #: ../doc/reference/monaca_api/cloud/device.rst:35
 #: ../doc/reference/monaca_api/cloud/device.rst:135
 #: ../doc/reference/monaca_api/cloud/device.rst:141
-#: ../doc/reference/monaca_api/cloud/user.rst:539
-#: ../doc/reference/monaca_api/cloud/user.rst:632
-#: ../doc/reference/monaca_api/cloud/user.rst:638
+#: ../doc/reference/monaca_api/cloud/user.rst:538
+#: ../doc/reference/monaca_api/cloud/user.rst:631
+#: ../doc/reference/monaca_api/cloud/user.rst:637
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
 msgid "``name``"
@@ -17737,7 +17739,7 @@ msgstr "``name``"
 
 #: ../doc/reference/monaca_api/cloud/device.rst:35
 #: ../doc/reference/monaca_api/cloud/device.rst:135
-#: ../doc/reference/monaca_api/cloud/user.rst:539
+#: ../doc/reference/monaca_api/cloud/user.rst:538
 msgid "A property name."
 msgstr "プロパティー名です。"
 
@@ -17747,7 +17749,7 @@ msgstr "( プロパティーの値 )"
 
 #: ../doc/reference/monaca_api/cloud/device.rst:40
 #: ../doc/reference/monaca_api/cloud/device.rst:89
-#: ../doc/reference/monaca_api/cloud/user.rst:588
+#: ../doc/reference/monaca_api/cloud/user.rst:587
 msgid "Any"
 msgstr "任意の値"
 
@@ -17770,7 +17772,7 @@ msgid ":dfn:`monaca.cloud.Device.getProperties(names: Array) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.Device.getProperties(names: Array) : $.Promise`"
 
 #: ../doc/reference/monaca_api/cloud/device.rst:84
-#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:582
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:188
 #: ../doc/reference/monaca_api/cloud_management/user.rst:201
 msgid "``names``"
@@ -17837,7 +17839,7 @@ msgstr ":dfn:`monaca.cloud.Device.saveProperties(properties: Object) : $.Promise
 #: ../doc/reference/monaca_api/cloud/user.rst:51
 #: ../doc/reference/monaca_api/cloud/user.rst:67
 #: ../doc/reference/monaca_api/cloud/user.rst:115
-#: ../doc/reference/monaca_api/cloud/user.rst:683
+#: ../doc/reference/monaca_api/cloud/user.rst:682
 #: ../doc/reference/monaca_api/cloud_management/user.rst:81
 msgid "``properties``"
 msgstr "``properties``"
@@ -17907,7 +17909,7 @@ msgstr "オブジェクト"
 msgid ""
 "If the error code is ``-32602`` (Invalid params), this object contains "
 "validation error messages for each invalid parameters."
-msgstr "エラーコードが ``-32602`` ( Invalid params ) の場合、このオブジェクトには、不正な値を通知する、エラーメッセージが格納されています。"
+msgstr "エラーコードが ``-32602`` ( Invalid params ) の場合、このオブジェクトには、不正な値を通知するエラーメッセージが格納されています。"
 
 #: ../doc/reference/monaca_api/cloud/error.rst:45
 msgid "List of Errors:"
@@ -18071,10 +18073,10 @@ msgstr "セッション ID の形式が無効です。"
 #: ../doc/reference/monaca_api/cloud/user.rst:171
 #: ../doc/reference/monaca_api/cloud/user.rst:357
 #: ../doc/reference/monaca_api/cloud/user.rst:405
-#: ../doc/reference/monaca_api/cloud/user.rst:551
-#: ../doc/reference/monaca_api/cloud/user.rst:600
-#: ../doc/reference/monaca_api/cloud/user.rst:651
-#: ../doc/reference/monaca_api/cloud/user.rst:696
+#: ../doc/reference/monaca_api/cloud/user.rst:550
+#: ../doc/reference/monaca_api/cloud/user.rst:599
+#: ../doc/reference/monaca_api/cloud/user.rst:650
+#: ../doc/reference/monaca_api/cloud/user.rst:695
 msgid "``11``"
 msgstr "``11``"
 
@@ -18102,7 +18104,7 @@ msgstr "このメソッドの使用するときには、デバイス ID を指�
 
 #: ../doc/reference/monaca_api/cloud/error.rst:42
 #: ../doc/reference/monaca_api/cloud/user.rst:308
-#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:452
 msgid "``13``"
 msgstr "``13``"
 
@@ -18233,10 +18235,10 @@ msgstr "内部エラー ( サーバーのメール送信が失敗 )"
 #: ../doc/reference/monaca_api/cloud/user.rst:171
 #: ../doc/reference/monaca_api/cloud/user.rst:357
 #: ../doc/reference/monaca_api/cloud/user.rst:405
-#: ../doc/reference/monaca_api/cloud/user.rst:551
-#: ../doc/reference/monaca_api/cloud/user.rst:600
-#: ../doc/reference/monaca_api/cloud/user.rst:651
-#: ../doc/reference/monaca_api/cloud/user.rst:696
+#: ../doc/reference/monaca_api/cloud/user.rst:550
+#: ../doc/reference/monaca_api/cloud/user.rst:599
+#: ../doc/reference/monaca_api/cloud/user.rst:650
+#: ../doc/reference/monaca_api/cloud/user.rst:695
 msgid "User login is required."
 msgstr "ログインが必要です。"
 
@@ -18356,7 +18358,7 @@ msgid ""
 "There is a ``then`` method, which is a pair of callbacks, in each "
 "``promise``. If the ``promise`` is resolved, the first callback is called. "
 "Otherwise, the second callback is called if the ``promise`` is rejected."
-msgstr "``promise`` には、コールバックのペア ( 2 つ ) を引数に取れる ``then()`` があります。 ``promise`` が解決 ( resolved / fullfilled ) した場合には、最初のコールバックを呼び、失敗 ( rejected ) した場合には、2 つ目のコールバックを呼びます。"
+msgstr "``promise`` には、コールバックのペア ( 2 つ ) を引数に取れる ``then()`` があります。 ``promise`` が解決 ( resolved / fullfilled ) した場合には、最初のコールバックが呼ばれ、失敗 ( rejected ) した場合には、2 つ目のコールバックが呼ばれます。"
 
 #: ../doc/reference/monaca_api/cloud/other.rst:93
 msgid ""
@@ -18434,7 +18436,7 @@ msgstr "ユーザー"
 msgid ""
 "In Monaca, you can add user account functionality to your app by using the "
 "following Monaca Backend JavaScript APIs."
-msgstr "以下の Monaca バックエンド用の JavaScript API を使用して、ユーザーアカウントの管理機能をアプリに追加できます。"
+msgstr "次の Monaca バックエンド用の JavaScript API を使用して、ユーザーアカウントの管理機能をアプリに追加できます。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:13
 msgid ""
@@ -18442,7 +18444,7 @@ msgid ""
 "``cloud.monaca.mobi`` in the whitelist by editing each OS's configuaration "
 "file. For more details, please refer to :ref:`Access Origin (Android) "
 "<access_origin_android>` and :ref:`Access Origin (iOS) <access_origin>`."
-msgstr "バックエンド API にアクセスする場合、 ``jQuery`` の読み込み、および、 ``cloud.monaca.mobi`` をホワイトリストへ登録 ( 各 OS の設定ファイル上に ) する必要があります。詳細は、 :ref:`Android の場合はこちら <access_origin_android>` または :ref:`iOS の場合はこちら <access_origin>` をご確認ください。"
+msgstr "バックエンド API にアクセスする場合、``jQuery`` の読み込み、および、ホワイトリストへの ``cloud.monaca.mobi`` の登録 ( 各 OS の設定ファイル上に ) を行います。詳細は、:ref:`Android の場合はこちら <access_origin_android>` または :ref:`iOS の場合はこちら <access_origin>` をご確認ください。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:19
 msgid ":ref:`monaca.cloud.User.register()<u.register>`"
@@ -18583,8 +18585,8 @@ msgstr ":dfn:`monaca.cloud.User.register(username: String, password: String, [pr
 #: ../doc/reference/monaca_api/cloud/user.rst:65
 #: ../doc/reference/monaca_api/cloud/user.rst:114
 #: ../doc/reference/monaca_api/cloud/user.rst:203
-#: ../doc/reference/monaca_api/cloud/user.rst:437
-#: ../doc/reference/monaca_api/cloud/user.rst:484
+#: ../doc/reference/monaca_api/cloud/user.rst:436
+#: ../doc/reference/monaca_api/cloud/user.rst:483
 #: ../doc/reference/monaca_api/cloud_management/user.rst:79
 msgid "``username``"
 msgstr "``username``"
@@ -18617,7 +18619,7 @@ msgstr "ユーザーに関する追加のプロパティーです。 このオ�
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 #: ../doc/reference/monaca_api/cloud_management/user.rst:86
 #: ../doc/reference/monaca_api/cloud_management/user.rst:115
 #: ../doc/reference/monaca_api/cloud_management/user.rst:139
@@ -18627,35 +18629,35 @@ msgstr "``user``"
 #: ../doc/reference/monaca_api/cloud/user.rst:56
 #: ../doc/reference/monaca_api/cloud/user.rst:209
 #: ../doc/reference/monaca_api/cloud/user.rst:292
-#: ../doc/reference/monaca_api/cloud/user.rst:491
+#: ../doc/reference/monaca_api/cloud/user.rst:490
 msgid "`_id` : {String}"
 msgstr "`_id` : {String}"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:57
 #: ../doc/reference/monaca_api/cloud/user.rst:210
 #: ../doc/reference/monaca_api/cloud/user.rst:293
-#: ../doc/reference/monaca_api/cloud/user.rst:492
+#: ../doc/reference/monaca_api/cloud/user.rst:491
 msgid "`_username` : {String}"
 msgstr "`_username` : {String}"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:58
 #: ../doc/reference/monaca_api/cloud/user.rst:211
 #: ../doc/reference/monaca_api/cloud/user.rst:294
-#: ../doc/reference/monaca_api/cloud/user.rst:493
+#: ../doc/reference/monaca_api/cloud/user.rst:492
 msgid "`_createdAt` : {Number} unixtime"
 msgstr "`_createdAt` : {Number} UNIX 時間"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:59
 #: ../doc/reference/monaca_api/cloud/user.rst:212
 #: ../doc/reference/monaca_api/cloud/user.rst:295
-#: ../doc/reference/monaca_api/cloud/user.rst:494
+#: ../doc/reference/monaca_api/cloud/user.rst:493
 msgid "`_updateAt` : {Number} unixtime"
 msgstr "`_updateAt` : {Number} UNIX 時間"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:60
 #: ../doc/reference/monaca_api/cloud/user.rst:213
 #: ../doc/reference/monaca_api/cloud/user.rst:296
-#: ../doc/reference/monaca_api/cloud/user.rst:495
+#: ../doc/reference/monaca_api/cloud/user.rst:494
 msgid "and other user-defined properties."
 msgstr "ユーザー定義の他のプロパティー群"
 
@@ -18684,13 +18686,13 @@ msgstr "X と Y の値に関しては、Monaca クラウド IDE のユーザー�
 
 #: ../doc/reference/monaca_api/cloud/user.rst:74
 msgid "Use ``done()``, ``fail()`` and ``always()`` methods to process result."
-msgstr "結果を処理する場合、 ``done()``、 ``fail()`` 、 ``always()`` メソッドを使用します。"
+msgstr "結果の処理には、 ``done()``、 ``fail()`` 、 ``always()`` メソッドを使用します。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:85
 msgid ""
 "The following snippet shows how to create a new user account with the "
 "username ``\"me@example.com\"``, password ``\"password\"`` and age ``21``."
-msgstr "以下は、ユーザーアカウントを新規に作成する方法です。ユーザー名は ``\"me@example.com\"`` に、パスワードは ``\"password\"`` に、年齢は ``21`` に設定します。"
+msgstr "ユーザーアカウントを新規に作成する方法を、次に示します。ユーザー名、パスワード、年齢を、``\"me@example.com\"``、``\"password\"``、``21`` に、それぞれ設定します。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:106
 msgid "User.validate()"
@@ -18746,7 +18748,7 @@ msgid ""
 msgstr ":dfn:`monaca.cloud.User.login(username: String, password: String) : $.Promise`"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:203
-#: ../doc/reference/monaca_api/cloud/user.rst:484
+#: ../doc/reference/monaca_api/cloud/user.rst:483
 msgid "The username of the user."
 msgstr "ユーザー名です。"
 
@@ -18756,8 +18758,8 @@ msgstr "ユーザーのパスワードです。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:223
 #: ../doc/reference/monaca_api/cloud/user.rst:353
-#: ../doc/reference/monaca_api/cloud/user.rst:548
-#: ../doc/reference/monaca_api/cloud/user.rst:597
+#: ../doc/reference/monaca_api/cloud/user.rst:547
+#: ../doc/reference/monaca_api/cloud/user.rst:596
 msgid "Error is returned as :doc:`error` object."
 msgstr "エラーが発生すると、 :doc:`error` オブジェクトを返します。"
 
@@ -18785,7 +18787,7 @@ msgstr "``Boolean``"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:262
 msgid "``true`` if already authenticated, otherwise ``false``."
-msgstr "すでにログイン済みの場合には ``true`` 、そうでなければ、 ``false`` を返します。"
+msgstr "すでにログイン済みの場合には ``true`` 、それ以外の場合には ``false`` を返します。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:278
 msgid "User.autoLogin()"
@@ -18795,7 +18797,7 @@ msgstr "User.autoLogin()"
 msgid ""
 "When the user restarts the app, this function automatically logs in the "
 "user. It is required to enable auto-login feature with Monaca Cloud IDE."
-msgstr "この関数を使用すれば、アプリの再起動時に、自動ログインできます。この関数を使う場合には、Monaca クラウド IDE 上で、[ Backend Settings > ユーザー認証 > 自動ログインを許可 ] を、有効にしておきます。"
+msgstr "この関数を使用すれば、2 回目以降のアプリの起動時に自動ログインできます。この関数を使う場合には、Monaca クラウド IDE 上で、[ Backend Settings > ユーザー認証 > 自動ログインを許可 ] を、有効にしておきます。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:283
 msgid ":dfn:`monaca.cloud.User.autoLogin() : $.Promise`"
@@ -18850,7 +18852,7 @@ msgid "Old password."
 msgstr "旧パスワードです。"
 
 #: ../doc/reference/monaca_api/cloud/user.rst:391
-#: ../doc/reference/monaca_api/cloud/user.rst:485
+#: ../doc/reference/monaca_api/cloud/user.rst:484
 msgid "``newPassword``"
 msgstr "``newPassword``"
 
@@ -18858,17 +18860,17 @@ msgstr "``newPassword``"
 msgid "New password."
 msgstr "新パスワードです。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:410
+#: ../doc/reference/monaca_api/cloud/user.rst:409
 msgid ""
 "The following code will update the password of a current user from "
 "``\"pass123\"`` to ``\"newPass123\"``."
 msgstr "次の例では、ユーザーのパスワードを ``\"pass123\"`` から ``\"newPass123\"`` へ変更しています。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:429
+#: ../doc/reference/monaca_api/cloud/user.rst:428
 msgid "User.sendPasswordResetToken()"
 msgstr "User.sendPasswordResetToken()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:431
+#: ../doc/reference/monaca_api/cloud/user.rst:430
 msgid ""
 "Send an email with a token to reset the password in case a user could not "
 "log in because of a forgotten password. Before sending this email, it is "
@@ -18877,190 +18879,190 @@ msgid ""
 "how to create an email template."
 msgstr "ユーザーがパスワードを忘れてしまいログインできない場合、パスワード再設定用トークンを、メールで送信します。メールを送信する前に、Monaca クラウド IDE 上で、メールのテンプレートを作成しておきます。メールテンプレートの作成方法に関しては、 :ref:`backend_control_panel_mail_template_management` をご確認ください。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:433
+#: ../doc/reference/monaca_api/cloud/user.rst:432
 msgid ""
 ":dfn:`monaca.cloud.User.sendPasswordResetToken(username: String, options: "
 "Object) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.User.sendPasswordResetToken(username: String, options: Object) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:437
+#: ../doc/reference/monaca_api/cloud/user.rst:436
 msgid "the name of the user."
 msgstr "ユーザー名です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:438
+#: ../doc/reference/monaca_api/cloud/user.rst:437
 msgid ""
 "``emailPropertyName``: Specify the name field which has the user's email "
 "address (default: ``_username``)"
 msgstr "``emailPropertyName`` : 名前用のフィールドを指定します ( デフォルト : ``_username`` )。ここには、ユーザーのメールアドレスを格納します。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:439
+#: ../doc/reference/monaca_api/cloud/user.rst:438
 msgid ""
 "``templateName``: Specify a template to use (default: "
 "``send_password_token``). The mail body must include "
 "``\"%PASSWORD_RESET_TOKEN%\"`` which will be replaced with the token."
 msgstr "``templateName`` : 使用するテンプレートを指定します ( デフォルト : ``send_password_token`` ) 。 メールのボディーには、 ``\"%PASSWORD_RESET_TOKEN%\"`` を記述します。後に、この部分はトークンに入れ替わります。 "
 
-#: ../doc/reference/monaca_api/cloud/user.rst:453
+#: ../doc/reference/monaca_api/cloud/user.rst:452
 msgid "Invalid operation (When the user has already logged-in)."
 msgstr "不正な操作 ( ユーザーが既にログインしていた場合 ) が行なわれた場合です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:457
+#: ../doc/reference/monaca_api/cloud/user.rst:456
 msgid ""
 "The following snippet shows an example of how to send an email with the new "
 "token to a user called ``\"username\"`` with his registered email address "
 "registered with \"email\" field."
 msgstr "新しいトークンを記述したメールを、``username`` を所持するユーザーに送付する方法を、次のコードで示します。送付時には、 \"email\" フィールドに設定されているアドレスを使用します。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:476
+#: ../doc/reference/monaca_api/cloud/user.rst:475
 msgid "User.resetPasswordAndLogin()"
 msgstr "User.resetPasswordAndLogin()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:478
+#: ../doc/reference/monaca_api/cloud/user.rst:477
 msgid ""
 "Reset the password of the current user and relogin with the new password."
 msgstr "ユーザーのパスワードをリセットして、新しいパスワードで再ログインします。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:480
+#: ../doc/reference/monaca_api/cloud/user.rst:479
 msgid ""
 ":dfn:`monaca.cloud.User.resetPasswordAndLogin(username: String, newPassword:"
 " String, token: String) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.User.resetPasswordAndLogin(username: String, newPassword: String, token: String) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:485
+#: ../doc/reference/monaca_api/cloud/user.rst:484
 msgid "The new password."
 msgstr "ユーザーの新規パスワードです。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:485
 msgid "``token``"
 msgstr "``token``"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:486
+#: ../doc/reference/monaca_api/cloud/user.rst:485
 msgid ""
 "The token which the user received via email, sent by "
 "User.sendPasswordResetToken()."
 msgstr "User.sendPasswordResetToken() を使用して、電子メールで送信したトークンです。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:511
+#: ../doc/reference/monaca_api/cloud/user.rst:510
 msgid ""
 "The following example demonstrates how to reset the password of a user and "
 "then login with the new password."
 msgstr "次のコードは、ユーザーのパスワードをリセットして、新しいパスワードでログインする例です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:531
+#: ../doc/reference/monaca_api/cloud/user.rst:530
 msgid "User.getProperty()"
 msgstr "User.getProperty()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:533
+#: ../doc/reference/monaca_api/cloud/user.rst:532
 msgid "Get a property value of the user. The user must be authenticated."
 msgstr "ユーザーのプロパティーを取得します。対象ユーザーがログイン済みであることが必要です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:535
+#: ../doc/reference/monaca_api/cloud/user.rst:534
 msgid ":dfn:`monaca.cloud.User.getProperty(name: String) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.User.getProperty(name: String) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:556
+#: ../doc/reference/monaca_api/cloud/user.rst:555
 msgid ""
 "Refer to the following code for an example of how to get a property value of"
 " ``\"age\"`` of a user."
 msgstr "ユーザーが持つ ``age`` のプロパティー値を取得します。次のコードをご確認ください。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:575
+#: ../doc/reference/monaca_api/cloud/user.rst:574
 msgid "User.getProperties()"
 msgstr "User.getProperties()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:577
+#: ../doc/reference/monaca_api/cloud/user.rst:576
 msgid ""
 "Get an array of property values of the user. The user must be authenticated."
 msgstr "ユーザーのプロパティー群の値を配列で取得します。対象ユーザーがログイン済みであることが必要です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:579
+#: ../doc/reference/monaca_api/cloud/user.rst:578
 msgid ":dfn:`monaca.cloud.User.getProperties(names: Array) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.User.getProperties(names: Array) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:583
+#: ../doc/reference/monaca_api/cloud/user.rst:582
 msgid "Properties names."
 msgstr "プロパティー名です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:588
+#: ../doc/reference/monaca_api/cloud/user.rst:587
 msgid "user-defined property name"
 msgstr "ユーザー定義のプロパティー名"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:604
+#: ../doc/reference/monaca_api/cloud/user.rst:603
 msgid "Below is how to get the values of 2 properties of a user."
 msgstr "次のサンプルコードでは、ユーザーの 2 つのプロパティーを取得しています。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:624
+#: ../doc/reference/monaca_api/cloud/user.rst:623
 msgid "User.saveProperty()"
 msgstr "User.saveProperty()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:626
+#: ../doc/reference/monaca_api/cloud/user.rst:625
 msgid "Update a property value of the user. The user must be authenticated."
 msgstr "ユーザーのプロパティーを更新します。対象ユーザーがログイン済みであることが必要です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:628
+#: ../doc/reference/monaca_api/cloud/user.rst:627
 msgid ""
 ":dfn:`monaca.cloud.User.saveProperty(name: String, value: String) : "
 "$.Promise`"
 msgstr ":dfn:`monaca.cloud.User.saveProperty(name: String, value: String) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:632
+#: ../doc/reference/monaca_api/cloud/user.rst:631
 msgid "Property name."
 msgstr "プロパティー名です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:633
+#: ../doc/reference/monaca_api/cloud/user.rst:632
 msgid "The value of the corresponding property name to be added or updated."
 msgstr "追加または更新されるプロパティー値です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:638
+#: ../doc/reference/monaca_api/cloud/user.rst:637
 msgid "Must consist of \\[a\\-zA\\-Z0\\-9\\] characters and must start with \\[a\\-zA\\-Z\\]."
 msgstr "\\[a\\-zA\\-Z0\\-9\\] 文字を使用します。 \\[a\\-zA\\-Z\\] から始める必要があります。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:655
+#: ../doc/reference/monaca_api/cloud/user.rst:654
 msgid ""
 "The following example illustrates how to add/update the user's nickname to "
 "``\"John\"``."
 msgstr "ニックネーム ( ``John`` ) の追加方法と更新方法を示します。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:675
+#: ../doc/reference/monaca_api/cloud/user.rst:674
 msgid "User.saveProperties()"
 msgstr "User.saveProperties()"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:677
+#: ../doc/reference/monaca_api/cloud/user.rst:676
 msgid ""
 "Update an array of property values of a user. The user must be "
 "authenticated."
 msgstr "ユーザーのプロパティー群の値を、一括で更新します。対象ユーザーがログイン済みであることが必要です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:679
+#: ../doc/reference/monaca_api/cloud/user.rst:678
 msgid ""
 ":dfn:`monaca.cloud.User.saveProperties(properties: Object) : $.Promise`"
 msgstr ":dfn:`monaca.cloud.User.saveProperties(properties: Object) : $.Promise`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:683
+#: ../doc/reference/monaca_api/cloud/user.rst:682
 msgid "Additional properties of a user to be added/updated."
 msgstr "追加または更新されるユーザーのプロパティー名です。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:700
+#: ../doc/reference/monaca_api/cloud/user.rst:699
 msgid ""
 "The following example illustrates how to add/update 2 properties "
 "(``nickname`` & ``email``) of a user."
 msgstr "次の例では、 2 つのプロパティー ( ユーザーの ``nickname`` と ``email`` ) の追加と更新方法を示します。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:719
+#: ../doc/reference/monaca_api/cloud/user.rst:718
 msgid "User._oid"
 msgstr "User._oid"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:721
+#: ../doc/reference/monaca_api/cloud/user.rst:720
 msgid ""
 "Public identifier of a user. When the user has logged-in, "
 "``monaca.cloud.User._oid`` is a long string. Otherwise, oid is ``null``."
 msgstr "ユーザーの識別子です。ユーザーがログインしていれば、 ``monaca.cloud.User._oid`` は、長い文字列になっています。ログインしていない場合は、 ``null`` になっています。"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:723
+#: ../doc/reference/monaca_api/cloud/user.rst:722
 msgid ":dfn:`monaca.cloud.User._oid`"
 msgstr ":dfn:`monaca.cloud.User._oid`"
 
-#: ../doc/reference/monaca_api/cloud/user.rst:735
+#: ../doc/reference/monaca_api/cloud/user.rst:734
 msgid ":ref:`user_management`"
 msgstr ":ref:`user_management`"
 
@@ -20132,13 +20134,13 @@ msgstr "Monaca API"
 msgid ""
 ":file:`monaca-core-utils.js` provides a means to access each function of "
 "Monaca. Native page transitions and UI components are supported."
-msgstr ":file:`monaca-core-utils.js` を使用して、Monaca に実装されている各種機能にアクセスします。Monaca では、独自のページ遷移用の関数と UI コンポーネントを提供しています ( 本ドキュメントでは、これらの関数・コンポーネントは、「 Monaca API/ネイティブ関数 」、「 ネイティブ UI コンポーネント/ネイティブ ～ 」 などど、それぞれ呼ばれています )。"
+msgstr ":file:`monaca-core-utils.js` を使用して、Monaca に実装されている各種機能にアクセスします。また、Monaca では、独自のページ遷移用の関数と UI コンポーネントを提供しています ( 本ドキュメントでは、これらの関数・コンポーネントは、「 Monaca API/ネイティブ関数 」、「 ネイティブ UI コンポーネント/ネイティブ ～ 」 などど、それぞれ呼ばれています。また、「 ネイティブ 」 という言葉は、iOS と Android 側のコードを表す場合にも使用されています。この点を留意して、ドキュメントをお読みください )。"
 
 #: ../doc/reference/monaca_api/index.rst:6
 msgid ""
 "In order to enable and access Monaca API, you need to load the Javascript "
-"file ``plungins/plugin-loader.js`` in the .html file."
-msgstr "Monaca API を有効化して、アクセスするためには、.html ファイル内で、 ``plungins/plugin-loader.js`` を読み込む必要があります。"
+"file ``components/loader.js`` in the .html file."
+msgstr ""
 
 #: ../doc/reference/monaca_api/utility-34.rst:3
 msgid "Utilities"
@@ -20212,7 +20214,7 @@ msgstr "ランダムに割り当てられた、一意のデバイス ID を取�
 msgid ""
 "Monaca framework automatically creates a unique device ID at the first time "
 "app launch."
-msgstr "Monaca フレームワークでは、アプリの初回起動時に、一意のデバイス ID を、自動的に生成します。"
+msgstr "Monaca フレームワークでは、アプリの初回起動時に、一意のデバイス ID を自動的に生成します。"
 
 #: ../doc/reference/monaca_api/utility-34.rst:55
 msgid ":dfn:`monaca.getDeviceId(callback)`"
@@ -20440,7 +20442,7 @@ msgid ""
 "track any post­-install events and attribute them to a media source and "
 "campaign. An in­-app event is comprised of an event name and event "
 "parameters."
-msgstr "AppsFlyer が提供する 「 アプリ内イベントの監視・追跡 API 」 では、アプリのインストール直後から、イベントを監視でき、加えて、各種メディアソース・キャンペーンへのアクセス向上に役立つ、多彩な情報収集オプションも設定できます。オプション設定をする場合には、次のように、trackEvent 内で、イベント名とオプション設定を組み合わせて使用します。"
+msgstr "AppsFlyer が提供する 「 アプリ内イベントの監視・追跡 API 」 では、アプリのインストール直後から、イベントを監視でき、加えて、各種メディアソースおよびキャンペーンへのアクセス向上に役立つ、多彩な情報収集オプションも設定できます。オプション設定をする場合には、次のように、trackEvent 内で、イベント名とオプション設定を組み合わせて使用します。"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:148
 msgid "Get AppsFlyer’s Unique Device UID (Advanced)"
@@ -20575,7 +20577,7 @@ msgstr "Repro の管理画面へ移動して、 :guilabel:`設定 --> SDK セッ
 msgid ""
 "After you get the app's token, replace it in the following snippet of "
 "``onDeviceReady`` function. Then, add this snippet to your project."
-msgstr "アプリのトークンの確認後、下記の ``onDeviceReady`` 関数の 「 YOUR_APP_TOKEN 」 の箇所に、トークンを挿入します。挿入後、次に記載されているコード全体をプロジェクトに追加します。"
+msgstr "アプリのトークンの確認後、下記の ``onDeviceReady`` 関数の 「 YOUR_APP_TOKEN 」 の箇所に、トークンを挿入します。挿入後、次のコードをプロジェクトに追加します。"
 
 #: ../doc/reference/service_integration/repro.rst:72
 msgid ""
@@ -20637,7 +20639,7 @@ msgstr "Datepicker プラグイン"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:10
 msgid "DatePicker plugin lets an app use the native DatePicker control."
-msgstr "DatePicker プラグインを使用して、ネイティブ側の DatePicker コントロール ( 日付設定 ) にアクセスできます。"
+msgstr "DatePicker プラグインを使用して、ネイティブ側の DatePicker コントロール ( 日付設定 ) にアクセスします。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:27
 msgid ""
@@ -20662,7 +20664,7 @@ msgstr "show(func)"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:43
 msgid "show a DatePicker control."
-msgstr "DatePicker を表示します"
+msgstr "DatePicker を表示します。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:49
 msgid "DatePicker Demo"
@@ -20685,7 +20687,7 @@ msgid ""
 "This plugin provides the encryption function for HTML5 assets bundled up "
 "with the built app in Monaca and the decoding function for application "
 "execution time."
-msgstr "このプラグインを使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 ) ・ 複合化 ( アプリの実行時 ) します。"
+msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:12
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:12
@@ -20779,7 +20781,7 @@ msgid ""
 "need to set 2 options when you submit your app for a review. Under the "
 "Export Compliance section, please choose \"Yes\" for both questions as shown"
 " in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して、審査を受ける場合、アップロード時に、特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時に特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
 msgid "Monaca In-App Updater (Enterprise)"
@@ -20790,7 +20792,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグインです。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:25
 msgid "Please follow these steps to use this plugin."
@@ -20798,7 +20800,7 @@ msgstr "次の手順に従い、プラグインを追加・設定します。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:27
 msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
-msgstr "プラグインを有効化します( :ref:`enable_in_app_updater` を参照のこと)。"
+msgstr "プラグインを有効化します [ :ref:`enable_in_app_updater` を参照のこと ]。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:29
 msgid ""
@@ -21068,13 +21070,13 @@ msgid ""
 "possibility of adding native code into JavaScript code. Monaca provides "
 "several third-party plugins by default, but you can also import other third-"
 "party plugins or your own plugin to Monaca project."
-msgstr "第三者提供 ( サードパーティー製 ) の Cordova プラグインを使用しても、正規の Cordova プラグインと同じく、JavaScript コード経由で、ネイティブ機能にアクセスできます。Monaca では、第三者提供の Cordova プラグインを、複数、デフォルトで提供しています。これらのプラグインとは別に、外部の Cordova プラグイン、または、自作プラグインも、Monaca プロジェクトにインポートできます。"
+msgstr "第三者提供 ( サードパーティー製 ) の Cordova プラグインを使用しても、正規の Cordova プラグインと同じく、JavaScript コード経由で、ネイティブ機能にアクセスできます。Monaca では、第三者提供の Cordova プラグインを、複数、デフォルトで提供しています。これらのプラグインとは別に、外部の Cordova プラグイン ( Monaca が提供しているサードパーティ製プラグイン以外のプラグイン )、または、自作プラグインも ( ユーザー Cordova プラグイン )、Monaca プロジェクトにインポートできます。"
 
 #: ../doc/reference/third_party_phonegap/index.rst:10
 msgid ""
 "We also provide a way to extend your program using native code. Please refer"
 " to :ref:`custom_cordova_plugin` on how to create and use a native plugin."
-msgstr "ネイティブコードを使用した、プログラムの拡張も可能です。ユーザー Corodva プラグイン ( 自作プラグイン ) の作成と使用方法に関しては、 :ref:`custom_cordova_plugin` をご確認ください。"
+msgstr "ネイティブコードを使用した、プログラムの拡張も可能です。ユーザー Corodva プラグインの作成と使用方法に関しては、 :ref:`custom_cordova_plugin` をご確認ください。"
 
 #: ../doc/reference/third_party_phonegap/index.rst:12
 msgid ""
@@ -21090,7 +21092,7 @@ msgstr "セキュア ストレージ プラグイン ( Monaca エンタープラ
 msgid ""
 "This plugin provides an encrypted data storage function. If the application "
 "is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグインです。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
 
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:35
 msgid ""
@@ -21148,7 +21150,7 @@ msgid ""
 "need to set 2 options when you submit your app for a review. Under the "
 "Export Compliance section, please choose \"Yes\" for both questions as shown"
 " in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して、審査を受ける場合、アップロード時には、特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時には特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
 
 #: ../doc/reference/third_party_phonegap/share.rst:5
 msgid "Share Plugin (Android)"
@@ -21276,7 +21278,7 @@ msgid ""
 "The following code illustrates an example with PRAGMA feature. First, a "
 "table is created and a single entry is added. Then, a query to count the "
 "inserted item to see if it's added as expected."
-msgstr "下記の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
+msgstr "次の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
 
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:94
 msgid ""

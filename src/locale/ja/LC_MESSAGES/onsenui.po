@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-15 12:22+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-06-22 03:12+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,18 +49,26 @@ msgid "Go to Dashboard"
 msgstr "ダッシュボード画面の表示"
 
 #: ../doc/onsenui/index.rst:30
-msgid "Go to Dashboard and click *New Project*"
-msgstr "ダッシュボード画面を表示して *開発をスタート* をクリックします。"
+msgid "Go to Dashboard and click *Create Project*"
+msgstr "ダッシュボードへ移動して、*新規プロジェクトの作成* を選択します。"
 
 #: ../doc/onsenui/index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr "用途に合ったテンプレートを 1 つ選択"
 
-#: ../doc/onsenui/index.rst:42
+#: ../doc/onsenui/index.rst:43
+msgid ""
+"Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 "
+"framework type since it requires to transpile the source code to Javascript."
+" Therefore, you need to setup the local environment with :ref:`Monaca "
+"CLI<cli_overview>`."
+msgstr ""
+
+#: ../doc/onsenui/index.rst:46
 msgid "Where to go from here"
 msgstr "テンプレート選択後の手順に関して"
 
-#: ../doc/onsenui/index.rst:44
+#: ../doc/onsenui/index.rst:48
 msgid ""
 "Now you have Onsen UI installed. See examples in `Onsen UI Docs "
 "<http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI "
