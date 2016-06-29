@@ -1,4 +1,4 @@
-.. MonacaSkeleton-Info.plist:
+.. MonacaApp-Info.plist:
 
 ===================================================================================================
 iOS Configuration

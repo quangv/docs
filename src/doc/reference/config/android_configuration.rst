@@ -588,4 +588,4 @@ android:name             category name
   *See Also*
 
   - :ref:`file_folder_configuration`
-  - :ref:`MonacaSkeleton-Info.plist`
+  - :ref:`MonacaApp-Info.plist`

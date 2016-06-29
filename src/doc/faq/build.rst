@@ -113,7 +113,7 @@ The built application crashes right after starting up.
 The following points are the possibilities which could make the application crashes after starting up, please double-checked these points and rebuild your application.
     
 * An inappropriate image may have been assigned to the splash screen. 
-* There may be a description error in the :file:`MonacaSkeleton-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android.
+* There may be a description error in the :file:`MonacaApp-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android.
 * Please check in particular if there is an error in the specified permission, especially whether the required permission settings have been made. For example: even though  :file:`components/loader.js` file is loaded, "ACCESS_NETWORK_STATE" cannot be accessed or in the case that application uses *location information* but "ACCESS_COARSE_LOCATION" is not permitted and so on. 
 
 
