@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-29 02:49+0000\n"
+"PO-Revision-Date: 2016-07-01 02:55+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -289,7 +289,7 @@ msgid ""
 "safely use Cordova APIs when this event is fired. For more information, "
 "please refer to `deviceready event "
 "<http://cordova.apache.org/docs/en/6.x/cordova/events/events.html#deviceready>`_."
-msgstr ""
+msgstr "``deviceready`` イベントは、Cordova の読み込み完了後に発火するイベントです。このイベントの発火後であれば、Cordova API を安全に使用できます。詳細は、`deviceready イベントの解説 ( 英語サイト ) <http://cordova.apache.org/docs/en/6.x/cordova/events/events.html#deviceready>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:189
 msgid ""
@@ -409,7 +409,7 @@ msgid ""
 "You can build an application just for iPhone by setting the target device "
 "family in iOS App Settings. By default, iPhone, iPod touch and iPad is "
 "selected."
-msgstr ""
+msgstr "[ iOS アプリ設定 ] の [ 対象デバイス ] オプションで、iPhone に特化したアプリを選択できます。デフォルトでは、[ iPhone, iPod touch ] と [ iPad ] の両オプションが選択されています。"
 
 #: ../doc/faq/build.rst:60
 msgid ""
@@ -1532,7 +1532,7 @@ msgstr "Monaca を使用した、携帯端末向けアプリの開発手順を�
 msgid ""
 "For your flexibility and convenience during app development process, Monaca "
 "provides four different development environments such as:"
-msgstr ""
+msgstr "どの開発工程からでも、また、どの開発環境でも導入しやすいように、Monaca では、次の 4 つの開発ツールを提供しています。"
 
 #: ../doc/faq/usage.rst:12
 msgid ":ref:`monaca_ide_index`"
@@ -1554,7 +1554,7 @@ msgstr ":ref:`monaca_vs_index`"
 msgid ""
 "You can choose your desired platform and start building your application. "
 "The following steps are the mobile app development steps using Monaca:"
-msgstr ""
+msgstr "これらのツールを使用すれば、お好みのプラットフォーム上で、アプリ開発を進められます。次に、Monaca を使用した開発手順の大まかな流れを記します。"
 
 #: ../doc/faq/usage.rst:19
 msgid ""
