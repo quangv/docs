@@ -18,7 +18,7 @@ Cordova Plugin provides a simple way to write a native code onto your program. I
 
 Your custom Cordova plugin need to follow the requirements below:
 
-- It must be compatible with Cordova 4.1.
+- It should be compatible with Cordova 4.2 or higher.
 - It must have a ``plugin.xml`` file and is installable with ``plugman`` command line tool.
 - It must support iOS and Android platforms.
 

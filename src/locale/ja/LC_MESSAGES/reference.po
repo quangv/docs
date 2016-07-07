@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-29 02:50+0000\n"
+"PO-Revision-Date: 2016-07-07 02:02+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -4057,7 +4057,7 @@ msgid ""
 "from the device's gallery are not downscaled to a lower quality, even if a "
 "``quality`` parameter is specified. To avoid common memory problems, set "
 "``Camera.destinationType`` to ``FILE_URI`` rather than ``DATA_URL``."
-msgstr "**注意** : 最新の端末で撮影した写真の解像度は、高くなります。端末のギャラリーから取得する画像は、``quality`` パラメーターで画質を指定しても、解像度の低い画像に変換されません。メモリー問題を回避するためには、``Camera.destinationType`` を、``DATA_URL`` ではなく、``FILE_URI`` に設定します。"
+msgstr "**注意** : 最新の端末で撮影した写真の解像度は高くなります。端末のギャラリーから取得する画像は、``quality`` パラメーターで画質を指定しても、解像度の低い画像に変換されません。メモリー問題を回避するためには、``Camera.destinationType`` を、``DATA_URL`` ではなく、``FILE_URI`` に設定します。"
 
 #: ../doc/reference/cordova_3.5/camera/index.rst:73
 #: ../doc/reference/cordova_3.5/camera/index.rst:212
@@ -8532,7 +8532,7 @@ msgstr "applicationStorageDirectory"
 #: ../doc/reference/cordova_4.1/file/index.rst:170
 #: ../doc/reference/cordova_6.2/file/index.rst:144
 msgid "Yes?"
-msgstr "はい?"
+msgstr "Yes?"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:153
 #: ../doc/reference/cordova_3.5/file/index.rst:182
@@ -8636,7 +8636,7 @@ msgid ""
 "\\* Files persist across app restarts and upgrades, but this directory can "
 "be cleared whenever the OS desires. Your app should be able to recreate any "
 "content that might be deleted."
-msgstr "\\* アプリの再起動時・アップグレード時でも、これらのファイルは影響されません。ただし、このディレクトリーのコンテンツは、OS 側で、自由に削除できます。削除された場合でも、アプリ側で再作成できる必要があります。"
+msgstr "\\* アプリの再起動後・アップグレード後でも、このディレクトリーに置かれたファイルには影響が出ません。ただし、このディレクトリーのコンテンツの削除は、OS 側で、自由にできます。よって、削除された場合でも、アプリ側で再作成できる必要があります。"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:164
 #: ../doc/reference/cordova_4.1/file/index.rst:185
@@ -8645,7 +8645,7 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、これらのファイルは影響されません。アップグレード時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
+msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、このディレクトリーに置かれたファイルに影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
 
 #: ../doc/reference/cordova_3.5/file/index.rst:166
 #: ../doc/reference/cordova_4.1/file/index.rst:190
@@ -19186,85 +19186,85 @@ msgstr "CSP 宣言の例を、次に記します ( ``.html`` ページに記述 
 msgid ""
 "Tested Version: `1.1.2 <https://github.com/apache/cordova-plugin-battery-"
 "status/releases/tag/1.1.2>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.1.2 <https://github.com/apache/cordova-plugin-battery-status/releases/tag/1.1.2>`_"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:62
 msgid "batterystatus event"
-msgstr ""
+msgstr "batterystatus イベント"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:84
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:129
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:165
 msgid "Browser (Chrome, Firefox, Opera)"
-msgstr ""
+msgstr "Browser ( Chrome、Firefox、Opera )"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:89
 msgid ""
 "Warning: the Android and Fire OS implementations are greedy and prolonged "
 "use will drain the device's battery."
-msgstr ""
+msgstr "Android + Fire OS の組み合わせは、バッテリーを多く消費するため、長時間の使用時には注意が必要です。"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:94
 msgid ""
 "The ``level`` property is *not* supported on Windows Phone 7 because the OS "
 "does not provide native APIs to determine battery level. The ``isPlugged`` "
 "parameter *is* supported."
-msgstr ""
+msgstr "Windows Phone 7 では、バッテリー残量の確認に使用できる、ネイティブ側の API が提供されていないため、``level`` パラメーターは *使用できません*。``isPlugged`` パラメーターは *使用できます*。"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:103
 msgid "batterylow event"
-msgstr ""
+msgstr "batterylow イベント"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:105
 msgid ""
 "Fires when the battery charge percentage reaches the low charge threshold. "
 "This threshold value is device-specific. Returns an :ref:`object "
 "<status_object>` containing battery status."
-msgstr ""
+msgstr "バッテリー残量が少なくなった場合に、このイベントが発火します。しきい値は、端末によって異なります。バッテリーの状態を示すプロパティーが格納された :ref:`オブジェクト <status_object>` を返します。"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:132
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:168
 msgid "Windows Phone 8.1 Quirks"
-msgstr ""
+msgstr "Windows Phone 8.1 特有の動作"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:134
 msgid ""
 "The ``batterylow`` event fires on Winodws Phone 8.1 irrespective of whether "
 "the device is plugged in or not. This happens because the OS does not "
 "provide an API to detect whether the device is plugged in."
-msgstr ""
+msgstr "Windows Phone 8.1 では、充電中か否かにかかわらず、``batterylow`` イベントが発火します。この OS では、端末が充電中か否かを検知する API を提供していないためです。"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:138
 msgid "batterycritical event"
-msgstr ""
+msgstr "batterycritical イベント"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:140
 msgid ""
 "Fires when the battery charge percentage reaches the critical charge "
 "threshold. This threshold value is device-specific. Returns an :ref:`object "
 "<status_object>` containing battery status."
-msgstr ""
+msgstr "バッテリー残量が非常に少なくなった場合に、このイベントが発火します。しきい値は、端末によって異なります。バッテリーの状態を示すプロパティーが格納された :ref:`オブジェクト <status_object>` を返します。"
 
 #: ../doc/reference/cordova_6.2/battery-status/index.rst:170
 msgid ""
 "The ``batterycritical`` event fires on Windows Phone 8.1 irrespective of "
 "whether the device is plugged in or not. This happens because the OS does "
 "not provide an API to detect whether the device is plugged in."
-msgstr ""
+msgstr "Windows Phone 8.1 では、充電中か否かにかかわらず、``batterycritical`` イベントが発火します。この OS では、端末が充電中か否かを検知する API を提供していないためです。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:28
 msgid ""
 "Tested Version: `2.2.0 <https://github.com/apache/cordova-plugin-"
 "camera/releases/tag/2.2.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.2.0 <https://github.com/apache/cordova-plugin-camera/releases/tag/2.2.0>`_"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:97
 msgid "Blackberry"
-msgstr ""
+msgstr "Blackberry"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:99
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:517
 msgid ""
@@ -19277,7 +19277,7 @@ msgid ""
 "value that would be passed to the callbacks (either the URI/URL or an error "
 "message). Check the ``pendingResult.pluginStatus`` to determine whether or "
 "not the call was successful."
-msgstr ""
+msgstr "Android では、インテント ( intent ) を使用し、カメラのアクティビティ ( activity ) を起動させ、画像のキャプチャーを行います。ただし、メモリーの空きが少ない携帯端末では、Cordova 側のアクティビティが強制終了 ( kill ) させられることがあります。このような場合、resume イベントを使用して、強制終了させられたプラグインの情報 ( 実行結果を含む ) を、新たに起動したプラグインのコールバックに渡します。詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。 ``pendingResult.result`` には、新コールバック側に渡す、以前の実行結果が入っています ( ここでは URI/URL または エラーメッセージとなります )。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:569
 msgid ""
@@ -19292,54 +19292,54 @@ msgid ""
 "case. If image editing is essential to your application, consider seeking a "
 "third party library or plugin that provides its own image editing utility "
 "for a more robust solution."
-msgstr ""
+msgstr "``allowEdit`` *の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。*\nこのプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このようなときは、不具合が生じます。なお、このようなことは、極まれなケースで、ほとんどの場合、問題は起きませんが ( たとえば、 Google Plus Photos 間との動作は問題ありません )、それでも不確定要素を残さない方が賢明です。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリーまたはプラグインを使用することも代替案としてご検討ください。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:638
 msgid ""
 "Sample: Take Pictures, Select Pictures from the Picture Library, and Get "
 "Thumbnails"
-msgstr ""
+msgstr "例 : 写真撮影、ライブラリーから写真を取得、サムネイルの取得"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:640
 msgid ""
 "The Camera plugin allows you to do things like open the device's Camera app "
 "and take a picture, or open the file picker and select one. The code "
 "snippets in this section demonstrate different tasks including:"
-msgstr ""
+msgstr "カメラ操作プラグインでは、端末搭載のカメラアプリを使用した写真撮影の起動、画像選択用ダイアログの表示と画像の選択などを行えます。次の処理を行うコードのサンプルを、下に示します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:642
 msgid "Open the Camera app and :ref:`take a Picture <take_a_picture>`"
-msgstr ""
+msgstr "カメラアプリの起動と :ref:`写真撮影 <take_a_picture>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:643
 msgid ""
 "Take a picture and :ref:`return thumbnails <picture_return_thumbnails>` "
 "(resized picture)"
-msgstr ""
+msgstr "写真撮影と :ref:`サムネイル ( 縮小した写真 ) の取得 <picture_return_thumbnails>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:644
 msgid ""
 "Take a picture and :ref:`generate a FileEntry object <file_entry_object>`"
-msgstr ""
+msgstr "写真撮影と :ref:`FileEntry オブジェクトの作成 <file_entry_object>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:645
 msgid ":ref:`Select a file <select_a_file>` from the picture library"
-msgstr ""
+msgstr "写真のライブラリーから :ref:`ファイルを選択 <select_a_file>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:646
 msgid ""
 "Select a JPEG image and :ref:`return thumbnails <image_return_thumbnails>` "
 "(resized image)"
-msgstr ""
+msgstr "画像 ( JPEG 形式 ) の選択と :ref:`サムネイル ( 縮小した写真 ) の取得 <image_return_thumbnails>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:647
 msgid ""
 "Select an image and :ref:`generate a FileEntry object <file_entry_object>`"
-msgstr ""
+msgstr "画像の選択と :ref:`FileEntry オブジェクトの作成 <file_entry_object>`"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:652
 msgid "Take a Picture"
-msgstr ""
+msgstr "写真の撮影"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:654
 msgid ""
@@ -19348,13 +19348,13 @@ msgid ""
 " of recommendations. In this example, you create the object that you will "
 "use for the Camera options, and set the ``sourceType`` dynamically to "
 "support both the Camera app and the file picker."
-msgstr ""
+msgstr "写真撮影の処理を行う前に、カメラ操作プラグインの ``getPicture`` 関数に渡すオプションをいくつか設定します。次のサンプルコード内に推奨のオプションを記述しています。この例では、オプション用に使用するオブジェクトを作成しています。なお、カメラアプリと画像選択用のダイアログの両方をサポートできるように、``sourceType`` は、「 動的 」 に設定することにします。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:674
 msgid ""
 "Typically, you want to use a FILE_URI instead of a DATA_URL to avoid most "
 "memory issues. JPEG is the recommended encoding type for Android."
-msgstr ""
+msgstr "メモリーに起因する問題を避けるため、DATA_URL ではなく、FILE_URI を使用します。なお、Android では、エンコード形式として JPEG を推奨します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:676
 msgid ""
@@ -19362,13 +19362,13 @@ msgid ""
 " takes a CameraOptions object as the third argument. When you call "
 "``setOptions``, pass ``Camera.PictureSourceType.CAMERA`` as the picture "
 "source."
-msgstr ""
+msgstr "写真撮影時、``getPicture`` の第三引数に、オプション用のオブジェクト ( CameraOptions ) を渡します。また、``setOptions`` の呼び出し時に、写真の取得先を指定する、``Camera.PictureSourceType.CAMERA`` を渡します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:698
 msgid ""
 "Once you take the picture, you can display it or do something else. In this "
 "example, call the app's ``displayImage`` function from the preceding code."
-msgstr ""
+msgstr "写真の撮影後は、写真の表示などを含む、さまざまな処理を行えます。この例では、上述のコードの ``displayImage`` 内の処理を記述しています。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:708
 msgid ""
@@ -19376,11 +19376,11 @@ msgid ""
 "part of the URI in the Content-Security-Policy ``<meta>`` element in "
 "index.html. For example, on Windows 10, you can include ``ms-appdata``: in "
 "your ``<meta>`` element."
-msgstr ""
+msgstr "画像を表示する場合、いくつかのプラットフォームでは、Content-Security-Policy の ``<meta>`` 要素に、URI を設定する必要があります。たとえば、Window 10 では、``<meta>`` 要素内に ``ms-appdata``: を使用して、URI を設定します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:720
 msgid "Take a Picture and Return Thumbnails (Resize the Picture)"
-msgstr ""
+msgstr "写真の撮影とサムネイル ( 縮小した写真 ) の取得"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:722
 msgid ""
@@ -19389,11 +19389,11 @@ msgid ""
 "In this example, you resize the returned image to fit in a 100px by 100px "
 "box (the aspect ratio is maintained, so 100px is either the height or width,"
 " whichever is greater in the source)."
-msgstr ""
+msgstr "縮小された画像を取得したい場合には、CameraOptions オブジェクトの ``targetWidth`` と  ``targetHeight`` に希望するサイズの値を入れて渡します。ここでは、100 x 100px のボックスに収まる画像が返ってくるように設定します ( アスペクト比は保持されるので、ソースの縦または横のどちらか大きい方に 100px が適用されます。 )。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:750
 msgid "Select a File from the Picture Library"
-msgstr ""
+msgstr "写真のライブラリーからファイルを選択"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:752
 msgid ""
@@ -19402,21 +19402,21 @@ msgid ""
 "``Camera.PictureSourceType.SAVEDPHOTOALBUM``. To open the file picker, call "
 "``getPicture`` just as you did in the previous example, passing in the "
 "success and error callbacks along with CameraOptions object."
-msgstr ""
+msgstr "画像選択用のダイアログからファイルを選択する場合、CameraOptions オブジェクトを使用して、ダイアログを表示するよう設定します ( ``sourceType`` を ``Camera.PictureSourceType.SAVEDPHOTOALBUM`` に設定します )。実際にダイアログを表示させるときには、左記のオプションを指定したオブジェクトを使用して、``getPicture`` を呼び出します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:775
 msgid "Select an Image and Return Thumbnails (resized images)"
-msgstr ""
+msgstr "画像の選択とサムネイル ( 縮小した写真 ) の取得"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:777
 msgid ""
 "Resizing a file selected with the file picker works just like resizing using"
 " the Camera app; set the ``targetHeight`` and ``targetWidth`` options."
-msgstr ""
+msgstr "画像選択用のダイアログで選択したファイルを縮小する場合には、上述の方法と同じように、``targetHeight`` と ``targetWidth`` を適宜設定します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:807
 msgid "Take a picture and get a FileEntry Object"
-msgstr ""
+msgstr "写真の撮影と FileEntry オブジェクトの取得"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:809
 msgid ""
@@ -19427,13 +19427,13 @@ msgid ""
 "app. If you need to use a FileEntry object, set the ``destinationType`` to "
 "``Camera.DestinationType.FILE_URI`` in your CameraOptions object (this is "
 "also the default value)."
-msgstr ""
+msgstr "別の場所への画像のコピー、画像のアップロード ( ファイル転送プラグイン/FileTransfer プラグイン の使用 ) などを行う場合、カメラアプリが返した写真に対応する FileEntry オブジェクトを使用します。オブジェクトを取得する場合には、カメラアプリが返す file URI を使用して、``window.resolveLocalFileSystemURL`` を呼び出します ( CameraOptions オブジェクト内で、``destinationType`` を ``Camera.DestinationType.FILE_URI`` に設定する必要があります。通常、デフォルトで、この設定になっています )。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:813
 msgid ""
 "Note: You need the `File plugin <https://www.npmjs.com/package/cordova-"
 "plugin-file>`_ to call ``window.resolveLocalFileSystemURL``"
-msgstr ""
+msgstr "``window.resolveLocalFileSystemURL`` を呼ぶためには、`ファイル操作プラグイン ( File プラグイン ) <https://www.npmjs.com/package/cordova-plugin-file>`_ が必要です。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:815
 msgid ""
@@ -19441,7 +19441,7 @@ msgid ""
 "passed to this function from the success callback of ``getPicture``. The "
 "success handler of ``resolveLocalFileSystemURL`` receives the FileEntry "
 "object."
-msgstr ""
+msgstr "``window.resolveLocalFileSystemURL`` の実行例を次に記します。この関数で使用している image URI は、``getPicture`` の成功時のコールバックから渡されたものです。``resolveLocalFileSystemURL`` の成功時のハンドラーに FileEntry オブジェクトが渡されます。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:834
 msgid ""
@@ -19450,49 +19450,49 @@ msgid ""
 "The image URI returned from the Camera app should result in a valid "
 "FileEntry, but platform behavior on some emulators may be different for "
 "files returned from the file picker."
-msgstr ""
+msgstr "上記の例では、有効な FileEntry オブジェクトを取得できなかった場合、アプリ側の ``createNewFileEntry`` を呼び出しています。カメラアプリが返した image URL を使用すれば、有効な FileEntry を取得できるはずですが、エミュレーターによっては、プラットフォームの動作が異なり、画像選択用のダイアログが返すファイル情報も異なってきます。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:838
 msgid ""
 "Note: To see an example of writing to a FileEntry, see the `File plugin "
 "README <https://www.npmjs.com/package/cordova-plugin-file>`_"
-msgstr ""
+msgstr "FileEntry への書き込み方法は、`ファイル操作プラグインの README <https://www.npmjs.com/package/cordova-plugin-file>`_ をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:840
 msgid ""
 "The code shown here creates a file in your app's cache (in sandboxed "
 "storage) named ``tempFile.jpeg``. With the new FileEntry object, you can "
 "copy the image to the file or do something else like upload it."
-msgstr ""
+msgstr "次のコードでは、アプリのキャッシュ ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:24
 msgid "Console Plugin"
-msgstr ""
+msgstr "Console への出力 プラグイン"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:28
 msgid ""
 "Tested Version: `1.0.3 <https://github.com/apache/cordova-plugin-"
 "console/releases/tag/1.0.3>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.0.3 <https://github.com/apache/cordova-plugin-console/releases/tag/1.0.3>`_"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:33
 msgid ""
 "This document is based on the original Cordova docs available at `Cordova "
 "Docs <https://github.com/apache/cordova-plugin-console>`_."
-msgstr ""
+msgstr "このプラグインの詳細は、`こちらの原文 ( GitHub ) <https://github.com/apache/cordova-plugin-console>`_ をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:35
 msgid ""
 "This plugin is meant to ensure that console.log() is as useful as it can be."
 " It adds additional function for iOS, Ubuntu, Windows Phone 8, and Windows. "
 "This plugin defines a global ``console`` object."
-msgstr ""
+msgstr "このプラグインでは、コンソールへの出力に使用できる、console.log() を含む、便利なメソッドを提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:58
 msgid ""
 "In order to use this plugin, please :ref:`enable <add_plugins>` ``Console`` "
 "plugin in Monaca Cloud IDE."
-msgstr ""
+msgstr "このプラグインを使用する場合には、Monaca クラウド IDE の [ Cordova プラグインの管理 ] 上で、``Console`` プラグインを :ref:`有効 <add_plugins>` にします。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:67
 msgid ""
@@ -19500,134 +19500,134 @@ msgid ""
 "console.log(\"1\",\"2\"). However, only Android ill act on the first "
 "argument. Subsequent arguments to console.log() will be ignored because of "
 "the limitation of Android itself."
-msgstr ""
+msgstr "console.log() は、あるプラットフォーム上では、複数の引数を取ることができますが ( たとえば、console.log(\"1\",\"2\") )、Android では、第一引数だけが正常に認識され、それ以降の引数は無視されます。これは、Android 自体の仕様です。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:70
 msgid "Supported Methods"
-msgstr ""
+msgstr "使用できるメソッド"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:72
 msgid "The plugin support the following methods of the ``console`` object:"
-msgstr ""
+msgstr "``console`` オブジェクトの次のメソッドが使用できます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:74
 msgid "console.log"
-msgstr ""
+msgstr "console.log"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:75
 msgid "console.error"
-msgstr ""
+msgstr "console.error"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:76
 msgid "console.exception"
-msgstr ""
+msgstr "console.exception"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:77
 msgid "console.warn"
-msgstr ""
+msgstr "console.warn"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:78
 msgid "console.info"
-msgstr ""
+msgstr "console.info"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:79
 msgid "console.debug"
-msgstr ""
+msgstr "console.debug"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:80
 msgid "console.assert"
-msgstr ""
+msgstr "console.assert"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:81
 msgid "console.dir"
-msgstr ""
+msgstr "console.dir"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:82
 msgid "console.dirxml"
-msgstr ""
+msgstr "console.dirxml"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:83
 msgid "console.time"
-msgstr ""
+msgstr "console.time"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:84
 msgid "console.timeEnd"
-msgstr ""
+msgstr "console.timeEnd"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:85
 msgid "console.table"
-msgstr ""
+msgstr "console.table"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:88
 msgid "Partially supported Methods"
-msgstr ""
+msgstr "実装はされているが、使用できないメソッド"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:90
 msgid ""
 "Methods of the ``console`` object which are implemented, but do nothing:"
-msgstr ""
+msgstr "``console`` オブジェクトの次のメソッドは、実装されていますが、動作しません。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:92
 msgid "console.clear"
-msgstr ""
+msgstr "console.clear"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:93
 msgid "console.trace"
-msgstr ""
+msgstr "console.trace"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:94
 msgid "console.groupEnd"
-msgstr ""
+msgstr "console.groupEnd"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:95
 msgid "console.timeStamp"
-msgstr ""
+msgstr "console.timeStamp"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:96
 msgid "console.profile"
-msgstr ""
+msgstr "console.profile"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:97
 msgid "console.profileEnd"
-msgstr ""
+msgstr "console.profileEnd"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:98
 msgid "console.count"
-msgstr ""
+msgstr "console.count"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:101
 msgid "Supported formatting"
-msgstr ""
+msgstr "使用できる出力形式"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:103
 msgid "The following formatting options available:"
-msgstr ""
+msgstr "次の出力形式を指定できます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:105
 msgid "%j - format arg as JSON"
-msgstr ""
+msgstr "%j - JSON 形式で出力します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:106
 msgid "%o - format arg as JSON"
-msgstr ""
+msgstr "%o - JSON 形式で出力します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:107
 msgid "%c - format arg as ''. No color formatting could be done."
-msgstr ""
+msgstr "%c - '' 内で指定されているスタイルを適用します。色の指定はできません。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:108
 msgid "%% - replace with '%'."
-msgstr ""
+msgstr "%% - '%' に置き換えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:110
 msgid "Any other char following ``%`` will format its arg via ``toString()``"
-msgstr ""
+msgstr "上記以外を指定した場合 ( ``%`` + 文字 )、コンソールへの出力は、``toString()`` を使用して行われます。"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:28
 msgid ""
 "Tested Version: `2.1.0 <https://github.com/apache/cordova-plugin-"
 "contacts/releases/tag/2.1.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.1.0 <https://github.com/apache/cordova-plugin-contacts/releases/tag/2.1.0>`_"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:209
 msgid ""
@@ -19636,7 +19636,7 @@ msgid ""
 "application. If the plugin returns its result in the ``resume`` event, then "
 "you must first wrap the returned object in a ``Contact`` object before using"
 " it."
-msgstr ""
+msgstr "このプラグインでは、住所録のデータを取得するときに、Cordova とは異なるアクティビティ ( 外部のアクティビティ/an external Activity ) を起動させます。詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。プラグインの実行結果 ( 以前の結果 ) が ``resume`` イベント内で返ってきた場合、返ってきたオブジェクトを使用する前に、``Contact`` オブジェクトを使用して、最初に、このオブジェクトをラップ ( wrap ) する必要があります。"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:846
 msgid ""
@@ -19645,154 +19645,154 @@ msgid ""
 "which contact properties must be returned back from ``contacts.find()`` "
 "method (see ``contactFindOptions.desiredFields``), or to specify fields to "
 "search in (through ``contactFields`` parameter). Possible values are:"
-msgstr ""
+msgstr "``ContactFieldType`` オブジェクトは、「 項目 」 ( fieldType ) の集合体です。 たとえば、複数の ``'phoneNumbers/電話番号'`` または ``'emails'/メールアドレス`` をまとめるときに使用します。また、このオブジェクトは、``contacts.find()`` の使用時、検索対象の項目 ( ``contactFields`` を参照のこと ) として、または、検索結果として返される項目の指定 ( ``contactFindOptions.desiredFields`` を参照のこと ) に使用できます。"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:848
 msgid "``navigator.contacts.fieldType.addresses``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.addresses``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:849
 msgid "``navigator.contacts.fieldType.birthday``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.birthday``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:850
 msgid "``navigator.contacts.fieldType.categories``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.categories``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:851
 msgid "``navigator.contacts.fieldType.country``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.country``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:852
 msgid "``navigator.contacts.fieldType.department``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.department``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:853
 msgid "``navigator.contacts.fieldType.displayName``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.displayName``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:854
 msgid "``navigator.contacts.fieldType.emails``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.emails``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:855
 msgid "``navigator.contacts.fieldType.familyName``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.familyName``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:856
 msgid "``navigator.contacts.fieldType.formatted``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.formatted``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:857
 msgid "``navigator.contacts.fieldType.givenName``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.givenName``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:858
 msgid "``navigator.contacts.fieldType.honorificPrefix``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.honorificPrefix``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:859
 msgid "``navigator.contacts.fieldType.honorificSuffix``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.honorificSuffix``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:860
 msgid "``navigator.contacts.fieldType.id``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.id``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:861
 msgid "``navigator.contacts.fieldType.ims``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.ims``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:862
 msgid "``navigator.contacts.fieldType.locality``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.locality``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:863
 msgid "``navigator.contacts.fieldType.middleName``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.middleName``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:864
 msgid "``navigator.contacts.fieldType.name``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.name``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:865
 msgid "``navigator.contacts.fieldType.nickname``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.nickname``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:866
 msgid "``navigator.contacts.fieldType.note``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.note``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:867
 msgid "``navigator.contacts.fieldType.organizations``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.organizations``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:868
 msgid "``navigator.contacts.fieldType.phoneNumbers``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.phoneNumbers``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:869
 msgid "``navigator.contacts.fieldType.photos``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.photos``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:870
 msgid "``navigator.contacts.fieldType.postalCode``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.postalCode``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:871
 msgid "``navigator.contacts.fieldType.region``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.region``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:872
 msgid "``navigator.contacts.fieldType.streetAddress``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.streetAddress``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:873
 msgid "``navigator.contacts.fieldType.title``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.title``"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:874
 msgid "``navigator.contacts.fieldType.urls``"
-msgstr ""
+msgstr "``navigator.contacts.fieldType.urls``"
 
 #: ../doc/reference/cordova_6.2/crosswalk/index.rst:9
 msgid ""
 "Tested Version: `1.3.0 <https://github.com/crosswalk-project/cordova-plugin-"
 "crosswalk-webview/releases/tag/1.3.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.3.0 <https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview/releases/tag/1.3.0>`_"
 
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:28
 msgid ""
 "Tested Version: `1.2.1 <https://github.com/apache/cordova-plugin-device-"
 "motion/releases/tag/1.2.1>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.2.1 <https://github.com/apache/cordova-plugin-device-motion/releases/tag/1.2.1>`_"
 
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:152
 msgid ""
 "**frequency**: requested period of calls to accelerometerSuccess with "
 "acceleration data in Milliseconds. *(Number)* (Default: 10000)"
-msgstr ""
+msgstr "**frequency**: 加速度データを渡し、accelerometerSuccess を呼び出す間隔 ( ミリ秒単位、デフォルトでは 10000 ) *(Number)* "
 
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:28
 msgid ""
 "Tested Version: `1.0.3 <https://github.com/apache/cordova-plugin-device-"
 "orientation/releases/tag/1.0.3>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.0.3 <https://github.com/apache/cordova-plugin-device-orientation/releases/tag/1.0.3>`_"
 
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:39
 msgid "Access is via a global 「 ``navigator.compass`` 」 object."
-msgstr ""
+msgstr "グローバルオブジェクト 「 ``navigator.compass`` 」 を使用します。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:28
 msgid ""
 "Tested Version: `1.1.2 <https://github.com/apache/cordova-plugin-"
 "device/releases/tag/1.1.2>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.1.2 <https://github.com/apache/cordova-plugin-device/releases/tag/1.1.2>`_"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:70
 #: ../doc/reference/cordova_6.2/device/index.rst:293
 msgid "device.manufacturer"
-msgstr ""
+msgstr "device.manufacturer"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:91
 #: ../doc/reference/cordova_6.2/device/index.rst:108
@@ -19802,72 +19802,72 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device/index.rst:337
 #: ../doc/reference/cordova_6.2/device/index.rst:357
 msgid "OSX"
-msgstr ""
+msgstr "OSX"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:240
 #: ../doc/reference/cordova_6.2/device/index.rst:340
 msgid "OSX Quirk"
-msgstr ""
+msgstr "OSX 特有の動作"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:242
 msgid ""
 "The ``uuid`` on OSX is generated automatically if it does not exist yet and "
 "is stored in the ``standardUserDefaults`` in the ``CDVUUID`` property."
-msgstr ""
+msgstr "OSX では、``uuid`` が確認できない場合には、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:295
 msgid "Get the device's manufacturer."
-msgstr ""
+msgstr "端末の製造元を確認できます。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:305
 msgid "BackBerry 10"
-msgstr ""
+msgstr "BackBerry 10"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:342
 msgid "The ``isVirtual`` property on OS X always returns false."
-msgstr ""
+msgstr "OS X では、``isVirtual`` は、常に false を返します。"
 
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:28
 msgid ""
 "Tested Version: `1.2.1 <https://github.com/apache/cordova-plugin-"
 "dialogs/releases/tag/1.2.1>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.2.1 <https://github.com/apache/cordova-plugin-dialogs/releases/tag/1.2.1>`_"
 
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:154
 msgid ""
 "**buttonLabels**: Array of strings specifying button labels. *(Array)* "
 "(Optional, defaults to [ ``OK,Cancel`` ])"
-msgstr ""
+msgstr "**buttonLabels**: ボタンの名前の配列 ( *Array*、任意、デフォルトでは [ ``OK,Cancel`` ] )"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:28
 msgid ""
 "Tested Version: `1.5.1 <https://github.com/apache/cordova-plugin-file-"
 "transfer/releases/tag/1.5.1>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.5.1 <https://github.com/apache/cordova-plugin-file-transfer/releases/tag/1.5.1>`_"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:36
 msgid ""
 "This plugin defines global ``FileTransfer``, ``FileUploadOptions`` "
 "Constructors. Although in the global scope, they are not available until "
 "after the ``deviceready`` event."
-msgstr ""
+msgstr "このプラグインでは、グローバルなコンストラクタ 「 ``FileTransfer`` 」 と 「 ``FileUploadOptions`` 」 を使用します。なお、グローバルスコープに属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
 msgid ""
 "Does not support uploads of an empty file with *chunkedMode=true* and "
 "``multipartMode=false``."
-msgstr ""
+msgstr "*chunkedMode=true* と ``multipartMode=false`` に設定している場合、空ファイルのアップロードはできません。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:234
 msgid ""
 "An option parameter with empty/null value is excluded in the upload "
 "operation due to the Windows API design."
-msgstr ""
+msgstr "アップロード時、options のパラメーターに、空/null 値を指定した場合、これらのパラメーターは無視されます。これは、Windows API の仕様です。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:236
 msgid ""
 "*chunkedMode* is not supported and all uploads are set to non-chunked mode."
-msgstr ""
+msgstr "*chunkedMode* オプションは使用できません。アップロードは、常に、非チャンク ( 非チャンクド ) 形式で行われます。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:360
 msgid ""
@@ -19881,17 +19881,17 @@ msgid ""
 "<https://msdn.microsoft.com/en-"
 "us/library/windows/apps/windows.web.http.httpclient.aspx>`_ as a quicker "
 "alternative for small downloads."
-msgstr ""
+msgstr "このプラグインは、`BackgroundDownloader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounddownloader.aspx>`_ / `BackgroundUploader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounduploader.aspx>`_ を基礎としています。よって、Windows の端末では、起動までに時間がかかります ( 処理の作成・開始まで、数秒かかる場合があります )。サイズの小さいダウンロード向けには、処理速度が早い、XHR または `HttpClient <https://msdn.microsoft.com/en-us/library/windows/apps/windows.web.http.httpclient.aspx>`_ の使用を推奨します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
 msgid "Sample: Download and Upload Files"
-msgstr ""
+msgstr "使用例 : ファイルのダウンロードとアップロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
 msgid ""
 "Use the File-Transfer plugin to upload and download files. In these "
 "examples, we demonstrate several tasks like:"
-msgstr ""
+msgstr "ファイル転送プラグインを使用して、ファイルのアップロードとダウンロードを行います。ここでは、次の処理を行います。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
 msgid ""
@@ -19968,7 +19968,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
 msgid "Upload a File"
-msgstr ""
+msgstr "ファイルのアップロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:512
 msgid ""
@@ -20016,14 +20016,14 @@ msgstr ""
 msgid ""
 "Tested Version: `4.2.0 <https://github.com/apache/cordova-plugin-"
 "file/releases/tag/4.2.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `4.2.0 <https://github.com/apache/cordova-plugin-file/releases/tag/4.2.0>`_"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:124
 msgid ""
 "Although technically an implementation detail, it can be very useful to know"
 " how the ``cordova.file.\\*`` properties map to physical paths on a real "
 "device."
-msgstr ""
+msgstr "実装方式により異なりますが、``cordova.file.\\*`` プロパティーと端末の物理パスの関係 ( マッピング内容 ) を、次の表に示します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:132
 #: ../doc/reference/cordova_6.2/file/index.rst:167
@@ -20031,16 +20031,16 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/file/index.rst:223
 #: ../doc/reference/cordova_6.2/file/index.rst:254
 msgid "``cordova.file.\\*``"
-msgstr ""
+msgstr "``cordova.file.\\*``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:132
 #: ../doc/reference/cordova_6.2/file/index.rst:223
 msgid "``iOSExtraFileSystems``"
-msgstr ""
+msgstr "``iOSExtraFileSystems``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 msgid "/var/mobile/Applications/<UUID>/"
-msgstr ""
+msgstr "/var/mobile/Applications/<UUID>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 #: ../doc/reference/cordova_6.2/file/index.rst:138
@@ -20057,51 +20057,51 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/file/index.rst:231
 #: ../doc/reference/cordova_6.2/file/index.rst:237
 msgid "\\-"
-msgstr ""
+msgstr "\\-"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:136
 msgid "appname.app/"
-msgstr ""
+msgstr "appname.app/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:138
 msgid "www/"
-msgstr ""
+msgstr "www/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:140
 msgid "Documents/"
-msgstr ""
+msgstr "Documents/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:142
 #: ../doc/reference/cordova_6.2/file/index.rst:146
 msgid "NoCloud/"
-msgstr ""
+msgstr "NoCloud/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:144
 msgid "Library"
-msgstr ""
+msgstr "Library"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:148
 msgid "Cloud/"
-msgstr ""
+msgstr "Cloud/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 msgid "Caches/"
-msgstr ""
+msgstr "Caches/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "Yes\\***"
-msgstr ""
+msgstr "Yes\\***"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "tmp/"
-msgstr ""
+msgstr "tmp/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 #: ../doc/reference/cordova_6.2/file/index.rst:183
 #: ../doc/reference/cordova_6.2/file/index.rst:239
 msgid "No\\**"
-msgstr ""
+msgstr "No\\**"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:157
 msgid ""
@@ -20120,33 +20120,33 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:169
 msgid "file:///android_asset/"
-msgstr ""
+msgstr "file:///android_asset/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:171
 msgid "/data/data/<app-id>/"
-msgstr ""
+msgstr "/data/data/<app-id>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:173
 #: ../doc/reference/cordova_6.2/file/index.rst:206
 #: ../doc/reference/cordova_6.2/file/index.rst:260
 msgid "CacheDirectory"
-msgstr ""
+msgstr "CacheDirectory"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:177
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:179
 msgid "<sdcard>/"
-msgstr ""
+msgstr "<sdcard>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:181
 msgid "Android/data/<app-id>/"
-msgstr ""
+msgstr "Android/data/<app-id>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:183
 msgid "externalCacheDirectory"
-msgstr ""
+msgstr "externalCacheDirectory"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:190
 msgid ""
@@ -20159,31 +20159,31 @@ msgstr ""
 msgid ""
 "**Note**: If external storage can't be mounted, the "
 "``cordova.file.external\\*`` properties are ``null``."
-msgstr ""
+msgstr "**備考** : 外部のストレージがマウントできない場合には、``cordova.file.external*`` プロパティーは ``null`` になります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:202
 msgid "file:///accounts/1000/appdata/<app id>/"
-msgstr ""
+msgstr "file:///accounts/1000/appdata/<app id>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:204
 msgid "app/native"
-msgstr ""
+msgstr "app/native"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:206
 msgid "data/webviews/webfs/temporary/local__0"
-msgstr ""
+msgstr "data/webviews/webfs/temporary/local__0"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:208
 msgid "data/webviews/webfs/persistent/local__0"
-msgstr ""
+msgstr "data/webviews/webfs/persistent/local__0"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:210
 msgid "file:///accounts/1000/removable/sdcard"
-msgstr ""
+msgstr "file:///accounts/1000/removable/sdcard"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:212
 msgid "file:///accounts/1000/shared"
-msgstr ""
+msgstr "file:///accounts/1000/shared"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:215
 msgid ""
@@ -20193,54 +20193,54 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:218
 msgid "OS X File System Layout"
-msgstr ""
+msgstr "OS X のファイルシステムの概要"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:225
 msgid "/Applications/<appname>.app/"
-msgstr ""
+msgstr "/Applications/<appname>.app/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:227
 msgid "Content/Resources/"
-msgstr ""
+msgstr "Content/Resources/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:229
 msgid "~/Library/Application Support/<bundle-id>/"
-msgstr ""
+msgstr "~/Library/Application Support/<bundle-id>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:231
 msgid "files/"
-msgstr ""
+msgstr "files/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:233
 msgid "~/Documents/"
-msgstr ""
+msgstr "~/Documents/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:235
 msgid "~/Library/Caches/<bundle-id>/"
-msgstr ""
+msgstr "~/Library/Caches/<bundle-id>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:237
 msgid "/tmp/"
-msgstr ""
+msgstr "/tmp/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:239
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:239
 msgid "rootDirectory"
-msgstr ""
+msgstr "rootDirectory"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:239
 msgid "root"
-msgstr ""
+msgstr "root"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:242
 msgid ""
 "**Note**: This is the layout for non sandboxed applications. I you enable "
 "sandboxing, the applicationStorageDirectory will be below "
 "~/Library/Containers/<bundle-id>/Data/Library/Application Support."
-msgstr ""
+msgstr "**備考**: 上記の表は、サンドボックス化されていないアプリが対象です。サンドボックス化した場合には、applicationStorageDirectory は、~/Library/Containers/<bundle-id>/Data/Library/Application Support 下に置かれます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:244
 msgid ""
@@ -20258,28 +20258,28 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:249
 msgid "Windows File System Layout"
-msgstr ""
+msgstr "Windows のファイルシステムの概要"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:256
 msgid "ms-appdata:///"
-msgstr ""
+msgstr "ms-appdata:///"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:258
 msgid "local/"
-msgstr ""
+msgstr "local/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:260
 #: ../doc/reference/cordova_6.2/file/index.rst:262
 msgid "temp/"
-msgstr ""
+msgstr "temp/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:264
 msgid "roaming"
-msgstr ""
+msgstr "roaming"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:267
 msgid "\\* The OS may periodically clear this directory"
-msgstr ""
+msgstr "\\* 定期的に、OS 側が、このディレクトリー内を削除します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:301
 msgid ""
@@ -20304,17 +20304,17 @@ msgstr ""
 msgid ""
 "``applicationDirectory`` - Uses ``xhr`` to get local files that are packaged"
 " with the app."
-msgstr ""
+msgstr "``applicationDirectory`` - アプリのパッケージに含まれているローカルファイル ( local file ) へアクセスする場合には、``xhr`` を使用します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:344
 msgid "``dataDirectory`` - For persistent app-specific data files."
-msgstr ""
+msgstr "``dataDirectory`` - 永続的なデータファイル用 ( アプリ毎 ) です。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:346
 msgid ""
 "``cacheDirectory`` - Cached files that should survive app restarts (Apps "
 "should not rely on the OS to delete files in here)."
-msgstr ""
+msgstr "``cacheDirectory`` - キャッシュファイル用 ( アプリの再起動後でも残っているファイル用 ) です。ディレクトリー内のコンテンツの削除は、OS に頼らずに、アプリ側で行うことを推奨します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:625
 msgid "Sample: Create Files and Directories, Write, Read, and Append files"
@@ -20597,7 +20597,7 @@ msgstr ""
 msgid ""
 "Tested Version: `2.2.0 <https://github.com/apache/cordova-plugin-"
 "geolocation/releases/tag/2.2.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.2.0 <https://github.com/apache/cordova-plugin-geolocation/releases/tag/2.2.0>`_"
 
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:38
 msgid ""
@@ -20614,7 +20614,7 @@ msgid ""
 "permission (e.g., by presenting choices for **OK** and **No Thanks**). For "
 "more information, please see the `Privacy Guide "
 "<http://cordova.apache.org/docs/en/latest/guide/appdev/privacy/index.html>`_."
-msgstr ""
+msgstr "**注意** : 位置情報に関するデータの取得・利用には、個人情報保護の観点から、細心の注意が必要です。位置情報に関するデータの取り扱い方法、第三者への情報提供およびデータの精度 ( 大雑把な位置、詳細な位置、郵便番号枠レベルの位置など ) に関しては、アプリの個人情報の取り扱いに関するポリシーの中で議論されるべき問題です。個人情報の中でも位置情報は、個人の居場所の特定および移動記録として利用でき、その取り扱いには注意が求められます。そのため、アプリのプライバシーに関するポリシーの策定に加え、アプリが位置情報にアクセスまたは利用する場合には、事前にユーザーへの通知および許諾を得る必要があります。端末のオペレーティングシステム側でこの通知および許諾の要請を行ってない場合には、開発者側で対応する必要があります。また、ユーザーへの通知および許諾の要請を行う場合には、必ず、個人情報の取り扱いに関するポリシーの開示および使用方法・収集レベルに関する同意の意思表示を求める必要があります ( **許可する**、または、**許可しない** のように、明示的に判断できる必要があります ) 。詳細は、`『 プライバシーに関する注意点 』 ( Apache Cordova のドキュメント ) <http://cordova.apache.org/docs/en/latest/guide/appdev/privacy/index.html>`_ をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:145
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:221
@@ -20622,37 +20622,37 @@ msgid ""
 "If Geolocation service is turned off the ``onError`` callback is invoked "
 "after ``timeout`` interval (if specified). If ``timeout`` parameter is not "
 "specified then no callback is called."
-msgstr ""
+msgstr "位置情報の取得サービスがオフにされた場合、``timeout`` に設定された時間の経過後 ( 設定されている場合 )、``onError`` コールバックが実行されます。"
 
 #: ../doc/reference/cordova_6.2/globalization/index.rst:28
 msgid ""
 "Tested Version: `1.0.3 <https://github.com/apache/cordova-plugin-"
 "globalization/releases/tag/1.0.3>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.0.3 <https://github.com/apache/cordova-plugin-globalization/releases/tag/1.0.3>`_"
 
 #: ../doc/reference/cordova_6.2/inappbrowser/index.rst:28
 msgid ""
 "Tested Version: `1.4.0 <https://github.com/apache/cordova-plugin-"
 "inappbrowser/releases/tag/1.4.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.4.0 <https://github.com/apache/cordova-plugin-inappbrowser/releases/tag/1.4.0>`_"
 
 #: ../doc/reference/cordova_6.2/inappbrowser/index.rst:441
 msgid "InAppBrowser.show"
-msgstr ""
+msgstr "InAppBrowser.show"
 
 #: ../doc/reference/cordova_6.2/inappbrowser/index.rst:470
 msgid "InAppBrowser.executeScript"
-msgstr ""
+msgstr "InAppBrowser.executeScript"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:28
 msgid ""
 "Tested Version: `1.3.0 <https://github.com/apache/cordova-plugin-media-"
 "capture/releases/tag/1.3.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.3.0 <https://github.com/apache/cordova-plugin-media-capture/releases/tag/1.3.0>`_"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:172
 msgid "Catpure.captureImage"
-msgstr ""
+msgstr "Catpure.captureImage"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:187
 msgid ""
@@ -20661,7 +20661,7 @@ msgid ""
 "``CaptureImageOptions.limit`` is reached. If no ``limit`` value is "
 "specified, it defaults to one (1), and the capture operation terminates "
 "after the user captures a single image."
-msgstr ""
+msgstr "カメラアプリを終了したとき、または、``CaptureImageOptions.limit`` で指定した最大撮影数に達したとき、キャプチャー処理は終了します。``limit`` パラメーターを指定しない場合、「 1 」 がデフォルトとなります。この場合、1 つの画像を撮影したあとに、キャプチャー処理が終了します。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:189
 msgid ""
@@ -20670,11 +20670,11 @@ msgid ""
 "the user terminates the operation before capturing an image, the "
 "``CaptureErrorCB`` callback executes with a ``CaptureError`` object "
 "featuring a ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr ""
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、CaptureCB コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーした画像ファイルに関する情報が格納されています。画像のキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:238
 msgid "Catpure.captureVideo"
-msgstr ""
+msgstr "Catpure.captureVideo"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:255
 msgid ""
@@ -20683,7 +20683,7 @@ msgid ""
 " If the user terminates the operation before capturing a video clip, the "
 "``CaptureErrorCB`` callback executes with a ``CaptureError`` object "
 "featuring a ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr ""
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、CaptureCB コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーしたでビデオクリップファイルに関する情報が格納されています。ビデオクリップのキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:293
 msgid ""
@@ -20691,11 +20691,11 @@ msgid ""
 "application, provided by RIM, to capture video recordings. The app receives "
 "a ``CaptureError.CAPTURE_NOT_SUPPORTED`` error code if the application is "
 "not installed on the device."
-msgstr ""
+msgstr "BlackBerry 10 向けの Cordova では、ビデオのキャプチャーを行うとき、RIM ( Research In Motion ) 提供の *Video Recorder* アプリを最初に起動させようとします。端末側にこのアプリがインストールされていない場合、アプリ側に、``CaptureError.CAPTURE_NOT_SUPPORTED`` エラーコードが渡されます。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:688
 msgid "Android Lifecycle Quirks"
-msgstr ""
+msgstr "Android の 「 ライフサイクル 」 に起因する注意点"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:690
 msgid ""
@@ -20710,11 +20710,11 @@ msgid ""
 "that fires after the `Cordova resume "
 "<http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_"
 " event."
-msgstr ""
+msgstr "Android プラットフォーム上で、オーディオ・ビデオ・画像をキャプチャーする場合、ネイティブ側のキャプチャー用アプリが起動され、Cordova Webview がバックグラウンド処理に切り替わったタイミングで、Cordova が動作中のアプリ自体が強制終了 ( kill ) させられる場合があります。この問題の詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。強制終了させられた場合、キャプチャー処理のメソッドに指定されていた成功時または失敗時のコールバックは実行されません。残っている実行結果は、Cordova の `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベント後に実行される document イベントで使用できます ( resume イベントに関する詳細は、左記の 「 ライフサイクルに関する注意点 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:692
 msgid "In your app, you should subscribe to the two possible events like so:"
-msgstr ""
+msgstr "なお、アプリ内では、次のように、キャプチャーの成功・失敗のどちらにも対応できるように記述 ( サブスクライブ/subscribe ) しておくことを推奨します。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:711
 msgid ""
@@ -20726,91 +20726,91 @@ msgid ""
 " events as appropriate. Please note that these events will only fire on the "
 "Android platform and only when the Webview was destroyed during a capture "
 "operation."
-msgstr ""
+msgstr "コード内における、キャプチャー結果を処理する場所は、開発者側で自由 ( 上記の 「 ライフサイクル 」 を参照のこと ) に設定できますが、アプリ側の 「 処理の状況/状態 」 の保存と復旧は、それぞれ、`pause <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#pause>`_ イベントと `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベントで適宜行うことが必要です。なお、これらのイベントは、Android プラットフォーム上でのみ使用でき、加えて、キャプチャー実行時、WebView が強制終了された場合のみ使用できます。"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:28
 msgid ""
 "Tested Version: `2.3.0 <https://github.com/apache/cordova-plugin-"
 "media/releases/tag/2.3.0>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.3.0 <https://github.com/apache/cordova-plugin-media/releases/tag/2.3.0>`_"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:152
 msgid "media.getCurrentAmplitude"
-msgstr ""
+msgstr "media.getCurrentAmplitude"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:154
 msgid "Returns the current amplitude of the current recording."
-msgstr ""
+msgstr "録音している音の振幅 ( amplitude ) を返します。"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:169
 msgid ""
 "**mediaSuccess**: The callback that is passed the current amplitude (0.0 - "
 "1.0)."
-msgstr ""
+msgstr "**mediaSuccess**: 取得した振幅 ( 0.0 - 1.0 ) を渡して実行するコールバック"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:308
 msgid "media.pauseRecord"
-msgstr ""
+msgstr "media.pauseRecord"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:310
 msgid "Pauses recording an audio file."
-msgstr ""
+msgstr "オーディオファイルの録音を一時停止します。"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:430
 msgid "media.resumeRecord"
-msgstr ""
+msgstr "media.resumeRecord"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:432
 msgid "Resume recording an audio file."
-msgstr ""
+msgstr "オーディオファイルの録音を再開します。"
 
 #: ../doc/reference/cordova_6.2/network-information/index.rst:28
 msgid ""
 "Tested Version: `1.2.1 <https://github.com/apache/cordova-plugin-network-"
 "information/releases/tag/1.2.1>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.2.1 <https://github.com/apache/cordova-plugin-network-information/releases/tag/1.2.1>`_"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:28
 msgid ""
 "Tested Version: `3.2.2 <https://github.com/apache/cordova-plugin-"
 "splashscreen/releases/tag/3.2.2>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `3.2.2 <https://github.com/apache/cordova-plugin-splashscreen/releases/tag/3.2.2>`_"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:57
 msgid "Windows (cordova-windows version >= 4.4.0 is required)"
-msgstr ""
+msgstr "Windows ( cordova-windows バージョン 4.4.0 以上が必要 )"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:69
 msgid ""
 "``AutoHideSplashScreen`` (boolean, default to true). Indicates whether to "
 "hide splash screen automatically or not. Splash screen hidden after amount "
 "of time specified in the ``SplashScreenDelay`` preference."
-msgstr ""
+msgstr "``AutoHideSplashScreen`` ( 真偽値、デフォルトでは true ) : スプラッシュスクリーンを自動的に非表示にするかを設定します。preference 「 ``SplashScreenDelay`` 」 に指定された時間の経過後、スプラッシュスクリーンが非表示になります。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:75
 msgid ""
 "``SplashScreenDelay`` (number, default to 3000). Amount of time in "
 "milliseconds to wait before automatically hide splash screen."
-msgstr ""
+msgstr "``SplashScreenDelay`` ( 数値、デフォルトでは 3000 ) : スプラッシュスクリーンを自動的に非表示にするまでの時間 ( ミリ秒単位 ) を指定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:81
 msgid ""
 "*Note*: also that this value used to be seconds, and not milliseconds, so "
 "values less than 30 will still be treated as seconds. ( Consider this a "
 "deprecated patch that will disapear in some future version. )"
-msgstr ""
+msgstr "*備考*: 以前は、ミリ秒ではなく、秒単位で値を設定していたため、現在でも、30 未満の値を指定した場合は、「 秒 」 として処理されるようになっています ( 応急的な措置ですので、将来的には廃止します )。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:83
 msgid ""
 "To disable the splashscreen add the following preference to ``config.xml``:"
-msgstr ""
+msgstr "スプラッシュスクリーンを無効にする場合には、次の preference を ``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:92
 msgid ""
 "to disable the splashscreen on ``ios`` platform you should also add "
 "``<preference name=\"FadeSplashScreenDuration\" value=\"0\"/>`` to "
 "``config.xml``."
-msgstr ""
+msgstr "``ios`` プラットフォーム上で、スプラッシュスクリーンを無効にする場合には、上記の他に、``<preference name=\"FadeSplashScreenDuration\" value=\"0\"/>`` を ``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:106
 msgid ""
@@ -20818,56 +20818,56 @@ msgid ""
 "example if you have <preference name=\"SplashScreenDelay\" value=\"3000\" />"
 " and <preference name=\"FadeSplashScreenDuration\" value=\"1000\"/> defined "
 "in config.xml:"
-msgstr ""
+msgstr "備考 : SplashScreenDelay の処理と FadeSplashScreenDuration の処理は併用できます ( FadeSplashScreenDuration の処理を SplashScreenDelay の処理に吸収させることができます )。たとえば、<preference name=\"SplashScreenDelay\" value=\"3000\" /> と <preference name=\"FadeSplashScreenDuration\" value=\"1000\"/> を config.xml に設定した場合には、次のように処理されます。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:108
 msgid "00:00 - splashscreen is shown"
-msgstr ""
+msgstr "00:00 - スプラッシュスクリーンの表示"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:109
 msgid "00:02 - fading has started"
-msgstr ""
+msgstr "00:02 - フェード処理を開始"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:110
 msgid "00:03 - splashscreen is hidden"
-msgstr ""
+msgstr "00:03 - スプラッシュスクリーンの非表示"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:112
 msgid ""
 "Turning the fading off via ``<preference name=\"FadeSplashScreen\" "
 "value=\"false\"/>`` technically means fading duration to be ``0`` so that in"
 " this example the overall splash delay will still be 3 seconds."
-msgstr ""
+msgstr "``<preference name=\"FadeSplashScreen\" value=\"false\"/>`` の設定とフェードの処理時間を ``0`` に設定したとき ( または、0 になったとき ) の挙動は同じです。よって、上記の例では、スプラッシュスクリーンの非表示設定が優先されます。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:114
 msgid ""
 "*Note*: This only applies to the app startup - you need to take the fading "
 "timeout into account when manually showing/hiding the splashscreen in the "
 "code:"
-msgstr ""
+msgstr "*備考*: 上記のような設定は、アプリの起動のみに適用できます。よって、コード内にて、スプラッシュスクリーンの表示・非表示を手動で行う場合、たとえば、次のように、フェード処理にタイマーを設定する必要があります。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:123
 msgid ""
 "``ShowSplashScreenSpinner`` (boolean, defaults to ``true``): Set to false to"
 " hide the splash-screen spinner."
-msgstr ""
+msgstr " ``ShowSplashScreenSpinner`` ( 真偽値、デフォルトでは ``true`` ) : スプラッシュスクリーン上にスピナーを表示させない場合には、false を設定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:165
 msgid ""
 "In iOS, the splashscreen images are called launch images. These images are "
 "mandatory on iOS."
-msgstr ""
+msgstr "iOS では、スプラッシュスクリーンの画像は、「 Launch Image 」 と呼ばれています。iOS では、画像は必須となります。 "
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:170
 msgid ""
 "``SplashScreenSpinnerColor`` (string, defaults to system accent color): "
 "hash, rgb notation or CSS color name."
-msgstr ""
+msgstr "``SplashScreenSpinnerColor`` ( 文字列、デフォルトではシステム側のカラー設定を使用 ) : # 記号付きのカラーコード ( 原文 「 hash 」 のみ )、RGB、CSS のカラーネームのいずれかで指定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:178
 msgid ""
 "SplashScreenBackgroundColor (string, defaults to #464646): hex notation."
-msgstr ""
+msgstr "``SplashScreenBackgroundColor`` ( 文字列、デフォルトは #464646 ): 16 進数のカラーコードを指定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:219
 msgid ""
@@ -20880,19 +20880,19 @@ msgid ""
 " received the deviceready event. For this reason, it is unlikely you need to"
 " call ``navigator.splashscreen.show()`` to make the splash screen visible "
 "for app startup."
-msgstr ""
+msgstr "アプリ側では、アプリが起動して、``deviceready`` イベントが発火するまで、``navigator.splashscreen.show()`` を呼び出すことはできません。矛盾しますが、スプラッシュスクリーンは、アプリが起動する前に表示される画面です。よって、このような処理の方法では、スプラッシュスクリーンの表示が遅れてしまうことになります。そこで、前述のように、``config.xml`` に、いくつかの設定をあらかじめしておき、アプリの起動後、直ちに ( アプリが完全に立ち上がる前、および、 deviceready イベントが発火する前 )、スプラッシュスクリーンが自動的に ``表示される`` ようにします。よって、アプリの起動時にスプラッシュスクリーンを表示するために、``navigator.splashscreen.show()`` を使用することは、ほぼありません。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:30
 msgid ""
 "Tested Version: `2.1.3 <https://github.com/apache/cordova-plugin-"
 "statusbar/releases/tag/2.1.3>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.1.3 <https://github.com/apache/cordova-plugin-statusbar/releases/tag/2.1.3>`_"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:56
 msgid ""
 "``StatusBarOverlaysWebView`` (boolean, defaults to true). On iOS 7, make the"
 " statusbar overlay or not overlay the WebView at startup."
-msgstr ""
+msgstr "``StatusBarOverlaysWebView`` ( 真偽値、デフォルトでは true )。アプリの起動時、WebView 上にステータスバーを置くか ( overlay/オーバーレイ ) 否かを設定します。iOS 7 が対象です。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:62
 msgid ""
@@ -20906,7 +20906,7 @@ msgid ""
 "``StatusBarStyle`` (status bar style, defaults to lightcontent). On iOS 7, "
 "set the status bar style. Available options default, lightcontent, "
 "blacktranslucent, blackopaque."
-msgstr ""
+msgstr "``StatusBarStyle`` ( ステータスバーのスタイル、デフォルトは lightcontent )。ステータスバーのスタイル ( 色 ) を設定します。 default、lightcontent、blacktranslucent、blackopaque のいずれかを設定できます。iOS 7 が対象です。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:77
 msgid ""
@@ -20919,23 +20919,23 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:131
 msgid "**config.xml**"
-msgstr ""
+msgstr "**config.xml**"
 
 #: ../doc/reference/cordova_6.2/vibration/index.rst:28
 msgid ""
 "Tested Version: `2.1.1 <https://github.com/apache/cordova-plugin-"
 "vibration/releases/tag/2.1.1>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `2.1.1 <https://github.com/apache/cordova-plugin-vibration/releases/tag/2.1.1>`_"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:29
 msgid ""
 "Tested Version: `1.2.2 <https://github.com/apache/cordova-plugin-"
 "whitelist/releases/tag/1.2.2>`_"
-msgstr ""
+msgstr "テスト環境 ( バージョン番号 ) : `1.2.2 <https://github.com/apache/cordova-plugin-whitelist/releases/tag/1.2.2>`_"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:49
 msgid "Android 4.0 or above"
-msgstr ""
+msgstr "Android 4.0 以上"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:66
 msgid ""
@@ -24855,7 +24855,7 @@ msgstr "Monaca API"
 msgid ""
 ":file:`monaca-core-utils.js` provides a means to access each function of "
 "Monaca. Native page transitions and UI components are supported."
-msgstr ":file:`monaca-core-utils.js` を使用して、Monaca に実装されている各種機能にアクセスします。また、Monaca では、独自のページ遷移用の関数と UI コンポーネントを提供しています ( 本ドキュメントでは、これらの関数・コンポーネントは、「 Monaca API/ネイティブ関数 」、「 ネイティブ UI コンポーネント/ネイティブ ～ 」 などど、それぞれ呼ばれています。また、「 ネイティブ 」 という言葉は、iOS と Android 側のコードを表す場合にも使用されています。この点を留意して、ドキュメントをお読みください )。"
+msgstr ":file:`monaca-core-utils.js` を使用して、Monaca に実装されている各種機能にアクセスします。また、Monaca では、独自のページ遷移用の関数と UI コンポーネントを提供しています [ 翻訳メモ : 本ドキュメントでは、これらの関数・コンポーネントは、「 Monaca API/ネイティブ関数 」、「 ネイティブ UI コンポーネント/ネイティブ ～ 」 などと、それぞれ呼ばれています。また、「 ネイティブ 」 という言葉は、iOS と Android 側のコードを表す場合にも使用されています ( 「 ネイティブコード 」 )。この点を留意して、ドキュメントをお読みください ]。"
 
 #: ../doc/reference/monaca_api/index.rst:6
 msgid ""

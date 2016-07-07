@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-29 02:49+0000\n"
+"PO-Revision-Date: 2016-07-01 02:56+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -4365,7 +4365,7 @@ msgid ""
 "using :guilabel:`Import Cordova Plugin` button. A project containing "
 "external third-party Cordova plugin(s) requires a custom built Monaca "
 "Debugger. Please refer to :ref:`debugger_for_custom_plugins`."
-msgstr "「 Cordova とプラグインの管理 」 ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧表示されます。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
+msgstr "[ Cordova とプラグインの管理 ] ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧表示されます。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:120
 msgid ""
@@ -4401,8 +4401,8 @@ msgid "Your custom Cordova plugin need to follow the requirements below:"
 msgstr "ユーザー Cordova プラグインの使用に必要な要件を、次に記します。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:21
-msgid "It must be compatible with Cordova 4.1."
-msgstr "Cordova 4.1 との互換性"
+msgid "It should be compatible with Cordova 4.2 or higher."
+msgstr "Cordova 4.2 以上との互換性"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:22
 msgid ""
@@ -4524,7 +4524,7 @@ msgstr "プラットフォームにもよりますが、ネイティブコード
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:134
 msgid "Here are the guides about native code development."
-msgstr "ネイティブコードの開発に関しては、下記のリンクをご確認ください。"
+msgstr "ネイティブコードの開発に関しては、次のリンクをご確認ください。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:136
 msgid ""
@@ -4562,7 +4562,7 @@ msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 
 msgid ""
 "Then, \"Manage Cordova Plugins\" page will be shown. Click on "
 ":guilabel:`Import Cordova Plugin` button."
-msgstr "「 Cordova とプラグインの管理 」 ページが表示されます。次に、:guilabel:`Cordova プラグインのインポート` ボタンをクリックします。"
+msgstr "[ Cordova とプラグインの管理 ] ページが表示されます。次に、:guilabel:`Cordova プラグインのインポート` ボタンをクリックします。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:158
 msgid "Then, browse your plugin file (zip file) and click :guilabel:`Import`."
@@ -4581,7 +4581,7 @@ msgid ""
 "the standard Monaca Debugger cannot be used with Monaca projects containing "
 "custom or other external third-party Cordova plugins. In this case, custom "
 "built Monaca Debugger is required to run such projects properly."
-msgstr "App Store または Google Play で入手できる Monaca デバッガーは、通常版のデバッガーです。こちらの通常版 Monaca デバッガーには、基本 Cordova プラグイン ( コアプラグイン ) とサードパーティー製の Cordova プラグイン ( Monaca 側であらかじめ提供しているサードパーティー製のプラグインとその詳細は、:ref:`third_party_cordova_index` を参照のこと ) のみが実装されています。このため、デフォルトの状態では、ユーザー Cordova プラグインまたは外部の Cordova プラグイン ( 第三者が提供する、Monaca 側で用意しているプラグイン以外 ) は、デバッガー上で使用できません。これらのプラグインを使用する場合、Monaca デバッガーをカスタムビルドする必要があります。"
+msgstr "App Store または Google Play で入手できる Monaca デバッガーは、通常版のデバッガーです。こちらの通常版 Monaca デバッガーには、基本 Cordova プラグイン ( Cordova コアプラグイン ) とサードパーティー製の Cordova プラグイン ( Monaca 側であらかじめ提供しているサードパーティー製のプラグインとその詳細は、:ref:`third_party_cordova_index` を参照のこと ) のみが実装されています。このため、デフォルトの状態では、ユーザー Cordova プラグインまたは外部の Cordova プラグイン ( 第三者が提供する、Monaca 側で用意しているプラグイン以外 ) は、デバッガー上で使用できません。これらのプラグインを使用する場合、Monaca デバッガーをカスタムビルドする必要があります。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:174
 msgid ""
