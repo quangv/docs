@@ -42,7 +42,7 @@ This plugin provides access to the device's accelerometer. The accelerometer is 
 
 Access is via a global ``navigator.accelerometer`` object.
 
-Although the object is attached to the global scoped ``navigator``, it is not available until after the ``deviceready`` event.
+Although the object is attached to the global scope ``navigator``, it is not available until after the ``deviceready`` event.
 
 ::
 

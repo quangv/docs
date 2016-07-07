@@ -263,8 +263,7 @@ You can change the permissions for each Collection item for specific users.
 There are two type of users:
 
 1. Owner refers to the user who create the Collection. Owner will always be granted read and write permissions.
-
-2 Public refers to all users who are not logged in. By default, they are not granted the read or write permissions.
+2. Public refers to all users who are not logged in. By default, they are not granted the read or write permissions.
 
 In order to change the user's permission for each Collection Item, please do as follows:
 

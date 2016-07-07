@@ -9,7 +9,7 @@ General
     <ul class="simple">
       <li><a class="reference internal" href="#what-is-monaca" id="id4">What is Monaca?</a></li>
       <li><a class="reference internal" href="#can-i-use-monaca-for-free" id="id5">Can I use Monaca for free?</a></li>
-      <li><a class="reference internal" href="#what-is-phonegap" id="id6">What is PhoneGap?</a></li>
+      <li><a class="reference internal" href="#what-is-phonegap" id="id6">What is Cordova Core Plugins?</a></li>
       <li><a class="reference internal" href="#can-i-develop-commercial-smartphone-applications-using-monaca" id="id7">Can I develop commercial smartphone applications using Monaca?</a></li>
       <li><a class="reference internal" href="#i-don-t-understand-something-about-monaca-where-can-i-ask-questions" id="id8">I don’t understand something about Monaca. Where can I ask questions?</a></li>
       <li><a class="reference internal" href="#do-i-need-a-platinum-plan-to-develop-commercial-application-or-oem-application" id="id9">Do I need a Platinum Plan to develop commercial application or OEM application?</a></li>
@@ -38,7 +38,7 @@ General
     <ul class="simple">
       <li><a class="reference internal" href="#what-is-monaca" id="id4">Monaca とは？</a></li>
       <li><a class="reference internal" href="#can-i-use-monaca-for-free" id="id5">Monaca は無料で使えますか？</a></li>
-      <li><a class="reference internal" href="#what-is-phonegap" id="id6">PhoneGap とは何ですか？</a></li>
+      <li><a class="reference internal" href="#what-is-phonegap" id="id6">Cordova Core Plugins とは何ですか？</a></li>
       <li><a class="reference internal" href="#can-i-develop-commercial-smartphone-applications-using-monaca" id="id7">Monaca で商用のスマートフォン向けアプリを開発しても良いですか？</a></li>
       <li><a class="reference internal" href="#i-don-t-understand-something-about-monaca-where-can-i-ask-questions" id="id8">Monaca についてわからないことがあります。どこか質問できるところはありますか？</a></li>
       <li><a class="reference internal" href="#do-i-need-a-platinum-plan-to-develop-commercial-application-or-oem-application" id="id9">商用アプリの開発またはアプリの受託開発 ( OEM ) には、Platinum プランが必要ですか？</a></li>
@@ -79,9 +79,9 @@ If you are new to Monaca and interested to try it, please `sign up <https://mona
 
 .. _faq01~003:
 
-What is PhoneGap?
+What is Cordova Core Plugins?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PhoneGap is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes PhoneGap to access the unique features of smartphones using JavaScript. For more information of PhoneGap usage in Monaca, please refer to :ref:`monaca_with_phonegap` and `here <http://docs.phonegap.com/>`_ . 
+Cordova Core Plugins is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ . 
 
 .. _faq01~004:
 

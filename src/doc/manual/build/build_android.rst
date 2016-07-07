@@ -62,7 +62,7 @@ Step 1: Configure Android App
         | Version Code            | an internal version number of your app, relative to other versions. The value must be integer,  |
         |                         | so that the applications can programmatically evaluate it for an upgrade.                       |
         +-------------------------+-------------------------------------------------------------------------------------------------+
-        | Fullscreen              | this option is only available with the PhoneGap 3.5 and later. If enable, your app will be run  |
+        | Fullscreen              | this option is only available with the Cordova 3.5 and later. If enable, your app will be run   |
         |                         | in a fullscreen mode which hide the status bar.                                                 |
         +-------------------------+-------------------------------------------------------------------------------------------------+
 
@@ -88,7 +88,7 @@ Step 1: Configure Android App
         |                     |                | beyond the edge of the webview.                                       |
         +---------------------+----------------+-----------------------------------------------------------------------+
         | WebView Engine      | Stock WebView  | Set to High Performance (Crosswalk) for a more powerful and larger    |
-        |                     |                | app size. It's required Android 4.0 and up. For phonegap 5.2 and      |
+        |                     |                | app size. It's required Android 4.0 and up. For Cordova 5.2 and       |
         |                     |                | and higher, Stock WebView will be applied as default.                 |
         +---------------------+----------------+-----------------------------------------------------------------------+
         | Screen Orientation  | Default        | You can also set the device's screen orientation when running your    |
@@ -151,13 +151,7 @@ Step 3: Start Building
 
   .. rst-class:: clear
 
-3. Select the CPU architecture. ARM option is recommended since it has higher compatibility. For more information regarding the CPU architecture and its differences, please refer to `CPUs and Architectures <http://developer.android.com/ndk/guides/arch.html>`_. If you choose Release Build option in Step 2, you may also need to select an alias to sign your package.
-
-  .. figure:: images/android/5.png
-    :width: 500px
-    :align: left
-
-    Debug Build
+3. If you choose Release Build option in Step 2, you may also need to select an alias to sign your package.
 
   .. figure:: images/android/6.png
     :width: 500px

@@ -10,7 +10,8 @@
     <title>Monaca Docs - Cloud-powered Cordova Dev Platform</title>
   {{/if}}
   
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="/static/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
   <script src="/static/js/jquery.fancybox.pack.js"></script>
   <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
@@ -27,11 +28,14 @@
 
   <script type="text/javascript" src="/static/js/util.js"></script>
   <script type="text/javascript" src="/static/js/jquery.highlight-4.closure.js"></script>
+  <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
   <script type="text/javascript">
     var LANG = "{{lang}}";
     var VERSION = "{{VERSION}}";
   </script>
   <script type="text/javascript" src="/static/js/main.js"></script>
+  <script type="text/javascript" src="/static/js/google_search_en.js"></script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-526750-24']);
@@ -64,7 +68,7 @@
       </nav>
     
     <!-- {{#if fjson.title}}     -->
-      <div class="breadcrumb">
+      <div class="title_breadcrumb">
         {{#is lang "ja"}}
           <a href="/ja/">ドキュメントTOP</a>
         {{else}}
@@ -106,6 +110,10 @@
   <script>
     function switchLanguage(currentLanguage,switchLanguage) {
       location.href = location.href.replace(currentLanguage,switchLanguage);
+    }
+    function switchVersion(switchVersion) {
+      var currentVersion = "{{cordovaVersion.versionPath}}";
+      location.href = location.href.replace(currentVersion, switchVersion);
     }
     if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
       document.body.classList.add("home");

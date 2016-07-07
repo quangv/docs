@@ -40,18 +40,22 @@ msgid "Go to Dashboard"
 msgstr ""
 
 #: ../doc/onsenui/index.rst:30
-msgid "Go to Dashboard and click *New Project*"
+msgid "Go to Dashboard and click *Create Project*"
 msgstr ""
 
 #: ../doc/onsenui/index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:42
+#: ../doc/onsenui/index.rst:43
+msgid "Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 framework type since it requires to transpile the source code to Javascript. Therefore, you need to setup the local environment with :ref:`Monaca CLI<cli_overview>`."
+msgstr ""
+
+#: ../doc/onsenui/index.rst:46
 msgid "Where to go from here"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:44
+#: ../doc/onsenui/index.rst:48
 msgid "Now you have Onsen UI installed. See examples in `Onsen UI Docs <http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI components."
 msgstr ""
 

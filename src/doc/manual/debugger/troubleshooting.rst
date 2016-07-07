@@ -13,13 +13,13 @@ Debugger Troubleshooting Guide
 Fail to Pair Monaca Debugger
 ================================================
 
-Several reasons can be considered when Monaca Debugger fails to pair with Monaca Localkit.
+Several reasons can be considered when Monaca Debugger fails to pair with the host PC such as:
 
-1. Monaca Debugger can see Monaca Localkit but fail to pair: this is most likely a firewall problem in the host PC. Localkit needs to accept TCP connection from the debugger. Port `8001` will be used, and you can change the server port in :ref:`Preferences dialog<localkit_preference>`. Please change the port or configure your firewall settings to try agian.
+1. Monaca Debugger can see the host PC but fail to pair: this is most likely a firewall problem in the host PC. The host PC needs to accept TCP connection from the debugger. Port `8001` will be used, and you can change the server port in :ref:`Preferences dialog<localkit_preference>`. Please change the port or configure your firewall settings to try agian.
 
-2. Monaca Debugger does not detect Monaca Localkit: please check and see if your device and the host PC are connected to the same network. If they are connected to the same network but Monaca Debugger still can't detect the host PC, please do a manual pairing.
+2. Monaca Debugger does not detect the host PC: please check and see if your device and the host PC are connected to the same network. If they are connected to the same network but Monaca Debugger still can't detect the host PC, please do a manual pairing.
 
-You can manually pair Monaca Debugger with Monaca Localkit as follows:
+You can manually pair Monaca Debugger with the host PC as follows:
 
 1. From Monaca Debugger, click on the toggle menu on the top-left corner and select :guilabel:`Local Computers` button.
 
@@ -53,7 +53,9 @@ You can manually pair Monaca Debugger with Monaca Localkit as follows:
 
 *IP Address and Port Number*
 
-IP address and port number are needed to establish the communication path between Monaca Debugger and Monaca Localkit. IP address represents the host PC and port number (set to 8001 by default) represents Monaca Localkit. Please note that the communication can't be established if the port number you use is not opened or is already used.
+IP address and port number are needed to establish the communication path between Monaca Debugger and the host PC. IP address represents the host PC and port number (set to 8001 by default) represents Monaca local development tool (such as Monaca CLI, Localkit or Monaca for Visual Studio). Please note that the communication can't be established if the port number you use is not opened or is already used.
+
+.. note:: In case, you are using more than one of Monaca local development tools at the same time on the same host PC, you are required to use different port for each tool. Otherwise, the pair will fail.
 
 +------------------+------------------------------------------------------------------+------------------------------------------------+
 |*OS*              | Mac                                                              | Windows                                        |

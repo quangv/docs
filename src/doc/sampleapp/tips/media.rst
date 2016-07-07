@@ -93,7 +93,7 @@ This API can be used to play sound located locally. It is compatible with both i
 Using Media API to Play Sound Effects
 ---------------------------------------------
 
-This sample modifies `Fortune Teller App <http://docs.monaca.mobi/sampleapp/samples/omikuji>`_ and adds a sound effect to it. This sample app will have different sounds for each fortune result. You will need to place *mp3* files and modify :file:`index.html` as follows.
+This sample modifies `Fortune Teller App <https://docs.monaca.io/en/sampleapp/samples/omikuji/>`_ and adds a sound effect to it. This sample app will have different sounds for each fortune result. You will need to place *mp3* files and modify :file:`index.html` as follows.
 
 
 

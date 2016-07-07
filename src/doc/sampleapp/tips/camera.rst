@@ -7,7 +7,7 @@ Using Camera and Photo Album
 
 *  This sample code is confirmed to work with Android 2.3.6, Android 3.2, Android 4.0.3 and iOS 7.0.4.
 
-You will need to use PhoneGap Camera API to access the camera of a device. In order to use PhoneGap API, you need to load :file:`components/loader.js` file. Please be sure to add the following lines in the HTML files. 
+You will need to use Cordova Camera API to access the camera of a device. In order to use Cordova API, you need to load :file:`components/loader.js` file. Please be sure to add the following lines in the HTML files. 
 
 ::
 
@@ -20,7 +20,7 @@ You will need to use PhoneGap Camera API to access the camera of a device. In or
    ...
 
 
-PhoneGap has two JavaScript "Camera" object APIs. 
+Cordova has two JavaScript "Camera" object APIs. 
 
 +----------------+------------------------------------------------------------------------------+
 |Function        |Description                                                                   |
@@ -84,7 +84,7 @@ The 3rd argument of ``getPicture()`` function has ``"sourceType: navigator.camer
 Camera API Options
 ========================================
 
-``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check `Camera <http://docs.monaca.mobi/reference/phonegap_34/en/camera/camera/>`_ for more details. 
+``getPicture()`` function has the following options. You can adjust Camera API behavior by overriding the default values listed here. Please note that this is not fully documented. Please check :ref:`Camera <phone_gap_camera>` for more details. 
 
 .. rst-class:: wide-table
 

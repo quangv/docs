@@ -37,6 +37,7 @@ module.exports = function(options) {
       "cordova_3.5": "3.5",
       "cordova_4.1": "4.1",
       "cordova_5.2": "5.2",
+      "cordova_6.2": "6.2",
     };
     for (file in files) {
       var path = nodePath.join(metalsmith.source(), file);

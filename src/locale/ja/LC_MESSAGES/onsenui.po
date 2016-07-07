@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-15 12:22+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-06-29 03:02+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgid ""
 "flexible and gives hybrid apps a native look and feel on all platforms. And "
 "when used with Monaca, it is simple to add backend features and device "
 "support, resulting in a publishable app."
-msgstr "**Onsen UI** はフロントエンド開発用のツールです。**Onsen UI** が提供する UI を使用すれば、PhoneGap / Cordova アプリを飛躍的に改善できます。他のフレームワークよりも洗練された柔軟性を持ち、ハイブリッドアプリにおいても、ネイティブ並みの外観と操作性を、すべてのプラットフォーム上で実現できます。Monaca と共に使用すれば、バックエンド機能の追加と各種端末のサポートを容易に行え、公開可能なアプリを簡単に作成できます。"
+msgstr "**Onsen UI** はフロントエンド開発用のツールです。**Onsen UI** が提供する UI を使用すれば、PhoneGap/Cordova アプリを飛躍的に改善できます。他のフレームワークよりも洗練された柔軟性を持ち、ハイブリッドアプリにおいても、ネイティブ並みの外観と操作性を、すべてのプラットフォーム上で実現できます。Monaca と共に使用すれば、バックエンド機能の追加と各種端末のサポートを容易に行え、配布可能なアプリを簡単に作成できます。"
 
 #: ../doc/onsenui/index.rst:22
 msgid ""
@@ -49,18 +49,26 @@ msgid "Go to Dashboard"
 msgstr "ダッシュボード画面の表示"
 
 #: ../doc/onsenui/index.rst:30
-msgid "Go to Dashboard and click *New Project*"
-msgstr "ダッシュボード画面を表示して *開発をスタート* をクリックします。"
+msgid "Go to Dashboard and click *Create Project*"
+msgstr "ダッシュボードへ移動して、*新規プロジェクトの作成* を選択します。"
 
 #: ../doc/onsenui/index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr "用途に合ったテンプレートを 1 つ選択"
 
-#: ../doc/onsenui/index.rst:42
+#: ../doc/onsenui/index.rst:43
+msgid ""
+"Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 "
+"framework type since it requires to transpile the source code to Javascript."
+" Therefore, you need to setup the local environment with :ref:`Monaca "
+"CLI<cli_overview>`."
+msgstr "現在、Monaca クラウド IDE 上では、Onsen UI コンポーネントと Angular 2 フレームワークを併用したテンプレートを提供していません。Monaca クラウド IDE では、ソースコースから JavaScript への変換処理 ( トランスパイル/transpile ) を現在サポートしていないためです。なお、:ref:`Monaca CLI<cli_overview>` ( ローカル環境用の開発ツール ) では、このタイプのテンプレートをリリースしています。"
+
+#: ../doc/onsenui/index.rst:46
 msgid "Where to go from here"
 msgstr "テンプレート選択後の手順に関して"
 
-#: ../doc/onsenui/index.rst:44
+#: ../doc/onsenui/index.rst:48
 msgid ""
 "Now you have Onsen UI installed. See examples in `Onsen UI Docs "
 "<http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI "

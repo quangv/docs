@@ -1,14 +1,27 @@
+
 <aside class="global">
-  <!--
+  
   <div class="aside-search">
-    <input type="text" id="searchbox" placeholder="{{#is lang "en"}}Input Your Keywords{{else}}キーワードを入力してください{{/is}}">
-    <span class="button" id="aside-search-clear" style="display: none"></span>
+      <script>
+        (function() {
+          var cx = '007288577541380389757:zvd2mhxh88y';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search style="padding: 0"></gcse:search>
+    <!-- <input type="text" id="searchbox" placeholder="{{#is lang "en"}}Input Your Keywords{{else}}キーワードを入力してください{{/is}}">
+    <span class="button" id="aside-search-clear" style="display: none"></span> -->
   </div>
-  -->
+  
   <nav class="aside-main">
     <div class="aside-search-result-info" style="display: none"></div>
     <div id="spinner" class="spinner" style="display:none;margin-top:50%;margin-left:50%;"></div>
-    {{{toctree}}}
+      {{{toctree}}}
     </div>
   </nav>
 </aside>

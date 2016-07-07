@@ -406,7 +406,6 @@ Errors Code
   ============ ========================================================================================================================================
 
 Example:
-
   The following code will update the password of a current user from ``"pass123"`` to ``"newPass123"``.
 
   .. code-block:: javascript

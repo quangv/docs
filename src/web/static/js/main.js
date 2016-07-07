@@ -228,7 +228,7 @@ $(function(){
     })
     .fail(function(xhr, textStatus) {
       if(textStatus !== 'abort'){
-        alert("Search failed!");
+        alert("Search failed!" + textStatus + "-" + xhr);
       }
     })
     .always(function(){

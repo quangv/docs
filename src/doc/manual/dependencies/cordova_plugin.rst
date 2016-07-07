@@ -7,7 +7,7 @@ Cordova Plugins
 .. rst-class:: right-menu
 
 
-.. _monaca_with_phonegap:
+.. _monaca_with_cordova:
 
 Introduction
 ================================================

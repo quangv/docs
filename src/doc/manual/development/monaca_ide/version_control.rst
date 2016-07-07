@@ -1,3 +1,5 @@
+.. _version_control:
+
 ================================================
 Version Control (GitHub)
 ================================================
@@ -169,7 +171,7 @@ Once you have linked your Monaca account with GitHub, you can import any existin
 
 1. Log into `Monaca Cloud IDE <https://monaca.mobi/en/login>`_ with your Monaca account.
 
-2. From Dashboard, go to :menuselection:`New Project --> Import Project`.
+2. From Dashboard, go to :menuselection:`Import Project`.
 
 3. In Import Project dialog, fill in the necessary information and choose ``Import from GitHub Repository``. Then, select the repository and click on :guilabel:`Import` button.
 

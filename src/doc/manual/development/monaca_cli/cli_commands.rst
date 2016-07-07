@@ -50,7 +50,6 @@ Example
 .. rst-class:: function-reference
 
 
-
 .. _monaca_create:
 
 .. rst-class:: function-reference
@@ -58,51 +57,26 @@ Example
 monaca create
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template.
+Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. With this command, you can choose to create a new project with two options such as ``Sample Apps`` and ``Templates``.
 
-:dfn:`$ monaca create path [name]`
+:dfn:`$ monaca create path`
 
 Parameters
   =============== ============================================================================================================
   ``path``         location where you want to store your project files 
-  ``name``         project name
   =============== ============================================================================================================
 
 Example
-  The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside "Documents/CLI/MyProject" folder:
+  The following snippet shows how to create a new project based on a ``jQuery TODO App`` sample app under "MyCLIProject" folder:
 
   .. code-block:: bash
 
-      $ monaca create Documents/CLI/MyProject SlidingProject
-      Which project template do you use?
+      $ monaca create MyCLIProject
+      Select an option: Sample Apps
+      Select a sample app: jQuery TODO App
+      Downloading template...
 
-      1: Hello World App
-      2: Minimum Template
-      3: RSS Reader Example
-      4: Memo Application
-      5: Break the Bricks
-      6: Onsen UI Minimum Template
-      7: Onsen UI Sliding Menu
-      8: Onsen UI Tabbar
-      9: Onsen UI Master-Detail
-      10: Twitter Client
-      11: Facebook Client
-      12: Backend Memo
-      13: Inmobi Client
-      14: Flickr Sample
-      15: TODO App
-      16: Train Catalog
-      17: Clock App
-      18: BirthYear App
-      19: Omikuji Fortune Telling App
-      20: iBeacon
-      21: NIFTY Cloud mobile backend
-      22: Onsen UI Minimum Template for Universal App
-      
-      Type number>7
       Project created successfully.
-
-.. rst-class:: function-reference
 
 
 .. _monaca_clone:
@@ -112,7 +86,8 @@ Example
 monaca clone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC.
+Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have on Monaca Cloud. Then, use the arrow keys to select the project you want to clone. Next, input the directory path for the cloned project and wait for project files to be downloaded.
+
 
 .. note:: If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project.
 
@@ -120,22 +95,18 @@ Clones a project from Monaca Cloud. Firstly, it will display a list of all proje
 
 
 Example
-  Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into "MyProjectFolder/CloneRssProject" folder on your local PC.
+  Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into "ClonedMemoApp" folder on your local PC.
 
   .. code-block:: bash
 
       $ monaca clone
       Fetching project list...
-      Please choose one of the following projects:
-
-        1. RSS Reader Example
-        2. HelloCordova
-        3. Onsen UI Sliding Menu
-        4. Hello World App
-        5. Monaca Tunes
-
-      Project number: 1
-      Destination directory: MyProjectFolder/CloneRssProject
+      Which project would you like to synchronize? Memo Application
+      Destination directory: ClonedMemoApp
+      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ClonedMemoApp
+      ...
+      Project successfully cloned from Monaca Cloud!
+      
 
 .. rst-class:: function-reference
 
@@ -154,22 +125,18 @@ Imports a project from Monaca Cloud. Firstly, it will display a list of all proj
 :dfn:`$ monaca import`
   
 Example
-  Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into "MyProjectFolder/ImportRssProject" folder on your local PC.
+  Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApp" folder on your local PC.
 
   .. code-block:: bash
 
       $ monaca import
       Fetching project list...
-      Please choose one of the following projects:
+      Which project would you like to synchronize? Memo Application
+      Destination directory: ImportedMemoApp
+      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ImportedMemoApp
+      ...
+      Project successfully imported from Monaca Cloud!
 
-        1. RSS Reader Example
-        2. HelloCordova
-        3. Onsen UI Sliding Menu
-        4. Hello World App
-        5. Monaca Tunes
-
-      Project number: 1
-      Destination directory: MyProjectFolder/ImportRssProject
 
 .. rst-class:: function-reference
 
@@ -407,19 +374,21 @@ Please refer to :ref:`build_index` for more information on how to:
 - build the application for each platform
 - get/install the built apps. 
 
-:dfn:`$ monaca remote build [options]`
+:dfn:`$ monaca remote build <platform> [options]`
 
 Options:
   =========================================== ==============================================================================================
-    ``--platform``                              builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
+    ``platform``                                builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
     ``--build-type``                            chooses the build type. It can be: 
 
                                                   - ``debug`` (for iOS, Android and Windows. It is default option.)
                                                   - ``test`` (for iOS only)
-                                                  - ``release`` (for iOS, Android and Chrome Apps)
+                                                  - ``release`` (for iOS and Android)
 
+    ``--output``                                the path in which the built file will be stored (specify also the filename).
     ``--android_webview``                       if the platform is ``android``. It can be: ``default`` or ``crosswalk``.
     ``--android_arch``                          required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``.
+    ``--browser``                               opens the build process in a browser (see the screenshots below).
   =========================================== ==============================================================================================
 
 Example
@@ -427,12 +396,11 @@ Example
 
   .. code-block:: bash
 
-      $ monaca remote build 
-      $ monaca remote build --platform=ios --build-type=test
-      $ monaca remote build --platform=android --build-type=debug --android_webview=crosswalk --android_arch=arm
+      $ monaca remote build ios
+      $ monaca remote build ios --build-type=debug
+      $ monaca remote build android --build-type=debug --android_webview=crosswalk --android_arch=arm
+      $ monaca remote build --browser
 
-
-.. note:: If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below). 
 
 .. figure:: images/cli_commands/4.png
   :width: 600px

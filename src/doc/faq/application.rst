@@ -34,11 +34,11 @@ What kind of features can be used in applications developed using Monaca?
 With Monaca you can develop applications that are able to use all types of unique features on smartphones.(Camera, GPS, etc.)
 Please refer to the document below.
 
-* `PhoneGap API English <http://docs.monaca.mobi/3.5/en/reference/phonegap_34/en/>`_ 
-* `PhoneGap API Japanese <http://docs.monaca.mobi/3.5/ja/reference/phonegap_34/ja/>`_ 
+* `Cordova Core Plugins English <http://s.docs.monaca.io/en/reference/cordova_5.2/>`_ 
+* `Cordova Core Plugins Japanese <http://s.docs.monaca.io/ja/reference/cordova_5.2/>`_ 
 * :doc:`../sampleapp/index`
 
-Windows Store apps are not compatible with PhoneGap API, but compatible with developments that used WinJS. 
+Windows Store apps are not compatible with Cordova Core Plugins, but compatible with developments that used WinJS. 
 
 
 .. _faq04~004:
@@ -107,7 +107,7 @@ For Windows Store app development, native JavaScript and HTML5 features are used
 Can I develop a full-screen app?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    
-You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <http://docs.monaca.mobi/reference/config/ios_configuration/>`_ . 
+You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ . 
 
 .. _faq04~012:
 
@@ -184,7 +184,7 @@ Cordova APIs (such as camera, compass, and so on) are not working
 
 When using Cordova APIs (such as camera, compass, and so on), you need to make sure that those APIs are called after they have loaded and are ready to access. 
 
-The ``deviceready`` event fires once the Cordova has fully loaded. You can safely use Cordova APIs when this event is fired. For more information, please refer to `deviceready event <http://docs.phonegap.com/en/4.0.0/cordova_events_events.md.html#deviceready>`_.
+The ``deviceready`` event fires once the Cordova has fully loaded. You can safely use Cordova APIs when this event is fired. For more information, please refer to `deviceready event <http://cordova.apache.org/docs/en/6.x/cordova/events/events.html#deviceready>`_.
 
 .. note:: For Onsen UI, ``ons.ready()`` function is called when both ``deviceready`` and ``DOMContentLoaded`` events are fired. Therefore, you can deal with both events by using ``ons.ready()`` function.
 

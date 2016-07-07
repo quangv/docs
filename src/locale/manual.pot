@@ -302,48 +302,48 @@ msgstr ""
 msgid "Owner refers to the user who create the Collection. Owner will always be granted read and write permissions."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:267
-msgid "2 Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
+#: ../doc/manual/backend/control_operations.rst:266
+msgid "Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:269
+#: ../doc/manual/backend/control_operations.rst:268
 msgid "In order to change the user's permission for each Collection Item, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:271
+#: ../doc/manual/backend/control_operations.rst:270
 msgid "From the Collection tab, click on :guilabel:`Permission` icon of an item."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:279
+#: ../doc/manual/backend/control_operations.rst:278
 msgid "The Permission dialog will appear. You can change the permissions for each Collection item for specific users. If your app has more than one user, a list of users will appear in the combo box for you to choose from. By ticking the checkbox of :guilabel:`read` or :guilabel:`write` , and clicking the :guilabel:`Add` button, these new permission settings will be added for the selected user."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:287
+#: ../doc/manual/backend/control_operations.rst:286
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:182
 msgid "Click :guilabel:`Save`."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:293
+#: ../doc/manual/backend/control_operations.rst:292
 msgid "Mail Template Management"
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:296
+#: ../doc/manual/backend/control_operations.rst:295
 msgid "You can edit/create the template for emails sent to your app's users."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:298
+#: ../doc/manual/backend/control_operations.rst:297
 msgid "From Backend Control Panel, select :guilabel:`Mail Template`."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:300
+#: ../doc/manual/backend/control_operations.rst:299
 msgid "Then, the mail template will apear. You can then edit/add mail template."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:309
+#: ../doc/manual/backend/control_operations.rst:308
 msgid "Click :guilabel:`Apply` after you finish editing/creating the template."
 msgstr ""
 
-#: ../doc/manual/backend/control_operations.rst:311
+#: ../doc/manual/backend/control_operations.rst:310
 msgid "Mail templates can only be edited/created from the Monaca Cloud IDE."
 msgstr ""
 
@@ -466,14 +466,14 @@ msgstr ""
 
 #: ../doc/manual/backend/control_panel.rst:141
 #: ../doc/manual/backend/push_notification/overview.rst:112
-#: ../doc/manual/build/build_android.rst:179
+#: ../doc/manual/build/build_android.rst:173
 #: ../doc/manual/build/build_chrome_app.rst:96
 #: ../doc/manual/build/build_history.rst:32
 #: ../doc/manual/build/build_winrt.rst:166
 #: ../doc/manual/build/ios/build_ios.rst:296
 #: ../doc/manual/build/ios/import_export.rst:154
 #: ../doc/manual/debugger/debug.rst:307
-#: ../doc/manual/debugger/features.rst:198
+#: ../doc/manual/debugger/features.rst:163
 #: ../doc/manual/debugger/installation/debugger_android.rst:156
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:106
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:139
@@ -490,7 +490,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_ide/editor.rst:61
 #: ../doc/manual/development/monaca_ide/type_script.rst:313
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:53
-#: ../doc/manual/development/monaca_localkit/overview.rst:225
+#: ../doc/manual/development/monaca_localkit/overview.rst:233
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:73
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:66
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
@@ -508,7 +508,7 @@ msgid ":ref:`backend_database_memo`"
 msgstr ""
 
 #: ../doc/manual/backend/index.rst:5
-#: ../doc/manual/development/monaca_ide/overview.rst:235
+#: ../doc/manual/development/monaca_ide/overview.rst:261
 msgid "Monaca Backend"
 msgstr ""
 
@@ -567,7 +567,7 @@ msgstr ""
 
 #: ../doc/manual/backend/push_notification/apns.rst:30
 #: ../doc/manual/backend/push_notification/apns.rst:105
-#: ../doc/manual/backend/push_notification/gcm.rst:100
+#: ../doc/manual/backend/push_notification/gcm.rst:123
 msgid "From the Backend Panel in Monaca Cloud IDE, go to :menuselection:`Push Notification --> Backend Settings --> Push Configuration`."
 msgstr ""
 
@@ -670,70 +670,78 @@ msgid "In this example, we assume that you haven't registered your application t
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:25
-msgid "Go to `Google Developer Console <https://console.developers.google.com/project>`_."
+msgid "Go to `Google API Console <https://console.developers.google.com/>`_. and sign in with a valid Google account."
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:27
-msgid "Sign in using your Google account."
+msgid "Click on :guilabel:`Create a project`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:29
-msgid "Click :guilabel:`Create Project`."
+#: ../doc/manual/backend/push_notification/gcm.rst:35
+msgid "Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project Overview page will appear."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:31
-msgid "Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project dashboard page will appear."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:39
-msgid "From the left menu, go to :menuselection:`API & auth --> APIs --> Cloud Messaging for Android`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:47
-msgid "Click :guilabel:`Enable API`."
+#: ../doc/manual/backend/push_notification/gcm.rst:43
+msgid "From the Overview page, select :guilabel:`Google Cloud Messaging` under :guilabel:`Mobile APIs`."
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:51
+msgid "Click :guilabel:`Enable`."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:60
 msgid "Step 2: Obtain the Sender ID and Server API Key"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:54
+#: ../doc/manual/backend/push_notification/gcm.rst:64
 msgid "Find Sender ID"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:56
-msgid "Sender ID is the Project Number which can be found in the Project Dashboard page as shown below:"
+#: ../doc/manual/backend/push_notification/gcm.rst:66
+msgid "Sender ID is the Project Number which can be found in Settings page as shown below:"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:66
+#: ../doc/manual/backend/push_notification/gcm.rst:69
+msgid "Click on Google APIs menu."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:77
+msgid "Go to :guilabel:`IAM & Admin`."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:85
+msgid "Then, go to :guilabel:`Settings`. There you can find the project number."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:95
 msgid "Find Server API Key"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:68
-msgid "From the Project Dashboard, go to :menuselection:`APIs & auth --> Credentials`."
+#: ../doc/manual/backend/push_notification/gcm.rst:97
+msgid "From the API Manager page, go to :guilabel:`Credentials`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:70
-msgid "Click :guilabel:`add credentials` and choose :guilabel:`API key`."
+#: ../doc/manual/backend/push_notification/gcm.rst:99
+msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:78
+#: ../doc/manual/backend/push_notification/gcm.rst:107
 msgid "Select :guilabel:`Server key`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:80
+#: ../doc/manual/backend/push_notification/gcm.rst:109
 msgid "Name your Server key and click :guilabel:`Create`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:89
+#: ../doc/manual/backend/push_notification/gcm.rst:118
 msgid "Then, Server API key will be created and displayed as shown below. Copy it. You will need to use this key in Monaca Cloud IDE later."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:98
+#: ../doc/manual/backend/push_notification/gcm.rst:121
 msgid "Step 3: Configure GCM Parameters in Monaca"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:108
+#: ../doc/manual/backend/push_notification/gcm.rst:131
 msgid "Under Android section, input the Sender ID and Server API Key and click :guilabel:`Save`. Then, the setup processes for Android app notifications are completed."
 msgstr ""
 
@@ -1049,7 +1057,7 @@ msgid "Fullscreen"
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:65
-msgid "this option is only available with the PhoneGap 3.5 and later. If enable, your app will be run in a fullscreen mode which hide the status bar."
+msgid "this option is only available with the Cordova 3.5 and later. If enable, your app will be run in a fullscreen mode which hide the status bar."
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:75
@@ -1106,7 +1114,7 @@ msgid "Stock WebView"
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:90
-msgid "Set to High Performance (Crosswalk) for a more powerful and larger app size. It's required Android 4.0 and up. For phonegap 5.2 and and higher, Stock WebView will be applied as default."
+msgid "Set to High Performance (Crosswalk) for a more powerful and larger app size. It's required Android 4.0 and up. For Cordova 5.2 and and higher, Stock WebView will be applied as default."
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:94
@@ -1191,30 +1199,26 @@ msgid "Select appropriate type of build you want and click :guilabel:`Next`."
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:154
-msgid "Select the CPU architecture. ARM option is recommended since it has higher compatibility. For more information regarding the CPU architecture and its differences, please refer to `CPUs and Architectures <http://developer.android.com/ndk/guides/arch.html>`_. If you choose Release Build option in Step 2, you may also need to select an alias to sign your package."
+msgid "If you choose Release Build option in Step 2, you may also need to select an alias to sign your package."
 msgstr ""
 
 #: ../doc/manual/build/build_android.rst:160
-msgid "Debug Build"
-msgstr ""
-
-#: ../doc/manual/build/build_android.rst:166
 msgid "Release Build"
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:170
+#: ../doc/manual/build/build_android.rst:164
 #: ../doc/manual/build/build_chrome_app.rst:54
 #: ../doc/manual/build/build_winrt.rst:76
 #: ../doc/manual/development/monaca_vs/overview.rst:113
 msgid "Click :guilabel:`Next`."
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:172
+#: ../doc/manual/build/build_android.rst:166
 #: ../doc/manual/build/ios/build_ios.rst:291
 msgid "It may take several minutes for the build to complete. Please wait."
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:181
+#: ../doc/manual/build/build_android.rst:175
 #: ../doc/manual/build/build_chrome_app.rst:99
 #: ../doc/manual/build/build_history.rst:34
 #: ../doc/manual/build/build_winrt.rst:168
@@ -1224,14 +1228,14 @@ msgstr ""
 msgid ":ref:`building_for_ios`"
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:182
+#: ../doc/manual/build/build_android.rst:176
 #: ../doc/manual/build/build_chrome_app.rst:100
 #: ../doc/manual/build/build_history.rst:36
 #: ../doc/manual/build/ios/build_ios.rst:301
 msgid ":ref:`building_for_win8`"
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:183
+#: ../doc/manual/build/build_android.rst:177
 #: ../doc/manual/build/build_chrome_app.rst:101
 #: ../doc/manual/build/build_history.rst:37
 #: ../doc/manual/build/build_winrt.rst:170
@@ -1241,13 +1245,13 @@ msgstr ""
 msgid ":ref:`google_play_distribution`"
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:184
+#: ../doc/manual/build/build_android.rst:178
 #: ../doc/manual/build/build_history.rst:38
 #: ../doc/manual/build/build_winrt.rst:171
 msgid ":ref:`building_for_chrome_app`"
 msgstr ""
 
-#: ../doc/manual/build/build_android.rst:185
+#: ../doc/manual/build/build_android.rst:179
 #: ../doc/manual/build/build_chrome_app.rst:102
 #: ../doc/manual/build/build_winrt.rst:172
 #: ../doc/manual/build/ios/build_ios.rst:302
@@ -1354,6 +1358,7 @@ msgid ":ref:`building_for_android`"
 msgstr ""
 
 #: ../doc/manual/build/build_history.rst:5
+#: ../doc/manual/development/monaca_ide/overview.rst:176
 msgid "Build History"
 msgstr ""
 
@@ -1529,7 +1534,7 @@ msgid "Click on it to launch the app. Then, your app should be running."
 msgstr ""
 
 #: ../doc/manual/build/index.rst:5
-#: ../doc/manual/development/monaca_ide/overview.rst:161
+#: ../doc/manual/development/monaca_ide/overview.rst:163
 #: ../doc/manual/development/monaca_vs/overview.rst:224
 msgid "Build"
 msgstr ""
@@ -1539,7 +1544,7 @@ msgid "Building an iOS App"
 msgstr ""
 
 #: ../doc/manual/build/ios/build_ios.rst:11
-#: ../doc/manual/development/monaca_ide/version_control.rst:19
+#: ../doc/manual/development/monaca_ide/version_control.rst:21
 #: ../doc/manual/development/monaca_vs/overview.rst:20
 msgid "Prerequisites"
 msgstr ""
@@ -2411,7 +2416,7 @@ msgid ":ref:`monaca_debugger_features`"
 msgstr ""
 
 #: ../doc/manual/debugger/debug.rst:310
-#: ../doc/manual/debugger/features.rst:200
+#: ../doc/manual/debugger/features.rst:165
 msgid ":ref:`debugger_installation_index`"
 msgstr ""
 
@@ -2419,181 +2424,164 @@ msgstr ""
 msgid "Functionalities"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:15
+#: ../doc/manual/debugger/features.rst:10
 msgid "Debugger Functions"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:17
+#: ../doc/manual/debugger/features.rst:12
 msgid "Monaca Debugger provides useful functions for testing/debugging your apps. You can find Debugger Functions button when you run a project in Monaca Debugger. When you click on Debugger Functions button, you will see:"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:19
+#: ../doc/manual/debugger/features.rst:14
 msgid "Back button"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:21
+#: ../doc/manual/debugger/features.rst:15
 msgid "Reload button"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:23
+#: ../doc/manual/debugger/features.rst:16
 msgid ":ref:`Screenshot button <screenshot>`"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:25
-msgid ":ref:`Chat button <chat>`"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:27
+#: ../doc/manual/debugger/features.rst:17
 msgid ":ref:`App Log button <app_log>`"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:29
+#: ../doc/manual/debugger/features.rst:18
 msgid ":ref:`Inspector button <debugger_inspector>`"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:46
+#: ../doc/manual/debugger/features.rst:35
 msgid "Screenshot"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:48
+#: ../doc/manual/debugger/features.rst:37
 msgid "While running your project on Monaca Debugger, you may want to send any specific screenshot of your project to Monaca Cloud IDE and share it with your team members."
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:51
+#: ../doc/manual/debugger/features.rst:40
 msgid "In the screenshot screen, you can:"
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:53
+#: ../doc/manual/debugger/features.rst:42
 msgid "edit the screenshot."
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:55
+#: ../doc/manual/debugger/features.rst:43
 msgid "upload to Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:57
+#: ../doc/manual/debugger/features.rst:44
 msgid "save to phone storage."
 msgstr ""
 
+#: ../doc/manual/debugger/features.rst:55
+msgid "App Log"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:57
+msgid "Monaca Debugger allows you to see the log of the app which will show the progress and errors of the app while running."
+msgstr ""
+
 #: ../doc/manual/debugger/features.rst:68
-msgid "Chat"
+msgid "Inspector"
 msgstr ""
 
 #: ../doc/manual/debugger/features.rst:70
-msgid "Chat function allows you to share conversations with your team members of a shared project or between Monaca Debugger and Cloud IDE. The screenshot below shows a conversation between Monaca Debugger and Cloud IDE."
+msgid "Inspector function allows you to debug/inspect your project using `Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, you need to enable USB debugging on your device."
 msgstr ""
 
-#: ../doc/manual/debugger/features.rst:76
+#: ../doc/manual/debugger/features.rst:78
+msgid "Inspector function is only available when you are using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. Please refer to :ref:`USB debugging with Monaca Localkit <localkit_debug_app>` or :ref:`USB debugging with Monaca CLI <cli_debug_app>`."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:84
+msgid "Debugger Menu"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:92
+msgid "Inside Debugger Menu, there are:"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:94
+msgid "*All Projects*: shows a list of all Monaca projects which can be run on Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:96
+msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:97
+msgid "Local projects: projects created in :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored in your local PC. Local projects appear only when the debugger is paired with Monaca Localkit/CLI."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:104
+msgid "*Local Computers*: shows a list of all currently paired and available computers. Paired computers are local computers running Monaca Localkit/CLI and currently connected to the debugger. You may want to refer to the following pages:"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:106
+msgid ":ref:`Pairing Monaca Debugger with Monaca Localkit <localkit_pairing_debugging>`"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:107
+msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:108
+msgid ":ref:`Pairing Monaca Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:115
+msgid "*Debugger Settings*: shows debugger's configurations such as allow device to sleep, show memory usage, show splash screen (Android only), restart after resume, restart after network connection recovery, clear synced files and clear storage data. Synced files are synced project files while storage data is previously stored data (local storage data) created by your projects on your device's memory."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:122
+msgid "*Debugger Information*: shows detailed information of the debugger such as version, platform, CLI version, WebView Engine (Android only) and available plugins."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:132
+msgid "Project Options"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:134
+msgid "From the project list inside Monaca Debugger, there is a Project Options button for each Monaca.io project."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:148
+msgid "Inside this Project Options button, you can:"
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:150
+msgid "favorite current project: moves it to the top of the project list."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:152
+msgid "lunch app: runs current project in the debugger."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:154
+msgid "network install: installs a built app of the current project directly from Monaca debugger."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:156
+msgid "In order to use network install, you need to create a debug build of the project from Monaca Cloud IDE first. Please refer to :ref:`debug build for iOS <types_of_build_ios>` or :ref:`debug build for Android <types_of_build_android>`."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:158
+msgid "For iOS debugger, network install is only available for the :ref:`custom built debugger <custom_debugger_ios>`. The App store version doesn't have this function."
+msgstr ""
+
+#: ../doc/manual/debugger/features.rst:166
+#: ../doc/manual/debugger/installation/debugger_android.rst:161
+#: ../doc/manual/debugger/installation/debugger_ios.rst:173
+msgid ":ref:`debugging_monaca_app`"
+msgstr ""
+
 #: ../doc/manual/debugger/index.rst:5
 #: ../doc/manual/debugger/installation/debugger_ios.rst:30
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:43
 msgid "Monaca Debugger"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:82
-msgid "Monaca Cloud IDE"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:90
-msgid "App Log"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:92
-msgid "Monaca Debugger allows you to see the log of the app which will show the progress and errors of the app while running."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:103
-msgid "Inspector"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:105
-msgid "Inspector function allows you to debug/inspect your project using `Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, you need to enable USB debugging on your device."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:113
-msgid "Inspector function is only available when you are using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. Please refer to :ref:`USB debugging with Monaca Localkit <localkit_debug_app>` or :ref:`USB debugging with Monaca CLI <cli_debug_app>`."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:119
-msgid "Debugger Menu"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:127
-msgid "Inside Debugger Menu, there are:"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:129
-msgid "*All Projects*: shows a list of all Monaca projects which can be run on Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:131
-msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:132
-msgid "Local projects: projects created in :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored in your local PC. Local projects appear only when the debugger is paired with Monaca Localkit/CLI."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:139
-msgid "*Local Computers*: shows a list of all currently paired and available computers. Paired computers are local computers running Monaca Localkit/CLI and currently connected to the debugger. You may want to refer to the following pages:"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:141
-msgid ":ref:`Pairing Monaca Debugger with Monaca Localkit <localkit_pairing_debugging>`"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:142
-msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:143
-msgid ":ref:`Pairing Monaca Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:150
-msgid "*Debugger Settings*: shows debugger's configurations such as allow device to sleep, show memory usage, show splash screen (Android only), restart after resume, restart after network connection recovery, clear synced files and clear storage data. Synced files are synced project files while storage data is previously stored data (local storage data) created by your projects on your device's memory."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:157
-msgid "*Debugger Information*: shows detailed information of the debugger such as version, platform, CLI version, WebView Engine (Android only) and available plugins."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:167
-msgid "Project Options"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:169
-msgid "From the project list inside Monaca Debugger, there is a Project Options button for each Monaca.io project."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:183
-msgid "Inside this Project Options button, you can:"
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:185
-msgid "favorite current project: moves it to the top of the project list."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:187
-msgid "lunch app: runs current project in the debugger."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:189
-msgid "network install: installs a built app of the current project directly from Monaca debugger."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:191
-msgid "In order to use network install, you need to create a debug build of the project from Monaca Cloud IDE first. Please refer to :ref:`debug build for iOS <types_of_build_ios>` or :ref:`debug build for Android <types_of_build_android>`."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:193
-msgid "For iOS debugger, network install is only available for the :ref:`custom built debugger <custom_debugger_ios>`. The App store version doesn't have this function."
-msgstr ""
-
-#: ../doc/manual/debugger/features.rst:201
-#: ../doc/manual/debugger/installation/debugger_android.rst:161
-#: ../doc/manual/debugger/installation/debugger_ios.rst:173
-msgid ":ref:`debugging_monaca_app`"
 msgstr ""
 
 #: ../doc/manual/debugger/index.rst:7
@@ -3154,19 +3142,19 @@ msgid "Fail to Pair Monaca Debugger"
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:16
-msgid "Several reasons can be considered when Monaca Debugger fails to pair with Monaca Localkit."
+msgid "Several reasons can be considered when Monaca Debugger fails to pair with the host PC such as:"
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:18
-msgid "Monaca Debugger can see Monaca Localkit but fail to pair: this is most likely a firewall problem in the host PC. Localkit needs to accept TCP connection from the debugger. Port `8001` will be used, and you can change the server port in :ref:`Preferences dialog<localkit_preference>`. Please change the port or configure your firewall settings to try agian."
+msgid "Monaca Debugger can see the host PC but fail to pair: this is most likely a firewall problem in the host PC. The host PC needs to accept TCP connection from the debugger. Port `8001` will be used, and you can change the server port in :ref:`Preferences dialog<localkit_preference>`. Please change the port or configure your firewall settings to try agian."
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:20
-msgid "Monaca Debugger does not detect Monaca Localkit: please check and see if your device and the host PC are connected to the same network. If they are connected to the same network but Monaca Debugger still can't detect the host PC, please do a manual pairing."
+msgid "Monaca Debugger does not detect the host PC: please check and see if your device and the host PC are connected to the same network. If they are connected to the same network but Monaca Debugger still can't detect the host PC, please do a manual pairing."
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:22
-msgid "You can manually pair Monaca Debugger with Monaca Localkit as follows:"
+msgid "You can manually pair Monaca Debugger with the host PC as follows:"
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:24
@@ -3194,103 +3182,107 @@ msgid "*IP Address and Port Number*"
 msgstr ""
 
 #: ../doc/manual/debugger/troubleshooting.rst:56
-msgid "IP address and port number are needed to establish the communication path between Monaca Debugger and Monaca Localkit. IP address represents the host PC and port number (set to 8001 by default) represents Monaca Localkit. Please note that the communication can't be established if the port number you use is not opened or is already used."
+msgid "IP address and port number are needed to establish the communication path between Monaca Debugger and the host PC. IP address represents the host PC and port number (set to 8001 by default) represents Monaca local development tool (such as Monaca CLI, Localkit or Monaca for Visual Studio). Please note that the communication can't be established if the port number you use is not opened or is already used."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:58
+msgid "In case, you are using more than one of Monaca local development tools at the same time on the same host PC, you are required to use different port for each tool. Otherwise, the pair will fail."
+msgstr ""
+
+#: ../doc/manual/debugger/troubleshooting.rst:61
 msgid "*OS*"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:61
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 msgid "Mac"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:59
+#: ../doc/manual/debugger/troubleshooting.rst:61
 msgid "Windows"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:61
+#: ../doc/manual/debugger/troubleshooting.rst:63
 msgid "*IP Address*"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:61
-#: ../doc/manual/debugger/troubleshooting.rst:61
+#: ../doc/manual/debugger/troubleshooting.rst:63
+#: ../doc/manual/debugger/troubleshooting.rst:63
 msgid "Find IP address:"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:63
-#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:65
+#: ../doc/manual/debugger/troubleshooting.rst:70
 msgid "Open \"Terminal\" window."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:64
+#: ../doc/manual/debugger/troubleshooting.rst:66
 msgid "Type ``ifconfig``."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:63
-#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:65
+#: ../doc/manual/debugger/troubleshooting.rst:70
 msgid "Open \"Command Prompt\" window."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:64
+#: ../doc/manual/debugger/troubleshooting.rst:66
 msgid "Type ``ipconfig``."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:66
+#: ../doc/manual/debugger/troubleshooting.rst:68
 msgid "*Port Number*"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:66
-#: ../doc/manual/debugger/troubleshooting.rst:66
+#: ../doc/manual/debugger/troubleshooting.rst:68
+#: ../doc/manual/debugger/troubleshooting.rst:68
 msgid "Check if a port number is available:"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:69
+#: ../doc/manual/debugger/troubleshooting.rst:71
 msgid "Type ``lsof -i :PORT_NUMBER``."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:69
+#: ../doc/manual/debugger/troubleshooting.rst:71
 msgid "type ``netstat``."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:75
+#: ../doc/manual/debugger/troubleshooting.rst:77
 msgid "Inspector Isn't Loaded"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:77
+#: ../doc/manual/debugger/troubleshooting.rst:79
 msgid "If the inspector does not open, please try the following actions:"
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:79
+#: ../doc/manual/debugger/troubleshooting.rst:81
 msgid "verify if you have done all necessary setups described :ref:`here<localkit_debug_app>`."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:80
+#: ../doc/manual/debugger/troubleshooting.rst:82
 msgid "verify that you are running the application on the debugger."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:81
+#: ../doc/manual/debugger/troubleshooting.rst:83
 msgid "try plug off & in to see if the computer can find the device."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:82
+#: ../doc/manual/debugger/troubleshooting.rst:84
 msgid "check if the device and the host PC are connected via USB cable."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:83
+#: ../doc/manual/debugger/troubleshooting.rst:85
 msgid "check if you use the right Monaca Debugger. :ref:`Read more<localkit_debug_app>`."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:84
+#: ../doc/manual/debugger/troubleshooting.rst:86
 msgid "kill all ``adb`` processes if multiple of them are running."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:85
+#: ../doc/manual/debugger/troubleshooting.rst:87
 msgid "kill all ``iosWebKitDebugProxy`` processes if multiple of them are running."
 msgstr ""
 
-#: ../doc/manual/debugger/troubleshooting.rst:86
+#: ../doc/manual/debugger/troubleshooting.rst:88
 msgid "restart the host PC."
 msgstr ""
 
@@ -3360,7 +3352,7 @@ msgstr ""
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:13
 #: ../doc/manual/development/monaca_cli/overview.rst:11
-#: ../doc/manual/development/monaca_ide/version_control.rst:7
+#: ../doc/manual/development/monaca_ide/version_control.rst:9
 #: ../doc/manual/development/monaca_localkit/overview.rst:9
 msgid "Introduction"
 msgstr ""
@@ -3470,7 +3462,7 @@ msgid "Your custom Cordova plugin need to follow the requirements below:"
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:21
-msgid "It must be compatible with Cordova 4.1."
+msgid "It should be compatible with Cordova 4.2 or higher."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:22
@@ -3542,7 +3534,7 @@ msgid ":file:`plugin.xml` file"
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:67
-msgid ":file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_."
+msgid ":file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html>`_."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:69
@@ -3558,7 +3550,7 @@ msgid ":file:`hello_world.js` is defined as ``js-module`` in plugin spec. Theref
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:126
-msgid "For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_."
+msgid "For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html>`_."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:130
@@ -3574,11 +3566,11 @@ msgid "Here are the guides about native code development."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:136
-msgid "`Developing a Plugin on Android <http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_."
+msgid "`Android Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html>`_."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:137
-msgid "`Developing a Plugin on iOS <http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_."
+msgid "`iOS Plugin Development Guide <http://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html>`_."
 msgstr ""
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:142
@@ -4986,7 +4978,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_cli/build_publish.rst:54
 #: ../doc/manual/development/monaca_cli/overview.rst:104
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:57
-#: ../doc/manual/development/monaca_localkit/overview.rst:228
+#: ../doc/manual/development/monaca_localkit/overview.rst:236
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:70
 #: ../doc/manual/development/monaca_vs/build_publish.rst:53
 #: ../doc/manual/development/monaca_vs/overview.rst:268
@@ -5122,17 +5114,17 @@ msgid ":dfn:`$ monaca login`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:48
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:103
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:138
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:172
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:219
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:260
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:294
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:334
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:387
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:433
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:472
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:499
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:80
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:109
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:139
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:186
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:227
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:261
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:301
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:354
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:403
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:440
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:467
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:93
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:119
@@ -5152,436 +5144,440 @@ msgstr ""
 msgid "Here is an example when you login to Monaca Cloud with Monaca CLI:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:59
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:58
 msgid "monaca create"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:61
-msgid "Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template."
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:60
+msgid "Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. With this command, you can choose to create a new project with two options such as ``Sample Apps`` and ``Templates``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:63
-msgid ":dfn:`$ monaca create path [name]`"
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:62
+msgid ":dfn:`$ monaca create path`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:69
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:463
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:67
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:431
 msgid "Parameters"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:67
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 msgid "``path``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:67
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 msgid "location where you want to store your project files"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:68
-msgid "``name``"
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:70
+msgid "The following snippet shows how to create a new project based on a ``jQuery TODO App`` sample app under \"MyCLIProject\" folder:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:68
-msgid "project name"
-msgstr ""
-
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:72
-msgid "The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/MyProject\" folder:"
-msgstr ""
-
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:113
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:87
 msgid "monaca clone"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:115
-msgid "Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC."
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:89
+msgid "Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have on Monaca Cloud. Then, use the arrow keys to select the project you want to clone. Next, input the directory path for the cloned project and wait for project files to be downloaded."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:117
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:92
 msgid "If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:119
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:94
 msgid ":dfn:`$ monaca clone`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:123
-msgid "Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/CloneRssProject\" folder on your local PC."
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:98
+msgid "Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into \"ClonedMemoApp\" folder on your local PC."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:148
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:119
 msgid "monaca import"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:150
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:121
 msgid "Imports a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to import into a specified directory on your local PC."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:152
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:123
 msgid "If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:154
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:125
 msgid ":dfn:`$ monaca import`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:157
-msgid "Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/ImportRssProject\" folder on your local PC."
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:128
+msgid "Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into \"ImportedMemoApp\" folder on your local PC."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:182
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:149
 msgid "monaca upload"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:184
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:151
 msgid "Uploads the current project to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:186
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:153
 msgid "This command works differently for different types of projects:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:188
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:155
 msgid "new/imported project: this command will upload this whole project as a new project in Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:189
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:156
 msgid "cloned project: this command will overwrite the same project in Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:192
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:159
 msgid ":dfn:`$ monaca upload`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:201
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:243
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:283
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:168
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:210
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:250
 msgid "Options"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:196
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:239
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:163
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:206
 msgid "``--delete``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:196
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:163
 msgid "deletes those files on Monaca cloud which are not existed locally."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:197
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:240
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:164
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:207
 msgid "``--force``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:197
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:240
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:164
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:207
 msgid "doesn't ask user for permission to continue."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:198
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:241
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:165
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:208
 msgid "``--dry-run``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:198
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:165
 msgid "simulates the upload operation and provides details of which files will be uploaded. There is no actual upload operation is done."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:204
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:171
 msgid "Navigate to your project folder. Then, type ``monaca upload`` command with various options and see how it works."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:229
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:196
 msgid "monaca download"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:231
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:198
 msgid "Downloads updates/changes (of the synced project) made in Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:233
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:200
 msgid "This command will overwrite the changes into the local project. If your local project is not existed in Monaca Cloud, you can't use this command."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:235
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:202
 msgid ":dfn:`$ monaca download`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:239
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:206
 msgid "deletes those files locally which are not existed on Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:241
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:208
 msgid "simulates the download operation and provides details of which files will be downloaded. There is no actual download operation is done."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:246
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:213
 msgid "Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:270
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:237
 msgid "monaca plugin"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:272
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:239
 msgid "Manages plugins of a project such as adding new plugins, listing and removing installed plugins."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:275
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:242
 msgid ":dfn:`$ monaca plugin [options]`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:279
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:246
 msgid "``add <plugin>``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:279
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:246
 msgid "adds a plugin."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:280
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:247
 msgid "``rm <plugin>``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:280
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:247
 msgid "removes a plugin."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:281
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "``ls|list``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:281
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "lists currently installed plugins."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:282
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:249
 msgid "``search <query>``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:282
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:249
 msgid "searches the plugin directory."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:286
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:466
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:253
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:434
 msgid "Navigate to your project folder and type the command below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:303
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:270
 msgid "monaca preview"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:305
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:272
 msgid "Serves a single project to browser. Use this command when you want to run your project on the browser."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:307
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:274
 msgid ":dfn:`$ monaca preview [option]`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:316
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:283
 msgid "monaca debug"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:318
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:285
 msgid "Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:320
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:287
 msgid ":dfn:`$ monaca debug [option]`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:325
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:423
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:292
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:392
 msgid "Options:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:324
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:291
 msgid "``--port``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:324
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:291
 msgid "HTTP port to listen to (default value is 8001)"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:328
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:295
 msgid "Navigate to your project folder and use ``monaca debug`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:336
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:303
 msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:338
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:305
 msgid "When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:345
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:312
 msgid "Pairing Dialog"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:351
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:318
 msgid "Network Connection Notification"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:363
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:330
 msgid "monaca multiserve"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:365
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:332
 msgid "Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:373
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:340
 msgid ":dfn:`$ monaca multiserve paths`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:378
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:345
 msgid "Parameters:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:377
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:344
 msgid "``paths``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:377
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:344
 msgid "a list of project directories"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:381
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:348
 msgid "Try to use this command with a list of projects you have on your local PC. In this example, we are serving 3 projects (SlidingMenu, ImportRssProject and CloneRssProject) which are under \"MyProjectFolder/\" to Monaca Debugger. You should see a list of these projects in your debugger if the pairing is successful."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:389
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:356
 msgid "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:399
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:366
 msgid "monaca remote build"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:401
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:368
 msgid "Builds the project on Monaca Cloud. If your project is not existed in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project is alreayd existed in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:403
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "Please refer to :ref:`build_index` for more information on how to:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:405
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:372
 msgid "config build settings for each platform"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:406
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:373
 msgid "types of build"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:407
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:374
 msgid "build the application for each platform"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:408
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:375
 msgid "get/install the built apps."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:410
-msgid ":dfn:`$ monaca remote build [options]`"
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:377
+msgid ":dfn:`$ monaca remote build <platform> [options]`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:414
-msgid "``--platform``"
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:381
+msgid "``platform``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:414
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:381
 msgid "builds for specific platform. It can be: ``ios``, ``android`` or ``windows``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:415
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:382
 msgid "``--build-type``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:415
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:382
 msgid "chooses the build type. It can be:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:417
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:384
 msgid "``debug`` (for iOS, Android and Windows. It is default option.)"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:418
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:385
 msgid "``test`` (for iOS only)"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:419
-msgid "``release`` (for iOS, Android and Chrome Apps)"
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:386
+msgid "``release`` (for iOS and Android)"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:421
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:388
+msgid "``--output``"
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:388
+msgid "the path in which the built file will be stored (specify also the filename)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid "``--android_webview``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:421
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:422
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:390
 msgid "``--android_arch``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:422
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:390
 msgid "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:426
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:391
+msgid "``--browser``"
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:391
+msgid "opens the build process in a browser (see the screenshots below)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:395
 msgid "Navigate to your project folder and try to use this command with different options:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:435
-msgid "If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:453
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:421
 msgid "monaca proxy"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:455
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:423
 msgid "Configures proxy to use when connecting to Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:457
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:425
 msgid ":dfn:`$ monaca proxy <command>`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:461
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:429
 msgid "``set <URL:PORT_NUMBER>``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:461
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:429
 msgid "sets a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:430
 msgid "``rm``"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:462
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:430
 msgid "removes a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:482
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:450
 msgid "monaca logout"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:484
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:452
 msgid "Signs out from Monaca Cloud and removes stored login token."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:486
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:454
 msgid ":dfn:`$ monaca logout`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/cli_commands.rst:489
+#: ../doc/manual/development/monaca_cli/cli_commands.rst:457
 msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
 msgstr ""
 
@@ -5685,7 +5681,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/overview.rst:105
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:96
-#: ../doc/manual/development/monaca_localkit/overview.rst:229
+#: ../doc/manual/development/monaca_localkit/overview.rst:237
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:77
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:71
 #: ../doc/manual/development/monaca_vs/overview.rst:267
@@ -5880,7 +5876,7 @@ msgid "Command-Z"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/editor.rst:25
-#: ../doc/manual/development/monaca_ide/overview.rst:107
+#: ../doc/manual/development/monaca_ide/overview.rst:109
 msgid "Undo"
 msgstr ""
 
@@ -5893,7 +5889,7 @@ msgid "Command-Shift-Z"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/editor.rst:26
-#: ../doc/manual/development/monaca_ide/overview.rst:109
+#: ../doc/manual/development/monaca_ide/overview.rst:111
 msgid "Redo"
 msgstr ""
 
@@ -6289,584 +6285,636 @@ msgid "Opens :guilabel:`Build` submenu."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:53
-#: ../doc/manual/development/monaca_ide/overview.rst:76
-msgid "Save"
+msgid ":ref:`ide_version_control`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:54
-msgid "Saves the file currently openeded. If no file is opened, this function is disable."
+msgid "Manages version control of your project with Github."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:55
-#: ../doc/manual/development/monaca_ide/overview.rst:151
-msgid "Preview"
+#: ../doc/manual/development/monaca_ide/overview.rst:78
+msgid "Save"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:56
-msgid "Displays the Preview window."
+msgid "Saves the file currently openeded. If no file is opened, this function is disable."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:57
 #: ../doc/manual/development/monaca_ide/overview.rst:153
-msgid "Run on Device"
+msgid "Preview"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:58
-msgid "Runs the current project in Monaca Debugger."
+msgid "Displays the Preview window."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:59
-msgid "Team"
+#: ../doc/manual/development/monaca_ide/overview.rst:155
+msgid "Run on Device"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:60
-msgid "Displays the Team Management panel."
+msgid "Runs the current project in Monaca Debugger."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:61
-msgid ":ref:`config`"
+msgid ":ref:`team_tab`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:62
+msgid "Invites other Monaca users to join the project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:63
+msgid ":ref:`config`"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:64
 msgid "Opens :guilabel:`Config` submenu."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:67
+#: ../doc/manual/development/monaca_ide/overview.rst:69
 msgid "File"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:72
+#: ../doc/manual/development/monaca_ide/overview.rst:74
 msgid "New File..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:73
+#: ../doc/manual/development/monaca_ide/overview.rst:75
 msgid "Creates a new file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:74
+#: ../doc/manual/development/monaca_ide/overview.rst:76
 msgid "New Folder..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:75
+#: ../doc/manual/development/monaca_ide/overview.rst:77
 msgid "Creates a new folder."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:77
+#: ../doc/manual/development/monaca_ide/overview.rst:79
 msgid "Saves the file currently openeded."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:78
+#: ../doc/manual/development/monaca_ide/overview.rst:80
 msgid "Save All"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:79
+#: ../doc/manual/development/monaca_ide/overview.rst:81
 msgid "Saves all the files currently openeded."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:80
+#: ../doc/manual/development/monaca_ide/overview.rst:82
 msgid "Upload"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:81
+#: ../doc/manual/development/monaca_ide/overview.rst:83
 msgid "Uploads the files in the current folder."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:82
+#: ../doc/manual/development/monaca_ide/overview.rst:84
 msgid "Delete"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:83
+#: ../doc/manual/development/monaca_ide/overview.rst:85
 msgid "Deletes the currently selected file/folder."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:84
+#: ../doc/manual/development/monaca_ide/overview.rst:86
 msgid "Rename"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:85
+#: ../doc/manual/development/monaca_ide/overview.rst:87
 msgid "Renames the currently selected file/folder."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:86
+#: ../doc/manual/development/monaca_ide/overview.rst:88
 msgid "Copy File"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:87
+#: ../doc/manual/development/monaca_ide/overview.rst:89
 msgid "Makes a copy of the currently selected file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:88
+#: ../doc/manual/development/monaca_ide/overview.rst:90
 msgid "View Older Version..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:89
+#: ../doc/manual/development/monaca_ide/overview.rst:91
 msgid "Views older versions of the currently selected file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:90
+#: ../doc/manual/development/monaca_ide/overview.rst:92
 msgid "Export..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:91
+#: ../doc/manual/development/monaca_ide/overview.rst:93
 msgid "Exports Monaca project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:92
+#: ../doc/manual/development/monaca_ide/overview.rst:94
 msgid "Editor Configuration..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:93
+#: ../doc/manual/development/monaca_ide/overview.rst:95
 msgid "Configures the appearance of the editor."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:94
-#: ../doc/manual/development/monaca_ide/overview.rst:199
+#: ../doc/manual/development/monaca_ide/overview.rst:96
+#: ../doc/manual/development/monaca_ide/overview.rst:225
 msgid "Manage JS/CSS Components..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:95
+#: ../doc/manual/development/monaca_ide/overview.rst:97
 msgid "Adds/Removes JavaScript and CSS libraries to/from the current project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:96
-#: ../doc/manual/development/monaca_ide/overview.rst:197
+#: ../doc/manual/development/monaca_ide/overview.rst:98
+#: ../doc/manual/development/monaca_ide/overview.rst:223
 msgid "Manage Cordova Plugins..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:97
+#: ../doc/manual/development/monaca_ide/overview.rst:99
 msgid "Enables/Disables Cordova plugins in the current project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:102
+#: ../doc/manual/development/monaca_ide/overview.rst:104
 msgid "Edit"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:108
+#: ../doc/manual/development/monaca_ide/overview.rst:110
 msgid "Undoes the latest action."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:110
+#: ../doc/manual/development/monaca_ide/overview.rst:112
 msgid "Redoes the previous action."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:111
+#: ../doc/manual/development/monaca_ide/overview.rst:113
 msgid "Search"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:112
+#: ../doc/manual/development/monaca_ide/overview.rst:114
 msgid "Searches for a string in the currently opened file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:113
+#: ../doc/manual/development/monaca_ide/overview.rst:115
 msgid "Search Next"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:114
+#: ../doc/manual/development/monaca_ide/overview.rst:116
 msgid "Goes to the next found string."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:115
+#: ../doc/manual/development/monaca_ide/overview.rst:117
 msgid "Search Previous"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:116
+#: ../doc/manual/development/monaca_ide/overview.rst:118
 msgid "Goes to the previously found string."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:117
+#: ../doc/manual/development/monaca_ide/overview.rst:119
 msgid "Replace..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:118
+#: ../doc/manual/development/monaca_ide/overview.rst:120
 msgid "Replaces a found string in the currently opened file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:119
+#: ../doc/manual/development/monaca_ide/overview.rst:121
 msgid "Replace All"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:120
+#: ../doc/manual/development/monaca_ide/overview.rst:122
 msgid "Replaces all the found strings in the currently opened file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:121
+#: ../doc/manual/development/monaca_ide/overview.rst:123
 msgid "Comment Out"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:122
+#: ../doc/manual/development/monaca_ide/overview.rst:124
 msgid "Comments out the current line."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:123
+#: ../doc/manual/development/monaca_ide/overview.rst:125
 msgid "Comment In"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:124
+#: ../doc/manual/development/monaca_ide/overview.rst:126
 msgid "Uncomments the current line."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:129
+#: ../doc/manual/development/monaca_ide/overview.rst:131
 msgid "View"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:134
+#: ../doc/manual/development/monaca_ide/overview.rst:136
 msgid "Project Tree"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:135
+#: ../doc/manual/development/monaca_ide/overview.rst:137
 msgid "Shows/Hides the project tree."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:136
+#: ../doc/manual/development/monaca_ide/overview.rst:138
 msgid "Maximize Editor"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:137
+#: ../doc/manual/development/monaca_ide/overview.rst:139
 msgid "Switches the ON/OFF of the editor maximization."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:138
-#: ../doc/manual/development/monaca_ide/overview.rst:229
+#: ../doc/manual/development/monaca_ide/overview.rst:140
+#: ../doc/manual/development/monaca_ide/overview.rst:255
 msgid "Grep"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:139
+#: ../doc/manual/development/monaca_ide/overview.rst:141
 msgid "Searches for files by using Unix command."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:140
+#: ../doc/manual/development/monaca_ide/overview.rst:142
 msgid "Backend"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:141
+#: ../doc/manual/development/monaca_ide/overview.rst:143
 msgid "Goes Monaca Backend settings page."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:146
+#: ../doc/manual/development/monaca_ide/overview.rst:148
 msgid "Debug"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:152
+#: ../doc/manual/development/monaca_ide/overview.rst:154
 msgid "Opens Preview window."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:154
+#: ../doc/manual/development/monaca_ide/overview.rst:156
 msgid "Runs the project on Monaca Debugger."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:155
+#: ../doc/manual/development/monaca_ide/overview.rst:157
 msgid "Setup Monaca Debugger"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:156
+#: ../doc/manual/development/monaca_ide/overview.rst:158
 msgid "Installs the Monaca Debugger on your device."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:166
+#: ../doc/manual/development/monaca_ide/overview.rst:168
 msgid "Build App for Android"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:167
+#: ../doc/manual/development/monaca_ide/overview.rst:169
 msgid "Builds the app for Android device."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:168
+#: ../doc/manual/development/monaca_ide/overview.rst:170
 msgid "Build App for iOS"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:169
+#: ../doc/manual/development/monaca_ide/overview.rst:171
 msgid "Builds the app for iOS device."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:170
+#: ../doc/manual/development/monaca_ide/overview.rst:172
 msgid "Build App for Windows"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:171
+#: ../doc/manual/development/monaca_ide/overview.rst:173
 msgid "Builds the app for Windows device."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:172
+#: ../doc/manual/development/monaca_ide/overview.rst:174
 msgid "Build App for Chrome Apps"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:173
+#: ../doc/manual/development/monaca_ide/overview.rst:175
 msgid "Builds the app for Chrome."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:179
-msgid "Config"
+#: ../doc/manual/development/monaca_ide/overview.rst:177
+msgid "Show all build history of the current project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:185
-msgid "Android App Settings..."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:186
-msgid "Configures Android app's information (see :ref:`building_for_android`)."
+#: ../doc/manual/development/monaca_ide/overview.rst:182
+msgid "Version Control"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:187
-msgid "Android Key Store Settings..."
+msgid "Commit"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:188
-msgid "Configures Android's keystore (see :ref:`building_for_android`)."
+msgid "Commit local changes."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:189
-msgid "iOS App Settings..."
+msgid "Push"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:190
-msgid "Configures iOS App's information (see :ref:`building_for_ios`)."
+msgid "Push local changes to remote server."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:191
-msgid "iOS Build Settings..."
+msgid "Pull"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:192
-msgid "Configures iOS build settings (see :ref:`building_for_ios`)."
+msgid "Pull remote changes."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:193
-msgid "Windows App Settings..."
+msgid "Show Remote History"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:194
-msgid "Configures necessary information to build a Windows app (see :ref:`building_for_win8`)."
+msgid "Show all commits history in remote server."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:195
-msgid "Chrome App Settings..."
+msgid "Show Commit History"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:196
-msgid "Configures necessary information to build a Chrome app (see :ref:`building_for_chrome_app`)."
+msgid "Show all commits history from Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:197
+msgid "Configure"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:198
-msgid "Enables/Disables Cordova plugins in the current project (see :ref:`cordova_plugins_setting`)."
+msgid "Config the remote repository."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:200
-msgid "Adds/Removes JavaScript and CSS libraries to/from the current project (see :ref:`js_css`)."
+msgid "For more information, please refer to :ref:`version_control`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:201
-msgid "Service Integration..."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:202
-msgid "Integrates various services to Monaca projects in the form of plugins (see :ref:`service_integration_index`)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:203
-msgid "Editor Configuration"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:204
-msgid "Configures the appearance of code editor (see :ref:`editor_functions`)."
+#: ../doc/manual/development/monaca_ide/overview.rst:205
+msgid "Config"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:211
-msgid "Project Panel"
+msgid "Android App Settings..."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:212
+msgid "Configures Android app's information (see :ref:`building_for_android`)."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:213
-msgid "In the Project panel, there are 3 main tabs:"
+msgid "Android Key Store Settings..."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:214
+msgid "Configures Android's keystore (see :ref:`building_for_android`)."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:215
-msgid "*File Tree*: Displays a list of folders and files existed in the current project. Right-click on a folder or file to see additional functions such as New File, Copy, Rename, Delete, Upload File and so on. To edit a file, select it and then its content will be shown in :ref:`Monaca IDE Editor<code_editor>`."
+msgid "iOS App Settings..."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:216
-msgid "*Grep*: Searches for files by using Unix command."
+msgid "Configures iOS App's information (see :ref:`building_for_ios`)."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:217
-msgid "*Monaca Backend*: Contains the backend settings of the project."
+msgid "iOS Build Settings..."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:223
-msgid "File Tree"
+#: ../doc/manual/development/monaca_ide/overview.rst:218
+msgid "Configures iOS build settings (see :ref:`building_for_ios`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:219
+msgid "Windows App Settings..."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:220
+msgid "Configures necessary information to build a Windows app (see :ref:`building_for_win8`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:221
+msgid "Chrome App Settings..."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:222
+msgid "Configures necessary information to build a Chrome app (see :ref:`building_for_chrome_app`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:224
+msgid "Enables/Disables Cordova plugins in the current project (see :ref:`cordova_plugins_setting`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:226
+msgid "Adds/Removes JavaScript and CSS libraries to/from the current project (see :ref:`js_css`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:227
+msgid "Service Integration..."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:228
+msgid "Integrates various services to Monaca projects in the form of plugins (see :ref:`service_integration_index`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:229
+msgid "Editor Configuration"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:230
+msgid "Configures the appearance of code editor (see :ref:`editor_functions`)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:237
+msgid "Project Panel"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:239
+msgid "In the Project panel, there are 3 main tabs:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:241
+msgid "*File Tree*: Displays a list of folders and files existed in the current project. Right-click on a folder or file to see additional functions such as New File, Copy, Rename, Delete, Upload File and so on. To edit a file, select it and then its content will be shown in :ref:`Monaca IDE Editor<code_editor>`."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:242
+msgid "*Grep*: Searches for files by using Unix command."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:243
+msgid "*Monaca Backend*: Contains the backend settings of the project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:249
+msgid "File Tree"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:268
 msgid "Debug Panel"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:244
+#: ../doc/manual/development/monaca_ide/overview.rst:270
 msgid "Once Monaca Debugger is connected with Monaca Cloud IDE, you can do console debugging as well DOM inspection in this panel. For more information, please refer to :ref:`by_debugger_ide`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:257
-msgid "Preview & Team Panel"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:262
+#: ../doc/manual/development/monaca_ide/overview.rst:285
 msgid "Live Preview"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:264
+#: ../doc/manual/development/monaca_ide/overview.rst:287
 msgid "The Live Preview provides an overview of your app in real-time. You can also interact with this preview as if it is running on an actual device with the limitation of executing the specific device’s functionality (such as camera, contact and so on) and cross-origin network AJAX request. Along with the Monaca Debugger, you will have effective and efficient experiences during app development."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:267
+#: ../doc/manual/development/monaca_ide/overview.rst:290
 msgid "In this tab, you can:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:269
+#: ../doc/manual/development/monaca_ide/overview.rst:292
 msgid "refresh the Preview window."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:271
-msgid "change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, Galaxy, Nexus and so on. You can change the orientation of the screen as well."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:273
-msgid "detach/attach the Preview window."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:282
-msgid "*Live Preivew Limitations*"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:284
-msgid "When using Live Preview, you should be aware of the the following limitations:"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:286
-msgid "Cordova Plugin APIs are not available."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:287
-msgid "Ajax requests will fail because of Cross-origin restriction. However, it can be done if server-side scripts return \"Access-Control-Allow-Origin” Header (i.e., Cross-Origin Ajax Request is permitted)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:288
-msgid "Viewport appearance may differ from real devices."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:289
-msgid "Monaca Backend API and Push Notifications can not be initialized."
-msgstr ""
-
 #: ../doc/manual/development/monaca_ide/overview.rst:294
-msgid "Team Management"
+msgid "change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, and Nexus. You can change the orientation of the screen as well."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:296
-msgid "The usability of this function depends on your Monaca subscription plan. For more information, please refer to `Monaca Subscription Plan <https://monaca.mobi/en/pricing>`_."
+msgid "detach/attach the Preview window."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:300
-msgid "Team Management allows you to:"
+#: ../doc/manual/development/monaca_ide/overview.rst:305
+msgid "*Live Preivew Limitations*"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:302
-msgid "manage the team: add/remove members to the shared project."
+#: ../doc/manual/development/monaca_ide/overview.rst:307
+msgid "When using Live Preview, you should be aware of the the following limitations:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:304
-msgid "share the source code with multiple people (members are assigned as Developers). There are 3 ways to do this such as:"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:306
-msgid "The easiest way is to use Monaca Cloud's Team Management function. Then, two or more people can open the same project in different Monaca Cloud IDEs. However, if there is any conflict while updating the project, the previous version of the project will be overwritten (but it still remains in the file history)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:308
-msgid "Another way is to set up a version control system and do the local development using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. This requires a higher skill set, but more collaborative."
+#: ../doc/manual/development/monaca_ide/overview.rst:309
+msgid "Cordova Plugin APIs are not available."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:310
-msgid "The last option is to use :ref:`Monaca for Visual Studio <monaca_vs_index>`. In this case, files can be managed by Visual Studio's built-in Team Explorer function. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
+msgid "Ajax requests will fail because of Cross-origin restriction. However, it can be done if server-side scripts return \"Access-Control-Allow-Origin” Header (i.e., Cross-Origin Ajax Request is permitted)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:311
+msgid "Viewport appearance may differ from real devices."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:312
-msgid "let multiple people to test the project (members are assigned as Testers)."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:315
-msgid "If your Monaca subscription plan is Basic or Personal, you can only chat and join a team as a Tester."
+msgid "Monaca Backend API and Push Notifications can not be initialized."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:317
-msgid "*Manage Member*"
+msgid "Share"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:319
-msgid "You can share your project with other Monaca users. You can also add/remove other Monaca users to/from your project. In order to manage the members of your project, please do as follows:"
+msgid "The usability of this function depends on your Monaca subscription plan. For more information, please refer to `Monaca Subscription Plan <https://monaca.mobi/en/pricing>`_."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:321
-msgid "Click on :guilabel:`Add/Manage Members` button in the Team tab."
+#: ../doc/manual/development/monaca_ide/overview.rst:323
+msgid "The *Share* function allows you to:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:325
+msgid "manage the team: add/remove members to the shared project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:327
+msgid "share the source code with multiple people (members are assigned as Developers). There are 3 ways to do this such as:"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:329
-msgid "Then, the Team Member Manage screen will appear. To add a member, input the email(s) of your team member(s). Please enter one email address per line. You can also assign the role of each member as Developer or Tester by choosing from the drop-down menu. Then, click :guilabel:`Add Member` button to send the invitation to them."
+msgid "The easiest way is to use Monaca Cloud's Team Management function. Then, two or more people can open the same project in different Monaca Cloud IDEs. However, if there is any conflict while updating the project, the previous version of the project will be overwritten (but it still remains in the file history)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:337
-msgid "To remove a member from the project, you can just click on the :guilabel:`delete` icon at the end of the row of that member's info as shown below"
+#: ../doc/manual/development/monaca_ide/overview.rst:331
+msgid "Another way is to set up a version control system and do the local development using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. This requires a higher skill set, but more collaborative."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:333
+msgid "The last option is to use :ref:`Monaca for Visual Studio <monaca_vs_index>`. In this case, files can be managed by Visual Studio's built-in Team Explorer function. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:335
+msgid "let multiple people to test the project (members are assigned as Testers)."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:338
+msgid "If your Monaca subscription plan is Basic or Personal, you can only chat and join a team as a Tester."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:341
+msgid "You can share your project with other Monaca users. You can also add/remove other Monaca users to/from your project. In order to manage the members of your project, please do as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:343
+msgid "Click on :guilabel:`Share` button in the Menu panel."
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:345
-msgid "*Chat*"
+msgid "Then, the Team Member Manage screen will appear. To add a member, input the email(s) of your team member(s). Please enter one email address per line. You can also assign the role of each member as Developer or Tester by choosing from the drop-down menu. Then, click :guilabel:`Add Member` button to send the invitation to them."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:347
-msgid "You can send messages, screenshots and files with your team members through chat. The conversation can be made from within Monaca Cloud IDE and Monaca Debugger."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:359
-msgid "Code Editor"
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:361
-msgid "Views and edits the selected file from the file tree. Various settings such as Preferences is also shown and can be edited here. Once you open a file, you can select it from the tab."
-msgstr ""
-
-#: ../doc/manual/development/monaca_ide/overview.rst:363
-msgid "The editor supports the syntax highlight of JavaScript/HTML5/CSS3. The editor also supports JavaScript and CSS autocomplete function, :ref:`Emmet (Zen Coding) <emmet>` and :ref:`typescript_manual`."
+#: ../doc/manual/development/monaca_ide/overview.rst:353
+msgid "To remove a member from the project, you can just click on the :guilabel:`delete` icon at the end of the row of that member's info as shown below"
 msgstr ""
 
 #: ../doc/manual/development/monaca_ide/overview.rst:365
+msgid "Code Editor"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:367
+msgid "Views and edits the selected file from the file tree. Various settings such as Preferences is also shown and can be edited here. Once you open a file, you can select it from the tab."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:369
+msgid "The editor supports the syntax highlight of JavaScript/HTML5/CSS3. The editor also supports JavaScript and CSS autocomplete function, :ref:`Emmet (Zen Coding) <emmet>` and :ref:`typescript_manual`."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/overview.rst:371
 msgid "Please refer to :doc:`editor` for the list of all shortcuts available in Monaca code editor."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:373
+#: ../doc/manual/development/monaca_ide/overview.rst:379
 msgid "Inside this editor, there is also a small and short menu bar as shown below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:381
+#: ../doc/manual/development/monaca_ide/overview.rst:387
 msgid "Within this short menu, you can:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:383
+#: ../doc/manual/development/monaca_ide/overview.rst:389
 msgid "go to Monaca documentation by clicking on :guilabel:`Help` icon."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:384
+#: ../doc/manual/development/monaca_ide/overview.rst:390
 msgid "config the code editor by clicking on :guilabel:`Setting` icon. You will see 3 menu items such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:386
+#: ../doc/manual/development/monaca_ide/overview.rst:392
 msgid "View Older Versions: View older versions of the currently selected file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:387
+#: ../doc/manual/development/monaca_ide/overview.rst:393
 msgid "Editor Configuration: Configure the appearance of the editor."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:388
+#: ../doc/manual/development/monaca_ide/overview.rst:394
 msgid "Editor Shortcuts: open the keyboard shortcut references."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/overview.rst:390
+#: ../doc/manual/development/monaca_ide/overview.rst:396
 msgid "search for a string inside the currently opened file."
 msgstr ""
 
@@ -7028,245 +7076,245 @@ msgstr ""
 msgid ":ref:`editor_functions`"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:3
+#: ../doc/manual/development/monaca_ide/version_control.rst:5
 msgid "Version Control (GitHub)"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:9
+#: ../doc/manual/development/monaca_ide/version_control.rst:11
 msgid "Version control is a management tool that helps manage the changes to your project's source code and other collections of information. Usually, changes are determined by a revision code which is comprised of numbers and/or letters.  With version control, revision history can easily be tracked, compared against, restored and merged to control the whole set of your source code.  Additionally, version control systems provide is the ability to allow multiple team members or individuals to collaborate and maintain tracking over the source code."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:11
+#: ../doc/manual/development/monaca_ide/version_control.rst:13
 msgid "Version Control is now available within Monaca Cloud IDE with user-friendly interface. There are many version control systems; however, currently Monaca Cloud IDE supports the integration of one of the most popular Git services called `GitHub <https://github.com>`_. If you integrate your Monaca project to your repository, you can simply manage your source code right away from Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:13
+#: ../doc/manual/development/monaca_ide/version_control.rst:15
 msgid "In this section, we will guide you on how to integrate your GitHub account with your Monaca account and configuring your Monaca project with a GitHub repository."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:15
+#: ../doc/manual/development/monaca_ide/version_control.rst:17
 msgid "Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:21
+#: ../doc/manual/development/monaca_ide/version_control.rst:23
 msgid "In order to use version control in Monaca Cloud IDE, you will need:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:23
+#: ../doc/manual/development/monaca_ide/version_control.rst:25
 msgid "a GitHub account. Register `here <https://github.com/join>`_."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:24
+#: ../doc/manual/development/monaca_ide/version_control.rst:26
 msgid "a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:28
+#: ../doc/manual/development/monaca_ide/version_control.rst:30
 msgid "GitHub Integration"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:33
+#: ../doc/manual/development/monaca_ide/version_control.rst:35
 msgid "Link Monaca Account to GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:35
-#: ../doc/manual/development/monaca_ide/version_control.rst:137
-#: ../doc/manual/development/monaca_ide/version_control.rst:170
+#: ../doc/manual/development/monaca_ide/version_control.rst:37
+#: ../doc/manual/development/monaca_ide/version_control.rst:139
+#: ../doc/manual/development/monaca_ide/version_control.rst:172
 msgid "Log into `Monaca Cloud IDE <https://monaca.mobi/en/login>`_ with your Monaca account."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:37
+#: ../doc/manual/development/monaca_ide/version_control.rst:39
 msgid "Go to :menuselection:`Your profile name --> GitHub Integration`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:46
+#: ../doc/manual/development/monaca_ide/version_control.rst:48
 msgid "Click on :guilabel:`Link` button. You are required to login with your GitHub account before being redirected to GitHub's Authorize Application page."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:54
+#: ../doc/manual/development/monaca_ide/version_control.rst:56
 msgid "In the Authorize Application page, you will be asked to authorize the application in order to link Monaca account to GitHub. Click on :guilabel:`Authorize application` to proceed."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:63
+#: ../doc/manual/development/monaca_ide/version_control.rst:65
 msgid "Now your Monaca account is successfully linked to your GitHub account."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:72
+#: ../doc/manual/development/monaca_ide/version_control.rst:74
 msgid "Please note that you can only link one GitHub account to a Monaca account. If you try to link with multiple accounts, you will encounter an error."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:76
+#: ../doc/manual/development/monaca_ide/version_control.rst:78
 msgid "Unlink Monaca Account from GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:78
+#: ../doc/manual/development/monaca_ide/version_control.rst:80
 msgid "If you want to unlink your Monaca account from GitHub, just click on :guilabel:`Unlink` button in Link to GitHub page."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:88
+#: ../doc/manual/development/monaca_ide/version_control.rst:90
 msgid "Unable to Re-link to GitHub"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:90
+#: ../doc/manual/development/monaca_ide/version_control.rst:92
 msgid "If you accidentally revoke Monaca access with Github account, attempt to re-link with the steps described in :ref:`link_monaca_to_github` will not be possible. You will see the following error:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:99
+#: ../doc/manual/development/monaca_ide/version_control.rst:101
 msgid "Therefore, in order to re-link your account in this case, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:101
+#: ../doc/manual/development/monaca_ide/version_control.rst:103
 msgid "Logout from Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:103
+#: ../doc/manual/development/monaca_ide/version_control.rst:105
 msgid "Go to `Monaca Login <https://monaca.mobi/en/login>`_ page and choose :guilabel:`Sign in with GitHub`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:111
+#: ../doc/manual/development/monaca_ide/version_control.rst:113
 msgid "Fill in your GitHub account information."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:113
+#: ../doc/manual/development/monaca_ide/version_control.rst:115
 msgid "Then, you will be redirected to GitHub's Authorize Application page. Click on :guilabel:`Authorize application` to proceed."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:121
+#: ../doc/manual/development/monaca_ide/version_control.rst:123
 msgid "After this, your Monaca account should be successfully linked to GitHub account. You can confirm in the Link to GitHub page. It should appear like this:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:131
+#: ../doc/manual/development/monaca_ide/version_control.rst:133
 msgid "Version Control Configuration"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:133
+#: ../doc/manual/development/monaca_ide/version_control.rst:135
 msgid "Assuming that you have successfully integrated your Monaca account to GitHub account, you need to do some configurations in Monaca Cloud IDE in order to connect your project to your repository."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:135
+#: ../doc/manual/development/monaca_ide/version_control.rst:137
 msgid "Please follow the configuration instruction below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:139
+#: ../doc/manual/development/monaca_ide/version_control.rst:141
 msgid "Open a project you want to connect to a repository."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:141
+#: ../doc/manual/development/monaca_ide/version_control.rst:143
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Configure...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:143
+#: ../doc/manual/development/monaca_ide/version_control.rst:145
 msgid "Then, Monaca will list all of your empty GitHub repositories. If you do not have any empty repositories yet, you will be asked to create one."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:145
+#: ../doc/manual/development/monaca_ide/version_control.rst:147
 msgid "Only an empty repository can be used to connect to a Monaca project.  An empty repository is a repository that has not been initialized with any branches or files (including readme). Please be aware that you cannot change to another repository after configuration."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:153
+#: ../doc/manual/development/monaca_ide/version_control.rst:155
 msgid "Once you have an empty repository in GitHub, you are now able to select your remote repository. Then, click on :guilabel:`Initialize` button to save the configuration."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:161
+#: ../doc/manual/development/monaca_ide/version_control.rst:163
 msgid "Your project is then being uploaded to your new repository in GitHub. By default, your working branch will be configured as master. If you want to switch to another working branch, please go to Version Control Configuration page (:menuselection:`Version Control --> Configure...`)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:166
+#: ../doc/manual/development/monaca_ide/version_control.rst:168
 msgid "Import Existing Project from GitHub Repository"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:168
+#: ../doc/manual/development/monaca_ide/version_control.rst:170
 msgid "Once you have linked your Monaca account with GitHub, you can import any existing projects from GitHub repositories to Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:172
-msgid "From Dashboard, go to :menuselection:`New Project --> Import Project`."
+#: ../doc/manual/development/monaca_ide/version_control.rst:174
+msgid "From Dashboard, go to :menuselection:`Import Project`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:174
+#: ../doc/manual/development/monaca_ide/version_control.rst:176
 msgid "In Import Project dialog, fill in the necessary information and choose ``Import from GitHub Repository``. Then, select the repository and click on :guilabel:`Import` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:182
+#: ../doc/manual/development/monaca_ide/version_control.rst:184
 msgid "If the import is successful, the new project will be added to Monaca Dashboard. By default, master branch will be applied to the imported project. You can switch the current working branch in the Version Control Configuration page (:menuselection:`Version Control --> Configure...`)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:186
+#: ../doc/manual/development/monaca_ide/version_control.rst:188
 msgid "Working with Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:188
+#: ../doc/manual/development/monaca_ide/version_control.rst:190
 msgid "Once you have successfully connected your project with a repository, you can start working on the same project with your team members and keep it synchronized to the latest updates in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:190
+#: ../doc/manual/development/monaca_ide/version_control.rst:192
 msgid "Monaca Cloud IDE provides a very user-friendly interface supporting version control of your code. Without learning Git from the scratch, you can still perform some basic Git commands directly from the IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:194
+#: ../doc/manual/development/monaca_ide/version_control.rst:196
 msgid "Checkout Current Working Branch"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:196
+#: ../doc/manual/development/monaca_ide/version_control.rst:198
 msgid "If you have more than one branch and want to switch the current working branch, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:198
+#: ../doc/manual/development/monaca_ide/version_control.rst:200
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Configure`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:200
+#: ../doc/manual/development/monaca_ide/version_control.rst:202
 msgid "Choose the branch you want to switch to from current working branch, and click :guilabel:`Save` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:208
+#: ../doc/manual/development/monaca_ide/version_control.rst:210
 msgid "You will get an error message if you try to checkout to a new branch while you have not committed changes on the current working branch yet. Please push your changes to current branch first before checking out to another branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:212
+#: ../doc/manual/development/monaca_ide/version_control.rst:214
 msgid "Retrieve Changes from Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:214
+#: ../doc/manual/development/monaca_ide/version_control.rst:216
 msgid "If you are familiar with Git commands, retrieve changes from remotes here refers to ``git pull`` command. In order to retrieve the changes from remotes, from Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Pull`. If there are changes in your remotes, you will receive those updates in your working branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:216
+#: ../doc/manual/development/monaca_ide/version_control.rst:218
 msgid "When you create a project in IDE, Monaca keeps all the files in :guilabel:`www` folder. Files outside of this folder are also synced even though they will not appear in the IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:221
+#: ../doc/manual/development/monaca_ide/version_control.rst:223
 msgid "Commit Changes to Remotes"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:223
+#: ../doc/manual/development/monaca_ide/version_control.rst:225
 msgid "After making changes in the current working branch, you are able to commit them back to your remote repository. To commit your changes, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:225
+#: ../doc/manual/development/monaca_ide/version_control.rst:227
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> Commit`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:227
+#: ../doc/manual/development/monaca_ide/version_control.rst:229
 msgid "Fill in your commit message and check files you want to commit. Then, click on :guilabel:`Commit` button."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:229
+#: ../doc/manual/development/monaca_ide/version_control.rst:231
 msgid "Once you are ready to push those updates to the remote repository, select :menuselection:`Version Control --> Push`. Once it is successfully pushed, your remotes will contain latest changes made in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:233
+#: ../doc/manual/development/monaca_ide/version_control.rst:235
 msgid "Show Remote Commit History"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:235
+#: ../doc/manual/development/monaca_ide/version_control.rst:237
 msgid "In order to see full history of your previous commits in remote repository, go to :menuselection:`Version Control --> Show Remote History`. You will be redirected to the remote Git service provider's website showing a commit history of your current branch."
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:239
+#: ../doc/manual/development/monaca_ide/version_control.rst:241
 msgid "Show Local Commit History"
 msgstr ""
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:241
+#: ../doc/manual/development/monaca_ide/version_control.rst:243
 msgid "Every commit you made in your Monaca Cloud IDE is called Local Commit. You are able to view your local commit history through :menuselection:`Version Control --> Show Commit History`. To view the changes in each commit, click on the commit on the left panel."
 msgstr ""
 
@@ -7657,14 +7705,14 @@ msgid "It selects the whole content of the child element insides the element whi
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:55
-#: ../doc/manual/development/monaca_localkit/overview.rst:227
+#: ../doc/manual/development/monaca_localkit/overview.rst:235
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:75
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:68
 msgid ":doc:`../../../quick_start/localkit/index`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:58
-#: ../doc/manual/development/monaca_localkit/overview.rst:230
+#: ../doc/manual/development/monaca_localkit/overview.rst:238
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:78
 msgid ":doc:`troubleshooting`"
 msgstr ""
@@ -7758,13 +7806,15 @@ msgid "Fill in the necessary information such as:"
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:88
-#: ../doc/manual/development/monaca_localkit/overview.rst:141
+#: ../doc/manual/development/monaca_localkit/overview.rst:137
+#: ../doc/manual/development/monaca_localkit/overview.rst:148
 msgid "Project Name: create a name to represent your new project which will be shown in the project list."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:89
-#: ../doc/manual/development/monaca_localkit/overview.rst:130
-#: ../doc/manual/development/monaca_localkit/overview.rst:140
+#: ../doc/manual/development/monaca_localkit/overview.rst:126
+#: ../doc/manual/development/monaca_localkit/overview.rst:136
+#: ../doc/manual/development/monaca_localkit/overview.rst:149
 msgid "Working Directory: specify a directory where you want to keep your project files."
 msgstr ""
 
@@ -7804,111 +7854,123 @@ msgstr ""
 msgid "Platform specific codes including Cordova are not imported. Monaca will use its own Cordova and surrounded libraries."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:117
-msgid "In order to import a project into Monaca Localkit, please do as follows:"
+#: ../doc/manual/development/monaca_localkit/overview.rst:116
+msgid "From Zip File: the zip file of a valid project."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:119
+msgid "In order to import a project into Monaca Localkit, please do as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_localkit/overview.rst:121
 msgid "From Monaca Localkit dashboard, click on :guilabel:`+` button on the top right corner of the left panel. Then, click :guilabel:`Import` button. Then, choose which option you want to import Monaca project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:127
+#: ../doc/manual/development/monaca_localkit/overview.rst:123
 msgid "If you choose :guilabel:`From Cloud IDE` option, fill in the necessary information such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:129
+#: ../doc/manual/development/monaca_localkit/overview.rst:125
 msgid "Select Project: select a project from a list of all projects you have in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:138
+#: ../doc/manual/development/monaca_localkit/overview.rst:134
 msgid "On the other hand, if you choose :guilabel:`From Local Cordova Project` option, fill in the necessary information such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:149
+#: ../doc/manual/development/monaca_localkit/overview.rst:145
+msgid "Finally, if you choose :guilabel:`From Zip File` option, fill in the necessary information such as:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_localkit/overview.rst:147
+msgid "Zip File: browse the zip file of your project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_localkit/overview.rst:157
 msgid "After that, the new project will be shown in the project list."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:154
+#: ../doc/manual/development/monaca_localkit/overview.rst:162
 msgid "Adding Editor Program for Local Projects"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:156
+#: ../doc/manual/development/monaca_localkit/overview.rst:164
 msgid "Monaca Localkit provides an \"Open in\" feature which is used to open your local project files in different ways such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:158
+#: ../doc/manual/development/monaca_localkit/overview.rst:166
 msgid "Finder/File Explorer: This will reveal the selected project's folder in Finder (for Mac) or File Explorer (for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:159
+#: ../doc/manual/development/monaca_localkit/overview.rst:167
 msgid "Terminal/Command Prompt: This will open the selected project's folder in Terminal (for Mac) or Command Prompt for (Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:160
+#: ../doc/manual/development/monaca_localkit/overview.rst:168
 msgid "Other editor programs: You can also add any preferred editors to open your local project files from Monaca Localkit."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:162
+#: ../doc/manual/development/monaca_localkit/overview.rst:170
 msgid "In order to add an editor program to Monaca Localkit, please do as follows:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:164
+#: ../doc/manual/development/monaca_localkit/overview.rst:172
 msgid "In Monaca Localkit, select a project."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:166
+#: ../doc/manual/development/monaca_localkit/overview.rst:174
 msgid "Click :guilabel:`Open in...` button and select :guilabel:`Add More Program...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:174
+#: ../doc/manual/development/monaca_localkit/overview.rst:182
 msgid "Then, Add Editor Application dialog will appear. Fill in the necessary information related to the editor program such as:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:176
+#: ../doc/manual/development/monaca_localkit/overview.rst:184
 msgid "Application Path: browse the editor execution file (``.app`` file for Mac or ``.exe`` file for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:177
+#: ../doc/manual/development/monaca_localkit/overview.rst:185
 msgid "Application Name: name the selected editor program. It will be shown in the list of programs when you click :guilabel:`Open in...`."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:178
+#: ../doc/manual/development/monaca_localkit/overview.rst:186
 msgid "Command-line Arguments: [optional] applicable arguments for the selected editor program."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:186
+#: ../doc/manual/development/monaca_localkit/overview.rst:194
 msgid "Click :guilabel:`OK`. Now, the new editor program should appear in the \"Open in\" list as shown below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:197
+#: ../doc/manual/development/monaca_localkit/overview.rst:205
 msgid "Preference Dialog"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:199
+#: ../doc/manual/development/monaca_localkit/overview.rst:207
 msgid "From Monaca Localkit menu, go to :guilabel:`Preferences` (for Mac) or go to :menuselection:`File --> Preferences` (for Windows)."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:207
+#: ../doc/manual/development/monaca_localkit/overview.rst:215
 msgid "In this Preferences dialog, you can do the following settings:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:209
+#: ../doc/manual/development/monaca_localkit/overview.rst:217
 msgid "Working Directory: specify a default location to store your local projects."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:210
+#: ../doc/manual/development/monaca_localkit/overview.rst:218
 msgid "Listening Port: specify a port number to be used when pairing Monaca Localkit with Monaca Debugger."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:211
+#: ../doc/manual/development/monaca_localkit/overview.rst:219
 msgid "Proxy Server: specify a proxy server."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:212
+#: ../doc/manual/development/monaca_localkit/overview.rst:220
 msgid "Log Output: specify where you want to store a log file."
 msgstr ""
 
-#: ../doc/manual/development/monaca_localkit/overview.rst:220
+#: ../doc/manual/development/monaca_localkit/overview.rst:228
 msgid "Save the settings."
 msgstr ""
 

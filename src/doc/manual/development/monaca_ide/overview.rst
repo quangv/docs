@@ -50,14 +50,16 @@ In the menu bar, there are several main menus such as:
      - Opena :guilabel:`Debug` submenu. 
    * - :ref:`build`
      - Opens :guilabel:`Build` submenu. 
+   * - :ref:`ide_version_control`
+     - Manages version control of your project with Github.
    * - Save
      - Saves the file currently openeded. If no file is opened, this function is disable.
    * - Preview
      - Displays the Preview window.   
    * - Run on Device
      - Runs the current project in Monaca Debugger.
-   * - Team
-     - Displays the Team Management panel. 
+   * - :ref:`team_tab`
+     - Invites other Monaca users to join the project. 
    * - :ref:`config`
      - Opens :guilabel:`Config` submenu. 
 
@@ -171,7 +173,31 @@ Build
      - Builds the app for Windows device.
    * - Build App for Chrome Apps          
      - Builds the app for Chrome. 
+   * - Build History          
+     - Show all build history of the current project.
 
+.. _ide_version_control:
+
+Version Control
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 30
+
+   * - Commit
+     - Commit local changes. 
+   * - Push
+     - Push local changes to remote server. 
+   * - Pull
+     - Pull remote changes.
+   * - Show Remote History
+     - Show all commits history in remote server. 
+   * - Show Commit History
+     - Show all commits history from Monaca Cloud IDE. 
+   * - Configure
+     - Config the remote repository. 
+
+For more information, please refer to :ref:`version_control`.
 
 .. _config:
 
@@ -253,13 +279,10 @@ Once Monaca Debugger is connected with Monaca Cloud IDE, you can do console debu
 
 .. _preview_team_panel:
 
-Preview & Team Panel
-==================================
-
 .. _preview_tab:
 
 Live Preview
-^^^^^^^^^^^^^^^^^
+==================================
 
 The Live Preview provides an overview of your app in real-time. You can also interact with this preview as if it is running on an actual device with the limitation of executing the specific device’s functionality (such as camera, contact and so on) and cross-origin network AJAX request. Along with the Monaca Debugger, you will have effective and efficient experiences during app development. 
 
@@ -268,7 +291,7 @@ In this tab, you can:
 
 - refresh the Preview window.
 
-- change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, Galaxy, Nexus and so on. You can change the orientation of the screen as well.
+- change the display device's screen by clicking on the :guilabel:`Configure` icon in that tab. Then, you will see a drop-down list of different devices such as iPad, iPhone, and Nexus. You can change the orientation of the screen as well.
 
 - detach/attach the Preview window.
 
@@ -290,14 +313,14 @@ When using Live Preview, you should be aware of the the following limitations:
 
 .. _team_tab:
 
-Team Management
-^^^^^^^^^^^^^^^^^^^^^^
+Share
+==================================
 
 .. note:: The usability of this function depends on your Monaca subscription plan. For more information, please refer to `Monaca Subscription Plan <https://monaca.mobi/en/pricing>`_.
 
 
 
-Team Management allows you to:
+The *Share* function allows you to:
 
 - manage the team: add/remove members to the shared project.
 
@@ -314,17 +337,10 @@ Team Management allows you to:
 
 .. note:: If your Monaca subscription plan is Basic or Personal, you can only chat and join a team as a Tester.
 
-*Manage Member*
 
 You can share your project with other Monaca users. You can also add/remove other Monaca users to/from your project. In order to manage the members of your project, please do as follows:
 
-1. Click on :guilabel:`Add/Manage Members` button in the Team tab.
-
-  .. figure:: images/overview/8.png
-      :width: 300px
-      :align: left
-
-  .. rst-class:: clear
+1. Click on :guilabel:`Share` button in the Menu panel.
 
 2. Then, the Team Member Manage screen will appear. To add a member, input the email(s) of your team member(s). Please enter one email address per line. You can also assign the role of each member as Developer or Tester by choosing from the drop-down menu. Then, click :guilabel:`Add Member` button to send the invitation to them.
 
@@ -339,16 +355,6 @@ You can share your project with other Monaca users. You can also add/remove othe
   .. figure:: images/overview/10.png
       :width: 500px
       :align: left
-
-  .. rst-class:: clear
-
-*Chat*
-
-You can send messages, screenshots and files with your team members through chat. The conversation can be made from within Monaca Cloud IDE and Monaca Debugger.
-
-  .. figure:: images/overview/11.png
-      :width: 300px
-      :align: center
 
   .. rst-class:: clear
 

@@ -1,25 +1,28 @@
-<!-- Monaca global header -->
-<header class="monaca-global">
-  <div class="container">
-    <p class="logo"><a href="https://{{#is lang "ja"}}ja.{{/is}}monaca.io/"><img src="/static/img/common/header_logo.png" alt="Monaca"></a></p>
-    <nav>
-      <ul>
-        {{#is lang "ja"}}
-          {{> navigation.ja }}
-        {{else}}
-          {{> navigation.en }}
-        {{/is}}
-      </ul> 
-    </nav>
-  </div>
-</header>
+<!-- Fixed navbar -->
+<header class="navbar navbar-inverse" role="navigation">
+    <div class="container">
 
-<script>
-function switchVersion(switchVersion) {
-  var currentVersion = "{{cordovaVersion.versionPath}}";
-  location.href = location.href.replace(currentVersion, switchVersion);
-}
-</script>
+        <div class="navbar-header" id="header-top">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar-left"></span><span class="icon-bar-right"></span>
+            </button>
+            <a class="navbar-brand" href="https://{{#is lang "ja"}}ja.{{/is}}monaca.io/"><img src="/static/img/common/header_logo.png" alt="Monaca"/></a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right">
+              {{#is lang "ja"}}
+                {{> navigation.ja }}
+              {{else}}
+                {{> navigation.en }}
+              {{/is}}
+            </ul>
+        </div>
+
+    </div>
+</header>
 
 <!-- Docs local header -->
 <header class="global">

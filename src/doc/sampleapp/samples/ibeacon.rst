@@ -9,7 +9,7 @@ iBeacon
 
 (Last Updated: 2014/02/05)
 
-This sample app uses iBeacon service to detect its proximity to iBeacon device. This Monaca app has `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ as its UI. When the mobile (running this app) gets close enough to a predefined iBeacon device, a new page showing its UUID will be displayed.
+This sample app uses iBeacon service to detect its proximity to iBeacon device. This Monaca app has `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ as its UI. When the mobile (running this app) gets close enough to a predefined iBeacon device, a new page showing its UUID will be displayed.
 
 
 | *Tested Environments:* Android 4.4, iOS 8.0.2
@@ -74,7 +74,7 @@ Required Cordova Plugins
 HTML Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/index.html>`_.
+The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_.
 
 The following contents of the HTML body of :file:`index.html` file loads the :file:`top-page.html` file at startup: 
 
