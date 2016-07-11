@@ -132,7 +132,7 @@ msgid "Can I develop a full-screen app?"
 msgstr ""
 
 #: ../doc/faq/application.rst:110
-msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
+msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
 msgstr ""
 
 #: ../doc/faq/application.rst:116
@@ -356,7 +356,7 @@ msgid "An inappropriate image may have been assigned to the splash screen."
 msgstr ""
 
 #: ../doc/faq/build.rst:116
-msgid "There may be a description error in the :file:`MonacaSkeleton-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android."
+msgid "There may be a description error in the :file:`MonacaApp-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android."
 msgstr ""
 
 #: ../doc/faq/build.rst:117

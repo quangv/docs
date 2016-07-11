@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-07 02:02+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-11 11:21+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1379,8 +1379,8 @@ msgid ":ref:`file_folder_configuration`"
 msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
-msgid ":ref:`MonacaSkeleton-Info.plist`"
-msgstr ":ref:`MonacaSkeleton-Info.plist`"
+msgid ":ref:`MonacaApp-Info.plist`"
+msgstr ""
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -19463,7 +19463,7 @@ msgid ""
 "The code shown here creates a file in your app's cache (in sandboxed "
 "storage) named ``tempFile.jpeg``. With the new FileEntry object, you can "
 "copy the image to the file or do something else like upload it."
-msgstr "次のコードでは、アプリのキャッシュ ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:24
 msgid "Console Plugin"
@@ -20109,14 +20109,14 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr ""
+msgstr "\\** アプリの再起動後でも、このディレクトリーに置かれたファイルに影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。アプリ側で処理を行わない場合、削除のタイミング、または、削除するか否かは、OS 側が決定します。 "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:159
 msgid ""
 "\\*** The OS may clear the contents of this directory whenever it feels it "
 "is necessary, but do not rely on this. You should clear this directory as "
 "appropriate for your application."
-msgstr ""
+msgstr "\\*** このディレクトリーのコンテンツの削除は、必要に応じて、OS 側が行います。しかし、この OS 側の挙動に頼らずに、アプリが正常に動作するよう、開発者側で、必要に応じて削除できるようにしましょう。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:169
 msgid "file:///android_asset/"
@@ -20153,7 +20153,7 @@ msgid ""
 "\\** The OS does not clear this directory automatically; you are responsible"
 " for managing the contents yourself. Should the user purge the cache "
 "manually, the contents of the directory are removed."
-msgstr ""
+msgstr "\\** OS 側では、このディレクトリーの削除を自動では行ないので、開発者側でコンテンツを管理する必要があります。また、このディレクトリー内のコンテンツの削除 ( キャッシュの削除 ) は、ユーザー側でも行えるようにする必要があります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:192
 msgid ""
@@ -20189,7 +20189,7 @@ msgstr "file:///accounts/1000/shared"
 msgid ""
 "**Note**: When application is deployed to work perimeter, all paths are "
 "relative to /accounts/1000-enterprise."
-msgstr ""
+msgstr "**備考**: ワークぺリメーター ( work perimeter ) へアプリがインストールされた場合、パスには、/accounts/1000-enterprise が含まれます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:218
 msgid "OS X File System Layout"
@@ -20248,13 +20248,13 @@ msgid ""
 "be cleared whenever the OS desires. Your app should be able to recreate any "
 "content that might be deleted. You should clear this directory as "
 "appropriate for your application."
-msgstr ""
+msgstr "\\* アプリの再起動後・アップグレード後でも、このディレクトリーに置かれたファイルに影響はでません。ただし、このディレクトリーのコンテンツは、OS 側で、自由に削除できます。削除された場合でも、アプリ側で再作成できる必要があります。また、ディレクトリーのコンテンツの削除は、OS 側に頼るのではなく、アプリ側で適宜行えるようにしましょう。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:246
 msgid ""
 "\\** Allows access to the entire file system. This is only available for non"
 " sandboxed apps."
-msgstr ""
+msgstr "\\** ファイルシステムへのアクセスに制限はありません。ただし、サンドボックス化されていないアプリが対象です。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:249
 msgid "Windows File System Layout"
@@ -20284,7 +20284,7 @@ msgstr "\\* 定期的に、OS 側が、このディレクトリー内を削除�
 #: ../doc/reference/cordova_6.2/file/index.rst:301
 msgid ""
 "Permisson to write to external storage when it's not mounted on Marshmallow"
-msgstr ""
+msgstr "Marshmallow 上で外部ストレージがマウントされていない場合の 「 書き込み 」 パーミッション"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:303
 msgid ""
@@ -20298,7 +20298,7 @@ msgid ""
 " mounted. However due to a limitation, when external storage is not mounted,"
 " it would ask for permission to write to "
 "``cordova.file.externalApplicationStorageDirectory``."
-msgstr ""
+msgstr "Marchmallow では、外部のストレージへの書き込みおよび外部のストレージからの読み込みを行う場合、ユーザー側に許可を求めることを必須要件にしています。なお、``cordova.file.applicationStorageDirectory`` と ``cordova.file.externalApplicationStorageDirectory`` への書き込みに関しては、`デフォルト <https://developer.android.com/guide/topics/data/data-storage.html#filesExternal>`_ でパーミッションがアプリ側に付与されているため、プラグイン側ではユーザー側に許可を求めませんが、外部のストレージがマウントされていないときだけ、通知の意味も込めて、ユーザー側の許可を求めます。また、同様に、なんらかの理由で外部のストレージがマウントされていない場合にも、ユーザー側に対して、``cordova.file.externalApplicationStorageDirectory`` に書き込みを行ってよいか、プラグイン側で確認します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:342
 msgid ""
@@ -20318,7 +20318,7 @@ msgstr "``cacheDirectory`` - キャッシュファイル用 ( アプリの再起
 
 #: ../doc/reference/cordova_6.2/file/index.rst:625
 msgid "Sample: Create Files and Directories, Write, Read, and Append files"
-msgstr ""
+msgstr "サンプルコード : ファイルの作成、ディレクトリーの作成、ファイルへ書き込み、ファイルの読み込み、ファイルへの追記"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:627
 msgid ""
@@ -20326,43 +20326,43 @@ msgid ""
 "persistent storage location for your app (sandboxed storage) and to store "
 "files in other platform-dependent locations. The code snippets in this "
 "section demonstrate different tasks including:"
-msgstr ""
+msgstr "ファイル操作プラグインを使用して、一時的または永続的なストレージへ ( サンドボックス化された、アプリのストレージを使用 )、ならびに、プラットフォーム側で指定しているストレージへファイルを保存できます。この節に例示しているコードでは、次の処理の記述方法を確認できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:629
 msgid ":ref:`Accessing the file system <persistent_file>`"
-msgstr ""
+msgstr ":ref:`ファイルシステムへのアクセス <persistent_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:630
 msgid ""
 "Using cross-platform Cordova file URLs to :ref:`store your files "
 "<append_file_alternative>` (see Where to Store Files for more info)"
-msgstr ""
+msgstr "Cordova の FILE URL を使用した、:ref:`ファイルの保存 <append_file_alternative>` ( 詳細は、上記の 「 ファイルの保存場所 」 を参照のこと )"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:631
 msgid ""
 "Creating :ref:`files <persistent_file>` and :ref:`directories "
 "<create_directories>`"
-msgstr ""
+msgstr ":ref:`ファイル <persistent_file>` と :ref:`ディレクトリー <create_directories>` の作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:632
 msgid ":ref:`Writing to files <write_file>`"
-msgstr ""
+msgstr ":ref:`ファイルへの書き込み <write_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:633
 msgid ":ref:`Reading files <read_file>`"
-msgstr ""
+msgstr ":ref:`ファイルの読み込み <read_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:634
 msgid ":ref:`Appending files <append_file_alternative>`"
-msgstr ""
+msgstr ":ref:`ファイルへの追記 <append_file_alternative>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:635
 msgid ":ref:`Display an image file <display_image>`"
-msgstr ""
+msgstr ":ref:`画像ファイルの表示 <display_image>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:640
 msgid "Create a persistent file"
-msgstr ""
+msgstr "永続的なファイルの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:642
 msgid ""
@@ -20370,7 +20370,7 @@ msgid ""
 "using ``requestFileSystem``. When you do this, you can request either "
 "persistent or temporary storage. Persistent storage will not be removed "
 "unless permission is granted by the user."
-msgstr ""
+msgstr "ファイル操作プラグイン提供の API を使用する前に、``requestFileSystem`` を使用すれば、ファイルシステムへアクセスすることができます。また、``requestFileSystem`` の実行時には、PERSISTENT または TEMPORARY のいずれかを指定できます。PERSISTENT にストレージを指定した場合、ユーザーの許可がない限り、ストレージの削除はできません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:644
 msgid ""
@@ -20380,18 +20380,18 @@ msgid ""
 "device. (To access file system locations outside the sandboxed storage, use "
 "other methods such as window.requestLocalFileSystemURL, which support "
 "platform-specific locations. For one example of this, see Append a File.)"
-msgstr ""
+msgstr " ``requestFileSystem`` を使用してファイルシステムへアクセスした場合、サンドボックス化されたファイルシステムへのアクセスのみ許可され ( サンドボックス化した場合、対象のアプリのみ、ストレージにアクセス可能 )、端末上の他のファイルシステムへのアクセスはできません。サンドボックス化されたストレージ以外のファイルへアクセスする場合には、window.requestLocalFileSystemURL などのメソッドを使用します ( 下の 「 ファイルへの追記 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:646
 msgid "Here is a request for persistent storage."
-msgstr ""
+msgstr "次のコードでは、永続的なストレージを作成しています ( PERSISTENT を指定 )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:650
 msgid ""
 "When targeting WebView clients (instead of a browser) or native apps "
 "(Windows), you dont need to use requestQuota before using persistent "
 "storage."
-msgstr ""
+msgstr "WebView クライアント向け ( ブラウザーではなく ) またはネイティブアプリ向け ( Windows ) に開発をしている場合、永続的なストレージを使用するときでも、requestQuota を使用する必要はありません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:668
 msgid ""
@@ -20399,45 +20399,45 @@ msgid ""
 "return a DirectoryEntry object, which you can use to create or get a file "
 "(by calling ``getFile``). In this example, ``fs.root`` is a DirectoryEntry "
 "object that represents the persistent storage in the sandboxed file system."
-msgstr ""
+msgstr "成功時のコールバックには、FileSystem オブジェクト ( fs ) が渡されます。DirectoryEntry オブジェクトを返すように指定する場合には、``fs.root`` を使用します。また、``fs.root`` は、ファイルの作成・取得時にも使用できます ( ``getFile`` を実行 )。ここでは、``fs.root`` は、DirectoryEntry オブジェクトであり、サンドボックス化されたファイルシステム内に作成された、永続的なストレージを指します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:670
 msgid ""
 "The success callback for ``getFile`` receives a FileEntry object. You can "
 "use this to perform file write and file read operations."
-msgstr ""
+msgstr "``getFile`` の成功時のコールバックには、FileEntry オブジェクトが渡されます。FileEntry オブジェクトを使用して、ファイルへの書き込み・ファイルの読み込みを行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:675
 msgid "Create a temporary file"
-msgstr ""
+msgstr "一時的なファイルの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:677
 msgid ""
 "Here is an example of a request for temporary storage. Temporary storage may"
 " be deleted by the operating system if the device runs low on memory."
-msgstr ""
+msgstr "次の例では、一時的なストレージを作成しています ( TEMPORARY を指定 )。端末上のメモリーが少なくなった場合、OS 側がこのストレージを削除することもあります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:688
 msgid ""
 "When you are using temporary storage, you can create or get the file by "
 "calling ``getFile``. As in the persistent storage example, this will give "
 "you a FileEntry object that you can use for read or write operations."
-msgstr ""
+msgstr "一時的なストレージを使用する場合、``getFile`` を実行して、ファイルの作成・取得を行えます。永続的なストレージと同様、このメソッドを使用して、FileEntry オブジェクトの取得をします。取得後は、ファイルの読み込み・ファイルへの書き込みを行えます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:705
 msgid "Write to a file"
-msgstr ""
+msgstr "ファイルへの書き込み"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:707
 msgid ""
 "Once you have a FileEntry object, you can write to the file by calling "
 "``createWriter``, which returns a FileWriter object in the success callback."
 " Call the ``write`` method of FileWriter to write to the file."
-msgstr ""
+msgstr "FileEntry オブジェクトの取得後は、``createWriter`` を実行して、ファイルへの書き込みを行います。このメソッドの成功時のコールバックに、FileWriter オブジェクトが返されるので、FileWriter の ``write`` メソッドを実行して、ファイルへの書き込みを行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:737
 msgid "Read a file"
-msgstr ""
+msgstr "ファイルの読み込み"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:739
 msgid ""
@@ -20446,11 +20446,11 @@ msgid ""
 "FileReader object. You can use methods like ``readAsText`` to start the read"
 " operation. When the read operation is complete, ``this.result`` stores the "
 "result of the read operation."
-msgstr ""
+msgstr "FileEntry オブジェクトは、既存ファイルの読み込み時にも使用します。最初に、FileEntry の file プロパティー を使用して、ファイルへのリファレンスを取得します。次に、FileReader オブジェクトを作成します。読み込み処理には、``readAsText`` などのメソッドを使用できます。読み込み処理の完了後、``this.result`` には、処理結果が保存されています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:761
 msgid "Append a file using alternative methods"
-msgstr ""
+msgstr "ファイルへの追記 ( ファイルシステムへのアクセス時には、上記とは異なるメソッドを使用 ) "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:763
 msgid ""
@@ -20460,7 +20460,7 @@ msgid ""
 "this example, pass the cross-platform Cordova file URL, "
 "cordova.file.dataDirectory, to the function. The success callback receives a"
 " DirectoryEntry object, which you can use to do things like create a file."
-msgstr ""
+msgstr "ファイルの新規作成ではなく、既存のファイルに対して内容を追記したい場合もあります。この例では、window.resolveLocalFileSystemURL を使用した追記方法を記します。ここでは、cordova.file.dataDirectory ( Cordova の File URL ) を使用します。成功時のコールバックに、DirectoryEntry オブジェクトが返ってくるので、このオブジェクトを使用して追記処理を行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:773
 msgid ""
@@ -20470,7 +20470,7 @@ msgid ""
 " storage locations are platform-specific. You can also pass cross-platform "
 "file system locations to ``resolveLocalFileSystemURL`` using the ``cdvfile "
 "protocol``."
-msgstr ""
+msgstr "また、サンドボックス化されたファイルシステム以外の場所に置かれたファイルへアクセスする場合にも、``resolveLocalFileSystemURL`` を使用できます。詳細は、上記の 「 ファイルの保存場所 」 をご確認ください。多くの場合、ファイルの保存場所はプラットフォーム毎に異なります。また、``resolveLocalFileSystemURL`` へ渡す File URL には、``cdvfile プロトコル`` 形式も使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:775
 msgid ""
@@ -20478,7 +20478,7 @@ msgid ""
 "function that is called in the preceding code (see the preceding examples "
 "for the actual code). ``createFile`` calls ``writeFile``. In ``writeFile``, "
 "you check whether an append operation is requested."
-msgstr ""
+msgstr "追記処理における ``createFile`` 関数に関しても、先ほど解説した内容と異なる点はありません ( 「 一時的なファイルの作成 」 を参照のこと )。``createFile`` を実行し、次に、``writeFile`` を実行します。``writeFile`` では、追記処理であることを指定します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:777
 msgid ""
@@ -20486,11 +20486,11 @@ msgid ""
 " index value for the position where you want to write. In this example, you "
 "also test whether the file exists. After calling seek, then call the write "
 "method of FileWriter."
-msgstr ""
+msgstr "FileWriter オブジェクトの取得後、``seek`` メソッドを呼び出し、追記位置を指定しています。また、ここでは、ファイルが存在するかも確認しています。seek の処理完了後、FileWriter の write メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:810
 msgid "Store an existing binary file"
-msgstr ""
+msgstr "既存のバイナリーファイルの保存"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:812
 msgid ""
@@ -20499,7 +20499,7 @@ msgid ""
 "and convert that to something you can store on your device? In this example,"
 " you obtain a file using an xhr request, and then save it to the cache in "
 "the sandboxed file system."
-msgstr ""
+msgstr "ここまでは、サンドボックス化したファイルシステムの作成とファイルへの書き込み方法を解説してきました。ここからは、外部にあるファイルへのアクセス方法、ならびに、このような既存ファイルを端末上へ保存するための処理方法を解説します。ここでは、XHR リクエストを使用してファイルを取得し、サンドボックス化されたファイルシステムのキャッシュに、取得したファイルを保存します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:814
 msgid ""
@@ -20508,7 +20508,7 @@ msgid ""
 "as before), the returned FileSystem object (fs) represents the cache in the "
 "sandboxed file system. Use ``fs.root`` to get the DirectoryEntry object that"
 " you need."
-msgstr ""
+msgstr "ファイルを取得する前に、``requestFileSystem`` を使用して、FileSystem へのリファレンスを取得します。以前と同じように、window.TEMPORARY を指定し、メソッドを実行します。実行後、返ってきた FileSystem オブジェクト ( fs ) には、サンドボックス化されたファイルシステム内のキャッシュへの情報が格納されています。次に、``fs.root`` を使用して、必要な DirectoryEntry オブジェクトを取得します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:825
 msgid ""
@@ -20517,47 +20517,47 @@ msgid ""
 "DirectoryEntry reference that you already obtained as an argument to the "
 "saveFile function. You will save the blob image and display it later after "
 "reading the file (to validate the operation)."
-msgstr ""
+msgstr "getSampleFile 内の処理を記述します。ここでは、Blob 形式の画像を取得します。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blog 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:847
 msgid ""
 "For Cordova 5 security, the preceding code requires that you add the domain "
 "name, http://cordova.apache.org, to the Content-Security-Policy element in "
 "index.html."
-msgstr ""
+msgstr "Cordova 5 以降、セキュリティー上の理由により、次のコードの実行には、Content-Security-Policy のドメイン名に、http://cordova.apache.org を設定する必要があります ( index.html 内 )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:849
 msgid ""
 "After getting the file, copy the contents to a new file. The current "
 "DirectoryEntry object is already associated with the app cache."
-msgstr ""
+msgstr "ファイルの取得後、新規作成したファイルへコンテンツをコピーします。DirectoryEntry オブジェクトは、キャッシュ先にすでに紐づけされています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:862
 msgid ""
 "In writeFile, you pass in the Blob object as the dataObj and you will save "
 "that in the new file."
-msgstr ""
+msgstr "writeFile では、引数として、Blob オブジェクト ( dataObj ) を渡し、新規のファイル上に保存します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:889
 msgid ""
 "After writing to the file, read it and display it. You saved the image as "
 "binary data, so you can read it using FileReader.readAsArrayBuffer."
-msgstr ""
+msgstr "ファイルへの書き込み終了後、ファイルの読み込みと表示をします。バイナリー形式のデータとして画像を保存しているので、FileReader.readAsArrayBuffer を使用して、データを読み込めます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:912
 msgid ""
 "After reading the data, you can display the image using code like this. Use "
 "window.URL.createObjectURL to get a DOM string for the Blob image."
-msgstr ""
+msgstr "データの読み込み後、次のようなコードを使用すれば、画像を表示できます。表示用の画像 ( Blob 形式 ) を取得する場合には、window.URL.createObjectURL を使用します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:927
 msgid "Display an image file"
-msgstr ""
+msgstr "画像ファイルの表示"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:929
 msgid ""
 "To display an image using a FileEntry, you can call the ``toURL`` method."
-msgstr ""
+msgstr "FileEntry を使用して画像を表示する場合には、``toURL`` メソッドを使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:938
 msgid ""
@@ -20566,11 +20566,11 @@ msgid ""
 "in the Content-Security-Policy element in index.html. For example, on "
 "Windows 10, you can include ``ms-appdata``: in your element. Here is an "
 "example."
-msgstr ""
+msgstr "プラットフォームにより異なる URI を使用して ( FileEntry の代わりに )、画像を表示させる場合、index.html の Content-Security-Policy 要素に、URI のホストを指定します。Windows 10 では、``ms-appdata``: を使用します。次に例を記します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:947
 msgid "Create Directories"
-msgstr ""
+msgstr "ディレクトリーの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:949
 msgid ""
@@ -20579,19 +20579,19 @@ msgid ""
 "is, any DirectoryEntry). Here, you write to the application cache (assuming "
 "that you used window.TEMPORARY to get your FileSystem object) by passing "
 "fs.root into this function."
-msgstr ""
+msgstr "ここでは、ストレージのルートに、ディレクトリーを作成します。書き込み可能なストレージ ( DirectoryEntry ) であれば、次のコードを使用できます。ここでは、createDirectory に fs.root を渡して、アプリのキャッシュ用ディレクトリーを使用します ( FileSystem オブジェクトの取得時に、window.TEMPORARY に設定したことを前提とします )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:951
 msgid ""
 "This code creates the /NewDirInRoot/images folder in the application cache. "
 "For platform-specific values, look at ``File System Layouts``."
-msgstr ""
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー内に /NewDirInRoot/images フォルダーを作成します。各プラットフォームのファイルシステムの詳細は、上記の 「 ``ファイルシステムの概要`` 」 をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:965
 msgid ""
 "When creating subfolders, you need to create each folder separately as shown"
 " in the preceding code."
-msgstr ""
+msgstr "サブディレクトリーを作成する場合には、上記のコードのように、各フォルダーをそれぞれ作成する必要があります。"
 
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:28
 msgid ""
