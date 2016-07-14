@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-11 11:21+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-07-14 01:28+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1380,7 +1380,7 @@ msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
 msgid ":ref:`MonacaApp-Info.plist`"
-msgstr ""
+msgstr ":ref:`MonacaApp-Info.plist`"
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -19885,7 +19885,7 @@ msgstr "このプラグインは、`BackgroundDownloader <https://msdn.microsoft
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
 msgid "Sample: Download and Upload Files"
-msgstr "使用例 : ファイルのダウンロードとアップロード"
+msgstr "サンプルコード : ファイルのダウンロードとアップロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
 msgid ""
@@ -19896,21 +19896,21 @@ msgstr "ファイル転送プラグインを使用して、ファイルのアッ
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
 msgid ""
 ":ref:`Downloading a binary file to the application cache <binary_file>`"
-msgstr ""
+msgstr ":ref:`アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロードする方法 <binary_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
 msgid ""
 ":ref:`Uploading a file created in your application's root "
 "<upload_created_file>`"
-msgstr ""
+msgstr ":ref:`アプリのルートのディレクトリー内にファイルを作成して、アップロードする方法 <upload_created_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:393
 msgid ":ref:`Downloading the uploaded file <download_uploaded_file>`"
-msgstr ""
+msgstr ":ref:`ファイルをダウンロードする方法 ( 上記の例でアップロードしたファイルをダウンロード ) <download_uploaded_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:398
 msgid "Download a Binary File to the application cache"
-msgstr ""
+msgstr "アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:400
 msgid ""
@@ -19920,13 +19920,13 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr ""
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルのダウンロードの前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード対象のファイル ( FileEntry ) を作成/取得します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:420
 msgid ""
 "Note For persistent storage, pass LocalFileSystem.PERSISTENT to "
 "requestFileSystem."
-msgstr ""
+msgstr "永続的なストレージを使用する場合には、requestFileSystem の実行時に、LocalFileSystem.PERSISTENT を指定します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:422
 msgid ""
@@ -19936,13 +19936,13 @@ msgid ""
 "the app's ``readBinaryFile`` function. In this code example, the entry "
 "variable is a new FileEntry object that receives the result of the download "
 "operation."
-msgstr ""
+msgstr "FileEntry オブジェクトの取得後、FileTransfer オブジェクトの download メソッドを使用して、ファイルを ``ダウンロード`` します。FileTransfer の ``download`` メソッドの第三引数は、成功時のコールバックです。このコールバック内では、``readBinaryFile`` 関数を使用しています。また、ここで使用している変数 「 entry 」 には、download の処理結果として受けとった、新規の FileEntry オブジェクトが格納されています。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:460
 msgid ""
 "If you just need to display the image, take the FileEntry to call its "
 "toURL() function."
-msgstr ""
+msgstr "画像を単に表示する場合には、FileEntry を渡して、次に、FileEntry 自身の toURL() 関数を呼び出します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:469
 msgid ""
@@ -19952,19 +19952,19 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr ""
+msgstr "バイナリーファイルを読み込む必要がある場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:491
 msgid ""
 "Once you read the file successfully, you can create a DOM URL string using "
 "``createObjectURL``, and then display the image."
-msgstr ""
+msgstr "ファイルの読み込み後、``createObjectURL`` を使用すれば、DOM 上で使用できる URL を取得できます。次に、この URL を使用して、画像を表示します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:505
 msgid ""
 "As you saw previously, you can call FileEntry.toURL() instead to just "
 "display the downloaded image (skip the file read)."
-msgstr ""
+msgstr "上記で示したように、ダウンロードした画像を単に表示するのであれば、FileEntry.toURL() を使用することもできます。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
 msgid "Upload a File"
@@ -19978,23 +19978,23 @@ msgid ""
 "method of DirectoryEntry. In this example, create the file in the "
 "application's cache (fs.root). Then call the app's writeFile function so you"
 " have some content to upload."
-msgstr ""
+msgstr "ファイル転送プラグインを使用してファイルをアップロードする場合、アップロード対象となるファイルを取得するときには、ファイル操作プラグイン ( File プラグイン ) を使用します ( ダウンロード時と同じく、ファイルは、FileEtnry オブジェクトとなります )。アップロード前に、DirectoryEntry の ``getFile`` を使用して、アップロード用のファイルを作成/取得します。ここでは、アプリのキャッシュ用ディレクトリー ( fs.root ) 内にファイルを作成しています。次に、アップロードするコンテンツを渡して、writeFile 関数を実行します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:532
 msgid ""
 "In this example, create some simple content, and then call the app's upload "
 "function."
-msgstr ""
+msgstr "この例では、FileWrite オブジェクトを作成/取得して、次に、upload 関数を実行しています。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:557
 msgid ""
 "Forward the FileEntry object to the upload function. To perform the actual "
 "upload, use the upload function of the FileTransfer object."
-msgstr ""
+msgstr "ここでは、upload 関数へ FileEntry オブジェクトを渡しています。なお、実際のアップロード処理には、FileTransfer オブジェクトの upload 関数を使用します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:595
 msgid "Download the uploaded file"
-msgstr ""
+msgstr "ファイルのダウンロード ( ここでは、先ほどの例で使用したファイルをダウンロードします )"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:597
 msgid ""
@@ -20004,13 +20004,13 @@ msgid ""
 "FileEntry object. The main difference here from previous examples is that we"
 " call FileReader.readAsText to read the result of the download operation, "
 "because we uploaded a file with text content."
-msgstr ""
+msgstr "先ほどアップロードしたテキストを、今度は、ダウンロードします ( 「 ファイルのアップロード 」 を参照のこと )。必要なものは、有効な URL です ( ダウンロード元を指す URL、たとえば、http://some.server.com/download.php )。FileTransfer.download メソッドの成功時のハンドラーには、FileEntry オブジェクトが渡されます。上記のダウンロードの例 ( 「 バイナリーファイルのダウンロード 」 を参照のこと ) と異なる点として、ここでは、ダウンロードの処理結果を読み込むときに、FileReader.readAsText を使用しています。これは、先ほどのアップロードの例　( 「 ファイルのアップロード 」 を参照のこと ) では、テキスト形式のコンテンツとして、ファイルが処理されているためです。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:628
 msgid ""
 "In the readFile function, call the ``readAsText`` method of the FileReader "
 "object."
-msgstr ""
+msgstr "readFile 関数内で、FileReader オブジェクトの ``readAsText`` メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:29
 msgid ""
@@ -20899,7 +20899,7 @@ msgid ""
 "``StatusBarBackgroundColor`` (color hex string, no default value). On iOS 7,"
 " set the background color of the statusbar by a hex string (#RRGGBB) at "
 "startup. If this value is not set, the background color will be transparent."
-msgstr ""
+msgstr "``StatusBarBackgroundColor`` ( 16 進数の文字列で示すカラーコード、デフォルトはなし )。アプリ起動時のスタータスバーの背景色を、16進数の文字列 ( #RRGGBB ) で設定します。この値が設定されていない場合、背景色は透明になります。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:68
 msgid ""
@@ -20915,7 +20915,7 @@ msgid ""
 "apps), so you may want to set the statusbar color at runtime instead via "
 "``StatusBar.backgroundColorByHexString`` or "
 "``StatusBar.backgroundColorByName``. One way to do that would be:"
-msgstr ""
+msgstr "Android 5+ を対象とする、多くのガイドラインでは、スタータスバーとアプリのテーマに、別々の色を指定するように推奨されています ( 一方、iOS 7+ 向けのアプリでは、スタータスバーとアプリのカラーを統一する方が多いようです )。ここでは、ステータスバーの色をあらかじめ設定するのではなく ( ``StatusBar.backgroundColorByHexString`` または ``StatusBar.backgroundColorByName`` を設定 )、動的 ( プログラムの実行時 ) に設定する方法の一例を記します。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:131
 msgid "**config.xml**"
@@ -20941,34 +20941,34 @@ msgstr "Android 4.0 以上"
 msgid ""
 "Controls which URLs the WebView itself can be navigated to. Applies to top-"
 "level navigations only."
-msgstr ""
+msgstr "WebView 上で使用できる URL を制御します。適用範囲は、最上位のウィンドウ ( top-level navigation ) 上におけるページ遷移のみです。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:68
 msgid "Quirks: on Android it also applies to iframes for non-http(s) schemes."
-msgstr ""
+msgstr "Android では、http(s) スキーマを使用していない iframe にも適用されます。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:70
 msgid ""
 "By default, navigations only to ``file://`` URLs, are allowed. To allow "
 "others URLs, you must add ``<allow-navigation>`` tags to your "
 "``config.xml``:"
-msgstr ""
+msgstr "デフォルトでは、``file://`` 形式の URL のみ使用できます。他の URL を使用する場合、たとえば、次のように ``<allow-navigation>`` を指定して、``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:107
 msgid ""
 "Controls which URLs the app is allowed to ask the system to open. By "
 "default, no external URLs are allowed."
-msgstr ""
+msgstr "アプリ側からシステム側に対して、外部への URL を開くようにリスクエストすることができます。デフォルトでは、外部への URL は一切開くことができません。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:109
 msgid "On Android, this equates to sending an intent of type BROWSEABLE."
-msgstr ""
+msgstr "Android における、「 BROWSABLE 」 設定に相当します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:111
 msgid ""
 "This whitelist does not apply to plugins, only hyperlinks and calls to "
 "``window.open()``."
-msgstr ""
+msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクに適用されます。"
 
 #: ../doc/reference/index.rst:2
 msgid "API"
