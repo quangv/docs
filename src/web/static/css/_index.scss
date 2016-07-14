@@ -1,186 +1,171 @@
-#indexContents {
-  background-color: #fff;
-  margin: 0 auto;
-  max-width: 1020px;
-  height: 815px;
-
-  #shortcuts {
-    padding-top: 15px;
-    li {
-      background: none;
-      height: 231px;
-      padding: 0;
-      position: relative;
-      dt {
-        color: $h_color;
-        font-size: 18px;
-        font-weight: 700;
-        margin: 5px 0 5px;
-        a:link {color: $h_color; text-decoration: none;}
-        a:visited {color: $h_color; text-decoration: none;}
-        a:hover {color: #999; text-decoration: none;}
-        a:active {color: $h_color; text-decoration: none;}
-      }
-      dd {
-        font-size: 12px;
-        padding-bottom: 40px;
-        text-align: left;
-
-        .link-right {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-        }
-      }
-    }
-  }
-
-  #index-local-nav {
-    float: left;
-    margin-right: 20px;
-    width: 240px;
-  }
-
-  .environment {
-    float: right;
-    margin-bottom: 40px;
-    width: calc(100% - 260px);
-    h2 {
-      line-height: 24px;
-      margin-bottom: 10px;
-      padding-top: 0;
-    }
-  }
-
-  table.more-option {
-    float: right;
-    width: percentage((860px - 250px) / 880px);
-    tr {
-      td.leftimg {
-        vertical-align: top;
-        width: 60px;
-        padding: 7px 0 0 8px;
-      }
-      td {
-        padding-bottom: 20px;
-        padding-right: 10px;
-        dl {
-          border: none;
-          margin: 0;
-          dt {
-            color: $h_color;
-            background: url(../img/common/icon_triangle_black.png) no-repeat 0 8px;
-            font-size: 14px;
-            font-weight: 700;
-            margin: 0 0 2px 0;
-            padding-left: 13px;
-            &:hover {opacity: 0.7;}
-            a {
-              font-weight: bold;
-            }
-            a:link {color: $h_color; text-decoration: none;}
-            a:visited {color: $h_color; text-decoration: none;}
-            a:hover {color: #999; text-decoration: none;}
-            a:active {color: $h_color; text-decoration: none;}
-          }
-          dd {
-            border: 0;
-            font-size: 12px;
-            line-height: 1.5;
-            padding: 0;
-          }
-        }
-      }
-    }
-  }
-
-  .whatsnew {
-    float: right;
-    width: calc(100% - 260px);
-    h2 {
-      line-height: 24px;
-      margin-bottom: 10px;
-      padding-top: 0;
-    }
-    table {
-      font-size: 12px;
-      tr {
-        th {
-          color: $h_color;
-          font-weight: 700;
-          line-height: 20px;
-          padding-right: 20px;
-          padding-left: 6px;
-        }
-        td {
-          line-height: 1.5;
-          padding-bottom: 8px;
-          font-size: 13px;
-        }
-      }
-    }
-  }
-
-  h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 16px;
-    margin-bottom: 14px;
-    padding-bottom: 6px;
-  }
-
-  table.left-menu {
-    font-size: 12px;
-    width: 250px;
-    tr {
-      td {
-        padding-bottom: 20px;
-
-        ul {
-          margin-left: 20px;
-        }
-        li {
-          list-style-type: square;
-          line-height: 1.6;
-          display: list-item;
-        }
-
-        h2 {
-          font-size: 16px;
-          padding: 0;
-          margin-bottom: 0px;
-          border-bottom: none;
-        }
-
-        h3 {
-          padding: 0;
-          font-size: 14px;
-          color: #5E5E5E;
-          font-weight: bold;
-          line-height: 1.2;
-          margin-bottom: 3px;
-        }
-      }
-    }
-  }
-
-  
-
-  footer {
-    margin: 30px auto 30px;
-    width: 952px;
-    float: none;
-    padding: 0px;
-    position: relative;
-  }
-  footer-nav {
-    padding-top: 20px;
-  }
-  footer img {
-    position: absolute;
-    top: 0;
-    right: 0px;
-  }
+/*INDEX*/
+.center {
+  text-align: center;
 }
+
+button.overview-btn {
+    padding: 10px 60px;
+    border: 1px solid #1e629e;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1e629e;
+}
+
+button.overview-btn:hover {
+    background-color: #337ab7;   
+}
+
+#indexContents {
+    margin: 0 auto;
+    max-width: 1020px;
+
+    footer {
+        margin: 30px auto 30px;
+        width: 952px;
+        float: none;
+        padding: 0px;
+        position: relative;
+    }
+    footer-nav {
+        padding-top: 20px;
+    }
+    footer img {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+}
+
+table.products-guide {
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+}
+
+div.api-box {
+    width: 170px;
+    border: 1px solid #1e629e;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    a.title {
+        color: #000; 
+        text-decoration: none;
+    }
+    a.title:hover {
+        color: #1e629e; 
+        text-decoration: underline;
+    }
+}
+
+div.product-box {
+    width: 210px;
+    border: 1px solid #1e629e;
+    margin: 10px;
+    border-radius: 5px;
+    color: #000;
+    text-align: left;
+
+    p {
+        padding: 10px 10px 10px 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p.onsen {
+        padding: 20px 10px 21px 70px;
+    }
+
+    hr {
+        border-bottom: 1px solid #1e629e;
+        margin: 0;
+    }
+
+    ul {
+        padding: 15px;
+        line-height: 150%;
+        li {
+            font-size: 16px;
+            list-style-type: square;
+            margin-left: 30px;
+
+           /* a, a:link, a:active {
+                color: #000; 
+                text-decoration: none;
+            }
+            a:hover {
+                color: #1e629e; 
+                text-decoration: underline;
+            }*/
+        }
+    }
+
+    a.title {
+        color: #000; 
+        text-decoration: none;
+    }
+    a.title:hover {
+        color: #1e629e; 
+        text-decoration: underline;
+    }
+}
+
+
+
+img.product-logo {
+    position: absolute;
+    width: 60px;
+    margin: 13px 10px;
+    padding: 0;
+}
+
+img.product-logo-v2 {
+    position: absolute;
+    width: 60px;
+    margin: 8px 10px;
+    padding: 0;
+}
+
+.supported-environment {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 150%;
+    p {
+        color: #000;
+    }
+
+    ul {
+        margin-left: 30px;
+        li {
+            list-style-type: disc;
+        }
+    }
+
+    ul.level-2 {
+        li {
+            list-style-type: square;
+        }   
+    }
+}
+
+.monaca-updates{
+    font-size: 14px;
+    margin: 20px 0 50px 50px;
+    text-align: left;
+    line-height: 150%;
+}
+
+p.updates-loading {
+    text-align: center;
+}
+
+
+/*============END OF INDEX=============*/
+
+
+

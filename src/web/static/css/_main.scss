@@ -1,25 +1,14 @@
-body {
-  min-width: 1020px;
-  position: relative;
-}
-
-body.no-sidebar {
-  article.main {
-    float: none;
-    width: auto;
-  }
-}
-
+/*NEW UI*/
 article.main {
   @include all-box-shadow(-1px,0,1px,rgba(0,0,0,0.05));
   @include clearfix-after;
-  background-color: #fff;
+  /*background-color: #fff;*/
   border: none;
   box-sizing: border-box;
   color: #444;
   float: left;
   margin: 0;
-  padding: 80px 30px 50px 30px;
+  padding-top: 0;
   width: calc(100% - 288px);
 
   > .body {
@@ -145,6 +134,22 @@ article.main {
     }
   }
 }
+
+/*==============END of NEW UI================*/
+
+body {
+  min-width: 1020px;
+  position: relative;
+}
+
+body.no-sidebar {
+  article.main {
+    float: none;
+    width: auto;
+  }
+}
+
+
 
 div.contents {
   padding: 1em 0;

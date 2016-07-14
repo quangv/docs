@@ -1,3 +1,54 @@
+/*NEW UI CSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Product+Sans);
+
+body {
+    background-color: #fbfbfb;
+    color: #555;
+    font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000;
+    clear: both;
+}
+
+h2 {
+    font-size: 36px;
+    color: #000;
+    clear: both;
+}
+
+h3 {
+    font-size: 32px;
+    color: #000;
+    clear: both;
+}
+
+h4 {
+    font-size: 28px;
+    color: #000;
+    clear: both;
+}
+
+/*h1,h2,h3,h4,h5,h6 {
+  color: $h_color;
+  font-weight: 600;
+}*/
+
+
+/*==================END OF NEW UI CSS======================*/
+
 $width: 1170px;
 $break: 767px;
 $break-xl: 1300px; // 1300 * 0.9 = 1170
@@ -65,7 +116,7 @@ html {
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans:400,700);
 
-body {
+/*body {
   background-color: #f9f9f9;
   color: #444;
   font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
@@ -74,25 +125,12 @@ body {
   line-height: 21px;
   letter-spacing: 0;
   font-size: 16px;
-}
+}*/
 
-h1,h2,h3,h4,h5,h6 {
-  color: $h_color;
-  font-weight: 600;
-}
 
-h1 {
-  font-size: 38px;
-  line-height: 42px;
-  font-weight: bold;
-  color: #35527c;
-  margin: 0 0 20px;
-  clear: both;
-  padding-bottom: 14px;
-  border-bottom: 3px solid;
-}
 
-h2 {
+
+/*h2 {
   font-size: 24px;
   line-height: 29px;
   font-weight: bold;
@@ -105,20 +143,20 @@ h2 {
 
 h2.border {
   border-bottom: 1px solid #f0f0f0;
-}
+}*/
 
-h3 {
+/*h3 {
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
   padding-top: 30px;
   margin-bottom: 12px;
-}
+}*/
 
-h4 {
+/*h4 {
   padding-top: 30px;
 }
-
+*/
 html[lang=ja] h1 {
   font-size: 40px;
 }
@@ -128,7 +166,7 @@ h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visit
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {color: $h_color; text-decoration: underline;}
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {color: $h_color; text-decoration: none;}
 
-hr {
+/*hr {
   background: none transparent;
   border: none;
   border-bottom: 1px solid #E7E8E2;
@@ -142,7 +180,7 @@ hr {
     height: 6px;
     margin: 40px 0;
   }
-}
+}*/
 
 blockquote {
   padding-left: 0px;
