@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-14 01:28+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-14 11:11+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,7 +339,7 @@ msgstr "文字列"
 #: ../doc/reference/cordova_6.2/camera/index.rst:369
 #: ../doc/reference/cordova_6.2/camera/index.rst:396
 #: ../doc/reference/cordova_6.2/camera/index.rst:411
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
+#: ../doc/reference/power_plugins/in-app_updater.rst:76
 msgid "Default"
 msgstr "デフォルト値"
 
@@ -497,10 +497,10 @@ msgstr "``1.0.0``"
 #: ../doc/reference/monaca_api/cloud_management/push.rst:13
 #: ../doc/reference/monaca_api/cloud_management/user.rst:14
 #: ../doc/reference/monaca_api/utility-34.rst:11
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:28
 msgid "Description"
 msgstr "解説"
 
@@ -1362,14 +1362,14 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:240
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
 #: ../doc/reference/monaca_api/cloud_management/user.rst:212
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:31
-#: ../doc/reference/third_party_phonegap/datepicker.rst:184
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:65
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:191
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:95
-#: ../doc/reference/third_party_phonegap/share.rst:77
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:124
-#: ../doc/reference/third_party_phonegap/webintent.rst:70
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:65
+#: ../doc/reference/power_plugins/in-app_updater.rst:191
+#: ../doc/reference/power_plugins/secure_storage.rst:95
+#: ../doc/reference/power_plugins/sqlcipher.rst:127
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/datepicker.rst:174
+#: ../doc/reference/third_party_phonegap/share.rst:75
+#: ../doc/reference/third_party_phonegap/webintent.rst:77
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
@@ -2160,11 +2160,11 @@ msgstr "プラグイン ID"
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:51
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:51
 #: ../doc/reference/cordova_4.1/vibration/index.rst:50
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:12
-#: ../doc/reference/third_party_phonegap/datepicker.rst:23
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:42
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:31
-#: ../doc/reference/third_party_phonegap/share.rst:14
+#: ../doc/reference/power_plugins/in-app_updater.rst:42
+#: ../doc/reference/power_plugins/secure_storage.rst:31
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:9
+#: ../doc/reference/third_party_phonegap/datepicker.rst:13
+#: ../doc/reference/third_party_phonegap/share.rst:12
 #: ../doc/reference/third_party_phonegap/webintent.rst:15
 msgid "Enable Plugin in Monaca"
 msgstr "プラグインの追加方法 ( Monaca 上での処理 )"
@@ -2472,10 +2472,10 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:340
 #: ../doc/reference/cordova_6.2/vibration/index.rst:63
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:47
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:16
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:15
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:15
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:16
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:16
+#: ../doc/reference/power_plugins/in-app_updater.rst:15
+#: ../doc/reference/power_plugins/secure_storage.rst:15
+#: ../doc/reference/power_plugins/sqlcipher.rst:16
 msgid "Supported Platforms"
 msgstr "サポート対象のプラットフォーム"
 
@@ -2732,8 +2732,8 @@ msgstr "サポート対象のプラットフォーム"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:343
 #: ../doc/reference/cordova_6.2/vibration/index.rst:68
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:137
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:19
+#: ../doc/reference/power_plugins/in-app_updater.rst:137
+#: ../doc/reference/power_plugins/secure_storage.rst:19
 msgid "Android"
 msgstr "Android"
 
@@ -3029,8 +3029,8 @@ msgstr "Android"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:322
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:342
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:143
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:143
+#: ../doc/reference/power_plugins/secure_storage.rst:18
 msgid "iOS"
 msgstr "iOS"
 
@@ -3090,9 +3090,9 @@ msgstr "iOS"
 #: ../doc/reference/cordova_6.2/media/index.rst:120
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:185
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:100
-#: ../doc/reference/third_party_phonegap/datepicker.rst:34
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:43
+#: ../doc/reference/third_party_phonegap/datepicker.rst:24
+#: ../doc/reference/third_party_phonegap/share.rst:25
 msgid "Methods"
 msgstr "メソッド"
 
@@ -3427,7 +3427,7 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:92
+#: ../doc/reference/power_plugins/sqlcipher.rst:95
 msgid "Example"
 msgstr "例"
 
@@ -3843,7 +3843,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.battery-
 msgid ""
 "This event fires when the percentage of battery charge changes by at least 1"
 " percent, or if the device is plugged in or unplugged."
-msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始または停止した場合、このイベントが発火します。"
+msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始もしくは停止した場合、このイベントが発火します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:47
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:65
@@ -15410,14 +15410,14 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:354
 #: ../doc/reference/cordova_6.2/vibration/index.rst:268
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:247
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
-#: ../doc/reference/third_party_phonegap/datepicker.rst:186
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:193
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:97
-#: ../doc/reference/third_party_phonegap/share.rst:79
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:126
-#: ../doc/reference/third_party_phonegap/webintent.rst:72
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:67
+#: ../doc/reference/power_plugins/in-app_updater.rst:193
+#: ../doc/reference/power_plugins/secure_storage.rst:97
+#: ../doc/reference/power_plugins/sqlcipher.rst:129
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/datepicker.rst:176
+#: ../doc/reference/third_party_phonegap/share.rst:77
+#: ../doc/reference/third_party_phonegap/webintent.rst:79
 msgid ":ref:`third_party_cordova_index`"
 msgstr ":ref:`third_party_cordova_index`"
 
@@ -15462,13 +15462,13 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:355
 #: ../doc/reference/cordova_6.2/vibration/index.rst:269
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:248
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
-#: ../doc/reference/third_party_phonegap/datepicker.rst:187
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:194
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:98
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:127
-#: ../doc/reference/third_party_phonegap/webintent.rst:73
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:68
+#: ../doc/reference/power_plugins/in-app_updater.rst:194
+#: ../doc/reference/power_plugins/secure_storage.rst:98
+#: ../doc/reference/power_plugins/sqlcipher.rst:130
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/datepicker.rst:177
+#: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
 msgstr ":ref:`cordova_core_plugins`"
 
@@ -19032,8 +19032,8 @@ msgstr ":dfn:`<allow-navigation href=\"*\" />`"
 #: ../doc/reference/monaca_api/cloud_management/user.rst:169
 #: ../doc/reference/monaca_api/cloud_management/user.rst:197
 #: ../doc/reference/monaca_api/utility-34.rst:61
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:53
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:117
+#: ../doc/reference/power_plugins/sqlcipher.rst:56
+#: ../doc/reference/power_plugins/sqlcipher.rst:120
 msgid "Parameter"
 msgstr "パラメーター"
 
@@ -19486,7 +19486,7 @@ msgid ""
 "This plugin is meant to ensure that console.log() is as useful as it can be."
 " It adds additional function for iOS, Ubuntu, Windows Phone 8, and Windows. "
 "This plugin defines a global ``console`` object."
-msgstr "このプラグインでは、コンソールへの出力に使用できる、console.log() を含む、便利なメソッドを提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
+msgstr "このプラグインでは、コンソールへの出力に使用できる、便利なメソッド ( console.log() など ) を提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:58
 msgid ""
@@ -19613,11 +19613,11 @@ msgstr "%o - JSON 形式で出力します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:107
 msgid "%c - format arg as ''. No color formatting could be done."
-msgstr "%c - '' 内で指定されているスタイルを適用します。色の指定はできません。"
+msgstr "%c - 指定した CSS を適用します。色の指定はできません。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:108
 msgid "%% - replace with '%'."
-msgstr "%% - '%' に置き換えます。"
+msgstr "%% - 「 % 」 に置き換えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:110
 msgid "Any other char following ``%`` will format its arg via ``toString()``"
@@ -19813,7 +19813,7 @@ msgstr "OSX 特有の動作"
 msgid ""
 "The ``uuid`` on OSX is generated automatically if it does not exist yet and "
 "is stored in the ``standardUserDefaults`` in the ``CDVUUID`` property."
-msgstr "OSX では、``uuid`` が確認できない場合には、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
+msgstr "OSX では、``uuid`` が確認できない場合、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:295
 msgid "Get the device's manufacturer."
@@ -22453,8 +22453,8 @@ msgstr ":dfn:`monaca.cloud.Device.getProperty(name: String) : $.Promise`"
 #: ../doc/reference/monaca_api/cloud/user.rst:538
 #: ../doc/reference/monaca_api/cloud/user.rst:631
 #: ../doc/reference/monaca_api/cloud/user.rst:637
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
 msgid "``name``"
 msgstr "``name``"
 
@@ -24986,6 +24986,614 @@ msgstr ":dfn:`monaca.isIOS`"
 msgid "The device is iOS device if the return value is *true*."
 msgstr "iOS 端末であれば、 *true* を返します。"
 
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
+msgid "Monaca HTML5 Resource Encryption (Enterprise)"
+msgstr "アプリロジック暗号化 プラグイン ( Monaca エンタープライズ専用 )"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:10
+msgid ""
+"This plugin provides the encryption function for HTML5 assets bundled up "
+"with the built app in Monaca and the decoding function for application "
+"execution time."
+msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:12
+#: ../doc/reference/power_plugins/in-app_updater.rst:12
+#: ../doc/reference/power_plugins/secure_storage.rst:12
+#: ../doc/reference/power_plugins/sqlcipher.rst:13
+msgid "This plugin is available to Enterprise users only."
+msgstr "このプラグインのご利用には、Monaca エンタープライズが必要です。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:17
+#: ../doc/reference/power_plugins/secure_storage.rst:17
+msgid "Cordova 4.1 or later"
+msgstr "Cordova 4.1 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:19
+#: ../doc/reference/power_plugins/in-app_updater.rst:18
+msgid "iOS 7 or later"
+msgstr "iOS 7 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:20
+#: ../doc/reference/power_plugins/in-app_updater.rst:19
+#: ../doc/reference/power_plugins/sqlcipher.rst:20
+msgid "Android 4.0 or later"
+msgstr "Android 4.0 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:23
+#: ../doc/reference/power_plugins/secure_storage.rst:22
+msgid "Encryption Scheme"
+msgstr "暗号化方式"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:26
+#: ../doc/reference/power_plugins/secure_storage.rst:25
+msgid "Encryption Method"
+msgstr "暗号化方式"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:26
+#: ../doc/reference/power_plugins/secure_storage.rst:25
+msgid "AES"
+msgstr "AES"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:26
+msgid "Key Length"
+msgstr "鍵長"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:26
+msgid "256bit"
+msgstr "256 bit"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:32
+#: ../doc/reference/power_plugins/sqlcipher.rst:23
+msgid "Enable the Plugin in Monaca"
+msgstr "プラグインの有効化 ( Monaca 上での処理 )"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
+#: ../doc/reference/power_plugins/in-app_updater.rst:44
+#: ../doc/reference/power_plugins/secure_storage.rst:33
+msgid ""
+"From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova "
+"Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイル --> Cordova プラグインの管理...` または :menuselection:`設定 --> Cordova プラグインの管理...` を選択します。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:36
+msgid ""
+"Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:41
+msgid ""
+"Next, you need to setup the encryption password. Find your newly added "
+"plugin under the *Enable Plugins* section. Then, hover the plugin and click "
+":guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:46
+msgid ""
+"Enter the password for this encryption. Then, click :guilabel:`OK` button."
+msgstr "暗号用パスワードを入力して、 :guilabel:`OK` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:53
+#: ../doc/reference/power_plugins/in-app_updater.rst:179
+#: ../doc/reference/power_plugins/secure_storage.rst:84
+msgid "App Store Submission"
+msgstr "App Store への提出に際して"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:55
+msgid ""
+"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
+"order to release the built app embedded this plugin to the AppStore, you "
+"need to set 2 options when you submit your app for a review. Under the "
+"Export Compliance section, please choose \"Yes\" for both questions as shown"
+" in the screenshot below:"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時に特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:5
+msgid "Monaca In-App Updater (Enterprise)"
+msgstr "In-App アップデーター プラグイン ( Monaca エンタープライズ専用 )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:10
+msgid ""
+"This plugin updates HTML5 assets contained in the app without rebuilding and"
+" packaging the app. You need a Web server to host the updated files which "
+"will be accessed from the app."
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:23
+#: ../doc/reference/power_plugins/sqlcipher.rst:33
+#: ../doc/reference/service_integration/apps_flyer.rst:88
+#: ../doc/reference/service_integration/repro.rst:76
+msgid "Usage"
+msgstr "設定"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:25
+msgid "Please follow these steps to use this plugin."
+msgstr "次の手順に従い、プラグインを追加・設定します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:27
+msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
+msgstr "プラグインを有効化します [ :ref:`enable_in_app_updater` を参照のこと ]。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:29
+msgid ""
+"Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
+msgstr "更新方法 [ :ref:`update_mode` を参照のこと ] を選択して、アクセス先の URL を指定します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:31
+msgid ""
+"Create the update files for intended OS with proper version. (See "
+":ref:`create_update_file` and :ref:`update_file_version`.)"
+msgstr "対象の OS ( バージョン番号も指定 ) を指定して、更新用ファイルを作成します ( :ref:`create_update_file` と :ref:`update_file_version` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:33
+msgid ""
+"Create configuration file specifying the version number of the update files."
+" (See :ref:`config_file_in_app_updater`.)"
+msgstr "更新用ファイルのバージョン番号を指定して、設定ファイルを作成します ( :ref:`config_file_in_app_updater` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:35
+msgid ""
+"Place the configuration and update files in the same directory level. (See "
+":ref:`files_placement`.)"
+msgstr "設定ファイルと更新用ファイルを、同じディレクトリー ( 同じ階層 ) に置きます ( :ref:`files_placement` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:46
+msgid ""
+"Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it "
+"into your project."
+msgstr "``Monaca In-App Updater`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:51
+msgid ""
+"Next, you need to configure necessary information for this plugin. Find your"
+" newly added plugin under the *Enable Plugins* section. Then, hover the "
+"plugin and click :guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:56
+msgid ""
+"There are two update modes for this plugins: `default` and `severe` (see "
+":ref:`update_mode`). Choose an appropriate mode and enter the deploy URL "
+"where the file is downloaded from. Then, click :guilabel:`OK` button."
+msgstr "更新方法 ( Update Mode ) を選択して、ファイルのダウンロード元 ( Deploy URL ) を入力します。更新方法は、 `default` ( デフォルト ) と `severe` ( 厳格 ) の 2 通りあります [ :ref:`update_mode` を参照のこと ]。次に、 :guilabel:`OK` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:64
+msgid "Plugin Configuration"
+msgstr "プラグインの設定"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:69
+msgid "Update Mode"
+msgstr "更新方法 ( Update Mode )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:71
+msgid ""
+"When there are available updates, the application will try to update the app"
+" according to the predefined update mode."
+msgstr "更新用の差分が存在する場合、指定した更新方法に基づき、アプリ側で更新を行います。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
+msgid "Mode"
+msgstr "方法"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:76
+msgid "Allow the application to run even the update process cannot be done."
+msgstr "更新処理をしなくても、アプリを実行できます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:77
+msgid "Severe"
+msgstr "Severe ( 厳格 )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:77
+msgid ""
+"The application cannot run if the update process cannot be done. For "
+"instance, if the application has no network connectivity, the app will exit."
+msgstr "更新処理ができない場合、アプリは実行できません。たとえば、ネットワーク接続できない場合、アプリは終了します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:80
+msgid "These settings are stored in :file:`config.xml` file as shown below."
+msgstr ":file:`config.xml` ファイル内に、次の設定を記述します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:91
+msgid "Creating Update File"
+msgstr "更新用ファイルの作成"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:93
+msgid ""
+"In order to use this plugin, you will need a :file:`update.json` file in "
+"addition to Android and/or iOS update files."
+msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "File Name"
+msgstr "ファイル名"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "Remarks"
+msgstr "対象"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid ":file:`update.json`"
+msgstr ":file:`update.json`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid "Update configuration file"
+msgstr "更新用の設定ファイル"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid "The version of update file is specified in this configuration file."
+msgstr "このファイル内に、更新用ファイルのバージョン番号を記述します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+msgid ":file:`android-v1.0.0.zip`"
+msgstr ":file:`android-v1.0.0.zip`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+msgid "Android update file"
+msgstr "`Android 向けの更新用ファイル`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid ""
+"The version of each update file is shown at the end of the file. See "
+":ref:`update_file_version`."
+msgstr "ファイル名に、更新用ファイルのバージョン番号を挿入します ( :ref:`update_file_version` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid ":file:`ios-v1.0.0.zip`"
+msgstr ":file:`ios-v1.0.0.zip`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid "iOS update file"
+msgstr "iOS 向けの更新用ファイル"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:103
+msgid ""
+"Each update file (Androin and iOS) is corresponded to respective OS. "
+"Therefore, it's possible to just update the app for iOS or Android depending"
+" on the update file you use."
+msgstr "更新用ファイルは、対象の OS ( Android ・ iOS ) 向けに、それぞれ作成します。ファイルを分けることにより、更新対象となる OS を絞り込めます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:105
+msgid "In order to create the update file, please do as follows:"
+msgstr "次の手順に従い、更新用ファイルを作成します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:107
+msgid ""
+"From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` "
+"for iOS or go to :menuselection:`Build --> Build App for Android` for "
+"Android."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ビルド --> iOS アプリのビルド` ( iOS の場合 )、または、:menuselection:`ビルド --> Android アプリのビルド` ( Android の場合 ) を、選択します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:109
+msgid ""
+"Choose :guilabel:`Create a package for In-App Update` option and click "
+":guilabel:`Next` button (same for Android)."
+msgstr ":guilabel:`In-App Updater 用更新ファイル` オプションを選択して、 :guilabel:`次へ` ボタンをクリックします ( Android の場合も、同じ手順 )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:114
+msgid "It may takes sometimes to create the package. So please wait."
+msgstr "パッケージの作成には、時間がかかる場合もありますので、しばらく待ちます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:116
+msgid ""
+"When the package is ready, the following screen will be displayed. Click to "
+"download the update package."
+msgstr "処理が完了すると、次の画面が表示されます。更新用パッケージをダウンロードするため、画面上のアイコンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:125
+msgid "Update File Version"
+msgstr "ファイルのバージョン番号の更新"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:127
+msgid ""
+"The update files include their version number. You can update the version of"
+" the update file by the following steps:"
+msgstr "更新用ファイルの名前には、ファイルのバージョン番号が含まれています。更新ファイルのバージョン番号を更新する場合、次の手順に従います。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:129
+msgid ""
+"From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` "
+"for iOS or go to :menuselection:`Config --> Android App Settings` for "
+"Android."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> iOS アプリ設定` ( iOS の場合 )、または、 :menuselection:`設定 --> Android アプリ設定` ( Android の場合 ) を、選択します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:131
+msgid "Enter the version number and click :guilabel:`Save` button."
+msgstr "バージョン番号を入力して、 :guilabel:`保存する` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:146
+msgid "Android and iOS version do not necessarily be the same."
+msgstr "Android 向けと iOS 向けの更新用ファイルのバージョン番号には、それぞれ、異なる番号を設定できます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:151
+msgid "Creating Configuration File"
+msgstr "設定ファイルの作成"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:153
+msgid ""
+"As mention above, :file:`update.json` file is an update configuration file "
+"to store the version information of the update files. Below is an example of"
+" the configuration file:"
+msgstr "上述のように、 :file:`update.json` ファイルは、更新時に必要となる設定ファイルです。このファイルには、更新用ファイルのバージョン情報が記述されています。設定ファイル内の記述例を、次に記します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:162
+msgid ""
+"In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that "
+"``ios-v1.0.0.zip`` file will be used to download."
+msgstr "記述内容を解説します。「 ``\"ios\": { \"version\": \"1.0.0\" }`` 」 と記述して、 ダウンロード対象のファイルを指定します。 ここでは、 ``ios-v1.0.0.zip`` ファイルとなります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:168
+msgid "Placing Update File"
+msgstr "更新用ファイルの置き場所"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:170
+msgid ""
+"Please make sure to place the configuration and update files in the same "
+"level. For example, if your deploy URL is ``http://example.com/``, then your"
+" files should be placed as follows:"
+msgstr "設定ファイルと更新用ファイルは、同じ階層に置きます。たとえば、Deploy URL ( ダウンロード元の URL ) が ``http://example.com/`` の場合、ファイルの置き場所は、次のようになります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:172
+msgid "http://example.com/update.json"
+msgstr "http://example.com/update.json"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:173
+msgid "http://example.com/ios-v1.0.0.zip"
+msgstr "http://example.com/ios-v1.0.0.zip"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:174
+msgid "http://example.com/android-v1.0.0.zip"
+msgstr "http://example.com/android-v1.0.0.zip"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:176
+msgid ""
+"The server can be distributed in any environment at least the application "
+"has the connectivity."
+msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:181
+msgid ""
+"Please aware that this plugin might interfere with the `App Store Review "
+"Guidelines <https://developer.apple.com/app-"
+"store/review/guidelines/#functionality>`_ in the following conditions."
+msgstr "このプラグインを使用した場合、 `App Store の審査基準 ( 英語 ) <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ に記載された、次の基準に抵触する可能性があります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:183
+msgid ""
+"This applies to the apps that is distributed on App Store. Privately "
+"distributed apps (including Ad-Hoc and Enterprise Built) are excluded from "
+"the review guideline."
+msgstr "審査基準は、App Store 経由で、アプリを配布する場合に適用されます。たとえば、Ad-Hoc 配布、組織内での配布など、プライベートな形で配布する場合は、審査基準の適用外となります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:185
+msgid "\"2.7 Apps that download code in any way or form will be rejected\""
+msgstr "「 2.7 Apps that download code in any way or form will be rejected 」 ( コードをダウンロードするアプリは、いかなる場合でも、却下されます。 )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:187
+msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
+msgstr "「 2.8 Apps that install or launch other executable code will be rejected 」 ( 外部のコードをインストール・起動するアプリは、却下されます。 )"
+
+#: ../doc/reference/power_plugins/index.rst:5
+msgid "Monaca Power Plugins"
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:7
+msgid ""
+"With Monaca Power Plugins, we deliver developers the ability to secure their"
+" work with the latest security technologies."
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:9
+msgid "Monaca power plugins are available to Enterprise users only."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:5
+msgid "Monaca Secure Storage (Enterprise)"
+msgstr "セキュア ストレージ プラグイン ( Monaca エンタープライズ専用 )"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:10
+msgid ""
+"This plugin provides an encrypted data storage function. If the application "
+"is uninstalled, saved data will also be deleted."
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:35
+msgid ""
+"Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it "
+"into your project."
+msgstr "``Monaca Secure Storage`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:46
+msgid "Set Data"
+msgstr "データの保存用メソッド"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:46
+msgid ""
+"Save data into the storage by specifying the ``key`` and ``value``. The "
+"boolean callback will notify whether the data is successfully saved "
+"(``True``) or failed to save (``false``)."
+msgstr "``key`` と ``value`` を使用して、ストレージにデータを保存します。コールバック ( 戻り値 : boolean ) を使用して、保存が完了したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:55
+msgid "Get Data"
+msgstr "データの取得用メソッド"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:55
+msgid ""
+"Retrieve data associated with the specified key. The callback will return "
+"the intended data if the key is found; otherwise, a null value will be "
+"return."
+msgstr "指定された key を使用して、データを取得します。key と一致したデータがあれば、コールバックを使用して、そのデータを返します。一致するデータがなければ場合、null を返します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:64
+msgid "Delete Data"
+msgstr "データの削除用メソッド ( 1件 )"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:64
+msgid ""
+"Delete the data associated with a specified key. The boolean callback will "
+"notify whether the data deletion is successful (``True``) or failed "
+"(``false``)."
+msgstr "指定された key を使用して、データを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:73
+msgid "Delete All Data"
+msgstr "データの削除用メソッド ( 全件 )"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:73
+msgid ""
+"Delete all data in the storage. The boolean callback will notify whether the"
+" data deletion is successful (``True``) or failed (``false``)."
+msgstr "ストレージ内のすべてのデータを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:86
+msgid ""
+"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
+"order to release the built app embedded this plugin to the App Store, you "
+"need to set 2 options when you submit your app for a review. Under the "
+"Export Compliance section, please choose \"Yes\" for both questions as shown"
+" in the screenshot below:"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時には特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:5
+msgid "SQLCipher Adapter (Enterprise)"
+msgstr "SQLCipher アダプター ( Monaca エンタープライズ専用 )"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:11
+msgid ""
+"SQLCipher Adapter is a Cordova plugin to create and access encrypted "
+"databases on Android, iOS, and Windows Universal (8.1) with API similar to "
+"HTML5/Web SQL API."
+msgstr "SQLCipher アダプターは、Cordova プラグインです。データベースの暗号化および暗号化されたデータベースへの問い合わせに使用します。サポート対象のプラットフォームは、Android、iOS、Windows 8.1 以上、Windows iPhone 8.1 以上です。API の取り扱い方法は、HTML5 の Web SQL API とほぼ変わりません。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:18
+msgid "Cordova 5.2"
+msgstr "Cordova 5.2"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:19
+msgid "iOS 8 or later"
+msgstr "iOS 8 以上"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:25
+msgid ""
+"From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova "
+"Plugins`."
+msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Cordova プラグインの管理` を選択します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:27
+msgid ""
+"Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into "
+"your project."
+msgstr "``SQLCipher Adapter`` の :guilabel:`有効` ボタンをクリックして、プロジェクトにプラグインを追加します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:38
+msgid "Opening a Database"
+msgstr "データベースを開く"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:40
+msgid ""
+"If you try to open a database that doesn’t exist, the API will create it."
+msgstr "存在しないデータベースを開こうとする場合、API 側でデータベースを作成します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:42
+msgid ""
+":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", "
+"[key: \"your-password-here\"], [location: 1]});`"
+msgstr ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
+msgid ""
+"Your database's name. The database file name should include the extension, "
+"if desired."
+msgstr "データベース名です。データベースのファイル名に、拡張子を付記することもできます。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+msgid "``key``"
+msgstr "``key``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+msgid "Your database's password."
+msgstr "データベースのパスワードです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:50
+#: ../doc/reference/power_plugins/sqlcipher.rst:110
+msgid "``location``"
+msgstr "``location``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:50
+#: ../doc/reference/power_plugins/sqlcipher.rst:110
+msgid ""
+"It used to select the database subdirectory location (iOS only) with the "
+"following choices:"
+msgstr "データベース用に使用するサブディレクトリーを指定します ( iOS のみ )。次の選択肢があります。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:52
+#: ../doc/reference/power_plugins/sqlcipher.rst:112
+msgid ""
+"``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
+msgstr "``0`` ( デフォルト ) : *Documents* - iTunes 側から認識可、iCloud によるバックアップ可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:53
+#: ../doc/reference/power_plugins/sqlcipher.rst:113
+msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
+msgstr "``1`` : *Library* - iCloud によるバックアップ可、iTunes 側から認識不可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:54
+#: ../doc/reference/power_plugins/sqlcipher.rst:114
+msgid ""
+"``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by "
+"iCloud."
+msgstr "``2`` : *Library/LocalDatabase* - iTunes 側から認識不可、iCloud によるバックアップ不可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:59
+msgid ""
+"The following code illustrates an example with PRAGMA feature. First, a "
+"table is created and a single entry is added. Then, a query to count the "
+"inserted item to see if it's added as expected."
+msgstr "次の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:97
+msgid ""
+"PRAGMA statements must be executed in executeSql() on the database object "
+"(i.e. db.executeSql()) and NOT within a transaction."
+msgstr "PRAGMA ステートメントは、必ず、データベースオブジェクトの executeSql() 内 ( db.executeSql() ) で実行します ( transaction 内ではありません )。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:102
+msgid "Deleting a Database"
+msgstr "データベースの削除"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:104
+msgid ""
+":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location:"
+" 1}, successCb, errorCb);`"
+msgstr ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "``successCb``"
+msgstr "``successCb``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "A callback when the database is deleted successfully."
+msgstr "データベースの削除が成功したときのコールバックです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:118
+msgid "``errorCb``"
+msgstr "``errorCb``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:118
+msgid "A callback when the database is failed to be deleted."
+msgstr "データベースの削除が失敗したときのコールバックです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:122
+msgid ""
+"This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 "
+"or higher."
+msgstr "この API は、Windows 8.1 以上/Windows Phone 8.1 以上向けアプリの開発には使用できません。"
+
 #: ../doc/reference/service_integration/apps_flyer.rst:5
 msgid "AppsFlyer"
 msgstr "AppsFlyer"
@@ -25085,13 +25693,6 @@ msgid ""
 "For more information on how to use AppsFlyer, please refer to `AppsFlyer "
 "Documentation <https://support.appsflyer.com/hc/en-us>`_."
 msgstr "AppsFlyer の使用に関する詳細は、`AppsFlyer ドキュメント ( 日本語あり ) <https://support.appsflyer.com/hc/en-us>`_ をご確認ください。"
-
-#: ../doc/reference/service_integration/apps_flyer.rst:88
-#: ../doc/reference/service_integration/repro.rst:76
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
-msgid "Usage"
-msgstr "設定"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:90
 msgid ""
@@ -25335,22 +25936,22 @@ msgstr "Repro 側から送信される電子メールを受信して、記載さ
 msgid "BarcodeScanner Plugin"
 msgstr "BarcodeScanner プラグイン"
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:14
-#: ../doc/reference/third_party_phonegap/datepicker.rst:25
-#: ../doc/reference/third_party_phonegap/share.rst:16
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/datepicker.rst:15
+#: ../doc/reference/third_party_phonegap/share.rst:14
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
 msgid ""
-"From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or "
-":menuselection:`Config > Manage Cordova Plugins`."
-msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理...` または :menuselection:`設定 > Cordova プラグインの管理...` を選択します。"
+"From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or"
+" :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:16
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid ""
 "Click :guilabel:`Enable` button of the BarcodeScanner to add it into your "
 "project."
 msgstr "BarcodeScanner の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:23
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:20
 msgid "BarcodeScanner Demo"
 msgstr "BarcodeScanner プラグインのデモ"
 
@@ -25362,424 +25963,42 @@ msgstr "Datepicker プラグイン"
 msgid "DatePicker plugin lets an app use the native DatePicker control."
 msgstr "DatePicker プラグインを使用して、ネイティブ側の DatePicker コントロール ( 日付設定 ) にアクセスします。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:17
 msgid ""
 "Click :guilabel:`Enable` button of the DatePicker to add it into your "
 "project."
 msgstr "DatePicker の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:37
-#: ../doc/reference/third_party_phonegap/datepicker.rst:52
+#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:42
 msgid "For Android"
 msgstr "Android の場合"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:28
 msgid "Function Name"
 msgstr "関数名"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:31
 msgid "show(func)"
 msgstr "show(func)"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
 msgid "show a DatePicker control."
 msgstr "DatePicker を表示します。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:49
+#: ../doc/reference/third_party_phonegap/datepicker.rst:39
 msgid "DatePicker Demo"
 msgstr "DatePicker のデモ"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:88
+#: ../doc/reference/third_party_phonegap/datepicker.rst:78
 msgid "For iOS"
 msgstr "iOS の場合"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:90
+#: ../doc/reference/third_party_phonegap/datepicker.rst:80
 msgid "Please note that, this example only works with iPhone but not iPad."
 msgstr "このサンプルは、iPhone が対象です。iPad では正常に動作しません。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:5
-msgid "Monaca HTML5 Resource Encryption (Enterprise)"
-msgstr "アプリロジック暗号化 プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:10
-msgid ""
-"This plugin provides the encryption function for HTML5 assets bundled up "
-"with the built app in Monaca and the decoding function for application "
-"execution time."
-msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:12
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:12
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:12
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:13
-msgid "This plugin is available to Enterprise users only."
-msgstr "このプラグインのご利用には、Monaca エンタープライズが必要です。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:18
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:17
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:17
-msgid "Cordova 4.1 or later"
-msgstr "Cordova 4.1 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:19
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:18
-msgid "iOS 7 or later"
-msgstr "iOS 7 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:20
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:19
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:20
-msgid "Android 4.0 or later"
-msgstr "Android 4.0 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:23
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:22
-msgid "Encryption Scheme"
-msgstr "暗号化方式"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "Encryption Method"
-msgstr "暗号化方式"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "AES"
-msgstr "AES"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "Key Length"
-msgstr "鍵長"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "256bit"
-msgstr "256 bit"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:32
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:23
-msgid "Enable the Plugin in Monaca"
-msgstr "プラグインの有効化 ( Monaca 上での処理 )"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:34
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:44
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:33
-msgid ""
-"From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova "
-"Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイル --> Cordova プラグインの管理...` または :menuselection:`設定 --> Cordova プラグインの管理...` を選択します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:36
-msgid ""
-"Click :guilabel:`Enable` button of ``Monaca HTML5 Resource Encryption`` to "
-"add it into your project."
-msgstr "``Monaca HTML5 Resource Encryption`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:41
-msgid ""
-"Next, you need to setup the encryption password. To do this, click "
-":guilabel:`Settings` button."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、暗号用パスワードを設定します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:46
-msgid ""
-"Enter the password for this encryption. Then, click :guilabel:`OK` button."
-msgstr "暗号用パスワードを入力して、 :guilabel:`OK` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:53
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:179
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:84
-msgid "App Store Submission"
-msgstr "App Store への提出に際して"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:55
-msgid ""
-"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
-"order to release the built app embedded this plugin to the AppStore, you "
-"need to set 2 options when you submit your app for a review. Under the "
-"Export Compliance section, please choose \"Yes\" for both questions as shown"
-" in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時に特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
-msgid "Monaca In-App Updater (Enterprise)"
-msgstr "In-App アップデーター プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:10
-msgid ""
-"This plugin updates HTML5 assets contained in the app without rebuilding and"
-" packaging the app. You need a Web server to host the updated files which "
-"will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:25
-msgid "Please follow these steps to use this plugin."
-msgstr "次の手順に従い、プラグインを追加・設定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:27
-msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
-msgstr "プラグインを有効化します [ :ref:`enable_in_app_updater` を参照のこと ]。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:29
-msgid ""
-"Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
-msgstr "更新方法 [ :ref:`update_mode` を参照のこと ] を選択して、アクセス先の URL を指定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:31
-msgid ""
-"Create the update files for intended OS with proper version. (See "
-":ref:`create_update_file` and :ref:`update_file_version`.)"
-msgstr "対象の OS ( バージョン番号も指定 ) を指定して、更新用ファイルを作成します ( :ref:`create_update_file` と :ref:`update_file_version` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:33
-msgid ""
-"Create configuration file specifying the version number of the update files."
-" (See :ref:`config_file_in_app_updater`.)"
-msgstr "更新用ファイルのバージョン番号を指定して、設定ファイルを作成します ( :ref:`config_file_in_app_updater` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:35
-msgid ""
-"Place the configuration and update files in the same directory level. (See "
-":ref:`files_placement`.)"
-msgstr "設定ファイルと更新用ファイルを、同じディレクトリー ( 同じ階層 ) に置きます ( :ref:`files_placement` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:46
-msgid ""
-"Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it "
-"into your project."
-msgstr "``Monaca In-App Updater`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:51
-msgid ""
-"Next, click :guilabel:`Settings` button to configure necessary information "
-"for this plugin."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、プラグインの使用時に必要となる情報を設定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:56
-msgid ""
-"There are two update modes for this plugins: `default` and `severe` (see "
-":ref:`update_mode`). Choose an appropriate mode and enter the deploy URL "
-"where the file is downloaded from. Then, click :guilabel:`OK` button."
-msgstr "更新方法 ( Update Mode ) を選択して、ファイルのダウンロード元 ( Deploy URL ) を入力します。更新方法は、 `default` ( デフォルト ) と `severe` ( 厳格 ) の 2 通りあります [ :ref:`update_mode` を参照のこと ]。次に、 :guilabel:`OK` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:64
-msgid "Plugin Configuration"
-msgstr "プラグインの設定"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:69
-msgid "Update Mode"
-msgstr "更新方法 ( Update Mode )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:71
-msgid ""
-"When there are available updates, the application will try to update the app"
-" according to the predefined update mode."
-msgstr "更新用の差分が存在する場合、指定した更新方法に基づき、アプリ側で更新を行います。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-msgid "Mode"
-msgstr "方法"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
-msgid "Allow the application to run even the update process cannot be done."
-msgstr "更新処理をしなくても、アプリを実行できます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid "Severe"
-msgstr "Severe ( 厳格 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid ""
-"The application cannot run if the update process cannot be done. For "
-"instance, if the application has no network connectivity, the app will exit."
-msgstr "更新処理ができない場合、アプリは実行できません。たとえば、ネットワーク接続できない場合、アプリは終了します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:80
-msgid "These settings are stored in :file:`config.xml` file as shown below."
-msgstr ":file:`config.xml` ファイル内に、次の設定を記述します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:91
-msgid "Creating Update File"
-msgstr "更新用ファイルの作成"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:93
-msgid ""
-"In order to use this plugin, you will need a :file:`update.json` file in "
-"addition to Android and/or iOS update files."
-msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "File Name"
-msgstr "ファイル名"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "Remarks"
-msgstr "対象"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid ":file:`update.json`"
-msgstr ":file:`update.json`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "Update configuration file"
-msgstr "更新用の設定ファイル"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "The version of update file is specified in this configuration file."
-msgstr "このファイル内に、更新用ファイルのバージョン番号を記述します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid ":file:`android-v1.0.0.zip`"
-msgstr ":file:`android-v1.0.0.zip`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid "Android update file"
-msgstr "`Android 向けの更新用ファイル`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid ""
-"The version of each update file is shown at the end of the file. See "
-":ref:`update_file_version`."
-msgstr "ファイル名に、更新用ファイルのバージョン番号を挿入します ( :ref:`update_file_version` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid ":file:`ios-v1.0.0.zip`"
-msgstr ":file:`ios-v1.0.0.zip`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid "iOS update file"
-msgstr "iOS 向けの更新用ファイル"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:103
-msgid ""
-"Each update file (Androin and iOS) is corresponded to respective OS. "
-"Therefore, it's possible to just update the app for iOS or Android depending"
-" on the update file you use."
-msgstr "更新用ファイルは、対象の OS ( Android ・ iOS ) 向けに、それぞれ作成します。ファイルを分けることにより、更新対象となる OS を絞り込めます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:105
-msgid "In order to create the update file, please do as follows:"
-msgstr "次の手順に従い、更新用ファイルを作成します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:107
-msgid ""
-"From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` "
-"for iOS or go to :menuselection:`Build --> Build App for Android` for "
-"Android."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ビルド --> iOS アプリのビルド` ( iOS の場合 )、または、:menuselection:`ビルド --> Android アプリのビルド` ( Android の場合 ) を、選択します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:109
-msgid ""
-"Choose :guilabel:`Create a package for In-App Update` option and click "
-":guilabel:`Next` button (same for Android)."
-msgstr ":guilabel:`In-App Updater 用更新ファイル` オプションを選択して、 :guilabel:`次へ` ボタンをクリックします ( Android の場合も、同じ手順 )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:114
-msgid "It may takes sometimes to create the package. So please wait."
-msgstr "パッケージの作成には、時間がかかる場合もありますので、しばらく待ちます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:116
-msgid ""
-"When the package is ready, the following screen will be displayed. Click to "
-"download the update package."
-msgstr "処理が完了すると、次の画面が表示されます。更新用パッケージをダウンロードするため、画面上のアイコンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:125
-msgid "Update File Version"
-msgstr "ファイルのバージョン番号の更新"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:127
-msgid ""
-"The update files include their version number. You can update the version of"
-" the update file by the following steps:"
-msgstr "更新用ファイルの名前には、ファイルのバージョン番号が含まれています。更新ファイルのバージョン番号を更新する場合、次の手順に従います。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:129
-msgid ""
-"From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` "
-"for iOS or go to :menuselection:`Config --> Android App Settings` for "
-"Android."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> iOS アプリ設定` ( iOS の場合 )、または、 :menuselection:`設定 --> Android アプリ設定` ( Android の場合 ) を、選択します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:131
-msgid "Enter the version number and click :guilabel:`Save` button."
-msgstr "バージョン番号を入力して、 :guilabel:`保存する` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:146
-msgid "Android and iOS version do not necessarily be the same."
-msgstr "Android 向けと iOS 向けの更新用ファイルのバージョン番号には、それぞれ、異なる番号を設定できます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:151
-msgid "Creating Configuration File"
-msgstr "設定ファイルの作成"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:153
-msgid ""
-"As mention above, :file:`update.json` file is an update configuration file "
-"to store the version information of the update files. Below is an example of"
-" the configuration file:"
-msgstr "上述のように、 :file:`update.json` ファイルは、更新時に必要となる設定ファイルです。このファイルには、更新用ファイルのバージョン情報が記述されています。設定ファイル内の記述例を、次に記します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:162
-msgid ""
-"In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that "
-"``ios-v1.0.0.zip`` file will be used to download."
-msgstr "記述内容を解説します。「 ``\"ios\": { \"version\": \"1.0.0\" }`` 」 と記述して、 ダウンロード対象のファイルを指定します。 ここでは、 ``ios-v1.0.0.zip`` ファイルとなります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:168
-msgid "Placing Update File"
-msgstr "更新用ファイルの置き場所"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:170
-msgid ""
-"Please make sure to place the configuration and update files in the same "
-"level. For example, if your deploy URL is ``http://example.com/``, then your"
-" files should be placed as follows:"
-msgstr "設定ファイルと更新用ファイルは、同じ階層に置きます。たとえば、Deploy URL ( ダウンロード元の URL ) が ``http://example.com/`` の場合、ファイルの置き場所は、次のようになります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:172
-msgid "http://example.com/update.json"
-msgstr "http://example.com/update.json"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:173
-msgid "http://example.com/ios-v1.0.0.zip"
-msgstr "http://example.com/ios-v1.0.0.zip"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:174
-msgid "http://example.com/android-v1.0.0.zip"
-msgstr "http://example.com/android-v1.0.0.zip"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:176
-msgid ""
-"The server can be distributed in any environment at least the application "
-"has the connectivity."
-msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:181
-msgid ""
-"Please aware that this plugin might interfere with the `App Store Review "
-"Guidelines <https://developer.apple.com/app-"
-"store/review/guidelines/#functionality>`_ in the following conditions."
-msgstr "このプラグインを使用した場合、 `App Store の審査基準 ( 英語 ) <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ に記載された、次の基準に抵触する可能性があります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:183
-msgid ""
-"This applies to the apps that is distributed on App Store. Privately "
-"distributed apps (including Ad-Hoc and Enterprise Built) are excluded from "
-"the review guideline."
-msgstr "審査基準は、App Store 経由で、アプリを配布する場合に適用されます。たとえば、Ad-Hoc 配布、組織内での配布など、プライベートな形で配布する場合は、審査基準の適用外となります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:185
-msgid "\"2.7 Apps that download code in any way or form will be rejected\""
-msgstr "「 2.7 Apps that download code in any way or form will be rejected 」 ( コードをダウンロードするアプリは、いかなる場合でも、却下されます。 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:187
-msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
-msgstr "「 2.8 Apps that install or launch other executable code will be rejected 」 ( 外部のコードをインストール・起動するアプリは、却下されます。 )"
 
 #: ../doc/reference/third_party_phonegap/index.rst:5
 msgid "Third-party Cordova Plugins"
@@ -25805,250 +26024,48 @@ msgid ""
 "Monaca:"
 msgstr "Monaca が提供している、第三者提供の Cordova プラグインは、次のとおりです。"
 
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:5
-msgid "Monaca Secure Storage (Enterprise)"
-msgstr "セキュア ストレージ プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:10
-msgid ""
-"This plugin provides an encrypted data storage function. If the application "
-"is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:35
-msgid ""
-"Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it "
-"into your project."
-msgstr "``Monaca Secure Storage`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid "Set Data"
-msgstr "データの保存用メソッド"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid ""
-"Save data into the storage by specifying the ``key`` and ``value``. The "
-"boolean callback will notify whether the data is successfully saved "
-"(``True``) or failed to save (``false``)."
-msgstr "``key`` と ``value`` を使用して、ストレージにデータを保存します。コールバック ( 戻り値 : boolean ) を使用して、保存が完了したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid "Get Data"
-msgstr "データの取得用メソッド"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid ""
-"Retrieve data associated with the specified key. The callback will return "
-"the intended data if the key is found; otherwise, a null value will be "
-"return."
-msgstr "指定された key を使用して、データを取得します。key と一致したデータがあれば、コールバックを使用して、そのデータを返します。一致するデータがなければ場合、null を返します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid "Delete Data"
-msgstr "データの削除用メソッド ( 1件 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid ""
-"Delete the data associated with a specified key. The boolean callback will "
-"notify whether the data deletion is successful (``True``) or failed "
-"(``false``)."
-msgstr "指定された key を使用して、データを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid "Delete All Data"
-msgstr "データの削除用メソッド ( 全件 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid ""
-"Delete all data in the storage. The boolean callback will notify whether the"
-" data deletion is successful (``True``) or failed (``false``)."
-msgstr "ストレージ内のすべてのデータを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:86
-msgid ""
-"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
-"order to release the built app embedded this plugin to the App Store, you "
-"need to set 2 options when you submit your app for a review. Under the "
-"Export Compliance section, please choose \"Yes\" for both questions as shown"
-" in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時には特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
-
 #: ../doc/reference/third_party_phonegap/share.rst:5
 msgid "Share Plugin (Android)"
 msgstr "Share プラグイン ( Android 向け )"
 
-#: ../doc/reference/third_party_phonegap/share.rst:10
+#: ../doc/reference/third_party_phonegap/share.rst:8
 msgid ""
-"Using Share Plugin, an app can share data with other apps like Gmail, "
-"DropBox, etc."
-msgstr "Share プラグインを使用すれば、他のアプリ ( Gmail、Dropbox など ) とデータを共有できます。"
+"Share plugin lets an app to share data with other apps like Gmail, DropBox, "
+"etc."
+msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:18
+#: ../doc/reference/third_party_phonegap/share.rst:16
 msgid ""
 "Click :guilabel:`Enable` button of the Share to add it into your project."
 msgstr "Share の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/share.rst:24
-#: ../doc/reference/third_party_phonegap/webintent.rst:25
+#: ../doc/reference/third_party_phonegap/share.rst:22
 msgid "It's available only to Android platform."
 msgstr "サポート対象は、Android のみです。"
 
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:31
 msgid ""
 "Show a list of apps for user to choose and share the data when an app is "
 "selected."
 msgstr "データを共有するアプリの一覧を表示して、アプリの選択後に、データの共有を行います。"
 
-#: ../doc/reference/third_party_phonegap/share.rst:38
+#: ../doc/reference/third_party_phonegap/share.rst:36
 msgid "Share Plugin Demo"
 msgstr "Share プラグインの記述例"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:5
-msgid "SQLCipher Adapter (Enterprise)"
-msgstr "SQLCipher アダプター ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:11
-msgid ""
-"SQLCipher Adapter is a Cordova plugin to create and access encrypted "
-"databases on Android, iOS, and Windows Universal (8.1) with API similar to "
-"HTML5/Web SQL API."
-msgstr "SQLCipher アダプターは、Cordova プラグインです。データベースの暗号化および暗号化されたデータベースへの問い合わせに使用します。サポート対象のプラットフォームは、Android、iOS、Windows 8.1 以上、Windows iPhone 8.1 以上です。API の取り扱い方法は、HTML5 の Web SQL API とほぼ変わりません。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:18
-msgid "Cordova 5.2"
-msgstr "Cordova 5.2"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:19
-msgid "iOS 8 or later"
-msgstr "iOS 8 以上"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:25
-msgid ""
-"From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova "
-"Plugins`."
-msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Cordova プラグインの管理` を選択します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:27
-msgid ""
-"Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into "
-"your project."
-msgstr "``SQLCipher Adapter`` の :guilabel:`有効` ボタンをクリックして、プロジェクトにプラグインを追加します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:35
-msgid "Opening a Database"
-msgstr "データベースを開く"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:37
-msgid ""
-"If you try to open a database that doesn’t exist, the API will create it."
-msgstr "存在しないデータベースを開こうとする場合、API 側でデータベースを作成します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:39
-msgid ""
-":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", "
-"[key: \"your-password-here\"], [location: 1]});`"
-msgstr ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
-msgid ""
-"Your database's name. The database file name should include the extension, "
-"if desired."
-msgstr "データベース名です。データベースのファイル名に、拡張子を付記することもできます。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "``key``"
-msgstr "``key``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "Your database's password."
-msgstr "データベースのパスワードです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid "``location``"
-msgstr "``location``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid ""
-"It used to select the database subdirectory location (iOS only) with the "
-"following choices:"
-msgstr "データベース用に使用するサブディレクトリーを指定します ( iOS のみ )。次の選択肢があります。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:49
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:109
-msgid ""
-"``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
-msgstr "``0`` ( デフォルト ) : *Documents* - iTunes 側から認識可、iCloud によるバックアップ可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:50
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:110
-msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
-msgstr "``1`` : *Library* - iCloud によるバックアップ可、iTunes 側から認識不可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:51
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:111
-msgid ""
-"``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by "
-"iCloud."
-msgstr "``2`` : *Library/LocalDatabase* - iTunes 側から認識不可、iCloud によるバックアップ不可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:56
-msgid ""
-"The following code illustrates an example with PRAGMA feature. First, a "
-"table is created and a single entry is added. Then, a query to count the "
-"inserted item to see if it's added as expected."
-msgstr "次の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:94
-msgid ""
-"PRAGMA statements must be executed in executeSql() on the database object "
-"(i.e. db.executeSql()) and NOT within a transaction."
-msgstr "PRAGMA ステートメントは、必ず、データベースオブジェクトの executeSql() 内 ( db.executeSql() ) で実行します ( transaction 内ではありません )。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:99
-msgid "Deleting a Database"
-msgstr "データベースの削除"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:101
-msgid ""
-":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location:"
-" 1}, successCb, errorCb);`"
-msgstr ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "``successCb``"
-msgstr "``successCb``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "A callback when the database is deleted successfully."
-msgstr "データベースの削除が成功したときのコールバックです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "``errorCb``"
-msgstr "``errorCb``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "A callback when the database is failed to be deleted."
-msgstr "データベースの削除が失敗したときのコールバックです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:119
-msgid ""
-"This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 "
-"or higher."
-msgstr "この API は、Windows 8.1 以上/Windows Phone 8.1 以上向けアプリの開発には使用できません。"
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:5
 msgid "WebIntent Plugin (Android)"
 msgstr "WebIntent プラグイン ( Android 向け )"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:11
+#: ../doc/reference/third_party_phonegap/webintent.rst:8
 msgid ""
-"Using WebIntent plugin, Monaca apps can start another application installed "
-"in the devices. The following sample will start an app that will display a "
-"map."
-msgstr "WebIntent プラグインを使用すれば、端末にインストールされている他のアプリを、Monaca アプリから起動できます。ここでは、例として、地図を表示するアプリを起動させます。"
+"WebIntent plugin lets you start an installed application from within Monaca "
+"application. The following sample will start an app that will display a map."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/webintent.rst:10
+msgid "This plugin is available only to Android platform."
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid ""
@@ -26056,11 +26073,11 @@ msgid ""
 "project."
 msgstr "WebIntent の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:28
+#: ../doc/reference/third_party_phonegap/webintent.rst:26
 msgid "WebIntent Plugin Demo"
 msgstr "WebIntent プラグインの使用例"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:61
+#: ../doc/reference/third_party_phonegap/webintent.rst:59
 msgid ""
 "Using ``\"url\"`` attribute of the ``\"startActivity\"`` function, an app "
 "can specify the target app to be launched. Here are some examples:"

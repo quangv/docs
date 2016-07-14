@@ -300,7 +300,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/camera/index.rst:369
 #: ../doc/reference/cordova_6.2/camera/index.rst:396
 #: ../doc/reference/cordova_6.2/camera/index.rst:411
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
+#: ../doc/reference/power_plugins/in-app_updater.rst:76
 msgid "Default"
 msgstr ""
 
@@ -458,10 +458,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/push.rst:13
 #: ../doc/reference/monaca_api/cloud_management/user.rst:14
 #: ../doc/reference/monaca_api/utility-34.rst:11
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:28
 msgid "Description"
 msgstr ""
 
@@ -1217,14 +1217,14 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:240
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
 #: ../doc/reference/monaca_api/cloud_management/user.rst:212
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:31
-#: ../doc/reference/third_party_phonegap/datepicker.rst:184
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:65
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:191
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:95
-#: ../doc/reference/third_party_phonegap/share.rst:77
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:124
-#: ../doc/reference/third_party_phonegap/webintent.rst:70
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:65
+#: ../doc/reference/power_plugins/in-app_updater.rst:191
+#: ../doc/reference/power_plugins/secure_storage.rst:95
+#: ../doc/reference/power_plugins/sqlcipher.rst:127
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/datepicker.rst:174
+#: ../doc/reference/third_party_phonegap/share.rst:75
+#: ../doc/reference/third_party_phonegap/webintent.rst:77
 msgid "*See Also*"
 msgstr ""
 
@@ -1928,11 +1928,11 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:51
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:51
 #: ../doc/reference/cordova_4.1/vibration/index.rst:50
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:12
-#: ../doc/reference/third_party_phonegap/datepicker.rst:23
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:42
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:31
-#: ../doc/reference/third_party_phonegap/share.rst:14
+#: ../doc/reference/power_plugins/in-app_updater.rst:42
+#: ../doc/reference/power_plugins/secure_storage.rst:31
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:9
+#: ../doc/reference/third_party_phonegap/datepicker.rst:13
+#: ../doc/reference/third_party_phonegap/share.rst:12
 #: ../doc/reference/third_party_phonegap/webintent.rst:15
 msgid "Enable Plugin in Monaca"
 msgstr ""
@@ -2237,10 +2237,10 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:340
 #: ../doc/reference/cordova_6.2/vibration/index.rst:63
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:47
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:16
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:15
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:15
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:16
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:16
+#: ../doc/reference/power_plugins/in-app_updater.rst:15
+#: ../doc/reference/power_plugins/secure_storage.rst:15
+#: ../doc/reference/power_plugins/sqlcipher.rst:16
 msgid "Supported Platforms"
 msgstr ""
 
@@ -2497,8 +2497,8 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:343
 #: ../doc/reference/cordova_6.2/vibration/index.rst:68
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:137
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:19
+#: ../doc/reference/power_plugins/in-app_updater.rst:137
+#: ../doc/reference/power_plugins/secure_storage.rst:19
 msgid "Android"
 msgstr ""
 
@@ -2794,8 +2794,8 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:322
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:342
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:143
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:143
+#: ../doc/reference/power_plugins/secure_storage.rst:18
 msgid "iOS"
 msgstr ""
 
@@ -2855,9 +2855,9 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/media/index.rst:120
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:185
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:100
-#: ../doc/reference/third_party_phonegap/datepicker.rst:34
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:43
+#: ../doc/reference/third_party_phonegap/datepicker.rst:24
+#: ../doc/reference/third_party_phonegap/share.rst:25
 msgid "Methods"
 msgstr ""
 
@@ -3190,7 +3190,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:92
+#: ../doc/reference/power_plugins/sqlcipher.rst:95
 msgid "Example"
 msgstr ""
 
@@ -13378,14 +13378,14 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:354
 #: ../doc/reference/cordova_6.2/vibration/index.rst:268
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:247
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
-#: ../doc/reference/third_party_phonegap/datepicker.rst:186
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:193
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:97
-#: ../doc/reference/third_party_phonegap/share.rst:79
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:126
-#: ../doc/reference/third_party_phonegap/webintent.rst:72
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:67
+#: ../doc/reference/power_plugins/in-app_updater.rst:193
+#: ../doc/reference/power_plugins/secure_storage.rst:97
+#: ../doc/reference/power_plugins/sqlcipher.rst:129
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/datepicker.rst:176
+#: ../doc/reference/third_party_phonegap/share.rst:77
+#: ../doc/reference/third_party_phonegap/webintent.rst:79
 msgid ":ref:`third_party_cordova_index`"
 msgstr ""
 
@@ -13430,13 +13430,13 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:355
 #: ../doc/reference/cordova_6.2/vibration/index.rst:269
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:248
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
-#: ../doc/reference/third_party_phonegap/datepicker.rst:187
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:194
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:98
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:127
-#: ../doc/reference/third_party_phonegap/webintent.rst:73
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:68
+#: ../doc/reference/power_plugins/in-app_updater.rst:194
+#: ../doc/reference/power_plugins/secure_storage.rst:98
+#: ../doc/reference/power_plugins/sqlcipher.rst:130
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/datepicker.rst:177
+#: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
 msgstr ""
 
@@ -16373,8 +16373,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:169
 #: ../doc/reference/monaca_api/cloud_management/user.rst:197
 #: ../doc/reference/monaca_api/utility-34.rst:61
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:53
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:117
+#: ../doc/reference/power_plugins/sqlcipher.rst:56
+#: ../doc/reference/power_plugins/sqlcipher.rst:120
 msgid "Parameter"
 msgstr ""
 
@@ -19168,8 +19168,8 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:538
 #: ../doc/reference/monaca_api/cloud/user.rst:631
 #: ../doc/reference/monaca_api/cloud/user.rst:637
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
 msgid "``name``"
 msgstr ""
 
@@ -21518,6 +21518,494 @@ msgstr ""
 msgid "The device is iOS device if the return value is *true*."
 msgstr ""
 
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
+msgid "Monaca HTML5 Resource Encryption (Enterprise)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:10
+msgid "This plugin provides the encryption function for HTML5 assets bundled up with the built app in Monaca and the decoding function for application execution time."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:12
+#: ../doc/reference/power_plugins/in-app_updater.rst:12
+#: ../doc/reference/power_plugins/secure_storage.rst:12
+#: ../doc/reference/power_plugins/sqlcipher.rst:13
+msgid "This plugin is available to Enterprise users only."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:17
+#: ../doc/reference/power_plugins/secure_storage.rst:17
+msgid "Cordova 4.1 or later"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:19
+#: ../doc/reference/power_plugins/in-app_updater.rst:18
+msgid "iOS 7 or later"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:20
+#: ../doc/reference/power_plugins/in-app_updater.rst:19
+#: ../doc/reference/power_plugins/sqlcipher.rst:20
+msgid "Android 4.0 or later"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:23
+#: ../doc/reference/power_plugins/secure_storage.rst:22
+msgid "Encryption Scheme"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:26
+#: ../doc/reference/power_plugins/secure_storage.rst:25
+msgid "Encryption Method"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:26
+#: ../doc/reference/power_plugins/secure_storage.rst:25
+msgid "AES"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:26
+msgid "Key Length"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:26
+msgid "256bit"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:32
+#: ../doc/reference/power_plugins/sqlcipher.rst:23
+msgid "Enable the Plugin in Monaca"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
+#: ../doc/reference/power_plugins/in-app_updater.rst:44
+#: ../doc/reference/power_plugins/secure_storage.rst:33
+msgid "From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:36
+msgid "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:41
+msgid "Next, you need to setup the encryption password. Find your newly added plugin under the *Enable Plugins* section. Then, hover the plugin and click :guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:46
+msgid "Enter the password for this encryption. Then, click :guilabel:`OK` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:53
+#: ../doc/reference/power_plugins/in-app_updater.rst:179
+#: ../doc/reference/power_plugins/secure_storage.rst:84
+msgid "App Store Submission"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:55
+msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the AppStore, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:5
+msgid "Monaca In-App Updater (Enterprise)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:10
+msgid "This plugin updates HTML5 assets contained in the app without rebuilding and packaging the app. You need a Web server to host the updated files which will be accessed from the app."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:23
+#: ../doc/reference/power_plugins/sqlcipher.rst:33
+#: ../doc/reference/service_integration/apps_flyer.rst:88
+#: ../doc/reference/service_integration/repro.rst:76
+msgid "Usage"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:25
+msgid "Please follow these steps to use this plugin."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:27
+msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:29
+msgid "Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:31
+msgid "Create the update files for intended OS with proper version. (See :ref:`create_update_file` and :ref:`update_file_version`.)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:33
+msgid "Create configuration file specifying the version number of the update files. (See :ref:`config_file_in_app_updater`.)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:35
+msgid "Place the configuration and update files in the same directory level. (See :ref:`files_placement`.)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:46
+msgid "Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:51
+msgid "Next, you need to configure necessary information for this plugin. Find your newly added plugin under the *Enable Plugins* section. Then, hover the plugin and click :guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:56
+msgid "There are two update modes for this plugins: `default` and `severe` (see :ref:`update_mode`). Choose an appropriate mode and enter the deploy URL where the file is downloaded from. Then, click :guilabel:`OK` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:64
+msgid "Plugin Configuration"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:69
+msgid "Update Mode"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:71
+msgid "When there are available updates, the application will try to update the app according to the predefined update mode."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
+msgid "Mode"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:76
+msgid "Allow the application to run even the update process cannot be done."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:77
+msgid "Severe"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:77
+msgid "The application cannot run if the update process cannot be done. For instance, if the application has no network connectivity, the app will exit."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:80
+msgid "These settings are stored in :file:`config.xml` file as shown below."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:91
+msgid "Creating Update File"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:93
+msgid "In order to use this plugin, you will need a :file:`update.json` file in addition to Android and/or iOS update files."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "File Name"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "Remarks"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid ":file:`update.json`"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid "Update configuration file"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid "The version of update file is specified in this configuration file."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+msgid ":file:`android-v1.0.0.zip`"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+msgid "Android update file"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:99
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid "The version of each update file is shown at the end of the file. See :ref:`update_file_version`."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid ":file:`ios-v1.0.0.zip`"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:100
+msgid "iOS update file"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:103
+msgid "Each update file (Androin and iOS) is corresponded to respective OS. Therefore, it's possible to just update the app for iOS or Android depending on the update file you use."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:105
+msgid "In order to create the update file, please do as follows:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:107
+msgid "From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` for iOS or go to :menuselection:`Build --> Build App for Android` for Android."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:109
+msgid "Choose :guilabel:`Create a package for In-App Update` option and click :guilabel:`Next` button (same for Android)."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:114
+msgid "It may takes sometimes to create the package. So please wait."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:116
+msgid "When the package is ready, the following screen will be displayed. Click to download the update package."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:125
+msgid "Update File Version"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:127
+msgid "The update files include their version number. You can update the version of the update file by the following steps:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:129
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` for iOS or go to :menuselection:`Config --> Android App Settings` for Android."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:131
+msgid "Enter the version number and click :guilabel:`Save` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:146
+msgid "Android and iOS version do not necessarily be the same."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:151
+msgid "Creating Configuration File"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:153
+msgid "As mention above, :file:`update.json` file is an update configuration file to store the version information of the update files. Below is an example of the configuration file:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:162
+msgid "In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that ``ios-v1.0.0.zip`` file will be used to download."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:168
+msgid "Placing Update File"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:170
+msgid "Please make sure to place the configuration and update files in the same level. For example, if your deploy URL is ``http://example.com/``, then your files should be placed as follows:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:172
+msgid "http://example.com/update.json"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:173
+msgid "http://example.com/ios-v1.0.0.zip"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:174
+msgid "http://example.com/android-v1.0.0.zip"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:176
+msgid "The server can be distributed in any environment at least the application has the connectivity."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:181
+msgid "Please aware that this plugin might interfere with the `App Store Review Guidelines <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ in the following conditions."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:183
+msgid "This applies to the apps that is distributed on App Store. Privately distributed apps (including Ad-Hoc and Enterprise Built) are excluded from the review guideline."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:185
+msgid "\"2.7 Apps that download code in any way or form will be rejected\""
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:187
+msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:5
+msgid "Monaca Power Plugins"
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:7
+msgid "With Monaca Power Plugins, we deliver developers the ability to secure their work with the latest security technologies."
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:9
+msgid "Monaca power plugins are available to Enterprise users only."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:5
+msgid "Monaca Secure Storage (Enterprise)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:10
+msgid "This plugin provides an encrypted data storage function. If the application is uninstalled, saved data will also be deleted."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:35
+msgid "Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:46
+msgid "Set Data"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:46
+msgid "Save data into the storage by specifying the ``key`` and ``value``. The boolean callback will notify whether the data is successfully saved (``True``) or failed to save (``false``)."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:55
+msgid "Get Data"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:55
+msgid "Retrieve data associated with the specified key. The callback will return the intended data if the key is found; otherwise, a null value will be return."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:64
+msgid "Delete Data"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:64
+msgid "Delete the data associated with a specified key. The boolean callback will notify whether the data deletion is successful (``True``) or failed (``false``)."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:73
+msgid "Delete All Data"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:73
+msgid "Delete all data in the storage. The boolean callback will notify whether the data deletion is successful (``True``) or failed (``false``)."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:86
+msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the App Store, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:5
+msgid "SQLCipher Adapter (Enterprise)"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:11
+msgid "SQLCipher Adapter is a Cordova plugin to create and access encrypted databases on Android, iOS, and Windows Universal (8.1) with API similar to HTML5/Web SQL API."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:18
+msgid "Cordova 5.2"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:19
+msgid "iOS 8 or later"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:25
+msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:27
+msgid "Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:38
+msgid "Opening a Database"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:40
+msgid "If you try to open a database that doesn’t exist, the API will create it."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:42
+msgid ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
+msgid "Your database's name. The database file name should include the extension, if desired."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+msgid "``key``"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+msgid "Your database's password."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:50
+#: ../doc/reference/power_plugins/sqlcipher.rst:110
+msgid "``location``"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:50
+#: ../doc/reference/power_plugins/sqlcipher.rst:110
+msgid "It used to select the database subdirectory location (iOS only) with the following choices:"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:52
+#: ../doc/reference/power_plugins/sqlcipher.rst:112
+msgid "``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:53
+#: ../doc/reference/power_plugins/sqlcipher.rst:113
+msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:54
+#: ../doc/reference/power_plugins/sqlcipher.rst:114
+msgid "``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by iCloud."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:59
+msgid "The following code illustrates an example with PRAGMA feature. First, a table is created and a single entry is added. Then, a query to count the inserted item to see if it's added as expected."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:97
+msgid "PRAGMA statements must be executed in executeSql() on the database object (i.e. db.executeSql()) and NOT within a transaction."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:102
+msgid "Deleting a Database"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:104
+msgid ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "``successCb``"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "A callback when the database is deleted successfully."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:118
+msgid "``errorCb``"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:118
+msgid "A callback when the database is failed to be deleted."
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:122
+msgid "This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 or higher."
+msgstr ""
+
 #: ../doc/reference/service_integration/apps_flyer.rst:5
 msgid "AppsFlyer"
 msgstr ""
@@ -21583,13 +22071,6 @@ msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:84
 msgid "For more information on how to use AppsFlyer, please refer to `AppsFlyer Documentation <https://support.appsflyer.com/hc/en-us>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/apps_flyer.rst:88
-#: ../doc/reference/service_integration/repro.rst:76
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
-msgid "Usage"
 msgstr ""
 
 #: ../doc/reference/service_integration/apps_flyer.rst:90
@@ -21765,18 +22246,18 @@ msgstr ""
 msgid "BarcodeScanner Plugin"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:14
-#: ../doc/reference/third_party_phonegap/datepicker.rst:25
-#: ../doc/reference/third_party_phonegap/share.rst:16
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/datepicker.rst:15
+#: ../doc/reference/third_party_phonegap/share.rst:14
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
-msgid "From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or :menuselection:`Config > Manage Cordova Plugins`."
+msgid "From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:16
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid "Click :guilabel:`Enable` button of the BarcodeScanner to add it into your project."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:23
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:20
 msgid "BarcodeScanner Demo"
 msgstr ""
 
@@ -21788,350 +22269,39 @@ msgstr ""
 msgid "DatePicker plugin lets an app use the native DatePicker control."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:17
 msgid "Click :guilabel:`Enable` button of the DatePicker to add it into your project."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:37
-#: ../doc/reference/third_party_phonegap/datepicker.rst:52
+#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:42
 msgid "For Android"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:28
 msgid "Function Name"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:31
 msgid "show(func)"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
 msgid "show a DatePicker control."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:49
+#: ../doc/reference/third_party_phonegap/datepicker.rst:39
 msgid "DatePicker Demo"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:88
+#: ../doc/reference/third_party_phonegap/datepicker.rst:78
 msgid "For iOS"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:90
+#: ../doc/reference/third_party_phonegap/datepicker.rst:80
 msgid "Please note that, this example only works with iPhone but not iPad."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:5
-msgid "Monaca HTML5 Resource Encryption (Enterprise)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:10
-msgid "This plugin provides the encryption function for HTML5 assets bundled up with the built app in Monaca and the decoding function for application execution time."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:12
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:12
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:12
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:13
-msgid "This plugin is available to Enterprise users only."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:18
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:17
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:17
-msgid "Cordova 4.1 or later"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:19
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:18
-msgid "iOS 7 or later"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:20
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:19
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:20
-msgid "Android 4.0 or later"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:23
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:22
-msgid "Encryption Scheme"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "Encryption Method"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "AES"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "Key Length"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "256bit"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:32
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:23
-msgid "Enable the Plugin in Monaca"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:34
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:44
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:33
-msgid "From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:36
-msgid "Click :guilabel:`Enable` button of ``Monaca HTML5 Resource Encryption`` to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:41
-msgid "Next, you need to setup the encryption password. To do this, click :guilabel:`Settings` button."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:46
-msgid "Enter the password for this encryption. Then, click :guilabel:`OK` button."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:53
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:179
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:84
-msgid "App Store Submission"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:55
-msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the AppStore, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
-msgid "Monaca In-App Updater (Enterprise)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:10
-msgid "This plugin updates HTML5 assets contained in the app without rebuilding and packaging the app. You need a Web server to host the updated files which will be accessed from the app."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:25
-msgid "Please follow these steps to use this plugin."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:27
-msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:29
-msgid "Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:31
-msgid "Create the update files for intended OS with proper version. (See :ref:`create_update_file` and :ref:`update_file_version`.)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:33
-msgid "Create configuration file specifying the version number of the update files. (See :ref:`config_file_in_app_updater`.)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:35
-msgid "Place the configuration and update files in the same directory level. (See :ref:`files_placement`.)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:46
-msgid "Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:51
-msgid "Next, click :guilabel:`Settings` button to configure necessary information for this plugin."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:56
-msgid "There are two update modes for this plugins: `default` and `severe` (see :ref:`update_mode`). Choose an appropriate mode and enter the deploy URL where the file is downloaded from. Then, click :guilabel:`OK` button."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:64
-msgid "Plugin Configuration"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:69
-msgid "Update Mode"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:71
-msgid "When there are available updates, the application will try to update the app according to the predefined update mode."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-msgid "Mode"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
-msgid "Allow the application to run even the update process cannot be done."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid "Severe"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid "The application cannot run if the update process cannot be done. For instance, if the application has no network connectivity, the app will exit."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:80
-msgid "These settings are stored in :file:`config.xml` file as shown below."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:91
-msgid "Creating Update File"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:93
-msgid "In order to use this plugin, you will need a :file:`update.json` file in addition to Android and/or iOS update files."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "File Name"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "Remarks"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid ":file:`update.json`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "Update configuration file"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "The version of update file is specified in this configuration file."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid ":file:`android-v1.0.0.zip`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid "Android update file"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid "The version of each update file is shown at the end of the file. See :ref:`update_file_version`."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid ":file:`ios-v1.0.0.zip`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid "iOS update file"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:103
-msgid "Each update file (Androin and iOS) is corresponded to respective OS. Therefore, it's possible to just update the app for iOS or Android depending on the update file you use."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:105
-msgid "In order to create the update file, please do as follows:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:107
-msgid "From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` for iOS or go to :menuselection:`Build --> Build App for Android` for Android."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:109
-msgid "Choose :guilabel:`Create a package for In-App Update` option and click :guilabel:`Next` button (same for Android)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:114
-msgid "It may takes sometimes to create the package. So please wait."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:116
-msgid "When the package is ready, the following screen will be displayed. Click to download the update package."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:125
-msgid "Update File Version"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:127
-msgid "The update files include their version number. You can update the version of the update file by the following steps:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:129
-msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` for iOS or go to :menuselection:`Config --> Android App Settings` for Android."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:131
-msgid "Enter the version number and click :guilabel:`Save` button."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:146
-msgid "Android and iOS version do not necessarily be the same."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:151
-msgid "Creating Configuration File"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:153
-msgid "As mention above, :file:`update.json` file is an update configuration file to store the version information of the update files. Below is an example of the configuration file:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:162
-msgid "In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that ``ios-v1.0.0.zip`` file will be used to download."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:168
-msgid "Placing Update File"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:170
-msgid "Please make sure to place the configuration and update files in the same level. For example, if your deploy URL is ``http://example.com/``, then your files should be placed as follows:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:172
-msgid "http://example.com/update.json"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:173
-msgid "http://example.com/ios-v1.0.0.zip"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:174
-msgid "http://example.com/android-v1.0.0.zip"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:176
-msgid "The server can be distributed in any environment at least the application has the connectivity."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:181
-msgid "Please aware that this plugin might interfere with the `App Store Review Guidelines <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ in the following conditions."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:183
-msgid "This applies to the apps that is distributed on App Store. Privately distributed apps (including Ad-Hoc and Enterprise Built) are excluded from the review guideline."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:185
-msgid "\"2.7 Apps that download code in any way or form will be rejected\""
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:187
-msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/index.rst:5
@@ -22150,206 +22320,51 @@ msgstr ""
 msgid "The followings are pre-configured third-party Cordova plugins provided by Monaca:"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:5
-msgid "Monaca Secure Storage (Enterprise)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:10
-msgid "This plugin provides an encrypted data storage function. If the application is uninstalled, saved data will also be deleted."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:35
-msgid "Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid "Set Data"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid "Save data into the storage by specifying the ``key`` and ``value``. The boolean callback will notify whether the data is successfully saved (``True``) or failed to save (``false``)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid "Get Data"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid "Retrieve data associated with the specified key. The callback will return the intended data if the key is found; otherwise, a null value will be return."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid "Delete Data"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid "Delete the data associated with a specified key. The boolean callback will notify whether the data deletion is successful (``True``) or failed (``false``)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid "Delete All Data"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid "Delete all data in the storage. The boolean callback will notify whether the data deletion is successful (``True``) or failed (``false``)."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:86
-msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the App Store, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
-msgstr ""
-
 #: ../doc/reference/third_party_phonegap/share.rst:5
 msgid "Share Plugin (Android)"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:10
-msgid "Using Share Plugin, an app can share data with other apps like Gmail, DropBox, etc."
+#: ../doc/reference/third_party_phonegap/share.rst:8
+msgid "Share plugin lets an app to share data with other apps like Gmail, DropBox, etc."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:18
+#: ../doc/reference/third_party_phonegap/share.rst:16
 msgid "Click :guilabel:`Enable` button of the Share to add it into your project."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:24
-#: ../doc/reference/third_party_phonegap/webintent.rst:25
+#: ../doc/reference/third_party_phonegap/share.rst:22
 msgid "It's available only to Android platform."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:31
 msgid "Show a list of apps for user to choose and share the data when an app is selected."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/share.rst:38
+#: ../doc/reference/third_party_phonegap/share.rst:36
 msgid "Share Plugin Demo"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:5
-msgid "SQLCipher Adapter (Enterprise)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:11
-msgid "SQLCipher Adapter is a Cordova plugin to create and access encrypted databases on Android, iOS, and Windows Universal (8.1) with API similar to HTML5/Web SQL API."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:18
-msgid "Cordova 5.2"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:19
-msgid "iOS 8 or later"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:25
-msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:27
-msgid "Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:35
-msgid "Opening a Database"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:37
-msgid "If you try to open a database that doesn’t exist, the API will create it."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:39
-msgid ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
-msgid "Your database's name. The database file name should include the extension, if desired."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "``key``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "Your database's password."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid "``location``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid "It used to select the database subdirectory location (iOS only) with the following choices:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:49
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:109
-msgid "``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:50
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:110
-msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:51
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:111
-msgid "``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by iCloud."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:56
-msgid "The following code illustrates an example with PRAGMA feature. First, a table is created and a single entry is added. Then, a query to count the inserted item to see if it's added as expected."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:94
-msgid "PRAGMA statements must be executed in executeSql() on the database object (i.e. db.executeSql()) and NOT within a transaction."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:99
-msgid "Deleting a Database"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:101
-msgid ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "``successCb``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "A callback when the database is deleted successfully."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "``errorCb``"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "A callback when the database is failed to be deleted."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:119
-msgid "This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 or higher."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:5
 msgid "WebIntent Plugin (Android)"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:11
-msgid "Using WebIntent plugin, Monaca apps can start another application installed in the devices. The following sample will start an app that will display a map."
+#: ../doc/reference/third_party_phonegap/webintent.rst:8
+msgid "WebIntent plugin lets you start an installed application from within Monaca application. The following sample will start an app that will display a map."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/webintent.rst:10
+msgid "This plugin is available only to Android platform."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid "Click :guilabel:`Enable` button of the WebIntent to add it into your project."
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:28
+#: ../doc/reference/third_party_phonegap/webintent.rst:26
 msgid "WebIntent Plugin Demo"
 msgstr ""
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:61
+#: ../doc/reference/third_party_phonegap/webintent.rst:59
 msgid "Using ``\"url\"`` attribute of the ``\"startActivity\"`` function, an app can specify the target app to be launched. Here are some examples:"
 msgstr ""
 
