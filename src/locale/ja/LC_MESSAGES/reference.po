@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-08 04:34+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-15 02:21+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3843,7 +3843,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.battery-
 msgid ""
 "This event fires when the percentage of battery charge changes by at least 1"
 " percent, or if the device is plugged in or unplugged."
-msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始または停止した場合、このイベントが発火します。"
+msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始もしくは停止した場合、このイベントが発火します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:47
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:65
@@ -19463,7 +19463,7 @@ msgid ""
 "The code shown here creates a file in your app's cache (in sandboxed "
 "storage) named ``tempFile.jpeg``. With the new FileEntry object, you can "
 "copy the image to the file or do something else like upload it."
-msgstr "次のコードでは、アプリのキャッシュ ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:24
 msgid "Console Plugin"
@@ -19486,7 +19486,7 @@ msgid ""
 "This plugin is meant to ensure that console.log() is as useful as it can be."
 " It adds additional function for iOS, Ubuntu, Windows Phone 8, and Windows. "
 "This plugin defines a global ``console`` object."
-msgstr "このプラグインでは、コンソールへの出力に使用できる、console.log() を含む、便利なメソッドを提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
+msgstr "このプラグインでは、コンソールへの出力に使用できる、便利なメソッド ( console.log() など ) を提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:58
 msgid ""
@@ -19613,11 +19613,11 @@ msgstr "%o - JSON 形式で出力します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:107
 msgid "%c - format arg as ''. No color formatting could be done."
-msgstr "%c - '' 内で指定されているスタイルを適用します。色の指定はできません。"
+msgstr "%c - 指定した CSS を適用します。色の指定はできません。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:108
 msgid "%% - replace with '%'."
-msgstr "%% - '%' に置き換えます。"
+msgstr "%% - 「 % 」 に置き換えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:110
 msgid "Any other char following ``%`` will format its arg via ``toString()``"
@@ -19813,7 +19813,7 @@ msgstr "OSX 特有の動作"
 msgid ""
 "The ``uuid`` on OSX is generated automatically if it does not exist yet and "
 "is stored in the ``standardUserDefaults`` in the ``CDVUUID`` property."
-msgstr "OSX では、``uuid`` が確認できない場合には、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
+msgstr "OSX では、``uuid`` が確認できない場合、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:295
 msgid "Get the device's manufacturer."
@@ -19885,7 +19885,7 @@ msgstr "このプラグインは、`BackgroundDownloader <https://msdn.microsoft
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
 msgid "Sample: Download and Upload Files"
-msgstr "使用例 : ファイルのダウンロードとアップロード"
+msgstr "サンプルコード : ファイルのダウンロードとアップロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
 msgid ""
@@ -19896,21 +19896,21 @@ msgstr "ファイル転送プラグインを使用して、ファイルのアッ
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
 msgid ""
 ":ref:`Downloading a binary file to the application cache <binary_file>`"
-msgstr ""
+msgstr ":ref:`アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロードする方法 <binary_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
 msgid ""
 ":ref:`Uploading a file created in your application's root "
 "<upload_created_file>`"
-msgstr ""
+msgstr ":ref:`アプリのルートのディレクトリー内にファイルを作成して、アップロードする方法 <upload_created_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:393
 msgid ":ref:`Downloading the uploaded file <download_uploaded_file>`"
-msgstr ""
+msgstr ":ref:`ファイルをダウンロードする方法 ( 上記の例でアップロードしたファイルをダウンロード ) <download_uploaded_file>`"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:398
 msgid "Download a Binary File to the application cache"
-msgstr ""
+msgstr "アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロード"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:400
 msgid ""
@@ -19920,13 +19920,13 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr ""
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルのダウンロードの前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード対象のファイル ( FileEntry ) を作成/取得します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:420
 msgid ""
 "Note For persistent storage, pass LocalFileSystem.PERSISTENT to "
 "requestFileSystem."
-msgstr ""
+msgstr "永続的なストレージを使用する場合には、requestFileSystem の実行時に、LocalFileSystem.PERSISTENT を指定します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:422
 msgid ""
@@ -19936,13 +19936,13 @@ msgid ""
 "the app's ``readBinaryFile`` function. In this code example, the entry "
 "variable is a new FileEntry object that receives the result of the download "
 "operation."
-msgstr ""
+msgstr "FileEntry オブジェクトの取得後、FileTransfer オブジェクトの download メソッドを使用して、ファイルを ``ダウンロード`` します。FileTransfer の ``download`` メソッドの第三引数は、成功時のコールバックです。このコールバック内では、``readBinaryFile`` 関数を使用しています。また、ここで使用している変数 「 entry 」 には、download の処理結果として受けとった、新規の FileEntry オブジェクトが格納されています。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:460
 msgid ""
 "If you just need to display the image, take the FileEntry to call its "
 "toURL() function."
-msgstr ""
+msgstr "画像を単に表示する場合には、FileEntry を渡して、次に、FileEntry 自身の toURL() 関数を呼び出します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:469
 msgid ""
@@ -19952,19 +19952,19 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr ""
+msgstr "バイナリーファイルを読み込む必要がある場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:491
 msgid ""
 "Once you read the file successfully, you can create a DOM URL string using "
 "``createObjectURL``, and then display the image."
-msgstr ""
+msgstr "ファイルの読み込み後、``createObjectURL`` を使用すれば、DOM 上で使用できる URL を取得できます。次に、この URL を使用して、画像を表示します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:505
 msgid ""
 "As you saw previously, you can call FileEntry.toURL() instead to just "
 "display the downloaded image (skip the file read)."
-msgstr ""
+msgstr "上記で示したように、ダウンロードした画像を単に表示するのであれば、FileEntry.toURL() を使用することもできます。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
 msgid "Upload a File"
@@ -19978,23 +19978,23 @@ msgid ""
 "method of DirectoryEntry. In this example, create the file in the "
 "application's cache (fs.root). Then call the app's writeFile function so you"
 " have some content to upload."
-msgstr ""
+msgstr "ファイル転送プラグインを使用してファイルをアップロードする場合、アップロード対象となるファイルを取得するときには、ファイル操作プラグイン ( File プラグイン ) を使用します ( ダウンロード時と同じく、ファイルは、FileEtnry オブジェクトとなります )。アップロード前に、DirectoryEntry の ``getFile`` を使用して、アップロード用のファイルを作成/取得します。ここでは、アプリのキャッシュ用ディレクトリー ( fs.root ) 内にファイルを作成しています。次に、アップロードするコンテンツを渡して、writeFile 関数を実行します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:532
 msgid ""
 "In this example, create some simple content, and then call the app's upload "
 "function."
-msgstr ""
+msgstr "この例では、FileWrite オブジェクトを作成/取得して、次に、upload 関数を実行しています。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:557
 msgid ""
 "Forward the FileEntry object to the upload function. To perform the actual "
 "upload, use the upload function of the FileTransfer object."
-msgstr ""
+msgstr "ここでは、upload 関数へ FileEntry オブジェクトを渡しています。なお、実際のアップロード処理には、FileTransfer オブジェクトの upload 関数を使用します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:595
 msgid "Download the uploaded file"
-msgstr ""
+msgstr "ファイルのダウンロード ( ここでは、先ほどの例で使用したファイルをダウンロードします )"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:597
 msgid ""
@@ -20004,13 +20004,13 @@ msgid ""
 "FileEntry object. The main difference here from previous examples is that we"
 " call FileReader.readAsText to read the result of the download operation, "
 "because we uploaded a file with text content."
-msgstr ""
+msgstr "先ほどアップロードしたテキストを、今度は、ダウンロードします ( 「 ファイルのアップロード 」 を参照のこと )。必要なものは、有効な URL です ( ダウンロード元を指す URL、たとえば、http://some.server.com/download.php )。FileTransfer.download メソッドの成功時のハンドラーには、FileEntry オブジェクトが渡されます。上記のダウンロードの例 ( 「 バイナリーファイルのダウンロード 」 を参照のこと ) と異なる点として、ここでは、ダウンロードの処理結果を読み込むときに、FileReader.readAsText を使用しています。これは、先ほどのアップロードの例　( 「 ファイルのアップロード 」 を参照のこと ) では、テキスト形式のコンテンツとして、ファイルが処理されているためです。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:628
 msgid ""
 "In the readFile function, call the ``readAsText`` method of the FileReader "
 "object."
-msgstr ""
+msgstr "readFile 関数内で、FileReader オブジェクトの ``readAsText`` メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:29
 msgid ""
@@ -20318,7 +20318,7 @@ msgstr "``cacheDirectory`` - キャッシュファイル用 ( アプリの再起
 
 #: ../doc/reference/cordova_6.2/file/index.rst:625
 msgid "Sample: Create Files and Directories, Write, Read, and Append files"
-msgstr ""
+msgstr "サンプルコード : ファイルの作成、ディレクトリーの作成、ファイルへ書き込み、ファイルの読み込み、ファイルへの追記"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:627
 msgid ""
@@ -20336,7 +20336,7 @@ msgstr ":ref:`ファイルシステムへのアクセス <persistent_file>`"
 msgid ""
 "Using cross-platform Cordova file URLs to :ref:`store your files "
 "<append_file_alternative>` (see Where to Store Files for more info)"
-msgstr ""
+msgstr "Cordova の FILE URL を使用した、:ref:`ファイルの保存 <append_file_alternative>` ( 詳細は、上記の 「 ファイルの保存場所 」 を参照のこと )"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:631
 msgid ""
@@ -20354,7 +20354,7 @@ msgstr ":ref:`ファイルの読み込み <read_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:634
 msgid ":ref:`Appending files <append_file_alternative>`"
-msgstr ""
+msgstr ":ref:`ファイルへの追記 <append_file_alternative>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:635
 msgid ":ref:`Display an image file <display_image>`"
@@ -20370,7 +20370,7 @@ msgid ""
 "using ``requestFileSystem``. When you do this, you can request either "
 "persistent or temporary storage. Persistent storage will not be removed "
 "unless permission is granted by the user."
-msgstr ""
+msgstr "ファイル操作プラグイン提供の API を使用する前に、``requestFileSystem`` を使用すれば、ファイルシステムへアクセスすることができます。また、``requestFileSystem`` の実行時には、PERSISTENT または TEMPORARY のいずれかを指定できます。PERSISTENT にストレージを指定した場合、ユーザーの許可がない限り、ストレージの削除はできません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:644
 msgid ""
@@ -20380,7 +20380,7 @@ msgid ""
 "device. (To access file system locations outside the sandboxed storage, use "
 "other methods such as window.requestLocalFileSystemURL, which support "
 "platform-specific locations. For one example of this, see Append a File.)"
-msgstr ""
+msgstr " ``requestFileSystem`` を使用してファイルシステムへアクセスした場合、サンドボックス化されたファイルシステムへのアクセスのみ許可され ( サンドボックス化した場合、対象のアプリのみ、ストレージにアクセス可能 )、端末上の他のファイルシステムへのアクセスはできません。サンドボックス化されたストレージ以外のファイルへアクセスする場合には、window.requestLocalFileSystemURL などのメソッドを使用します ( 下の 「 ファイルへの追記 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:646
 msgid "Here is a request for persistent storage."
@@ -20391,7 +20391,7 @@ msgid ""
 "When targeting WebView clients (instead of a browser) or native apps "
 "(Windows), you dont need to use requestQuota before using persistent "
 "storage."
-msgstr ""
+msgstr "WebView クライアント向け ( ブラウザーではなく ) またはネイティブアプリ向け ( Windows ) に開発をしている場合、永続的なストレージを使用するときでも、requestQuota を使用する必要はありません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:668
 msgid ""
@@ -20446,11 +20446,11 @@ msgid ""
 "FileReader object. You can use methods like ``readAsText`` to start the read"
 " operation. When the read operation is complete, ``this.result`` stores the "
 "result of the read operation."
-msgstr ""
+msgstr "FileEntry オブジェクトは、既存ファイルの読み込み時にも使用します。最初に、FileEntry の file プロパティー を使用して、ファイルへのリファレンスを取得します。次に、FileReader オブジェクトを作成します。読み込み処理には、``readAsText`` などのメソッドを使用できます。読み込み処理の完了後、``this.result`` には、処理結果が保存されています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:761
 msgid "Append a file using alternative methods"
-msgstr ""
+msgstr "ファイルへの追記 ( ファイルシステムへのアクセス時には、上記とは異なるメソッドを使用 ) "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:763
 msgid ""
@@ -20460,7 +20460,7 @@ msgid ""
 "this example, pass the cross-platform Cordova file URL, "
 "cordova.file.dataDirectory, to the function. The success callback receives a"
 " DirectoryEntry object, which you can use to do things like create a file."
-msgstr ""
+msgstr "ファイルの新規作成ではなく、既存のファイルに対して内容を追記したい場合もあります。この例では、window.resolveLocalFileSystemURL を使用した追記方法を記します。ここでは、cordova.file.dataDirectory ( Cordova の File URL ) を使用します。成功時のコールバックに、DirectoryEntry オブジェクトが返ってくるので、このオブジェクトを使用して追記処理を行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:773
 msgid ""
@@ -20470,7 +20470,7 @@ msgid ""
 " storage locations are platform-specific. You can also pass cross-platform "
 "file system locations to ``resolveLocalFileSystemURL`` using the ``cdvfile "
 "protocol``."
-msgstr ""
+msgstr "また、サンドボックス化されたファイルシステム以外の場所に置かれたファイルへアクセスする場合にも、``resolveLocalFileSystemURL`` を使用できます。詳細は、上記の 「 ファイルの保存場所 」 をご確認ください。多くの場合、ファイルの保存場所はプラットフォーム毎に異なります。また、``resolveLocalFileSystemURL`` へ渡す File URL には、``cdvfile プロトコル`` 形式も使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:775
 msgid ""
@@ -20478,7 +20478,7 @@ msgid ""
 "function that is called in the preceding code (see the preceding examples "
 "for the actual code). ``createFile`` calls ``writeFile``. In ``writeFile``, "
 "you check whether an append operation is requested."
-msgstr ""
+msgstr "追記処理における ``createFile`` 関数に関しても、先ほど解説した内容と異なる点はありません ( 「 一時的なファイルの作成 」 を参照のこと )。``createFile`` を実行し、次に、``writeFile`` を実行します。``writeFile`` では、追記処理であることを指定します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:777
 msgid ""
@@ -20486,7 +20486,7 @@ msgid ""
 " index value for the position where you want to write. In this example, you "
 "also test whether the file exists. After calling seek, then call the write "
 "method of FileWriter."
-msgstr ""
+msgstr "FileWriter オブジェクトの取得後、``seek`` メソッドを呼び出し、追記位置を指定しています。また、ここでは、ファイルが存在するかも確認しています。seek の処理完了後、FileWriter の write メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:810
 msgid "Store an existing binary file"
@@ -20530,13 +20530,13 @@ msgstr "Cordova 5 以降、セキュリティー上の理由により、次の�
 msgid ""
 "After getting the file, copy the contents to a new file. The current "
 "DirectoryEntry object is already associated with the app cache."
-msgstr ""
+msgstr "ファイルの取得後、新規作成したファイルへコンテンツをコピーします。DirectoryEntry オブジェクトは、キャッシュ先にすでに紐づけされています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:862
 msgid ""
 "In writeFile, you pass in the Blob object as the dataObj and you will save "
 "that in the new file."
-msgstr ""
+msgstr "writeFile では、引数として、Blob オブジェクト ( dataObj ) を渡し、新規のファイル上に保存します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:889
 msgid ""
@@ -20548,16 +20548,16 @@ msgstr "ファイルへの書き込み終了後、ファイルの読み込みと
 msgid ""
 "After reading the data, you can display the image using code like this. Use "
 "window.URL.createObjectURL to get a DOM string for the Blob image."
-msgstr ""
+msgstr "データの読み込み後、次のようなコードを使用すれば、画像を表示できます。表示用の画像 ( Blob 形式 ) を取得する場合には、window.URL.createObjectURL を使用します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:927
 msgid "Display an image file"
-msgstr ""
+msgstr "画像ファイルの表示"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:929
 msgid ""
 "To display an image using a FileEntry, you can call the ``toURL`` method."
-msgstr ""
+msgstr "FileEntry を使用して画像を表示する場合には、``toURL`` メソッドを使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:938
 msgid ""
@@ -20566,11 +20566,11 @@ msgid ""
 "in the Content-Security-Policy element in index.html. For example, on "
 "Windows 10, you can include ``ms-appdata``: in your element. Here is an "
 "example."
-msgstr ""
+msgstr "プラットフォームにより異なる URI を使用して ( FileEntry の代わりに )、画像を表示させる場合、index.html の Content-Security-Policy 要素に、URI のホストを指定します。Windows 10 では、``ms-appdata``: を使用します。次に例を記します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:947
 msgid "Create Directories"
-msgstr ""
+msgstr "ディレクトリーの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:949
 msgid ""
@@ -20579,19 +20579,19 @@ msgid ""
 "is, any DirectoryEntry). Here, you write to the application cache (assuming "
 "that you used window.TEMPORARY to get your FileSystem object) by passing "
 "fs.root into this function."
-msgstr ""
+msgstr "ここでは、ストレージのルートに、ディレクトリーを作成します。書き込み可能なストレージ ( DirectoryEntry ) であれば、次のコードを使用できます。ここでは、createDirectory に fs.root を渡して、アプリのキャッシュ用ディレクトリーを使用します ( FileSystem オブジェクトの取得時に、window.TEMPORARY に設定したことを前提とします )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:951
 msgid ""
 "This code creates the /NewDirInRoot/images folder in the application cache. "
 "For platform-specific values, look at ``File System Layouts``."
-msgstr ""
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー内に /NewDirInRoot/images フォルダーを作成します。各プラットフォームのファイルシステムの詳細は、上記の 「 ``ファイルシステムの概要`` 」 をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:965
 msgid ""
 "When creating subfolders, you need to create each folder separately as shown"
 " in the preceding code."
-msgstr ""
+msgstr "サブディレクトリーを作成する場合には、上記のコードのように、各フォルダーをそれぞれ作成する必要があります。"
 
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:28
 msgid ""
@@ -20899,7 +20899,7 @@ msgid ""
 "``StatusBarBackgroundColor`` (color hex string, no default value). On iOS 7,"
 " set the background color of the statusbar by a hex string (#RRGGBB) at "
 "startup. If this value is not set, the background color will be transparent."
-msgstr ""
+msgstr "``StatusBarBackgroundColor`` ( 16 進数の文字列で示すカラーコード、デフォルトはなし )。アプリ起動時のスタータスバーの背景色を、16進数の文字列 ( #RRGGBB ) で設定します。この値が設定されていない場合、背景色は透明になります。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:68
 msgid ""
@@ -20915,7 +20915,7 @@ msgid ""
 "apps), so you may want to set the statusbar color at runtime instead via "
 "``StatusBar.backgroundColorByHexString`` or "
 "``StatusBar.backgroundColorByName``. One way to do that would be:"
-msgstr ""
+msgstr "Android 5+ を対象とする、多くのガイドラインでは、スタータスバーとアプリのテーマに、別々の色を指定するように推奨されています ( 一方、iOS 7+ 向けのアプリでは、スタータスバーとアプリのカラーを統一する方が多いようです )。ここでは、ステータスバーの色をあらかじめ設定するのではなく ( ``StatusBar.backgroundColorByHexString`` または ``StatusBar.backgroundColorByName`` を設定 )、動的 ( プログラムの実行時 ) に設定する方法の一例を記します。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:131
 msgid "**config.xml**"
@@ -20941,34 +20941,34 @@ msgstr "Android 4.0 以上"
 msgid ""
 "Controls which URLs the WebView itself can be navigated to. Applies to top-"
 "level navigations only."
-msgstr ""
+msgstr "WebView 上で使用できる URL を制御します。適用範囲は、最上位のウィンドウ ( top-level navigation ) 上におけるページ遷移のみです。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:68
 msgid "Quirks: on Android it also applies to iframes for non-http(s) schemes."
-msgstr ""
+msgstr "Android では、http(s) スキーマを使用していない iframe にも適用されます。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:70
 msgid ""
 "By default, navigations only to ``file://`` URLs, are allowed. To allow "
 "others URLs, you must add ``<allow-navigation>`` tags to your "
 "``config.xml``:"
-msgstr ""
+msgstr "デフォルトでは、``file://`` 形式の URL のみ使用できます。他の URL を使用する場合、たとえば、次のように ``<allow-navigation>`` を指定して、``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:107
 msgid ""
 "Controls which URLs the app is allowed to ask the system to open. By "
 "default, no external URLs are allowed."
-msgstr ""
+msgstr "アプリ側からシステム側に対して、外部への URL を開くようにリスクエストすることができます。デフォルトでは、外部への URL は一切開くことができません。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:109
 msgid "On Android, this equates to sending an intent of type BROWSEABLE."
-msgstr ""
+msgstr "Android における、「 BROWSABLE 」 設定に相当します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:111
 msgid ""
 "This whitelist does not apply to plugins, only hyperlinks and calls to "
 "``window.open()``."
-msgstr ""
+msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクに適用されます。"
 
 #: ../doc/reference/index.rst:2
 msgid "API"
@@ -25342,7 +25342,7 @@ msgstr "BarcodeScanner プラグイン"
 msgid ""
 "From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or "
 ":menuselection:`Config > Manage Cordova Plugins`."
-msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理...` または :menuselection:`設定 > Cordova プラグインの管理...` を選択します。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:16
 msgid ""
@@ -25401,7 +25401,7 @@ msgstr "このサンプルは、iPhone が対象です。iPad では正常に動
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:5
 msgid "Monaca HTML5 Resource Encryption (Enterprise)"
-msgstr "アプリロジック暗号化 プラグイン ( Monaca エンタープライズ専用 )"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:10
 msgid ""
@@ -25476,13 +25476,13 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 msgid ""
 "Click :guilabel:`Enable` button of ``Monaca HTML5 Resource Encryption`` to "
 "add it into your project."
-msgstr "``Monaca HTML5 Resource Encryption`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:41
 msgid ""
 "Next, you need to setup the encryption password. To do this, click "
 ":guilabel:`Settings` button."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、暗号用パスワードを設定します。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:46
 msgid ""
@@ -25506,7 +25506,7 @@ msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが�
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
 msgid "Monaca In-App Updater (Enterprise)"
-msgstr "In-App アップデーター プラグイン ( Monaca エンタープライズ専用 )"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:10
 msgid ""
@@ -25556,7 +25556,7 @@ msgstr "``Monaca In-App Updater`` の :guilabel:`有効` ボタンをクリッ�
 msgid ""
 "Next, click :guilabel:`Settings` button to configure necessary information "
 "for this plugin."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、プラグインの使用時に必要となる情報を設定します。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:56
 msgid ""
@@ -25807,7 +25807,7 @@ msgstr "Monaca が提供している、第三者提供の Cordova プラグイ�
 
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:5
 msgid "Monaca Secure Storage (Enterprise)"
-msgstr "セキュア ストレージ プラグイン ( Monaca エンタープライズ専用 )"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:10
 msgid ""
@@ -25881,7 +25881,7 @@ msgstr "Share プラグイン ( Android 向け )"
 msgid ""
 "Using Share Plugin, an app can share data with other apps like Gmail, "
 "DropBox, etc."
-msgstr "Share プラグインを使用すれば、他のアプリ ( Gmail、Dropbox など ) とデータを共有できます。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/share.rst:18
 msgid ""
@@ -25891,7 +25891,7 @@ msgstr "Share の :guilabel:`有効` ボタンをクリックして、プロジ�
 #: ../doc/reference/third_party_phonegap/share.rst:24
 #: ../doc/reference/third_party_phonegap/webintent.rst:25
 msgid "It's available only to Android platform."
-msgstr "サポート対象は、Android のみです。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/share.rst:33
 msgid ""
@@ -25905,7 +25905,7 @@ msgstr "Share プラグインの記述例"
 
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:5
 msgid "SQLCipher Adapter (Enterprise)"
-msgstr "SQLCipher アダプター ( Monaca エンタープライズ専用 )"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:11
 msgid ""
@@ -26048,7 +26048,7 @@ msgid ""
 "Using WebIntent plugin, Monaca apps can start another application installed "
 "in the devices. The following sample will start an app that will display a "
 "map."
-msgstr "WebIntent プラグインを使用すれば、端末にインストールされている他のアプリを、Monaca アプリから起動できます。ここでは、例として、地図を表示するアプリを起動させます。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid ""
