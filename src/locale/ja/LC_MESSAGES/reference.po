@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-15 02:26+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-07-15 09:49+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1337,7 +1337,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:266
 #: ../doc/reference/cordova_6.2/device/index.rst:362
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:650
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:642
 #: ../doc/reference/cordova_6.2/file/index.rst:970
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:326
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1008
@@ -1380,7 +1380,7 @@ msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
 msgid ":ref:`MonacaApp-Info.plist`"
-msgstr ""
+msgstr ":ref:`MonacaApp-Info.plist`"
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -3354,9 +3354,9 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:164
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:244
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:300
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:130
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:256
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:301
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:122
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:248
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:114
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:174
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:238
@@ -3515,7 +3515,7 @@ msgstr "例"
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:175
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:154
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:243
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:220
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:212
 #: ../doc/reference/cordova_6.2/file/index.rst:306
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:162
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:335
@@ -3719,8 +3719,8 @@ msgstr "特定の時間に取得した ``加速度センサー`` のデータが
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:253
 #: ../doc/reference/cordova_6.2/device/index.rst:63
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:83
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:199
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:326
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:257
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:269
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:301
@@ -4854,7 +4854,7 @@ msgstr "**code**: 次のエラーコードのいずれか"
 #: ../doc/reference/cordova_5.2/network-information/index.rst:80
 #: ../doc/reference/cordova_6.2/contacts/index.rst:559
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:258
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:349
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:341
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:308
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:453
 #: ../doc/reference/cordova_6.2/media/index.rst:109
@@ -7403,7 +7403,7 @@ msgstr "upload"
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:109
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:242
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:99
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:233
 msgid "**Parameters**:"
 msgstr "**パラメーター**:"
 
@@ -7421,7 +7421,7 @@ msgstr "**fileURL**: 端末上のファイルの位置を指し示す、ファ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:72
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:102
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:113
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:102
 msgid ""
 "**server**: URL of the server to receive the file, as encoded by "
 "``encodeURI()``."
@@ -7442,7 +7442,7 @@ msgstr "**errorCallback**: ``Metadata`` の取得時にエラーが発生した�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:82
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:128
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:137
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:127
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
 msgid ""
 "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to "
 "``true``, it accepts all security certificates. This is useful since Android"
@@ -7452,13 +7452,13 @@ msgstr "**trustAllHosts**: 任意のパラメーター。デフォルトは ``fa
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:88
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:112
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:106
 msgid "**options**: Optional parameters *(Object)*. Valid keys:"
 msgstr "**options**: 任意のパラメーター。使用できる key は、次のとおりです。 *(Object)* "
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:89
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:113
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:123
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid ""
 "**fileKey**: The name of the form element. Defaults to ``file``. (DOMString)"
 msgstr "**fileKey**: form 要素の name 属性。デフォルトは、``file`` です。 (DOMString)"
@@ -7466,7 +7466,6 @@ msgstr "**fileKey**: form 要素の name 属性。デフォルトは、``file`` 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:91
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:115
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:125
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid ""
 "**fileName**: The file name to use when saving the file on the server. "
 "Defaults to ``image.jpg``. (DOMString)"
@@ -7475,7 +7474,6 @@ msgstr "**fileName**: サーバーにファイルを保存するときに使用�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:93
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:119
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:129
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:119
 msgid ""
 "**mimeType**: The mime type of the data to upload. Defaults to "
 "``image/jpeg``. (DOMString)"
@@ -7484,7 +7482,6 @@ msgstr "**mimeType**: アップロードするデータの MIME タイプ。デ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:95
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:121
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:131
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:121
 msgid ""
 "**params**: A set of optional key/value pairs to pass in the HTTP request. "
 "(Object)"
@@ -7493,7 +7490,6 @@ msgstr "**params**: HTTP リクエスト内に任意で設定する key と valu
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:97
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:123
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:133
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:123
 msgid ""
 "**chunkedMode**: Whether to upload the data in chunked streaming mode. "
 "Defaults to ``true``. (Boolean)"
@@ -7520,14 +7516,14 @@ msgstr "アップロード時の Headers と ProgressEvent の使用例 ( Androi
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:173
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:207
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:212
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:202
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:194
 msgid "FileUploadResult"
 msgstr "FileUploadResult"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:175
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:209
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:214
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:204
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:196
 msgid ""
 "A ``FileUploadResult`` object is passed to the success callback of the "
 "``FileTransfer`` object's ``upload()`` method."
@@ -7541,7 +7537,7 @@ msgstr "**プロパティー**"
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:180
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:215
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:219
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:201
 msgid ""
 "**bytesSent**: The number of bytes sent to the server as part of the upload."
 " (long)"
@@ -7550,7 +7546,7 @@ msgstr "**bytesSent**: アップロード時に、サーバーに送られたバ
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:183
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:218
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:221
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:211
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:203
 msgid ""
 "**responseCode**: The HTTP response code returned by the server. (long)"
 msgstr "**responseCode**: サーバーから返ってきた HTTP レスポンスコード (long)"
@@ -7558,42 +7554,42 @@ msgstr "**responseCode**: サーバーから返ってきた HTTP レスポンス
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:186
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:221
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:223
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:213
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:205
 msgid "**response**: The HTTP response returned by the server. (DOMString)"
 msgstr "**response**: サーバーから返ってきた HTTP レスポンス (DOMString)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:188
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:223
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:225
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:215
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
 msgid "**headers**: The HTTP response headers by the server. (Object)"
 msgstr "**headers**: サーバーから返ってきた HTTP レスポンスのヘッダー (Object)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:189
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:224
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:217
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
 msgid "Currently supported on iOS only."
 msgstr "現時点では、iOS 上でのみ使用できます。"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:194
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:229
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:222
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:214
 msgid "Does not support ``responseCode`` or ``bytesSent``."
 msgstr "``responseCode`` または ``bytesSent`` は使用できません。"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:197
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:232
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:240
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:231
 msgid "download"
 msgstr "download"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:201
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:236
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:244
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:235
 msgid ""
 "**source**: URL of the server to download the file, as encoded by "
 "``encodeURI()``."
@@ -7602,7 +7598,7 @@ msgstr "**source**: ファイルのダウンロード元となるサーバーの
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:204
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:239
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:246
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:237
 msgid ""
 "**target**: Filesystem url representing the file on the device. For "
 "backwards compatibility, this can also be the full path of the file on the "
@@ -7613,7 +7609,7 @@ msgstr "**target**: 端末上のファイルの位置を指し示す、ファイ
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:209
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:244
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:248
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:247
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
 msgid ""
 "**successCallback**: A callback that is passed a ``FileEntry`` object. "
 "*(Function)*"
@@ -7629,7 +7625,7 @@ msgstr "**errorCallback**: ``Metadata`` の取得時にエラーが発生した�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:216
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:251
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:252
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:251
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
 msgid ""
 "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to "
 "``true``, it accepts all security certificates. This is useful because "
@@ -7640,7 +7636,7 @@ msgstr "**trustAllHosts**: 任意のパラメーター。デフォルトは ``fa
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:222
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:257
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:254
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:253
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
 msgid ""
 "**options**: Optional parameters, currently only supports headers (such as "
 "Authorization (Basic Authentication), etc)."
@@ -7649,14 +7645,14 @@ msgstr "**options**: 任意のパラメーター。現時点では、headers の
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:255
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:291
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:297
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:296
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
 msgid "abort"
 msgstr "abort"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:257
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:293
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:299
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:298
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:290
 msgid ""
 "Aborts an in-progress transfer. The onerror callback is passed a "
 "FileTransferError object which has an error code of "
@@ -7666,14 +7662,14 @@ msgstr "実行中のファイルの送受信を中止します。 FileTransferEr
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:289
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:326
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:330
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:329
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:321
 msgid "FileTransferError"
 msgstr "FileTransferError"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:291
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:328
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:332
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:331
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:323
 msgid ""
 "A ``FileTransferError`` object is passed to an error callback when an error "
 "occurs."
@@ -7682,28 +7678,28 @@ msgstr "エラー発生時、``FileTransferError`` オブジェクトが失敗�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:296
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:334
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:337
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:328
 msgid "**code**: One of the predefined error codes listed below. (Number)"
 msgstr "**code**: 後述のエラーコードのいずれか (Number)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:298
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:336
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:339
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:330
 msgid "**source**: URL to the source. (String)"
 msgstr "**source**: ソースへの URL (String)\n\n [ 翻訳者メモ : このプロパティーには、アップロード時には端末上のファイルの保存場所、ダウンロード時にはダウンロード元の URL が格納されるようです。]"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:300
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:338
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:341
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:340
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:332
 msgid "**target**: URL to the target. (String)"
 msgstr "**target**: ターゲットへの URL (String) \n\n[ 翻訳者メモ : このプロパティーには、アップロード時にはアップロード先の URL、ダウンロード時には端末上のファイルの保存場所が格納されるようです。 ]"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:302
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:340
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:342
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
 msgid ""
 "**http\\_status**: HTTP status code. This attribute is only available when a"
 " response code is received from the HTTP connection. (Number)"
@@ -7732,14 +7728,14 @@ msgstr "``FileTransferError.ABORT_ERR``"
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:313
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:354
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:359
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:363
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
 msgid "Backwards Compatibility Notes"
 msgstr "後方互換性に関するメモ書き"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:315
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:356
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:361
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:365
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:357
 msgid ""
 "Previous versions of this plugin would only accept device-absolute-file-"
 "paths as the source for uploads, or as the target for downloads. These paths"
@@ -7749,7 +7745,7 @@ msgstr "このプラグインの以前のバージョンでは、アップロー
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:324
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:365
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:368
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:372
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:364
 msgid ""
 "For backwards compatibility, these paths are still accepted, and if your "
 "application has recorded paths like these in persistent storage, then they "
@@ -7759,7 +7755,7 @@ msgstr "後方互換性を考慮して、これらの形式のパスは今でも
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:328
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:369
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:370
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:374
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:366
 msgid ""
 "These paths were previously exposed in the ``fullPath`` property of "
 "``FileEntry`` and ``DirectoryEntry`` objects returned by the File plugin. "
@@ -7770,7 +7766,7 @@ msgstr "以前は、これらのパスは、ファイル操作プラグイン ( 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:333
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:374
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:372
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:368
 msgid ""
 "If you are upgrading to a new (1.0.0 or newer) version of File, and you have"
 " previously been using ``entry.fullPath`` as arguments to ``download()`` or "
@@ -7788,7 +7784,7 @@ msgstr "``FileEntry.toURL()`` と ``DirectoryEntry.toURL()`` では、ファイ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:345
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:386
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:380
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
 msgid ""
 "which can be used in place of the absolute file path in both ``download()`` "
 "and ``upload()`` methods."
@@ -8014,6 +8010,7 @@ msgstr "ファイルシステムの概要"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:129
 #: ../doc/reference/cordova_4.1/file/index.rst:148
+#: ../doc/reference/cordova_6.2/file/index.rst:124
 msgid ""
 "Although technically an implementation detail, it can be very useful to know"
 " how the ``cordova.file.*`` properties map to physical paths on a real "
@@ -8044,6 +8041,11 @@ msgstr "端末上のパス"
 #: ../doc/reference/cordova_4.1/file/index.rst:158
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 #: ../doc/reference/cordova_4.1/file/index.rst:231
+#: ../doc/reference/cordova_6.2/file/index.rst:132
+#: ../doc/reference/cordova_6.2/file/index.rst:167
+#: ../doc/reference/cordova_6.2/file/index.rst:200
+#: ../doc/reference/cordova_6.2/file/index.rst:223
+#: ../doc/reference/cordova_6.2/file/index.rst:254
 msgid "``cordova.file.*``"
 msgstr "``cordova.file.*``"
 
@@ -8645,7 +8647,7 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、このディレクトリーに置かれたファイルに影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
+msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、このディレクトリーに置かれたファイルには影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、このディレクトリーのファイルは、アプリ側の任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
 
 #: ../doc/reference/cordova_3.5/file/index.rst:166
 #: ../doc/reference/cordova_4.1/file/index.rst:190
@@ -8772,6 +8774,7 @@ msgstr "\\**\\ このディレクトリーのコンテンツの削除は、OS �
 
 #: ../doc/reference/cordova_3.5/file/index.rst:199
 #: ../doc/reference/cordova_4.1/file/index.rst:225
+#: ../doc/reference/cordova_6.2/file/index.rst:192
 msgid ""
 "**Note**: If external storage can't be mounted, the "
 "``cordova.file.external*`` properties are ``null``."
@@ -13789,8 +13792,8 @@ msgstr "このプラグインを使用するには :ref:``org.apache.cordova.dev
 #: ../doc/reference/cordova_6.2/camera/index.rst:520
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:120
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:149
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:291
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:219
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:283
 #: ../doc/reference/cordova_6.2/file/index.rst:349
 #: ../doc/reference/cordova_6.2/globalization/index.rst:141
 #: ../doc/reference/cordova_6.2/globalization/index.rst:201
@@ -14123,7 +14126,7 @@ msgstr "グローバルスコープに属していますが、使用できるの
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:105
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:115
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
 msgid ""
 "**successCallback**: A callback that is passed a ``FileUploadResult`` "
 "object. *(Function)*"
@@ -14131,7 +14134,7 @@ msgstr "**successCallback**: ``FileUploadResult`` オブジェクトを渡して
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:108
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:117
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:107
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:104
 msgid ""
 "**errorCallback**: A callback that executes if an error occurs retrieving "
 "the ``FileUploadResult``. Invoked with a ``FileTransferError`` object. "
@@ -14140,7 +14143,6 @@ msgstr "**errorCallback**: ``FileUploadResult`` を取得するときにエラ�
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:117
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:127
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid ""
 "**httpMethod**: The HTTP method to use - either ``PUT`` or ``POST``. "
 "Defaults to ``POST``. (DOMString)"
@@ -14148,13 +14150,13 @@ msgstr "**httpMethod**: 使用する、HTTP の method 属性。``PUT`` また�
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:169
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:174
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:164
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:156
 msgid "Example with Upload Headers and Progress Events (Android and iOS only)"
 msgstr "アップロード時の Headers と ProgressEvent の使用例 ( Android と iOS 専用 )"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:247
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:250
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:249
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
 msgid ""
 "**errorCallback**: A callback that executes if an error occurs when "
 "retrieving the ``FileEntry``. Invoked with a ``FileTransferError`` object. "
@@ -14163,37 +14165,37 @@ msgstr "**errorCallback**: ``FileEntry`` の取得時にエラーが発生した
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:342
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:347
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
 msgid "**exception**: Either e.getMessage or e.toString (String)"
 msgstr "**exception**: e.getMessage または e.toString のいずれか (String)"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:347
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:352
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:351
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:343
 msgid "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 msgstr "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:348
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:353
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
 msgid "2 = ``FileTransferError.INVALID_URL_ERR``"
 msgstr "2 = ``FileTransferError.INVALID_URL_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:349
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:354
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:353
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:345
 msgid "3 = ``FileTransferError.CONNECTION_ERR``"
 msgstr "3 = ``FileTransferError.CONNECTION_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:350
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:355
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:354
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
 msgid "4 = ``FileTransferError.ABORT_ERR``"
 msgstr "4 = ``FileTransferError.ABORT_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:351
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:356
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:347
 msgid "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 msgstr "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 
@@ -15322,8 +15324,8 @@ msgstr "Windows Phone 7 では、バッテリー残量の確認に使用でき�
 #: ../doc/reference/cordova_6.2/contacts/index.rst:837
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:204
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:279
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:358
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:350
 #: ../doc/reference/cordova_6.2/globalization/index.rst:136
 #: ../doc/reference/cordova_6.2/globalization/index.rst:196
 #: ../doc/reference/cordova_6.2/globalization/index.rst:274
@@ -15398,7 +15400,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:268
 #: ../doc/reference/cordova_6.2/device/index.rst:364
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:652
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:644
 #: ../doc/reference/cordova_6.2/file/index.rst:972
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:328
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1010
@@ -15450,7 +15452,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:269
 #: ../doc/reference/cordova_6.2/device/index.rst:365
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:346
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:653
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:645
 #: ../doc/reference/cordova_6.2/file/index.rst:973
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:329
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1011
@@ -17330,17 +17332,14 @@ msgid ""
 msgstr "``FileTransfer`` オブジェクトを使用して、ファイルのアップロード ( HTTP MultiPart POST/PUT リクエストを使用 ) とダウンロードを行います。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:119
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:109
 msgid "**options**: Optional parameters *(Object)*."
 msgstr "**options**: 任意のパラメーター  *(Object)*"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:121
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "Valid keys:"
 msgstr "使用できる key は、次のとおりです。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:135
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:125
 msgid ""
 "**headers**: A map of header name/header values. Use an array to specify "
 "more than one value. On iOS, FireOS, and Android, if a header named Content-"
@@ -17349,34 +17348,34 @@ msgstr "**headers**: ヘッダーのプロパティー名とその値の組み�
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:237
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:294
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:229
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:221
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:285
 msgid ""
 "**withCredentials**: *boolean* that tells the browser to set the "
 "withCredentials flag on the XMLHttpRequest"
 msgstr "**withCredentials**: XMLHttpRequest で各種認証情報を使用するか否か ( withCredentials フラグを立てるか否か ) を Browser 側に示す *真偽値* です。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:287
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:286
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:278
 msgid "WP8 Quirks"
 msgstr "WP8 特有の動作"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:289
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:280
 msgid ""
 "Download requests is being cached by native implementation. To avoid "
 "caching, pass ``if-Modified-Since`` header to download method."
 msgstr "ダウンロードリクエストは、WP8 独自の処理により、キャッシュされます。この処理を回避するためには、``if-Modified-Since`` ヘッダーを download メソッドに渡します。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
 msgid ""
 "**body** Response body. This attribute is only available when a response is "
 "received from the HTTP connection. (String)"
 msgstr "**body** : レスポンスのボディー。HTTP 接続の状態を示すレスポンスコードを受け取った場合のみ、この属性を使用できます。(String)"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:374
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:378
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:370
 msgid ""
 "``FileEntry.toURL()`` and ``DirectoryEntry.toURL()`` return a filesystem "
 "ofURL of the form"
@@ -19852,24 +19851,91 @@ msgid ""
 "after the ``deviceready`` event."
 msgstr "このプラグインでは、グローバルなコンストラクタ 「 ``FileTransfer`` 」 と 「 ``FileUploadOptions`` 」 を使用します。なお、グローバルスコープに属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "**fileKey**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "The name of the form element. Defaults to ``file``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid "**fileName**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid ""
+"The file name to use when saving the file on the server. Defaults to "
+"``image.jpg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid "**httpMethod**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid ""
+"The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. "
+"(DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid "**mimeType**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid ""
+"The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid "**params**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid ""
+"A set of optional key/value pairs to pass in the HTTP request. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid "**chunkedMode**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid ""
+"Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
+"(Boolean)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid "**headers**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid ""
+"A map of header name/header values. Use an array to specify more than one "
+"value. On iOS, FireOS, and Android, if a header named Content-Type is "
+"present, multipart form data will NOT be used. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:216
 msgid ""
 "Does not support uploads of an empty file with *chunkedMode=true* and "
 "``multipartMode=false``."
 msgstr "*chunkedMode=true* と ``multipartMode=false`` に設定している場合、空ファイルのアップロードはできません。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:234
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:226
 msgid ""
 "An option parameter with empty/null value is excluded in the upload "
 "operation due to the Windows API design."
 msgstr "アップロード時、options のパラメーターに、空/null 値を指定した場合、これらのパラメーターは無視されます。これは、Windows API の仕様です。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:236
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:228
 msgid ""
 "*chunkedMode* is not supported and all uploads are set to non-chunked mode."
 msgstr "*chunkedMode* オプションは使用できません。アップロードは、常に、非チャンク ( 非チャンクド ) 形式で行われます。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:360
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
 msgid ""
 "The plugin implementation is based on `BackgroundDownloader "
 "<https://msdn.microsoft.com/en-"
@@ -19883,36 +19949,36 @@ msgid ""
 "alternative for small downloads."
 msgstr "このプラグインは、`BackgroundDownloader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounddownloader.aspx>`_ / `BackgroundUploader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounduploader.aspx>`_ を基礎としています。よって、Windows の端末では、起動までに時間がかかります ( 処理の作成・開始まで、数秒かかる場合があります )。サイズの小さいダウンロード向けには、処理速度が早い、XHR または `HttpClient <https://msdn.microsoft.com/en-us/library/windows/apps/windows.web.http.httpclient.aspx>`_ の使用を推奨します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:379
 msgid "Sample: Download and Upload Files"
 msgstr "サンプルコード : ファイルのダウンロードとアップロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:381
 msgid ""
 "Use the File-Transfer plugin to upload and download files. In these "
 "examples, we demonstrate several tasks like:"
 msgstr "ファイル転送プラグインを使用して、ファイルのアップロードとダウンロードを行います。ここでは、次の処理を行います。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:383
 msgid ""
 ":ref:`Downloading a binary file to the application cache <binary_file>`"
 msgstr ":ref:`アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロードする方法 <binary_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
 msgid ""
 ":ref:`Uploading a file created in your application's root "
 "<upload_created_file>`"
 msgstr ":ref:`アプリのルートのディレクトリー内にファイルを作成して、アップロードする方法 <upload_created_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:393
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:385
 msgid ":ref:`Downloading the uploaded file <download_uploaded_file>`"
 msgstr ":ref:`ファイルをダウンロードする方法 ( 上記の例でアップロードしたファイルをダウンロード ) <download_uploaded_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:398
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:390
 msgid "Download a Binary File to the application cache"
 msgstr "アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:400
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
 msgid ""
 "Use the File plugin with the File-Transfer plugin to provide a target for "
 "the files that you download (the target must be a FileEntry object). Before "
@@ -19920,15 +19986,15 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルのダウンロードの前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード対象のファイル ( FileEntry ) を作成/取得します。"
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:420
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:412
 msgid ""
 "Note For persistent storage, pass LocalFileSystem.PERSISTENT to "
 "requestFileSystem."
 msgstr "永続的なストレージを使用する場合には、requestFileSystem の実行時に、LocalFileSystem.PERSISTENT を指定します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:422
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:414
 msgid ""
 "When you have the FileEntry object, ``download`` the file using the download"
 " method of the FileTransfer object. The 3rd argument to the ``download`` "
@@ -19936,15 +20002,15 @@ msgid ""
 "the app's ``readBinaryFile`` function. In this code example, the entry "
 "variable is a new FileEntry object that receives the result of the download "
 "operation."
-msgstr "FileEntry オブジェクトの取得後、FileTransfer オブジェクトの download メソッドを使用して、ファイルを ``ダウンロード`` します。FileTransfer の ``download`` メソッドの第三引数は、成功時のコールバックです。このコールバック内では、``readBinaryFile`` 関数を使用しています。また、ここで使用している変数 「 entry 」 には、download の処理結果として受けとった、新規の FileEntry オブジェクトが格納されています。"
+msgstr "FileEntry オブジェクトの作成/取得後、FileTransfer オブジェクトの download メソッドを使用して、ファイルを ``ダウンロード`` します。FileTransfer の ``download`` メソッドの第三引数は、成功時のコールバックです。このコールバック内で、``readBinaryFile`` 関数を使用しています。また、ここで使用している変数 「 entry 」 には、download の処理結果として受けとった、新規の FileEntry オブジェクトが格納されています。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:460
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:452
 msgid ""
 "If you just need to display the image, take the FileEntry to call its "
 "toURL() function."
-msgstr "画像を単に表示する場合には、FileEntry を渡して、次に、FileEntry 自身の toURL() 関数を呼び出します。"
+msgstr "画像を単に表示する場合には、次のように、FileEntry を渡して、FileEntry 自身の toURL() 関数を呼び出します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:469
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:461
 msgid ""
 "Depending on your app requirements, you may want to read the file. To "
 "support operations with binary files, FileReader supports two methods, "
@@ -19952,25 +20018,25 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr "バイナリーファイルを読み込む必要がある場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
+msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:491
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:483
 msgid ""
 "Once you read the file successfully, you can create a DOM URL string using "
 "``createObjectURL``, and then display the image."
 msgstr "ファイルの読み込み後、``createObjectURL`` を使用すれば、DOM 上で使用できる URL を取得できます。次に、この URL を使用して、画像を表示します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:505
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:497
 msgid ""
 "As you saw previously, you can call FileEntry.toURL() instead to just "
 "display the downloaded image (skip the file read)."
 msgstr "上記で示したように、ダウンロードした画像を単に表示するのであれば、FileEntry.toURL() を使用することもできます。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:502
 msgid "Upload a File"
 msgstr "ファイルのアップロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:512
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:504
 msgid ""
 "When you upload a File using the File-Transfer plugin, use the File plugin "
 "to provide files for upload (again, they must be FileEntry objects). Before "
@@ -19980,23 +20046,23 @@ msgid ""
 " have some content to upload."
 msgstr "ファイル転送プラグインを使用してファイルをアップロードする場合、アップロード対象となるファイルを取得するときには、ファイル操作プラグイン ( File プラグイン ) を使用します ( ダウンロード時と同じく、ファイルは、FileEtnry オブジェクトとなります )。アップロード前に、DirectoryEntry の ``getFile`` を使用して、アップロード用のファイルを作成/取得します。ここでは、アプリのキャッシュ用ディレクトリー ( fs.root ) 内にファイルを作成しています。次に、アップロードするコンテンツを渡して、writeFile 関数を実行します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:532
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:524
 msgid ""
 "In this example, create some simple content, and then call the app's upload "
 "function."
 msgstr "この例では、FileWrite オブジェクトを作成/取得して、次に、upload 関数を実行しています。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:557
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:549
 msgid ""
 "Forward the FileEntry object to the upload function. To perform the actual "
 "upload, use the upload function of the FileTransfer object."
 msgstr "ここでは、upload 関数へ FileEntry オブジェクトを渡しています。なお、実際のアップロード処理には、FileTransfer オブジェクトの upload 関数を使用します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:595
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:587
 msgid "Download the uploaded file"
 msgstr "ファイルのダウンロード ( ここでは、先ほどの例で使用したファイルをダウンロードします )"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:597
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:589
 msgid ""
 "To download the image you just uploaded, you will need a valid URL that can "
 "handle the request, for example, http://some.server.com/download.php. Again,"
@@ -20004,9 +20070,9 @@ msgid ""
 "FileEntry object. The main difference here from previous examples is that we"
 " call FileReader.readAsText to read the result of the download operation, "
 "because we uploaded a file with text content."
-msgstr "先ほどアップロードしたテキストを、今度は、ダウンロードします ( 「 ファイルのアップロード 」 を参照のこと )。必要なものは、有効な URL です ( ダウンロード元を指す URL、たとえば、http://some.server.com/download.php )。FileTransfer.download メソッドの成功時のハンドラーには、FileEntry オブジェクトが渡されます。上記のダウンロードの例 ( 「 バイナリーファイルのダウンロード 」 を参照のこと ) と異なる点として、ここでは、ダウンロードの処理結果を読み込むときに、FileReader.readAsText を使用しています。これは、先ほどのアップロードの例　( 「 ファイルのアップロード 」 を参照のこと ) では、テキスト形式のコンテンツとして、ファイルが処理されているためです。"
+msgstr "先ほどアップロードしたテキストを、今度は、ダウンロードします ( 「 ファイルのアップロード 」 を参照のこと )。必要なものは、有効な URL です ( ダウンロード元を指す URL、たとえば、http://some.server.com/download.php )。FileTransfer.download メソッドの成功時のハンドラーには、FileEntry オブジェクトが渡されます。上記のダウンロードの例 ( 「 バイナリーファイルのダウンロード 」 を参照のこと ) と異なる点として、ここでは、ダウンロードの処理結果を読み込むときに、FileReader.readAsText を使用しています。これは、先ほどのアップロードの例　( 「 ファイルのアップロード 」 を参照のこと ) では、テキスト形式のコンテンツとして、ファイルがアップロードされているためです。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:628
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:620
 msgid ""
 "In the readFile function, call the ``readAsText`` method of the FileReader "
 "object."
@@ -20018,21 +20084,6 @@ msgid ""
 "file/releases/tag/4.2.0>`_"
 msgstr "テスト環境 ( バージョン番号 ) : `4.2.0 <https://github.com/apache/cordova-plugin-file/releases/tag/4.2.0>`_"
 
-#: ../doc/reference/cordova_6.2/file/index.rst:124
-msgid ""
-"Although technically an implementation detail, it can be very useful to know"
-" how the ``cordova.file.\\*`` properties map to physical paths on a real "
-"device."
-msgstr "実装方式により異なりますが、``cordova.file.\\*`` プロパティーと端末の物理パスの関係 ( マッピング内容 ) を、次の表に示します。"
-
-#: ../doc/reference/cordova_6.2/file/index.rst:132
-#: ../doc/reference/cordova_6.2/file/index.rst:167
-#: ../doc/reference/cordova_6.2/file/index.rst:200
-#: ../doc/reference/cordova_6.2/file/index.rst:223
-#: ../doc/reference/cordova_6.2/file/index.rst:254
-msgid "``cordova.file.\\*``"
-msgstr "``cordova.file.\\*``"
-
 #: ../doc/reference/cordova_6.2/file/index.rst:132
 #: ../doc/reference/cordova_6.2/file/index.rst:223
 msgid "``iOSExtraFileSystems``"
@@ -20040,7 +20091,7 @@ msgstr "``iOSExtraFileSystems``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 msgid "/var/mobile/Applications/<UUID>/"
-msgstr "/var/mobile/Applications/<UUID>/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 #: ../doc/reference/cordova_6.2/file/index.rst:138
@@ -20061,41 +20112,41 @@ msgstr "\\-"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:136
 msgid "appname.app/"
-msgstr "appname.app/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:138
 msgid "www/"
-msgstr "www/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:140
 msgid "Documents/"
-msgstr "Documents/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:142
 #: ../doc/reference/cordova_6.2/file/index.rst:146
 msgid "NoCloud/"
-msgstr "NoCloud/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:144
 msgid "Library"
-msgstr "Library"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:148
 msgid "Cloud/"
-msgstr "Cloud/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 msgid "Caches/"
-msgstr "Caches/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "Yes\\***"
-msgstr "Yes\\***"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "tmp/"
-msgstr "tmp/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 #: ../doc/reference/cordova_6.2/file/index.rst:183
@@ -20109,7 +20160,7 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr "\\** アプリの再起動後でも、このディレクトリーに置かれたファイルに影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。アプリ側で処理を行わない場合、削除のタイミング、または、削除するか否かは、OS 側が決定します。 "
+msgstr "\\** アプリの再起動後でも、このディレクトリーに置かれたファイルには影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、このディレクトリーのファイルは、アプリ側の任意のタイミングで削除できるようにしましょう。アプリ側で処理を行わない場合、削除のタイミング、または、削除するか否かは、OS 側が決定します。 "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:159
 msgid ""
@@ -20154,12 +20205,6 @@ msgid ""
 " for managing the contents yourself. Should the user purge the cache "
 "manually, the contents of the directory are removed."
 msgstr "\\** OS 側では、このディレクトリーの削除を自動では行ないので、開発者側でコンテンツを管理する必要があります。また、このディレクトリー内のコンテンツの削除 ( キャッシュの削除 ) は、ユーザー側でも行えるようにする必要があります。"
-
-#: ../doc/reference/cordova_6.2/file/index.rst:192
-msgid ""
-"**Note**: If external storage can't be mounted, the "
-"``cordova.file.external\\*`` properties are ``null``."
-msgstr "**備考** : 外部のストレージがマウントできない場合には、``cordova.file.external*`` プロパティーは ``null`` になります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:202
 msgid "file:///accounts/1000/appdata/<app id>/"
@@ -20248,7 +20293,7 @@ msgid ""
 "be cleared whenever the OS desires. Your app should be able to recreate any "
 "content that might be deleted. You should clear this directory as "
 "appropriate for your application."
-msgstr "\\* アプリの再起動後・アップグレード後でも、このディレクトリーに置かれたファイルに影響はでません。ただし、このディレクトリーのコンテンツは、OS 側で、自由に削除できます。削除された場合でも、アプリ側で再作成できる必要があります。また、ディレクトリーのコンテンツの削除は、OS 側に頼るのではなく、アプリ側で適宜行えるようにしましょう。"
+msgstr "\\* アプリの再起動後・アップグレード後でも、このディレクトリーに置かれたファイルには影響はでません。ただし、このディレクトリーのコンテンツは、OS 側で、自由に削除できます。削除された場合でも、アプリ側で再作成できる必要があります。また、ディレクトリーのコンテンツの削除は、OS 側に頼るのではなく、アプリ側で適宜行えるようにしましょう。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:246
 msgid ""
@@ -20298,7 +20343,7 @@ msgid ""
 " mounted. However due to a limitation, when external storage is not mounted,"
 " it would ask for permission to write to "
 "``cordova.file.externalApplicationStorageDirectory``."
-msgstr "Marchmallow では、外部のストレージへの書き込みおよび外部のストレージからの読み込みを行う場合、ユーザー側に許可を求めることを必須要件にしています。なお、``cordova.file.applicationStorageDirectory`` と ``cordova.file.externalApplicationStorageDirectory`` への書き込みに関しては、`デフォルト <https://developer.android.com/guide/topics/data/data-storage.html#filesExternal>`_ でパーミッションがアプリ側に付与されているため、プラグイン側ではユーザー側に許可を求めませんが、外部のストレージがマウントされていないときだけ、通知の意味も込めて、ユーザー側の許可を求めます。また、同様に、なんらかの理由で外部のストレージがマウントされていない場合にも、ユーザー側に対して、``cordova.file.externalApplicationStorageDirectory`` に書き込みを行ってよいか、プラグイン側で確認します。"
+msgstr "Marchmallow では、外部のストレージへの書き込みおよび外部のストレージからの読み込みを行う場合、ユーザー側に許可を求めることを必須要件にしています。なお、``cordova.file.applicationStorageDirectory`` と ``cordova.file.externalApplicationStorageDirectory`` への書き込みに関しては、`デフォルト <https://developer.android.com/guide/topics/data/data-storage.html#filesExternal>`_ でパーミッションがアプリ側に付与されているため、プラグイン側ではユーザー側に許可を求めませんが、外部のストレージがマウントされていないときだけ、通知の意味も込めて、ユーザー側の許可を求めます。また、同様に、なんらかの理由で外部のストレージがマウントされていない場合にも、``cordova.file.externalApplicationStorageDirectory`` に書き込みを行ってよいか、プラグイン側からユーザー側に確認します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:342
 msgid ""
@@ -20318,7 +20363,7 @@ msgstr "``cacheDirectory`` - キャッシュファイル用 ( アプリの再起
 
 #: ../doc/reference/cordova_6.2/file/index.rst:625
 msgid "Sample: Create Files and Directories, Write, Read, and Append files"
-msgstr "サンプルコード : ファイルの作成、ディレクトリーの作成、ファイルへ書き込み、ファイルの読み込み、ファイルへの追記"
+msgstr "サンプルコード : ファイルの作成、ディレクトリーの作成、ファイルへの書き込み、ファイルの読み込み、ファイルへの追記"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:627
 msgid ""
@@ -20326,7 +20371,7 @@ msgid ""
 "persistent storage location for your app (sandboxed storage) and to store "
 "files in other platform-dependent locations. The code snippets in this "
 "section demonstrate different tasks including:"
-msgstr "ファイル操作プラグインを使用して、一時的または永続的なストレージへ ( サンドボックス化された、アプリのストレージを使用 )、ならびに、プラットフォーム側で指定しているストレージへファイルを保存できます。この節に例示しているコードでは、次の処理の記述方法を確認できます。"
+msgstr "ファイル操作プラグインを使用して、一時的または永続的なストレージへ ( サンドボックス化された、アプリのストレージを使用 )、ならびに、プラットフォーム側が指定する、他のストレージへファイルを保存できます。下に例示しているコードでは、次の処理方法を確認できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:629
 msgid ":ref:`Accessing the file system <persistent_file>`"
@@ -20380,7 +20425,7 @@ msgid ""
 "device. (To access file system locations outside the sandboxed storage, use "
 "other methods such as window.requestLocalFileSystemURL, which support "
 "platform-specific locations. For one example of this, see Append a File.)"
-msgstr " ``requestFileSystem`` を使用してファイルシステムへアクセスした場合、サンドボックス化されたファイルシステムへのアクセスのみ許可され ( サンドボックス化した場合、対象のアプリのみ、ストレージにアクセス可能 )、端末上の他のファイルシステムへのアクセスはできません。サンドボックス化されたストレージ以外のファイルへアクセスする場合には、window.requestLocalFileSystemURL などのメソッドを使用します ( 下の 「 ファイルへの追記 」 を参照のこと )。"
+msgstr "``requestFileSystem`` を使用してファイルシステムへアクセスした場合、サンドボックス化されたファイルシステムへのアクセスのみ許可され ( サンドボックス化した場合、対象のアプリのみ、ストレージにアクセス可能 )、端末上の他のファイルシステムへのアクセスはできません。サンドボックス化されたストレージ以外へアクセスする場合には、window.requestLocalFileSystemURL などのメソッドを使用します ( 参考として、下の 「 ファイルへの追記 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:646
 msgid "Here is a request for persistent storage."
@@ -20399,7 +20444,7 @@ msgid ""
 "return a DirectoryEntry object, which you can use to create or get a file "
 "(by calling ``getFile``). In this example, ``fs.root`` is a DirectoryEntry "
 "object that represents the persistent storage in the sandboxed file system."
-msgstr "成功時のコールバックには、FileSystem オブジェクト ( fs ) が渡されます。DirectoryEntry オブジェクトを返すように指定する場合には、``fs.root`` を使用します。また、``fs.root`` は、ファイルの作成・取得時にも使用できます ( ``getFile`` を実行 )。ここでは、``fs.root`` は、DirectoryEntry オブジェクトであり、サンドボックス化されたファイルシステム内に作成された、永続的なストレージを指します。"
+msgstr "成功時のコールバックには、FileSystem オブジェクト ( fs ) が渡されます。DirectoryEntry オブジェクトを返すように指定する場合には、``fs.root`` を使用します。また、``fs.root`` は、ファイルの作成/取得時にも使用できます ( ``getFile`` を実行 )。ここでは、``fs.root`` は、DirectoryEntry オブジェクトであり、同時に、サンドボックス化されたファイルシステム内に作成された、永続的なストレージへのリファレンスとなります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:670
 msgid ""
@@ -20409,7 +20454,7 @@ msgstr "``getFile`` の成功時のコールバックには、FileEntry オブ�
 
 #: ../doc/reference/cordova_6.2/file/index.rst:675
 msgid "Create a temporary file"
-msgstr "一時的なファイルの作成"
+msgstr "一時的に使用するファイルの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:677
 msgid ""
@@ -20422,7 +20467,7 @@ msgid ""
 "When you are using temporary storage, you can create or get the file by "
 "calling ``getFile``. As in the persistent storage example, this will give "
 "you a FileEntry object that you can use for read or write operations."
-msgstr "一時的なストレージを使用する場合、``getFile`` を実行して、ファイルの作成・取得を行えます。永続的なストレージと同様、このメソッドを使用して、FileEntry オブジェクトの取得をします。取得後は、ファイルの読み込み・ファイルへの書き込みを行えます。"
+msgstr "一時的なストレージを使用する場合、``getFile`` を実行して、ファイルの作成/取得を行えます。永続的なストレージと同様、このメソッドを使用して、FileEntry オブジェクトの作成/取得を行えます。作成/取得後は、ファイルの読み込み・ファイルへの書き込みを行えます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:705
 msgid "Write to a file"
@@ -20433,7 +20478,7 @@ msgid ""
 "Once you have a FileEntry object, you can write to the file by calling "
 "``createWriter``, which returns a FileWriter object in the success callback."
 " Call the ``write`` method of FileWriter to write to the file."
-msgstr "FileEntry オブジェクトの取得後は、``createWriter`` を実行して、ファイルへの書き込みを行います。このメソッドの成功時のコールバックに、FileWriter オブジェクトが返されるので、FileWriter の ``write`` メソッドを実行して、ファイルへの書き込みを行います。"
+msgstr "FileEntry オブジェクトの作成/取得後は、``createWriter`` を実行して、ファイルへの書き込みを行います。このメソッドの成功時のコールバックに、FileWriter オブジェクトが渡されるので、FileWriter の ``write`` メソッドを実行して、ファイルへの書き込みを行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:737
 msgid "Read a file"
@@ -20446,11 +20491,11 @@ msgid ""
 "FileReader object. You can use methods like ``readAsText`` to start the read"
 " operation. When the read operation is complete, ``this.result`` stores the "
 "result of the read operation."
-msgstr "FileEntry オブジェクトは、既存ファイルの読み込み時にも使用します。最初に、FileEntry の file プロパティー を使用して、ファイルへのリファレンスを取得します。次に、FileReader オブジェクトを作成します。読み込み処理には、``readAsText`` などのメソッドを使用できます。読み込み処理の完了後、``this.result`` には、処理結果が保存されています。"
+msgstr "既存ファイルの読み込み時にも、FileEntry オブジェクトを使用します。最初に、FileEntry の file プロパティー を使用して、ファイルへのリファレンスを取得します。次に、FileReader オブジェクトを作成します。読み込み処理には、``readAsText`` などのメソッドを使用できます。読み込み処理の完了後、``this.result`` には、処理結果が保存されています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:761
 msgid "Append a file using alternative methods"
-msgstr "ファイルへの追記 ( ファイルシステムへのアクセス時には、上記とは異なるメソッドを使用 ) "
+msgstr "ファイルへの追記 ( ファイルシステムへのアクセス時には、上記とは異なるメソッドを使用してみます ) "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:763
 msgid ""
@@ -20470,7 +20515,7 @@ msgid ""
 " storage locations are platform-specific. You can also pass cross-platform "
 "file system locations to ``resolveLocalFileSystemURL`` using the ``cdvfile "
 "protocol``."
-msgstr "また、サンドボックス化されたファイルシステム以外の場所に置かれたファイルへアクセスする場合にも、``resolveLocalFileSystemURL`` を使用できます。詳細は、上記の 「 ファイルの保存場所 」 をご確認ください。多くの場合、ファイルの保存場所はプラットフォーム毎に異なります。また、``resolveLocalFileSystemURL`` へ渡す File URL には、``cdvfile プロトコル`` 形式も使用できます。"
+msgstr "また、サンドボックス化されたファイルシステム以外へアクセスする場合にも、``resolveLocalFileSystemURL`` を使用できます。詳細は、上記の 「 ファイルの保存場所 」 をご確認ください。多くの場合、ストレージの場所はプラットフォーム毎に異なります。また、``resolveLocalFileSystemURL`` へ渡す File URL には、``cdvfile プロトコル`` 形式も使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:775
 msgid ""
@@ -20478,7 +20523,7 @@ msgid ""
 "function that is called in the preceding code (see the preceding examples "
 "for the actual code). ``createFile`` calls ``writeFile``. In ``writeFile``, "
 "you check whether an append operation is requested."
-msgstr "追記処理における ``createFile`` 関数に関しても、先ほど解説した内容と異なる点はありません ( 「 一時的なファイルの作成 」 を参照のこと )。``createFile`` を実行し、次に、``writeFile`` を実行します。``writeFile`` では、追記処理であることを指定します。"
+msgstr "追記処理における ``createFile`` 関数に関しても、先ほど解説した内容と異なる点はありません ( 「 一時的に使用するファイルの作成 」 を参照のこと )。``createFile`` を実行し、次に、``writeFile`` を実行します。``writeFile`` では、追記処理であることを指定します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:777
 msgid ""
@@ -20486,7 +20531,7 @@ msgid ""
 " index value for the position where you want to write. In this example, you "
 "also test whether the file exists. After calling seek, then call the write "
 "method of FileWriter."
-msgstr "FileWriter オブジェクトの取得後、``seek`` メソッドを呼び出し、追記位置を指定しています。また、ここでは、ファイルが存在するかも確認しています。seek の処理完了後、FileWriter の write メソッドを実行します。"
+msgstr "FileWriter オブジェクトの取得後、``seek`` メソッドを呼び出し、追記位置を指定します。また、ここでは、ファイルが存在するかも確認しています。seek の処理完了後、FileWriter の write メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:810
 msgid "Store an existing binary file"
@@ -20508,7 +20553,7 @@ msgid ""
 "as before), the returned FileSystem object (fs) represents the cache in the "
 "sandboxed file system. Use ``fs.root`` to get the DirectoryEntry object that"
 " you need."
-msgstr "ファイルを取得する前に、``requestFileSystem`` を使用して、FileSystem へのリファレンスを取得します。以前と同じように、window.TEMPORARY を指定し、メソッドを実行します。実行後、返ってきた FileSystem オブジェクト ( fs ) には、サンドボックス化されたファイルシステム内のキャッシュへの情報が格納されています。次に、``fs.root`` を使用して、必要な DirectoryEntry オブジェクトを取得します。"
+msgstr "ファイルを取得する前に、``requestFileSystem`` を使用して、ファイルシステム ( FileSystem ) へのリファレンスを取得します。以前と同じように、window.TEMPORARY を指定し、メソッドを実行します。実行後、返ってきた FileSystem オブジェクト ( fs ) には、サンドボックス化されたファイルシステム内のキャッシュへの情報が格納されています。次に、``fs.root`` を使用して、必要な DirectoryEntry オブジェクトを取得します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:825
 msgid ""
@@ -20517,20 +20562,20 @@ msgid ""
 "DirectoryEntry reference that you already obtained as an argument to the "
 "saveFile function. You will save the blob image and display it later after "
 "reading the file (to validate the operation)."
-msgstr "getSampleFile 内の処理を記述します。ここでは、Blob 形式の画像を取得します。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blog 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
+msgstr "getSampleFile 内の処理を記述します。ここでは、XHR リクエストを使用して、Blob 形式の画像を取得しています。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blog 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:847
 msgid ""
 "For Cordova 5 security, the preceding code requires that you add the domain "
 "name, http://cordova.apache.org, to the Content-Security-Policy element in "
 "index.html."
-msgstr "Cordova 5 以降、セキュリティー上の理由により、次のコードの実行には、Content-Security-Policy のドメイン名に、http://cordova.apache.org を設定する必要があります ( index.html 内 )。"
+msgstr "Cordova 5 以降、セキュリティー上の理由により、次のコードの実行には、Content-Security-Policy 要素内で、http://cordova.apache.org を設定する必要があります ( index.html 内 )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:849
 msgid ""
 "After getting the file, copy the contents to a new file. The current "
 "DirectoryEntry object is already associated with the app cache."
-msgstr "ファイルの取得後、新規作成したファイルへコンテンツをコピーします。DirectoryEntry オブジェクトは、キャッシュ先にすでに紐づけされています。"
+msgstr "ファイルの取得後、新規作成したファイルへコンテンツをコピーします。下の DirectoryEntry オブジェクトは、キャッシュ先にすでに紐づけされています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:862
 msgid ""
@@ -20542,13 +20587,13 @@ msgstr "writeFile では、引数として、Blob オブジェクト ( dataObj )
 msgid ""
 "After writing to the file, read it and display it. You saved the image as "
 "binary data, so you can read it using FileReader.readAsArrayBuffer."
-msgstr "ファイルへの書き込み終了後、ファイルの読み込みと表示をします。バイナリー形式のデータとして画像を保存しているので、FileReader.readAsArrayBuffer を使用して、データを読み込めます。"
+msgstr "ファイルへの書き込み終了後、ファイルの読み込みと表示をします。バイナリー形式のデータとして画像を保存しているので、FileReader.readAsArrayBuffer を使用して、データを読み込みます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:912
 msgid ""
 "After reading the data, you can display the image using code like this. Use "
 "window.URL.createObjectURL to get a DOM string for the Blob image."
-msgstr "データの読み込み後、次のようなコードを使用すれば、画像を表示できます。表示用の画像 ( Blob 形式 ) を取得する場合には、window.URL.createObjectURL を使用します。"
+msgstr "データの読み込み後、次のようなコードを使用すれば、画像を表示できます。Blob 形式の画像 ( 表示用 ) を取得するため、window.URL.createObjectURL を使用します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:927
 msgid "Display an image file"
@@ -20579,13 +20624,13 @@ msgid ""
 "is, any DirectoryEntry). Here, you write to the application cache (assuming "
 "that you used window.TEMPORARY to get your FileSystem object) by passing "
 "fs.root into this function."
-msgstr "ここでは、ストレージのルートに、ディレクトリーを作成します。書き込み可能なストレージ ( DirectoryEntry ) であれば、次のコードを使用できます。ここでは、createDirectory に fs.root を渡して、アプリのキャッシュ用ディレクトリーを使用します ( FileSystem オブジェクトの取得時に、window.TEMPORARY に設定したことを前提とします )。"
+msgstr "ここでは、ストレージのルートに、ディレクトリーを作成します。書き込み可能なストレージ ( DirectoryEntry ) であれば、次のコードを使用できます。ここでは、createDirectory に fs.root を渡して、アプリのキャッシュ用ディレクトリーを使用します ( FileSystem オブジェクトの取得時、window.TEMPORARY を設定したことを前提とします )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:951
 msgid ""
 "This code creates the /NewDirInRoot/images folder in the application cache. "
 "For platform-specific values, look at ``File System Layouts``."
-msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー内に /NewDirInRoot/images フォルダーを作成します。各プラットフォームのファイルシステムの詳細は、上記の 「 ``ファイルシステムの概要`` 」 をご確認ください。"
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー内に /NewDirInRoot/images フォルダーを作成しています。各プラットフォームのファイルシステムの詳細は、上記の 「 ``ファイルシステムの概要`` 」 をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:965
 msgid ""

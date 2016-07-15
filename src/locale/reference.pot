@@ -1192,7 +1192,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:266
 #: ../doc/reference/cordova_6.2/device/index.rst:362
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:650
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:642
 #: ../doc/reference/cordova_6.2/file/index.rst:970
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:326
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1008
@@ -3117,9 +3117,9 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:164
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:244
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:300
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:130
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:256
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:301
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:122
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:248
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:114
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:174
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:238
@@ -3278,7 +3278,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:175
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:154
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:243
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:220
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:212
 #: ../doc/reference/cordova_6.2/file/index.rst:306
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:162
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:335
@@ -3455,8 +3455,8 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:253
 #: ../doc/reference/cordova_6.2/device/index.rst:63
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:83
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:199
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:326
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:257
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:269
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:301
@@ -4401,7 +4401,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/network-information/index.rst:80
 #: ../doc/reference/cordova_6.2/contacts/index.rst:559
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:258
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:349
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:341
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:308
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:453
 #: ../doc/reference/cordova_6.2/media/index.rst:109
@@ -6622,7 +6622,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:109
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:242
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:99
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:233
 msgid "**Parameters**:"
 msgstr ""
 
@@ -6636,7 +6636,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:72
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:102
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:113
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:102
 msgid "**server**: URL of the server to receive the file, as encoded by ``encodeURI()``."
 msgstr ""
 
@@ -6651,47 +6651,43 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:82
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:128
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:137
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:127
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
 msgid "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to ``true``, it accepts all security certificates. This is useful since Android rejects self-signed security certificates. Not recommended for production use. Supported on Android and iOS. *(boolean)*"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:88
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:112
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:106
 msgid "**options**: Optional parameters *(Object)*. Valid keys:"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:89
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:113
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:123
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid "**fileKey**: The name of the form element. Defaults to ``file``. (DOMString)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:91
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:115
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:125
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid "**fileName**: The file name to use when saving the file on the server. Defaults to ``image.jpg``. (DOMString)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:93
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:119
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:129
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:119
 msgid "**mimeType**: The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:95
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:121
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:131
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:121
 msgid "**params**: A set of optional key/value pairs to pass in the HTTP request. (Object)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:97
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:123
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:133
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:123
 msgid "**chunkedMode**: Whether to upload the data in chunked streaming mode. Defaults to ``true``. (Boolean)"
 msgstr ""
 
@@ -6713,14 +6709,14 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:173
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:207
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:212
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:202
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:194
 msgid "FileUploadResult"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:175
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:209
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:214
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:204
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:196
 msgid "A ``FileUploadResult`` object is passed to the success callback of the ``FileTransfer`` object's ``upload()`` method."
 msgstr ""
 
@@ -6732,70 +6728,70 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:180
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:215
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:219
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:201
 msgid "**bytesSent**: The number of bytes sent to the server as part of the upload. (long)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:183
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:218
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:221
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:211
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:203
 msgid "**responseCode**: The HTTP response code returned by the server. (long)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:186
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:221
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:223
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:213
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:205
 msgid "**response**: The HTTP response returned by the server. (DOMString)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:188
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:223
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:225
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:215
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
 msgid "**headers**: The HTTP response headers by the server. (Object)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:189
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:224
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:217
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
 msgid "Currently supported on iOS only."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:194
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:229
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:222
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:214
 msgid "Does not support ``responseCode`` or ``bytesSent``."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:197
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:232
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:240
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:231
 msgid "download"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:201
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:236
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:244
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:235
 msgid "**source**: URL of the server to download the file, as encoded by ``encodeURI()``."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:204
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:239
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:246
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:237
 msgid "**target**: Filesystem url representing the file on the device. For backwards compatibility, this can also be the full path of the file on the device. (See `Backwards Compatibility Notes <#backwards-compatibility-notes>`__ below)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:209
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:244
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:248
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:247
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
 msgid "**successCallback**: A callback that is passed a ``FileEntry`` object. *(Function)*"
 msgstr ""
 
@@ -6806,70 +6802,70 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:216
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:251
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:252
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:251
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
 msgid "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to ``true``, it accepts all security certificates. This is useful because Android rejects self-signed security certificates. Not recommended for production use. Supported on Android and iOS. *(boolean)*"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:222
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:257
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:254
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:253
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
 msgid "**options**: Optional parameters, currently only supports headers (such as Authorization (Basic Authentication), etc)."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:255
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:291
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:297
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:296
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
 msgid "abort"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:257
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:293
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:299
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:298
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:290
 msgid "Aborts an in-progress transfer. The onerror callback is passed a FileTransferError object which has an error code of FileTransferError.ABORT\\_ERR."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:289
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:326
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:330
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:329
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:321
 msgid "FileTransferError"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:291
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:328
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:332
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:331
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:323
 msgid "A ``FileTransferError`` object is passed to an error callback when an error occurs."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:296
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:334
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:337
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:328
 msgid "**code**: One of the predefined error codes listed below. (Number)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:298
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:336
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:339
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:330
 msgid "**source**: URL to the source. (String)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:300
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:338
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:341
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:340
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:332
 msgid "**target**: URL to the target. (String)"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:302
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:340
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:342
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
 msgid "**http\\_status**: HTTP status code. This attribute is only available when a response code is received from the HTTP connection. (Number)"
 msgstr ""
 
@@ -6896,35 +6892,35 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:313
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:354
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:359
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:363
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
 msgid "Backwards Compatibility Notes"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:315
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:356
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:361
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:365
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:357
 msgid "Previous versions of this plugin would only accept device-absolute-file-paths as the source for uploads, or as the target for downloads. These paths would typically be of the form"
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:324
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:365
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:368
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:372
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:364
 msgid "For backwards compatibility, these paths are still accepted, and if your application has recorded paths like these in persistent storage, then they can continue to be used."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:328
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:369
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:370
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:374
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:366
 msgid "These paths were previously exposed in the ``fullPath`` property of ``FileEntry`` and ``DirectoryEntry`` objects returned by the File plugin. New versions of the File plugin, however, no longer expose these paths to JavaScript."
 msgstr ""
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:333
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:374
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:372
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:368
 msgid "If you are upgrading to a new (1.0.0 or newer) version of File, and you have previously been using ``entry.fullPath`` as arguments to ``download()`` or ``upload()``, then you will need to change your code to use filesystem URLs instead."
 msgstr ""
 
@@ -6936,7 +6932,7 @@ msgstr ""
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:345
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:386
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:380
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
 msgid "which can be used in place of the absolute file path in both ``download()`` and ``upload()`` methods."
 msgstr ""
 
@@ -7116,6 +7112,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/file/index.rst:129
 #: ../doc/reference/cordova_4.1/file/index.rst:148
+#: ../doc/reference/cordova_6.2/file/index.rst:124
 msgid "Although technically an implementation detail, it can be very useful to know how the ``cordova.file.*`` properties map to physical paths on a real device."
 msgstr ""
 
@@ -7143,6 +7140,11 @@ msgstr ""
 #: ../doc/reference/cordova_4.1/file/index.rst:158
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 #: ../doc/reference/cordova_4.1/file/index.rst:231
+#: ../doc/reference/cordova_6.2/file/index.rst:132
+#: ../doc/reference/cordova_6.2/file/index.rst:167
+#: ../doc/reference/cordova_6.2/file/index.rst:200
+#: ../doc/reference/cordova_6.2/file/index.rst:223
+#: ../doc/reference/cordova_6.2/file/index.rst:254
 msgid "``cordova.file.*``"
 msgstr ""
 
@@ -7854,6 +7856,7 @@ msgstr ""
 
 #: ../doc/reference/cordova_3.5/file/index.rst:199
 #: ../doc/reference/cordova_4.1/file/index.rst:225
+#: ../doc/reference/cordova_6.2/file/index.rst:192
 msgid "**Note**: If external storage can't be mounted, the ``cordova.file.external*`` properties are ``null``."
 msgstr ""
 
@@ -12049,8 +12052,8 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/camera/index.rst:520
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:120
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:149
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:291
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:219
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:283
 #: ../doc/reference/cordova_6.2/file/index.rst:349
 #: ../doc/reference/cordova_6.2/globalization/index.rst:141
 #: ../doc/reference/cordova_6.2/globalization/index.rst:201
@@ -12321,67 +12324,66 @@ msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:105
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:115
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
 msgid "**successCallback**: A callback that is passed a ``FileUploadResult`` object. *(Function)*"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:108
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:117
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:107
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:104
 msgid "**errorCallback**: A callback that executes if an error occurs retrieving the ``FileUploadResult``. Invoked with a ``FileTransferError`` object. *(Function)*"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:117
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:127
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid "**httpMethod**: The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. (DOMString)"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:169
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:174
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:164
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:156
 msgid "Example with Upload Headers and Progress Events (Android and iOS only)"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:247
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:250
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:249
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
 msgid "**errorCallback**: A callback that executes if an error occurs when retrieving the ``FileEntry``. Invoked with a ``FileTransferError`` object. *(Function)*"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:342
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:347
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
 msgid "**exception**: Either e.getMessage or e.toString (String)"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:347
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:352
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:351
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:343
 msgid "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:348
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:353
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
 msgid "2 = ``FileTransferError.INVALID_URL_ERR``"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:349
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:354
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:353
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:345
 msgid "3 = ``FileTransferError.CONNECTION_ERR``"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:350
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:355
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:354
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
 msgid "4 = ``FileTransferError.ABORT_ERR``"
 msgstr ""
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:351
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:356
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:347
 msgid "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 msgstr ""
 
@@ -13296,8 +13298,8 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/contacts/index.rst:837
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:204
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:279
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:358
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:350
 #: ../doc/reference/cordova_6.2/globalization/index.rst:136
 #: ../doc/reference/cordova_6.2/globalization/index.rst:196
 #: ../doc/reference/cordova_6.2/globalization/index.rst:274
@@ -13366,7 +13368,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:268
 #: ../doc/reference/cordova_6.2/device/index.rst:364
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:652
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:644
 #: ../doc/reference/cordova_6.2/file/index.rst:972
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:328
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1010
@@ -13418,7 +13420,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:269
 #: ../doc/reference/cordova_6.2/device/index.rst:365
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:346
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:653
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:645
 #: ../doc/reference/cordova_6.2/file/index.rst:973
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:329
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1011
@@ -15066,44 +15068,41 @@ msgid "The ``FileTransfer`` object provides a way to upload files using an HTTP 
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:119
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:109
 msgid "**options**: Optional parameters *(Object)*."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:121
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "Valid keys:"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:135
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:125
 msgid "**headers**: A map of header name/header values. Use an array to specify more than one value. On iOS, FireOS, and Android, if a header named Content-Type is present, multipart form data will NOT be used. (Object)"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:237
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:294
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:229
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:221
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:285
 msgid "**withCredentials**: *boolean* that tells the browser to set the withCredentials flag on the XMLHttpRequest"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:287
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:286
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:278
 msgid "WP8 Quirks"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:289
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:280
 msgid "Download requests is being cached by native implementation. To avoid caching, pass ``if-Modified-Since`` header to download method."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
 msgid "**body** Response body. This attribute is only available when a response is received from the HTTP connection. (String)"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:374
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:378
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:370
 msgid "``FileEntry.toURL()`` and ``DirectoryEntry.toURL()`` return a filesystem ofURL of the form"
 msgstr ""
 
@@ -17010,116 +17009,160 @@ msgstr ""
 msgid "This plugin defines global ``FileTransfer``, ``FileUploadOptions`` Constructors. Although in the global scope, they are not available until after the ``deviceready`` event."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "**fileKey**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "The name of the form element. Defaults to ``file``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid "**fileName**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid "The file name to use when saving the file on the server. Defaults to ``image.jpg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid "**httpMethod**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid "The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid "**mimeType**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid "The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid "**params**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid "A set of optional key/value pairs to pass in the HTTP request. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid "**chunkedMode**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid "Whether to upload the data in chunked streaming mode. Defaults to ``true``. (Boolean)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid "**headers**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid "A map of header name/header values. Use an array to specify more than one value. On iOS, FireOS, and Android, if a header named Content-Type is present, multipart form data will NOT be used. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:216
 msgid "Does not support uploads of an empty file with *chunkedMode=true* and ``multipartMode=false``."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:234
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:226
 msgid "An option parameter with empty/null value is excluded in the upload operation due to the Windows API design."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:236
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:228
 msgid "*chunkedMode* is not supported and all uploads are set to non-chunked mode."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:360
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
 msgid "The plugin implementation is based on `BackgroundDownloader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounddownloader.aspx>`_/`BackgroundUploader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounduploader.aspx>`_, which entails the latency issues on Windows devices (creation/starting of an operation can take up to a few seconds). You can use XHR or `HttpClient <https://msdn.microsoft.com/en-us/library/windows/apps/windows.web.http.httpclient.aspx>`_ as a quicker alternative for small downloads."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:379
 msgid "Sample: Download and Upload Files"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:381
 msgid "Use the File-Transfer plugin to upload and download files. In these examples, we demonstrate several tasks like:"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:383
 msgid ":ref:`Downloading a binary file to the application cache <binary_file>`"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
 msgid ":ref:`Uploading a file created in your application's root <upload_created_file>`"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:393
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:385
 msgid ":ref:`Downloading the uploaded file <download_uploaded_file>`"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:398
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:390
 msgid "Download a Binary File to the application cache"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:400
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
 msgid "Use the File plugin with the File-Transfer plugin to provide a target for the files that you download (the target must be a FileEntry object). Before you download the file, create a DirectoryEntry object by using ``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success callback. Use the ``getFile`` method of DirectoryEntry to create the target file."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:420
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:412
 msgid "Note For persistent storage, pass LocalFileSystem.PERSISTENT to requestFileSystem."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:422
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:414
 msgid "When you have the FileEntry object, ``download`` the file using the download method of the FileTransfer object. The 3rd argument to the ``download`` function of FileTransfer is the success callback, which you can use to call the app's ``readBinaryFile`` function. In this code example, the entry variable is a new FileEntry object that receives the result of the download operation."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:460
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:452
 msgid "If you just need to display the image, take the FileEntry to call its toURL() function."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:469
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:461
 msgid "Depending on your app requirements, you may want to read the file. To support operations with binary files, FileReader supports two methods, ``readAsBinaryString`` and ``readAsArrayBuffer``. In this example, use ``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you read the file successfully, construct a Blob object using the result of the read."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:491
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:483
 msgid "Once you read the file successfully, you can create a DOM URL string using ``createObjectURL``, and then display the image."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:505
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:497
 msgid "As you saw previously, you can call FileEntry.toURL() instead to just display the downloaded image (skip the file read)."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:502
 msgid "Upload a File"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:512
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:504
 msgid "When you upload a File using the File-Transfer plugin, use the File plugin to provide files for upload (again, they must be FileEntry objects). Before you can upload anything, create a file for upload using the ``getFile`` method of DirectoryEntry. In this example, create the file in the application's cache (fs.root). Then call the app's writeFile function so you have some content to upload."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:532
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:524
 msgid "In this example, create some simple content, and then call the app's upload function."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:557
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:549
 msgid "Forward the FileEntry object to the upload function. To perform the actual upload, use the upload function of the FileTransfer object."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:595
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:587
 msgid "Download the uploaded file"
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:597
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:589
 msgid "To download the image you just uploaded, you will need a valid URL that can handle the request, for example, http://some.server.com/download.php. Again, the success handler for the FileTransfer.download method receives a FileEntry object. The main difference here from previous examples is that we call FileReader.readAsText to read the result of the download operation, because we uploaded a file with text content."
 msgstr ""
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:628
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:620
 msgid "In the readFile function, call the ``readAsText`` method of the FileReader object."
 msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:29
 msgid "Tested Version: `4.2.0 <https://github.com/apache/cordova-plugin-file/releases/tag/4.2.0>`_"
-msgstr ""
-
-#: ../doc/reference/cordova_6.2/file/index.rst:124
-msgid "Although technically an implementation detail, it can be very useful to know how the ``cordova.file.\\*`` properties map to physical paths on a real device."
-msgstr ""
-
-#: ../doc/reference/cordova_6.2/file/index.rst:132
-#: ../doc/reference/cordova_6.2/file/index.rst:167
-#: ../doc/reference/cordova_6.2/file/index.rst:200
-#: ../doc/reference/cordova_6.2/file/index.rst:223
-#: ../doc/reference/cordova_6.2/file/index.rst:254
-msgid "``cordova.file.\\*``"
 msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:132
@@ -17232,10 +17275,6 @@ msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:190
 msgid "\\** The OS does not clear this directory automatically; you are responsible for managing the contents yourself. Should the user purge the cache manually, the contents of the directory are removed."
-msgstr ""
-
-#: ../doc/reference/cordova_6.2/file/index.rst:192
-msgid "**Note**: If external storage can't be mounted, the ``cordova.file.external\\*`` properties are ``null``."
 msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:202
