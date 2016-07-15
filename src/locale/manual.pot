@@ -485,7 +485,7 @@ msgstr ""
 #: ../doc/manual/deploy/google_play.rst:171
 #: ../doc/manual/deploy/non_market_deploy.rst:227
 #: ../doc/manual/development/monaca_cli/build_publish.rst:49
-#: ../doc/manual/development/monaca_cli/overview.rst:100
+#: ../doc/manual/development/monaca_cli/overview.rst:90
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:91
 #: ../doc/manual/development/monaca_ide/editor.rst:61
 #: ../doc/manual/development/monaca_ide/type_script.rst:313
@@ -3351,7 +3351,6 @@ msgid "If you would like to use images within your libraries, you can directly l
 msgstr ""
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:13
-#: ../doc/manual/development/monaca_cli/overview.rst:11
 #: ../doc/manual/development/monaca_ide/version_control.rst:9
 #: ../doc/manual/development/monaca_localkit/overview.rst:9
 msgid "Introduction"
@@ -4954,7 +4953,7 @@ msgid "For more information regarding the distribution of Monaca Apps for other 
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/build_publish.rst:51
-#: ../doc/manual/development/monaca_cli/overview.rst:102
+#: ../doc/manual/development/monaca_cli/overview.rst:92
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:93
 msgid ":doc:`../../../quick_start/cli/index`"
 msgstr ""
@@ -4970,13 +4969,13 @@ msgid ":doc:`overview`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/build_publish.rst:53
-#: ../doc/manual/development/monaca_cli/overview.rst:103
+#: ../doc/manual/development/monaca_cli/overview.rst:93
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:94
 msgid ":doc:`cli_commands`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/build_publish.rst:54
-#: ../doc/manual/development/monaca_cli/overview.rst:104
+#: ../doc/manual/development/monaca_cli/overview.rst:94
 #: ../doc/manual/development/monaca_localkit/build_publish.rst:57
 #: ../doc/manual/development/monaca_localkit/overview.rst:236
 #: ../doc/manual/development/monaca_localkit/troubleshooting.rst:70
@@ -5586,97 +5585,101 @@ msgstr ""
 msgid "Monaca CLI Overview"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:13
+#: ../doc/manual/development/monaca_cli/overview.rst:8
 msgid "Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:15
-msgid "create new local projects, import or clone existing projects in Monaca Cloud into your local PC"
+#: ../doc/manual/development/monaca_cli/overview.rst:10
+msgid "create new local projects, import or clone existing projects on Monaca Cloud into your local PC"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:16
+#: ../doc/manual/development/monaca_cli/overview.rst:11
 msgid "debug your app with inspector integration"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:17
+#: ../doc/manual/development/monaca_cli/overview.rst:12
+msgid "support transpiler options"
+msgstr ""
+
+#: ../doc/manual/development/monaca_cli/overview.rst:13
 msgid "remote build your projects without any setups locally."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:21
+#: ../doc/manual/development/monaca_cli/overview.rst:17
 msgid "Getting Started"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:26
+#: ../doc/manual/development/monaca_cli/overview.rst:22
 msgid "Step 1: Installation"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:28
+#: ../doc/manual/development/monaca_cli/overview.rst:24
 msgid "You are required to have `Node.js <https://nodejs.org/>`_ installed on your PC in order to use Monaca CLI. After that, you can install Monaca CLI using ``npm`` command."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:30
+#: ../doc/manual/development/monaca_cli/overview.rst:26
 msgid "Use the following command to install Monaca CLI:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:36
+#: ../doc/manual/development/monaca_cli/overview.rst:32
 msgid "On some systems you may have to prefix the command with sudo because of permissions:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:43
+#: ../doc/manual/development/monaca_cli/overview.rst:39
 msgid "In order to check the currently installed Monaca CLI's version, use ``monaca`` command. Moreover, if you want to update Monaca CLI, just re-install it using the above command."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:47
+#: ../doc/manual/development/monaca_cli/overview.rst:43
 msgid "Step 2: Creating a New Project and Run on Browser"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:49
+#: ../doc/manual/development/monaca_cli/overview.rst:45
 msgid "you can also :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:51
+#: ../doc/manual/development/monaca_cli/overview.rst:47
 msgid "Create a new project by using the command below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:57
+#: ../doc/manual/development/monaca_cli/overview.rst:53
 msgid "Choose a project template. Please see the example below:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:71
+#: ../doc/manual/development/monaca_cli/overview.rst:61
 msgid "Run on the browser."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:81
+#: ../doc/manual/development/monaca_cli/overview.rst:71
 msgid "Step 3: Connecting to Monaca Debugger"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:83
+#: ../doc/manual/development/monaca_cli/overview.rst:73
 msgid "Use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:89
+#: ../doc/manual/development/monaca_cli/overview.rst:79
 msgid "Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. This message will only be displayed if it's the first time you are connecting to the device. After this, your application should be running on your Monaca Debugger."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:91
+#: ../doc/manual/development/monaca_cli/overview.rst:81
 msgid "Before connecting Monaca Debugger to the local PC, please pay attention to the following points:"
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:93
+#: ../doc/manual/development/monaca_cli/overview.rst:83
 msgid "Monaca Debugger and the local PC have to connect to the same WiFi network."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:94
+#: ../doc/manual/development/monaca_cli/overview.rst:84
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:14
 msgid "Use the same Monaca account for either Monaca Debugger and the local PC."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:95
+#: ../doc/manual/development/monaca_cli/overview.rst:85
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:15
 msgid "Disable the local PC's firewall."
 msgstr ""
 
-#: ../doc/manual/development/monaca_cli/overview.rst:105
+#: ../doc/manual/development/monaca_cli/overview.rst:95
 #: ../doc/manual/development/monaca_cli/pairing_debugging.rst:96
 #: ../doc/manual/development/monaca_localkit/overview.rst:237
 #: ../doc/manual/development/monaca_localkit/pairing_debugging.rst:77

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-14 03:27+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-15 02:21+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -195,7 +195,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細は、`こちら <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -532,7 +532,7 @@ msgstr "スプラッシュ画面に使用している画像が適当か確認し
 msgid ""
 "There may be a description error in the :file:`MonacaApp-Info.plist` in case"
 " of iOS or :file:`AndroidManifest.xml` in case of Android."
-msgstr ":file:`MonacaApp-Info.plist` ( iOS の場合 )、または、:file:`AndroidManifest.xml` ( Android の場合 ) 内の記述が適当か確認してください。"
+msgstr ""
 
 #: ../doc/faq/build.rst:117
 msgid ""
