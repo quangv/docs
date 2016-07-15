@@ -7,6 +7,8 @@ Share Plugin (Android)
 
 Share plugin lets an app to share data with other apps like Gmail, DropBox, etc. 
 
+.. note:: This plugin is available only to Android platform.
+
     
 Enable Plugin in Monaca
 ===========================
@@ -17,9 +19,6 @@ Enable Plugin in Monaca
 
   .. image:: images/share/1.png  
          :width: 700px
-
-
-.. note:: It's available only to Android platform.
 
 Methods
 =====================

@@ -1,10 +1,8 @@
 .. _secure_storage_plugin:
 
 -----------------------------------------
-Monaca Secure Storage (Enterprise)
+Monaca Secure Storage
 -----------------------------------------
-
-.. rst-class:: right-menu
 
 
 This plugin provides an encrypted data storage function. If the application is uninstalled, saved data will also be deleted.

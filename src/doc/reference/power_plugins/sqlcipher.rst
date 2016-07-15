@@ -1,10 +1,8 @@
 .. _sqlcipher_plugin:
 
 -----------------------------------------
-SQLCipher Adapter (Enterprise)
+SQLCipher Adapter
 -----------------------------------------
-
-.. rst-class:: right-menu
 
 
 

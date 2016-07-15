@@ -1,10 +1,8 @@
 .. _html5_resource_encryption_plugin:
 
 ----------------------------------------------------------
-Monaca HTML5 Resource Encryption (Enterprise)
+Monaca HTML5 Resource Encryption
 ----------------------------------------------------------
-
-.. rst-class:: right-menu
 
 
 This plugin provides the encryption function for HTML5 assets bundled up with the built app in Monaca and the decoding function for application execution time.

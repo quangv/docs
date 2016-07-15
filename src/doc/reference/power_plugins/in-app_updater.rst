@@ -1,10 +1,8 @@
 .. _inapp_updater_plugin:
 
 -------------------------------------------
-Monaca In-App Updater (Enterprise)
+Monaca In-App Updater
 -------------------------------------------
-
-.. rst-class:: right-menu
 
 
 This plugin updates HTML5 assets contained in the app without rebuilding and packaging the app. You need a Web server to host the updated files which will be accessed from the app.
