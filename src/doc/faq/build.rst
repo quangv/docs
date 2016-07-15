@@ -56,10 +56,14 @@ You can build an application just for iPhone by setting the target device family
 
 .. _faq03~007:
 
-Tell me how to upload to Apple App Store in order to submit the registration of the app that was built. 
+How to upload the built app for App Store submission?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To upload iOS apps to the App Store, use the software called *Application Loader* which runs on OSX only. Application Loader can be downloaded for free from the Apple website (iTunes Connect). This information is as of September 2012. 
+There are two ways to upload the built app to iTunes Connect for App Store submission:
+
+1. using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription plan <https://monaca.io/pricing.html>`_)
+2. using Application Loader software (Mac OS X only)
+
 
 .. _faq03~008:
 
@@ -113,7 +117,7 @@ The built application crashes right after starting up.
 The following points are the possibilities which could make the application crashes after starting up, please double-checked these points and rebuild your application.
     
 * An inappropriate image may have been assigned to the splash screen. 
-* There may be a description error in the :file:`MonacaSkeleton-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android.
+* There may be a description error in the :file:`MonacaApp-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android.
 * Please check in particular if there is an error in the specified permission, especially whether the required permission settings have been made. For example: even though  :file:`components/loader.js` file is loaded, "ACCESS_NETWORK_STATE" cannot be accessed or in the case that application uses *location information* but "ACCESS_COARSE_LOCATION" is not permitted and so on. 
 
 

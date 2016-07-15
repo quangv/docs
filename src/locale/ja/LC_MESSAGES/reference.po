@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-07 02:02+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-15 09:49+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,7 +339,7 @@ msgstr "文字列"
 #: ../doc/reference/cordova_6.2/camera/index.rst:369
 #: ../doc/reference/cordova_6.2/camera/index.rst:396
 #: ../doc/reference/cordova_6.2/camera/index.rst:411
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
 msgid "Default"
 msgstr "デフォルト値"
 
@@ -497,10 +497,10 @@ msgstr "``1.0.0``"
 #: ../doc/reference/monaca_api/cloud_management/push.rst:13
 #: ../doc/reference/monaca_api/cloud_management/user.rst:14
 #: ../doc/reference/monaca_api/utility-34.rst:11
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/power_plugins/in-app_updater.rst:72
+#: ../doc/reference/power_plugins/in-app_updater.rst:94
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:27
 msgid "Description"
 msgstr "解説"
 
@@ -1337,7 +1337,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:266
 #: ../doc/reference/cordova_6.2/device/index.rst:362
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:650
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:642
 #: ../doc/reference/cordova_6.2/file/index.rst:970
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:326
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1008
@@ -1362,14 +1362,14 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:240
 #: ../doc/reference/monaca_api/cloud_management/push.rst:134
 #: ../doc/reference/monaca_api/cloud_management/user.rst:212
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:31
-#: ../doc/reference/third_party_phonegap/datepicker.rst:184
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:65
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:191
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:95
-#: ../doc/reference/third_party_phonegap/share.rst:77
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:124
-#: ../doc/reference/third_party_phonegap/webintent.rst:70
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:63
+#: ../doc/reference/power_plugins/in-app_updater.rst:189
+#: ../doc/reference/power_plugins/secure_storage.rst:93
+#: ../doc/reference/power_plugins/sqlcipher.rst:125
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/datepicker.rst:174
+#: ../doc/reference/third_party_phonegap/share.rst:74
+#: ../doc/reference/third_party_phonegap/webintent.rst:77
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
@@ -1379,8 +1379,8 @@ msgid ":ref:`file_folder_configuration`"
 msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
-msgid ":ref:`MonacaSkeleton-Info.plist`"
-msgstr ":ref:`MonacaSkeleton-Info.plist`"
+msgid ":ref:`MonacaApp-Info.plist`"
+msgstr ":ref:`MonacaApp-Info.plist`"
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -2160,10 +2160,10 @@ msgstr "プラグイン ID"
 #: ../doc/reference/cordova_4.1/splashscreen/index.rst:51
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:51
 #: ../doc/reference/cordova_4.1/vibration/index.rst:50
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:12
-#: ../doc/reference/third_party_phonegap/datepicker.rst:23
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:42
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:31
+#: ../doc/reference/power_plugins/in-app_updater.rst:40
+#: ../doc/reference/power_plugins/secure_storage.rst:29
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:9
+#: ../doc/reference/third_party_phonegap/datepicker.rst:13
 #: ../doc/reference/third_party_phonegap/share.rst:14
 #: ../doc/reference/third_party_phonegap/webintent.rst:15
 msgid "Enable Plugin in Monaca"
@@ -2472,10 +2472,10 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:340
 #: ../doc/reference/cordova_6.2/vibration/index.rst:63
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:47
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:16
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:15
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:15
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:16
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:14
+#: ../doc/reference/power_plugins/in-app_updater.rst:13
+#: ../doc/reference/power_plugins/secure_storage.rst:13
+#: ../doc/reference/power_plugins/sqlcipher.rst:14
 msgid "Supported Platforms"
 msgstr "サポート対象のプラットフォーム"
 
@@ -2732,8 +2732,8 @@ msgstr "サポート対象のプラットフォーム"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:343
 #: ../doc/reference/cordova_6.2/vibration/index.rst:68
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:137
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:19
+#: ../doc/reference/power_plugins/in-app_updater.rst:135
+#: ../doc/reference/power_plugins/secure_storage.rst:17
 msgid "Android"
 msgstr "Android"
 
@@ -3029,8 +3029,8 @@ msgstr "Android"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:322
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:342
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:143
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:141
+#: ../doc/reference/power_plugins/secure_storage.rst:16
 msgid "iOS"
 msgstr "iOS"
 
@@ -3090,9 +3090,9 @@ msgstr "iOS"
 #: ../doc/reference/cordova_6.2/media/index.rst:120
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:185
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:100
-#: ../doc/reference/third_party_phonegap/datepicker.rst:34
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:27
+#: ../doc/reference/power_plugins/secure_storage.rst:41
+#: ../doc/reference/third_party_phonegap/datepicker.rst:24
+#: ../doc/reference/third_party_phonegap/share.rst:24
 msgid "Methods"
 msgstr "メソッド"
 
@@ -3354,9 +3354,9 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:164
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:244
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:300
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:130
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:256
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:301
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:122
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:248
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:114
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:174
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:238
@@ -3427,7 +3427,7 @@ msgstr "``accelerometerSuccess`` コールバック関数に、これらの加�
 #: ../doc/reference/monaca_api/utility-34.rst:41
 #: ../doc/reference/monaca_api/utility-34.rst:100
 #: ../doc/reference/monaca_api/utility-34.rst:123
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:92
+#: ../doc/reference/power_plugins/sqlcipher.rst:93
 msgid "Example"
 msgstr "例"
 
@@ -3515,7 +3515,7 @@ msgstr "例"
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:175
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:154
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:243
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:220
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:212
 #: ../doc/reference/cordova_6.2/file/index.rst:306
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:162
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:335
@@ -3719,8 +3719,8 @@ msgstr "特定の時間に取得した ``加速度センサー`` のデータが
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:253
 #: ../doc/reference/cordova_6.2/device/index.rst:63
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:83
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:199
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:326
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:257
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:269
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:301
@@ -3843,7 +3843,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.battery-
 msgid ""
 "This event fires when the percentage of battery charge changes by at least 1"
 " percent, or if the device is plugged in or unplugged."
-msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始または停止した場合、このイベントが発火します。"
+msgstr "バッテリー残量が変化した場合 ( 最小値 1 パーセント)、または、端末の充電を開始もしくは停止した場合、このイベントが発火します。"
 
 #: ../doc/reference/cordova_3.5/battery-status/index.rst:47
 #: ../doc/reference/cordova_4.1/battery-status/index.rst:65
@@ -4854,7 +4854,7 @@ msgstr "**code**: 次のエラーコードのいずれか"
 #: ../doc/reference/cordova_5.2/network-information/index.rst:80
 #: ../doc/reference/cordova_6.2/contacts/index.rst:559
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:258
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:349
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:341
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:308
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:453
 #: ../doc/reference/cordova_6.2/media/index.rst:109
@@ -7403,7 +7403,7 @@ msgstr "upload"
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:109
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:242
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:99
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:233
 msgid "**Parameters**:"
 msgstr "**パラメーター**:"
 
@@ -7421,7 +7421,7 @@ msgstr "**fileURL**: 端末上のファイルの位置を指し示す、ファ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:72
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:102
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:113
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:102
 msgid ""
 "**server**: URL of the server to receive the file, as encoded by "
 "``encodeURI()``."
@@ -7442,7 +7442,7 @@ msgstr "**errorCallback**: ``Metadata`` の取得時にエラーが発生した�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:82
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:128
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:137
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:127
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
 msgid ""
 "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to "
 "``true``, it accepts all security certificates. This is useful since Android"
@@ -7452,13 +7452,13 @@ msgstr "**trustAllHosts**: 任意のパラメーター。デフォルトは ``fa
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:88
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:112
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:106
 msgid "**options**: Optional parameters *(Object)*. Valid keys:"
 msgstr "**options**: 任意のパラメーター。使用できる key は、次のとおりです。 *(Object)* "
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:89
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:113
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:123
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid ""
 "**fileKey**: The name of the form element. Defaults to ``file``. (DOMString)"
 msgstr "**fileKey**: form 要素の name 属性。デフォルトは、``file`` です。 (DOMString)"
@@ -7466,7 +7466,6 @@ msgstr "**fileKey**: form 要素の name 属性。デフォルトは、``file`` 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:91
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:115
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:125
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid ""
 "**fileName**: The file name to use when saving the file on the server. "
 "Defaults to ``image.jpg``. (DOMString)"
@@ -7475,7 +7474,6 @@ msgstr "**fileName**: サーバーにファイルを保存するときに使用�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:93
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:119
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:129
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:119
 msgid ""
 "**mimeType**: The mime type of the data to upload. Defaults to "
 "``image/jpeg``. (DOMString)"
@@ -7484,7 +7482,6 @@ msgstr "**mimeType**: アップロードするデータの MIME タイプ。デ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:95
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:121
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:131
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:121
 msgid ""
 "**params**: A set of optional key/value pairs to pass in the HTTP request. "
 "(Object)"
@@ -7493,7 +7490,6 @@ msgstr "**params**: HTTP リクエスト内に任意で設定する key と valu
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:97
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:123
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:133
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:123
 msgid ""
 "**chunkedMode**: Whether to upload the data in chunked streaming mode. "
 "Defaults to ``true``. (Boolean)"
@@ -7520,14 +7516,14 @@ msgstr "アップロード時の Headers と ProgressEvent の使用例 ( Androi
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:173
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:207
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:212
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:202
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:194
 msgid "FileUploadResult"
 msgstr "FileUploadResult"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:175
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:209
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:214
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:204
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:196
 msgid ""
 "A ``FileUploadResult`` object is passed to the success callback of the "
 "``FileTransfer`` object's ``upload()`` method."
@@ -7541,7 +7537,7 @@ msgstr "**プロパティー**"
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:180
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:215
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:219
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:201
 msgid ""
 "**bytesSent**: The number of bytes sent to the server as part of the upload."
 " (long)"
@@ -7550,7 +7546,7 @@ msgstr "**bytesSent**: アップロード時に、サーバーに送られたバ
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:183
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:218
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:221
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:211
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:203
 msgid ""
 "**responseCode**: The HTTP response code returned by the server. (long)"
 msgstr "**responseCode**: サーバーから返ってきた HTTP レスポンスコード (long)"
@@ -7558,42 +7554,42 @@ msgstr "**responseCode**: サーバーから返ってきた HTTP レスポンス
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:186
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:221
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:223
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:213
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:205
 msgid "**response**: The HTTP response returned by the server. (DOMString)"
 msgstr "**response**: サーバーから返ってきた HTTP レスポンス (DOMString)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:188
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:223
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:225
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:215
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:207
 msgid "**headers**: The HTTP response headers by the server. (Object)"
 msgstr "**headers**: サーバーから返ってきた HTTP レスポンスのヘッダー (Object)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:189
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:224
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:217
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:209
 msgid "Currently supported on iOS only."
 msgstr "現時点では、iOS 上でのみ使用できます。"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:194
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:229
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:222
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:214
 msgid "Does not support ``responseCode`` or ``bytesSent``."
 msgstr "``responseCode`` または ``bytesSent`` は使用できません。"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:197
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:232
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:240
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:231
 msgid "download"
 msgstr "download"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:201
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:236
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:244
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:235
 msgid ""
 "**source**: URL of the server to download the file, as encoded by "
 "``encodeURI()``."
@@ -7602,7 +7598,7 @@ msgstr "**source**: ファイルのダウンロード元となるサーバーの
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:204
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:239
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:246
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:237
 msgid ""
 "**target**: Filesystem url representing the file on the device. For "
 "backwards compatibility, this can also be the full path of the file on the "
@@ -7613,7 +7609,7 @@ msgstr "**target**: 端末上のファイルの位置を指し示す、ファイ
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:209
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:244
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:248
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:247
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:239
 msgid ""
 "**successCallback**: A callback that is passed a ``FileEntry`` object. "
 "*(Function)*"
@@ -7629,7 +7625,7 @@ msgstr "**errorCallback**: ``Metadata`` の取得時にエラーが発生した�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:216
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:251
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:252
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:251
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:243
 msgid ""
 "**trustAllHosts**: Optional parameter, defaults to ``false``. If set to "
 "``true``, it accepts all security certificates. This is useful because "
@@ -7640,7 +7636,7 @@ msgstr "**trustAllHosts**: 任意のパラメーター。デフォルトは ``fa
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:222
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:257
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:254
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:253
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:245
 msgid ""
 "**options**: Optional parameters, currently only supports headers (such as "
 "Authorization (Basic Authentication), etc)."
@@ -7649,14 +7645,14 @@ msgstr "**options**: 任意のパラメーター。現時点では、headers の
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:255
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:291
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:297
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:296
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
 msgid "abort"
 msgstr "abort"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:257
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:293
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:299
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:298
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:290
 msgid ""
 "Aborts an in-progress transfer. The onerror callback is passed a "
 "FileTransferError object which has an error code of "
@@ -7666,14 +7662,14 @@ msgstr "実行中のファイルの送受信を中止します。 FileTransferEr
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:289
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:326
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:330
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:329
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:321
 msgid "FileTransferError"
 msgstr "FileTransferError"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:291
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:328
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:332
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:331
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:323
 msgid ""
 "A ``FileTransferError`` object is passed to an error callback when an error "
 "occurs."
@@ -7682,28 +7678,28 @@ msgstr "エラー発生時、``FileTransferError`` オブジェクトが失敗�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:296
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:334
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:337
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:328
 msgid "**code**: One of the predefined error codes listed below. (Number)"
 msgstr "**code**: 後述のエラーコードのいずれか (Number)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:298
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:336
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:339
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:330
 msgid "**source**: URL to the source. (String)"
 msgstr "**source**: ソースへの URL (String)\n\n [ 翻訳者メモ : このプロパティーには、アップロード時には端末上のファイルの保存場所、ダウンロード時にはダウンロード元の URL が格納されるようです。]"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:300
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:338
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:341
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:340
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:332
 msgid "**target**: URL to the target. (String)"
 msgstr "**target**: ターゲットへの URL (String) \n\n[ 翻訳者メモ : このプロパティーには、アップロード時にはアップロード先の URL、ダウンロード時には端末上のファイルの保存場所が格納されるようです。 ]"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:302
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:340
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:343
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:342
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:334
 msgid ""
 "**http\\_status**: HTTP status code. This attribute is only available when a"
 " response code is received from the HTTP connection. (Number)"
@@ -7732,14 +7728,14 @@ msgstr "``FileTransferError.ABORT_ERR``"
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:313
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:354
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:359
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:363
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
 msgid "Backwards Compatibility Notes"
 msgstr "後方互換性に関するメモ書き"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:315
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:356
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:361
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:365
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:357
 msgid ""
 "Previous versions of this plugin would only accept device-absolute-file-"
 "paths as the source for uploads, or as the target for downloads. These paths"
@@ -7749,7 +7745,7 @@ msgstr "このプラグインの以前のバージョンでは、アップロー
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:324
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:365
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:368
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:372
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:364
 msgid ""
 "For backwards compatibility, these paths are still accepted, and if your "
 "application has recorded paths like these in persistent storage, then they "
@@ -7759,7 +7755,7 @@ msgstr "後方互換性を考慮して、これらの形式のパスは今でも
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:328
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:369
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:370
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:374
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:366
 msgid ""
 "These paths were previously exposed in the ``fullPath`` property of "
 "``FileEntry`` and ``DirectoryEntry`` objects returned by the File plugin. "
@@ -7770,7 +7766,7 @@ msgstr "以前は、これらのパスは、ファイル操作プラグイン ( 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:333
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:374
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:372
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:368
 msgid ""
 "If you are upgrading to a new (1.0.0 or newer) version of File, and you have"
 " previously been using ``entry.fullPath`` as arguments to ``download()`` or "
@@ -7788,7 +7784,7 @@ msgstr "``FileEntry.toURL()`` と ``DirectoryEntry.toURL()`` では、ファイ�
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:345
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:386
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:380
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:376
 msgid ""
 "which can be used in place of the absolute file path in both ``download()`` "
 "and ``upload()`` methods."
@@ -8014,6 +8010,7 @@ msgstr "ファイルシステムの概要"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:129
 #: ../doc/reference/cordova_4.1/file/index.rst:148
+#: ../doc/reference/cordova_6.2/file/index.rst:124
 msgid ""
 "Although technically an implementation detail, it can be very useful to know"
 " how the ``cordova.file.*`` properties map to physical paths on a real "
@@ -8044,6 +8041,11 @@ msgstr "端末上のパス"
 #: ../doc/reference/cordova_4.1/file/index.rst:158
 #: ../doc/reference/cordova_4.1/file/index.rst:200
 #: ../doc/reference/cordova_4.1/file/index.rst:231
+#: ../doc/reference/cordova_6.2/file/index.rst:132
+#: ../doc/reference/cordova_6.2/file/index.rst:167
+#: ../doc/reference/cordova_6.2/file/index.rst:200
+#: ../doc/reference/cordova_6.2/file/index.rst:223
+#: ../doc/reference/cordova_6.2/file/index.rst:254
 msgid "``cordova.file.*``"
 msgstr "``cordova.file.*``"
 
@@ -8645,7 +8647,7 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、このディレクトリーに置かれたファイルに影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、アプリ側で、このディレクトリーのファイルを、任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
+msgstr "\\*\\* アプリの再起動時でも、ごくまれな例外を除き、このディレクトリーに置かれたファイルには影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、このディレクトリーのファイルは、アプリ側の任意のタイミングで削除できるようにしましょう。デフォルトのままだと、削除のタイミング、または、削除するか否かの決定は、OS 側で行われます。 "
 
 #: ../doc/reference/cordova_3.5/file/index.rst:166
 #: ../doc/reference/cordova_4.1/file/index.rst:190
@@ -8772,6 +8774,7 @@ msgstr "\\**\\ このディレクトリーのコンテンツの削除は、OS �
 
 #: ../doc/reference/cordova_3.5/file/index.rst:199
 #: ../doc/reference/cordova_4.1/file/index.rst:225
+#: ../doc/reference/cordova_6.2/file/index.rst:192
 msgid ""
 "**Note**: If external storage can't be mounted, the "
 "``cordova.file.external*`` properties are ``null``."
@@ -13789,8 +13792,8 @@ msgstr "このプラグインを使用するには :ref:``org.apache.cordova.dev
 #: ../doc/reference/cordova_6.2/camera/index.rst:520
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:120
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:149
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:227
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:291
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:219
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:283
 #: ../doc/reference/cordova_6.2/file/index.rst:349
 #: ../doc/reference/cordova_6.2/globalization/index.rst:141
 #: ../doc/reference/cordova_6.2/globalization/index.rst:201
@@ -14123,7 +14126,7 @@ msgstr "グローバルスコープに属していますが、使用できるの
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:105
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:115
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:105
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:103
 msgid ""
 "**successCallback**: A callback that is passed a ``FileUploadResult`` "
 "object. *(Function)*"
@@ -14131,7 +14134,7 @@ msgstr "**successCallback**: ``FileUploadResult`` オブジェクトを渡して
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:108
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:117
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:107
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:104
 msgid ""
 "**errorCallback**: A callback that executes if an error occurs retrieving "
 "the ``FileUploadResult``. Invoked with a ``FileTransferError`` object. "
@@ -14140,7 +14143,6 @@ msgstr "**errorCallback**: ``FileUploadResult`` を取得するときにエラ�
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:117
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:127
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid ""
 "**httpMethod**: The HTTP method to use - either ``PUT`` or ``POST``. "
 "Defaults to ``POST``. (DOMString)"
@@ -14148,13 +14150,13 @@ msgstr "**httpMethod**: 使用する、HTTP の method 属性。``PUT`` また�
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:169
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:174
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:164
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:156
 msgid "Example with Upload Headers and Progress Events (Android and iOS only)"
 msgstr "アップロード時の Headers と ProgressEvent の使用例 ( Android と iOS 専用 )"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:247
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:250
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:249
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:241
 msgid ""
 "**errorCallback**: A callback that executes if an error occurs when "
 "retrieving the ``FileEntry``. Invoked with a ``FileTransferError`` object. "
@@ -14163,37 +14165,37 @@ msgstr "**errorCallback**: ``FileEntry`` の取得時にエラーが発生した
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:342
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:347
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:338
 msgid "**exception**: Either e.getMessage or e.toString (String)"
 msgstr "**exception**: e.getMessage または e.toString のいずれか (String)"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:347
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:352
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:351
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:343
 msgid "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 msgstr "1 = ``FileTransferError.FILE_NOT_FOUND_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:348
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:353
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
 msgid "2 = ``FileTransferError.INVALID_URL_ERR``"
 msgstr "2 = ``FileTransferError.INVALID_URL_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:349
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:354
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:353
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:345
 msgid "3 = ``FileTransferError.CONNECTION_ERR``"
 msgstr "3 = ``FileTransferError.CONNECTION_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:350
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:355
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:354
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:346
 msgid "4 = ``FileTransferError.ABORT_ERR``"
 msgstr "4 = ``FileTransferError.ABORT_ERR``"
 
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:351
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:356
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:355
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:347
 msgid "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 msgstr "5 = ``FileTransferError.NOT_MODIFIED_ERR``"
 
@@ -15322,8 +15324,8 @@ msgstr "Windows Phone 7 では、バッテリー残量の確認に使用でき�
 #: ../doc/reference/cordova_6.2/contacts/index.rst:837
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:204
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:279
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:232
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:358
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:350
 #: ../doc/reference/cordova_6.2/globalization/index.rst:136
 #: ../doc/reference/cordova_6.2/globalization/index.rst:196
 #: ../doc/reference/cordova_6.2/globalization/index.rst:274
@@ -15398,7 +15400,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:268
 #: ../doc/reference/cordova_6.2/device/index.rst:364
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:652
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:644
 #: ../doc/reference/cordova_6.2/file/index.rst:972
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:328
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1010
@@ -15410,14 +15412,14 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:354
 #: ../doc/reference/cordova_6.2/vibration/index.rst:268
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:247
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:33
-#: ../doc/reference/third_party_phonegap/datepicker.rst:186
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:67
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:193
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:97
-#: ../doc/reference/third_party_phonegap/share.rst:79
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:126
-#: ../doc/reference/third_party_phonegap/webintent.rst:72
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:65
+#: ../doc/reference/power_plugins/in-app_updater.rst:191
+#: ../doc/reference/power_plugins/secure_storage.rst:95
+#: ../doc/reference/power_plugins/sqlcipher.rst:127
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/datepicker.rst:176
+#: ../doc/reference/third_party_phonegap/share.rst:76
+#: ../doc/reference/third_party_phonegap/webintent.rst:79
 msgid ":ref:`third_party_cordova_index`"
 msgstr ":ref:`third_party_cordova_index`"
 
@@ -15450,7 +15452,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:269
 #: ../doc/reference/cordova_6.2/device/index.rst:365
 #: ../doc/reference/cordova_6.2/dialogs/index.rst:346
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:653
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:645
 #: ../doc/reference/cordova_6.2/file/index.rst:973
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:329
 #: ../doc/reference/cordova_6.2/globalization/index.rst:1011
@@ -15462,13 +15464,13 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:355
 #: ../doc/reference/cordova_6.2/vibration/index.rst:269
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:248
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:34
-#: ../doc/reference/third_party_phonegap/datepicker.rst:187
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:68
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:194
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:98
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:127
-#: ../doc/reference/third_party_phonegap/webintent.rst:73
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:66
+#: ../doc/reference/power_plugins/in-app_updater.rst:192
+#: ../doc/reference/power_plugins/secure_storage.rst:96
+#: ../doc/reference/power_plugins/sqlcipher.rst:128
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/datepicker.rst:177
+#: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
 msgstr ":ref:`cordova_core_plugins`"
 
@@ -17330,17 +17332,14 @@ msgid ""
 msgstr "``FileTransfer`` オブジェクトを使用して、ファイルのアップロード ( HTTP MultiPart POST/PUT リクエストを使用 ) とダウンロードを行います。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:119
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:109
 msgid "**options**: Optional parameters *(Object)*."
 msgstr "**options**: 任意のパラメーター  *(Object)*"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:121
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "Valid keys:"
 msgstr "使用できる key は、次のとおりです。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:135
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:125
 msgid ""
 "**headers**: A map of header name/header values. Use an array to specify "
 "more than one value. On iOS, FireOS, and Android, if a header named Content-"
@@ -17349,34 +17348,34 @@ msgstr "**headers**: ヘッダーのプロパティー名とその値の組み�
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:237
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:294
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:229
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:293
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:221
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:285
 msgid ""
 "**withCredentials**: *boolean* that tells the browser to set the "
 "withCredentials flag on the XMLHttpRequest"
 msgstr "**withCredentials**: XMLHttpRequest で各種認証情報を使用するか否か ( withCredentials フラグを立てるか否か ) を Browser 側に示す *真偽値* です。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:287
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:286
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:278
 msgid "WP8 Quirks"
 msgstr "WP8 特有の動作"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:289
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:288
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:280
 msgid ""
 "Download requests is being cached by native implementation. To avoid "
 "caching, pass ``if-Modified-Since`` header to download method."
 msgstr "ダウンロードリクエストは、WP8 独自の処理により、キャッシュされます。この処理を回避するためには、``if-Modified-Since`` ヘッダーを download メソッドに渡します。"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:345
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:344
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:336
 msgid ""
 "**body** Response body. This attribute is only available when a response is "
 "received from the HTTP connection. (String)"
 msgstr "**body** : レスポンスのボディー。HTTP 接続の状態を示すレスポンスコードを受け取った場合のみ、この属性を使用できます。(String)"
 
 #: ../doc/reference/cordova_5.2/file-transfer/index.rst:374
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:378
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:370
 msgid ""
 "``FileEntry.toURL()`` and ``DirectoryEntry.toURL()`` return a filesystem "
 "ofURL of the form"
@@ -19032,8 +19031,8 @@ msgstr ":dfn:`<allow-navigation href=\"*\" />`"
 #: ../doc/reference/monaca_api/cloud_management/user.rst:169
 #: ../doc/reference/monaca_api/cloud_management/user.rst:197
 #: ../doc/reference/monaca_api/utility-34.rst:61
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:53
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:117
+#: ../doc/reference/power_plugins/sqlcipher.rst:54
+#: ../doc/reference/power_plugins/sqlcipher.rst:118
 msgid "Parameter"
 msgstr "パラメーター"
 
@@ -19463,7 +19462,7 @@ msgid ""
 "The code shown here creates a file in your app's cache (in sandboxed "
 "storage) named ``tempFile.jpeg``. With the new FileEntry object, you can "
 "copy the image to the file or do something else like upload it."
-msgstr "次のコードでは、アプリのキャッシュ ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:24
 msgid "Console Plugin"
@@ -19486,7 +19485,7 @@ msgid ""
 "This plugin is meant to ensure that console.log() is as useful as it can be."
 " It adds additional function for iOS, Ubuntu, Windows Phone 8, and Windows. "
 "This plugin defines a global ``console`` object."
-msgstr "このプラグインでは、コンソールへの出力に使用できる、console.log() を含む、便利なメソッドを提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
+msgstr "このプラグインでは、コンソールへの出力に使用できる、便利なメソッド ( console.log() など ) を提供しています。Android、iOS、Ubuntu、Windows Phone 8、Windows 上で動作します。また、このプラグインでは、グローバルオブジェクト 「 ``console`` 」 を使用します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:58
 msgid ""
@@ -19613,11 +19612,11 @@ msgstr "%o - JSON 形式で出力します。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:107
 msgid "%c - format arg as ''. No color formatting could be done."
-msgstr "%c - '' 内で指定されているスタイルを適用します。色の指定はできません。"
+msgstr "%c - 指定した CSS を適用します。色の指定はできません。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:108
 msgid "%% - replace with '%'."
-msgstr "%% - '%' に置き換えます。"
+msgstr "%% - 「 % 」 に置き換えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:110
 msgid "Any other char following ``%`` will format its arg via ``toString()``"
@@ -19813,7 +19812,7 @@ msgstr "OSX 特有の動作"
 msgid ""
 "The ``uuid`` on OSX is generated automatically if it does not exist yet and "
 "is stored in the ``standardUserDefaults`` in the ``CDVUUID`` property."
-msgstr "OSX では、``uuid`` が確認できない場合には、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
+msgstr "OSX では、``uuid`` が確認できない場合、自動で生成され、``CDVUUID`` プロパティーの ``standardUserDefaults`` に格納されます。"
 
 #: ../doc/reference/cordova_6.2/device/index.rst:295
 msgid "Get the device's manufacturer."
@@ -19852,24 +19851,91 @@ msgid ""
 "after the ``deviceready`` event."
 msgstr "このプラグインでは、グローバルなコンストラクタ 「 ``FileTransfer`` 」 と 「 ``FileUploadOptions`` 」 を使用します。なお、グローバルスコープに属していますが、使用できるのは、``deviceready`` イベントの発火後になります。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:224
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "**fileKey**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
+msgid "The name of the form element. Defaults to ``file``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid "**fileName**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
+msgid ""
+"The file name to use when saving the file on the server. Defaults to "
+"``image.jpg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid "**httpMethod**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
+msgid ""
+"The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. "
+"(DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid "**mimeType**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
+msgid ""
+"The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid "**params**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
+msgid ""
+"A set of optional key/value pairs to pass in the HTTP request. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid "**chunkedMode**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
+msgid ""
+"Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
+"(Boolean)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid "**headers**"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
+msgid ""
+"A map of header name/header values. Use an array to specify more than one "
+"value. On iOS, FireOS, and Android, if a header named Content-Type is "
+"present, multipart form data will NOT be used. (Object)"
+msgstr ""
+
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:216
 msgid ""
 "Does not support uploads of an empty file with *chunkedMode=true* and "
 "``multipartMode=false``."
 msgstr "*chunkedMode=true* と ``multipartMode=false`` に設定している場合、空ファイルのアップロードはできません。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:234
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:226
 msgid ""
 "An option parameter with empty/null value is excluded in the upload "
 "operation due to the Windows API design."
 msgstr "アップロード時、options のパラメーターに、空/null 値を指定した場合、これらのパラメーターは無視されます。これは、Windows API の仕様です。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:236
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:228
 msgid ""
 "*chunkedMode* is not supported and all uploads are set to non-chunked mode."
 msgstr "*chunkedMode* オプションは使用できません。アップロードは、常に、非チャンク ( 非チャンクド ) 形式で行われます。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:360
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:352
 msgid ""
 "The plugin implementation is based on `BackgroundDownloader "
 "<https://msdn.microsoft.com/en-"
@@ -19883,36 +19949,36 @@ msgid ""
 "alternative for small downloads."
 msgstr "このプラグインは、`BackgroundDownloader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounddownloader.aspx>`_ / `BackgroundUploader <https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.backgroundtransfer.backgrounduploader.aspx>`_ を基礎としています。よって、Windows の端末では、起動までに時間がかかります ( 処理の作成・開始まで、数秒かかる場合があります )。サイズの小さいダウンロード向けには、処理速度が早い、XHR または `HttpClient <https://msdn.microsoft.com/en-us/library/windows/apps/windows.web.http.httpclient.aspx>`_ の使用を推奨します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:387
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:379
 msgid "Sample: Download and Upload Files"
-msgstr "使用例 : ファイルのダウンロードとアップロード"
+msgstr "サンプルコード : ファイルのダウンロードとアップロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:389
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:381
 msgid ""
 "Use the File-Transfer plugin to upload and download files. In these "
 "examples, we demonstrate several tasks like:"
 msgstr "ファイル転送プラグインを使用して、ファイルのアップロードとダウンロードを行います。ここでは、次の処理を行います。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:391
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:383
 msgid ""
 ":ref:`Downloading a binary file to the application cache <binary_file>`"
-msgstr ""
+msgstr ":ref:`アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロードする方法 <binary_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:384
 msgid ""
 ":ref:`Uploading a file created in your application's root "
 "<upload_created_file>`"
-msgstr ""
+msgstr ":ref:`アプリのルートのディレクトリー内にファイルを作成して、アップロードする方法 <upload_created_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:393
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:385
 msgid ":ref:`Downloading the uploaded file <download_uploaded_file>`"
-msgstr ""
+msgstr ":ref:`ファイルをダウンロードする方法 ( 上記の例でアップロードしたファイルをダウンロード ) <download_uploaded_file>`"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:398
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:390
 msgid "Download a Binary File to the application cache"
-msgstr ""
+msgstr "アプリのキャッシュ用ディレクトリーへ、バイナリーファイルをダウンロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:400
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:392
 msgid ""
 "Use the File plugin with the File-Transfer plugin to provide a target for "
 "the files that you download (the target must be a FileEntry object). Before "
@@ -19920,15 +19986,15 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr ""
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:420
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:412
 msgid ""
 "Note For persistent storage, pass LocalFileSystem.PERSISTENT to "
 "requestFileSystem."
-msgstr ""
+msgstr "永続的なストレージを使用する場合には、requestFileSystem の実行時に、LocalFileSystem.PERSISTENT を指定します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:422
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:414
 msgid ""
 "When you have the FileEntry object, ``download`` the file using the download"
 " method of the FileTransfer object. The 3rd argument to the ``download`` "
@@ -19936,15 +20002,15 @@ msgid ""
 "the app's ``readBinaryFile`` function. In this code example, the entry "
 "variable is a new FileEntry object that receives the result of the download "
 "operation."
-msgstr ""
+msgstr "FileEntry オブジェクトの作成/取得後、FileTransfer オブジェクトの download メソッドを使用して、ファイルを ``ダウンロード`` します。FileTransfer の ``download`` メソッドの第三引数は、成功時のコールバックです。このコールバック内で、``readBinaryFile`` 関数を使用しています。また、ここで使用している変数 「 entry 」 には、download の処理結果として受けとった、新規の FileEntry オブジェクトが格納されています。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:460
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:452
 msgid ""
 "If you just need to display the image, take the FileEntry to call its "
 "toURL() function."
-msgstr ""
+msgstr "画像を単に表示する場合には、次のように、FileEntry を渡して、FileEntry 自身の toURL() 関数を呼び出します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:469
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:461
 msgid ""
 "Depending on your app requirements, you may want to read the file. To "
 "support operations with binary files, FileReader supports two methods, "
@@ -19952,25 +20018,25 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr ""
+msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:491
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:483
 msgid ""
 "Once you read the file successfully, you can create a DOM URL string using "
 "``createObjectURL``, and then display the image."
-msgstr ""
+msgstr "ファイルの読み込み後、``createObjectURL`` を使用すれば、DOM 上で使用できる URL を取得できます。次に、この URL を使用して、画像を表示します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:505
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:497
 msgid ""
 "As you saw previously, you can call FileEntry.toURL() instead to just "
 "display the downloaded image (skip the file read)."
-msgstr ""
+msgstr "上記で示したように、ダウンロードした画像を単に表示するのであれば、FileEntry.toURL() を使用することもできます。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:510
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:502
 msgid "Upload a File"
 msgstr "ファイルのアップロード"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:512
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:504
 msgid ""
 "When you upload a File using the File-Transfer plugin, use the File plugin "
 "to provide files for upload (again, they must be FileEntry objects). Before "
@@ -19978,25 +20044,25 @@ msgid ""
 "method of DirectoryEntry. In this example, create the file in the "
 "application's cache (fs.root). Then call the app's writeFile function so you"
 " have some content to upload."
-msgstr ""
+msgstr "ファイル転送プラグインを使用してファイルをアップロードする場合、アップロード対象となるファイルを取得するときには、ファイル操作プラグイン ( File プラグイン ) を使用します ( ダウンロード時と同じく、ファイルは、FileEtnry オブジェクトとなります )。アップロード前に、DirectoryEntry の ``getFile`` を使用して、アップロード用のファイルを作成/取得します。ここでは、アプリのキャッシュ用ディレクトリー ( fs.root ) 内にファイルを作成しています。次に、アップロードするコンテンツを渡して、writeFile 関数を実行します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:532
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:524
 msgid ""
 "In this example, create some simple content, and then call the app's upload "
 "function."
-msgstr ""
+msgstr "この例では、FileWrite オブジェクトを作成/取得して、次に、upload 関数を実行しています。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:557
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:549
 msgid ""
 "Forward the FileEntry object to the upload function. To perform the actual "
 "upload, use the upload function of the FileTransfer object."
-msgstr ""
+msgstr "ここでは、upload 関数へ FileEntry オブジェクトを渡しています。なお、実際のアップロード処理には、FileTransfer オブジェクトの upload 関数を使用します。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:595
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:587
 msgid "Download the uploaded file"
-msgstr ""
+msgstr "ファイルのダウンロード ( ここでは、先ほどの例で使用したファイルをダウンロードします )"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:597
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:589
 msgid ""
 "To download the image you just uploaded, you will need a valid URL that can "
 "handle the request, for example, http://some.server.com/download.php. Again,"
@@ -20004,34 +20070,19 @@ msgid ""
 "FileEntry object. The main difference here from previous examples is that we"
 " call FileReader.readAsText to read the result of the download operation, "
 "because we uploaded a file with text content."
-msgstr ""
+msgstr "先ほどアップロードしたテキストを、今度は、ダウンロードします ( 「 ファイルのアップロード 」 を参照のこと )。必要なものは、有効な URL です ( ダウンロード元を指す URL、たとえば、http://some.server.com/download.php )。FileTransfer.download メソッドの成功時のハンドラーには、FileEntry オブジェクトが渡されます。上記のダウンロードの例 ( 「 バイナリーファイルのダウンロード 」 を参照のこと ) と異なる点として、ここでは、ダウンロードの処理結果を読み込むときに、FileReader.readAsText を使用しています。これは、先ほどのアップロードの例　( 「 ファイルのアップロード 」 を参照のこと ) では、テキスト形式のコンテンツとして、ファイルがアップロードされているためです。"
 
-#: ../doc/reference/cordova_6.2/file-transfer/index.rst:628
+#: ../doc/reference/cordova_6.2/file-transfer/index.rst:620
 msgid ""
 "In the readFile function, call the ``readAsText`` method of the FileReader "
 "object."
-msgstr ""
+msgstr "readFile 関数内で、FileReader オブジェクトの ``readAsText`` メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:29
 msgid ""
 "Tested Version: `4.2.0 <https://github.com/apache/cordova-plugin-"
 "file/releases/tag/4.2.0>`_"
 msgstr "テスト環境 ( バージョン番号 ) : `4.2.0 <https://github.com/apache/cordova-plugin-file/releases/tag/4.2.0>`_"
-
-#: ../doc/reference/cordova_6.2/file/index.rst:124
-msgid ""
-"Although technically an implementation detail, it can be very useful to know"
-" how the ``cordova.file.\\*`` properties map to physical paths on a real "
-"device."
-msgstr "実装方式により異なりますが、``cordova.file.\\*`` プロパティーと端末の物理パスの関係 ( マッピング内容 ) を、次の表に示します。"
-
-#: ../doc/reference/cordova_6.2/file/index.rst:132
-#: ../doc/reference/cordova_6.2/file/index.rst:167
-#: ../doc/reference/cordova_6.2/file/index.rst:200
-#: ../doc/reference/cordova_6.2/file/index.rst:223
-#: ../doc/reference/cordova_6.2/file/index.rst:254
-msgid "``cordova.file.\\*``"
-msgstr "``cordova.file.\\*``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:132
 #: ../doc/reference/cordova_6.2/file/index.rst:223
@@ -20040,7 +20091,7 @@ msgstr "``iOSExtraFileSystems``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 msgid "/var/mobile/Applications/<UUID>/"
-msgstr "/var/mobile/Applications/<UUID>/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 #: ../doc/reference/cordova_6.2/file/index.rst:138
@@ -20061,41 +20112,41 @@ msgstr "\\-"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:136
 msgid "appname.app/"
-msgstr "appname.app/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:138
 msgid "www/"
-msgstr "www/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:140
 msgid "Documents/"
-msgstr "Documents/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:142
 #: ../doc/reference/cordova_6.2/file/index.rst:146
 msgid "NoCloud/"
-msgstr "NoCloud/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:144
 msgid "Library"
-msgstr "Library"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:148
 msgid "Cloud/"
-msgstr "Cloud/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 msgid "Caches/"
-msgstr "Caches/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "Yes\\***"
-msgstr "Yes\\***"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "tmp/"
-msgstr "tmp/"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 #: ../doc/reference/cordova_6.2/file/index.rst:183
@@ -20109,14 +20160,14 @@ msgid ""
 "behavior. Files are not guaranteed to persist across updates. Your app "
 "should remove files from this directory when it is applicable, as the OS "
 "does not guarantee when (or even if) these files are removed."
-msgstr ""
+msgstr "\\** アプリの再起動後でも、このディレクトリーに置かれたファイルには影響はでません。アップデート時には、ファイルは消去されてしまう場合があります。可能であれば、このディレクトリーのファイルは、アプリ側の任意のタイミングで削除できるようにしましょう。アプリ側で処理を行わない場合、削除のタイミング、または、削除するか否かは、OS 側が決定します。 "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:159
 msgid ""
 "\\*** The OS may clear the contents of this directory whenever it feels it "
 "is necessary, but do not rely on this. You should clear this directory as "
 "appropriate for your application."
-msgstr ""
+msgstr "\\*** このディレクトリーのコンテンツの削除は、必要に応じて、OS 側が行います。しかし、この OS 側の挙動に頼らずに、アプリが正常に動作するよう、開発者側で、必要に応じて削除できるようにしましょう。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:169
 msgid "file:///android_asset/"
@@ -20153,13 +20204,7 @@ msgid ""
 "\\** The OS does not clear this directory automatically; you are responsible"
 " for managing the contents yourself. Should the user purge the cache "
 "manually, the contents of the directory are removed."
-msgstr ""
-
-#: ../doc/reference/cordova_6.2/file/index.rst:192
-msgid ""
-"**Note**: If external storage can't be mounted, the "
-"``cordova.file.external\\*`` properties are ``null``."
-msgstr "**備考** : 外部のストレージがマウントできない場合には、``cordova.file.external*`` プロパティーは ``null`` になります。"
+msgstr "\\** OS 側では、このディレクトリーの削除を自動では行ないので、開発者側でコンテンツを管理する必要があります。また、このディレクトリー内のコンテンツの削除 ( キャッシュの削除 ) は、ユーザー側でも行えるようにする必要があります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:202
 msgid "file:///accounts/1000/appdata/<app id>/"
@@ -20189,7 +20234,7 @@ msgstr "file:///accounts/1000/shared"
 msgid ""
 "**Note**: When application is deployed to work perimeter, all paths are "
 "relative to /accounts/1000-enterprise."
-msgstr ""
+msgstr "**備考**: ワークぺリメーター ( work perimeter ) へアプリがインストールされた場合、パスには、/accounts/1000-enterprise が含まれます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:218
 msgid "OS X File System Layout"
@@ -20248,13 +20293,13 @@ msgid ""
 "be cleared whenever the OS desires. Your app should be able to recreate any "
 "content that might be deleted. You should clear this directory as "
 "appropriate for your application."
-msgstr ""
+msgstr "\\* アプリの再起動後・アップグレード後でも、このディレクトリーに置かれたファイルには影響はでません。ただし、このディレクトリーのコンテンツは、OS 側で、自由に削除できます。削除された場合でも、アプリ側で再作成できる必要があります。また、ディレクトリーのコンテンツの削除は、OS 側に頼るのではなく、アプリ側で適宜行えるようにしましょう。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:246
 msgid ""
 "\\** Allows access to the entire file system. This is only available for non"
 " sandboxed apps."
-msgstr ""
+msgstr "\\** ファイルシステムへのアクセスに制限はありません。ただし、サンドボックス化されていないアプリが対象です。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:249
 msgid "Windows File System Layout"
@@ -20284,7 +20329,7 @@ msgstr "\\* 定期的に、OS 側が、このディレクトリー内を削除�
 #: ../doc/reference/cordova_6.2/file/index.rst:301
 msgid ""
 "Permisson to write to external storage when it's not mounted on Marshmallow"
-msgstr ""
+msgstr "Marshmallow 上で外部ストレージがマウントされていない場合の 「 書き込み 」 パーミッション"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:303
 msgid ""
@@ -20298,7 +20343,7 @@ msgid ""
 " mounted. However due to a limitation, when external storage is not mounted,"
 " it would ask for permission to write to "
 "``cordova.file.externalApplicationStorageDirectory``."
-msgstr ""
+msgstr "Marchmallow では、外部のストレージへの書き込みおよび外部のストレージからの読み込みを行う場合、ユーザー側に許可を求めることを必須要件にしています。なお、``cordova.file.applicationStorageDirectory`` と ``cordova.file.externalApplicationStorageDirectory`` への書き込みに関しては、`デフォルト <https://developer.android.com/guide/topics/data/data-storage.html#filesExternal>`_ でパーミッションがアプリ側に付与されているため、プラグイン側ではユーザー側に許可を求めませんが、外部のストレージがマウントされていないときだけ、通知の意味も込めて、ユーザー側の許可を求めます。また、同様に、なんらかの理由で外部のストレージがマウントされていない場合にも、``cordova.file.externalApplicationStorageDirectory`` に書き込みを行ってよいか、プラグイン側からユーザー側に確認します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:342
 msgid ""
@@ -20318,7 +20363,7 @@ msgstr "``cacheDirectory`` - キャッシュファイル用 ( アプリの再起
 
 #: ../doc/reference/cordova_6.2/file/index.rst:625
 msgid "Sample: Create Files and Directories, Write, Read, and Append files"
-msgstr ""
+msgstr "サンプルコード : ファイルの作成、ディレクトリーの作成、ファイルへの書き込み、ファイルの読み込み、ファイルへの追記"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:627
 msgid ""
@@ -20326,43 +20371,43 @@ msgid ""
 "persistent storage location for your app (sandboxed storage) and to store "
 "files in other platform-dependent locations. The code snippets in this "
 "section demonstrate different tasks including:"
-msgstr ""
+msgstr "ファイル操作プラグインを使用して、一時的または永続的なストレージへ ( サンドボックス化された、アプリのストレージを使用 )、ならびに、プラットフォーム側が指定する、他のストレージへファイルを保存できます。下に例示しているコードでは、次の処理方法を確認できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:629
 msgid ":ref:`Accessing the file system <persistent_file>`"
-msgstr ""
+msgstr ":ref:`ファイルシステムへのアクセス <persistent_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:630
 msgid ""
 "Using cross-platform Cordova file URLs to :ref:`store your files "
 "<append_file_alternative>` (see Where to Store Files for more info)"
-msgstr ""
+msgstr "Cordova の FILE URL を使用した、:ref:`ファイルの保存 <append_file_alternative>` ( 詳細は、上記の 「 ファイルの保存場所 」 を参照のこと )"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:631
 msgid ""
 "Creating :ref:`files <persistent_file>` and :ref:`directories "
 "<create_directories>`"
-msgstr ""
+msgstr ":ref:`ファイル <persistent_file>` と :ref:`ディレクトリー <create_directories>` の作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:632
 msgid ":ref:`Writing to files <write_file>`"
-msgstr ""
+msgstr ":ref:`ファイルへの書き込み <write_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:633
 msgid ":ref:`Reading files <read_file>`"
-msgstr ""
+msgstr ":ref:`ファイルの読み込み <read_file>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:634
 msgid ":ref:`Appending files <append_file_alternative>`"
-msgstr ""
+msgstr ":ref:`ファイルへの追記 <append_file_alternative>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:635
 msgid ":ref:`Display an image file <display_image>`"
-msgstr ""
+msgstr ":ref:`画像ファイルの表示 <display_image>`"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:640
 msgid "Create a persistent file"
-msgstr ""
+msgstr "永続的なファイルの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:642
 msgid ""
@@ -20370,7 +20415,7 @@ msgid ""
 "using ``requestFileSystem``. When you do this, you can request either "
 "persistent or temporary storage. Persistent storage will not be removed "
 "unless permission is granted by the user."
-msgstr ""
+msgstr "ファイル操作プラグイン提供の API を使用する前に、``requestFileSystem`` を使用すれば、ファイルシステムへアクセスすることができます。また、``requestFileSystem`` の実行時には、PERSISTENT または TEMPORARY のいずれかを指定できます。PERSISTENT にストレージを指定した場合、ユーザーの許可がない限り、ストレージの削除はできません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:644
 msgid ""
@@ -20380,18 +20425,18 @@ msgid ""
 "device. (To access file system locations outside the sandboxed storage, use "
 "other methods such as window.requestLocalFileSystemURL, which support "
 "platform-specific locations. For one example of this, see Append a File.)"
-msgstr ""
+msgstr "``requestFileSystem`` を使用してファイルシステムへアクセスした場合、サンドボックス化されたファイルシステムへのアクセスのみ許可され ( サンドボックス化した場合、対象のアプリのみ、ストレージにアクセス可能 )、端末上の他のファイルシステムへのアクセスはできません。サンドボックス化されたストレージ以外へアクセスする場合には、window.requestLocalFileSystemURL などのメソッドを使用します ( 参考として、下の 「 ファイルへの追記 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:646
 msgid "Here is a request for persistent storage."
-msgstr ""
+msgstr "次のコードでは、永続的なストレージを作成しています ( PERSISTENT を指定 )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:650
 msgid ""
 "When targeting WebView clients (instead of a browser) or native apps "
 "(Windows), you dont need to use requestQuota before using persistent "
 "storage."
-msgstr ""
+msgstr "WebView クライアント向け ( ブラウザーではなく ) またはネイティブアプリ向け ( Windows ) に開発をしている場合、永続的なストレージを使用するときでも、requestQuota を使用する必要はありません。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:668
 msgid ""
@@ -20399,45 +20444,45 @@ msgid ""
 "return a DirectoryEntry object, which you can use to create or get a file "
 "(by calling ``getFile``). In this example, ``fs.root`` is a DirectoryEntry "
 "object that represents the persistent storage in the sandboxed file system."
-msgstr ""
+msgstr "成功時のコールバックには、FileSystem オブジェクト ( fs ) が渡されます。DirectoryEntry オブジェクトを返すように指定する場合には、``fs.root`` を使用します。また、``fs.root`` は、ファイルの作成/取得時にも使用できます ( ``getFile`` を実行 )。ここでは、``fs.root`` は、DirectoryEntry オブジェクトであり、同時に、サンドボックス化されたファイルシステム内に作成された、永続的なストレージへのリファレンスとなります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:670
 msgid ""
 "The success callback for ``getFile`` receives a FileEntry object. You can "
 "use this to perform file write and file read operations."
-msgstr ""
+msgstr "``getFile`` の成功時のコールバックには、FileEntry オブジェクトが渡されます。FileEntry オブジェクトを使用して、ファイルへの書き込み・ファイルの読み込みを行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:675
 msgid "Create a temporary file"
-msgstr ""
+msgstr "一時的に使用するファイルの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:677
 msgid ""
 "Here is an example of a request for temporary storage. Temporary storage may"
 " be deleted by the operating system if the device runs low on memory."
-msgstr ""
+msgstr "次の例では、一時的なストレージを作成しています ( TEMPORARY を指定 )。端末上のメモリーが少なくなった場合、OS 側がこのストレージを削除することもあります。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:688
 msgid ""
 "When you are using temporary storage, you can create or get the file by "
 "calling ``getFile``. As in the persistent storage example, this will give "
 "you a FileEntry object that you can use for read or write operations."
-msgstr ""
+msgstr "一時的なストレージを使用する場合、``getFile`` を実行して、ファイルの作成/取得を行えます。永続的なストレージと同様、このメソッドを使用して、FileEntry オブジェクトの作成/取得を行えます。作成/取得後は、ファイルの読み込み・ファイルへの書き込みを行えます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:705
 msgid "Write to a file"
-msgstr ""
+msgstr "ファイルへの書き込み"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:707
 msgid ""
 "Once you have a FileEntry object, you can write to the file by calling "
 "``createWriter``, which returns a FileWriter object in the success callback."
 " Call the ``write`` method of FileWriter to write to the file."
-msgstr ""
+msgstr "FileEntry オブジェクトの作成/取得後は、``createWriter`` を実行して、ファイルへの書き込みを行います。このメソッドの成功時のコールバックに、FileWriter オブジェクトが渡されるので、FileWriter の ``write`` メソッドを実行して、ファイルへの書き込みを行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:737
 msgid "Read a file"
-msgstr ""
+msgstr "ファイルの読み込み"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:739
 msgid ""
@@ -20446,11 +20491,11 @@ msgid ""
 "FileReader object. You can use methods like ``readAsText`` to start the read"
 " operation. When the read operation is complete, ``this.result`` stores the "
 "result of the read operation."
-msgstr ""
+msgstr "既存ファイルの読み込み時にも、FileEntry オブジェクトを使用します。最初に、FileEntry の file プロパティー を使用して、ファイルへのリファレンスを取得します。次に、FileReader オブジェクトを作成します。読み込み処理には、``readAsText`` などのメソッドを使用できます。読み込み処理の完了後、``this.result`` には、処理結果が保存されています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:761
 msgid "Append a file using alternative methods"
-msgstr ""
+msgstr "ファイルへの追記 ( ファイルシステムへのアクセス時には、上記とは異なるメソッドを使用してみます ) "
 
 #: ../doc/reference/cordova_6.2/file/index.rst:763
 msgid ""
@@ -20460,7 +20505,7 @@ msgid ""
 "this example, pass the cross-platform Cordova file URL, "
 "cordova.file.dataDirectory, to the function. The success callback receives a"
 " DirectoryEntry object, which you can use to do things like create a file."
-msgstr ""
+msgstr "ファイルの新規作成ではなく、既存のファイルに対して内容を追記したい場合もあります。この例では、window.resolveLocalFileSystemURL を使用した追記方法を記します。ここでは、cordova.file.dataDirectory ( Cordova の File URL ) を使用します。成功時のコールバックに、DirectoryEntry オブジェクトが返ってくるので、このオブジェクトを使用して追記処理を行います。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:773
 msgid ""
@@ -20470,7 +20515,7 @@ msgid ""
 " storage locations are platform-specific. You can also pass cross-platform "
 "file system locations to ``resolveLocalFileSystemURL`` using the ``cdvfile "
 "protocol``."
-msgstr ""
+msgstr "また、サンドボックス化されたファイルシステム以外へアクセスする場合にも、``resolveLocalFileSystemURL`` を使用できます。詳細は、上記の 「 ファイルの保存場所 」 をご確認ください。多くの場合、ストレージの場所はプラットフォーム毎に異なります。また、``resolveLocalFileSystemURL`` へ渡す File URL には、``cdvfile プロトコル`` 形式も使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:775
 msgid ""
@@ -20478,7 +20523,7 @@ msgid ""
 "function that is called in the preceding code (see the preceding examples "
 "for the actual code). ``createFile`` calls ``writeFile``. In ``writeFile``, "
 "you check whether an append operation is requested."
-msgstr ""
+msgstr "追記処理における ``createFile`` 関数に関しても、先ほど解説した内容と異なる点はありません ( 「 一時的に使用するファイルの作成 」 を参照のこと )。``createFile`` を実行し、次に、``writeFile`` を実行します。``writeFile`` では、追記処理であることを指定します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:777
 msgid ""
@@ -20486,11 +20531,11 @@ msgid ""
 " index value for the position where you want to write. In this example, you "
 "also test whether the file exists. After calling seek, then call the write "
 "method of FileWriter."
-msgstr ""
+msgstr "FileWriter オブジェクトの取得後、``seek`` メソッドを呼び出し、追記位置を指定します。また、ここでは、ファイルが存在するかも確認しています。seek の処理完了後、FileWriter の write メソッドを実行します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:810
 msgid "Store an existing binary file"
-msgstr ""
+msgstr "既存のバイナリーファイルの保存"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:812
 msgid ""
@@ -20499,7 +20544,7 @@ msgid ""
 "and convert that to something you can store on your device? In this example,"
 " you obtain a file using an xhr request, and then save it to the cache in "
 "the sandboxed file system."
-msgstr ""
+msgstr "ここまでは、サンドボックス化したファイルシステムの作成とファイルへの書き込み方法を解説してきました。ここからは、外部にあるファイルへのアクセス方法、ならびに、このような既存ファイルを端末上へ保存するための処理方法を解説します。ここでは、XHR リクエストを使用してファイルを取得し、サンドボックス化されたファイルシステムのキャッシュに、取得したファイルを保存します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:814
 msgid ""
@@ -20508,7 +20553,7 @@ msgid ""
 "as before), the returned FileSystem object (fs) represents the cache in the "
 "sandboxed file system. Use ``fs.root`` to get the DirectoryEntry object that"
 " you need."
-msgstr ""
+msgstr "ファイルを取得する前に、``requestFileSystem`` を使用して、ファイルシステム ( FileSystem ) へのリファレンスを取得します。以前と同じように、window.TEMPORARY を指定し、メソッドを実行します。実行後、返ってきた FileSystem オブジェクト ( fs ) には、サンドボックス化されたファイルシステム内のキャッシュへの情報が格納されています。次に、``fs.root`` を使用して、必要な DirectoryEntry オブジェクトを取得します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:825
 msgid ""
@@ -20517,47 +20562,47 @@ msgid ""
 "DirectoryEntry reference that you already obtained as an argument to the "
 "saveFile function. You will save the blob image and display it later after "
 "reading the file (to validate the operation)."
-msgstr ""
+msgstr "getSampleFile 内の処理を記述します。ここでは、XHR リクエストを使用して、Blob 形式の画像を取得しています。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blog 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:847
 msgid ""
 "For Cordova 5 security, the preceding code requires that you add the domain "
 "name, http://cordova.apache.org, to the Content-Security-Policy element in "
 "index.html."
-msgstr ""
+msgstr "Cordova 5 以降、セキュリティー上の理由により、次のコードの実行には、Content-Security-Policy 要素内で、http://cordova.apache.org を設定する必要があります ( index.html 内 )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:849
 msgid ""
 "After getting the file, copy the contents to a new file. The current "
 "DirectoryEntry object is already associated with the app cache."
-msgstr ""
+msgstr "ファイルの取得後、新規作成したファイルへコンテンツをコピーします。下の DirectoryEntry オブジェクトは、キャッシュ先にすでに紐づけされています。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:862
 msgid ""
 "In writeFile, you pass in the Blob object as the dataObj and you will save "
 "that in the new file."
-msgstr ""
+msgstr "writeFile では、引数として、Blob オブジェクト ( dataObj ) を渡し、新規のファイル上に保存します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:889
 msgid ""
 "After writing to the file, read it and display it. You saved the image as "
 "binary data, so you can read it using FileReader.readAsArrayBuffer."
-msgstr ""
+msgstr "ファイルへの書き込み終了後、ファイルの読み込みと表示をします。バイナリー形式のデータとして画像を保存しているので、FileReader.readAsArrayBuffer を使用して、データを読み込みます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:912
 msgid ""
 "After reading the data, you can display the image using code like this. Use "
 "window.URL.createObjectURL to get a DOM string for the Blob image."
-msgstr ""
+msgstr "データの読み込み後、次のようなコードを使用すれば、画像を表示できます。Blob 形式の画像 ( 表示用 ) を取得するため、window.URL.createObjectURL を使用します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:927
 msgid "Display an image file"
-msgstr ""
+msgstr "画像ファイルの表示"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:929
 msgid ""
 "To display an image using a FileEntry, you can call the ``toURL`` method."
-msgstr ""
+msgstr "FileEntry を使用して画像を表示する場合には、``toURL`` メソッドを使用できます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:938
 msgid ""
@@ -20566,11 +20611,11 @@ msgid ""
 "in the Content-Security-Policy element in index.html. For example, on "
 "Windows 10, you can include ``ms-appdata``: in your element. Here is an "
 "example."
-msgstr ""
+msgstr "プラットフォームにより異なる URI を使用して ( FileEntry の代わりに )、画像を表示させる場合、index.html の Content-Security-Policy 要素に、URI のホストを指定します。Windows 10 では、``ms-appdata``: を使用します。次に例を記します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:947
 msgid "Create Directories"
-msgstr ""
+msgstr "ディレクトリーの作成"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:949
 msgid ""
@@ -20579,19 +20624,19 @@ msgid ""
 "is, any DirectoryEntry). Here, you write to the application cache (assuming "
 "that you used window.TEMPORARY to get your FileSystem object) by passing "
 "fs.root into this function."
-msgstr ""
+msgstr "ここでは、ストレージのルートに、ディレクトリーを作成します。書き込み可能なストレージ ( DirectoryEntry ) であれば、次のコードを使用できます。ここでは、createDirectory に fs.root を渡して、アプリのキャッシュ用ディレクトリーを使用します ( FileSystem オブジェクトの取得時、window.TEMPORARY を設定したことを前提とします )。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:951
 msgid ""
 "This code creates the /NewDirInRoot/images folder in the application cache. "
 "For platform-specific values, look at ``File System Layouts``."
-msgstr ""
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー内に /NewDirInRoot/images フォルダーを作成しています。各プラットフォームのファイルシステムの詳細は、上記の 「 ``ファイルシステムの概要`` 」 をご確認ください。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:965
 msgid ""
 "When creating subfolders, you need to create each folder separately as shown"
 " in the preceding code."
-msgstr ""
+msgstr "サブディレクトリーを作成する場合には、上記のコードのように、各フォルダーをそれぞれ作成する必要があります。"
 
 #: ../doc/reference/cordova_6.2/geolocation/index.rst:28
 msgid ""
@@ -20899,7 +20944,7 @@ msgid ""
 "``StatusBarBackgroundColor`` (color hex string, no default value). On iOS 7,"
 " set the background color of the statusbar by a hex string (#RRGGBB) at "
 "startup. If this value is not set, the background color will be transparent."
-msgstr ""
+msgstr "``StatusBarBackgroundColor`` ( 16 進数の文字列で示すカラーコード、デフォルトはなし )。アプリ起動時のスタータスバーの背景色を、16進数の文字列 ( #RRGGBB ) で設定します。この値が設定されていない場合、背景色は透明になります。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:68
 msgid ""
@@ -20915,7 +20960,7 @@ msgid ""
 "apps), so you may want to set the statusbar color at runtime instead via "
 "``StatusBar.backgroundColorByHexString`` or "
 "``StatusBar.backgroundColorByName``. One way to do that would be:"
-msgstr ""
+msgstr "Android 5+ を対象とする、多くのガイドラインでは、スタータスバーとアプリのテーマに、別々の色を指定するように推奨されています ( 一方、iOS 7+ 向けのアプリでは、スタータスバーとアプリのカラーを統一する方が多いようです )。ここでは、ステータスバーの色をあらかじめ設定するのではなく ( ``StatusBar.backgroundColorByHexString`` または ``StatusBar.backgroundColorByName`` を設定 )、動的 ( プログラムの実行時 ) に設定する方法の一例を記します。"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:131
 msgid "**config.xml**"
@@ -20941,34 +20986,34 @@ msgstr "Android 4.0 以上"
 msgid ""
 "Controls which URLs the WebView itself can be navigated to. Applies to top-"
 "level navigations only."
-msgstr ""
+msgstr "WebView 上で使用できる URL を制御します。適用範囲は、最上位のウィンドウ ( top-level navigation ) 上におけるページ遷移のみです。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:68
 msgid "Quirks: on Android it also applies to iframes for non-http(s) schemes."
-msgstr ""
+msgstr "Android では、http(s) スキーマを使用していない iframe にも適用されます。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:70
 msgid ""
 "By default, navigations only to ``file://`` URLs, are allowed. To allow "
 "others URLs, you must add ``<allow-navigation>`` tags to your "
 "``config.xml``:"
-msgstr ""
+msgstr "デフォルトでは、``file://`` 形式の URL のみ使用できます。他の URL を使用する場合、たとえば、次のように ``<allow-navigation>`` を指定して、``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:107
 msgid ""
 "Controls which URLs the app is allowed to ask the system to open. By "
 "default, no external URLs are allowed."
-msgstr ""
+msgstr "アプリ側からシステム側に対して、外部への URL を開くようにリスクエストすることができます。デフォルトでは、外部への URL は一切開くことができません。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:109
 msgid "On Android, this equates to sending an intent of type BROWSEABLE."
-msgstr ""
+msgstr "Android における、「 BROWSABLE 」 設定に相当します。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:111
 msgid ""
 "This whitelist does not apply to plugins, only hyperlinks and calls to "
 "``window.open()``."
-msgstr ""
+msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクに適用されます。"
 
 #: ../doc/reference/index.rst:2
 msgid "API"
@@ -22453,8 +22498,8 @@ msgstr ":dfn:`monaca.cloud.Device.getProperty(name: String) : $.Promise`"
 #: ../doc/reference/monaca_api/cloud/user.rst:538
 #: ../doc/reference/monaca_api/cloud/user.rst:631
 #: ../doc/reference/monaca_api/cloud/user.rst:637
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
+#: ../doc/reference/power_plugins/sqlcipher.rst:44
+#: ../doc/reference/power_plugins/sqlcipher.rst:106
 msgid "``name``"
 msgstr "``name``"
 
@@ -24986,6 +25031,614 @@ msgstr ":dfn:`monaca.isIOS`"
 msgid "The device is iOS device if the return value is *true*."
 msgstr "iOS 端末であれば、 *true* を返します。"
 
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
+msgid "Monaca HTML5 Resource Encryption"
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:8
+msgid ""
+"This plugin provides the encryption function for HTML5 assets bundled up "
+"with the built app in Monaca and the decoding function for application "
+"execution time."
+msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:10
+#: ../doc/reference/power_plugins/in-app_updater.rst:10
+#: ../doc/reference/power_plugins/secure_storage.rst:10
+#: ../doc/reference/power_plugins/sqlcipher.rst:11
+msgid "This plugin is available to Enterprise users only."
+msgstr "このプラグインのご利用には、Monaca エンタープライズが必要です。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:16
+#: ../doc/reference/power_plugins/in-app_updater.rst:15
+#: ../doc/reference/power_plugins/secure_storage.rst:15
+msgid "Cordova 4.1 or later"
+msgstr "Cordova 4.1 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:17
+#: ../doc/reference/power_plugins/in-app_updater.rst:16
+msgid "iOS 7 or later"
+msgstr "iOS 7 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:18
+#: ../doc/reference/power_plugins/in-app_updater.rst:17
+#: ../doc/reference/power_plugins/sqlcipher.rst:18
+msgid "Android 4.0 or later"
+msgstr "Android 4.0 以降"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:21
+#: ../doc/reference/power_plugins/secure_storage.rst:20
+msgid "Encryption Scheme"
+msgstr "暗号化方式"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:24
+#: ../doc/reference/power_plugins/secure_storage.rst:23
+msgid "Encryption Method"
+msgstr "暗号化方式"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:24
+#: ../doc/reference/power_plugins/secure_storage.rst:23
+msgid "AES"
+msgstr "AES"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:25
+#: ../doc/reference/power_plugins/secure_storage.rst:24
+msgid "Key Length"
+msgstr "鍵長"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:25
+#: ../doc/reference/power_plugins/secure_storage.rst:24
+msgid "256bit"
+msgstr "256 bit"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:30
+#: ../doc/reference/power_plugins/sqlcipher.rst:21
+msgid "Enable the Plugin in Monaca"
+msgstr "プラグインの有効化 ( Monaca 上での処理 )"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:32
+#: ../doc/reference/power_plugins/in-app_updater.rst:42
+#: ../doc/reference/power_plugins/secure_storage.rst:31
+msgid ""
+"From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova "
+"Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイル --> Cordova プラグインの管理...` または :menuselection:`設定 --> Cordova プラグインの管理...` を選択します。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
+msgid ""
+"Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
+msgid ""
+"Next, you need to setup the encryption password. Find your newly added "
+"plugin under the *Enable Plugins* section. Then, hover the plugin and click "
+":guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:44
+msgid ""
+"Enter the password for this encryption. Then, click :guilabel:`OK` button."
+msgstr "暗号用パスワードを入力して、 :guilabel:`OK` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:51
+#: ../doc/reference/power_plugins/in-app_updater.rst:177
+#: ../doc/reference/power_plugins/secure_storage.rst:82
+msgid "App Store Submission"
+msgstr "App Store への提出に際して"
+
+#: ../doc/reference/power_plugins/html5_resource_encryption.rst:53
+msgid ""
+"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
+"order to release the built app embedded this plugin to the AppStore, you "
+"need to set 2 options when you submit your app for a review. Under the "
+"Export Compliance section, please choose \"Yes\" for both questions as shown"
+" in the screenshot below:"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時に特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:5
+msgid "Monaca In-App Updater"
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:8
+msgid ""
+"This plugin updates HTML5 assets contained in the app without rebuilding and"
+" packaging the app. You need a Web server to host the updated files which "
+"will be accessed from the app."
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:21
+#: ../doc/reference/power_plugins/sqlcipher.rst:31
+#: ../doc/reference/service_integration/apps_flyer.rst:88
+#: ../doc/reference/service_integration/repro.rst:76
+msgid "Usage"
+msgstr "設定"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:23
+msgid "Please follow these steps to use this plugin."
+msgstr "次の手順に従い、プラグインを追加・設定します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:25
+msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
+msgstr "プラグインを有効化します [ :ref:`enable_in_app_updater` を参照のこと ]。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:27
+msgid ""
+"Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
+msgstr "更新方法 [ :ref:`update_mode` を参照のこと ] を選択して、アクセス先の URL を指定します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:29
+msgid ""
+"Create the update files for intended OS with proper version. (See "
+":ref:`create_update_file` and :ref:`update_file_version`.)"
+msgstr "対象の OS ( バージョン番号も指定 ) を指定して、更新用ファイルを作成します ( :ref:`create_update_file` と :ref:`update_file_version` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:31
+msgid ""
+"Create configuration file specifying the version number of the update files."
+" (See :ref:`config_file_in_app_updater`.)"
+msgstr "更新用ファイルのバージョン番号を指定して、設定ファイルを作成します ( :ref:`config_file_in_app_updater` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:33
+msgid ""
+"Place the configuration and update files in the same directory level. (See "
+":ref:`files_placement`.)"
+msgstr "設定ファイルと更新用ファイルを、同じディレクトリー ( 同じ階層 ) に置きます ( :ref:`files_placement` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:44
+msgid ""
+"Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it "
+"into your project."
+msgstr "``Monaca In-App Updater`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:49
+msgid ""
+"Next, you need to configure necessary information for this plugin. Find your"
+" newly added plugin under the *Enable Plugins* section. Then, hover the "
+"plugin and click :guilabel:`Config` button."
+msgstr ""
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:54
+msgid ""
+"There are two update modes for this plugins: `default` and `severe` (see "
+":ref:`update_mode`). Choose an appropriate mode and enter the deploy URL "
+"where the file is downloaded from. Then, click :guilabel:`OK` button."
+msgstr "更新方法 ( Update Mode ) を選択して、ファイルのダウンロード元 ( Deploy URL ) を入力します。更新方法は、 `default` ( デフォルト ) と `severe` ( 厳格 ) の 2 通りあります [ :ref:`update_mode` を参照のこと ]。次に、 :guilabel:`OK` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:62
+msgid "Plugin Configuration"
+msgstr "プラグインの設定"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:67
+msgid "Update Mode"
+msgstr "更新方法 ( Update Mode )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:69
+msgid ""
+"When there are available updates, the application will try to update the app"
+" according to the predefined update mode."
+msgstr "更新用の差分が存在する場合、指定した更新方法に基づき、アプリ側で更新を行います。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:72
+msgid "Mode"
+msgstr "方法"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:74
+msgid "Allow the application to run even the update process cannot be done."
+msgstr "更新処理をしなくても、アプリを実行できます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:75
+msgid "Severe"
+msgstr "Severe ( 厳格 )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:75
+msgid ""
+"The application cannot run if the update process cannot be done. For "
+"instance, if the application has no network connectivity, the app will exit."
+msgstr "更新処理ができない場合、アプリは実行できません。たとえば、ネットワーク接続できない場合、アプリは終了します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:78
+msgid "These settings are stored in :file:`config.xml` file as shown below."
+msgstr ":file:`config.xml` ファイル内に、次の設定を記述します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:89
+msgid "Creating Update File"
+msgstr "更新用ファイルの作成"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:91
+msgid ""
+"In order to use this plugin, you will need a :file:`update.json` file in "
+"addition to Android and/or iOS update files."
+msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:94
+msgid "File Name"
+msgstr "ファイル名"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:94
+msgid "Remarks"
+msgstr "対象"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid ":file:`update.json`"
+msgstr ":file:`update.json`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "Update configuration file"
+msgstr "更新用の設定ファイル"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:96
+msgid "The version of update file is specified in this configuration file."
+msgstr "このファイル内に、更新用ファイルのバージョン番号を記述します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:97
+msgid ":file:`android-v1.0.0.zip`"
+msgstr ":file:`android-v1.0.0.zip`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:97
+msgid "Android update file"
+msgstr "`Android 向けの更新用ファイル`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:97
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid ""
+"The version of each update file is shown at the end of the file. See "
+":ref:`update_file_version`."
+msgstr "ファイル名に、更新用ファイルのバージョン番号を挿入します ( :ref:`update_file_version` を参照のこと )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid ":file:`ios-v1.0.0.zip`"
+msgstr ":file:`ios-v1.0.0.zip`"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:98
+msgid "iOS update file"
+msgstr "iOS 向けの更新用ファイル"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:101
+msgid ""
+"Each update file (Androin and iOS) is corresponded to respective OS. "
+"Therefore, it's possible to just update the app for iOS or Android depending"
+" on the update file you use."
+msgstr "更新用ファイルは、対象の OS ( Android ・ iOS ) 向けに、それぞれ作成します。ファイルを分けることにより、更新対象となる OS を絞り込めます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:103
+msgid "In order to create the update file, please do as follows:"
+msgstr "次の手順に従い、更新用ファイルを作成します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:105
+msgid ""
+"From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` "
+"for iOS or go to :menuselection:`Build --> Build App for Android` for "
+"Android."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ビルド --> iOS アプリのビルド` ( iOS の場合 )、または、:menuselection:`ビルド --> Android アプリのビルド` ( Android の場合 ) を、選択します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:107
+msgid ""
+"Choose :guilabel:`Create a package for In-App Update` option and click "
+":guilabel:`Next` button (same for Android)."
+msgstr ":guilabel:`In-App Updater 用更新ファイル` オプションを選択して、 :guilabel:`次へ` ボタンをクリックします ( Android の場合も、同じ手順 )。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:112
+msgid "It may takes sometimes to create the package. So please wait."
+msgstr "パッケージの作成には、時間がかかる場合もありますので、しばらく待ちます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:114
+msgid ""
+"When the package is ready, the following screen will be displayed. Click to "
+"download the update package."
+msgstr "処理が完了すると、次の画面が表示されます。更新用パッケージをダウンロードするため、画面上のアイコンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:123
+msgid "Update File Version"
+msgstr "ファイルのバージョン番号の更新"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:125
+msgid ""
+"The update files include their version number. You can update the version of"
+" the update file by the following steps:"
+msgstr "更新用ファイルの名前には、ファイルのバージョン番号が含まれています。更新ファイルのバージョン番号を更新する場合、次の手順に従います。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:127
+msgid ""
+"From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` "
+"for iOS or go to :menuselection:`Config --> Android App Settings` for "
+"Android."
+msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> iOS アプリ設定` ( iOS の場合 )、または、 :menuselection:`設定 --> Android アプリ設定` ( Android の場合 ) を、選択します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:129
+msgid "Enter the version number and click :guilabel:`Save` button."
+msgstr "バージョン番号を入力して、 :guilabel:`保存する` ボタンをクリックします。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:144
+msgid "Android and iOS version do not necessarily be the same."
+msgstr "Android 向けと iOS 向けの更新用ファイルのバージョン番号には、それぞれ、異なる番号を設定できます。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:149
+msgid "Creating Configuration File"
+msgstr "設定ファイルの作成"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:151
+msgid ""
+"As mention above, :file:`update.json` file is an update configuration file "
+"to store the version information of the update files. Below is an example of"
+" the configuration file:"
+msgstr "上述のように、 :file:`update.json` ファイルは、更新時に必要となる設定ファイルです。このファイルには、更新用ファイルのバージョン情報が記述されています。設定ファイル内の記述例を、次に記します。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:160
+msgid ""
+"In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that "
+"``ios-v1.0.0.zip`` file will be used to download."
+msgstr "記述内容を解説します。「 ``\"ios\": { \"version\": \"1.0.0\" }`` 」 と記述して、 ダウンロード対象のファイルを指定します。 ここでは、 ``ios-v1.0.0.zip`` ファイルとなります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:166
+msgid "Placing Update File"
+msgstr "更新用ファイルの置き場所"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:168
+msgid ""
+"Please make sure to place the configuration and update files in the same "
+"level. For example, if your deploy URL is ``http://example.com/``, then your"
+" files should be placed as follows:"
+msgstr "設定ファイルと更新用ファイルは、同じ階層に置きます。たとえば、Deploy URL ( ダウンロード元の URL ) が ``http://example.com/`` の場合、ファイルの置き場所は、次のようになります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:170
+msgid "http://example.com/update.json"
+msgstr "http://example.com/update.json"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:171
+msgid "http://example.com/ios-v1.0.0.zip"
+msgstr "http://example.com/ios-v1.0.0.zip"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:172
+msgid "http://example.com/android-v1.0.0.zip"
+msgstr "http://example.com/android-v1.0.0.zip"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:174
+msgid ""
+"The server can be distributed in any environment at least the application "
+"has the connectivity."
+msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:179
+msgid ""
+"Please aware that this plugin might interfere with the `App Store Review "
+"Guidelines <https://developer.apple.com/app-"
+"store/review/guidelines/#functionality>`_ in the following conditions."
+msgstr "このプラグインを使用した場合、 `App Store の審査基準 ( 英語 ) <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ に記載された、次の基準に抵触する可能性があります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:181
+msgid ""
+"This applies to the apps that is distributed on App Store. Privately "
+"distributed apps (including Ad-Hoc and Enterprise Built) are excluded from "
+"the review guideline."
+msgstr "審査基準は、App Store 経由で、アプリを配布する場合に適用されます。たとえば、Ad-Hoc 配布、組織内での配布など、プライベートな形で配布する場合は、審査基準の適用外となります。"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:183
+msgid "\"2.7 Apps that download code in any way or form will be rejected\""
+msgstr "「 2.7 Apps that download code in any way or form will be rejected 」 ( コードをダウンロードするアプリは、いかなる場合でも、却下されます。 )"
+
+#: ../doc/reference/power_plugins/in-app_updater.rst:185
+msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
+msgstr "「 2.8 Apps that install or launch other executable code will be rejected 」 ( 外部のコードをインストール・起動するアプリは、却下されます。 )"
+
+#: ../doc/reference/power_plugins/index.rst:5
+msgid "Monaca Power Plugins"
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:7
+msgid ""
+"With Monaca Power Plugins, we deliver developers the ability to secure their"
+" work with the latest security technologies."
+msgstr ""
+
+#: ../doc/reference/power_plugins/index.rst:9
+msgid "Monaca power plugins are available to Enterprise users only."
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:5
+msgid "Monaca Secure Storage"
+msgstr ""
+
+#: ../doc/reference/power_plugins/secure_storage.rst:8
+msgid ""
+"This plugin provides an encrypted data storage function. If the application "
+"is uninstalled, saved data will also be deleted."
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:33
+msgid ""
+"Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it "
+"into your project."
+msgstr "``Monaca Secure Storage`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:44
+msgid "Set Data"
+msgstr "データの保存用メソッド"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:44
+msgid ""
+"Save data into the storage by specifying the ``key`` and ``value``. The "
+"boolean callback will notify whether the data is successfully saved "
+"(``True``) or failed to save (``false``)."
+msgstr "``key`` と ``value`` を使用して、ストレージにデータを保存します。コールバック ( 戻り値 : boolean ) を使用して、保存が完了したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:53
+msgid "Get Data"
+msgstr "データの取得用メソッド"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:53
+msgid ""
+"Retrieve data associated with the specified key. The callback will return "
+"the intended data if the key is found; otherwise, a null value will be "
+"return."
+msgstr "指定された key を使用して、データを取得します。key と一致したデータがあれば、コールバックを使用して、そのデータを返します。一致するデータがなければ場合、null を返します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:62
+msgid "Delete Data"
+msgstr "データの削除用メソッド ( 1件 )"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:62
+msgid ""
+"Delete the data associated with a specified key. The boolean callback will "
+"notify whether the data deletion is successful (``True``) or failed "
+"(``false``)."
+msgstr "指定された key を使用して、データを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:71
+msgid "Delete All Data"
+msgstr "データの削除用メソッド ( 全件 )"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:71
+msgid ""
+"Delete all data in the storage. The boolean callback will notify whether the"
+" data deletion is successful (``True``) or failed (``false``)."
+msgstr "ストレージ内のすべてのデータを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
+
+#: ../doc/reference/power_plugins/secure_storage.rst:84
+msgid ""
+"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
+"order to release the built app embedded this plugin to the App Store, you "
+"need to set 2 options when you submit your app for a review. Under the "
+"Export Compliance section, please choose \"Yes\" for both questions as shown"
+" in the screenshot below:"
+msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時には特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:5
+msgid "SQLCipher Adapter"
+msgstr ""
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:9
+msgid ""
+"SQLCipher Adapter is a Cordova plugin to create and access encrypted "
+"databases on Android, iOS, and Windows Universal (8.1) with API similar to "
+"HTML5/Web SQL API."
+msgstr "SQLCipher アダプターは、Cordova プラグインです。データベースの暗号化および暗号化されたデータベースへの問い合わせに使用します。サポート対象のプラットフォームは、Android、iOS、Windows 8.1 以上、Windows iPhone 8.1 以上です。API の取り扱い方法は、HTML5 の Web SQL API とほぼ変わりません。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:16
+msgid "Cordova 5.2"
+msgstr "Cordova 5.2"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:17
+msgid "iOS 8 or later"
+msgstr "iOS 8 以上"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:23
+msgid ""
+"From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova "
+"Plugins`."
+msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Cordova プラグインの管理` を選択します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:25
+msgid ""
+"Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into "
+"your project."
+msgstr "``SQLCipher Adapter`` の :guilabel:`有効` ボタンをクリックして、プロジェクトにプラグインを追加します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:36
+msgid "Opening a Database"
+msgstr "データベースを開く"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:38
+msgid ""
+"If you try to open a database that doesn’t exist, the API will create it."
+msgstr "存在しないデータベースを開こうとする場合、API 側でデータベースを作成します。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:40
+msgid ""
+":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", "
+"[key: \"your-password-here\"], [location: 1]});`"
+msgstr ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:44
+#: ../doc/reference/power_plugins/sqlcipher.rst:106
+msgid ""
+"Your database's name. The database file name should include the extension, "
+"if desired."
+msgstr "データベース名です。データベースのファイル名に、拡張子を付記することもできます。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+msgid "``key``"
+msgstr "``key``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:46
+msgid "Your database's password."
+msgstr "データベースのパスワードです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
+msgid "``location``"
+msgstr "``location``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:48
+#: ../doc/reference/power_plugins/sqlcipher.rst:108
+msgid ""
+"It used to select the database subdirectory location (iOS only) with the "
+"following choices:"
+msgstr "データベース用に使用するサブディレクトリーを指定します ( iOS のみ )。次の選択肢があります。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:50
+#: ../doc/reference/power_plugins/sqlcipher.rst:110
+msgid ""
+"``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
+msgstr "``0`` ( デフォルト ) : *Documents* - iTunes 側から認識可、iCloud によるバックアップ可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:51
+#: ../doc/reference/power_plugins/sqlcipher.rst:111
+msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
+msgstr "``1`` : *Library* - iCloud によるバックアップ可、iTunes 側から認識不可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:52
+#: ../doc/reference/power_plugins/sqlcipher.rst:112
+msgid ""
+"``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by "
+"iCloud."
+msgstr "``2`` : *Library/LocalDatabase* - iTunes 側から認識不可、iCloud によるバックアップ不可"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:57
+msgid ""
+"The following code illustrates an example with PRAGMA feature. First, a "
+"table is created and a single entry is added. Then, a query to count the "
+"inserted item to see if it's added as expected."
+msgstr "次の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:95
+msgid ""
+"PRAGMA statements must be executed in executeSql() on the database object "
+"(i.e. db.executeSql()) and NOT within a transaction."
+msgstr "PRAGMA ステートメントは、必ず、データベースオブジェクトの executeSql() 内 ( db.executeSql() ) で実行します ( transaction 内ではありません )。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:100
+msgid "Deleting a Database"
+msgstr "データベースの削除"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:102
+msgid ""
+":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location:"
+" 1}, successCb, errorCb);`"
+msgstr ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:114
+msgid "``successCb``"
+msgstr "``successCb``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:114
+msgid "A callback when the database is deleted successfully."
+msgstr "データベースの削除が成功したときのコールバックです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "``errorCb``"
+msgstr "``errorCb``"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:116
+msgid "A callback when the database is failed to be deleted."
+msgstr "データベースの削除が失敗したときのコールバックです。"
+
+#: ../doc/reference/power_plugins/sqlcipher.rst:120
+msgid ""
+"This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 "
+"or higher."
+msgstr "この API は、Windows 8.1 以上/Windows Phone 8.1 以上向けアプリの開発には使用できません。"
+
 #: ../doc/reference/service_integration/apps_flyer.rst:5
 msgid "AppsFlyer"
 msgstr "AppsFlyer"
@@ -25085,13 +25738,6 @@ msgid ""
 "For more information on how to use AppsFlyer, please refer to `AppsFlyer "
 "Documentation <https://support.appsflyer.com/hc/en-us>`_."
 msgstr "AppsFlyer の使用に関する詳細は、`AppsFlyer ドキュメント ( 日本語あり ) <https://support.appsflyer.com/hc/en-us>`_ をご確認ください。"
-
-#: ../doc/reference/service_integration/apps_flyer.rst:88
-#: ../doc/reference/service_integration/repro.rst:76
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
-msgid "Usage"
-msgstr "設定"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:90
 msgid ""
@@ -25335,22 +25981,22 @@ msgstr "Repro 側から送信される電子メールを受信して、記載さ
 msgid "BarcodeScanner Plugin"
 msgstr "BarcodeScanner プラグイン"
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:14
-#: ../doc/reference/third_party_phonegap/datepicker.rst:25
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/datepicker.rst:15
 #: ../doc/reference/third_party_phonegap/share.rst:16
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
 msgid ""
-"From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or "
-":menuselection:`Config > Manage Cordova Plugins`."
-msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理...` または :menuselection:`設定 > Cordova プラグインの管理...` を選択します。"
+"From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or"
+" :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:16
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid ""
 "Click :guilabel:`Enable` button of the BarcodeScanner to add it into your "
 "project."
 msgstr "BarcodeScanner の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:23
+#: ../doc/reference/third_party_phonegap/barcode_scanner.rst:20
 msgid "BarcodeScanner Demo"
 msgstr "BarcodeScanner プラグインのデモ"
 
@@ -25362,424 +26008,42 @@ msgstr "Datepicker プラグイン"
 msgid "DatePicker plugin lets an app use the native DatePicker control."
 msgstr "DatePicker プラグインを使用して、ネイティブ側の DatePicker コントロール ( 日付設定 ) にアクセスします。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:17
 msgid ""
 "Click :guilabel:`Enable` button of the DatePicker to add it into your "
 "project."
 msgstr "DatePicker の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:37
-#: ../doc/reference/third_party_phonegap/datepicker.rst:52
+#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:42
 msgid "For Android"
 msgstr "Android の場合"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:40
-#: ../doc/reference/third_party_phonegap/share.rst:30
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:27
 msgid "Function Name"
 msgstr "関数名"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:30
 msgid "show(func)"
 msgstr "show(func)"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:43
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
 msgid "show a DatePicker control."
 msgstr "DatePicker を表示します。"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:49
+#: ../doc/reference/third_party_phonegap/datepicker.rst:39
 msgid "DatePicker Demo"
 msgstr "DatePicker のデモ"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:88
+#: ../doc/reference/third_party_phonegap/datepicker.rst:78
 msgid "For iOS"
 msgstr "iOS の場合"
 
-#: ../doc/reference/third_party_phonegap/datepicker.rst:90
+#: ../doc/reference/third_party_phonegap/datepicker.rst:80
 msgid "Please note that, this example only works with iPhone but not iPad."
 msgstr "このサンプルは、iPhone が対象です。iPad では正常に動作しません。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:5
-msgid "Monaca HTML5 Resource Encryption (Enterprise)"
-msgstr "アプリロジック暗号化 プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:10
-msgid ""
-"This plugin provides the encryption function for HTML5 assets bundled up "
-"with the built app in Monaca and the decoding function for application "
-"execution time."
-msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:12
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:12
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:12
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:13
-msgid "This plugin is available to Enterprise users only."
-msgstr "このプラグインのご利用には、Monaca エンタープライズが必要です。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:18
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:17
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:17
-msgid "Cordova 4.1 or later"
-msgstr "Cordova 4.1 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:19
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:18
-msgid "iOS 7 or later"
-msgstr "iOS 7 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:20
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:19
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:20
-msgid "Android 4.0 or later"
-msgstr "Android 4.0 以降"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:23
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:22
-msgid "Encryption Scheme"
-msgstr "暗号化方式"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "Encryption Method"
-msgstr "暗号化方式"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:26
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:25
-msgid "AES"
-msgstr "AES"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "Key Length"
-msgstr "鍵長"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:27
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:26
-msgid "256bit"
-msgstr "256 bit"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:32
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:23
-msgid "Enable the Plugin in Monaca"
-msgstr "プラグインの有効化 ( Monaca 上での処理 )"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:34
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:44
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:33
-msgid ""
-"From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova "
-"Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイル --> Cordova プラグインの管理...` または :menuselection:`設定 --> Cordova プラグインの管理...` を選択します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:36
-msgid ""
-"Click :guilabel:`Enable` button of ``Monaca HTML5 Resource Encryption`` to "
-"add it into your project."
-msgstr "``Monaca HTML5 Resource Encryption`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:41
-msgid ""
-"Next, you need to setup the encryption password. To do this, click "
-":guilabel:`Settings` button."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、暗号用パスワードを設定します。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:46
-msgid ""
-"Enter the password for this encryption. Then, click :guilabel:`OK` button."
-msgstr "暗号用パスワードを入力して、 :guilabel:`OK` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:53
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:179
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:84
-msgid "App Store Submission"
-msgstr "App Store への提出に際して"
-
-#: ../doc/reference/third_party_phonegap/html5_resource_encryption.rst:55
-msgid ""
-"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
-"order to release the built app embedded this plugin to the AppStore, you "
-"need to set 2 options when you submit your app for a review. Under the "
-"Export Compliance section, please choose \"Yes\" for both questions as shown"
-" in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが使用されています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時に特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:5
-msgid "Monaca In-App Updater (Enterprise)"
-msgstr "In-App アップデーター プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:10
-msgid ""
-"This plugin updates HTML5 assets contained in the app without rebuilding and"
-" packaging the app. You need a Web server to host the updated files which "
-"will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:25
-msgid "Please follow these steps to use this plugin."
-msgstr "次の手順に従い、プラグインを追加・設定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:27
-msgid "Enable the plugin. (See :ref:`enable_in_app_updater`.)"
-msgstr "プラグインを有効化します [ :ref:`enable_in_app_updater` を参照のこと ]。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:29
-msgid ""
-"Choose the update mode and specify the deploy URL. (See :ref:`update_mode`.)"
-msgstr "更新方法 [ :ref:`update_mode` を参照のこと ] を選択して、アクセス先の URL を指定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:31
-msgid ""
-"Create the update files for intended OS with proper version. (See "
-":ref:`create_update_file` and :ref:`update_file_version`.)"
-msgstr "対象の OS ( バージョン番号も指定 ) を指定して、更新用ファイルを作成します ( :ref:`create_update_file` と :ref:`update_file_version` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:33
-msgid ""
-"Create configuration file specifying the version number of the update files."
-" (See :ref:`config_file_in_app_updater`.)"
-msgstr "更新用ファイルのバージョン番号を指定して、設定ファイルを作成します ( :ref:`config_file_in_app_updater` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:35
-msgid ""
-"Place the configuration and update files in the same directory level. (See "
-":ref:`files_placement`.)"
-msgstr "設定ファイルと更新用ファイルを、同じディレクトリー ( 同じ階層 ) に置きます ( :ref:`files_placement` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:46
-msgid ""
-"Click :guilabel:`Enable` button of the ``Monaca In-App Updater`` to add it "
-"into your project."
-msgstr "``Monaca In-App Updater`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:51
-msgid ""
-"Next, click :guilabel:`Settings` button to configure necessary information "
-"for this plugin."
-msgstr "次に、 :guilabel:`設定` ボタンをクリックして、プラグインの使用時に必要となる情報を設定します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:56
-msgid ""
-"There are two update modes for this plugins: `default` and `severe` (see "
-":ref:`update_mode`). Choose an appropriate mode and enter the deploy URL "
-"where the file is downloaded from. Then, click :guilabel:`OK` button."
-msgstr "更新方法 ( Update Mode ) を選択して、ファイルのダウンロード元 ( Deploy URL ) を入力します。更新方法は、 `default` ( デフォルト ) と `severe` ( 厳格 ) の 2 通りあります [ :ref:`update_mode` を参照のこと ]。次に、 :guilabel:`OK` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:64
-msgid "Plugin Configuration"
-msgstr "プラグインの設定"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:69
-msgid "Update Mode"
-msgstr "更新方法 ( Update Mode )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:71
-msgid ""
-"When there are available updates, the application will try to update the app"
-" according to the predefined update mode."
-msgstr "更新用の差分が存在する場合、指定した更新方法に基づき、アプリ側で更新を行います。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:74
-msgid "Mode"
-msgstr "方法"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:76
-msgid "Allow the application to run even the update process cannot be done."
-msgstr "更新処理をしなくても、アプリを実行できます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid "Severe"
-msgstr "Severe ( 厳格 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:77
-msgid ""
-"The application cannot run if the update process cannot be done. For "
-"instance, if the application has no network connectivity, the app will exit."
-msgstr "更新処理ができない場合、アプリは実行できません。たとえば、ネットワーク接続できない場合、アプリは終了します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:80
-msgid "These settings are stored in :file:`config.xml` file as shown below."
-msgstr ":file:`config.xml` ファイル内に、次の設定を記述します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:91
-msgid "Creating Update File"
-msgstr "更新用ファイルの作成"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:93
-msgid ""
-"In order to use this plugin, you will need a :file:`update.json` file in "
-"addition to Android and/or iOS update files."
-msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "File Name"
-msgstr "ファイル名"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:96
-msgid "Remarks"
-msgstr "対象"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid ":file:`update.json`"
-msgstr ":file:`update.json`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "Update configuration file"
-msgstr "更新用の設定ファイル"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:98
-msgid "The version of update file is specified in this configuration file."
-msgstr "このファイル内に、更新用ファイルのバージョン番号を記述します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid ":file:`android-v1.0.0.zip`"
-msgstr ":file:`android-v1.0.0.zip`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-msgid "Android update file"
-msgstr "`Android 向けの更新用ファイル`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:99
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid ""
-"The version of each update file is shown at the end of the file. See "
-":ref:`update_file_version`."
-msgstr "ファイル名に、更新用ファイルのバージョン番号を挿入します ( :ref:`update_file_version` を参照のこと )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid ":file:`ios-v1.0.0.zip`"
-msgstr ":file:`ios-v1.0.0.zip`"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:100
-msgid "iOS update file"
-msgstr "iOS 向けの更新用ファイル"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:103
-msgid ""
-"Each update file (Androin and iOS) is corresponded to respective OS. "
-"Therefore, it's possible to just update the app for iOS or Android depending"
-" on the update file you use."
-msgstr "更新用ファイルは、対象の OS ( Android ・ iOS ) 向けに、それぞれ作成します。ファイルを分けることにより、更新対象となる OS を絞り込めます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:105
-msgid "In order to create the update file, please do as follows:"
-msgstr "次の手順に従い、更新用ファイルを作成します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:107
-msgid ""
-"From Monaca Cloud IDE, go to :menuselection:`Build --> Build App for iOS` "
-"for iOS or go to :menuselection:`Build --> Build App for Android` for "
-"Android."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ビルド --> iOS アプリのビルド` ( iOS の場合 )、または、:menuselection:`ビルド --> Android アプリのビルド` ( Android の場合 ) を、選択します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:109
-msgid ""
-"Choose :guilabel:`Create a package for In-App Update` option and click "
-":guilabel:`Next` button (same for Android)."
-msgstr ":guilabel:`In-App Updater 用更新ファイル` オプションを選択して、 :guilabel:`次へ` ボタンをクリックします ( Android の場合も、同じ手順 )。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:114
-msgid "It may takes sometimes to create the package. So please wait."
-msgstr "パッケージの作成には、時間がかかる場合もありますので、しばらく待ちます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:116
-msgid ""
-"When the package is ready, the following screen will be displayed. Click to "
-"download the update package."
-msgstr "処理が完了すると、次の画面が表示されます。更新用パッケージをダウンロードするため、画面上のアイコンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:125
-msgid "Update File Version"
-msgstr "ファイルのバージョン番号の更新"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:127
-msgid ""
-"The update files include their version number. You can update the version of"
-" the update file by the following steps:"
-msgstr "更新用ファイルの名前には、ファイルのバージョン番号が含まれています。更新ファイルのバージョン番号を更新する場合、次の手順に従います。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:129
-msgid ""
-"From Monaca Cloud IDE, go to :menuselection:`Config --> iOS App Settings` "
-"for iOS or go to :menuselection:`Config --> Android App Settings` for "
-"Android."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> iOS アプリ設定` ( iOS の場合 )、または、 :menuselection:`設定 --> Android アプリ設定` ( Android の場合 ) を、選択します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:131
-msgid "Enter the version number and click :guilabel:`Save` button."
-msgstr "バージョン番号を入力して、 :guilabel:`保存する` ボタンをクリックします。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:146
-msgid "Android and iOS version do not necessarily be the same."
-msgstr "Android 向けと iOS 向けの更新用ファイルのバージョン番号には、それぞれ、異なる番号を設定できます。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:151
-msgid "Creating Configuration File"
-msgstr "設定ファイルの作成"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:153
-msgid ""
-"As mention above, :file:`update.json` file is an update configuration file "
-"to store the version information of the update files. Below is an example of"
-" the configuration file:"
-msgstr "上述のように、 :file:`update.json` ファイルは、更新時に必要となる設定ファイルです。このファイルには、更新用ファイルのバージョン情報が記述されています。設定ファイル内の記述例を、次に記します。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:162
-msgid ""
-"In this example, ``\"ios\": { \"version\": \"1.0.0\" }`` means that "
-"``ios-v1.0.0.zip`` file will be used to download."
-msgstr "記述内容を解説します。「 ``\"ios\": { \"version\": \"1.0.0\" }`` 」 と記述して、 ダウンロード対象のファイルを指定します。 ここでは、 ``ios-v1.0.0.zip`` ファイルとなります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:168
-msgid "Placing Update File"
-msgstr "更新用ファイルの置き場所"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:170
-msgid ""
-"Please make sure to place the configuration and update files in the same "
-"level. For example, if your deploy URL is ``http://example.com/``, then your"
-" files should be placed as follows:"
-msgstr "設定ファイルと更新用ファイルは、同じ階層に置きます。たとえば、Deploy URL ( ダウンロード元の URL ) が ``http://example.com/`` の場合、ファイルの置き場所は、次のようになります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:172
-msgid "http://example.com/update.json"
-msgstr "http://example.com/update.json"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:173
-msgid "http://example.com/ios-v1.0.0.zip"
-msgstr "http://example.com/ios-v1.0.0.zip"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:174
-msgid "http://example.com/android-v1.0.0.zip"
-msgstr "http://example.com/android-v1.0.0.zip"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:176
-msgid ""
-"The server can be distributed in any environment at least the application "
-"has the connectivity."
-msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:181
-msgid ""
-"Please aware that this plugin might interfere with the `App Store Review "
-"Guidelines <https://developer.apple.com/app-"
-"store/review/guidelines/#functionality>`_ in the following conditions."
-msgstr "このプラグインを使用した場合、 `App Store の審査基準 ( 英語 ) <https://developer.apple.com/app-store/review/guidelines/#functionality>`_ に記載された、次の基準に抵触する可能性があります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:183
-msgid ""
-"This applies to the apps that is distributed on App Store. Privately "
-"distributed apps (including Ad-Hoc and Enterprise Built) are excluded from "
-"the review guideline."
-msgstr "審査基準は、App Store 経由で、アプリを配布する場合に適用されます。たとえば、Ad-Hoc 配布、組織内での配布など、プライベートな形で配布する場合は、審査基準の適用外となります。"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:185
-msgid "\"2.7 Apps that download code in any way or form will be rejected\""
-msgstr "「 2.7 Apps that download code in any way or form will be rejected 」 ( コードをダウンロードするアプリは、いかなる場合でも、却下されます。 )"
-
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:187
-msgid "\"2.8 Apps that install or launch other executable code will be rejected\""
-msgstr "「 2.8 Apps that install or launch other executable code will be rejected 」 ( 外部のコードをインストール・起動するアプリは、却下されます。 )"
 
 #: ../doc/reference/third_party_phonegap/index.rst:5
 msgid "Third-party Cordova Plugins"
@@ -25805,250 +26069,45 @@ msgid ""
 "Monaca:"
 msgstr "Monaca が提供している、第三者提供の Cordova プラグインは、次のとおりです。"
 
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:5
-msgid "Monaca Secure Storage (Enterprise)"
-msgstr "セキュア ストレージ プラグイン ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:10
-msgid ""
-"This plugin provides an encrypted data storage function. If the application "
-"is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:35
-msgid ""
-"Click :guilabel:`Enable` button of the ``Monaca Secure Storage`` to add it "
-"into your project."
-msgstr "``Monaca Secure Storage`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid "Set Data"
-msgstr "データの保存用メソッド"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:46
-msgid ""
-"Save data into the storage by specifying the ``key`` and ``value``. The "
-"boolean callback will notify whether the data is successfully saved "
-"(``True``) or failed to save (``false``)."
-msgstr "``key`` と ``value`` を使用して、ストレージにデータを保存します。コールバック ( 戻り値 : boolean ) を使用して、保存が完了したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid "Get Data"
-msgstr "データの取得用メソッド"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:55
-msgid ""
-"Retrieve data associated with the specified key. The callback will return "
-"the intended data if the key is found; otherwise, a null value will be "
-"return."
-msgstr "指定された key を使用して、データを取得します。key と一致したデータがあれば、コールバックを使用して、そのデータを返します。一致するデータがなければ場合、null を返します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid "Delete Data"
-msgstr "データの削除用メソッド ( 1件 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:64
-msgid ""
-"Delete the data associated with a specified key. The boolean callback will "
-"notify whether the data deletion is successful (``True``) or failed "
-"(``false``)."
-msgstr "指定された key を使用して、データを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid "Delete All Data"
-msgstr "データの削除用メソッド ( 全件 )"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:73
-msgid ""
-"Delete all data in the storage. The boolean callback will notify whether the"
-" data deletion is successful (``True``) or failed (``false``)."
-msgstr "ストレージ内のすべてのデータを削除します。コールバック ( 戻り値 : boolean ) を使用して、データの削除が成功したか ( ``True`` )、失敗したか ( ``false`` ) を確認します。"
-
-#: ../doc/reference/third_party_phonegap/secure_storage.rst:86
-msgid ""
-"In this plugin, we use the encryption library of iOS SDK. Therefore, in "
-"order to release the built app embedded this plugin to the App Store, you "
-"need to set 2 options when you submit your app for a review. Under the "
-"Export Compliance section, please choose \"Yes\" for both questions as shown"
-" in the screenshot below:"
-msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを使用しています。よって、このプラグインを組み込んだ、ビルド済みアプリを App Store へ提出して審査を受ける場合、アップロード時には特別な設定が必要となります。Export Compliance 上の 2 つの質問に対して、次のように、「 Yes 」 で答えます。"
-
 #: ../doc/reference/third_party_phonegap/share.rst:5
 msgid "Share Plugin (Android)"
 msgstr "Share プラグイン ( Android 向け )"
 
-#: ../doc/reference/third_party_phonegap/share.rst:10
+#: ../doc/reference/third_party_phonegap/share.rst:8
 msgid ""
-"Using Share Plugin, an app can share data with other apps like Gmail, "
-"DropBox, etc."
-msgstr "Share プラグインを使用すれば、他のアプリ ( Gmail、Dropbox など ) とデータを共有できます。"
+"Share plugin lets an app to share data with other apps like Gmail, DropBox, "
+"etc."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/share.rst:10
+#: ../doc/reference/third_party_phonegap/webintent.rst:10
+msgid "This plugin is available only to Android platform."
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/share.rst:18
 msgid ""
 "Click :guilabel:`Enable` button of the Share to add it into your project."
 msgstr "Share の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/share.rst:24
-#: ../doc/reference/third_party_phonegap/webintent.rst:25
-msgid "It's available only to Android platform."
-msgstr "サポート対象は、Android のみです。"
-
-#: ../doc/reference/third_party_phonegap/share.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:30
 msgid ""
 "Show a list of apps for user to choose and share the data when an app is "
 "selected."
 msgstr "データを共有するアプリの一覧を表示して、アプリの選択後に、データの共有を行います。"
 
-#: ../doc/reference/third_party_phonegap/share.rst:38
+#: ../doc/reference/third_party_phonegap/share.rst:35
 msgid "Share Plugin Demo"
 msgstr "Share プラグインの記述例"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:5
-msgid "SQLCipher Adapter (Enterprise)"
-msgstr "SQLCipher アダプター ( Monaca エンタープライズ専用 )"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:11
-msgid ""
-"SQLCipher Adapter is a Cordova plugin to create and access encrypted "
-"databases on Android, iOS, and Windows Universal (8.1) with API similar to "
-"HTML5/Web SQL API."
-msgstr "SQLCipher アダプターは、Cordova プラグインです。データベースの暗号化および暗号化されたデータベースへの問い合わせに使用します。サポート対象のプラットフォームは、Android、iOS、Windows 8.1 以上、Windows iPhone 8.1 以上です。API の取り扱い方法は、HTML5 の Web SQL API とほぼ変わりません。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:18
-msgid "Cordova 5.2"
-msgstr "Cordova 5.2"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:19
-msgid "iOS 8 or later"
-msgstr "iOS 8 以上"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:25
-msgid ""
-"From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage Cordova "
-"Plugins`."
-msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Cordova プラグインの管理` を選択します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:27
-msgid ""
-"Click :guilabel:`Enable` button of the ``SQLCipher Adapter`` to add it into "
-"your project."
-msgstr "``SQLCipher Adapter`` の :guilabel:`有効` ボタンをクリックして、プロジェクトにプラグインを追加します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:35
-msgid "Opening a Database"
-msgstr "データベースを開く"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:37
-msgid ""
-"If you try to open a database that doesn’t exist, the API will create it."
-msgstr "存在しないデータベースを開こうとする場合、API 側でデータベースを作成します。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:39
-msgid ""
-":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", "
-"[key: \"your-password-here\"], [location: 1]});`"
-msgstr ":dfn:`var db = window.sqlitePlugin.openDatabase({name: \"myDatabase.db\", [key: \"your-password-here\"], [location: 1]});`"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:43
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:105
-msgid ""
-"Your database's name. The database file name should include the extension, "
-"if desired."
-msgstr "データベース名です。データベースのファイル名に、拡張子を付記することもできます。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "``key``"
-msgstr "``key``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:45
-msgid "Your database's password."
-msgstr "データベースのパスワードです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid "``location``"
-msgstr "``location``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:47
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:107
-msgid ""
-"It used to select the database subdirectory location (iOS only) with the "
-"following choices:"
-msgstr "データベース用に使用するサブディレクトリーを指定します ( iOS のみ )。次の選択肢があります。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:49
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:109
-msgid ""
-"``0`` (default): *Documents* - visible to iTunes and backed up by iCloud."
-msgstr "``0`` ( デフォルト ) : *Documents* - iTunes 側から認識可、iCloud によるバックアップ可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:50
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:110
-msgid "``1``: *Library* - backed up by iCloud, NOT visible to iTunes."
-msgstr "``1`` : *Library* - iCloud によるバックアップ可、iTunes 側から認識不可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:51
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:111
-msgid ""
-"``2``: *Library/LocalDatabase* - NOT visible to iTunes and NOT backed up by "
-"iCloud."
-msgstr "``2`` : *Library/LocalDatabase* - iTunes 側から認識不可、iCloud によるバックアップ不可"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:56
-msgid ""
-"The following code illustrates an example with PRAGMA feature. First, a "
-"table is created and a single entry is added. Then, a query to count the "
-"inserted item to see if it's added as expected."
-msgstr "次の例では、PRAGMA 機能を使用しています。この例では、最初にテーブルを作成して、レコードを 1 件追加します。次に、想定どおりにレコードが追加されているか確認するためのクエリーを発行しています。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:94
-msgid ""
-"PRAGMA statements must be executed in executeSql() on the database object "
-"(i.e. db.executeSql()) and NOT within a transaction."
-msgstr "PRAGMA ステートメントは、必ず、データベースオブジェクトの executeSql() 内 ( db.executeSql() ) で実行します ( transaction 内ではありません )。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:99
-msgid "Deleting a Database"
-msgstr "データベースの削除"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:101
-msgid ""
-":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location:"
-" 1}, successCb, errorCb);`"
-msgstr ":dfn:`window.sqlitePlugin.deleteDatabase({name: \"myDatabase.db\", location: 1}, successCb, errorCb);`"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "``successCb``"
-msgstr "``successCb``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:113
-msgid "A callback when the database is deleted successfully."
-msgstr "データベースの削除が成功したときのコールバックです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "``errorCb``"
-msgstr "``errorCb``"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:115
-msgid "A callback when the database is failed to be deleted."
-msgstr "データベースの削除が失敗したときのコールバックです。"
-
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:119
-msgid ""
-"This API is not implemented for Windows 8.1 or higher and Windows Phone 8.1 "
-"or higher."
-msgstr "この API は、Windows 8.1 以上/Windows Phone 8.1 以上向けアプリの開発には使用できません。"
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:5
 msgid "WebIntent Plugin (Android)"
 msgstr "WebIntent プラグイン ( Android 向け )"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:11
+#: ../doc/reference/third_party_phonegap/webintent.rst:8
 msgid ""
-"Using WebIntent plugin, Monaca apps can start another application installed "
-"in the devices. The following sample will start an app that will display a "
-"map."
-msgstr "WebIntent プラグインを使用すれば、端末にインストールされている他のアプリを、Monaca アプリから起動できます。ここでは、例として、地図を表示するアプリを起動させます。"
+"WebIntent plugin lets you start an installed application from within Monaca "
+"application. The following sample will start an app that will display a map."
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid ""
@@ -26056,11 +26115,11 @@ msgid ""
 "project."
 msgstr "WebIntent の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:28
+#: ../doc/reference/third_party_phonegap/webintent.rst:26
 msgid "WebIntent Plugin Demo"
 msgstr "WebIntent プラグインの使用例"
 
-#: ../doc/reference/third_party_phonegap/webintent.rst:61
+#: ../doc/reference/third_party_phonegap/webintent.rst:59
 msgid ""
 "Using ``\"url\"`` attribute of the ``\"startActivity\"`` function, an app "
 "can specify the target app to be launched. Here are some examples:"

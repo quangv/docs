@@ -1253,7 +1253,7 @@ a.scrollup {
   height: 53px;
   position: fixed;
   bottom: 90px;
-  right: 12px;
+  right: 7px;
   display: none;
   text-indent: -9999px;
   background: url(../img/common/btn_top.png) no-repeat;
@@ -1277,7 +1277,8 @@ aside.global {
   aside.global ::-webkit-scrollbar {
     width: 8px; }
   aside.global div.aside-search {
-    padding: 0; }
+    padding: 0;
+    margin-right: 15px; }
   aside.global .gsc-input-box {
     height: 30px; }
   aside.global div.aside-search .cse .gsc-control-cse, aside.global .gsc-control-cse {
@@ -1295,8 +1296,10 @@ aside.global {
     margin-right: 5px; }
   aside.global nav.aside-main {
     background-color: #f2f2f2;
-    padding-right: 10px;
-    padding-bottom: 20px; }
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px; }
     aside.global nav.aside-main > div.aside-search-result-info {
       background-color: #ffff80;
       color: #444;

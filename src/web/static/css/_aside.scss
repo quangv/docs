@@ -14,6 +14,7 @@ aside.global {
   /* css for google search */
   div.aside-search {
     padding: 0;
+    margin-right: 15px;
   }
 
   .gsc-input-box {
@@ -44,8 +45,10 @@ aside.global {
   /* toc */
   nav.aside-main {
     background-color: #f2f2f2;
-    padding-right: 10px;
+    padding-right: 0;
+    padding-left: 10px;
     padding-bottom: 20px;
+    margin-right: 20px;
 
     > div.aside-search-result-info {
       background-color: #ffff80;

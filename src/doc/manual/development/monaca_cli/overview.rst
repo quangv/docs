@@ -4,16 +4,12 @@
 Monaca CLI Overview
 ==========================================
 
-.. rst-class:: right-menu
-
-
-Introduction
-===============================
 
 Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:
 
-- create new local projects, import or clone existing projects in Monaca Cloud into your local PC
+- create new local projects, import or clone existing projects on Monaca Cloud into your local PC
 - debug your app with inspector integration
+- support transpiler options
 - remote build your projects without any setups locally. 
 
 
@@ -56,17 +52,11 @@ Step 2: Creating a New Project and Run on Browser
 
 2. Choose a project template. Please see the example below:
 
-  .. code-block:: bash
-
-        $ monaca create PROJECT_DIRECTORY
-        Which project template do you use?
-
-        1: Hello World App
-        2: Minimum Template
-        3: RSS Reader Example
-        4: Memo Application
-
-        Type number>     1      
+  .. figure:: images/overview/create.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear    
 
 3. Run on the browser.
 

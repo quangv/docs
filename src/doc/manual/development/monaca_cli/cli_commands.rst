@@ -20,7 +20,6 @@ Commands                                   Description
 :ref:`monaca_plugin`                       manages installed plugins of a project.
 :ref:`monaca_debug`                        serves a single project to Monaca Debugger.
 :ref:`monaca_preview`                      serves a single project to browser.
-:ref:`monaca_multiserve`                   serves multiple projects to Monaca Debugger.
 :ref:`monaca_remote_build`                 builds a project remotely on Monaca Cloud.
 :ref:`monaca_proxy`                        configures proxy to use when connecting to Monaca Cloud.
 :ref:`monaca_logout`                       signs out from Monaca Cloud.
@@ -57,7 +56,7 @@ Example
 monaca create
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. With this command, you can choose to create a new project with two options such as ``Sample Apps`` and ``Templates``.
+Creates a new Monaca project locally at a specified path. The command downloads a list of available templates and then displays a list for the user to choose from. The specified project will be created in a directory given by the user.
 
 :dfn:`$ monaca create path`
 
@@ -67,16 +66,13 @@ Parameters
   =============== ============================================================================================================
 
 Example
-  The following snippet shows how to create a new project based on a ``jQuery TODO App`` sample app under "MyCLIProject" folder:
+  The following snippet shows how to create a new project based on a ``jQuery TODO App`` sample app under "DemoProject" folder:
 
-  .. code-block:: bash
-
-      $ monaca create MyCLIProject
-      Select an option: Sample Apps
-      Select a sample app: jQuery TODO App
-      Downloading template...
-
-      Project created successfully.
+  .. figure:: images/cli_commands/create.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear
 
 
 .. _monaca_clone:
@@ -86,8 +82,7 @@ Example
 monaca clone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have on Monaca Cloud. Then, use the arrow keys to select the project you want to clone. Next, input the directory path for the cloned project and wait for project files to be downloaded.
-
+Clones a project from the Monaca Cloud. The command downloads a list of available projects and then displays a list for the user to choose from. The project will be downloaded to a directory specified by the user. Also a link is created with corresponding monaca cloud project. User can later sync this project with monaca cloud.
 
 .. note:: If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project.
 
@@ -95,17 +90,13 @@ Clones a project from Monaca Cloud. Firstly, it will display a list of all proje
 
 
 Example
-  Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into "ClonedMemoApp" folder on your local PC.
+  Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into "CloneMemoProject" folder on your local PC.
 
-  .. code-block:: bash
-
-      $ monaca clone
-      Fetching project list...
-      Which project would you like to synchronize? Memo Application
-      Destination directory: ClonedMemoApp
-      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ClonedMemoApp
-      ...
-      Project successfully cloned from Monaca Cloud!
+  .. figure:: images/cli_commands/clone.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear
       
 
 .. rst-class:: function-reference
@@ -118,24 +109,20 @@ Example
 monaca import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Imports a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to import into a specified directory on your local PC.
+Imports a project from the Monaca Cloud. The command downloads a list of available projects and then displays a list for the user to choose from. The project will be downloaded to a directory specified by the user.
 
 .. note:: If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud.
 
 :dfn:`$ monaca import`
   
 Example
-  Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApp" folder on your local PC.
+  Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApplication" folder on your local PC.
 
-  .. code-block:: bash
-
-      $ monaca import
-      Fetching project list...
-      Which project would you like to synchronize? Memo Application
-      Destination directory: ImportedMemoApp
-      Cloning 'Memo Application' to /Users/Monaca/Documents/CLI/ImportedMemoApp
-      ...
-      Project successfully imported from Monaca Cloud!
+  .. figure:: images/cli_commands/import.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear
 
 
 .. rst-class:: function-reference
@@ -162,27 +149,19 @@ Options
   =========================================== ===========================================================================================================
   ``--delete``                                  deletes those files on Monaca cloud which are not existed locally.
   ``--force``                                   doesn't ask user for permission to continue.
-  ``--dry-run``                                 simulates the upload operation and provides details of which files will be uploaded. 
-                                                There is no actual upload operation is done. 
+  ``--dry-run``                                 simulates the upload operation and provides details of which files will be      
+                                                uploaded. No actual upload operation is done. 
   =========================================== ===========================================================================================================
 
 
 Example
   Navigate to your project folder. Then, type ``monaca upload`` command with various options and see how it works.
 
-  .. code-block:: bash
-
-      $ monaca upload --dry-run --delete
-      Following files will be uploaded.
-      1. /www/new_local_file.html
-
-      Following files will be deleted on Monaca Cloud.
-      1. /www/cloud_only_file.html      
-
-      $ monaca upload --delete
-      delete -> /www/cloud_only_file.html      
-      [100%] /www/new_local_file.html
-      Project successfully uploaded to Monaca Cloud!
+  .. figure:: images/cli_commands/upload.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear
 
 
 .. rst-class:: function-reference
@@ -205,26 +184,18 @@ Options
   =========================================== ===========================================================================================================
   ``--delete``                                  deletes those files locally which are not existed on Monaca Cloud.
   ``--force``                                   doesn't ask user for permission to continue.
-  ``--dry-run``                                 simulates the download operation and provides details of which files will be downloaded. 
-                                                There is no actual download operation is done. 
+  ``--dry-run``                                 simulates the download operation and provides details of which files will be 
+                                                downloaded. No actual download operation is done. 
   =========================================== ===========================================================================================================
 
 Example
   Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works.
 
-  .. code-block:: bash
-
-      $ monaca upload --dry-run --delete
-      Following files will be downloaded.
-      1. /www/new_cloud_file.html
-
-      Following files will be deleted locally.
-      1. /www/local_file.html      
-
-      $ monaca download --delete
-      delete -> /www/local_file.html      
-      [100%] /www/new_cloud_file.html
-      Project successfully downloaded from Monaca Cloud!
+  .. figure:: images/cli_commands/download.png
+      :width: 600px
+      :align: left
+  
+  .. rst-class:: clear
 
 .. rst-class:: function-reference
 
@@ -269,9 +240,32 @@ Example
 monaca preview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Serves a single project to browser. Use this command when you want to run your project on the browser. 
+Starts a local web server that serves the ``www`` assets. The command will watch the file-system for changes and reload the browser when a change occurs.
 
 :dfn:`$ monaca preview [option]`
+
+Options:
+  =========================================== ==============================================================================================
+    ``--port``, ``-p``                                  HTTP port to listen to (default value is 8000)
+    ``--no-open``                                       starts a local web server without opening a browser
+  =========================================== ==============================================================================================
+
+Example
+  Navigate to your project folder and use ``monaca preview`` command. Then, a browser will be opened running your project.
+
+  .. figure:: images/cli_commands/preview.png
+    :width: 600px
+    :align: left
+    
+  .. figure:: images/cli_commands/preview_window.png
+    :width: 600px
+    :align: left
+        
+    Preview Window
+    
+  .. rst-class:: clear
+
+  .. note:: In order to stop ``monaca preview`` process, press :guilabel:`Ctrl+c`.
 
 .. rst-class:: function-reference
 
@@ -282,13 +276,14 @@ Serves a single project to browser. Use this command when you want to run your p
 monaca debug
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it.
+Debugs one or more applications on a device and receives code changes instantly. This command starts a web server for Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger is connected, it will send file system changes to the debugger.
 
 :dfn:`$ monaca debug [option]`
 
 Options:
   =========================================== ==============================================================================================
-    ``--port``                                  HTTP port to listen to (default value is 8001)
+    ``paths``                                  list of directories. omit it to serve the current directory.
+    ``--port``                                 HTTP port to listen to (default value is 8001)
   =========================================== ==============================================================================================
 
 Example
@@ -319,41 +314,6 @@ Example
   
 .. rst-class:: clear
 
-
-.. rst-class:: function-reference
-
-.. _monaca_multiserve:
-
-.. rst-class:: function-reference
-
-monaca multiserve
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`.
-
-.. figure:: images/cli_commands/3.png
-  :width: 250px
-  :align: center
-
-.. rst-class:: clear
-
-:dfn:`$ monaca multiserve paths`
-
-Parameters:
-  =========================================== ==============================================================================================
-    ``paths``                                    a list of project directories 
-  =========================================== ==============================================================================================
-
-Example
-  Try to use this command with a list of projects you have on your local PC. In this example, we are serving 3 projects (SlidingMenu, ImportRssProject and CloneRssProject) which are under "MyProjectFolder/" to Monaca Debugger. You should see a list of these projects in your debugger if the pairing is successful.
-
-  .. code-block:: bash
-      
-      $ cd MyProjectFolder/
-      $ monaca multiserve SlidingMenu ImportRssProject CloneRssProject
-
-
-.. note:: In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`.
 
 .. rst-class:: function-reference
 

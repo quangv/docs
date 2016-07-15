@@ -131,9 +131,9 @@ Monthly Plans:
 
 Annual Plans:
 
-- There is no trial period for annual plans. You will be charged annual price when starting the subscription
-- You will be charged on the first day of the month 13 months after admission, unless you have switched plan to Basic.
-- After that, you will be charged annual price every 12 months.
+- There is no trial period for annual plans. 
+- You will be charged annual price when starting the subscription.
+- Your next charge will be on the first day of the 13th month after your admission, unless you have switched Basic plan. For example, you subscribe to the annual plan on July 20th 2016. Then, your next charge will be on August 1st 2017.
 - If you want to upgrade annual plan to another, please contact us.
 
 If you use Activation Code:

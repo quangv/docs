@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-06-29 02:50+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-15 06:22+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1934,20 +1934,20 @@ msgid "Annual Plans:"
 msgstr "年額料金プランの場合"
 
 #: ../doc/quick_start/monaca_intro.rst:134
-msgid ""
-"There is no trial period for annual plans. You will be charged annual price "
-"when starting the subscription"
-msgstr "年額料金プランには、無料トライアル期間はございません。ご登録後、年額をご請求します。"
+msgid "There is no trial period for annual plans."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:135
-msgid ""
-"You will be charged on the first day of the month 13 months after admission,"
-" unless you have switched plan to Basic."
-msgstr "ご登録後、最初の 13 ヶ月間 ( 加入月を含む ) は、月割計算で、毎月 1 日に料金をご請求します。ただし、Basic プランに変更した場合は、この限りではありません。"
+msgid "You will be charged annual price when starting the subscription."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:136
-msgid "After that, you will be charged annual price every 12 months."
-msgstr "それ以降は、12 ヶ月毎に 1 回、年額をご請求します。"
+msgid ""
+"Your next charge will be on the first day of the 13th month after your "
+"admission, unless you have switched Basic plan. For example, you subscribe "
+"to the annual plan on July 20th 2016. Then, your next charge will be on "
+"August 1st 2017."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:137
 msgid "If you want to upgrade annual plan to another, please contact us."

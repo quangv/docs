@@ -9,25 +9,15 @@ DatePicker Plugin
 
 DatePicker plugin lets an app use the native DatePicker control.
 
-.. image:: images/en/android_datepick.png
-   :alt: AndroidDatepick
-   :width: 250px
-
-.. image:: images/en/ios_datepick.png
-   :alt: iOSdatepick
-   :width: 250px
-
-
-
 Enable Plugin in Monaca
 ===========================
 
-1. From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or :menuselection:`Config > Manage Cordova Plugins`.
+1. From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`.
 
 2. Click :guilabel:`Enable` button of the DatePicker to add it into your project.
 
   .. image:: images/datepicker/1.png  
-         :width: 600px
+         :width: 700px
 
 
 Methods
