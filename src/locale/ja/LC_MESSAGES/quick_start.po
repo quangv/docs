@@ -5,13 +5,14 @@
 # Translators:
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
+# fabbygoh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
 # Masahiro Tanaka <masahiro@asial.co.jp>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-15 06:22+0000\n"
+"PO-Revision-Date: 2016-07-15 10:32+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1935,11 +1936,11 @@ msgstr "年額料金プランの場合"
 
 #: ../doc/quick_start/monaca_intro.rst:134
 msgid "There is no trial period for annual plans."
-msgstr ""
+msgstr "年額料金プランには、無料トライアル期間はございません。"
 
 #: ../doc/quick_start/monaca_intro.rst:135
 msgid "You will be charged annual price when starting the subscription."
-msgstr ""
+msgstr "ご登録時に年額が課金されます。"
 
 #: ../doc/quick_start/monaca_intro.rst:136
 msgid ""
@@ -1947,7 +1948,7 @@ msgid ""
 "admission, unless you have switched Basic plan. For example, you subscribe "
 "to the annual plan on July 20th 2016. Then, your next charge will be on "
 "August 1st 2017."
-msgstr ""
+msgstr "登録月を含む13ヶ月後の1日に年額が課金されます。ただし期日前にBasicプランに変更した場合はこの限りではありません。例：2016年7月20日に年額プランを登録した場合は、翌年の課金日は2017年8月1日となります。"
 
 #: ../doc/quick_start/monaca_intro.rst:137
 msgid "If you want to upgrade annual plan to another, please contact us."
