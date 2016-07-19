@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-15 03:11+0000\n"
+"PO-Revision-Date: 2016-07-19 02:36+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -6479,7 +6479,7 @@ msgid ""
 "downloads a list of available templates and then displays a list for the "
 "user to choose from. The specified project will be created in a directory "
 "given by the user."
-msgstr ""
+msgstr "指定したパス ( ローカル ) に、Monaca プロジェクトを新規作成します。このコマンドを実行すると、Monaca クラウドからテンプレート群がダウンロードされ、その一覧が表示されます。テンプレートの選択後、指定されたディレクトリーに、プロジェクトが作成されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:61
 msgid ":dfn:`$ monaca create path`"
@@ -6502,7 +6502,7 @@ msgstr "プロジェクトファイルの保存先"
 msgid ""
 "The following snippet shows how to create a new project based on a ``jQuery "
 "TODO App`` sample app under \"DemoProject\" folder:"
-msgstr ""
+msgstr "次の例では、サンプルアプリ 「 ``jQuery TODO App`` 」 を使用して、\"DemoProject\" フォルダー下に、プロジェクトを新規作成しています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:83
 msgid "monaca clone"
@@ -6515,7 +6515,7 @@ msgid ""
 " project will be downloaded to a directory specified by the user. Also a "
 "link is created with corresponding monaca cloud project. User can later sync"
 " this project with monaca cloud."
-msgstr ""
+msgstr "Monaca クラウドから、プロジェクトをクローン ( clone ) します。このコマンドを実行すると、使用可能なプロジェクトが Monaca クラウドからダウンロードされ、その一覧が表示されます。一覧から対象のプロジェクトを選択すると、指定されたディレクトリーにプロジェクトがダウンロードされます。同時に、ローカルとクラウドのプロジェクト間の同期ができるように、リンクが設定されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:87
 msgid ""
@@ -6533,7 +6533,7 @@ msgstr ":dfn:`$ monaca clone`"
 msgid ""
 "Here is an exmaple of how to clone a project called ``Memo Application`` "
 "from Monaca Cloud into \"CloneMemoProject\" folder on your local PC."
-msgstr ""
+msgstr "次の例では、Monaca クラウド上のプロジェクト 「 ``Memo Application`` 」 を、ローカルの \"CloneMemoProject\" フォルダーへクローンしています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:110
 msgid "monaca import"
@@ -6544,7 +6544,7 @@ msgid ""
 "Imports a project from the Monaca Cloud. The command downloads a list of "
 "available projects and then displays a list for the user to choose from. The"
 " project will be downloaded to a directory specified by the user."
-msgstr ""
+msgstr "Monaca クラウドから、プロジェクトをインポートします。このコマンドを実行すると、使用可能なプロジェクトが Monaca クラウドからダウンロードされ、その一覧が表示されます。一覧から対象のプロジェクトを選択すると、指定されたディレクトリーにプロジェクトがダウンロードされます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:114
 msgid ""
@@ -6563,7 +6563,7 @@ msgstr ":dfn:`$ monaca import`"
 msgid ""
 "Here is an exmaple of how to import a project called ``Memo Application`` "
 "from Monaca Cloud into \"ImportedMemoApplication\" folder on your local PC."
-msgstr ""
+msgstr "次の例では、Monaca クラウド上のプロジェクト 「 ``Memo Application`` 」 を、ローカルの \"ImportedMemoApplication\" フォルダーへインポートしています。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:136
 msgid "monaca upload"
@@ -6630,7 +6630,7 @@ msgstr "``--dry-run``"
 msgid ""
 "simulates the upload operation and provides details of which files will be "
 "uploaded. No actual upload operation is done."
-msgstr ""
+msgstr "アップロード処理をシュミレートします。出力として、アップロード対象のファイルを表示します。シュミレートのみで、実際のアップロードは行われません。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:158
 msgid ""
@@ -6665,7 +6665,7 @@ msgstr "Monaca クラウド上に存在しないファイルが、ローカル�
 msgid ""
 "simulates the download operation and provides details of which files will be"
 " downloaded. No actual download operation is done."
-msgstr ""
+msgstr "ダウンロード処理をシュミレートします。出力として、ダウンロード対象のファイルを表示します。シュミレートのみで、実際のダウンロードは行われません。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:192
 msgid ""
@@ -6733,7 +6733,7 @@ msgid ""
 "Starts a local web server that serves the ``www`` assets. The command will "
 "watch the file-system for changes and reload the browser when a change "
 "occurs."
-msgstr ""
+msgstr "ローカル上で Web サーバーを起動後、ブラウザー上でアプリを起動させます ( ``www`` 下のアセットがブラウザー上で使用できる状態になります )。このコマンドを実行すると、ファイルシステム上のファイルを監視し、ファイルが変更された場合には、ブラウザー上にも即反映させます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:245
 msgid ":dfn:`$ monaca preview [option]`"
@@ -6747,33 +6747,33 @@ msgstr "オプション"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:249
 msgid "``--port``, ``-p``"
-msgstr ""
+msgstr "``--port`` または ``-p``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:249
 msgid "HTTP port to listen to (default value is 8000)"
-msgstr ""
+msgstr "HTTP の待ち受けポート番号 ( デフォルトは、8000 )"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:250
 msgid "``--no-open``"
-msgstr ""
+msgstr "``--no-open``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:250
 msgid "starts a local web server without opening a browser"
-msgstr ""
+msgstr "ローカル上で Web サーバーを起動させます ( ブラウザーは起動させません )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:254
 msgid ""
 "Navigate to your project folder and use ``monaca preview`` command. Then, a "
 "browser will be opened running your project."
-msgstr ""
+msgstr "プロジェクトフォルダーへ移動して、``monaca preview`` コマンドを実行します。実行後、ブラウザーが起動して、プロジェクトが実行されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:264
 msgid "Preview Window"
-msgstr ""
+msgstr "プレビュー用のウィンドウ"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:268
 msgid "In order to stop ``monaca preview`` process, press :guilabel:`Ctrl+c`."
-msgstr ""
+msgstr "``monaca preview`` の処理を停止する場合には、:guilabel:`Ctrl+c` を押します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:277
 msgid "monaca debug"
@@ -6786,7 +6786,7 @@ msgid ""
 "to. It also starts broadcasting messages to tell debuggers in the local "
 "network to connect to it. When a debugger is connected, it will send file "
 "system changes to the debugger."
-msgstr ""
+msgstr "端末上でアプリをデバッグするためのコマンドです。ローカルで行った、ファイルへの変更は、デバッガー上にも即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、対象のローカルネットワーク上に接続されているデバッガーに対して、接続するか確認するメッセージが送信されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:281
 msgid ":dfn:`$ monaca debug [option]`"
@@ -6798,7 +6798,7 @@ msgstr "``paths``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:285
 msgid "list of directories. omit it to serve the current directory."
-msgstr ""
+msgstr "ディレクトリー ( 現在開いているディレクトリーの場合には、省略可 )"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:286
 msgid "``--port``"
@@ -7007,7 +7007,7 @@ msgstr "Monaca CLI は、コマンドライン形式のインターフェイス�
 msgid ""
 "create new local projects, import or clone existing projects on Monaca Cloud"
 " into your local PC"
-msgstr ""
+msgstr "ローカルへのプロジェクトの作成、Monaca クラウド上に置いてあるプロジェクトのインポートとクローン"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:11
 msgid "debug your app with inspector integration"
@@ -7015,7 +7015,7 @@ msgstr "インスペクタを使用した、アプリのデバッグ"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:12
 msgid "support transpiler options"
-msgstr ""
+msgstr "変換処理 ( トランスパイラー/Transpiler ) のサポート"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:13
 msgid "remote build your projects without any setups locally."

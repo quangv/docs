@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-15 09:49+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-07-19 02:36+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19853,70 +19853,70 @@ msgstr "このプラグインでは、グローバルなコンストラクタ �
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "**fileKey**"
-msgstr ""
+msgstr "**fileKey**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "The name of the form element. Defaults to ``file``. (DOMString)"
-msgstr ""
+msgstr "form 要素の name 属性。デフォルトは、``file`` です。 (DOMString)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
 msgid "**fileName**"
-msgstr ""
+msgstr "**fileName**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
 msgid ""
 "The file name to use when saving the file on the server. Defaults to "
 "``image.jpg``. (DOMString)"
-msgstr ""
+msgstr "サーバーにファイルを保存するときに使用するファイル名。デフォルトは、``image.jpg`` です。 (DOMString)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid "**httpMethod**"
-msgstr ""
+msgstr "**httpMethod**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid ""
 "The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. "
 "(DOMString)"
-msgstr ""
+msgstr "使用する、HTTP の method 属性。``PUT`` または ``POST`` を使用します。デフォルトは、``POST`` です。 (DOMString)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
 msgid "**mimeType**"
-msgstr ""
+msgstr "**mimeType**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
 msgid ""
 "The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
-msgstr ""
+msgstr "アップロードするデータの MIME タイプ。デフォルトは、``image/jpeg`` です。 (DOMString)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid "**params**"
-msgstr ""
+msgstr "**params**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid ""
 "A set of optional key/value pairs to pass in the HTTP request. (Object)"
-msgstr ""
+msgstr "HTTP リクエスト内に任意で設定する key と value の組み合わせ (Object)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
 msgid "**chunkedMode**"
-msgstr ""
+msgstr "**chunkedMode**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
 msgid ""
 "Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
 "(Boolean)"
-msgstr ""
+msgstr "チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かを設定します。デフォルトは、``true`` です。 (Boolean)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid "**headers**"
-msgstr ""
+msgstr "**headers**"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid ""
 "A map of header name/header values. Use an array to specify more than one "
 "value. On iOS, FireOS, and Android, if a header named Content-Type is "
 "present, multipart form data will NOT be used. (Object)"
-msgstr ""
+msgstr "ヘッダーのプロパティー名とその値の組み合わせ。値が複数ある場合には、配列を使用します。iOS、FireOS、Android では、Content-Type が記述されている場合には、マルチパートフォームデータ形式 ( multipart form data ) は使用されません。 (Object)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:216
 msgid ""
@@ -20091,7 +20091,7 @@ msgstr "``iOSExtraFileSystems``"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 msgid "/var/mobile/Applications/<UUID>/"
-msgstr ""
+msgstr "/var/mobile/Applications/<UUID>/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:134
 #: ../doc/reference/cordova_6.2/file/index.rst:138
@@ -20112,41 +20112,41 @@ msgstr "\\-"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:136
 msgid "appname.app/"
-msgstr ""
+msgstr "appname.app/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:138
 msgid "www/"
-msgstr ""
+msgstr "www/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:140
 msgid "Documents/"
-msgstr ""
+msgstr "Documents/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:142
 #: ../doc/reference/cordova_6.2/file/index.rst:146
 msgid "NoCloud/"
-msgstr ""
+msgstr "NoCloud/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:144
 msgid "Library"
-msgstr ""
+msgstr "Library"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:148
 msgid "Cloud/"
-msgstr ""
+msgstr "Cloud/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 msgid "Caches/"
-msgstr ""
+msgstr "Caches/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:150
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "Yes\\***"
-msgstr ""
+msgstr "Yes\\***"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 msgid "tmp/"
-msgstr ""
+msgstr "tmp/"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:152
 #: ../doc/reference/cordova_6.2/file/index.rst:183
@@ -25033,7 +25033,7 @@ msgstr "iOS 端末であれば、 *true* を返します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
 msgid "Monaca HTML5 Resource Encryption"
-msgstr ""
+msgstr "アプリロジック暗号化 プラグイン"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:8
 msgid ""
@@ -25107,14 +25107,14 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr ""
+msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
 msgid ""
 "Next, you need to setup the encryption password. Find your newly added "
 "plugin under the *Enable Plugins* section. Then, hover the plugin and click "
 ":guilabel:`Config` button."
-msgstr ""
+msgstr "次に、 暗号用パスワードを設定します。*組み込まれたプラグイン* 欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:44
 msgid ""
@@ -25138,7 +25138,7 @@ msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが�
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:5
 msgid "Monaca In-App Updater"
-msgstr ""
+msgstr "In-App アップデーター プラグイン"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:8
 msgid ""
@@ -25196,7 +25196,7 @@ msgid ""
 "Next, you need to configure necessary information for this plugin. Find your"
 " newly added plugin under the *Enable Plugins* section. Then, hover the "
 "plugin and click :guilabel:`Config` button."
-msgstr ""
+msgstr "次に、プラグインの使用時に必要となる情報を設定します。*組み込まれたプラグイン* 欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:54
 msgid ""
@@ -25437,7 +25437,7 @@ msgstr ""
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
-msgstr ""
+msgstr "セキュア ストレージ プラグイン"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:8
 msgid ""
@@ -25505,7 +25505,7 @@ msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを�
 
 #: ../doc/reference/power_plugins/sqlcipher.rst:5
 msgid "SQLCipher Adapter"
-msgstr ""
+msgstr "SQLCipher アダプター"
 
 #: ../doc/reference/power_plugins/sqlcipher.rst:9
 msgid ""
@@ -25790,7 +25790,7 @@ msgid ""
 "attribute them to specific campaigns/media-sources. Please take time to "
 "define the event(s) you would like to measure to allow you to track ROI "
 "(Return on Investment) and LTV (Lifetime Value)."
-msgstr "アプリ内イベントの監視・追跡 API ( In-App Events Tracking API ) を使用して、ユーザーの動向を分析し、各種キャンペーンおよびメディアソースへのアクセス向上につなげることができます。ROI ( 投資対効果 ) と LTV ( 顧客生涯価値 ) の計算に必要となる、データ収集対象のイベントに関しては、慎重に選択する必要があります。[ 翻訳者メモ : 「 アプリ内イベント 」 は、原文では 「 In-App Event 」 となっています。AppsFlyer では、この In-App Event を 2 つの意味で使用しているようです。1 つ目は、ここに記載されている 「 アプリ内イベント 」 の意味で、2 つ目は traceEvent メソッド使用時に適用する、イベント名とオプション値の 「 組み合わせ 」 を 「 In-App イベント 」 と呼称しています。ここでは、2 つ目の意味は使用していませんが、AppFlyer 社提供の原文のドキュメントを読むときは、この点もご留意ください ]"
+msgstr "「 アプリ内イベントの監視・追跡 API 」 ( In-App Events Tracking API ) を使用して、ユーザーの動向を分析し、各種キャンペーンおよびメディアソースへのアクセス向上につなげることができます。ROI ( 投資対効果 ) と LTV ( 顧客生涯価値 ) の計算に必要となる、データ収集対象のイベントに関しては、慎重に選択する必要があります。[ 翻訳者メモ : 「 アプリ内イベント 」 は、原文では 「 In-App Event 」 となっています。AppsFlyer では、この In-App Event を 2 つの意味で使用しているようです。1 つ目は、ここに記載されている 「 アプリ内イベント 」 の意味で、2 つ目は traceEvent メソッド使用時に適用する、イベント名とオプション値の 「 組み合わせ 」 を 「 In-App イベント 」 と呼称しています。ここでは、2 つ目の意味は使用していませんが、AppFlyer 社提供の原文のドキュメントを読むときは、この点もご留意ください ]"
 
 #: ../doc/reference/service_integration/apps_flyer.rst:125
 msgid ""
@@ -25988,7 +25988,7 @@ msgstr "BarcodeScanner プラグイン"
 msgid ""
 "From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or"
 " :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr ""
+msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理` または :menuselection:`設定 > Cordova プラグインの管理` を選択します。"
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid ""
@@ -26077,12 +26077,12 @@ msgstr "Share プラグイン ( Android 向け )"
 msgid ""
 "Share plugin lets an app to share data with other apps like Gmail, DropBox, "
 "etc."
-msgstr ""
+msgstr "Share プラグインを使用すれば、他のアプリ ( Gmail、Dropbox など ) とデータを共有できます。"
 
 #: ../doc/reference/third_party_phonegap/share.rst:10
 #: ../doc/reference/third_party_phonegap/webintent.rst:10
 msgid "This plugin is available only to Android platform."
-msgstr ""
+msgstr "このプラグインは、Android プラットフォーム専用です。"
 
 #: ../doc/reference/third_party_phonegap/share.rst:18
 msgid ""
@@ -26107,7 +26107,7 @@ msgstr "WebIntent プラグイン ( Android 向け )"
 msgid ""
 "WebIntent plugin lets you start an installed application from within Monaca "
 "application. The following sample will start an app that will display a map."
-msgstr ""
+msgstr "WebIntent プラグインを使用すれば、端末にインストールされている他のアプリを、Monaca アプリから起動できます。ここでは、例として、地図を表示するアプリを起動させます。"
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid ""
