@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-20 02:57+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-21 06:22+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -195,7 +195,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -413,23 +413,23 @@ msgstr "[ iOS アプリ設定 ] の [ 対象デバイス ] オプションで、
 
 #: ../doc/faq/build.rst:60
 msgid "How to upload the built app for App Store submission?"
-msgstr "ビルドしたアプリを App Store に申請したいのですが、アップロード方法を教えてください。"
+msgstr ""
 
 #: ../doc/faq/build.rst:62
 msgid ""
 "There are two ways to upload the built app to iTunes Connect for App Store "
 "submission:"
-msgstr "App Store への申請方法を、次に記します ( iTunes Connect へのアップロード方法 )。"
+msgstr ""
 
 #: ../doc/faq/build.rst:64
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr ":ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プラン <https://monaca.io/pricing.html>`_ が必要です )"
+msgstr ""
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
-msgstr "Application Loader ソフトウェアを使用 ( Application Loader とは、Apple 社が提供する、Mac OS X 専用のソフトウェアです )"
+msgstr ""
 
 #: ../doc/faq/build.rst:71
 msgid ""
@@ -538,7 +538,7 @@ msgstr "スプラッシュ画面に使用している画像が適当か確認し
 msgid ""
 "There may be a description error in the :file:`MonacaApp-Info.plist` in case"
 " of iOS or :file:`AndroidManifest.xml` in case of Android."
-msgstr ":file:`MonacaApp-Info.plist` ( iOS の場合 )、または、:file:`AndroidManifest.xml` ( Android の場合 ) 内の記述が適当か確認してください。 "
+msgstr ""
 
 #: ../doc/faq/build.rst:121
 msgid ""
@@ -1189,7 +1189,7 @@ msgstr "Monaca を初めてお使いになる場合には、こちらから `登
 
 #: ../doc/faq/general.rst:83
 msgid "What is Cordova Core Plugin?"
-msgstr "基本 Cordova プラグイン ( Cordova コアプラグイン ) とは何ですか？"
+msgstr ""
 
 #: ../doc/faq/general.rst:84
 msgid ""
@@ -1200,7 +1200,7 @@ msgid ""
 "information of Cordova Core Plugins usage in Monaca, please refer to "
 ":ref:`monaca_with_cordova` and `here "
 "<https://cordova.apache.org/docs/en/latest/>`_ ."
-msgstr "基本 Cordova プラグイン ( 別名 「 Cordova コアプラグイン 」 ) とは、Apache Cordova プロジェクト提供のオープンソースを基礎とした、モバイルアプリ開発用のフレームワークです。Nitobi 社が開発に着手して、その後、Adobe 社が継続して開発を行っています ( Nitobi 社は、Adobe 社に吸収されました )。Monaca では、JavaScript を使用して、基本 Cordova プラグイン経由で、スマートフォン搭載の機能にアクセスします。Monaca における 基本 Cordova プラグインの使用方法に関しては、:ref:`monaca_with_cordova` と `こちら <https://cordova.apache.org/docs/en/latest/>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/faq/general.rst:89
 msgid "Can I develop commercial smartphone applications using Monaca?"

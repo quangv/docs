@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-21 01:43+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-21 06:22+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1380,7 +1380,7 @@ msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
 msgid ":ref:`MonacaApp-Info.plist`"
-msgstr ":ref:`MonacaApp-Info.plist`"
+msgstr ""
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -19853,70 +19853,70 @@ msgstr "このプラグインでは、グローバルなコンストラクタ �
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "**fileKey**"
-msgstr "**fileKey**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:111
 msgid "The name of the form element. Defaults to ``file``. (DOMString)"
-msgstr "form 要素の name 属性。デフォルトは、``file`` です。 (DOMString)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
 msgid "**fileName**"
-msgstr "**fileName**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:112
 msgid ""
 "The file name to use when saving the file on the server. Defaults to "
 "``image.jpg``. (DOMString)"
-msgstr "サーバーにファイルを保存するときに使用するファイル名。デフォルトは、``image.jpg`` です。 (DOMString)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid "**httpMethod**"
-msgstr "**httpMethod**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:113
 msgid ""
 "The HTTP method to use - either ``PUT`` or ``POST``. Defaults to ``POST``. "
 "(DOMString)"
-msgstr "使用する、HTTP の method 属性。``PUT`` または ``POST`` を使用します。デフォルトは、``POST`` です。 (DOMString)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
 msgid "**mimeType**"
-msgstr "**mimeType**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:114
 msgid ""
 "The mime type of the data to upload. Defaults to ``image/jpeg``. (DOMString)"
-msgstr "アップロードするデータの MIME タイプ。デフォルトは、``image/jpeg`` です。 (DOMString)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid "**params**"
-msgstr "**params**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:115
 msgid ""
 "A set of optional key/value pairs to pass in the HTTP request. (Object)"
-msgstr "HTTP リクエスト内に任意で設定する key と value の組み合わせ (Object)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
 msgid "**chunkedMode**"
-msgstr "**chunkedMode**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:116
 msgid ""
 "Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
 "(Boolean)"
-msgstr "チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かを設定します。デフォルトは、``true`` です。 (Boolean)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid "**headers**"
-msgstr "**headers**"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid ""
 "A map of header name/header values. Use an array to specify more than one "
 "value. On iOS, FireOS, and Android, if a header named Content-Type is "
 "present, multipart form data will NOT be used. (Object)"
-msgstr "ヘッダーのプロパティー名とその値の組み合わせ。値が複数ある場合には、配列を使用します。iOS、FireOS、Android では、Content-Type が記述されている場合には、マルチパートフォームデータ形式 ( multipart form data ) は使用されません。 (Object)"
+msgstr ""
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:216
 msgid ""
@@ -25033,7 +25033,7 @@ msgstr "iOS 端末であれば、 *true* を返します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
 msgid "Monaca HTML5 Resource Encryption"
-msgstr "アプリロジック暗号化 プラグイン"
+msgstr ""
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:8
 msgid ""
@@ -25107,14 +25107,14 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。"
+msgstr ""
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
 msgid ""
 "Next, you need to setup the encryption password. Find your newly added "
 "plugin under the *Enable Plugins* section. Then, hover the plugin and click "
 ":guilabel:`Config` button."
-msgstr "次に、 暗号用パスワードを設定します。*組み込まれたプラグイン* 欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:44
 msgid ""
@@ -25138,7 +25138,7 @@ msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーが�
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:5
 msgid "Monaca In-App Updater"
-msgstr "In-App アップデーター プラグイン"
+msgstr ""
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:8
 msgid ""
@@ -25196,7 +25196,7 @@ msgid ""
 "Next, you need to configure necessary information for this plugin. Find your"
 " newly added plugin under the *Enable Plugins* section. Then, hover the "
 "plugin and click :guilabel:`Config` button."
-msgstr "次に、プラグインの使用時に必要となる情報を設定します。*組み込まれたプラグイン* 欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:54
 msgid ""
@@ -25423,21 +25423,21 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr "Monaca パワー プラグイン"
+msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr "Monaca パワープラグインを使用することにより、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
+msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
-msgstr "Monaca パワープラグインのご利用には、Monaca エンタープライズ プランが必要です。"
+msgstr ""
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
-msgstr "セキュア ストレージ プラグイン"
+msgstr ""
 
 #: ../doc/reference/power_plugins/secure_storage.rst:8
 msgid ""
@@ -25505,7 +25505,7 @@ msgstr "このプラグインでは、iOS SDK の暗号化ライブラリーを�
 
 #: ../doc/reference/power_plugins/sqlcipher.rst:5
 msgid "SQLCipher Adapter"
-msgstr "SQLCipher アダプター"
+msgstr ""
 
 #: ../doc/reference/power_plugins/sqlcipher.rst:9
 msgid ""
@@ -25988,7 +25988,7 @@ msgstr "BarcodeScanner プラグイン"
 msgid ""
 "From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or"
 " :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理` または :menuselection:`設定 > Cordova プラグインの管理` を選択します。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid ""
@@ -26077,12 +26077,12 @@ msgstr "Share プラグイン ( Android 向け )"
 msgid ""
 "Share plugin lets an app to share data with other apps like Gmail, DropBox, "
 "etc."
-msgstr "Share プラグインを使用すれば、他のアプリ ( Gmail、Dropbox など ) とデータを共有できます。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/share.rst:10
 #: ../doc/reference/third_party_phonegap/webintent.rst:10
 msgid "This plugin is available only to Android platform."
-msgstr "このプラグインは、Android プラットフォーム専用です。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/share.rst:18
 msgid ""
@@ -26107,7 +26107,7 @@ msgstr "WebIntent プラグイン ( Android 向け )"
 msgid ""
 "WebIntent plugin lets you start an installed application from within Monaca "
 "application. The following sample will start an app that will display a map."
-msgstr "WebIntent プラグインを使用すれば、端末にインストールされている他のアプリを、Monaca アプリから起動できます。ここでは、例として、地図を表示するアプリを起動させます。"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/webintent.rst:19
 msgid ""
