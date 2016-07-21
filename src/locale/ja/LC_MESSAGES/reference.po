@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-19 02:36+0000\n"
+"PO-Revision-Date: 2016-07-21 01:43+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -7493,7 +7493,7 @@ msgstr "**params**: HTTP リクエスト内に任意で設定する key と valu
 msgid ""
 "**chunkedMode**: Whether to upload the data in chunked streaming mode. "
 "Defaults to ``true``. (Boolean)"
-msgstr "**chunkedMode**: チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かを設定します。デフォルトは、``true`` です。 (Boolean)"
+msgstr "**chunkedMode**: チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かの設定。デフォルトは、``true`` です。 (Boolean)"
 
 #: ../doc/reference/cordova_3.5/file-transfer/index.rst:99
 #: ../doc/reference/cordova_4.1/file-transfer/index.rst:125
@@ -10247,7 +10247,7 @@ msgstr "ブラウザーのロケールを ``en\\_US``に設定した場合、以
 msgid ""
 "Returns a pattern string to format and parse currency values according to "
 "the client's user preferences and ISO 4217 currency code."
-msgstr "ユーザー側の設定と ISO 4217 通貨コードに基づき、通貨の値のパース処理 ( parse ) と通貨の値のフォーマット処理 ( format ) に使用する、文字列の pattern ( パターン ) を返します。[ 翻訳者メモ：このプラグインの解説中に記述されている pattern には、2 つの意味 ( 「 Unicode Technical Standard #35 の Pattern 」 と 「 オブジェクトで使用されているプロパティーの名前である Pattern 」 ) がありますが、翻訳文中では、原文のまま、どちらも区別せず、Pattern としています。]"
+msgstr "ユーザー側の設定と ISO 4217 通貨コードに基づき、通貨の値のパース処理 ( parse ) と通貨の値のフォーマット処理 ( format ) に使用する、文字列の pattern ( パターン ) を返します。[ 翻訳者メモ：このプラグインの解説中に記述されている pattern には、大きく分けて、2 つの意味 ( 「 Unicode Technical Standard #35 の Pattern 」 と 「 オブジェクトおよびオブジェクトのプロパティーである Pattern 」 ) がありますが、翻訳文中では、原文のまま、Pattern としています。]"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:115
 #: ../doc/reference/cordova_4.1/globalization/index.rst:263
@@ -11915,7 +11915,7 @@ msgid ""
 "If the user terminates the operation before an audio clip is captured, the "
 "``CaptureErrorCallback`` executes with a ``CaptureError`` object, featuring "
 "the ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーしたオーディオ クリップ ファイルに関する情報が格納されています。オーディオクリップのキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCallback`` が実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックが実行されます。各 MediaFile オブジェクトには、キャプチャーしたオーディオ クリップ ファイルに関する情報が格納されています。オーディオクリップのキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCallback`` が実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:150
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:173
@@ -12000,7 +12000,7 @@ msgid ""
 "``CaptureAudioOptions.limit`` is reached. If no ``limit`` value is "
 "specified, it defaults to one (1), and the capture operation terminates "
 "after the user captures a single image."
-msgstr "カメラアプリを終了したとき、または、``CaptureImageOptions.limit`` ( 原文では 「 CaptureAudioOptions 」 となっています ) で指定した最大撮影数に達したとき、キャプチャー処理は終了します。``limit`` パラメーターを指定しない場合、「 1 」 がデフォルトとなります。この場合、1 つの画像を撮影したあとに、キャプチャー処理が終了します。"
+msgstr "カメラアプリを終了したとき、または、``CaptureImageOptions.limit`` ( 原文では 「 CaptureAudioOptions 」 となっています ) で指定した最大撮影数に達したとき、キャプチャー処理は終了します。``limit`` パラメーターを指定しない場合、「 1 」 がデフォルトとなります。この場合、画像を 1 つ撮影したあとに、キャプチャー処理が終了します。"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:217
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:244
@@ -12011,7 +12011,7 @@ msgid ""
 "If the user terminates the operation before capturing an image, the "
 "``CaptureErrorCB`` callback executes with a ``CaptureError`` object "
 "featuring a ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーした画像ファイルに関する情報が格納されています。画像のキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックが実行されます。各 MediaFile オブジェクトには、キャプチャーした画像ファイルに関する情報が格納されています。画像のキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:254
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:282
@@ -12079,7 +12079,7 @@ msgid ""
 "file. If the user terminates the operation before capturing a video clip, "
 "the ``CaptureErrorCB`` callback executes with a ``CaptureError`` object "
 "featuring a ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーしたでビデオクリップファイルに関する情報が格納されています。ビデオクリップのキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、 ``CaptureCB`` コールバックが実行されます。各 MediaFile オブジェクトには、キャプチャーしたビデオクリップファイルに関する情報が格納されています。ビデオクリップのキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:343
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:371
@@ -12226,7 +12226,7 @@ msgid ""
 "capture operation. Failure scenarios include when the capture application is"
 " busy, a capture operation is already taking place, or the user cancels the "
 "operation before any media files are captured."
-msgstr "メディアのキャプチャー処理を開始して、エラーが発生した場合、この関数が実行されます。想定できるエラー発生のシナリオとして、キャプチャー用のアプリがビジー ( busy ) 状態の場合、キャプチャー処理をすでに実行されている場合、メディアファイルのキャプチャー前にユーザーが処理をキャンセルした場合などが考えられます。"
+msgstr "メディアのキャプチャー処理を開始して、エラーが発生した場合、この関数が実行されます。想定できるエラー発生のシナリオとして、キャプチャー用のアプリがビジー ( busy ) 状態の場合、キャプチャー処理がすでに実行されている場合、メディアファイルのキャプチャー前にユーザーが処理をキャンセルした場合などが考えられます。"
 
 #: ../doc/reference/cordova_3.5/media-capture/index.rst:449
 #: ../doc/reference/cordova_4.1/media-capture/index.rst:477
@@ -16412,7 +16412,7 @@ msgid ""
 "case. If image editing is essential to your application, consider seeking a "
 "third party library or plugin that provides its own image editing utility "
 "for a more robust solution."
-msgstr "``allowEdit`` の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。** このプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このような場合、不具合が生じます。もちろん、端末側のアプリとこのプラグインの相性が合うことも場合によってはありますが ( たとえば、Google Plus Photos )、ごくまれなケースです。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリー・プラグインを使用することも代替案としてご検討ください。"
+msgstr "``allowEdit`` の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。** このプラグインを Android へ実装させた場合、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このような場合、不具合が生じます。もちろん、端末側のアプリとこのプラグインの相性が合うことも場合によってはありますが ( たとえば、Google Plus Photos )、ごくまれなケースです。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリー・プラグインを使用することも代替案としてご検討ください。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:582
 #: ../doc/reference/cordova_6.2/camera/index.rst:573
@@ -16540,7 +16540,7 @@ msgid ""
 "us/library/windowsphone/develop/hh394006.aspx You may also comment or up-"
 "vote the related issue in the `issue tracker "
 "<https://issues.apache.org/jira/browse/CB-2083>`__"
-msgstr "``saveToPhotoAlbum`` パラメーターを無視します。なお、wp7/8 向けの cordova のカメラ API ( Camera API ) を使用して撮影した画像は、常に、端末側のカメラロール ( Camera Roll ) にコピーされます。ユーザーの設定によっては異なる場合がありますが、これは、OneDrive 側にも自動的に写真がアップロードされてしまうことを意味します。この結果、アプリ開発時の想定よりも、より多くの不特定多数の人に、閲覧される状態になってしまいます。これが障害になる場合には、msdn にも掲載されているように、CameraCaptureTask を実装させる必要があります ( http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx )。また、関連する問題点に関して、`こちら <https://issues.apache.org/jira/browse/CB-2083>`__ からコメントを寄せることもできます。"
+msgstr "``saveToPhotoAlbum`` パラメーターを無視します。なお、wp7/8 向けの cordova のカメラ API ( Camera API ) を使用して撮影した画像は、常に、端末側のカメラロール ( Camera Roll ) にコピーされます。ユーザーの設定によっては異なる場合がありますが、これは、OneDrive 側にも自動的に写真がアップロードされてしまうことを意味します。この結果、アプリ開発時の想定よりも、より多くの不特定多数の人に、閲覧される状態になってしまいます。これが問題になる場合には、msdn にも掲載されているように、CameraCaptureTask を実装させる必要があります ( http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx )。また、関連する問題点に関して、`こちら <https://issues.apache.org/jira/browse/CB-2083>`__ からコメントを寄せることもできます。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:648
 #: ../doc/reference/cordova_6.2/camera/index.rst:634
@@ -18664,7 +18664,7 @@ msgid ""
 "**AutoHideSplashScreen** (boolean, default to ``true``). Indicates wherether"
 " hide splash screen automatically or not. Splash screen hidden after amount "
 "of time specified in the ``SplashScreenDelay`` preference."
-msgstr "**AutoHideSplashScreen** ( 真偽値、デフォルトでは ``true`` ) : スプラッシュスクリーンを自動的に非表示にするかを設定します。preference 「 ``SplashScreenDelay`` 」 に指定された時間の経過後、スプラッシュスクリーンが非表示になります。"
+msgstr "**AutoHideSplashScreen** ( 真偽値、デフォルトでは ``true`` ) : スプラッシュスクリーンを自動的に非表示にするかを設定します。preference ( ``SplashScreenDelay`` ) に指定された時間の経過後、スプラッシュスクリーンが非表示になります。"
 
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:90
 msgid ""
@@ -19276,7 +19276,7 @@ msgid ""
 "value that would be passed to the callbacks (either the URI/URL or an error "
 "message). Check the ``pendingResult.pluginStatus`` to determine whether or "
 "not the call was successful."
-msgstr "Android では、インテント ( intent ) を使用し、カメラのアクティビティ ( activity ) を起動させ、画像のキャプチャーを行います。ただし、メモリーの空きが少ない携帯端末では、Cordova 側のアクティビティが強制終了 ( kill ) させられることがあります。このような場合、resume イベントを使用して、強制終了させられたプラグインの情報 ( 実行結果を含む ) を、新たに起動したプラグインのコールバックに渡します。詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。 ``pendingResult.result`` には、新コールバック側に渡す、以前の実行結果が入っています ( ここでは URI/URL または エラーメッセージとなります )。"
+msgstr "Android では、インテント ( intent ) を使用し、カメラのアクティビティ ( activity ) を起動させ、画像のキャプチャーを行います。ただし、メモリーの空きが少ない携帯端末では、Cordova 側のアクティビティが強制終了 ( kill ) させられることがあります。このような場合、resume イベントを使用して、強制終了させられたプラグインの情報 ( 実行結果を含む ) を、コールバックに渡します。詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。 ``pendingResult.result`` には、コールバック側に渡す、保留中の実行結果が入っています ( ここでは URI/URL または エラーメッセージとなります )。また、実行結果が成功か否かを確認する場合、``pendingResult.pluginStatus`` を使用します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:569
 msgid ""
@@ -19291,13 +19291,13 @@ msgid ""
 "case. If image editing is essential to your application, consider seeking a "
 "third party library or plugin that provides its own image editing utility "
 "for a more robust solution."
-msgstr "``allowEdit`` *の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。*\nこのプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このようなときは、不具合が生じます。なお、このようなことは、極まれなケースで、ほとんどの場合、問題は起きませんが ( たとえば、 Google Plus Photos 間との動作は問題ありません )、それでも不確定要素を残さない方が賢明です。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリーまたはプラグインを使用することも代替案としてご検討ください。"
+msgstr "``allowEdit`` *の使用時、Android は想定していた動作をしないことがあります。このため、この設定は使用しないでください。* このプラグインを Android へ実装させた場合には、画像のトリミング処理 ( cropping ) は、端末側のアプリを使用して行う仕組みになっています。ただし、プラグイン側では、ユーザーが選択する編集用アプリに関しては、なんら制御ができないため、このプラグインと相性の悪いアプリをユーザーが選択してしまう場合もあり、このようなときは、不具合が生じます。なお、このようなことは、極まれなケースで、ほとんどの場合、問題は起きませんが ( たとえば、 Google Plus Photos の動作は問題ありません )、それでも不確定要素を残さない方が賢明です。もし、画像の編集が必須なアプリを開発している場合、画像編集機能を独自に提供している、サードパーティー製のライブラリーまたはプラグインを使用することも代替案としてご検討ください。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:638
 msgid ""
 "Sample: Take Pictures, Select Pictures from the Picture Library, and Get "
 "Thumbnails"
-msgstr "例 : 写真撮影、ライブラリーから写真を取得、サムネイルの取得"
+msgstr "サンプルコード : 写真の撮影、ライブラリーからの写真を取得、サムネイルの取得"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:640
 msgid ""
@@ -19361,7 +19361,7 @@ msgid ""
 " takes a CameraOptions object as the third argument. When you call "
 "``setOptions``, pass ``Camera.PictureSourceType.CAMERA`` as the picture "
 "source."
-msgstr "写真撮影時、``getPicture`` の第三引数に、オプション用のオブジェクト ( CameraOptions ) を渡します。また、``setOptions`` の呼び出し時に、写真の取得先を指定する、``Camera.PictureSourceType.CAMERA`` を渡します。"
+msgstr "写真撮影時、``getPicture`` の第三引数に、オプション用のオブジェクト ( CameraOptions ) を渡します。また、``setOptions`` の呼び出し時に、写真の取得先を指定する ``Camera.PictureSourceType.CAMERA`` を渡します。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:698
 msgid ""
@@ -19375,7 +19375,7 @@ msgid ""
 "part of the URI in the Content-Security-Policy ``<meta>`` element in "
 "index.html. For example, on Windows 10, you can include ``ms-appdata``: in "
 "your ``<meta>`` element."
-msgstr "画像を表示する場合、いくつかのプラットフォームでは、Content-Security-Policy の ``<meta>`` 要素に、URI を設定する必要があります。たとえば、Window 10 では、``<meta>`` 要素内に ``ms-appdata``: を使用して、URI を設定します。"
+msgstr "いくつかのプラットフォームでは、画像を表示する場合、Content-Security-Policy の ``<meta>`` 要素に、URI を設定する必要があります。たとえば、Window 10 では、``<meta>`` 要素内に ``ms-appdata:`` を使用して、URI を設定しています。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:720
 msgid "Take a Picture and Return Thumbnails (Resize the Picture)"
@@ -19388,7 +19388,7 @@ msgid ""
 "In this example, you resize the returned image to fit in a 100px by 100px "
 "box (the aspect ratio is maintained, so 100px is either the height or width,"
 " whichever is greater in the source)."
-msgstr "縮小された画像を取得したい場合には、CameraOptions オブジェクトの ``targetWidth`` と  ``targetHeight`` に希望するサイズの値を入れて渡します。ここでは、100 x 100px のボックスに収まる画像が返ってくるように設定します ( アスペクト比は保持されるので、ソースの縦または横のどちらか大きい方に 100px が適用されます。 )。"
+msgstr "縮小された画像を取得したい場合には、CameraOptions オブジェクトの ``targetWidth`` と  ``targetHeight`` に、希望するサイズの値を入れて渡します。ここでは、100 x 100px のボックスに収まる画像が返ってくるように設定します ( アスペクト比は保持されるので、ソースの縦または横のどちらか大きい方に 100px が適用されます。 )。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:750
 msgid "Select a File from the Picture Library"
@@ -19426,7 +19426,7 @@ msgid ""
 "app. If you need to use a FileEntry object, set the ``destinationType`` to "
 "``Camera.DestinationType.FILE_URI`` in your CameraOptions object (this is "
 "also the default value)."
-msgstr "別の場所への画像のコピー、画像のアップロード ( ファイル転送プラグイン/FileTransfer プラグイン の使用 ) などを行う場合、カメラアプリが返した写真に対応する FileEntry オブジェクトを使用します。オブジェクトを取得する場合には、カメラアプリが返す file URI を使用して、``window.resolveLocalFileSystemURL`` を呼び出します ( CameraOptions オブジェクト内で、``destinationType`` を ``Camera.DestinationType.FILE_URI`` に設定する必要があります。通常、デフォルトで、この設定になっています )。"
+msgstr "別の場所への画像のコピー、画像のアップロード ( ファイル転送プラグイン/FileTransfer プラグイン の使用 ) などを行う場合、カメラアプリから返された写真に紐づけされている FileEntry オブジェクトを使用します。オブジェクトを取得する場合には、カメラアプリが返す file URI を使用して、``window.resolveLocalFileSystemURL`` を呼び出します ( CameraOptions オブジェクト内で、``destinationType`` を ``Camera.DestinationType.FILE_URI`` に設定する必要があります。通常、デフォルトで、この設定になっています )。"
 
 #: ../doc/reference/cordova_6.2/camera/index.rst:813
 msgid ""
@@ -19462,7 +19462,7 @@ msgid ""
 "The code shown here creates a file in your app's cache (in sandboxed "
 "storage) named ``tempFile.jpeg``. With the new FileEntry object, you can "
 "copy the image to the file or do something else like upload it."
-msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成します。また、新たな FileEntry オブジェクトを使用して、お好みの処理 ( 画像のコピー、アップデートなど ) を行えます。"
+msgstr "次のコードでは、アプリのキャッシュ用ディレクトリー ( サンドボックス内のストレージ ) 内に、``tempFile.jpeg`` と名付けたファイルを作成しています。新たな FileEntry オブジェクトを使用すれば、さまざまな処理 ( 画像のコピー、アップデートなど ) を行えます。"
 
 #: ../doc/reference/cordova_6.2/console/index.rst:24
 msgid "Console Plugin"
@@ -19635,7 +19635,7 @@ msgid ""
 "application. If the plugin returns its result in the ``resume`` event, then "
 "you must first wrap the returned object in a ``Contact`` object before using"
 " it."
-msgstr "このプラグインでは、住所録のデータを取得するときに、Cordova とは異なるアクティビティ ( 外部のアクティビティ/an external Activity ) を起動させます。詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。プラグインの実行結果 ( 以前の結果 ) が ``resume`` イベント内で返ってきた場合、返ってきたオブジェクトを使用する前に、``Contact`` オブジェクトを使用して、最初に、このオブジェクトをラップ ( wrap ) する必要があります。"
+msgstr "このプラグインでは、住所録のデータを取得するときに、Cordova とは異なるアクティビティ ( 外部のアクティビティ/an external Activity ) を起動させます。このような場合に起きる問題に関しては、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。なお、プラグインの実行結果 ( 保留中の結果 ) が ``resume`` イベント内で返ってきた場合、その返ってきたオブジェクトを使用する前に、最初に、``Contact`` オブジェクトを使用して、このオブジェクトをラップ ( wrap ) する必要があります。"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:846
 msgid ""
@@ -19644,7 +19644,7 @@ msgid ""
 "which contact properties must be returned back from ``contacts.find()`` "
 "method (see ``contactFindOptions.desiredFields``), or to specify fields to "
 "search in (through ``contactFields`` parameter). Possible values are:"
-msgstr "``ContactFieldType`` オブジェクトは、「 項目 」 ( fieldType ) の集合体です。 たとえば、複数の ``'phoneNumbers/電話番号'`` または ``'emails'/メールアドレス`` をまとめるときに使用します。また、このオブジェクトは、``contacts.find()`` の使用時、検索対象の項目 ( ``contactFields`` を参照のこと ) として、または、検索結果として返される項目の指定 ( ``contactFindOptions.desiredFields`` を参照のこと ) に使用できます。"
+msgstr "``ContactFieldType`` オブジェクトは、「 項目 」 ( fieldType ) の集合体です。 たとえば、複数の ``phoneNumbers/電話番号`` または ``emails/メールアドレス`` をまとめるときに使用します。また、このオブジェクトは、``contacts.find()`` の使用時、検索対象の項目 ( ``contactFields`` を参照のこと ) として、または、検索結果として返される項目の指定 ( ``contactFindOptions.desiredFields`` を参照のこと ) に使用できます。"
 
 #: ../doc/reference/cordova_6.2/contacts/index.rst:848
 msgid "``navigator.contacts.fieldType.addresses``"
@@ -20562,7 +20562,7 @@ msgid ""
 "DirectoryEntry reference that you already obtained as an argument to the "
 "saveFile function. You will save the blob image and display it later after "
 "reading the file (to validate the operation)."
-msgstr "getSampleFile 内の処理を記述します。ここでは、XHR リクエストを使用して、Blob 形式の画像を取得しています。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blog 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
+msgstr "getSampleFile 内の処理を記述します。ここでは、XHR リクエストを使用して、Blob 形式の画像を取得しています。saveFile 関数へ渡す引数として、以前に取得していた、DirectoryEntry のリファレンスを使用していること以外は、Cordova 固有のコードは特にありません。この後の処理で、Blob 形式の画像の保存、ならびに、ファイルの読み込みと表示を、それぞれ行っていきます。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:847
 msgid ""
@@ -20611,7 +20611,7 @@ msgid ""
 "in the Content-Security-Policy element in index.html. For example, on "
 "Windows 10, you can include ``ms-appdata``: in your element. Here is an "
 "example."
-msgstr "プラットフォームにより異なる URI を使用して ( FileEntry の代わりに )、画像を表示させる場合、index.html の Content-Security-Policy 要素に、URI のホストを指定します。Windows 10 では、``ms-appdata``: を使用します。次に例を記します。"
+msgstr "プラットフォームにより異なる URI を使用して ( FileEntry の代わりに )、画像を表示させる場合、index.html の Content-Security-Policy 要素に、URI のホストを指定します。Windows 10 では、``ms-appdata:`` を使用します。次に例を記します。"
 
 #: ../doc/reference/cordova_6.2/file/index.rst:947
 msgid "Create Directories"
@@ -20667,7 +20667,7 @@ msgid ""
 "If Geolocation service is turned off the ``onError`` callback is invoked "
 "after ``timeout`` interval (if specified). If ``timeout`` parameter is not "
 "specified then no callback is called."
-msgstr "位置情報の取得サービスがオフにされた場合、``timeout`` に設定された時間の経過後 ( 設定されている場合 )、``onError`` コールバックが実行されます。"
+msgstr "位置情報の取得サービスがオフにされた場合、``timeout`` に設定された時間の経過後 ( 設定されている場合 )、``onError`` コールバックが実行されます。``timeout`` が設定されていない場合、コールバックは実行されません。"
 
 #: ../doc/reference/cordova_6.2/globalization/index.rst:28
 msgid ""
@@ -20715,7 +20715,7 @@ msgid ""
 "the user terminates the operation before capturing an image, the "
 "``CaptureErrorCB`` callback executes with a ``CaptureError`` object "
 "featuring a ``CaptureError.CAPTURE_NO_MEDIA_FILES`` error code."
-msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、CaptureCB コールバックを実行します。各 MediaFile オブジェクトには、キャプチャーした画像ファイルに関する情報が格納されています。画像のキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
+msgstr "キャプチャー処理が終了するときには、``MediaFile`` オブジェクト ( 群 ) の配列を使用して、CaptureCB コールバックが実行されます。各 MediaFile オブジェクトには、キャプチャーした画像ファイルに関する情報が格納されています。画像のキャプチャー前に、ユーザーが処理を終了させた場合、 ``CaptureError`` オブジェクトを使用して、``CaptureErrorCB`` コールバックが実行されます。``CaptureError`` オブジェクトには、``CaptureError.CAPTURE_NO_MEDIA_FILES`` エラーコードが格納されています。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:238
 msgid "Catpure.captureVideo"
@@ -20755,11 +20755,11 @@ msgid ""
 "that fires after the `Cordova resume "
 "<http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_"
 " event."
-msgstr "Android プラットフォーム上で、オーディオ・ビデオ・画像をキャプチャーする場合、ネイティブ側のキャプチャー用アプリが起動され、Cordova Webview がバックグラウンド処理に切り替わったタイミングで、Cordova が動作中のアプリ自体が強制終了 ( kill ) させられる場合があります。この問題の詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。強制終了させられた場合、キャプチャー処理のメソッドに指定されていた成功時または失敗時のコールバックは実行されません。残っている実行結果は、Cordova の `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベント後に実行される document イベントで使用できます ( resume イベントに関する詳細は、左記の 「 ライフサイクルに関する注意点 」 を参照のこと )。"
+msgstr "Android プラットフォーム上で、オーディオ・ビデオ・画像をキャプチャーする場合、ネイティブ側のキャプチャー用アプリが起動され、Cordova Webview がバックグラウンド処理に切り替わったタイミングで、アプリ自体 ( Cordova が動作中 ) が強制終了 ( kill ) させられる場合があります。この問題の詳細は、`Cordova 使用時の Android アクティビティのライフサイクルに関する注意点 ( 英語サイト ) <http://cordova.apache.org/docs/en/dev/guide/platforms/android/lifecycle.html>`_ をご確認ください。強制終了させられた場合、キャプチャー処理のメソッドに指定されていた成功時または失敗時のコールバックは実行されません。未処理/保留されている実行結果は、Cordova の `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベント後に実行される document イベントで使用できます ( resume イベントに関する詳細は、左記の 「 ライフサイクルに関する注意点 」 を参照のこと )。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:692
 msgid "In your app, you should subscribe to the two possible events like so:"
-msgstr "なお、アプリ内では、次のように、キャプチャーの成功・失敗のどちらにも対応できるように記述 ( サブスクライブ/subscribe ) しておくことを推奨します。"
+msgstr "なお、アプリ内では、次のように、どちらのイベントにも対応できるように記述 ( サブスクライブ/subscribe ) しておくことを推奨します。"
 
 #: ../doc/reference/cordova_6.2/media-capture/index.rst:711
 msgid ""
@@ -20771,7 +20771,7 @@ msgid ""
 " events as appropriate. Please note that these events will only fire on the "
 "Android platform and only when the Webview was destroyed during a capture "
 "operation."
-msgstr "コード内における、キャプチャー結果を処理する場所は、開発者側で自由 ( 上記の 「 ライフサイクル 」 を参照のこと ) に設定できますが、アプリ側の 「 処理の状況/状態 」 の保存と復旧は、それぞれ、`pause <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#pause>`_ イベントと `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベントで適宜行うことが必要です。なお、これらのイベントは、Android プラットフォーム上でのみ使用でき、加えて、キャプチャー実行時、WebView が強制終了された場合のみ使用できます。"
+msgstr "コード内における、キャプチャー結果を処理する場所は、開発者側で自由に設定できますが ( 上記の 「 ライフサイクル 」 を参照のこと )、アプリ側の処理の ( 保留する/されている処理 ) の保存と復旧は、それぞれ、`pause <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#pause>`_ イベントと `resume <http://cordova.apache.org/docs/en/latest/cordova/events/events.html#resume>`_ イベントで適宜行うことが必要です。なお、これらのイベントは、Android プラットフォーム上でのみ使用でき、加えて、キャプチャー実行時、WebView が強制終了された場合のみ使用できます。"
 
 #: ../doc/reference/cordova_6.2/media/index.rst:28
 msgid ""
@@ -20882,7 +20882,7 @@ msgid ""
 "Turning the fading off via ``<preference name=\"FadeSplashScreen\" "
 "value=\"false\"/>`` technically means fading duration to be ``0`` so that in"
 " this example the overall splash delay will still be 3 seconds."
-msgstr "``<preference name=\"FadeSplashScreen\" value=\"false\"/>`` の設定とフェードの処理時間を ``0`` に設定したとき ( または、0 になったとき ) の挙動は同じです。よって、上記の例では、スプラッシュスクリーンの非表示設定が優先されます。"
+msgstr "``<preference name=\"FadeSplashScreen\" value=\"false\"/>`` の設定とフェードの処理時間を ``0`` に設定したとき ( または、0 になったとき ) の挙動は同じです。よって、上記の例では、スプラッシュスクリーンの非表示設定が優先されます ( スプラッシュスクリーンの非表示は、設定どおり、3 秒後になります )。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:114
 msgid ""
@@ -20895,7 +20895,7 @@ msgstr "*備考*: 上記のような設定は、アプリの起動のみに適�
 msgid ""
 "``ShowSplashScreenSpinner`` (boolean, defaults to ``true``): Set to false to"
 " hide the splash-screen spinner."
-msgstr " ``ShowSplashScreenSpinner`` ( 真偽値、デフォルトでは ``true`` ) : スプラッシュスクリーン上にスピナーを表示させない場合には、false を設定します。"
+msgstr "``ShowSplashScreenSpinner`` ( 真偽値、デフォルトでは ``true`` ) : スプラッシュスクリーン上にスピナーを表示させない場合には、false を設定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:165
 msgid ""
@@ -20907,7 +20907,7 @@ msgstr "iOS では、スプラッシュスクリーンの画像は、「 Launch 
 msgid ""
 "``SplashScreenSpinnerColor`` (string, defaults to system accent color): "
 "hash, rgb notation or CSS color name."
-msgstr "``SplashScreenSpinnerColor`` ( 文字列、デフォルトではシステム側のカラー設定を使用 ) : # 記号付きのカラーコード ( 原文 「 hash 」 のみ )、RGB、CSS のカラーネームのいずれかで指定します。"
+msgstr "``SplashScreenSpinnerColor`` ( 文字列、デフォルトではシステム側のカラー設定を使用 ) : 「 # 」 記号付きのカラーコード ( 原文 「 hash 」 のみ )、RGB、CSS のカラーネームのいずれかで指定します。"
 
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:178
 msgid ""
@@ -20937,21 +20937,21 @@ msgstr "テスト環境 ( バージョン番号 ) : `2.1.3 <https://github.com/a
 msgid ""
 "``StatusBarOverlaysWebView`` (boolean, defaults to true). On iOS 7, make the"
 " statusbar overlay or not overlay the WebView at startup."
-msgstr "``StatusBarOverlaysWebView`` ( 真偽値、デフォルトでは true )。アプリの起動時、WebView 上にステータスバーを置くか ( overlay/オーバーレイ ) 否かを設定します。iOS 7 が対象です。"
+msgstr "``StatusBarOverlaysWebView`` ( 真偽値、デフォルトでは true )。アプリの起動時、WebView 上にステータスバーを置くか ( overlay/オーバーレイ ) 否かを設定します。[ 翻訳者メモ : 原文には、「 on iOS 7 」 とありますが、他のバージョンでも使用されていることから、この表現を削除しています ]"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:62
 msgid ""
 "``StatusBarBackgroundColor`` (color hex string, no default value). On iOS 7,"
 " set the background color of the statusbar by a hex string (#RRGGBB) at "
 "startup. If this value is not set, the background color will be transparent."
-msgstr "``StatusBarBackgroundColor`` ( 16 進数の文字列で示すカラーコード、デフォルトはなし )。アプリ起動時のスタータスバーの背景色を、16進数の文字列 ( #RRGGBB ) で設定します。この値が設定されていない場合、背景色は透明になります。"
+msgstr "``StatusBarBackgroundColor`` ( 16 進数の文字列で示すカラーコード、デフォルトはなし )。アプリ起動時のスタータスバーの背景色を、16進数の文字列 ( #RRGGBB ) で設定します。この値が設定されていない場合、背景色は透明になります。[ 翻訳者メモ : 原文には、「 on iOS 7 」 とありますが、他のバージョンでも使用されていることから、この表現を削除しています ]"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:68
 msgid ""
 "``StatusBarStyle`` (status bar style, defaults to lightcontent). On iOS 7, "
 "set the status bar style. Available options default, lightcontent, "
 "blacktranslucent, blackopaque."
-msgstr "``StatusBarStyle`` ( ステータスバーのスタイル、デフォルトは lightcontent )。ステータスバーのスタイル ( 色 ) を設定します。 default、lightcontent、blacktranslucent、blackopaque のいずれかを設定できます。iOS 7 が対象です。"
+msgstr "``StatusBarStyle`` ( ステータスバーのスタイル、デフォルトは lightcontent )。ステータスバーのスタイル ( 色 ) を設定します。 default、lightcontent、blacktranslucent、blackopaque のいずれかを設定できます。[ 翻訳者メモ : 原文には、「 on iOS 7 」 とありますが、他のバージョンでも使用されていることから、この表現を削除しています ]"
 
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:77
 msgid ""
@@ -20986,7 +20986,7 @@ msgstr "Android 4.0 以上"
 msgid ""
 "Controls which URLs the WebView itself can be navigated to. Applies to top-"
 "level navigations only."
-msgstr "WebView 上で使用できる URL を制御します。適用範囲は、最上位のウィンドウ ( top-level navigation ) 上におけるページ遷移のみです。"
+msgstr "WebView 上で使用できる URL を制御します。適用範囲は、最上位のページ遷移 ( top-level navigation ) のみです。"
 
 #: ../doc/reference/cordova_6.2/whitelist/index.rst:68
 msgid "Quirks: on Android it also applies to iframes for non-http(s) schemes."
@@ -21013,7 +21013,7 @@ msgstr "Android における、「 BROWSABLE 」 設定に相当します。"
 msgid ""
 "This whitelist does not apply to plugins, only hyperlinks and calls to "
 "``window.open()``."
-msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクに適用されます。"
+msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクだけに適用されます。"
 
 #: ../doc/reference/index.rst:2
 msgid "API"
@@ -25047,7 +25047,7 @@ msgstr "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用し�
 #: ../doc/reference/power_plugins/secure_storage.rst:10
 #: ../doc/reference/power_plugins/sqlcipher.rst:11
 msgid "This plugin is available to Enterprise users only."
-msgstr "このプラグインのご利用には、Monaca エンタープライズが必要です。"
+msgstr "このプラグインのご利用には、Monaca エンタープライズ プランが必要です。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:16
 #: ../doc/reference/power_plugins/in-app_updater.rst:15
@@ -25423,17 +25423,17 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr ""
+msgstr "Monaca パワー プラグイン"
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr ""
+msgstr "Monaca パワープラグインを使用することにより、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
-msgstr ""
+msgstr "Monaca パワープラグインのご利用には、Monaca エンタープライズ プランが必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-19 02:35+0000\n"
+"PO-Revision-Date: 2016-07-20 02:57+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -195,7 +195,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちらhere <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ をご確認ください。"
+msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -425,11 +425,11 @@ msgstr "App Store への申請方法を、次に記します ( iTunes Connect �
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr "using :ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プラン <https://monaca.io/pricing.html>`_ が必要です )"
+msgstr ":ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プラン <https://monaca.io/pricing.html>`_ が必要です )"
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
-msgstr "Application Loader ソフトウェアを使用 ( Apple 社が提供する、Mac OS X 専用のソフトウェアです )"
+msgstr "Application Loader ソフトウェアを使用 ( Application Loader とは、Apple 社が提供する、Mac OS X 専用のソフトウェアです )"
 
 #: ../doc/faq/build.rst:71
 msgid ""
