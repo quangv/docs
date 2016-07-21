@@ -86,6 +86,16 @@
     {{else}}
       {{{contents}}}
     {{/if}}
+
+      <nav class="header-nav">
+        {{#if fjson.prev}}
+          <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
+        {{/if}}
+        {{#if fjson.next}}
+          <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
+        {{/if}}
+      </nav>
+
   </article>
 
   {{#if toctree}}
