@@ -41,7 +41,7 @@ div.sampleapp {
     padding-left: 5px;
     padding-right: 15px;
   }
-  button {
+  a, button {
     margin: 20px 5px 5px 5px;
     font-size: 16px;
     border: 1px solid #373d47;
@@ -49,6 +49,13 @@ div.sampleapp {
     color: #fff;
     background-color: #505763;
     padding: 10px 10px 10px 10px;
+  }
+  a:link {
+    color: #fff;
+  }
+  a:hover {
+    color: #fff;
+    text-decoration: none;
   }
   .column-left,
   .column-center,
