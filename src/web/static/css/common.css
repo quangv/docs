@@ -560,7 +560,9 @@ header.navbar {
         header.navbar .navbar-header .navbar-brand {
           padding-left: 16px; } }
       header.navbar .navbar-header .navbar-brand img {
-        width: 110px; }
+        width: 110px;
+        left: 20px;
+        position: absolute; }
     header.navbar .navbar-header .navbar-toggle {
       background-color: rgba(0, 0, 0, 0.16);
       border-radius: 0;
@@ -829,8 +831,6 @@ header.global {
   header.global .alternativeVersion {
     padding: 0 0.25em; }
   header.global .headcont {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     height: 70px;
     margin: 0 auto;
@@ -958,10 +958,7 @@ header.global {
           font-weight: 400; }
         header.global nav.global div > ul > li:hover > ul {
           visibility: visible;
-          opacity: 1;
-          -webkit-transition-delay: 0;
-          -moz-transition-delay: 0;
-          transition-delay: 0; }
+          opacity: 1; }
 
 html[lang=en] header.global nav > div > ul > li:nth-child(1) {
   width: 120px; }
@@ -1268,8 +1265,6 @@ aside.global {
   font-size: 16px;
   padding: 55px 0px 40px 0px;
   width: 288px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* css for google search */
   /* css for google search */
@@ -1324,10 +1319,7 @@ aside.global {
           line-height: 1.5;
           margin: 0;
           padding: 6px 0 6px 0;
-          position: relative;
-          -webkit-transition: background-color 100ms;
-          -moz-transition: background-color 100ms;
-          transition: background-color 100ms; }
+          position: relative; }
           aside.global nav.aside-main > div > ul > li > ul li a:link, aside.global nav.aside-main > div > ul > li > ul li a:visited {
             color: #5d89cb;
             text-decoration: none; }

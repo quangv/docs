@@ -5,7 +5,7 @@ aside.global {
   font-size: 16px;
   padding: 55px 0px 40px 0px;
   width: 288px;
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 
   ::-webkit-scrollbar {
     width: 8px;
@@ -82,7 +82,6 @@ aside.global {
               padding: 6px 0 6px $aside-padding;
               position: relative;
               @include all-a(#5d89cb,none);
-              @include transition(background-color 100ms);
 
               a {
                 padding-left: 5px;
