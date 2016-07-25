@@ -19,7 +19,7 @@ This is a template using `Onsen UI sliding menu <http://onsenui.io/guide/overvie
   </div>
 
 
-:download:`Onsen UI Sliding Menu Sample <download/onsen_ui_sliding_menu.zip>`
+:download:`Click here to download the project <download/onsen_ui_sliding_menu.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

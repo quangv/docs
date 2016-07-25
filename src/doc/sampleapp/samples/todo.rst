@@ -19,7 +19,7 @@ The application allows you to add a todo list.
   </div>
 
 
-:download:`TODO App <download/todo.zip>`
+:download:`Click here to download the project <download/todo.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

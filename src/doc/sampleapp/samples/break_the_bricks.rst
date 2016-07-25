@@ -20,7 +20,7 @@ This is a sample game based on :file:`pixi.js` which is a super fast HTML5 2D re
   </div>
 
 
-:download:`Break the Bricks App <download/break_the_bricks.zip>`
+:download:`Click here to download the project <download/break_the_bricks.zip>`
 
 
 File Components

@@ -19,7 +19,7 @@ This sample app allows user to create a memo app using Monaca Backend API.
   </div>
 
 
-:download:`Backend Memo App <download/backend_memo.zip>`
+:download:`Click here to download the project <download/backend_memo.zip>`
 
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

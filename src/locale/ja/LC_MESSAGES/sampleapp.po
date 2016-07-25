@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 03:23+0000\n"
+"PO-Revision-Date: 2016-07-25 04:01+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgid "*Tested Environments:* Android 4.2.2, iOS 7.1.1"
 msgstr "*テスト環境 :* Android 4.2.2、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/age-calc.rst:25
-msgid ":download:`BirthYear App <download/age-calc.zip>`"
+msgid ":download:`Click here to download the project <download/age-calc.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:28
@@ -239,7 +239,8 @@ msgid "*Tested Environments:* Android 4.1.1, iOS 7.1.1"
 msgstr "*テスト環境 :* Android 4.1.1、 iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:22
-msgid ":download:`Backend Memo App <download/backend_memo.zip>`"
+msgid ""
+":download:`Click here to download the project <download/backend_memo.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:25
@@ -495,7 +496,9 @@ msgid "*Tested Environments:* Android 4.4, iOS 8.1.1"
 msgstr "*テスト環境 :* Android 4.4、iOS 8.1.1"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:23
-msgid ":download:`Break the Bricks App <download/break_the_bricks.zip>`"
+msgid ""
+":download:`Click here to download the project "
+"<download/break_the_bricks.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
@@ -596,7 +599,7 @@ msgid "This sample app is a clock app displaying current Date and time."
 msgstr "現在の日付と時間を表示する時計アプリのサンプルです。"
 
 #: ../doc/sampleapp/samples/clock.rst:24
-msgid ":download:`Clock App <download/clock.zip>`"
+msgid ":download:`Click here to download the project <download/clock.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/clock.rst:36
@@ -666,7 +669,7 @@ msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
 msgstr "*テスト環境 :* Android 4.3、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/facebook.rst:22
-msgid ":download:`Facebook Client App <download/facebook.zip>`"
+msgid ":download:`Click here to download the project <download/facebook.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:27
@@ -969,7 +972,7 @@ msgid ""
 msgstr "このサンプルアプリでは、Flickr から画像を取得して、スライドショーをします。"
 
 #: ../doc/sampleapp/samples/flickr.rst:21
-msgid ":download:`Flickr Sample App <download/flickr.zip>`"
+msgid ":download:`Click here to download the project <download/flickr.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:31
@@ -1048,7 +1051,8 @@ msgid ""
 msgstr "このサンプルアプリでは、PhoneGap のデモンストレーションを行います。デモンストレーションとして、複数の端末機能 ( カメラ、連絡帳、コンパスなど ) を実装させています。"
 
 #: ../doc/sampleapp/samples/hello_world.rst:23
-msgid ":download:`Hello World App <download/hello_world.zip>`"
+msgid ""
+":download:`Click here to download the project <download/hello_world.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
@@ -1310,7 +1314,7 @@ msgid ""
 msgstr "アプリをビルドするか、または、カスタムビルドされた Monaca デバッガーを使用すれば、アプリの検証を行えます。"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:26
-msgid ":download:`iBeacon App <download/ibeacon.zip>`"
+msgid ":download:`Click here to download the project <download/ibeacon.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:31
@@ -1466,7 +1470,7 @@ msgid ""
 msgstr "このページでは、Inmobi を例にして、Monaca へのモバイルアド ( 携帯端末への広告配信ネットワーク ) の組み込み方法を解説します。Inmobi の詳細に関しては、`Inmobi のウェブサイト <http://www.inmobi.com/>`_ と `Inmobi モバイルウェブの組み込みガイド <https://support.inmobi.com/monetize/integration/mobile-web/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:20
-msgid ":download:`Inmobi Client App <download/inmobi.zip>`"
+msgid ":download:`Click here to download the project <download/inmobi.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:23
@@ -1657,7 +1661,9 @@ msgid ""
 msgstr "localStorage を使用して、メモ帳アプリを作成するサンプルアプリです。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:23
-msgid ":download:`Memo Application <download/memo_application.zip>`"
+msgid ""
+":download:`Click here to download the project "
+"<download/memo_application.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/memo_application.rst:33
@@ -1814,7 +1820,9 @@ msgid "This is an empty template of a Monaca project."
 msgstr "Monaca プロジェクトで使用する、基本のテンプレートです。"
 
 #: ../doc/sampleapp/samples/minimum_project.rst:23
-msgid ":download:`Minimum Template <download/minimum_project.zip>`"
+msgid ""
+":download:`Click here to download the project "
+"<download/minimum_project.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/minimum_project.rst:28
@@ -1858,7 +1866,7 @@ msgid ""
 msgstr "おみくじは、英語で 「 ランダムフォーチュン 」 と呼びます。Monaca でのアプリ開発も、Web ページの開発と同じく、HTML と JavaScript を使用します。JavaScript は、簡素な構文と関数群でプログラムを構築できるスクリプト言語です。他の言語と比較すると、スマートフォーン向けの開発のときに、多く使用されています。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:22
-msgid ":download:`Omikuji Fortune Telling App <download/omikuji.zip>`"
+msgid ":download:`Click here to download the project <download/omikuji.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/omikuji.rst:33
@@ -1998,7 +2006,7 @@ msgstr "`Onsen UI <http://ja.onsenui.io/>`_ アプリの作成時に使用でき
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:23
 msgid ""
-":download:`Onsen UI Minimum Template "
+":download:`Click here to download the project "
 "<download/onsen_ui_minimum_project.zip>`"
 msgstr ""
 
@@ -2102,7 +2110,7 @@ msgstr "`Onsen UI スライディングメニュー <http://ja.onsenui.io/guide/
 
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:22
 msgid ""
-":download:`Onsen UI Sliding Menu Sample "
+":download:`Click here to download the project "
 "<download/onsen_ui_sliding_menu.zip>`"
 msgstr ""
 
@@ -2181,7 +2189,7 @@ msgstr "`Onsen UI タブバー <http://ja.onsenui.io/guide/overview.html#UsingTa
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:22
 msgid ""
-":download:`Onsen UI Tabbar Navigation Sample "
+":download:`Click here to download the project "
 "<download/onsen_ui_tabbar_navigator.zip>`"
 msgstr ""
 
@@ -2284,7 +2292,9 @@ msgid "This is an RSS reader application using jQuery."
 msgstr "こちらは、jQuery を使用した、RSS リーダーのアプリです。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:23
-msgid ":download:`RSS Reader App <download/sample_rss_reader.zip>`"
+msgid ""
+":download:`Click here to download the project "
+"<download/sample_rss_reader.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:33
@@ -2391,7 +2401,8 @@ msgid "*Tested Environments:* Android 4.0, iOS 7.1.1"
 msgstr "*テスト環境 :* Android 4.0、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/shinkansen.rst:21
-msgid ":download:`Train Catalog App <download/shinkansen.zip>`"
+msgid ""
+":download:`Click here to download the project <download/shinkansen.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/shinkansen.rst:32
@@ -2445,7 +2456,7 @@ msgid "The application allows you to add a todo list."
 msgstr "TODO 一覧に、TODO を追加するアプリです。"
 
 #: ../doc/sampleapp/samples/todo.rst:22
-msgid ":download:`TODO App <download/todo.zip>`"
+msgid ":download:`Click here to download the project <download/todo.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/todo.rst:34
@@ -2529,7 +2540,7 @@ msgid ""
 msgstr "このサンプルアプリでは、特定のユーザーの Twitter タイムラインの表示を行います。このアプリでは、 `OAuth プロトコル <https://dev.twitter.com/docs/auth/oauth>`_ と InAppBrowser を使用して、Monaca アプリから Twitter へ接続します。他の API を使用する場合には、 `Twitter Documentation <https://dev.twitter.com/docs>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/twitter.rst:22
-msgid ":download:`Twitter Client App <download/twitter.zip>`"
+msgid ":download:`Click here to download the project <download/twitter.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:27

@@ -17,7 +17,7 @@ In this page, we will show how to integrate the mobile ads using the mobile ads 
   </div>
 
 
-:download:`Inmobi Client App <download/inmobi.zip>`
+:download:`Click here to download the project <download/inmobi.zip>`
 
 Prerequisites
 ============================================

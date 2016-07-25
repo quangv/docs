@@ -18,7 +18,7 @@ This sample app shows how to retrieve pictures from Flickr and displays them as 
   </div>
 
 
-:download:`Flickr Sample App <download/flickr.zip>`
+:download:`Click here to download the project <download/flickr.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

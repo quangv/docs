@@ -19,7 +19,7 @@ This sample app allows users to connect to Facebook from Monaca by using `Onsen 
   </div>
 
 
-:download:`Facebook Client App <download/facebook.zip>`
+:download:`Click here to download the project <download/facebook.zip>`
 
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
