@@ -21,6 +21,8 @@ This sample app is a clock app displaying current Date and time.
   </div>
 
 
+:download:`Clock App <download/clock.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

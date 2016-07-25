@@ -19,6 +19,8 @@ This is a template using `Onsen UI tabbar <http://onsenui.io/guide/overview.html
   </div>
 
 
+:download:`Onsen UI Tabbar Navigation Sample <download/onsen_ui_tabbar_navigator.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -19,7 +19,7 @@ This sample app is showing the Twitter Timeline of a specifice user. It allows u
     <iframe src="https://monaca.github.io/project-templates/14-twitter-client/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
-
+:download:`Twitter Client App <download/twitter.zip>`
 
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

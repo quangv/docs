@@ -19,6 +19,10 @@ This is a sample game based on :file:`pixi.js` which is a super fast HTML5 2D re
     <iframe src="https://monaca.github.io/project-templates/5-monacanoid/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
+
+:download:`Break the Bricks App <download/break_the_bricks.zip>`
+
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
