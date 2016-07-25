@@ -17,6 +17,9 @@ This sample app shows how to retrieve pictures from Flickr and displays them as 
     <iframe src="https://monaca.github.io/project-templates/18-flickr-sample/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
+
+:download:`Flickr Sample App <download/flickr.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
