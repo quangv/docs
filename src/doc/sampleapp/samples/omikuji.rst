@@ -19,7 +19,7 @@ Omikuji is a Japanese word means “random fortunes”. In Monaca, app developme
   </div>
 
 
-:download:`Omikuji Fortune Telling App <download/omikuji.zip>`
+:download:`Click here to download the project <download/omikuji.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

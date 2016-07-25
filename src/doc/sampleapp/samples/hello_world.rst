@@ -20,7 +20,7 @@ This sample app is a PhoneGap Demo showing several device functionalities such a
   </div>
 
 
-:download:`Hello World App <download/hello_world.zip>`
+:download:`Click here to download the project <download/hello_world.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

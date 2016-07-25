@@ -20,7 +20,7 @@ This is an empty template of a Monaca project.
   </div>
 
 
-:download:`Minimum Template <download/minimum_project.zip>`
+:download:`Click here to download the project <download/minimum_project.zip>`
 
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
