@@ -168,7 +168,7 @@
   <script>
     $(function() {
       var lang = $("body").data("lang");
-      var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=10&type=allnews";
+      var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=20&type=allnews";
       $.get(url, function(data) {
         $(".whatsnew-loading").hide();
         var n = 0;
