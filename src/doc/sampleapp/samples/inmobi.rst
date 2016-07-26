@@ -167,7 +167,7 @@ There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady
 onDeviceReady() function
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap is fully loaded. Below is the JavaScript code of this function:
+The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:
 
 ::
 
@@ -186,7 +186,7 @@ The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap is f
       ...
     </script>
 
-.. note:: :file:`inmobi.js` must not be included as usual in the header  by using (``<script type="text/javascript" src="inmobi.js"></script>``). This file is needed to be included after PhoneGap is fully loaded inside :envvar:`onDeviceReady()` function as shown above. 
+.. note:: :file:`inmobi.js` must not be included as usual in the header  by using (``<script type="text/javascript" src="inmobi.js"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above. 
 
 showAds() function
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
