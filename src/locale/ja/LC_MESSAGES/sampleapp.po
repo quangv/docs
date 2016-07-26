@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 02:26+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-26 11:34+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -219,10 +219,10 @@ msgstr "最後に、text という変数にメッセージの内容をセット�
 
 #: ../doc/sampleapp/samples/age-calc.rst:87
 msgid ""
-"The ``navigator.notification.alert`` function  is a PhoneGap function that "
-"displays a popup dialog box on the screen. The third argument displays the "
-"text \"Welcome to Monaca!\" as the title of the dialog box."
-msgstr "この ``navigator.notification.alert`` 関数は、PhoneGap の関数で、使用すると、画面上にポップアップダイアログを表示します。今回は、第三引数に 「 Monaca へようこそ！ 」 を指定して、ダイアログのタイトルに表示しています。"
+"The ``navigator.notification.alert`` function  is a Core Cordova Plugins "
+"function that displays a popup dialog box on the screen. The third argument "
+"displays the text \"Welcome to Monaca!\" as the title of the dialog box."
+msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:5
 msgid "Backend Memo"
@@ -1046,9 +1046,9 @@ msgstr "Hello World アプリ"
 
 #: ../doc/sampleapp/samples/hello_world.rst:10
 msgid ""
-"This sample app is a PhoneGap Demo showing several device functionalities "
-"such as camera, contacts, compass and so on."
-msgstr "このサンプルアプリでは、PhoneGap のデモンストレーションを行います。デモンストレーションとして、複数の端末機能 ( カメラ、連絡帳、コンパスなど ) を実装させています。"
+"This sample app is a Core Cordova Plugins Demo showing several device "
+"functionalities such as camera, contacts, compass and so on."
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:23
 msgid ""
@@ -1060,24 +1060,26 @@ msgid "``phonegap-demo.html``"
 msgstr "``phonegap-demo.html``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
-msgid "The PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページ"
+msgid "The Core Cordova Plugins Demo page"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "``phonegap-demo/master.css``"
 msgstr "``phonegap-demo/master.css``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
-msgid "The style sheet for the PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページのスタイルシート"
+msgid "The style sheet for the Core Cordova Plugins Demo page"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:40
 msgid "``phonegap-demo/main.js``"
 msgstr "``phonegap-demo/main.js``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:40
-msgid "The JavaScript file handling implementation in the PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページ上の一連の処理を行う JavaScript ファイル"
+msgid ""
+"The JavaScript file handling implementation in the Core Cordova Plugins Demo"
+" page"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:42
 msgid "The style Sheet for the whole application"
@@ -1108,9 +1110,9 @@ msgstr "phonegap-demo.html"
 
 #: ../doc/sampleapp/samples/hello_world.rst:81
 msgid ""
-":file:`phonegap-demo.html` shows a PhoneGap Demo with the basic phone "
-"information and a list of functions as below:"
-msgstr ":file:`phonegap-demo.html` を使用して、携帯端末の基本情報と次に列挙した機能を、PhoneGap デモ画面ページに表示します。"
+":file:`phonegap-demo.html` shows a Core Cordova Plugins Demo with the basic "
+"phone information and a list of functions as below:"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:83
 msgid ""
@@ -1157,8 +1159,8 @@ msgstr "これらの機能を記述した JavaScript コードに関しては、
 #: ../doc/sampleapp/samples/hello_world.rst:101
 msgid ""
 "The :file:`main.js` is a JavaScript file handling the implementation of the "
-"PhoneGap Demo page. There are 8 main functions in this file:"
-msgstr ":file:`main.js` は、PhoneGap デモ画面ページで使用する一連の処理を記述した JavaScript ファイルです。このファイルでは、前述した 8 個の機能を記述しています。"
+"Core Cordova Plugins Demo page. There are 8 main functions in this file:"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:104
 msgid "Toggle Accelerometer"
@@ -1622,17 +1624,18 @@ msgstr "onDeviceReady() 関数の解説"
 
 #: ../doc/sampleapp/samples/inmobi.rst:170
 msgid ""
-"The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap "
-"is fully loaded. Below is the JavaScript code of this function:"
-msgstr "PhoneGap 側の準備が完了した後、:envvar:`onDeviceReady()` 内で :file:`inmobi.js` を読み込みます。この関数の JavaScript コードを次に記します。"
+"The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core "
+"Cordova Plugins is fully loaded. Below is the JavaScript code of this "
+"function:"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:189
 msgid ""
 ":file:`inmobi.js` must not be included as usual in the header  by using "
 "(``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This "
-"file is needed to be included after PhoneGap is fully loaded inside "
-":envvar:`onDeviceReady()` function as shown above."
-msgstr "「 <script type=\"text/javascript\" src=\"inmobi.js\"></script> 」 のような通常の手順で行う処理 ( ヘッダー部分の記述 ) を、:file:`inmobi.js` を読み込むときに使用しないでください。上記で示したように、このファイルは、必ず、PhoneGap 側の準備が完了した後、 :envvar:`onDeviceReady()` 関数内で読み込む必要があります。"
+"file is needed to be included after Core Cordova Plugins is fully loaded "
+"inside :envvar:`onDeviceReady()` function as shown above."
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:192
 msgid "showAds() function"
@@ -2497,11 +2500,11 @@ msgstr "``addTodoPicture`` と ``addTodo`` の 2 つの関数を定義してい�
 #: ../doc/sampleapp/samples/todo.rst:73
 msgid ""
 "To shoot a photo, the *addTodoPicture* functions calls "
-"*navigator.camera.getPicture*,which is a function provide by PhoneGap. If "
-"the call is successful, the function *addTodo* is then executed. if it "
-"fails, an error message is generated. Photo shoot options such as fixing the"
-" image size and specifying the return type are also set."
-msgstr "``addTodoPicture`` 関数では、 ``navigator.camera.getPicture`` 関数を使用して、写真撮影を行います。この関数 ( getPicture ) は、PhoneGap 提供のものです。カメラの起動に成功した場合、``addTodo`` 関数を実行し、失敗の場合には、警告メッセージを表示します。また、撮影オプションとして、画像サイズの固定化および戻り値の型を指定しています。"
+"*navigator.camera.getPicture*,which is a function provide by Core Cordova "
+"Plugins. If the call is successful, the function *addTodo* is then executed."
+" if it fails, an error message is generated. Photo shoot options such as "
+"fixing the image size and specifying the return type are also set."
+msgstr ""
 
 #: ../doc/sampleapp/samples/todo.rst:75
 msgid ""
@@ -3150,8 +3153,8 @@ msgid "Use HTML5 <audio> tag."
 msgstr "HTML 5 の <audio> タグを使用する。"
 
 #: ../doc/sampleapp/tips/media.rst:11 ../doc/sampleapp/tips/media.rst:46
-msgid "Use PhoneGap Media API."
-msgstr "Cordova の メディア操作プラグイン ( Media Plugin ) を使用する。"
+msgid "Use Core Cordova Plugins Media API."
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:13
 msgid ""
@@ -3197,8 +3200,8 @@ msgid ""
 msgstr "<audio> タグを使用した、音声ファイルの再生は、ほとんどの iOS 端末でサポートされていますが、Android 端末ではサポートされていません。"
 
 #: ../doc/sampleapp/tips/media.rst:75
-msgid "Using PhoneGap Media API to Play Sound"
-msgstr "Cordova のメディア操作プラグイン使用した、音の再生"
+msgid "Using Core Cordova Plugins Media API to Play Sound"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:78
 msgid ""
@@ -3233,8 +3236,8 @@ msgid ":download:`download/media/omikuji.zip`"
 msgstr ":download:`download/media/omikuji.zip`"
 
 #: ../doc/sampleapp/tips/phonegap.rst:3
-msgid "PhoneGap app acceleration/UX Technique"
-msgstr "PhoneGap アプリの高速化・UX テクニック"
+msgid "Core Cordova Plugins app acceleration/UX Technique"
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:9
 msgid ""
@@ -3247,18 +3250,19 @@ msgstr "Monaca アプリ ( HTML5・CSS3・JavaScript ) は、WebView 上で動�
 
 #: ../doc/sampleapp/tips/phonegap.rst:13
 msgid ""
-"The article is written in relation to PhoneGap, but WebView operation is the"
-" same on both the Monaca app and the PhoneGap app, so you will be able to "
-"apply the techniques in the same way as written in the article."
-msgstr "PhoneGap アプリを対象として、記事は書かれていますが、Monaca アプリでも、PhoneGap アプリでも、WebView 上での動作は同じですので、こちらの記事で紹介されているテクニックを、どちらにも適用できます。"
+"The article is written in relation to Core Cordova Plugins, but WebView "
+"operation is the same on both the Monaca app and the Core Cordova Plugins "
+"app, so you will be able to apply the techniques in the same way as written "
+"in the article."
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:15
 msgid ""
 "In addition, the following link contains an article, which has been "
-"translated by our staff, geared towards the PhoneGap app .  `English Article"
-" <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-"
-"successful-phonegap-apps/>`_ \""
-msgstr "なお、リンク先の記事は、PhoneGap アプリを対象として書かれた記事を、弊社スタッフが翻訳しました。この記事の `英語の原文は、こちら <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/>`_  になります。"
+"translated by our staff, geared towards the Core Cordova Plugins app .  "
+"`English Article <http://www.tricedesigns.com/2013/03/11/performance-ux-"
+"considerations-for-successful-phonegap-apps/>`_ \""
+msgstr ""
 
 #: ../doc/sampleapp/tips/splashScreen.rst:3
 msgid "Control the Splash Screen"

@@ -1193,42 +1193,38 @@ msgid "The easiest way is to use Monaca's built-in \"share\" feature. Then, two 
 msgstr ""
 
 #: ../doc/faq/usage.rst:76
-msgid "Another way is to set up a version control system and do the local development using Monaca Localkit or Monaca CLI. This requires a higher skill set, but more collaborative."
-msgstr ""
-
-#: ../doc/faq/usage.rst:78
 msgid "The last option is to use Monaca for Visual Studios. In this case, the files can be managed by VS's built in Team Explorer functionality. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
 msgstr ""
 
-#: ../doc/faq/usage.rst:80
+#: ../doc/faq/usage.rst:78
 msgid "Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in \"share\" feature, and share the project with the test members."
 msgstr ""
 
-#: ../doc/faq/usage.rst:83
+#: ../doc/faq/usage.rst:81
 msgid "However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:88
+#: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:90
+#: ../doc/faq/usage.rst:88
 msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:97
+#: ../doc/faq/usage.rst:95
 msgid "Are there any keyboard shortcuts or keybindings that can be used on the Monaca Cloud IDE?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:99
+#: ../doc/faq/usage.rst:97
 msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/faq/usage.rst:105
+#: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
 msgstr ""
 
-#: ../doc/faq/usage.rst:107
+#: ../doc/faq/usage.rst:105
 msgid "For the changes to the Splash screen, you can configure from the \"Splash Screen Settings\" in :ref:`config_ios_app_monaca` and :ref:`config_android_app` for iOS and Android, respectively."
 msgstr ""
 

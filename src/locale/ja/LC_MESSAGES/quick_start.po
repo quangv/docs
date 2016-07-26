@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 10:57+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-07-26 11:33+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1950,39 +1950,35 @@ msgid ""
 "August 1st 2017."
 msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
 
-#: ../doc/quick_start/monaca_intro.rst:137
-msgid "If you want to upgrade annual plan to another, please contact us."
-msgstr "年額契約プランから他のプランに変更をご希望される場合には、お問い合わせ窓口までご連絡ください。"
-
-#: ../doc/quick_start/monaca_intro.rst:139
+#: ../doc/quick_start/monaca_intro.rst:138
 msgid "If you use Activation Code:"
 msgstr "アクティベーション コードを利用する場合"
 
-#: ../doc/quick_start/monaca_intro.rst:141
+#: ../doc/quick_start/monaca_intro.rst:140
 msgid ""
 "If you want to upgrade plan or extend expiration date, please contact us "
 "with preferred plan name and term of months."
 msgstr "プランのアップグレードまたは使用期限を延長する場合には、ご希望のプラン名と延長期間を、お問い合わせ窓口までご連絡ください。"
 
-#: ../doc/quick_start/monaca_intro.rst:142
+#: ../doc/quick_start/monaca_intro.rst:141
 msgid "On expiration date, your plan will be switched to Basic automatically."
 msgstr "使用期限日に、自動的に、Basic プランに移行します。"
 
-#: ../doc/quick_start/monaca_intro.rst:147
+#: ../doc/quick_start/monaca_intro.rst:146
 msgid "*Features/Structure of Hybrid Apps*"
 msgstr "*ハイブリッドアプリの特徴と構造*"
 
-#: ../doc/quick_start/monaca_intro.rst:149
+#: ../doc/quick_start/monaca_intro.rst:148
 msgid "Characteristics of hybrid apps:"
 msgstr "ハイブリッドアプリの特徴"
 
-#: ../doc/quick_start/monaca_intro.rst:151
+#: ../doc/quick_start/monaca_intro.rst:150
 msgid ""
 "The app consists of Web app and native characteristics. (See the picture "
 "below)"
 msgstr "Web アプリとネイティブの両方の性質を兼ね備えます ( 下の図を参照のこと )。"
 
-#: ../doc/quick_start/monaca_intro.rst:152
+#: ../doc/quick_start/monaca_intro.rst:151
 msgid ""
 "Regardless of operating systems, it will run on a browser component (cross-"
 "platform support). In other words, hybrid apps can run on iOS, Android and "
@@ -1991,48 +1987,48 @@ msgid ""
 "platforms."
 msgstr "オペレーティングシステムの違いに関わらず、ハイブリッドアプリは、ブラウザーコンポーネント ( クロスプラットフォームをサポート ) 上で動作します。つまり、WebView コンポーネントをサポートしていれば、どのオペレーティングシステム ( iOS・Android・その他 ) でも、ハイブリッドアプリは、動作します。言い換えれば、ソースコードをひとつ組めば、複数のプラットフォームで実行できます。"
 
-#: ../doc/quick_start/monaca_intro.rst:158
+#: ../doc/quick_start/monaca_intro.rst:157
 msgid "Differences between Native, Hybrid and Web Apps"
 msgstr "ネイティブ、ハイブリッド、Web アプリの構造の違い"
 
-#: ../doc/quick_start/monaca_intro.rst:161
+#: ../doc/quick_start/monaca_intro.rst:160
 msgid "Required knowledge for hybrid app development:"
 msgstr "ハイブリッドアプリ開発に必要な知識"
 
-#: ../doc/quick_start/monaca_intro.rst:163
+#: ../doc/quick_start/monaca_intro.rst:162
 msgid "HTML and CSS for UI (User Interface) design"
 msgstr "HTML・CSS を使用した、ユーザー インターフェイス ( UI ) のデザイン"
 
-#: ../doc/quick_start/monaca_intro.rst:164
+#: ../doc/quick_start/monaca_intro.rst:163
 msgid "JavaScript for controlling the app"
 msgstr "JavaScript を使用した各種処理"
 
-#: ../doc/quick_start/monaca_intro.rst:165
+#: ../doc/quick_start/monaca_intro.rst:164
 msgid ""
 "JavaScript libraries for accessing the native functions of a device and "
 "additional plugins"
 msgstr "端末搭載のネイティブ機能を、および、各種プラグインを使うためのライブラリー"
 
-#: ../doc/quick_start/monaca_intro.rst:167
+#: ../doc/quick_start/monaca_intro.rst:166
 msgid ""
 "iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, "
 "a JavaScript library, to access native functions of a device. Windows apps "
 "run on Windows runtime while Chrome apps run on Chrome runtime."
 msgstr "iOS・Android アプリは、Cordova 上で実行され、端末側のネイティブ機能にアクセスするときは、 `PhoneGap <http://phonegap.com/>`_ ( JavaScript ライブラリー ) を使用します。また、Windows アプリは、Windows ランタイム上で実行され、Chrome アプリは、Chrome ランタイム上で実行されます。"
 
-#: ../doc/quick_start/monaca_intro.rst:175
+#: ../doc/quick_start/monaca_intro.rst:174
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/quick_start/monaca_intro.rst:177
+#: ../doc/quick_start/monaca_intro.rst:176
 msgid ":ref:`monaca_app_index`"
 msgstr ":ref:`monaca_app_index`"
 
-#: ../doc/quick_start/monaca_intro.rst:178
+#: ../doc/quick_start/monaca_intro.rst:177
 msgid ":ref:`Monaca IDE<monaca_ide_index>`"
 msgstr ":ref:`Monaca クラウド IDE<monaca_ide_index>`"
 
-#: ../doc/quick_start/monaca_intro.rst:179
+#: ../doc/quick_start/monaca_intro.rst:178
 msgid ":ref:`monaca_debugger_index`"
 msgstr ":ref:`monaca_debugger_index`"
 

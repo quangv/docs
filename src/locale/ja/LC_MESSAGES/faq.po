@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 11:15+0000\n"
+"PO-Revision-Date: 2016-07-26 11:33+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1680,27 +1680,20 @@ msgstr "1 つ目の共有シナリオとして、Monaca に実装されている
 
 #: ../doc/faq/usage.rst:76
 msgid ""
-"Another way is to set up a version control system and do the local "
-"development using Monaca Localkit or Monaca CLI. This requires a higher "
-"skill set, but more collaborative."
-msgstr "2 つ目の共有シナリオとして、バージョン管理システムを使用した 「 共有 」 があります。この場合、ローカルで、開発を行い ( Monaca Localkit または Monaca CLI を使用 )、バージョン管理システム上で、共有を行います。バージョン管理システムなどの知識が必要になりますが、実務で広く使用されている方式です。"
-
-#: ../doc/faq/usage.rst:78
-msgid ""
 "The last option is to use Monaca for Visual Studios. In this case, the files"
 " can be managed by VS's built in Team Explorer functionality. Git, TFS, "
 "Visual Studio Online and other supported version control system can be used "
 "in this case."
 msgstr "3 つ目の共有シナリオとして、Monaca for Visual Studios を使用した 「 共有 」 があります。この場合、VS に実装されている 「 チーム エクスプローラー 」 機能を使用して、ファイルを管理します。Git、TFS、Visual Studio Online など、サポートされているバージョン管理システムであれば、併用できます。"
 
-#: ../doc/faq/usage.rst:80
+#: ../doc/faq/usage.rst:78
 msgid ""
 "Let multiple people to test the project (members are assigned as Testers): "
 "Use Monaca's built-in \"share\" feature, and share the project with the test"
 " members."
 msgstr "テスターによる検証 : Monaca に実装されている 「 共有 」 機能では、プロジェクトにメンバーをテスターとして招待して ( 「 テスター 」 権限の割り当て )、共に、検証を行えます。"
 
-#: ../doc/faq/usage.rst:83
+#: ../doc/faq/usage.rst:81
 msgid ""
 "However, if your usage plan is Basic or Personal, you can only chat and join"
 " a team as a Tester. For more information of the usage plan and its "
@@ -1708,11 +1701,11 @@ msgid ""
 "<https://monaca.io/pricing.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:88
+#: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr "開発に使用する資産などに関して、Monaca では、どのようにセキュリティー管理を行っていますか？"
 
-#: ../doc/faq/usage.rst:90
+#: ../doc/faq/usage.rst:88
 msgid ""
 "Currently, for general use, each user's resources are controlled by each "
 "account on the same server. We can handle on an individual basis of "
@@ -1721,13 +1714,13 @@ msgid ""
 "contact us `here <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:97
+#: ../doc/faq/usage.rst:95
 msgid ""
 "Are there any keyboard shortcuts or keybindings that can be used on the "
 "Monaca Cloud IDE?"
 msgstr "Monaca クラウド IDE 上で使える、キーボードのショートカットまたはキーバインドはありますか？"
 
-#: ../doc/faq/usage.rst:99
+#: ../doc/faq/usage.rst:97
 msgid ""
 "Shortcuts that can be used on Monaca Cloud IDE are listed in  "
 ":doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use "
@@ -1735,11 +1728,11 @@ msgid ""
 "Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr "Monaca クラウド IDE で利用できるショートカットに関しては、 :doc:`../manual/development/monaca_ide/editor` をご確認ください。また、 *vim* のようなキーバインドも、Monaca では使用できます。[ ファイル ] メニューの [ エディター環境設定... ] で、キーバンド設定を行えます。"
 
-#: ../doc/faq/usage.rst:105
+#: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
 msgstr "スプラッシュ画像を変更するには、どうしたらいいですか？"
 
-#: ../doc/faq/usage.rst:107
+#: ../doc/faq/usage.rst:105
 msgid ""
 "For the changes to the Splash screen, you can configure from the \"Splash "
 "Screen Settings\" in :ref:`config_ios_app_monaca` and "
