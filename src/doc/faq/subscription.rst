@@ -7,7 +7,7 @@ How can I upgrade/downgrade my current subscription plan?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Login into `Monaca website <https://monaca.io/>`_.
-2. Go to `Pricing page <https://monaca.mobi/en/pricing>`_.
+2. Go to `Pricing page <https://monaca.io/pricing.html>`_.
 3. Click on :guilabel:`Switch Plan` button of the plan you want to switch to.
 4. Follow the process shown on screen.
 

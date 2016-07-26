@@ -80,7 +80,7 @@ If your plan is Gold, Platinum or Enterprise, team development allows you to:
 3. Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in "share" feature, and share the project with the test members.
 
 
-However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.mobi/en/pricing>`_.
+However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
 
 .. _faq05~007:
 
@@ -89,7 +89,7 @@ In Monaca, how is the security of development assets maintained?
   
 Currently, for general use, each user's resources are controlled by each account on the same server. 
 We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). 
-Please contact us `here <https://monaca.mobi/page/contact>`_. 
+Please contact us `here <https://monaca.io/support/inquiry.html>`_. 
 
 .. _faq05~08:
 
