@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 02:12+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-07-26 10:57+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -876,7 +876,7 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 -->
 msgid ""
 "Then, \"Add or Remove JS/CSS Components\" page will be shown. Select "
 ":guilabel:`Add` button of jQuery (Monaca Version) to add it to your project."
-msgstr "「 JS/CSS コンポーネントの追加と削除 」 ページが表示されるので、jQuery ( Monaca Version ) の :guilabel:`追加` ボタンをクリックします。"
+msgstr "[ JS/CSS コンポーネントの追加と削除 ] ページが表示されるので、jQuery ( Monaca Version ) の :guilabel:`追加` ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:25
 msgid ""
@@ -1050,7 +1050,7 @@ msgid ""
 "assume that you need to create a new KeyStore. Therefore, click on "
 ":guilabel:`Clear and Generate New...` button. Then, the following screen "
 "will appear:"
-msgstr "これまでにキーストアを作成したことがない場合、キーストアを新規に作成します。新規作成の他にも、既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアを新規に作成することを前提として解説します。 :guilabel:`初期化して作成 ...` ボタンをクリックして、「 エイリアスの追加 」 ダイアログを表示させます。"
+msgstr "これまでにキーストアを作成したことがない場合、キーストアを新規に作成します。新規作成の他にも、既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアを新規に作成することを前提として解説します。 :guilabel:`初期化して作成 ...` ボタンをクリックして、[ エイリアスの追加 ] ダイアログを表示させます。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:191
 msgid ""
@@ -1127,7 +1127,7 @@ msgid ""
 "url, uploading the project package or selecting your existing Github "
 "repository. Please refer to :ref:`version_control` on how to set up Github "
 "integration with Monaca."
-msgstr ":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca プロジェクトを作成できます。一方、:guilabel:`Import Project` では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、「 URL を指定してインポート 」、「 プロジェクトのパッケージをアップロード 」、「 GitHub のレポジトリからインポート 」 の中から、選択できます。Monaca と GitHub の連携方法は、:ref:`version_control` をご確認ください。"
+msgstr ":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca プロジェクトを作成できます。一方、:guilabel:`Import Project` では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub の連携方法は、:ref:`version_control` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:40
 msgid "Create Project Dialog"
@@ -1902,7 +1902,7 @@ msgid ""
 "is basic type. You can upgrade it later when you want. For detailed "
 "information of Monaca account types and its usages, please refer to `Monaca "
 "Pricing <http://monaca.mobi/pricing/>`_."
-msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <http://monaca.mobi/pricing/>`_ をご確認ください。"
+msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:125
 msgid "Monthly Plans:"
@@ -1948,7 +1948,7 @@ msgid ""
 "admission, unless you have switched Basic plan. For example, you subscribe "
 "to the annual plan on July 20th 2016. Then, your next charge will be on "
 "August 1st 2017."
-msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
+msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
 
 #: ../doc/quick_start/monaca_intro.rst:137
 msgid "If you want to upgrade annual plan to another, please contact us."
@@ -2322,7 +2322,7 @@ msgid ""
 "--> Apache Cordova Apps`. Then, choose a project template. Fill in the "
 "project's information such as project name, project directory and solution "
 "name. Then, click :guilabel:`OK`."
-msgstr "[ 新しいプロジェクト ] ウィンドウの左枠内から、 :menuselection:`テンプレート --> JavaScript --> Apache Cordova アプリ` を選択します。次に、プロジェクトのテンプレートを選択します ( プロジェクトの名前、場所、ソリューション名を入力 )。次に、:guilabel:`OK` をクリックします。なお、クリーンインストール後、そのままの状態では表示されるテンプレートはありません。Onsen UI のテンプレートを使用する場合には、[ 拡張機能と更新プログラム ] から 「 Onsen UI Templates for Visual Studio 2015 」 をあらかじめダウンロードしておきます。"
+msgstr "[ 新しいプロジェクト ] ウィンドウの左枠内から、 :menuselection:`テンプレート --> JavaScript --> Apache Cordova アプリ` を選択します。次に、プロジェクトのテンプレートを選択します ( プロジェクトの名前、場所、ソリューション名を入力 )。次に、:guilabel:`OK` をクリックします。なお、クリーンインストール後、そのままの状態では表示されるテンプレートはありません。Onsen UI のテンプレートを使用する場合には、[ 拡張機能と更新プログラム ] から [ Onsen UI Templates for Visual Studio 2015 ] をあらかじめダウンロードしておきます。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:53
 msgid ""
