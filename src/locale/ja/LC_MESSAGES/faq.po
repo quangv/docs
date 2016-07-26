@@ -4,12 +4,13 @@
 # 
 # Translators:
 # Automatically generated, 2013
+# fabbygoh <fabbygoh@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 11:33+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-07-26 11:54+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -825,7 +826,7 @@ msgstr "Monaca デバッガーが動作しません。"
 msgid ""
 "Please try to reinstall Monaca Debugger. If it is still not working, please "
 "`contact us <https://monaca.io/service/>`_ ."
-msgstr ""
+msgstr "Monaca デバッガーを再インストールしてください。再インストールしても正常に動作しない場合には、 `問い合わせ窓口 <https://ja.monaca.io/service/>`_ までご連絡ください。"
 
 #: ../doc/faq/debugger.rst:79
 msgid "I cannot use CSS and JavaScript files in Live Preview."
