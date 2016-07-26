@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 02:12+0000\n"
+"PO-Revision-Date: 2016-07-26 02:26+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -14462,7 +14462,7 @@ msgid ""
 "Returns the BCP-47 compliant language identifier tag to the "
 "``successCallback`` with a ``properties`` object as a parameter. That object"
 " should have a ``value`` property with a ``String`` value."
-msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します 。\n\n( 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください。)。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
+msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します [ 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください]。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
 
 #: ../doc/reference/cordova_4.1/globalization/index.rst:100
 #: ../doc/reference/cordova_5.2/globalization/index.rst:105
@@ -17187,7 +17187,7 @@ msgid ""
 "soon. If the capability is not available, the application generates a "
 "persistent guid that is maintained for the duration of the application's "
 "installation on the device."
-msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です」"
+msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です ]"
 
 #: ../doc/reference/cordova_5.2/device/index.rst:288
 #: ../doc/reference/cordova_6.2/device/index.rst:324
@@ -25145,7 +25145,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:21
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
@@ -25397,7 +25397,7 @@ msgstr "http://example.com/android-v1.0.0.zip"
 msgid ""
 "The server can be distributed in any environment at least the application "
 "has the connectivity."
-msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
+msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは設置可能です。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:179
 msgid ""
@@ -25429,7 +25429,7 @@ msgstr "Monaca パワー プラグイン"
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr "Monaca パワープラグインを使用することにより、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
+msgstr "Monaca パワープラグインを使用すれば、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
@@ -25443,7 +25443,7 @@ msgstr "セキュア ストレージ プラグイン"
 msgid ""
 "This plugin provides an encrypted data storage function. If the application "
 "is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このプラグインを組み込んだアプリをアンインストールするときには、保存されたデータも、共に消去されます。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:33
 msgid ""
