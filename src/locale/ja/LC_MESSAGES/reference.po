@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 11:34+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-07-27 02:05+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7815,7 +7815,7 @@ msgstr "このプラグインでは、独自の File API ( 以後、「 ファ�
 msgid ""
 "This plugin is based on several specs, including : The HTML5 File API "
 "http://www.w3.org/TR/FileAPI/"
-msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。\n\n[ File API ] : http://www.w3.org/TR/FileAPI/ "
+msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。[ File API ] : http://www.w3.org/TR/FileAPI/"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:44
 #: ../doc/reference/cordova_4.1/file/index.rst:46
@@ -10831,7 +10831,7 @@ msgstr "``options.type`` の値には、``decimal``、``percent``、``currency``
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with text similar to ``number: 3.142``:"
-msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、\n``number: 3.142`` と表示されます。"
+msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、``number: 3.142`` と表示されます。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:539
 #: ../doc/reference/cordova_4.1/globalization/index.rst:695
@@ -25900,7 +25900,7 @@ msgid ""
 "<import_cordova_plugin>` it. In order to import this plugin, you need to "
 "subscribe to a valid plan. Please refer to `Pricing "
 "<https://monaca.mobi/en/pricing>`_."
-msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/repro.rst:16
 msgid "Add Repro Service to Monaca"

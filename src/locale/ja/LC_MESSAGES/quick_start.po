@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-26 11:33+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-07-27 02:05+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -581,7 +581,7 @@ msgstr "事前準備として、次の事を行います。"
 msgid ""
 "get a Monaca account. If you don't have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/en/register/start>`_ から登録できます。"
+msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/cli/index.rst:17
 msgid ""
@@ -1081,7 +1081,7 @@ msgstr "事前準備として、次のアイテムを用意します。"
 msgid ""
 "a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウント。 `こちら <https://monaca.mobi/en/register/start>`_ から登録・作成できます。"
+msgstr "Monaca アカウント。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録・作成できます。"
 
 #: ../doc/quick_start/cloud_ide/index.rst:16
 msgid "a computer with Internet connection"
@@ -1099,7 +1099,7 @@ msgstr "パート 5 : Monaca アプリの配布申請"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:11
 msgid "Login to `Monaca <https://monaca.mobi/en/login>`_."
-msgstr "`Monaca <https://monaca.mobi/en/login>`_ にログインします。"
+msgstr "`Monaca <https://monaca.mobi/ja/login>`_ にログインします。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:13
 #: ../doc/quick_start/monaca_vs/starting_project.rst:17
@@ -1400,7 +1400,7 @@ msgid ""
 "Otherwise, it will run in the evaluation mode for 30 days after the first "
 "login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ "
 "for more details."
-msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://monaca.mobi/en/pricing?type=2>`_ をご確認ください。"
+msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://monaca.mobi/ja/pricing?type=2>`_ をご確認ください。"
 
 #: ../doc/quick_start/localkit/index.rst:9
 msgid ""
@@ -1417,13 +1417,13 @@ msgstr "事前準備として、以下を行います。"
 msgid ""
 "get a Monaca account. Register `here "
 "<https://monaca.mobi/en/register/start>`__."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/en/register/start>`_ から登録できます。"
+msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/localkit/index.rst:22
 msgid ""
 "install Monaca Localkit. Download `here "
 "<https://monaca.io/localkit.html>`__."
-msgstr "Monaca Localkit のインストール。`こちら <https://monaca.io/localkit.html>`__ からダウンロードできます。"
+msgstr "Monaca Localkit のインストール。`こちら <https://ja.monaca.io/localkit.html>`__ からダウンロードできます。"
 
 #: ../doc/quick_start/localkit/publishing_app.rst:30
 #: ../doc/quick_start/localkit/starting_project.rst:119
@@ -2240,7 +2240,7 @@ msgid ""
 " Visual Studio 2015 Community Edition, Professional Edition or higher "
 "editions. Also, you need to subscribe to a valid plan. Please refer to "
 "`Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr "Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community エディション、または、Professional エディション以上が必要です。また、対応するプランへの加入が必要です。詳細は、 `プランの解説 <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community エディション、または、Professional エディション以上が必要です。また、対応するプランへの加入が必要です。詳細は、 `プランの解説 <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/index.rst:10
 msgid "Before getting started with this tutorial, you will need to:"
@@ -2250,7 +2250,7 @@ msgstr "事前準備として、次の内容を行います。"
 msgid ""
 "get a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/en/register/start>`_ から登録できます。"
+msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/monaca_vs/index.rst:20
 msgid ""
