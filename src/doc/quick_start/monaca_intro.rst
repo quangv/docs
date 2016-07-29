@@ -120,7 +120,7 @@ Here is a table summarizing the debugging options between Monaca Debugger and Mo
 Monaca Registration Plan
 ============================================
 
-Monaca provides various account types to match with your needs ranging from basic (FREE) to enterprise level. After registration, your default account is basic type. You can upgrade it later when you want. For detailed information of Monaca account types and its usages, please refer to `Monaca Pricing <http://monaca.mobi/pricing/>`_.
+Monaca provides various account types to match with your needs ranging from basic (FREE) to enterprise level. After registration, your default account is basic type. You can upgrade it later when you want. For detailed information of Monaca account types and its usages, please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_.
 
 Monthly Plans:
 

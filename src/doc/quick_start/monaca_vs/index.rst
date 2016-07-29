@@ -5,7 +5,7 @@ Monaca for Visual Studio Tutorial
 
 Monaca for Visual Studio is an extension which allows you to develop Monaca applications using Microsoft Visual Studio IDE.
 
-.. note:: In order to use Monaca for Visual Studio, you are required to have Microsoft Visual Studio 2015 Community Edition, Professional Edition or higher editions. Also, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
+.. note:: In order to use Monaca for Visual Studio, you are required to have Microsoft Visual Studio 2015 Community Edition, Professional Edition or higher editions. Also, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.io/pricing.html>`_.
 
 Before getting started with this tutorial, you will need to:
 
