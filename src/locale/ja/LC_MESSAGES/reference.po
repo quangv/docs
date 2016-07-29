@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-27 02:05+0000\n"
+"PO-Revision-Date: 2016-07-29 02:53+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -25420,17 +25420,17 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr "Monaca パワー プラグイン"
+msgstr "Monaca が提供している、他のプラグイン"
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr "Monaca パワープラグインを使用すれば、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
+msgstr "Monaca では、セキュリティー系のプラグインを提供しており、これらのプラグインを組み込めば、最先端のセキュリティー技術を、簡単にアプリに導入できます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
-msgstr "Monaca パワープラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
+msgstr "これらのセキュリティー系プラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"

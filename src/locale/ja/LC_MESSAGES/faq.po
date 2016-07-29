@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-27 02:04+0000\n"
+"PO-Revision-Date: 2016-07-29 02:53+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid ""
 "For Monaca, there is no particular restriction on installing an ad network "
 "in an application. Technically, ads can be posted on WebView, so please use "
 "them according to the agreements of each ad network company."
-msgstr "アプリ上でのアドネットワークの掲載に関しては、Monaca では特に制限を設けておりません。また、技術的な制限もないため、WebView 上でも、広告を置くことができます。なお、広告の掲載時は、広告ネットワーク側の規約に従ってください。"
+msgstr "アプリ上でのアドネットワークの掲載に関しては、Monaca では特に制限を設けておりません。また、WebView 上に広告を置くことに関して、技術的な制約もありません。なお、広告の掲載時は、広告ネットワーク側の規約に従ってください。"
 
 #: ../doc/faq/application.rst:13
 msgid ""
@@ -185,7 +185,7 @@ msgid ""
 "standard JavaScript and HTML5 that can't be used. For more details, please "
 "refer to `HTML, CSS, and JavaScript features and difference "
 "<http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_."
-msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能を使用します。PhoneGap 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
+msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能が使用されます。PhoneGap 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:108
 msgid "Can I develop a full-screen app?"
@@ -207,7 +207,7 @@ msgstr "Cordova は常に最新のバージョンが使えるのですか？"
 msgid ""
 "Monaca supports specific Cordova versions. However, we regularly update and "
 "provide the latest Cordova version support as soon as possible."
-msgstr "Monaca では、ある特定のバージョンの Cordova のみサポートしています。最新バージョンの Cordova を使用できるように、バージョン更新は、定期的に、また、迅速に行っております。"
+msgstr "Monaca では、ある特定のバージョンの Cordova のみサポートしています。なお、最新バージョンの Cordova を使用できるように、バージョン更新は、定期的に、また、迅速に行っております。"
 
 #: ../doc/faq/application.rst:123
 msgid "How can I make font size bigger for input and textarea controls?"
@@ -241,7 +241,7 @@ msgid ""
 "Under ``<widget>`` element, input the location of the file you want for the "
 "starting page in the ``<content>`` tag. The default value is ``index.html``."
 " See the example below:"
-msgstr "``<widget>`` 要素下の ``<content>`` タグに、起動時に表示するページ ( 必要であればファイルの保存先も含む ) を指定します。デフォルト値は、 ``index.html`` です。例を次に記します。"
+msgstr "``<widget>`` 要素下の ``<content>`` タグに、起動時に表示するページ ( 必要であれば、そのファイルへのパスも含む ) を指定します。デフォルト値は、 ``index.html`` です。例を次に記します。"
 
 #: ../doc/faq/application.rst:158
 msgid ""
@@ -313,7 +313,7 @@ msgid ""
 "need to manually specify which plugin to install when you build the app. You"
 " can manage the plugins to include in the app by enabling in Manage Cordova "
 "Plugins configuration."
-msgstr "ビルドしたアプリ側に、必要なプラグインが組み込まれていない可能性があります。Monaca デバッガー側には、基本 Cordova プラグインのすべてが、標準で実装されていますが、アプリ側では、実装するプラグインを開発時に手動で指定する必要があります。プラグインをアプリに組み込むには、Monaca クラウド IDE の [ Cordova プラグインの管理 ] メニュー上で、有効化する必要があります。"
+msgstr "ビルドしたアプリ側に、必要なプラグインが組み込まれていない可能性があります。Monaca デバッガー側には、基本 Cordova プラグインのすべてが、標準で実装されていますが、アプリをビルドする場合には、あらかじめ、開発時に、実装するプラグインを手動で指定しておく必要があります。なお、プラグインの組み込みは、Monaca クラウド IDE の [ Cordova プラグインの管理 ] メニュー上から行います。"
 
 #: ../doc/faq/build.rst:2
 msgid "Build"
@@ -387,7 +387,7 @@ msgid ""
 "provisioning profiles by using the same procedures as before, and then use "
 "the new files. You may read about :ref:`create_cer` and  "
 ":ref:`register_provisioning` for more details."
-msgstr "証明書の期限切れ、証明書の再発行が必要になっている、などが原因として考えられます。その場合、プロビジョニング プロファイルを再作成します。証明書、プロビジョニングプロファイルなどの必要なファイルの再作成を、以前と同じ手順で行い、新しく作成されたファイルを使用してください。詳細は、 :ref:`create_cer` と :ref:`register_provisioning` をご確認ください。"
+msgstr "証明書の期限切れ、証明書の再発行が必要になっている、などが原因として考えられます。これらの場合、プロビジョニング プロファイルを再作成する必要があります。証明書、プロビジョニングプロファイルなどの必要なファイルの再作成を、以前と同じ手順で行い、新しく作成されたファイルを使用してください。詳細は、 :ref:`create_cer` と :ref:`register_provisioning` をご確認ください。"
 
 #: ../doc/faq/build.rst:44
 msgid ""
@@ -571,7 +571,7 @@ msgid ""
 "You can set it with your own preference; however, we recommend that the App "
 "ID should be your own domain name but written in reverse. Please see `our "
 "blog article <http://blog.asial.co.jp/738>`_ (Japanese) for details."
-msgstr "使用する文字列に制限はなく、自由に設定できますが、開発者が使用しているドメインを、逆ドメイン形式にして、App ID に使用することを推奨します。 詳細は、 `弊社のブログ <http://blog.asial.co.jp/732>`_ ( 日本語サイト ) をご確認ください。"
+msgstr "使用する文字列に制限はなく、自由に設定できますが、開発者が使用しているドメインを、逆ドメイン形式にして、App ID に使用することを推奨します。 詳細は、 `弊社のブログ <http://blog.asial.co.jp/732>`_ をご確認ください。"
 
 #: ../doc/faq/build.rst:142
 msgid "During the iOS build, an internal server error (71)."
@@ -728,7 +728,7 @@ msgstr "Monaca デバッガーとは、デバッグ用のアプリです。Monac
 msgid ""
 "Are the operations of an app on the Monaca Debugger the same as when the app"
 " is installed on an actual device?"
-msgstr "Monaca デバッガー上と端末上の間で、アプリの動作に関して、なにか違いがありますか？"
+msgstr "Monaca デバッガー上と端末上で、アプリの動作に関して、なにか違いがありますか？"
 
 #: ../doc/faq/debugger.rst:20
 msgid ""
@@ -804,7 +804,7 @@ msgid ""
 "Therefore, to provide the lastes version of iOS-based Monaca Debugger as "
 "soon as possible to our customers, we have prepared other option which is "
 "the build version of Monaca debugger."
-msgstr "Apple 社の App Store 側の申請処理の関係で、最新バージョンの Monaca デバッガーを App Store 上で配布できるまで、多少の時間がかかります。このため、最新バージョンの iOS 向け Monaca デバッガーを、開発者の皆様へ、迅速に提供できるように、代替オプションとして、Monaca デバッガーのカスタムビルド版をご用意しています。"
+msgstr "Apple 社の App Store 側の申請処理の関係で、最新バージョンの Monaca デバッガーを App Store 上で配布できるまで、多少の時間がかかります。このため、最新バージョンの iOS 向け Monaca デバッガーを、開発者の皆様へ迅速に提供できるように、代替オプションとして、Monaca デバッガーのカスタムビルド版をご用意しています。"
 
 #: ../doc/faq/debugger.rst:64
 msgid "When I started the app on Android, the app crashed."
@@ -848,7 +848,7 @@ msgstr "Monaca デバッガーに、ログインできません。"
 msgid ""
 "The following issues are the common issues and solutions when logging in "
 "Monaca Debugger:"
-msgstr "Monaca デバッガーのログイン障害の一般的な原因と解決法を、以下に記します。"
+msgstr "Monaca デバッガーのログイン障害の一般的な原因と解決法を、次に記します。"
 
 #: ../doc/faq/debugger.rst:91
 msgid ""
@@ -943,7 +943,7 @@ msgid ""
 "your devices from Monaca Debugger. For more details, please refer to "
 ":ref:`Network Install for Android <network_and>` or :ref:`Network Install "
 "for iOS <network_ios>`."
-msgstr "ネットワーク インストールとは、アプリを端末へインストールする、1 つの方法です。Monaca デバッガー経由で、Ad Hoc ビルド版アプリまたはデバッグビルド版アプリを、端末にインストールできます。詳細に関しては、 :ref:`Android 向けアプリのネットワーク インストール <network_and>` または :ref:`iOS 向けアプリのネットワーク インストール <network_ios>` をご確認ください。"
+msgstr "ネットワーク インストールとは、アプリを端末へインストールする方法の 1 つです。Monaca デバッガー経由で、Ad Hoc ビルド版アプリまたはデバッグビルド版アプリを、端末にインストールできます。詳細に関しては、 :ref:`Android 向けアプリのネットワーク インストール <network_and>` または :ref:`iOS 向けアプリのネットワーク インストール <network_ios>` をご確認ください。"
 
 #: ../doc/faq/environment.rst:2
 msgid "IDE"
@@ -1044,7 +1044,7 @@ msgid ""
 "You can control the permissions of any features for an application in the "
 "*<uses-permission>* element in an :file:`AndroidManifest.xml` file. For "
 "details, please refer to :doc:`../reference/config/android_configuration`."
-msgstr ":file:`AndroidManifest.xml` ファイル中の *<uses-permission>* 要素で、アプリ側で使用できる機能を制限できます。詳細に関しては、 :doc:`../reference/config/android_configuration` をご確認ください。"
+msgstr ":file:`AndroidManifest.xml` ファイル中の *<uses-permission>* 要素で、アプリ側で使用できる機能を制限できます。詳細は、 :doc:`../reference/config/android_configuration` をご確認ください。"
 
 #: ../doc/faq/environment.rst:53
 msgid "I don't have a Mac, but can I create an iOS application?"
@@ -1060,7 +1060,7 @@ msgid ""
 " you need an application uploader software provided by Apple which only runs"
 " on Mac. In other words, you will need Mac when uploading the app to the App"
 " Store."
-msgstr "Mac をお持ちでなくても、Monaca  ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
+msgstr "Mac をお持ちでなくても、Monaca ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
 
 #: ../doc/faq/environment.rst:60
 msgid "I can't open Monaca Cloud IDE."
@@ -1075,7 +1075,7 @@ msgstr "Monaca クラウド IDE 使用時の推奨 Web ブラウザーは、Goog
 
 #: ../doc/faq/environment.rst:67
 msgid "Can I use my own development environment to develop Monaca apps?"
-msgstr "Monaca を使ったアプリ開発において、現在使用している開発環境をそのまま利用したいのですが？"
+msgstr "Monaca アプリの開発において、現在使用している開発環境をそのまま利用したいのですが？"
 
 #: ../doc/faq/environment.rst:69
 msgid ""
@@ -1095,11 +1095,11 @@ msgid ""
 ":doc:`../../manual/development/monaca_vs/index` to develop Monaca apps. This"
 " extension allows to develop as in Monaca Cloud IDE except using the "
 "functionalities of Visual Studio."
-msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能では、Monaca クラウド IDE と同様の開発機能を、Visual Studio に移植しています。詳細は、:doc:`../../manual/development/monaca_vs/index` をご確認ください。"
+msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能には、Monaca クラウド IDE の機能が移植されています。詳細は、:doc:`../../manual/development/monaca_vs/index` をご確認ください。"
 
 #: ../doc/faq/environment.rst:81
 msgid "Application does not run on preview in the IDE"
-msgstr "IDE 上のプレビュー機能上で、アプリケーションが動きません。"
+msgstr "IDE 上のプレビュー機能上で、アプリが動きません。"
 
 #: ../doc/faq/environment.rst:83
 msgid ""
@@ -1113,7 +1113,7 @@ msgstr "プロジェクトをアーカイブできません。"
 
 #: ../doc/faq/environment.rst:90
 msgid "Project archiving is only available for paid users."
-msgstr "プロジェクトのアーカイブ機能は、Personal プラン以上が必要です。"
+msgstr "プロジェクトのアーカイブ機能のご利用には、Personal プラン以上が必要です。"
 
 #: ../doc/faq/environment.rst:94
 msgid "Why Live Preview can't get resource from other domain?"
