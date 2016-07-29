@@ -8,7 +8,7 @@ Playing Sound and Music
 In Monaca, you can use the following ways to play sound and music:
 
 * Use HTML5 <audio> tag. 
-* Use PhoneGap Media API. 
+* Use Core Cordova Plugins Media API. 
 
 .. note:: This is just a sample code and may not work correctly with some OS versions or devices.
 
@@ -43,7 +43,7 @@ This sample plays a sound file located under *www* directory of the project. The
 
 
 * Use HTML5 <audio> tag. 
-* Use PhoneGap Media API. 
+* Use Core Cordova Plugins Media API. 
 
 
 
@@ -71,7 +71,7 @@ index.html
   </html>
 
 
-Using PhoneGap Media API to Play Sound
+Using Core Cordova Plugins Media API to Play Sound
 ==================================================================
 
 

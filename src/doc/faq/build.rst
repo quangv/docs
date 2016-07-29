@@ -7,7 +7,7 @@ Build
 Can I register the application made by Monaca to a marketplace (App Store/Google Play)?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.mobi/page/contact>`_. 
+Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.io/support/inquiry.html>`_. 
 
 .. _faq03~002:
 

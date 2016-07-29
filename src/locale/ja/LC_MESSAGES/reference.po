@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 02:12+0000\n"
+"PO-Revision-Date: 2016-07-29 02:53+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgid ""
 msgstr ":ref:`設定ファイルを編集する方法 <android_config_files>`"
 
 #: ../doc/reference/config/android_configuration.rst:19
-#: ../doc/reference/config/ios_configuration.rst:19
+#: ../doc/reference/config/ios_configuration.rst:17
 msgid "Configuration via Monaca Cloud IDE"
 msgstr "Monaca クラウド IDE 経由で設定する方法"
 
@@ -75,7 +75,7 @@ msgid "After finishing the configuration, please click :guilabel:`Save`."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
 #: ../doc/reference/config/android_configuration.rst:37
-#: ../doc/reference/config/ios_configuration.rst:40
+#: ../doc/reference/config/ios_configuration.rst:38
 msgid "Configurable Parameters"
 msgstr "設定できるパラメーター"
 
@@ -101,7 +101,7 @@ msgid ""
 msgstr "*バックグランド時もアプリを常に実行* : バックグラウンドでも Cordova を実行したい場合には、有効にします。デフォルトは有効です。"
 
 #: ../doc/reference/config/android_configuration.rst:43
-#: ../doc/reference/config/ios_configuration.rst:45
+#: ../doc/reference/config/ios_configuration.rst:43
 msgid ""
 "*Disallow Overscroll*: [Enable by default] Enable this if you want to "
 "disable the glow when a user scrolls beyond the edge of the webview."
@@ -122,7 +122,7 @@ msgid "*Screen Orientation*: Specify the screen orientation of the app."
 msgstr "*画面の向き* : アプリ画面の方向を指定します。"
 
 #: ../doc/reference/config/android_configuration.rst:54
-#: ../doc/reference/config/ios_configuration.rst:53
+#: ../doc/reference/config/ios_configuration.rst:51
 msgid "Configuration via Configuration Files"
 msgstr "設定ファイルの編集"
 
@@ -148,7 +148,7 @@ msgid ""
 msgstr "Android アプリの挙動に関する設定が、上記のファイル内に記述されています。誤って設定した場合、アプリが動作しなくなる恐れがあります。編集する場合には、細心の注意が必要です。"
 
 #: ../doc/reference/config/android_configuration.rst:69
-#: ../doc/reference/config/ios_configuration.rst:255
+#: ../doc/reference/config/ios_configuration.rst:253
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:95
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:59
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:137
@@ -159,7 +159,7 @@ msgid "config.xml"
 msgstr "config.xml"
 
 #: ../doc/reference/config/android_configuration.rst:71
-#: ../doc/reference/config/ios_configuration.rst:257
+#: ../doc/reference/config/ios_configuration.rst:255
 msgid ""
 "The :file:`config.xml` file is a settings file controlling various settings "
 "of Cordova. It's located under ``www`` folder inside your monaca project."
@@ -247,24 +247,24 @@ msgstr "型"
 #: ../doc/reference/config/android_configuration.rst:265
 #: ../doc/reference/config/android_configuration.rst:288
 #: ../doc/reference/config/android_configuration.rst:317
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:151
 #: ../doc/reference/config/ios_configuration.rst:152
 #: ../doc/reference/config/ios_configuration.rst:153
-#: ../doc/reference/config/ios_configuration.rst:154
 #: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:156
 #: ../doc/reference/config/ios_configuration.rst:157
 #: ../doc/reference/config/ios_configuration.rst:158
 #: ../doc/reference/config/ios_configuration.rst:159
 #: ../doc/reference/config/ios_configuration.rst:160
 #: ../doc/reference/config/ios_configuration.rst:161
-#: ../doc/reference/config/ios_configuration.rst:162
-#: ../doc/reference/config/ios_configuration.rst:163
-#: ../doc/reference/config/ios_configuration.rst:166
-#: ../doc/reference/config/ios_configuration.rst:273
-#: ../doc/reference/config/ios_configuration.rst:349
-#: ../doc/reference/config/ios_configuration.rst:372
-#: ../doc/reference/config/ios_configuration.rst:394
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:271
+#: ../doc/reference/config/ios_configuration.rst:347
+#: ../doc/reference/config/ios_configuration.rst:370
+#: ../doc/reference/config/ios_configuration.rst:392
+#: ../doc/reference/config/ios_configuration.rst:412
 #: ../doc/reference/cordova_5.2/camera/index.rst:187
 #: ../doc/reference/cordova_5.2/camera/index.rst:206
 #: ../doc/reference/cordova_6.2/camera/index.rst:180
@@ -366,9 +366,9 @@ msgstr "``1.0.0``"
 #: ../doc/reference/config/android_configuration.rst:533
 #: ../doc/reference/config/android_configuration.rst:564
 #: ../doc/reference/config/android_configuration.rst:578
-#: ../doc/reference/config/ios_configuration.rst:134
-#: ../doc/reference/config/ios_configuration.rst:150
-#: ../doc/reference/config/ios_configuration.rst:213
+#: ../doc/reference/config/ios_configuration.rst:132
+#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:211
 #: ../doc/reference/cordova_3.5/camera/index.rst:44
 #: ../doc/reference/cordova_3.5/camera/index.rst:362
 #: ../doc/reference/cordova_3.5/device/index.rst:144
@@ -563,7 +563,7 @@ msgid "``src``"
 msgstr "``src``"
 
 #: ../doc/reference/config/android_configuration.rst:133
-#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:272
 msgid "``indext.html``"
 msgstr "``indext.html``"
 
@@ -585,7 +585,7 @@ msgid "``origin``"
 msgstr "``origin``"
 
 #: ../doc/reference/config/android_configuration.rst:157
-#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:393
 msgid "``*``"
 msgstr "``*``"
 
@@ -626,16 +626,16 @@ msgstr "``value``"
 #: ../doc/reference/config/android_configuration.rst:183
 #: ../doc/reference/config/android_configuration.rst:204
 #: ../doc/reference/config/android_configuration.rst:224
-#: ../doc/reference/config/ios_configuration.rst:294
-#: ../doc/reference/config/ios_configuration.rst:313
-#: ../doc/reference/config/ios_configuration.rst:331
+#: ../doc/reference/config/ios_configuration.rst:292
+#: ../doc/reference/config/ios_configuration.rst:311
+#: ../doc/reference/config/ios_configuration.rst:329
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:67
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:125
 msgid "boolean"
 msgstr "真偽値"
 
 #: ../doc/reference/config/android_configuration.rst:184
-#: ../doc/reference/config/ios_configuration.rst:332
+#: ../doc/reference/config/ios_configuration.rst:330
 msgid "``true``"
 msgstr "``true``"
 
@@ -649,8 +649,8 @@ msgstr "*DisallowOverscroll*"
 
 #: ../doc/reference/config/android_configuration.rst:205
 #: ../doc/reference/config/android_configuration.rst:225
-#: ../doc/reference/config/ios_configuration.rst:295
-#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:293
+#: ../doc/reference/config/ios_configuration.rst:312
 msgid "``false``"
 msgstr "``false``"
 
@@ -784,12 +784,12 @@ msgid ""
 msgstr "このプラグインの旧バーション ( 3.0.0 より前 ) を実装したアプリの配布をすでに行っており、加えて、なんらかのファイルシステムにファイルを保存していた場合には、preference を Compatibility に設定する必要があります ( データの保存先となるファイルシステムを、config.xml で指定していないときも同様 )。Compatibility から Internal に変更した場合、既存のユーザーは、以前使用していたファイルへアクセスできないことがあります ( 端末により、動作は異なります )。"
 
 #: ../doc/reference/config/android_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:411
+#: ../doc/reference/config/ios_configuration.rst:409
 msgid "*ScreenOrientation* (Cordova 5.2 or Higher)"
 msgstr "*ScreenOrientation* ( Cordova 5.2 以上 )"
 
 #: ../doc/reference/config/android_configuration.rst:319
-#: ../doc/reference/config/ios_configuration.rst:415
+#: ../doc/reference/config/ios_configuration.rst:413
 msgid "``default``"
 msgstr "``default``"
 
@@ -802,12 +802,12 @@ msgid "``default``: will use system default screen orientation."
 msgstr "``default``: システム側のデフォルトのオリエンテーションを使用します。"
 
 #: ../doc/reference/config/android_configuration.rst:324
-#: ../doc/reference/config/ios_configuration.rst:420
+#: ../doc/reference/config/ios_configuration.rst:418
 msgid "``landscape``: set screen orientation to landscape mode."
 msgstr "``landscape``: landscape ( 横向き ) のオリエンテーションを使用します。"
 
 #: ../doc/reference/config/android_configuration.rst:325
-#: ../doc/reference/config/ios_configuration.rst:421
+#: ../doc/reference/config/ios_configuration.rst:419
 msgid "``portrait``: set screen orientation to portrait mode."
 msgstr "``portrait``: portrait ( 縦向き ) のオリエンテーションを使用します。"
 
@@ -1307,7 +1307,7 @@ msgid "category name"
 msgstr "カテゴリー名です。"
 
 #: ../doc/reference/config/android_configuration.rst:588
-#: ../doc/reference/config/ios_configuration.rst:452
+#: ../doc/reference/config/ios_configuration.rst:450
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
 #: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
@@ -1374,13 +1374,14 @@ msgid "*See Also*"
 msgstr "*参考ページ*"
 
 #: ../doc/reference/config/android_configuration.rst:590
-#: ../doc/reference/config/ios_configuration.rst:454
+#: ../doc/reference/config/ios_configuration.rst:452
 msgid ":ref:`file_folder_configuration`"
 msgstr ":ref:`file_folder_configuration`"
 
 #: ../doc/reference/config/android_configuration.rst:591
-msgid ":ref:`MonacaApp-Info.plist`"
-msgstr ":ref:`MonacaApp-Info.plist`"
+#: ../doc/reference/config/ios_configuration.rst:55
+msgid ":ref:`info_plist`"
+msgstr ":ref:`info_plist`"
 
 #: ../doc/reference/config/index.rst:3
 msgid "Configuration Files"
@@ -1393,51 +1394,51 @@ msgid ""
 "files."
 msgstr "Monaca クラウド IDE の [ アプリ設定 ] 画面から、または、手動で設定ファイルを上書きして、iOS と Android アプリの挙動を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:5
+#: ../doc/reference/config/ios_configuration.rst:3
 msgid "iOS Configuration"
 msgstr "iOS の設定"
 
-#: ../doc/reference/config/ios_configuration.rst:10
+#: ../doc/reference/config/ios_configuration.rst:8
 msgid "There are 2 ways to configure your iOS apps:"
 msgstr "iOS アプリの設定には、2 通りの方法があります。"
 
-#: ../doc/reference/config/ios_configuration.rst:12
+#: ../doc/reference/config/ios_configuration.rst:10
 msgid ":ref:`Configure via Monaca Cloud IDE <ios_config_ide>`"
 msgstr ":ref:`Monaca クラウド IDE 経由で設定する方法 <ios_config_ide>`"
 
-#: ../doc/reference/config/ios_configuration.rst:13
+#: ../doc/reference/config/ios_configuration.rst:11
 msgid ":ref:`Configure via configuration files directly <ios_config_files>`."
 msgstr ":ref:`設定ファイルを編集する方法 <ios_config_files>`"
 
-#: ../doc/reference/config/ios_configuration.rst:22
+#: ../doc/reference/config/ios_configuration.rst:20
 msgid "iOS App Settings Page"
 msgstr "iOS アプリの設定画面"
 
-#: ../doc/reference/config/ios_configuration.rst:25
+#: ../doc/reference/config/ios_configuration.rst:23
 msgid ""
 "The iOS App Settings page allows to set several commonly used parameter in "
 "iOS app. Please follow the following instruction in order to access the iOS "
 "App Setting page in Monaca Cloud IDE:"
 msgstr "iOS アプリの設定画面では、iOS アプリに適用するパラメーターを設定できます。次の手順に従い、Monaca クラウド IDE の iOS アプリの設定画面を表示します。"
 
-#: ../doc/reference/config/ios_configuration.rst:27
+#: ../doc/reference/config/ios_configuration.rst:25
 msgid ""
 "From Monaca Cloud IDE menu, go to :guilabel:`Config` > :guilabel:`iOS App "
 "Settings...`."
 msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`設定` > :guilabel:`iOS アプリ設定...` を選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:32
+#: ../doc/reference/config/ios_configuration.rst:30
 msgid ""
 "*iOS App Configuration* page will appear as shown below. You can then start "
 "your configuration."
 msgstr "*iOS アプリ設定* 画面が、次のように表示されます。こちらの画面で設定を行います。"
 
-#: ../doc/reference/config/ios_configuration.rst:37
+#: ../doc/reference/config/ios_configuration.rst:35
 msgid ""
 "After finishing the configuration, please click :guilabel:`Save` button."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
-#: ../doc/reference/config/ios_configuration.rst:42
+#: ../doc/reference/config/ios_configuration.rst:40
 msgid ""
 "In the iOS App Settings page, you can configure the parameters such as "
 "application information, icons, splash files, permissions and additional "
@@ -1445,51 +1446,47 @@ msgid ""
 " page:"
 msgstr "iOS アプリの設定画面で行えることは、アプリ情報の設定、アイコン、スプラッシュファイルの設定、パーミッション ( 権限 ) の設定など、多岐にわたります。画面上で設定できるパラメーターの一覧を、次に記します。"
 
-#: ../doc/reference/config/ios_configuration.rst:44
+#: ../doc/reference/config/ios_configuration.rst:42
 msgid ""
 "*Allowed URL*: Specify URL(s) which can be accessed from your app. If set to"
 " ``*``, you can access all domains from your app. (Set to ``*`` by default)"
 msgstr "*許可する外部 URL* : アプリから接続できる URL を指定します。デフォルトでは ``*`` に設定され、全てのドメインへの接続を許可しています。"
 
-#: ../doc/reference/config/ios_configuration.rst:46
+#: ../doc/reference/config/ios_configuration.rst:44
 msgid ""
 "*Enable Viewport Scale*: [Enable by default] If you disable this feature, "
 "the viewport meta tag which is set inside your app will be ignored."
 msgstr "*ビューポート制御を有効* : デフォルトは有効です。無効にした場合、アプリ内に設定された、viewport の meta タグを無視します。"
 
-#: ../doc/reference/config/ios_configuration.rst:47
+#: ../doc/reference/config/ios_configuration.rst:45
 msgid "*Fade Splash Screen*: [Enable by default]"
 msgstr "*スプラッシュ画像をフェードアウト* : デフォルトでは、有効化されています。"
 
-#: ../doc/reference/config/ios_configuration.rst:48
+#: ../doc/reference/config/ios_configuration.rst:46
 msgid "*Show Splash Screen*: Show splash screen at start of the app."
 msgstr "*スプラッシュにスピナーを表示* : アプリの起動時に、スプラッシュ画面 ( スピナー ) を表示します。"
 
-#: ../doc/reference/config/ios_configuration.rst:55
+#: ../doc/reference/config/ios_configuration.rst:53
 msgid ""
 "All the configuration parameters of an iOS app are stored in the files as "
 "follows:"
 msgstr "iOS アプリのパラメーターは、次のファイル内に記述されています。"
 
-#: ../doc/reference/config/ios_configuration.rst:57
-msgid ":ref:`info_plist`"
-msgstr ":ref:`info_plist`"
-
-#: ../doc/reference/config/ios_configuration.rst:58
+#: ../doc/reference/config/ios_configuration.rst:56
 msgid ":ref:`config_xml_ios`"
 msgstr ":ref:`config_xml_ios`"
 
-#: ../doc/reference/config/ios_configuration.rst:62
+#: ../doc/reference/config/ios_configuration.rst:60
 msgid ""
 "These configurations are critical to the iOS app to run. Wrong configuration"
 " can prevent the app from running properly, please edit the file carefully."
 msgstr "iOS アプリの挙動に関する設定が、上記のファイル内に記述されています。誤って設定した場合、アプリが動作しなくなる恐れがあります。編集する場合には、細心の注意が必要です。"
 
-#: ../doc/reference/config/ios_configuration.rst:68
+#: ../doc/reference/config/ios_configuration.rst:66
 msgid "MonacaApp-Info.plist"
 msgstr "MonacaApp-Info.plist"
 
-#: ../doc/reference/config/ios_configuration.rst:70
+#: ../doc/reference/config/ios_configuration.rst:68
 msgid ""
 "You can configure your iOS app in :file:`MonacaApp-Info.plist` file. For "
 "information on ``plist`` file, please refer to `Information Property List "
@@ -1499,373 +1496,395 @@ msgid ""
 "shown below:"
 msgstr "iOS アプリの設定を行うには、 :file:`MonacaApp-Info.plist` ファイルを編集します。 ``plist`` ファイルの情報に関しては、 `Information Property List Files ( Apple ) <http://developer.apple.com/library/ios/documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html>`_ をご確認ください。このファイルは、次のように、Monaca プロジェクトの ``ios`` フォルダー下に置かれています。"
 
-#: ../doc/reference/config/ios_configuration.rst:78
+#: ../doc/reference/config/ios_configuration.rst:76
 msgid ":file:`MonacaApp-Info.plist` (Excerpt)"
 msgstr ":file:`MonacaApp-Info.plist` ( 抜粋 )"
 
-#: ../doc/reference/config/ios_configuration.rst:101
+#: ../doc/reference/config/ios_configuration.rst:99
 msgid ""
 "Inside :file:`MonacaApp-Info.plist` file, there are 3 main types of "
 "elements:"
 msgstr ":file:`MonacaApp-Info.plist` ファイル内には、3 つの主な要素があります。"
 
-#: ../doc/reference/config/ios_configuration.rst:103
+#: ../doc/reference/config/ios_configuration.rst:101
 msgid ""
 "*<key>*: Defines value (plistObject) and a combination of application "
 "configuration information."
 msgstr "*<key>*: value ( plistObject ) とアプリの設定情報間の紐付けをします。"
 
-#: ../doc/reference/config/ios_configuration.rst:104
+#: ../doc/reference/config/ios_configuration.rst:102
 msgid "*<array>*: You can have the array of values (plistObject)."
 msgstr "*<array>*: 配列を使用して、value ( plistObject ) を格納できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:105
+#: ../doc/reference/config/ios_configuration.rst:103
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr "*<dict>*: key と value ( plistObject ) の組み合わせを、<dict> 内に置きます。"
 
-#: ../doc/reference/config/ios_configuration.rst:108
+#: ../doc/reference/config/ios_configuration.rst:106
 msgid "For example:"
 msgstr "例 :"
 
-#: ../doc/reference/config/ios_configuration.rst:131
+#: ../doc/reference/config/ios_configuration.rst:129
 msgid "*Type List of Values (plistObject)*"
 msgstr "*Value ( plistObject ) の型の一覧*"
 
-#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:132
 msgid "Types"
 msgstr "型"
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:134
 msgid "String data type representing text."
 msgstr "文字列"
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "date"
 msgstr "date"
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "Date data type representing date and time."
 msgstr "日付および時刻を表示"
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:136
 #: ../doc/reference/monaca_api/cloud/criteria.rst:104
 msgid "Integer"
 msgstr "integer"
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:136
 msgid "Integer number"
 msgstr "整数"
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "real"
 msgstr "real"
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "Floating data type representing a decimal number."
 msgstr "浮動小数点データ"
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "data"
 msgstr "data"
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "Data type"
 msgstr "データ"
 
-#: ../doc/reference/config/ios_configuration.rst:141
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:162
 #: ../doc/reference/cordova_5.2/camera/index.rst:246
 #: ../doc/reference/cordova_6.2/camera/index.rst:239
 msgid "true"
 msgstr "true"
 
-#: ../doc/reference/config/ios_configuration.rst:141
+#: ../doc/reference/config/ios_configuration.rst:139
 msgid "true boolean"
 msgstr "真 ( boolean )"
 
-#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "false"
 msgstr "false"
 
-#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "false boolean"
 msgstr "偽 ( boolean )"
 
-#: ../doc/reference/config/ios_configuration.rst:145
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "*List of Keys*"
 msgstr "*Key の一覧*"
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:148
 msgid "key"
 msgstr "key"
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:148
 msgid "plistObject Type"
 msgstr "plistObject の型"
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:150
 msgid "CFBundleDevelopmentRegion"
 msgstr "CFBundleDevelopmentRegion"
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:150
 msgid ""
 "Defines a native language of the developer. If the language of the user "
 "cannot be found, this value will be used as default."
 msgstr "開発者の母国語を指定します。ユーザー側の使用する言語が不明な場合、デフォルトとして、この値を使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "CFBundleDisplayName"
 msgstr "CFBundleDisplayName"
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid ""
 "Define a name of the application. It is a fully qualified name of the class "
 "that you extend from Application class."
 msgstr "アプリ名を指定します。完全修飾名 ( Fully Qualified Class Name / FQCN ) を指定します ( クラスは、Application クラスを継承していること ) 。"
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:152
 msgid "CFBundleExecutable"
 msgstr "CFBundleExecutable"
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:152
 msgid "Defines the application executable file."
 msgstr "アプリの実行可能ファイルを指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "CFBundleIconFile"
 msgstr "CFBundleIconFile"
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "Defines application icon file name."
 msgstr "アプリのアイコンのファイル名を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "CFBundleIconFiles"
 msgstr "CFBundleIconFiles"
 
-#: ../doc/reference/config/ios_configuration.rst:156
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "<array>string"
 msgstr "<array>string"
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid ""
 "Defines icon file names used for iOS 3.2 or later. The correct file will be "
 "chosen depending on the size of the device screen resolution."
 msgstr "アイコンのファイル名を指定します ( iOS 3.2 以降の端末用 )。端末の画面解像度に応じて、適切なファイルが選択されます。"
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "CFBundleIdentifier"
 msgstr "CFBundleIdentifier"
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid ""
 "Specifies a unique identifier for your application. The identifier must be a"
 " Uniform Type Identifier (UTI) as \":file:`com.monaca.MyApp`\"."
 msgstr "アプリの識別子を指定します。Uniform Type Identifier ( UTI ) を使用します ( 例 ： 「 :file:`com.monaca.MyApp` 」 )。"
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "CFBundleInfoDictionaryVersion"
 msgstr "CFBundleInfoDictionaryVersion"
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "Is the current version number of :file:`MonacaApp-Info.plist` file."
 msgstr ":file:`MonacaApp-Info.plist` ファイルの現バージョン番号です。"
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "CFBundleName"
 msgstr "CFBundleName"
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid ""
 "Is a short display name of the app. It is limited to 16 characters at most."
 msgstr "アプリの短縮表示名です。16 文字以下で記述します。"
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "CFBundlePackageType"
 msgstr "CFBundlePackageType"
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid ""
 "Is a 4-digit code used to describe application type. Set this value to "
 "\"APPL\" for application project."
 msgstr "アプリのタイプを識別する 4 文字のコードです。アプリの場合、「 APPL 」 と指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "CFBundleShortVersionString"
 msgstr "CFBundleShortVersionString"
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "Specifies the version number of your application."
 msgstr "アプリのバージョン番号を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "CFBundleSignature"
 msgstr "CFBundleSignature"
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "Is a 4-digit code used to identify the app developer."
 msgstr "アプリの開発者を識別する 4 文字のコードです。"
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "CFBundleVersion"
 msgstr "CFBundleVersion"
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "Is a build version number of the application."
 msgstr "アプリのビルド番号です。"
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "LSRequiresIPhoneOS"
 msgstr "LSRequiresIPhoneOS"
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "Indicates whether the application can only be run on iPhone or not."
 msgstr "アプリがサポートする端末を、iPhone のみにするか指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "UISupportedInterfaceOrientations"
 msgstr "UISupportedInterfaceOrientations"
 
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid ""
 "Specifies screen orientations for iPhone that are supported by the "
 "application. For iPad, use \"UISupportedInterfaceOrientations~ipad\"."
 msgstr "アプリでサポートする、画面の方向を指定します ( iPhone 向け )。iPad の場合、「 UISupportedInterfaceOrientations~ipad 」を使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:166
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "BackupWebStorage"
 msgstr "BackupWebStorage"
 
-#: ../doc/reference/config/ios_configuration.rst:166
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid ""
 "Set to ``cloud`` to allow the web storage data to be backed up to iCloud, "
 "Set to ``none`` to not allow any backups of web storage. default is "
 "``cloud``"
 msgstr "``cloud`` に設定されている場合、データのバックアップを、iCloud へすることができます。 ``none`` に設定されている場合、iCloud へのバックアップはできません。デフォルトは、 ``cloud`` です。"
 
-#: ../doc/reference/config/ios_configuration.rst:170
+#: ../doc/reference/config/ios_configuration.rst:168
 msgid ""
 "Here are some keys and values you may need to configure in your iOS apps:"
 msgstr "iOS アプリで設定すべき Key と Value を、次に記します。"
 
-#: ../doc/reference/config/ios_configuration.rst:176
+#: ../doc/reference/config/ios_configuration.rst:174
 msgid "*UISupportedInterfaceOrientations*"
 msgstr "*UISupportedInterfaceOrientations*"
 
-#: ../doc/reference/config/ios_configuration.rst:178
+#: ../doc/reference/config/ios_configuration.rst:176
 msgid "Is used to set the screen orientation of your app:"
 msgstr "画面の方向を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:180
+#: ../doc/reference/config/ios_configuration.rst:178
 msgid "Settings for iPhone"
 msgstr "iPhone の場合"
 
-#: ../doc/reference/config/ios_configuration.rst:195
+#: ../doc/reference/config/ios_configuration.rst:193
 msgid "Settings for iPad"
 msgstr "iPad の場合"
 
-#: ../doc/reference/config/ios_configuration.rst:210
+#: ../doc/reference/config/ios_configuration.rst:208
 msgid "*List of Orientation Values*"
 msgstr "*画面方向に関する設定値 ( Value )*"
 
-#: ../doc/reference/config/ios_configuration.rst:213
+#: ../doc/reference/config/ios_configuration.rst:211
 msgid "Value"
 msgstr "Value"
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "UIInterfaceOrientationLandscapeLeft"
 msgstr "UIInterfaceOrientationLandscapeLeft"
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "Landscape orientation aligned to the left side of the Home button."
 msgstr "ホームボタンを左側にして、横向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:216
 msgid "UIInterfaceOrientationLandscapeRight"
 msgstr "UIInterfaceOrientationLandscapeRight"
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:216
 msgid "Landscape orientation aligned to the right side of the Home button."
 msgstr "ホームボタンを右側にして、横向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:218
 msgid "UIInterfaceOrientationPortraitUpsideDown"
 msgstr "UIInterfaceOrientationPortraitUpsideDown"
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:218
 msgid "Portrait orientation"
 msgstr "縦向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:222
+#: ../doc/reference/config/ios_configuration.rst:220
 msgid "UIInterfaceOrientationPortrait"
 msgstr "UIInterfaceOrientationPortrait"
 
-#: ../doc/reference/config/ios_configuration.rst:222
+#: ../doc/reference/config/ios_configuration.rst:220
 msgid ""
 "Portrait orientation in opposite direction from the normal portrait "
 "orientation."
 msgstr "通常の縦向き表示とは逆方向に、縦向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:226
+#: ../doc/reference/config/ios_configuration.rst:224
 msgid "You can download a sample screen orientation file below:"
 msgstr "表示方向の設定に関するサンプルを、こちらからダウンロードできます。"
 
-#: ../doc/reference/config/ios_configuration.rst:228
+#: ../doc/reference/config/ios_configuration.rst:226
 msgid ""
 ":download:`Screen Orientation File "
 "<download/UISupportedInterfaceOrientations.zip>`"
 msgstr ":download:`サンプルファイル <download/UISupportedInterfaceOrientations.zip>`"
 
-#: ../doc/reference/config/ios_configuration.rst:236
+#: ../doc/reference/config/ios_configuration.rst:234
 msgid "Statusbar Setting"
 msgstr "ステータスバーの設定"
 
-#: ../doc/reference/config/ios_configuration.rst:241
+#: ../doc/reference/config/ios_configuration.rst:239
 msgid "*UIStatusBarHidden*"
 msgstr "*UIStatusBarHidden*"
 
-#: ../doc/reference/config/ios_configuration.rst:241
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:239
+#: ../doc/reference/config/ios_configuration.rst:244
 msgid "*Type:* boolean"
 msgstr "*型 :* boolean"
 
-#: ../doc/reference/config/ios_configuration.rst:242
-#: ../doc/reference/config/ios_configuration.rst:247
+#: ../doc/reference/config/ios_configuration.rst:240
+#: ../doc/reference/config/ios_configuration.rst:245
 msgid "*Default:* ``false``"
 msgstr "*デフォルト値 :* ``false``"
 
-#: ../doc/reference/config/ios_configuration.rst:243
-#: ../doc/reference/config/ios_configuration.rst:248
+#: ../doc/reference/config/ios_configuration.rst:241
+#: ../doc/reference/config/ios_configuration.rst:246
 msgid ""
 "*Description:* if set to ``true``, the status bar at the top of the "
 "application will be hidden."
 msgstr "*解説 :* ``true`` に設定した場合、アプリの画面上部のステータスバーが非表示になります。"
 
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:242
 msgid ""
 "*Note:* If *UIStatusBarHidden* set to ``true`` and "
 "*UIViewControllerBasedStatusBarAppearance* set to ``false``, the status bar "
 "at the top of the app will be hidden."
 msgstr "*備考 :* *UIStatusBarHidden* を ``true`` に設定して、 *UIViewControllerBasedStatusBarAppearance* を ``false`` に設定した場合、アプリの画面上部のステータスバーは、非表示となります。"
 
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:244
 msgid "*UIViewControllerBasedStatusBarAppearance*"
 msgstr "*UIViewControllerBasedStatusBarAppearance*"
 
-#: ../doc/reference/config/ios_configuration.rst:249
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid ""
 "*Note:* set to ``true`` in order to use :ref:`StatusBar "
 "Plugin<status_bar_plugin>`."
 msgstr "*備考 :* :ref:`ステータスバーの制御プラグイン <status_bar_plugin>` ( StatusBar プラグイン ) を使用する場合には、``true`` に設定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:264
+#: ../doc/reference/config/ios_configuration.rst:262
 msgid "Below are available preferences you may need to configure:"
 msgstr "設定可能な要素と preference を次に記します。必要に応じて設定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:270
+#: ../doc/reference/config/ios_configuration.rst:268
 msgid "*Content*"
 msgstr "*Content*"
+
+#: ../doc/reference/config/ios_configuration.rst:271
+#: ../doc/reference/config/ios_configuration.rst:292
+#: ../doc/reference/config/ios_configuration.rst:311
+#: ../doc/reference/config/ios_configuration.rst:329
+#: ../doc/reference/config/ios_configuration.rst:347
+#: ../doc/reference/config/ios_configuration.rst:370
+#: ../doc/reference/config/ios_configuration.rst:392
+#: ../doc/reference/config/ios_configuration.rst:412
+msgid "*Type*"
+msgstr "*型*"
+
+#: ../doc/reference/config/ios_configuration.rst:272
+#: ../doc/reference/config/ios_configuration.rst:293
+#: ../doc/reference/config/ios_configuration.rst:312
+#: ../doc/reference/config/ios_configuration.rst:330
+#: ../doc/reference/config/ios_configuration.rst:348
+#: ../doc/reference/config/ios_configuration.rst:371
+#: ../doc/reference/config/ios_configuration.rst:393
+#: ../doc/reference/config/ios_configuration.rst:413
+msgid "*Default*"
+msgstr "*デフォルト*"
 
 #: ../doc/reference/config/ios_configuration.rst:273
 #: ../doc/reference/config/ios_configuration.rst:294
@@ -1875,151 +1894,129 @@ msgstr "*Content*"
 #: ../doc/reference/config/ios_configuration.rst:372
 #: ../doc/reference/config/ios_configuration.rst:394
 #: ../doc/reference/config/ios_configuration.rst:414
-msgid "*Type*"
-msgstr "*型*"
-
-#: ../doc/reference/config/ios_configuration.rst:274
-#: ../doc/reference/config/ios_configuration.rst:295
-#: ../doc/reference/config/ios_configuration.rst:314
-#: ../doc/reference/config/ios_configuration.rst:332
-#: ../doc/reference/config/ios_configuration.rst:350
-#: ../doc/reference/config/ios_configuration.rst:373
-#: ../doc/reference/config/ios_configuration.rst:395
-#: ../doc/reference/config/ios_configuration.rst:415
-msgid "*Default*"
-msgstr "*デフォルト*"
-
-#: ../doc/reference/config/ios_configuration.rst:275
-#: ../doc/reference/config/ios_configuration.rst:296
-#: ../doc/reference/config/ios_configuration.rst:315
-#: ../doc/reference/config/ios_configuration.rst:333
-#: ../doc/reference/config/ios_configuration.rst:351
-#: ../doc/reference/config/ios_configuration.rst:374
-#: ../doc/reference/config/ios_configuration.rst:396
-#: ../doc/reference/config/ios_configuration.rst:416
 msgid "*Description*"
 msgstr "*説明*"
 
-#: ../doc/reference/config/ios_configuration.rst:275
+#: ../doc/reference/config/ios_configuration.rst:273
 msgid ""
 "The ``<content>`` element defines the app's starting page in the top-level "
 "web assets directory. You can change the starting page by changing the value"
 " of the ``src`` attribute to your preferred URL."
 msgstr "``<content>`` 要素では、アプリ起動時のページを指定します ( 通常、Web アセットを置いた、最上位のディレクトリーにこのページは置かれます )。 ``src`` 属性の値に、他の URL を指定すれば、起動時のページを変更できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:291
+#: ../doc/reference/config/ios_configuration.rst:289
 msgid "*DisallowOverScroll*"
 msgstr "*DisallowOverScroll*"
 
-#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:294
 msgid ""
 "Set to ``true`` if you want to disable the rubber-band scrolling for "
 "WebView."
 msgstr "``true`` に指定した場合、ラバーバンド スクロール ( rubber-band scrolling ) が無効になります。"
 
-#: ../doc/reference/config/ios_configuration.rst:310
+#: ../doc/reference/config/ios_configuration.rst:308
 msgid "*EnableViewportScale*"
 msgstr "*EnableViewportScale*"
 
-#: ../doc/reference/config/ios_configuration.rst:315
+#: ../doc/reference/config/ios_configuration.rst:313
 msgid "Set to ``true`` to prevent viewport scaling through a meta tag."
 msgstr "``true`` に指定した場合、ビューポートのスケール方法を指定した meta タグを無視します。"
 
-#: ../doc/reference/config/ios_configuration.rst:328
+#: ../doc/reference/config/ios_configuration.rst:326
 msgid "*AutoHideSplashScreen*"
 msgstr "*AutoHideSplashScreen*"
 
-#: ../doc/reference/config/ios_configuration.rst:333
+#: ../doc/reference/config/ios_configuration.rst:331
 msgid ""
 "Set to ``false`` to control the splashscreen when it's hidden through a "
 "JavaScript API."
 msgstr "``false`` に指定した場合、JavaScript API を使用して、スプラッシュ画像の制御を行えます。"
 
-#: ../doc/reference/config/ios_configuration.rst:346
+#: ../doc/reference/config/ios_configuration.rst:344
 msgid "*BackupWebStorage*"
 msgstr "*BackupWebStorage*"
 
-#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:348
 msgid "``cloud``"
 msgstr "``cloud``"
 
-#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:349
 msgid "There are 3 valid values:"
 msgstr "次のいずれかの値を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:353
+#: ../doc/reference/config/ios_configuration.rst:351
 msgid "``none``: disable any backups of web storage."
 msgstr "``none`` : バックアップを無効にします。"
 
-#: ../doc/reference/config/ios_configuration.rst:354
+#: ../doc/reference/config/ios_configuration.rst:352
 msgid "``cloud``: allow the web storage data to be backed up to iCloud."
 msgstr "``cloud`` : iCloud へのバックアップを許可します。"
 
-#: ../doc/reference/config/ios_configuration.rst:355
+#: ../doc/reference/config/ios_configuration.rst:353
 msgid "``local``: allow only local backups (iTunes sync)."
 msgstr "``local`` : ローカルへのバックアップ ( iTunes Sync 経由 ) を許可します。"
 
-#: ../doc/reference/config/ios_configuration.rst:369
+#: ../doc/reference/config/ios_configuration.rst:367
 msgid "*UIWebViewDecelerationSpeed*"
 msgstr "*UIWebViewDecelerationSpeed*"
 
-#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:371
 msgid "``normal``"
 msgstr "``normal``"
 
-#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:372
 msgid ""
 "Controls the deceleration speed of momentum scrolling. There are 2 valid "
 "values:"
 msgstr "慣性スクロールの減速度を指定します。2 つのオプションがあります。"
 
-#: ../doc/reference/config/ios_configuration.rst:376
+#: ../doc/reference/config/ios_configuration.rst:374
 msgid "``normal``: is the default speed for most native apps"
 msgstr "``normal``: デフォルトでは、こちらを選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:377
+#: ../doc/reference/config/ios_configuration.rst:375
 msgid "``fast``: is the default speed for Mobile Safari."
 msgstr "``fast``: Mobile Safari の場合、こちらを選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:391
+#: ../doc/reference/config/ios_configuration.rst:389
 msgid "*access origin*"
 msgstr "*access origin*"
 
-#: ../doc/reference/config/ios_configuration.rst:396
+#: ../doc/reference/config/ios_configuration.rst:394
 msgid ""
 "Controls access to specific network domains. If set to ``*``, you can access"
 " all domains from your app."
 msgstr "アクセスできるネットワークドメインを指定します。 ``*`` に指定した場合、どのドメインにも、アプリからアクセスできます。"
 
-#: ../doc/reference/config/ios_configuration.rst:416
+#: ../doc/reference/config/ios_configuration.rst:414
 msgid "There are 4 valid values:"
 msgstr "画面のオリエンテーションを設定します。次の 4 つの値を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:418
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid ""
 "``all``: to specify both portrait & landscape mode you would use the "
 "platform specific value all"
 msgstr "``all``: この設定では、portrait と landscape の両方を使用できます ( プラットフォーム毎の設定時に使用 )。"
 
-#: ../doc/reference/config/ios_configuration.rst:419
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid ""
 "``default``: screen orientation will be applied according to system default."
 msgstr "``default``: システム側のデフォルトのオリエンテーションを使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:435
+#: ../doc/reference/config/ios_configuration.rst:433
 msgid ""
 "It is also possible to apply the setting for all devices at once; however, "
 "you can only apply default, landscape and portrait in value. \"all\" is not "
 "possible for Global Preferences."
 msgstr "全端末に適用される、グローバルな設定 ( Global Preference ) も使用できますが、設定できる値は、default、landscape、portrait のみです。all は、グローバルな設定には使用できません。"
 
-#: ../doc/reference/config/ios_configuration.rst:447
+#: ../doc/reference/config/ios_configuration.rst:445
 msgid ""
 "For android/windows, \"default\" means all direction, but in iOS only "
 "portrait will be applied."
 msgstr "\"default\" を設定した場合、Android と Windows ではすべてのオリエンテーションが使用でき、iOS では portrait のみ適用されます。"
 
-#: ../doc/reference/config/ios_configuration.rst:455
+#: ../doc/reference/config/ios_configuration.rst:453
 msgid ":ref:`android_configuration_file`"
 msgstr ":ref:`android_configuration_file`"
 
@@ -7818,7 +7815,7 @@ msgstr "このプラグインでは、独自の File API ( 以後、「 ファ�
 msgid ""
 "This plugin is based on several specs, including : The HTML5 File API "
 "http://www.w3.org/TR/FileAPI/"
-msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。\n\n[ File API ] : http://www.w3.org/TR/FileAPI/ "
+msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。[ File API ] : http://www.w3.org/TR/FileAPI/"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:44
 #: ../doc/reference/cordova_4.1/file/index.rst:46
@@ -10834,7 +10831,7 @@ msgstr "``options.type`` の値には、``decimal``、``percent``、``currency``
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with text similar to ``number: 3.142``:"
-msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、\n``number: 3.142`` と表示されます。"
+msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、``number: 3.142`` と表示されます。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:539
 #: ../doc/reference/cordova_4.1/globalization/index.rst:695
@@ -14462,7 +14459,7 @@ msgid ""
 "Returns the BCP-47 compliant language identifier tag to the "
 "``successCallback`` with a ``properties`` object as a parameter. That object"
 " should have a ``value`` property with a ``String`` value."
-msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します 。\n\n( 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください。)。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
+msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します [ 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください]。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
 
 #: ../doc/reference/cordova_4.1/globalization/index.rst:100
 #: ../doc/reference/cordova_5.2/globalization/index.rst:105
@@ -17187,7 +17184,7 @@ msgid ""
 "soon. If the capability is not available, the application generates a "
 "persistent guid that is maintained for the duration of the application's "
 "installation on the device."
-msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です」"
+msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です ]"
 
 #: ../doc/reference/cordova_5.2/device/index.rst:288
 #: ../doc/reference/cordova_6.2/device/index.rst:324
@@ -25145,7 +25142,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:21
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
@@ -25397,7 +25394,7 @@ msgstr "http://example.com/android-v1.0.0.zip"
 msgid ""
 "The server can be distributed in any environment at least the application "
 "has the connectivity."
-msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
+msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは設置可能です。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:179
 msgid ""
@@ -25423,17 +25420,17 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr "Monaca パワー プラグイン"
+msgstr "Monaca が提供している、他のプラグイン"
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr "Monaca パワープラグインを使用することにより、最先端のセキュリティー技術を、簡単にアプリに組み込むことができます。"
+msgstr "Monaca では、セキュリティー系のプラグインを提供しており、これらのプラグインを組み込めば、最先端のセキュリティー技術を、簡単にアプリに導入できます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
-msgstr "Monaca パワープラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
+msgstr "これらのセキュリティー系プラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
@@ -25443,7 +25440,7 @@ msgstr "セキュア ストレージ プラグイン"
 msgid ""
 "This plugin provides an encrypted data storage function. If the application "
 "is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このプラグインを組み込んだアプリをアンインストールするときには、保存されたデータも、共に消去されます。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:33
 msgid ""
@@ -25903,7 +25900,7 @@ msgid ""
 "<import_cordova_plugin>` it. In order to import this plugin, you need to "
 "subscribe to a valid plan. Please refer to `Pricing "
 "<https://monaca.mobi/en/pricing>`_."
-msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/repro.rst:16
 msgid "Add Repro Service to Monaca"

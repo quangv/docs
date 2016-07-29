@@ -224,7 +224,7 @@ msgid "Can I register the application made by Monaca to a marketplace (App Store
 msgstr ""
 
 #: ../doc/faq/build.rst:10
-msgid "Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.mobi/page/contact>`_."
+msgid "Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
 #: ../doc/faq/build.rst:15
@@ -520,7 +520,7 @@ msgid "Reset the cache: in Monaca debugger menu select \"Delete the sync data\" 
 msgstr ""
 
 #: ../doc/faq/debugger.rst:35
-msgid "If the issue still persists, please contact us via `Monaca Support <https://monaca.mobi/en/support/index>`_."
+msgid "If the issue still persists, please contact us via `Monaca Support <https://monaca.io/service/>`_."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:40
@@ -536,7 +536,7 @@ msgid "The debug log is not displayed."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:50
-msgid "For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.mobi/en/support/index>`_,  we will look into it and provide the solution as soon as possible."
+msgid "For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.io/service/>`_,  we will look into it and provide the solution as soon as possible."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:55
@@ -560,7 +560,7 @@ msgid "Monaca Debugger is not working."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:74
-msgid "Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.mobi/en/support/inquiry>`_ ."
+msgid "Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.io/service/>`_ ."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:79
@@ -816,7 +816,7 @@ msgid "Can I use Monaca for free?"
 msgstr ""
 
 #: ../doc/faq/general.rst:76
-msgid "Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_."
+msgid "Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/faq/general.rst:78
@@ -836,7 +836,7 @@ msgid "Can I develop commercial smartphone applications using Monaca?"
 msgstr ""
 
 #: ../doc/faq/general.rst:90
-msgid "Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.mobi/page/contact>`_ if you have any questions."
+msgid "Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.io/support/inquiry.html>`_ if you have any questions."
 msgstr ""
 
 #: ../doc/faq/general.rst:95
@@ -844,7 +844,7 @@ msgid "I don't understand something about Monaca. Where can I ask questions?"
 msgstr ""
 
 #: ../doc/faq/general.rst:97
-msgid "Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.mobi/page/contact>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc."
+msgid "Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.io/support/inquiry.html>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc."
 msgstr ""
 
 #: ../doc/faq/general.rst:103
@@ -877,7 +877,7 @@ msgstr ""
 
 #: ../doc/faq/general.rst:112
 #: ../doc/faq/general.rst:127
-msgid "For more information, pleaser refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_."
+msgid "For more information, pleaser refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/faq/general.rst:118
@@ -901,7 +901,7 @@ msgid "If I change my plan, will my project data remain intact?"
 msgstr ""
 
 #: ../doc/faq/general.rst:143
-msgid "Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_ about the number of projects allowed for each plan."
+msgid "Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about the number of projects allowed for each plan."
 msgstr ""
 
 #: ../doc/faq/general.rst:149
@@ -1045,7 +1045,7 @@ msgid "Login into `Monaca website <https://monaca.io/>`_."
 msgstr ""
 
 #: ../doc/faq/subscription.rst:10
-msgid "Go to `Pricing page <https://monaca.mobi/en/pricing>`_."
+msgid "Go to `Pricing page <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/faq/subscription.rst:11
@@ -1193,42 +1193,38 @@ msgid "The easiest way is to use Monaca's built-in \"share\" feature. Then, two 
 msgstr ""
 
 #: ../doc/faq/usage.rst:76
-msgid "Another way is to set up a version control system and do the local development using Monaca Localkit or Monaca CLI. This requires a higher skill set, but more collaborative."
-msgstr ""
-
-#: ../doc/faq/usage.rst:78
 msgid "The last option is to use Monaca for Visual Studios. In this case, the files can be managed by VS's built in Team Explorer functionality. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
 msgstr ""
 
-#: ../doc/faq/usage.rst:80
+#: ../doc/faq/usage.rst:78
 msgid "Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in \"share\" feature, and share the project with the test members."
 msgstr ""
 
-#: ../doc/faq/usage.rst:83
-msgid "However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.mobi/en/pricing>`_."
+#: ../doc/faq/usage.rst:81
+msgid "However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:88
+#: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:90
-msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.mobi/page/contact>`_."
+#: ../doc/faq/usage.rst:88
+msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:97
+#: ../doc/faq/usage.rst:95
 msgid "Are there any keyboard shortcuts or keybindings that can be used on the Monaca Cloud IDE?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:99
+#: ../doc/faq/usage.rst:97
 msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/faq/usage.rst:105
+#: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
 msgstr ""
 
-#: ../doc/faq/usage.rst:107
+#: ../doc/faq/usage.rst:105
 msgid "For the changes to the Splash screen, you can configure from the \"Splash Screen Settings\" in :ref:`config_ios_app_monaca` and :ref:`config_android_app` for iOS and Android, respectively."
 msgstr ""
 

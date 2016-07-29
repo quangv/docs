@@ -29,7 +29,7 @@ Sample Apps & Templates
               <img src="/static/img/samples/helloworld.png" alt="" class="thumb">
               <div align="center">
                   <h3 id="hello-world-app">Hello World App</h3>
-                  <p align="left">A PhoneGap Demo showing several device functionalities such as camera, contacts & etc.</p>
+                  <p align="left">A Core Cordova Plugins Demo showing several device functionalities such as camera, contacts & etc.</p>
                   <button onclick="GoTo('/en/sampleapp/samples/hello_world/')">Detail</button> 
               </div>
           </div>
@@ -267,7 +267,7 @@ Sample Apps & Templates
               <img src="/static/img/samples/helloworld.png" alt="" class="thumb">
               <div align="center">
                   <h3 id="hello-world-app">Hello World アプリ</h3>
-                  <p align="left">PhoneGap を使用したデモアプリです。デバイス側の複数の機能 ( カメラ、連絡帳など ) にアクセスしています。</p>
+                  <p align="left">Core Cordova Plugins を使用したデモアプリです。デバイス側の複数の機能 ( カメラ、連絡帳など ) にアクセスしています。</p>
                   <!-- <a href="download/hello_world.zip" download>ダウンロード</a>
                   &nbsp; -->
                   <button onclick="GoTo('/ja/sampleapp/samples/hello_world/')">解説</button> 

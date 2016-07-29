@@ -32,7 +32,7 @@ msgid ":ref:`Configure via configuration files directly <android_config_files>`.
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:19
-#: ../doc/reference/config/ios_configuration.rst:19
+#: ../doc/reference/config/ios_configuration.rst:17
 msgid "Configuration via Monaca Cloud IDE"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgid "After finishing the configuration, please click :guilabel:`Save`."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:37
-#: ../doc/reference/config/ios_configuration.rst:40
+#: ../doc/reference/config/ios_configuration.rst:38
 msgid "Configurable Parameters"
 msgstr ""
 
@@ -74,7 +74,7 @@ msgid "*Keep Running*: [Enable by default] Enable this if you want Cordova to ke
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:43
-#: ../doc/reference/config/ios_configuration.rst:45
+#: ../doc/reference/config/ios_configuration.rst:43
 msgid "*Disallow Overscroll*: [Enable by default] Enable this if you want to disable the glow when a user scrolls beyond the edge of the webview."
 msgstr ""
 
@@ -91,7 +91,7 @@ msgid "*Screen Orientation*: Specify the screen orientation of the app."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:54
-#: ../doc/reference/config/ios_configuration.rst:53
+#: ../doc/reference/config/ios_configuration.rst:51
 msgid "Configuration via Configuration Files"
 msgstr ""
 
@@ -112,7 +112,7 @@ msgid "These configurations are critical to the Android app to run. Wrong config
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:69
-#: ../doc/reference/config/ios_configuration.rst:255
+#: ../doc/reference/config/ios_configuration.rst:253
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:95
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:59
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:137
@@ -123,7 +123,7 @@ msgid "config.xml"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:71
-#: ../doc/reference/config/ios_configuration.rst:257
+#: ../doc/reference/config/ios_configuration.rst:255
 msgid "The :file:`config.xml` file is a settings file controlling various settings of Cordova. It's located under ``www`` folder inside your monaca project."
 msgstr ""
 
@@ -208,24 +208,24 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:265
 #: ../doc/reference/config/android_configuration.rst:288
 #: ../doc/reference/config/android_configuration.rst:317
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:151
 #: ../doc/reference/config/ios_configuration.rst:152
 #: ../doc/reference/config/ios_configuration.rst:153
-#: ../doc/reference/config/ios_configuration.rst:154
 #: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:156
 #: ../doc/reference/config/ios_configuration.rst:157
 #: ../doc/reference/config/ios_configuration.rst:158
 #: ../doc/reference/config/ios_configuration.rst:159
 #: ../doc/reference/config/ios_configuration.rst:160
 #: ../doc/reference/config/ios_configuration.rst:161
-#: ../doc/reference/config/ios_configuration.rst:162
-#: ../doc/reference/config/ios_configuration.rst:163
-#: ../doc/reference/config/ios_configuration.rst:166
-#: ../doc/reference/config/ios_configuration.rst:273
-#: ../doc/reference/config/ios_configuration.rst:349
-#: ../doc/reference/config/ios_configuration.rst:372
-#: ../doc/reference/config/ios_configuration.rst:394
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:271
+#: ../doc/reference/config/ios_configuration.rst:347
+#: ../doc/reference/config/ios_configuration.rst:370
+#: ../doc/reference/config/ios_configuration.rst:392
+#: ../doc/reference/config/ios_configuration.rst:412
 #: ../doc/reference/cordova_5.2/camera/index.rst:187
 #: ../doc/reference/cordova_5.2/camera/index.rst:206
 #: ../doc/reference/cordova_6.2/camera/index.rst:180
@@ -327,9 +327,9 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:533
 #: ../doc/reference/config/android_configuration.rst:564
 #: ../doc/reference/config/android_configuration.rst:578
-#: ../doc/reference/config/ios_configuration.rst:134
-#: ../doc/reference/config/ios_configuration.rst:150
-#: ../doc/reference/config/ios_configuration.rst:213
+#: ../doc/reference/config/ios_configuration.rst:132
+#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:211
 #: ../doc/reference/cordova_3.5/camera/index.rst:44
 #: ../doc/reference/cordova_3.5/camera/index.rst:362
 #: ../doc/reference/cordova_3.5/device/index.rst:144
@@ -518,7 +518,7 @@ msgid "``src``"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:133
-#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:272
 msgid "``indext.html``"
 msgstr ""
 
@@ -537,7 +537,7 @@ msgid "``origin``"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:157
-#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:393
 msgid "``*``"
 msgstr ""
 
@@ -572,16 +572,16 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:183
 #: ../doc/reference/config/android_configuration.rst:204
 #: ../doc/reference/config/android_configuration.rst:224
-#: ../doc/reference/config/ios_configuration.rst:294
-#: ../doc/reference/config/ios_configuration.rst:313
-#: ../doc/reference/config/ios_configuration.rst:331
+#: ../doc/reference/config/ios_configuration.rst:292
+#: ../doc/reference/config/ios_configuration.rst:311
+#: ../doc/reference/config/ios_configuration.rst:329
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:67
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:125
 msgid "boolean"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:184
-#: ../doc/reference/config/ios_configuration.rst:332
+#: ../doc/reference/config/ios_configuration.rst:330
 msgid "``true``"
 msgstr ""
 
@@ -595,8 +595,8 @@ msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:205
 #: ../doc/reference/config/android_configuration.rst:225
-#: ../doc/reference/config/ios_configuration.rst:295
-#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:293
+#: ../doc/reference/config/ios_configuration.rst:312
 msgid "``false``"
 msgstr ""
 
@@ -712,12 +712,12 @@ msgid "If your application has previously been shipped to users, using an older 
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:411
+#: ../doc/reference/config/ios_configuration.rst:409
 msgid "*ScreenOrientation* (Cordova 5.2 or Higher)"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:319
-#: ../doc/reference/config/ios_configuration.rst:415
+#: ../doc/reference/config/ios_configuration.rst:413
 msgid "``default``"
 msgstr ""
 
@@ -730,12 +730,12 @@ msgid "``default``: will use system default screen orientation."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:324
-#: ../doc/reference/config/ios_configuration.rst:420
+#: ../doc/reference/config/ios_configuration.rst:418
 msgid "``landscape``: set screen orientation to landscape mode."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:325
-#: ../doc/reference/config/ios_configuration.rst:421
+#: ../doc/reference/config/ios_configuration.rst:419
 msgid "``portrait``: set screen orientation to portrait mode."
 msgstr ""
 
@@ -1162,7 +1162,7 @@ msgid "category name"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:588
-#: ../doc/reference/config/ios_configuration.rst:452
+#: ../doc/reference/config/ios_configuration.rst:450
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
 #: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
@@ -1229,12 +1229,13 @@ msgid "*See Also*"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:590
-#: ../doc/reference/config/ios_configuration.rst:454
+#: ../doc/reference/config/ios_configuration.rst:452
 msgid ":ref:`file_folder_configuration`"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:591
-msgid ":ref:`MonacaApp-Info.plist`"
+#: ../doc/reference/config/ios_configuration.rst:55
+msgid ":ref:`info_plist`"
 msgstr ""
 
 #: ../doc/reference/config/index.rst:3
@@ -1245,420 +1246,438 @@ msgstr ""
 msgid "With Monaca Cloud IDE, you can specify more behaviors for iOS and Android apps by using the app setting page or by manually editing the configuration files."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:5
+#: ../doc/reference/config/ios_configuration.rst:3
 msgid "iOS Configuration"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:10
+#: ../doc/reference/config/ios_configuration.rst:8
 msgid "There are 2 ways to configure your iOS apps:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:12
+#: ../doc/reference/config/ios_configuration.rst:10
 msgid ":ref:`Configure via Monaca Cloud IDE <ios_config_ide>`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:13
+#: ../doc/reference/config/ios_configuration.rst:11
 msgid ":ref:`Configure via configuration files directly <ios_config_files>`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:22
+#: ../doc/reference/config/ios_configuration.rst:20
 msgid "iOS App Settings Page"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:25
+#: ../doc/reference/config/ios_configuration.rst:23
 msgid "The iOS App Settings page allows to set several commonly used parameter in iOS app. Please follow the following instruction in order to access the iOS App Setting page in Monaca Cloud IDE:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:27
+#: ../doc/reference/config/ios_configuration.rst:25
 msgid "From Monaca Cloud IDE menu, go to :guilabel:`Config` > :guilabel:`iOS App Settings...`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:32
+#: ../doc/reference/config/ios_configuration.rst:30
 msgid "*iOS App Configuration* page will appear as shown below. You can then start your configuration."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:37
+#: ../doc/reference/config/ios_configuration.rst:35
 msgid "After finishing the configuration, please click :guilabel:`Save` button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:42
+#: ../doc/reference/config/ios_configuration.rst:40
 msgid "In the iOS App Settings page, you can configure the parameters such as application information, icons, splash files, permissions and additional features. The following are the list of parameters can be configured via the page:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:44
+#: ../doc/reference/config/ios_configuration.rst:42
 msgid "*Allowed URL*: Specify URL(s) which can be accessed from your app. If set to ``*``, you can access all domains from your app. (Set to ``*`` by default)"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:46
+#: ../doc/reference/config/ios_configuration.rst:44
 msgid "*Enable Viewport Scale*: [Enable by default] If you disable this feature, the viewport meta tag which is set inside your app will be ignored."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:47
+#: ../doc/reference/config/ios_configuration.rst:45
 msgid "*Fade Splash Screen*: [Enable by default]"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:48
+#: ../doc/reference/config/ios_configuration.rst:46
 msgid "*Show Splash Screen*: Show splash screen at start of the app."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:55
+#: ../doc/reference/config/ios_configuration.rst:53
 msgid "All the configuration parameters of an iOS app are stored in the files as follows:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:57
-msgid ":ref:`info_plist`"
-msgstr ""
-
-#: ../doc/reference/config/ios_configuration.rst:58
+#: ../doc/reference/config/ios_configuration.rst:56
 msgid ":ref:`config_xml_ios`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:62
+#: ../doc/reference/config/ios_configuration.rst:60
 msgid "These configurations are critical to the iOS app to run. Wrong configuration can prevent the app from running properly, please edit the file carefully."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:68
+#: ../doc/reference/config/ios_configuration.rst:66
 msgid "MonacaApp-Info.plist"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:70
+#: ../doc/reference/config/ios_configuration.rst:68
 msgid "You can configure your iOS app in :file:`MonacaApp-Info.plist` file. For information on ``plist`` file, please refer to `Information Property List Files (Apple) <http://developer.apple.com/library/ios/documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html>`_. This file is located under ``ios`` folder inside your monaca project as shown below:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:78
+#: ../doc/reference/config/ios_configuration.rst:76
 msgid ":file:`MonacaApp-Info.plist` (Excerpt)"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:101
+#: ../doc/reference/config/ios_configuration.rst:99
 msgid "Inside :file:`MonacaApp-Info.plist` file, there are 3 main types of elements:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:103
+#: ../doc/reference/config/ios_configuration.rst:101
 msgid "*<key>*: Defines value (plistObject) and a combination of application configuration information."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:104
+#: ../doc/reference/config/ios_configuration.rst:102
 msgid "*<array>*: You can have the array of values (plistObject)."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:105
+#: ../doc/reference/config/ios_configuration.rst:103
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:108
+#: ../doc/reference/config/ios_configuration.rst:106
 msgid "For example:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:131
+#: ../doc/reference/config/ios_configuration.rst:129
 msgid "*Type List of Values (plistObject)*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:132
 msgid "Types"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:134
 msgid "String data type representing text."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "date"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "Date data type representing date and time."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:136
 #: ../doc/reference/monaca_api/cloud/criteria.rst:104
 msgid "Integer"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:136
 msgid "Integer number"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "real"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "Floating data type representing a decimal number."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "data"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "Data type"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:141
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:162
 #: ../doc/reference/cordova_5.2/camera/index.rst:246
 #: ../doc/reference/cordova_6.2/camera/index.rst:239
 msgid "true"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:141
+#: ../doc/reference/config/ios_configuration.rst:139
 msgid "true boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "false"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "false boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:145
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "*List of Keys*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:148
 msgid "key"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:148
 msgid "plistObject Type"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:150
 msgid "CFBundleDevelopmentRegion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:150
 msgid "Defines a native language of the developer. If the language of the user cannot be found, this value will be used as default."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "CFBundleDisplayName"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "Define a name of the application. It is a fully qualified name of the class that you extend from Application class."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:152
 msgid "CFBundleExecutable"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:152
 msgid "Defines the application executable file."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "CFBundleIconFile"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "Defines application icon file name."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "CFBundleIconFiles"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:156
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "<array>string"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "Defines icon file names used for iOS 3.2 or later. The correct file will be chosen depending on the size of the device screen resolution."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "CFBundleIdentifier"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "Specifies a unique identifier for your application. The identifier must be a Uniform Type Identifier (UTI) as \":file:`com.monaca.MyApp`\"."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "CFBundleInfoDictionaryVersion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "Is the current version number of :file:`MonacaApp-Info.plist` file."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "CFBundleName"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "Is a short display name of the app. It is limited to 16 characters at most."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "CFBundlePackageType"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "Is a 4-digit code used to describe application type. Set this value to \"APPL\" for application project."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "CFBundleShortVersionString"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "Specifies the version number of your application."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "CFBundleSignature"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "Is a 4-digit code used to identify the app developer."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "CFBundleVersion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "Is a build version number of the application."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "LSRequiresIPhoneOS"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "Indicates whether the application can only be run on iPhone or not."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "UISupportedInterfaceOrientations"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:165
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "Specifies screen orientations for iPhone that are supported by the application. For iPad, use \"UISupportedInterfaceOrientations~ipad\"."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:166
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "BackupWebStorage"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:166
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "Set to ``cloud`` to allow the web storage data to be backed up to iCloud, Set to ``none`` to not allow any backups of web storage. default is ``cloud``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:170
+#: ../doc/reference/config/ios_configuration.rst:168
 msgid "Here are some keys and values you may need to configure in your iOS apps:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:176
+#: ../doc/reference/config/ios_configuration.rst:174
 msgid "*UISupportedInterfaceOrientations*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:178
+#: ../doc/reference/config/ios_configuration.rst:176
 msgid "Is used to set the screen orientation of your app:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:180
+#: ../doc/reference/config/ios_configuration.rst:178
 msgid "Settings for iPhone"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:195
+#: ../doc/reference/config/ios_configuration.rst:193
 msgid "Settings for iPad"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:210
+#: ../doc/reference/config/ios_configuration.rst:208
 msgid "*List of Orientation Values*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:213
+#: ../doc/reference/config/ios_configuration.rst:211
 msgid "Value"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "UIInterfaceOrientationLandscapeLeft"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "Landscape orientation aligned to the left side of the Home button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:216
 msgid "UIInterfaceOrientationLandscapeRight"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:216
 msgid "Landscape orientation aligned to the right side of the Home button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:218
 msgid "UIInterfaceOrientationPortraitUpsideDown"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:218
 msgid "Portrait orientation"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:222
+#: ../doc/reference/config/ios_configuration.rst:220
 msgid "UIInterfaceOrientationPortrait"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:222
+#: ../doc/reference/config/ios_configuration.rst:220
 msgid "Portrait orientation in opposite direction from the normal portrait orientation."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:226
+#: ../doc/reference/config/ios_configuration.rst:224
 msgid "You can download a sample screen orientation file below:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:228
+#: ../doc/reference/config/ios_configuration.rst:226
 msgid ":download:`Screen Orientation File <download/UISupportedInterfaceOrientations.zip>`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:236
+#: ../doc/reference/config/ios_configuration.rst:234
 msgid "Statusbar Setting"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:241
+#: ../doc/reference/config/ios_configuration.rst:239
 msgid "*UIStatusBarHidden*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:241
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:239
+#: ../doc/reference/config/ios_configuration.rst:244
 msgid "*Type:* boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:242
-#: ../doc/reference/config/ios_configuration.rst:247
+#: ../doc/reference/config/ios_configuration.rst:240
+#: ../doc/reference/config/ios_configuration.rst:245
 msgid "*Default:* ``false``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:243
-#: ../doc/reference/config/ios_configuration.rst:248
+#: ../doc/reference/config/ios_configuration.rst:241
+#: ../doc/reference/config/ios_configuration.rst:246
 msgid "*Description:* if set to ``true``, the status bar at the top of the application will be hidden."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:242
 msgid "*Note:* If *UIStatusBarHidden* set to ``true`` and *UIViewControllerBasedStatusBarAppearance* set to ``false``, the status bar at the top of the app will be hidden."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:244
 msgid "*UIViewControllerBasedStatusBarAppearance*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:249
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid "*Note:* set to ``true`` in order to use :ref:`StatusBar Plugin<status_bar_plugin>`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:264
+#: ../doc/reference/config/ios_configuration.rst:262
 msgid "Below are available preferences you may need to configure:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:270
+#: ../doc/reference/config/ios_configuration.rst:268
 msgid "*Content*"
+msgstr ""
+
+#: ../doc/reference/config/ios_configuration.rst:271
+#: ../doc/reference/config/ios_configuration.rst:292
+#: ../doc/reference/config/ios_configuration.rst:311
+#: ../doc/reference/config/ios_configuration.rst:329
+#: ../doc/reference/config/ios_configuration.rst:347
+#: ../doc/reference/config/ios_configuration.rst:370
+#: ../doc/reference/config/ios_configuration.rst:392
+#: ../doc/reference/config/ios_configuration.rst:412
+msgid "*Type*"
+msgstr ""
+
+#: ../doc/reference/config/ios_configuration.rst:272
+#: ../doc/reference/config/ios_configuration.rst:293
+#: ../doc/reference/config/ios_configuration.rst:312
+#: ../doc/reference/config/ios_configuration.rst:330
+#: ../doc/reference/config/ios_configuration.rst:348
+#: ../doc/reference/config/ios_configuration.rst:371
+#: ../doc/reference/config/ios_configuration.rst:393
+#: ../doc/reference/config/ios_configuration.rst:413
+msgid "*Default*"
 msgstr ""
 
 #: ../doc/reference/config/ios_configuration.rst:273
@@ -1669,132 +1688,110 @@ msgstr ""
 #: ../doc/reference/config/ios_configuration.rst:372
 #: ../doc/reference/config/ios_configuration.rst:394
 #: ../doc/reference/config/ios_configuration.rst:414
-msgid "*Type*"
-msgstr ""
-
-#: ../doc/reference/config/ios_configuration.rst:274
-#: ../doc/reference/config/ios_configuration.rst:295
-#: ../doc/reference/config/ios_configuration.rst:314
-#: ../doc/reference/config/ios_configuration.rst:332
-#: ../doc/reference/config/ios_configuration.rst:350
-#: ../doc/reference/config/ios_configuration.rst:373
-#: ../doc/reference/config/ios_configuration.rst:395
-#: ../doc/reference/config/ios_configuration.rst:415
-msgid "*Default*"
-msgstr ""
-
-#: ../doc/reference/config/ios_configuration.rst:275
-#: ../doc/reference/config/ios_configuration.rst:296
-#: ../doc/reference/config/ios_configuration.rst:315
-#: ../doc/reference/config/ios_configuration.rst:333
-#: ../doc/reference/config/ios_configuration.rst:351
-#: ../doc/reference/config/ios_configuration.rst:374
-#: ../doc/reference/config/ios_configuration.rst:396
-#: ../doc/reference/config/ios_configuration.rst:416
 msgid "*Description*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:275
+#: ../doc/reference/config/ios_configuration.rst:273
 msgid "The ``<content>`` element defines the app's starting page in the top-level web assets directory. You can change the starting page by changing the value of the ``src`` attribute to your preferred URL."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:291
+#: ../doc/reference/config/ios_configuration.rst:289
 msgid "*DisallowOverScroll*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:294
 msgid "Set to ``true`` if you want to disable the rubber-band scrolling for WebView."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:310
+#: ../doc/reference/config/ios_configuration.rst:308
 msgid "*EnableViewportScale*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:315
+#: ../doc/reference/config/ios_configuration.rst:313
 msgid "Set to ``true`` to prevent viewport scaling through a meta tag."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:328
+#: ../doc/reference/config/ios_configuration.rst:326
 msgid "*AutoHideSplashScreen*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:333
+#: ../doc/reference/config/ios_configuration.rst:331
 msgid "Set to ``false`` to control the splashscreen when it's hidden through a JavaScript API."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:346
+#: ../doc/reference/config/ios_configuration.rst:344
 msgid "*BackupWebStorage*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:348
 msgid "``cloud``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:349
 msgid "There are 3 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:353
+#: ../doc/reference/config/ios_configuration.rst:351
 msgid "``none``: disable any backups of web storage."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:354
+#: ../doc/reference/config/ios_configuration.rst:352
 msgid "``cloud``: allow the web storage data to be backed up to iCloud."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:355
+#: ../doc/reference/config/ios_configuration.rst:353
 msgid "``local``: allow only local backups (iTunes sync)."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:369
+#: ../doc/reference/config/ios_configuration.rst:367
 msgid "*UIWebViewDecelerationSpeed*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:371
 msgid "``normal``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:372
 msgid "Controls the deceleration speed of momentum scrolling. There are 2 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:376
+#: ../doc/reference/config/ios_configuration.rst:374
 msgid "``normal``: is the default speed for most native apps"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:377
+#: ../doc/reference/config/ios_configuration.rst:375
 msgid "``fast``: is the default speed for Mobile Safari."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:391
+#: ../doc/reference/config/ios_configuration.rst:389
 msgid "*access origin*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:396
+#: ../doc/reference/config/ios_configuration.rst:394
 msgid "Controls access to specific network domains. If set to ``*``, you can access all domains from your app."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:416
+#: ../doc/reference/config/ios_configuration.rst:414
 msgid "There are 4 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:418
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid "``all``: to specify both portrait & landscape mode you would use the platform specific value all"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:419
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid "``default``: screen orientation will be applied according to system default."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:435
+#: ../doc/reference/config/ios_configuration.rst:433
 msgid "It is also possible to apply the setting for all devices at once; however, you can only apply default, landscape and portrait in value. \"all\" is not possible for Global Preferences."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:447
+#: ../doc/reference/config/ios_configuration.rst:445
 msgid "For android/windows, \"default\" means all direction, but in iOS only portrait will be applied."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:455
+#: ../doc/reference/config/ios_configuration.rst:453
 msgid ":ref:`android_configuration_file`"
 msgstr ""
 

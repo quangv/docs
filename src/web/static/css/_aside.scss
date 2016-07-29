@@ -1,5 +1,41 @@
 $aside-padding: 0;
 
+aside.top-page {
+  float: right;
+  font-size: 16px;
+  padding: 15px 0px 40px 0px;
+  width: 288px;
+  box-sizing: border-box;
+  div.aside-search {
+    padding: 0;
+    margin-right: 15px;
+  }
+
+  .gsc-input-box {
+      height: 30px;
+  }
+
+  div.aside-search .cse .gsc-control-cse, .gsc-control-cse {
+    padding: 0;
+    width: auto;
+  }
+
+  div.aside-search .gsib_a {
+      width: 100%;
+      padding: 5px 6px 3px;
+  }
+
+  div.aside-search .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+    width: 56px;
+    height: 30px;
+    padding: 4px 18px 4px 18px;
+    min-width: 13px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: $monaca-blue;
+  }
+}
+
 aside.global {
   float: right;
   font-size: 16px;
@@ -38,6 +74,7 @@ aside.global {
     min-width: 13px;
     margin-top: 5px;
     margin-right: 5px;
+    background-color: $monaca-blue;
   }
 
   /* css for google search */
@@ -45,7 +82,7 @@ aside.global {
   /* toc */
   nav.aside-main {
     background-color: #f2f2f2;
-    padding-right: 0;
+    /*padding-right: 10px;*/
     padding-left: 10px;
     padding-bottom: 20px;
     margin-right: 20px;
@@ -66,6 +103,7 @@ aside.global {
       > ul {
         margin-left: 0;
         padding-top: 10px;
+        /*padding-right: 10px;*/
         > li {
           > a {
             color: #444;
@@ -74,13 +112,13 @@ aside.global {
             padding: 10px;
           }
           > ul {
-            padding: 1em 1em 1em 0;
+            padding: 1em 10px 1em 0;
             li {
               color: #5d89cb;
               line-height: 1.8;
               left: 5%;
               margin: 0;
-              padding: 6px 0 6px $aside-padding;
+              padding: 6px 2px 6px $aside-padding;
               position: relative;
               @include all-a(#5d89cb,none);
 
@@ -119,7 +157,11 @@ aside.global {
                   }
                 }
               }
+              > ul {
+                padding: 1em 10px 1em 0;
+              }
             }
+            
           }
           
           li {

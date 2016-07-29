@@ -208,7 +208,7 @@ Below is the code of ``BB`` object which is the main object of this application.
         },
         
         /**
-         * callback for PhoneGap Acceleration Watch
+         * callback for Core Cordova Plugins Acceleration Watch
          * @param {Object} a a.x, a.y, a.z
          */
         updateAcceleration: function(a) {

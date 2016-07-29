@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 02:12+0000\n"
+"PO-Revision-Date: 2016-07-27 02:04+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -2946,7 +2946,7 @@ msgstr "*USB デバッグ の有効化*"
 
 #: ../doc/manual/debugger/debug.rst:249
 msgid "Enable \"Web Inspector\" in iOS device:"
-msgstr "iOS 端末上で、「 Web インスペクタ 」 を有効化します。"
+msgstr "iOS 端末上で、[ Web インスペクタ ] を有効化します。"
 
 #: ../doc/manual/debugger/debug.rst:251
 msgid "Go to :menuselection:`Settings --> Safari`."
@@ -2962,7 +2962,7 @@ msgstr ":guilabel:`Web インスペクタ` を ON にします。"
 
 #: ../doc/manual/debugger/debug.rst:249
 msgid "Enable \"USB debugging\" in Android device:"
-msgstr "Android 端末上で、「 USB デバッグ ( USB debugging ) 」 を有効化します。"
+msgstr "Android 端末上で、[ USB デバッグ ( USB debugging ) ] を有効化します。"
 
 #: ../doc/manual/debugger/debug.rst:251
 msgid "Go to :menuselection:`Settings --> More`."
@@ -4168,7 +4168,7 @@ msgid ""
 "Then, \"Add or Remove JS/CSS Components\" page will be shown. You can see "
 "several libraries listed there. If you can't find the library you want, "
 "input the library's name in a search box to find it."
-msgstr "「 JS/CSS コンポーネントの追加と削除 」 ページが表示されます。ページ上では、複数のライブラリーが一覧化されています。必要なライブラリーを見つけられない場合には、検索ボックスを使用します。"
+msgstr "[ JS/CSS コンポーネントの追加と削除 ] ページが表示されます。ページ上では、複数のライブラリーが一覧化されています。必要なライブラリーを見つけられない場合には、検索ボックスを使用します。"
 
 #: ../doc/manual/dependencies/components.rst:26
 msgid ""
@@ -4322,7 +4322,7 @@ msgstr "Monaca 側で用意している Cordova プラグイン"
 msgid ""
 "Right from Monaca Cloud IDE, you can easily include standard (core) and "
 "third-party Cordova plugins."
-msgstr "「 基本 Cordova プラグイン 」、「 サードパーティー製 Cordova プラグイン 」、どちらのプラグインの追加設定も、Monaca クラウド IDE 上で行えます ( Cordova オフィシャルページでは、基本 Cordova プラグインは、「 コア Cordova プラグイン 」 と呼ばれています )。"
+msgstr "「 基本 Cordova プラグイン 」、「 サードパーティー製 Cordova プラグイン 」、どちらのプラグインの追加設定も、Monaca クラウド IDE 上で行えます ( Cordova の公式ページでは、基本 Cordova プラグインは、「 コア Cordova プラグイン/Cordova コアプラグイン 」 と呼ばれています )。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:99
 msgid ""
@@ -4393,7 +4393,7 @@ msgstr "Cordova プラグインを利用すると、ネイティブ機能をプ�
 msgid ""
 "You need to subscribe to a valid plan in order to use custom Cordova "
 "plugins. Please refer to `Monaca Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr "ユーザー Cordova プラグインのご利用には、対応するプランへの加入が必要です ( `料金プラン <https://monaca.mobi/en/pricing>`_ を参照のこと )。"
+msgstr "ユーザー Cordova プラグインのご利用には、対応するプランへの加入が必要です ( `料金プラン <https://monaca.mobi/ja/pricing>`_ を参照のこと )。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:19
 msgid "Your custom Cordova plugin need to follow the requirements below:"
@@ -4609,7 +4609,7 @@ msgid ""
 "We also offer technical support (fee required) for developing your custom "
 "Cordova Plugin. Please contact our support team `here "
 "<https://monaca.mobi/en/support/index>`_."
-msgstr "また、ユーザー Cordova プラグイン開発の技術支援 ( 有料 ) も、弊社にて承っております。サポートチームまで、お気軽に、詳細を `お問い合わせ <https://monaca.mobi/en/support/index>`_ ください。"
+msgstr "また、ユーザー Cordova プラグイン開発の技術支援 ( 有料 ) も、弊社にて承っております。サポートチームまで、お気軽に、詳細を `お問い合わせ <https://monaca.mobi/ja/support/index>`_ ください。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:185
 msgid "Testing Custom Cordova Plugin"
@@ -4923,7 +4923,7 @@ msgstr "プラットフォームとして、:guilabel:`Android` を選択して�
 msgid ""
 "The New App Submission page will appear. In this page, you will need to fill"
 " in the necessary information such as:"
-msgstr "「 新規アプリ申請 」 ページが表示されます。必要な情報を入力します。"
+msgstr "[ 新規アプリ申請 ] ページが表示されます。必要な情報を入力します。"
 
 #: ../doc/manual/deploy/amazon_store.rst:43
 msgid "App title"
@@ -5152,14 +5152,14 @@ msgstr "Monaca 提供のアップロード機能"
 msgid ""
 "In order to use this upload feature, you are required to subscribe to a "
 "valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr "このアップロード機能を使用するためには、対応するプランへの加入が必要です。詳細は、`こちら <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "このアップロード機能を使用するためには、対応するプランへの加入が必要です。詳細は、`こちら <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/manual/deploy/appstore/app_submission.rst:9
 msgid ""
 "If you use activation code to upgrade your account, you can use Monaca "
 "upload feature in case your plan supports this feature. Please `contact us "
 "<https://monaca.mobi/en/support/inquiry>`_ for more details."
-msgstr "アクティベーション コードを使用し、アカウントをアップグレードさせて、アップロード機能を使用する場合には、アップグレード後のプランがこの機能をサポートしている必要があります。なにかご質問がございましたら、こちらの `相談窓口 <https://monaca.mobi/en/support/inquiry>`_ までご連絡ください。"
+msgstr "アクティベーション コードを使用し、アカウントをアップグレードさせて、アップロード機能を使用する場合には、アップグレード後のプランがこの機能をサポートしている必要があります。なにかご質問がございましたら、こちらの `相談窓口 <https://monaca.mobi/ja/support/inquiry>`_ までご連絡ください。"
 
 #: ../doc/manual/deploy/appstore/app_submission.rst:11
 msgid ""
@@ -5356,13 +5356,13 @@ msgstr "アプリを識別するためのコード名を入力します。内容
 msgid ""
 "Click :guilabel:`Create`. Then, you will be redirected to the App "
 "Information page."
-msgstr ":guilabel:`作成` ボタンをクリックします。次に、「 App 情報 」 ページに遷移します。"
+msgstr ":guilabel:`作成` ボタンをクリックします。次に、[ App 情報 ] ページに遷移します。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:78
 msgid ""
 "In the App Information page, choose a category for your app and click "
 ":guilabel:`Save`."
-msgstr "「 App 情報 」 ページ上で、アプリの [ カテゴリ ] を選択して、:guilabel:`保存` ボタンをクリックします。"
+msgstr "[ App 情報 ] ページ上で、アプリの [ カテゴリ ] を選択して、:guilabel:`保存` ボタンをクリックします。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:86
 msgid ""
@@ -5629,7 +5629,7 @@ msgstr "アップロード完了後、次のスクリーンショットのよう
 msgid ""
 "Go to Store Listing section. In this page, you will need to fill in some "
 "necessary information such as:"
-msgstr "「 ストアの掲載情報 」 ページへ行き、必要な情報を入力します。"
+msgstr "[ ストアの掲載情報 ] ページへ行き、必要な情報を入力します。"
 
 #: ../doc/manual/deploy/google_play.rst:83
 msgid ""
@@ -5725,7 +5725,7 @@ msgid ""
 "Go to Content Rating section. In this page, you will be asked to complete a "
 "questionnaire regarding content rating for your app. Click "
 ":guilabel:`Continue` to start the questionaire."
-msgstr "「 コンテンツのレーティング 」 ページへ行き、コンテンツのレーティングに関するアンケートに回答します。画面の内容を確認して、 :guilabel:`次へ` ボタンをクリックします。"
+msgstr "[ コンテンツのレーティング ] ページへ行き、コンテンツのレーティングに関するアンケートに回答します。画面の内容を確認して、 :guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/manual/deploy/google_play.rst:122
 msgid ""
@@ -5743,7 +5743,7 @@ msgstr ":guilabel:`レーティングを算定` ボタンをクリックしま�
 msgid ""
 "Go to Pricing & Distribution section. In this page, you are required to "
 "complete the following information:"
-msgstr "「 価格と販売/配布地域 」 ページへ行き、次の情報を入力します。"
+msgstr "[ 価格と販売/配布地域 ] ページへ行き、次の情報を入力します。"
 
 #: ../doc/manual/deploy/google_play.rst:137
 msgid "Default price"
@@ -6863,11 +6863,11 @@ msgstr "ビルドの種類"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:334
 msgid "build the application for each platform"
-msgstr "各プラットフォーム向けのアプリのビルド方法"
+msgstr "各プラットフォーム向けアプリのビルド方法"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:335
 msgid "get/install the built apps."
-msgstr "ビルド済みアプリの入手・インストール方法"
+msgstr "ビルド済みアプリの入手方法・インストール方法"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:337
 msgid ":dfn:`$ monaca remote build <platform> [options]`"
@@ -8329,7 +8329,7 @@ msgid ""
 "The usability of this function depends on your Monaca subscription plan. For"
 " more information, please refer to `Monaca Subscription Plan "
 "<https://monaca.mobi/en/pricing>`_."
-msgstr "ご利用のプランにより、この機能は使用できない場合があります。詳細は、`プランの詳細 <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "ご利用のプランにより、この機能は使用できない場合があります。詳細は、`プランの詳細 <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/overview.rst:323
 msgid "The *Share* function allows you to:"
@@ -8739,7 +8739,7 @@ msgid ""
 "Generally, you can only connect to public repositories. However, with valid "
 "Monaca subscription plan, you can additionally connect to private "
 "repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr "ここでは、Public 指定されたレポジトリを対象として解説を進めます。Private 指定のレポジトリに接続する場合には、対応する Monaca プランに加入する必要があります。詳細は、`料金プラン <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr "ここでは、Public 指定されたレポジトリを対象として解説を進めます。Private 指定のレポジトリに接続する場合には、対応する Monaca プランに加入する必要があります。詳細は、`料金プラン <https://monaca.mobi/ja/pricing>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:23
 msgid "In order to use version control in Monaca Cloud IDE, you will need:"
@@ -8752,7 +8752,7 @@ msgstr "GitHub アカウント。`こちら <https://github.com/join>`_ から�
 #: ../doc/manual/development/monaca_ide/version_control.rst:26
 msgid ""
 "a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__."
-msgstr "Monaca アカウント。`こちら <https://monaca.mobi/en/register/start>`__ から登録できます。"
+msgstr "Monaca アカウント。`こちら <https://monaca.mobi/ja/register/start>`__ から登録できます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:30
 msgid "GitHub Integration"
@@ -8768,7 +8768,7 @@ msgstr "Monaca アカウントと GitHub アカウントとの連携"
 msgid ""
 "Log into `Monaca Cloud IDE <https://monaca.mobi/en/login>`_ with your Monaca"
 " account."
-msgstr "Monaca アカウントを使用して、`Monaca クラウド IDE <https://monaca.mobi/en/login>`_ にログインします。"
+msgstr "Monaca アカウントを使用して、`Monaca クラウド IDE <https://monaca.mobi/ja/login>`_ にログインします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:39
 msgid "Go to :menuselection:`Your profile name --> GitHub Integration`."
@@ -8778,14 +8778,14 @@ msgstr "ダッシュボード画面の右上の :menuselection:`開発者のプ�
 msgid ""
 "Click on :guilabel:`Link` button. You are required to login with your GitHub"
 " account before being redirected to GitHub's Authorize Application page."
-msgstr ":guilabel:`連携する` ボタンをクリックします。GitHub にログインする必要があります。ログイン後またはログイン済みであれば、GitHub の 「 Authorize application 」 ページが表示されます。"
+msgstr ":guilabel:`連携する` ボタンをクリックします。GitHub にログインする必要があります。ログイン後またはログイン済みであれば、GitHub の [ Authorize application ] ページが表示されます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:56
 msgid ""
 "In the Authorize Application page, you will be asked to authorize the "
 "application in order to link Monaca account to GitHub. Click on "
 ":guilabel:`Authorize application` to proceed."
-msgstr "「 Authorize application 」 ページでは、Monaca と GitHub の連携に必要となる認証手続きを行います。:guilabel:`Authorize application` ( アプリケーションの認証 ) をクリックして、先に進みます。"
+msgstr "[ Authorize application ] ページでは、Monaca と GitHub の連携に必要となる認証手続きを行います。:guilabel:`Authorize application` ( アプリケーションの認証 ) をクリックして、先に進みます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:65
 msgid "Now your Monaca account is successfully linked to your GitHub account."
@@ -8805,7 +8805,7 @@ msgstr "Monaca アカウントと GitHub アカウントとの連携の解除"
 msgid ""
 "If you want to unlink your Monaca account from GitHub, just click on "
 ":guilabel:`Unlink` button in Link to GitHub page."
-msgstr "Monaca アカウントと GitHub アカウントとの連携を解除する場合、「 GitHub アカウント連携 」 ページ上で :guilabel:`連携を解除する` ボタンをクリックします。"
+msgstr "Monaca アカウントと GitHub アカウントとの連携を解除する場合、[ GitHub アカウント連携 ] ページ上で :guilabel:`連携を解除する` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:90
 msgid "Unable to Re-link to GitHub"
@@ -8832,7 +8832,7 @@ msgstr "Monaca Cloud IDE から、いったんログアウトします。"
 msgid ""
 "Go to `Monaca Login <https://monaca.mobi/en/login>`_ page and choose "
 ":guilabel:`Sign in with GitHub`."
-msgstr "`Monaca ログイン <https://monaca.mobi/en/login>`_ ページに移動して、:guilabel:`Sign In With GitHub` をクリックします。 "
+msgstr "`Monaca ログイン <https://monaca.mobi/ja/login>`_ ページに移動して、:guilabel:`Sign In With GitHub` をクリックします。 "
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:113
 msgid "Fill in your GitHub account information."
@@ -8842,14 +8842,14 @@ msgstr "GitHub のアカウント情報を入力します。"
 msgid ""
 "Then, you will be redirected to GitHub's Authorize Application page. Click "
 "on :guilabel:`Authorize application` to proceed."
-msgstr "GitHub の 「 Authorize application 」 ページにリダイレクトされます。:guilabel:`Authorize application` ボタンをクリックして、先に進みます。"
+msgstr "GitHub の [ Authorize application ] ページにリダイレクトされます。:guilabel:`Authorize application` ボタンをクリックして、先に進みます。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:123
 msgid ""
 "After this, your Monaca account should be successfully linked to GitHub "
 "account. You can confirm in the Link to GitHub page. It should appear like "
 "this:"
-msgstr "ここまでの手順を行えば、Monaca と GitHub が再び連携されています。「 GitHub アカウント連携 」 ページに移動して、次のような画面が表示されていることを確認します。"
+msgstr "ここまでの手順を行えば、Monaca と GitHub が再び連携されています。[ GitHub アカウント連携 ] ページに移動して、次のような画面が表示されていることを確認します。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:133
 msgid "Version Control Configuration"
@@ -8895,7 +8895,7 @@ msgid ""
 "Once you have an empty repository in GitHub, you are now able to select your"
 " remote repository. Then, click on :guilabel:`Initialize` button to save the"
 " configuration."
-msgstr "GitHub 上に空のレポジトリを作成した後、次に、作成したリポジトリを選択します。上記の手順を再度行い、「 バージョン管理設定 」 の 「 リモートリポジトリ設定 」 ページに移動して、リポジトリの選択後、:guilabel:`設定する` ボタンをクリックします。"
+msgstr "GitHub 上に空のレポジトリを作成した後、次に、作成したリポジトリを選択します。上記の手順を再度行い、[ バージョン管理設定 ] の [ リモートリポジトリ設定 ] ページに移動して、リポジトリの選択後、:guilabel:`設定する` ボタンをクリックします。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:163
 msgid ""
@@ -8903,7 +8903,7 @@ msgid ""
 "default, your working branch will be configured as master. If you want to "
 "switch to another working branch, please go to Version Control Configuration"
 " page (:menuselection:`Version Control --> Configure...`)."
-msgstr "クリックすると、GitHub 上の新規のレポジトリにプロジェクトがアップロードされます。使用できるブランチは、デフォルトでは、master となります。他のブランチに切り替える場合には、「 バージョン管理設定 」 ページへ移動します ( :menuselection:`バージョン管理 --> 設定...` を選択 )。なお、ブランチはあらかじめ作成しておく必要があります。"
+msgstr "クリックすると、GitHub 上の新規のレポジトリにプロジェクトがアップロードされます。使用できるブランチは、デフォルトでは、master となります。他のブランチに切り替える場合には、[ バージョン管理設定 ] ページへ移動します ( :menuselection:`バージョン管理 --> 設定...` を選択 )。なお、ブランチはあらかじめ作成しておく必要があります。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:168
 msgid "Import Existing Project from GitHub Repository"
@@ -8932,7 +8932,7 @@ msgid ""
 "Dashboard. By default, master branch will be applied to the imported "
 "project. You can switch the current working branch in the Version Control "
 "Configuration page (:menuselection:`Version Control --> Configure...`)."
-msgstr "インポートの完了後、Monaca ダッシュボード上で対象のプロジェクトが表示されていることを確認します。デフォルトでは、master ブランチのコンテンツがインポート対象となります。ブランチは、「 バージョン管理設定 」 ページ上で切り替えることができます ( :menuselection:`バージョン管理 --> 設定...` )。"
+msgstr "インポートの完了後、Monaca ダッシュボード上で対象のプロジェクトが表示されていることを確認します。デフォルトでは、master ブランチのコンテンツがインポート対象となります。ブランチは、[ バージョン管理設定 ] ページ上で切り替えることができます ( :menuselection:`バージョン管理 --> 設定...` )。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:188
 msgid "Working with Remotes"
@@ -9559,7 +9559,7 @@ msgid ""
 "the first login. Please refer to `Pricing "
 "<https://monaca.mobi/en/pricing?type=2>`_ for more details of each Monaca "
 "plan."
-msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://monaca.mobi/en/pricing?type=2>`_ をご確認ください。"
+msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://monaca.mobi/ja/pricing?type=2>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:29
 msgid ""
@@ -9583,7 +9583,7 @@ msgid ""
 "Download the latest version of Monaca Localkit `here "
 "<https://monaca.io/localkit.html>`_. Please refer to `GitHub release page "
 "<https://github.com/monaca/Localkit/releases>`_ for change logs."
-msgstr "Monaca Localkit の `最新版はこちら <https://monaca.io/localkit.html>`_ からダウンロードできます。変更履歴に関しては、 `GitHub のリリースページ <https://github.com/monaca/Localkit/releases>`_ をご確認ください。"
+msgstr "Monaca Localkit の `最新版はこちら <https://ja.monaca.io/localkit.html>`_ からダウンロードできます。変更履歴に関しては、 `GitHub のリリースページ <https://github.com/monaca/Localkit/releases>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:45
 msgid ""
@@ -9999,7 +9999,7 @@ msgstr "Microsoft Visual Studio 2015 の Community または Professional エデ
 msgid ""
 "a valid plan subscription. Please refer to `Pricing "
 "<https://monaca.mobi/en/pricing>`_."
-msgstr "対応するプランへの加入 ( `料金プラン <https://monaca.mobi/en/pricing>`_ を参照のこと )"
+msgstr "対応するプランへの加入 ( `料金プラン <https://monaca.mobi/ja/pricing>`_ を参照のこと )"
 
 #: ../doc/manual/development/monaca_vs/overview.rst:30
 msgid "Installing Monaca for Visual Studio"

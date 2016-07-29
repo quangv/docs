@@ -4,11 +4,13 @@
 # 
 # Translators:
 # Automatically generated, 2013
+# fabbygoh <fabbygoh@gmail.com>, 2016
+# fabbygoh <fabbygoh@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-25 02:11+0000\n"
+"PO-Revision-Date: 2016-07-29 02:53+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +32,7 @@ msgid ""
 "For Monaca, there is no particular restriction on installing an ad network "
 "in an application. Technically, ads can be posted on WebView, so please use "
 "them according to the agreements of each ad network company."
-msgstr "アプリ上でのアドネットワークの掲載に関しては、Monaca では特に制限を設けておりません。また、技術的な制限もないため、WebView 上でも、広告を置くことができます。なお、広告の掲載時は、広告ネットワーク側の規約に従ってください。"
+msgstr "アプリ上でのアドネットワークの掲載に関しては、Monaca では特に制限を設けておりません。また、WebView 上に広告を置くことに関して、技術的な制約もありません。なお、広告の掲載時は、広告ネットワーク側の規約に従ってください。"
 
 #: ../doc/faq/application.rst:13
 msgid ""
@@ -183,7 +185,7 @@ msgid ""
 "standard JavaScript and HTML5 that can't be used. For more details, please "
 "refer to `HTML, CSS, and JavaScript features and difference "
 "<http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_."
-msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能を使用します。PhoneGap 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
+msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能が使用されます。PhoneGap 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:108
 msgid "Can I develop a full-screen app?"
@@ -195,7 +197,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ をご確認ください。"
+msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/ja/reference/config/ios_configuration/>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -205,7 +207,7 @@ msgstr "Cordova は常に最新のバージョンが使えるのですか？"
 msgid ""
 "Monaca supports specific Cordova versions. However, we regularly update and "
 "provide the latest Cordova version support as soon as possible."
-msgstr "Monaca では、ある特定のバージョンの Cordova のみサポートしています。最新バージョンの Cordova を使用できるように、バージョン更新は、定期的に、また、迅速に行っております。"
+msgstr "Monaca では、ある特定のバージョンの Cordova のみサポートしています。なお、最新バージョンの Cordova を使用できるように、バージョン更新は、定期的に、また、迅速に行っております。"
 
 #: ../doc/faq/application.rst:123
 msgid "How can I make font size bigger for input and textarea controls?"
@@ -239,7 +241,7 @@ msgid ""
 "Under ``<widget>`` element, input the location of the file you want for the "
 "starting page in the ``<content>`` tag. The default value is ``index.html``."
 " See the example below:"
-msgstr "``<widget>`` 要素下の ``<content>`` タグに、起動時に表示するページ ( 必要であればファイルの保存先も含む ) を指定します。デフォルト値は、 ``index.html`` です。例を次に記します。"
+msgstr "``<widget>`` 要素下の ``<content>`` タグに、起動時に表示するページ ( 必要であれば、そのファイルへのパスも含む ) を指定します。デフォルト値は、 ``index.html`` です。例を次に記します。"
 
 #: ../doc/faq/application.rst:158
 msgid ""
@@ -311,7 +313,7 @@ msgid ""
 "need to manually specify which plugin to install when you build the app. You"
 " can manage the plugins to include in the app by enabling in Manage Cordova "
 "Plugins configuration."
-msgstr "ビルドしたアプリ側に、必要なプラグインが組み込まれていない可能性があります。Monaca デバッガー側には、基本 Cordova プラグインのすべてが、標準で実装されていますが、アプリ側では、実装するプラグインを開発時に手動で指定する必要があります。プラグインをアプリに組み込むには、Monaca クラウド IDE の [ Cordova プラグインの管理 ] メニュー上で、有効化する必要があります。"
+msgstr "ビルドしたアプリ側に、必要なプラグインが組み込まれていない可能性があります。Monaca デバッガー側には、基本 Cordova プラグインのすべてが、標準で実装されていますが、アプリをビルドする場合には、あらかじめ、開発時に、実装するプラグインを手動で指定しておく必要があります。なお、プラグインの組み込みは、Monaca クラウド IDE の [ Cordova プラグインの管理 ] メニュー上から行います。"
 
 #: ../doc/faq/build.rst:2
 msgid "Build"
@@ -329,8 +331,8 @@ msgid ""
 "purpose, development, etc. A submission for registration to the marketplace "
 "has never been rejected because the app was built using Monaca. In fact, "
 "many Monaca apps have been released. If the rejection has occurred because "
-"of Monaca, please `contact us <https://monaca.mobi/page/contact>`_."
-msgstr "マーケット登録時の審査では、アプリの開発目的、作り方などが審査対象となります。Monaca で作成したことを理由に、マーケットへの登録申請が拒否されることはありません ( 数多くの Monaca アプリが、すでに公開されています )。登録拒否の理由が Monaca に起因するものでしたら、こちらの `お問い合わせフォーム <https://monaca.mobi/page/contact>`_ より、情報をお寄せください。"
+"of Monaca, please `contact us <https://monaca.io/support/inquiry.html>`_."
+msgstr "マーケット登録時の審査では、アプリの開発目的、作り方などが審査対象となります。Monaca で作成したことを理由に、マーケットへの登録申請が拒否されることはありません ( 数多くの Monaca アプリが、すでに公開されています )。登録拒否の理由が Monaca に起因するものでしたら、こちらの `お問い合わせフォーム <https://ja.monaca.io/support/inquiry.html>`_ より、情報をお寄せください。"
 
 #: ../doc/faq/build.rst:15
 msgid ""
@@ -385,7 +387,7 @@ msgid ""
 "provisioning profiles by using the same procedures as before, and then use "
 "the new files. You may read about :ref:`create_cer` and  "
 ":ref:`register_provisioning` for more details."
-msgstr "証明書の期限切れ、証明書の再発行が必要になっている、などが原因として考えられます。その場合、プロビジョニング プロファイルを再作成します。証明書、プロビジョニングプロファイルなどの必要なファイルの再作成を、以前と同じ手順で行い、新しく作成されたファイルを使用してください。詳細は、 :ref:`create_cer` と :ref:`register_provisioning` をご確認ください。"
+msgstr "証明書の期限切れ、証明書の再発行が必要になっている、などが原因として考えられます。これらの場合、プロビジョニング プロファイルを再作成する必要があります。証明書、プロビジョニングプロファイルなどの必要なファイルの再作成を、以前と同じ手順で行い、新しく作成されたファイルを使用してください。詳細は、 :ref:`create_cer` と :ref:`register_provisioning` をご確認ください。"
 
 #: ../doc/faq/build.rst:44
 msgid ""
@@ -425,7 +427,7 @@ msgstr "App Store への申請方法を、次に記します ( iTunes Connect �
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr ":ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プランへの加入 <https://monaca.io/pricing.html>`_ が必要です )"
+msgstr ":ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プランへの加入 <https://ja.monaca.io/pricing.html>`_ が必要です )"
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
@@ -444,7 +446,7 @@ msgid ""
 "app that we developed. It is a mini-game app that is available on the App "
 "Store. For more samples, please check `our showcase link "
 "<http://monaca.mobi/showcase>`_."
-msgstr "`こぶたハウス <http://itunes.apple.com/us/app/kobutahausu/id553150583?mt=8>`_ は、弊社が開発したアプリの 1 つです。このミニゲームアプリは、実際に、App Store で公開されています。他のアプリに関しては、`開発事例の一覧 <http://monaca.mobi/showcase>`_ をご確認ください。"
+msgstr "`こぶたハウス <http://itunes.apple.com/us/app/kobutahausu/id553150583?mt=8>`_ は、弊社が開発したアプリの 1 つです。このミニゲームアプリは、実際に、App Store で公開されています。他のアプリに関しては、`開発事例の一覧 <https://ja.monaca.io/great-apps.html>`_ をご確認ください。"
 
 #: ../doc/faq/build.rst:79
 msgid "Can I develop Windows Store apps?"
@@ -569,7 +571,7 @@ msgid ""
 "You can set it with your own preference; however, we recommend that the App "
 "ID should be your own domain name but written in reverse. Please see `our "
 "blog article <http://blog.asial.co.jp/738>`_ (Japanese) for details."
-msgstr "使用する文字列に制限はなく、自由に設定できますが、開発者が使用しているドメインを、逆ドメイン形式にして、App ID に使用することを推奨します。 詳細は、 `弊社のブログ <http://blog.asial.co.jp/732>`_ ( 日本語サイト ) をご確認ください。"
+msgstr "使用する文字列に制限はなく、自由に設定できますが、開発者が使用しているドメインを、逆ドメイン形式にして、App ID に使用することを推奨します。 詳細は、 `弊社のブログ <http://blog.asial.co.jp/732>`_ をご確認ください。"
 
 #: ../doc/faq/build.rst:142
 msgid "During the iOS build, an internal server error (71)."
@@ -726,7 +728,7 @@ msgstr "Monaca デバッガーとは、デバッグ用のアプリです。Monac
 msgid ""
 "Are the operations of an app on the Monaca Debugger the same as when the app"
 " is installed on an actual device?"
-msgstr "Monaca デバッガー上と端末上の間で、アプリの動作に関して、なにか違いがありますか？"
+msgstr "Monaca デバッガー上と端末上で、アプリの動作に関して、なにか違いがありますか？"
 
 #: ../doc/faq/debugger.rst:20
 msgid ""
@@ -759,8 +761,8 @@ msgstr "キャッシュをクリアしてください。Monaca デバッガー�
 #: ../doc/faq/debugger.rst:35
 msgid ""
 "If the issue still persists, please contact us via `Monaca Support "
-"<https://monaca.mobi/en/support/index>`_."
-msgstr "問題が解決できない場合には、 `Monaca 問い合わせ窓口 <https://monaca.mobi/en/support/index>`_ までご連絡ください。"
+"<https://monaca.io/service/>`_."
+msgstr "問題が解決できない場合には、 `Monaca 問い合わせ窓口 <https://ja.monaca.io/service/>`_ までご連絡ください。"
 
 #: ../doc/faq/debugger.rst:40
 msgid ""
@@ -785,9 +787,9 @@ msgid ""
 "For some devices, such as devices from HTC, there are confirmed cases of "
 "which the debug log cannot be displayed. If possible, please inform us of "
 "any information about devices that have such problem via `Monaca Support "
-"<https://monaca.mobi/en/support/index>`_,  we will look into it and provide "
-"the solution as soon as possible."
-msgstr "一部の端末 ( HTC 社製の端末など ) において、デバッグログが表示されないことが確認されています。弊社サポートチームでも解決策を講じますので、こちらの `Monaca 問い合わせ窓口 <https://monaca.mobi/en/support/index>`_ から、端末情報をご提供ください。"
+"<https://monaca.io/service/>`_,  we will look into it and provide the "
+"solution as soon as possible."
+msgstr "一部の端末 ( HTC 社製の端末など ) において、デバッグログが表示されないことが確認されています。弊社サポートチームでも解決策を講じますので、こちらの `Monaca 問い合わせ窓口 <https://ja.monaca.io/service/>`_ から、端末情報をご提供ください。"
 
 #: ../doc/faq/debugger.rst:55
 msgid ""
@@ -802,7 +804,7 @@ msgid ""
 "Therefore, to provide the lastes version of iOS-based Monaca Debugger as "
 "soon as possible to our customers, we have prepared other option which is "
 "the build version of Monaca debugger."
-msgstr "Apple 社の App Store 側の申請処理の関係で、最新バージョンの Monaca デバッガーを App Store 上で配布できるまで、多少の時間がかかります。このため、最新バージョンの iOS 向け Monaca デバッガーを、開発者の皆様へ、迅速に提供できるように、代替オプションとして、Monaca デバッガーのカスタムビルド版をご用意しています。"
+msgstr "Apple 社の App Store 側の申請処理の関係で、最新バージョンの Monaca デバッガーを App Store 上で配布できるまで、多少の時間がかかります。このため、最新バージョンの iOS 向け Monaca デバッガーを、開発者の皆様へ迅速に提供できるように、代替オプションとして、Monaca デバッガーのカスタムビルド版をご用意しています。"
 
 #: ../doc/faq/debugger.rst:64
 msgid "When I started the app on Android, the app crashed."
@@ -824,8 +826,8 @@ msgstr "Monaca デバッガーが動作しません。"
 #: ../doc/faq/debugger.rst:74
 msgid ""
 "Please try to reinstall Monaca Debugger. If it is still not working, please "
-"`contact us <https://monaca.mobi/en/support/inquiry>`_ ."
-msgstr "Monaca デバッガーを再インストールしてください。再インストールしても正常に動作しない場合には、 `問い合わせ窓口 <https://monaca.mobi/en/support/inquiry>`_  までご連絡ください。"
+"`contact us <https://monaca.io/service/>`_ ."
+msgstr "Monaca デバッガーを再インストールしてください。再インストールしても正常に動作しない場合には、 `問い合わせ窓口 <https://ja.monaca.io/service/>`_ までご連絡ください。"
 
 #: ../doc/faq/debugger.rst:79
 msgid "I cannot use CSS and JavaScript files in Live Preview."
@@ -846,7 +848,7 @@ msgstr "Monaca デバッガーに、ログインできません。"
 msgid ""
 "The following issues are the common issues and solutions when logging in "
 "Monaca Debugger:"
-msgstr "Monaca デバッガーのログイン障害の一般的な原因と解決法を、以下に記します。"
+msgstr "Monaca デバッガーのログイン障害の一般的な原因と解決法を、次に記します。"
 
 #: ../doc/faq/debugger.rst:91
 msgid ""
@@ -941,7 +943,7 @@ msgid ""
 "your devices from Monaca Debugger. For more details, please refer to "
 ":ref:`Network Install for Android <network_and>` or :ref:`Network Install "
 "for iOS <network_ios>`."
-msgstr "ネットワーク インストールとは、アプリを端末へインストールする、1 つの方法です。Monaca デバッガー経由で、Ad Hoc ビルド版アプリまたはデバッグビルド版アプリを、端末にインストールできます。詳細に関しては、 :ref:`Android 向けアプリのネットワーク インストール <network_and>` または :ref:`iOS 向けアプリのネットワーク インストール <network_ios>` をご確認ください。"
+msgstr "ネットワーク インストールとは、アプリを端末へインストールする方法の 1 つです。Monaca デバッガー経由で、Ad Hoc ビルド版アプリまたはデバッグビルド版アプリを、端末にインストールできます。詳細に関しては、 :ref:`Android 向けアプリのネットワーク インストール <network_and>` または :ref:`iOS 向けアプリのネットワーク インストール <network_ios>` をご確認ください。"
 
 #: ../doc/faq/environment.rst:2
 msgid "IDE"
@@ -1042,7 +1044,7 @@ msgid ""
 "You can control the permissions of any features for an application in the "
 "*<uses-permission>* element in an :file:`AndroidManifest.xml` file. For "
 "details, please refer to :doc:`../reference/config/android_configuration`."
-msgstr ":file:`AndroidManifest.xml` ファイル中の *<uses-permission>* 要素で、アプリ側で使用できる機能を制限できます。詳細に関しては、 :doc:`../reference/config/android_configuration` をご確認ください。"
+msgstr ":file:`AndroidManifest.xml` ファイル中の *<uses-permission>* 要素で、アプリ側で使用できる機能を制限できます。詳細は、 :doc:`../reference/config/android_configuration` をご確認ください。"
 
 #: ../doc/faq/environment.rst:53
 msgid "I don't have a Mac, but can I create an iOS application?"
@@ -1058,7 +1060,7 @@ msgid ""
 " you need an application uploader software provided by Apple which only runs"
 " on Mac. In other words, you will need Mac when uploading the app to the App"
 " Store."
-msgstr "Mac をお持ちでなくても、Monaca  ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
+msgstr "Mac をお持ちでなくても、Monaca ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
 
 #: ../doc/faq/environment.rst:60
 msgid "I can't open Monaca Cloud IDE."
@@ -1073,7 +1075,7 @@ msgstr "Monaca クラウド IDE 使用時の推奨 Web ブラウザーは、Goog
 
 #: ../doc/faq/environment.rst:67
 msgid "Can I use my own development environment to develop Monaca apps?"
-msgstr "Monaca を使ったアプリ開発において、現在使用している開発環境をそのまま利用したいのですが？"
+msgstr "Monaca アプリの開発において、現在使用している開発環境をそのまま利用したいのですが？"
 
 #: ../doc/faq/environment.rst:69
 msgid ""
@@ -1093,11 +1095,11 @@ msgid ""
 ":doc:`../../manual/development/monaca_vs/index` to develop Monaca apps. This"
 " extension allows to develop as in Monaca Cloud IDE except using the "
 "functionalities of Visual Studio."
-msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能では、Monaca クラウド IDE と同様の開発機能を、Visual Studio に移植しています。詳細は、:doc:`../../manual/development/monaca_vs/index` をご確認ください。"
+msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能には、Monaca クラウド IDE の機能が移植されています。詳細は、:doc:`../../manual/development/monaca_vs/index` をご確認ください。"
 
 #: ../doc/faq/environment.rst:81
 msgid "Application does not run on preview in the IDE"
-msgstr "IDE 上のプレビュー機能上で、アプリケーションが動きません。"
+msgstr "IDE 上のプレビュー機能上で、アプリが動きません。"
 
 #: ../doc/faq/environment.rst:83
 msgid ""
@@ -1111,7 +1113,7 @@ msgstr "プロジェクトをアーカイブできません。"
 
 #: ../doc/faq/environment.rst:90
 msgid "Project archiving is only available for paid users."
-msgstr "プロジェクトのアーカイブ機能は、Personal プラン以上が必要です。"
+msgstr "プロジェクトのアーカイブ機能のご利用には、Personal プラン以上が必要です。"
 
 #: ../doc/faq/environment.rst:94
 msgid "Why Live Preview can't get resource from other domain?"
@@ -1178,14 +1180,14 @@ msgstr "Monaca は無料で使えますか？"
 msgid ""
 "Yes, you can but there are limitation for free users. For more information "
 "related to types of Monaca accounts and their usage, please refer to `Monaca"
-" Usage Plan <http://monaca.mobi/pricing/>`_."
-msgstr "無料で使うことができます。無料・有料にかかわらず、各プランには、使用制限 ( 提供している機能の範囲など ) がありますので、詳細に関しては、 `料金プランの詳細 <http://monaca.mobi/pricing/>`_ をご確認ください。"
+" Usage Plan <https://monaca.io/pricing.html>`_."
+msgstr "無料で使うことができます。無料・有料にかかわらず、各プランには、使用制限 ( 提供している機能の範囲など ) がありますので、詳細に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:78
 msgid ""
 "If you are new to Monaca and interested to try it, please `sign up "
 "<https://monaca.mobi/register/start>`_ your free account to start."
-msgstr "Monaca を初めてお使いになる場合には、こちらから `登録 <https://monaca.mobi/register/start>`_ を行ってください。無料アカウントをご利用できます。"
+msgstr "Monaca を初めてお使いになる場合には、こちらから `登録 <https://monaca.mobi/ja/register/start>`_ を行ってください。無料アカウントをご利用できます。"
 
 #: ../doc/faq/general.rst:83
 msgid "What is Cordova Core Plugin?"
@@ -1209,9 +1211,9 @@ msgstr "Monaca で商用のスマートフォン向けアプリを開発して�
 #: ../doc/faq/general.rst:90
 msgid ""
 "Yes, please make the most use of Monaca. Currently, there is no restriction "
-"on commercial use. Please `contact us <https://monaca.mobi/page/contact>`_ "
-"if you have any questions."
-msgstr "是非、ご活用ください。商用利用に関して、特に制限は設けていません。なにかございましたら、 `問い合わせ窓口 <https://monaca.mobi/page/contact>`_ までご連絡ください。"
+"on commercial use. Please `contact us "
+"<https://monaca.io/support/inquiry.html>`_ if you have any questions."
+msgstr "是非、ご活用ください。商用利用に関して、特に制限は設けていません。なにかございましたら、 `問い合わせ窓口 <https://ja.monaca.io/support/inquiry.html>`_ までご連絡ください。"
 
 #: ../doc/faq/general.rst:95
 msgid "I don't understand something about Monaca. Where can I ask questions?"
@@ -1220,10 +1222,10 @@ msgstr "Monaca についてわからないことがあります。どこか質�
 #: ../doc/faq/general.rst:97
 msgid ""
 "Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or "
-"`contact form <https://monaca.mobi/page/contact>`_ for the issues concerning"
-" Monaca such as technical questions, requests, practical business use, and "
-"etc."
-msgstr "`Monaca コミュニティー フォーラム <https://monaca.mobi/en/forum>`_ または `問い合わせ窓口 <https://monaca.mobi/page/contact>`_ より、お問い合わせください。ビジネスソリューションのご提案、技術的な問題、ご意見、ご要望など、Monaca に関わる事でしたら、なんなりとお問い合わせください。"
+"`contact form <https://monaca.io/support/inquiry.html>`_ for the issues "
+"concerning Monaca such as technical questions, requests, practical business "
+"use, and etc."
+msgstr "`Monaca コミュニティー フォーラム <https://monaca.mobi/ja/forum>`_ または `問い合わせ窓口 <https://ja.monaca.io/support/inquiry.html>`_ より、お問い合わせください。ビジネスソリューションのご提案、技術的な問題、ご意見、ご要望など、Monaca に関わる事でしたら、なんなりとお問い合わせください。"
 
 #: ../doc/faq/general.rst:103
 msgid ""
@@ -1258,8 +1260,8 @@ msgstr "**Enterprise プラン** は、大規模な開発に最適です。"
 #: ../doc/faq/general.rst:112 ../doc/faq/general.rst:127
 msgid ""
 "For more information, pleaser refer to `Monaca Usage Plan "
-"<http://monaca.mobi/pricing/>`_."
-msgstr "詳細に関しては、 `料金プランの詳細 <http://monaca.mobi/pricing/>`_ をご確認ください。"
+"<https://monaca.io/pricing.html>`_."
+msgstr "詳細に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:118
 msgid "Which plan should I choose?"
@@ -1296,9 +1298,9 @@ msgid ""
 " exceeding the limit of the number of projects allowed by your plan, you "
 "will be able to create new project unless the number of active projects is "
 "reduced to within the range of the limitation by archiving or deleting them."
-" Please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_ about "
-"the number of projects allowed for each plan."
-msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータを保持できます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <http://monaca.mobi/pricing/>`_ をご確認ください。"
+" Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about"
+" the number of projects allowed for each plan."
+msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータを保持できます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:149
 msgid ""
@@ -1321,7 +1323,7 @@ msgid ""
 "Yes. For the Gold Plan upward, we accept blanket contracts of multiple "
 "accounts. In case of five or more accounts, we recommend you to contact us "
 "for the volume discount."
-msgstr "Gold 以上のプランの場合、複数アカウントの一括契約に対応しています。5 アカウント以上の場合は、ボリューム割引をご用意しておりますので、事前にお問い合わせください。"
+msgstr "Gold 以上のプランが対象となりますが、複数アカウントの一括契約に対応しています。5 アカウント以上の場合は、ボリューム割引をご用意しておりますので、事前にお問い合わせください。"
 
 #: ../doc/faq/general.rst:164
 msgid "Is my plan renewed automatically?"
@@ -1383,7 +1385,7 @@ msgstr "Monaca アカウントの登録解除・退会方法を教えてくだ�
 
 #: ../doc/faq/general.rst:207
 msgid "Login to `Monaca Dashboard <https://monaca.mobi/en/dashboard>`_."
-msgstr "Monaca にログインして、 `ダッシュボード <https://monaca.mobi/en/dashboard>`_ を表示します。"
+msgstr "Monaca にログインして、 `ダッシュボード <https://monaca.mobi/ja/dashboard>`_ を表示します。"
 
 #: ../doc/faq/general.rst:208
 msgid ""
@@ -1478,11 +1480,11 @@ msgstr "契約プランの変更方法を教えてください。"
 
 #: ../doc/faq/subscription.rst:9
 msgid "Login into `Monaca website <https://monaca.io/>`_."
-msgstr "`Monaca <https://monaca.io/>`_ にログインします。"
+msgstr "`Monaca <https://ja.monaca.io/>`_ にログインします。"
 
 #: ../doc/faq/subscription.rst:10
-msgid "Go to `Pricing page <https://monaca.mobi/en/pricing>`_."
-msgstr "`料金プラン <https://monaca.mobi/en/pricing>`_ の画面を表示します。"
+msgid "Go to `Pricing page <https://monaca.io/pricing.html>`_."
+msgstr "`料金プラン <https://ja.monaca.io/pricing.html>`_ の画面を表示します。"
 
 #: ../doc/faq/subscription.rst:11
 msgid ""
@@ -1565,7 +1567,7 @@ msgstr "これらのツールを使用すれば、お好みのプラットフォ
 #: ../doc/faq/usage.rst:19
 msgid ""
 "Register user in Monaca `here <https://monaca.mobi/en/register/start>`_."
-msgstr "`こちら <https://monaca.mobi/en/register/start>`_ から Monaca に登録します。"
+msgstr "`こちら <https://monaca.mobi/ja/register/start>`_ から Monaca に登録します。"
 
 #: ../doc/faq/usage.rst:20
 msgid "Write HTML5/CSS3/JavaScript in your desired platform."
@@ -1680,54 +1682,47 @@ msgstr "1 つ目の共有シナリオとして、Monaca に実装されている
 
 #: ../doc/faq/usage.rst:76
 msgid ""
-"Another way is to set up a version control system and do the local "
-"development using Monaca Localkit or Monaca CLI. This requires a higher "
-"skill set, but more collaborative."
-msgstr "2 つ目の共有シナリオとして、バージョン管理システムを使用した 「 共有 」 があります。この場合、ローカルで、開発を行い ( Monaca Localkit または Monaca CLI を使用 )、バージョン管理システム上で、共有を行います。バージョン管理システムなどの知識が必要になりますが、実務で広く使用されている方式です。"
-
-#: ../doc/faq/usage.rst:78
-msgid ""
 "The last option is to use Monaca for Visual Studios. In this case, the files"
 " can be managed by VS's built in Team Explorer functionality. Git, TFS, "
 "Visual Studio Online and other supported version control system can be used "
 "in this case."
 msgstr "3 つ目の共有シナリオとして、Monaca for Visual Studios を使用した 「 共有 」 があります。この場合、VS に実装されている 「 チーム エクスプローラー 」 機能を使用して、ファイルを管理します。Git、TFS、Visual Studio Online など、サポートされているバージョン管理システムであれば、併用できます。"
 
-#: ../doc/faq/usage.rst:80
+#: ../doc/faq/usage.rst:78
 msgid ""
 "Let multiple people to test the project (members are assigned as Testers): "
 "Use Monaca's built-in \"share\" feature, and share the project with the test"
 " members."
 msgstr "テスターによる検証 : Monaca に実装されている 「 共有 」 機能では、プロジェクトにメンバーをテスターとして招待して ( 「 テスター 」 権限の割り当て )、共に、検証を行えます。"
 
-#: ../doc/faq/usage.rst:83
+#: ../doc/faq/usage.rst:81
 msgid ""
 "However, if your usage plan is Basic or Personal, you can only chat and join"
 " a team as a Tester. For more information of the usage plan and its "
 "limitation, please refer to `Monaca Usage Plan "
-"<https://monaca.mobi/en/pricing>`_."
-msgstr "Basic または Personal をご利用の場合、チームへの参加 ( テスターとして ) とチャットのみ、ご使用できます。各プランの機能制限に関しては、 `料金プランの詳細 <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+"<https://monaca.io/pricing.html>`_."
+msgstr "Basic または Personal をご利用の場合、チームへの参加 ( テスターとして ) とチャットのみ、ご使用できます。各プランの機能制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
-#: ../doc/faq/usage.rst:88
+#: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr "開発に使用する資産などに関して、Monaca では、どのようにセキュリティー管理を行っていますか？"
 
-#: ../doc/faq/usage.rst:90
+#: ../doc/faq/usage.rst:88
 msgid ""
 "Currently, for general use, each user's resources are controlled by each "
 "account on the same server. We can handle on an individual basis of "
 "strengthening the security such as having an independent location of each "
 "resource or enforcing source IP restrictions for access (fee-based). Please "
-"contact us `here <https://monaca.mobi/page/contact>`_."
-msgstr "特別なご要望がない限り、各ユーザーのリソースは、同一サーバー上で、アカウント別に保管されています。有料とはなりますが、リソースの保存場所の新規設置、IP アドレス制限など、ご要望に応じて、セキュリティー増強を別途行うこともできます。詳細につきましては、 `こちら <https://monaca.mobi/page/contact>`_ からお問い合わせください。"
+"contact us `here <https://monaca.io/support/inquiry.html>`_."
+msgstr "特別なご要望がない限り、各ユーザーのリソースは、同一サーバー上で、アカウント別に保管されています。有料とはなりますが、リソースの保存場所の新規設置、IP アドレス制限など、ご要望に応じて、セキュリティー増強を別途行うこともできます。詳細につきましては、 `こちら <https://ja.monaca.io/support/inquiry.html>`_ からお問い合わせください。"
 
-#: ../doc/faq/usage.rst:97
+#: ../doc/faq/usage.rst:95
 msgid ""
 "Are there any keyboard shortcuts or keybindings that can be used on the "
 "Monaca Cloud IDE?"
 msgstr "Monaca クラウド IDE 上で使える、キーボードのショートカットまたはキーバインドはありますか？"
 
-#: ../doc/faq/usage.rst:99
+#: ../doc/faq/usage.rst:97
 msgid ""
 "Shortcuts that can be used on Monaca Cloud IDE are listed in  "
 ":doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use "
@@ -1735,11 +1730,11 @@ msgid ""
 "Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr "Monaca クラウド IDE で利用できるショートカットに関しては、 :doc:`../manual/development/monaca_ide/editor` をご確認ください。また、 *vim* のようなキーバインドも、Monaca では使用できます。[ ファイル ] メニューの [ エディター環境設定... ] で、キーバンド設定を行えます。"
 
-#: ../doc/faq/usage.rst:105
+#: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
 msgstr "スプラッシュ画像を変更するには、どうしたらいいですか？"
 
-#: ../doc/faq/usage.rst:107
+#: ../doc/faq/usage.rst:105
 msgid ""
 "For the changes to the Splash screen, you can configure from the \"Splash "
 "Screen Settings\" in :ref:`config_ios_app_monaca` and "

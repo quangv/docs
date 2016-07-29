@@ -1483,75 +1483,71 @@ msgstr ""
 msgid "Your next charge will be on the first day of the 13th month after your admission, unless you have switched Basic plan. For example, you subscribe to the annual plan on July 20th 2016. Then, your next charge will be on August 1st 2017."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:137
-msgid "If you want to upgrade annual plan to another, please contact us."
-msgstr ""
-
-#: ../doc/quick_start/monaca_intro.rst:139
+#: ../doc/quick_start/monaca_intro.rst:138
 msgid "If you use Activation Code:"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:141
+#: ../doc/quick_start/monaca_intro.rst:140
 msgid "If you want to upgrade plan or extend expiration date, please contact us with preferred plan name and term of months."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:142
+#: ../doc/quick_start/monaca_intro.rst:141
 msgid "On expiration date, your plan will be switched to Basic automatically."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:147
+#: ../doc/quick_start/monaca_intro.rst:146
 msgid "*Features/Structure of Hybrid Apps*"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:149
+#: ../doc/quick_start/monaca_intro.rst:148
 msgid "Characteristics of hybrid apps:"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:151
+#: ../doc/quick_start/monaca_intro.rst:150
 msgid "The app consists of Web app and native characteristics. (See the picture below)"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:152
+#: ../doc/quick_start/monaca_intro.rst:151
 msgid "Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:158
+#: ../doc/quick_start/monaca_intro.rst:157
 msgid "Differences between Native, Hybrid and Web Apps"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:161
+#: ../doc/quick_start/monaca_intro.rst:160
 msgid "Required knowledge for hybrid app development:"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:163
+#: ../doc/quick_start/monaca_intro.rst:162
 msgid "HTML and CSS for UI (User Interface) design"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:164
+#: ../doc/quick_start/monaca_intro.rst:163
 msgid "JavaScript for controlling the app"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:165
+#: ../doc/quick_start/monaca_intro.rst:164
 msgid "JavaScript libraries for accessing the native functions of a device and additional plugins"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:167
+#: ../doc/quick_start/monaca_intro.rst:166
 msgid "iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, a JavaScript library, to access native functions of a device. Windows apps run on Windows runtime while Chrome apps run on Chrome runtime."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:175
+#: ../doc/quick_start/monaca_intro.rst:174
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:177
+#: ../doc/quick_start/monaca_intro.rst:176
 msgid ":ref:`monaca_app_index`"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:178
+#: ../doc/quick_start/monaca_intro.rst:177
 msgid ":ref:`Monaca IDE<monaca_ide_index>`"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:179
+#: ../doc/quick_start/monaca_intro.rst:178
 msgid ":ref:`monaca_debugger_index`"
 msgstr ""
 
