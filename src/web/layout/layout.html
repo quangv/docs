@@ -1,130 +1,130 @@
 <!DOCTYPE HTML>
 <html lang="{{lang}}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200" />
 
-  {{#if fjson.title}}
-    <title>{{{fjson.title}}} - Monaca Docs</title>
-  {{else}}
-    <title>Monaca Docs - Cloud-powered Cordova Dev Platform</title>
-  {{/if}}
-  
-  <script src="/static/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
-  <script src="/static/js/jquery.fancybox.pack.js"></script>
-  <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
-  <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
-  <link rel="stylesheet" href="/static/css/common.css?20150406" type="text/css" />
-  <link rel="stylesheet" href="/static/css/highlight.css?20150406" type="text/css" />
-  <link rel="stylesheet" href="/static/css/print.css?20150406" type="text/css" media="print" />
-  <link rel="stylesheet" href="/static/css/spinner.css" type="text/css" />
+    {{#if fjson.title}}
+        <title>{{{fjson.title}}} - Monaca Docs</title>
+    {{else}}
+        <title>Monaca Docs - Cloud-powered Cordova Dev Platform</title>
+    {{/if}}
 
-  <!--[if lt IE 9]>
-  <script type="text/javascript" src="/static/js/html5shiv.js"></script>
-  <script type="text/javascript" src="/static/js/selectivizr-min.js"></script>
-  <![endif]-->
+    <script src="/static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+    <script src="/static/js/jquery.fancybox.pack.js"></script>
+    <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro:500,700'>
+    <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="/static/css/common.css?20150406" type="text/css" />
+    <link rel="stylesheet" href="/static/css/highlight.css?20150406" type="text/css" />
+    <link rel="stylesheet" href="/static/css/print.css?20150406" type="text/css" media="print" />
+    <link rel="stylesheet" href="/static/css/spinner.css" type="text/css" />
 
-  <script type="text/javascript" src="/static/js/util.js"></script>
-  <script type="text/javascript" src="/static/js/jquery.highlight-4.closure.js"></script>
-  <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/js/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/js/selectivizr-min.js"></script>
+    <![endif]-->
 
-  <script type="text/javascript">
-    var LANG = "{{lang}}";
-    var VERSION = "{{VERSION}}";
-  </script>
-  <script type="text/javascript" src="/static/js/main.js"></script>
-  <script type="text/javascript" src="/static/js/google_search_en.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-526750-24', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <script type="text/javascript" src="/static/js/util.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.highlight-4.closure.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        var LANG = "{{lang}}";
+        var VERSION = "{{VERSION}}";
+    </script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+    <script type="text/javascript" src="/static/js/google_search_en.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-526750-24', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </head>
 
 <body id="" data-lang="{{lang}}" class="{{#unless toctree}}no-sidebar{{/unless}} {{#if fjson.body}}from-rst{{/if}}">
-  <a name="top"></a>
+    <a name="top"></a>
 
-  {{> header }}
+    {{> header }}
 
-  <article id="body-container" class="main">
+    <article id="body-container" class="main">
 
-      <nav class="header-nav">
-        {{#if fjson.prev}}
-          <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
-        {{/if}}
-        {{#if fjson.next}}
-          <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
-        {{/if}}
-      </nav>
-    
-    <!-- {{#if fjson.title}}     -->
-      <div class="title_breadcrumb">
-        {{#is lang "ja"}}
-          <a href="/ja/">ドキュメントTOP</a>
+        <nav class="header-nav">
+            {{#if fjson.prev}}
+                <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
+            {{/if}}
+            {{#if fjson.next}}
+                <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
+            {{/if}}
+        </nav>
+
+        <!-- {{#if fjson.title}}     -->
+        <div class="title_breadcrumb">
+            {{#is lang "ja"}}
+                <a href="/ja/">ドキュメントTOP</a>
+            {{else}}
+                <a href="/en/">Document TOP</a>
+            {{/is}}
+            {{#each fjson.parents as |parent|}}
+                &raquo; <a href="{{{parent.link}}}"><span>{{{parent.title}}}</span></a>
+            {{/each}}
+            &raquo; <span>{{{fjson.title}}}</span>
+        </div>
+        <!-- {{/if}} -->
+
+        {{#if fjson.body}}
+            {{{fjson.body}}}
         {{else}}
-          <a href="/en/">Document TOP</a>
-        {{/is}}
-        {{#each fjson.parents as |parent|}}
-        &raquo; <a href="{{{parent.link}}}"><span>{{{parent.title}}}</span></a>
-        {{/each}}
-        &raquo; <span>{{{fjson.title}}}</span>
-      </div>
-    <!-- {{/if}} -->
+            {{{contents}}}
+        {{/if}}
 
-    {{#if fjson.body}}
-      {{{fjson.body}}}
-    {{else}}
-      {{{contents}}}
+        <nav class="header-nav">
+            {{#if fjson.prev}}
+                <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
+            {{/if}}
+            {{#if fjson.next}}
+                <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
+            {{/if}}
+        </nav>
+
+    </article>
+
+    {{#if toctree}}
+        {{> sidebar }}
     {{/if}}
 
-      <nav class="header-nav">
-        {{#if fjson.prev}}
-          <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
-        {{/if}}
-        {{#if fjson.next}}
-          <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
-        {{/if}}
-      </nav>
+    <a href="#top" class="scrollup">Scroll</a>
 
-  </article>
+    <footer class="global">
+        <div class="footer-nav">
+            {{#is lang "ja"}}
+                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
+                <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a>
+            {{else}}
+                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
+                <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a>
+            {{/is}}
+        </div>
+        <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
+    </footer>
 
-  {{#if toctree}}
-    {{> sidebar }}
-  {{/if}}
-
-  <a href="#top" class="scrollup">Scroll</a>
-
-  <footer class="global">
-    <div class="footer-nav">
-      {{#is lang "ja"}}
-        <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
-        <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a>
-      {{else}}
-        <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
-        <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a>
-      {{/is}}
-    </div>
-    <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
-  </footer>
-
-  <script>
-    function switchLanguage(currentLanguage,switchLanguage) {
-      location.href = location.href.replace(currentLanguage,switchLanguage);
-    }
-    function switchVersion(switchVersion) {
-      var currentVersion = "{{cordovaVersion.versionPath}}";
-      location.href = location.href.replace(currentVersion, switchVersion);
-    }
-    if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
-      document.body.classList.add("home");
-    }
-  </script>
+    <script>
+        function switchLanguage(currentLanguage,switchLanguage) {
+            location.href = location.href.replace(currentLanguage,switchLanguage);
+        }
+        function switchVersion(switchVersion) {
+            var currentVersion = "{{cordovaVersion.versionPath}}";
+            location.href = location.href.replace(currentVersion, switchVersion);
+        }
+        if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
+            document.body.classList.add("home");
+        }
+    </script>
 
 </body>
 </html>
