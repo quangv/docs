@@ -24,8 +24,7 @@
     </div>
 </header>
 <script>
-  console.log(document.URL);
-  console.log({{{fjson}}});
+
 </script>
 <!-- Docs local header -->
 <header class="global">
@@ -53,12 +52,14 @@
       <div class="aside-search">
         <script>
           (function() {
+
             // {{#is lang "ja"}}
             //   var cx = '015817351124918865089:crcrc0a_jj0';
             // {{else}}
             //   var cx = '015817351124918865089:vghz5csftuu';
             // {{/is}}
             var cx = (LANG === "ja") ? "007288577541380389757:mty_rw-k5qy" : " 007288577541380389757:dbehy9uu97o";
+            console.log('header: ' + LANG + '-' + cx);
             var gcse = document.createElement('script');
             gcse.type = 'text/javascript';
             gcse.async = true;
