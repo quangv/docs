@@ -14,7 +14,7 @@ Version Control is now available within Monaca Cloud IDE with user-friendly inte
 
 In this section, we will guide you on how to integrate your GitHub account with your Monaca account and configuring your Monaca project with a GitHub repository.
 
-.. note:: Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
+.. note:: Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.io/pricing.html>`_.
 
 
 Prerequisites
