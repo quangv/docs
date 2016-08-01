@@ -1,5 +1,3 @@
-:orphan:
-
 .. toctree::
   :maxdepth: 3
 

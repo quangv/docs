@@ -15,47 +15,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../doc/onsenui/index.rst:2
+#: ..\doc\onsenui\index.rst:2
 msgid "Onsen UI"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:12
+#: ..\doc\onsenui\index.rst:12
 msgid "HTML5 Framework for Building Mobile App Front End"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:17
+#: ..\doc\onsenui\index.rst:17
 msgid "**Onsen UI** is a front-end development tool that radically improves PhoneGap/Cordova apps. Differing from previous frameworks, it is highly flexible and gives hybrid apps a native look and feel on all platforms. And when used with Monaca, it is simple to add backend features and device support, resulting in a publishable app."
 msgstr ""
 
-#: ../doc/onsenui/index.rst:22
+#: ..\doc\onsenui\index.rst:22
 msgid "For more information on **Onsen UI**, please go to `Onsen UI home page <http://onsenui.io>`_."
 msgstr ""
 
-#: ../doc/onsenui/index.rst:25
+#: ..\doc\onsenui\index.rst:25
 msgid "Starting a new Onsen UI project in Monaca"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:28
+#: ..\doc\onsenui\index.rst:28
 msgid "Go to Dashboard"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:30
+#: ..\doc\onsenui\index.rst:30
 msgid "Go to Dashboard and click *Create Project*"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:36
+#: ..\doc\onsenui\index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:43
+#: ..\doc\onsenui\index.rst:43
 msgid "Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 framework type since it requires to transpile the source code to Javascript. Therefore, you need to setup the local environment with :ref:`Monaca CLI<cli_overview>`."
 msgstr ""
 
-#: ../doc/onsenui/index.rst:46
+#: ..\doc\onsenui\index.rst:46
 msgid "Where to go from here"
 msgstr ""
 
-#: ../doc/onsenui/index.rst:48
+#: ..\doc\onsenui\index.rst:48
 msgid "Now you have Onsen UI installed. See examples in `Onsen UI Docs <http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI components."
 msgstr ""
 
