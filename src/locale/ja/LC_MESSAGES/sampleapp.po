@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-27 02:05+0000\n"
+"PO-Revision-Date: 2016-08-03 02:57+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -231,7 +231,7 @@ msgstr "バックエンド メモ帳アプリ"
 #: ../doc/sampleapp/samples/backend_memo.rst:9
 msgid ""
 "This sample app allows user to create a memo app using Monaca Backend API."
-msgstr "Monaca バックエンド API を使用するメモ帳アプリの作成します。"
+msgstr "Monaca バックエンド API を使用するメモ帳アプリを作成します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:11
 #: ../doc/sampleapp/samples/flickr.rst:12
@@ -417,7 +417,7 @@ msgid ""
 "collection named ``Memo``. The memo is then dynamically added into the "
 "``TopListView`` in the list page. Below is the JavaScript code of the these "
 "functions:"
-msgstr ":guilabel:`Login` ボタンを押したときに、 ``onLoginBtn()`` を呼び出します。この関数では、 ``monaca.cloud.User.login()`` ( バックエンド API ) を使用して、既存ユーザーのログインを行います。Monaca バックエンド内にユーザーが存在する場合には、 ``getMemoList()`` 関数を使用して、そのユーザーに紐づけされているメモの一覧ページにリダイレクトします。 ``getMemoList()`` 関数内では、 ``monaca.cloud.Collection().findMine()`` 関数を使用して、対象のユーザーのメモの一覧を取得します。この例では、``Memo`` コレクションがすでに作成されていることを前提として、解説を進めます。メモは、動的に、一覧ページ中の ``TopListView`` に追加されます。この機能の JavaScript コードを次に記します。"
+msgstr ":guilabel:`Login` ボタンを押したときに、 ``onLoginBtn()`` を呼び出します。この関数では、 ``monaca.cloud.User.login()`` ( Monaca バックエンド API ) を使用して、既存ユーザーのログインを行います。Monaca バックエンド内にユーザーが存在する場合には、 ``getMemoList()`` 関数を使用して、そのユーザーに紐づけされているメモの一覧ページにリダイレクトします。 ``getMemoList()`` 関数内では、 ``monaca.cloud.Collection().findMine()`` 関数を使用して、対象のユーザーのメモの一覧を取得します。この例では、``Memo`` コレクションがすでに作成されていることを前提として、解説を進めます。メモは、動的に、一覧ページ中の ``TopListView`` に追加されます。この機能の JavaScript コードを次に記します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:272
 msgid "As a result, the list page like the one below will be displayed:"
@@ -450,7 +450,7 @@ msgid ""
 "In this function, a Monaca Backend API of a collection called "
 "``monaca.cloud.Collection().insert()`` is used to insert a new item into "
 "``Memo`` collection."
-msgstr "この関数では、 ``monaca.cloud.Collection().insert()`` ( バックエンド API ) を使用して、 ``Memo`` コレクションに、コレクションアイテムを挿入します。"
+msgstr "この関数では、 ``monaca.cloud.Collection().insert()`` ( Monaca バックエンド API ) を使用して、 ``Memo`` コレクションに、コレクションアイテムを挿入します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:342
 msgid "Updating a Memo"
@@ -2065,7 +2065,7 @@ msgid ""
 "attribute is the first page of the stack while the ``<ons-page>`` component "
 "is ignored. For more information please refer to `Onsen UI Documentation "
 "<http://onsen.io/guide/overview.html#PageNavigation>`_."
-msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <http://onsen.io/guide/overview.html#PageNavigation>`_ をご確認ください。"
+msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <http://ja.onsen.io/guide/overview.html#PageNavigation>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:57
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:68
