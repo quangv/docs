@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-03 10:41+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-08-04 03:01+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -998,11 +998,11 @@ msgstr "Java または Objective-C を使わなくても、スマートフォン
 
 #: ../doc/faq/environment.rst:28
 msgid ""
-"Monaca utilizes `PhoneGap <http://phonegap.com/>`_ as the library for "
-"accessing unique features of mobile devices. Through PhoneGap, your app can "
-"access unique features of mobile device using JavaScript, so it is not "
-"necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr "Monaca では、 `PhoneGap <http://phonegap.com/>`_ を活用しています。携帯端末搭載の機能にアクセスするときに、ライブラリーとして、PhoneGap を使用します。これにより、JavaScript を使用しても、PhoneGap 経由で、携帯端末の機能にアクセスできます。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を学ぶ必要がなくなりました。"
+"Monaca utilizes `Apache Cordova <http://cordova.apache.org//>`_ as the "
+"library for accessing unique features of mobile devices. Through Cordova, "
+"your app can access unique features of mobile device using JavaScript, so it"
+" is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
+msgstr ""
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1391,7 +1391,7 @@ msgstr "Monaca にログインして、 `ダッシュボード <https://monaca.m
 msgid ""
 "Go to :menuselection:`Manage Account`. Then, Manage Account page will "
 "appear."
-msgstr ""
+msgstr ":menuselection:`アカウント設定` ( 画面左上の画像またはアカウント名をクリック ) を選択して、[ アカウント編集 ] ページを開きます。"
 
 #: ../doc/faq/general.rst:209
 msgid "Click on :guilabel:`Unregister`."
@@ -1700,7 +1700,7 @@ msgid ""
 "However, if your usage plan is Basic or Personal, you can only join a team "
 "as a Tester. For more information of the usage plan and its limitation, "
 "please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "Basic または Personal をご利用の場合には、テスターとして、チームへの参加のみ行えます。各プランの機能制限に関しては、`料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"

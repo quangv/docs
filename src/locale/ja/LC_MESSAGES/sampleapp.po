@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-03 02:57+0000\n"
+"PO-Revision-Date: 2016-08-04 02:56+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "*テスト環境 :* Android 4.2.2、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/age-calc.rst:25
 msgid ":download:`Click here to download the project <download/age-calc.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/age-calc.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/age-calc.zip>`"
 
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
@@ -241,7 +241,7 @@ msgstr "*テスト環境 :* Android 4.1.1、 iOS 7.1.1"
 #: ../doc/sampleapp/samples/backend_memo.rst:22
 msgid ""
 ":download:`Click here to download the project <download/backend_memo.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/backend_memo.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/backend_memo.zip>`"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:25
 #: ../doc/sampleapp/samples/facebook.rst:25
@@ -499,7 +499,7 @@ msgstr "*テスト環境 :* Android 4.4、iOS 8.1.1"
 msgid ""
 ":download:`Click here to download the project "
 "<download/break_the_bricks.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/break_the_bricks.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/break_the_bricks.zip>`"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 msgid "The Startup page (Home page)"
@@ -542,7 +542,7 @@ msgstr "``Pixi``"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:54
 msgid "Source Code Explanation"
-msgstr "プログラムコードの解説"
+msgstr "ソースコードの解説"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:57
 msgid "js/main.js"
@@ -552,7 +552,7 @@ msgstr "js/main.js"
 msgid ""
 ":file:`main.js` is a JavaScript file handling various functionalities of the"
 " application."
-msgstr ":file:`main.js` は、アプリ内のさまざまな処理を定義した JavaScript ファイルです。"
+msgstr ":file:`main.js` は、アプリ内のさまざまな処理を定義している JavaScript ファイルです。"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:61
 msgid ""
@@ -562,7 +562,7 @@ msgid ""
 "(``addBall()``), creating a paddle (``addPaddle()``), resetting the game "
 "after it ended (``reset()``), calculating the score (``addScore()``), ending"
 " the game (``endGame()``) and so on."
-msgstr "``BB`` オブジェクトのコードを、次に記します。こちらが、アプリで使用する、メインのオブジェクトとなります。プロパティーには、スクリーンサイズ ( screensize )、パドル ( paddle )、ボール ( balls )、ブロック ( blocks )、スコア ( score ) などがあります。メソッドには、マップの作成用 ( ``setMap()`` )、ボールの配置用 ( ``addBall()`` )、パドルの配置用 ( ``addPaddle()`` )、ゲームのリセット用 ( ``reset()`` )、スコアの計算用 ( ``addScore()`` )、ゲームの終了用 ( ``endGame()`` ) などがあります。"
+msgstr "``BB`` オブジェクトのコードを、次に記します。こちらが、アプリで使用する、メインのオブジェクトとなります。プロパティーには、スクリーンサイズ ( screenSize )、パドル ( paddle )、ボール ( balls )、ブロック ( blocks )、スコア ( score ) などがあります。メソッドには、マップの作成用 ( ``setMap()`` )、ボールの配置用 ( ``addBall()`` )、パドルの配置用 ( ``addPaddle()`` )、ゲームのリセット用 ( ``reset()`` )、スコアの計算用 ( ``addScore()`` )、ゲームの終了用 ( ``endGame()`` ) などがあります。"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:321
 msgid ""
@@ -600,7 +600,7 @@ msgstr "現在の日付と時間を表示する時計アプリのサンプルで
 
 #: ../doc/sampleapp/samples/clock.rst:24
 msgid ":download:`Click here to download the project <download/clock.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/clock.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/clock.zip>`"
 
 #: ../doc/sampleapp/samples/clock.rst:36
 msgid "The JavaScript file handling implementation in the project"
@@ -651,7 +651,7 @@ msgid ""
 "date (day, month and year) and then display it in the format as defined in "
 "``renderDay()`` and ``renderMonth()`` functions (see below screenshot). Here"
 " is content of the ``clock()`` function:"
-msgstr "``clock()`` 関数を使用して、現在の日付と時間の表示を行います。最初に、現在の時間 ( 時間、分、秒 ) を取得して、時間に応じた画像 ( 数字画像 ) を表示します。次に、現在の日付 ( 日、月、年 ) を取得して、 ``renderDay()`` と ``renderMonth()`` 関数で定義した形式で表示します ( 下のスクリーンショットを参照のこと )。``clock()`` 関数の内容を次に示します。"
+msgstr "``clock()`` 関数を使用して、現在の日付と時間を表示します。最初に、現在の時間 ( 時間、分、秒 ) を取得して、時間に応じた画像 ( 数字画像 ) を表示します。次に、現在の日付 ( 日、月、年 ) を取得して、 ``renderDay()`` と ``renderMonth()`` 関数で定義した形式で表示します ( 下のスクリーンショットを参照のこと )。``clock()`` 関数の内容を次に示します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:5
 msgid "Facebook Client"
@@ -670,7 +670,7 @@ msgstr "*テスト環境 :* Android 4.3、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/facebook.rst:22
 msgid ":download:`Click here to download the project <download/facebook.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/facebook.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/facebook.zip>`"
 
 #: ../doc/sampleapp/samples/facebook.rst:27
 msgid ""
@@ -787,7 +787,7 @@ msgid ""
 "The User Interface of this sample app is based on *Onsen UI*. For more "
 "information on *Onsen UI* tags and components, please refer to `Onsen UI "
 "Documentation <https://docs.monaca.io/en/onsenui/>`_."
-msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
+msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/facebook.rst:97
 msgid ""
@@ -821,7 +821,7 @@ msgid ""
 "profile picture if the authentication is successful. When the "
 ":guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is"
 " shown:"
-msgstr "次の画面を表示します。認証成功後に、ユーザーの基本情報とプロフィール写真を表示します。 :guilabel:`Show Friend List` をタップすると、 :file:`list.html` を表示します。"
+msgstr "次の画面を表示します。認証成功後に、ユーザーの基本情報とプロフィール写真を表示します。 :guilabel:`Show Friend List` をタップすると、 :file:`list.html` が表示されます。"
 
 #: ../doc/sampleapp/samples/facebook.rst:156
 msgid "The following contents of the HTML body of :file:`list.html` file:"
@@ -852,19 +852,19 @@ msgid ""
 ":file:`list.html` page, respectively. In order to create global vairables "
 "used between these controller functions, you need to create a service "
 "function to store those global variables as follows:"
-msgstr "このサンプルアプリの JavaScript には、AngularJS を使用しています。AngularJS では、コントローラー関数を、関連するページにそれぞれ設定する必要があります。このサンプルでは、:envvar:`Connect_Ctrl`、:envvar:`Profile_Ctrl`、:envvar:`List_Ctrl` の 3 つのコントローラー関数を使用しており、それぞれ、:file:`connect.html` ページ、:file:`profile.html` ページ、:file:`list.html` ページに関連付けしています。これらのコントローラー関数間で使用するグローバル変数を作成するため、グローバル変数を格納する service 関数を、次のように、1 つ作成する必要があります。"
+msgstr "このサンプルアプリの JavaScript には、AngularJS を使用しています。AngularJS では、コントローラー関数を、関連するページにそれぞれ設定する必要があります。このサンプルでは、:envvar:`Connect_Ctrl`、:envvar:`Profile_Ctrl`、:envvar:`List_Ctrl` の 3 つのコントローラー関数を使用しており、それぞれ、:file:`connect.html` ページ、:file:`profile.html` ページ、:file:`list.html` ページに関連付けしています。また、これらのコントローラー関数間で使用するグローバル変数を作成するため、グローバル変数を格納する service 関数を、次のように、1 つ作成する必要があります。"
 
 #: ../doc/sampleapp/samples/facebook.rst:205
 msgid ""
 "Inside this service function, we are able to get and set the value of the "
 "``property`` variable which is a JSON object. This variale contains various "
 "variables needed to use between different pages."
-msgstr "この service 関数で、 ``property`` 変数 ( JSON オブジェクト ) の値の取得と設定をします。この変数には、複数のページで共有する各種データを格納します。"
+msgstr "この service 関数で、``property`` 変数 ( JSON オブジェクト ) の値の取得と設定をします。この変数には、複数のページで共有する各種データを格納します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:208
 #: ../doc/sampleapp/samples/ibeacon.rst:248
 msgid "Next, we will explain each controller function:"
-msgstr "各コントローラーに関して解説していきます。"
+msgstr "各コントローラーに関して解説します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:211
 msgid "Connect_Ctrl"
@@ -918,7 +918,7 @@ msgid ""
 "retrieved data (in JSON format) of friends list will also be stored in the "
 "``info_obj`` and updates into the global variable (``property``) inside "
 "``sharedProperties`` service for using between controllers (pages)."
-msgstr "リクエストが成功した場合、取得したデータを JSON オブジェクト ( ``info_obj`` ) にいったん格納します。次に、友達リストを取得するため、Facebook コードを含む、いくつかのパラメータと共に、 ``https://graph.facebook.com/me/friends?...`` へ別の ``HttpRequest`` を送ります。このリクエストも成功した場合、取得したデータ ( JSON 形式 ) も ``info_obj`` に格納します。次に、コントローラー ( ページ ) 間でデータを共有するため、取得した値を使用して、 ``sharedProperties`` サービス内のグローバル変数 （ ``property`` ） を更新します。"
+msgstr "リクエストが成功した場合、取得したデータを JSON オブジェクト ( ``info_obj`` ) にいったん格納します。次に、友達リストを取得するため、Facebook コードを含む、いくつかのパラメータと共に、 ``https://graph.facebook.com/me/friends?...`` へ別の ``HttpRequest`` を送ります。このリクエストも成功した場合、取得したデータ ( JSON 形式 ) も ``info_obj`` に格納します。次に、コントローラー ( ページ ) 間でデータを共有するため、取得した値を使用して、``sharedProperties`` サービス内のグローバル変数 （ ``property`` ） を更新します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:304
 msgid "Then, finally, the app redirects to :file:`profile.html` page."
@@ -973,7 +973,7 @@ msgstr "このサンプルアプリでは、Flickr から画像を取得して�
 
 #: ../doc/sampleapp/samples/flickr.rst:21
 msgid ":download:`Click here to download the project <download/flickr.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/flickr.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/flickr.zip>`"
 
 #: ../doc/sampleapp/samples/flickr.rst:31
 #: ../doc/sampleapp/samples/omikuji.rst:32
@@ -1005,7 +1005,7 @@ msgstr "このプロジェクトで使用する画像ファイル"
 msgid ""
 "The following HTML body of :file:`index.html` file is for the title bar, "
 "spinner and container for displaying the images (see screenshot below):"
-msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、タイトルバー ( title-bar )、スピナー ( loadSpinner / 実行中画面 )、コンテナ ( container ) を使用して、画像の表示を行います ( 下のスクリーンショットを参照のこと )。"
+msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、タイトルバー ( title-bar )、スピナー ( loadSpinner / 「 処理中 」 を示す画像 )、コンテナ ( container ) を使用して、画像の表示を行います ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/sampleapp/samples/flickr.rst:68
 msgid ""
@@ -1053,7 +1053,7 @@ msgstr "このサンプルアプリでは、基本 Cordova プラグインのデ
 #: ../doc/sampleapp/samples/hello_world.rst:23
 msgid ""
 ":download:`Click here to download the project <download/hello_world.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/hello_world.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/hello_world.zip>`"
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "``phonegap-demo.html``"
@@ -1102,7 +1102,7 @@ msgstr ":file:`index.html` はスタート画面のページです。ソース�
 msgid ""
 "The above html code inside the ``<body>`` tag is showing a ``HelloWorld!`` "
 "phrase and a :guilabel:`Start Demo` button as shown below."
-msgstr "上記 HTML コードの ``<body>`` タグの記述で、``HelloWorld!`` と :guilabel:`Start Demo` ボタンの表示を 次のように行います。"
+msgstr "上記 HTML コードの ``<body>`` タグ内の記述で、``HelloWorld!`` と :guilabel:`Start Demo` ボタンの表示を、次のように行います。"
 
 #: ../doc/sampleapp/samples/hello_world.rst:79
 msgid "phonegap-demo.html"
@@ -1280,7 +1280,7 @@ msgstr "コンパスの切り替え"
 msgid ""
 "Start or stop the phone compass. Below is the JavaScript code of this "
 "function:"
-msgstr "携帯端末内臓のコンパスを開始または停止します。この関数の JavaScript コードを次に記します。"
+msgstr "携帯端末のコンパスを開始または停止します。この関数の JavaScript コードを次に記します。"
 
 #: ../doc/sampleapp/samples/hello_world.rst:350
 msgid ""
@@ -1317,14 +1317,14 @@ msgstr "アプリをビルドするか、または、カスタムビルドされ
 
 #: ../doc/sampleapp/samples/ibeacon.rst:26
 msgid ":download:`Click here to download the project <download/ibeacon.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/ibeacon.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/ibeacon.zip>`"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:31
 msgid ""
 "Download the iBeacon plugin from `here <https://github.com/petermetz"
 "/cordova-plugin-ibeacon.git>`_ and import it into Monaca Cloud IDE. See "
 ":ref:`import_cordova_plugin`."
-msgstr "iBeacon プラグインを `こちら <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ からダウンロードして、Monaca クラウド IDE 上でインポートします。詳細は、 :ref:`import_cordova_plugin` をご確認ください。"
+msgstr "iBeacon プラグインを `こちら <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ からダウンロードして、Monaca クラウド IDE 上にインポートします。詳細は、 :ref:`import_cordova_plugin` をご確認ください。"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:33
 msgid "Find at least one iBeacon device."
@@ -1469,11 +1469,11 @@ msgid ""
 "please visit `Inmobi\\'s website <http://www.inmobi.com/>`_ and `Inmobi "
 "Mobile Web Integration Guide "
 "<https://support.inmobi.com/monetize/integration/mobile-web/>`_."
-msgstr "このページでは、Inmobi を例にして、Monaca へのモバイルアド ( 携帯端末への広告配信ネットワーク ) の組み込み方法を解説します。Inmobi の詳細に関しては、`Inmobi のウェブサイト <http://www.inmobi.com/>`_ と `Inmobi モバイルウェブの組み込みガイド <https://support.inmobi.com/monetize/integration/mobile-web/>`_ をご確認ください。"
+msgstr "このページでは、Inmobi を例にして、Monaca へのモバイルアド ( 携帯端末への広告配信ネットワーク ) の組み込み方法を解説します。Inmobi の詳細に関しては、`Inmobi のウェブサイト <http://www.inmobi.com/>`_ と `Inmobi Web インテグレーション ガイド <https://support.inmobi.com/monetize/integration/mobile-web/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:20
 msgid ":download:`Click here to download the project <download/inmobi.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/inmobi.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/inmobi.zip>`"
 
 #: ../doc/sampleapp/samples/inmobi.rst:23
 msgid "Prerequisites"
@@ -1526,7 +1526,7 @@ msgstr "プロパティー ID を確認する場合、 :guilabel:`設定` ボタ
 msgid ""
 "Then, a dialog showing information of the selected property will appear. You"
 " can find the property ID in that dialog."
-msgstr "ボタンをクリックすると、プロパティーの詳細情報が表示されます。こちらから、プロパティー ID をご確認ください。"
+msgstr "ボタンをクリックすると、プロパティーの詳細情報が表示されます。プロパティー ID を確認します。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:65
 msgid ""
@@ -1560,7 +1560,7 @@ msgid ""
 "For more information on *jQuery Mobile* tags and components, please refer to"
 " `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_. The remaining"
 " ``div`` tags are used to apply the CSS style we created earlier."
-msgstr "次のコードでは、アプリのヘッダー部に *jQuery Mobile* を使用しています。 *jQuery Mobile* タグとコンポーネントの詳細に関しては、 `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_ をご確認ください。残りの ``div`` タグに関しては、CSS スタイルを適用するために使用しています。"
+msgstr "次のコードでは、アプリのヘッダー部に *jQuery Mobile* を使用しています。 *jQuery Mobile* タグとそのコンポーネントの詳細に関しては、 `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_ をご確認ください。残りの ``div`` タグに関しては、CSS スタイルを適用するために使用しています。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:130
 msgid ""
@@ -1588,14 +1588,14 @@ msgid ""
 "``test`` (boolean): the state of your app. During development and testing, "
 "it should be set to true, to ensure that only test ads are sent. When you "
 "set test to false, you will receive live ads."
-msgstr "``test`` ( boolean ) : アプリの状態 ( 開発中またはテスト中 ) を示します。テストを行っている間は、この値は true に設定します。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
+msgstr "``test`` ( boolean ) : アプリの状態を設定します。開発または検証中は、この値を true に設定します ( テスト用広告が配信されます )。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:135
 msgid ""
 "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded "
 "automatically at page load. The ad can then be fetched at some other time in"
 " the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。 :envvar:`getNewAd()` 関数を使用すると、広告を表示できるようになります。"
+msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。なお、:envvar:`getNewAd()` 関数を使用すれば、広告を表示できるようになります。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:136
 msgid ""
@@ -1651,7 +1651,7 @@ msgstr ":envvar:`showAds()` 関数を使用して、Inmobi に対して、新し
 msgid ""
 "For more information regarding *inmobi* JavaScript API, please refer to "
 "`this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
-msgstr "*inmobi* JavaScript APIに関しては、 `Inmobi JavaScript APIs <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
+msgstr "*inmobi* の JavaScript APIに関しては、 `こちら <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:5
 msgid "Memo Application"
@@ -1667,11 +1667,11 @@ msgstr "localStorage を使用して、メモ帳アプリを作成するサン�
 msgid ""
 ":download:`Click here to download the project "
 "<download/memo_application.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/memo_application.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/memo_application.zip>`"
 
 #: ../doc/sampleapp/samples/memo_application.rst:33
 msgid "The Home screen"
-msgstr "スタート画面のページ"
+msgstr "ホーム画面のページ"
 
 #: ../doc/sampleapp/samples/memo_application.rst:35
 msgid "``js/memo.js``"
@@ -1707,7 +1707,7 @@ msgstr "``index.html`` ファイル内の次の記述 ( HTML の <body> 内 ) �
 msgid ""
 "corresponds to this screenshot of the Top page (Home screen) which allows a "
 "user to add, view or delete memos:"
-msgstr "次のスクリーンショット ( スタート画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
+msgstr "次のスクリーンショット ( ホーム画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:102
 msgid ""
@@ -1744,7 +1744,7 @@ msgid ""
 " and put them into a list view. If there is no previously created memo (when"
 " using the application for the first time), ``\"No memo found\"`` will be "
 "displayed (see below screenshot)."
-msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( スタート画面ページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
+msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( ホーム画面ページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:147
 #: ../doc/sampleapp/samples/memo_application.rst:200
@@ -1826,7 +1826,7 @@ msgstr "Monaca プロジェクトで使用する、基本のテンプレート�
 msgid ""
 ":download:`Click here to download the project "
 "<download/minimum_project.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/minimum_project.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/minimum_project.zip>`"
 
 #: ../doc/sampleapp/samples/minimum_project.rst:28
 msgid ""
@@ -1870,7 +1870,7 @@ msgstr "おみくじは、英語で 「 ランダムフォーチュン 」 と�
 
 #: ../doc/sampleapp/samples/omikuji.rst:22
 msgid ":download:`Click here to download the project <download/omikuji.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/omikuji.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/omikuji.zip>`"
 
 #: ../doc/sampleapp/samples/omikuji.rst:33
 #: ../doc/sampleapp/samples/shinkansen.rst:33
@@ -2011,7 +2011,7 @@ msgstr "`Onsen UI <http://ja.onsenui.io/>`_ アプリの作成時に使用でき
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_minimum_project.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/onsen_ui_minimum_project.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_minimum_project.zip>`"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
 msgid "Home screen  (Startup page)"
@@ -2065,7 +2065,7 @@ msgid ""
 "attribute is the first page of the stack while the ``<ons-page>`` component "
 "is ignored. For more information please refer to `Onsen UI Documentation "
 "<http://onsen.io/guide/overview.html#PageNavigation>`_."
-msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <http://ja.onsen.io/guide/overview.html#PageNavigation>`_ をご確認ください。"
+msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <https://ja.onsen.io/v1/guide.html#PageNavigation>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:57
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:68
@@ -2109,13 +2109,13 @@ msgstr "Onsen UI スライディングメニュー"
 msgid ""
 "This is a template using `Onsen UI sliding menu "
 "<http://onsenui.io/guide/overview.html#UsingSlidingMenu>`_."
-msgstr "`Onsen UI スライディングメニュー <http://ja.onsenui.io/guide/overview.html#UsingSlidingMenu>`_ を使用したテンプレートです。"
+msgstr "`Onsen UI スライディングメニュー <https://ja.onsen.io/v1/guide.html#UsingSlidingMenu>`_ を使用したテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:22
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_sliding_menu.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/onsen_ui_sliding_menu.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_sliding_menu.zip>`"
 
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
 msgid "Startup page"
@@ -2188,13 +2188,13 @@ msgid ""
 "This is a template using `Onsen UI tabbar "
 "<http://onsenui.io/guide/overview.html#UsingTabBar>`_ and `navigator "
 "<http://onsenui.io/guide/overview.html#PageNavigation>`_."
-msgstr "`Onsen UI タブバー <http://ja.onsenui.io/guide/overview.html#UsingTabBar>`_ と `ナビゲーター <http://ja.onsenui.io/guide/overview.html#PageNavigation>`_ を使用したテンプレートです。"
+msgstr "`Onsen UI タブバー <https://ja.onsen.io/v1/guide.html#UsingTabBar>`_ と `ナビゲーター <https://ja.onsen.io/v1/guide.html#PageNavigation>`_ を使用したテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:22
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_tabbar_navigator.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/onsen_ui_tabbar_navigator.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_tabbar_navigator.zip>`"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
 msgid "Startup page (Home page)"
@@ -2298,7 +2298,7 @@ msgstr "こちらは、jQuery を使用した、RSS リーダーのアプリで�
 msgid ""
 ":download:`Click here to download the project "
 "<download/sample_rss_reader.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/sample_rss_reader.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/sample_rss_reader.zip>`"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:33
 msgid "The Startup page where RSS feeds will be loaded"
@@ -2406,7 +2406,7 @@ msgstr "*テスト環境 :* Android 4.0、iOS 7.1.1"
 #: ../doc/sampleapp/samples/shinkansen.rst:21
 msgid ""
 ":download:`Click here to download the project <download/shinkansen.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/shinkansen.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/shinkansen.zip>`"
 
 #: ../doc/sampleapp/samples/shinkansen.rst:32
 msgid "The stylesheet file for the application"
@@ -2460,7 +2460,7 @@ msgstr "TODO 一覧に、TODO を追加するアプリです。"
 
 #: ../doc/sampleapp/samples/todo.rst:22
 msgid ":download:`Click here to download the project <download/todo.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/todo.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/todo.zip>`"
 
 #: ../doc/sampleapp/samples/todo.rst:34
 msgid "A JavaScript file used in the application"
@@ -2544,7 +2544,7 @@ msgstr "このサンプルアプリでは、特定のユーザーの Twitter タ
 
 #: ../doc/sampleapp/samples/twitter.rst:22
 msgid ":download:`Click here to download the project <download/twitter.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます <download/twitter.zip>`"
+msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/twitter.zip>`"
 
 #: ../doc/sampleapp/samples/twitter.rst:27
 msgid ""

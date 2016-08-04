@@ -684,7 +684,7 @@ msgid "Why can I develop smartphone applications with Monaca even without using 
 msgstr ""
 
 #: ../doc/faq/environment.rst:28
-msgid "Monaca utilizes `PhoneGap <http://phonegap.com/>`_ as the library for accessing unique features of mobile devices. Through PhoneGap, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
+msgid "Monaca utilizes `Apache Cordova <http://cordova.apache.org//>`_ as the library for accessing unique features of mobile devices. Through Cordova, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
 msgstr ""
 
 #: ../doc/faq/environment.rst:33
