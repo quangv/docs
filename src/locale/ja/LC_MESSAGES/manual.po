@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-29 08:51+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-02 02:46+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4393,7 +4393,7 @@ msgstr "Cordova プラグインを利用すると、ネイティブ機能をプ�
 msgid ""
 "You need to subscribe to a valid plan in order to use custom Cordova "
 "plugins. Please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "ユーザー Cordova プラグインのご利用には、対応するプランへの加入が必要です ( `料金プラン <https://ja.monaca.io/pricing.html>`_ を参照のこと )。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:19
 msgid "Your custom Cordova plugin need to follow the requirements below:"
@@ -5152,7 +5152,7 @@ msgstr "Monaca 提供のアップロード機能"
 msgid ""
 "In order to use this upload feature, you are required to subscribe to a "
 "valid plan. Please refer to `Pricing <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "このアップロード機能を使用するためには、対応するプランへの加入が必要です。詳細は、`こちら <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/manual/deploy/appstore/app_submission.rst:9
 msgid ""
@@ -8739,7 +8739,7 @@ msgid ""
 "Generally, you can only connect to public repositories. However, with valid "
 "Monaca subscription plan, you can additionally connect to private "
 "repositories. Please refer to `Pricing <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "ここでは、Public 指定されたレポジトリを対象として解説を進めます。Private 指定のレポジトリに接続する場合には、対応する Monaca プランに加入する必要があります。詳細は、`料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/manual/development/monaca_ide/version_control.rst:23
 msgid "In order to use version control in Monaca Cloud IDE, you will need:"
@@ -9999,7 +9999,7 @@ msgstr "Microsoft Visual Studio 2015 の Community または Professional エデ
 msgid ""
 "a valid plan subscription. Please refer to `Pricing "
 "<https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "対応するプランへの加入 ( `料金プラン <https://ja.monaca.io/pricing.html>`_ を参照のこと )"
 
 #: ../doc/manual/development/monaca_vs/overview.rst:30
 msgid "Installing Monaca for Visual Studio"

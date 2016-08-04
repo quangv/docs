@@ -78,7 +78,7 @@ If your plan is Gold, Platinum or Enterprise, team development allows you to:
 3. Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in "share" feature, and share the project with the test members.
 
 
-However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
+However, if your usage plan is Basic or Personal, you can only join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
 
 .. _faq05~007:
 

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-29 02:53+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-08-04 03:01+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -998,11 +998,11 @@ msgstr "Java または Objective-C を使わなくても、スマートフォン
 
 #: ../doc/faq/environment.rst:28
 msgid ""
-"Monaca utilizes `PhoneGap <http://phonegap.com/>`_ as the library for "
-"accessing unique features of mobile devices. Through PhoneGap, your app can "
-"access unique features of mobile device using JavaScript, so it is not "
-"necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr "Monaca では、 `PhoneGap <http://phonegap.com/>`_ を活用しています。携帯端末搭載の機能にアクセスするときに、ライブラリーとして、PhoneGap を使用します。これにより、JavaScript を使用しても、PhoneGap 経由で、携帯端末の機能にアクセスできます。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を学ぶ必要がなくなりました。"
+"Monaca utilizes `Apache Cordova <http://cordova.apache.org//>`_ as the "
+"library for accessing unique features of mobile devices. Through Cordova, "
+"your app can access unique features of mobile device using JavaScript, so it"
+" is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
+msgstr ""
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1125,7 +1125,7 @@ msgid ""
 "origin_policy>`_ which restricts the cross-origin resource sharing. It "
 "prevents JavaScript from making requests across domain boundaries, and has "
 "spawned various hacks for making cross-domain requests."
-msgstr "`同一生成元ポリシー ( same origin policy ) <http://en.wikipedia.org/wiki/Same-origin_policy>`_ では、CORS ( cross-origin resource sharing / 異なるオリジンからデータを取得すること ) を制限しています。これは、クロスドメインのリクエストには、少なからず脆弱性が存在するためです。このため、Monaca が推奨するブラウザーも含め、多くのブラウザーでは、標準仕様として、複数のドメインをまたぐ、スクリプトからのリクエストを禁止しています。"
+msgstr "`同一生成元ポリシー ( same origin policy ) <http://en.wikipedia.org/wiki/Same-origin_policy>`_ では、CORS ( cross-origin resource sharing / 異なるオリジンからデータを取得すること ) を制限しており、よって、複数のドメインをまたぐ、JavaScript からのリクエストも禁止されています。これは、クロスドメインのリクエストには、少なからず脆弱性が存在するためです。"
 
 #: ../doc/faq/environment.rst:100
 msgid "How to enable Cross-Origin Resource Sharing (CORS)"
@@ -1135,7 +1135,7 @@ msgstr "Cross-Origin Resource Sharing ( CORS ) を有効にしたいのですが
 msgid ""
 "In order to add support to the server, you just need to add the following "
 "header into CORS (Cross-Origin Resource Sharing) response:"
-msgstr "サーバー側の処理を変更して、次のヘッダーを、CORS ( Cross-Origin Resource Sharing ) へのレスポンスに追加します。"
+msgstr "サーバー側の処理を変更して、次のヘッダーを、CORS ( Cross-Origin Resource Sharing ) のレスポンスに追加します。"
 
 #: ../doc/faq/environment.rst:109
 msgid ""
@@ -1300,19 +1300,19 @@ msgid ""
 "reduced to within the range of the limitation by archiving or deleting them."
 " Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about"
 " the number of projects allowed for each plan."
-msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータを保持できます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータは保持されます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:149
 msgid ""
 "Will management API keys published while on a Gold/Platinum Plan become "
 "unusable after switching to the Basic Plan?"
-msgstr "Gold/Platinum プランを利用中に発行したマネジメント API キーは、Basic プランに変更した場合、使えなくなりますか？"
+msgstr "Gold/Platinum プランの契約中に発行したマネジメント API キーは、Basic プランに変更した場合、使えなくなりますか？"
 
 #: ../doc/faq/general.rst:151
 msgid ""
 "Management API keys themselves are not deleted after switching plan. But "
 "Management API can be called ONLY when the current plan is Gold or above."
-msgstr "マネジメント API の使用には、Gold 以上のプランが必要です。プラン変更後も、マネジメント API キー自体は、削除されませんが、ご使用できません。"
+msgstr "マネジメント API の使用には、Gold 以上のプランが必要です。プラン変更後も、マネジメント API キー自体は削除されませんが、マネジメント API は使用できなくなります。"
 
 #: ../doc/faq/general.rst:156
 msgid "Can I make a blanket contract for multiple accounts?"
@@ -1389,13 +1389,13 @@ msgstr "Monaca にログインして、 `ダッシュボード <https://monaca.m
 
 #: ../doc/faq/general.rst:208
 msgid ""
-"Go to :menuselection:`Plan Detail --> Manage Plan`. Then, Manage Plan page "
-"will appear."
-msgstr ":menuselection:`プラン詳細を見る --> プラン管理` を選択して、プランの管理ページを表示します。"
+"Go to :menuselection:`Manage Account`. Then, Manage Account page will "
+"appear."
+msgstr ":menuselection:`アカウント設定` ( 画面左上の画像またはアカウント名をクリック ) を選択して、[ アカウント編集 ] ページを開きます。"
 
 #: ../doc/faq/general.rst:209
 msgid "Click on :guilabel:`Unregister`."
-msgstr ":guilabel:`退会する` を選択します。"
+msgstr ":guilabel:`Monaca から退会する` を選択します。"
 
 #: ../doc/faq/general.rst:210
 msgid ""
@@ -1417,7 +1417,7 @@ msgid ""
 "configure your mail server or mail application to properly receive the "
 "emails from this address. If you are still unable to receive the emails, "
 "please sign up using another email address."
-msgstr "弊社からのメールは、「 info@monaca.mobi 」 から送付しています。メールが届かない場合、メールサーバーとメールアプリの設定を確認してください。確認後も、メールが届かない場合は、他のメールアドレスを使用して、再度、登録してください。"
+msgstr "弊社からのメールは、「 info@monaca.mobi 」 から送付しています。メールが届かない場合、メールサーバーまたはメールアプリの設定を確認してください。確認後も、メールが届かない場合は、他のメールアドレスを使用して、再度、登録してください。"
 
 #: ../doc/faq/general.rst:223
 msgid "How can I buy the support tickets?"
@@ -1427,7 +1427,7 @@ msgstr "サポートチケットはどこで購入できますか？"
 msgid ""
 "For those who are using the paid plan, you can purchase the support tickets "
 "from our support desk. Basic account users are not eligible to buy them."
-msgstr "有料プランをご利用であれば、弊社のお問い合わせ窓口より、チケットを購入できます。無料プランをご利用の場合には、チケットの購入はできません。"
+msgstr "有料プランをご利用であれば、弊社の問い合わせ窓口より、チケットを購入できます。無料プランをご利用の場合には、チケットの購入はできません。"
 
 #: ../doc/faq/general.rst:227
 msgid ""
@@ -1444,7 +1444,7 @@ msgstr "ご希望されるサポート内容をお伺いします。"
 msgid ""
 "We will estimate and describe how many tickets are necessary to complete the"
 " order."
-msgstr "その内容を基に、必要なチケット数を、弊社側より、ご提案します。"
+msgstr "その内容を基に、必要なチケット数を、弊社側よりご提案します。"
 
 #: ../doc/faq/general.rst:231
 msgid ""
@@ -1454,7 +1454,7 @@ msgstr "お客様の同意をいただき、登録済みクレジットカード
 
 #: ../doc/faq/general.rst:236
 msgid "Can I switch to Enterprise plan?"
-msgstr "エンタープライズプランは、個人でも契約可能ですか？"
+msgstr "エンタープライズ プランは、個人でも契約可能ですか？"
 
 #: ../doc/faq/general.rst:238
 msgid "We are only offering Monaca Enterprise to the company subscriptions."
@@ -1540,7 +1540,7 @@ msgstr "Monaca を使用した、携帯端末向けアプリの開発手順を�
 msgid ""
 "For your flexibility and convenience during app development process, Monaca "
 "provides four different development environments such as:"
-msgstr "どの開発工程からでも、また、どの開発環境でも導入しやすいように、Monaca では、次の 4 つの開発ツールを提供しています。"
+msgstr "どの開発工程からでも、また、どの開発環境でも、Monaca を導入できるように、次の 4 つの開発ツールを提供しています。"
 
 #: ../doc/faq/usage.rst:12
 msgid ":ref:`monaca_ide_index`"
@@ -1575,7 +1575,7 @@ msgstr "HTML5/CSS3/JavaScript でコードを記述します。"
 
 #: ../doc/faq/usage.rst:21
 msgid "If needed, check application operations using Monaca Debugger."
-msgstr "必要に応じて、Monaca デバッガーを使用して、アプリの確認を行う。"
+msgstr "Monaca デバッガーを必要に応じて使用し、アプリの確認を行う。"
 
 #: ../doc/faq/usage.rst:22
 msgid ""
@@ -1654,7 +1654,7 @@ msgstr "Monaca クラウド IDE のチーム管理機能を使用して、Monaca
 
 #: ../doc/faq/usage.rst:66
 msgid "The usability of this function depends on your usage plan with Monaca."
-msgstr "なお、ご登録されているプランにより、使用できる機能が異なります。"
+msgstr "なお、ご契約されているプランにより、使用できる機能が異なります。"
 
 #: ../doc/faq/usage.rst:68
 msgid ""
@@ -1678,7 +1678,7 @@ msgid ""
 "more people can open the same project in the IDE. However, if there is any "
 "conflict, the previous version will be overwritten (still remains in the "
 "file history)."
-msgstr "1 つ目の共有シナリオとして、Monaca に実装されている 「 共有 」 機能を使用した、プロジェクトの 「 共有 」 があります。この機能では、複数の開発者が、IDE 上で、同じプロジェクトを編集できます。競合 ( conflict ) する場合には、前のバージョンが上書きされます ( 上書き後も、「 過去のバージョンを見る 」 機能で、ファイルの更新履歴を確認できます )。"
+msgstr "1 つ目の共有シナリオとして、Monaca に実装されている 「 共有 」 機能を使用した、プロジェクトの 「 共有 」 があります。この機能では、複数の開発者が、IDE 上で、同じプロジェクトを編集できます。編集内容が競合 ( conflict ) する場合には、前のバージョンが上書きされます ( 上書き後も、「 過去のバージョンを見る 」 機能で、ファイルの更新履歴を確認できます )。"
 
 #: ../doc/faq/usage.rst:76
 msgid ""
@@ -1686,7 +1686,7 @@ msgid ""
 " can be managed by VS's built in Team Explorer functionality. Git, TFS, "
 "Visual Studio Online and other supported version control system can be used "
 "in this case."
-msgstr "3 つ目の共有シナリオとして、Monaca for Visual Studios を使用した 「 共有 」 があります。この場合、VS に実装されている 「 チーム エクスプローラー 」 機能を使用して、ファイルを管理します。Git、TFS、Visual Studio Online など、サポートされているバージョン管理システムであれば、併用できます。"
+msgstr "2 つ目の共有シナリオとして、Monaca for Visual Studios を使用した 「 共有 」 があります。この場合、VS に実装されている 「 チーム エクスプローラー 」 機能を使用して、ファイルを管理します。Git、TFS、Visual Studio Online など、サポートされているバージョン管理システムであれば併用できます。"
 
 #: ../doc/faq/usage.rst:78
 msgid ""
@@ -1697,11 +1697,10 @@ msgstr "テスターによる検証 : Monaca に実装されている 「 共有
 
 #: ../doc/faq/usage.rst:81
 msgid ""
-"However, if your usage plan is Basic or Personal, you can only chat and join"
-" a team as a Tester. For more information of the usage plan and its "
-"limitation, please refer to `Monaca Usage Plan "
-"<https://monaca.io/pricing.html>`_."
-msgstr "Basic または Personal をご利用の場合、チームへの参加 ( テスターとして ) とチャットのみ、ご使用できます。各プランの機能制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+"However, if your usage plan is Basic or Personal, you can only join a team "
+"as a Tester. For more information of the usage plan and its limitation, "
+"please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
+msgstr "Basic または Personal をご利用の場合には、テスターとして、チームへの参加のみ行えます。各プランの機能制限に関しては、`料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
@@ -1714,7 +1713,7 @@ msgid ""
 "strengthening the security such as having an independent location of each "
 "resource or enforcing source IP restrictions for access (fee-based). Please "
 "contact us `here <https://monaca.io/support/inquiry.html>`_."
-msgstr "特別なご要望がない限り、各ユーザーのリソースは、同一サーバー上で、アカウント別に保管されています。有料とはなりますが、リソースの保存場所の新規設置、IP アドレス制限など、ご要望に応じて、セキュリティー増強を別途行うこともできます。詳細につきましては、 `こちら <https://ja.monaca.io/support/inquiry.html>`_ からお問い合わせください。"
+msgstr "特別なご要望がない限り、各ユーザーのリソースは、同一サーバー上で、アカウント別に保管されています。有料とはなりますが、リソースの保存場所の新規設置、アクセスできる IP アドレスの制限など、ご要望に応じて、セキュリティー強化を別途行うこともできます。詳細につきましては、 `こちら <https://ja.monaca.io/support/inquiry.html>`_ からお問い合わせください。"
 
 #: ../doc/faq/usage.rst:95
 msgid ""
@@ -1739,4 +1738,4 @@ msgid ""
 "For the changes to the Splash screen, you can configure from the \"Splash "
 "Screen Settings\" in :ref:`config_ios_app_monaca` and "
 ":ref:`config_android_app` for iOS and Android, respectively."
-msgstr "スプラッシュ画像の変更は、 :ref:`config_ios_app_monaca` と :ref:`config_android_app` の [ スプラッシュ画像 ] 設定項目から、行うことができます。"
+msgstr "スプラッシュ画像の変更は、 :ref:`config_ios_app_monaca` ( iOS の場合 ) または :ref:`config_android_app` ( Android の場合 ) の [ スプラッシュ画像 ] 設定項目から、行うことができます。"

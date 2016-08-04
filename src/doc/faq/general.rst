@@ -205,7 +205,7 @@ How to unregister a Monaca account?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Login to `Monaca Dashboard <https://monaca.mobi/en/dashboard>`_.
-2. Go to :menuselection:`Plan Detail --> Manage Plan`. Then, Manage Plan page will appear.
+2. Go to :menuselection:`Manage Account`. Then, Manage Account page will appear.
 3. Click on :guilabel:`Unregister`.
 4. Fill in the password of your current login account and a reason to unregister this account (optional).
 5. Finally, click :guilabel:`Unregister` button.

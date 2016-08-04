@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-29 08:52+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-02 02:47+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11654,9 +11654,9 @@ msgstr "**code**: インジェクトするスタイルシートのテキスト"
 msgid "**callback**: the function that executes after the CSS is injected."
 msgstr "**callback**: CSS のインジェクト後に実行する関数"
 
-#: ../doc/reference/cordova_3.5/index.rst:5
+#: ../doc/reference/cordova_3.5/index.rst:3
 #: ../doc/reference/cordova_5.2/index.rst:5
-#: ../doc/reference/cordova_6.2/index.rst:7
+#: ../doc/reference/cordova_6.2/index.rst:5
 msgid "Core Cordova Plugins"
 msgstr "基本 Cordova プラグイン ( Cordova のコア プラグイン )"
 
@@ -14824,7 +14824,7 @@ msgstr "Windows 専用 :"
 msgid "Windows 8 and 8.1"
 msgstr "Windows 8 と 8.1"
 
-#: ../doc/reference/cordova_4.1/index.rst:5
+#: ../doc/reference/cordova_4.1/index.rst:3
 msgid "Cordova Core Plugins"
 msgstr "Cordova コアプラグイン"
 
@@ -25420,17 +25420,17 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr "Monaca が提供している、他のプラグイン"
+msgstr "他のプラグイン ( Monaca 提供のプラグイン )"
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr "Monaca では、セキュリティー系のプラグインを提供しており、これらのプラグインを組み込めば、最先端のセキュリティー技術を、簡単にアプリに導入できます。"
+msgstr "Monaca では、セキュリティー系のプラグインを含む、便利なプラグインを複数提供しています。セキュリティー系のプラグインを使用すれば、最先端のセキュリティー技術を、簡単にアプリに実装させることができます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid "Monaca power plugins are available to Enterprise users only."
-msgstr "これらのセキュリティー系プラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
+msgstr "これらのプラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
@@ -25900,7 +25900,7 @@ msgid ""
 "<import_cordova_plugin>` it. In order to import this plugin, you need to "
 "subscribe to a valid plan. Please refer to `Pricing "
 "<https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "どのプランをご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインのインポートには、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://ja.monaca.io/pricing.html>>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/repro.rst:16
 msgid "Add Repro Service to Monaca"

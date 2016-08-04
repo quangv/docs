@@ -1,5 +1,3 @@
-:orphan:
-
 .. _cordova_core_plugins:
 
 ===========================
