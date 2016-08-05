@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-04 03:01+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-05 10:37+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1002,7 +1002,7 @@ msgid ""
 "library for accessing unique features of mobile devices. Through Cordova, "
 "your app can access unique features of mobile device using JavaScript, so it"
 " is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr ""
+msgstr "Monaca では、`Apache Cordova <http://cordova.apache.org//>`_ を活用しています。携帯端末搭載の機能にアクセスするときに、ライブラリーとして、Cordova を使用します。これにより、JavaScript を使用しても、Cordova 経由で、携帯端末の機能にアクセスできます。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を学ぶ必要がなくなりました。"
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1483,8 +1483,8 @@ msgid "Login into `Monaca website <https://monaca.io/>`_."
 msgstr "`Monaca <https://ja.monaca.io/>`_ にログインします。"
 
 #: ../doc/faq/subscription.rst:10
-msgid "Go to `Pricing page <https://monaca.io/pricing.html>`_."
-msgstr "`料金プラン <https://ja.monaca.io/pricing.html>`_ の画面を表示します。"
+msgid "Go to `Pricing page <https://monaca.mobi/en/pricing?type=1>`_."
+msgstr ""
 
 #: ../doc/faq/subscription.rst:11
 msgid ""
