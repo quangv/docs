@@ -16,8 +16,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-08-09 11:28+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+=======
+"PO-Revision-Date: 2016-08-09 07:36+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+>>>>>>> 4f54f3163852f103e913bd4b1934d867c1f155d2
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -499,6 +504,7 @@ msgstr "``1.0.0``"
 #: ../doc/reference/monaca_api/utility-34.rst:11
 #: ../doc/reference/power_plugins/in-app_updater.rst:72
 #: ../doc/reference/power_plugins/in-app_updater.rst:94
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
 #: ../doc/reference/third_party_phonegap/datepicker.rst:30
 #: ../doc/reference/third_party_phonegap/share.rst:27
 msgid "Description"
@@ -1367,7 +1373,11 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:496
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:169
+>>>>>>> 4f54f3163852f103e913bd4b1934d867c1f155d2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -3096,6 +3106,7 @@ msgstr "iOS"
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:185
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:100
 #: ../doc/reference/power_plugins/secure_storage.rst:41
+#: ../doc/reference/third_party_phonegap/custom_config.rst:19
 #: ../doc/reference/third_party_phonegap/datepicker.rst:24
 #: ../doc/reference/third_party_phonegap/share.rst:24
 msgid "Methods"
@@ -15423,7 +15434,11 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:498
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:171
+>>>>>>> 4f54f3163852f103e913bd4b1934d867c1f155d2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -15476,7 +15491,11 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:499
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:172
+>>>>>>> 4f54f3163852f103e913bd4b1934d867c1f155d2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -26015,6 +26034,7 @@ msgstr "BarcodeScanner プラグインのデモ"
 #: ../doc/reference/third_party_phonegap/custom_config.rst:5
 msgid "Cordova Custom Config Plugin"
 msgstr ""
+<<<<<<< HEAD
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:8
 msgid ""
@@ -26586,6 +26606,65 @@ msgstr ""
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"
 msgstr "Datepicker プラグイン"
+=======
+>>>>>>> 4f54f3163852f103e913bd4b1934d867c1f155d2
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:8
+msgid ""
+"This Cordova/Phonegap plugin for iOS and Android provides hook scripts to "
+"update platform configuration files based on custom preferences and config-"
+"file data defined in ``config.xml`` file that are not supported out-of-the-"
+"box by Cordova/Phonegap."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:15
+msgid ""
+"Click :guilabel:`Enable` button of the Custom Config to add it into your "
+"project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:22
+#: ../doc/reference/third_party_phonegap/custom_config.rst:37
+#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:42
+msgid "For Android"
+msgstr "Android の場合"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:27
+msgid "Function Name"
+msgstr "関数名"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:28
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:30
+msgid "show(func)"
+msgstr "show(func)"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:28
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+msgid "show a DatePicker control."
+msgstr "DatePicker を表示します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:34
+#: ../doc/reference/third_party_phonegap/datepicker.rst:39
+msgid "DatePicker Demo"
+msgstr "DatePicker のデモ"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:73
+#: ../doc/reference/third_party_phonegap/datepicker.rst:78
+msgid "For iOS"
+msgstr "iOS の場合"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:75
+#: ../doc/reference/third_party_phonegap/datepicker.rst:80
+msgid "Please note that, this example only works with iPhone but not iPad."
+msgstr "このサンプルは、iPhone が対象です。iPad では正常に動作しません。"
+
+#: ../doc/reference/third_party_phonegap/datepicker.rst:5
+msgid "DatePicker Plugin"
+msgstr "Datepicker プラグイン"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:10
 msgid "DatePicker plugin lets an app use the native DatePicker control."
@@ -26596,37 +26675,6 @@ msgid ""
 "Click :guilabel:`Enable` button of the DatePicker to add it into your "
 "project."
 msgstr "DatePicker の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:27
-#: ../doc/reference/third_party_phonegap/datepicker.rst:42
-msgid "For Android"
-msgstr "Android の場合"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:30
-#: ../doc/reference/third_party_phonegap/share.rst:27
-msgid "Function Name"
-msgstr "関数名"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:33
-#: ../doc/reference/third_party_phonegap/share.rst:30
-msgid "show(func)"
-msgstr "show(func)"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:33
-msgid "show a DatePicker control."
-msgstr "DatePicker を表示します。"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:39
-msgid "DatePicker Demo"
-msgstr "DatePicker のデモ"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:78
-msgid "For iOS"
-msgstr "iOS の場合"
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:80
-msgid "Please note that, this example only works with iPhone but not iPad."
-msgstr "このサンプルは、iPhone が対象です。iPad では正常に動作しません。"
 
 #: ../doc/reference/third_party_phonegap/index.rst:5
 msgid "Third-party Cordova Plugins"
