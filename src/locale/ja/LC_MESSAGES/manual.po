@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-05 02:41+0000\n"
+"PO-Revision-Date: 2016-08-09 02:59+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -146,14 +146,14 @@ msgid ""
 "*collection item*. A unit comprising of all of these items is called a "
 "*Collection*. To put it as database terminology, a Collection is a table, "
 "and Collection Items are records."
-msgstr "ここでは、コレクションの管理方法を解説します。例として、*_id*、*name* ( 名前 )、*color* ( 色 )、*taste* ( 味 ) を、プロパティーの項目として使用します。データの行を *コレクションアイテム* と呼びます ( 例 : lemon、yellow、sour の行 )。コレクションアイテムの集合体を、 *コレクション* と呼びます。データベースの用語を当てはめると、コレクションはテーブル、コレクションアイテムはレコードとなります。"
+msgstr "ここでは、コレクションの管理方法を解説します。例として、*_id*、*name* ( 名前 )、*color* ( 色 )、*taste* ( 味 ) を、プロパティーの項目として使用します。データの行を *コレクションアイテム* と呼びます ( 例 : lemon、yellow、sour の行 )。コレクションアイテムの集合体を、 *コレクション* と呼びます。データベースの用語を借りると、コレクションはテーブル、コレクションアイテムはレコードとなります。"
 
 #: ../doc/manual/backend/control_operations.rst:102
 msgid ""
 "Collection item has several system properties that start with an underscore "
 "(``_``). For example, ``_id`` is, one of system properties, unique ID of an "
 "item."
-msgstr "コレクションアイテムには、アンダースコア ( 「 _ 」 ) で始まる、システムプロパティーが複数あります。たとえば、 ``_id`` は、システムプロパティーであり、コレクションアイテムの一意の ID です。"
+msgstr "コレクションアイテムには、アンダースコア ( 「 _ 」 ) で始まる、システムプロパティーが複数あります。たとえば、 ``_id`` は、システムプロパティーであり、コレクションアイテムを識別する一意の ID です。"
 
 #: ../doc/manual/backend/control_operations.rst:105
 msgid "_id"
@@ -247,7 +247,7 @@ msgid ""
 "Default permission of new item: check :guilabel:`read` and/or "
 ":guilabel:`write` to grant all users the read and/or write permission for "
 "the new item."
-msgstr "新規アイテムのパーミッション初期値 :　:guilabel:`Read` または/および :guilabel:`Write` にチェックを入れ、新規アイテムに対して、読み取り または/および 書き込み パーミッション ( 権限 ) を与えるか選択します ( 対象はすべてのユーザーとなります )。"
+msgstr "新規アイテムのパーミッション初期値 :　:guilabel:`Read` または/および :guilabel:`Write` にチェックを入れ、新規アイテムに対して、読み取り または/および 書き込みパーミッション ( 権限 ) を与えるか選択します ( 対象はすべてのユーザーとなります )。"
 
 #: ../doc/manual/backend/control_operations.rst:141
 msgid "Deleting a Collection"
@@ -389,7 +389,7 @@ msgstr "「 public 」 は、「 現在ログインしていない、すべて�
 msgid ""
 "In order to change the user's permission for each Collection Item, please do"
 " as follows:"
-msgstr "ユーザーのパーミッションをコレクション毎に変更する方法を、次に記します。"
+msgstr "ユーザーのパーミッションをコレクションアイテム毎に変更する方法を、次に記します。"
 
 #: ../doc/manual/backend/control_operations.rst:270
 msgid ""
@@ -578,7 +578,7 @@ msgid ""
 "``\"https://cloud.monaca.mobi/manage/json-rpc/CLOUD_PROJECT_ID\"`` in which "
 "``CLOUD_PROJECT_ID`` is your Monaca Backend ID. This URL will be used as "
 "*JSON-RPC Request URL* (See :ref:`backend_management_api_index`)."
-msgstr "マネジメント API のエンドポイント URL : ``\"https://cloud.monaca.mobi/manage/json-rpc/CLOUD_PROJECT_ID\"`` 形式の URL が表示されています。URL 内の 「 CLOUD_PROJECT_ID 」 部分は、Monaca バックエンドの ID です。また、この URL は、 *JSON-RPC リクエストの送信先* として、使用されます ( :ref:`backend_management_api_index` )。"
+msgstr "マネジメント API のエンドポイント URL : ``\"https://cloud.monaca.mobi/manage/json-rpc/CLOUD_PROJECT_ID\"`` 形式の URL が表示されています。URL 内の 「 CLOUD_PROJECT_ID 」 部分は、Monaca バックエンドの ID です。また、この URL は、 *JSON-RPC リクエストの送信先* として使用されます ( :ref:`backend_management_api_index` )。"
 
 #: ../doc/manual/backend/control_panel.rst:127
 msgid ""
@@ -645,7 +645,7 @@ msgid ""
 "Backend provides these functionality in advance as a cloud-based service "
 "that can manage users without a need for server-side development on the "
 "client part."
-msgstr "ユーザー登録、ユーザーデータの管理 ( データベースの使用 ) など、ユーザー管理機能を実装するアプリを開発する場面が、多々あります。Monaca バックエンドを使用すれば、クラウドサービス上で、ユーザーを管理でき、サーバー側の作り込みも必要ありません。"
+msgstr "ユーザー登録、保存データの管理など、ユーザー管理機能 ( データベースなどを使用 ) を実装するアプリを開発する場面が、多々あります。Monaca バックエンドを使用すれば、クラウドサービス上で、ユーザーを管理でき、サーバー側の作り込みも必要ありません。"
 
 #: ../doc/manual/backend/index.rst:9
 msgid ""
@@ -867,7 +867,7 @@ msgstr "プロジェクト名を入力して、:guilabel:`作成` ボタンを�
 msgid ""
 "From the Overview page, select :guilabel:`Google Cloud Messaging` under "
 ":guilabel:`Mobile APIs`."
-msgstr "[ 概要 ] ページのプロジェクト一覧から対象のプロジェクトを選択します。API 一覧にページが切り替わります ( または、自動で切り替わります )。切り替え後、:guilabel:`Mobile API` から :guilabel:`Google Cloud Messaging` を選択します。"
+msgstr "[ 概要 ] ページのプロジェクト一覧から対象のプロジェクトを選択します。API の一覧ページに遷移するので、:guilabel:`Mobile API` から :guilabel:`Google Cloud Messaging` を選択します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:51
 msgid "Click :guilabel:`Enable`."
@@ -906,7 +906,7 @@ msgstr "サーバー API キーの確認"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:97
 msgid "From the API Manager page, go to :guilabel:`Credentials`."
-msgstr "Google APIs 横の切り替えメニュー ( Google APIs Console 上 ) から API Manager を選択して、次に、:guilabel:`認証情報` を選択します。"
+msgstr "[ Google APIs ] 横の切り替えメニューから [ API Manager ] を選択して、次に、:guilabel:`認証情報` を選択します ( Google APIs Console 上 )。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:99
 msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
@@ -964,7 +964,7 @@ msgstr "*Text* ( テキスト ) : アプリケーションに送信されるテ�
 msgid ""
 "*Badge*: It's a round, red, numerical icon that appears on the top right "
 "corner of an application icon."
-msgstr "*Badge* ( バッジ ) : アプリケーションのアイコンの右上に表示される数字です。"
+msgstr "*Badge* ( バッジ ) : アプリのアイコンの右上に表示される数字です。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:17
 msgid "*Sound*: It's played to alert the user of a new notification."
@@ -1006,7 +1006,7 @@ msgstr "Monaca クラウド IDE からプッシュ通知を行うには、Monaca
 msgid ""
 "In order to send push notifications from Monaca Cloud IDE, please do as "
 "follows:"
-msgstr "Monaca クラウド IDE からプッシュ通知を行うときは、下記の手順に従います。"
+msgstr "Monaca クラウド IDE からプッシュ通知を行うときは、次の手順に従います。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:32
 msgid ""
@@ -1036,7 +1036,7 @@ msgstr "送信先となる OS を選択します。プッシュ通知をアプ�
 msgid ""
 "Fill in necessary information regarding the push notification as shown "
 "below:"
-msgstr "次のプッシュ通知情報を、入力します。"
+msgstr "次のプッシュ通知情報を入力します。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:57
 msgid "Field"
@@ -1096,7 +1096,7 @@ msgstr "JSON データ"
 msgid ""
 "Optional. It defines the data sent to the application once the user opens "
 "the notification."
-msgstr "任意入力です。ユーザーが通知を開いたときに、アプリ側に渡されるデータを指定できます。"
+msgstr "任意です。ユーザーが通知を開いたときに、アプリ側に渡されるデータを指定できます。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:69
 msgid ""
@@ -1158,13 +1158,13 @@ msgstr "プッシュ通知の送信時、アプリに対してデータを送信
 msgid ""
 "The callback function will be called after the page is loaded; However, "
 "there may be some time lag. Therefore, please be cautious about this."
-msgstr "コールバック関数は、ページが読み込まれた後に、呼び出されます。呼び出しには、多少の時間がかかるため、この点を留意ください。"
+msgstr "コールバック関数は、ページが読み込まれた後に呼び出されます。呼び出しには、多少の時間がかかるため、この点を留意ください。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:98
 msgid ""
 "An example of the data sent from an application after receiving a push "
 "notification is shown below."
-msgstr "下記は、プッシュ通信で受け取ったデータを、アプリ側で使用するサンプルです。"
+msgstr "次のサンプルコードでは、プッシュ通信で受け取ったデータを、アプリ側で使用しています。"
 
 #: ../doc/manual/backend/push_notification/overview.rst:114
 msgid ""
@@ -1387,7 +1387,7 @@ msgstr "オーバースクロールを無効"
 msgid ""
 "Enable this if you want to disable the glow when a user scrolls beyond the "
 "edge of the webview."
-msgstr "WebView の端を越えた場合の動作 ( オーバースクロールの有無 ) を設定します。"
+msgstr "WebView の端を越えたときの挙動 ( オーバースクロールの有無 ) を設定します。"
 
 #: ../doc/manual/build/build_android.rst:90
 msgid "WebView Engine"
@@ -1402,7 +1402,7 @@ msgid ""
 "Set to High Performance (Crosswalk) for a more powerful and larger app size."
 " It's required Android 4.0 and up. For Cordova 5.2 and and higher, Stock "
 "WebView will be applied as default."
-msgstr "Cordova 5.2 以上の場合、Stocke WebView がデフォルトの設定となります。ハイパフォーマンス版 ( CrossWalk ) を使用する場合には、[ Cordova プラグインの管理 ] 画面から Crosswalk WebView Engine プラグインを有効化します ( Android 4.0 以上が対象 )。"
+msgstr "Cordova 5.2 以上の場合、Stocke WebView がデフォルトの設定となります。大規模なアプリなど、より良いパフォーマンスを期待する場合には、ハイパフォーマンス版 ( CrossWalk ) を使用します。この場合には、[ Cordova プラグインの管理 ] 画面から [ Crosswalk WebView Engine ] プラグインを有効化します。"
 
 #: ../doc/manual/build/build_android.rst:94
 msgid "Screen Orientation"
@@ -1416,7 +1416,7 @@ msgstr "Default"
 msgid ""
 "You can also set the device's screen orientation when running your app as "
 "Landscape or Portrait."
-msgstr "Landscape または Portrait も設定できます ( アプリ実行時の画面の向き )。"
+msgstr "Landscape または Portrait を指定できます ( アプリ実行時の画面の向き )。"
 
 #: ../doc/manual/build/build_android.rst:98
 #: ../doc/manual/build/build_chrome_app.rst:44
@@ -1437,7 +1437,7 @@ msgid ""
 "restored if the password is lost. When a keystore is lost or it overwrites "
 "another keystore, it is impossible to use the same key to re-sign the signed"
 " package."
-msgstr "キーストアは、バイナリーファイルです。単数または複数の秘密鍵と証明書のセットを格納するために使用します。秘密鍵は、組織または個人を表す 「 判子 」 の役割をします。キーストアは、パスワードを使用して、暗号化されており、パスワードを紛失した場合には、復旧できません。キーストアを紛失した場合、または、別のキーストアで上書きしてしまった場合、同じ鍵を使用しても、署名済みパッケージを再署名することはできません。"
+msgstr "キーストアは、バイナリーファイルです。このファイルには、秘密鍵 ( 単数または複数 ) が格納されています。秘密鍵は、組織または個人を表す 「 判子 」 の役割をします。キーストアは、パスワードを使用して、暗号化されます ( パスワードを紛失した場合には、復旧できません )。キーストアを紛失した場合、または、別のキーストアで上書きされてしまった場合、同じ鍵を使用しても、署名済みパッケージを再署名することはできません。[ 翻訳者メモ ： キーストアの内容に関しては、いろいろな説明方法があるようで、人によっては、「 キーストアには秘密鍵と証明書の情報がセットで格納されている 」、「 キーストアとは証明書そのものであり、そこには鍵情報が格納されている 」 としています。なお、このキーストアを apk ファイルに添えれば、「 署名 」 完了となります ]"
 
 #: ../doc/manual/build/build_android.rst:108
 msgid ""
