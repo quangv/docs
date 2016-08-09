@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-04 02:56+0000\n"
+"PO-Revision-Date: 2016-08-05 02:42+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1919,7 +1919,7 @@ msgid ""
 " fortune telling start button is tapped, the JavaScript ``omikuji()`` "
 "function is called.  The `omikuji()` function prepares the fortune telling "
 "results and displays them onscreen."
-msgstr "同様に、``bottombar`` に ID を指定した ``div`` タグでも ``img`` タグを囲っています。また、 ``src`` 属性に加えて、 ``onclick`` 属性も記述します。 ``onclick`` 属性には、画像をクリックまたはタップしたときに呼び出す JavaScript コードを指定します。このサンプルでは、おみくじ開始ボタンをタップしたときに、JavaScript の ``omikuji()`` 関数を呼び出します。 ``omikuji()`` 関数を使用し、おみくじ結果を計算して、結果を画面に表示します。"
+msgstr "同様に、``bottombar`` を ID に指定した ``div`` タグでも ``img`` タグを囲っています。また、 ``src`` 属性に加えて、 ``onclick`` 属性も記述します。 ``onclick`` 属性には、画像をクリックまたはタップしたときに呼び出す JavaScript コードを指定します。このサンプルでは、おみくじ開始ボタンをタップしたときに、JavaScript の ``omikuji()`` 関数を呼び出します。 ``omikuji()`` 関数を使用し、おみくじ結果を計算して、結果を画面に表示します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:57
 msgid "Style Sheet Explanation"
@@ -1957,7 +1957,7 @@ msgid ""
 "example, both divs will use coordinates relative to their parent tag, the "
 "``body`` tag.  The ``bottom`` and ``top`` properties set the position from "
 "the bottom or top."
-msgstr "上述の 「 HTML の解説 」 のとおり、おみくじ箱と結果画像の表示用の ``div`` タグと 「 はじめる 」 ボタンを表示するための ``div`` タグを識別するために、それぞれ、``#hako`` と ``#bottombar`` を使用しています。また、今回のスタイルシートの定義では、``position``、``bottom``、``top``、``width`` プロパティーを使用ています。 ``position`` プロパティーに ``absolute`` を指定すると、絶対座標を使用した配置になります。今回の場合、いずれも親タグである ``body`` タグに対する座標となります。 ``bottom`` と ``top`` プロパティーを使用して、下と上から始まる位置を、それぞれ指定します。"
+msgstr "上述の 「 HTML の解説 」 のとおり、おみくじ箱と結果画像の表示用の ``div`` タグと 「 はじめる 」 ボタンを表示するための ``div`` タグを識別するために、それぞれ、``#hako`` と ``#bottombar`` を使用しています。また、今回のスタイルシートの定義では、``position``、``bottom``、``top``、``width`` プロパティーを使用しています。 ``position`` プロパティーに ``absolute`` を指定すると、絶対座標を使用した配置になります。今回の場合、いずれも親タグである ``body`` タグに対する座標となります。 ``bottom`` と ``top`` プロパティーを使用して、下と上から始まる位置を、それぞれ指定します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:71
 msgid ""
@@ -1980,7 +1980,7 @@ msgid ""
 "random number from 0 to 3, which is assigned to the dice variable. On lines "
 "4 through 11, the variable *image_name* is assigned an image file name "
 "according to the value of the ``dice`` variable."
-msgstr "1～16 行目は、 ``omikuji`` 関数の定義です。[ はじめる ] ボタンをタップすると、この関数が実行されます。2 行目では ``Math.floor`` 関数と ``Math.random`` 関数を組み合わせ、0 から 3 までの乱数を生成し、 ``dice`` 変数に代入します。4～11 行目では、 ``dice`` 変数の値に応じて、画像ファイル名を、 *image_name* 変数に代入します。"
+msgstr "1～16 行目は、``omikuji`` 関数の定義です。[ はじめる ] ボタンをタップすると、この関数が実行されます。2 行目では ``Math.floor`` 関数と ``Math.random`` 関数を組み合わせ、0 から 3 までの乱数を生成し、 ``dice`` 変数に代入します。4～11 行目では、 ``dice`` 変数の値に応じて、画像ファイル名を、 *image_name* 変数に代入します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:88
 msgid ""
@@ -1989,14 +1989,14 @@ msgid ""
 "(Document Object Model) manipulation, and is used to dynamically update. In "
 "the following example, the ``src`` attribute of the element (HTML tag) with "
 "the ID ``kekka`` is modified."
-msgstr "12～15 行目では、 ``document.getElementById`` 関数を使用して、スタイルシートの変更と画像の差し替えを行います。この処理は、DOM ( Document Object Model ) 操作と呼ばれ、HTML の内容を、動的に書き換える仕組みです。下記の例では、 ``kekka`` の ID を持つ要素 ( HTML タグ ) の ``src`` 属性を変更しています。"
+msgstr "12～15 行目では、 ``document.getElementById`` 関数を使用して、スタイルシートの変更と画像の差し替えを行います。この処理は、DOM ( Document Object Model ) 操作と呼ばれ、HTML の内容を、動的に書き換える仕組みです。次の例では、 ``kekka`` の ID を持つ要素 ( HTML タグ ) の ``src`` 属性を変更しています。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:94
 msgid ""
 "Since, as described above, the ``image_name`` variable is set to the name of"
 " the image file corresponding to the omikuji result, this technique can be "
 "used to display the image for the fortune telling result onscreen."
-msgstr "上述したように、 ``image_name`` 変数には、おみくじ結果を反映した画像ファイル名が指定されるため、この記法を使用して、おみくじ結果のイメージを、画面上に表示できます。"
+msgstr "上述したように、``image_name`` 変数には、おみくじ結果を反映した画像ファイル名が指定されるため、この記法を使用して、おみくじ結果のイメージを、画面上に表示できます。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:5
 msgid "Onsen UI Minimum Template"
@@ -2005,7 +2005,7 @@ msgstr "Onsen UI 最小限のテンプレート"
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:10
 msgid ""
 "This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application."
-msgstr "`Onsen UI <http://ja.onsenui.io/>`_ アプリの作成時に使用できる、最小限のテンプレートです。"
+msgstr "`Onsen UI <https://ja.onsen.io>`_ アプリの作成時に使用できる、最小限のテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:23
 msgid ""
@@ -2086,7 +2086,7 @@ msgid ""
 " In other words, the Page 2 is currently the second page in the page stack. "
 "When the :guilabel:`Welcome` back button is clicked, it goes back to the "
 "previous page which, in this case, is the Page 1."
-msgstr ":guilabel:`Push Page 2` ボタンをクリックすると、水平方向に、ページ 2 に遷移します。ページのトップ左に、 :guilabel:`Welcome` 戻るボタンが表示されます。これは、ページスタックの 2 番目に、ページ 2 が現在置かれていることを意味します。 :guilabel:`Welcome` 戻るボタンをクリックすると、前のページに戻ります。ここでは、ページ 1 となります。"
+msgstr ":guilabel:`Push Page 2` ボタンをクリックすると、水平方向に、ページ 2 に遷移します。また、ページのトップ左に、 :guilabel:`Welcome` 戻るボタンが表示されます。これは、ページスタックの 2 番目に、ページ 2 が現在置かれていることを意味します。 :guilabel:`Welcome` 戻るボタンをクリックすると、前のページに戻ります。ここでは、ページ 1 となります。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:68
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:77
@@ -2344,7 +2344,7 @@ msgstr "アプリのスタイルシート"
 msgid ""
 "The HTML body of this file is simply a placeholder of a ``loading.gif``, the"
 " feed list and error message."
-msgstr "このファイルの HTML の <body> は、「 ``loading.gif`` 」、「 フィード一覧 」、「 エラーメッセージ 」の置き場所となります。"
+msgstr "このファイルの HTML の <body> は、「 ``loading.gif`` 」、「 フィード一覧 」、「 エラーメッセージ 」 の置き場所となります。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:78
 msgid ""
@@ -2354,7 +2354,7 @@ msgid ""
 "retrieval function. This function is defined in :file:`feed-reader.js` file "
 "which will be explained later in this page. You can try changing the RSS "
 "feeds URL."
-msgstr "アプリを起動すると、RSS フィードの取得処理が直ちに始まります。RSS フィードのコンテンツの読み込み中は、 :file:`loading.gif` ファイルが表示されます。次の JavaScript コードで、RSS フィードの取得を行う関数を呼び出します。取得処理を行う関数は :file:`feed-reader.js` 内で定義しています。このファイルの解説は、後ほどします。RSS フィードで使用している URL は変更可能ですので、他の URL もぜひお試しください。"
+msgstr "アプリを起動すると、RSS フィードの取得処理が直ちに始まります。RSS フィードのコンテンツの読み込み中は、 :file:`loading.gif` ファイルが表示されます。次の JavaScript コードで、RSS フィードの取得を行う関数を呼び出します。取得処理を行う関数は、:file:`feed-reader.js` 内で定義されています。このファイルの解説は、後ほどします。RSS フィードで使用している URL は変更可能ですので、他の URL もぜひお試しください。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:94
 msgid "feed-reader.js"
@@ -2370,7 +2370,7 @@ msgstr "RSS フィードを取得する関数 （ ``Feed.load()`` ） が呼ば�
 msgid ""
 "If the function is executed successfully, the retrieved RSS feeds are listed"
 " in the Home screen as shown in the screenshot below."
-msgstr "この関数の実行に成功した後、スタート画面のページ上で、取得した RSS フィードを一覧状に表示します。下のスクリーンショットをご確認ください。"
+msgstr "この関数の実行に成功すると、取得した RSS フィードが、スタート画面のページ上に、一覧状に表示されます。下のスクリーンショットをご確認ください。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:137
 msgid ""
@@ -2429,7 +2429,7 @@ msgid ""
 "the next page, which will be described later. Also ``a`` tag uses "
 "``monaca.invokeBrowser`` function in ``onclick`` attributes. This function "
 "is used to launch the browser and display the specified URL."
-msgstr "このサンプルでは、jQuery Mobile を使用して、一覧画面を表示します。一覧画面の各行をタップすると、 ``showDetail`` 関数を呼び出します。この関数で、ページの遷移を行います。また、 ``a`` タグの ``onclick`` 属性内で、 ``monaca.invokeBrowser`` 関数を使用しています。この関数は、ブラウザーを起動して、指定した URL を表示します。"
+msgstr "このサンプルでは、jQuery Mobile を使用して、一覧画面を表示します。一覧画面の各行をタップすると、 ``showDetail`` 関数を呼び出します。この関数で、ページの遷移を行います。また、 ``a`` タグの ``onclick`` 属性内で、 ``monaca.invokeBrowser`` 関数を使用しています。この関数は、ブラウザーを起動させ、指定した URL を表示します。"
 
 #: ../doc/sampleapp/samples/shinkansen.rst:60
 msgid "The JavaScript code of the Top Screen is not long."
@@ -2448,7 +2448,7 @@ msgid ""
 " open a new page natively by using Monaca native functions and the variable "
 "passed to the next page is defined in it's third argument. The passed value "
 "can be obtained by ``monaca.queryParams`` variable."
-msgstr "``monaca.pushPage`` 関数を使用して、次のページを表示します。この関数では、Monaca のネイティブ関数を使用したページの表示処理と次ページへ渡す変数 ( 第三引数 ) の定義をしています。次ページへ渡す値は、 ``monaca.queryParams`` 変数を使用して取得します。"
+msgstr "``monaca.pushPage`` 関数を使用して、次のページを表示します。この関数では、Monaca のネイティブ関数を使用した、ページの表示処理と次ページへ渡す変数 ( 第三引数 ) の定義をしています。次ページへ渡す値は、 ``monaca.queryParams`` 変数を使用して取得します。"
 
 #: ../doc/sampleapp/samples/todo.rst:5
 msgid "TODO App"
@@ -2504,14 +2504,14 @@ msgid ""
 "Plugins. If the call is successful, the function *addTodo* is then executed."
 " if it fails, an error message is generated. Photo shoot options such as "
 "fixing the image size and specifying the return type are also set."
-msgstr "*addTodoPicture* 関数では、*navigator.camera.getPicture* 関数を使用して、写真撮影を行います。この関数 ( getPicture ) は、基本 Cordova プラグイン提供のものです。カメラの起動に成功した場合、*addTodo* 関数を実行し、失敗の場合には、警告メッセージを表示します。また、撮影オプションとして、画像サイズの固定化および戻り値の型を指定しています。"
+msgstr "*addTodoPicture* 関数では、*navigator.camera.getPicture* 関数を使用して、写真撮影を行います。この関数 ( getPicture ) は、基本 Cordova プラグイン提供のものです。カメラの起動・撮影に成功した場合、*addTodo* 関数を実行し、失敗の場合には、警告メッセージを表示します。また、撮影オプションとして、画像サイズの固定化および戻り値の型を指定しています。"
 
 #: ../doc/sampleapp/samples/todo.rst:75
 msgid ""
 "The function ``addTodo`` takes an argument called ``camera_url``. When the "
 "function ``navigator.camera.getPicture`` is called and the photo shoot is "
 "successful, a reference to the graphic file is stored in this argument."
-msgstr "``addTodo`` 関数は、 ``camera_url`` を引数として取ります。 ``navigator.camera.getPicture`` 関数を呼び出し、撮影が成功した場合、画像への参照先がこの引数に格納されています。"
+msgstr "``addTodo`` 関数は、 ``camera_url`` を引数として取ります。 ``navigator.camera.getPicture`` 関数を呼び出し、撮影が成功した場合、画像の参照先がこの引数に格納されています。"
 
 #: ../doc/sampleapp/samples/todo.rst:77
 msgid ""
@@ -2575,7 +2575,7 @@ msgstr "アプリの詳細情報 ( アプリ名、説明、Web サイト、コ�
 msgid ""
 "Go to :guilabel:`Settings` tab and tick :guilabel:`Allow this application to"
 " be used to Sign in with Twitter`. (See screenshot below)"
-msgstr ":guilabel:`Settings` タブに行き、 :guilabel:`Allow this application to be used to Sign in with Twitter` ( アプリから Twitter への接続許可 ) にチェックを入れます ( 下記のスクリーンショットを参照のこと )。"
+msgstr ":guilabel:`Settings` タブに行き、 :guilabel:`Allow this application to be used to Sign in with Twitter` ( アプリから Twitter への接続許可 ) にチェックを入れます ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/sampleapp/samples/twitter.rst:43
 msgid ""
@@ -2597,7 +2597,7 @@ msgstr "``css/onsen-css-components-default.css``"
 
 #: ../doc/sampleapp/samples/twitter.rst:60
 msgid "A stylesheet file for `Onsen UI <http://onsenui.io/>`_ components"
-msgstr "`Onsen UI <http://ja.onsenui.io/>`_ コンポーネント用のスタイルシート ファイル"
+msgstr "`Onsen UI <https://ja.onsen.io>`_ コンポーネント用のスタイルシート ファイル"
 
 #: ../doc/sampleapp/samples/twitter.rst:61
 msgid "``js/jsoauth.js``"
@@ -2620,14 +2620,14 @@ msgid ""
 "A JavaScript library that provides a whole mess of useful functional "
 "programming helpers without extending any built-in objects. `See more about "
 "this library <http://underscorejs.org/>`_"
-msgstr "役立つプログラミング機能を複数提供してくれる、JavaScript ライブラリー ( 拡張せずに、実装済みオブジェクトをそのまま使用できます )。このライブラリーの詳細は、 `こちらのサイト <http://underscorejs.org/>`_ をご確認ください。"
+msgstr "役立つプログラミング機能を複数提供してくれる、JavaScript ライブラリー ( 拡張せずに、組み込み/ビルトイン オブジェクトをそのまま使用できます )。このライブラリーの詳細は、 `こちらのサイト <http://underscorejs.org/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/twitter.rst:83
 msgid ""
 "The User Interface for this sample app is based on *Onsen UI Components*. "
 "For more information on *Onsen UI* tags and components, please refer to "
 "`Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
-msgstr "このサンプルのユーザー インターフェースは、*Onsen UI コンポーネント* で構築しています。*Onsen UI* のタグとコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
+msgstr "このサンプルのユーザー インターフェースは、*Onsen UI コンポーネント* で構築しています。*Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/twitter.rst:85
 msgid ""
