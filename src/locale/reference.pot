@@ -460,6 +460,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/utility-34.rst:11
 #: ../doc/reference/power_plugins/in-app_updater.rst:72
 #: ../doc/reference/power_plugins/in-app_updater.rst:94
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
 #: ../doc/reference/third_party_phonegap/datepicker.rst:30
 #: ../doc/reference/third_party_phonegap/share.rst:27
 msgid "Description"
@@ -1222,6 +1223,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/custom_config.rst:169
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -2853,6 +2855,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:185
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:100
 #: ../doc/reference/power_plugins/secure_storage.rst:41
+#: ../doc/reference/third_party_phonegap/custom_config.rst:19
 #: ../doc/reference/third_party_phonegap/datepicker.rst:24
 #: ../doc/reference/third_party_phonegap/share.rst:24
 msgid "Methods"
@@ -13382,6 +13385,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/custom_config.rst:171
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -13434,6 +13438,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/custom_config.rst:172
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -21613,6 +21618,7 @@ msgstr ""
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:30
 #: ../doc/reference/power_plugins/sqlcipher.rst:21
+#: ../doc/reference/third_party_phonegap/custom_config.rst:11
 msgid "Enable the Plugin in Monaca"
 msgstr ""
 
@@ -21881,7 +21887,7 @@ msgid "With Monaca Power Plugins, we deliver developers the ability to secure th
 msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:9
-msgid "Monaca power plugins are available to Enterprise users only."
+msgid "Monaca Power Plugins are available to Gold or Platinum plan users only."
 msgstr ""
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
@@ -22283,6 +22289,7 @@ msgid "BarcodeScanner Plugin"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/custom_config.rst:13
 #: ../doc/reference/third_party_phonegap/datepicker.rst:15
 #: ../doc/reference/third_party_phonegap/share.rst:16
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
@@ -22297,6 +22304,57 @@ msgstr ""
 msgid "BarcodeScanner Demo"
 msgstr ""
 
+#: ../doc/reference/third_party_phonegap/custom_config.rst:5
+msgid "Cordova Custom Config Plugin"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:8
+msgid "This Cordova/Phonegap plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova/Phonegap."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:15
+msgid "Click :guilabel:`Enable` button of the Custom Config to add it into your project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:22
+#: ../doc/reference/third_party_phonegap/custom_config.rst:37
+#: ../doc/reference/third_party_phonegap/datepicker.rst:27
+#: ../doc/reference/third_party_phonegap/datepicker.rst:42
+msgid "For Android"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
+#: ../doc/reference/third_party_phonegap/datepicker.rst:30
+#: ../doc/reference/third_party_phonegap/share.rst:27
+msgid "Function Name"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:28
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+#: ../doc/reference/third_party_phonegap/share.rst:30
+msgid "show(func)"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:28
+#: ../doc/reference/third_party_phonegap/datepicker.rst:33
+msgid "show a DatePicker control."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:34
+#: ../doc/reference/third_party_phonegap/datepicker.rst:39
+msgid "DatePicker Demo"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:73
+#: ../doc/reference/third_party_phonegap/datepicker.rst:78
+msgid "For iOS"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:75
+#: ../doc/reference/third_party_phonegap/datepicker.rst:80
+msgid "Please note that, this example only works with iPhone but not iPad."
+msgstr ""
+
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"
 msgstr ""
@@ -22307,37 +22365,6 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:17
 msgid "Click :guilabel:`Enable` button of the DatePicker to add it into your project."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:27
-#: ../doc/reference/third_party_phonegap/datepicker.rst:42
-msgid "For Android"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:30
-#: ../doc/reference/third_party_phonegap/share.rst:27
-msgid "Function Name"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:33
-#: ../doc/reference/third_party_phonegap/share.rst:30
-msgid "show(func)"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:33
-msgid "show a DatePicker control."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:39
-msgid "DatePicker Demo"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:78
-msgid "For iOS"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/datepicker.rst:80
-msgid "Please note that, this example only works with iPhone but not iPad."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/index.rst:5

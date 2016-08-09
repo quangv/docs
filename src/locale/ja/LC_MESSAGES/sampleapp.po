@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-05 02:42+0000\n"
+"PO-Revision-Date: 2016-08-08 02:55+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -503,7 +503,7 @@ msgstr ":download:`こちらから、このプロジェクトをダウンロー�
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 msgid "The Startup page (Home page)"
-msgstr "スタート画面のページ ( ホームページ )"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:36
 #: ../doc/sampleapp/samples/flickr.rst:33
@@ -1671,7 +1671,7 @@ msgstr ":download:`こちらから、このプロジェクトをダウンロー�
 
 #: ../doc/sampleapp/samples/memo_application.rst:33
 msgid "The Home screen"
-msgstr "ホーム画面のページ"
+msgstr "スタート/ホーム画面のページ"
 
 #: ../doc/sampleapp/samples/memo_application.rst:35
 msgid "``js/memo.js``"
@@ -1707,7 +1707,7 @@ msgstr "``index.html`` ファイル内の次の記述 ( HTML の <body> 内 ) �
 msgid ""
 "corresponds to this screenshot of the Top page (Home screen) which allows a "
 "user to add, view or delete memos:"
-msgstr "次のスクリーンショット ( ホーム画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
+msgstr "次のスクリーンショット ( スタート/ホーム画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:102
 msgid ""
@@ -1744,7 +1744,7 @@ msgid ""
 " and put them into a list view. If there is no previously created memo (when"
 " using the application for the first time), ``\"No memo found\"`` will be "
 "displayed (see below screenshot)."
-msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( ホーム画面ページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
+msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( ホーム画面のページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:147
 #: ../doc/sampleapp/samples/memo_application.rst:200
@@ -2015,7 +2015,7 @@ msgstr ":download:`こちらから、このプロジェクトをダウンロー�
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
 msgid "Home screen  (Startup page)"
-msgstr "スタート画面のページ"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:34
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:34
@@ -2198,7 +2198,7 @@ msgstr ":download:`こちらから、このプロジェクトをダウンロー�
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
 msgid "Startup page (Home page)"
-msgstr "スタート画面のページ ( ホームページ )"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:33
 msgid "``navigator.html``"
@@ -2230,7 +2230,7 @@ msgid ""
 "component which consists of 3 tabs: Home (:file:`navigator1.html`), Camera "
 "(:file:`page2.html`) and Settings (:file:`page3.html`) tabs. (See the "
 "screenshot below)"
-msgstr ":file:`index.html` は、スタート画面のページです。ここでは、 ``<ons-tabbar>`` コンポーネントを使用して、3 つのタブを指定します。タブは、Home ( :file:`navigator1.html` )、Camera ( :file:`page2.html` )、Settings ( :file:`page3.html` ) です ( 下のスクリーンショット参照のこと )。"
+msgstr ":file:`index.html` は、スタート/ホーム画面のページです。ここでは、 ``<ons-tabbar>`` コンポーネントを使用して、3 つのタブを指定します。タブは、Home ( :file:`navigator1.html` )、Camera ( :file:`page2.html` )、Settings ( :file:`page3.html` ) です ( 下のスクリーンショット参照のこと )。"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:62
 msgid "navigator.html"
@@ -2370,13 +2370,13 @@ msgstr "RSS フィードを取得する関数 （ ``Feed.load()`` ） が呼ば�
 msgid ""
 "If the function is executed successfully, the retrieved RSS feeds are listed"
 " in the Home screen as shown in the screenshot below."
-msgstr "この関数の実行に成功すると、取得した RSS フィードが、スタート画面のページ上に、一覧状に表示されます。下のスクリーンショットをご確認ください。"
+msgstr "この関数の実行に成功すると、取得した RSS フィードが、スタート/ホーム画面のページ上に、一覧状に表示されます。下のスクリーンショットをご確認ください。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:137
 msgid ""
 "The following JavaScript code corresponds to the display arrangment of RSS "
 "feeds in the Home screen (:file:`index.html`):"
-msgstr "次の JavaScript で、スタート画面 ( :file:`index.html` ) の RSS フィードの配置と表示を行います。"
+msgstr "次の JavaScript で、スタート/ホーム画面 ( :file:`index.html` ) の RSS フィードの配置と表示を行います。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:154
 msgid ""
@@ -2799,7 +2799,7 @@ msgid ""
 "``getPicture()`` function has 2 callback functions: ``onSuccess`` and "
 "``onFail``. Also, it can be used to pass an option object to specify picture"
 " quality and return type."
-msgstr "カメラ操作プラグインを使用する上で、 ``navigator.camera.getPicture()`` 関数が、最も使用頻度が多い関数になるかと思います。 ``getPicture()`` 関数では、 ``onSuccess`` と ``onFail`` の 2 つのコールバック関数を使用します。また、``getPicture()`` 関数に、オプションのオブジェクトを渡せば、戻り値の形式と写真の画質を指定できます。"
+msgstr "カメラ操作プラグインを使用する上で、 ``navigator.camera.getPicture()`` 関数が、最も使用頻度が多い関数になるかと思います。 ``getPicture()`` 関数では、 ``onSuccess`` と ``onFail`` の 2 つのコールバック関数が使用されています。また、``getPicture()`` 関数に、オプションのオブジェクトを渡せば、戻り値の形式と写真の画質を指定できます。"
 
 #: ../doc/sampleapp/tips/camera.rst:54
 msgid ""
@@ -2810,7 +2810,7 @@ msgid ""
 "return *jpeg/png* encoded string by default. The example above returns a "
 "picture with ``quality`` as ``\"50\"``, ``destinationType`` as "
 "``\"Camera.DestinationType.DATA_URL\"`` in a *Base64* format."
-msgstr "カメラを使用した写真のキャプチャー、および、その保存処理が終わった後、 ``onSuccess`` コールバック ( 第一引数 ) を呼び出します。次に、このコールバックは、写真を参照するためのリファレンスを受け取ります。カメラを使用中にエラーが発生した場合、 ``onFail`` コールバック ( 第二引数 ) を呼び出します。``オプション`` のオブジェクトは、デフォルトでは、 *jpeg/png* 形式にエンコードした文字列を返します。上記の例では、 quality として 「 50 」、 ``destinationType`` として 「 ``\"Camera.DestinationType.DATA_URL\"`` 」、 *Base64* 形式の写真を返します。"
+msgstr "カメラを使用した写真のキャプチャー、および、その保存処理が終わった後、 ``onSuccess`` コールバック ( 第一引数 ) を呼び出します。次に、このコールバックは、写真の参照先を受け取ります。カメラを使用中にエラーが発生した場合、 ``onFail`` コールバック ( 第二引数 ) を呼び出します。``オプション`` のオブジェクトは、デフォルトでは、 *jpeg/png* 形式にエンコードされた文字列を返します。上記の例では、 quality として 「 50 」、 ``destinationType`` として 「 ``\"Camera.DestinationType.DATA_URL\"`` 」、 *Base64* 形式の写真を返します。"
 
 #: ../doc/sampleapp/tips/camera.rst:58
 msgid "Take a Picture (FILE_URI Format)"
@@ -2830,7 +2830,7 @@ msgid ""
 "navigator.camera.PictureSourceType.SAVEDPHOTOALBUM\"`` which defines the "
 "picture source obtained from the device's album. This way, you can access "
 "the device's album."
-msgstr "``getPicture()`` 関数の第三引数には、「 ``sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM`` 」 を使用して、写真の取得方法を指定しています。この記法で、端末のアルバムにアクセスできます。"
+msgstr "``getPicture()`` 関数の第三引数には、「 ``sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM`` 」 を使用して、写真の取得方法を指定しています。ここでは、端末のアルバムにアクセスして、画像を取得します。"
 
 #: ../doc/sampleapp/tips/camera.rst:85
 msgid "Camera API Options"
@@ -2842,7 +2842,7 @@ msgid ""
 "API behavior by overriding the default values listed here. Please note that "
 "this is not fully documented. Please check :ref:`Camera <phone_gap_camera>` "
 "for more details."
-msgstr "``getPicture()`` 関数のオプションを次に記します。ここに示した値を変更することで、カメラ操作プラグインの挙動を操作できます。使用方法の詳細に関しては、ここでの説明を割愛しておりますので、別途、:ref:`カメラ操作プラグイン <phone_gap_camera>` をご確認ください。"
+msgstr "``getPicture()`` 関数のオプションを次に記します。ここに示した値を変更することで、カメラ操作プラグインの挙動を変更できます。使用方法の詳細に関しては、ここでの説明を割愛しておりますので、別途、:ref:`カメラ操作プラグイン <phone_gap_camera>` をご確認ください。"
 
 #: ../doc/sampleapp/tips/camera.rst:92
 msgid "Option"
@@ -2914,7 +2914,7 @@ msgstr "写真ライブラリーから画像を選択"
 
 #: ../doc/sampleapp/tips/camera.rst:103
 msgid "Take a picture from the device's camera."
-msgstr "端末内臓のカメラでの写真撮影"
+msgstr "端末のカメラでの写真撮影"
 
 #: ../doc/sampleapp/tips/camera.rst:104
 msgid "Select pictures from the album."
@@ -3005,7 +3005,7 @@ msgid ""
 "be called. The passed parameter will contain numeric value from 0 to 359 "
 "indicating device heading. Above example displays heading directly to the "
 "page by using innerHTML."
-msgstr "方位の取得に成功した場合には、onSuccess コールバック関数を呼び出します。端末の方位を示す 0-359 までの数値が、コールバック関数に渡されます。 上記の例では、innerHTML を使用して、直接、方位をページに表示します。"
+msgstr "方位の取得に成功した場合には、onSuccess コールバック関数を呼び出します。そのとき、端末の方位を示す 0-359 までの数値が、コールバック関数に渡されます。 上記の例では、innerHTML を使用して、直接、方位をページに表示します。"
 
 #: ../doc/sampleapp/tips/compass.rst:20
 msgid ""
@@ -3034,7 +3034,7 @@ msgstr "WebView 上に表示できるものであれば、広告ネットワー�
 msgid ""
 "Monacaアプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様提供の `nend "
 "<http://nend.net/>`_ とMonacaアプリへの広告掲載の方法を紹介します。なお、以下の手順は2013年5月現在のものです。"
-msgstr "Monaca アプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様 提供の `nend <http://nend.net/>`_ をご紹介します。併せて、掲載方法も解説します ( 掲載された手順は、2013年5月現在 )。"
+msgstr "Monaca アプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様 提供の `nend <http://nend.net/>`_ をご紹介します。併せて、掲載方法も解説します ( 手順は、2013年5月現在のものです )。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:16
 msgid "nendへの掲載アプリ審査登録"
@@ -3052,7 +3052,7 @@ msgstr "nend の 「 広告コード 」 の取得"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:27
 msgid "サイト/アプリの審査後、管理画面から「広告枠の管理」→「広告枠」で登録したサイト/アプリを表示します。"
-msgstr "サイト / アプリの審査後、管理画面から、[ 広告枠の管理 ] → [ 広告枠 ] で登録したサイト/アプリを表示します。"
+msgstr "サイト/アプリの審査後、管理画面から、[ 広告枠の管理 ] → [ 広告枠 ] で登録したサイト/アプリを表示します。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:34
 msgid "サイト/アプリ名の下にある「広告コード」をクリックすると広告掲載用のコードが表示されますので、そのコードをコピーしておきます。"
@@ -3085,7 +3085,7 @@ msgstr "nend 広告の表示方法 ( Onsen UI アプリの場合 )"
 msgid ""
 "Onsen UIアプリではSPA (シングルページアプリケーション) "
 "というUI構造が採用されているため、通常のようにbodyタグ直下に広告を表示しようとしてもできないことがあります。これを回避するためにはDOM操作を行い、nendの広告をSPAのページ上に表示するコードを記述する必要があります。"
-msgstr "Onsen UI アプリでは、SPA ( シングル ページ アプリケーション ) を原則として使用しているため、Onsen UI 不使用時のアプリと同じように、body タグ直下に、広告を置く場合、表示されないことがあります。回避策としては、DOM の操作を行い、nend の広告自体を、SPA のページ上に表示するように、コードを記述します。"
+msgstr "Onsen UI アプリでは、SPA ( シングル ページ アプリケーション ) を原則として使用しているため、通常のアプリと同じように、body タグ直下に広告を置く場合、表示されないことがあります。回避策としては、DOM の操作を行い、nend の広告自体を、SPA のページ上に表示するように、コードを記述します。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:96
 msgid "具体的には下記のように行います。"
@@ -3123,7 +3123,7 @@ msgid ""
 "When the call is successful, *onSuccess* callback (1st argument) will be "
 "called. An object containing various location sensor information (position "
 "object in this case) will be returned."
-msgstr "このメソッドは、3 つの引数を取ります。*onSuccess* 、 *onError* 、option オブジェクトです。処理が成功すると、 *onSuccess* コールバック ( 第一引数 ) を呼び出します。複数の位置センサー情報を格納したオブジェクトを返します ( ここでは、positin オブジェクト )。"
+msgstr "このメソッドは、3 つの引数を取ります。*onSuccess* 、 *onError* 、option オブジェクトです。処理が成功すると、 *onSuccess* コールバック ( 第一引数 ) を呼び出します。複数の位置センサー情報を格納したオブジェクトを返します ( ここでは、position オブジェクト )。"
 
 #: ../doc/sampleapp/tips/gps.rst:17
 msgid ""
@@ -3160,7 +3160,7 @@ msgstr "Cordova のメディア操作プラグイン ( Media プラグイン ) �
 msgid ""
 "This is just a sample code and may not work correctly with some OS versions "
 "or devices."
-msgstr "端末、OS ごとに挙動が異なる場合があります。また、動作しない場合もあります。"
+msgstr "端末、OS ごとに挙動が異なる場合があります。"
 
 #: ../doc/sampleapp/tips/media.rst:16
 msgid "Playing Sound from External Source"
@@ -3191,7 +3191,7 @@ msgstr "Monaca プロジェクトの *www* ディレクトリー下に置いた�
 
 #: ../doc/sampleapp/tips/media.rst:52
 msgid "Using <audio> Tag and Locating Local Sound File"
-msgstr "<audio> タグを使用した、音声ファイルへの参照 ( ローカルに保存されたファイル )"
+msgstr "<audio> タグを使用した、音声ファイルへのアクセス ( ローカルに保存されたファイルを参照 )"
 
 #: ../doc/sampleapp/tips/media.rst:54
 msgid ""
@@ -3201,7 +3201,7 @@ msgstr "<audio> タグを使用した、音声ファイルの再生は、ほと�
 
 #: ../doc/sampleapp/tips/media.rst:75
 msgid "Using Core Cordova Plugins Media API to Play Sound"
-msgstr "Cordova のメディア操作プラグイン使用した、音の再生"
+msgstr "Cordova のメディア操作プラグインを使用した、音の再生"
 
 #: ../doc/sampleapp/tips/media.rst:78
 msgid ""
@@ -3448,7 +3448,7 @@ msgstr "rows"
 msgid ""
 "Returns *ResultSetRowList* object. It represents the results of the sql "
 "execution."
-msgstr "*ResultSetRowList* オブジェクトを返します。SQL 実行時の処理結果を示します。"
+msgstr "*ResultSetRowList* オブジェクトを返します。SQL 実行時の処理結果です。"
 
 #: ../doc/sampleapp/tips/storage.rst:91
 msgid "Executing SQL (SQLite)"
