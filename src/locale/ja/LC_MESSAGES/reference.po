@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
 # Antonio Trueba, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
@@ -16,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-09 11:28+0000\n"
+"PO-Revision-Date: 2016-08-10 03:51+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -25444,7 +25445,7 @@ msgstr "Monaca では、セキュリティー系のプラグインを含む、�
 #: ../doc/reference/power_plugins/index.rst:9
 msgid ""
 "Monaca Power Plugins are available to Gold or Platinum plan users only."
-msgstr ""
+msgstr "こちらのプラグインのご利用には、 Gold または Platinum プランが必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
@@ -26014,7 +26015,7 @@ msgstr "BarcodeScanner プラグインのデモ"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:5
 msgid "Cordova Custom Config Plugin"
-msgstr ""
+msgstr "Custom Config プラグイン"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:8
 msgid ""
@@ -26170,7 +26171,7 @@ msgstr ""
 msgid ""
 "Sometimes, you may want to remove some default settings in "
 "``AndroidManifest.xml``. You can do delete them by using the "
-"``delete=\"true\"``attribute of the ``<preference>`` element. For example, "
+"``delete=\"true\"`` attribute of the ``<preference>`` element. For example, "
 "if you add the following line in ``config.xml``, it will delete the existing"
 " node ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" "
 "/>`` within ``AndroidManifest.xml``:"
@@ -26389,7 +26390,7 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:299
 msgid ".xcconfig files"
-msgstr ""
+msgstr ".xcconfig ファイル"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:301
 msgid ""
@@ -26574,14 +26575,14 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:485
 msgid "Log Output"
-msgstr ""
+msgstr "ログの出力"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:487
 msgid ""
 "If you run the prepare operation with the ``--verbose`` command-line option,"
 " the plugin will output detail about the operations it's performing. Console"
 " messages are prefixed with ``cordova-custom-config``. For example:"
-msgstr ""
+msgstr "``--verbose`` オプションを指定して、prepare コマンドを実行した場合、このプラグインは、処理の詳細をログに出力します。Console 上に表示されるメッセ―ジには、``cordova-custom-config`` が付きます。コマンドの例を、次に記します。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"

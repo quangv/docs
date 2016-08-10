@@ -82,7 +82,7 @@ then the following line will be added to ``AndroidManifest.xml``:
 
     <manifest android:hardwareAccelerated="false">
 
-Sometimes, you may want to remove some default settings in ``AndroidManifest.xml``. You can do delete them by using the ``delete="true"``attribute of the ``<preference>`` element. For example, if you add the following line in ``config.xml``, it will delete the existing node ``<uses-permission android:name="android.permission.WRITE_CONTACTS" />`` within ``AndroidManifest.xml``:
+Sometimes, you may want to remove some default settings in ``AndroidManifest.xml``. You can do delete them by using the ``delete="true"`` attribute of the ``<preference>`` element. For example, if you add the following line in ``config.xml``, it will delete the existing node ``<uses-permission android:name="android.permission.WRITE_CONTACTS" />`` within ``AndroidManifest.xml``:
 
 .. code-block:: xml
 
