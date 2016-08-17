@@ -1226,7 +1226,11 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:492
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:490
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -1351,12 +1355,21 @@ msgstr ""
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr ""
 
+<<<<<<< HEAD
 #: ../doc/reference/config/ios_configuration.rst:109
 #: ../doc/reference/third_party_phonegap/custom_config.rst:164
 #: ../doc/reference/third_party_phonegap/custom_config.rst:185
 #: ../doc/reference/third_party_phonegap/custom_config.rst:290
 #: ../doc/reference/third_party_phonegap/custom_config.rst:367
 #: ../doc/reference/third_party_phonegap/custom_config.rst:387
+=======
+#: ../doc/reference/config/ios_configuration.rst:106
+#: ../doc/reference/third_party_phonegap/custom_config.rst:162
+#: ../doc/reference/third_party_phonegap/custom_config.rst:183
+#: ../doc/reference/third_party_phonegap/custom_config.rst:288
+#: ../doc/reference/third_party_phonegap/custom_config.rst:365
+#: ../doc/reference/third_party_phonegap/custom_config.rst:385
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "For example:"
 msgstr ""
 
@@ -2510,7 +2523,11 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
 #: ../doc/reference/power_plugins/in-app_updater.rst:135
 #: ../doc/reference/power_plugins/secure_storage.rst:17
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:69
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:67
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Android"
 msgstr ""
 
@@ -2808,7 +2825,11 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
 #: ../doc/reference/power_plugins/in-app_updater.rst:141
 #: ../doc/reference/power_plugins/secure_storage.rst:16
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:244
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:242
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "iOS"
 msgstr ""
 
@@ -12988,7 +13009,11 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:72
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:64
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:51
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:36
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:34
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Preferences"
 msgstr ""
 
@@ -13399,7 +13424,11 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:494
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:492
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -13452,7 +13481,11 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:495
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:493
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -21676,7 +21709,11 @@ msgstr ""
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
 #: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:23
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:21
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Usage"
 msgstr ""
 
@@ -22323,14 +22360,36 @@ msgstr ""
 msgid "Cordova Custom Config Plugin"
 msgstr ""
 
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:7
 msgid "For Cordova 5.2 or lower, basic behaviour of Android or iOS applications can be configured by editing :file:`AndroidManifest.xml` or ``MonacaApp-Info.plist`` file respectively. However, for Cordova 6.2 or higher, both :file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed from Monaca framework."
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:8
+msgid "This Cordova/Phonegap plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova/Phonegap."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:14
+msgid "Click :guilabel:`Enable` button of ``Custom Config`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:23
+msgid "There are no run-time source files included in this plugin. It includes hook scripts which are used to apply preferences dictated by custom keys in the ``config.xml`` file of the project to the relevant platform config files. Therefore, in order to use this plugin, you need to include the relevant keys in your ``config.xml`` and the scripts will take care of the rest when you build your project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
+msgid "By default, any changes made by this plugin to platform config files are irreversible. However, if you want the changes made to be reversible, you can enable auto-backup/restore functionality by adding the following preference inside the top-level ``<widget>`` element of your ``config.xml``:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:36
+msgid "Preferences are set by defining a ``<preference>`` element in the ``config.xml`` file. For example:"
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:9
 msgid "Therefore, in order to config iOS/Android application settings, you will need to use Cordova Custom Config plugin. This Cordova plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova."
 msgstr ""
 
+<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:16
 msgid "Click :guilabel:`Enable` button of ``Custom Config`` to add it into your project."
 msgstr ""
@@ -22689,6 +22748,210 @@ msgid "``cordova-custom-config-autorestore``: (set to ``false`` by default) if s
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:486
+=======
+#: ../doc/reference/third_party_phonegap/custom_config.rst:158
+msgid "to insert a block under the root ``<manifest>`` element, use ``parent=\"/*\"``"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:159
+msgid "to insert a block under a descendant of ``<manifest>``, use an Xpath prefixed with ``./``. For example, ``parent=\"./application/activity\"`` will insert the block under ``/manifest/application/activity``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:170
+msgid "will result in ``AndroidManifest.xml`` with:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:181
+msgid "If the specified parent element contains an existing child element of the same name as that defined in the XML subtree, the existing element will be overwritten."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:191
+msgid "will replace the existing ``<application>`` element. In this case, it would be better to use a preference:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:198
+msgid "Android Example"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:200
+msgid "Below is an example of a ``config.xml`` file for Android configuration:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:244
+msgid "The plugin currently supports custom configuration of the project plist (``*-Info.plist``) using config blocks, and project settings (``project.pbxproj``) using preference elements. All iOS-specific config should be placed inside the ``<platform name=\"ios\">`` in ``config.xml`` file."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:247
+msgid "iOS Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:249
+msgid "``<preference>`` elements in ``config.xml`` are used to set preferences in the ``*-Info.plist``. Preferences should be defined in the format: ``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" />``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:257
+msgid "Build Configuration Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:259
+msgid "Currently, ``XCBuildConfiguration`` is the only supported block type in the ``project.pbxproj``. However, there is no constraint on the list of keys for which values may be set."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:261
+msgid "If an entry already exists in an ``XCBuildConfiguration`` block for the specified key, the existing value will be overwritten with the specified value. If no entry exists in any ``XCBuildConfiguration`` block for the specified key, a new key entry will be created in each ``XCBuildConfiguration`` block with the specified value."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:263
+msgid "By default, values will be applied to both \"Release\" and \"Debug\" ``XCBuildConfiguration`` blocks. However, the block type can be specified by adding a ``buildType`` attribute to the ``<preference>`` element in the ``config.xml``. The value can be either ``debug`` or ``release``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:269
+msgid "By default, both the key (preference name) and value will be quote-escaped when inserted into the ``XCBuildConfiguration`` block. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:275
+#: ../doc/reference/third_party_phonegap/custom_config.rst:294
+msgid "will appear in ``project.pbxproj`` as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:281
+msgid "The default quoting can be override by setting the ``quote`` attribute on the ``<preference>`` element. The valid values are:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:283
+msgid "\"none\": don't quote key or value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:284
+msgid "\"key\": quote key but not value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:285
+msgid "\"value\": quote value but not key"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:286
+msgid "\"both\": quote both key and value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:301
+msgid ".xcconfig files"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:303
+msgid "Cordova uses ``.xcconfig`` files in ``/platforms/ios/cordova/`` to override Xcode project settings in ``project.pbxproj`` with build-type specific values. ``build.xcconfig`` is overriden by settings in ``build-debug.xcconfig`` and ``build-release.xcconfig`` for the corresponding build type."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:305
+msgid "When applying a custom preference, the plugin will look for an existing entry in the ``.xcconfig`` file that corresponds to the buildType attribute."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:307
+msgid "If buildType attribute is ``\"debug\"`` or ``\"release\"``, the plugin will look in ``build-debug.xcconfig`` or ``build-release.xcconfig`` respectively."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:308
+msgid "If buildType is not specified or set to ``\"none\"``, the plugin will look in ``build.xcconfig``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:310
+msgid "By default, if an entry is found in the ``.xcconfig`` file which corresponds to the custom preference name in the ``config.xml``, the value in the ``.xcconfig`` file will be overwritten with the value in the ``config.xml``. To prevent the plugin from overwriting the value of a specific preference in the corresponding ``.xcconfig`` file, set the preference attribute ``xcconfigEnforce=\"false\"``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:316
+msgid "If a preference value doesn't already exist in the corresponding ``.xcconfig`` file, you can force its addition by setting the preference attribute ``xcconfigEnforce=\"true\"``. This will append it to the corresponding ``.xcconfig`` file. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:322
+msgid "A backup copy of any modified ``.xcconfig`` file will be made in ``plugins/cordova-custom-config/backup/ios``. By default, these backups will be restored prior to the next prepare operation. Auto-restore of the backups can be disabled by setting ``<preference name=\"cordova-custom-config-autorestore\" value=\"false\" />`` in the ``config.xml``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:324
+msgid "Preference names and values will not be quote-escaped in ``.xcconfig`` files, so the ``quote`` attribute has no effect on them."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:328
+msgid "CODE_SIGN_IDENTITY preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:330
+msgid "Cordova places its default CODE_SIGN_IDENTITY for Release builds in build-release.xcconfig but for Debug builds in ``build.xcconfig``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:332
+msgid "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with ``buildType=\"release\"``, the plugin will overwrite the defaults in ``build-release.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:338
+msgid "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with ``buildType=\"debug\"``, the plugin will overwrite the defaults in ``build.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:344
+msgid "You can prevent the CODE_SIGN_IDENTITY preferences being overwritten by setting ``xcconfigEnforce=\"false\"``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:350
+msgid "You can force the plugin to add a new entry for CODE_SIGN_IDENTITY preference with ``buildType=\"debug\"`` to ``build-debug.xcconfig``, rather than overwriting the defaults in ``build.xcconfig`` by setting ``xcconfigEnforce=\"true\"``. This will still override the defaults in ``build.xcconfig``, because ``build-debug.xcconfig`` overrides ``build.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:357
+msgid "iOS Config Blocks"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:359
+msgid "``<config-file>`` elements are currently only used to set preferences in the project ``.plist`` file (``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``). This element has 3 attributes such as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:361
+msgid "``target``: should be set to ``*-Info.plist``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:362
+msgid "``platform``: should be set to ``ios``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:363
+msgid "``parent``: is used to determine which key name to use for the custom preference."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:372
+msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:383
+msgid "The value of the preference is set by the child elements of the ``<config-file>`` element. These will appear directly below the preference ``<key>`` in the ``.plist`` file."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:395
+msgid "will appear in the ``plist`` file as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:407
+msgid "iOS Example"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:409
+msgid "Below is an example of a ``config.xml`` file for iOS configuration:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:473
+msgid "Plugin Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:475
+msgid "The plugin supports some preferences which are used to customise the behaviour of the plugin. Each preference name is prefixed with ``cordova-custom-config`` to avoid name clashes. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:481
+msgid "The following preferences are currently supported:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:483
+msgid "``cordova-custom-config-autorestore``: (set to ``false`` by default) if set to ``true``, the plugin will restore a backup of platform configuration files taken at plugin installation time."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:484
+>>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set to ``true`` and an error occurs while updating config for a given platform during a ``prepare`` operation, the error will cause the ``prepare`` operation to fail. If false, the plugin will log the error but will proceed and attempt to update any other platforms, before allowing the prepare operation to continue."
 msgstr ""
 
