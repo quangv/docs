@@ -11,11 +11,10 @@ Enable the Plugin in Monaca
 ================================
 
 1. From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`.
-
 2. Click :guilabel:`Enable` button of ``Custom Config`` to add it into your project.
-
-    .. image:: images/custom_config/1.png  
-        :width: 700px
+  
+  .. image:: images/custom_config/1.png  
+         :width: 700px
 
 
 Usage
