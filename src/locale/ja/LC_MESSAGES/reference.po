@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-10 03:51+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-17 04:24+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1368,7 +1368,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
-#: ../doc/reference/third_party_phonegap/custom_config.rst:496
+#: ../doc/reference/third_party_phonegap/custom_config.rst:488
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -15424,7 +15424,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
-#: ../doc/reference/third_party_phonegap/custom_config.rst:498
+#: ../doc/reference/third_party_phonegap/custom_config.rst:490
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -15477,7 +15477,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
-#: ../doc/reference/third_party_phonegap/custom_config.rst:499
+#: ../doc/reference/third_party_phonegap/custom_config.rst:491
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -26023,13 +26023,13 @@ msgid ""
 "update platform configuration files based on custom preferences and config-"
 "file data defined in ``config.xml`` file that are not supported out-of-the-"
 "box by Cordova/Phonegap."
-msgstr ""
+msgstr "こちらの Cordova/Phonegap プラグイン ( iOS または Android 向け ) を使用すると、フック用のスクリプトを経由して、設定ファイルの情報を上書きすることができます。たとえば、スクリプトの内容に応じて、``config.xml`` ファイル内に、preference ( すべて、または、特定のプラットフォーム向け )、config-file ブロックなどを追加できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:15
 msgid ""
 "Click :guilabel:`Enable` button of the Custom Config to add it into your "
 "project."
-msgstr ""
+msgstr "Custom Config の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:21
 msgid ""
@@ -26159,8 +26159,8 @@ msgstr ""
 #: ../doc/reference/third_party_phonegap/custom_config.rst:73
 msgid ""
 "``<preference>`` elements in ``config.xml`` are used to set attributes on "
-"existing elements in the ``AndroidManifest.xml``. For example, if you add "
-"the following element to the ``config.xml``:"
+"elements in the ``AndroidManifest.xml``. For example, if you add the "
+"following element to the ``config.xml``:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:79
@@ -26390,7 +26390,7 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:299
 msgid ".xcconfig files"
-msgstr ".xcconfig ファイル"
+msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:301
 msgid ""
@@ -26572,17 +26572,6 @@ msgid ""
 "and attempt to update any other platforms, before allowing the prepare "
 "operation to continue."
 msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:485
-msgid "Log Output"
-msgstr "ログの出力"
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:487
-msgid ""
-"If you run the prepare operation with the ``--verbose`` command-line option,"
-" the plugin will output detail about the operations it's performing. Console"
-" messages are prefixed with ``cordova-custom-config``. For example:"
-msgstr "``--verbose`` オプションを指定して、prepare コマンドを実行した場合、このプラグインは、処理の詳細をログに出力します。Console 上に表示されるメッセ―ジには、``cordova-custom-config`` が付きます。コマンドの例を、次に記します。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"
