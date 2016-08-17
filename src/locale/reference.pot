@@ -1222,7 +1222,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
-#: ../doc/reference/third_party_phonegap/custom_config.rst:496
+#: ../doc/reference/third_party_phonegap/custom_config.rst:488
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -13391,7 +13391,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
-#: ../doc/reference/third_party_phonegap/custom_config.rst:498
+#: ../doc/reference/third_party_phonegap/custom_config.rst:490
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -13444,7 +13444,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
-#: ../doc/reference/third_party_phonegap/custom_config.rst:499
+#: ../doc/reference/third_party_phonegap/custom_config.rst:491
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -22404,7 +22404,7 @@ msgid "Android Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:73
-msgid "``<preference>`` elements in ``config.xml`` are used to set attributes on existing elements in the ``AndroidManifest.xml``. For example, if you add the following element to the ``config.xml``:"
+msgid "``<preference>`` elements in ``config.xml`` are used to set attributes on elements in the ``AndroidManifest.xml``. For example, if you add the following element to the ``config.xml``:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:79
@@ -22682,14 +22682,6 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:482
 msgid "``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set to ``true`` and an error occurs while updating config for a given platform during a ``prepare`` operation, the error will cause the ``prepare`` operation to fail. If false, the plugin will log the error but will proceed and attempt to update any other platforms, before allowing the prepare operation to continue."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:485
-msgid "Log Output"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:487
-msgid "If you run the prepare operation with the ``--verbose`` command-line option, the plugin will output detail about the operations it's performing. Console messages are prefixed with ``cordova-custom-config``. For example:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
