@@ -12,7 +12,10 @@ Enable the Plugin in Monaca
 
 1. From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`.
 
-2. Click :guilabel:`Enable` button of the Custom Config to add it into your project.
+2. Click :guilabel:`Enable` button of ``Custom Config`` to add it into your project.
+
+    .. image:: images/custom_config/1.png  
+        :width: 700px
 
 
 Usage
@@ -287,7 +290,7 @@ For example:
 
 .. code-block:: xml
 
-<preference name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="7.0" buildType="release" quote="none" />
+    <preference name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="7.0" buildType="release" quote="none" />
 
 will appear in ``project.pbxproj`` as: 
 
