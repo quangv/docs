@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-09 02:59+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-08-17 09:18+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -604,7 +604,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:106
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:139
 #: ../doc/manual/debugger/installation/debugger_ios.rst:170
-#: ../doc/manual/dependencies/file_dir.rst:90
+#: ../doc/manual/dependencies/file_dir.rst:115
 #: ../doc/manual/deploy/amazon_store.rst:140
 #: ../doc/manual/deploy/appstore/app_submission.rst:74
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:211
@@ -4680,197 +4680,283 @@ msgstr "デバッガーにログインして、ユーザー Cordova プラグイ
 msgid "File and Folder Structure"
 msgstr "ファイル ・ フォルダー構成"
 
-#: ../doc/manual/dependencies/file_dir.rst:10
+#: ../doc/manual/dependencies/file_dir.rst:7
 msgid ""
 "The Monaca application is organized with the following folder and file "
 "configurations:"
 msgstr "Monaca アプリのフォルダー・ファイル構成は、次のようになります。"
 
-#: ../doc/manual/dependencies/file_dir.rst:13
+#: ../doc/manual/dependencies/file_dir.rst:9
+msgid "*For Cordova 5.2 or lower*"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:12
 msgid "``android/``"
-msgstr "``android/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:12
+msgid "Storage folder for Android application settings"
+msgstr ""
 
 #: ../doc/manual/dependencies/file_dir.rst:13
-msgid "Storage folder for Android application settings"
-msgstr "Android アプリ設定の格納フォルダー"
-
-#: ../doc/manual/dependencies/file_dir.rst:14
+#: ../doc/manual/dependencies/file_dir.rst:22
 msgid "``chrome/``"
-msgstr "``chrome/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:13
+#: ../doc/manual/dependencies/file_dir.rst:22
+msgid "Storage folder for Chrome application settings"
+msgstr ""
 
 #: ../doc/manual/dependencies/file_dir.rst:14
-msgid "Storage folder for Chrome application settings"
-msgstr "Chrome アプリ設定の格納フォルダー"
-
-#: ../doc/manual/dependencies/file_dir.rst:15
 msgid "``ios/``"
-msgstr "``ios/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:14
+msgid "Storage folder for iOS application settings"
+msgstr ""
 
 #: ../doc/manual/dependencies/file_dir.rst:15
-msgid "Storage folder for iOS application settings"
-msgstr "iOS アプリ設定の格納フォルダー"
-
-#: ../doc/manual/dependencies/file_dir.rst:16
+#: ../doc/manual/dependencies/file_dir.rst:25
 msgid "``www/``"
-msgstr "``www/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:15
+#: ../doc/manual/dependencies/file_dir.rst:25
+msgid "Storage folder for the main body of the application"
+msgstr ""
 
 #: ../doc/manual/dependencies/file_dir.rst:16
-msgid "Storage folder for the main body of the application"
-msgstr "アプリ本体の格納フォルダー"
+#: ../doc/manual/dependencies/file_dir.rst:26
+msgid "``config.xml``"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:20
+#: ../doc/manual/dependencies/file_dir.rst:16
+#: ../doc/manual/dependencies/file_dir.rst:26
+msgid "Cordova configuration file"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:19
+msgid "*For Cordova 6.2 or higher*"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:23
+msgid "``plugins/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:23
+msgid "Storage folder for additional plugins"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:24
+msgid "``res/``"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:24
+msgid "Resources folder for Android, iOS and Winrt"
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:32
+msgid "android Folder"
+msgstr "android フォルダー"
+
+#: ../doc/manual/dependencies/file_dir.rst:34
+msgid ""
+"Android application settings files are stored inside the ``android`` folder."
+msgstr "Android アプリの設定ファイルを、 ``android`` フォルダーに保存します。"
+
+#: ../doc/manual/dependencies/file_dir.rst:37
+msgid "``AndroidManifest.xml``"
+msgstr "``AndroidManifest.xml``"
+
+#: ../doc/manual/dependencies/file_dir.rst:37
+msgid "Manifest file used when running Android applications"
+msgstr "Android アプリの実行時に使用する Manifest ファイル"
+
+#: ../doc/manual/dependencies/file_dir.rst:40
+msgid ""
+"For more information about how to use this file, please see "
+":doc:`../../reference/config/android_configuration`."
+msgstr "Androidの設定ファイルについては、 :doc:`../../reference/config/android_configuration` をご確認ください。"
+
+#: ../doc/manual/dependencies/file_dir.rst:42
+msgid ""
+"For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from "
+"Monaca framework. Therefore, in order to config Android application "
+"settings, use :ref:`custom_config_plugin`."
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:45
+msgid "chrome Folder"
+msgstr "chrome フォルダー"
+
+#: ../doc/manual/dependencies/file_dir.rst:47
+msgid ""
+"Chrome application settings files are stored inside the ``chrome`` folder."
+msgstr "Chrome アプリの設定ファイルを、 ``chrome`` フォルダーに保存します。"
+
+#: ../doc/manual/dependencies/file_dir.rst:50
+msgid "``background.js``"
+msgstr "``background.js``"
+
+#: ../doc/manual/dependencies/file_dir.rst:50
+msgid "A JavasSript file used when running Chrome applications"
+msgstr "Chrome アプリの実行時に使用する JavaScript ファイル"
+
+#: ../doc/manual/dependencies/file_dir.rst:51
+msgid "``manifest.json``"
+msgstr "``manifest.json``"
+
+#: ../doc/manual/dependencies/file_dir.rst:51
+msgid "A Manifest file used when running Chrome applications"
+msgstr "Chrome アプリの実行時に使用する Manifest ファイル"
+
+#: ../doc/manual/dependencies/file_dir.rst:57
+msgid "ios Folder"
+msgstr "ios フォルダー"
+
+#: ../doc/manual/dependencies/file_dir.rst:59
+msgid "iOS application settings files are stored inside the ``ios`` folder."
+msgstr "iOS アプリの設定ファイルを、 ``ios`` フォルダーに保存します。"
+
+#: ../doc/manual/dependencies/file_dir.rst:62
+msgid "``MonacaApp-Info.plist``"
+msgstr "``MonacaApp-Info.plist``"
+
+#: ../doc/manual/dependencies/file_dir.rst:62
+msgid ":file:`Info.plist` file used when running iOS applications"
+msgstr "iOS アプリの実行時に使用する Info.plist ファイル"
+
+#: ../doc/manual/dependencies/file_dir.rst:65
+msgid ""
+"For more information about how to use this file, please see "
+":doc:`../../reference/config/ios_configuration`."
+msgstr "詳細は、 :doc:`../../reference/config/ios_configuration` をご確認ください。"
+
+#: ../doc/manual/dependencies/file_dir.rst:67
+msgid ""
+"For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from "
+"Monaca framework. Therefore, in order to config iOS application settings, "
+"use :ref:`custom_config_plugin`."
+msgstr ""
+
+#: ../doc/manual/dependencies/file_dir.rst:71
 msgid "www Folder"
 msgstr "www フォルダー"
 
-#: ../doc/manual/dependencies/file_dir.rst:22
+#: ../doc/manual/dependencies/file_dir.rst:73
 msgid ""
 "Files of the application's main body are stored here. Files and folders can "
 "be arranged freely within this ``www`` folder, but the following files and "
 "folders have special significance."
 msgstr "アプリ本体のファイルを格納します。ファイルとフォルダーは、www フォルダー下であれば、自由に配置できますが、次のファイルとフォルダーだけは、特別な意味を持ちます。"
 
-#: ../doc/manual/dependencies/file_dir.rst:25
+#: ../doc/manual/dependencies/file_dir.rst:76
 msgid "``index.html``"
 msgstr "``index.html``"
 
-#: ../doc/manual/dependencies/file_dir.rst:25
+#: ../doc/manual/dependencies/file_dir.rst:76
 msgid ""
 "The first page to be displayed when the application starts up. The startup "
 "file can be changed."
 msgstr "アプリの起動時に、最初に表示されるページです ( デフォルト設定 )。最初に読み込むファイルは、変更できます。"
 
-#: ../doc/manual/dependencies/file_dir.rst:26
+#: ../doc/manual/dependencies/file_dir.rst:77
 msgid "``components/``"
 msgstr "``components/``"
 
-#: ../doc/manual/dependencies/file_dir.rst:26
+#: ../doc/manual/dependencies/file_dir.rst:77
 msgid ""
 "The folder created by Monaca for all JS/CSS components used in the project."
 msgstr "プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納するフォルダーです ( Monaca 側で作成 )。"
 
-#: ../doc/manual/dependencies/file_dir.rst:31
+#: ../doc/manual/dependencies/file_dir.rst:82
 msgid "index.html"
 msgstr "index.html"
 
-#: ../doc/manual/dependencies/file_dir.rst:33
+#: ../doc/manual/dependencies/file_dir.rst:84
 msgid ""
 "The :file:`index.html` file is the starting point for your application. At "
 "startup, the information contained in this file is usually the very first "
 "thing that will be read."
 msgstr ":file:`index.html` は、アプリのスタート地点となります。アプリが起動すると、このファイルに記述された内容を、最初に読み込みます。"
 
-#: ../doc/manual/dependencies/file_dir.rst:36
+#: ../doc/manual/dependencies/file_dir.rst:87
 msgid "components Folder"
 msgstr "components フォルダー"
 
-#: ../doc/manual/dependencies/file_dir.rst:38
+#: ../doc/manual/dependencies/file_dir.rst:89
 msgid ""
 "The folder ``www/components/`` is for all JS/CSS components used in the "
 "project. However, the following two files exist in that folder by default "
 "regardless of what kinds of components you have added for your project."
 msgstr "``www/components/`` フォルダー下に、プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納します。次の 2 つのファイルは、プロジェクトに追加したコンポーネントの種類にかかわらず、デフォルトで、このフォルダーに常に置かれているファイルです。"
 
-#: ../doc/manual/dependencies/file_dir.rst:41
+#: ../doc/manual/dependencies/file_dir.rst:92
 msgid "``loader.js``"
 msgstr "``loader.js``"
 
-#: ../doc/manual/dependencies/file_dir.rst:41
+#: ../doc/manual/dependencies/file_dir.rst:92
 msgid "A JavaScript file used by Monaca to load the components"
 msgstr "コンポーネントを読み込むときに、Monaca が使用する JavaScript ファイル"
 
-#: ../doc/manual/dependencies/file_dir.rst:43
+#: ../doc/manual/dependencies/file_dir.rst:94
 msgid "``loader.css``"
 msgstr "``loader.css``"
 
-#: ../doc/manual/dependencies/file_dir.rst:43
+#: ../doc/manual/dependencies/file_dir.rst:94
 msgid "A style sheet file used by Monaca for the components"
 msgstr "コンポーネントを読み込むときに、Monaca が使用する スタイルシート ファイル"
 
-#: ../doc/manual/dependencies/file_dir.rst:47
+#: ../doc/manual/dependencies/file_dir.rst:98
 msgid ""
 "The :file:`loader.js` and :file:`loader.css` files must be read from an HTML"
 " file."
 msgstr ":file:`loader.js` と :file:`loader.css` を、HTML から読み込む必要があります ( どの HTML ファイルでも良い )。"
 
-#: ../doc/manual/dependencies/file_dir.rst:49
+#: ../doc/manual/dependencies/file_dir.rst:100
 msgid ""
 "Each component will create its own folder within (one level below) "
 "``www/components/`` folder."
 msgstr "各コンポーネントのフォルダーは、``www/components/`` フォルダーのサブフォルダーとして、作成します。"
 
-#: ../doc/manual/dependencies/file_dir.rst:52
-msgid "android Folder"
-msgstr "android フォルダー"
+#: ../doc/manual/dependencies/file_dir.rst:103
+msgid "config.xml File"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:54
+#: ../doc/manual/dependencies/file_dir.rst:105
 msgid ""
-"Android application settings files are stored inside the ``android`` folder."
-msgstr "Android アプリの設定ファイルを、 ``android`` フォルダーに保存します。"
+"The :file:`config.xml` file is a settings file controlling various settings "
+"of Cordova. Please refer to the following documentations regarding how to "
+"edit :file:`config.xml` file for Android and iOS:"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:57
-msgid "``AndroidManifest.xml``"
-msgstr "``AndroidManifest.xml``"
+#: ../doc/manual/dependencies/file_dir.rst:107
+msgid ":ref:`config.xml for Android <config_xml_android>`"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:57
-msgid "Manifest file used when running Android applications"
-msgstr "Android アプリの実行時に使用する Manifest ファイル"
+#: ../doc/manual/dependencies/file_dir.rst:108
+msgid ":ref:`config.xml for iOS <config_xml_ios>`"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:60
+#: ../doc/manual/dependencies/file_dir.rst:110
 msgid ""
-"For more information about how to use this file, please see "
-":doc:`../../reference/config/android_configuration`."
-msgstr "Androidの設定ファイルについては、 :doc:`../../reference/config/android_configuration` をご確認ください。"
+"For Cordova 6.2 or higher, ``config.xml`` file is also used to config either"
+" Android or iOS application settings. Please refer to "
+":ref:`custom_config_plugin`."
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:63
-msgid "chrome Folder"
-msgstr "chrome フォルダー"
+#: ../doc/manual/dependencies/file_dir.rst:117
+msgid ":ref:`custom_config_plugin`"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:65
-msgid ""
-"Chrome application settings files are stored inside the ``chrome`` folder."
-msgstr "Chrome アプリの設定ファイルを、 ``chrome`` フォルダーに保存します。"
+#: ../doc/manual/dependencies/file_dir.rst:118
+msgid ":ref:`ios_configuration_file`"
+msgstr ""
 
-#: ../doc/manual/dependencies/file_dir.rst:68
-msgid "``background.js``"
-msgstr "``background.js``"
-
-#: ../doc/manual/dependencies/file_dir.rst:68
-msgid "A JavasSript file used when running Chrome applications"
-msgstr "Chrome アプリの実行時に使用する JavaScript ファイル"
-
-#: ../doc/manual/dependencies/file_dir.rst:69
-msgid "``manifest.json``"
-msgstr "``manifest.json``"
-
-#: ../doc/manual/dependencies/file_dir.rst:69
-msgid "A Manifest file used when running Chrome applications"
-msgstr "Chrome アプリの実行時に使用する Manifest ファイル"
-
-#: ../doc/manual/dependencies/file_dir.rst:75
-msgid "ios Folder"
-msgstr "ios フォルダー"
-
-#: ../doc/manual/dependencies/file_dir.rst:77
-msgid "iOS application settings files are stored inside the ``ios`` folder."
-msgstr "iOS アプリの設定ファイルを、 ``ios`` フォルダーに保存します。"
-
-#: ../doc/manual/dependencies/file_dir.rst:80
-msgid "``MonacaApp-Info.plist``"
-msgstr "``MonacaApp-Info.plist``"
-
-#: ../doc/manual/dependencies/file_dir.rst:80
-msgid ":file:`Info.plist` file used when running iOS applications"
-msgstr "iOS アプリの実行時に使用する Info.plist ファイル"
-
-#: ../doc/manual/dependencies/file_dir.rst:83
-msgid ""
-"For more information about how to use this file, please see "
-":doc:`../../reference/config/ios_configuration`."
-msgstr "詳細は、 :doc:`../../reference/config/ios_configuration` をご確認ください。"
-
-#: ../doc/manual/dependencies/file_dir.rst:92
-msgid ":ref:`sample_apps_index`"
-msgstr ":ref:`sample_apps_index`"
+#: ../doc/manual/dependencies/file_dir.rst:119
+msgid ":ref:`android_configuration_file`"
+msgstr ""
 
 #: ../doc/manual/dependencies/index.rst:5
 msgid "Project Dependencies"

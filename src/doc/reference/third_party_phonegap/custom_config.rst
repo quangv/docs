@@ -4,8 +4,10 @@
 Cordova Custom Config Plugin
 ======================================================
 
+For Cordova 5.2 or lower, basic behaviour of Android or iOS applications can be configured by editing :file:`AndroidManifest.xml` or ``MonacaApp-Info.plist`` file respectively. However, for Cordova 6.2 or higher, both :file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed from Monaca framework. 
 
-This Cordova/Phonegap plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova/Phonegap.
+Therefore, in order to config iOS/Android application settings, you will need to use Cordova Custom Config plugin. This Cordova plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova.
+
 
 Enable the Plugin in Monaca
 ================================
