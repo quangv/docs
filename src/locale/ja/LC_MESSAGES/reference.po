@@ -1375,11 +1375,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:492
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:490
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
@@ -1540,21 +1536,12 @@ msgstr "*<array>*: 配列を使用して、value ( plistObject ) を格納でき
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr "*<dict>*: key と value ( plistObject ) の組み合わせを、<dict> 内に置きます。"
 
-<<<<<<< HEAD
 #: ../doc/reference/config/ios_configuration.rst:109
 #: ../doc/reference/third_party_phonegap/custom_config.rst:164
 #: ../doc/reference/third_party_phonegap/custom_config.rst:185
 #: ../doc/reference/third_party_phonegap/custom_config.rst:290
 #: ../doc/reference/third_party_phonegap/custom_config.rst:367
 #: ../doc/reference/third_party_phonegap/custom_config.rst:387
-=======
-#: ../doc/reference/config/ios_configuration.rst:106
-#: ../doc/reference/third_party_phonegap/custom_config.rst:162
-#: ../doc/reference/third_party_phonegap/custom_config.rst:183
-#: ../doc/reference/third_party_phonegap/custom_config.rst:288
-#: ../doc/reference/third_party_phonegap/custom_config.rst:365
-#: ../doc/reference/third_party_phonegap/custom_config.rst:385
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "For example:"
 msgstr "例 :"
 
@@ -2765,11 +2752,7 @@ msgstr "サポート対象のプラットフォーム"
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
 #: ../doc/reference/power_plugins/in-app_updater.rst:135
 #: ../doc/reference/power_plugins/secure_storage.rst:17
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:69
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:67
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Android"
 msgstr "Android"
 
@@ -3067,11 +3050,7 @@ msgstr "Android"
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
 #: ../doc/reference/power_plugins/in-app_updater.rst:141
 #: ../doc/reference/power_plugins/secure_storage.rst:16
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:244
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:242
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "iOS"
 msgstr "iOS"
 
@@ -15016,11 +14995,7 @@ msgstr "``StatusBar`` オブジェクトを使用して、iOS と Android のス
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:72
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:64
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:51
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:36
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:34
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Preferences"
 msgstr "peference の設定"
 
@@ -15463,11 +15438,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:494
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:492
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -15520,11 +15491,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:495
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:493
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -25208,11 +25175,7 @@ msgstr "アプリで使用している HTML5 アセットを、再ビルド・�
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
 #: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:23
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:21
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "Usage"
 msgstr "設定"
 
@@ -26092,11 +26055,7 @@ msgid ""
 "project."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:25
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:23
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "There are no run-time source files included in this plugin. It includes hook"
 " scripts which are used to apply preferences dictated by custom keys in the "
@@ -26106,11 +26065,7 @@ msgid ""
 "you build your project."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:27
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:25
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "By default, any changes made by this plugin to platform config files are "
 "irreversible. However, if you want the changes made to be reversible, you "
@@ -26118,168 +26073,100 @@ msgid ""
 "preference inside the top-level ``<widget>`` element of your ``config.xml``:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:38
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:36
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Preferences are set by defining a ``<preference>`` element in the "
 "``config.xml`` file. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:44
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:42
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "While setting the preferences, please be aware of the following points:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:46
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:44
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Preferences defined outside of the ``<platform>`` element will apply to all "
 "platforms."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:47
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:45
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Preferences defined inside a ``<platform>`` element will apply only to the "
 "specified platform."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:48
 msgid "Platform preferences take precedence over common preferences."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:49
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:46
-msgid "Platform preferences take precedence over common preferences."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:47
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Platform-specific preferences must be prefixed with the platform name (e.g. "
 "name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:53
 msgid "Config Blocks"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:55
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:51
-msgid "Config Blocks"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:53
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<config-file>`` blocks allow platform-specific chunks of the configuration"
 " to be defined as an XML subtree in the ``config.xml`` file, which is then "
 "applied to the appropriate platform configuration file by the plugin."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:57
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:55
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "While setting the config blocks, please be aware of the following points:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:59
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:57
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<config-file>`` elements must be defined inside a ``<platform>`` element, "
 "otherwise they will be ignored."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:60
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:58
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "config-file ``target`` attributes specify the target file to update. "
 "(``AndroidManifest.xml`` or ``*-Info.plist``)"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:61
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:59
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "config-file ``parent`` attributes specify the parent element "
 "(``AndroidManifest.xml``) or parent key (``*-Info.plist``) that the child "
 "data will replace or be appended to."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:62
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:60
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<config-file>`` elements are uniquely indexed by target and parent for "
 "each platform."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:63
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:61
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If there are multiple config-file's defined with the same target and parent,"
 " the last config-file will be used."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:64
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:62
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Elements defined within a config-file will replace or be appended to the "
 "same elements relative to the parent element."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:65
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:63
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If a unique config-file contains multiples of the same elements (other than "
 "``<uses-permission>`` elements which are selected by by the uses-permission "
 "``name`` attribute), the last defined element will be retrieved."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:71
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:69
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The plugin currently supports setting of custom config only in "
 "``platforms/android/AndroidManifest.xml``. For a list of possible manifest "
@@ -26289,38 +26176,22 @@ msgid ""
 "name=\"android\">`` in ``config.xml`` file."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:75
 msgid "Android Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:77
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:73
-msgid "Android Preferences"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:75
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<preference>`` elements in ``config.xml`` are used to set attributes on "
 "elements in the ``AndroidManifest.xml``. For example, if you add the "
 "following element to the ``config.xml``:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:83
 msgid "then the following line will be added to ``AndroidManifest.xml``:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:89
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:81
-msgid "then the following line will be added to ``AndroidManifest.xml``:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:87
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Sometimes, you may want to remove some default settings in "
 "``AndroidManifest.xml``. You can do delete them by using the "
@@ -26330,30 +26201,18 @@ msgid ""
 "/>`` within ``AndroidManifest.xml``:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:97
 msgid "Android Namespace Attribute"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:99
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:95
-msgid "Android Namespace Attribute"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:97
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "In order to user the ``android:`` namespace in preferences within your "
 "``config.xml``, you must include the android namespace attribute on the root"
 " ``<widget>`` element."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:101
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:99
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "The namespace attribute fragment is:"
 msgstr ""
 
@@ -26362,13 +26221,10 @@ msgid "so your ``<widget>`` element should look something like this:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:120
-<<<<<<< HEAD
 msgid "XPath Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:122
-=======
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Android manifest preferences are set by using XPaths in the preference name "
 "to define which element attribute the value should be applied to. The "
@@ -26377,59 +26233,35 @@ msgid ""
 "to. For example,"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:128
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:126
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "This preference specifies that the ``launchMode`` attribute should be given "
 "a value of ``singleTask`` which will be resulted as:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:135
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:133
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If your manifest contains other activities, you should specify the activity "
 "name in the XPath. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:141
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:139
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The activity name for Cordova 4.2.0 and below was ``\"CordovaApp\"`` whereas"
 " Cordova 4.3.0 and above is ``\"MainActivity\"``."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:143
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:141
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If the attribute you are setting is on the root ``<manifest>`` element, just"
 " omit the element name and specify the attribute. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:151
 msgid "Android Config Blocks"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:153
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:149
-msgid "Android Config Blocks"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:151
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<config-file>`` blocks are used to define chunks of configuration of an "
 "XML subtree which will be inserted into ``AndroidManifest.xml``. The child "
@@ -26437,7 +26269,6 @@ msgid ""
 "parent element."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:155
 msgid "``<config-file>`` element has two attributes such as:"
 msgstr ""
@@ -26447,95 +26278,52 @@ msgid "``target``: must be set to ``AndroidManifest.xml``."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:158
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:153
-msgid "``<config-file>`` element has two attributes such as:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:155
-msgid "``target``: must be set to ``AndroidManifest.xml``."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:156
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``parent``: defines an Xpath to the parent element in the "
 "``AndroidManifest.xml`` under which the XML subtree block should be "
 "inserted."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:160
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:158
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "to insert a block under the root ``<manifest>`` element, use "
 "``parent=\"/*\"``"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:161
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:159
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "to insert a block under a descendant of ``<manifest>``, use an Xpath "
 "prefixed with ``./``. For example, ``parent=\"./application/activity\"`` "
 "will insert the block under ``/manifest/application/activity``."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:172
 msgid "will result in ``AndroidManifest.xml`` with:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:183
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:170
-msgid "will result in ``AndroidManifest.xml`` with:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:181
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If the specified parent element contains an existing child element of the "
 "same name as that defined in the XML subtree, the existing element will be "
 "overwritten."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:193
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:191
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "will replace the existing ``<application>`` element. In this case, it would "
 "be better to use a preference:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:200
 msgid "Android Example"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:202
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:198
-msgid "Android Example"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:200
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Below is an example of a ``config.xml`` file for Android configuration:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:246
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:244
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The plugin currently supports custom configuration of the project plist "
 "(``*-Info.plist``) using config blocks, and project settings "
@@ -26544,19 +26332,11 @@ msgid ""
 "file."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:249
 msgid "iOS Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:251
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:247
-msgid "iOS Preferences"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:249
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<preference>`` elements in ``config.xml`` are used to set preferences in "
 "the ``*-Info.plist``. Preferences should be defined in the format: "
@@ -26564,30 +26344,18 @@ msgid ""
 "/>``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:259
 msgid "Build Configuration Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:261
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:257
-msgid "Build Configuration Preferences"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:259
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Currently, ``XCBuildConfiguration`` is the only supported block type in the "
 "``project.pbxproj``. However, there is no constraint on the list of keys for"
 " which values may be set."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:263
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:261
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If an entry already exists in an ``XCBuildConfiguration`` block for the "
 "specified key, the existing value will be overwritten with the specified "
@@ -26596,11 +26364,7 @@ msgid ""
 "``XCBuildConfiguration`` block with the specified value."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:265
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:263
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "By default, values will be applied to both \"Release\" and \"Debug\" "
 "``XCBuildConfiguration`` blocks. However, the block type can be specified by"
@@ -26609,37 +26373,23 @@ msgid ""
 "example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:271
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:269
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "By default, both the key (preference name) and value will be quote-escaped "
 "when inserted into the ``XCBuildConfiguration`` block. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:277
 #: ../doc/reference/third_party_phonegap/custom_config.rst:296
 msgid "will appear in ``project.pbxproj`` as:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:283
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:275
-#: ../doc/reference/third_party_phonegap/custom_config.rst:294
-msgid "will appear in ``project.pbxproj`` as:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:281
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The default quoting can be override by setting the ``quote`` attribute on "
 "the ``<preference>`` element. The valid values are:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:285
 msgid "\"none\": don't quote key or value"
 msgstr ""
@@ -26661,29 +26411,6 @@ msgid ".xcconfig files"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:305
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:283
-msgid "\"none\": don't quote key or value"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:284
-msgid "\"key\": quote key but not value"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:285
-msgid "\"value\": quote value but not key"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:286
-msgid "\"both\": quote both key and value"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:301
-msgid ".xcconfig files"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:303
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Cordova uses ``.xcconfig`` files in ``/platforms/ios/cordova/`` to override "
 "Xcode project settings in ``project.pbxproj`` with build-type specific "
@@ -26692,41 +26419,25 @@ msgid ""
 "type."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:307
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:305
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "When applying a custom preference, the plugin will look for an existing "
 "entry in the ``.xcconfig`` file that corresponds to the buildType attribute."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:309
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:307
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If buildType attribute is ``\"debug\"`` or ``\"release\"``, the plugin will "
 "look in ``build-debug.xcconfig`` or ``build-release.xcconfig`` respectively."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:310
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:308
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If buildType is not specified or set to ``\"none\"``, the plugin will look "
 "in ``build.xcconfig``."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:312
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:310
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "By default, if an entry is found in the ``.xcconfig`` file which corresponds"
 " to the custom preference name in the ``config.xml``, the value in the "
@@ -26736,11 +26447,7 @@ msgid ""
 "``xcconfigEnforce=\"false\"``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:318
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:316
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If a preference value doesn't already exist in the corresponding "
 "``.xcconfig`` file, you can force its addition by setting the preference "
@@ -26748,11 +26455,7 @@ msgid ""
 "corresponding ``.xcconfig`` file. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:324
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:322
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "A backup copy of any modified ``.xcconfig`` file will be made in ``plugins"
 "/cordova-custom-config/backup/ios``. By default, these backups will be "
@@ -26761,71 +26464,43 @@ msgid ""
 "autorestore\" value=\"false\" />`` in the ``config.xml``."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:326
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:324
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Preference names and values will not be quote-escaped in ``.xcconfig`` "
 "files, so the ``quote`` attribute has no effect on them."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:330
 msgid "CODE_SIGN_IDENTITY preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:332
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:328
-msgid "CODE_SIGN_IDENTITY preferences"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:330
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "Cordova places its default CODE_SIGN_IDENTITY for Release builds in build-"
 "release.xcconfig but for Debug builds in ``build.xcconfig``."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:334
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:332
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
 "``buildType=\"release\"``, the plugin will overwrite the defaults in "
 "``build-release.xcconfig``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:340
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:338
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
 "``buildType=\"debug\"``, the plugin will overwrite the defaults in "
 "``build.xcconfig``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:346
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:344
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "You can prevent the CODE_SIGN_IDENTITY preferences being overwritten by "
 "setting ``xcconfigEnforce=\"false\"``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:352
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:350
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "You can force the plugin to add a new entry for CODE_SIGN_IDENTITY "
 "preference with ``buildType=\"debug\"`` to ``build-debug.xcconfig``, rather "
@@ -26835,19 +26510,11 @@ msgid ""
 "``build.xcconfig``. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:359
 msgid "iOS Config Blocks"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:361
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:357
-msgid "iOS Config Blocks"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:359
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``<config-file>`` elements are currently only used to set preferences in the"
 " project ``.plist`` file "
@@ -26855,7 +26522,6 @@ msgid ""
 "has 3 attributes such as:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:363
 msgid "``target``: should be set to ``*-Info.plist``."
 msgstr ""
@@ -26865,51 +26531,27 @@ msgid "``platform``: should be set to ``ios``."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:365
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:361
-msgid "``target``: should be set to ``*-Info.plist``."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:362
-msgid "``platform``: should be set to ``ios``."
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:363
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``parent``: is used to determine which key name to use for the custom "
 "preference."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:374
 msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:385
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:372
-msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:383
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The value of the preference is set by the child elements of the ``<config-"
 "file>`` element. These will appear directly below the preference ``<key>`` "
 "in the ``.plist`` file."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:397
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:395
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid "will appear in the ``plist`` file as:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:409
-<<<<<<< HEAD
 msgid "iOS Example"
 msgstr ""
 
@@ -26922,46 +26564,24 @@ msgid "Plugin Preferences"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:477
-=======
-msgid "Below is an example of a ``config.xml`` file for iOS configuration:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:473
-msgid "Plugin Preferences"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:475
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "The plugin supports some preferences which are used to customise the "
 "behaviour of the plugin. Each preference name is prefixed with ``cordova-"
 "custom-config`` to avoid name clashes. For example:"
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:483
 msgid "The following preferences are currently supported:"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:485
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:481
-msgid "The following preferences are currently supported:"
-msgstr ""
-
-#: ../doc/reference/third_party_phonegap/custom_config.rst:483
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``cordova-custom-config-autorestore``: (set to ``false`` by default) if set "
 "to ``true``, the plugin will restore a backup of platform configuration "
 "files taken at plugin installation time."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../doc/reference/third_party_phonegap/custom_config.rst:486
-=======
-#: ../doc/reference/third_party_phonegap/custom_config.rst:484
->>>>>>> ebbff95b38009f612da786a88eb35aed5023bdb2
 msgid ""
 "``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set "
 "to ``true`` and an error occurs while updating config for a given platform "
