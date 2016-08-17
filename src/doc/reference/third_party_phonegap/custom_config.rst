@@ -70,7 +70,7 @@ The plugin currently supports setting of custom config only in ``platforms/andro
 Android Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``<preference>`` elements in ``config.xml`` are used to set attributes on existing elements in the ``AndroidManifest.xml``. For example, if you add the following element to the ``config.xml``: 
+``<preference>`` elements in ``config.xml`` are used to set attributes on elements in the ``AndroidManifest.xml``. For example, if you add the following element to the ``config.xml``: 
 
 .. code-block:: xml
     
@@ -267,7 +267,7 @@ By default, values will be applied to both "Release" and "Debug" ``XCBuildConfig
 By default, both the key (preference name) and value will be quote-escaped when inserted into the ``XCBuildConfiguration`` block. For example:
 
 .. code-block:: xml
-
+    
     <preference name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="7.0" buildType="release" />
 
 will appear in ``project.pbxproj`` as: 
@@ -481,14 +481,6 @@ The following preferences are currently supported:
 - ``cordova-custom-config-autorestore``: (set to ``false`` by default) if set to ``true``, the plugin will restore a backup of platform configuration files taken at plugin installation time.
 - ``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set to ``true`` and an error occurs while updating config for a given platform during a ``prepare`` operation, the error will cause the ``prepare`` operation to fail. If false, the plugin will log the error but will proceed and attempt to update any other platforms, before allowing the prepare operation to continue.
 
-Log Output
-===========================
-
-If you run the prepare operation with the ``--verbose`` command-line option, the plugin will output detail about the operations it's performing. Console messages are prefixed with ``cordova-custom-config``. For example:
-
-.. code-block:: xml
-
-    cordova prepare ios --verbose
 
 
 .. seealso::
