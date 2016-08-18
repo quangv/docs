@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-17 09:29+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-18 03:02+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,7 +164,7 @@ msgstr "config.xml"
 msgid ""
 "The :file:`config.xml` file is a settings file controlling various settings "
 "of Cordova."
-msgstr ""
+msgstr ":file:`config.xml` 設定ファイルを使用して、Cordova のさまざまな設定を管理します。"
 
 #: ../doc/reference/config/android_configuration.rst:77
 msgid ""
@@ -836,7 +836,7 @@ msgid ""
 "For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from "
 "Monaca framework. Therefore, in order to config Android application "
 "settings, use :ref:`custom_config_plugin`."
-msgstr ""
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``AndroidManifest.xml`` ファイルを使用しないように、仕様が変更されました。よって、Android アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
 
 #: ../doc/reference/config/android_configuration.rst:366
 msgid ":file:`AndroidManifest.xml` (Main elements)"
@@ -1510,7 +1510,7 @@ msgid ""
 "For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from "
 "Monaca framework. Therefore, in order to config iOS application settings, "
 "use :ref:`custom_config_plugin`."
-msgstr ""
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``MonacaApp-Info.plist`` ファイルを使用しないように、仕様が変更されました。よって、iOS アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
 
 #: ../doc/reference/config/ios_configuration.rst:79
 msgid ":file:`MonacaApp-Info.plist` (Excerpt)"
@@ -26038,7 +26038,7 @@ msgid ""
 "Info.plist`` file respectively. However, for Cordova 6.2 or higher, both "
 ":file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed "
 "from Monaca framework."
-msgstr ""
+msgstr "Cordova 5.2 以前のバージョンでは、:file:`AndroidManifest.xml` ( Android の場合 ) または ``MonacaApp-Info.plist`` ( iOS の場合 ) を編集して、アプリのデフォルトの挙動を変更することができました。Cordova 6.2 以降では、Monaca フレームワークでは、:file:`AndroidManifest.xml` と ``MonacaApp-Info.plist`` のいずれのファイルも使用しないように、仕様が変更されました。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:9
 msgid ""
@@ -26047,13 +26047,13 @@ msgid ""
 "Android provides hook scripts to update platform configuration files based "
 "on custom preferences and config-file data defined in ``config.xml`` file "
 "that are not supported out-of-the-box by Cordova."
-msgstr ""
+msgstr "よって、iOS または Android アプリの設定をカスタマイズする場合には、Cordova Custom Config プラグインを使用する必要があります。こちらの Cordova プラグイン ( iOS または Android 向け ) を使用すると、フック用のスクリプト ( Hook Script ) を経由して、設定ファイルの情報を書き換えることができます。たとえば、使用するスクリプトの内容に応じて、``config.xml`` ファイル内に記述された、preference ( すべて、または、特定のプラットフォーム向け ) および config-file ブロックの内容を、アプリの設定ファイルに適用できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:16
 msgid ""
 "Click :guilabel:`Enable` button of ``Custom Config`` to add it into your "
 "project."
-msgstr ""
+msgstr "``Custom Config`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:25
 msgid ""
@@ -26063,7 +26063,7 @@ msgid ""
 "Therefore, in order to use this plugin, you need to include the relevant "
 "keys in your ``config.xml`` and the scripts will take care of the rest when "
 "you build your project."
-msgstr ""
+msgstr "このプラグインには、実行時に使用されるプログラムのようなものはありません。代わりに、フック用のスクリプトをインクルード ( include ) し、このスクリプトを使用して、``config.xml`` ファイル内に設定した preference を、各プラットフォームの設定ファイルに対して適用 ( 上書き ) します。たとえば、iOS では、preference の name 属性は、iOS 設定ファイルの key として使用されます。よって、このプラグインを使用する場合、必要な key ( preference の name 属性 ) などを ``config.xml`` 内にあらかじめ設定します。上書き/適用処理は、プロジェクトのビルド時に、スクリプト側が行ってくれます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:27
 msgid ""
@@ -26071,100 +26071,100 @@ msgid ""
 "irreversible. However, if you want the changes made to be reversible, you "
 "can enable auto-backup/restore functionality by adding the following "
 "preference inside the top-level ``<widget>`` element of your ``config.xml``:"
-msgstr ""
+msgstr "このプラグインを実行して変更した、設定ファイルの内容は、原則、元に戻すことができません。ただし、次の preference を追加して、元に戻すことができるように、設定することもできます ( ``config.xml`` の最上位の ``<widget>`` 要素内に追加 )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:38
 msgid ""
 "Preferences are set by defining a ``<preference>`` element in the "
 "``config.xml`` file. For example:"
-msgstr ""
+msgstr "Preference は、``config.xml`` ファイル内で ``<preference>`` 要素を使用して、設定します。Preference とは、Cordova の挙動を制御するための設定を指し、加えて、ここでは 「 カスタマイズ設定 」 を意味します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:44
 msgid ""
 "While setting the preferences, please be aware of the following points:"
-msgstr ""
+msgstr "preference の設定時には、次の点に、注意が必要です。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:46
 msgid ""
 "Preferences defined outside of the ``<platform>`` element will apply to all "
 "platforms."
-msgstr ""
+msgstr "``<platform>`` 要素のブロック外に置かれた preference は、すべてのプラットフォームに対して適用されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:47
 msgid ""
 "Preferences defined inside a ``<platform>`` element will apply only to the "
 "specified platform."
-msgstr ""
+msgstr "``<platform>`` 要素のブロック内に置かれた preference は、指定されているプラットフォームに対してのみ、適用されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:48
 msgid "Platform preferences take precedence over common preferences."
-msgstr ""
+msgstr "platform 要素のブロック内に置かれている preference の方が、置かれていないものより、優先されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:49
 msgid ""
 "Platform-specific preferences must be prefixed with the platform name (e.g. "
 "name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
-msgstr ""
+msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` ブロック内 ( 例 : name=\"ios-somepref\" ) に置かれます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:53
 msgid "Config Blocks"
-msgstr ""
+msgstr "config-file 設定"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:55
 msgid ""
 "``<config-file>`` blocks allow platform-specific chunks of the configuration"
 " to be defined as an XML subtree in the ``config.xml`` file, which is then "
 "applied to the appropriate platform configuration file by the plugin."
-msgstr ""
+msgstr "``<config-file>`` ブロックを使用して、プラットフォーム別のカスタマイズ設定を定義します ( ``config.xml`` 内 )。適用先となるファイルでは、これらのカスタマイズ設定は、XML のサブツリーに変換されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:57
 msgid ""
 "While setting the config blocks, please be aware of the following points:"
-msgstr ""
+msgstr "config-file の設定時には、次の点に注意が必要です。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:59
 msgid ""
 "``<config-file>`` elements must be defined inside a ``<platform>`` element, "
 "otherwise they will be ignored."
-msgstr ""
+msgstr "``<config-file>`` 要素は、``<platform>`` 要素のブロック内に置きます。これ以外の場合、設定は無視されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:60
 msgid ""
 "config-file ``target`` attributes specify the target file to update. "
 "(``AndroidManifest.xml`` or ``*-Info.plist``)"
-msgstr ""
+msgstr "config-file 要素の ``target`` 属性には、更新対象のファイルを指定します (``AndroidManifest.xml`` または ``*-Info.plist``)。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:61
 msgid ""
 "config-file ``parent`` attributes specify the parent element "
 "(``AndroidManifest.xml``) or parent key (``*-Info.plist``) that the child "
 "data will replace or be appended to."
-msgstr ""
+msgstr "config-file の ``parent`` 属性では、親となる要素 ( Android の場合、``AndroidManifest.xml`` 内 )、または、親となる key ( iOS の場合、``*-Info.plist`` 内 ) が指定されています。これらの子要素/key として、設定内容が反映されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:62
 msgid ""
 "``<config-file>`` elements are uniquely indexed by target and parent for "
 "each platform."
-msgstr ""
+msgstr "``<config-file>`` 要素に指定された target ( ファイル ) と parent ( ファイル内の位置 ) の組み合わせを使用して、カスタマイズ設定の適用場所を指定できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:63
 msgid ""
 "If there are multiple config-file's defined with the same target and parent,"
 " the last config-file will be used."
-msgstr ""
+msgstr "同一の target と parent 属性が設定された config-file が複数ある場合、最後の config-file が適用されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:64
 msgid ""
 "Elements defined within a config-file will replace or be appended to the "
 "same elements relative to the parent element."
-msgstr ""
+msgstr "config-file 内に定義された要素 ( ファイル、適用する箇所、適用する内容 ) を使用して、適用先ファイルの内容を上書き、または、指定された内容を追加します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:65
 msgid ""
 "If a unique config-file contains multiples of the same elements (other than "
 "``<uses-permission>`` elements which are selected by by the uses-permission "
 "``name`` attribute), the last defined element will be retrieved."
-msgstr ""
+msgstr "config-file に定義されている要素が重複している場合、最後に定義されている要素が適用されます。ただし、``<uses-permission>`` 要素のように、``name`` 属性が複数あっても良い場合を除きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:71
 msgid ""
@@ -26174,22 +26174,22 @@ msgid ""
 "<http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_. "
 "All Android-specific config should be placed inside the ``<platform "
 "name=\"android\">`` in ``config.xml`` file."
-msgstr ""
+msgstr "Android では、このプラグインを使用して、カスタマイズできる対象は、現在、``platforms/android/AndroidManifest.xml`` 内の設定だけとなっています。なお、Manifest ファイル内の設定は、`アプリ マニフェスト ( 外部サイト ) <http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_ をご確認ください。Cordova では、Android 向けの設定は、``config.xml`` ファイルの ``<platform name=\"android\">`` ブロック内に置く必要があります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:75
 msgid "Android Preferences"
-msgstr ""
+msgstr "Android 向けの preference"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:77
 msgid ""
 "``<preference>`` elements in ``config.xml`` are used to set attributes on "
 "elements in the ``AndroidManifest.xml``. For example, if you add the "
 "following element to the ``config.xml``:"
-msgstr ""
+msgstr "``config.xml`` 内の ``<preference>`` 要素を使用すると、``AndroidManifest.xml`` 内の要素に、指定した属性がセットされます。たとえば、``config.xml`` に、次の要素を追加すると..."
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:83
 msgid "then the following line will be added to ``AndroidManifest.xml``:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` に、次の設定が追加されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:89
 msgid ""
@@ -26199,26 +26199,26 @@ msgid ""
 "if you add the following line in ``config.xml``, it will delete the existing"
 " node ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" "
 "/>`` within ``AndroidManifest.xml``:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` 内に定義されているデフォルトの設定を削除する場合には、``<preference>`` 要素に ``delete=\"true\"`` 属性を指定します。たとえば、``config.xml`` に次の設定を追加した場合、``AndroidManifest.xml`` 内の ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />`` を削除できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:97
 msgid "Android Namespace Attribute"
-msgstr ""
+msgstr "名前空間の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:99
 msgid ""
 "In order to user the ``android:`` namespace in preferences within your "
 "``config.xml``, you must include the android namespace attribute on the root"
 " ``<widget>`` element."
-msgstr ""
+msgstr "``config.xml`` の preference に ``android:`` ( 名前空間を指定 ) を指定する場合、``<widget>`` 要素 ( ルート要素 ) にも、andorid の名前空間を設定する必要があります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:101
 msgid "The namespace attribute fragment is:"
-msgstr ""
+msgstr "名前空間を指定する属性は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:107
 msgid "so your ``<widget>`` element should look something like this:"
-msgstr ""
+msgstr "``<widget>`` 要素は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:120
 msgid "XPath Preferences"
@@ -26259,7 +26259,7 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:151
 msgid "Android Config Blocks"
-msgstr ""
+msgstr "Android 向けの config-file ブロック"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:153
 msgid ""
@@ -26267,15 +26267,15 @@ msgid ""
 "XML subtree which will be inserted into ``AndroidManifest.xml``. The child "
 "elements inside the ``<config-file>`` block will be inserted under the "
 "parent element."
-msgstr ""
+msgstr "``AndroidManifest.xml`` のカスタマイズ時に適用される設定を、``<config-file>`` を使用して定義します。これらのカスタマイズ設定は、``AndroidManifest.xml`` ファイル内で XML のサブツリーに変換されます。``<config-file>`` 内の子要素は、parent で指定されている要素の下に挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:155
 msgid "``<config-file>`` element has two attributes such as:"
-msgstr ""
+msgstr "``<config-file>`` 要素には、次の 2 種類の属性を指定できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:157
 msgid "``target``: must be set to ``AndroidManifest.xml``."
-msgstr ""
+msgstr "``target``: ``AndroidManifest.xml`` を常に指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:158
 msgid ""
@@ -26288,7 +26288,7 @@ msgstr ""
 msgid ""
 "to insert a block under the root ``<manifest>`` element, use "
 "``parent=\"/*\"``"
-msgstr ""
+msgstr "``<manifest>`` 要素 ( ルート要素 ) にブロックを挿入する場合には、``parent=\"/*\"`` を使用します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:161
 msgid ""
@@ -26299,29 +26299,29 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:172
 msgid "will result in ``AndroidManifest.xml`` with:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` 内では、次のようになります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:183
 msgid ""
 "If the specified parent element contains an existing child element of the "
 "same name as that defined in the XML subtree, the existing element will be "
 "overwritten."
-msgstr ""
+msgstr "parent 要素に指定された値が XML のサブツリー側に定義されている値と重複する場合、既存の要素は上書きされます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:193
 msgid ""
 "will replace the existing ``<application>`` element. In this case, it would "
 "be better to use a preference:"
-msgstr ""
+msgstr "上記の内容を使用すれば、既存の ``<application>`` 要素が書き換えられます。なお、このような場合には、preference の使用を推奨します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:200
 msgid "Android Example"
-msgstr ""
+msgstr "例"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:202
 msgid ""
 "Below is an example of a ``config.xml`` file for Android configuration:"
-msgstr ""
+msgstr "``config.xml`` ファイル内の Android 向けの設定のサンプルを、次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:246
 msgid ""
@@ -26330,11 +26330,11 @@ msgid ""
 "(``project.pbxproj``) using preference elements. All iOS-specific config "
 "should be placed inside the ``<platform name=\"ios\">`` in ``config.xml`` "
 "file."
-msgstr ""
+msgstr "iOS では、このプラグインを使用してカスタマイズできる対象は、現在、プロジェクトの plist ( ``*-Info.plist``、config-file ブロックを使用/適用 )、および、構成/設定情報 ( ``project.pbxproj``、preference 要素を使用/適用 ) となっています。なお、Cordova では、iOS 向けの設定は、``config.xml`` ファイルの ``<platform name=\"ios\">`` ブロック内に置く必要があります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:249
 msgid "iOS Preferences"
-msgstr ""
+msgstr "iOS 向けの preference"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:251
 msgid ""
@@ -26342,18 +26342,18 @@ msgid ""
 "the ``*-Info.plist``. Preferences should be defined in the format: "
 "``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" "
 "/>``. For example:"
-msgstr ""
+msgstr "``config.xml`` の ``<preference>`` 要素を使用して、``*-Info.plist`` の設定を更新します。preference は、``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" />`` の形式で設定します。次に例を記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:259
 msgid "Build Configuration Preferences"
-msgstr ""
+msgstr "ビルド設定用の preferences"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:261
 msgid ""
 "Currently, ``XCBuildConfiguration`` is the only supported block type in the "
 "``project.pbxproj``. However, there is no constraint on the list of keys for"
 " which values may be set."
-msgstr ""
+msgstr "ビルド設定は、``project.pbxproj`` 内の ``XCBuildConfiguration`` を使用して、現在行っています。使用する key/value に関しては、制限はありません。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:263
 msgid ""
@@ -26362,7 +26362,7 @@ msgid ""
 "value. If no entry exists in any ``XCBuildConfiguration`` block for the "
 "specified key, a new key entry will be created in each "
 "``XCBuildConfiguration`` block with the specified value."
-msgstr ""
+msgstr "``XCBuildConfiguration`` ブロック内にすでに存在する key を指定した場合、その key の value は上書きされます。新規の key の場合、指定した value とともに、``XCBuildConfiguration`` にその key に追加されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:265
 msgid ""
@@ -26371,44 +26371,44 @@ msgid ""
 " adding a ``buildType`` attribute to the ``<preference>`` element in the "
 "``config.xml``. The value can be either ``debug`` or ``release``. For "
 "example:"
-msgstr ""
+msgstr "デフォルトでは、\"Release\" と \"Debug\" の両方の ``XCBuildConfiguration`` ブロックに value が設定されますが、``config.xml`` の ``<preference>`` 要素に、``buildType`` 属性を追加すれば、ビルドの種類を指定できます。この属性に指定できる値は、``debug`` または ``release`` です。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:271
 msgid ""
 "By default, both the key (preference name) and value will be quote-escaped "
 "when inserted into the ``XCBuildConfiguration`` block. For example:"
-msgstr ""
+msgstr "デフォルトでは、key ( preference の name 属性 ) と value は、``XCBuildConfiguration`` への挿入時、ダブルクォーテーションで囲われます。次の記述で..."
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:277
 #: ../doc/reference/third_party_phonegap/custom_config.rst:296
 msgid "will appear in ``project.pbxproj`` as:"
-msgstr ""
+msgstr "次のように反映されます ( ``project.pbxproj`` 内 )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:283
 msgid ""
 "The default quoting can be override by setting the ``quote`` attribute on "
 "the ``<preference>`` element. The valid values are:"
-msgstr ""
+msgstr "クォーテーションの付記方法 ( 上記がデフォルトの方法 ) は、``<preference>`` の ``quote`` 属性を使用すれば変更できます。次の値を使用できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:285
 msgid "\"none\": don't quote key or value"
-msgstr ""
+msgstr "\"none\": key と value のいずれにも、クォーテーションは付記されません。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:286
 msgid "\"key\": quote key but not value"
-msgstr ""
+msgstr "\"key\": key だけに、クォーテーションが付記されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:287
 msgid "\"value\": quote value but not key"
-msgstr ""
+msgstr "\"value\": value だけに、クォーテーションが付記されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:288
 msgid "\"both\": quote both key and value"
-msgstr ""
+msgstr "\"both\": key と value のいずれにも、クォーテーションが付記されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:303
 msgid ".xcconfig files"
-msgstr ""
+msgstr ".xcconfig ファイル"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:305
 msgid ""
@@ -26423,19 +26423,19 @@ msgstr ""
 msgid ""
 "When applying a custom preference, the plugin will look for an existing "
 "entry in the ``.xcconfig`` file that corresponds to the buildType attribute."
-msgstr ""
+msgstr "カスタマイズ設定を適用するとき、プラグインは、最初に、buildType 属性を参照して、次に、対応する ``.xcconfig`` ファイルにアクセスして、既存の設定値を確認します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:309
 msgid ""
 "If buildType attribute is ``\"debug\"`` or ``\"release\"``, the plugin will "
 "look in ``build-debug.xcconfig`` or ``build-release.xcconfig`` respectively."
-msgstr ""
+msgstr "buildType 属性が ``\"debug\"`` の場合には ``build-debug.xcconfig``、``\"release\"`` の場合には ``build-release.xcconfig`` を上書きします。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:310
 msgid ""
 "If buildType is not specified or set to ``\"none\"``, the plugin will look "
 "in ``build.xcconfig``."
-msgstr ""
+msgstr "buildType が指定されていない場合、または、``\"none\"`` に設定されている場合、``build.xcconfig`` を上書きします。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:312
 msgid ""
@@ -26445,7 +26445,7 @@ msgid ""
 " To prevent the plugin from overwriting the value of a specific preference "
 "in the corresponding ``.xcconfig`` file, set the preference attribute "
 "``xcconfigEnforce=\"false\"``. For example:"
-msgstr ""
+msgstr "デフォルトでは、``config.xml`` 内に記述されている preference の name と一致する設定が、``.xcconfig`` ファイル内に存在する場合、``config.xml`` 側に記述されている値を使用して、``.xcconfig`` 側の値が上書きされます。このような上書き処理を無効にする場合には、``xcconfigEnforce=\"false\"`` 属性を、preference に設定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:318
 msgid ""
@@ -26453,7 +26453,7 @@ msgid ""
 "``.xcconfig`` file, you can force its addition by setting the preference "
 "attribute ``xcconfigEnforce=\"true\"``. This will append it to the "
 "corresponding ``.xcconfig`` file. For example:"
-msgstr ""
+msgstr "preference に設定した値が、対応する ``.xcconfig`` ファイル内に存在しない場合は、``xcconfigEnforce=\"true\"`` 属性を使用すれば、強制的に、ファイルに設定を追加できます。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:324
 msgid ""
@@ -26462,43 +26462,43 @@ msgid ""
 "restored prior to the next prepare operation. Auto-restore of the backups "
 "can be disabled by setting ``<preference name=\"cordova-custom-config-"
 "autorestore\" value=\"false\" />`` in the ``config.xml``."
-msgstr ""
+msgstr "更新された ``.xcconfig`` ファイルのバックアップが、``plugins/cordova-custom-config/backup/ios`` 下に作成されます。デフォルトでは、prepare コマンドを次に実行するときに、バックアップファイルが適用されます。この自動リストア機能を無効にする場合には、``<preference name=\"cordova-custom-config-autorestore\" value=\"false\" />`` に設定します ( ``config.xml`` 内 )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:326
 msgid ""
 "Preference names and values will not be quote-escaped in ``.xcconfig`` "
 "files, so the ``quote`` attribute has no effect on them."
-msgstr ""
+msgstr "``.xcconfig`` への適用後でも、preference で指定している name と その値には、クォーテーションは付記されません。よって、``quote`` 属性を設定しても、無視されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:330
 msgid "CODE_SIGN_IDENTITY preferences"
-msgstr ""
+msgstr "CODE_SIGN_IDENTITY 設定用の preference"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:332
 msgid ""
 "Cordova places its default CODE_SIGN_IDENTITY for Release builds in build-"
 "release.xcconfig but for Debug builds in ``build.xcconfig``."
-msgstr ""
+msgstr "Cordova では、リリースビルド向けの CODE_SIGN_IDENTITY は、build-release.xcconfig に置かれます。一方、デバッグビルド向けの場合は、``build.xcconfig`` に置かれます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:334
 msgid ""
 "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
 "``buildType=\"release\"``, the plugin will overwrite the defaults in "
 "``build-release.xcconfig``. For example:"
-msgstr ""
+msgstr "``buildType=\"release\"`` を指定して、CODE_SIGN_IDENTITY 用の preference を設定した場合 ( ``config.xml`` 内 )、``build-release.xcconfig`` 内に記述されているデフォルト設定が上書きされます。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:340
 msgid ""
 "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
 "``buildType=\"debug\"``, the plugin will overwrite the defaults in "
 "``build.xcconfig``. For example:"
-msgstr ""
+msgstr "``buildType=\"debug\"`` を指定して、CODE_SIGN_IDENTITY 用の preference を設定した場合 ( ``config.xml`` 内 )、``build.xcconfig`` 内に記述されているデフォルト設定が上書きされます。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:346
 msgid ""
 "You can prevent the CODE_SIGN_IDENTITY preferences being overwritten by "
 "setting ``xcconfigEnforce=\"false\"``. For example:"
-msgstr ""
+msgstr "上記のような上書き処理を無効にする場合には、``xcconfigEnforce=\"false\"`` を設定します。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:352
 msgid ""
@@ -26508,11 +26508,11 @@ msgid ""
 "``xcconfigEnforce=\"true\"``. This will still override the defaults in "
 "``build.xcconfig``, because ``build-debug.xcconfig`` overrides "
 "``build.xcconfig``. For example:"
-msgstr ""
+msgstr "``buildType=\"debug\"`` に設定した場合、``xcconfigEnforce=\"true\"`` にして、``build.xcconfig`` 内のデフォルト設定を上書きするか、または、``build.xcconfig`` ではなく、``build-debug.xcconfig`` 内に CODE_SIGN_IDENTITY を新規に挿入することもできます。ただし、このような 2 番目の処理をしても、``build-debug.xcconfig`` の設定を使用して、``build.xcconfig`` 内の設定が後から更新されるため、結局は、``build.xcconfig`` 内のデフォルト設定は上書きされます。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:359
 msgid "iOS Config Blocks"
-msgstr ""
+msgstr "iOS 向けの config-file ブロック"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:361
 msgid ""
@@ -26520,66 +26520,66 @@ msgid ""
 " project ``.plist`` file "
 "(``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``). This element "
 "has 3 attributes such as:"
-msgstr ""
+msgstr "``<config-file>`` 要素を使用して、カスタマイズ設定を適用できる対象は、現在、プロジェクトの ``.plist`` ファイル (``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``) だけです。次の 3 種類の属性を使用できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:363
 msgid "``target``: should be set to ``*-Info.plist``."
-msgstr ""
+msgstr "``target``: ``*-Info.plist`` を指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:364
 msgid "``platform``: should be set to ``ios``."
-msgstr ""
+msgstr "``platform``: ``ios`` を指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:365
 msgid ""
 "``parent``: is used to determine which key name to use for the custom "
 "preference."
-msgstr ""
+msgstr "``parent``: カスタマイズ設定を適用する key 名を指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:374
 msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
-msgstr ""
+msgstr "上記の内容を使用した場合、``{PROJECT_NAME}-Info.plist`` は次のようになります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:385
 msgid ""
 "The value of the preference is set by the child elements of the ``<config-"
 "file>`` element. These will appear directly below the preference ``<key>`` "
 "in the ``.plist`` file."
-msgstr ""
+msgstr "カスタマイズする設定の値には、``<config-file>`` 要素内の子要素が適用されます。``.plist`` ファイル内の対応する ``<key>`` 下に、子要素の内容が置かれます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:397
 msgid "will appear in the ``plist`` file as:"
-msgstr ""
+msgstr "``plist`` ファイルでは、次のようになります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:409
 msgid "iOS Example"
-msgstr ""
+msgstr "例"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:411
 msgid "Below is an example of a ``config.xml`` file for iOS configuration:"
-msgstr ""
+msgstr "``config.xml`` ファイル内の iOS 向けの設定のサンプルを、次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:475
 msgid "Plugin Preferences"
-msgstr ""
+msgstr "プラグインの制御 ( preference を使用 ) "
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:477
 msgid ""
 "The plugin supports some preferences which are used to customise the "
 "behaviour of the plugin. Each preference name is prefixed with ``cordova-"
 "custom-config`` to avoid name clashes. For example:"
-msgstr ""
+msgstr "このプラグインでは、プラグインの動作をカスタマイズするため、数種類の preference を用意しています。各 preference の name には、他の name との競合を避けるため、``cordova-custom-config`` が先頭に付記されています。次に例を記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:483
 msgid "The following preferences are currently supported:"
-msgstr ""
+msgstr "次の preference が使用できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:485
 msgid ""
 "``cordova-custom-config-autorestore``: (set to ``false`` by default) if set "
 "to ``true``, the plugin will restore a backup of platform configuration "
 "files taken at plugin installation time."
-msgstr ""
+msgstr "``cordova-custom-config-autorestore``: ( デフォルトでは、``false`` ) ``true`` に設定された場合、変更前の設定情報にロールバックします ( このプラグインのインストール時に、すべてのプラットフォームの設定ファイルがバックアップされています )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:486
 msgid ""
@@ -26589,7 +26589,7 @@ msgid ""
 "operation to fail. If false, the plugin will log the error but will proceed "
 "and attempt to update any other platforms, before allowing the prepare "
 "operation to continue."
-msgstr ""
+msgstr "``cordova-custom-config-stoponerror``: ( デフォルトでは、``false`` ) ``true`` に設定された場合、``prepare`` コマンドの実行時 ( Cordova CLI のコマンド )、指定されたプラットフォームの設定ファイルを更新するときに、エラーが発生し、``prepare`` 処理が失敗します。false の場合、処理は継続して行われますが、エラーをログに出力されます。また、このとき、prepare 処理を継続する場合には、他のプラットフォームの設定ファイルも更新する必要があります。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"

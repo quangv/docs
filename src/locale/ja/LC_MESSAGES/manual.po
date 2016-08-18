@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-17 09:18+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-18 01:09+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4688,73 +4688,73 @@ msgstr "Monaca アプリのフォルダー・ファイル構成は、次のよ�
 
 #: ../doc/manual/dependencies/file_dir.rst:9
 msgid "*For Cordova 5.2 or lower*"
-msgstr ""
+msgstr "*Cordova 5.2 以前の場合*"
 
 #: ../doc/manual/dependencies/file_dir.rst:12
 msgid "``android/``"
-msgstr ""
+msgstr "``android/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:12
 msgid "Storage folder for Android application settings"
-msgstr ""
+msgstr "Android アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:13
 #: ../doc/manual/dependencies/file_dir.rst:22
 msgid "``chrome/``"
-msgstr ""
+msgstr "``chrome/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:13
 #: ../doc/manual/dependencies/file_dir.rst:22
 msgid "Storage folder for Chrome application settings"
-msgstr ""
+msgstr "Chrome アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:14
 msgid "``ios/``"
-msgstr ""
+msgstr "``ios/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:14
 msgid "Storage folder for iOS application settings"
-msgstr ""
+msgstr "iOS アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:15
 #: ../doc/manual/dependencies/file_dir.rst:25
 msgid "``www/``"
-msgstr ""
+msgstr "``www/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:15
 #: ../doc/manual/dependencies/file_dir.rst:25
 msgid "Storage folder for the main body of the application"
-msgstr ""
+msgstr "アプリの骨格となるファイル ( 群 ) を保存しているフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:16
 #: ../doc/manual/dependencies/file_dir.rst:26
 msgid "``config.xml``"
-msgstr ""
+msgstr "``config.xml``"
 
 #: ../doc/manual/dependencies/file_dir.rst:16
 #: ../doc/manual/dependencies/file_dir.rst:26
 msgid "Cordova configuration file"
-msgstr ""
+msgstr "Cordova の設定ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:19
 msgid "*For Cordova 6.2 or higher*"
-msgstr ""
+msgstr "*Cordova 6.2 以降の場合*"
 
 #: ../doc/manual/dependencies/file_dir.rst:23
 msgid "``plugins/``"
-msgstr ""
+msgstr "``plugins/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:23
 msgid "Storage folder for additional plugins"
-msgstr ""
+msgstr "追加のプラグインを保存しておくフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:24
 msgid "``res/``"
-msgstr ""
+msgstr "``res/``"
 
 #: ../doc/manual/dependencies/file_dir.rst:24
 msgid "Resources folder for Android, iOS and Winrt"
-msgstr ""
+msgstr "Android、iOS、Winrt 向けの各リソースを保存しているフォルダー"
 
 #: ../doc/manual/dependencies/file_dir.rst:32
 msgid "android Folder"
@@ -4784,7 +4784,7 @@ msgid ""
 "For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from "
 "Monaca framework. Therefore, in order to config Android application "
 "settings, use :ref:`custom_config_plugin`."
-msgstr ""
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``AndroidManifest.xml`` ファイルを使用しないように、仕様が変更されました。よって、Android アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
 
 #: ../doc/manual/dependencies/file_dir.rst:45
 msgid "chrome Folder"
@@ -4838,7 +4838,7 @@ msgid ""
 "For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from "
 "Monaca framework. Therefore, in order to config iOS application settings, "
 "use :ref:`custom_config_plugin`."
-msgstr ""
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``MonacaApp-Info.plist`` ファイルを使用しないように、仕様が変更されました。よって、iOS アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
 
 #: ../doc/manual/dependencies/file_dir.rst:71
 msgid "www Folder"
@@ -4922,41 +4922,41 @@ msgstr "各コンポーネントのフォルダーは、``www/components/`` フ�
 
 #: ../doc/manual/dependencies/file_dir.rst:103
 msgid "config.xml File"
-msgstr ""
+msgstr "config.xml ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:105
 msgid ""
 "The :file:`config.xml` file is a settings file controlling various settings "
 "of Cordova. Please refer to the following documentations regarding how to "
 "edit :file:`config.xml` file for Android and iOS:"
-msgstr ""
+msgstr ":file:`config.xml` には、Cordova の挙動を制御するための設定が定義されています。:file:`config.xml` ファイルを使用した、Android アプリと iOS アプリ向けの設定は、次のリンク先をご確認ください。"
 
 #: ../doc/manual/dependencies/file_dir.rst:107
 msgid ":ref:`config.xml for Android <config_xml_android>`"
-msgstr ""
+msgstr ":ref:`Android 向けの config.xml の設定 <config_xml_android>`"
 
 #: ../doc/manual/dependencies/file_dir.rst:108
 msgid ":ref:`config.xml for iOS <config_xml_ios>`"
-msgstr ""
+msgstr ":ref:`iOS 向けの config.xml の設定 <config_xml_ios>`"
 
 #: ../doc/manual/dependencies/file_dir.rst:110
 msgid ""
 "For Cordova 6.2 or higher, ``config.xml`` file is also used to config either"
 " Android or iOS application settings. Please refer to "
 ":ref:`custom_config_plugin`."
-msgstr ""
+msgstr "Cordova 6.2 以降では、Android アプリまたは iOS アプリの挙動を制御するときにも、``config.xml`` が使用されます。詳細は、:ref:`custom_config_plugin` をご確認ください。"
 
 #: ../doc/manual/dependencies/file_dir.rst:117
 msgid ":ref:`custom_config_plugin`"
-msgstr ""
+msgstr ":ref:`custom_config_plugin`"
 
 #: ../doc/manual/dependencies/file_dir.rst:118
 msgid ":ref:`ios_configuration_file`"
-msgstr ""
+msgstr ":ref:`ios_configuration_file`"
 
 #: ../doc/manual/dependencies/file_dir.rst:119
 msgid ":ref:`android_configuration_file`"
-msgstr ""
+msgstr ":ref:`android_configuration_file`"
 
 #: ../doc/manual/dependencies/index.rst:5
 msgid "Project Dependencies"
