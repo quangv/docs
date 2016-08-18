@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-18 03:02+0000\n"
+"PO-Revision-Date: 2016-08-18 05:42+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -26222,7 +26222,7 @@ msgstr "``<widget>`` 要素は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:120
 msgid "XPath Preferences"
-msgstr ""
+msgstr "XPath を使用した Preference の記法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:122
 msgid ""
@@ -26231,31 +26231,31 @@ msgid ""
 "preference name should be prefixed with ``android-manifest`` then follow "
 "with an XPath which specifies the element and attribute to apply the value "
 "to. For example,"
-msgstr ""
+msgstr "Android のマニフェストに適用する preference には、XPath も使用できます。preference の name に、要素と属性を指定して、カスタマイズ設定の適用先を示します。具体的には、preference の name に設定する値には、``android-manifest`` を先頭に付け、その後ろに、XPath 形式で要素と属性を指定して、value の値の適用先となる場所を示します。記述の例を次に記します。 "
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:128
 msgid ""
 "This preference specifies that the ``launchMode`` attribute should be given "
 "a value of ``singleTask`` which will be resulted as:"
-msgstr ""
+msgstr "上記の preference を適用すると、``launchMode`` 属性には、``singleTask`` が設定されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:135
 msgid ""
 "If your manifest contains other activities, you should specify the activity "
 "name in the XPath. For example:"
-msgstr ""
+msgstr "manifest 内に、複数の activity が存在する場合、XPath の記述内にも、activity の name を指定します。記述の例を次に記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:141
 msgid ""
 "The activity name for Cordova 4.2.0 and below was ``\"CordovaApp\"`` whereas"
 " Cordova 4.3.0 and above is ``\"MainActivity\"``."
-msgstr ""
+msgstr "Cordova 4.2.0 以前のバージョンでは、プロジェクトの作成時、activity の name には、``\"CordovaApp\"`` が使用されていました。Cordova 4.3.0 以降では、``\"MainActivity\"`` となります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:143
 msgid ""
 "If the attribute you are setting is on the root ``<manifest>`` element, just"
 " omit the element name and specify the attribute. For example:"
-msgstr ""
+msgstr "``<manifest>`` 要素 ( ルート要素 ) 内にある属性を適用先とする場合、要素名は省略でき、属性だけを指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:151
 msgid "Android Config Blocks"
@@ -26282,7 +26282,7 @@ msgid ""
 "``parent``: defines an Xpath to the parent element in the "
 "``AndroidManifest.xml`` under which the XML subtree block should be "
 "inserted."
-msgstr ""
+msgstr "``parent``: XPath の記法を使用して、``AndroidManifest.xml`` 内の親となる要素を指定します。この要素下に、XML のサブツリーとして、指定された値が挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:160
 msgid ""
@@ -26295,7 +26295,7 @@ msgid ""
 "to insert a block under a descendant of ``<manifest>``, use an Xpath "
 "prefixed with ``./``. For example, ``parent=\"./application/activity\"`` "
 "will insert the block under ``/manifest/application/activity``."
-msgstr ""
+msgstr "``<manifest>`` の子孫ノード下にブロックを挿入する場合には、``./`` 形式の記法も使用できます。たとえば、``parent=\"./application/activity\"`` を指定した場合、``/manifest/application/activity`` 下に、ブロックが挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:172
 msgid "will result in ``AndroidManifest.xml`` with:"
@@ -26417,7 +26417,7 @@ msgid ""
 "values. ``build.xcconfig`` is overriden by settings in ``build-"
 "debug.xcconfig`` and ``build-release.xcconfig`` for the corresponding build "
 "type."
-msgstr ""
+msgstr "Cordova では、``/platforms/ios/cordova/`` の ``.xcconfig`` を使用して、Xcode プロジェクトの ``project.pbxproj`` 内の設定を上書きします ( ビルドの種類に応じて、使用するファイルおよび適用先の場所が変わります )。また、``build.xcconfig`` の内容は、指定されたビルドの種類に応じて、``build-debug.xcconfig`` または ``build-release.xcconfig`` を適用して、上書きされます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:307
 msgid ""

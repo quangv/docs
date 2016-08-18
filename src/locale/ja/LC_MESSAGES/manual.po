@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-18 04:00+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-18 05:53+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,7 +623,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:11
-#: ../doc/manual/monaca_ci/overview.rst:23
+#: ../doc/manual/monaca_ci/overview.rst:31
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -8847,135 +8847,135 @@ msgid ""
 "a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__."
 msgstr "Monaca アカウント。`こちら <https://monaca.mobi/ja/register/start>`__ から登録できます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:30
+#: ../doc/manual/development/monaca_ide/version_control.rst:31
 msgid "GitHub Integration"
 msgstr "GitHub との連携"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:35
+#: ../doc/manual/development/monaca_ide/version_control.rst:36
 msgid "Link Monaca Account to GitHub"
 msgstr "Monaca アカウントと GitHub アカウントとの連携"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:37
-#: ../doc/manual/development/monaca_ide/version_control.rst:139
-#: ../doc/manual/development/monaca_ide/version_control.rst:172
+#: ../doc/manual/development/monaca_ide/version_control.rst:38
+#: ../doc/manual/development/monaca_ide/version_control.rst:142
+#: ../doc/manual/development/monaca_ide/version_control.rst:175
 msgid ""
 "Log into `Monaca Cloud IDE <https://monaca.mobi/en/login>`_ with your Monaca"
 " account."
 msgstr "Monaca アカウントを使用して、`Monaca クラウド IDE <https://monaca.mobi/ja/login>`_ にログインします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:39
+#: ../doc/manual/development/monaca_ide/version_control.rst:40
 msgid "Go to :menuselection:`Your profile name --> GitHub Integration`."
 msgstr "ダッシュボード画面の右上の :menuselection:`開発者のプロフィール名 --> GitHub 連携` を選択します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:48
+#: ../doc/manual/development/monaca_ide/version_control.rst:49
 msgid ""
 "Click on :guilabel:`Link` button. You are required to login with your GitHub"
 " account before being redirected to GitHub's Authorize Application page."
 msgstr ":guilabel:`連携する` ボタンをクリックします。GitHub にログインする必要があります。ログイン後またはログイン済みであれば、GitHub の [ Authorize application ] ページが表示されます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:56
+#: ../doc/manual/development/monaca_ide/version_control.rst:57
 msgid ""
 "In the Authorize Application page, you will be asked to authorize the "
 "application in order to link Monaca account to GitHub. Click on "
 ":guilabel:`Authorize application` to proceed."
 msgstr "[ Authorize application ] ページでは、Monaca と GitHub の連携に必要となる認証手続きを行います。:guilabel:`Authorize application` ( アプリケーションの認証 ) をクリックして、先に進みます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:65
+#: ../doc/manual/development/monaca_ide/version_control.rst:66
 msgid "Now your Monaca account is successfully linked to your GitHub account."
 msgstr "ここまでの手順で、Monaca アカウントと GitHub アカウントの連携が完了しました。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:74
+#: ../doc/manual/development/monaca_ide/version_control.rst:75
 msgid ""
 "Please note that you can only link one GitHub account to a Monaca account. "
 "If you try to link with multiple accounts, you will encounter an error."
 msgstr "1 つの GitHub アカウントに対して、1 つの Monaca アカウントのみ、連携を行えます。「 一対多数 」 の設定はできません。設定した場合、エラーになります。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:78
+#: ../doc/manual/development/monaca_ide/version_control.rst:79
 msgid "Unlink Monaca Account from GitHub"
 msgstr "Monaca アカウントと GitHub アカウントとの連携の解除"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:80
+#: ../doc/manual/development/monaca_ide/version_control.rst:81
 msgid ""
 "If you want to unlink your Monaca account from GitHub, just click on "
 ":guilabel:`Unlink` button in Link to GitHub page."
 msgstr "Monaca アカウントと GitHub アカウントとの連携を解除する場合、[ GitHub アカウント連携 ] ページ上で :guilabel:`連携を解除する` ボタンをクリックします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:90
+#: ../doc/manual/development/monaca_ide/version_control.rst:91
 msgid "Unable to Re-link to GitHub"
 msgstr "GitHub との再度の連携時にエラーが発生した場合"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:92
+#: ../doc/manual/development/monaca_ide/version_control.rst:93
 msgid ""
 "If you accidentally revoke Monaca access with Github account, attempt to re-"
 "link with the steps described in :ref:`link_monaca_to_github` will not be "
 "possible. You will see the following error:"
 msgstr "Monaca と GitHub の連携をいったん解除して、再び、上記の :ref:`link_monaca_to_github` に従い、連携を行ったところ、次のようなエラーが表示される場合があります。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:101
+#: ../doc/manual/development/monaca_ide/version_control.rst:102
 msgid ""
 "Therefore, in order to re-link your account in this case, please do as "
 "follows:"
 msgstr "この場合、次の手順に従います。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:103
+#: ../doc/manual/development/monaca_ide/version_control.rst:104
 msgid "Logout from Monaca Cloud IDE."
 msgstr "Monaca Cloud IDE から、いったんログアウトします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:105
+#: ../doc/manual/development/monaca_ide/version_control.rst:106
 msgid ""
 "Go to `Monaca Login <https://monaca.mobi/en/login>`_ page and choose "
 ":guilabel:`Sign in with GitHub`."
 msgstr "`Monaca ログイン <https://monaca.mobi/ja/login>`_ ページに移動して、:guilabel:`Sign In With GitHub` をクリックします。 "
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:113
+#: ../doc/manual/development/monaca_ide/version_control.rst:114
 msgid "Fill in your GitHub account information."
 msgstr "GitHub のアカウント情報を入力します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:115
+#: ../doc/manual/development/monaca_ide/version_control.rst:116
 msgid ""
 "Then, you will be redirected to GitHub's Authorize Application page. Click "
 "on :guilabel:`Authorize application` to proceed."
 msgstr "GitHub の [ Authorize application ] ページにリダイレクトされます。:guilabel:`Authorize application` ボタンをクリックして、先に進みます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:123
+#: ../doc/manual/development/monaca_ide/version_control.rst:124
 msgid ""
 "After this, your Monaca account should be successfully linked to GitHub "
 "account. You can confirm in the Link to GitHub page. It should appear like "
 "this:"
 msgstr "ここまでの手順を行えば、Monaca と GitHub が再び連携されています。[ GitHub アカウント連携 ] ページに移動して、次のような画面が表示されていることを確認します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:133
+#: ../doc/manual/development/monaca_ide/version_control.rst:136
 msgid "Version Control Configuration"
 msgstr "バージョン管理設定"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:135
+#: ../doc/manual/development/monaca_ide/version_control.rst:138
 msgid ""
 "Assuming that you have successfully integrated your Monaca account to GitHub"
 " account, you need to do some configurations in Monaca Cloud IDE in order to"
 " connect your project to your repository."
 msgstr "連携完了後、次に、レポジトリとプロジェクトを接続させるため、Monaca クラウド IDE 側で行う設定があります。なお、ここでは、Monaca と GitHub 間の連携が完了していることを前提に解説します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:137
+#: ../doc/manual/development/monaca_ide/version_control.rst:140
 msgid "Please follow the configuration instruction below:"
 msgstr "次の手順に従い、設定を行います。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:141
+#: ../doc/manual/development/monaca_ide/version_control.rst:144
 msgid "Open a project you want to connect to a repository."
 msgstr "レポジトリに置くプロジェクトを開きます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:143
+#: ../doc/manual/development/monaca_ide/version_control.rst:146
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Configure...`."
 msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> 設定...` を選択します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:145
+#: ../doc/manual/development/monaca_ide/version_control.rst:148
 msgid ""
 "Then, Monaca will list all of your empty GitHub repositories. If you do not "
 "have any empty repositories yet, you will be asked to create one."
 msgstr "GitHub 上に空のリポジトリが置かれている場合、ドロップダウン形式でその一覧が表示されます。空のレポジトリが存在しない場合には、表示された画面上で作成します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:147
+#: ../doc/manual/development/monaca_ide/version_control.rst:150
 msgid ""
 "Only an empty repository can be used to connect to a Monaca project.  An "
 "empty repository is a repository that has not been initialized with any "
@@ -8983,14 +8983,14 @@ msgid ""
 " to another repository after configuration."
 msgstr "Monaca プロジェクトとレポジトリを紐づけする場合には、空のレポジトリのみ使用できます。また、一度、紐づけすると、レポジトリは変更できませんのでご注意ください。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:155
+#: ../doc/manual/development/monaca_ide/version_control.rst:158
 msgid ""
 "Once you have an empty repository in GitHub, you are now able to select your"
 " remote repository. Then, click on :guilabel:`Initialize` button to save the"
 " configuration."
 msgstr "GitHub 上に空のレポジトリを作成した後、次に、作成したリポジトリを選択します。上記の手順を再度行い、[ バージョン管理設定 ] の [ リモートリポジトリ設定 ] ページに移動して、リポジトリの選択後、:guilabel:`設定する` ボタンをクリックします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:163
+#: ../doc/manual/development/monaca_ide/version_control.rst:166
 msgid ""
 "Your project is then being uploaded to your new repository in GitHub. By "
 "default, your working branch will be configured as master. If you want to "
@@ -8998,28 +8998,28 @@ msgid ""
 " page (:menuselection:`Version Control --> Configure...`)."
 msgstr "クリックすると、GitHub 上の新規のレポジトリにプロジェクトがアップロードされます。使用できるブランチは、デフォルトでは、master となります。他のブランチに切り替える場合には、[ バージョン管理設定 ] ページへ移動します ( :menuselection:`バージョン管理 --> 設定...` を選択 )。なお、ブランチはあらかじめ作成しておく必要があります。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:168
+#: ../doc/manual/development/monaca_ide/version_control.rst:171
 msgid "Import Existing Project from GitHub Repository"
 msgstr "既存のプロジェクトを GitHub レポジトリからインポートする場合"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:170
+#: ../doc/manual/development/monaca_ide/version_control.rst:173
 msgid ""
 "Once you have linked your Monaca account with GitHub, you can import any "
 "existing projects from GitHub repositories to Monaca Cloud IDE."
 msgstr "Monaca と GitHub の連携後、GitHub レポジトリ―に置かれているプロジェクトを、Monaca クラウド IDE にインポートすることもできます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:174
+#: ../doc/manual/development/monaca_ide/version_control.rst:177
 msgid "From Dashboard, go to :menuselection:`Import Project`."
 msgstr "ダッシュボード上で、:menuselection:`Import Project` を選択します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:176
+#: ../doc/manual/development/monaca_ide/version_control.rst:179
 msgid ""
 "In Import Project dialog, fill in the necessary information and choose "
 "``Import from GitHub Repository``. Then, select the repository and click on "
 ":guilabel:`Import` button."
 msgstr "[ プロジェクトのインポート ] ダイアログが表示されます。必要な情報の入力後、``GitHub のレポジトリからインポート`` を選択します。次に、対象のレポジトリを選択して、 :guilabel:`インポート` ボタンをクリックします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:184
+#: ../doc/manual/development/monaca_ide/version_control.rst:187
 msgid ""
 "If the import is successful, the new project will be added to Monaca "
 "Dashboard. By default, master branch will be applied to the imported "
@@ -9027,47 +9027,47 @@ msgid ""
 "Configuration page (:menuselection:`Version Control --> Configure...`)."
 msgstr "インポートの完了後、Monaca ダッシュボード上で対象のプロジェクトが表示されていることを確認します。デフォルトでは、master ブランチのコンテンツがインポート対象となります。ブランチは、[ バージョン管理設定 ] ページ上で切り替えることができます ( :menuselection:`バージョン管理 --> 設定...` )。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:188
+#: ../doc/manual/development/monaca_ide/version_control.rst:191
 msgid "Working with Remotes"
 msgstr "リモートリポジトリを使用した作業"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:190
+#: ../doc/manual/development/monaca_ide/version_control.rst:193
 msgid ""
 "Once you have successfully connected your project with a repository, you can"
 " start working on the same project with your team members and keep it "
 "synchronized to the latest updates in Monaca Cloud IDE."
 msgstr "プロジェクトとレポジトリ間の接続完了後、Monaca クラウド IDE 上で行った作業は、リモートのレポジトリの方にも随時反映できます。これで、他のプロジェクト参加メンバーとも共同で作業ができます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:192
+#: ../doc/manual/development/monaca_ide/version_control.rst:195
 msgid ""
 "Monaca Cloud IDE provides a very user-friendly interface supporting version "
 "control of your code. Without learning Git from the scratch, you can still "
 "perform some basic Git commands directly from the IDE."
 msgstr "Monaca クラウド IDE では、ユーザーフレンドリーなバージョン管理用のインターフェイスを提供しています。このインターフェイスを使用すれば、Git のコマンドの詳細を意識せずに、基本的な操作を一通り行うことができます。 "
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:196
+#: ../doc/manual/development/monaca_ide/version_control.rst:199
 msgid "Checkout Current Working Branch"
 msgstr "ブランチの切り替え ( Git コマンドの checkout ) "
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:198
+#: ../doc/manual/development/monaca_ide/version_control.rst:201
 msgid ""
 "If you have more than one branch and want to switch the current working "
 "branch, please do as follows:"
 msgstr "複数のブランチを使用したプロジェクトで、ブランチの切り替えを行う場合は、次の手順に従います。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:200
+#: ../doc/manual/development/monaca_ide/version_control.rst:203
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Configure`."
 msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> 設定` を選択します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:202
+#: ../doc/manual/development/monaca_ide/version_control.rst:205
 msgid ""
 "Choose the branch you want to switch to from current working branch, and "
 "click :guilabel:`Save` button."
 msgstr "[ ブランチ ] 項目でブランチを切り替え、:guilabel:`アップデート` ボタンをクリックします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:210
+#: ../doc/manual/development/monaca_ide/version_control.rst:213
 msgid ""
 "You will get an error message if you try to checkout to a new branch while "
 "you have not committed changes on the current working branch yet. Please "
@@ -9075,11 +9075,11 @@ msgid ""
 "branch."
 msgstr "現在のブランチで行った変更をコミットせずに、ブランチの切り替えを行う場合、エラーが表示されます。ブランチを切り替える場合には、最初に、作業内容をコミット ( 場合によっては、リモートにプッシュまで ) してください。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:214
+#: ../doc/manual/development/monaca_ide/version_control.rst:217
 msgid "Retrieve Changes from Remotes"
 msgstr "リモートリポジトリから最新の内容を取得"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:216
+#: ../doc/manual/development/monaca_ide/version_control.rst:219
 msgid ""
 "If you are familiar with Git commands, retrieve changes from remotes here "
 "refers to ``git pull`` command. In order to retrieve the changes from "
@@ -9088,48 +9088,48 @@ msgid ""
 "updates in your working branch."
 msgstr "Git コマンドでは、リモートリポジトリから最新の情報を取得・ダウンロードする場合、``git pull`` ( git プル ) コマンドを使用します。Monaca クラウド IDE では、リモートリポジトリから最新の情報を取得する場合、Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> プル` を選択します。リモートリポジトリ側の内容が更新されている場合、その内容がダウンロードされ、対応するブランチ側に反映されます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:218
+#: ../doc/manual/development/monaca_ide/version_control.rst:221
 msgid ""
 "When you create a project in IDE, Monaca keeps all the files in "
 ":guilabel:`www` folder. Files outside of this folder are also synced even "
 "though they will not appear in the IDE."
 msgstr "IDE 上でプロジェクトを作成した場合、開発者側が自由に作業できるファイルのほとんどは、:guilabel:`www` フォルダー内に置かれています。これ以外にも、IDE 上には表示されないシステム側のファイルもありますが、リモートリポジトリとの同期時には、これらのファイルも一緒にアップロード・ダウンロードされています。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:223
+#: ../doc/manual/development/monaca_ide/version_control.rst:226
 msgid "Commit Changes to Remotes"
 msgstr "変更箇所のコミットとリモートリポジトリへの反映"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:225
+#: ../doc/manual/development/monaca_ide/version_control.rst:228
 msgid ""
 "After making changes in the current working branch, you are able to commit "
 "them back to your remote repository. To commit your changes, please do as "
 "follows:"
 msgstr "現在作業をしているブランチで行った変更を、リモートリポジトリ側に反映させます。最初に、次の手順に従い、コミットを行い、リモートリポジトリ側へプッシュします ( コミット前に、ファイルを保存する必要があります )。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:227
+#: ../doc/manual/development/monaca_ide/version_control.rst:230
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Version Control --> "
 "Commit`."
 msgstr "Monaca クラウド IDE のメニューから、:menuselection:`バージョン管理 --> コミット` を選択します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:229
+#: ../doc/manual/development/monaca_ide/version_control.rst:232
 msgid ""
 "Fill in your commit message and check files you want to commit. Then, click "
 "on :guilabel:`Commit` button."
 msgstr "コミットメッセージを入力して、コミット対象のファイルにチェックを入れます。次に、:guilabel:`コミット` ボタンをクリックします。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:231
+#: ../doc/manual/development/monaca_ide/version_control.rst:234
 msgid ""
 "Once you are ready to push those updates to the remote repository, select "
 ":menuselection:`Version Control --> Push`. Once it is successfully pushed, "
 "your remotes will contain latest changes made in Monaca Cloud IDE."
 msgstr "ここまでの手順で、リモートリポジトリに更新を反映させる準備ができました。次に、:menuselection:`バージョン管理 --> プッシュ` を選択します。コミット後、リモートリポジトリ側が更新されているか確認します。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:235
+#: ../doc/manual/development/monaca_ide/version_control.rst:238
 msgid "Show Remote Commit History"
 msgstr "リモートリポジトリ側のコミット履歴の表示 ( GitHub 側の履歴ページ )"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:237
+#: ../doc/manual/development/monaca_ide/version_control.rst:240
 msgid ""
 "In order to see full history of your previous commits in remote repository, "
 "go to :menuselection:`Version Control --> Show Remote History`. You will be "
@@ -9137,11 +9137,11 @@ msgid ""
 "history of your current branch."
 msgstr "リモートリポジトリ側 ( GitHub 側 ) のコミット履歴を確認する場合、:menuselection:`バージョン管理 --> リモートのコミット履歴` を選択します。現在作業しているブランチのコミット履歴が表示された、GitHub 側のサイト ( 外部ページ ) にリダイレクトされます。"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:241
+#: ../doc/manual/development/monaca_ide/version_control.rst:244
 msgid "Show Local Commit History"
 msgstr "ローカルコミットの履歴表示 ( Monaca クラウド IDE 側の履歴ページ )"
 
-#: ../doc/manual/development/monaca_ide/version_control.rst:243
+#: ../doc/manual/development/monaca_ide/version_control.rst:246
 msgid ""
 "Every commit you made in your Monaca Cloud IDE is called Local Commit. You "
 "are able to view your local commit history through :menuselection:`Version "
@@ -10426,13 +10426,13 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:14
-#: ../doc/manual/monaca_ci/overview.rst:25
+#: ../doc/manual/monaca_ci/overview.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:15
-#: ../doc/manual/monaca_ci/overview.rst:27
+#: ../doc/manual/monaca_ci/overview.rst:35
 #: ../doc/manual/monaca_ci/supported_services.rst:35
 msgid ":ref:`troubleshooting`"
 msgstr ""
@@ -10441,19 +10441,44 @@ msgstr ""
 msgid ""
 "Monaca CI (Continuous Integration & Deployment) is a service that has been "
 "integrated within the current development environment stack to automate "
-"building and deployment cycle. Monaca CI lets developers focus more on the "
-"code and less on the backend process of building, testing and deploying an "
-"app."
+"building and deployment cycle. It is able to achieve this automation process"
+" by using webhooks that GitHub and may other Git services provides with "
+"every code commit or branch/tag creation."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:13
 msgid ""
-"Monaca CI is able to achieve this automation process by using webhooks that "
-"GitHub and may other Git services provides with every code commit or "
-"branch/tag creation."
+"Monaca CI lets developers focus more on the code and less on the backend "
+"process of building, testing and deploying an app."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:26
+#: ../doc/manual/monaca_ci/overview.rst:19
+msgid ""
+"In order to use Monaca CI, you will to integrate Github with your Monaca "
+"account. If you haven't done it, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:21
+msgid "get a GitHub account. Register `here <https://github.com/join>`_."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:22
+msgid ""
+"link your Monaca account to Github. Please refer to "
+":ref:`github_integration`."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:23
+msgid ""
+"connect your project to your Github repository. Please refer to "
+":ref:`version_control_configuration`."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:27
+msgid "Getting Started with Monaca CI"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:34
 #: ../doc/manual/monaca_ci/supported_services.rst:34
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
