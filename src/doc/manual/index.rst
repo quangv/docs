@@ -10,6 +10,5 @@ In this chapter, features in various Monaca products are described.
   debugger/index
   dependencies/index
   backend/index
-  monaca_ci/index
   build/index
   deploy/index
