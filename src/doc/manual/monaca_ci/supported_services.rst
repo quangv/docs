@@ -11,6 +11,8 @@ Currently Supported Services
 DeployGate
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+DeployGate is a beta-app distribution platform. 
+
 HockeyApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 

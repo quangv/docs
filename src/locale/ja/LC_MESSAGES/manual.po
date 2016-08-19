@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-19 03:22+0000\n"
+"PO-Revision-Date: 2016-08-19 03:56+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -622,9 +622,9 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
-#: ../doc/manual/monaca_ci/json_sample.rst:88
+#: ../doc/manual/monaca_ci/json_sample.rst:90
 #: ../doc/manual/monaca_ci/overview.rst:31
-#: ../doc/manual/monaca_ci/supported_services.rst:31
+#: ../doc/manual/monaca_ci/supported_services.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
 msgstr "*参考ページ*"
@@ -6555,7 +6555,7 @@ msgstr ":dfn:`$ monaca login`"
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:314
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:344
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:356
-#: ../doc/manual/monaca_ci/json_sample.rst:36
+#: ../doc/manual/monaca_ci/json_sample.rst:38
 msgid "Example"
 msgstr "【具体例】"
 
@@ -6968,7 +6968,6 @@ msgid ":dfn:`$ monaca remote build <platform> [options]`"
 msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:341
-#: ../doc/manual/monaca_ci/json_sample.rst:20
 msgid "``platform``"
 msgstr "``platform``"
 
@@ -10429,100 +10428,96 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:14
-msgid "``task_name``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:14
-msgid "The purpose of the build. Valid values are: ``test`` & ``release``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:16
-msgid "``branch``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:16
-msgid "Github branch of the project you want to build."
+#: ../doc/manual/monaca_ci/json_sample.rst:13
+msgid ""
+"----------------- "
+"------------------------------------------------------------------------------------------------------------------"
+" Param               Description ================= "
+"=================================================================================================================="
+" ``task_name``       The purpose of the build. Valid values are: ``test`` & "
+"``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-msgid "``tag``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:18
-msgid "Github tag of the project you want to build."
+msgid "``branch``          Github branch of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
+msgid "``tag``             Github tag of the project you want to build."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:22
 msgid ""
-"The platform you want to build for. Valid values are: ``ios``, ``android`` &"
-" ``winrt``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:22
-msgid "``build``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:22
-msgid "The build type. Valid values are: ``debug`` & ``release``."
+"``platform``        The platform you want to build for. Valid values are: "
+"``ios``, ``android`` & ``winrt``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-msgid "``deploy``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/json_sample.rst:24
-msgid "The deployment service(s) you will use to deliver your app."
+msgid ""
+"``build``           The build type. Valid values are: ``debug`` & "
+"``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
+msgid ""
+"``deploy``          The deployment service(s) you will use to deliver your "
+"app."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:28
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:27
+#: ../doc/manual/monaca_ci/json_sample.rst:29
 msgid ""
 "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:28
+#: ../doc/manual/monaca_ci/json_sample.rst:30
 msgid ""
 "``default``: a block for default parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:29
+#: ../doc/manual/monaca_ci/json_sample.rst:31
 msgid ""
 "``ios``: a block for iOS parameters you may need to use for the deployment "
 "service."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:30
+#: ../doc/manual/monaca_ci/json_sample.rst:32
 msgid ""
 "``android``: a block for Android parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:32
+#: ../doc/manual/monaca_ci/json_sample.rst:34
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:90
-#: ../doc/manual/monaca_ci/supported_services.rst:33
+#: ../doc/manual/monaca_ci/json_sample.rst:35
+msgid ""
+"----------------- "
+"------------------------------------------------------------------------------------------------------------------"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:92
+#: ../doc/manual/monaca_ci/supported_services.rst:35
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:91
+#: ../doc/manual/monaca_ci/json_sample.rst:93
 #: ../doc/manual/monaca_ci/overview.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:92
+#: ../doc/manual/monaca_ci/json_sample.rst:94
 #: ../doc/manual/monaca_ci/overview.rst:35
-#: ../doc/manual/monaca_ci/supported_services.rst:35
+#: ../doc/manual/monaca_ci/supported_services.rst:37
 msgid ":ref:`troubleshooting`"
 msgstr ""
 
@@ -10568,7 +10563,7 @@ msgid "Getting Started with Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:34
-#: ../doc/manual/monaca_ci/supported_services.rst:34
+#: ../doc/manual/monaca_ci/supported_services.rst:36
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
 msgstr ""
@@ -10585,19 +10580,23 @@ msgstr ""
 msgid "DeployGate"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:15
+#: ../doc/manual/monaca_ci/supported_services.rst:14
+msgid "DeployGate is a beta-app distribution platform."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:17
 msgid "HockeyApp"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:18
+#: ../doc/manual/monaca_ci/supported_services.rst:20
 msgid "Upcoming Supported Services"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:21
+#: ../doc/manual/monaca_ci/supported_services.rst:23
 msgid "Test Flight"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:24
+#: ../doc/manual/monaca_ci/supported_services.rst:26
 msgid "Appetize.io"
 msgstr ""
 

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-19 03:24+0000\n"
+"PO-Revision-Date: 2016-08-19 03:51+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -26047,7 +26047,7 @@ msgid ""
 "Android provides hook scripts to update platform configuration files based "
 "on custom preferences and config-file data defined in ``config.xml`` file "
 "that are not supported out-of-the-box by Cordova."
-msgstr "このため、Cordova 6.2 以降をサポートする Monaca フレームワークを使用する場合、iOS または Android アプリの設定をカスタマイズするときには、Custom Config プラグインを使用する必要があります。こちらの Cordova プラグイン ( iOS と Android の両方に使用可 ) を使用すると、フック用のスクリプト ( プラグイン側で提供 ) を経由して、設定ファイルの情報を書き換えることができます。具体的には、``config.xml`` ファイル内に、カスタマイズ用の preference または/および config-file ブロックを記述し、このスクリプト経由で、プラットフォーム側の設定に適用します。"
+msgstr "このため、最新の Monaca フレームワーク ( Cordova 6.2 以降をサポート ) を使用する場合、iOS または Android アプリの設定をカスタマイズするときには、Custom Config プラグインを使用する必要があります。こちらの Cordova プラグイン ( iOS と Android の両方に使用可 ) を使用すると、フック用のスクリプト ( プラグイン側で提供 ) を経由して、設定ファイルの情報を書き換えることができます。具体的には、``config.xml`` ファイル内に、カスタマイズ用の preference または/および config-file ブロックを記述し、このスクリプト経由で、プラットフォーム側の設定に適用します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:16
 msgid ""
@@ -26222,7 +26222,7 @@ msgstr "``<widget>`` 要素は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:120
 msgid "XPath Preferences"
-msgstr "XPath 使用時の preference の記法"
+msgstr "XPath 使用時の preference の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:122
 msgid ""
