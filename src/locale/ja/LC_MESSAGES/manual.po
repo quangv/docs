@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-18 05:53+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-08-19 02:34+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -622,7 +622,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
-#: ../doc/manual/monaca_ci/json_sample.rst:11
+#: ../doc/manual/monaca_ci/json_sample.rst:96
 #: ../doc/manual/monaca_ci/overview.rst:31
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
@@ -4951,7 +4951,7 @@ msgid ""
 "For Cordova 6.2 or higher, ``config.xml`` file is also used to config either"
 " Android or iOS application settings. Please refer to "
 ":ref:`custom_config_plugin`."
-msgstr "Cordova 6.2 以降では、Android アプリまたは iOS アプリの挙動を制御するときにも、``config.xml`` が使用されます。詳細は、:ref:`custom_config_plugin` をご確認ください。"
+msgstr "Cordova 6.2 以降では、Android アプリまたは iOS アプリの挙動を制御するときには、``config.xml`` が使用されます。詳細は、:ref:`custom_config_plugin` をご確認ください。"
 
 #: ../doc/manual/dependencies/file_dir.rst:117
 msgid ":ref:`custom_config_plugin`"
@@ -6580,6 +6580,7 @@ msgstr ":dfn:`$ monaca create path`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
+#: ../doc/manual/monaca_ci/json_sample.rst:8
 msgid "Parameters"
 msgstr "パラメーター"
 
@@ -6967,6 +6968,7 @@ msgid ":dfn:`$ monaca remote build <platform> [options]`"
 msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:341
+#: ../doc/manual/monaca_ci/json_sample.rst:17
 msgid "``platform``"
 msgstr "``platform``"
 
@@ -10416,22 +10418,50 @@ msgid "Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:5
-msgid "JSON Recipe Sample"
+msgid "JSON Recipe Format"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:11
+msgid "``task_name``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:11
+msgid "The purpose of the build. Valid values are: ``test`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:13
+msgid "``branch``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:15
+msgid "``tag``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:19
+msgid "``build``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:21
+msgid "``deploy``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:25
+msgid "JSON Recipe Example"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:98
 #: ../doc/manual/monaca_ci/supported_services.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:14
+#: ../doc/manual/monaca_ci/json_sample.rst:99
 #: ../doc/manual/monaca_ci/overview.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:15
+#: ../doc/manual/monaca_ci/json_sample.rst:100
 #: ../doc/manual/monaca_ci/overview.rst:35
 #: ../doc/manual/monaca_ci/supported_services.rst:35
 msgid ":ref:`troubleshooting`"
@@ -10454,8 +10484,8 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:19
 msgid ""
-"In order to use Monaca CI, you will to integrate Github with your Monaca "
-"account. If you haven't done it, please follow the instruction below:"
+"In order to use Monaca CI, you will need to integrate Github with your "
+"Monaca account. If you haven't done it, please follow the instruction below:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:21

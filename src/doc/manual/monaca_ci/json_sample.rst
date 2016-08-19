@@ -8,15 +8,15 @@ Parameters
 ======================================
 
 ================= ================================================================================================
-``task_name``      The purpose of the build. Valid values are: ``test`` & ``release``.
+``task_name``       The purpose of the build. Valid values are: ``test`` & ``release``.
 
-``branch``
+``branch``          Github branch of the project you want to build.
 
-``tag``
+``tag``             Github tag of the project you want to build.
 
-``platform``
+``platform``        The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``.
 
-``build``
+``build``           The build type. Valid values are: ``debug`` & ``release``.
 
 ``deploy``
 ================= ================================================================================================

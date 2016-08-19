@@ -496,7 +496,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_vs/build_publish.rst:49
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
-#: ../doc/manual/monaca_ci/json_sample.rst:11
+#: ../doc/manual/monaca_ci/json_sample.rst:96
 #: ../doc/manual/monaca_ci/overview.rst:31
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
@@ -5230,6 +5230,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
+#: ../doc/manual/monaca_ci/json_sample.rst:8
 msgid "Parameters"
 msgstr ""
 
@@ -5551,6 +5552,7 @@ msgid ":dfn:`$ monaca remote build <platform> [options]`"
 msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:341
+#: ../doc/manual/monaca_ci/json_sample.rst:17
 msgid "``platform``"
 msgstr ""
 
@@ -8433,22 +8435,50 @@ msgid "Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:5
-msgid "JSON Recipe Sample"
+msgid "JSON Recipe Format"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:11
+msgid "``task_name``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:11
+msgid "The purpose of the build. Valid values are: ``test`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:13
+msgid "``branch``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:15
+msgid "``tag``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:19
+msgid "``build``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:21
+msgid "``deploy``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:25
+msgid "JSON Recipe Example"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:98
 #: ../doc/manual/monaca_ci/supported_services.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:14
+#: ../doc/manual/monaca_ci/json_sample.rst:99
 #: ../doc/manual/monaca_ci/overview.rst:33
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:15
+#: ../doc/manual/monaca_ci/json_sample.rst:100
 #: ../doc/manual/monaca_ci/overview.rst:35
 #: ../doc/manual/monaca_ci/supported_services.rst:35
 msgid ":ref:`troubleshooting`"
@@ -8463,7 +8493,7 @@ msgid "Monaca CI lets developers focus more on the code and less on the backend 
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:19
-msgid "In order to use Monaca CI, you will to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:"
+msgid "In order to use Monaca CI, you will need to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:21
