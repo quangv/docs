@@ -68,7 +68,7 @@ All the configuration parameters of an Android app are stored in the files as fo
 config.xml
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :file:`config.xml` file is a settings file controlling various settings of Cordova. It's located under ``www`` folder inside your monaca project. 
+The :file:`config.xml` file is a settings file controlling various settings of Cordova.
 
 .. figure:: images/android/2.png
     :width: 198px
@@ -360,6 +360,8 @@ Basic behaviour of Android applications can be configured by editing :file:`Andr
     :width: 198px
     :align: center
 
+
+.. note:: For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from Monaca framework. Therefore, in order to config Android application settings, use :ref:`custom_config_plugin`. 
 
 :file:`AndroidManifest.xml` (Main elements)
 

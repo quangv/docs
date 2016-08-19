@@ -25,6 +25,7 @@ In order to use version control in Monaca Cloud IDE, you will need:
 - a GitHub account. Register `here <https://github.com/join>`_.
 - a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__. 
 
+.. _github_integration:
 
 GitHub Integration
 ===============================================================
@@ -128,6 +129,8 @@ Therefore, in order to re-link your account in this case, please do as follows:
 
   .. rst-class:: clear
 
+
+.. _version_control_configuration:
 
 Version Control Configuration
 ===============================================================

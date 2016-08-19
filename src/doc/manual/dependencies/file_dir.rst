@@ -4,20 +4,71 @@
 File and Folder Structure
 ===============================
 
-.. rst-class:: right-menu
-
-
 The Monaca application is organized with the following folder and file configurations: 
 
-================ ================================================================================================================================================
+*For Cordova 5.2 or lower*
+
+================ ============================================================================================================================
 ``android/``       Storage folder for Android application settings 
 ``chrome/``        Storage folder for Chrome application settings 
 ``ios/``           Storage folder for iOS application settings 
 ``www/``           Storage folder for the main body of the application 
-================ ================================================================================================================================================
+``config.xml``	   Cordova configuration file
+================ ============================================================================================================================
+
+*For Cordova 6.2 or higher*
+
+================ ============================================================================================================================
+``chrome/``        Storage folder for Chrome application settings 
+``plugins/``       Storage folder for additional plugins
+``res/``           Resources folder for Android, iOS and Winrt
+``www/``           Storage folder for the main body of the application 
+``config.xml``	   Cordova configuration file
+================ ============================================================================================================================
+
+
+
+android Folder
+===============================
+
+Android application settings files are stored inside the ``android`` folder. 
+
+=============================== =================================================================================================================================
+``AndroidManifest.xml``           Manifest file used when running Android applications
+=============================== =================================================================================================================================
+
+For more information about how to use this file, please see :doc:`../../reference/config/android_configuration`. 
+
+.. note:: For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from Monaca framework. Therefore, in order to config Android application settings, use :ref:`custom_config_plugin`. 
+
+chrome Folder
+===============================
+
+Chrome application settings files are stored inside the ``chrome`` folder. 
+
+=============================== =================================================================================================================================
+``background.js``                 A JavasSript file used when running Chrome applications
+``manifest.json``                 A Manifest file used when running Chrome applications
+=============================== =================================================================================================================================
+
+
+
+ios Folder
+===============================
+
+iOS application settings files are stored inside the ``ios`` folder. 
+
++------------------------------------------+-----------------------------------------------------------------+
+| ``MonacaApp-Info.plist``                 | :file:`Info.plist` file used when running iOS applications      |
++------------------------------------------+-----------------------------------------------------------------+
+
+For more information about how to use this file, please see :doc:`../../reference/config/ios_configuration`. 
+
+.. note:: For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from Monaca framework. Therefore, in order to config iOS application settings, use :ref:`custom_config_plugin`.
+
 
 www Folder
-----------------
+===============================
 
 Files of the application's main body are stored here. Files and folders can be arranged freely within this ``www`` folder, but the following files and folders have special significance. 
 
@@ -48,45 +99,21 @@ The :file:`loader.js` and :file:`loader.css` files must be read from an HTML fil
 
 Each component will create its own folder within (one level below) ``www/components/`` folder. 
 
-android Folder
-----------------
+config.xml File
+===============================
 
-Android application settings files are stored inside the ``android`` folder. 
+The :file:`config.xml` file is a settings file controlling various settings of Cordova. Please refer to the following documentations regarding how to edit :file:`config.xml` file for Android and iOS:
 
-=============================== =================================================================================================================================
-``AndroidManifest.xml``           Manifest file used when running Android applications
-=============================== =================================================================================================================================
+- :ref:`config.xml for Android <config_xml_android>`
+- :ref:`config.xml for iOS <config_xml_ios>`
 
-For more information about how to use this file, please see :doc:`../../reference/config/android_configuration`. 
-
-chrome Folder
-----------------
-
-Chrome application settings files are stored inside the ``chrome`` folder. 
-
-=============================== =================================================================================================================================
-``background.js``                 A JavasSript file used when running Chrome applications
-``manifest.json``                 A Manifest file used when running Chrome applications
-=============================== =================================================================================================================================
-
-
-
-ios Folder
-----------------
-
-iOS application settings files are stored inside the ``ios`` folder. 
-
-+------------------------------------------+-----------------------------------------------------------------+
-| ``MonacaApp-Info.plist``                 | :file:`Info.plist` file used when running iOS applications      |
-+------------------------------------------+-----------------------------------------------------------------+
-
-For more information about how to use this file, please see :doc:`../../reference/config/ios_configuration`. 
-
-
+.. note:: For Cordova 6.2 or higher, ``config.xml`` file is also used to config either Android or iOS application settings. Please refer to :ref:`custom_config_plugin`.
 
 
 .. seealso::
 
   *See Also*
 
-  - :ref:`sample_apps_index`
+  - :ref:`custom_config_plugin`
+  - :ref:`ios_configuration_file`
+  - :ref:`android_configuration_file`

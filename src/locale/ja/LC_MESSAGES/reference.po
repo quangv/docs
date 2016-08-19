@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the Monaca package.
 # 
 # Translators:
-# Ahmet Altınışık <aaltinisik@altinkaya.com.tr>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
 # Antonio Trueba, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
@@ -16,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-05 02:42+0000\n"
+"PO-Revision-Date: 2016-08-19 04:01+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +44,7 @@ msgid ""
 msgstr ":ref:`設定ファイルを編集する方法 <android_config_files>`"
 
 #: ../doc/reference/config/android_configuration.rst:19
-#: ../doc/reference/config/ios_configuration.rst:17
+#: ../doc/reference/config/ios_configuration.rst:19
 msgid "Configuration via Monaca Cloud IDE"
 msgstr "Monaca クラウド IDE 経由で設定する方法"
 
@@ -75,7 +76,7 @@ msgid "After finishing the configuration, please click :guilabel:`Save`."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
 #: ../doc/reference/config/android_configuration.rst:37
-#: ../doc/reference/config/ios_configuration.rst:38
+#: ../doc/reference/config/ios_configuration.rst:40
 msgid "Configurable Parameters"
 msgstr "設定できるパラメーター"
 
@@ -101,7 +102,7 @@ msgid ""
 msgstr "*バックグランド時もアプリを常に実行* : バックグラウンドでも Cordova を実行したい場合には、有効にします。デフォルトは有効です。"
 
 #: ../doc/reference/config/android_configuration.rst:43
-#: ../doc/reference/config/ios_configuration.rst:43
+#: ../doc/reference/config/ios_configuration.rst:45
 msgid ""
 "*Disallow Overscroll*: [Enable by default] Enable this if you want to "
 "disable the glow when a user scrolls beyond the edge of the webview."
@@ -122,7 +123,7 @@ msgid "*Screen Orientation*: Specify the screen orientation of the app."
 msgstr "*画面の向き* : アプリ画面の方向を指定します。"
 
 #: ../doc/reference/config/android_configuration.rst:54
-#: ../doc/reference/config/ios_configuration.rst:51
+#: ../doc/reference/config/ios_configuration.rst:53
 msgid "Configuration via Configuration Files"
 msgstr "設定ファイルの編集"
 
@@ -148,7 +149,7 @@ msgid ""
 msgstr "Android アプリの挙動に関する設定が、上記のファイル内に記述されています。誤って設定した場合、アプリが動作しなくなる恐れがあります。編集する場合には、細心の注意が必要です。"
 
 #: ../doc/reference/config/android_configuration.rst:69
-#: ../doc/reference/config/ios_configuration.rst:253
+#: ../doc/reference/config/ios_configuration.rst:256
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:95
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:59
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:137
@@ -159,11 +160,11 @@ msgid "config.xml"
 msgstr "config.xml"
 
 #: ../doc/reference/config/android_configuration.rst:71
-#: ../doc/reference/config/ios_configuration.rst:255
+#: ../doc/reference/config/ios_configuration.rst:258
 msgid ""
 "The :file:`config.xml` file is a settings file controlling various settings "
-"of Cordova. It's located under ``www`` folder inside your monaca project."
-msgstr ":file:`config.xml` 設定ファイルを使用して、Cordova のさまざまな設定を管理します。このファイルは、Monaca プロジェクトの ``www`` フォルダー下に置かれています。"
+"of Cordova."
+msgstr ":file:`config.xml` 設定ファイルを使用して、Cordova のさまざまな設定を管理します。"
 
 #: ../doc/reference/config/android_configuration.rst:77
 msgid ""
@@ -189,13 +190,13 @@ msgstr "*version*"
 #: ../doc/reference/config/android_configuration.rst:263
 #: ../doc/reference/config/android_configuration.rst:286
 #: ../doc/reference/config/android_configuration.rst:315
-#: ../doc/reference/config/android_configuration.rst:404
-#: ../doc/reference/config/android_configuration.rst:423
-#: ../doc/reference/config/android_configuration.rst:444
-#: ../doc/reference/config/android_configuration.rst:511
-#: ../doc/reference/config/android_configuration.rst:533
-#: ../doc/reference/config/android_configuration.rst:564
-#: ../doc/reference/config/android_configuration.rst:578
+#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:580
 msgid "Attribute"
 msgstr "属性"
 
@@ -247,24 +248,24 @@ msgstr "型"
 #: ../doc/reference/config/android_configuration.rst:265
 #: ../doc/reference/config/android_configuration.rst:288
 #: ../doc/reference/config/android_configuration.rst:317
-#: ../doc/reference/config/ios_configuration.rst:134
-#: ../doc/reference/config/ios_configuration.rst:150
-#: ../doc/reference/config/ios_configuration.rst:151
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:137
 #: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:154
 #: ../doc/reference/config/ios_configuration.rst:155
 #: ../doc/reference/config/ios_configuration.rst:156
-#: ../doc/reference/config/ios_configuration.rst:157
 #: ../doc/reference/config/ios_configuration.rst:158
 #: ../doc/reference/config/ios_configuration.rst:159
 #: ../doc/reference/config/ios_configuration.rst:160
 #: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:163
 #: ../doc/reference/config/ios_configuration.rst:164
-#: ../doc/reference/config/ios_configuration.rst:271
-#: ../doc/reference/config/ios_configuration.rst:347
-#: ../doc/reference/config/ios_configuration.rst:370
-#: ../doc/reference/config/ios_configuration.rst:392
-#: ../doc/reference/config/ios_configuration.rst:412
+#: ../doc/reference/config/ios_configuration.rst:167
+#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:415
 #: ../doc/reference/cordova_5.2/camera/index.rst:187
 #: ../doc/reference/cordova_5.2/camera/index.rst:206
 #: ../doc/reference/cordova_6.2/camera/index.rst:180
@@ -358,17 +359,17 @@ msgstr "``1.0.0``"
 #: ../doc/reference/config/android_configuration.rst:269
 #: ../doc/reference/config/android_configuration.rst:292
 #: ../doc/reference/config/android_configuration.rst:321
-#: ../doc/reference/config/android_configuration.rst:404
-#: ../doc/reference/config/android_configuration.rst:423
-#: ../doc/reference/config/android_configuration.rst:444
-#: ../doc/reference/config/android_configuration.rst:460
-#: ../doc/reference/config/android_configuration.rst:511
-#: ../doc/reference/config/android_configuration.rst:533
-#: ../doc/reference/config/android_configuration.rst:564
-#: ../doc/reference/config/android_configuration.rst:578
-#: ../doc/reference/config/ios_configuration.rst:132
-#: ../doc/reference/config/ios_configuration.rst:148
-#: ../doc/reference/config/ios_configuration.rst:211
+#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:214
 #: ../doc/reference/cordova_3.5/camera/index.rst:44
 #: ../doc/reference/cordova_3.5/camera/index.rst:362
 #: ../doc/reference/cordova_3.5/device/index.rst:144
@@ -563,7 +564,7 @@ msgid "``src``"
 msgstr "``src``"
 
 #: ../doc/reference/config/android_configuration.rst:133
-#: ../doc/reference/config/ios_configuration.rst:272
+#: ../doc/reference/config/ios_configuration.rst:275
 msgid "``indext.html``"
 msgstr "``indext.html``"
 
@@ -585,7 +586,7 @@ msgid "``origin``"
 msgstr "``origin``"
 
 #: ../doc/reference/config/android_configuration.rst:157
-#: ../doc/reference/config/ios_configuration.rst:393
+#: ../doc/reference/config/ios_configuration.rst:396
 msgid "``*``"
 msgstr "``*``"
 
@@ -626,16 +627,16 @@ msgstr "``value``"
 #: ../doc/reference/config/android_configuration.rst:183
 #: ../doc/reference/config/android_configuration.rst:204
 #: ../doc/reference/config/android_configuration.rst:224
-#: ../doc/reference/config/ios_configuration.rst:292
-#: ../doc/reference/config/ios_configuration.rst:311
-#: ../doc/reference/config/ios_configuration.rst:329
+#: ../doc/reference/config/ios_configuration.rst:295
+#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:332
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:67
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:125
 msgid "boolean"
 msgstr "真偽値"
 
 #: ../doc/reference/config/android_configuration.rst:184
-#: ../doc/reference/config/ios_configuration.rst:330
+#: ../doc/reference/config/ios_configuration.rst:333
 msgid "``true``"
 msgstr "``true``"
 
@@ -649,8 +650,8 @@ msgstr "*DisallowOverscroll*"
 
 #: ../doc/reference/config/android_configuration.rst:205
 #: ../doc/reference/config/android_configuration.rst:225
-#: ../doc/reference/config/ios_configuration.rst:293
-#: ../doc/reference/config/ios_configuration.rst:312
+#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:315
 msgid "``false``"
 msgstr "``false``"
 
@@ -784,12 +785,12 @@ msgid ""
 msgstr "このプラグインの旧バーション ( 3.0.0 より前 ) を実装したアプリの配布をすでに行っており、加えて、なんらかのファイルシステムにファイルを保存していた場合には、preference を Compatibility に設定する必要があります ( データの保存先となるファイルシステムを、config.xml で指定していないときも同様 )。Compatibility から Internal に変更した場合、既存のユーザーは、以前使用していたファイルへアクセスできないことがあります ( 端末により、動作は異なります )。"
 
 #: ../doc/reference/config/android_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:409
+#: ../doc/reference/config/ios_configuration.rst:412
 msgid "*ScreenOrientation* (Cordova 5.2 or Higher)"
 msgstr "*ScreenOrientation* ( Cordova 5.2 以上 )"
 
 #: ../doc/reference/config/android_configuration.rst:319
-#: ../doc/reference/config/ios_configuration.rst:413
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid "``default``"
 msgstr "``default``"
 
@@ -802,12 +803,12 @@ msgid "``default``: will use system default screen orientation."
 msgstr "``default``: システム側のデフォルトのオリエンテーションを使用します。"
 
 #: ../doc/reference/config/android_configuration.rst:324
-#: ../doc/reference/config/ios_configuration.rst:418
+#: ../doc/reference/config/ios_configuration.rst:421
 msgid "``landscape``: set screen orientation to landscape mode."
 msgstr "``landscape``: landscape ( 横向き ) のオリエンテーションを使用します。"
 
 #: ../doc/reference/config/android_configuration.rst:325
-#: ../doc/reference/config/ios_configuration.rst:419
+#: ../doc/reference/config/ios_configuration.rst:422
 msgid "``portrait``: set screen orientation to portrait mode."
 msgstr "``portrait``: portrait ( 縦向き ) のオリエンテーションを使用します。"
 
@@ -831,367 +832,374 @@ msgid ""
 msgstr "Android アプリの基本的な挙動を設定する場合、AndroidManifest.xml ファイルを編集します。このファイルは、Monaca プロジェクトの ``android`` フォルダー下に置かれています。"
 
 #: ../doc/reference/config/android_configuration.rst:364
+msgid ""
+"For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from "
+"Monaca framework. Therefore, in order to config Android application "
+"settings, use :ref:`custom_config_plugin`."
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``AndroidManifest.xml`` ファイルを使用しないように、仕様が変更されました。よって、Android アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
+
+#: ../doc/reference/config/android_configuration.rst:366
 msgid ":file:`AndroidManifest.xml` (Main elements)"
 msgstr ":file:`AndroidManifest.xml` ( 主な要素のみ記載 )"
 
-#: ../doc/reference/config/android_configuration.rst:392
+#: ../doc/reference/config/android_configuration.rst:394
 msgid "*<manifest>*"
 msgstr "*<manifest>*"
 
-#: ../doc/reference/config/android_configuration.rst:394
+#: ../doc/reference/config/android_configuration.rst:396
 msgid ""
 "Is the root element of :file:`AndroidManifest.xml` file. The child element "
 "of ``<manifest>`` is ``<application>`` and it must contain "
 ":file:`xlmns:android` and ``package`` attributes."
 msgstr ":file:`AndroidManifest.xml` でルートとなる要素です。この要素内で、:file:`xlmns:android` 属性と ``package`` 属性を指定します。また、この要素下に ``<application>`` などの子要素を置きます。"
 
-#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:408
 msgid "xmlns:android"
 msgstr "xmlns:android"
 
-#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:408
 msgid ""
 "an Android namespace attribute. This attribute must always have this value: "
 "``http://schemas.android.com/apk/res/android``."
 msgstr "Android の名前空間を宣言するための属性です。この属性値には、常に、 ``http://schemas.android.com/apk/res/android`` を設定します。"
 
-#: ../doc/reference/config/android_configuration.rst:407
+#: ../doc/reference/config/android_configuration.rst:409
 msgid "android:versionCode"
 msgstr "android:versionCode"
 
-#: ../doc/reference/config/android_configuration.rst:407
+#: ../doc/reference/config/android_configuration.rst:409
 msgid ""
 "an internal version number. It is used only to determine whether one version"
 " is more recent than others. Higher number indicates a more recent version. "
 "This version number is not shown to users."
 msgstr "内部で使用するバージョン番号です。最新バージョンを決定するときに使用されます。比較して、数が多いほうが、より新しいバージョンとなります。このバージョン番号は、ユーザー側には表示されません。"
 
-#: ../doc/reference/config/android_configuration.rst:409
+#: ../doc/reference/config/android_configuration.rst:411
 msgid "android:versionName"
 msgstr "android:versionName"
 
-#: ../doc/reference/config/android_configuration.rst:409
+#: ../doc/reference/config/android_configuration.rst:411
 msgid "a version number which is visible to users."
 msgstr "ユーザー側に表示するバージョン番号です。"
 
-#: ../doc/reference/config/android_configuration.rst:414
+#: ../doc/reference/config/android_configuration.rst:416
 msgid "*<uses-sdk>*"
 msgstr "*<uses-sdk>*"
 
-#: ../doc/reference/config/android_configuration.rst:416
+#: ../doc/reference/config/android_configuration.rst:418
 msgid ""
 "Is API level settings of the application. This element is contained in "
 "``<manifest>``."
 msgstr "アプリで使用する API のレベルを設定します。 ``<manifest>`` タグ下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:427
 msgid "android:minSdkVersion"
 msgstr "android:minSdkVersion"
 
-#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:427
 msgid ""
 "minimum API level required for the application to run. Android uses this "
 "value to determine whether the application can be installed in a device."
 msgstr "アプリの実行に必要な、最低レベルの API です。Android では、この値を確認して、端末にアプリをインストールできる否かを決定します。"
 
-#: ../doc/reference/config/android_configuration.rst:426
+#: ../doc/reference/config/android_configuration.rst:428
 msgid "android:targetSdkVersion"
 msgstr "android:targetSdkVersion"
 
-#: ../doc/reference/config/android_configuration.rst:426
+#: ../doc/reference/config/android_configuration.rst:428
 msgid "API level that the application targets."
 msgstr "要求する API レベルを指定します。"
 
-#: ../doc/reference/config/android_configuration.rst:432
+#: ../doc/reference/config/android_configuration.rst:434
 msgid "*<uses-permission>*"
 msgstr "*<uses-permission>*"
 
-#: ../doc/reference/config/android_configuration.rst:434
+#: ../doc/reference/config/android_configuration.rst:436
 msgid ""
 "Is permission settings. The permission is granted When the application is "
 "installed. This element is contained in ``<manifest>``"
 msgstr "パーミッション ( 権限 ) の設定です。アプリのインストール時に、パーミッションも有効になります。 ``<manifest>`` 下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:436
+#: ../doc/reference/config/android_configuration.rst:438
 msgid "*Permissions for Camera*"
 msgstr "*カメラのパーミッション*"
 
-#: ../doc/reference/config/android_configuration.rst:446
-#: ../doc/reference/config/android_configuration.rst:513
-#: ../doc/reference/config/android_configuration.rst:535
-#: ../doc/reference/config/android_configuration.rst:566
-#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/android_configuration.rst:448
+#: ../doc/reference/config/android_configuration.rst:515
+#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:568
+#: ../doc/reference/config/android_configuration.rst:582
 msgid "android:name"
 msgstr "android:name"
 
-#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:448
 msgid ""
 "name of the permissions to be granted for the Android system. The name of "
 "the permission can be defined as Camera, Network and etc."
 msgstr "Android 側のリソースを使うためのパーミッションです。アプリが使用するリソース ( Camera、Network など ) を指定します。"
 
-#: ../doc/reference/config/android_configuration.rst:453
+#: ../doc/reference/config/android_configuration.rst:455
 msgid "*How to Define <uses-permission>*"
 msgstr "*<uses-permission>の定義方法*"
 
-#: ../doc/reference/config/android_configuration.rst:455
+#: ../doc/reference/config/android_configuration.rst:457
 msgid ""
 "``<components/loader.js>`` needs ``ACCESS_NETWORK_STATE`` permission to run."
 " You may exclude this file from ``<uses-permission>`` if it's not necessary "
 "for your application."
 msgstr "``<components/loader.js>`` を読み込む場合には、 ``ACCESS_NETWORK_STATE`` パーミッションが必要となります。 このファイルをアプリ側で必要としない場合には、 ``<uses-permission>`` の対象から外せます。"
 
-#: ../doc/reference/config/android_configuration.rst:460
+#: ../doc/reference/config/android_configuration.rst:462
 msgid "Permission name"
 msgstr "パーミッション名"
 
-#: ../doc/reference/config/android_configuration.rst:460
+#: ../doc/reference/config/android_configuration.rst:462
 msgid "Standard System Permissions"
 msgstr "<uses-permission>の具体的な指定方法"
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid "Access Coarse Location"
 msgstr "Access Coarse Location"
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid "Allows an app to access current location of a device."
 msgstr "位置情報の取得を許可"
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid ""
 "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid "Access Fine Location"
 msgstr "Access Fine Location"
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid "Allows an app to use location-based services of a device."
 msgstr "位置情報関連のサービスの使用を許可"
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid ""
 "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid "Access Network State"
 msgstr "Access Network State"
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid "Allows an app to access the Network state."
 msgstr "ネットワーク状態の取得を許可"
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid ""
 "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid "Access Location Extra Commands"
 msgstr "Access Location Extra Commands"
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid "Allows an app to access extra location provider commands."
 msgstr "位置情報プロバイダーが提供するコマンドへのアクセスを許可"
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid ""
 "<uses-permission "
 "android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />"
 msgstr "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\"　/>"
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid "Allows an app to connect to paired bluetooth devices."
 msgstr "ペアリング済みの BlueTooth 機器への接続を許可"
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid ""
 "<uses-permission android:name=\"android.permission.BLUETOOTH\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.BLUETOOTH\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid "Bluetooth (Admin)"
 msgstr "Bluetooth (Admin)"
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid "Allows an app to discover and pair bluetooth devices."
 msgstr "BlueTooth 機器の検知とペアリング ( 接続 ) を許可"
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid ""
 "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 #: ../doc/reference/cordova_5.2/camera/index.rst:267
 #: ../doc/reference/cordova_6.2/camera/index.rst:260
 msgid "Camera"
 msgstr "Camera"
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 msgid "Allows an app to use the Camera."
 msgstr "カメラ機能の使用を許可"
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 msgid ""
 "<uses-permission android:name=\"android.permission.CAMERA\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.CAMERA\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "Flashlight"
 msgstr "Flashlight"
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "Allows access to the flashlight"
 msgstr "フラッシュライトへのアクセスを許可"
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "<uses-permission android:name=\"android.permission.FLASHLIGHT\" />"
 msgstr "<uses-permission android:name=\"android.permission.FLASHLIGHT\" />"
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid "Internet"
 msgstr "Internet"
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid "Allows an app to use Internet connection."
 msgstr "インターネット接続を許可"
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid ""
 "<uses-permission android:name=\"android.permission.INTERNET\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.INTERNET\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid "Modify Audio Setting"
 msgstr "Modify Audio Setting"
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid "Allows an app to change global audio settings."
 msgstr "オーディオ設定の変更を許可"
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid ""
 "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid "Read Phone State"
 msgstr "Read Phone State"
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid "Allows read-only access to the phone state."
 msgstr "電話関連の情報へのアクセスを許可 ( 読み取り専用 )"
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid ""
 "<uses-permission android:name=\"android.permission.READ_PHONE_STATE"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid "Receive SMS"
 msgstr "Receive SMS"
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid "Allows an app to intercept SMS messages."
 msgstr "SMS メッセージの受信を許可"
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid ""
 "<uses-permission android:name=\"android.permission.RECEIVE_SMS\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.RECEIVE_SMS\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid "Record Audio"
 msgstr "Record Audio"
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid "Allows an app to record audio."
 msgstr "録音を許可"
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid ""
 "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid "Read Contacts"
 msgstr "Read Contacts"
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid "Allows an app to read the contacts."
 msgstr "連絡先の読み込みを許可"
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid ""
 "<uses-permission android:name=\"android.permission.READ_CONTACTS\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.READ_CONTACTS\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid "Vibrate"
 msgstr "Vibrate"
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid "Allows an app to use the Vibrator."
 msgstr "バイブレーション機能の使用を許可"
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid ""
 "<uses-permission android:name=\"android.permission.VIBRATE\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.VIBRATE\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid "Write Contacts"
 msgstr "Write Contacts"
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid "Allows an app the write access to the contacts."
 msgstr "連絡先へのアクセスを許可 ( 書き込み )"
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid ""
 "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"></uses-"
 "permission>"
 msgstr "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid "Write External Storage"
 msgstr "Write External Storage"
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid "Allows an app the write access to External Storage."
 msgstr "外部ストレージへのアクセスを許可 ( 書き込み )"
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid ""
 "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE"
 "\"></uses-permission>"
 msgstr "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"></uses-permission>"
 
-#: ../doc/reference/config/android_configuration.rst:499
+#: ../doc/reference/config/android_configuration.rst:501
 msgid "*<uses-feature>*"
 msgstr "*<uses-feature>*"
 
-#: ../doc/reference/config/android_configuration.rst:501
+#: ../doc/reference/config/android_configuration.rst:503
 msgid ""
 "Declares hardware or software features used by the application. For "
 "instance. If the application requires Camera feature, the user whose device "
@@ -1199,19 +1207,19 @@ msgid ""
 "``<manifest>``."
 msgstr "アプリ側で使用する、ハードウェアまたはソフトウェアを宣言します。たとえば、アプリ側でカメラを使用する場合、カメラが搭載されていない端末では、アプリは動作しません。 ``<manifest>`` 下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:503
+#: ../doc/reference/config/android_configuration.rst:505
 msgid "The code below specifies that the application needs Camera feature."
 msgstr "アプリ側でカメラを使用する場合のコードを、次に記します。"
 
-#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:515
 msgid "feature name"
 msgstr "アプリ側で使用する機能の名前です。"
 
-#: ../doc/reference/config/android_configuration.rst:514
+#: ../doc/reference/config/android_configuration.rst:516
 msgid "android:required"
 msgstr "android:required"
 
-#: ../doc/reference/config/android_configuration.rst:514
+#: ../doc/reference/config/android_configuration.rst:516
 msgid ""
 "a boolean value that specifies whether the application requires the feature "
 "set in ``android:name``. If you set the value to ``true``, you are "
@@ -1220,94 +1228,94 @@ msgid ""
 "feature, but can still function without the feature."
 msgstr "真偽値を使用して、android:name に指定した機能を、アプリ側で使用するか否か指定します。``true`` に設定した場合、該当機能がないときには、アプリは動作しません。``false`` に設定した場合には、該当機能がないときでも動作します。"
 
-#: ../doc/reference/config/android_configuration.rst:521
+#: ../doc/reference/config/android_configuration.rst:523
 msgid "*<application>*"
 msgstr "*<application>*"
 
-#: ../doc/reference/config/android_configuration.rst:523
+#: ../doc/reference/config/android_configuration.rst:525
 msgid "Is an Application tag. This element is contained in ``<manifest>``."
 msgstr "application タグです。 ``<manifest>`` タグ下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:537
 msgid ""
 "defines a name of the application. It is a fully qualified name of the class"
 " that you extend from Application class."
 msgstr "アプリ名です。完全修飾名 ( Fully Qualified Class Name / FQCN ) を指定します ( クラスは、Application クラスを継承していること ) 。"
 
-#: ../doc/reference/config/android_configuration.rst:536
+#: ../doc/reference/config/android_configuration.rst:538
 msgid "android:icon"
 msgstr "android:icon"
 
-#: ../doc/reference/config/android_configuration.rst:536
+#: ../doc/reference/config/android_configuration.rst:538
 msgid ""
 "an icon for the entire application as well as a default icon for each of the"
 " application's components"
 msgstr "アプリで使用するアイコンです。アプリの各コンポーネント用のデフォルトのアイコンにもなります。"
 
-#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:539
 msgid "android:label"
 msgstr "android:label"
 
-#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:539
 msgid "a label for the entire application"
 msgstr "アプリで使用するラベルです。"
 
-#: ../doc/reference/config/android_configuration.rst:538
+#: ../doc/reference/config/android_configuration.rst:540
 msgid "android:theme"
 msgstr "android:theme"
 
-#: ../doc/reference/config/android_configuration.rst:538
+#: ../doc/reference/config/android_configuration.rst:540
 msgid "an Application level theme"
 msgstr "アプリで使用するテーマです。"
 
-#: ../doc/reference/config/android_configuration.rst:539
+#: ../doc/reference/config/android_configuration.rst:541
 msgid "android:screenOrientation"
 msgstr "android:screenOrientation"
 
-#: ../doc/reference/config/android_configuration.rst:539
+#: ../doc/reference/config/android_configuration.rst:541
 msgid "application level Orientation settings"
 msgstr "画面のオリエンテーションをアプリ毎に指定します。"
 
-#: ../doc/reference/config/android_configuration.rst:545
+#: ../doc/reference/config/android_configuration.rst:547
 msgid "*<intent-filter>*"
 msgstr "*<intent-filter>*"
 
-#: ../doc/reference/config/android_configuration.rst:547
+#: ../doc/reference/config/android_configuration.rst:549
 msgid ""
 "Defines the process of intent filter. This element is contained in "
 "``<activity>``. The child ``<action>`` element must be defined."
 msgstr "インテントフィルターの処理を定義します。 ``<activity>`` 下に、この要素を記述します。子要素 ``<action>`` は、必ず定義します。"
 
-#: ../doc/reference/config/android_configuration.rst:559
+#: ../doc/reference/config/android_configuration.rst:561
 msgid "*<action>*"
 msgstr "*<action>*"
 
-#: ../doc/reference/config/android_configuration.rst:561
+#: ../doc/reference/config/android_configuration.rst:563
 msgid ""
 "Specifies an action for an intent filter. The element is contained in "
 "``<intent-filter>``."
 msgstr "インテントフィルターのアクションを指定します。 ``<intent-filter>`` 下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:568
 msgid "action name"
 msgstr "アクション名です。"
 
-#: ../doc/reference/config/android_configuration.rst:573
+#: ../doc/reference/config/android_configuration.rst:575
 msgid "*<category>*"
 msgstr "*<category>*"
 
-#: ../doc/reference/config/android_configuration.rst:575
+#: ../doc/reference/config/android_configuration.rst:577
 msgid ""
 "Specifies the category of the intent filter. The element is contained in "
 "``<intent-filter>``."
 msgstr "インテントフィルターのカテゴリー名です。 ``<intent-filter>`` 下に、この要素を記述します。"
 
-#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/android_configuration.rst:582
 msgid "category name"
 msgstr "カテゴリー名です。"
 
-#: ../doc/reference/config/android_configuration.rst:588
-#: ../doc/reference/config/ios_configuration.rst:450
+#: ../doc/reference/config/android_configuration.rst:590
+#: ../doc/reference/config/ios_configuration.rst:453
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
 #: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
@@ -1367,19 +1375,20 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/custom_config.rst:492
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/reference/config/android_configuration.rst:590
-#: ../doc/reference/config/ios_configuration.rst:452
+#: ../doc/reference/config/android_configuration.rst:592
+#: ../doc/reference/config/ios_configuration.rst:455
 msgid ":ref:`file_folder_configuration`"
 msgstr ":ref:`file_folder_configuration`"
 
-#: ../doc/reference/config/android_configuration.rst:591
-#: ../doc/reference/config/ios_configuration.rst:55
+#: ../doc/reference/config/android_configuration.rst:593
+#: ../doc/reference/config/ios_configuration.rst:57
 msgid ":ref:`info_plist`"
 msgstr ":ref:`info_plist`"
 
@@ -1394,51 +1403,51 @@ msgid ""
 "files."
 msgstr "Monaca クラウド IDE の [ アプリ設定 ] 画面から、または、手動で設定ファイルを上書きして、iOS と Android アプリの挙動を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:3
+#: ../doc/reference/config/ios_configuration.rst:5
 msgid "iOS Configuration"
 msgstr "iOS の設定"
 
-#: ../doc/reference/config/ios_configuration.rst:8
+#: ../doc/reference/config/ios_configuration.rst:10
 msgid "There are 2 ways to configure your iOS apps:"
 msgstr "iOS アプリの設定には、2 通りの方法があります。"
 
-#: ../doc/reference/config/ios_configuration.rst:10
+#: ../doc/reference/config/ios_configuration.rst:12
 msgid ":ref:`Configure via Monaca Cloud IDE <ios_config_ide>`"
 msgstr ":ref:`Monaca クラウド IDE 経由で設定する方法 <ios_config_ide>`"
 
-#: ../doc/reference/config/ios_configuration.rst:11
+#: ../doc/reference/config/ios_configuration.rst:13
 msgid ":ref:`Configure via configuration files directly <ios_config_files>`."
 msgstr ":ref:`設定ファイルを編集する方法 <ios_config_files>`"
 
-#: ../doc/reference/config/ios_configuration.rst:20
+#: ../doc/reference/config/ios_configuration.rst:22
 msgid "iOS App Settings Page"
 msgstr "iOS アプリの設定画面"
 
-#: ../doc/reference/config/ios_configuration.rst:23
+#: ../doc/reference/config/ios_configuration.rst:25
 msgid ""
 "The iOS App Settings page allows to set several commonly used parameter in "
 "iOS app. Please follow the following instruction in order to access the iOS "
 "App Setting page in Monaca Cloud IDE:"
 msgstr "iOS アプリの設定画面では、iOS アプリに適用するパラメーターを設定できます。次の手順に従い、Monaca クラウド IDE の iOS アプリの設定画面を表示します。"
 
-#: ../doc/reference/config/ios_configuration.rst:25
+#: ../doc/reference/config/ios_configuration.rst:27
 msgid ""
 "From Monaca Cloud IDE menu, go to :guilabel:`Config` > :guilabel:`iOS App "
 "Settings...`."
 msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`設定` > :guilabel:`iOS アプリ設定...` を選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:30
+#: ../doc/reference/config/ios_configuration.rst:32
 msgid ""
 "*iOS App Configuration* page will appear as shown below. You can then start "
 "your configuration."
 msgstr "*iOS アプリ設定* 画面が、次のように表示されます。こちらの画面で設定を行います。"
 
-#: ../doc/reference/config/ios_configuration.rst:35
+#: ../doc/reference/config/ios_configuration.rst:37
 msgid ""
 "After finishing the configuration, please click :guilabel:`Save` button."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
-#: ../doc/reference/config/ios_configuration.rst:40
+#: ../doc/reference/config/ios_configuration.rst:42
 msgid ""
 "In the iOS App Settings page, you can configure the parameters such as "
 "application information, icons, splash files, permissions and additional "
@@ -1446,47 +1455,47 @@ msgid ""
 " page:"
 msgstr "iOS アプリの設定画面で行えることは、アプリ情報の設定、アイコン、スプラッシュファイルの設定、パーミッション ( 権限 ) の設定など、多岐にわたります。画面上で設定できるパラメーターの一覧を、次に記します。"
 
-#: ../doc/reference/config/ios_configuration.rst:42
+#: ../doc/reference/config/ios_configuration.rst:44
 msgid ""
 "*Allowed URL*: Specify URL(s) which can be accessed from your app. If set to"
 " ``*``, you can access all domains from your app. (Set to ``*`` by default)"
 msgstr "*許可する外部 URL* : アプリから接続できる URL を指定します。デフォルトでは ``*`` に設定され、全てのドメインへの接続を許可しています。"
 
-#: ../doc/reference/config/ios_configuration.rst:44
+#: ../doc/reference/config/ios_configuration.rst:46
 msgid ""
 "*Enable Viewport Scale*: [Enable by default] If you disable this feature, "
 "the viewport meta tag which is set inside your app will be ignored."
 msgstr "*ビューポート制御を有効* : デフォルトは有効です。無効にした場合、アプリ内に設定された、viewport の meta タグを無視します。"
 
-#: ../doc/reference/config/ios_configuration.rst:45
+#: ../doc/reference/config/ios_configuration.rst:47
 msgid "*Fade Splash Screen*: [Enable by default]"
 msgstr "*スプラッシュ画像をフェードアウト* : デフォルトでは、有効化されています。"
 
-#: ../doc/reference/config/ios_configuration.rst:46
+#: ../doc/reference/config/ios_configuration.rst:48
 msgid "*Show Splash Screen*: Show splash screen at start of the app."
 msgstr "*スプラッシュにスピナーを表示* : アプリの起動時に、スプラッシュ画面 ( スピナー ) を表示します。"
 
-#: ../doc/reference/config/ios_configuration.rst:53
+#: ../doc/reference/config/ios_configuration.rst:55
 msgid ""
 "All the configuration parameters of an iOS app are stored in the files as "
 "follows:"
 msgstr "iOS アプリのパラメーターは、次のファイル内に記述されています。"
 
-#: ../doc/reference/config/ios_configuration.rst:56
+#: ../doc/reference/config/ios_configuration.rst:58
 msgid ":ref:`config_xml_ios`"
 msgstr ":ref:`config_xml_ios`"
 
-#: ../doc/reference/config/ios_configuration.rst:60
+#: ../doc/reference/config/ios_configuration.rst:62
 msgid ""
 "These configurations are critical to the iOS app to run. Wrong configuration"
 " can prevent the app from running properly, please edit the file carefully."
 msgstr "iOS アプリの挙動に関する設定が、上記のファイル内に記述されています。誤って設定した場合、アプリが動作しなくなる恐れがあります。編集する場合には、細心の注意が必要です。"
 
-#: ../doc/reference/config/ios_configuration.rst:66
+#: ../doc/reference/config/ios_configuration.rst:68
 msgid "MonacaApp-Info.plist"
 msgstr "MonacaApp-Info.plist"
 
-#: ../doc/reference/config/ios_configuration.rst:68
+#: ../doc/reference/config/ios_configuration.rst:70
 msgid ""
 "You can configure your iOS app in :file:`MonacaApp-Info.plist` file. For "
 "information on ``plist`` file, please refer to `Information Property List "
@@ -1496,527 +1505,539 @@ msgid ""
 "shown below:"
 msgstr "iOS アプリの設定を行うには、 :file:`MonacaApp-Info.plist` ファイルを編集します。 ``plist`` ファイルの情報に関しては、 `Information Property List Files ( Apple ) <http://developer.apple.com/library/ios/documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html>`_ をご確認ください。このファイルは、次のように、Monaca プロジェクトの ``ios`` フォルダー下に置かれています。"
 
-#: ../doc/reference/config/ios_configuration.rst:76
+#: ../doc/reference/config/ios_configuration.rst:77
+msgid ""
+"For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from "
+"Monaca framework. Therefore, in order to config iOS application settings, "
+"use :ref:`custom_config_plugin`."
+msgstr "Cordova 6.2 以降をサポートする Monaca フレームワークでは、``MonacaApp-Info.plist`` ファイルを使用しないように、仕様が変更されました。よって、iOS アプリの設定をカスタマイズする場合には、:ref:`custom_config_plugin` を使用する必要があります。"
+
+#: ../doc/reference/config/ios_configuration.rst:79
 msgid ":file:`MonacaApp-Info.plist` (Excerpt)"
 msgstr ":file:`MonacaApp-Info.plist` ( 抜粋 )"
 
-#: ../doc/reference/config/ios_configuration.rst:99
+#: ../doc/reference/config/ios_configuration.rst:102
 msgid ""
 "Inside :file:`MonacaApp-Info.plist` file, there are 3 main types of "
 "elements:"
 msgstr ":file:`MonacaApp-Info.plist` ファイル内には、3 つの主な要素があります。"
 
-#: ../doc/reference/config/ios_configuration.rst:101
+#: ../doc/reference/config/ios_configuration.rst:104
 msgid ""
 "*<key>*: Defines value (plistObject) and a combination of application "
 "configuration information."
 msgstr "*<key>*: value ( plistObject ) とアプリの設定情報間の紐付けをします。"
 
-#: ../doc/reference/config/ios_configuration.rst:102
+#: ../doc/reference/config/ios_configuration.rst:105
 msgid "*<array>*: You can have the array of values (plistObject)."
 msgstr "*<array>*: 配列を使用して、value ( plistObject ) を格納できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:103
+#: ../doc/reference/config/ios_configuration.rst:106
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr "*<dict>*: key と value ( plistObject ) の組み合わせを、<dict> 内に置きます。"
 
-#: ../doc/reference/config/ios_configuration.rst:106
+#: ../doc/reference/config/ios_configuration.rst:109
+#: ../doc/reference/third_party_phonegap/custom_config.rst:164
+#: ../doc/reference/third_party_phonegap/custom_config.rst:185
+#: ../doc/reference/third_party_phonegap/custom_config.rst:290
+#: ../doc/reference/third_party_phonegap/custom_config.rst:367
+#: ../doc/reference/third_party_phonegap/custom_config.rst:387
 msgid "For example:"
 msgstr "例 :"
 
-#: ../doc/reference/config/ios_configuration.rst:129
+#: ../doc/reference/config/ios_configuration.rst:132
 msgid "*Type List of Values (plistObject)*"
 msgstr "*Value ( plistObject ) の型の一覧*"
 
-#: ../doc/reference/config/ios_configuration.rst:132
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "Types"
 msgstr "型"
 
-#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "String data type representing text."
 msgstr "文字列"
 
-#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "date"
 msgstr "date"
 
-#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "Date data type representing date and time."
 msgstr "日付および時刻を表示"
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:139
 #: ../doc/reference/monaca_api/cloud/criteria.rst:104
 msgid "Integer"
 msgstr "integer"
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:139
 msgid "Integer number"
 msgstr "整数"
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "real"
 msgstr "real"
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "Floating data type representing a decimal number."
 msgstr "浮動小数点データ"
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:141
 msgid "data"
 msgstr "data"
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:141
 msgid "Data type"
 msgstr "データ"
 
-#: ../doc/reference/config/ios_configuration.rst:139
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:165
 #: ../doc/reference/cordova_5.2/camera/index.rst:246
 #: ../doc/reference/cordova_6.2/camera/index.rst:239
 msgid "true"
 msgstr "true"
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:142
 msgid "true boolean"
 msgstr "真 ( boolean )"
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "false"
 msgstr "false"
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "false boolean"
 msgstr "偽 ( boolean )"
 
-#: ../doc/reference/config/ios_configuration.rst:143
+#: ../doc/reference/config/ios_configuration.rst:146
 msgid "*List of Keys*"
 msgstr "*Key の一覧*"
 
-#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "key"
 msgstr "key"
 
-#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "plistObject Type"
 msgstr "plistObject の型"
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "CFBundleDevelopmentRegion"
 msgstr "CFBundleDevelopmentRegion"
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid ""
 "Defines a native language of the developer. If the language of the user "
 "cannot be found, this value will be used as default."
 msgstr "開発者の母国語を指定します。ユーザー側の使用する言語が不明な場合、デフォルトとして、この値を使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "CFBundleDisplayName"
 msgstr "CFBundleDisplayName"
 
-#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid ""
 "Define a name of the application. It is a fully qualified name of the class "
 "that you extend from Application class."
 msgstr "アプリ名を指定します。完全修飾名 ( Fully Qualified Class Name / FQCN ) を指定します ( クラスは、Application クラスを継承していること ) 。"
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "CFBundleExecutable"
 msgstr "CFBundleExecutable"
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "Defines the application executable file."
 msgstr "アプリの実行可能ファイルを指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "CFBundleIconFile"
 msgstr "CFBundleIconFile"
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "Defines application icon file name."
 msgstr "アプリのアイコンのファイル名を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "CFBundleIconFiles"
 msgstr "CFBundleIconFiles"
 
-#: ../doc/reference/config/ios_configuration.rst:154
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid "<array>string"
 msgstr "<array>string"
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid ""
 "Defines icon file names used for iOS 3.2 or later. The correct file will be "
 "chosen depending on the size of the device screen resolution."
 msgstr "アイコンのファイル名を指定します ( iOS 3.2 以降の端末用 )。端末の画面解像度に応じて、適切なファイルが選択されます。"
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "CFBundleIdentifier"
 msgstr "CFBundleIdentifier"
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid ""
 "Specifies a unique identifier for your application. The identifier must be a"
 " Uniform Type Identifier (UTI) as \":file:`com.monaca.MyApp`\"."
 msgstr "アプリの識別子を指定します。Uniform Type Identifier ( UTI ) を使用します ( 例 ： 「 :file:`com.monaca.MyApp` 」 )。"
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "CFBundleInfoDictionaryVersion"
 msgstr "CFBundleInfoDictionaryVersion"
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "Is the current version number of :file:`MonacaApp-Info.plist` file."
 msgstr ":file:`MonacaApp-Info.plist` ファイルの現バージョン番号です。"
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "CFBundleName"
 msgstr "CFBundleName"
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid ""
 "Is a short display name of the app. It is limited to 16 characters at most."
 msgstr "アプリの短縮表示名です。16 文字以下で記述します。"
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "CFBundlePackageType"
 msgstr "CFBundlePackageType"
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid ""
 "Is a 4-digit code used to describe application type. Set this value to "
 "\"APPL\" for application project."
 msgstr "アプリのタイプを識別する 4 文字のコードです。アプリの場合、「 APPL 」 と指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "CFBundleShortVersionString"
 msgstr "CFBundleShortVersionString"
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "Specifies the version number of your application."
 msgstr "アプリのバージョン番号を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "CFBundleSignature"
 msgstr "CFBundleSignature"
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "Is a 4-digit code used to identify the app developer."
 msgstr "アプリの開発者を識別する 4 文字のコードです。"
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "CFBundleVersion"
 msgstr "CFBundleVersion"
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "Is a build version number of the application."
 msgstr "アプリのビルド番号です。"
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:165
 msgid "LSRequiresIPhoneOS"
 msgstr "LSRequiresIPhoneOS"
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:165
 msgid "Indicates whether the application can only be run on iPhone or not."
 msgstr "アプリがサポートする端末を、iPhone のみにするか指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid "UISupportedInterfaceOrientations"
 msgstr "UISupportedInterfaceOrientations"
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid ""
 "Specifies screen orientations for iPhone that are supported by the "
 "application. For iPad, use \"UISupportedInterfaceOrientations~ipad\"."
 msgstr "アプリでサポートする、画面の方向を指定します ( iPhone 向け )。iPad の場合、「 UISupportedInterfaceOrientations~ipad 」を使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:167
 msgid "BackupWebStorage"
 msgstr "BackupWebStorage"
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:167
 msgid ""
 "Set to ``cloud`` to allow the web storage data to be backed up to iCloud, "
 "Set to ``none`` to not allow any backups of web storage. default is "
 "``cloud``"
 msgstr "``cloud`` に設定されている場合、データのバックアップを、iCloud へすることができます。 ``none`` に設定されている場合、iCloud へのバックアップはできません。デフォルトは、 ``cloud`` です。"
 
-#: ../doc/reference/config/ios_configuration.rst:168
+#: ../doc/reference/config/ios_configuration.rst:171
 msgid ""
 "Here are some keys and values you may need to configure in your iOS apps:"
 msgstr "iOS アプリで設定すべき Key と Value を、次に記します。"
 
-#: ../doc/reference/config/ios_configuration.rst:174
+#: ../doc/reference/config/ios_configuration.rst:177
 msgid "*UISupportedInterfaceOrientations*"
 msgstr "*UISupportedInterfaceOrientations*"
 
-#: ../doc/reference/config/ios_configuration.rst:176
+#: ../doc/reference/config/ios_configuration.rst:179
 msgid "Is used to set the screen orientation of your app:"
 msgstr "画面の方向を指定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:178
+#: ../doc/reference/config/ios_configuration.rst:181
 msgid "Settings for iPhone"
 msgstr "iPhone の場合"
 
-#: ../doc/reference/config/ios_configuration.rst:193
+#: ../doc/reference/config/ios_configuration.rst:196
 msgid "Settings for iPad"
 msgstr "iPad の場合"
 
-#: ../doc/reference/config/ios_configuration.rst:208
+#: ../doc/reference/config/ios_configuration.rst:211
 msgid "*List of Orientation Values*"
 msgstr "*画面方向に関する設定値 ( Value )*"
 
-#: ../doc/reference/config/ios_configuration.rst:211
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "Value"
 msgstr "Value"
 
-#: ../doc/reference/config/ios_configuration.rst:214
+#: ../doc/reference/config/ios_configuration.rst:217
 msgid "UIInterfaceOrientationLandscapeLeft"
 msgstr "UIInterfaceOrientationLandscapeLeft"
 
-#: ../doc/reference/config/ios_configuration.rst:214
+#: ../doc/reference/config/ios_configuration.rst:217
 msgid "Landscape orientation aligned to the left side of the Home button."
 msgstr "ホームボタンを左側にして、横向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:219
 msgid "UIInterfaceOrientationLandscapeRight"
 msgstr "UIInterfaceOrientationLandscapeRight"
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:219
 msgid "Landscape orientation aligned to the right side of the Home button."
 msgstr "ホームボタンを右側にして、横向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:221
 msgid "UIInterfaceOrientationPortraitUpsideDown"
 msgstr "UIInterfaceOrientationPortraitUpsideDown"
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:221
 msgid "Portrait orientation"
 msgstr "縦向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:223
 msgid "UIInterfaceOrientationPortrait"
 msgstr "UIInterfaceOrientationPortrait"
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:223
 msgid ""
 "Portrait orientation in opposite direction from the normal portrait "
 "orientation."
 msgstr "通常の縦向き表示とは逆方向に、縦向き表示"
 
-#: ../doc/reference/config/ios_configuration.rst:224
+#: ../doc/reference/config/ios_configuration.rst:227
 msgid "You can download a sample screen orientation file below:"
 msgstr "表示方向の設定に関するサンプルを、こちらからダウンロードできます。"
 
-#: ../doc/reference/config/ios_configuration.rst:226
+#: ../doc/reference/config/ios_configuration.rst:229
 msgid ""
 ":download:`Screen Orientation File "
 "<download/UISupportedInterfaceOrientations.zip>`"
 msgstr ":download:`サンプルファイル <download/UISupportedInterfaceOrientations.zip>`"
 
-#: ../doc/reference/config/ios_configuration.rst:234
+#: ../doc/reference/config/ios_configuration.rst:237
 msgid "Statusbar Setting"
 msgstr "ステータスバーの設定"
 
-#: ../doc/reference/config/ios_configuration.rst:239
+#: ../doc/reference/config/ios_configuration.rst:242
 msgid "*UIStatusBarHidden*"
 msgstr "*UIStatusBarHidden*"
 
-#: ../doc/reference/config/ios_configuration.rst:239
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:242
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid "*Type:* boolean"
 msgstr "*型 :* boolean"
 
-#: ../doc/reference/config/ios_configuration.rst:240
-#: ../doc/reference/config/ios_configuration.rst:245
+#: ../doc/reference/config/ios_configuration.rst:243
+#: ../doc/reference/config/ios_configuration.rst:248
 msgid "*Default:* ``false``"
 msgstr "*デフォルト値 :* ``false``"
 
-#: ../doc/reference/config/ios_configuration.rst:241
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:249
 msgid ""
 "*Description:* if set to ``true``, the status bar at the top of the "
 "application will be hidden."
 msgstr "*解説 :* ``true`` に設定した場合、アプリの画面上部のステータスバーが非表示になります。"
 
-#: ../doc/reference/config/ios_configuration.rst:242
+#: ../doc/reference/config/ios_configuration.rst:245
 msgid ""
 "*Note:* If *UIStatusBarHidden* set to ``true`` and "
 "*UIViewControllerBasedStatusBarAppearance* set to ``false``, the status bar "
 "at the top of the app will be hidden."
 msgstr "*備考 :* *UIStatusBarHidden* を ``true`` に設定して、 *UIViewControllerBasedStatusBarAppearance* を ``false`` に設定した場合、アプリの画面上部のステータスバーは、非表示となります。"
 
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid "*UIViewControllerBasedStatusBarAppearance*"
 msgstr "*UIViewControllerBasedStatusBarAppearance*"
 
-#: ../doc/reference/config/ios_configuration.rst:247
+#: ../doc/reference/config/ios_configuration.rst:250
 msgid ""
 "*Note:* set to ``true`` in order to use :ref:`StatusBar "
 "Plugin<status_bar_plugin>`."
 msgstr "*備考 :* :ref:`ステータスバーの制御プラグイン <status_bar_plugin>` ( StatusBar プラグイン ) を使用する場合には、``true`` に設定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:262
+#: ../doc/reference/config/ios_configuration.rst:265
 msgid "Below are available preferences you may need to configure:"
 msgstr "設定可能な要素と preference を次に記します。必要に応じて設定します。"
 
-#: ../doc/reference/config/ios_configuration.rst:268
+#: ../doc/reference/config/ios_configuration.rst:271
 msgid "*Content*"
 msgstr "*Content*"
 
-#: ../doc/reference/config/ios_configuration.rst:271
-#: ../doc/reference/config/ios_configuration.rst:292
-#: ../doc/reference/config/ios_configuration.rst:311
-#: ../doc/reference/config/ios_configuration.rst:329
-#: ../doc/reference/config/ios_configuration.rst:347
-#: ../doc/reference/config/ios_configuration.rst:370
-#: ../doc/reference/config/ios_configuration.rst:392
-#: ../doc/reference/config/ios_configuration.rst:412
+#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:295
+#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:332
+#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:415
 msgid "*Type*"
 msgstr "*型*"
 
-#: ../doc/reference/config/ios_configuration.rst:272
-#: ../doc/reference/config/ios_configuration.rst:293
-#: ../doc/reference/config/ios_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:330
-#: ../doc/reference/config/ios_configuration.rst:348
-#: ../doc/reference/config/ios_configuration.rst:371
-#: ../doc/reference/config/ios_configuration.rst:393
-#: ../doc/reference/config/ios_configuration.rst:413
+#: ../doc/reference/config/ios_configuration.rst:275
+#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:315
+#: ../doc/reference/config/ios_configuration.rst:333
+#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:396
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid "*Default*"
 msgstr "*デフォルト*"
 
-#: ../doc/reference/config/ios_configuration.rst:273
-#: ../doc/reference/config/ios_configuration.rst:294
-#: ../doc/reference/config/ios_configuration.rst:313
-#: ../doc/reference/config/ios_configuration.rst:331
-#: ../doc/reference/config/ios_configuration.rst:349
-#: ../doc/reference/config/ios_configuration.rst:372
-#: ../doc/reference/config/ios_configuration.rst:394
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:276
+#: ../doc/reference/config/ios_configuration.rst:297
+#: ../doc/reference/config/ios_configuration.rst:316
+#: ../doc/reference/config/ios_configuration.rst:334
+#: ../doc/reference/config/ios_configuration.rst:352
+#: ../doc/reference/config/ios_configuration.rst:375
+#: ../doc/reference/config/ios_configuration.rst:397
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid "*Description*"
 msgstr "*説明*"
 
-#: ../doc/reference/config/ios_configuration.rst:273
+#: ../doc/reference/config/ios_configuration.rst:276
 msgid ""
 "The ``<content>`` element defines the app's starting page in the top-level "
 "web assets directory. You can change the starting page by changing the value"
 " of the ``src`` attribute to your preferred URL."
 msgstr "``<content>`` 要素では、アプリ起動時のページを指定します ( 通常、Web アセットを置いた、最上位のディレクトリーにこのページは置かれます )。 ``src`` 属性の値に、他の URL を指定すれば、起動時のページを変更できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:289
+#: ../doc/reference/config/ios_configuration.rst:292
 msgid "*DisallowOverScroll*"
 msgstr "*DisallowOverScroll*"
 
-#: ../doc/reference/config/ios_configuration.rst:294
+#: ../doc/reference/config/ios_configuration.rst:297
 msgid ""
 "Set to ``true`` if you want to disable the rubber-band scrolling for "
 "WebView."
 msgstr "``true`` に指定した場合、ラバーバンド スクロール ( rubber-band scrolling ) が無効になります。"
 
-#: ../doc/reference/config/ios_configuration.rst:308
+#: ../doc/reference/config/ios_configuration.rst:311
 msgid "*EnableViewportScale*"
 msgstr "*EnableViewportScale*"
 
-#: ../doc/reference/config/ios_configuration.rst:313
+#: ../doc/reference/config/ios_configuration.rst:316
 msgid "Set to ``true`` to prevent viewport scaling through a meta tag."
 msgstr "``true`` に指定した場合、ビューポートのスケール方法を指定した meta タグを無視します。"
 
-#: ../doc/reference/config/ios_configuration.rst:326
+#: ../doc/reference/config/ios_configuration.rst:329
 msgid "*AutoHideSplashScreen*"
 msgstr "*AutoHideSplashScreen*"
 
-#: ../doc/reference/config/ios_configuration.rst:331
+#: ../doc/reference/config/ios_configuration.rst:334
 msgid ""
 "Set to ``false`` to control the splashscreen when it's hidden through a "
 "JavaScript API."
 msgstr "``false`` に指定した場合、JavaScript API を使用して、スプラッシュ画像の制御を行えます。"
 
-#: ../doc/reference/config/ios_configuration.rst:344
+#: ../doc/reference/config/ios_configuration.rst:347
 msgid "*BackupWebStorage*"
 msgstr "*BackupWebStorage*"
 
-#: ../doc/reference/config/ios_configuration.rst:348
+#: ../doc/reference/config/ios_configuration.rst:351
 msgid "``cloud``"
 msgstr "``cloud``"
 
-#: ../doc/reference/config/ios_configuration.rst:349
+#: ../doc/reference/config/ios_configuration.rst:352
 msgid "There are 3 valid values:"
 msgstr "次のいずれかの値を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:354
 msgid "``none``: disable any backups of web storage."
 msgstr "``none`` : バックアップを無効にします。"
 
-#: ../doc/reference/config/ios_configuration.rst:352
+#: ../doc/reference/config/ios_configuration.rst:355
 msgid "``cloud``: allow the web storage data to be backed up to iCloud."
 msgstr "``cloud`` : iCloud へのバックアップを許可します。"
 
-#: ../doc/reference/config/ios_configuration.rst:353
+#: ../doc/reference/config/ios_configuration.rst:356
 msgid "``local``: allow only local backups (iTunes sync)."
 msgstr "``local`` : ローカルへのバックアップ ( iTunes Sync 経由 ) を許可します。"
 
-#: ../doc/reference/config/ios_configuration.rst:367
+#: ../doc/reference/config/ios_configuration.rst:370
 msgid "*UIWebViewDecelerationSpeed*"
 msgstr "*UIWebViewDecelerationSpeed*"
 
-#: ../doc/reference/config/ios_configuration.rst:371
+#: ../doc/reference/config/ios_configuration.rst:374
 msgid "``normal``"
 msgstr "``normal``"
 
-#: ../doc/reference/config/ios_configuration.rst:372
+#: ../doc/reference/config/ios_configuration.rst:375
 msgid ""
 "Controls the deceleration speed of momentum scrolling. There are 2 valid "
 "values:"
 msgstr "慣性スクロールの減速度を指定します。2 つのオプションがあります。"
 
-#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:377
 msgid "``normal``: is the default speed for most native apps"
 msgstr "``normal``: デフォルトでは、こちらを選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:375
+#: ../doc/reference/config/ios_configuration.rst:378
 msgid "``fast``: is the default speed for Mobile Safari."
 msgstr "``fast``: Mobile Safari の場合、こちらを選択します。"
 
-#: ../doc/reference/config/ios_configuration.rst:389
+#: ../doc/reference/config/ios_configuration.rst:392
 msgid "*access origin*"
 msgstr "*access origin*"
 
-#: ../doc/reference/config/ios_configuration.rst:394
+#: ../doc/reference/config/ios_configuration.rst:397
 msgid ""
 "Controls access to specific network domains. If set to ``*``, you can access"
 " all domains from your app."
 msgstr "アクセスできるネットワークドメインを指定します。 ``*`` に指定した場合、どのドメインにも、アプリからアクセスできます。"
 
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid "There are 4 valid values:"
 msgstr "画面のオリエンテーションを設定します。次の 4 つの値を設定できます。"
 
-#: ../doc/reference/config/ios_configuration.rst:416
+#: ../doc/reference/config/ios_configuration.rst:419
 msgid ""
 "``all``: to specify both portrait & landscape mode you would use the "
 "platform specific value all"
 msgstr "``all``: この設定では、portrait と landscape の両方を使用できます ( プラットフォーム毎の設定時に使用 )。"
 
-#: ../doc/reference/config/ios_configuration.rst:417
+#: ../doc/reference/config/ios_configuration.rst:420
 msgid ""
 "``default``: screen orientation will be applied according to system default."
 msgstr "``default``: システム側のデフォルトのオリエンテーションを使用します。"
 
-#: ../doc/reference/config/ios_configuration.rst:433
+#: ../doc/reference/config/ios_configuration.rst:436
 msgid ""
 "It is also possible to apply the setting for all devices at once; however, "
 "you can only apply default, landscape and portrait in value. \"all\" is not "
 "possible for Global Preferences."
 msgstr "全端末に適用される、グローバルな設定 ( Global Preference ) も使用できますが、設定できる値は、default、landscape、portrait のみです。all は、グローバルな設定には使用できません。"
 
-#: ../doc/reference/config/ios_configuration.rst:445
+#: ../doc/reference/config/ios_configuration.rst:448
 msgid ""
 "For android/windows, \"default\" means all direction, but in iOS only "
 "portrait will be applied."
 msgstr "\"default\" を設定した場合、Android と Windows ではすべてのオリエンテーションが使用でき、iOS では portrait のみ適用されます。"
 
-#: ../doc/reference/config/ios_configuration.rst:453
+#: ../doc/reference/config/ios_configuration.rst:456
 msgid ":ref:`android_configuration_file`"
 msgstr ":ref:`android_configuration_file`"
 
@@ -2731,6 +2752,7 @@ msgstr "サポート対象のプラットフォーム"
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
 #: ../doc/reference/power_plugins/in-app_updater.rst:135
 #: ../doc/reference/power_plugins/secure_storage.rst:17
+#: ../doc/reference/third_party_phonegap/custom_config.rst:69
 msgid "Android"
 msgstr "Android"
 
@@ -3028,6 +3050,7 @@ msgstr "Android"
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
 #: ../doc/reference/power_plugins/in-app_updater.rst:141
 #: ../doc/reference/power_plugins/secure_storage.rst:16
+#: ../doc/reference/third_party_phonegap/custom_config.rst:244
 msgid "iOS"
 msgstr "iOS"
 
@@ -14972,8 +14995,9 @@ msgstr "``StatusBar`` オブジェクトを使用して、iOS と Android のス
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:72
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:64
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:51
+#: ../doc/reference/third_party_phonegap/custom_config.rst:36
 msgid "Preferences"
-msgstr "peference の設定"
+msgstr "peference を使用したカスタマイズ設定"
 
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:61
 msgid ""
@@ -15414,6 +15438,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/custom_config.rst:494
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -15466,6 +15491,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/custom_config.rst:495
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -25090,6 +25116,7 @@ msgstr "256 bit"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:30
 #: ../doc/reference/power_plugins/sqlcipher.rst:21
+#: ../doc/reference/third_party_phonegap/custom_config.rst:13
 msgid "Enable the Plugin in Monaca"
 msgstr "プラグインの有効化 ( Monaca 上での処理 )"
 
@@ -25104,7 +25131,7 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。"
+msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
 msgid ""
@@ -25148,6 +25175,7 @@ msgstr "アプリで使用している HTML5 アセットを、再ビルド・�
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
 #: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
+#: ../doc/reference/third_party_phonegap/custom_config.rst:23
 msgid "Usage"
 msgstr "設定"
 
@@ -25429,8 +25457,9 @@ msgid ""
 msgstr "Monaca では、セキュリティー系のプラグインを含む、便利なプラグインを複数提供しています。セキュリティー系のプラグインを使用すれば、最先端のセキュリティー技術を、簡単にアプリに実装させることができます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
-msgid "Monaca power plugins are available to Enterprise users only."
-msgstr "これらのプラグインのご利用には、Monaca エンタープライズ プランへの加入が必要です。"
+msgid ""
+"Monaca Power Plugins are available to Gold or Platinum plan users only."
+msgstr "こちらのプラグインのご利用には、 Gold または Platinum プランが必要です。"
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
 msgid "Monaca Secure Storage"
@@ -25979,6 +26008,7 @@ msgid "BarcodeScanner Plugin"
 msgstr "BarcodeScanner プラグイン"
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/custom_config.rst:15
 #: ../doc/reference/third_party_phonegap/datepicker.rst:15
 #: ../doc/reference/third_party_phonegap/share.rst:16
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
@@ -25996,6 +26026,570 @@ msgstr "BarcodeScanner の :guilabel:`有効` ボタンをクリックして、�
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:20
 msgid "BarcodeScanner Demo"
 msgstr "BarcodeScanner プラグインのデモ"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:5
+msgid "Cordova Custom Config Plugin"
+msgstr "Custom Config プラグイン"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:7
+msgid ""
+"For Cordova 5.2 or lower, basic behaviour of Android or iOS applications can"
+" be configured by editing :file:`AndroidManifest.xml` or ``MonacaApp-"
+"Info.plist`` file respectively. However, for Cordova 6.2 or higher, both "
+":file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed "
+"from Monaca framework."
+msgstr "Cordova 5.2 以前のバージョンをサポートする Monaca フレームワークでは、:file:`AndroidManifest.xml` ( Android の場合 ) または ``MonacaApp-Info.plist`` ( iOS の場合 ) を編集すれば、アプリのデフォルトの挙動を制御することができました。Cordova 6.2 以降のバージョンをサポートする Monaca フレームワークでは、仕様が変更され、:file:`AndroidManifest.xml` と ``MonacaApp-Info.plist`` のいずれのファイルも使用しなくなりました。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:9
+msgid ""
+"Therefore, in order to config iOS/Android application settings, you will "
+"need to use Cordova Custom Config plugin. This Cordova plugin for iOS and "
+"Android provides hook scripts to update platform configuration files based "
+"on custom preferences and config-file data defined in ``config.xml`` file "
+"that are not supported out-of-the-box by Cordova."
+msgstr "このため、最新の Monaca フレームワーク ( Cordova 6.2 以降をサポート ) を使用する場合、iOS または Android アプリの設定をカスタマイズするときには、Custom Config プラグインを使用する必要があります。こちらの Cordova プラグイン ( iOS と Android の両方に使用可 ) を使用すると、フック用のスクリプト ( プラグイン側で提供 ) を経由して、設定ファイルの情報を書き換えることができます。具体的には、``config.xml`` ファイル内に、カスタマイズ用の preference または/および config-file ブロックを記述し、このスクリプト経由で、プラットフォーム側の設定に適用します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:16
+msgid ""
+"Click :guilabel:`Enable` button of ``Custom Config`` to add it into your "
+"project."
+msgstr "``Custom Config`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
+msgid ""
+"There are no run-time source files included in this plugin. It includes hook"
+" scripts which are used to apply preferences dictated by custom keys in the "
+"``config.xml`` file of the project to the relevant platform config files. "
+"Therefore, in order to use this plugin, you need to include the relevant "
+"keys in your ``config.xml`` and the scripts will take care of the rest when "
+"you build your project."
+msgstr "このプラグインには、実行ファイルのようなものはありません。代わりに、フック用のスクリプトを使用して、各プラットフォームの設定ファイルに対して、``config.xml`` ファイル内に設定した preference を適用 ( 上書きまたは追加 ) します。たとえば、iOS の場合、preference の name 属性は、iOS 設定ファイルの key と紐づけされています。よって、このプラグインを使用する場合、preference の name 属性など、カスタマイズに必要な設定を、あらかじめ、``config.xml`` 内に記述しておきます。適用処理は、プロジェクトのビルド時に、スクリプト側で行ってくれます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:27
+msgid ""
+"By default, any changes made by this plugin to platform config files are "
+"irreversible. However, if you want the changes made to be reversible, you "
+"can enable auto-backup/restore functionality by adding the following "
+"preference inside the top-level ``<widget>`` element of your ``config.xml``:"
+msgstr "このプラグインを使用し変更した設定ファイルの内容は、原則、元に戻すことができません。ただし、次の preference を使用して、元に戻せるように設定することもできます ( 自動リストア機能、``config.xml`` の最上位の ``<widget>`` 要素内に追加 )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:38
+msgid ""
+"Preferences are set by defining a ``<preference>`` element in the "
+"``config.xml`` file. For example:"
+msgstr "preference は、``config.xml`` ファイル内で、``<preference>`` 要素を使用し設定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:44
+msgid ""
+"While setting the preferences, please be aware of the following points:"
+msgstr "preference を設定する場合には、次の点に、注意が必要です。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:46
+msgid ""
+"Preferences defined outside of the ``<platform>`` element will apply to all "
+"platforms."
+msgstr "``<platform>`` 要素のブロック 「 外 」 に置かれた preference は、すべてのプラットフォームに対して適用されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:47
+msgid ""
+"Preferences defined inside a ``<platform>`` element will apply only to the "
+"specified platform."
+msgstr "``<platform>`` 要素のブロック 「 内 」 に置かれた preference は、指定されているプラットフォームに対してのみ、適用されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:48
+msgid "Platform preferences take precedence over common preferences."
+msgstr "platform 要素のブロック内に置かれている preference は、置かれていないものより、優先されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:49
+msgid ""
+"Platform-specific preferences must be prefixed with the platform name (e.g. "
+"name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
+msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` 要素 ( 例 : name=\"ios-somepref\" ) のブロック内に置きます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:53
+msgid "Config Blocks"
+msgstr "config-file を使用したカスタマイズ設定"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:55
+msgid ""
+"``<config-file>`` blocks allow platform-specific chunks of the configuration"
+" to be defined as an XML subtree in the ``config.xml`` file, which is then "
+"applied to the appropriate platform configuration file by the plugin."
+msgstr "``<config-file>`` ブロックを使用すれば、プラットフォーム別のカスタマイズ設定 ( 群 ) を、ひとまとめにして定義できます ( ``config.xml`` 内 )。適用先となるファイルでは、これらのカスタマイズ設定は、XML のサブツリーとして挿入されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:57
+msgid ""
+"While setting the config blocks, please be aware of the following points:"
+msgstr "config-file の設定時には、次の点に注意が必要です。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:59
+msgid ""
+"``<config-file>`` elements must be defined inside a ``<platform>`` element, "
+"otherwise they will be ignored."
+msgstr "``<config-file>`` 要素は、``<platform>`` 要素のブロック内に置きます。これ以外の場合、設定は無視されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:60
+msgid ""
+"config-file ``target`` attributes specify the target file to update. "
+"(``AndroidManifest.xml`` or ``*-Info.plist``)"
+msgstr "config-file 要素の ``target`` 属性には、更新対象のファイルを指定します (``AndroidManifest.xml`` または ``*-Info.plist``)。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:61
+msgid ""
+"config-file ``parent`` attributes specify the parent element "
+"(``AndroidManifest.xml``) or parent key (``*-Info.plist``) that the child "
+"data will replace or be appended to."
+msgstr "config-file の ``parent`` 属性には、親となる要素 ( Android の場合、``AndroidManifest.xml`` 内 )、または、親となる key ( iOS の場合、``*-Info.plist`` 内 ) を指定します。この親の子要素、または、key の value として、設定内容が挿入されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:62
+msgid ""
+"``<config-file>`` elements are uniquely indexed by target and parent for "
+"each platform."
+msgstr "``<config-file>`` 要素に指定された target ( ファイル ) と parent ( ファイル内の位置 ) の組み合わせを使用して、カスタマイズ設定の適用場所を指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:63
+msgid ""
+"If there are multiple config-file's defined with the same target and parent,"
+" the last config-file will be used."
+msgstr "同一の target と parent 属性が設定された config-file が複数ある場合、最後の config-file が適用されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:64
+msgid ""
+"Elements defined within a config-file will replace or be appended to the "
+"same elements relative to the parent element."
+msgstr "config-file 内に定義された要素 ( ファイル、適用する箇所、適用する内容 ) を使用して、適用先ファイルの内容が上書きされます ( または、指定された内容が追加されます )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:65
+msgid ""
+"If a unique config-file contains multiples of the same elements (other than "
+"``<uses-permission>`` elements which are selected by by the uses-permission "
+"``name`` attribute), the last defined element will be retrieved."
+msgstr "config-file 内に定義されている要素が重複している場合、最後に定義されている要素が適用されます。ただし、``<uses-permission>`` 要素のように、``name`` 属性の設定で一意に識別できる場合を除きます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:71
+msgid ""
+"The plugin currently supports setting of custom config only in "
+"``platforms/android/AndroidManifest.xml``. For a list of possible manifest "
+"values, please refer to `App Manifest "
+"<http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_. "
+"All Android-specific config should be placed inside the ``<platform "
+"name=\"android\">`` in ``config.xml`` file."
+msgstr "Android では、このプラグインを使用してカスタマイズできる対象は、現在、``platforms/android/AndroidManifest.xml`` 内の設定だけです。Manifest ファイル内の詳細は、`アプリ マニフェスト ( 外部サイト ) <http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_ をご確認ください。なお、Android 向けの設定は、``config.xml`` ファイルの ``<platform name=\"android\">`` ブロック内に置きます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:75
+msgid "Android Preferences"
+msgstr "Android 向けの preference の設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:77
+msgid ""
+"``<preference>`` elements in ``config.xml`` are used to set attributes on "
+"elements in the ``AndroidManifest.xml``. For example, if you add the "
+"following element to the ``config.xml``:"
+msgstr "``config.xml`` 内の ``<preference>`` 要素を使用して、``AndroidManifest.xml`` 内の要素に、指定した属性を反映させます。たとえば、``config.xml`` に、次の要素を追加すると..."
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:83
+msgid "then the following line will be added to ``AndroidManifest.xml``:"
+msgstr "``AndroidManifest.xml`` には、次の設定が追加されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:89
+msgid ""
+"Sometimes, you may want to remove some default settings in "
+"``AndroidManifest.xml``. You can do delete them by using the "
+"``delete=\"true\"`` attribute of the ``<preference>`` element. For example, "
+"if you add the following line in ``config.xml``, it will delete the existing"
+" node ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" "
+"/>`` within ``AndroidManifest.xml``:"
+msgstr "``AndroidManifest.xml`` 内に定義されているデフォルトの設定を削除する場合には、``<preference>`` 要素に ``delete=\"true\"`` を設定します。たとえば、``config.xml`` に次の設定を追加した場合、``AndroidManifest.xml`` 内の ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />`` を削除できます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:97
+msgid "Android Namespace Attribute"
+msgstr "名前空間の設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:99
+msgid ""
+"In order to user the ``android:`` namespace in preferences within your "
+"``config.xml``, you must include the android namespace attribute on the root"
+" ``<widget>`` element."
+msgstr "``config.xml`` の preference に ``android:`` ( 名前空間を指定 ) を指定する場合、``<widget>`` 要素 ( ルート要素 ) にも、andorid の名前空間を設定する必要があります。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:101
+msgid "The namespace attribute fragment is:"
+msgstr "名前空間を指定する属性は、次のように記述します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:107
+msgid "so your ``<widget>`` element should look something like this:"
+msgstr "``<widget>`` 要素は、次のように記述します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:120
+msgid "XPath Preferences"
+msgstr "XPath 使用時の preference の設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:122
+msgid ""
+"Android manifest preferences are set by using XPaths in the preference name "
+"to define which element attribute the value should be applied to. The "
+"preference name should be prefixed with ``android-manifest`` then follow "
+"with an XPath which specifies the element and attribute to apply the value "
+"to. For example,"
+msgstr "Android のマニフェストに適用する preference には、XPath も使用できます。preference の name に、要素と属性を XPath 形式で指定して、カスタマイズ設定の適用先を示します。具体的には、preference の name に指定する値に、``android-manifest`` を先頭に付け、その後ろに、XPath 形式で要素と属性を指定して、value の値の適用先となる場所を示します。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:128
+msgid ""
+"This preference specifies that the ``launchMode`` attribute should be given "
+"a value of ``singleTask`` which will be resulted as:"
+msgstr "上記の preference を適用すると、次のように、``launchMode`` 属性に、``singleTask`` が設定されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:135
+msgid ""
+"If your manifest contains other activities, you should specify the activity "
+"name in the XPath. For example:"
+msgstr "manifest 内に、複数の activity が存在する場合、XPath の記述内にも、activity の name を指定します。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:141
+msgid ""
+"The activity name for Cordova 4.2.0 and below was ``\"CordovaApp\"`` whereas"
+" Cordova 4.3.0 and above is ``\"MainActivity\"``."
+msgstr "Cordova 4.2.0 以前のバージョンでは、プロジェクトの作成時、activity の name には、``\"CordovaApp\"`` が使用されていました。Cordova 4.3.0 以降では、``\"MainActivity\"`` となっています。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:143
+msgid ""
+"If the attribute you are setting is on the root ``<manifest>`` element, just"
+" omit the element name and specify the attribute. For example:"
+msgstr "``<manifest>`` 要素 ( ルート要素 ) 内にある属性を適用先とする場合、要素名は省略して、属性だけを指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:151
+msgid "Android Config Blocks"
+msgstr "Android 向けの config-file ブロックの設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:153
+msgid ""
+"``<config-file>`` blocks are used to define chunks of configuration of an "
+"XML subtree which will be inserted into ``AndroidManifest.xml``. The child "
+"elements inside the ``<config-file>`` block will be inserted under the "
+"parent element."
+msgstr "``AndroidManifest.xml`` に適用するカスタマイズ設定が複数ある場合は、``<config-file>`` を使用して定義します。これらのカスタマイズ設定は、``AndroidManifest.xml`` ファイル内で、XML のサブツリーに変換されます。``<config-file>`` 内の要素は、parent で指定されている要素の下に挿入されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:155
+msgid "``<config-file>`` element has two attributes such as:"
+msgstr "``<config-file>`` 要素には、次の 2 種類の属性を指定できます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:157
+msgid "``target``: must be set to ``AndroidManifest.xml``."
+msgstr "``target``: ``AndroidManifest.xml`` を常に指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:158
+msgid ""
+"``parent``: defines an Xpath to the parent element in the "
+"``AndroidManifest.xml`` under which the XML subtree block should be "
+"inserted."
+msgstr "``parent``: XPath の記法を使用して、``AndroidManifest.xml`` 内の親となる要素を指定します。この要素下に、XML のサブツリーとして、指定された値が挿入されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:160
+msgid ""
+"to insert a block under the root ``<manifest>`` element, use "
+"``parent=\"/*\"``"
+msgstr "``<manifest>`` 要素 ( ルート要素 ) にブロックを挿入する場合には、``parent=\"/*\"`` を使用します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:161
+msgid ""
+"to insert a block under a descendant of ``<manifest>``, use an Xpath "
+"prefixed with ``./``. For example, ``parent=\"./application/activity\"`` "
+"will insert the block under ``/manifest/application/activity``."
+msgstr "``<manifest>`` の子孫ノード下にブロックを挿入する場合には、``./`` 形式の記法も使用できます。たとえば、``parent=\"./application/activity\"`` を指定した場合、``/manifest/application/activity`` 下に、ブロックが挿入されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:172
+msgid "will result in ``AndroidManifest.xml`` with:"
+msgstr "``AndroidManifest.xml`` 内では、次のようになります。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:183
+msgid ""
+"If the specified parent element contains an existing child element of the "
+"same name as that defined in the XML subtree, the existing element will be "
+"overwritten."
+msgstr "parent 要素に指定された値が XML のサブツリー側に定義されている値と重複する場合、既存の要素は上書きされます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:193
+msgid ""
+"will replace the existing ``<application>`` element. In this case, it would "
+"be better to use a preference:"
+msgstr "上記の内容を使用すれば、既存の ``<application>`` 要素が書き換えられます。なお、このような場合には、preference の使用を推奨します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:200
+msgid "Android Example"
+msgstr "例"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:202
+msgid ""
+"Below is an example of a ``config.xml`` file for Android configuration:"
+msgstr "Android 向けの設定のサンプルを、次に記します ( ``config.xml`` ファイル内 )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:246
+msgid ""
+"The plugin currently supports custom configuration of the project plist "
+"(``*-Info.plist``) using config blocks, and project settings "
+"(``project.pbxproj``) using preference elements. All iOS-specific config "
+"should be placed inside the ``<platform name=\"ios\">`` in ``config.xml`` "
+"file."
+msgstr "iOS では、このプラグインを使用してカスタマイズできる対象は、現在、プロジェクトの plist ( ``*-Info.plist``、config-file ブロックを使用 )、および、設定情報 ( ``project.pbxproj``、preference 要素を使用 ) です。なお、iOS 向けの設定は、``config.xml`` ファイルの ``<platform name=\"ios\">`` ブロック内に置きます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:249
+msgid "iOS Preferences"
+msgstr "iOS 向けの preference の設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:251
+msgid ""
+"``<preference>`` elements in ``config.xml`` are used to set preferences in "
+"the ``*-Info.plist``. Preferences should be defined in the format: "
+"``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" "
+"/>``. For example:"
+msgstr "``config.xml`` の ``<preference>`` 要素を使用して、``*-Info.plist`` の設定を更新します。preference は、``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" />`` の形式で設定します。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:259
+msgid "Build Configuration Preferences"
+msgstr "ビルド設定用の preferences"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:261
+msgid ""
+"Currently, ``XCBuildConfiguration`` is the only supported block type in the "
+"``project.pbxproj``. However, there is no constraint on the list of keys for"
+" which values may be set."
+msgstr "ビルド設定は、``project.pbxproj`` 内の ``XCBuildConfiguration`` を使用して、現在行っています。使用する key/value に関しては、制限はありません。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:263
+msgid ""
+"If an entry already exists in an ``XCBuildConfiguration`` block for the "
+"specified key, the existing value will be overwritten with the specified "
+"value. If no entry exists in any ``XCBuildConfiguration`` block for the "
+"specified key, a new key entry will be created in each "
+"``XCBuildConfiguration`` block with the specified value."
+msgstr "``XCBuildConfiguration`` ブロック内にすでに存在する key を指定した場合、key の value は上書きされます。指定した key がどの ``XCBuildConfiguration`` にも存在しない場合、指定した value とともに、各 ``XCBuildConfiguration`` に key が追加されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:265
+msgid ""
+"By default, values will be applied to both \"Release\" and \"Debug\" "
+"``XCBuildConfiguration`` blocks. However, the block type can be specified by"
+" adding a ``buildType`` attribute to the ``<preference>`` element in the "
+"``config.xml``. The value can be either ``debug`` or ``release``. For "
+"example:"
+msgstr "デフォルトでは、\"Release\" と \"Debug\" の両方の ``XCBuildConfiguration`` ブロックに value が適用されますが、``config.xml`` の ``<preference>`` 要素に、``buildType`` 属性を追加すれば、ビルドの種類を指定でき、ブロックを絞り込めます。この属性に指定できる値は、``debug`` または ``release`` です。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:271
+msgid ""
+"By default, both the key (preference name) and value will be quote-escaped "
+"when inserted into the ``XCBuildConfiguration`` block. For example:"
+msgstr "デフォルトでは、``XCBuildConfiguration`` への挿入時、key  と value は、ダブルクォーテーションで囲われます。たとえば、次の記述で..."
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:277
+#: ../doc/reference/third_party_phonegap/custom_config.rst:296
+msgid "will appear in ``project.pbxproj`` as:"
+msgstr "``project.pbxproj`` 内では、次のようになります。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:283
+msgid ""
+"The default quoting can be override by setting the ``quote`` attribute on "
+"the ``<preference>`` element. The valid values are:"
+msgstr "クォーテーションの付記方法 ( 上記がデフォルトの仕様 ) は、``<preference>`` の ``quote`` 属性を使用して、変更できます。この属性には、次の値を使用できます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:285
+msgid "\"none\": don't quote key or value"
+msgstr "\"none\": key と value のいずれにも、クォーテーションは付記されません。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:286
+msgid "\"key\": quote key but not value"
+msgstr "\"key\": key だけに、クォーテーションが付記されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:287
+msgid "\"value\": quote value but not key"
+msgstr "\"value\": value だけに、クォーテーションが付記されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:288
+msgid "\"both\": quote both key and value"
+msgstr "\"both\": key と value のいずれにも、クォーテーションが付記されます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:303
+msgid ".xcconfig files"
+msgstr ".xcconfig ファイル"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:305
+msgid ""
+"Cordova uses ``.xcconfig`` files in ``/platforms/ios/cordova/`` to override "
+"Xcode project settings in ``project.pbxproj`` with build-type specific "
+"values. ``build.xcconfig`` is overriden by settings in ``build-"
+"debug.xcconfig`` and ``build-release.xcconfig`` for the corresponding build "
+"type."
+msgstr "Cordova では、``/platforms/ios/cordova/`` の ``.xcconfig`` ファイルを使用して、Xcode プロジェクトの ``project.pbxproj`` ファイル内の設定を上書きします ( ビルドの種類に応じて、適用先の場所が変わります )。また、``build.xcconfig`` の内容は、``build-debug.xcconfig`` または ``build-release.xcconfig`` を適用して、上書きされます ( どちらのファイルが使用されるかは、指定したビルドの種類で決まります )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:307
+msgid ""
+"When applying a custom preference, the plugin will look for an existing "
+"entry in the ``.xcconfig`` file that corresponds to the buildType attribute."
+msgstr "カスタマイズ設定を適用するとき、プラグインは、最初に、buildType 属性を参照して、次に、対応する ``.xcconfig`` ファイルにアクセスして、対象の設定値を確認します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:309
+msgid ""
+"If buildType attribute is ``\"debug\"`` or ``\"release\"``, the plugin will "
+"look in ``build-debug.xcconfig`` or ``build-release.xcconfig`` respectively."
+msgstr "buildType 属性が ``\"debug\"`` の場合には ``build-debug.xcconfig``、``\"release\"`` の場合には ``build-release.xcconfig`` にアクセスします。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:310
+msgid ""
+"If buildType is not specified or set to ``\"none\"``, the plugin will look "
+"in ``build.xcconfig``."
+msgstr "buildType が指定されていない場合、または、``\"none\"`` に設定されている場合、``build.xcconfig`` にアクセスします。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:312
+msgid ""
+"By default, if an entry is found in the ``.xcconfig`` file which corresponds"
+" to the custom preference name in the ``config.xml``, the value in the "
+"``.xcconfig`` file will be overwritten with the value in the ``config.xml``."
+" To prevent the plugin from overwriting the value of a specific preference "
+"in the corresponding ``.xcconfig`` file, set the preference attribute "
+"``xcconfigEnforce=\"false\"``. For example:"
+msgstr "``config.xml`` 内に記述されている preference の name と一致する設定が、``.xcconfig`` ファイル内に存在する場合、デフォルトでは、``config.xml`` 側に記述されている値を使用して、``.xcconfig`` 側の値が上書きされます。このような上書き処理を無効にする場合には、``xcconfigEnforce=\"false\"`` を、preference に設定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:318
+msgid ""
+"If a preference value doesn't already exist in the corresponding "
+"``.xcconfig`` file, you can force its addition by setting the preference "
+"attribute ``xcconfigEnforce=\"true\"``. This will append it to the "
+"corresponding ``.xcconfig`` file. For example:"
+msgstr "preference に設定した値が、対応する ``.xcconfig`` ファイル内に存在しない場合は、``xcconfigEnforce=\"true\"`` を使用すれば、強制的に、ファイルに設定を追加できます。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:324
+msgid ""
+"A backup copy of any modified ``.xcconfig`` file will be made in ``plugins"
+"/cordova-custom-config/backup/ios``. By default, these backups will be "
+"restored prior to the next prepare operation. Auto-restore of the backups "
+"can be disabled by setting ``<preference name=\"cordova-custom-config-"
+"autorestore\" value=\"false\" />`` in the ``config.xml``."
+msgstr "更新された ``.xcconfig`` ファイルのバックアップが、``plugins/cordova-custom-config/backup/ios`` 下に作成されます。デフォルトでは、prepare コマンドを実行するたびに、バックアップファイルが適用されます。この自動リストア機能を無効にする場合には、``<preference name=\"cordova-custom-config-autorestore\" value=\"false\" />`` に設定します ( ``config.xml`` 内 )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:326
+msgid ""
+"Preference names and values will not be quote-escaped in ``.xcconfig`` "
+"files, so the ``quote`` attribute has no effect on them."
+msgstr "なお、``.xcconfig`` の更新時、``quote`` 属性は無視されます。よって、preference で指定している name と value を使用して、``.xcconfig`` を更新しても、クォーテーションは付記されません。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:330
+msgid "CODE_SIGN_IDENTITY preferences"
+msgstr "CODE_SIGN_IDENTITY 設定用の preference"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:332
+msgid ""
+"Cordova places its default CODE_SIGN_IDENTITY for Release builds in build-"
+"release.xcconfig but for Debug builds in ``build.xcconfig``."
+msgstr "Cordova では、リリースビルド向けに使用される CODE_SIGN_IDENTITY は、build-release.xcconfig に置かれます。一方、デバッグビルド向けでは、``build.xcconfig`` に置かれます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:334
+msgid ""
+"If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
+"``buildType=\"release\"``, the plugin will overwrite the defaults in "
+"``build-release.xcconfig``. For example:"
+msgstr "``buildType=\"release\"`` を指定して、CODE_SIGN_IDENTITY 用の preference を設定した場合 ( ``config.xml`` 内 )、``build-release.xcconfig`` 内に記述されているデフォルト設定が上書きされます。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:340
+msgid ""
+"If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with "
+"``buildType=\"debug\"``, the plugin will overwrite the defaults in "
+"``build.xcconfig``. For example:"
+msgstr "``buildType=\"debug\"`` を指定して、CODE_SIGN_IDENTITY 用の preference を設定した場合 ( ``config.xml`` 内 )、``build.xcconfig`` 内に記述されているデフォルト設定が上書きされます。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:346
+msgid ""
+"You can prevent the CODE_SIGN_IDENTITY preferences being overwritten by "
+"setting ``xcconfigEnforce=\"false\"``. For example:"
+msgstr "上記のような上書き処理を無効にする場合には、``xcconfigEnforce=\"false\"`` を設定します。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:352
+msgid ""
+"You can force the plugin to add a new entry for CODE_SIGN_IDENTITY "
+"preference with ``buildType=\"debug\"`` to ``build-debug.xcconfig``, rather "
+"than overwriting the defaults in ``build.xcconfig`` by setting "
+"``xcconfigEnforce=\"true\"``. This will still override the defaults in "
+"``build.xcconfig``, because ``build-debug.xcconfig`` overrides "
+"``build.xcconfig``. For example:"
+msgstr "``buildType=\"debug\"`` に設定した場合には、``xcconfigEnforce=\"true\"`` にして、``build.xcconfig`` 内のデフォルト設定を上書きするか、または、``build.xcconfig`` ではなく、``build-debug.xcconfig`` 内に CODE_SIGN_IDENTITY を新規に挿入することもできます。ただし、後者のような処理をしても、``build-debug.xcconfig`` の設定を使用して、``build.xcconfig`` 内の設定が後から更新されるため、結局は、``build.xcconfig`` 内のデフォルト設定は上書きされます。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:359
+msgid "iOS Config Blocks"
+msgstr "iOS 向けの config-file ブロックの設定方法"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:361
+msgid ""
+"``<config-file>`` elements are currently only used to set preferences in the"
+" project ``.plist`` file "
+"(``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``). This element "
+"has 3 attributes such as:"
+msgstr "``<config-file>`` 要素を使用してカスタマイズできる対象は、現在、プロジェクトの ``.plist`` ファイル (``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``) だけです。次の 3 種類の属性を使用できます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:363
+msgid "``target``: should be set to ``*-Info.plist``."
+msgstr "``target``: ``*-Info.plist`` を指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:364
+msgid "``platform``: should be set to ``ios``."
+msgstr "``platform``: ``ios`` を指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:365
+msgid ""
+"``parent``: is used to determine which key name to use for the custom "
+"preference."
+msgstr "``parent``: カスタマイズ設定を適用する key 名を指定します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:374
+msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
+msgstr "上記の内容を適用した場合、``{PROJECT_NAME}-Info.plist`` は、次のようになります。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:385
+msgid ""
+"The value of the preference is set by the child elements of the ``<config-"
+"file>`` element. These will appear directly below the preference ``<key>`` "
+"in the ``.plist`` file."
+msgstr "挿入する value には、``<config-file>`` 要素内に記述されている子要素が使用されます。``.plist`` ファイル内の対応する ``<key>`` 下に、子要素の内容が置かれます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:397
+msgid "will appear in the ``plist`` file as:"
+msgstr "``plist`` ファイルでは、次のようになります。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:409
+msgid "iOS Example"
+msgstr "例"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:411
+msgid "Below is an example of a ``config.xml`` file for iOS configuration:"
+msgstr "iOS 向けの設定のサンプルを、次に記します ( ``config.xml`` ファイル内 )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:475
+msgid "Plugin Preferences"
+msgstr "プラグインの制御 ( preference を使用 ) "
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:477
+msgid ""
+"The plugin supports some preferences which are used to customise the "
+"behaviour of the plugin. Each preference name is prefixed with ``cordova-"
+"custom-config`` to avoid name clashes. For example:"
+msgstr "このプラグインでは、プラグイン自体の動作をカスタマイズするため、数種類の preference を用意しています。各 preference の name には、他の name との競合を避けるため、``cordova-custom-config`` が先頭に付記されています。次に例を記します。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:483
+msgid "The following preferences are currently supported:"
+msgstr "次の preference が使用できます。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:485
+msgid ""
+"``cordova-custom-config-autorestore``: (set to ``false`` by default) if set "
+"to ``true``, the plugin will restore a backup of platform configuration "
+"files taken at plugin installation time."
+msgstr "``cordova-custom-config-autorestore``: ( デフォルトでは、``false`` ) ``true`` に設定された場合、変更前の設定情報にロールバックします ( ロールバックに使用される情報は、このプラグインのインストール時にバックアップされたものです )。"
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:486
+msgid ""
+"``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set "
+"to ``true`` and an error occurs while updating config for a given platform "
+"during a ``prepare`` operation, the error will cause the ``prepare`` "
+"operation to fail. If false, the plugin will log the error but will proceed "
+"and attempt to update any other platforms, before allowing the prepare "
+"operation to continue."
+msgstr "``cordova-custom-config-stoponerror``: ( デフォルトでは、``false`` ) ``prepare`` コマンドの実行時、この値が ``true`` に設定されている場合、エラーが発生したときには ( 指定されたプラットフォームの設定ファイルの更新時 )、``prepare`` 処理が終了します。false の場合、エラーが発生したときでも、設定情報の更新および ``prepare`` 処理は、継続して行われます ( エラーがログに出力されます )。"
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
 msgid "DatePicker Plugin"

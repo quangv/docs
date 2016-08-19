@@ -32,7 +32,7 @@ msgid ":ref:`Configure via configuration files directly <android_config_files>`.
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:19
-#: ../doc/reference/config/ios_configuration.rst:17
+#: ../doc/reference/config/ios_configuration.rst:19
 msgid "Configuration via Monaca Cloud IDE"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgid "After finishing the configuration, please click :guilabel:`Save`."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:37
-#: ../doc/reference/config/ios_configuration.rst:38
+#: ../doc/reference/config/ios_configuration.rst:40
 msgid "Configurable Parameters"
 msgstr ""
 
@@ -74,7 +74,7 @@ msgid "*Keep Running*: [Enable by default] Enable this if you want Cordova to ke
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:43
-#: ../doc/reference/config/ios_configuration.rst:43
+#: ../doc/reference/config/ios_configuration.rst:45
 msgid "*Disallow Overscroll*: [Enable by default] Enable this if you want to disable the glow when a user scrolls beyond the edge of the webview."
 msgstr ""
 
@@ -91,7 +91,7 @@ msgid "*Screen Orientation*: Specify the screen orientation of the app."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:54
-#: ../doc/reference/config/ios_configuration.rst:51
+#: ../doc/reference/config/ios_configuration.rst:53
 msgid "Configuration via Configuration Files"
 msgstr ""
 
@@ -112,7 +112,7 @@ msgid "These configurations are critical to the Android app to run. Wrong config
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:69
-#: ../doc/reference/config/ios_configuration.rst:253
+#: ../doc/reference/config/ios_configuration.rst:256
 #: ../doc/reference/cordova_3.5/statusbar/index.rst:95
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:59
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:137
@@ -123,8 +123,8 @@ msgid "config.xml"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:71
-#: ../doc/reference/config/ios_configuration.rst:255
-msgid "The :file:`config.xml` file is a settings file controlling various settings of Cordova. It's located under ``www`` folder inside your monaca project."
+#: ../doc/reference/config/ios_configuration.rst:258
+msgid "The :file:`config.xml` file is a settings file controlling various settings of Cordova."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:77
@@ -150,13 +150,13 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:263
 #: ../doc/reference/config/android_configuration.rst:286
 #: ../doc/reference/config/android_configuration.rst:315
-#: ../doc/reference/config/android_configuration.rst:404
-#: ../doc/reference/config/android_configuration.rst:423
-#: ../doc/reference/config/android_configuration.rst:444
-#: ../doc/reference/config/android_configuration.rst:511
-#: ../doc/reference/config/android_configuration.rst:533
-#: ../doc/reference/config/android_configuration.rst:564
-#: ../doc/reference/config/android_configuration.rst:578
+#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:580
 msgid "Attribute"
 msgstr ""
 
@@ -208,24 +208,24 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:265
 #: ../doc/reference/config/android_configuration.rst:288
 #: ../doc/reference/config/android_configuration.rst:317
-#: ../doc/reference/config/ios_configuration.rst:134
-#: ../doc/reference/config/ios_configuration.rst:150
-#: ../doc/reference/config/ios_configuration.rst:151
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:137
 #: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:154
 #: ../doc/reference/config/ios_configuration.rst:155
 #: ../doc/reference/config/ios_configuration.rst:156
-#: ../doc/reference/config/ios_configuration.rst:157
 #: ../doc/reference/config/ios_configuration.rst:158
 #: ../doc/reference/config/ios_configuration.rst:159
 #: ../doc/reference/config/ios_configuration.rst:160
 #: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:163
 #: ../doc/reference/config/ios_configuration.rst:164
-#: ../doc/reference/config/ios_configuration.rst:271
-#: ../doc/reference/config/ios_configuration.rst:347
-#: ../doc/reference/config/ios_configuration.rst:370
-#: ../doc/reference/config/ios_configuration.rst:392
-#: ../doc/reference/config/ios_configuration.rst:412
+#: ../doc/reference/config/ios_configuration.rst:167
+#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:415
 #: ../doc/reference/cordova_5.2/camera/index.rst:187
 #: ../doc/reference/cordova_5.2/camera/index.rst:206
 #: ../doc/reference/cordova_6.2/camera/index.rst:180
@@ -319,17 +319,17 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:269
 #: ../doc/reference/config/android_configuration.rst:292
 #: ../doc/reference/config/android_configuration.rst:321
-#: ../doc/reference/config/android_configuration.rst:404
-#: ../doc/reference/config/android_configuration.rst:423
-#: ../doc/reference/config/android_configuration.rst:444
-#: ../doc/reference/config/android_configuration.rst:460
-#: ../doc/reference/config/android_configuration.rst:511
-#: ../doc/reference/config/android_configuration.rst:533
-#: ../doc/reference/config/android_configuration.rst:564
-#: ../doc/reference/config/android_configuration.rst:578
-#: ../doc/reference/config/ios_configuration.rst:132
-#: ../doc/reference/config/ios_configuration.rst:148
-#: ../doc/reference/config/ios_configuration.rst:211
+#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:214
 #: ../doc/reference/cordova_3.5/camera/index.rst:44
 #: ../doc/reference/cordova_3.5/camera/index.rst:362
 #: ../doc/reference/cordova_3.5/device/index.rst:144
@@ -518,7 +518,7 @@ msgid "``src``"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:133
-#: ../doc/reference/config/ios_configuration.rst:272
+#: ../doc/reference/config/ios_configuration.rst:275
 msgid "``indext.html``"
 msgstr ""
 
@@ -537,7 +537,7 @@ msgid "``origin``"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:157
-#: ../doc/reference/config/ios_configuration.rst:393
+#: ../doc/reference/config/ios_configuration.rst:396
 msgid "``*``"
 msgstr ""
 
@@ -572,16 +572,16 @@ msgstr ""
 #: ../doc/reference/config/android_configuration.rst:183
 #: ../doc/reference/config/android_configuration.rst:204
 #: ../doc/reference/config/android_configuration.rst:224
-#: ../doc/reference/config/ios_configuration.rst:292
-#: ../doc/reference/config/ios_configuration.rst:311
-#: ../doc/reference/config/ios_configuration.rst:329
+#: ../doc/reference/config/ios_configuration.rst:295
+#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:332
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:67
 #: ../doc/reference/monaca_api/cloud_management/collection.rst:125
 msgid "boolean"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:184
-#: ../doc/reference/config/ios_configuration.rst:330
+#: ../doc/reference/config/ios_configuration.rst:333
 msgid "``true``"
 msgstr ""
 
@@ -595,8 +595,8 @@ msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:205
 #: ../doc/reference/config/android_configuration.rst:225
-#: ../doc/reference/config/ios_configuration.rst:293
-#: ../doc/reference/config/ios_configuration.rst:312
+#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:315
 msgid "``false``"
 msgstr ""
 
@@ -712,12 +712,12 @@ msgid "If your application has previously been shipped to users, using an older 
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:409
+#: ../doc/reference/config/ios_configuration.rst:412
 msgid "*ScreenOrientation* (Cordova 5.2 or Higher)"
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:319
-#: ../doc/reference/config/ios_configuration.rst:413
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid "``default``"
 msgstr ""
 
@@ -730,12 +730,12 @@ msgid "``default``: will use system default screen orientation."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:324
-#: ../doc/reference/config/ios_configuration.rst:418
+#: ../doc/reference/config/ios_configuration.rst:421
 msgid "``landscape``: set screen orientation to landscape mode."
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:325
-#: ../doc/reference/config/ios_configuration.rst:419
+#: ../doc/reference/config/ios_configuration.rst:422
 msgid "``portrait``: set screen orientation to portrait mode."
 msgstr ""
 
@@ -756,413 +756,417 @@ msgid "Basic behaviour of Android applications can be configured by editing :fil
 msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:364
+msgid "For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from Monaca framework. Therefore, in order to config Android application settings, use :ref:`custom_config_plugin`."
+msgstr ""
+
+#: ../doc/reference/config/android_configuration.rst:366
 msgid ":file:`AndroidManifest.xml` (Main elements)"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:392
+#: ../doc/reference/config/android_configuration.rst:394
 msgid "*<manifest>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:394
+#: ../doc/reference/config/android_configuration.rst:396
 msgid "Is the root element of :file:`AndroidManifest.xml` file. The child element of ``<manifest>`` is ``<application>`` and it must contain :file:`xlmns:android` and ``package`` attributes."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:408
 msgid "xmlns:android"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:406
+#: ../doc/reference/config/android_configuration.rst:408
 msgid "an Android namespace attribute. This attribute must always have this value: ``http://schemas.android.com/apk/res/android``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:407
+#: ../doc/reference/config/android_configuration.rst:409
 msgid "android:versionCode"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:407
+#: ../doc/reference/config/android_configuration.rst:409
 msgid "an internal version number. It is used only to determine whether one version is more recent than others. Higher number indicates a more recent version. This version number is not shown to users."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:409
+#: ../doc/reference/config/android_configuration.rst:411
 msgid "android:versionName"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:409
+#: ../doc/reference/config/android_configuration.rst:411
 msgid "a version number which is visible to users."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:414
+#: ../doc/reference/config/android_configuration.rst:416
 msgid "*<uses-sdk>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:416
+#: ../doc/reference/config/android_configuration.rst:418
 msgid "Is API level settings of the application. This element is contained in ``<manifest>``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:427
 msgid "android:minSdkVersion"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:425
+#: ../doc/reference/config/android_configuration.rst:427
 msgid "minimum API level required for the application to run. Android uses this value to determine whether the application can be installed in a device."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:426
+#: ../doc/reference/config/android_configuration.rst:428
 msgid "android:targetSdkVersion"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:426
+#: ../doc/reference/config/android_configuration.rst:428
 msgid "API level that the application targets."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:432
+#: ../doc/reference/config/android_configuration.rst:434
 msgid "*<uses-permission>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:434
+#: ../doc/reference/config/android_configuration.rst:436
 msgid "Is permission settings. The permission is granted When the application is installed. This element is contained in ``<manifest>``"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:436
+#: ../doc/reference/config/android_configuration.rst:438
 msgid "*Permissions for Camera*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:446
-#: ../doc/reference/config/android_configuration.rst:513
-#: ../doc/reference/config/android_configuration.rst:535
-#: ../doc/reference/config/android_configuration.rst:566
-#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/android_configuration.rst:448
+#: ../doc/reference/config/android_configuration.rst:515
+#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:568
+#: ../doc/reference/config/android_configuration.rst:582
 msgid "android:name"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:446
+#: ../doc/reference/config/android_configuration.rst:448
 msgid "name of the permissions to be granted for the Android system. The name of the permission can be defined as Camera, Network and etc."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:453
+#: ../doc/reference/config/android_configuration.rst:455
 msgid "*How to Define <uses-permission>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:455
+#: ../doc/reference/config/android_configuration.rst:457
 msgid "``<components/loader.js>`` needs ``ACCESS_NETWORK_STATE`` permission to run. You may exclude this file from ``<uses-permission>`` if it's not necessary for your application."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:460
+#: ../doc/reference/config/android_configuration.rst:462
 msgid "Permission name"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:460
+#: ../doc/reference/config/android_configuration.rst:462
 msgid "Standard System Permissions"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid "Access Coarse Location"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid "Allows an app to access current location of a device."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:462
+#: ../doc/reference/config/android_configuration.rst:464
 msgid "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid "Access Fine Location"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid "Allows an app to use location-based services of a device."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:464
+#: ../doc/reference/config/android_configuration.rst:466
 msgid "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid "Access Network State"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid "Allows an app to access the Network state."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:466
+#: ../doc/reference/config/android_configuration.rst:468
 msgid "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid "Access Location Extra Commands"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid "Allows an app to access extra location provider commands."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:468
+#: ../doc/reference/config/android_configuration.rst:470
 msgid "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid "Bluetooth"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid "Allows an app to connect to paired bluetooth devices."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:470
+#: ../doc/reference/config/android_configuration.rst:472
 msgid "<uses-permission android:name=\"android.permission.BLUETOOTH\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid "Bluetooth (Admin)"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid "Allows an app to discover and pair bluetooth devices."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:472
+#: ../doc/reference/config/android_configuration.rst:474
 msgid "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 #: ../doc/reference/cordova_5.2/camera/index.rst:267
 #: ../doc/reference/cordova_6.2/camera/index.rst:260
 msgid "Camera"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 msgid "Allows an app to use the Camera."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:474
+#: ../doc/reference/config/android_configuration.rst:476
 msgid "<uses-permission android:name=\"android.permission.CAMERA\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "Flashlight"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "Allows access to the flashlight"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:476
+#: ../doc/reference/config/android_configuration.rst:478
 msgid "<uses-permission android:name=\"android.permission.FLASHLIGHT\" />"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid "Internet"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid "Allows an app to use Internet connection."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:478
+#: ../doc/reference/config/android_configuration.rst:480
 msgid "<uses-permission android:name=\"android.permission.INTERNET\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid "Modify Audio Setting"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid "Allows an app to change global audio settings."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:480
+#: ../doc/reference/config/android_configuration.rst:482
 msgid "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid "Read Phone State"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid "Allows read-only access to the phone state."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:482
+#: ../doc/reference/config/android_configuration.rst:484
 msgid "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid "Receive SMS"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid "Allows an app to intercept SMS messages."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:484
+#: ../doc/reference/config/android_configuration.rst:486
 msgid "<uses-permission android:name=\"android.permission.RECEIVE_SMS\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid "Record Audio"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid "Allows an app to record audio."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:486
+#: ../doc/reference/config/android_configuration.rst:488
 msgid "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid "Read Contacts"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid "Allows an app to read the contacts."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:488
+#: ../doc/reference/config/android_configuration.rst:490
 msgid "<uses-permission android:name=\"android.permission.READ_CONTACTS\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid "Vibrate"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid "Allows an app to use the Vibrator."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:490
+#: ../doc/reference/config/android_configuration.rst:492
 msgid "<uses-permission android:name=\"android.permission.VIBRATE\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid "Write Contacts"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid "Allows an app the write access to the contacts."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:492
+#: ../doc/reference/config/android_configuration.rst:494
 msgid "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid "Write External Storage"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid "Allows an app the write access to External Storage."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:494
+#: ../doc/reference/config/android_configuration.rst:496
 msgid "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"></uses-permission>"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:499
+#: ../doc/reference/config/android_configuration.rst:501
 msgid "*<uses-feature>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:501
+#: ../doc/reference/config/android_configuration.rst:503
 msgid "Declares hardware or software features used by the application. For instance. If the application requires Camera feature, the user whose device has no camera cannot install the application. This element is contained in ``<manifest>``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:503
+#: ../doc/reference/config/android_configuration.rst:505
 msgid "The code below specifies that the application needs Camera feature."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:513
+#: ../doc/reference/config/android_configuration.rst:515
 msgid "feature name"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:514
+#: ../doc/reference/config/android_configuration.rst:516
 msgid "android:required"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:514
+#: ../doc/reference/config/android_configuration.rst:516
 msgid "a boolean value that specifies whether the application requires the feature set in ``android:name``. If you set the value to ``true``, you are indicating that the application cannot function without the feature. If you set it to ``false``, it means that the application prefers to use the feature, but can still function without the feature."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:521
+#: ../doc/reference/config/android_configuration.rst:523
 msgid "*<application>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:523
+#: ../doc/reference/config/android_configuration.rst:525
 msgid "Is an Application tag. This element is contained in ``<manifest>``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:535
+#: ../doc/reference/config/android_configuration.rst:537
 msgid "defines a name of the application. It is a fully qualified name of the class that you extend from Application class."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:536
+#: ../doc/reference/config/android_configuration.rst:538
 msgid "android:icon"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:536
+#: ../doc/reference/config/android_configuration.rst:538
 msgid "an icon for the entire application as well as a default icon for each of the application's components"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:539
 msgid "android:label"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:537
+#: ../doc/reference/config/android_configuration.rst:539
 msgid "a label for the entire application"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:538
+#: ../doc/reference/config/android_configuration.rst:540
 msgid "android:theme"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:538
+#: ../doc/reference/config/android_configuration.rst:540
 msgid "an Application level theme"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:539
+#: ../doc/reference/config/android_configuration.rst:541
 msgid "android:screenOrientation"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:539
+#: ../doc/reference/config/android_configuration.rst:541
 msgid "application level Orientation settings"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:545
+#: ../doc/reference/config/android_configuration.rst:547
 msgid "*<intent-filter>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:547
+#: ../doc/reference/config/android_configuration.rst:549
 msgid "Defines the process of intent filter. This element is contained in ``<activity>``. The child ``<action>`` element must be defined."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:559
+#: ../doc/reference/config/android_configuration.rst:561
 msgid "*<action>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:561
+#: ../doc/reference/config/android_configuration.rst:563
 msgid "Specifies an action for an intent filter. The element is contained in ``<intent-filter>``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:566
+#: ../doc/reference/config/android_configuration.rst:568
 msgid "action name"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:573
+#: ../doc/reference/config/android_configuration.rst:575
 msgid "*<category>*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:575
+#: ../doc/reference/config/android_configuration.rst:577
 msgid "Specifies the category of the intent filter. The element is contained in ``<intent-filter>``."
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:580
+#: ../doc/reference/config/android_configuration.rst:582
 msgid "category name"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:588
-#: ../doc/reference/config/ios_configuration.rst:450
+#: ../doc/reference/config/android_configuration.rst:590
+#: ../doc/reference/config/ios_configuration.rst:453
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
 #: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
@@ -1222,19 +1226,20 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:93
 #: ../doc/reference/power_plugins/sqlcipher.rst:125
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:60
+#: ../doc/reference/third_party_phonegap/custom_config.rst:492
 #: ../doc/reference/third_party_phonegap/datepicker.rst:174
 #: ../doc/reference/third_party_phonegap/share.rst:74
 #: ../doc/reference/third_party_phonegap/webintent.rst:77
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:590
-#: ../doc/reference/config/ios_configuration.rst:452
+#: ../doc/reference/config/android_configuration.rst:592
+#: ../doc/reference/config/ios_configuration.rst:455
 msgid ":ref:`file_folder_configuration`"
 msgstr ""
 
-#: ../doc/reference/config/android_configuration.rst:591
-#: ../doc/reference/config/ios_configuration.rst:55
+#: ../doc/reference/config/android_configuration.rst:593
+#: ../doc/reference/config/ios_configuration.rst:57
 msgid ":ref:`info_plist`"
 msgstr ""
 
@@ -1246,552 +1251,561 @@ msgstr ""
 msgid "With Monaca Cloud IDE, you can specify more behaviors for iOS and Android apps by using the app setting page or by manually editing the configuration files."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:3
+#: ../doc/reference/config/ios_configuration.rst:5
 msgid "iOS Configuration"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:8
+#: ../doc/reference/config/ios_configuration.rst:10
 msgid "There are 2 ways to configure your iOS apps:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:10
+#: ../doc/reference/config/ios_configuration.rst:12
 msgid ":ref:`Configure via Monaca Cloud IDE <ios_config_ide>`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:11
+#: ../doc/reference/config/ios_configuration.rst:13
 msgid ":ref:`Configure via configuration files directly <ios_config_files>`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:20
+#: ../doc/reference/config/ios_configuration.rst:22
 msgid "iOS App Settings Page"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:23
+#: ../doc/reference/config/ios_configuration.rst:25
 msgid "The iOS App Settings page allows to set several commonly used parameter in iOS app. Please follow the following instruction in order to access the iOS App Setting page in Monaca Cloud IDE:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:25
+#: ../doc/reference/config/ios_configuration.rst:27
 msgid "From Monaca Cloud IDE menu, go to :guilabel:`Config` > :guilabel:`iOS App Settings...`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:30
+#: ../doc/reference/config/ios_configuration.rst:32
 msgid "*iOS App Configuration* page will appear as shown below. You can then start your configuration."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:35
+#: ../doc/reference/config/ios_configuration.rst:37
 msgid "After finishing the configuration, please click :guilabel:`Save` button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:40
+#: ../doc/reference/config/ios_configuration.rst:42
 msgid "In the iOS App Settings page, you can configure the parameters such as application information, icons, splash files, permissions and additional features. The following are the list of parameters can be configured via the page:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:42
+#: ../doc/reference/config/ios_configuration.rst:44
 msgid "*Allowed URL*: Specify URL(s) which can be accessed from your app. If set to ``*``, you can access all domains from your app. (Set to ``*`` by default)"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:44
+#: ../doc/reference/config/ios_configuration.rst:46
 msgid "*Enable Viewport Scale*: [Enable by default] If you disable this feature, the viewport meta tag which is set inside your app will be ignored."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:45
+#: ../doc/reference/config/ios_configuration.rst:47
 msgid "*Fade Splash Screen*: [Enable by default]"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:46
+#: ../doc/reference/config/ios_configuration.rst:48
 msgid "*Show Splash Screen*: Show splash screen at start of the app."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:53
+#: ../doc/reference/config/ios_configuration.rst:55
 msgid "All the configuration parameters of an iOS app are stored in the files as follows:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:56
+#: ../doc/reference/config/ios_configuration.rst:58
 msgid ":ref:`config_xml_ios`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:60
+#: ../doc/reference/config/ios_configuration.rst:62
 msgid "These configurations are critical to the iOS app to run. Wrong configuration can prevent the app from running properly, please edit the file carefully."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:66
+#: ../doc/reference/config/ios_configuration.rst:68
 msgid "MonacaApp-Info.plist"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:68
+#: ../doc/reference/config/ios_configuration.rst:70
 msgid "You can configure your iOS app in :file:`MonacaApp-Info.plist` file. For information on ``plist`` file, please refer to `Information Property List Files (Apple) <http://developer.apple.com/library/ios/documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html>`_. This file is located under ``ios`` folder inside your monaca project as shown below:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:76
+#: ../doc/reference/config/ios_configuration.rst:77
+msgid "For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from Monaca framework. Therefore, in order to config iOS application settings, use :ref:`custom_config_plugin`."
+msgstr ""
+
+#: ../doc/reference/config/ios_configuration.rst:79
 msgid ":file:`MonacaApp-Info.plist` (Excerpt)"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:99
+#: ../doc/reference/config/ios_configuration.rst:102
 msgid "Inside :file:`MonacaApp-Info.plist` file, there are 3 main types of elements:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:101
+#: ../doc/reference/config/ios_configuration.rst:104
 msgid "*<key>*: Defines value (plistObject) and a combination of application configuration information."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:102
+#: ../doc/reference/config/ios_configuration.rst:105
 msgid "*<array>*: You can have the array of values (plistObject)."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:103
+#: ../doc/reference/config/ios_configuration.rst:106
 msgid "*<dict>*: Key and combination of value (plistObject) are defined here."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:106
+#: ../doc/reference/config/ios_configuration.rst:109
+#: ../doc/reference/third_party_phonegap/custom_config.rst:164
+#: ../doc/reference/third_party_phonegap/custom_config.rst:185
+#: ../doc/reference/third_party_phonegap/custom_config.rst:290
+#: ../doc/reference/third_party_phonegap/custom_config.rst:367
+#: ../doc/reference/third_party_phonegap/custom_config.rst:387
 msgid "For example:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:129
+#: ../doc/reference/config/ios_configuration.rst:132
 msgid "*Type List of Values (plistObject)*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:132
+#: ../doc/reference/config/ios_configuration.rst:135
 msgid "Types"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:134
+#: ../doc/reference/config/ios_configuration.rst:137
 msgid "String data type representing text."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "date"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:135
+#: ../doc/reference/config/ios_configuration.rst:138
 msgid "Date data type representing date and time."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:139
 #: ../doc/reference/monaca_api/cloud/criteria.rst:104
 msgid "Integer"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:136
+#: ../doc/reference/config/ios_configuration.rst:139
 msgid "Integer number"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "real"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:137
+#: ../doc/reference/config/ios_configuration.rst:140
 msgid "Floating data type representing a decimal number."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:141
 msgid "data"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:138
+#: ../doc/reference/config/ios_configuration.rst:141
 msgid "Data type"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:139
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:142
+#: ../doc/reference/config/ios_configuration.rst:165
 #: ../doc/reference/cordova_5.2/camera/index.rst:246
 #: ../doc/reference/cordova_6.2/camera/index.rst:239
 msgid "true"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:139
+#: ../doc/reference/config/ios_configuration.rst:142
 msgid "true boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "false"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:140
+#: ../doc/reference/config/ios_configuration.rst:143
 msgid "false boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:143
+#: ../doc/reference/config/ios_configuration.rst:146
 msgid "*List of Keys*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "key"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:148
+#: ../doc/reference/config/ios_configuration.rst:151
 msgid "plistObject Type"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "CFBundleDevelopmentRegion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:150
+#: ../doc/reference/config/ios_configuration.rst:153
 msgid "Defines a native language of the developer. If the language of the user cannot be found, this value will be used as default."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "CFBundleDisplayName"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:151
+#: ../doc/reference/config/ios_configuration.rst:154
 msgid "Define a name of the application. It is a fully qualified name of the class that you extend from Application class."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "CFBundleExecutable"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:152
+#: ../doc/reference/config/ios_configuration.rst:155
 msgid "Defines the application executable file."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "CFBundleIconFile"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:153
+#: ../doc/reference/config/ios_configuration.rst:156
 msgid "Defines application icon file name."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "CFBundleIconFiles"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:154
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid "<array>string"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:154
+#: ../doc/reference/config/ios_configuration.rst:157
 msgid "Defines icon file names used for iOS 3.2 or later. The correct file will be chosen depending on the size of the device screen resolution."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "CFBundleIdentifier"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:155
+#: ../doc/reference/config/ios_configuration.rst:158
 msgid "Specifies a unique identifier for your application. The identifier must be a Uniform Type Identifier (UTI) as \":file:`com.monaca.MyApp`\"."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "CFBundleInfoDictionaryVersion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:156
+#: ../doc/reference/config/ios_configuration.rst:159
 msgid "Is the current version number of :file:`MonacaApp-Info.plist` file."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "CFBundleName"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:157
+#: ../doc/reference/config/ios_configuration.rst:160
 msgid "Is a short display name of the app. It is limited to 16 characters at most."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "CFBundlePackageType"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:158
+#: ../doc/reference/config/ios_configuration.rst:161
 msgid "Is a 4-digit code used to describe application type. Set this value to \"APPL\" for application project."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "CFBundleShortVersionString"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:159
+#: ../doc/reference/config/ios_configuration.rst:162
 msgid "Specifies the version number of your application."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "CFBundleSignature"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:160
+#: ../doc/reference/config/ios_configuration.rst:163
 msgid "Is a 4-digit code used to identify the app developer."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "CFBundleVersion"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:161
+#: ../doc/reference/config/ios_configuration.rst:164
 msgid "Is a build version number of the application."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:165
 msgid "LSRequiresIPhoneOS"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:162
+#: ../doc/reference/config/ios_configuration.rst:165
 msgid "Indicates whether the application can only be run on iPhone or not."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid "UISupportedInterfaceOrientations"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:163
+#: ../doc/reference/config/ios_configuration.rst:166
 msgid "Specifies screen orientations for iPhone that are supported by the application. For iPad, use \"UISupportedInterfaceOrientations~ipad\"."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:167
 msgid "BackupWebStorage"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:164
+#: ../doc/reference/config/ios_configuration.rst:167
 msgid "Set to ``cloud`` to allow the web storage data to be backed up to iCloud, Set to ``none`` to not allow any backups of web storage. default is ``cloud``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:168
+#: ../doc/reference/config/ios_configuration.rst:171
 msgid "Here are some keys and values you may need to configure in your iOS apps:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:174
+#: ../doc/reference/config/ios_configuration.rst:177
 msgid "*UISupportedInterfaceOrientations*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:176
+#: ../doc/reference/config/ios_configuration.rst:179
 msgid "Is used to set the screen orientation of your app:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:178
+#: ../doc/reference/config/ios_configuration.rst:181
 msgid "Settings for iPhone"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:193
+#: ../doc/reference/config/ios_configuration.rst:196
 msgid "Settings for iPad"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:208
+#: ../doc/reference/config/ios_configuration.rst:211
 msgid "*List of Orientation Values*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:211
+#: ../doc/reference/config/ios_configuration.rst:214
 msgid "Value"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:214
+#: ../doc/reference/config/ios_configuration.rst:217
 msgid "UIInterfaceOrientationLandscapeLeft"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:214
+#: ../doc/reference/config/ios_configuration.rst:217
 msgid "Landscape orientation aligned to the left side of the Home button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:219
 msgid "UIInterfaceOrientationLandscapeRight"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:216
+#: ../doc/reference/config/ios_configuration.rst:219
 msgid "Landscape orientation aligned to the right side of the Home button."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:221
 msgid "UIInterfaceOrientationPortraitUpsideDown"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:218
+#: ../doc/reference/config/ios_configuration.rst:221
 msgid "Portrait orientation"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:223
 msgid "UIInterfaceOrientationPortrait"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:220
+#: ../doc/reference/config/ios_configuration.rst:223
 msgid "Portrait orientation in opposite direction from the normal portrait orientation."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:224
+#: ../doc/reference/config/ios_configuration.rst:227
 msgid "You can download a sample screen orientation file below:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:226
+#: ../doc/reference/config/ios_configuration.rst:229
 msgid ":download:`Screen Orientation File <download/UISupportedInterfaceOrientations.zip>`"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:234
+#: ../doc/reference/config/ios_configuration.rst:237
 msgid "Statusbar Setting"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:239
+#: ../doc/reference/config/ios_configuration.rst:242
 msgid "*UIStatusBarHidden*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:239
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:242
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid "*Type:* boolean"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:240
-#: ../doc/reference/config/ios_configuration.rst:245
+#: ../doc/reference/config/ios_configuration.rst:243
+#: ../doc/reference/config/ios_configuration.rst:248
 msgid "*Default:* ``false``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:241
-#: ../doc/reference/config/ios_configuration.rst:246
+#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:249
 msgid "*Description:* if set to ``true``, the status bar at the top of the application will be hidden."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:242
+#: ../doc/reference/config/ios_configuration.rst:245
 msgid "*Note:* If *UIStatusBarHidden* set to ``true`` and *UIViewControllerBasedStatusBarAppearance* set to ``false``, the status bar at the top of the app will be hidden."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:244
+#: ../doc/reference/config/ios_configuration.rst:247
 msgid "*UIViewControllerBasedStatusBarAppearance*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:247
+#: ../doc/reference/config/ios_configuration.rst:250
 msgid "*Note:* set to ``true`` in order to use :ref:`StatusBar Plugin<status_bar_plugin>`."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:262
+#: ../doc/reference/config/ios_configuration.rst:265
 msgid "Below are available preferences you may need to configure:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:268
+#: ../doc/reference/config/ios_configuration.rst:271
 msgid "*Content*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:271
-#: ../doc/reference/config/ios_configuration.rst:292
-#: ../doc/reference/config/ios_configuration.rst:311
-#: ../doc/reference/config/ios_configuration.rst:329
-#: ../doc/reference/config/ios_configuration.rst:347
-#: ../doc/reference/config/ios_configuration.rst:370
-#: ../doc/reference/config/ios_configuration.rst:392
-#: ../doc/reference/config/ios_configuration.rst:412
+#: ../doc/reference/config/ios_configuration.rst:274
+#: ../doc/reference/config/ios_configuration.rst:295
+#: ../doc/reference/config/ios_configuration.rst:314
+#: ../doc/reference/config/ios_configuration.rst:332
+#: ../doc/reference/config/ios_configuration.rst:350
+#: ../doc/reference/config/ios_configuration.rst:373
+#: ../doc/reference/config/ios_configuration.rst:395
+#: ../doc/reference/config/ios_configuration.rst:415
 msgid "*Type*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:272
-#: ../doc/reference/config/ios_configuration.rst:293
-#: ../doc/reference/config/ios_configuration.rst:312
-#: ../doc/reference/config/ios_configuration.rst:330
-#: ../doc/reference/config/ios_configuration.rst:348
-#: ../doc/reference/config/ios_configuration.rst:371
-#: ../doc/reference/config/ios_configuration.rst:393
-#: ../doc/reference/config/ios_configuration.rst:413
+#: ../doc/reference/config/ios_configuration.rst:275
+#: ../doc/reference/config/ios_configuration.rst:296
+#: ../doc/reference/config/ios_configuration.rst:315
+#: ../doc/reference/config/ios_configuration.rst:333
+#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:396
+#: ../doc/reference/config/ios_configuration.rst:416
 msgid "*Default*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:273
-#: ../doc/reference/config/ios_configuration.rst:294
-#: ../doc/reference/config/ios_configuration.rst:313
-#: ../doc/reference/config/ios_configuration.rst:331
-#: ../doc/reference/config/ios_configuration.rst:349
-#: ../doc/reference/config/ios_configuration.rst:372
-#: ../doc/reference/config/ios_configuration.rst:394
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:276
+#: ../doc/reference/config/ios_configuration.rst:297
+#: ../doc/reference/config/ios_configuration.rst:316
+#: ../doc/reference/config/ios_configuration.rst:334
+#: ../doc/reference/config/ios_configuration.rst:352
+#: ../doc/reference/config/ios_configuration.rst:375
+#: ../doc/reference/config/ios_configuration.rst:397
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid "*Description*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:273
+#: ../doc/reference/config/ios_configuration.rst:276
 msgid "The ``<content>`` element defines the app's starting page in the top-level web assets directory. You can change the starting page by changing the value of the ``src`` attribute to your preferred URL."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:289
+#: ../doc/reference/config/ios_configuration.rst:292
 msgid "*DisallowOverScroll*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:294
+#: ../doc/reference/config/ios_configuration.rst:297
 msgid "Set to ``true`` if you want to disable the rubber-band scrolling for WebView."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:308
+#: ../doc/reference/config/ios_configuration.rst:311
 msgid "*EnableViewportScale*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:313
+#: ../doc/reference/config/ios_configuration.rst:316
 msgid "Set to ``true`` to prevent viewport scaling through a meta tag."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:326
+#: ../doc/reference/config/ios_configuration.rst:329
 msgid "*AutoHideSplashScreen*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:331
+#: ../doc/reference/config/ios_configuration.rst:334
 msgid "Set to ``false`` to control the splashscreen when it's hidden through a JavaScript API."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:344
+#: ../doc/reference/config/ios_configuration.rst:347
 msgid "*BackupWebStorage*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:348
+#: ../doc/reference/config/ios_configuration.rst:351
 msgid "``cloud``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:349
+#: ../doc/reference/config/ios_configuration.rst:352
 msgid "There are 3 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:351
+#: ../doc/reference/config/ios_configuration.rst:354
 msgid "``none``: disable any backups of web storage."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:352
+#: ../doc/reference/config/ios_configuration.rst:355
 msgid "``cloud``: allow the web storage data to be backed up to iCloud."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:353
+#: ../doc/reference/config/ios_configuration.rst:356
 msgid "``local``: allow only local backups (iTunes sync)."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:367
+#: ../doc/reference/config/ios_configuration.rst:370
 msgid "*UIWebViewDecelerationSpeed*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:371
+#: ../doc/reference/config/ios_configuration.rst:374
 msgid "``normal``"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:372
+#: ../doc/reference/config/ios_configuration.rst:375
 msgid "Controls the deceleration speed of momentum scrolling. There are 2 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:374
+#: ../doc/reference/config/ios_configuration.rst:377
 msgid "``normal``: is the default speed for most native apps"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:375
+#: ../doc/reference/config/ios_configuration.rst:378
 msgid "``fast``: is the default speed for Mobile Safari."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:389
+#: ../doc/reference/config/ios_configuration.rst:392
 msgid "*access origin*"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:394
+#: ../doc/reference/config/ios_configuration.rst:397
 msgid "Controls access to specific network domains. If set to ``*``, you can access all domains from your app."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:414
+#: ../doc/reference/config/ios_configuration.rst:417
 msgid "There are 4 valid values:"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:416
+#: ../doc/reference/config/ios_configuration.rst:419
 msgid "``all``: to specify both portrait & landscape mode you would use the platform specific value all"
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:417
+#: ../doc/reference/config/ios_configuration.rst:420
 msgid "``default``: screen orientation will be applied according to system default."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:433
+#: ../doc/reference/config/ios_configuration.rst:436
 msgid "It is also possible to apply the setting for all devices at once; however, you can only apply default, landscape and portrait in value. \"all\" is not possible for Global Preferences."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:445
+#: ../doc/reference/config/ios_configuration.rst:448
 msgid "For android/windows, \"default\" means all direction, but in iOS only portrait will be applied."
 msgstr ""
 
-#: ../doc/reference/config/ios_configuration.rst:453
+#: ../doc/reference/config/ios_configuration.rst:456
 msgid ":ref:`android_configuration_file`"
 msgstr ""
 
@@ -2496,6 +2510,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/vibration/index.rst:77
 #: ../doc/reference/power_plugins/in-app_updater.rst:135
 #: ../doc/reference/power_plugins/secure_storage.rst:17
+#: ../doc/reference/third_party_phonegap/custom_config.rst:69
 msgid "Android"
 msgstr ""
 
@@ -2793,6 +2808,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/vibration/index.rst:71
 #: ../doc/reference/power_plugins/in-app_updater.rst:141
 #: ../doc/reference/power_plugins/secure_storage.rst:16
+#: ../doc/reference/third_party_phonegap/custom_config.rst:244
 msgid "iOS"
 msgstr ""
 
@@ -12972,6 +12988,7 @@ msgstr ""
 #: ../doc/reference/cordova_5.2/splashscreen/index.rst:72
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:64
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:51
+#: ../doc/reference/third_party_phonegap/custom_config.rst:36
 msgid "Preferences"
 msgstr ""
 
@@ -13382,6 +13399,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:95
 #: ../doc/reference/power_plugins/sqlcipher.rst:127
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:62
+#: ../doc/reference/third_party_phonegap/custom_config.rst:494
 #: ../doc/reference/third_party_phonegap/datepicker.rst:176
 #: ../doc/reference/third_party_phonegap/share.rst:76
 #: ../doc/reference/third_party_phonegap/webintent.rst:79
@@ -13434,6 +13452,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/secure_storage.rst:96
 #: ../doc/reference/power_plugins/sqlcipher.rst:128
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:63
+#: ../doc/reference/third_party_phonegap/custom_config.rst:495
 #: ../doc/reference/third_party_phonegap/datepicker.rst:177
 #: ../doc/reference/third_party_phonegap/webintent.rst:80
 msgid ":ref:`cordova_core_plugins`"
@@ -21613,6 +21632,7 @@ msgstr ""
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:30
 #: ../doc/reference/power_plugins/sqlcipher.rst:21
+#: ../doc/reference/third_party_phonegap/custom_config.rst:13
 msgid "Enable the Plugin in Monaca"
 msgstr ""
 
@@ -21656,6 +21676,7 @@ msgstr ""
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
 #: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
+#: ../doc/reference/third_party_phonegap/custom_config.rst:23
 msgid "Usage"
 msgstr ""
 
@@ -21881,7 +21902,7 @@ msgid "With Monaca Power Plugins, we deliver developers the ability to secure th
 msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:9
-msgid "Monaca power plugins are available to Enterprise users only."
+msgid "Monaca Power Plugins are available to Gold or Platinum plan users only."
 msgstr ""
 
 #: ../doc/reference/power_plugins/secure_storage.rst:5
@@ -22283,6 +22304,7 @@ msgid "BarcodeScanner Plugin"
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:11
+#: ../doc/reference/third_party_phonegap/custom_config.rst:15
 #: ../doc/reference/third_party_phonegap/datepicker.rst:15
 #: ../doc/reference/third_party_phonegap/share.rst:16
 #: ../doc/reference/third_party_phonegap/webintent.rst:17
@@ -22295,6 +22317,379 @@ msgstr ""
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:20
 msgid "BarcodeScanner Demo"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:5
+msgid "Cordova Custom Config Plugin"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:7
+msgid "For Cordova 5.2 or lower, basic behaviour of Android or iOS applications can be configured by editing :file:`AndroidManifest.xml` or ``MonacaApp-Info.plist`` file respectively. However, for Cordova 6.2 or higher, both :file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed from Monaca framework."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:9
+msgid "Therefore, in order to config iOS/Android application settings, you will need to use Cordova Custom Config plugin. This Cordova plugin for iOS and Android provides hook scripts to update platform configuration files based on custom preferences and config-file data defined in ``config.xml`` file that are not supported out-of-the-box by Cordova."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:16
+msgid "Click :guilabel:`Enable` button of ``Custom Config`` to add it into your project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:25
+msgid "There are no run-time source files included in this plugin. It includes hook scripts which are used to apply preferences dictated by custom keys in the ``config.xml`` file of the project to the relevant platform config files. Therefore, in order to use this plugin, you need to include the relevant keys in your ``config.xml`` and the scripts will take care of the rest when you build your project."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:27
+msgid "By default, any changes made by this plugin to platform config files are irreversible. However, if you want the changes made to be reversible, you can enable auto-backup/restore functionality by adding the following preference inside the top-level ``<widget>`` element of your ``config.xml``:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:38
+msgid "Preferences are set by defining a ``<preference>`` element in the ``config.xml`` file. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:44
+msgid "While setting the preferences, please be aware of the following points:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:46
+msgid "Preferences defined outside of the ``<platform>`` element will apply to all platforms."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:47
+msgid "Preferences defined inside a ``<platform>`` element will apply only to the specified platform."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:48
+msgid "Platform preferences take precedence over common preferences."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:49
+msgid "Platform-specific preferences must be prefixed with the platform name (e.g. name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:53
+msgid "Config Blocks"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:55
+msgid "``<config-file>`` blocks allow platform-specific chunks of the configuration to be defined as an XML subtree in the ``config.xml`` file, which is then applied to the appropriate platform configuration file by the plugin."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:57
+msgid "While setting the config blocks, please be aware of the following points:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:59
+msgid "``<config-file>`` elements must be defined inside a ``<platform>`` element, otherwise they will be ignored."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:60
+msgid "config-file ``target`` attributes specify the target file to update. (``AndroidManifest.xml`` or ``*-Info.plist``)"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:61
+msgid "config-file ``parent`` attributes specify the parent element (``AndroidManifest.xml``) or parent key (``*-Info.plist``) that the child data will replace or be appended to."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:62
+msgid "``<config-file>`` elements are uniquely indexed by target and parent for each platform."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:63
+msgid "If there are multiple config-file's defined with the same target and parent, the last config-file will be used."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:64
+msgid "Elements defined within a config-file will replace or be appended to the same elements relative to the parent element."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:65
+msgid "If a unique config-file contains multiples of the same elements (other than ``<uses-permission>`` elements which are selected by by the uses-permission ``name`` attribute), the last defined element will be retrieved."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:71
+msgid "The plugin currently supports setting of custom config only in ``platforms/android/AndroidManifest.xml``. For a list of possible manifest values, please refer to `App Manifest <http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_. All Android-specific config should be placed inside the ``<platform name=\"android\">`` in ``config.xml`` file."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:75
+msgid "Android Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:77
+msgid "``<preference>`` elements in ``config.xml`` are used to set attributes on elements in the ``AndroidManifest.xml``. For example, if you add the following element to the ``config.xml``:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:83
+msgid "then the following line will be added to ``AndroidManifest.xml``:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:89
+msgid "Sometimes, you may want to remove some default settings in ``AndroidManifest.xml``. You can do delete them by using the ``delete=\"true\"`` attribute of the ``<preference>`` element. For example, if you add the following line in ``config.xml``, it will delete the existing node ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />`` within ``AndroidManifest.xml``:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:97
+msgid "Android Namespace Attribute"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:99
+msgid "In order to user the ``android:`` namespace in preferences within your ``config.xml``, you must include the android namespace attribute on the root ``<widget>`` element."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:101
+msgid "The namespace attribute fragment is:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:107
+msgid "so your ``<widget>`` element should look something like this:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:120
+msgid "XPath Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:122
+msgid "Android manifest preferences are set by using XPaths in the preference name to define which element attribute the value should be applied to. The preference name should be prefixed with ``android-manifest`` then follow with an XPath which specifies the element and attribute to apply the value to. For example,"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:128
+msgid "This preference specifies that the ``launchMode`` attribute should be given a value of ``singleTask`` which will be resulted as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:135
+msgid "If your manifest contains other activities, you should specify the activity name in the XPath. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:141
+msgid "The activity name for Cordova 4.2.0 and below was ``\"CordovaApp\"`` whereas Cordova 4.3.0 and above is ``\"MainActivity\"``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:143
+msgid "If the attribute you are setting is on the root ``<manifest>`` element, just omit the element name and specify the attribute. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:151
+msgid "Android Config Blocks"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:153
+msgid "``<config-file>`` blocks are used to define chunks of configuration of an XML subtree which will be inserted into ``AndroidManifest.xml``. The child elements inside the ``<config-file>`` block will be inserted under the parent element."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:155
+msgid "``<config-file>`` element has two attributes such as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:157
+msgid "``target``: must be set to ``AndroidManifest.xml``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:158
+msgid "``parent``: defines an Xpath to the parent element in the ``AndroidManifest.xml`` under which the XML subtree block should be inserted."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:160
+msgid "to insert a block under the root ``<manifest>`` element, use ``parent=\"/*\"``"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:161
+msgid "to insert a block under a descendant of ``<manifest>``, use an Xpath prefixed with ``./``. For example, ``parent=\"./application/activity\"`` will insert the block under ``/manifest/application/activity``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:172
+msgid "will result in ``AndroidManifest.xml`` with:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:183
+msgid "If the specified parent element contains an existing child element of the same name as that defined in the XML subtree, the existing element will be overwritten."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:193
+msgid "will replace the existing ``<application>`` element. In this case, it would be better to use a preference:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:200
+msgid "Android Example"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:202
+msgid "Below is an example of a ``config.xml`` file for Android configuration:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:246
+msgid "The plugin currently supports custom configuration of the project plist (``*-Info.plist``) using config blocks, and project settings (``project.pbxproj``) using preference elements. All iOS-specific config should be placed inside the ``<platform name=\"ios\">`` in ``config.xml`` file."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:249
+msgid "iOS Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:251
+msgid "``<preference>`` elements in ``config.xml`` are used to set preferences in the ``*-Info.plist``. Preferences should be defined in the format: ``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" />``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:259
+msgid "Build Configuration Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:261
+msgid "Currently, ``XCBuildConfiguration`` is the only supported block type in the ``project.pbxproj``. However, there is no constraint on the list of keys for which values may be set."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:263
+msgid "If an entry already exists in an ``XCBuildConfiguration`` block for the specified key, the existing value will be overwritten with the specified value. If no entry exists in any ``XCBuildConfiguration`` block for the specified key, a new key entry will be created in each ``XCBuildConfiguration`` block with the specified value."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:265
+msgid "By default, values will be applied to both \"Release\" and \"Debug\" ``XCBuildConfiguration`` blocks. However, the block type can be specified by adding a ``buildType`` attribute to the ``<preference>`` element in the ``config.xml``. The value can be either ``debug`` or ``release``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:271
+msgid "By default, both the key (preference name) and value will be quote-escaped when inserted into the ``XCBuildConfiguration`` block. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:277
+#: ../doc/reference/third_party_phonegap/custom_config.rst:296
+msgid "will appear in ``project.pbxproj`` as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:283
+msgid "The default quoting can be override by setting the ``quote`` attribute on the ``<preference>`` element. The valid values are:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:285
+msgid "\"none\": don't quote key or value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:286
+msgid "\"key\": quote key but not value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:287
+msgid "\"value\": quote value but not key"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:288
+msgid "\"both\": quote both key and value"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:303
+msgid ".xcconfig files"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:305
+msgid "Cordova uses ``.xcconfig`` files in ``/platforms/ios/cordova/`` to override Xcode project settings in ``project.pbxproj`` with build-type specific values. ``build.xcconfig`` is overriden by settings in ``build-debug.xcconfig`` and ``build-release.xcconfig`` for the corresponding build type."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:307
+msgid "When applying a custom preference, the plugin will look for an existing entry in the ``.xcconfig`` file that corresponds to the buildType attribute."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:309
+msgid "If buildType attribute is ``\"debug\"`` or ``\"release\"``, the plugin will look in ``build-debug.xcconfig`` or ``build-release.xcconfig`` respectively."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:310
+msgid "If buildType is not specified or set to ``\"none\"``, the plugin will look in ``build.xcconfig``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:312
+msgid "By default, if an entry is found in the ``.xcconfig`` file which corresponds to the custom preference name in the ``config.xml``, the value in the ``.xcconfig`` file will be overwritten with the value in the ``config.xml``. To prevent the plugin from overwriting the value of a specific preference in the corresponding ``.xcconfig`` file, set the preference attribute ``xcconfigEnforce=\"false\"``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:318
+msgid "If a preference value doesn't already exist in the corresponding ``.xcconfig`` file, you can force its addition by setting the preference attribute ``xcconfigEnforce=\"true\"``. This will append it to the corresponding ``.xcconfig`` file. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:324
+msgid "A backup copy of any modified ``.xcconfig`` file will be made in ``plugins/cordova-custom-config/backup/ios``. By default, these backups will be restored prior to the next prepare operation. Auto-restore of the backups can be disabled by setting ``<preference name=\"cordova-custom-config-autorestore\" value=\"false\" />`` in the ``config.xml``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:326
+msgid "Preference names and values will not be quote-escaped in ``.xcconfig`` files, so the ``quote`` attribute has no effect on them."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:330
+msgid "CODE_SIGN_IDENTITY preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:332
+msgid "Cordova places its default CODE_SIGN_IDENTITY for Release builds in build-release.xcconfig but for Debug builds in ``build.xcconfig``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:334
+msgid "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with ``buildType=\"release\"``, the plugin will overwrite the defaults in ``build-release.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:340
+msgid "If you set a CODE_SIGN_IDENTITY preference in the ``config.xml`` with ``buildType=\"debug\"``, the plugin will overwrite the defaults in ``build.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:346
+msgid "You can prevent the CODE_SIGN_IDENTITY preferences being overwritten by setting ``xcconfigEnforce=\"false\"``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:352
+msgid "You can force the plugin to add a new entry for CODE_SIGN_IDENTITY preference with ``buildType=\"debug\"`` to ``build-debug.xcconfig``, rather than overwriting the defaults in ``build.xcconfig`` by setting ``xcconfigEnforce=\"true\"``. This will still override the defaults in ``build.xcconfig``, because ``build-debug.xcconfig`` overrides ``build.xcconfig``. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:359
+msgid "iOS Config Blocks"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:361
+msgid "``<config-file>`` elements are currently only used to set preferences in the project ``.plist`` file (``platforms/ios/{PROJECT_NAME}/{PROJECT_NAME}-Info.plist``). This element has 3 attributes such as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:363
+msgid "``target``: should be set to ``*-Info.plist``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:364
+msgid "``platform``: should be set to ``ios``."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:365
+msgid "``parent``: is used to determine which key name to use for the custom preference."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:374
+msgid "will result in ``{PROJECT_NAME}-Info.plist`` as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:385
+msgid "The value of the preference is set by the child elements of the ``<config-file>`` element. These will appear directly below the preference ``<key>`` in the ``.plist`` file."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:397
+msgid "will appear in the ``plist`` file as:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:409
+msgid "iOS Example"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:411
+msgid "Below is an example of a ``config.xml`` file for iOS configuration:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:475
+msgid "Plugin Preferences"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:477
+msgid "The plugin supports some preferences which are used to customise the behaviour of the plugin. Each preference name is prefixed with ``cordova-custom-config`` to avoid name clashes. For example:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:483
+msgid "The following preferences are currently supported:"
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:485
+msgid "``cordova-custom-config-autorestore``: (set to ``false`` by default) if set to ``true``, the plugin will restore a backup of platform configuration files taken at plugin installation time."
+msgstr ""
+
+#: ../doc/reference/third_party_phonegap/custom_config.rst:486
+msgid "``cordova-custom-config-stoponerror``: (set to ``false`` by default) if set to ``true`` and an error occurs while updating config for a given platform during a ``prepare`` operation, the error will cause the ``prepare`` operation to fail. If false, the plugin will log the error but will proceed and attempt to update any other platforms, before allowing the prepare operation to continue."
 msgstr ""
 
 #: ../doc/reference/third_party_phonegap/datepicker.rst:5
