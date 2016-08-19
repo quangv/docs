@@ -18,7 +18,7 @@ Parameters
 
 ``build``           The build type. Valid values are: ``debug`` & ``release``.
 
-``deploy``
+``deploy``          The deployment service(s) you will use to deliver your app. Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services.
 ================= ================================================================================================
 
 JSON Recipe Example
