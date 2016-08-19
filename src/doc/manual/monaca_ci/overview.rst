@@ -16,7 +16,7 @@ Monaca CI lets developers focus more on the code and less on the backend process
 Prerequisite
 =================================
 
-In order to use Monaca CI, you will to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:
+In order to use Monaca CI, you will need to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:
 
 1. get a GitHub account. Register `here <https://github.com/join>`_.
 2. link your Monaca account to Github. Please refer to :ref:`github_integration`.
