@@ -498,7 +498,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
 #: ../doc/manual/monaca_ci/overview.rst:31
-#: ../doc/manual/monaca_ci/supported_services.rst:90
+#: ../doc/manual/monaca_ci/supported_services.rst:121
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
 msgstr ""
@@ -839,7 +839,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
 #: ../doc/manual/monaca_ci/supported_services.rst:22
-#: ../doc/manual/monaca_ci/supported_services.rst:54
+#: ../doc/manual/monaca_ci/supported_services.rst:55
 msgid "Description"
 msgstr ""
 
@@ -5236,7 +5236,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
 #: ../doc/manual/monaca_ci/json_sample.rst:11
 #: ../doc/manual/monaca_ci/supported_services.rst:17
-#: ../doc/manual/monaca_ci/supported_services.rst:49
+#: ../doc/manual/monaca_ci/supported_services.rst:50
 msgid "Parameters"
 msgstr ""
 
@@ -8454,7 +8454,7 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
 #: ../doc/manual/monaca_ci/supported_services.rst:22
-#: ../doc/manual/monaca_ci/supported_services.rst:54
+#: ../doc/manual/monaca_ci/supported_services.rst:55
 msgid "Param"
 msgstr ""
 
@@ -8531,7 +8531,7 @@ msgid "Here is an example of a recipe script."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:95
-#: ../doc/manual/monaca_ci/supported_services.rst:92
+#: ../doc/manual/monaca_ci/supported_services.rst:123
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
@@ -8544,7 +8544,7 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:97
 #: ../doc/manual/monaca_ci/overview.rst:35
-#: ../doc/manual/monaca_ci/supported_services.rst:94
+#: ../doc/manual/monaca_ci/supported_services.rst:125
 msgid ":ref:`troubleshooting`"
 msgstr ""
 
@@ -8577,7 +8577,7 @@ msgid "Getting Started with Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:34
-#: ../doc/manual/monaca_ci/supported_services.rst:93
+#: ../doc/manual/monaca_ci/supported_services.rst:124
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
 msgstr ""
@@ -8595,101 +8595,249 @@ msgid "DeployGate"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:14
-msgid "DeployGate is a beta-app distribution platform. For more information, please refer to `DeployGate API documentation <https://deploygate.com/docs/api>`_."
+msgid "`DeployGate <https://deploygate.com/>`_ is a beta-app distribution platform. For more information, please refer to `DeployGate API documentation <https://deploygate.com/docs/api>`_."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:19
-#: ../doc/manual/monaca_ci/supported_services.rst:51
+#: ../doc/manual/monaca_ci/supported_services.rst:52
 msgid "You may need to use the following parameters in the recipe script."
 msgstr ""
 
+#: ../doc/manual/monaca_ci/supported_services.rst:22
+#: ../doc/manual/monaca_ci/supported_services.rst:55
+msgid "Remark"
+msgstr ""
+
 #: ../doc/manual/monaca_ci/supported_services.rst:24
-#: ../doc/manual/monaca_ci/supported_services.rst:56
 msgid "``token``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:24
-#: ../doc/manual/monaca_ci/supported_services.rst:56
 msgid "Your API key. If you are going to use the API for automated build in your organization, you may want to use organization's API key which shown on the organization page to upload the app independent from member/role management."
 msgstr ""
 
+#: ../doc/manual/monaca_ci/supported_services.rst:24
+msgid "Stored in deploy service settings. Automatically populated."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/supported_services.rst:28
-#: ../doc/manual/monaca_ci/supported_services.rst:60
 msgid "``file``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:28
-#: ../doc/manual/monaca_ci/supported_services.rst:60
 msgid "App file binary"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/supported_services.rst:28
+#: ../doc/manual/monaca_ci/supported_services.rst:57
+msgid "Automatically populated."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/supported_services.rst:30
-#: ../doc/manual/monaca_ci/supported_services.rst:62
 msgid "``message``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:30
-#: ../doc/manual/monaca_ci/supported_services.rst:62
-msgid "(Optional) Push message"
+msgid "[Optional] Push message"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:32
-#: ../doc/manual/monaca_ci/supported_services.rst:64
 msgid "``distribution_key``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:32
-#: ../doc/manual/monaca_ci/supported_services.rst:64
-msgid "(Optional) Target Distribution Key"
+msgid "[Optional] Target Distribution Key"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:34
-#: ../doc/manual/monaca_ci/supported_services.rst:66
 msgid "``release_note``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:34
-#: ../doc/manual/monaca_ci/supported_services.rst:66
-msgid "(Optional) Distribution message"
+msgid "[Optional] Distribution message"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:36
-#: ../doc/manual/monaca_ci/supported_services.rst:68
 msgid "``disable_notify``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:36
-#: ../doc/manual/monaca_ci/supported_services.rst:68
-msgid "(Optional)(iOS only) If you set yes as a value, disable notify via email."
+msgid "[Optional](``iOS only``) If you set yes as a value, disable notify via email."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:38
-#: ../doc/manual/monaca_ci/supported_services.rst:70
 msgid "``visibility``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:38
-#: ../doc/manual/monaca_ci/supported_services.rst:70
-msgid "(Optional) Set a new application's privacy setting by specifying private(default) or public. If you are using Personal Free account, you have to specify public to upload a new app since it doesn't have a slot for private app. No effect when updating."
+msgid "[Optional] Set a new application's privacy setting by specifying ``private`` (default) or ``public``. If you are using Personal Free account, you have to specify ``public`` to upload a new app since it doesn't have a slot for private app. No effect when updating."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:44
+#: ../doc/manual/monaca_ci/supported_services.rst:45
 msgid "HockeyApp"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:46
-msgid "DeployGate is a beta-app distribution platform. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_."
+#: ../doc/manual/monaca_ci/supported_services.rst:47
+msgid "`HockeyApp <https://hockeyapp.net/>`_ is alson a beta-app distribution platform. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:57
+msgid "``ipa``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:57
+msgid "file data of the ``.ipa`` for iOS, ``.app.zip`` for OS X, or ``.apk`` file for Android."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:60
+msgid "``dsym``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:60
+msgid "[Optional] file data of the ``.dSYM.zip`` file (iOS and OS X) or ``mapping.txt`` (Android). Please note that the extension has to be ``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to be ``mapping.txt`` for Android."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:65
+msgid "``notes``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:65
+msgid "[Optional] release notes as Textile or Markdown (after 5k characters note are truncated)."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:68
+msgid "``notes_type``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:68
+msgid "[Optional] type of release notes:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:70
+msgid "``0`` for Textile"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:71
+msgid "``1`` for Markdown"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:73
+msgid "``notify``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:73
+msgid "[Optional] notify testers (can only be set with full-access tokens):"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:75
+msgid "``0`` to not notify testers"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:76
+msgid "``1`` to notify all testers that can install this app"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:77
+msgid "``2`` to notify all testers"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:79
+msgid "``status``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:79
+msgid "[Optional] download status (can only be set with full-access tokens):"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:81
+msgid "``1`` to not allow users to download the version"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:82
+msgid "``2`` to make the version available for download"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:84
+msgid "``tags``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:84
+msgid "[Optional] restrict download to comma-separated list of tags"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:86
+msgid "``teams``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:86
+msgid "[Optional] restrict download to comma-separated list of team IDs. For example:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:88
+msgid "``teams=12,23,42`` with 12, 23, and 42 being the database IDs of your teams"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:90
+msgid "``users``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:90
+msgid "[Optional] restrict download to comma-separated list of user IDs. For example:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:92
+msgid "``users=1224,5678`` with 1224 and 5678 being the database IDs of your users"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:94
+msgid "``mandatory``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:94
+msgid "[Optional] set version as mandatory:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:96
+msgid "``0`` for not mandatory"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:97
+msgid "``1`` for mandatory"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:99
+msgid "``release_type``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:99
+msgid "[Optional] set the release type of the app:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:101
+msgid "``2`` for alpha"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:102
+msgid "``0`` for beta [default]"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:103
+msgid "``1`` for store"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:104
+msgid "``3`` for enterprise"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:108
 msgid "Upcoming Supported Services"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:80
+#: ../doc/manual/monaca_ci/supported_services.rst:111
 msgid "Test Flight"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:83
+#: ../doc/manual/monaca_ci/supported_services.rst:114
 msgid "Appetize.io"
 msgstr ""
 
