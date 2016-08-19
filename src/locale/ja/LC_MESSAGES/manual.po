@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-19 02:34+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-19 02:41+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -10433,12 +10433,30 @@ msgstr ""
 msgid "``branch``"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:13
+msgid "Github branch of the project you want to build."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/json_sample.rst:15
 msgid "``tag``"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:15
+msgid "Github tag of the project you want to build."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:17
+msgid ""
+"The platform you want to build for. Valid values are: ``ios``, ``android`` &"
+" ``winrt``."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/json_sample.rst:19
 msgid "``build``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:19
+msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:21

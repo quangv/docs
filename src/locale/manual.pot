@@ -8450,12 +8450,28 @@ msgstr ""
 msgid "``branch``"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:13
+msgid "Github branch of the project you want to build."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/json_sample.rst:15
 msgid "``tag``"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:15
+msgid "Github tag of the project you want to build."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:17
+msgid "The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/json_sample.rst:19
 msgid "``build``"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:19
+msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:21
