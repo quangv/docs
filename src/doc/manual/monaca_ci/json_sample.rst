@@ -4,7 +4,10 @@
 JSON Recipe Format
 ======================================
 
-Parameters
+[Description of the JSON file]
+
+
+Format
 ======================================
 
 ================= ================================================================================================
@@ -18,10 +21,18 @@ Parameters
 
 ``build``           The build type. Valid values are: ``debug`` & ``release``.
 
-``deploy``          The deployment service(s) you will use to deliver your app. Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services.
+``deploy``          The deployment service(s) you will use to deliver your app.
+                    
+                    - ``type``: name of the deployment service (case sensitive).
+                    - ``alias``: alias name of the selected deployment service (case sensitive).
+                    - ``default``: a block for default parameters you may need to use for the deployment service.
+                    - ``ios``: a block for iOS parameters you may need to use for the deployment service.
+                    - ``android``: a block for Android parameters you may need to use for the deployment service.
+                    
+                    Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services.
 ================= ================================================================================================
 
-JSON Recipe Example
+Example
 ======================================
 
 .. code-block:: javascript
@@ -48,10 +59,10 @@ JSON Recipe Example
                         "foo": "bar"
                     },
                     "ios": {
-                        "ios_test": true
+                        "foo": "bar"
                     },
                     "android": {
-                        "android_test": true
+                        "foo": "bar"
                     }
                 },
                 {
@@ -61,29 +72,10 @@ JSON Recipe Example
                         "foo": "bar"
                     },
                     "ios": {
-                        "ios_test": true
-                    },
-                    "android": {
-                        "android_test": true
-                    }
-                },
-                {
-                    "type": "AppetizeIo",
-                    "alias": "Internal-Focus-Group",
-                    "default": {
                         "foo": "bar"
                     },
-                    "ios": {
-                        "ios_test": true
-                    },
                     "android": {
-                        "android_test": true
-                    },
-                    "keys": {
-                        "ios:prod": "****",
-                        "ios:debug": "****", 
-                        "android:prod": "****", 
-                        "android:debug": "****"
+                        "foo": "bar"
                     }
                 }
             ]
