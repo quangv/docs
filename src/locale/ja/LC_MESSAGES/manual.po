@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-19 03:56+0000\n"
+"PO-Revision-Date: 2016-08-19 04:05+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -624,7 +624,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:90
 #: ../doc/manual/monaca_ci/overview.rst:31
-#: ../doc/manual/monaca_ci/supported_services.rst:33
+#: ../doc/manual/monaca_ci/supported_services.rst:56
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
 msgstr "*参考ページ*"
@@ -6581,6 +6581,8 @@ msgstr ":dfn:`$ monaca create path`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
+#: ../doc/manual/monaca_ci/json_sample.rst:11
+#: ../doc/manual/monaca_ci/supported_services.rst:17
 msgid "Parameters"
 msgstr "パラメーター"
 
@@ -10424,10 +10426,6 @@ msgstr ""
 msgid "[Description of the JSON file]"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/json_sample.rst:11
-msgid "Format"
-msgstr ""
-
 #: ../doc/manual/monaca_ci/json_sample.rst:13
 msgid ""
 "----------------- "
@@ -10504,7 +10502,7 @@ msgid ""
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:92
-#: ../doc/manual/monaca_ci/supported_services.rst:35
+#: ../doc/manual/monaca_ci/supported_services.rst:58
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
@@ -10517,7 +10515,7 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:94
 #: ../doc/manual/monaca_ci/overview.rst:35
-#: ../doc/manual/monaca_ci/supported_services.rst:37
+#: ../doc/manual/monaca_ci/supported_services.rst:60
 msgid ":ref:`troubleshooting`"
 msgstr ""
 
@@ -10563,7 +10561,7 @@ msgid "Getting Started with Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:34
-#: ../doc/manual/monaca_ci/supported_services.rst:36
+#: ../doc/manual/monaca_ci/supported_services.rst:59
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
 msgstr ""
@@ -10584,19 +10582,75 @@ msgstr ""
 msgid "DeployGate is a beta-app distribution platform."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:17
-msgid "HockeyApp"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:20
-msgid "Upcoming Supported Services"
+#: ../doc/manual/monaca_ci/supported_services.rst:19
+msgid ""
+"--------------------- "
+"--------------------------------------------------------------------------------------------------------------"
+" Param                   Description ===================== "
+"=============================================================================================================="
+" ``token``               Your API key. If you are going to use the API for "
+"automated build in your organization, you may want to use"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:23
+msgid ""
+"organization's API key which shown on the organization page to upload the "
+"app independent from member/role management."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:25
+msgid "``file``                App file binary"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:27
+msgid "``message``             (Optional) Push message"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:29
+msgid "``distribution_key``    (Optional) Target Distribution Key"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:31
+msgid "``release_note``        (Optional) Distribution message"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:33
+msgid ""
+"``disable_notify``      (Optional)(iOS only) If you set yes as a value, "
+"disable notify via email."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:35
+msgid ""
+"``visibility``          (Optional) Set a new application's privacy setting "
+"by specifying private(default) or public. If you are using"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:36
+msgid ""
+"Personal Free account, you have to specify public to upload a new app since "
+"it doesn't have a slot for private app. No effect when updating."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:37
+msgid ""
+"--------------------- "
+"--------------------------------------------------------------------------------------------------------------"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:40
+msgid "HockeyApp"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:43
+msgid "Upcoming Supported Services"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/supported_services.rst:46
 msgid "Test Flight"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:26
+#: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Appetize.io"
 msgstr ""
 

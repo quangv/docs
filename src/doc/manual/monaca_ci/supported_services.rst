@@ -13,6 +13,29 @@ DeployGate
 
 DeployGate is a beta-app distribution platform. 
 
+Parameters
+--------------------
+
+--------------------- --------------------------------------------------------------------------------------------------------------
+Param                   Description
+===================== ==============================================================================================================
+``token``               Your API key. If you are going to use the API for automated build in your organization, you may want to use 
+                        organization's API key which shown on the organization page to upload the app independent from member/role management.
+
+``file``                App file binary
+
+``message``             (Optional) Push message
+
+``distribution_key``    (Optional) Target Distribution Key
+
+``release_note``        (Optional) Distribution message
+
+``disable_notify``      (Optional)(iOS only) If you set yes as a value, disable notify via email.
+
+``visibility``          (Optional) Set a new application's privacy setting by specifying private(default) or public. If you are using 
+                        Personal Free account, you have to specify public to upload a new app since it doesn't have a slot for private app. No effect when updating.
+--------------------- --------------------------------------------------------------------------------------------------------------
+
 HockeyApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
