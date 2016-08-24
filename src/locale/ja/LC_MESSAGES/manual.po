@@ -12,13 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2016-08-24 05:01+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
-=======
-"PO-Revision-Date: 2016-08-24 04:50+0000\n"
+"PO-Revision-Date: 2016-08-24 08:32+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
->>>>>>> 72fba471bf81ec3325953206c8391de65fc2e380
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -10550,14 +10545,6 @@ msgstr ""
 msgid ":ref:`supported_services`"
 msgstr ""
 
-<<<<<<< HEAD
-#: ../doc/manual/monaca_ci/json_sample.rst:97
-#: ../doc/manual/monaca_ci/supported_services.rst:172
-msgid ":ref:`troubleshooting`"
-msgstr ""
-
-=======
->>>>>>> 72fba471bf81ec3325953206c8391de65fc2e380
 #: ../doc/manual/monaca_ci/overview.rst:11
 msgid ""
 "Monaca CI (Continuous Integration & Deployment) is a service that has been "
@@ -10681,17 +10668,6 @@ msgstr ""
 msgid "Click :guilabel:`Enable` and click :guilabel:`Save`."
 msgstr ""
 
-<<<<<<< HEAD
-=======
-#: ../doc/manual/monaca_ci/overview.rst:95
-msgid "700px"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:96
-msgid "left"
-msgstr ""
-
->>>>>>> 72fba471bf81ec3325953206c8391de65fc2e380
 #: ../doc/manual/monaca_ci/overview.rst:100
 msgid ""
 "Then, start pushing your project code to the valid branch or tag as you "
