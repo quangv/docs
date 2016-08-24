@@ -91,11 +91,11 @@ After finish configuring deploy services and JSON settings, you are now ready to
 
 1. Click :guilabel:`Enable` and click :guilabel:`Save`.
 
-  	.. figure:: images/overview/2.png
-      	:width: 700px
-      	:align: left
+  .. figure:: images/overview/2.png
+      :width: 700px
+      :align: left
 
-    .. rst-class:: clear
+  .. rst-class:: clear
 
 2. Then, start pushing your project code to the valid branch or tag as you configured in JSON settings. That's it! 
 
