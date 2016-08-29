@@ -8562,6 +8562,11 @@ msgstr ""
 msgid ":ref:`supported_services`"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:97
+#: ../doc/manual/monaca_ci/supported_services.rst:172
+msgid ":ref:`troubleshooting`"
+msgstr ""
+
 #: ../doc/manual/monaca_ci/overview.rst:11
 msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current development environment stack to automate building and deployment cycle. It is able to achieve this automation process by using webhooks that GitHub and may other Git services provides with every code commit or branch/tag creation."
 msgstr ""

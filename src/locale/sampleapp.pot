@@ -19,6 +19,311 @@ msgstr ""
 msgid "Samples & Tips"
 msgstr ""
 
+#: ../doc/sampleapp/samples/admob.rst:5
+msgid "AdMob Demo"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:8
+msgid "In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:14
+msgid "Banner Ads"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:20
+msgid "Interstitial Ads"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:24
+msgid ":download:`Click here to download the project <download/admob.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:27
+msgid "Prerequisites"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:29
+msgid "Register with AdMob."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:30
+msgid "Register your app with AdMob."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:31
+msgid "Add `AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ to your project."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:34
+#: ../doc/sampleapp/samples/age-calc.rst:28
+#: ../doc/sampleapp/samples/backend_memo.rst:44
+#: ../doc/sampleapp/samples/break_the_bricks.rst:27
+#: ../doc/sampleapp/samples/clock.rst:27
+#: ../doc/sampleapp/samples/facebook.rst:54
+#: ../doc/sampleapp/samples/flickr.rst:24
+#: ../doc/sampleapp/samples/hello_world.rst:26
+#: ../doc/sampleapp/samples/ibeacon.rst:41
+#: ../doc/sampleapp/samples/memo_application.rst:26
+#: ../doc/sampleapp/samples/minimum_project.rst:26
+#: ../doc/sampleapp/samples/omikuji.rst:25
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:26
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:25
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:25
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:26
+#: ../doc/sampleapp/samples/shinkansen.rst:24
+#: ../doc/sampleapp/samples/todo.rst:25
+#: ../doc/sampleapp/samples/twitter.rst:51
+msgid "File Components"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:43
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/backend_memo.rst:51
+#: ../doc/sampleapp/samples/break_the_bricks.rst:34
+#: ../doc/sampleapp/samples/clock.rst:34
+#: ../doc/sampleapp/samples/facebook.rst:61
+#: ../doc/sampleapp/samples/flickr.rst:31
+#: ../doc/sampleapp/samples/hello_world.rst:34
+#: ../doc/sampleapp/samples/ibeacon.rst:48
+#: ../doc/sampleapp/samples/memo_application.rst:33
+#: ../doc/sampleapp/samples/minimum_project.rst:35
+#: ../doc/sampleapp/samples/omikuji.rst:32
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
+#: ../doc/sampleapp/samples/shinkansen.rst:31
+#: ../doc/sampleapp/samples/todo.rst:32
+#: ../doc/sampleapp/samples/twitter.rst:58
+msgid "``index.html``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:43
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/todo.rst:32
+msgid "The startup Page"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:45
+#: ../doc/sampleapp/samples/backend_memo.rst:52
+#: ../doc/sampleapp/samples/clock.rst:36
+#: ../doc/sampleapp/samples/facebook.rst:71
+#: ../doc/sampleapp/samples/ibeacon.rst:54
+#: ../doc/sampleapp/samples/memo_application.rst:37
+#: ../doc/sampleapp/samples/todo.rst:34
+msgid "``js/app.js``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:45
+msgid "JavaScript file handling app execution."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:47
+#: ../doc/sampleapp/samples/age-calc.rst:37
+#: ../doc/sampleapp/samples/break_the_bricks.rst:38
+#: ../doc/sampleapp/samples/clock.rst:38
+#: ../doc/sampleapp/samples/flickr.rst:32
+#: ../doc/sampleapp/samples/hello_world.rst:42
+#: ../doc/sampleapp/samples/ibeacon.rst:56
+#: ../doc/sampleapp/samples/minimum_project.rst:36
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:43
+#: ../doc/sampleapp/samples/shinkansen.rst:32
+msgid "``css/style.css``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:47
+#: ../doc/sampleapp/samples/twitter.rst:59
+msgid "A stylesheet file for the application"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:51
+#: ../doc/sampleapp/samples/age-calc.rst:41
+#: ../doc/sampleapp/samples/backend_memo.rst:56
+#: ../doc/sampleapp/samples/break_the_bricks.rst:46
+#: ../doc/sampleapp/samples/facebook.rst:77
+#: ../doc/sampleapp/samples/flickr.rst:40
+#: ../doc/sampleapp/samples/hello_world.rst:48
+#: ../doc/sampleapp/samples/ibeacon.rst:60
+#: ../doc/sampleapp/samples/memo_application.rst:41
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:40
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:41
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:42
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:47
+#: ../doc/sampleapp/samples/shinkansen.rst:38
+#: ../doc/sampleapp/samples/todo.rst:38
+#: ../doc/sampleapp/samples/twitter.rst:66
+msgid "Required JS/CSS Components"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:54
+#: ../doc/sampleapp/samples/age-calc.rst:44
+#: ../doc/sampleapp/samples/facebook.rst:80
+#: ../doc/sampleapp/samples/flickr.rst:43
+#: ../doc/sampleapp/samples/hello_world.rst:51
+#: ../doc/sampleapp/samples/memo_application.rst:44
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:50
+#: ../doc/sampleapp/samples/twitter.rst:69
+msgid "``jQuery``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:55
+#: ../doc/sampleapp/samples/facebook.rst:81
+#: ../doc/sampleapp/samples/ibeacon.rst:63
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
+msgid "``Onsen UI``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:59
+#: ../doc/sampleapp/samples/facebook.rst:85
+#: ../doc/sampleapp/samples/ibeacon.rst:67
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:54
+#: ../doc/sampleapp/samples/twitter.rst:73
+msgid "Required Cordova Plugins"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:62
+msgid "``AdMob Plugin Pro``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:66
+#: ../doc/sampleapp/samples/age-calc.rst:49
+#: ../doc/sampleapp/samples/backend_memo.rst:65
+#: ../doc/sampleapp/samples/clock.rst:45
+#: ../doc/sampleapp/samples/facebook.rst:93
+#: ../doc/sampleapp/samples/flickr.rst:47
+#: ../doc/sampleapp/samples/hello_world.rst:56
+#: ../doc/sampleapp/samples/ibeacon.rst:76
+#: ../doc/sampleapp/samples/memo_application.rst:50
+#: ../doc/sampleapp/samples/minimum_project.rst:41
+#: ../doc/sampleapp/samples/omikuji.rst:38
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:47
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:48
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:50
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:62
+#: ../doc/sampleapp/samples/shinkansen.rst:46
+#: ../doc/sampleapp/samples/todo.rst:46
+#: ../doc/sampleapp/samples/twitter.rst:81
+msgid "HTML Explanation"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:68
+msgid "In this demo app, we use `OnsenUI <https://onsen.io/>`_, HTML5 Hybrid Mobile App Framework and UI Components for PhoneGap & Cordova."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:71
+msgid "Startup Page"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:73
+msgid "The following block code represents the UI of the startup page of the project."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:130
+msgid "Ads Size Dialog"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:132
+msgid "The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:178
+msgid "Ads Position Dialog"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:180
+msgid "The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:238
+#: ../doc/sampleapp/samples/age-calc.rst:79
+#: ../doc/sampleapp/samples/backend_memo.rst:188
+#: ../doc/sampleapp/samples/clock.rst:76
+#: ../doc/sampleapp/samples/facebook.rst:179
+#: ../doc/sampleapp/samples/flickr.rst:66
+#: ../doc/sampleapp/samples/hello_world.rst:99
+#: ../doc/sampleapp/samples/ibeacon.rst:157
+#: ../doc/sampleapp/samples/memo_application.rst:134
+#: ../doc/sampleapp/samples/omikuji.rst:75
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:73
+#: ../doc/sampleapp/samples/shinkansen.rst:58
+#: ../doc/sampleapp/samples/todo.rst:62
+#: ../doc/sampleapp/samples/twitter.rst:155
+msgid "JavaScript Explanation"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:240
+#: ../doc/sampleapp/samples/old_inmobi.rst:1
+msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:242
+#: ../doc/sampleapp/samples/old_inmobi.rst:3
+msgid "``siteid`` (string): the property ID."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:243
+#: ../doc/sampleapp/samples/old_inmobi.rst:4
+msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:244
+#: ../doc/sampleapp/samples/old_inmobi.rst:5
+msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:245
+#: ../doc/sampleapp/samples/old_inmobi.rst:6
+msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:246
+#: ../doc/sampleapp/samples/old_inmobi.rst:7
+msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:247
+#: ../doc/sampleapp/samples/old_inmobi.rst:8
+msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:275
+#: ../doc/sampleapp/samples/old_inmobi.rst:36
+msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:278
+#: ../doc/sampleapp/samples/old_inmobi.rst:39
+msgid "onDeviceReady() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:280
+#: ../doc/sampleapp/samples/old_inmobi.rst:41
+msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:299
+#: ../doc/sampleapp/samples/old_inmobi.rst:60
+msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:302
+#: ../doc/sampleapp/samples/old_inmobi.rst:63
+msgid "showAds() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:304
+#: ../doc/sampleapp/samples/old_inmobi.rst:65
+msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:317
+#: ../doc/sampleapp/samples/old_inmobi.rst:78
+msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
+msgstr ""
+
 #: ../doc/sampleapp/samples/age-calc.rst:5
 msgid "BirthYear App"
 msgstr ""
@@ -49,142 +354,12 @@ msgstr ""
 msgid ":download:`Click here to download the project <download/age-calc.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:28
-#: ../doc/sampleapp/samples/backend_memo.rst:44
-#: ../doc/sampleapp/samples/break_the_bricks.rst:27
-#: ../doc/sampleapp/samples/clock.rst:27
-#: ../doc/sampleapp/samples/facebook.rst:54
-#: ../doc/sampleapp/samples/flickr.rst:24
-#: ../doc/sampleapp/samples/hello_world.rst:26
-#: ../doc/sampleapp/samples/ibeacon.rst:41
-#: ../doc/sampleapp/samples/inmobi.rst:73
-#: ../doc/sampleapp/samples/memo_application.rst:26
-#: ../doc/sampleapp/samples/minimum_project.rst:26
-#: ../doc/sampleapp/samples/omikuji.rst:25
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:26
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:25
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:25
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:26
-#: ../doc/sampleapp/samples/shinkansen.rst:24
-#: ../doc/sampleapp/samples/todo.rst:25
-#: ../doc/sampleapp/samples/twitter.rst:51
-msgid "File Components"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:35
-#: ../doc/sampleapp/samples/backend_memo.rst:51
-#: ../doc/sampleapp/samples/break_the_bricks.rst:34
-#: ../doc/sampleapp/samples/clock.rst:34
-#: ../doc/sampleapp/samples/facebook.rst:61
-#: ../doc/sampleapp/samples/flickr.rst:31
-#: ../doc/sampleapp/samples/hello_world.rst:34
-#: ../doc/sampleapp/samples/ibeacon.rst:48
-#: ../doc/sampleapp/samples/inmobi.rst:80
-#: ../doc/sampleapp/samples/memo_application.rst:33
-#: ../doc/sampleapp/samples/minimum_project.rst:35
-#: ../doc/sampleapp/samples/omikuji.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
-#: ../doc/sampleapp/samples/shinkansen.rst:31
-#: ../doc/sampleapp/samples/todo.rst:32
-#: ../doc/sampleapp/samples/twitter.rst:58
-msgid "``index.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:35
-#: ../doc/sampleapp/samples/inmobi.rst:80
-#: ../doc/sampleapp/samples/todo.rst:32
-msgid "The startup Page"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:37
-#: ../doc/sampleapp/samples/break_the_bricks.rst:38
-#: ../doc/sampleapp/samples/clock.rst:38
-#: ../doc/sampleapp/samples/flickr.rst:32
-#: ../doc/sampleapp/samples/hello_world.rst:42
-#: ../doc/sampleapp/samples/ibeacon.rst:56
-#: ../doc/sampleapp/samples/inmobi.rst:84
-#: ../doc/sampleapp/samples/minimum_project.rst:36
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:43
-#: ../doc/sampleapp/samples/shinkansen.rst:32
-msgid "``css/style.css``"
-msgstr ""
-
 #: ../doc/sampleapp/samples/age-calc.rst:37
 msgid "The stylesheet used in the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:41
-#: ../doc/sampleapp/samples/backend_memo.rst:56
-#: ../doc/sampleapp/samples/break_the_bricks.rst:46
-#: ../doc/sampleapp/samples/facebook.rst:77
-#: ../doc/sampleapp/samples/flickr.rst:40
-#: ../doc/sampleapp/samples/hello_world.rst:48
-#: ../doc/sampleapp/samples/ibeacon.rst:60
-#: ../doc/sampleapp/samples/inmobi.rst:90
-#: ../doc/sampleapp/samples/memo_application.rst:41
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:40
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:41
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:42
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:47
-#: ../doc/sampleapp/samples/shinkansen.rst:38
-#: ../doc/sampleapp/samples/todo.rst:38
-#: ../doc/sampleapp/samples/twitter.rst:66
-msgid "Required JS/CSS Components"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:44
-#: ../doc/sampleapp/samples/facebook.rst:80
-#: ../doc/sampleapp/samples/flickr.rst:43
-#: ../doc/sampleapp/samples/hello_world.rst:51
-#: ../doc/sampleapp/samples/memo_application.rst:44
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:50
-#: ../doc/sampleapp/samples/twitter.rst:69
-msgid "``jQuery``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:49
-#: ../doc/sampleapp/samples/backend_memo.rst:65
-#: ../doc/sampleapp/samples/clock.rst:45
-#: ../doc/sampleapp/samples/facebook.rst:93
-#: ../doc/sampleapp/samples/flickr.rst:47
-#: ../doc/sampleapp/samples/hello_world.rst:56
-#: ../doc/sampleapp/samples/ibeacon.rst:76
-#: ../doc/sampleapp/samples/inmobi.rst:97
-#: ../doc/sampleapp/samples/memo_application.rst:50
-#: ../doc/sampleapp/samples/minimum_project.rst:41
-#: ../doc/sampleapp/samples/omikuji.rst:38
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:47
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:48
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:50
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:62
-#: ../doc/sampleapp/samples/shinkansen.rst:46
-#: ../doc/sampleapp/samples/todo.rst:46
-#: ../doc/sampleapp/samples/twitter.rst:81
-msgid "HTML Explanation"
-msgstr ""
-
 #: ../doc/sampleapp/samples/age-calc.rst:51
 msgid "The following contents of the HTML body of :file:`index.html` file is for displaying 2 textboxes for the user to input his/her name and age, and a button to calculate his/her birthyear. (see screenshot below):"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:79
-#: ../doc/sampleapp/samples/backend_memo.rst:188
-#: ../doc/sampleapp/samples/clock.rst:76
-#: ../doc/sampleapp/samples/facebook.rst:179
-#: ../doc/sampleapp/samples/flickr.rst:66
-#: ../doc/sampleapp/samples/hello_world.rst:99
-#: ../doc/sampleapp/samples/ibeacon.rst:157
-#: ../doc/sampleapp/samples/inmobi.rst:128
-#: ../doc/sampleapp/samples/memo_application.rst:134
-#: ../doc/sampleapp/samples/omikuji.rst:75
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:73
-#: ../doc/sampleapp/samples/shinkansen.rst:58
-#: ../doc/sampleapp/samples/todo.rst:62
-#: ../doc/sampleapp/samples/twitter.rst:155
-msgid "JavaScript Explanation"
 msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:81
@@ -255,20 +430,10 @@ msgid "The Startup page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:52
-#: ../doc/sampleapp/samples/clock.rst:36
-#: ../doc/sampleapp/samples/facebook.rst:71
-#: ../doc/sampleapp/samples/ibeacon.rst:54
-#: ../doc/sampleapp/samples/memo_application.rst:37
-#: ../doc/sampleapp/samples/todo.rst:34
-msgid "``js/app.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/backend_memo.rst:52
 msgid "JavaScript file handling the interaction of the application"
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:59
-#: ../doc/sampleapp/samples/inmobi.rst:93
 #: ../doc/sampleapp/samples/shinkansen.rst:41
 #: ../doc/sampleapp/samples/todo.rst:41
 msgid "``jQuerymobile``"
@@ -621,21 +786,6 @@ msgstr ""
 #: ../doc/sampleapp/samples/facebook.rst:73
 #: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:81
-#: ../doc/sampleapp/samples/ibeacon.rst:63
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
-msgid "``Onsen UI``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:85
-#: ../doc/sampleapp/samples/ibeacon.rst:67
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:54
-#: ../doc/sampleapp/samples/twitter.rst:73
-msgid "Required Cordova Plugins"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:88
@@ -1136,139 +1286,6 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/index.rst:5
 msgid "Sample Apps & Templates"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:5
-msgid "Inmobi Client"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:10
-msgid "In this page, we will show how to integrate the mobile ads using the mobile ads network Inmobi with Monaca. For more information about the Inmobi, please visit `Inmobi\\'s website <http://www.inmobi.com/>`_ and `Inmobi Mobile Web Integration Guide <https://support.inmobi.com/monetize/integration/mobile-web/>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:20
-msgid ":download:`Click here to download the project <download/inmobi.zip>`"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:23
-msgid "Prerequisites"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:26
-msgid "Property ID from Inmobi"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:28
-msgid "To obtain a property ID from Inmobi, please follow the instruction below:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:30
-msgid "Create an Inmobi account at `Inmobi Site <https://www.inmobi.com/user/register.html?locale=en_us>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:32
-msgid "After succesfully created an Inmobi account, log in to your Inmobi account. In the menu bar, select :guilabel:`MONETIZE` and fill in the necessary information. There are 4 types of property: ``Windows Phone``, ``iOS``, ``Android`` and ``Mobile Web``. In this sample, we choose the ``Mobile Web``. Then, click on :guilabel:`Add Property` button."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:37
-msgid "Next, you need to verify the newly created property which is required by Inmobi. In the property list, click on the :guilabel:`Verification` button (see the screenshot below)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:42
-msgid "To complete the verification, please add the following meta tag within the HTML head tag of your property URL."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:55
-msgid "To find out about your property ID, click on the :guilabel:`Settings` button (see the screenshot below)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:60
-msgid "Then, a dialog showing information of the selected property will appear. You can find the property ID in that dialog."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:65
-msgid "After adding the above code snippet, click on :guilabel:`Verify Now` button."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:82
-msgid "``js/inmobi.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:82
-msgid "An Inmobi library."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:84
-#: ../doc/sampleapp/samples/twitter.rst:59
-msgid "A stylesheet file for the application"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:86
-msgid "``images/logo.png``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:86
-msgid "Monaca logo used in the application"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:99
-msgid "In the following code, we used *jQuery Mobile* for the header of the app. For more information on *jQuery Mobile* tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_. The remaining ``div`` tags are used to apply the CSS style we created earlier."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:130
-msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:132
-msgid "``siteid`` (string): the property ID."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:133
-msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:134
-msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:135
-msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:136
-msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:137
-msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:165
-msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:168
-msgid "onDeviceReady() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:170
-msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:189
-msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:192
-msgid "showAds() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:194
-msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:207
-msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/memo_application.rst:5
