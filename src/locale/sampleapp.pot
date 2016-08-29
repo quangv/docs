@@ -255,73 +255,7 @@ msgid "JavaScript Explanation"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:240
-#: ../doc/sampleapp/samples/old_inmobi.rst:1
-msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:242
-#: ../doc/sampleapp/samples/old_inmobi.rst:3
-msgid "``siteid`` (string): the property ID."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:243
-#: ../doc/sampleapp/samples/old_inmobi.rst:4
-msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:244
-#: ../doc/sampleapp/samples/old_inmobi.rst:5
-msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:245
-#: ../doc/sampleapp/samples/old_inmobi.rst:6
-msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:246
-#: ../doc/sampleapp/samples/old_inmobi.rst:7
-msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:247
-#: ../doc/sampleapp/samples/old_inmobi.rst:8
-msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:275
-#: ../doc/sampleapp/samples/old_inmobi.rst:36
-msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:278
-#: ../doc/sampleapp/samples/old_inmobi.rst:39
-msgid "onDeviceReady() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:280
-#: ../doc/sampleapp/samples/old_inmobi.rst:41
-msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:299
-#: ../doc/sampleapp/samples/old_inmobi.rst:60
-msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:302
-#: ../doc/sampleapp/samples/old_inmobi.rst:63
-msgid "showAds() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:304
-#: ../doc/sampleapp/samples/old_inmobi.rst:65
-msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:317
-#: ../doc/sampleapp/samples/old_inmobi.rst:78
-msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
+msgid "[TBU]"
 msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:5
@@ -1425,6 +1359,62 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/minimum_project.rst:57
 msgid "The :file:`index.html` is the Startup page. Here is the screenshot of the Startup page:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:1
+msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:3
+msgid "``siteid`` (string): the property ID."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:4
+msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:5
+msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:6
+msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:7
+msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:8
+msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:36
+msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:39
+msgid "onDeviceReady() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:41
+msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:60
+msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:63
+msgid "showAds() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:65
+msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:78
+msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/omikuji.rst:5
