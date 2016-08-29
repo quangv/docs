@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-24 08:32+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-08-29 06:23+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -602,7 +602,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/debugger/features.rst:163
 #: ../doc/manual/debugger/installation/debugger_android.rst:156
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:106
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:139
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:148
 #: ../doc/manual/debugger/installation/debugger_ios.rst:170
 #: ../doc/manual/dependencies/file_dir.rst:115
 #: ../doc/manual/deploy/amazon_store.rst:140
@@ -3374,7 +3374,7 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:41
 msgid "Version Name (Android:versionName)"
-msgstr "アプリのリリース番号 ( 表示用 / Android:versionName )"
+msgstr "アプリのリリース番号 ( 表示用/Android:versionName )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:41
 #: ../doc/manual/debugger/installation/debugger_ios.rst:41
@@ -3389,7 +3389,7 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:44
 msgid "App Version (Android:versionCode)"
-msgstr "アプリのビルド番号 ( 内部処理用 / Android:versionCode )"
+msgstr "アプリのビルド番号 ( 内部処理用/Android:versionCode )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:44
 msgid "Fixed (currently 50000)"
@@ -3462,7 +3462,7 @@ msgid ""
 "DatePicker, BarcodeScanner and so on. For a complete list of currently "
 "included third-party Cordova plugins, please refer to "
 ":ref:`third_party_cordova_index`."
-msgstr "また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも Monaca には実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
+msgstr "また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも、Monaca に実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:75
 msgid ""
@@ -3473,7 +3473,7 @@ msgid ""
 "debugger. Therefore, you need to use Custom Built Monaca Debugger. Custom "
 "Built Monaca Debugger is a debugger which is built from a Monaca Project "
 "within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_and`."
-msgstr "これ以外の第三者提供または自作の :ref:`ユーザー Cordova プラグイン <custom_cordova_plugin>` をプロジェクトに追加することもできます。ストア版の Monaca デバッガーには、これらのプラグインはデフォルトでは実装されていないため、このデバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca デバッガーですが、カスタムビルド版のデバッガーは、Monaca クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca デバッガーは、アプリです )。詳細は、:ref:`custom_debugger_and` をご確認ください。"
+msgstr "これ以外の第三者提供 ( 「 外部の Cordova プラグイン 」 ) または自作のプラグイン ( 「 :ref:`ユーザー Cordova プラグイン <custom_cordova_plugin>` 」 ) をプロジェクトに追加することもできます。ストア版の Monaca デバッガーには、これらのプラグインはデフォルトでは実装されていないため、このデバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca デバッガーですが、カスタムビルド版のデバッガーは、Monaca クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca デバッガーは、アプリです )。詳細は、:ref:`custom_debugger_and` をご確認ください。"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:83
 msgid ""
@@ -3679,12 +3679,12 @@ msgid "It can also be found in Chrome App Launcher."
 msgstr "または、Chrome アプリランチャー上から起動できます。"
 
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:108
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:141
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:150
 msgid ":ref:`Debugger's Functionalities <monaca_debugger_features>`"
 msgstr ":ref:`デバッガーの機能 <monaca_debugger_features>`"
 
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:109
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:142
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:151
 msgid ":ref:`Debugger's Usage <debugging_monaca_app>`"
 msgstr ":ref:`デバッガーの使用例 <debugging_monaca_app>`"
 
@@ -3755,50 +3755,72 @@ msgstr "仮想端末の設定を行います。:guilabel:`Show Advanced Settings
 msgid "After completing the configurations, click :guilabel:`Finish`."
 msgstr "設定後、 :guilabel:`Finish` をクリックします。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:66
-msgid "Step 2: Installing Monaca Debugger"
-msgstr "ステップ 2 : Monaca デバッガーのインストール"
-
 #: ../doc/manual/debugger/installation/debugger_emulator.rst:68
+msgid "Step 2: Building Custom Monaca Debugger for Android"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:70
+msgid ""
+"Go Monaca Cloud IDE and build custom Monaca Debugger for Android. For more "
+"information, please refer to :ref:`custom_debugger_and`."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:71
+msgid ""
+"Download the debugger file and upload it to any file hosting services such "
+"as Google Drive, Dropbox and so on."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:72
+msgid ""
+"Get a download link of the uploaded file. You will need to use this link "
+"later in the virtual device."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:75
+msgid "Step 3: Installing Monaca Debugger"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:77
 msgid "Go to :guilabel:`AVD Manager` and launch the virtual device."
 msgstr ":guilabel:`AVD Manager` を選択して、対象の仮想端末を起動します。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:76
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:85
 msgid ""
-"From your virtual device, open a browser and go to "
-"``http://monaca.mobi/bin/MonacaDebugger.apk`` to download Monaca Debugger "
-"for emulator."
-msgstr "仮想端末上のブラウザーを起動させ、``http://monaca.mobi/bin/MonacaDebugger.apk`` へ行き、エミュレーター向けの Monaca デバッガーをダウンロードします。"
+"From your virtual device, open a browser and go to the download link you "
+"created in :ref:`Step 2<step_2>` to download custom Monaca Debugger for "
+"Android."
+msgstr ""
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:84
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:93
 msgid ""
 "After the download is completed, click on the downloaded file to start "
 "installing the debugger."
 msgstr "ダウンロードしたファイルをクリックして、デバッガーをインストールします。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:92
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:101
 msgid "Follow the installation wizard."
 msgstr "インストール ウィザードが起動します。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:100
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:109
 msgid ""
 "Once the installation is completed, you can find Monaca Debugger in your "
 "apps page."
 msgstr "インストール後、アプリの一覧画面に、Monaca デバッガーが表示されていることを確認します。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:110
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:119
 msgid "Step 3: Running a Project on Monaca Debugger"
 msgstr "ステップ 3 : Monaca デバッガー上でのプロジェクトの実行"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:112
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:121
 msgid "Open Monaca Debugger and sign in with your Monaca account."
 msgstr "Monaca デバッガーを起動させ、Monaca アカウントを使用して、サインインします。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:120
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:129
 msgid "Click on a project you want to run in Monaca Debugger."
 msgstr "Monaca デバッガー上で、実行するプロジェクトをクリックします。"
 
-#: ../doc/manual/debugger/installation/debugger_emulator.rst:128
+#: ../doc/manual/debugger/installation/debugger_emulator.rst:137
 msgid ""
 "Now, your project is running. You can start testing your project. Please "
 "refer to :ref:`monaca_debugger_features` and :ref:`debugging_monaca_app` on "
@@ -3833,11 +3855,11 @@ msgstr "App ID ( iOS:CFBundleIdentifier )"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:41
 msgid "Version Name (iOS:CFBundleShortVersionString)"
-msgstr "アプリのリリース番号 ( 外部向け / iOS:CFBundleShortVersionString)"
+msgstr "アプリのリリース番号 ( 外部向け/iOS:CFBundleShortVersionString)"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:44
 msgid "App Version (iOS:CFBundleVersion)"
-msgstr "アプリのビルド番号 ( 内部向け / iOS:CFBundleVersion )"
+msgstr "アプリのビルド番号 ( 内部向け/iOS:CFBundleVersion )"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:47
 msgid ":ref:`usb_ios`"
@@ -3867,7 +3889,7 @@ msgid ""
 "DatePicker, BarcodeScanner, Bluetooth and so on. For a complete list of "
 "currently included third-party Cordova plugins, please refer to "
 ":ref:`third_party_cordova_index`."
-msgstr "また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも Monaca には実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
+msgstr "また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも、Monaca に実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:71
 msgid ""
@@ -3878,13 +3900,13 @@ msgid ""
 "debugger. Therefore, you need to use Custom Built Monaca Debugger. Custom "
 "Built Monaca Debugger is a debugger which is built from a Monaca Project "
 "within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_ios`."
-msgstr "これ以外の第三者提供または自作の :ref:`ユーザー Cordova プラグイン <custom_cordova_plugin>` をプロジェクトに追加することもできます。ストア版の Monaca デバッガーには、これらのプラグインはデフォルトでは実装されていないため、デバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca デバッガーですが、こちらのデバッガーは、Monaca クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca デバッガーは、アプリです )。詳細は、:ref:`custom_debugger_ios` をご確認ください。"
+msgstr "これ以外の第三者提供 ( 「 外部の Cordova プラグイン 」 ) または自作のプラグイン ( 「 :ref:`ユーザー Cordova プラグイン <custom_cordova_plugin>` 」 ) をプロジェクトに追加することもできます。ストア版の Monaca デバッガーには、これらのプラグインはデフォルトでは実装されていないため、デバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca デバッガーですが、こちらのデバッガーは、Monaca クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca デバッガーは、アプリです )。詳細は、:ref:`custom_debugger_ios` をご確認ください。"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:79
 msgid ""
 "Monaca Debugger for iOS supports USB debugging functions with Safari browser"
 " such as:"
-msgstr "Android 向けの Monaca デバッガーでは、USB デバッグをサポートしており、Google Chrome ブラウザーを使用したリモートデバッグが行えます。リモートデバッグで行える主な処理は、次のとおりです。"
+msgstr "Android 向けの Monaca デバッガーでは、USB デバッグをサポートしており、 Safari ブラウザーを使用したリモートデバッグが行えます。リモートデバッグで行える主な処理は、次のとおりです。"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:85
 msgid ""
@@ -3898,7 +3920,7 @@ msgid ""
 "iOS allowing you to install the built app (debug build only) using the "
 "debugger. For more information, please refer to :ref:`how to use Network "
 "Install feature<debugger_project_options>`."
-msgstr "Android 向けの Monaca デバッガーでは、デバッガー経由で、ビルド済みのアプリ ( デバッグビルド版のみ ) をインストールできます。詳細は、 :ref:`ネットワーク インストール <debugger_project_options>` 機能を、ご確認ください。"
+msgstr "iOS 向けの Monaca デバッガーでは、デバッガー経由で、ビルド済みのアプリ ( デバッグビルド版のみ ) をインストールできます。詳細は、 :ref:`ネットワーク インストール ( [ インスト ] の解説  ) <debugger_project_options>` 機能を、ご確認ください。"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:103
 msgid ""
@@ -4005,7 +4027,7 @@ msgstr "Monaca デバッガーと ホスト PC を、次の手順に従い、手
 msgid ""
 "From Monaca Debugger, click on the toggle menu on the top-left corner and "
 "select :guilabel:`Local Computers` button."
-msgstr "Monaca デバッガー画面の左上端に表示された切り替えメニューをクリックして、次に、 :guilabel:`ローカルコンピュータ` ボタンをタップします。"
+msgstr "Monaca デバッガー画面の左上端に表示された切り替えメニューをタップして、次に、 :guilabel:`ローカルコンピュータ` ボタンをタップします。"
 
 #: ../doc/manual/debugger/troubleshooting.rst:32
 msgid "Click :guilabel:`Pair the New Computer` button."
@@ -4264,7 +4286,7 @@ msgid ""
 "native device function such as the camera or accelerometer from JavaScript. "
 "Therefore, Monaca uses Cordova to enable your hybrid apps to access native "
 "device functions from JavaScript."
-msgstr "具体的には、Cordova が提供しているデバイス系の API を使用すれば、端末側のネイティブ機能に、JavaScript からアクセスできるようになります。Monaca では、Cordova を採用し、ハイブリッドアプリから、JavaScript 経由で端末側のネイティブ機能へアクセスしています。"
+msgstr "具体的には、Cordova が提供しているデバイス系の API を使用すれば、端末側のネイティブ機能に、JavaScript からアクセスできるようになります。Monaca では、Cordova を採用し、JavaScript 経由で、ハイブリッドアプリ内から端末側のネイティブ機能へアクセスしています。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:19
 msgid ""
@@ -4375,7 +4397,7 @@ msgid ""
 "using :guilabel:`Import Cordova Plugin` button. A project containing "
 "external third-party Cordova plugin(s) requires a custom built Monaca "
 "Debugger. Please refer to :ref:`debugger_for_custom_plugins`."
-msgstr "[ Cordova とプラグインの管理 ] ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧表示されます。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
+msgstr "[ Cordova とプラグインの管理 ] ページが表示されます。ここでは、基本 Cordova プラグインとサードパーティー製の Cordova プラグインが一覧表示されます。プロジェクトにプラグインを追加する場合には、対象プラグインの横に表示された :guilabel:`有効` ボタンをクリックします ( 対象のプラグインのアイコン上に、マウスを持ってきます )。希望するプラグインが一覧上にない場合には、:guilabel:`Cordova プラグインのインポート` ボタンをクリックして、外部の Cordova プラグインもインポートできます。なお、外部の Cordova プラグインを追加したプロジェクトを、Monaca デバッガー上で実行する場合には、カスタムビルド版の Monaca デバッガーが必要になります。詳細は、:ref:`debugger_for_custom_plugins` をご確認ください。"
 
 #: ../doc/manual/dependencies/cordova_plugin.rst:120
 msgid ""
@@ -4383,7 +4405,7 @@ msgid ""
 " a plugin you want to config and click :guilabel:`Config` to open a plugin's"
 " settig dialog where you can change the plugin's version and set plugin's "
 "parameter(s)."
-msgstr "プラグインを有効化またはインポートした後、プラグイン側の設定を行う必要があれば、対象のプラグインの横に表示された :guilabel:`設定` ボタンをクリックします ( マウスを対象のプラグインのアイコン上に持ってきます )。設定用のダイアログが表示されるので、プラグインのバージョン、必要なパラメーターなどを設定します。"
+msgstr "プラグインを有効化またはインポートした後、プラグイン側の設定を行う必要があれば、対象のプラグインの横に表示された :guilabel:`設定` ボタンをクリックします ( 対象のプラグインのアイコン上に、マウスを持ってきます )。設定用のダイアログが表示されるので、プラグインのバージョン、必要なパラメーターなどを設定します。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:5
 msgid "Custom Cordova Plugins"
@@ -4560,7 +4582,7 @@ msgstr "ユーザー Cordova プラグインをプロジェクトに追加する
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:146
 msgid "Compress your custom Cordov plugin files as a zip file."
-msgstr "ユーザー Cordova プラグインのファイルを zip 形式のファイルに圧縮します。"
+msgstr "ユーザー Cordova プラグインのファイルを、zip 形式のファイルに圧縮します。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:148
 msgid ""
@@ -4620,7 +4642,7 @@ msgid ""
 "We also offer technical support (fee required) for developing your custom "
 "Cordova Plugin. Please contact our support team `here "
 "<https://monaca.mobi/en/support/index>`_."
-msgstr "また、ユーザー Cordova プラグイン開発の技術支援 ( 有料 ) も、弊社にて承っております。サポートチームまで、お気軽に、詳細を `お問い合わせ <https://monaca.mobi/ja/support/index>`_ ください。"
+msgstr "また、ユーザー Cordova プラグイン開発の技術支援 ( 有料 ) も、弊社にて承っております。サポートチームまで、お気軽に詳細を `お問い合わせ <https://monaca.mobi/ja/support/index>`_ ください。"
 
 #: ../doc/manual/dependencies/custom_cordova_plugin.rst:185
 msgid "Testing Custom Cordova Plugin"
@@ -4689,7 +4711,7 @@ msgstr "デバッガーにログインして、ユーザー Cordova プラグイ
 
 #: ../doc/manual/dependencies/file_dir.rst:5
 msgid "File and Folder Structure"
-msgstr "ファイル ・ フォルダー構成"
+msgstr "ファイル・フォルダー構成"
 
 #: ../doc/manual/dependencies/file_dir.rst:7
 msgid ""
@@ -4774,7 +4796,7 @@ msgstr "android フォルダー"
 #: ../doc/manual/dependencies/file_dir.rst:34
 msgid ""
 "Android application settings files are stored inside the ``android`` folder."
-msgstr "Android アプリの設定ファイルを、 ``android`` フォルダーに保存します。"
+msgstr "Android アプリの設定ファイルを、``android`` フォルダーに保存します。"
 
 #: ../doc/manual/dependencies/file_dir.rst:37
 msgid "``AndroidManifest.xml``"
@@ -4836,13 +4858,13 @@ msgstr "``MonacaApp-Info.plist``"
 
 #: ../doc/manual/dependencies/file_dir.rst:62
 msgid ":file:`Info.plist` file used when running iOS applications"
-msgstr "iOS アプリの実行時に使用する Info.plist ファイル"
+msgstr "iOS アプリの実行時に使用する :file:`Info.plist` ファイル"
 
 #: ../doc/manual/dependencies/file_dir.rst:65
 msgid ""
 "For more information about how to use this file, please see "
 ":doc:`../../reference/config/ios_configuration`."
-msgstr "詳細は、 :doc:`../../reference/config/ios_configuration` をご確認ください。"
+msgstr "詳細は、:doc:`../../reference/config/ios_configuration` をご確認ください。"
 
 #: ../doc/manual/dependencies/file_dir.rst:67
 msgid ""
@@ -4879,7 +4901,7 @@ msgstr "``components/``"
 #: ../doc/manual/dependencies/file_dir.rst:77
 msgid ""
 "The folder created by Monaca for all JS/CSS components used in the project."
-msgstr "プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納するフォルダーです ( Monaca 側で作成 )。"
+msgstr "プロジェクトで使用する、すべての JS・CSS コンポーネントを格納するフォルダーです ( Monaca 側で作成 )。"
 
 #: ../doc/manual/dependencies/file_dir.rst:82
 msgid "index.html"
@@ -4901,7 +4923,7 @@ msgid ""
 "The folder ``www/components/`` is for all JS/CSS components used in the "
 "project. However, the following two files exist in that folder by default "
 "regardless of what kinds of components you have added for your project."
-msgstr "``www/components/`` フォルダー下に、プロジェクトで使用する、すべての JS ・ CSS コンポーネントを格納します。次の 2 つのファイルは、プロジェクトに追加したコンポーネントの種類にかかわらず、デフォルトで、このフォルダーに常に置かれているファイルです。"
+msgstr "``www/components/`` フォルダー下に、プロジェクトで使用する、すべての JS・CSS コンポーネントを格納します。次の 2 つのファイルは、プロジェクトに追加したコンポーネントの種類にかかわらず、デフォルトで、このフォルダーに常に置かれているファイルです。"
 
 #: ../doc/manual/dependencies/file_dir.rst:92
 msgid "``loader.js``"
@@ -4929,7 +4951,7 @@ msgstr ":file:`loader.js` と :file:`loader.css` を、HTML から読み込む�
 msgid ""
 "Each component will create its own folder within (one level below) "
 "``www/components/`` folder."
-msgstr "各コンポーネントのフォルダーは、``www/components/`` フォルダーのサブフォルダーとして、作成します。"
+msgstr "各コンポーネントのフォルダーは、``www/components/`` フォルダーのサブフォルダーとして作成されます。"
 
 #: ../doc/manual/dependencies/file_dir.rst:103
 msgid "config.xml File"
@@ -5222,7 +5244,7 @@ msgid ""
 "<https://developer.amazon.com/public/support/contact/contact-us>`_ at the "
 "Amazon Appstore for Android with any inquiries. They can assist you with "
 "various issues including how to submit your app or use the API."
-msgstr "Amazon の Android アプリストアに関するお問い合わせは、`こちら <https://developer.amazon.com/public/support/contact/contact-us>`_ から行えます。こちらの窓口では、アプリの申請に関する一般的な質問ができます。"
+msgstr "Amazon の Android アプリストアに関するお問い合わせは、`こちら <https://developer.amazon.com/public/support/contact/contact-us>`_ から行えます。こちらの窓口では、アプリの申請、API の使用法などに関する一般的な質問ができます。"
 
 #: ../doc/manual/deploy/amazon_store.rst:133
 msgid "Amazon Badges for Amazon Appstore for Android"
@@ -5342,7 +5364,7 @@ msgid ""
 "will check if your apps are eligible or qualified to be in the App Store. "
 "Usually, it takes two weeks for the review. Therefore, please wait patiently"
 " for it."
-msgstr "App Store で iOS アプリを配布するためには、Apple 社による審査を通過する必要があります。審査のためにアプリを提出するときには、iTunes Connect を使用します。iTunes Connect 上では、アプリの提出に必要な手続き ( アプリ情報の登録など ) を含む、さまざまな処理・操作を行います。なお、審査では、App Store での配布基準に適合しているかが審査されます。アプリの提出後、審査終了までには、しばらく時間がかかります。"
+msgstr "App Store で iOS アプリを配布するためには、Apple 社による審査を通過する必要があります。審査のためにアプリを提出するときには、iTunes Connect を使用します。iTunes Connect 上では、アプリの提出に必要な手続き ( アプリ情報の登録など ) を含む、さまざまな処理・操作を行います。なお、審査では、App Store での配布基準に適合しているかが審査されます。アプリの提出後、審査終了までには、通常、2 週間程度かかります。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:5
 msgid "iTunes Connect Guide"
@@ -5424,7 +5446,7 @@ msgid ""
 "it’s a wildcard App ID, you also need to specify a bundle ID suffix. If it's"
 " an explicit App ID, it must exactly match the bundle identifier in your "
 "app."
-msgstr "バンドル ID を選択します。バンドル ID には、Explicit App ID または Wildcard App ID を使用します。Wildcard App ID を使用する場合には、バンドル ID のサフィックスも指定します。Explicit App ID を使用する場合には、アプリで使用している Bundle Identifier と同じものを使用します。"
+msgstr "バンドル ID を選択します。バンドル ID には、Explicit App ID または Wildcard App ID を使用します。Wildcard App ID を使用する場合には、バンドル ID のサフィックスも指定します。Explicit App ID を使用する場合には、アプリに使用している バンドル ID と同じものを使用します。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:61
 msgid "Bundle ID Suffix"
@@ -5436,7 +5458,7 @@ msgid ""
 "displayed. It's a string that is appended to the bundle ID property if the "
 "bundle ID is a wildcard App ID. The bundle ID and bundle ID suffix must form"
 " a bundle identifier that exactly matches the bundle identifier in your app."
-msgstr "バンドル ID の選択後、[ バンドル ID のサフィックス ] 項目が表示されます。バンドル ID のサフィックスとは、Wildcard App ID をバンドル ID に指定した場合、バンドル ID のプロパティーに付記する文字列です。Bundle Identifier は、バンドル ID と バンドル ID のサフィックスを組み合わせて構成され、アプリで使用している Bundle Identifier と同じものになります。"
+msgstr "バンドル ID の選択後、[ バンドル ID のサフィックス ] 項目が表示されます。バンドル ID のサフィックスとは、Wildcard App ID をバンドル ID に指定した場合、バンドル ID のプロパティーに付記する文字列です。バンドル ID は、このサフィックスと組み合わせて構成されます ( アプリに使用されている バンドル ID と同じものになります )。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:66
 msgid "SKU"
@@ -5459,7 +5481,7 @@ msgstr ":guilabel:`作成` ボタンをクリックします。次に、[ App �
 msgid ""
 "In the App Information page, choose a category for your app and click "
 ":guilabel:`Save`."
-msgstr "[ App 情報 ] ページ上で、アプリの [ カテゴリ ] を選択して、:guilabel:`保存` ボタンをクリックします。"
+msgstr "[ App 情報 ] ページ上で、アプリの [ カテゴリ ] を適宜選択して、:guilabel:`保存` ボタンをクリックします。"
 
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:86
 msgid ""
@@ -5714,7 +5736,7 @@ msgid ""
 "names. Moreover, if you lost your keystore, you'll have to publish the app "
 "with a new package name and a new key. Then, update the description of the "
 "original app and unpublish it."
-msgstr "アプリのパッケージ名は、一意で、永続的なものを選びます。一度、登録すると、名前の削除と再利用はできませんので、名前付けは慎重に行います。また、キーストアを紛失した場合、新しいパッケージ名と新しいキーで、アプリを再提出しなければなりません。この場合は、旧アプリの 説明を更新して、その後、Google Play への公開を停止します。"
+msgstr "アプリのパッケージ名は、一意で、永続的なものを選びます。一度、登録すると、名前の削除と再利用はできませんので、名前付けは慎重に行います。また、キーストアを紛失した場合、新しいパッケージ名と新しいキーで、アプリを再提出しなければなりません。この場合は、旧アプリの説明を更新して、その後、Google Play での公開を停止します。"
 
 #: ../doc/manual/deploy/google_play.rst:68
 msgid ""
@@ -6084,7 +6106,7 @@ msgstr "OTA 配布形式でのインストール方法"
 msgid ""
 "OTA (Over-The-Air) Deployment enables you to install your built apps (ad-hoc"
 " build) via HTTPS."
-msgstr "OTA ( Over-The-Air / ワイヤレス通信 ) 配布形式であれば、HTTPS 経由で、ビルド済み ( Ad Hoc ビルド ) アプリをインストールできます。"
+msgstr "OTA ( Over-The-Air/ワイヤレス通信 ) 配布形式であれば、HTTPS 経由で、ビルド済み ( Ad Hoc ビルド ) アプリをインストールできます。"
 
 #: ../doc/manual/deploy/non_market_deploy.rst:98
 msgid ""
@@ -10543,6 +10565,11 @@ msgstr ""
 #: ../doc/manual/monaca_ci/overview.rst:106
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:97
+#: ../doc/manual/monaca_ci/supported_services.rst:172
+msgid ":ref:`troubleshooting`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:11
