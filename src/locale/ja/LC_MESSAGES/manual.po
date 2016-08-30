@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-29 11:00+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-08-30 11:22+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,8 +623,8 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:104
-#: ../doc/manual/monaca_ci/supported_services.rst:168
+#: ../doc/manual/monaca_ci/overview.rst:194
+#: ../doc/manual/monaca_ci/supported_services.rst:117
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
 msgstr "*参考ページ*"
@@ -1059,9 +1059,9 @@ msgstr "項目"
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
+#: ../doc/manual/monaca_ci/overview.rst:109
 #: ../doc/manual/monaca_ci/supported_services.rst:22
 #: ../doc/manual/monaca_ci/supported_services.rst:55
-#: ../doc/manual/monaca_ci/supported_services.rst:124
 msgid "Description"
 msgstr "説明"
 
@@ -6608,9 +6608,9 @@ msgstr ":dfn:`$ monaca create path`"
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:66
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:391
 #: ../doc/manual/monaca_ci/json_sample.rst:11
+#: ../doc/manual/monaca_ci/overview.rst:104
 #: ../doc/manual/monaca_ci/supported_services.rst:17
 #: ../doc/manual/monaca_ci/supported_services.rst:50
-#: ../doc/manual/monaca_ci/supported_services.rst:119
 msgid "Parameters"
 msgstr "パラメーター"
 
@@ -6999,7 +6999,7 @@ msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:341
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/supported_services.rst:129
+#: ../doc/manual/monaca_ci/overview.rst:117
 msgid "``platform``"
 msgstr "``platform``"
 
@@ -10453,6 +10453,7 @@ msgid "JSON Settings"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:7
+#: ../doc/manual/monaca_ci/overview.rst:68
 msgid ""
 "Monaca CI will automate its job by reading the JSON recipe script. In other "
 "words, you will need to configure the JSON settings according to what you "
@@ -10460,92 +10461,110 @@ msgid ""
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:13
+#: ../doc/manual/monaca_ci/overview.rst:106
 msgid ""
 "In the following table, there are necessary parameters you will need to use "
 "in the recipe script."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
+#: ../doc/manual/monaca_ci/overview.rst:109
 #: ../doc/manual/monaca_ci/supported_services.rst:22
 #: ../doc/manual/monaca_ci/supported_services.rst:55
-#: ../doc/manual/monaca_ci/supported_services.rst:124
 msgid "Param"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
+#: ../doc/manual/monaca_ci/overview.rst:111
 msgid "``task_name``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
+#: ../doc/manual/monaca_ci/overview.rst:111
 msgid "a name representing your build process."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
+#: ../doc/manual/monaca_ci/overview.rst:113
 msgid "``branch``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
+#: ../doc/manual/monaca_ci/overview.rst:113
 msgid "Github branch of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
+#: ../doc/manual/monaca_ci/overview.rst:115
 msgid "``tag``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
+#: ../doc/manual/monaca_ci/overview.rst:115
 msgid "Github tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
+#: ../doc/manual/monaca_ci/overview.rst:117
 msgid ""
 "The platform you want to build for. Valid values are: ``ios``, ``android`` &"
 " ``winrt``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
+#: ../doc/manual/monaca_ci/overview.rst:119
 msgid "``build``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
+#: ../doc/manual/monaca_ci/overview.rst:119
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
+#: ../doc/manual/monaca_ci/overview.rst:121
 msgid "``deploy``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
+#: ../doc/manual/monaca_ci/overview.rst:121
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:30
+#: ../doc/manual/monaca_ci/overview.rst:123
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:31
+#: ../doc/manual/monaca_ci/overview.rst:124
 msgid ""
 "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:32
+#: ../doc/manual/monaca_ci/overview.rst:125
 msgid ""
 "``default``: a block for default parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:33
+#: ../doc/manual/monaca_ci/overview.rst:126
 msgid ""
 "``ios``: a block for iOS parameters you may need to use for the deployment "
 "service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:34
+#: ../doc/manual/monaca_ci/overview.rst:127
 msgid ""
 "``android``: a block for Android parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
+#: ../doc/manual/monaca_ci/overview.rst:129
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
@@ -10556,15 +10575,19 @@ msgid "Here is an example of a recipe script."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:95
-#: ../doc/manual/monaca_ci/supported_services.rst:170
+#: ../doc/manual/monaca_ci/supported_services.rst:119
 #: ../doc/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:106
+#: ../doc/manual/monaca_ci/overview.rst:196
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/json_sample.rst:97
+msgid ":ref:`troubleshooting`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:11
@@ -10619,27 +10642,97 @@ msgid ""
 "started:"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:34
-msgid "Step 1: Configure Deploy Services"
+#: ../doc/manual/monaca_ci/overview.rst:33
+msgid ""
+"From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous "
+"Integration`."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:36
+#: ../doc/manual/monaca_ci/overview.rst:35
+msgid ""
+"Under :guilabel:`JSON Settings` section, you will see the following default "
+"JSON script. This script controls the automation behaviours of Monaca CI. "
+"The meaning of this default configuration is that when you push your project"
+" code to any Github's branch with a name formatted as ``release-[0-9]`` or a"
+" tag formatted as ``^\\\\d.\\\\d$``, Monaca CI will automatically build your"
+" project into debug and release builds for iOS platform. You can find these "
+"built files under Build History page."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:55
+msgid ""
+"Click :guilabel:`Enable` then :guilabel:`Save` button. That's it! Now your "
+"Monaca CI is ready. You can start pushing your project code to the valid "
+"branch or tag as configured in JSON settings. You should be able to see the "
+"built files under Build History page. It may take some times until the files"
+" are ready."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:66
+msgid "JSON Settings Configuration"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:70
+msgid ""
+"For example, the following JSON recipe script will automate Monaca CI to:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:72
+msgid ""
+"build the ``debug`` build of your project for both iOS and Android platforms"
+" when you push the project code to the branch named ``\"release\"``."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:73
+msgid ""
+"then distribute the built file to ``Deploy Gate`` service which has a "
+"release note and disable the email notfication for iOS devices."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:133
+msgid "Deploy Services Configuration"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:135
+msgid ""
+"You can also automate your app distribution process with Monaca CI. In order"
+" to do this, please do as follows:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:137
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Deploy "
 "Services`."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:37
+#: ../doc/manual/monaca_ci/overview.rst:138
 msgid "Click :guilabel:`Add Deploy Service`."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:38
+#: ../doc/manual/monaca_ci/overview.rst:139
 msgid ""
 "Choose a deploy service and fill in the required information. Then, click "
 ":guilabel:`Add`."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:46
+#: ../doc/manual/monaca_ci/overview.rst:147
+msgid ""
+"Go to guilabel:`Continuous Integration` panel, you will see your newly added"
+" service under Configured Deploy Services."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:156
+msgid ""
+"Then, add configuration for your deploy service in JSON script. Here is an "
+"example:"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:186
+msgid ""
+"Once you are done with the configuration, click :guilabel:`Save`. That's it!"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:188
 msgid ""
 "You can have multiple deploy services configured in Monaca CI. You can also "
 "have multiple aliases for each deploy service. Please refer to "
@@ -10647,57 +10740,8 @@ msgid ""
 "services."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:49
-msgid "Step 2: Configure JSON Settings"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:51
-msgid ""
-"Monaca CI will automate its job by reading the JSON recipe script. In other "
-"words, you will need to configure the JSON settings according to what you "
-"want Monaca CI to do for you. For more information, please refer to "
-":ref:`json_sample`."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:53
-msgid ""
-"For example, the following JSON recipe script will automate Monaca CI to:"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:55
-msgid ""
-"build the ``debug`` build of your project for both iOS and Android platforms"
-" when you push the project code to the branch named ``\"release\"``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:56
-msgid ""
-"then distribute the built file to ``Deploy Gate`` service which has a "
-"release note and disable the email notfication for iOS devices."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:88
-msgid "Step 3: Start Monaca CI"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:90
-msgid ""
-"After finish configuring deploy services and JSON settings, you are now "
-"ready to start Monaca CI. Please do as follows:"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:92
-msgid "Click :guilabel:`Enable` and click :guilabel:`Save`."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:100
-msgid ""
-"Then, start pushing your project code to the valid branch or tag as you "
-"configured in JSON settings. That's it!"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:107
-#: ../doc/manual/monaca_ci/supported_services.rst:171
+#: ../doc/manual/monaca_ci/overview.rst:197
+#: ../doc/manual/monaca_ci/supported_services.rst:120
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
 msgstr ""
@@ -10723,13 +10767,11 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:52
-#: ../doc/manual/monaca_ci/supported_services.rst:121
 msgid "You may need to use the following parameters in the recipe script."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:22
 #: ../doc/manual/monaca_ci/supported_services.rst:55
-#: ../doc/manual/monaca_ci/supported_services.rst:124
 msgid "Remark"
 msgstr ""
 
@@ -10749,7 +10791,6 @@ msgid "Stored in deploy service settings. Automatically populated."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:28
-#: ../doc/manual/monaca_ci/supported_services.rst:131
 msgid "``file``"
 msgstr ""
 
@@ -10759,8 +10800,6 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/supported_services.rst:28
 #: ../doc/manual/monaca_ci/supported_services.rst:57
-#: ../doc/manual/monaca_ci/supported_services.rst:129
-#: ../doc/manual/monaca_ci/supported_services.rst:131
 msgid "Automatically populated."
 msgstr ""
 
@@ -10987,138 +11026,18 @@ msgstr ""
 msgid "Upcoming Supported Services"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:111
-msgid "Test Flight"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:114
-msgid "Appetize.io"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:116
+#: ../doc/manual/monaca_ci/supported_services.rst:110
 msgid ""
-"`Appetize.io <https://appetize.io/>`_ is alson a beta-app distribution "
-"platform. For more information, please refer to `Appetize.io documentation "
-"<https://appetize.io/docs>`_."
+"In addition to the above services, we are planning to add more deployment "
+"services. Currently, we are working the following services:"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:126
-msgid "``url``"
+#: ../doc/manual/monaca_ci/supported_services.rst:112
+msgid "`Test Flight <https://developer.apple.com/testflight/>`_"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/supported_services.rst:126
-msgid ""
-"(string) a publicly accessible link to your ``.zip``, ``.tar.gz``, or "
-"``.apk`` file."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:129
-msgid "(string) valid values are: ``ios`` or ``android``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:131
-msgid ""
-"specify a file location on the local filesystem, rather than using the field"
-" url. All other field names are identical. To delete a field, set it to an "
-"empty string."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:135
-msgid "``fileType``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:135
-msgid ""
-"[Optional](string) the type of file that the url points to. Valid values are"
-" ``zip``, ``tar.gz`` or ``apk``. Default values is ``zip`` for ios and "
-"``apk`` for android."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:139
-msgid "``timeout``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:139
-msgid ""
-"[Optional](number) the number of seconds to wait until automatically ending "
-"the session due to user inactivity. Valid values are: ``30``, ``60``, "
-"``90``, ``120``,``180``, ``300`` or ``600``. Default value is ``120``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:143
-msgid "``disableHome``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:143
-msgid "[Optional](boolean) disables the home button on the iOS simulator."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:145
-msgid "``disabled``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:145
-msgid "[Optional](boolean) disables streaming for this app."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:147
-msgid "``protectedByAccount``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:147
-msgid ""
-"[Optional](boolean) allows only logged-in users with the same account to "
-"stream the app."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:150
-msgid "``useLastFrame``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:150
-msgid ""
-"[Optional](boolean) show the last image on the screen in the simulator after"
-" session ends."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:153
-msgid "``buttonText``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:153
-msgid ""
-"[Optional](string) customize the message prompting the user to start the "
-"session. The default value is ``\"Tap to play\"``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:156
-msgid "``postSessionButtonText``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:156
-msgid ""
-"[Optional](string) customize the message prompting the user to restart the "
-"session. The default value is ``\"Tap to play\"``."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:159
-msgid "``launchUrl``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:159
-msgid ""
-"[Optional](string) specify a deep link to bring your users to a specific "
-"location when your app is launched."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:162
-msgid "``note``"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/supported_services.rst:162
-msgid ""
-"[Optional](string) a note for your own purposes which will appear on your "
-"management dashboard."
+#: ../doc/manual/monaca_ci/supported_services.rst:113
+msgid "`Appetize.io <https://appetize.io/>`_"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/troubleshooting.rst:5

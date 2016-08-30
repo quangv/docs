@@ -5,7 +5,7 @@ AdMob Demo
 ============================================
 
 
-In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. 
+In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_.
 
   .. figure:: images/admob/1.png
      :width: 337px
@@ -23,12 +23,6 @@ In this page, we will show how to integrate Monaca with the most common mobile a
 
 :download:`Click here to download the project <download/admob.zip>`
 
-Prerequisites
-============================================
-
-1. Register with AdMob.
-2. Register your app with AdMob.
-3. Add `AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ to your project.
 
 File Components
 =========================
@@ -58,9 +52,11 @@ Required JS/CSS Components
 Required Cordova Plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-============================ ============================
-``AdMob Plugin Pro``
-============================ ============================
+================================================================================ =================
+`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_
+================================================================================ =================
+
+
 
 HTML Explanation
 =======================
@@ -237,8 +233,205 @@ The following block code represents the Ads Position dialog allowing users to se
 JavaScript Explanation
 ===================================
 
-[TBU]
+In this section, we will explain some important functions (in ``app.js`` file) used in this sample app.
 
+admobid Object
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two tyeps of ads such as banner and interstitial ads. 
+
+.. code-block:: javascript
+
+    var admobid = {};
+    if (/(android)/i.test(navigator.userAgent)){
+        console.log('Android');
+        admobid = { // for Android
+            banner: 'ca-app-pub-6869992474017983/9375997553',
+            interstitial: 'ca-app-pub-6869992474017983/1657046752'
+        };
+    } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)){
+        admobid = { // for iOS
+            banner: 'ca-app-pub-6869992474017983/4806197152',
+            interstitial: 'ca-app-pub-6869992474017983/7563979554'
+        };
+    } else {
+        admobid = { // for Windows Phone
+            banner: 'ca-app-pub-6869992474017983/8878394753',
+            interstitial: 'ca-app-pub-6869992474017983/1355127956'
+        };
+    }
+
+.. note:: All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there.
+
+initialization() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:
+
+- ``AdMob.getAdSettings()``: logging AdMob's ads setting information.
+- ``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on.
+- ``onAdFailLoad`` event handler: displaying error information when the ad is failed to load.
+
+.. code-block:: javascript
+
+    function initialization(){
+        AdMob.getAdSettings(function(info){
+            console.log('adId: ' + info.adId + '\n' + 'adTrackingEnabled: ' + info.adTrackingEnabled);
+        }, function(){
+            console.log('failed to get user ad settings');
+        });
+        
+        AdMob.setOptions({
+            //adId: admobid.banner,
+            //adSize: 'SMART_BANNER',
+            position: AdMob.AD_POSITION.BOTTOM_CENTER,
+            isTesting: true, // set to true, to receiving test ad for testing purpose
+            bgColor: 'black', // color name, or '#RRGGBB'
+            // autoShow: true // auto show interstitial ad when loaded, set to false if prepare/show
+            // offsetTopBar: false, // avoid overlapped by status bar, for iOS7+
+        });
+        
+        // new events, with variable to differentiate: adNetwork, adType, adEvent
+        $(document).on('onAdFailLoad', function(e){
+            // when jquery used, it will hijack the event, so we have to get data from original event
+            if(typeof e.originalEvent !== 'undefined') e = e.originalEvent;
+            var data = e.detail || e.data || e;
+
+            alert('error: ' + data.error +
+                ', reason: ' + data.reason +
+                ', adNetwork:' + data.adNetwork +
+                ', adType:' + data.adType +
+                ', adEvent:' + data.adEvent); // adType: 'banner', 'interstitial', etc.
+            });
+            
+        $('#btn_size').click(showBannerSize);
+        $('#btn_pos').click(showBannerPos);
+        $('#btn_create').click(createSelectedBanner);
+        $('#btn_show').click(showBannerAtPosition);
+        
+        $('#btn_remove').click(function(){
+            AdMob.removeBanner();
+        });
+        
+        $('#btn_hide').click(function(){
+            AdMob.hideBanner();
+        });
+
+        // test interstitial ad
+        $('#btn_prepare').click(function(){
+            AdMob.prepareInterstitial({
+                adId:admobid.interstitial,
+                autoShow: $('#autoshow').prop('checked')
+            });
+        });
+
+        $('#btn_showfull').click(function(){
+            AdMob.showInterstitial();
+        });
+    }
+
+
+createSelectedBanner() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This function creates an ad based on the configuration.
+
+.. code-block:: javascript
+
+    function createSelectedBanner(){
+        AdMob.removeBanner();
+        var ads_size = $("#btn_size_txt").text();
+        var ads_pos = selected_pos_value;
+        if(AdMob) AdMob.createBanner({
+            adId: admobid.banner,
+            overlap: $('#overlap').prop('checked'),
+            offsetTopBar: $('#offsetTopBar').prop('checked'),
+            adSize: ads_size,
+            position: ads_pos
+        });
+    }
+
+
+showBannerAtPosition() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This function shows the ad based on the selected ad's position.
+
+.. code-block:: javascript
+
+    function showBannerAtPosition(){
+        var ads_pos = selected_pos_value;
+        if(AdMob) AdMob.showBanner( ads_pos );
+    }
+
+
+prepareInt() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This function prepares an interstitial ad and then shows it once it's ready.
+
+.. code-block:: javascript
+
+    function prepareInt(){
+        AdMob.prepareInterstitial({
+            adId:admobid.interstitial,
+            autoShow: $('#autoshow').prop('checked')
+        });
+    }
+
+
+showBannerSize() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This function shows a Banner Size dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so on. For more information, please refer to `Banner Size <https://firebase.google.com/docs/admob/android/banner>`_.
+
+.. code-block:: javascript
+
+    function showBannerSize() {
+        var dlg = "banner_size.html";
+        if (!dialogs[dlg]) {
+              ons.createDialog(dlg).then(function(dialog) {
+                dialogs[dlg] = dialog;
+                dialog.show();
+                
+                $('input[name=radio_size]').on('change', function() {
+                    var selected_value = $('input[name=radio_size]:checked').val();
+                    $("#btn_size_txt").text(selected_value);
+                    dialog.hide();
+                });
+            });
+        } else {
+            dialogs[dlg].show();
+        }
+    }
+
+
+showBannerPos() Function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This function shows a Ad's Position dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_).
+
+.. code-block:: javascript
+
+    function showBannerPos() {
+        var dlg = "banner_pos.html";
+        if (!dialogs[dlg]) {
+              ons.createDialog(dlg).then(function(dialog) {
+                dialogs[dlg] = dialog;
+                dialog.show();
+                
+                $('input[name=radio_pos]').on('change', function() {
+                    var selected_value = $('input[name=radio_pos]:checked').val();
+                    var selected_text = btnPosLabel(selected_value);
+                    $("#btn_pos_txt").text(selected_text);
+                    selected_pos_value = selected_value;
+                    dialog.hide();
+                });
+            });
+        } else {
+            dialogs[dlg].show();
+        }
+    }
 
 
 

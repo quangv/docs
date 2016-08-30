@@ -24,7 +24,7 @@ msgid "AdMob Demo"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:8
-msgid "In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_."
+msgid "In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:14
@@ -39,23 +39,7 @@ msgstr ""
 msgid ":download:`Click here to download the project <download/admob.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:27
-msgid "Prerequisites"
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:29
-msgid "Register with AdMob."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:30
-msgid "Register your app with AdMob."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:31
-msgid "Add `AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ to your project."
-msgstr ""
-
-#: ../doc/sampleapp/samples/admob.rst:34
+#: ../doc/sampleapp/samples/admob.rst:28
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
@@ -77,7 +61,7 @@ msgstr ""
 msgid "File Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:43
+#: ../doc/sampleapp/samples/admob.rst:37
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
@@ -99,13 +83,13 @@ msgstr ""
 msgid "``index.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:43
+#: ../doc/sampleapp/samples/admob.rst:37
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/todo.rst:32
 msgid "The startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:45
+#: ../doc/sampleapp/samples/admob.rst:39
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
 #: ../doc/sampleapp/samples/facebook.rst:71
@@ -115,11 +99,11 @@ msgstr ""
 msgid "``js/app.js``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:45
+#: ../doc/sampleapp/samples/admob.rst:39
 msgid "JavaScript file handling app execution."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:47
+#: ../doc/sampleapp/samples/admob.rst:41
 #: ../doc/sampleapp/samples/age-calc.rst:37
 #: ../doc/sampleapp/samples/break_the_bricks.rst:38
 #: ../doc/sampleapp/samples/clock.rst:38
@@ -132,12 +116,12 @@ msgstr ""
 msgid "``css/style.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:47
+#: ../doc/sampleapp/samples/admob.rst:41
 #: ../doc/sampleapp/samples/twitter.rst:59
 msgid "A stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:51
+#: ../doc/sampleapp/samples/admob.rst:45
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
@@ -156,7 +140,7 @@ msgstr ""
 msgid "Required JS/CSS Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:54
+#: ../doc/sampleapp/samples/admob.rst:48
 #: ../doc/sampleapp/samples/age-calc.rst:44
 #: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/flickr.rst:43
@@ -167,7 +151,7 @@ msgstr ""
 msgid "``jQuery``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:55
+#: ../doc/sampleapp/samples/admob.rst:49
 #: ../doc/sampleapp/samples/facebook.rst:81
 #: ../doc/sampleapp/samples/ibeacon.rst:63
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
@@ -176,7 +160,7 @@ msgstr ""
 msgid "``Onsen UI``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:59
+#: ../doc/sampleapp/samples/admob.rst:53
 #: ../doc/sampleapp/samples/facebook.rst:85
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
@@ -184,11 +168,11 @@ msgstr ""
 msgid "Required Cordova Plugins"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:62
-msgid "``AdMob Plugin Pro``"
+#: ../doc/sampleapp/samples/admob.rst:56
+msgid "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:66
+#: ../doc/sampleapp/samples/admob.rst:62
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
@@ -209,35 +193,35 @@ msgstr ""
 msgid "HTML Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:68
+#: ../doc/sampleapp/samples/admob.rst:64
 msgid "In this demo app, we use `OnsenUI <https://onsen.io/>`_, HTML5 Hybrid Mobile App Framework and UI Components for PhoneGap & Cordova."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:71
+#: ../doc/sampleapp/samples/admob.rst:67
 msgid "Startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:73
+#: ../doc/sampleapp/samples/admob.rst:69
 msgid "The following block code represents the UI of the startup page of the project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:130
+#: ../doc/sampleapp/samples/admob.rst:126
 msgid "Ads Size Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:132
+#: ../doc/sampleapp/samples/admob.rst:128
 msgid "The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:178
+#: ../doc/sampleapp/samples/admob.rst:174
 msgid "Ads Position Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:180
+#: ../doc/sampleapp/samples/admob.rst:176
 msgid "The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:238
+#: ../doc/sampleapp/samples/admob.rst:234
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
@@ -254,8 +238,80 @@ msgstr ""
 msgid "JavaScript Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:240
-msgid "[TBU]"
+#: ../doc/sampleapp/samples/admob.rst:236
+msgid "In this section, we will explain some important functions (in ``app.js`` file) used in this sample app."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:239
+msgid "admobid Object"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:241
+msgid "From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two tyeps of ads such as banner and interstitial ads."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:264
+msgid "All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:267
+msgid "initialization() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:269
+msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:271
+msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:272
+msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:273
+msgid "``onAdFailLoad`` event handler: displaying error information when the ad is failed to load."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:335
+msgid "createSelectedBanner() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:337
+msgid "This function creates an ad based on the configuration."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:356
+msgid "showBannerAtPosition() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:358
+msgid "This function shows the ad based on the selected ad's position."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:369
+msgid "prepareInt() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:371
+msgid "This function prepares an interstitial ad and then shows it once it's ready."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:384
+msgid "showBannerSize() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:386
+msgid "This function shows a Banner Size dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so on. For more information, please refer to `Banner Size <https://firebase.google.com/docs/admob/android/banner>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:410
+msgid "showBannerPos() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:412
+msgid "This function shows a Ad's Position dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_)."
 msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:5
