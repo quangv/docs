@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-31 09:29+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-08-31 09:47+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24939,7 +24939,8 @@ msgstr ""
 msgid ""
 "Monaca REST APIs allow you build a Cordova app. You can also integrate it "
 "with other web services. Once integrated, you will be able to use the same "
-"features existed in Monaca Cloud IDE or Monaca CLI."
+"features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` or "
+":ref:`Monaca CLI <monaca_cli_index>`."
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
@@ -24973,16 +24974,6 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca REST API Usage"
-msgstr ""
-
-#: ../doc/reference/monaca_api/monaca_api_guide.rst:52
-msgid "The supported features are:"
-msgstr ""
-
-#: ../doc/reference/monaca_api/monaca_api_guide.rst:47
-msgid ""
-"Creating a new project. Compile and build the project. Sync with Cloud "
-"project Sign in / sign out Transpile local project"
 msgstr ""
 
 #: ../doc/reference/monaca_api/utility-34.rst:3
