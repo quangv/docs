@@ -152,12 +152,7 @@ msgid "``jQuery``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:49
-#: ../doc/sampleapp/samples/facebook.rst:81
-#: ../doc/sampleapp/samples/ibeacon.rst:63
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
-msgid "``Onsen UI``"
+msgid "``Onsen``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:53
@@ -194,7 +189,7 @@ msgid "HTML Explanation"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:64
-msgid "In this demo app, we use `OnsenUI <https://onsen.io/>`_, HTML5 Hybrid Mobile App Framework and UI Components for PhoneGap & Cordova."
+msgid "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:67
@@ -776,6 +771,14 @@ msgstr ""
 #: ../doc/sampleapp/samples/facebook.rst:73
 #: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:81
+#: ../doc/sampleapp/samples/ibeacon.rst:63
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
+msgid "``Onsen UI``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:88

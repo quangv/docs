@@ -46,7 +46,7 @@ Required JS/CSS Components
 
 ============================ ============================
 ``jQuery``
-``Onsen UI``
+``Onsen``
 ============================ ============================
 
 Required Cordova Plugins
@@ -61,7 +61,7 @@ Required Cordova Plugins
 HTML Explanation
 =======================
 
-In this demo app, we use `OnsenUI <https://onsen.io/>`_, HTML5 Hybrid Mobile App Framework and UI Components for PhoneGap & Cordova. 
+In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app. 
 
 Startup Page
 ^^^^^^^^^^^^^^^^^^^^^^

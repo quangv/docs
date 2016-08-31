@@ -30,7 +30,7 @@ Assuming you have successfully linked a GitHub repository to your project, you a
 
 1. From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous Integration`.
 
-2. Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History (:menuselection:`Build --> Build History`) panel.
+2. Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`).
 
   .. code-block:: javascript
 

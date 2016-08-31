@@ -8578,6 +8578,10 @@ msgstr ""
 msgid ":ref:`supported_services`"
 msgstr ""
 
+#: ../doc/manual/monaca_ci/json_sample.rst:97
+msgid ":ref:`troubleshooting`"
+msgstr ""
+
 #: ../doc/manual/monaca_ci/overview.rst:11
 msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on GitHub and many other Git services. For Monaca CI, every time you push your project code to GitHub, GitHub will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin."
 msgstr ""
@@ -8615,7 +8619,7 @@ msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous I
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:33
-msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History (:menuselection:`Build --> Build History`) panel."
+msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:53
