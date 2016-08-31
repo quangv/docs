@@ -1,22 +1,19 @@
 .. _supported_services:
 
 ============================================================================
-Supported Services
+Deploy Services
 ============================================================================
 
-
-Currently Supported Services
-===================================
+Currently Supported Deploy Services
+=============================================
 
 DeployGate
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`DeployGate <https://deploygate.com/>`_ is a beta-app distribution platform. For more information, please refer to `DeployGate API documentation <https://deploygate.com/docs/api>`_.
+`DeployGate <https://deploygate.com/>`_ makes it easy to share your in-development iOS and Android apps, allowing developers to seamlessly progress through the prototyping, development, testing, and marketing stages of app distribution. 
 
-Parameters
---------------------
 
-You may need to use the following parameters in the recipe script.
+You may need to use the following parameters in the JSON recipe script for Monaca CI. For more information, please refer to `DeployGate API documentation <https://deploygate.com/docs/api>`_.
 
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 | Param                | Description                                                                      | Remark                          |
@@ -44,12 +41,9 @@ You may need to use the following parameters in the recipe script.
 HockeyApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`HockeyApp <https://hockeyapp.net/>`_ is alson a beta-app distribution platform. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_.
+`HockeyApp <https://hockeyapp.net/>`_ brings mobile DevOps to your apps with beta distribution, crash reporting, user metrics, feedback, and powerful workflow integrations.
 
-Parameters
---------------------
-
-You may need to use the following parameters in the recipe script.
+You may need to use the following parameters in the JSON recipe script for Monaca CI. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_.
 
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 | Param                | Description                                                                      | Remark                          |
@@ -104,8 +98,8 @@ You may need to use the following parameters in the recipe script.
 |                      |   - ``3`` for enterprise                                                         |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 
-Upcoming Supported Services
-===================================
+Upcoming Supported Deploy Services
+=========================================
 
 In addition to the above services, we are planning to add more deployment services. Currently, we are working the following services:
 

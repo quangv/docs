@@ -8,19 +8,17 @@ Overview
 Introduction
 ============================================================================
 
-Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current development environment stack to automate building and deployment cycle. It is able to achieve this automation process by using webhooks that GitHub and may other Git services provides with every code commit or branch/tag creation. 
+Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on GitHub and many other Git services. For Monaca CI, every time you push your project code to GitHub, GitHub will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin.
 
-Monaca CI lets developers focus more on the code and less on the backend process of building, testing and deploying an app. 
+Therefore, Monaca CI lets developers focus more on the code and less on the backend process of building, testing and deploying an app. 
 
- 
 Prerequisite
 =================================
 
-In order to use Monaca CI, you will need to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:
+In order to use Monaca CI, you will need to integrate GitHub with your Monaca account. If you haven't done it, please follow the instruction below:
 
-1. get a GitHub account. Register `here <https://github.com/join>`_.
-2. link your Monaca account to Github. Please refer to :ref:`github_integration`.
-3. connect your project to your Github repository. Please refer to :ref:`version_control_configuration`.
+#. Link your Monaca account to GitHub. Please refer to :ref:`github_integration`.
+#. Connect your project to your GitHub repository. Please refer to :ref:`version_control_configuration`.
 
 .. note:: In order to use Monaca CI, Cordova 6.2 or higher is required. 
 
@@ -28,77 +26,105 @@ In order to use Monaca CI, you will need to integrate Github with your Monaca ac
 Getting Started with Monaca CI
 ============================================
 
-Assuming you have successfully linked a Github repository to your project, please follow the the steps in the instruction below to get Monaca CI started:
+Assuming you have successfully linked a GitHub repository to your project, you are now ready to enable Monaca CI. Please do as follows:
 
 1. From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous Integration`.
 
-2. Under :guilabel:`JSON Settings` section, you will see the following default JSON script. This script controls the automation behaviours of Monaca CI. The meaning of this default configuration is that when you push your project code to any Github's branch with a name formatted as ``release-[0-9]`` or a tag formatted as ``^\\d.\\d$``, Monaca CI will automatically build your project into debug and release builds for iOS platform. You can find these built files under Build History page. 
-    
-    .. code-block:: javascript
+2. Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History (:menuselection:`Build --> Build History`) panel.
 
-        [
-            {
-                "task_name": "Default",
-                "branch": "/release-[0-9]/",
-                "tag": "/^\\d.\\d$/",
-                "platform": [
-                    "ios"
-                ],
-                "build": [
-                    "debug",
-                    "release"
-                ],
-                "deploy": []
-            }
-        ]
-    
-3. Click :guilabel:`Enable` then :guilabel:`Save` button. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. You should be able to see the built files under Build History page. It may take some times until the files are ready.
+  .. code-block:: javascript
 
-    .. figure:: images/overview/3.png
+      [
+          {
+              "task_name": "Default",
+              "branch": "/release-[0-9]/",
+              "tag": "/^\\d.\\d$/",
+              "platform": [
+                  "ios"
+              ],
+              "build": [
+                  "debug",
+                  "release"
+              ],
+              "deploy": []
+          }
+      ]
+
+3. By default, Monaca CI is disable. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed.
+
+  .. figure:: images/overview/3.png
       :width: 600px
       :align: left
 
-    .. rst-class:: clear
+  .. rst-class:: clear
 
 
+Automating Deploy Services
+============================================
+
+You can also automate your app distribution process with Monaca CI. In order to do this, please do as follows:
+
+1. From Monaca Cloud IDE menu, go to :menuselection:`Config --> Deploy Services`.
+
+2. Click :guilabel:`Add Deploy Service`.
+
+3. Choose a deploy service and fill in the required information. Then, click :guilabel:`Add`.
+
+  .. figure:: images/overview/1.png
+    :width: 600px
+    :align: left
+
+  .. rst-class:: clear
+
+4. Go to Continuous Integration panel, you will see your newly added service under Configured Deploy Services.
+
+  .. figure:: images/overview/4.png
+    :width: 600px
+    :align: left
+
+  .. rst-class:: clear
+
+5. Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the GitHub's branch called ``"release"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices. Therefore, your JSON script should look like this:
+
+  .. code-block:: javascript
+
+      [
+          {
+              "task_name": "Beta Test",
+              "branch": "release",
+              "platform": [
+                  "ios",
+                  "android"
+              ],
+              "build": [
+                  "debug"
+              ],
+              "deploy": [
+                  {
+                      "type": "DeployGate",
+                      "alias": "Insider Test",
+                      "default": {
+                          "release_note": "This is a beta test for insider testing."
+                      },
+                      "ios": {
+                          "disable_notify": "yes"
+                      }
+                  }
+              ]
+          }
+      ]
+
+6. Once you are done with the configuration, click :guilabel:`Save`.
+
+.. note:: You can have multiple deploy services configured in Monaca CI. You can also have multiple aliases for each deploy service. Please refer to :ref:`supported_services` regarding currently supported and upcoming deploy services. 
+
+
+.. _monaca_ci_json:
 
 JSON Settings Configuration
 ============================================
 
 Monaca CI will automate its job by reading the JSON recipe script. In other words, you will need to configure the JSON settings according to what you want Monaca CI to do for you.
-
-For example, the following JSON recipe script will automate Monaca CI to:
-
-1. build the ``debug`` build of your project for both iOS and Android platforms when you push the project code to the branch named ``"release"``.
-2. then distribute the built file to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices.
-
-.. code-block:: javascript
-
-    [
-        {
-            "task_name": "Beta Test",
-            "branch": "release",
-            "platform": [
-                "ios",
-                "android"
-            ],
-            "build": [
-                "debug"
-            ],
-            "deploy": [
-                {
-                    "type": "DeployGate",
-                    "alias": "Insider Test",
-                    "default": {
-                        "release_note": "This is a beta test for insider testing."
-                    },
-                    "ios": {
-                        "disable_notify": "yes"
-                    }
-                }
-            ]
-        }
-    ]
 
 Parameters
 ^^^^^^^^^^^^^^^^^^^^
@@ -110,9 +136,9 @@ In the following table, there are necessary parameters you will need to use in t
 +=================+==================================================================================================================+
 |``task_name``    |  a name representing your build process.                                                                         |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
-|``branch``       |  Github branch of the project you want to build.                                                                 |
+|``branch``       |  GitHub branch of the project you want to build.                                                                 |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
-|``tag``          |  Github tag of the project you want to build.                                                                    |
+|``tag``          |  GitHub tag of the project you want to build.                                                                    |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
 |``platform``     |  The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``.                         |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
@@ -129,64 +155,56 @@ In the following table, there are necessary parameters you will need to use in t
 |                 |  Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services.       |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
 
-Deploy Services Configuration
-============================================
+Example
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also automate your app distribution process with Monaca CI. In order to do this, please do as follows:
+Here is an example of a recipe script configured for a deploy service with 2 aliases.
 
-1. From Monaca Cloud IDE menu, go to :menuselection:`Config --> Deploy Services`.
-2. Click :guilabel:`Add Deploy Service`.
-3. Choose a deploy service and fill in the required information. Then, click :guilabel:`Add`.
+.. code-block:: javascript
 
-    .. figure:: images/overview/1.png
-      :width: 600px
-      :align: left
-
-    .. rst-class:: clear
-
-4. Go to guilabel:`Continuous Integration` panel, you will see your newly added service under Configured Deploy Services.
-
-    .. figure:: images/overview/4.png
-      :width: 600px
-      :align: left
-
-    .. rst-class:: clear
-
-
-5. Then, add configuration for your deploy service in JSON script. Here is an example:
-
-    .. code-block:: javascript
-
-        [
-            {
-                "task_name": "Beta Test",
-                "branch": "release",
-                "platform": [
-                    "ios",
-                    "android"
-                ],
-                "build": [
-                    "debug"
-                ],
-                "deploy": [
-                    {
-                        "type": "DeployGate",
-                        "alias": "Insider Test",
-                        "default": {
-                            "release_note": "This is a beta test for insider testing."
-                        },
-                        "ios": {
-                            "disable_notify": "yes"
-                        }
+    [
+        {
+            "task_name": "test",
+            "branch": "/release-[0-9]/",
+            "tag": "/^\\d.\\d$/",
+            "platform": [
+                "ios",
+                "android"
+            ],
+            "build": [
+                "debug",
+                "release"
+            ],
+            "deploy": [
+                {
+                    "type": "DeployGate",
+                    "alias": "Internal-Focus-Group",
+                    "default": {
+                        "foo": "bar"
+                    },
+                    "ios": {
+                        "foo": "bar"
+                    },
+                    "android": {
+                        "foo": "bar"
                     }
-                ]
-            }
-        ]
-
-6. Once you are done with the configuration, click :guilabel:`Save`. That's it! 
-
-.. note:: You can have multiple deploy services configured in Monaca CI. You can also have multiple aliases for each deploy service. Please refer to :ref:`supported_services` regarding currently supported and upcoming deploy services. 
-
+                },
+                {
+                    "type": "HockeyApp",
+                    "alias": "Internal-Focus-Group",
+                    "default": {
+                        "foo": "bar"
+                    },
+                    "ios": {
+                        "foo": "bar"
+                    },
+                    "android": {
+                        "foo": "bar"
+                    }
+                }
+            ]
+        }
+    ]
 
 
 .. seealso::
