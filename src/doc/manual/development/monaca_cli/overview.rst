@@ -5,11 +5,11 @@ Monaca CLI Overview
 ==========================================
 
 
-Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:
+Monaca CLI provides command line interface for using Monaca Cloud from your host PC. With Monaca CLI, you can:
 
-- Create new local projects, import or clone existing projects on Monaca Cloud into your local PC.
+- Create new local projects, import or clone existing projects in Monaca Cloud into your host PC.
 - Debug your app with inspector integration.
-- Support transpiler options.
+- Support transpiler options for transpilable projects such as ReactJS and Angular2 projects.
 - Remote build your projects without any setups locally. 
 
 
@@ -21,7 +21,7 @@ Getting Started
 Step 1: Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note:: You are required to have `Node.js <https://nodejs.org/>`_ installed on your PC in order to use Monaca CLI. After that, you can install Monaca CLI using ``npm`` command.
+.. note:: You are required to have `Node.js <https://nodejs.org/>`_ installed on your PC in order to install Monaca CLI. 
 
 Use the following command to install Monaca CLI:
 
@@ -29,7 +29,7 @@ Use the following command to install Monaca CLI:
 
       $ npm install -g monaca
 
-On some systems you may have to prefix the command with sudo because of permissions:
+On some systems you may have to prefix the command with ``sudo`` because of permission issue:
 
   .. code-block:: bash
 
@@ -58,7 +58,7 @@ Step 2: Creating a New Project and Run on Browser
   
   .. rst-class:: clear    
 
-3. Run on the browser.
+3. Run it on the browser.
 
   .. code-block:: bash
 
@@ -76,13 +76,13 @@ Step 3: Connecting to Monaca Debugger
 
         $ monaca debug
 
-2. Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. This message will only be displayed if it's the first time you are connecting to the device. After this, your application should be running on your Monaca Debugger.
+2. Then, a popup message, prompting you to pair Monaca Debugger with the host PC, will appear in the debugger. This message will only be displayed if it’s the first time you are connecting to the device. After this, your application should be running on the debugger.
 
-.. note:: Before connecting Monaca Debugger to the local PC, please pay attention to the following points:
+.. note:: Before connecting Monaca Debugger to the host PC, please pay attention to the following points:
 
-        1. Monaca Debugger and the local PC have to connect to the same WiFi network.
-        2. Use the same Monaca account for either Monaca Debugger and the local PC.
-        3. Disable the local PC's firewall.
+        1. Monaca Debugger and the host PC have to connect to the same WiFi network.
+        2. Use the same Monaca account for both Monaca Debugger and the host PC.
+        3. Disable the host PC's firewall.
 
 
 .. seealso::

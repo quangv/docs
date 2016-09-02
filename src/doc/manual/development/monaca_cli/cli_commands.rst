@@ -8,18 +8,20 @@ Monaca CLI Commands
 ========================================= =======================================================================================
 Commands                                   Description
 ========================================= =======================================================================================
-:ref:`monaca_login`                        signs in to Monaca Cloud.
-:ref:`monaca_create`                       creates a new Monaca project locally from a template.
-:ref:`monaca_clone`                        clones a project from Monaca Cloud.
-:ref:`monaca_import`                       imports a project from Monaca Cloud.
-:ref:`monaca_upload`                       uploads a project to Monaca Cloud.
-:ref:`monaca_download`                     downloads a project from Monaca Cloud.
-:ref:`monaca_plugin`                       manages installed plugins of a project.
-:ref:`monaca_debug`                        serves a single project to Monaca Debugger.
-:ref:`monaca_preview`                      serves a single project to browser.
-:ref:`monaca_remote_build`                 builds a project remotely on Monaca Cloud.
-:ref:`monaca_proxy`                        configures proxy to use when connecting to Monaca Cloud.
-:ref:`monaca_logout`                       signs out from Monaca Cloud.
+:ref:`monaca_login`                        Signs into Monaca Cloud.
+:ref:`monaca_create`                       Creates a new Monaca project locally from a template.
+:ref:`monaca_clone`                        Clones a project from Monaca Cloud.
+:ref:`monaca_import`                       Imports a project from Monaca Cloud.
+:ref:`monaca_upload`                       Uploads a project to Monaca Cloud.
+:ref:`monaca_download`                     Downloads a project from Monaca Cloud.
+:ref:`monaca_plugin`                       Manages installed plugins of a project.
+:ref:`monaca_transpile`                    Transpiles project source code.
+:ref:`monaca_debug`                        Serves a single project to Monaca Debugger.
+:ref:`monaca_preview`                      Serves a single project to browser.
+:ref:`monaca_reconfigure`                  Generates default project configurations.
+:ref:`monaca_remote_build`                 Builds a project remotely in Monaca Cloud.
+:ref:`monaca_proxy`                        Configures proxy to use when connecting to Monaca Cloud.
+:ref:`monaca_logout`                       Signs out from Monaca Cloud.
 ========================================= =======================================================================================
 
 .. _monaca_login:
@@ -29,12 +31,12 @@ Commands                                   Description
 monaca login
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Signs in to the Monaca Cloud. You will be prompted to input your Monaca account information (username and password).
+Signs into Monaca Cloud. You will be prompted to input your Monaca account information (username and password).
 
 :dfn:`$ monaca login`
 
 Example
-  Here is an example when you login to Monaca Cloud with Monaca CLI:
+  Here is an example of how you log in to Monaca Cloud with Monaca CLI:
 
   .. code-block:: bash
 
@@ -53,7 +55,7 @@ Example
 monaca create
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Creates a new Monaca project locally at a specified path. The command downloads a list of available templates and then displays a list for the user to choose from. The specified project will be created in a directory given by the user.
+Creates a new Monaca project locally at a specified path. You will be asked to choose a project template from a list of available templates provided by Monaca Cloud. The selected template will be created at the specified location.
 
 :dfn:`$ monaca create path`
 
@@ -79,7 +81,7 @@ Example
 monaca clone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clones a project from the Monaca Cloud. The command downloads a list of available projects and then displays a list for the user to choose from. The project will be downloaded to a directory specified by the user. Also a link is created with corresponding monaca cloud project. User can later sync this project with monaca cloud.
+Clones a project from the Monaca Cloud into your local PC at a specified location. You will be asked to select a project from a list of all your existing projects in Monaca Cloud and specify a location for the downloaded project. 
 
 .. note:: If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project.
 
@@ -87,7 +89,7 @@ Clones a project from the Monaca Cloud. The command downloads a list of availabl
 
 
 Example
-  Here is an exmaple of how to clone a project called ``Memo Application`` from Monaca Cloud into "CloneMemoProject" folder on your local PC.
+  Here is an example of how to clone a project called ``Memo Application`` from Monaca Cloud into "CloneMemoProject" folder on your local PC.
 
   .. figure:: images/cli_commands/clone.png
       :width: 600px
@@ -106,14 +108,14 @@ Example
 monaca import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Imports a project from the Monaca Cloud. The command downloads a list of available projects and then displays a list for the user to choose from. The project will be downloaded to a directory specified by the user.
+Imports a project from Monaca Cloud. You will be asked to select a project from a list of all your existing projects in Monaca Cloud and specify a location for the downloaded project. 
 
 .. note:: If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud.
 
 :dfn:`$ monaca import`
   
 Example
-  Here is an exmaple of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApplication" folder on your local PC.
+  Here is an example of how to import a project called ``Memo Application`` from Monaca Cloud into "ImportedMemoApplication" folder on your local PC.
 
   .. figure:: images/cli_commands/import.png
       :width: 600px
@@ -132,23 +134,22 @@ Example
 monaca upload
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Uploads the current project files to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded. The upload process will be done in one of the following ways:
+Uploads the current project files to Monaca Cloud. The project files will be compared with the corresponding remote files so that only the new and changed ones will be uploaded. The uploading process will be done in one of the following ways:
 
 1. If the current project is a new/imported project, this command will upload the whole project as a new project in Monaca Cloud.
 2. If the current project is a cloned project, this command will overwrite the same existing project in Monaca Cloud. In other words, only changed and new files will be uploaded.
 
-.. note:: For ReactJS and Angular2 projects, ``monaca upload`` command will transpile the project before uploading. 
+.. note:: For ReactJS and Angular2 projects, ``monaca upload`` command will transpile the project before uploading them. 
 
 
-:dfn:`$ monaca upload`
+:dfn:`$ monaca upload [options]`
 
 Options
-  =========================================== ===========================================================================================================
-  ``--delete``                                  deletes those files on Monaca cloud which are not existed locally.
-  ``--force``                                   doesn't ask user for permission to continue.
-  ``--dry-run``                                 simulates the upload operation and provides details of which files will be      
-                                                uploaded. No actual upload operation is done. 
-  =========================================== ===========================================================================================================
+  ====================== ===========================================================================================================
+  ``--delete``             Deletes the project files in Monaca Cloud which do not exist locally.
+  ``--force``              Doesn't ask users for permission to continue the uploading process.
+  ``--dry-run``            Simulates the uploading operation and provides details of which files will be uploaded. No actual uploading operation is done. 
+  ====================== ===========================================================================================================
 
 
 Example
@@ -171,19 +172,19 @@ Example
 monaca download
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Downloads updates/changes (of the synced project) made in Monaca Cloud. 
+Downloads updates/changes (of the corresponding synced project) made in Monaca Cloud into the local project. 
 
-.. note:: This command will overwrite the changes into the local project. If your local project is not existed in Monaca Cloud, you can't use this command.
+.. note:: This command will overwrite the changes into the local project. If your local project does not exist in Monaca Cloud, you can't use this command.
 
-:dfn:`$ monaca download`
+
+:dfn:`$ monaca download [options]`
 
 Options
-  =========================================== ===========================================================================================================
-  ``--delete``                                  deletes those files locally which are not existed on Monaca Cloud.
-  ``--force``                                   doesn't ask user for permission to continue.
-  ``--dry-run``                                 simulates the download operation and provides details of which files will be 
-                                                downloaded. No actual download operation is done. 
-  =========================================== ===========================================================================================================
+  ==================== ===========================================================================================================
+  ``--delete``            Deletes those files locally which do not exist in Monaca Cloud.
+  ``--force``             Doesn't ask users for permission to continue.
+  ``--dry-run``           Simulates the downloading operation and provides details of which files will be downloaded. No actual downloading operation is done. 
+  ==================== ===========================================================================================================
 
 Example
   Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works.
@@ -211,14 +212,14 @@ Manages plugins of a project such as adding new plugins, listing and removing in
   
 Options
   =========================================== ==============================================================================================
-  ``add <plugin>``                              adds a plugin.
-  ``rm <plugin>``                               removes a plugin.
-  ``ls|list``                                   lists currently installed plugins.
-  ``search <query>``                            searches the plugin directory.
+  ``add <plugin>``                              Adds a plugin.
+  ``rm <plugin>``                               Removes a plugin.
+  ``ls|list``                                   Lists currently installed plugins.
+  ``search <query>``                            Searches the plugin directory.
   =========================================== ==============================================================================================
 
 Example
-  Navigate to your project folder and type the command below:
+  Navigate to your project folder and type the command below and see how it works:
 
   .. code-block:: bash
 
@@ -230,6 +231,38 @@ Example
 
 .. rst-class:: function-reference
 
+.. _monaca_transpile:
+
+.. rst-class:: function-reference
+
+monaca transpile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Transpiles projects that are transpilable such as ReactJS and Angular2 projects. For transpilable projects, the transpiling process is automatically included in some commands such as ``monaca upload``, ``monaca preview``, ``monaca debug`` and ``monaca remote build``.
+
+:dfn:`$ monaca transpile [options]`
+
+Options:
+  =========================================== ==============================================================================================
+    ``--generate-config``                       Creates transpile configuration files for transpilable projects, in case they are missing. 
+    ``--install-dependencies``                  Installs the missing dependencies needed for transpiling.
+  =========================================== ==============================================================================================
+
+Example
+  Navigate to your transpilable project folder and use ``monaca transpile`` command. Then, the transpiling will begin.
+
+  .. code-block:: bash
+
+      $ monaca transpile
+
+      Running Transpiler...
+      Build completed in 71.835s
+
+      ....
+
+
+.. rst-class:: function-reference
+
 .. _monaca_preview:
 
 .. rst-class:: function-reference
@@ -237,16 +270,16 @@ Example
 monaca preview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Starts a local web server that serves the ``www`` assets. The command will watch the file-system for changes and reload the browser when a change occurs.
+Starts a local web server that serves the ``www`` assets. The command will watch the file system for changes and reload the browser when a change occurs.
 
 .. note:: For ReactJS and Angular2 projects, ``monaca preview`` command will transpile the project in memory before launching the previewer. Additionally, if the preview is still running and you make a change, the transpile process should be triggered and the previewer will be served with the new files.
 
-:dfn:`$ monaca preview [option]`
+:dfn:`$ monaca preview [options]`
 
 Options:
   =========================================== ==============================================================================================
     ``--port``, ``-p``                                  HTTP port to listen to (default value is 8000)
-    ``--no-open``                                       starts a local web server without opening a browser
+    ``--no-open``                                       Starts a local web server without opening a browser.
   =========================================== ==============================================================================================
 
 Example
@@ -279,11 +312,11 @@ Debugs one or more applications on a device and receives code changes instantly.
 
 .. note:: For ReactJS and Angular2 projects, ``monaca debug`` command will transpile the project before serving the files to Monaca Debugger. Additionally, if the debug is still running and you make a change, the transpile process should be triggered and the debugger will be served with the new files.
 
-:dfn:`$ monaca debug [option]`
+:dfn:`$ monaca debug [options]`
 
 Options:
   =========================================== ==============================================================================================
-    ``paths``                                  list of directories. omit it to serve the current directory.
+    ``paths``                                  List of directories. Omit it to serve the current directory.
     ``--port``                                 HTTP port to listen to (default value is 8001)
   =========================================== ==============================================================================================
 
@@ -296,7 +329,7 @@ Example
       $ monaca debug
 
 
-  When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`.
+  When running this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`.
      
   .. figure:: images/cli_commands/1.png
     :width: 250px
@@ -316,9 +349,34 @@ Example
 
 .. note:: In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`.
 
+.. rst-class:: function-reference
 
 
+.. _monaca_reconfigure:
 
+.. rst-class:: function-reference
+
+monaca reconfigure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Generates default project configurations and files. Running it without arguments will generate everything.
+
+:dfn:`$ monaca reconfigure [options]`
+
+Options:
+  =========================================== ==============================================================================================
+    ``--transpile``                             Generates transpile configuration files (for both dev and prod).
+    ``--dependencies``                          Installs required build dependencies.
+    ``--components``                            Generates ``components`` folder.
+  =========================================== ==============================================================================================
+
+Example
+  Navigate to your transpilable project folder and try ``monaca reconfigure`` command with various parameters.
+
+  .. code-block:: bash
+
+      $ monaca reconfigure
+      $ monaca reconfigure --transpile --components
 
 .. rst-class:: function-reference
 
@@ -330,30 +388,30 @@ Example
 monaca remote build
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Builds the project on Monaca Cloud. If your project is not existed in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project is alreayd existed in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts. 
+Builds the project in Monaca Cloud. If your project does not exist in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project already exists in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts. 
 
 Please refer to :ref:`build_index` for more information on how to:
 
 - config build settings for each platform
 - types of build
 - build the application for each platform
-- get/install the built apps. 
+- get/install the built apps
 
 :dfn:`$ monaca remote build <platform> [options]`
 
 Options:
   =========================================== ==============================================================================================
-    ``platform``                                builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
-    ``--build-type``                            chooses the build type. It can be: 
+    ``platform``                                Builds for specific platform. It can be: ``ios``, ``android`` or ``windows``.
+    ``--build-type``                            Chooses the build type. It can be: 
 
                                                   - ``debug`` (for iOS, Android and Windows. It is default option.)
                                                   - ``test`` (for iOS only)
                                                   - ``release`` (for iOS and Android)
 
-    ``--output``                                the path in which the built file will be stored (specify also the filename).
-    ``--android_webview``                       if the platform is ``android``. It can be: ``default`` or ``crosswalk``.
-    ``--android_arch``                          required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``.
-    ``--browser``                               opens the build process in a browser (see the screenshots below).
+    ``--output``                                The path in which the built file will be stored (specify also the filename)
+    ``--android_webview``                       If the platform is ``android``. It can be: ``default`` or ``crosswalk``.
+    ``--android_arch``                          Required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``.
+    ``--browser``                               Opens the build process in a browser (see the screenshots below).
   =========================================== ==============================================================================================
 
 Example
@@ -391,8 +449,8 @@ Configures proxy to use when connecting to Monaca Cloud.
 
 Parameters
   =========================================== ==============================================================================================
-    ``set <URL:PORT_NUMBER>``                  sets a proxy server.
-    ``rm``                                     removes a proxy server.
+    ``set <URL:PORT_NUMBER>``                  Sets a proxy server.
+    ``rm``                                     Removes a proxy server.
   =========================================== ==============================================================================================
 
 Example
@@ -419,7 +477,7 @@ Signs out from Monaca Cloud and removes stored login token.
 :dfn:`$ monaca logout`
 
 Example
-  Here is an example when you logout from Monaca Cloud with Monaca CLI:
+  Here is an example of how you logout from Monaca Cloud with Monaca CLI:
 
   .. code-block:: bash
 
