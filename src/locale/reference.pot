@@ -21457,7 +21457,7 @@ msgid "Monaca REST API Guide"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:7
-msgid "Monaca REST APIs allow you build a Cordova app. You can also integrate it with other web services. Once integrated, you will be able to use the same features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI <monaca_cli_index>`."
+msgid "You build a Cordova app using Monaca REST APIs. Monaca REST APIs can also be integrated with other web services. Once integrated, you will be able to use the same features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI <monaca_cli_index>`."
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
@@ -21486,6 +21486,30 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca REST API Usage"
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:46
+msgid "The supported features for Monaca REST APIs are as follows:"
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:48
+msgid "Sign in / sign out to/from Monaca."
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:49
+msgid "Creating a new project."
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:50
+msgid "Compile and build the project."
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:51
+msgid "Sync with Monaca Cloud project."
+msgstr ""
+
+#: ../doc/reference/monaca_api/monaca_api_guide.rst:52
+msgid "Transpile local project."
 msgstr ""
 
 #: ../doc/reference/monaca_api/utility-34.rst:3
