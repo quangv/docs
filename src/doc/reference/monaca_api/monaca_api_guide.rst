@@ -52,5 +52,5 @@ The supported features for Monaca REST APIs are as follows:
 - Transpile local project.
 
 
-
+Please refer to ``src/monaca.js`` file in the ``monaca-lib`` regarding the list of all availabe APIs and their usage.
 
