@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-02 09:38+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-02 10:55+0000\n"
+"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1051,6 +1051,7 @@ msgstr "項目"
 #: ../doc/manual/build/build_android.rst:80
 #: ../doc/manual/build/build_chrome_app.rst:27
 #: ../doc/manual/build/ios/build_ios.rst:28
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
 #: ../doc/manual/debugger/installation/debugger_ios.rst:34
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:97
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:9
@@ -1203,6 +1204,7 @@ msgstr "Monaca では、デバッグビルド版、リリースビルド版の 2
 
 #: ../doc/manual/build/build_android.rst:18
 #: ../doc/manual/build/ios/build_ios.rst:28
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:14
 #: ../doc/manual/debugger/installation/debugger_ios.rst:32
 #: ../doc/manual/debugger/installation/index.rst:5
@@ -3303,6 +3305,133 @@ msgstr "プロジェクトに実装されている :ref:`Cordova のバージョ
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_and>`."
 msgstr ":ref:`カスタムビルド版 Monaca デバッガー <custom_debugger_and>` を使用 ( 旧バージョンの Cordova に対応するため )"
 
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+#: ../doc/manual/debugger/installation/debugger_ios.rst:30
+msgid "Debugger Type"
+msgstr "デバッガーの種類"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+msgid "Monaca Debugger (Store Version)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+#: ../doc/manual/debugger/installation/debugger_ios.rst:30
+msgid "Custom Built Monaca Debugger"
+msgstr "カスタムビルド版 Monaca デバッガー"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
+#: ../doc/manual/debugger/installation/debugger_ios.rst:34
+msgid "Monaca Debugger available at the store."
+msgstr "ストアで入手する Monaca デバッガー"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
+#: ../doc/manual/debugger/installation/debugger_ios.rst:34
+msgid "Monaca Debugger built from Monaca Cloud IDE."
+msgstr "Monaca クラウド IDE からインストールする Monaca デバッガー"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
+msgid "`Play Store`__"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:33
+msgid "`Amazon App Store`__"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
+msgid "Refer to :ref:`custom_debugger_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+msgid ":ref:`cordova_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+#: ../doc/manual/debugger/installation/debugger_ios.rst:36
+msgid "Core and some third-party Cordova plugins are automatically included."
+msgstr "基本 Cordova プラグインおよび複数のサードパーティー製 Cordova プラグインがあらかじめ実装されています。"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+#: ../doc/manual/debugger/installation/debugger_ios.rst:36
+msgid ""
+"In addition to core and third-party Cordova plugins, user submitted plugins "
+"(of the current project) are included."
+msgstr "基本 Cordova プラグインおよびサードパーティー製 Cordova プラグインに加えて、別途、ユーザー Cordova プラグインなどが実装できます。"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+msgid "App ID (Android:PackageName)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+#: ../doc/manual/debugger/installation/debugger_ios.rst:39
+msgid "``mobi.monaca.debugger``"
+msgstr "``mobi.monaca.debugger``"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+#: ../doc/manual/debugger/installation/debugger_ios.rst:39
+msgid "App ID set by user"
+msgstr "ユーザー側で設定"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+msgid "Version Name (Android:versionName)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+msgid "Fixed (currently 6.0.1)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+#: ../doc/manual/debugger/installation/debugger_ios.rst:41
+msgid "Display version name set by user"
+msgstr "ユーザー側で設定"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+msgid "App Version (Android:versionCode)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+msgid "Fixed (currently 600012)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+#: ../doc/manual/debugger/installation/debugger_ios.rst:44
+msgid "Version set by user"
+msgstr "ユーザー側で設定"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+msgid ":ref:`usb_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+msgid "Available (Chrome Dev Tools)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+msgid ":ref:`localkit_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+#: ../doc/manual/debugger/installation/debugger_ios.rst:49
+#: ../doc/manual/debugger/installation/debugger_ios.rst:51
+msgid "Available"
+msgstr "可"
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+msgid ":ref:`webview_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+msgid "Stock and Crosswalk"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+msgid ":ref:`network_and`"
+msgstr ""
+
 #: ../doc/manual/debugger/installation/debugger_android.rst:67
 #: ../doc/manual/debugger/installation/debugger_ios.rst:63
 #: ../doc/manual/dependencies/cordova_plugin.rst:5
@@ -3705,14 +3834,6 @@ msgstr "iOS 向け Monaca デバッガー"
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_ios>`."
 msgstr ":ref:`カスタムビルド版 Monaca デバッガー <custom_debugger_ios>` を使用する ( 旧バージョンの Cordova に対応するため )"
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:30
-msgid "Debugger Type"
-msgstr "デバッガーの種類"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:30
-msgid "Custom Built Monaca Debugger"
-msgstr "カスタムビルド版 Monaca デバッガー"
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:32
 msgid "`App Store`__"
 msgstr "`App Store`__"
@@ -3721,39 +3842,13 @@ msgstr "`App Store`__"
 msgid "Refer to :ref:`custom_debugger_ios`"
 msgstr ":ref:`custom_debugger_ios` を参照のこと"
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:34
-msgid "Monaca Debugger available at the store."
-msgstr "ストアで入手する Monaca デバッガー"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:34
-msgid "Monaca Debugger built from Monaca Cloud IDE."
-msgstr "Monaca クラウド IDE からインストールする Monaca デバッガー"
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:36
 msgid ":ref:`cordova_ios`"
 msgstr ":ref:`cordova_ios`"
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:36
-msgid "Core and some third-party Cordova plugins are automatically included."
-msgstr "基本 Cordova プラグインおよび複数のサードパーティー製 Cordova プラグインがあらかじめ実装されています。"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:36
-msgid ""
-"In addition to core and third-party Cordova plugins, user submitted plugins "
-"(of the current project) are included."
-msgstr "基本 Cordova プラグインおよびサードパーティー製 Cordova プラグインに加えて、別途、ユーザー Cordova プラグインなどが実装できます。"
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:39
 msgid "App ID (iOS:CFBundleIdentifier)"
 msgstr "App ID ( iOS:CFBundleIdentifier )"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:39
-msgid "``mobi.monaca.debugger``"
-msgstr "``mobi.monaca.debugger``"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:39
-msgid "App ID set by user"
-msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:41
 msgid "Version Name (iOS:CFBundleShortVersionString)"
@@ -3764,17 +3859,9 @@ msgstr "アプリのリリース番号 ( 外部向け/iOS:CFBundleShortVersionSt
 msgid "Fixed (currently 6.0.0)"
 msgstr "固定 ( 現在は 6.0.0 )"
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:41
-msgid "Display version name set by user"
-msgstr "ユーザー側で設定"
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:44
 msgid "App Version (iOS:CFBundleVersion)"
 msgstr "アプリのビルド番号 ( 内部向け/iOS:CFBundleVersion )"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:44
-msgid "Version set by user"
-msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:47
 msgid ":ref:`usb_ios`"
@@ -3793,11 +3880,6 @@ msgstr "可 ( Safari の Web インスペクタ )"
 #: ../doc/manual/debugger/installation/debugger_ios.rst:49
 msgid ":ref:`localkit_ios`"
 msgstr ":ref:`localkit_ios`"
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:49
-#: ../doc/manual/debugger/installation/debugger_ios.rst:51
-msgid "Available"
-msgstr "可"
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:51
 msgid ":ref:`network_ios`"
