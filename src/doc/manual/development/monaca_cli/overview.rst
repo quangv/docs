@@ -7,10 +7,10 @@ Monaca CLI Overview
 
 Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:
 
-- create new local projects, import or clone existing projects on Monaca Cloud into your local PC
-- debug your app with inspector integration
-- support transpiler options
-- remote build your projects without any setups locally. 
+- Create new local projects, import or clone existing projects on Monaca Cloud into your local PC.
+- Debug your app with inspector integration.
+- Support transpiler options.
+- Remote build your projects without any setups locally. 
 
 
 Getting Started

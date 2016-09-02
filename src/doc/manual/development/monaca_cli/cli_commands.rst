@@ -4,9 +4,6 @@
 Monaca CLI Commands
 ===============================
 
-.. rst-class:: right-menu
-
-
 
 ========================================= =======================================================================================
 Commands                                   Description
@@ -135,12 +132,12 @@ Example
 monaca upload
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Uploads the current project to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded.
+Uploads the current project files to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded. The upload process will be done in one of the following ways:
 
-.. note:: This command works differently for different types of projects:
-          
-          - new/imported project: this command will upload this whole project as a new project in Monaca Cloud.
-          - cloned project: this command will overwrite the same project in Monaca Cloud.
+1. If the current project is a new/imported project, this command will upload the whole project as a new project in Monaca Cloud.
+2. If the current project is a cloned project, this command will overwrite the same existing project in Monaca Cloud. In other words, only changed and new files will be uploaded.
+
+.. note:: For ReactJS and Angular2 projects, ``monaca upload`` command will transpile the project before uploading. 
 
 
 :dfn:`$ monaca upload`
@@ -242,6 +239,8 @@ monaca preview
 
 Starts a local web server that serves the ``www`` assets. The command will watch the file-system for changes and reload the browser when a change occurs.
 
+.. note:: For ReactJS and Angular2 projects, ``monaca preview`` command will transpile the project in memory before launching the previewer. Additionally, if the preview is still running and you make a change, the transpile process should be triggered and the previewer will be served with the new files.
+
 :dfn:`$ monaca preview [option]`
 
 Options:
@@ -278,6 +277,8 @@ monaca debug
 
 Debugs one or more applications on a device and receives code changes instantly. This command starts a web server for Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger is connected, it will send file system changes to the debugger.
 
+.. note:: For ReactJS and Angular2 projects, ``monaca debug`` command will transpile the project before serving the files to Monaca Debugger. Additionally, if the debug is still running and you make a change, the transpile process should be triggered and the debugger will be served with the new files.
+
 :dfn:`$ monaca debug [option]`
 
 Options:
@@ -295,24 +296,28 @@ Example
       $ monaca debug
 
 
+  When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`.
+     
+  .. figure:: images/cli_commands/1.png
+    :width: 250px
+    :align: left
+
+    Pairing Dialog  
+    
+  .. figure:: images/cli_commands/2.png
+    :width: 250px
+    :align: left
+        
+    Network Connection Notification
+    
+  .. rst-class:: clear
+
+
+
 .. note:: In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`.
 
-.. note:: When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`.
-     
 
-.. figure:: images/cli_commands/1.png
-  :width: 250px
-  :align: left
 
-  Pairing Dialog  
-  
-.. figure:: images/cli_commands/2.png
-  :width: 250px
-  :align: left
-      
-  Network Connection Notification
-  
-.. rst-class:: clear
 
 
 .. rst-class:: function-reference
