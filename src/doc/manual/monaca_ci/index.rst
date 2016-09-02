@@ -1,1 +1,1 @@
-.. _monaca_ci_index:===============================Monaca CI===============================.. toctree::  :maxdepth: 2    overview  json_sample  supported_services  troubleshooting
+.. _monaca_ci_index:===============================Monaca CI===============================.. toctree::  :maxdepth: 2    overview  supported_services

@@ -94,4 +94,3 @@ Here is an example of a recipe script.
 
   - :ref:`monaca_ci_overview`
   - :ref:`supported_services`
-  - :ref:`troubleshooting`

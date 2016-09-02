@@ -101,13 +101,13 @@ Sample Apps & Templates
               </div>
           </div>
           <div class="column-center">
-              <img src="/static/img/samples/inmobi.png" alt="" class="thumb">
+              <img src="/static/img/samples/admob.png" alt="" class="thumb">
               <div align="center">
-                  <h3>Inmobi Client</h3>
-                  <p align="left">An app integrating the mobile ads networking called Inmobi with Monaca.</p>
-                  <!-- <a href="download/inmobi.zip" download>Download</a>
+                  <h3>AdMob Demo</h3>
+                  <p align="left">An app integrating the mobile ads networking called AdMob with Monaca.</p>
+                  <!-- <a href="download/admob.zip" download>Download</a>
                   &nbsp; -->
-                  <button onclick="GoTo('/en/sampleapp/samples/inmobi/')">Detail</button> 
+                  <button onclick="GoTo('/en/sampleapp/samples/admob/')">Detail</button> 
               </div>
           </div>
           <div class="column-right">
@@ -340,13 +340,13 @@ Sample Apps & Templates
               </div>
           </div>
           <div class="column-center">
-              <img src="/static/img/samples/inmobi.png" alt="" class="thumb">
+              <img src="/static/img/samples/admob.png" alt="" class="thumb">
               <div align="center">
-                  <h3>Inmobi クライアント</h3>
-                  <p align="left">モバイルアド ( 携帯端末への広告配信ネットワーク ) を Monaca に組み込んだアプリです。ここでは、モバイルアドとして、Inmobi を使用します。</p>
-                  <!-- <a href="download/inmobi.zip" download>ダウンロード</a>
+                  <h3>AdMob Demo</h3>
+                  <p align="left">モバイルアド ( 携帯端末への広告配信ネットワーク ) を Monaca に組み込んだアプリです。ここでは、モバイルアドとして、AdMob を使用します。</p>
+                  <!-- <a href="download/admob.zip" download>ダウンロード</a>
                   &nbsp; -->
-                  <button onclick="GoTo('/ja/sampleapp/samples/inmobi/')">解説</button> 
+                  <button onclick="GoTo('/ja/sampleapp/samples/admob/')">解説</button> 
               </div>
           </div>
           <div class="column-right">
@@ -492,7 +492,7 @@ Sample Apps & Templates
   twitter
   facebook
   backend_memo
-  inmobi
+  admob
   flickr
   todo
   shinkansen
