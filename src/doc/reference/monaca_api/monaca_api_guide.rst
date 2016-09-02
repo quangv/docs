@@ -4,7 +4,7 @@
 Monaca REST API Guide
 =====================================================================
 
-Monaca REST APIs allow you build a Cordova app. You can also integrate it with other web services. Once integrated, you will be able to use the same features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI <monaca_cli_index>`.
+You build a Cordova app using Monaca REST APIs. Monaca REST APIs can also be integrated with other web services. Once integrated, you will be able to use the same features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI <monaca_cli_index>`.
 
 In this page, we will talk about how to integrate Monaca REST APIs with Node.js projects and their usage.
 
@@ -42,6 +42,15 @@ Monaca REST APIs are wrapped in a npm library called `monaca-lib <https://github
 
 Monaca REST API Usage
 =====================================================================
+
+The supported features for Monaca REST APIs are as follows:
+
+- Sign in / sign out to/from Monaca.
+- Creating a new project.
+- Compile and build the project.
+- Sync with Monaca Cloud project.
+- Transpile local project.
+
 
 
 

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-08-31 09:29+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-01 02:51+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgid ""
 "mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This "
 "sample app is based on a demo on `AdMob Plugin Pro on Github "
 "<https://github.com/floatinghotpot/cordova-admob-pro>`_."
-msgstr "このページでは、`AdMob <https://www.google.com/admob/>`_ ( モバイルアド/携帯端末への広告配信ネットワーク ) の Monaca への組込み方法を解説します。この解説で使用しているサンプルアプリは、`AdMob Plugin Pro ( Github 上 ) <https://github.com/floatinghotpot/cordova-admob-pro>`_ を参考にし、構築しています。"
+msgstr "このページでは、Monaca を使用して、`AdMob <https://www.google.com/admob/>`_ ( モバイルアド/広告ネットワーク ) の実装方法を解説します。この解説で使用しているデモ用アプリは、`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ ( Github 上 ) を参考にし、構築されています。"
 
 #: ../doc/sampleapp/samples/admob.rst:14
 msgid "Banner Ads"
@@ -42,7 +42,7 @@ msgstr "バナー広告 ( 上部 ) とインタースティシャル広告 ( 下
 
 #: ../doc/sampleapp/samples/admob.rst:20
 msgid "Interstitial Ads"
-msgstr "インタースティシャル広告 ( ページの遷移時に表示される広告 ) の表示"
+msgstr "インタースティシャル広告 ( ページの遷移時などに表示される、全画面表示の広告 ) の表示"
 
 #: ../doc/sampleapp/samples/admob.rst:24
 msgid ":download:`Click here to download the project <download/admob.zip>`"
@@ -162,7 +162,7 @@ msgstr "``jQuery``"
 
 #: ../doc/sampleapp/samples/admob.rst:49
 msgid "``Onsen``"
-msgstr ""
+msgstr "``Onsen``"
 
 #: ../doc/sampleapp/samples/admob.rst:53
 #: ../doc/sampleapp/samples/facebook.rst:85
@@ -201,7 +201,7 @@ msgstr "HTML の解説"
 #: ../doc/sampleapp/samples/admob.rst:64
 msgid ""
 "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
-msgstr ""
+msgstr "このデモ用アプリでは、`Onsen UI <https://onsen.io/>`_ を使用して、UI を構築しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:67
 msgid "Startup Page"
@@ -211,7 +211,7 @@ msgstr "起動時のページ"
 msgid ""
 "The following block code represents the UI of the startup page of the "
 "project."
-msgstr "プロジェクトの起動時に表示されるページには、次のコードが使用されています。"
+msgstr "次のコードを使用して、プロジェクトの起動時に表示されるページを構築しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:126
 msgid "Ads Size Dialog"
@@ -267,13 +267,13 @@ msgid ""
 "From the very beginning, we start by initializing ``admobid`` object. The "
 "following block code initializes the object based on the device's platform. "
 "The object contains two tyeps of ads such as banner and interstitial ads."
-msgstr "最初に行う処理は、``admobid`` オブジェクトの初期化です。次のブロックでは、端末のプラットフォーム毎に、広告 ID ( Ad ID/Ad Unit ID ) を指定しています。インタースティシャル広告とバナー広告の 2 種類を、オブジェクトに格納します。"
+msgstr "最初に行う処理は、``admobid`` オブジェクトの初期化です。次に記述されているブロックでは、端末のプラットフォームに応じて、異なる広告ユニット ID ( Ad Unit ID ) を指定しています。いずれの場合でも、インタースティシャル広告とバナー広告の 2 種類を、オブジェクトに格納しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:264
 msgid ""
 "All of these ad unit ids are for testing only. For the ad unit ids, you will"
 " need to register with AdMob and create your own ad unit ids there."
-msgstr "このサンプルで使用している広告 ID ( Ad ID/Ad Unit ID ) は、検証用の ID です。開発者が実際に使用する広告の ID は、別途、AdMob サイトで作成する必要があります。AdMob サイトへ行き、アカウントの登録作業から行います。"
+msgstr "このデモで使用している広告ユニット ID ( Ad Unit ID ) は、検証用の ID です。製品版に使用する広告ユニット ID は、別途、AdMob サイトで作成する必要があります。AdMob サイトへ行き、アカウントの登録作業から行います。"
 
 #: ../doc/sampleapp/samples/admob.rst:267
 msgid "initialization() Function"
@@ -284,7 +284,7 @@ msgid ""
 "Once Cordova and AdMob plugin pro are completely loaded, "
 "``initialization()`` Function will be called. In this function, several "
 "other functions are called such as:"
-msgstr "Cordova と AdMob プラグインの読み込み完了後に、``initialization()`` 関数が呼び出されます。この関数では、次の関数を呼び出しています。"
+msgstr "Cordova と AdMob プラグインの読み込み完了後に、``initialization()`` 関数が呼び出されます。この関数内で、次の関数を呼び出しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:271
 msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
@@ -308,7 +308,7 @@ msgstr "createSelectedBanner() 関数"
 
 #: ../doc/sampleapp/samples/admob.rst:337
 msgid "This function creates an ad based on the configuration."
-msgstr "この関数では、設定情報に基づき、広告を表示します。"
+msgstr "この関数では、設定情報に基づき、広告を表示しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:356
 msgid "showBannerAtPosition() Function"
@@ -316,7 +316,7 @@ msgstr "showBannerAtPosition() 関数"
 
 #: ../doc/sampleapp/samples/admob.rst:358
 msgid "This function shows the ad based on the selected ad's position."
-msgstr "この関数では、選択された表示位置に基づき、広告を表示します。"
+msgstr "この関数では、選択された表示位置に基づき、広告を表示しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:369
 msgid "prepareInt() Function"
@@ -325,7 +325,7 @@ msgstr "prepareInt() 関数"
 #: ../doc/sampleapp/samples/admob.rst:371
 msgid ""
 "This function prepares an interstitial ad and then shows it once it's ready."
-msgstr "この関数では、インタースティシャル広告を読み込み、次に、表示します。"
+msgstr "この関数では、インタースティシャル広告を読み込み、次に、表示しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:384
 msgid "showBannerSize() Function"
@@ -338,7 +338,7 @@ msgid ""
 "size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so "
 "on. For more information, please refer to `Banner Size "
 "<https://firebase.google.com/docs/admob/android/banner>`_."
-msgstr "この関数では、バナーサイズの設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。この設定ダイアログ上では、広告サイズ ( BANNER、SMART_BANNER、MEDIUM_RECTANGLE など ) を選択できます。バナーサイズの詳細は、`こちら <https://firebase.google.com/docs/admob/android/banner>`_ ( 「 Banner Size 」 欄 ) をご確認ください。"
+msgstr "この関数を使用して、バナーサイズの設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。この設定ダイアログ上では、広告サイズ ( BANNER、SMART_BANNER、MEDIUM_RECTANGLE など ) を選択できます。バナーサイズの詳細は、`こちら <https://firebase.google.com/docs/admob/android/banner>`_ ( 「 Banner Size 」 欄 ) をご確認ください。"
 
 #: ../doc/sampleapp/samples/admob.rst:410
 msgid "showBannerPos() Function"
@@ -348,7 +348,7 @@ msgstr "showBannerPos() 関数"
 msgid ""
 "This function shows a Ad's Position dialog (`OnsenUI dialog "
 "<https://onsen.io/v1/reference/ons-dialog.html>`_)."
-msgstr "この関数では、広告の表示位置の設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。"
+msgstr "この関数を使用して、広告の表示位置の設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。"
 
 #: ../doc/sampleapp/samples/age-calc.rst:5
 msgid "BirthYear App"
