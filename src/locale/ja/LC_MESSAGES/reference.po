@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-02 04:40+0000\n"
+"PO-Revision-Date: 2016-09-02 04:58+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -24932,32 +24932,33 @@ msgid ""
 msgstr "Monaca API を有効化して、アクセスするためには、.html ファイル内で、``components/loader.js`` を読み込む必要があります。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:5
-msgid "Monaca REST API Guide"
+msgid "Monaca Cloud & Remote Build API Guide"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:7
 msgid ""
-"You build a Cordova app using Monaca REST APIs. Monaca REST APIs can also be"
-" integrated with other web services. Once integrated, you will be able to "
-"use the same features existed in :ref:`Monaca Cloud IDE <monaca_ide_index>` "
-"or :ref:`Monaca CLI <monaca_cli_index>`."
+"You can build a Cordova app using Monaca Cloud & Remote Build API. It can "
+"also be integrated with other web services. Once integrated, you will be "
+"able to use cloud services and remote build functions as if you are using "
+":ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI "
+"<monaca_cli_index>`."
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
 msgid ""
-"In this page, we will talk about how to integrate Monaca REST APIs with "
-"Node.js projects and their usage."
+"In this page, we will talk about how to integrate Monaca Cloud & Remote "
+"Build API with Node.js projects and its usage."
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:12
-msgid "Integrating Monaca REST API"
+msgid "Integrating Monaca Cloud & Remote Build API"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:14
 msgid ""
-"Monaca REST APIs are wrapped in a npm library called `monaca-lib "
-"<https://github.com/monaca/monaca-lib>`_. In order to use Monaca REST API in"
-" your Node.js project, please do as follows:"
+"Monaca Cloud & Remote Build API is wrapped in a npm library called `monaca-"
+"lib <https://github.com/monaca/monaca-lib>`_. In order to use the APIs in "
+"your Node.js project, please do as follows:"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:16
@@ -24969,15 +24970,18 @@ msgid "Call this module in your js file:"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:28
-msgid "You can now use any Monaca REST APIs in your js file now. For example:"
+msgid ""
+"You can now use any Monaca Cloud & Remote Build API in your js file now. For"
+" example:"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
-msgid "Monaca REST API Usage"
+msgid "Monaca Cloud & Remote Build API Usage"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:46
-msgid "The supported features for Monaca REST APIs are as follows:"
+msgid ""
+"The supported features for Monaca Cloud & Remote Build API are as follows:"
 msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:48
