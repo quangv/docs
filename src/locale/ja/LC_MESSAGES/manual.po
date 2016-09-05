@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-02 10:55+0000\n"
-"Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
+"PO-Revision-Date: 2016-09-05 03:37+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,7 +623,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:212
+#: ../doc/manual/monaca_ci/overview.rst:225
 #: ../doc/manual/monaca_ci/supported_services.rst:111
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -3312,7 +3312,7 @@ msgstr "デバッガーの種類"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:28
 msgid "Monaca Debugger (Store Version)"
-msgstr ""
+msgstr "ストア版 Monaca デバッガー"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:28
 #: ../doc/manual/debugger/installation/debugger_ios.rst:30
@@ -3331,19 +3331,19 @@ msgstr "Monaca クラウド IDE からインストールする Monaca デバッ�
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:32
 msgid "`Play Store`__"
-msgstr ""
+msgstr "`Play Store`__"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:33
 msgid "`Amazon App Store`__"
-msgstr ""
+msgstr "`Amazon App Store`__"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:32
 msgid "Refer to :ref:`custom_debugger_and`"
-msgstr ""
+msgstr ":ref:`custom_debugger_and` を参照のこと"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:35
 msgid ":ref:`cordova_and`"
-msgstr ""
+msgstr ":ref:`cordova_and`"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:35
 #: ../doc/manual/debugger/installation/debugger_ios.rst:36
@@ -3359,7 +3359,7 @@ msgstr "基本 Cordova プラグインおよびサードパーティー製 Cordo
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:38
 msgid "App ID (Android:PackageName)"
-msgstr ""
+msgstr "パッケージ名 ( Android:PackageName )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:38
 #: ../doc/manual/debugger/installation/debugger_ios.rst:39
@@ -3373,11 +3373,11 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:41
 msgid "Version Name (Android:versionName)"
-msgstr ""
+msgstr "アプリのリリース番号 ( 表示用 / Android:versionName )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:41
 msgid "Fixed (currently 6.0.1)"
-msgstr ""
+msgstr "固定 ( 現在は 6.0.1 )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:41
 #: ../doc/manual/debugger/installation/debugger_ios.rst:41
@@ -3386,11 +3386,11 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:44
 msgid "App Version (Android:versionCode)"
-msgstr ""
+msgstr "アプリのビルド番号 ( 内部処理用 / Android:versionCode )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:44
 msgid "Fixed (currently 600012)"
-msgstr ""
+msgstr "固定 ( 現在は 600012 )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:44
 #: ../doc/manual/debugger/installation/debugger_ios.rst:44
@@ -3399,16 +3399,16 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:47
 msgid ":ref:`usb_and`"
-msgstr ""
+msgstr ":ref:`usb_and`"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:47
 #: ../doc/manual/debugger/installation/debugger_android.rst:47
 msgid "Available (Chrome Dev Tools)"
-msgstr ""
+msgstr "利用可 ( Chrome DevTools )"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:49
 msgid ":ref:`localkit_and`"
-msgstr ""
+msgstr ":ref:`localkit_and`"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:49
 #: ../doc/manual/debugger/installation/debugger_android.rst:49
@@ -3421,16 +3421,16 @@ msgstr "可"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:51
 msgid ":ref:`webview_and`"
-msgstr ""
+msgstr ":ref:`webview_and`"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:51
 #: ../doc/manual/debugger/installation/debugger_android.rst:51
 msgid "Stock and Crosswalk"
-msgstr ""
+msgstr "Stock と Crosswalk"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:53
 msgid ":ref:`network_and`"
-msgstr ""
+msgstr ":ref:`network_and`"
 
 #: ../doc/manual/debugger/installation/debugger_android.rst:67
 #: ../doc/manual/debugger/installation/debugger_ios.rst:63
@@ -6501,7 +6501,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:18
 msgid ":ref:`monaca_transpile`"
-msgstr ""
+msgstr ":ref:`monaca_transpile`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:18
 msgid "Transpiles project source code."
@@ -6525,7 +6525,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid ":ref:`monaca_reconfigure`"
-msgstr ""
+msgstr ":ref:`monaca_reconfigure`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid "Generates default project configurations."
@@ -6735,7 +6735,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:145
 msgid ":dfn:`$ monaca upload [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca upload [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:153
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:187
@@ -6796,7 +6796,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:180
 msgid ":dfn:`$ monaca download [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca download [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:184
 msgid "Deletes those files locally which do not exist in Monaca Cloud."
@@ -6884,7 +6884,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:243
 msgid ":dfn:`$ monaca transpile [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca transpile [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:249
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:283
@@ -6896,7 +6896,7 @@ msgstr "オプション"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:247
 msgid "``--generate-config``"
-msgstr ""
+msgstr "``--generate-config``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:247
 msgid ""
@@ -6906,7 +6906,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "``--install-dependencies``"
-msgstr ""
+msgstr "``--install-dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "Installs the missing dependencies needed for transpiling."
@@ -6939,7 +6939,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:277
 msgid ":dfn:`$ monaca preview [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca preview [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:281
 msgid "``--port``, ``-p``"
@@ -6994,7 +6994,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:315
 msgid ":dfn:`$ monaca debug [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca debug [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:319
 msgid "``paths``"
@@ -7042,7 +7042,7 @@ msgstr "``monaca debug`` の処理を停止する場合には、:guilabel:`Ctrl+
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:360
 msgid "monaca reconfigure"
-msgstr ""
+msgstr "monaca reconfigure"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:362
 msgid ""
@@ -7052,11 +7052,11 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:364
 msgid ":dfn:`$ monaca reconfigure [options]`"
-msgstr ""
+msgstr ":dfn:`$ monaca reconfigure [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:368
 msgid "``--transpile``"
-msgstr ""
+msgstr "``--transpile``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:368
 msgid "Generates transpile configuration files (for both dev and prod)."
@@ -7064,7 +7064,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "``--dependencies``"
-msgstr ""
+msgstr "``--dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "Installs required build dependencies."
@@ -7072,7 +7072,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "``--components``"
-msgstr ""
+msgstr "``--components``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "Generates ``components`` folder."
@@ -10612,14 +10612,14 @@ msgid ""
 "Monaca CI will automate its job by reading the JSON recipe script. In other "
 "words, you will need to configure the JSON settings according to what you "
 "want Monaca CI to do for you."
-msgstr ""
+msgstr "Monaca CI では、JSON のレシピ ( アプリの設定に使用する、JSON のフィールドとその値の集まり ) を使用して、処理を自動化しています。よって、行う処理は、JSON 形式で指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:13
 #: ../doc/manual/monaca_ci/overview.rst:132
 msgid ""
 "In the following table, there are necessary parameters you will need to use "
 "in the recipe script."
-msgstr ""
+msgstr "レシピで使用するパラメーターは、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
 #: ../doc/manual/monaca_ci/overview.rst:135
@@ -10733,7 +10733,7 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ":ref:`monaca_ci_overview`"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:214
+#: ../doc/manual/monaca_ci/overview.rst:227
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ":ref:`supported_services`"
@@ -10761,33 +10761,33 @@ msgstr ""
 msgid ""
 "In order to use Monaca CI, you will need to integrate GitHub with your "
 "Monaca account. If you haven't done it, please follow the instruction below:"
-msgstr ""
+msgstr "Monaca CI を使用する前に、Monaca アカウントと GitHub を連携させる必要があります。連携手順は、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/overview.rst:20
 msgid ""
 "Link your Monaca account to GitHub. Please refer to "
 ":ref:`github_integration`."
-msgstr ""
+msgstr "Monaca アカウントと GitHub を連携させます。詳細は、:ref:`github_integration` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/overview.rst:21
 msgid ""
 "Connect your project to your GitHub repository. Please refer to "
 ":ref:`version_control_configuration`."
-msgstr ""
+msgstr "GitHub レポジトリとプロジェクトを接続させます。詳細は、:ref:`version_control_configuration` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/overview.rst:23
 msgid "In order to use Monaca CI, Cordova 6.2 or higher is required."
-msgstr ""
+msgstr "Monaca CI のご利用には、Cordova の 6.2 以上が必要です。"
 
 #: ../doc/manual/monaca_ci/overview.rst:27
 msgid "Getting Started with Monaca CI"
-msgstr ""
+msgstr "Monaca CI の使用方法"
 
 #: ../doc/manual/monaca_ci/overview.rst:29
 msgid ""
 "Assuming you have successfully linked a GitHub repository to your project, "
 "you are now ready to enable Monaca CI. Please do as follows:"
-msgstr ""
+msgstr "次の手順に従い、Monaca CI を使用します。GitHub レポジトリとプロジェクトとの接続が完了していることを前提に、ここでは解説をします"
 
 #: ../doc/manual/monaca_ci/overview.rst:31
 msgid ""
@@ -10818,13 +10818,13 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:63
 msgid "Automating Deploy Services"
-msgstr ""
+msgstr "配信/配布サービスの自動化"
 
 #: ../doc/manual/monaca_ci/overview.rst:65
 msgid ""
 "You can also automate your app distribution process with Monaca CI. In order"
 " to do this, please do as follows:"
-msgstr ""
+msgstr "Monaca CI を使用すれば、アプリの配信/配布処理を自動化することもできます。自動化の方法は、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/overview.rst:67
 msgid ""
@@ -10884,11 +10884,11 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161
 msgid ""
-"Here is an example of a recipe script configured for a deploy service with 2"
-" aliases."
+"Here is an example of a recipe script configured for multiple deploy "
+"services and one service with multiple aliases."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:215
+#: ../doc/manual/monaca_ci/overview.rst:228
 #: ../doc/manual/monaca_ci/supported_services.rst:114
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"
@@ -10896,11 +10896,11 @@ msgstr ":ref:`json_sample`"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:5
 msgid "Deploy Services"
-msgstr "配信支援サービス"
+msgstr "検証版アプリなどの配信/配布支援サービス"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:8
 msgid "Currently Supported Deploy Services"
-msgstr "サポートしている配信支援サービス"
+msgstr "サポートしている支援サービス"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:11
 msgid "DeployGate"
@@ -10912,7 +10912,7 @@ msgid ""
 "development iOS and Android apps, allowing developers to seamlessly progress"
 " through the prototyping, development, testing, and marketing stages of app "
 "distribution."
-msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。プロトタイプ、開発、検証、マーケティングなど、さまざまな段階におけるアプリの配信作業を、滞りなく行うことができます。"
+msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) におけるアプリの配信作業を、滞りなく行うことができます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:16
 msgid ""
@@ -10968,7 +10968,7 @@ msgstr "``distribution_key``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:29
 msgid "[Optional] Target Distribution Key"
-msgstr "[ 任意 ] 「 配布キー 」 ( Distribution Key ) を設定します。配布キーとは、「 配布ページ 」 を指す URL 内の hash 値です ( たとえば、https://deploygate.com/distributions/[ 配布キー ] )。また、配布ページとは、配布対象者向けに作成する、アプリのダウンロード用のページです。配布ページの作成は、deplogate サイト上から行えます。"
+msgstr "[ 任意 ] 「 配布キー 」 ( Distribution Key ) を設定します。配布キーとは、「 配布ページ 」 を指し示す URL 内の hash 値です ( たとえば、https://deploygate.com/distributions/[ 配布キー ] )。また、配布ページとは、配布対象者向けに作成された、アプリのダウンロード用のページです。配布ページの作成は、deploygate サイト上から行えます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 msgid "``release_note``"
@@ -10986,7 +10986,7 @@ msgstr "``disable_notify``"
 msgid ""
 "[Optional](``iOS only``) If you set yes as a value, disable notify via "
 "email."
-msgstr "[ 任意 ](``iOS 専用``) yes を設定した場合、email での通知を行いません。"
+msgstr "[ 任意 ] (``iOS 専用``) yes を設定した場合、email での通知を行いません。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:35
 msgid "``visibility``"
@@ -11072,7 +11072,7 @@ msgstr "``notify``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:67
 msgid "[Optional] notify testers (can only be set with full-access tokens):"
-msgstr "[ 任意 ] テスターへ通知します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの API 解説 「 API: Basics and Authentication 」 をご確認ください。"
+msgstr "[ 任意 ] テスターへ通知します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの [ \nAPI Token ] 項目をご確認ください。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:69
 msgid "``0`` to not notify testers"
@@ -11080,7 +11080,7 @@ msgstr "テスターに通知しない場合には、``0`` を指定します。
 
 #: ../doc/manual/monaca_ci/supported_services.rst:70
 msgid "``1`` to notify all testers that can install this app"
-msgstr ""
+msgstr "アプリのインストールを許可するテスターだけに通知する場合には、``1`` を指定します。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:71
 msgid "``2`` to notify all testers"
@@ -11108,7 +11108,7 @@ msgstr "``tags``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:78
 msgid "[Optional] restrict download to comma-separated list of tags"
-msgstr ""
+msgstr "[ 任意 ] ダウンロードを行えるユーザーを絞り込みます [ Tags ( 文字列 ) を指定します。Tags を複数指定する場合は、カンマで区切ります ]。 [ 翻訳者メモ : Tags = ユーザーカテゴリーです ]"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:80
 msgid "``teams``"
@@ -11118,12 +11118,12 @@ msgstr "``teams``"
 msgid ""
 "[Optional] restrict download to comma-separated list of team IDs. For "
 "example:"
-msgstr ""
+msgstr "[ 任意 ] ダウンロードを行えるチームを絞り込みます ( Team ID を指定します。Team ID を複数指定する場合は、カンマで区切ります )。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:82
 msgid ""
 "``teams=12,23,42`` with 12, 23, and 42 being the database IDs of your teams"
-msgstr ""
+msgstr "たとえば、``teams=12,23,42`` のように指定します。数値は、Team ID です。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:84
 msgid "``users``"
@@ -11133,12 +11133,12 @@ msgstr "``users``"
 msgid ""
 "[Optional] restrict download to comma-separated list of user IDs. For "
 "example:"
-msgstr ""
+msgstr "[ 任意 ] ダウンロードを行えるユーザーを絞り込みます ( User ID を指定します。User ID を複数指定する場合は、カンマで区切ります )。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:86
 msgid ""
 "``users=1224,5678`` with 1224 and 5678 being the database IDs of your users"
-msgstr ""
+msgstr "たとえば、``users=1224,5678`` のように指定します。数値は、User ID です。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:88
 msgid "``mandatory``"
@@ -11146,7 +11146,7 @@ msgstr "``mandatory``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:88
 msgid "[Optional] set version as mandatory:"
-msgstr ""
+msgstr "[ 任意 ] 対象バージョンのインストールを、必須または任意にするか指定します。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:90
 msgid "``0`` for not mandatory"
@@ -11174,21 +11174,21 @@ msgstr "ベータ版の場合、``0`` を設定します ( デフォルト )。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:97
 msgid "``1`` for store"
-msgstr "ストア用の場合、``1`` を設定します。"
+msgstr "ストア版の場合、``1`` を設定します。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:98
 msgid "``3`` for enterprise"
-msgstr "エンタープライズ用の場合、``3`` を設定します。"
+msgstr "エンタープライズ版の場合、``3`` を設定します。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:102
 msgid "Upcoming Supported Deploy Services"
-msgstr "サポート予定の配信支援サービス"
+msgstr "サポート予定の支援サービス"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:104
 msgid ""
 "In addition to the above services, we are planning to add more deployment "
 "services. Currently, we are working the following services:"
-msgstr "上述のサービス以外にも、今後、配信支援サービスを追加していく予定です。"
+msgstr "上述のサービス以外にも、今後、配信/配布支援サービスを追加していく予定です。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:106
 msgid "`Test Flight <https://developer.apple.com/testflight/>`_"

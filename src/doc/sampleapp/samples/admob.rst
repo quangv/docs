@@ -24,6 +24,34 @@ In this page, we will show how to integrate Monaca with the most common mobile a
 :download:`Click here to download the project <download/admob.zip>`
 
 
+Prerequisite
+=========================
+
+In this demo, we are using AdMob's ad unit ids for testing only. If you want to use the ads with your real application, you are required to register your application with AdMob.
+
+In order to register your application with AdMob, please do as follows:
+
+1. Sign up with `AdMob <https://apps.admob.com>`_.
+
+2. Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button.
+
+3. Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:
+
+  .. figure:: images/admob/8.png
+      :width: 700px
+      :align: left
+
+  .. rst-class:: clear
+
+
+
+  .. figure:: images/admob/9.png
+      :width: 630px
+      :align: left
+
+  .. rst-class:: clear
+
+
 File Components
 =========================
 
@@ -42,7 +70,7 @@ File Components
 ======================== =====================================================================================================================================
 
 Required JS/CSS Components 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 ============================ ============================
 ``jQuery``
@@ -50,7 +78,7 @@ Required JS/CSS Components
 ============================ ============================
 
 Required Cordova Plugins
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 ================================================================================ =================
 `AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_
@@ -238,7 +266,7 @@ In this section, we will explain some important functions (in ``app.js`` file) u
 admobid Object
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two tyeps of ads such as banner and interstitial ads. 
+From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two types of ads such as banner and interstitial ads. 
 
 .. code-block:: javascript
 

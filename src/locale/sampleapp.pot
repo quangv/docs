@@ -8,6 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-05 15:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +41,34 @@ msgid ":download:`Click here to download the project <download/admob.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:28
+#: ../doc/sampleapp/samples/backend_memo.rst:25
+#: ../doc/sampleapp/samples/facebook.rst:25
+#: ../doc/sampleapp/samples/ibeacon.rst:29
+#: ../doc/sampleapp/samples/twitter.rst:25
+msgid "Prerequisite"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:30
+msgid "In this demo, we are using AdMob's ad unit ids for testing only. If you want to use the ads with your real application, you are required to register your application with AdMob."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:32
+msgid "In order to register your application with AdMob, please do as follows:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:34
+msgid "Sign up with `AdMob <https://apps.admob.com>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:36
+msgid "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:44
+msgid "Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:54
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
@@ -61,7 +90,7 @@ msgstr ""
 msgid "File Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:37
+#: ../doc/sampleapp/samples/admob.rst:63
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
@@ -83,13 +112,13 @@ msgstr ""
 msgid "``index.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:37
+#: ../doc/sampleapp/samples/admob.rst:63
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/todo.rst:32
 msgid "The startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:39
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
 #: ../doc/sampleapp/samples/facebook.rst:71
@@ -99,11 +128,11 @@ msgstr ""
 msgid "``js/app.js``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:39
+#: ../doc/sampleapp/samples/admob.rst:65
 msgid "JavaScript file handling app execution."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:41
+#: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/age-calc.rst:37
 #: ../doc/sampleapp/samples/break_the_bricks.rst:38
 #: ../doc/sampleapp/samples/clock.rst:38
@@ -116,12 +145,12 @@ msgstr ""
 msgid "``css/style.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:41
+#: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/twitter.rst:59
 msgid "A stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:45
+#: ../doc/sampleapp/samples/admob.rst:71
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
@@ -140,7 +169,7 @@ msgstr ""
 msgid "Required JS/CSS Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:48
+#: ../doc/sampleapp/samples/admob.rst:74
 #: ../doc/sampleapp/samples/age-calc.rst:44
 #: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/flickr.rst:43
@@ -151,11 +180,11 @@ msgstr ""
 msgid "``jQuery``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:49
+#: ../doc/sampleapp/samples/admob.rst:75
 msgid "``Onsen``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:53
+#: ../doc/sampleapp/samples/admob.rst:79
 #: ../doc/sampleapp/samples/facebook.rst:85
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
@@ -163,11 +192,11 @@ msgstr ""
 msgid "Required Cordova Plugins"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:56
+#: ../doc/sampleapp/samples/admob.rst:82
 msgid "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:62
+#: ../doc/sampleapp/samples/admob.rst:88
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
@@ -188,35 +217,35 @@ msgstr ""
 msgid "HTML Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:64
+#: ../doc/sampleapp/samples/admob.rst:90
 msgid "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:67
+#: ../doc/sampleapp/samples/admob.rst:93
 msgid "Startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:69
+#: ../doc/sampleapp/samples/admob.rst:95
 msgid "The following block code represents the UI of the startup page of the project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:126
+#: ../doc/sampleapp/samples/admob.rst:152
 msgid "Ads Size Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:128
+#: ../doc/sampleapp/samples/admob.rst:154
 msgid "The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:174
+#: ../doc/sampleapp/samples/admob.rst:200
 msgid "Ads Position Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:176
+#: ../doc/sampleapp/samples/admob.rst:202
 msgid "The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:234
+#: ../doc/sampleapp/samples/admob.rst:260
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
@@ -233,79 +262,79 @@ msgstr ""
 msgid "JavaScript Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:236
+#: ../doc/sampleapp/samples/admob.rst:262
 msgid "In this section, we will explain some important functions (in ``app.js`` file) used in this sample app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:239
+#: ../doc/sampleapp/samples/admob.rst:265
 msgid "admobid Object"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:241
-msgid "From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two tyeps of ads such as banner and interstitial ads."
+#: ../doc/sampleapp/samples/admob.rst:267
+msgid "From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two types of ads such as banner and interstitial ads."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:264
+#: ../doc/sampleapp/samples/admob.rst:290
 msgid "All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:267
+#: ../doc/sampleapp/samples/admob.rst:293
 msgid "initialization() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:269
+#: ../doc/sampleapp/samples/admob.rst:295
 msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:271
+#: ../doc/sampleapp/samples/admob.rst:297
 msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:272
+#: ../doc/sampleapp/samples/admob.rst:298
 msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:273
+#: ../doc/sampleapp/samples/admob.rst:299
 msgid "``onAdFailLoad`` event handler: displaying error information when the ad is failed to load."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:335
+#: ../doc/sampleapp/samples/admob.rst:361
 msgid "createSelectedBanner() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:337
+#: ../doc/sampleapp/samples/admob.rst:363
 msgid "This function creates an ad based on the configuration."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:356
+#: ../doc/sampleapp/samples/admob.rst:382
 msgid "showBannerAtPosition() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:358
+#: ../doc/sampleapp/samples/admob.rst:384
 msgid "This function shows the ad based on the selected ad's position."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:369
+#: ../doc/sampleapp/samples/admob.rst:395
 msgid "prepareInt() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:371
+#: ../doc/sampleapp/samples/admob.rst:397
 msgid "This function prepares an interstitial ad and then shows it once it's ready."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:384
+#: ../doc/sampleapp/samples/admob.rst:410
 msgid "showBannerSize() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:386
+#: ../doc/sampleapp/samples/admob.rst:412
 msgid "This function shows a Banner Size dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so on. For more information, please refer to `Banner Size <https://firebase.google.com/docs/admob/android/banner>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:410
+#: ../doc/sampleapp/samples/admob.rst:436
 msgid "showBannerPos() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:412
+#: ../doc/sampleapp/samples/admob.rst:438
 msgid "This function shows a Ad's Position dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_)."
 msgstr ""
 
@@ -378,13 +407,6 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:22
 msgid ":download:`Click here to download the project <download/backend_memo.zip>`"
-msgstr ""
-
-#: ../doc/sampleapp/samples/backend_memo.rst:25
-#: ../doc/sampleapp/samples/facebook.rst:25
-#: ../doc/sampleapp/samples/ibeacon.rst:29
-#: ../doc/sampleapp/samples/twitter.rst:25
-msgid "Prerequisite"
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:27

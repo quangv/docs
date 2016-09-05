@@ -8,6 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-05 15:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -497,7 +498,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:212
+#: ../doc/manual/monaca_ci/overview.rst:225
 #: ../doc/manual/monaca_ci/supported_services.rst:111
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -8691,7 +8692,7 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:214
+#: ../doc/manual/monaca_ci/overview.rst:227
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
@@ -8789,10 +8790,10 @@ msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161
-msgid "Here is an example of a recipe script configured for a deploy service with 2 aliases."
+msgid "Here is an example of a recipe script configured for multiple deploy services and one service with multiple aliases."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:215
+#: ../doc/manual/monaca_ci/overview.rst:228
 #: ../doc/manual/monaca_ci/supported_services.rst:114
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"

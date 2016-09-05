@@ -158,7 +158,7 @@ In the following table, there are necessary parameters you will need to use in t
 Example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Here is an example of a recipe script configured for a deploy service with 2 aliases.
+Here is an example of a recipe script configured for multiple deploy services and one service with multiple aliases.
 
 .. code-block:: javascript
 
@@ -179,6 +179,19 @@ Here is an example of a recipe script configured for a deploy service with 2 ali
                 {
                     "type": "DeployGate",
                     "alias": "Internal-Focus-Group",
+                    "default": {
+                        "foo": "bar"
+                    },
+                    "ios": {
+                        "foo": "bar"
+                    },
+                    "android": {
+                        "foo": "bar"
+                    }
+                },
+                {
+                    "type": "DeployGate",
+                    "alias": "External-Focus-Group",
                     "default": {
                         "foo": "bar"
                     },

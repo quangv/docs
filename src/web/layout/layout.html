@@ -11,9 +11,6 @@
         <title>Monaca Docs - Cloud-powered Cordova Dev Platform</title>
     {{/if}}
 
-    <script src="/static/js/tooltip.js"></script>
-    <link rel="stylesheet" href="/static/css/tooltip.css" type="text/css" />
-
     <script src="/static/js/jquery.min.js"></script>
     <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
@@ -24,6 +21,8 @@
     <link rel="stylesheet" href="/static/css/highlight.css?20150406" type="text/css" />
     <link rel="stylesheet" href="/static/css/print.css?20150406" type="text/css" media="print" />
     <link rel="stylesheet" href="/static/css/spinner.css" type="text/css" />
+
+    <link rel="stylesheet" href="/static/css/feedback.css" type="text/css" />
 
     <!--[if lt IE 9]>
     <script type="text/javascript" src="/static/js/html5shiv.js"></script>
@@ -103,56 +102,72 @@
     {{/if}}
 
     <!-- FEEDBACK DIALOG -->
+
+    <div id="FeedbackModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">×</span>
+                <h3>Monaca Documentation Feedback</h3>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post">
+                    <table width= "100%">
+                        <tr>
+                            <td width="45%">
+                                <h4>How helpful is this document?</h4>
+                                <div id="star_group" role="radiogroup" aria-required="true">
+                                    <label> 
+                                        <input type="radio" name="helped" value="1" /> Very helpful
+                                    </label><br />
+                                    <label> 
+                                        <input type="radio" name="helped" value="2" /> Somewhat helpful
+                                    </label><br />
+                                    <label>
+                                        <input type="radio" name="helped" value="3" /> Not helpful
+                                    </label><br />
+                                </div>
+                            </td>
+                            <td width="55%">
+                                <h4>How can we improve this document?</h4>
+                                <div id="improve">
+                                    <label>
+                                        <input type="checkbox" name="typo" /> Fix typos or links
+                                    </label><br />
+                                    <label>
+                                        <input type="checkbox" name="infoIncorrect" /> Fix incorrect information
+                                    </label><br />
+                                    <label>
+                                        <input type="checkbox" name="needs_examples" /> Add or update code samples
+                                    </label><br />
+                                    <label>
+                                        <input type="checkbox" name="needs_art" /> Add or update screenshots/figures
+                                    </label><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center">
+                                <br />
+                                <textarea id="comment" rows="4" placeholder="Please tell us more about your experience with our document" data-asterisk="a2" required></textarea><br />
+                                <input style="background-color: #5d89cb" type="submit" value="Submit" />
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+
+</script>
+
+
 	<div style="display:none;">
 	    <div id="demo3_tip">
-	        <form action="" method="post">
-	        	<table width="50%">
-	        		<tr>
-						<td>
-							<h4>How helpful is this document?</h4>
-				        	<div id="star_group" role="radiogroup" aria-required="true">
-				                <label> 
-				                    <input class="radio" type="radio" name="helped" value="1" /> Very helpful
-				                </label><br />
-				                <label> 
-				                    <input class="radio" type="radio" name="helped" value="2" /> Somewhat helpful
-				                </label><br />
-				                <label>
-				                    <input class="radio" type="radio" name="helped" value="3" /> Not helpful
-				                </label><br />
-				            </div>
-						</td>
-						<td>
-							<h4>How can we improve this document?</h4>
-				            <div id="improve">
-				                <label>
-				                    <input type="checkbox" name="typo" /> Fix typos or links
-				                </label><br />
-				                <label>
-				                    <input type="checkbox" name="infoIncorrect" /> Fix incorrect information
-				                </label><br />
-				                <label>
-				                    <input type="checkbox" name="needs_examples" /> Add or update code samples
-				                </label><br />
-				                <label>
-				                    <input type="checkbox" name="needs_art" /> Add or update illustrations
-				                </label><br />
-				            </div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2">
-							<br />
-							<textarea id="comment" name="problem" cols="70" rows="8" placeholder="Please tell us more about your experience with this document" data-asterisk="a2" required></textarea>
-						</td>
-					</tr>
-	        	</table>
-	        	
-
-	            
-	            <input type="submit" value="Submit" />
-	            <input type="button" value="Cancel" onclick="tooltip.hide()" />
-	        </form>
+	        
 	    </div>
 	</div>
 
@@ -161,13 +176,13 @@
     <footer class="global">
         <div class="footer-nav">
             {{#is lang "ja"}}
-                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
+                <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
                 <!-- <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a> -->
-                <a id="footer-nav-feedback" href="#" onclick="tooltip.pop(this, '#demo3_tip', {overlay:true, position:4}); return false;">Feedback</a>
+                <a id="footer-nav-feedback" href="#" onclick="">Feedback</a>
             {{else}}
-                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
+                <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
                 <!-- <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a> -->
-                <a id="footer-nav-feedback" href="#" onclick="tooltip.pop(this, '#demo3_tip', {overlay:true, position:4}); return false;">Feedback</a>
+                <a id="footer-nav-feedback" href="#" onclick="">Feedback</a>
             {{/is}}
         </div>
         <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
@@ -183,6 +198,23 @@
         }
         if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
             document.body.classList.add("home");
+        }
+
+        //Feedback Dialog
+        var modal = document.getElementById('FeedbackModal');
+        var btn = document.getElementById("footer-nav-feedback");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
         }
     </script>
 
