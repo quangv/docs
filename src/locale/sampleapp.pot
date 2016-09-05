@@ -70,7 +70,11 @@ msgstr ""
 msgid "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button."
 msgstr ""
 
+<<<<<<< HEAD
 #: ../doc/sampleapp/samples/admob.rst:46
+=======
+#: ../doc/sampleapp/samples/admob.rst:38
+>>>>>>> 6670f7264f27a213256e886acad39f9ab1db0c3e
 msgid "Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
 msgstr ""
 
@@ -190,7 +194,11 @@ msgid "``Onsen``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:81
+<<<<<<< HEAD
 #: ../doc/sampleapp/samples/facebook.rst:80
+=======
+#: ../doc/sampleapp/samples/facebook.rst:85
+>>>>>>> 6670f7264f27a213256e886acad39f9ab1db0c3e
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
 #: ../doc/sampleapp/samples/twitter.rst:73
@@ -223,12 +231,18 @@ msgid "HTML Explanation"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:92
+<<<<<<< HEAD
 #: ../doc/sampleapp/samples/facebook.rst:90
+=======
+>>>>>>> 6670f7264f27a213256e886acad39f9ab1db0c3e
 msgid "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:95
+<<<<<<< HEAD
 #: ../doc/sampleapp/samples/facebook.rst:93
+=======
+>>>>>>> 6670f7264f27a213256e886acad39f9ab1db0c3e
 msgid "Startup Page"
 msgstr ""
 
