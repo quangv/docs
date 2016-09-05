@@ -72,13 +72,13 @@ msgstr ""
 msgid "Sign up with `AdMob <https://apps.admob.com>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:35
+#: ../doc/sampleapp/samples/admob.rst:36
 msgid ""
 "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` "
 "button."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:43
+#: ../doc/sampleapp/samples/admob.rst:38
 msgid ""
 "Then, fill in the necessary information such your app name, platform and "
 "type of ads. After completed, your will get an ad id for each ad unit. You "
@@ -86,7 +86,7 @@ msgid ""
 "example:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:53
+#: ../doc/sampleapp/samples/admob.rst:56
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
@@ -108,7 +108,7 @@ msgstr ""
 msgid "File Components"
 msgstr "ファイル構成"
 
-#: ../doc/sampleapp/samples/admob.rst:62
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
@@ -130,13 +130,13 @@ msgstr "ファイル構成"
 msgid "``index.html``"
 msgstr "``index.html``"
 
-#: ../doc/sampleapp/samples/admob.rst:62
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/todo.rst:32
 msgid "The startup Page"
 msgstr "スタート画面のページ"
 
-#: ../doc/sampleapp/samples/admob.rst:64
+#: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
 #: ../doc/sampleapp/samples/facebook.rst:71
@@ -146,11 +146,11 @@ msgstr "スタート画面のページ"
 msgid "``js/app.js``"
 msgstr "``js/app.js``"
 
-#: ../doc/sampleapp/samples/admob.rst:64
+#: ../doc/sampleapp/samples/admob.rst:67
 msgid "JavaScript file handling app execution."
 msgstr "アプリの実行時にさまざまな処理を行う  JavaScript ファイル"
 
-#: ../doc/sampleapp/samples/admob.rst:66
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/age-calc.rst:37
 #: ../doc/sampleapp/samples/break_the_bricks.rst:38
 #: ../doc/sampleapp/samples/clock.rst:38
@@ -163,12 +163,12 @@ msgstr "アプリの実行時にさまざまな処理を行う  JavaScript フ�
 msgid "``css/style.css``"
 msgstr "``css/style.css``"
 
-#: ../doc/sampleapp/samples/admob.rst:66
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/twitter.rst:59
 msgid "A stylesheet file for the application"
 msgstr "アプリのスタイルシート"
 
-#: ../doc/sampleapp/samples/admob.rst:70
+#: ../doc/sampleapp/samples/admob.rst:73
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
@@ -187,7 +187,7 @@ msgstr "アプリのスタイルシート"
 msgid "Required JS/CSS Components"
 msgstr "必要な JS/CSS コンポーネント"
 
-#: ../doc/sampleapp/samples/admob.rst:73
+#: ../doc/sampleapp/samples/admob.rst:76
 #: ../doc/sampleapp/samples/age-calc.rst:44
 #: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/flickr.rst:43
@@ -198,11 +198,11 @@ msgstr "必要な JS/CSS コンポーネント"
 msgid "``jQuery``"
 msgstr "``jQuery``"
 
-#: ../doc/sampleapp/samples/admob.rst:74
+#: ../doc/sampleapp/samples/admob.rst:77
 msgid "``Onsen``"
 msgstr "``Onsen``"
 
-#: ../doc/sampleapp/samples/admob.rst:78
+#: ../doc/sampleapp/samples/admob.rst:81
 #: ../doc/sampleapp/samples/facebook.rst:85
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
@@ -210,12 +210,12 @@ msgstr "``Onsen``"
 msgid "Required Cordova Plugins"
 msgstr "必要な Cordova プラグイン"
 
-#: ../doc/sampleapp/samples/admob.rst:81
+#: ../doc/sampleapp/samples/admob.rst:84
 msgid ""
 "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
 msgstr "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
 
-#: ../doc/sampleapp/samples/admob.rst:87
+#: ../doc/sampleapp/samples/admob.rst:90
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
@@ -236,44 +236,44 @@ msgstr "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`
 msgid "HTML Explanation"
 msgstr "HTML の解説"
 
-#: ../doc/sampleapp/samples/admob.rst:89
+#: ../doc/sampleapp/samples/admob.rst:92
 msgid ""
 "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
 msgstr "このデモ用アプリでは、`Onsen UI <https://onsen.io/>`_ を使用して、UI を構築しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:92
+#: ../doc/sampleapp/samples/admob.rst:95
 msgid "Startup Page"
 msgstr "起動時のページ"
 
-#: ../doc/sampleapp/samples/admob.rst:94
+#: ../doc/sampleapp/samples/admob.rst:97
 msgid ""
 "The following block code represents the UI of the startup page of the "
 "project."
 msgstr "次のコードを使用して、プロジェクトの起動時に表示されるページを構築しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:151
+#: ../doc/sampleapp/samples/admob.rst:154
 msgid "Ads Size Dialog"
 msgstr "広告サイズの設定ダイアログ"
 
-#: ../doc/sampleapp/samples/admob.rst:153
+#: ../doc/sampleapp/samples/admob.rst:156
 msgid ""
 "The following block code represents the Ads Size dialog allowing users to "
 "select various types of AdMob's ads size such as ``SMART_BANNER``, "
 "``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
 msgstr "広告サイズの設定ダイアログの表示には、次のコードが使用されています。このダイアログ上では、AdMob の広告サイズ ( ``SMART_BANNER``、``MEDIUM_RECTANGLE``、``FULL_BANNER`` など ) を選択できます。"
 
-#: ../doc/sampleapp/samples/admob.rst:199
+#: ../doc/sampleapp/samples/admob.rst:202
 msgid "Ads Position Dialog"
 msgstr "広告の表示位置の設定ダイアログ"
 
-#: ../doc/sampleapp/samples/admob.rst:201
+#: ../doc/sampleapp/samples/admob.rst:204
 msgid ""
 "The following block code represents the Ads Position dialog allowing users "
 "to select various positions to place the ads such as ``TOP_LEFT``, "
 "``CENTER``, ``BOTTOM_RIGHT`` and so on."
 msgstr "広告の表示位置の設定ダイアログには、次のコードが使用されています。このダイアログ上では、広告の表示位置 (  ``TOP_LEFT``、``CENTER``、``BOTTOM_RIGHT`` など ) を選択できます。"
 
-#: ../doc/sampleapp/samples/admob.rst:259
+#: ../doc/sampleapp/samples/admob.rst:262
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
@@ -290,86 +290,86 @@ msgstr "広告の表示位置の設定ダイアログには、次のコードが
 msgid "JavaScript Explanation"
 msgstr "JavaScript の解説"
 
-#: ../doc/sampleapp/samples/admob.rst:261
+#: ../doc/sampleapp/samples/admob.rst:264
 msgid ""
 "In this section, we will explain some important functions (in ``app.js`` "
 "file) used in this sample app."
 msgstr "ここでは、``app.js`` ファイル内に記述されている、主な関数を解説します。"
 
-#: ../doc/sampleapp/samples/admob.rst:264
+#: ../doc/sampleapp/samples/admob.rst:267
 msgid "admobid Object"
 msgstr "admobid オブジェクト"
 
-#: ../doc/sampleapp/samples/admob.rst:266
+#: ../doc/sampleapp/samples/admob.rst:269
 msgid ""
 "From the very beginning, we start by initializing ``admobid`` object. The "
 "following block code initializes the object based on the device's platform. "
 "The object contains two types of ads such as banner and interstitial ads."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:289
+#: ../doc/sampleapp/samples/admob.rst:292
 msgid ""
 "All of these ad unit ids are for testing only. For the ad unit ids, you will"
 " need to register with AdMob and create your own ad unit ids there."
 msgstr "このデモで使用している広告ユニット ID ( Ad Unit ID ) は、検証用の ID です。製品版に使用する広告ユニット ID は、別途、AdMob サイトで作成する必要があります。その場合には、AdMob サイトへ行き、アカウントの登録作業から行ってください。"
 
-#: ../doc/sampleapp/samples/admob.rst:292
+#: ../doc/sampleapp/samples/admob.rst:295
 msgid "initialization() Function"
 msgstr "initialization() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:294
+#: ../doc/sampleapp/samples/admob.rst:297
 msgid ""
 "Once Cordova and AdMob plugin pro are completely loaded, "
 "``initialization()`` Function will be called. In this function, several "
 "other functions are called such as:"
 msgstr "Cordova と AdMob プラグインの読み込み完了後に、``initialization()`` 関数が呼び出されます。この関数内では、次の関数を呼び出しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:296
+#: ../doc/sampleapp/samples/admob.rst:299
 msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
 msgstr "``AdMob.getAdSettings()``: 広告の設定情報へアクセスします。"
 
-#: ../doc/sampleapp/samples/admob.rst:297
+#: ../doc/sampleapp/samples/admob.rst:300
 msgid ""
 "``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor"
 " and so on."
 msgstr "``AdMob.setOptions()``: 広告の表示設定 ( 表示位置、背景色など ) を行います。"
 
-#: ../doc/sampleapp/samples/admob.rst:298
+#: ../doc/sampleapp/samples/admob.rst:301
 msgid ""
 "``onAdFailLoad`` event handler: displaying error information when the ad is "
 "failed to load."
 msgstr "``onAdFailLoad`` イベントハンドラー: 広告の読み込み失敗時、エラーの詳細を表示します。"
 
-#: ../doc/sampleapp/samples/admob.rst:360
+#: ../doc/sampleapp/samples/admob.rst:363
 msgid "createSelectedBanner() Function"
 msgstr "createSelectedBanner() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:362
+#: ../doc/sampleapp/samples/admob.rst:365
 msgid "This function creates an ad based on the configuration."
 msgstr "この関数では、設定情報に基づき、広告を表示しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:381
+#: ../doc/sampleapp/samples/admob.rst:384
 msgid "showBannerAtPosition() Function"
 msgstr "showBannerAtPosition() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:383
+#: ../doc/sampleapp/samples/admob.rst:386
 msgid "This function shows the ad based on the selected ad's position."
 msgstr "この関数では、選択された表示位置に基づき、広告を表示しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:394
+#: ../doc/sampleapp/samples/admob.rst:397
 msgid "prepareInt() Function"
 msgstr "prepareInt() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:396
+#: ../doc/sampleapp/samples/admob.rst:399
 msgid ""
 "This function prepares an interstitial ad and then shows it once it's ready."
 msgstr "この関数では、インタースティシャル広告を読み込み、次に、表示しています。"
 
-#: ../doc/sampleapp/samples/admob.rst:409
+#: ../doc/sampleapp/samples/admob.rst:412
 msgid "showBannerSize() Function"
 msgstr "showBannerSize() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:411
+#: ../doc/sampleapp/samples/admob.rst:414
 msgid ""
 "This function shows a Banner Size dialog (`OnsenUI dialog "
 "<https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads "
@@ -378,11 +378,11 @@ msgid ""
 "<https://firebase.google.com/docs/admob/android/banner>`_."
 msgstr "この関数を使用して、バナーサイズの設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。この設定ダイアログ上では、広告サイズ ( BANNER、SMART_BANNER、MEDIUM_RECTANGLE など ) を選択できます。バナーサイズの詳細は、`こちら <https://firebase.google.com/docs/admob/android/banner>`_ ( 「 Banner Size 」 欄 ) をご確認ください。"
 
-#: ../doc/sampleapp/samples/admob.rst:435
+#: ../doc/sampleapp/samples/admob.rst:438
 msgid "showBannerPos() Function"
 msgstr "showBannerPos() 関数"
 
-#: ../doc/sampleapp/samples/admob.rst:437
+#: ../doc/sampleapp/samples/admob.rst:440
 msgid ""
 "This function shows a Ad's Position dialog (`OnsenUI dialog "
 "<https://onsen.io/v1/reference/ons-dialog.html>`_)."
