@@ -1,23 +1,27 @@
 .. _monaca_with_facebook:
 
 ============================================
-Facebook Client
+Facebook Demo
 ============================================
 
-.. rst-class:: right-menu
+This is a sample app created in Monaca to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_. wser.
 
 
-This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser.
+| *Tested Environments:* Android 6.2, iOS 9.3.5
 
+  .. figure:: images/facebook/5.png
+     :width: 346px
+     :align: left
+     
+     Banner Ads
 
-| *Tested Environments:* Android 4.3, iOS 7.1.1
+  .. figure:: images/facebook/7.png
+     :width: 346px
+     :align: left
+     
+     Interstitial Ads
 
-.. raw:: html
-
-  <div class="iframe-samples">
-    <iframe src="https://monaca.github.io/project-templates/15-facebook-client/www/index.html" style="max-width: 150%;"></iframe>
-  </div>
-
+  .. rst-class:: clear
 
 :download:`Click here to download the project <download/facebook.zip>`
 
@@ -53,33 +57,24 @@ You are required to have *App ID/App Key* and *App Secret* by registering your M
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/facebook/facebook_5.png
-    :width: 200px
+.. image:: images/facebook/8.png
+    :width: 209px
     :align: center
 
-======================== ===================================================================================================================================== 
-``index.html``             Startup Page (Consists of Connect Screen)
+======================== ================================================================================
+``index.html``             Startup page
 
-``home_navigator.html``    Navigate to Connect Screen
-
-``connect.html``           Connect Screen
-
-``profile.html``           Facebook User Profile Screen
-
-``list.html``              Friends List Screen
-
-``js/app.js``              JavaScript file handling app interactions.
+``js/app.js``              JavaScript file handling app execution
 
 ``styles/app.css``         Stylesheet file for the application
-======================== =====================================================================================================================================
+======================== ================================================================================
 
 Required JS/CSS Components 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-============================ ============================
-``jQuery``
-``Onsen UI``
-============================ ============================
+========================================= ============================
+``Onsen UI (AngularJS is included)``
+========================================= ============================
 
 Required Cordova Plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -92,276 +87,154 @@ Required Cordova Plugins
 HTML Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_.
+In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app. 
 
-The following contents of the HTML body of :file:`index.html` file loads the :file:`home_navigator.html` file at startup: 
+Startup Page
+====================
 
-.. code-block:: xml
+The following block code represents the UI of the startup page of the project (see the screenshot below).
 
-  ...
-    <ons-screen page="home_navigator.html"></ons-screen>   
-  ...
+.. code-block:: HTML
 
+    ...
+    <ons-page ng-controller="HomeCtrl" ng-init="login_status=0">
+        <ons-toolbar>
+            <div class="center">Facebook Demo</div>
+            <div class="right" ng-show="login_status">
+                <ons-button modifier="quiet" ng-click="Logout();">Log Out</ons-button>
+            </div>
+        </ons-toolbar>
 
-The following contents of the HTML body of :file:`home_navigator.html` file will direct to the :file:`connect.html` file which is the Connect Screen: 
+        <div style="text-align: center; margin:10px">
+            <p>A sample application to log into Facebook using Graph API.</p>
+            <ons-button ng-click="ConnectToFB()" ng-hide="login_status">
+                Connect
+            </ons-button>
+            </div>
+            ...
+        </div>
+    </ons-page>  
+    ...
 
-.. code-block:: xml
-
-  ...
-    <ons-navigator title="Sample App" page="connect.html"></ons-navigator>
-  ...
-
-
-The following contents of the HTML body of :file:`connect.html` file:
-
-.. code-block:: xml
-
-  ...
-    <div class="page center" ng-controller="Connect_Ctrl">
-      <div style="font-size: 3rem; font-weight: bold;">Welcome to Facebook!</div>
-      <br/><br/>
-      <ons-button type="cta" ng-click="connect()">Connect</ons-button>
-    </div>
-  ...
-
-corresponds to the screenshot below which allows a user to connect to Facebook:
-
-.. figure:: images/facebook/facebook_1.png
-   :width: 300px
+.. figure:: images/facebook/5.png
+   :width: 346px
    :align: center
+     
+    Startup Page
+
+.. rst-class:: clear
 
 
-The following contents of the HTML body of :file:`profile.html` file: 
+Friend List page
+====================
 
-.. code-block:: xml
+The following block code will show the friend list if the user is successfully loged in. (see the screenshot below).
 
-  ...
-    <div class="page center" ng-controller="Profile_Ctrl">
-      <h3>Currently logged in as:</h3>
-      <h1>{{user_name}}</h1>
-      <br/>
-      <img width="100px" src='{{profile_pic}}'/>
-      <br/><br/><br/>
-      <ons-button type="cta" ng-click="ons.navigator.pushPage('list.html', 'Friends List')">Show Friend List</ons-button>
-    </div>
-  ...
+.. code-block:: HTML
 
-corresponds to the screenshot below which shows the user's basic info and profile picture if the authentication is successful. When the :guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is shown:
-
-.. figure:: images/facebook/facebook_2.png
-   :width: 270px
-   :align: center
-
-
-The following contents of the HTML body of :file:`list.html` file: 
-
-.. code-block:: xml
-
-  ...
-    <div class="page center" ng-controller="List_Ctrl">
-        <ons-list align="left">
-        <p align="center">Showing 20 of {{len}} friends.</p>
-            <ons-list-item style="padding-left:10%" ng-repeat="friend in friends">
-                <img src='{{friend.pic_src}}'/><span style="padding-left:5%">{{friend.name}}</span>
+    ...
+    <div ng-show="login_status">
+        <p  style="padding-left: 10px">Now showing 20 of {{friends.length}} friends:</p>
+    
+        <ons-list modifier="inset">
+            <ons-list-item ng-repeat="friend in friends | limitTo : 20">
+                <ons-row>
+                    <ons-col class="col-style" width="30%">
+                        <img src="{{friend.picture.data.url}}" class="profile-pic">
+                    </ons-col>
+                    <ons-col class="col-style" width="70%">
+                        <p>{{friend.name}}</p>
+                    </ons-col>
+                </ons-row>
             </ons-list-item>
         </ons-list>
-    </div>
-  ...
+    </div> 
+    ...
 
-corresponds to the screenshot below which shows the friends list of the authenticated user:
-
-.. figure:: images/facebook/facebook_3.png
-   :width: 270px
+.. figure:: images/facebook/7.png
+   :width: 346px
    :align: center
+     
+    Startup Page
 
+.. rst-class:: clear
 
 JavaScript Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The logic behind this app is based on *Graph API* and *InAppBrowser*. The `Graph API <https://developers.facebook.com/docs/reference/api/>`_ is the primary way that data is retrieved from Facebook or posted on Facebook. We use *InAppBrowser* to open a Facebook authentication page inside our app. This prevents opening of an external browser.
+In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`inappbrower_plugin`.
+The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside our app. This prevents the opening of an external browser.
 
-The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 3 controller functions: :envvar:`Connect_Ctrl`, :envvar:`Profile_Ctrl` and :envvar:`List_Ctrl` correspond to :file:`connect.html` page, :file:`profile.html` page and :file:`list.html` page, respectively. In order to create global vairables used between these controller functions, you need to create a service function to store those global variables as follows:
+.. figure:: images/facebook/6.png
+   :width: 346px
+   :align: center
+     
+    Startup Page
+
+.. rst-class:: clear
+
+
+We use AngularJS in our code execution. In this app we only have one controller called ``HomeCtrl``. This controller will handle the login, logout and retrieve friend list from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret.
 
 .. code-block:: javascript
 
   ...
-    app.service('sharedProperties', function () 
-    {
-      var property;
+      app.controller('HomeCtrl', function($scope, $http) {
+      console.log('home');
+      var friendsList={};
+      var login_accessToken;
+      var accessToken;
       
-      return {
-        getProperty: function () 
-        {
-          return property;
-        },
-        setProperty: function(value) 
-        {
-          property = value;
-        }
-      };
-    });
-  ...
+      $scope.Logout = function(){
+          console.log(login_accessToken);
+          var url = "https://www.facebook.com/logout.php?access_token=" + login_accessToken + "&next='https://www.google.com'";
+          var ref = window.open(url, '_blank', 'location=yes,clearsessioncache=yes,clearcache=yes,hidden=yes');
+          
+          $http.get(url).success(function(data){
+             $scope.login_status = 0;
+          });
+      }
 
-Inside this service function, we are able to get and set the value of the ``property`` variable which is a JSON object. This variale contains various variables needed to use between different pages.
-
-
-Next, we will explain each controller function:
-
-Connect_Ctrl
-====================
-
-:envvar:`Connect_Ctrl` controls the interactions and processes in :file:`connect.html` file. In other words, it handles the Facebook authentication process. In order to run this function, you will need to fill in your API Key, App Secret and a valid callback URL. Below is the JavaScript code of this function:
-
-.. code-block:: javascript
-
-  ...
-  function Connect_Ctrl($scope, sharedProperties)
-  {
-    $scope.connect = function() 
-    {
-      var client_id = 'xxxxxxxxxxxxxxxx'; //YOUR App ID or API Key
-      var client_secret = 'xxxxxxxxxxxxxxxx'; //// YOUR App Secret
-      var redirect_uri = 'http://www.facebook.com/connect/login_success.html';  //// YOUR CALLBACK URL
-      var display = 'touch';
-      var authorize_url = "https://graph.facebook.com/oauth/authorize?";
+      $scope.ConnectToFB = function(){
+          console.log('connect');
+          var client_id = 'XXXXXXXXXXXXXXXX'; //your App ID or API Key
+          var client_secret = 'XXXXXXXXXXXXXXXXXXXX'; //// your App Secret
+          var redirect_uri = 'https://www.facebook.com/connect/login_success.html';  //// YOUR CALLBACK URL
+          var display = 'touch';
+          var authorize_url = "https://graph.facebook.com/v2.0/oauth/authorize?";
           authorize_url += "client_id=" + client_id;
           authorize_url += "&redirect_uri=" + redirect_uri;
           authorize_url += "&display=" + display;
-          authorize_url += "&scope=publish_stream,offline_access";
+          authorize_url += "&scope=public_profile,email";
           
-      var ref = window.open(authorize_url, '_blank', 'location=yes');
-      ref.addEventListener('loadstart', function(event) 
-      { 
-        var loc = event.url;
-        if(loc.indexOf(redirect_uri + "?") >= 0) 
-        {
-          var result = loc.split("#")[0];
-          var accessToken = result.split("&")[0].split("=")[1];
-
-          var url = 'https://graph.facebook.com/oauth/access_token?';
-              url += 'client_id=' + client_id;
-              url += '&client_secret=' + client_secret;
-              url += '&code=' + accessToken;
-              url += '&redirect_uri=' + redirect_uri;
-
-          var req = new XMLHttpRequest();
-          req.open("post",url,true);
-          req.send(null);
-          req.onerror = function(){alert("Fail to get access token!");};
-          req.onload = function(evt) 
-          {
-            var temp = evt.target.responseText.split('&')[0].split('=')[1];
-            accessToken = temp;
-                  
-            url = 'https://graph.facebook.com/me?fields=name,picture&access_token=' + accessToken;
-            req = new XMLHttpRequest();
-            req.open("get",url,true);
-            req.send(null);
-            req.onerror = function(){alert("Fail to get the information of the authenticated user!");};
-            req.onload = function(evt) 
-            {
-              var json = jQuery.parseJSON(evt.target.responseText);
-              var info_obj = new Object();
-              info_obj.name = json.name;
-              info_obj.profile = json.picture.data.url;
-              
-              url = "https://graph.facebook.com/me/friends?access_token=" + accessToken;
-              req = new XMLHttpRequest();
-              req.open("get",url,true);
-              req.send(null);
-              req.onerror = function(){alert("Error");};
-              req.onload = function(evt)
+          var ref = window.open(authorize_url, '_blank', 'location=yes');
+          ref.addEventListener('loadstart', function(event)
+          { 
+              var loc = event.url;
+              if(loc.indexOf(redirect_uri + "?") >= 0)
               {
-                var json = jQuery.parseJSON(evt.target.responseText);
-                info_obj.friends_list = json;  
-                //alert(JSON.stringify(json));
-                var info_json = JSON.stringify(info_obj);
-                sharedProperties.setProperty(info_json);
-                ref.close();
-                $scope.ons.navigator.pushPage('profile.html','Facebook Profile'); 
-                $scope.$apply();
-              };                  
-            }  
-          } 
-        }
-      });
-    };
-  }
-  ...
-
-Inside this controller, there is :envvar:`connect` function which leads user through Facebook authentication. This function is called when the :guilabel:`Connect` button is pressed. In order to gain access to Facebook, the :envvar:`Connect()` function needs to open a Facebook authentication page first (as shown below) via a *InAppBrowser* using :envvar:`window.open()` function.
-
-.. figure:: images/facebook/fb_login.png
-   :width: 270px
-   :align: center
-
-After the user inputs his/her login information and presses :guilabel:`Log in` button, the app redirects to your callback URL. From the callback URL, Facebook code can be found. Then, an ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``"https://graph.facebook.com/oauth/access_token?..."`` in order to get access token.
-
-If the request is successful, another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``"https://graph.facebook.com/me?..."`` in order to get some information of the authenticated user, in this case, ``Name`` and ``Profile picture URL``.  
-
-Next, if the request is successful, the retrieved info will then be stored in a JSON object (``info_obj``) for later use and another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``"https://graph.facebook.com/me/friends?..."`` in order to get a list of friends of the authenticated user. If the request is successful, the retrieved data (in JSON format) of friends list will also be stored in the ``info_obj`` and updates into the global variable (``property``) inside ``sharedProperties`` service for using between controllers (pages).
-
-Then, finally, the app redirects to :file:`profile.html` page.
-
-
-Profile_Ctrl
-=================
-
-:envvar:`Profile_Ctrl` controls the interactions and processes in the :file:`profile.html` file. In other words, it displays the retrieved data after a successful authentication. Below is the JavaScript code of this function:
-
-.. code-block:: javascript
-
-  ...
-    function Profile_Ctrl($scope, sharedProperties)
-    {
-      var content = jQuery.parseJSON(sharedProperties.getProperty());
-      $scope.user_name = content.name;
-      $scope.profile_pic = content.profile;
-    }
-  ...
-
-This controller contains the assigment of some variables with the necessary data from the global variable inside the ``sharedProperties`` service.
-
-List_Ctrl
-=================
-
-:envvar:`List_Ctrl` controls the interactions and processes in the :file:`list.html` file. In other words, it displays the retrieved data of friends list of the authenticated user. Below is the JavaScript code of this function:
-
-.. code-block:: javascript
-
-  ...
-    function List_Ctrl($scope, sharedProperties)
-    {
-
-      var get_list = function()
-      {
-        setTimeout(function(){
-           var content = jQuery.parseJSON(sharedProperties.getProperty());
-          var friends = content.friends_list.data;
-          var len = friends.length;
-          $scope.len = len;
+                  ref.close();
+                  var result = loc.split("#")[0];
+                  console.log(loc);
+                  login_accessToken = result.split("&")[0].split("=")[1];
+                  
+                  var url = 'https://graph.facebook.com/v2.0/oauth/access_token?';
+                      url += 'client_id=' + client_id;
+                      url += '&client_secret=' + client_secret;
+                      url += '&code=' + login_accessToken;
+                      url += '&redirect_uri=' + redirect_uri;
           
-          len = 20;
-          var tmp = new Array()
-          var profile_pic;
-          for(var i=0;i<len;i++)
-          {
-            profile_pic = "https://graph.facebook.com/"+ friends[i].id +"/picture";
-            
-            friends[i].pic_src = profile_pic;
-            tmp[i] = friends[i];
-           
-          }
-          
-          $scope.friends = tmp;
-          $scope.$apply();
-        }, 0);
-
-      };
-
-      get_list();
-    }
-  ...
-
-Inside this controller, there is :envvar:`get_list()` function which displays the list of friends retrieved from global variable (``property``) of the ``sharedProperties`` service.
+                  $http.post(url,null).success(function(data){
+                      accessToken = data.split("&")[0].split("=")[1];
+                      console.log(accessToken);
+                      url = "https://graph.facebook.com/v2.0/me/taggable_friends?access_token=" + accessToken;
+                      $http.get(url).success(function(data){
+                          $scope.friends = data.data;
+                          $scope.login_status = 1;
+                      });
+                  });
+              }
+          });
+      } 
+  });
 

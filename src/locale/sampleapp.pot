@@ -8,7 +8,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-05 15:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,52 +27,59 @@ msgstr ""
 msgid "In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:14
+#: ../doc/sampleapp/samples/admob.rst:10
+#: ../doc/sampleapp/samples/facebook.rst:10
+msgid "*Tested Environments:* Android 6.2, iOS 9.3.5"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:16
+#: ../doc/sampleapp/samples/facebook.rst:16
 msgid "Banner Ads"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:20
+#: ../doc/sampleapp/samples/admob.rst:22
+#: ../doc/sampleapp/samples/facebook.rst:22
 msgid "Interstitial Ads"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:24
+#: ../doc/sampleapp/samples/admob.rst:26
 msgid ":download:`Click here to download the project <download/admob.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:28
+#: ../doc/sampleapp/samples/admob.rst:30
 #: ../doc/sampleapp/samples/backend_memo.rst:25
-#: ../doc/sampleapp/samples/facebook.rst:25
+#: ../doc/sampleapp/samples/facebook.rst:29
 #: ../doc/sampleapp/samples/ibeacon.rst:29
 #: ../doc/sampleapp/samples/twitter.rst:25
 msgid "Prerequisite"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:30
+#: ../doc/sampleapp/samples/admob.rst:32
 msgid "In this demo, we are using AdMob's ad unit ids for testing only. If you want to use the ads with your real application, you are required to register your application with AdMob."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:32
+#: ../doc/sampleapp/samples/admob.rst:34
 msgid "In order to register your application with AdMob, please do as follows:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:34
+#: ../doc/sampleapp/samples/admob.rst:36
 msgid "Sign up with `AdMob <https://apps.admob.com>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:36
+#: ../doc/sampleapp/samples/admob.rst:38
 msgid "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:44
+#: ../doc/sampleapp/samples/admob.rst:46
 msgid "Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:54
+#: ../doc/sampleapp/samples/admob.rst:56
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
 #: ../doc/sampleapp/samples/clock.rst:27
-#: ../doc/sampleapp/samples/facebook.rst:54
+#: ../doc/sampleapp/samples/facebook.rst:58
 #: ../doc/sampleapp/samples/flickr.rst:24
 #: ../doc/sampleapp/samples/hello_world.rst:26
 #: ../doc/sampleapp/samples/ibeacon.rst:41
@@ -90,12 +96,12 @@ msgstr ""
 msgid "File Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:63
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 #: ../doc/sampleapp/samples/clock.rst:34
-#: ../doc/sampleapp/samples/facebook.rst:61
+#: ../doc/sampleapp/samples/facebook.rst:65
 #: ../doc/sampleapp/samples/flickr.rst:31
 #: ../doc/sampleapp/samples/hello_world.rst:34
 #: ../doc/sampleapp/samples/ibeacon.rst:48
@@ -112,27 +118,27 @@ msgstr ""
 msgid "``index.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:63
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/todo.rst:32
 msgid "The startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:65
+#: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
-#: ../doc/sampleapp/samples/facebook.rst:71
+#: ../doc/sampleapp/samples/facebook.rst:67
 #: ../doc/sampleapp/samples/ibeacon.rst:54
 #: ../doc/sampleapp/samples/memo_application.rst:37
 #: ../doc/sampleapp/samples/todo.rst:34
 msgid "``js/app.js``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:65
+#: ../doc/sampleapp/samples/admob.rst:67
 msgid "JavaScript file handling app execution."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:67
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/age-calc.rst:37
 #: ../doc/sampleapp/samples/break_the_bricks.rst:38
 #: ../doc/sampleapp/samples/clock.rst:38
@@ -145,16 +151,16 @@ msgstr ""
 msgid "``css/style.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:67
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/twitter.rst:59
 msgid "A stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:71
+#: ../doc/sampleapp/samples/admob.rst:73
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
-#: ../doc/sampleapp/samples/facebook.rst:77
+#: ../doc/sampleapp/samples/facebook.rst:73
 #: ../doc/sampleapp/samples/flickr.rst:40
 #: ../doc/sampleapp/samples/hello_world.rst:48
 #: ../doc/sampleapp/samples/ibeacon.rst:60
@@ -169,9 +175,8 @@ msgstr ""
 msgid "Required JS/CSS Components"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:74
+#: ../doc/sampleapp/samples/admob.rst:76
 #: ../doc/sampleapp/samples/age-calc.rst:44
-#: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/flickr.rst:43
 #: ../doc/sampleapp/samples/hello_world.rst:51
 #: ../doc/sampleapp/samples/memo_application.rst:44
@@ -180,27 +185,27 @@ msgstr ""
 msgid "``jQuery``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:75
+#: ../doc/sampleapp/samples/admob.rst:77
 msgid "``Onsen``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:79
-#: ../doc/sampleapp/samples/facebook.rst:85
+#: ../doc/sampleapp/samples/admob.rst:81
+#: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
 #: ../doc/sampleapp/samples/twitter.rst:73
 msgid "Required Cordova Plugins"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:82
+#: ../doc/sampleapp/samples/admob.rst:84
 msgid "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:88
+#: ../doc/sampleapp/samples/admob.rst:90
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
-#: ../doc/sampleapp/samples/facebook.rst:93
+#: ../doc/sampleapp/samples/facebook.rst:88
 #: ../doc/sampleapp/samples/flickr.rst:47
 #: ../doc/sampleapp/samples/hello_world.rst:56
 #: ../doc/sampleapp/samples/ibeacon.rst:76
@@ -217,39 +222,41 @@ msgstr ""
 msgid "HTML Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:90
+#: ../doc/sampleapp/samples/admob.rst:92
+#: ../doc/sampleapp/samples/facebook.rst:90
 msgid "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:93
+#: ../doc/sampleapp/samples/admob.rst:95
+#: ../doc/sampleapp/samples/facebook.rst:93
 msgid "Startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:95
+#: ../doc/sampleapp/samples/admob.rst:97
 msgid "The following block code represents the UI of the startup page of the project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:152
+#: ../doc/sampleapp/samples/admob.rst:154
 msgid "Ads Size Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:154
+#: ../doc/sampleapp/samples/admob.rst:156
 msgid "The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:200
+#: ../doc/sampleapp/samples/admob.rst:202
 msgid "Ads Position Dialog"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:202
+#: ../doc/sampleapp/samples/admob.rst:204
 msgid "The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:260
+#: ../doc/sampleapp/samples/admob.rst:262
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
-#: ../doc/sampleapp/samples/facebook.rst:179
+#: ../doc/sampleapp/samples/facebook.rst:163
 #: ../doc/sampleapp/samples/flickr.rst:66
 #: ../doc/sampleapp/samples/hello_world.rst:99
 #: ../doc/sampleapp/samples/ibeacon.rst:157
@@ -262,79 +269,79 @@ msgstr ""
 msgid "JavaScript Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:262
+#: ../doc/sampleapp/samples/admob.rst:264
 msgid "In this section, we will explain some important functions (in ``app.js`` file) used in this sample app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:265
+#: ../doc/sampleapp/samples/admob.rst:267
 msgid "admobid Object"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:267
+#: ../doc/sampleapp/samples/admob.rst:269
 msgid "From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two types of ads such as banner and interstitial ads."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:290
+#: ../doc/sampleapp/samples/admob.rst:292
 msgid "All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:293
+#: ../doc/sampleapp/samples/admob.rst:295
 msgid "initialization() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:295
+#: ../doc/sampleapp/samples/admob.rst:297
 msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:297
+#: ../doc/sampleapp/samples/admob.rst:299
 msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:298
+#: ../doc/sampleapp/samples/admob.rst:300
 msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:299
+#: ../doc/sampleapp/samples/admob.rst:301
 msgid "``onAdFailLoad`` event handler: displaying error information when the ad is failed to load."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:361
+#: ../doc/sampleapp/samples/admob.rst:363
 msgid "createSelectedBanner() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:363
+#: ../doc/sampleapp/samples/admob.rst:365
 msgid "This function creates an ad based on the configuration."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:382
+#: ../doc/sampleapp/samples/admob.rst:384
 msgid "showBannerAtPosition() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:384
+#: ../doc/sampleapp/samples/admob.rst:386
 msgid "This function shows the ad based on the selected ad's position."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:395
+#: ../doc/sampleapp/samples/admob.rst:397
 msgid "prepareInt() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:397
+#: ../doc/sampleapp/samples/admob.rst:399
 msgid "This function prepares an interstitial ad and then shows it once it's ready."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:410
+#: ../doc/sampleapp/samples/admob.rst:412
 msgid "showBannerSize() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:412
+#: ../doc/sampleapp/samples/admob.rst:414
 msgid "This function shows a Banner Size dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so on. For more information, please refer to `Banner Size <https://firebase.google.com/docs/admob/android/banner>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:436
+#: ../doc/sampleapp/samples/admob.rst:438
 msgid "showBannerPos() Function"
 msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:438
+#: ../doc/sampleapp/samples/admob.rst:440
 msgid "This function shows a Ad's Position dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_)."
 msgstr ""
 
@@ -701,218 +708,90 @@ msgid "The ``clock()`` function is used to display the current date and time. Fi
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:5
-msgid "Facebook Client"
+msgid "Facebook Demo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:10
-msgid "This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
+#: ../doc/sampleapp/samples/facebook.rst:7
+msgid "This is a sample app created in Monaca to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_. wser."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:13
-#: ../doc/sampleapp/samples/twitter.rst:13
-msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:22
+#: ../doc/sampleapp/samples/facebook.rst:26
 msgid ":download:`Click here to download the project <download/facebook.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:27
+#: ../doc/sampleapp/samples/facebook.rst:31
 msgid "You are required to have *App ID/App Key* and *App Secret* by registering your Monaca app with Facebook Developer:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:29
+#: ../doc/sampleapp/samples/facebook.rst:33
 msgid "Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin with Facebook account. If you don't have one, please signup."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:31
+#: ../doc/sampleapp/samples/facebook.rst:35
 msgid "Go to :guilabel:`Apps > Create a New App`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:36
+#: ../doc/sampleapp/samples/facebook.rst:40
 msgid "Fill in the display name and choose a category of your app. Then, click :guilabel:`Create App` button."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:41
+#: ../doc/sampleapp/samples/facebook.rst:45
 msgid "For security purpose, you will be asked to input some code. Click :guilabel:`Submit` button after input the shown code properly."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:46
+#: ../doc/sampleapp/samples/facebook.rst:50
 msgid "After a successful registration, a similar screen shown below will appear. You can see the App ID and App Secret here. You will need them later."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:61
-#: ../doc/sampleapp/samples/ibeacon.rst:48
-msgid "Startup Page (Consists of Connect Screen)"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:63
-msgid "``home_navigator.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:63
-msgid "Navigate to Connect Screen"
-msgstr ""
-
 #: ../doc/sampleapp/samples/facebook.rst:65
-msgid "``connect.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:65
-msgid "Connect Screen"
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
+msgid "Startup page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:67
-msgid "``profile.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:67
-msgid "Facebook User Profile Screen"
+msgid "JavaScript file handling app execution"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:69
-msgid "``list.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:69
-msgid "Friends List Screen"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:71
-#: ../doc/sampleapp/samples/ibeacon.rst:54
-msgid "JavaScript file handling app interactions."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:73
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:38
 msgid "``styles/app.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:73
+#: ../doc/sampleapp/samples/facebook.rst:69
 #: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:81
-#: ../doc/sampleapp/samples/ibeacon.rst:63
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
-msgid "``Onsen UI``"
+#: ../doc/sampleapp/samples/facebook.rst:76
+msgid "``Onsen UI (AngularJS is included)``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:88
+#: ../doc/sampleapp/samples/facebook.rst:83
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:57
 #: ../doc/sampleapp/samples/twitter.rst:76
 msgid "``InAppBrowser``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:95
-#: ../doc/sampleapp/samples/ibeacon.rst:78
-msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
+msgid "The following block code represents the UI of the startup page of the project (see the screenshot below)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:97
-msgid "The following contents of the HTML body of :file:`index.html` file loads the :file:`home_navigator.html` file at startup:"
+#: ../doc/sampleapp/samples/facebook.rst:129
+msgid "Friend List page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:106
-msgid "The following contents of the HTML body of :file:`home_navigator.html` file will direct to the :file:`connect.html` file which is the Connect Screen:"
+#: ../doc/sampleapp/samples/facebook.rst:131
+msgid "The following block code will show the friend list if the user is successfully loged in. (see the screenshot below)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:115
-msgid "The following contents of the HTML body of :file:`connect.html` file:"
+#: ../doc/sampleapp/samples/facebook.rst:165
+msgid "In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`inappbrower_plugin`. The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside our app. This prevents the opening of an external browser."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:127
-msgid "corresponds to the screenshot below which allows a user to connect to Facebook:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:134
-msgid "The following contents of the HTML body of :file:`profile.html` file:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:149
-msgid "corresponds to the screenshot below which shows the user's basic info and profile picture if the authentication is successful. When the :guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is shown:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:156
-msgid "The following contents of the HTML body of :file:`list.html` file:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:171
-msgid "corresponds to the screenshot below which shows the friends list of the authenticated user:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:181
-msgid "The logic behind this app is based on *Graph API* and *InAppBrowser*. The `Graph API <https://developers.facebook.com/docs/reference/api/>`_ is the primary way that data is retrieved from Facebook or posted on Facebook. We use *InAppBrowser* to open a Facebook authentication page inside our app. This prevents opening of an external browser."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:183
-msgid "The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 3 controller functions: :envvar:`Connect_Ctrl`, :envvar:`Profile_Ctrl` and :envvar:`List_Ctrl` correspond to :file:`connect.html` page, :file:`profile.html` page and :file:`list.html` page, respectively. In order to create global vairables used between these controller functions, you need to create a service function to store those global variables as follows:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:205
-msgid "Inside this service function, we are able to get and set the value of the ``property`` variable which is a JSON object. This variale contains various variables needed to use between different pages."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:208
-#: ../doc/sampleapp/samples/ibeacon.rst:248
-msgid "Next, we will explain each controller function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:211
-msgid "Connect_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:213
-msgid ":envvar:`Connect_Ctrl` controls the interactions and processes in :file:`connect.html` file. In other words, it handles the Facebook authentication process. In order to run this function, you will need to fill in your API Key, App Secret and a valid callback URL. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:292
-msgid "Inside this controller, there is :envvar:`connect` function which leads user through Facebook authentication. This function is called when the :guilabel:`Connect` button is pressed. In order to gain access to Facebook, the :envvar:`Connect()` function needs to open a Facebook authentication page first (as shown below) via a *InAppBrowser* using :envvar:`window.open()` function."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:298
-msgid "After the user inputs his/her login information and presses :guilabel:`Log in` button, the app redirects to your callback URL. From the callback URL, Facebook code can be found. Then, an ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/oauth/access_token?...\"`` in order to get access token."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:300
-msgid "If the request is successful, another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me?...\"`` in order to get some information of the authenticated user, in this case, ``Name`` and ``Profile picture URL``."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:302
-msgid "Next, if the request is successful, the retrieved info will then be stored in a JSON object (``info_obj``) for later use and another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me/friends?...\"`` in order to get a list of friends of the authenticated user. If the request is successful, the retrieved data (in JSON format) of friends list will also be stored in the ``info_obj`` and updates into the global variable (``property``) inside ``sharedProperties`` service for using between controllers (pages)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:304
-msgid "Then, finally, the app redirects to :file:`profile.html` page."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:308
-msgid "Profile_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:310
-msgid ":envvar:`Profile_Ctrl` controls the interactions and processes in the :file:`profile.html` file. In other words, it displays the retrieved data after a successful authentication. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:323
-msgid "This controller contains the assigment of some variables with the necessary data from the global variable inside the ``sharedProperties`` service."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:326
-msgid "List_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:328
-msgid ":envvar:`List_Ctrl` controls the interactions and processes in the :file:`list.html` file. In other words, it displays the retrieved data of friends list of the authenticated user. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:366
-msgid "Inside this controller, there is :envvar:`get_list()` function which displays the list of friends retrieved from global variable (``property``) of the ``sharedProperties`` service."
+#: ../doc/sampleapp/samples/facebook.rst:177
+msgid "We use AngularJS in our code execution. In this app we only have one controller called ``HomeCtrl``. This controller will handle the login, logout and retrieve friend list from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret."
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:5
@@ -1218,6 +1097,10 @@ msgstr ""
 msgid "Take note of the UUID of each iBeacon device."
 msgstr ""
 
+#: ../doc/sampleapp/samples/ibeacon.rst:48
+msgid "Startup Page (Consists of Connect Screen)"
+msgstr ""
+
 #: ../doc/sampleapp/samples/ibeacon.rst:50
 msgid "``top_page.html``"
 msgstr ""
@@ -1234,12 +1117,27 @@ msgstr ""
 msgid "The page showing information of each iBeacon"
 msgstr ""
 
+#: ../doc/sampleapp/samples/ibeacon.rst:54
+msgid "JavaScript file handling app interactions."
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:63
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
+msgid "``Onsen UI``"
+msgstr ""
+
 #: ../doc/sampleapp/samples/ibeacon.rst:70
 msgid "`Proximity Beacon Plugin <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_"
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:71
 msgid "``Bluetooth``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:78
+msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:80
@@ -1276,6 +1174,10 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:245
 msgid "create a function to search for iBeacon devices nearby and retrieve the UUID of the closest iBeacon devices."
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:248
+msgid "Next, we will explain each controller function:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:251
@@ -1664,10 +1566,6 @@ msgstr ""
 msgid ":download:`Click here to download the project <download/onsen_ui_sliding_menu.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
-msgid "Startup page"
-msgstr ""
-
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
 msgid "``menu.html``"
 msgstr ""
@@ -1970,6 +1868,10 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:10
 msgid "This sample app is showing the Twitter Timeline of a specifice user. It allows user to connect to Twitter from Monaca app by using `OAuth protocol <https://dev.twitter.com/docs/auth/oauth>`_ and InAppBrowser. If you want to use other APIs, please refer `Twitter Documentation <https://dev.twitter.com/docs>`_ ."
+msgstr ""
+
+#: ../doc/sampleapp/samples/twitter.rst:13
+msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
 msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:22

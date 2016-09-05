@@ -7,6 +7,8 @@ AdMob Demo
 
 In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_.
 
+| *Tested Environments:* Android 6.2, iOS 9.3.5
+
   .. figure:: images/admob/1.png
      :width: 337px
      :align: left
@@ -35,19 +37,17 @@ In order to register your application with AdMob, please do as follows:
 
 2. Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button.
 
-3. Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:
-
   .. figure:: images/admob/8.png
-      :width: 700px
-      :align: left
+    :width: 700px
+    :align: left
 
   .. rst-class:: clear
 
-
+3. Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:
 
   .. figure:: images/admob/9.png
-      :width: 630px
-      :align: left
+    :width: 630px
+    :align: left
 
   .. rst-class:: clear
 
@@ -96,7 +96,7 @@ Startup Page
 
 The following block code represents the UI of the startup page of the project.
 
-::
+.. code-block:: HTML
 
     ...
     <h3 style="text-align: center;">Monaca with AdMob Demo</h3>
@@ -155,7 +155,7 @@ Ads Size Dialog
 
 The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on.
 
-::
+.. code-block:: HTML
 
     ...
     <ons-template id="banner_size.html">
@@ -203,7 +203,7 @@ Ads Position Dialog
 
 The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on.
 
-::
+.. code-block:: HTML
 
     ...
     <ons-template id="banner_pos.html">
