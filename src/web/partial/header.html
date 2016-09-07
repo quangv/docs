@@ -13,11 +13,11 @@
 
         <div class="navbar-collapse collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right">
-              {{#is lang "ja"}}
-                {{> navigation.ja }}
-              {{else}}
-                {{> navigation.en }}
-              {{/is}}
+                {{#is lang "ja"}}
+                    {{> navigation.ja }}
+                {{else}}
+                    {{> navigation.en }}
+                {{/is}}
             </ul>
         </div>
 
@@ -26,6 +26,7 @@
 
 <!-- Docs local header -->
 <header class="global">
+<<<<<<< HEAD
   <div class="headcont">
     <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
     
@@ -45,5 +46,45 @@
         {{/eachProperty}}
       {{/if}}
     </p> -->
+=======
+    <div class="headcont">
+        <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
+        <nav class="global" data-pjax>
+            {{{globaltoc}}}
+        </nav>
+        <p class="version_selector">
+            {{#if cordovaVersions}}
+                {{#is lang "ja"}}Cordova {{else}}Cordova {{/is}}
+                {{#eachProperty cordovaVersions}}
+                    {{#if value.selected}}
+                        <span class="currentVersion">{{value.versionName}}</span>
+                    {{else}}
+                        <span class="alternativeVersion"><a href="javascript:void(0)" onclick='switchVersion("{{value.versionPath}}")'>{{value.versionName}}</a></span>
+                    {{/if}}
+                {{/eachProperty}}
+            {{/if}}
+        </p>
+
+        {{#if toctree}}
+        {{else}}
+            <aside class="top-page">
+                <div class="aside-search">
+                    <script>
+                        (function() {
+                            var cx = (LANG === "ja") ? "007288577541380389757:mty_rw-k5qy" : " 007288577541380389757:dbehy9uu97o";
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search style="padding: 0"></gcse:search>
+                </div>
+            </aside>
+        {{/if}}
+    
+>>>>>>> master
   </div>
 </header>

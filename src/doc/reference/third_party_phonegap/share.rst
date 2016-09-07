@@ -4,24 +4,21 @@
 Share Plugin (Android)
 -----------------------------
 
-.. rst-class:: right-menu
 
+Share plugin lets an app to share data with other apps like Gmail, DropBox, etc. 
 
-Using Share Plugin, an app can share data with other apps like Gmail, DropBox, etc. 
+.. note:: This plugin is available only to Android platform.
 
     
 Enable Plugin in Monaca
 ===========================
 
-1. From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or :menuselection:`Config > Manage Cordova Plugins`.
+1. From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`.
 
 2. Click :guilabel:`Enable` button of the Share to add it into your project.
 
   .. image:: images/share/1.png  
-         :width: 600px
-
-
-.. note:: It's available only to Android platform.
+         :width: 700px
 
 Methods
 =====================

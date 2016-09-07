@@ -32,7 +32,7 @@ Please try the following instructions:
 * Make sure that you are having the latest version of Monaca Debugger.
 * Reset the cache: in Monaca debugger menu select "Delete the sync data" and restart the app. 
 
-If the issue still persists, please contact us via `Monaca Support <https://monaca.mobi/en/support/index>`_.
+If the issue still persists, please contact us via `Monaca Support <https://monaca.io/service/>`_.
 
 .. _faq06~004:
 
@@ -47,7 +47,7 @@ Monaca provides utiliy to check the display and operations of application which 
 The debug log is not displayed. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.mobi/en/support/index>`_,  we will look into it and provide the solution as soon as possible. 
+For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.io/service/>`_,  we will look into it and provide the solution as soon as possible. 
 
 .. _faq06~006:
 
@@ -71,7 +71,7 @@ There may have problems of configuration in :file:`AndroidManifest.xml` file. If
 Monaca Debugger is not working. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.mobi/en/support/inquiry>`_ . 
+Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.io/service/>`_ . 
 
 .. _faq06~010:
 

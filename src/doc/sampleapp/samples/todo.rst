@@ -18,6 +18,9 @@ The application allows you to add a todo list.
     <iframe src="https://monaca.github.io/project-templates/19-todo-app/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
+
+:download:`Click here to download the project <download/todo.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -67,7 +70,7 @@ The JavaScript code is shown below.
 
 Here, the two functions, ``addTodoPicture`` and ``addTodo``, are defined. As the names imply, the first function shoots a photo and registers data while the second performs only data registration. 
 
-To shoot a photo, the *addTodoPicture* functions calls *navigator.camera.getPicture*,which is a function provide by PhoneGap. If the call is successful, the function *addTodo* is then executed. if it fails, an error message is generated. Photo shoot options such as fixing the image size and specifying the return type are also set. 
+To shoot a photo, the *addTodoPicture* functions calls *navigator.camera.getPicture*,which is a function provide by Core Cordova Plugins. If the call is successful, the function *addTodo* is then executed. if it fails, an error message is generated. Photo shoot options such as fixing the image size and specifying the return type are also set. 
 
 The function ``addTodo`` takes an argument called ``camera_url``. When the function ``navigator.camera.getPicture`` is called and the photo shoot is successful, a reference to the graphic file is stored in this argument. 
 

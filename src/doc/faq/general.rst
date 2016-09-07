@@ -9,7 +9,7 @@ General
     <ul class="simple">
       <li><a class="reference internal" href="#what-is-monaca" id="id4">What is Monaca?</a></li>
       <li><a class="reference internal" href="#can-i-use-monaca-for-free" id="id5">Can I use Monaca for free?</a></li>
-      <li><a class="reference internal" href="#what-is-phonegap" id="id6">What is Cordova Core Plugins?</a></li>
+      <li><a class="reference internal" href="#what-is-phonegap" id="id6">What is Cordova Core Plugin?</a></li>
       <li><a class="reference internal" href="#can-i-develop-commercial-smartphone-applications-using-monaca" id="id7">Can I develop commercial smartphone applications using Monaca?</a></li>
       <li><a class="reference internal" href="#i-don-t-understand-something-about-monaca-where-can-i-ask-questions" id="id8">I don’t understand something about Monaca. Where can I ask questions?</a></li>
       <li><a class="reference internal" href="#do-i-need-a-platinum-plan-to-develop-commercial-application-or-oem-application" id="id9">Do I need a Platinum Plan to develop commercial application or OEM application?</a></li>
@@ -73,28 +73,28 @@ Monaca is a development environment for smartphone applications provided by Asia
 Can I use Monaca for free?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_.
+Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
 
 If you are new to Monaca and interested to try it, please `sign up <https://monaca.mobi/register/start>`_ your free account to start.
 
 .. _faq01~003:
 
-What is Cordova Core Plugins?
+What is Cordova Core Plugin?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cordova Core Plugins is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ . 
+Cordova Core Plugin is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ . 
 
 .. _faq01~004:
 
 Can I develop commercial smartphone applications using Monaca?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.mobi/page/contact>`_ if you have any questions. 
+Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.io/support/inquiry.html>`_ if you have any questions. 
 
 .. _faq01~005:
 
 I don't understand something about Monaca. Where can I ask questions?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.mobi/page/contact>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc.                            
+Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.io/support/inquiry.html>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc.                            
 
 .. _faq01~006:
 
@@ -109,7 +109,7 @@ You may develop commercial applications or OEM applications under any Monaca pla
 * **Platinum Plan** for application original equipment manufacture.
 * **Enterprise Plan** for large scale development. 
 
-For more information, pleaser refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_.
+For more information, pleaser refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
 
 
 .. _faq01~007:
@@ -124,7 +124,7 @@ Please choose your plan according to the functions and range of support that you
 * **Platinum Plan** for application original equipment manufacture.
 * **Enterprise Plan** for large scale development. 
 
-For more information, pleaser refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_.
+For more information, pleaser refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
 
 
 .. _faq01~008:
@@ -140,7 +140,7 @@ For month-to-month contracts, changing your plan can be done in the dashboard. I
 If I change my plan, will my project data remain intact?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_ about the number of projects allowed for each plan.
+Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about the number of projects allowed for each plan.
 
 
 .. _faq01~010:
@@ -205,7 +205,7 @@ How to unregister a Monaca account?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Login to `Monaca Dashboard <https://monaca.mobi/en/dashboard>`_.
-2. Go to :menuselection:`Plan Detail --> Manage Plan`. Then, Manage Plan page will appear.
+2. Go to :menuselection:`Manage Account`. Then, Manage Account page will appear.
 3. Click on :guilabel:`Unregister`.
 4. Fill in the password of your current login account and a reason to unregister this account (optional).
 5. Finally, click :guilabel:`Unregister` button.

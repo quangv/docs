@@ -38,10 +38,10 @@ Monaca Debugger for Android
   | App ID                | ``mobi.monaca.debugger``                  | App ID set by user                                                    |
   | (Android:PackageName) |                                           |                                                                       |
   +-----------------------+-------------------------------------------+-----------------------------------------------------------------------+
-  | Version Name          | Fixed (currently 5.0.0)                   | Display version name set by user                                      |
+  | Version Name          | Fixed (currently 6.0.1)                   | Display version name set by user                                      |
   | (Android:versionName) |                                           |                                                                       |
   +-----------------------+-------------------------------------------+-----------------------------------------------------------------------+
-  | App Version           | Fixed (currently 50000)                   | Version set by user                                                   |
+  | App Version           | Fixed (currently 600012)                  | Version set by user                                                   |
   | (Android:versionCode) |                                           |                                                                       |
   +-----------------------+-------------------------------------------+-----------------------------------------------------------------------+
   | :ref:`usb_and`        | Available (Chrome Dev Tools)              | Available (Chrome Dev Tools)                                          |

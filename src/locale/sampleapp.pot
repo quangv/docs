@@ -19,6 +19,336 @@ msgstr ""
 msgid "Samples & Tips"
 msgstr ""
 
+#: ../doc/sampleapp/samples/admob.rst:5
+msgid "AdMob Demo"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:8
+msgid "In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:10
+#: ../doc/sampleapp/samples/facebook.rst:10
+msgid "*Tested Environments:* Android 6.2, iOS 9.3.5"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:16
+msgid "Banner Ads"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:22
+msgid "Interstitial Ads"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:26
+msgid ":download:`Click here to download the project <download/admob.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:30
+#: ../doc/sampleapp/samples/backend_memo.rst:25
+#: ../doc/sampleapp/samples/facebook.rst:25
+#: ../doc/sampleapp/samples/ibeacon.rst:29
+#: ../doc/sampleapp/samples/twitter.rst:25
+msgid "Prerequisite"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:32
+msgid "In this demo, we are using AdMob's ad unit ids for testing only. If you want to use the ads with your real application, you are required to register your application with AdMob."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:34
+msgid "In order to register your application with AdMob, please do as follows:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:36
+msgid "Sign up with `AdMob <https://apps.admob.com>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:38
+msgid "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` button."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:46
+msgid "Then, fill in the necessary information such your app name, platform, and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:56
+#: ../doc/sampleapp/samples/age-calc.rst:28
+#: ../doc/sampleapp/samples/backend_memo.rst:44
+#: ../doc/sampleapp/samples/break_the_bricks.rst:27
+#: ../doc/sampleapp/samples/clock.rst:27
+#: ../doc/sampleapp/samples/facebook.rst:85
+#: ../doc/sampleapp/samples/flickr.rst:24
+#: ../doc/sampleapp/samples/hello_world.rst:26
+#: ../doc/sampleapp/samples/ibeacon.rst:41
+#: ../doc/sampleapp/samples/memo_application.rst:26
+#: ../doc/sampleapp/samples/minimum_project.rst:26
+#: ../doc/sampleapp/samples/omikuji.rst:25
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:26
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:25
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:25
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:26
+#: ../doc/sampleapp/samples/shinkansen.rst:24
+#: ../doc/sampleapp/samples/todo.rst:25
+#: ../doc/sampleapp/samples/twitter.rst:51
+msgid "File Components"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:65
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/backend_memo.rst:51
+#: ../doc/sampleapp/samples/break_the_bricks.rst:34
+#: ../doc/sampleapp/samples/clock.rst:34
+#: ../doc/sampleapp/samples/facebook.rst:92
+#: ../doc/sampleapp/samples/flickr.rst:31
+#: ../doc/sampleapp/samples/hello_world.rst:34
+#: ../doc/sampleapp/samples/ibeacon.rst:48
+#: ../doc/sampleapp/samples/memo_application.rst:33
+#: ../doc/sampleapp/samples/minimum_project.rst:35
+#: ../doc/sampleapp/samples/omikuji.rst:32
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
+#: ../doc/sampleapp/samples/shinkansen.rst:31
+#: ../doc/sampleapp/samples/todo.rst:32
+#: ../doc/sampleapp/samples/twitter.rst:58
+msgid "``index.html``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:65
+#: ../doc/sampleapp/samples/flickr.rst:31
+#: ../doc/sampleapp/samples/omikuji.rst:32
+#: ../doc/sampleapp/samples/shinkansen.rst:31
+msgid "The startup page"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:67
+#: ../doc/sampleapp/samples/backend_memo.rst:52
+#: ../doc/sampleapp/samples/clock.rst:36
+#: ../doc/sampleapp/samples/facebook.rst:94
+#: ../doc/sampleapp/samples/ibeacon.rst:54
+#: ../doc/sampleapp/samples/memo_application.rst:37
+#: ../doc/sampleapp/samples/todo.rst:34
+msgid "``js/app.js``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:67
+msgid "JavaScript file handling app execution."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:69
+#: ../doc/sampleapp/samples/age-calc.rst:37
+#: ../doc/sampleapp/samples/break_the_bricks.rst:38
+#: ../doc/sampleapp/samples/clock.rst:38
+#: ../doc/sampleapp/samples/flickr.rst:32
+#: ../doc/sampleapp/samples/hello_world.rst:42
+#: ../doc/sampleapp/samples/ibeacon.rst:56
+#: ../doc/sampleapp/samples/minimum_project.rst:36
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:43
+#: ../doc/sampleapp/samples/shinkansen.rst:32
+msgid "``css/style.css``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:69
+#: ../doc/sampleapp/samples/twitter.rst:59
+msgid "A stylesheet file for the application"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:73
+#: ../doc/sampleapp/samples/age-calc.rst:41
+#: ../doc/sampleapp/samples/backend_memo.rst:56
+#: ../doc/sampleapp/samples/break_the_bricks.rst:46
+#: ../doc/sampleapp/samples/facebook.rst:100
+#: ../doc/sampleapp/samples/flickr.rst:40
+#: ../doc/sampleapp/samples/hello_world.rst:48
+#: ../doc/sampleapp/samples/ibeacon.rst:60
+#: ../doc/sampleapp/samples/memo_application.rst:41
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:40
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:41
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:42
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:47
+#: ../doc/sampleapp/samples/shinkansen.rst:38
+#: ../doc/sampleapp/samples/todo.rst:38
+#: ../doc/sampleapp/samples/twitter.rst:66
+msgid "Required JS/CSS Components"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:76
+#: ../doc/sampleapp/samples/age-calc.rst:44
+#: ../doc/sampleapp/samples/flickr.rst:43
+#: ../doc/sampleapp/samples/hello_world.rst:51
+#: ../doc/sampleapp/samples/memo_application.rst:44
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:50
+#: ../doc/sampleapp/samples/twitter.rst:69
+msgid "``jQuery``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:77
+msgid "``Onsen``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:81
+#: ../doc/sampleapp/samples/facebook.rst:107
+#: ../doc/sampleapp/samples/ibeacon.rst:67
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:54
+#: ../doc/sampleapp/samples/twitter.rst:73
+msgid "Required Cordova Plugins"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:84
+msgid "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:90
+#: ../doc/sampleapp/samples/age-calc.rst:49
+#: ../doc/sampleapp/samples/backend_memo.rst:65
+#: ../doc/sampleapp/samples/clock.rst:45
+#: ../doc/sampleapp/samples/facebook.rst:115
+#: ../doc/sampleapp/samples/flickr.rst:47
+#: ../doc/sampleapp/samples/hello_world.rst:56
+#: ../doc/sampleapp/samples/ibeacon.rst:76
+#: ../doc/sampleapp/samples/memo_application.rst:50
+#: ../doc/sampleapp/samples/minimum_project.rst:41
+#: ../doc/sampleapp/samples/omikuji.rst:38
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:47
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:48
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:50
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:62
+#: ../doc/sampleapp/samples/shinkansen.rst:46
+#: ../doc/sampleapp/samples/todo.rst:46
+#: ../doc/sampleapp/samples/twitter.rst:81
+msgid "HTML Explanation"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:92
+#: ../doc/sampleapp/samples/facebook.rst:117
+msgid "We are using `Onsen <https://onsen.io/>`_ for the user interface (UI) of this demo app."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:95
+#: ../doc/sampleapp/samples/admob.rst:148
+#: ../doc/sampleapp/samples/facebook.rst:120
+#: ../doc/sampleapp/samples/facebook.rst:150
+msgid "Startup Page"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:97
+#: ../doc/sampleapp/samples/facebook.rst:122
+msgid "The following block code represents the UI of the startup page (see the screenshot below):"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:154
+#: ../doc/sampleapp/samples/admob.rst:197
+msgid "Ads Size Dialog"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:156
+msgid "The following block code represents the Ads Size dialog allowing users to select various types of AdMob's ads size such as ``SMART_BANNER``, ``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:202
+#: ../doc/sampleapp/samples/admob.rst:257
+msgid "Ads Position Dialog"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:204
+msgid "The following block code represents the Ads Position dialog allowing users to select various positions to place the ads such as ``TOP_LEFT``, ``CENTER``, ``BOTTOM_RIGHT`` and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:262
+#: ../doc/sampleapp/samples/age-calc.rst:79
+#: ../doc/sampleapp/samples/backend_memo.rst:188
+#: ../doc/sampleapp/samples/clock.rst:76
+#: ../doc/sampleapp/samples/facebook.rst:190
+#: ../doc/sampleapp/samples/flickr.rst:66
+#: ../doc/sampleapp/samples/hello_world.rst:99
+#: ../doc/sampleapp/samples/ibeacon.rst:157
+#: ../doc/sampleapp/samples/memo_application.rst:134
+#: ../doc/sampleapp/samples/omikuji.rst:75
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:73
+#: ../doc/sampleapp/samples/shinkansen.rst:58
+#: ../doc/sampleapp/samples/todo.rst:62
+#: ../doc/sampleapp/samples/twitter.rst:155
+msgid "JavaScript Explanation"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:264
+msgid "In this section, we will explain some important functions (in ``app.js`` file) used in this sample app."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:267
+msgid "admobid Object"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:269
+msgid "From the very beginning, we start by initializing ``admobid`` object. The following block code initializes the object based on the device's platform. The object contains two types of ads such as banner and interstitial ads."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:292
+msgid "All of these ad unit ids are for testing only. For the real ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:295
+msgid "initialization() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:297
+msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` function will be called. In this function, several other functions are called such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:299
+msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:300
+msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as position, bgColor and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:301
+msgid "``onAdFailLoad`` event handler: displaying error information when the ad is failed to load."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:363
+msgid "createSelectedBanner() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:365
+msgid "This function creates an ad based on the configuration."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:384
+msgid "showBannerAtPosition() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:386
+msgid "This function shows the ad based on the selected ad's position."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:397
+msgid "prepareInt() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:399
+msgid "This function prepares an interstitial ad and then shows it once it's ready."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:412
+msgid "showBannerSize() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:414
+msgid "This function shows a Banner Size dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so on. For more information, please refer to `Banner Size <https://firebase.google.com/docs/admob/android/banner>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:438
+msgid "showBannerPos() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:440
+msgid "This function shows a Ad's Position dialog (`OnsenUI dialog <https://onsen.io/v1/reference/ons-dialog.html>`_)."
+msgstr ""
+
 #: ../doc/sampleapp/samples/age-calc.rst:5
 msgid "BirthYear App"
 msgstr ""
@@ -45,158 +375,37 @@ msgstr ""
 msgid "*Tested Environments:* Android 4.2.2, iOS 7.1.1"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:26
-#: ../doc/sampleapp/samples/backend_memo.rst:41
-#: ../doc/sampleapp/samples/break_the_bricks.rst:23
-#: ../doc/sampleapp/samples/clock.rst:25
-#: ../doc/sampleapp/samples/facebook.rst:53
-#: ../doc/sampleapp/samples/flickr.rst:21
-#: ../doc/sampleapp/samples/hello_world.rst:24
-#: ../doc/sampleapp/samples/ibeacon.rst:40
-#: ../doc/sampleapp/samples/inmobi.rst:72
-#: ../doc/sampleapp/samples/memo_application.rst:24
-#: ../doc/sampleapp/samples/minimum_project.rst:24
-#: ../doc/sampleapp/samples/omikuji.rst:22
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:24
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:23
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:23
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:24
-#: ../doc/sampleapp/samples/shinkansen.rst:22
-#: ../doc/sampleapp/samples/todo.rst:22
-#: ../doc/sampleapp/samples/twitter.rst:51
-msgid "File Components"
+#: ../doc/sampleapp/samples/age-calc.rst:25
+msgid ":download:`Click here to download the project <download/age-calc.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:33
-#: ../doc/sampleapp/samples/backend_memo.rst:48
-#: ../doc/sampleapp/samples/break_the_bricks.rst:30
-#: ../doc/sampleapp/samples/clock.rst:32
-#: ../doc/sampleapp/samples/facebook.rst:60
-#: ../doc/sampleapp/samples/flickr.rst:28
-#: ../doc/sampleapp/samples/hello_world.rst:32
-#: ../doc/sampleapp/samples/ibeacon.rst:47
-#: ../doc/sampleapp/samples/inmobi.rst:79
-#: ../doc/sampleapp/samples/memo_application.rst:31
-#: ../doc/sampleapp/samples/minimum_project.rst:33
-#: ../doc/sampleapp/samples/omikuji.rst:29
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:31
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:30
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:30
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:31
-#: ../doc/sampleapp/samples/shinkansen.rst:29
-#: ../doc/sampleapp/samples/todo.rst:29
-#: ../doc/sampleapp/samples/twitter.rst:58
-msgid "``index.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:33
-#: ../doc/sampleapp/samples/inmobi.rst:79
-#: ../doc/sampleapp/samples/todo.rst:29
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/todo.rst:32
 msgid "The startup Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:35
-#: ../doc/sampleapp/samples/break_the_bricks.rst:34
-#: ../doc/sampleapp/samples/clock.rst:36
-#: ../doc/sampleapp/samples/flickr.rst:29
-#: ../doc/sampleapp/samples/hello_world.rst:40
-#: ../doc/sampleapp/samples/ibeacon.rst:55
-#: ../doc/sampleapp/samples/inmobi.rst:83
-#: ../doc/sampleapp/samples/minimum_project.rst:34
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:41
-#: ../doc/sampleapp/samples/shinkansen.rst:30
-msgid "``css/style.css``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/age-calc.rst:37
 msgid "The stylesheet used in the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:39
-#: ../doc/sampleapp/samples/backend_memo.rst:53
-#: ../doc/sampleapp/samples/break_the_bricks.rst:42
-#: ../doc/sampleapp/samples/facebook.rst:76
-#: ../doc/sampleapp/samples/flickr.rst:37
-#: ../doc/sampleapp/samples/hello_world.rst:46
-#: ../doc/sampleapp/samples/ibeacon.rst:59
-#: ../doc/sampleapp/samples/inmobi.rst:89
-#: ../doc/sampleapp/samples/memo_application.rst:39
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:38
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:39
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:40
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:45
-#: ../doc/sampleapp/samples/shinkansen.rst:36
-#: ../doc/sampleapp/samples/todo.rst:35
-#: ../doc/sampleapp/samples/twitter.rst:66
-msgid "Required JS/CSS Components"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:42
-#: ../doc/sampleapp/samples/facebook.rst:79
-#: ../doc/sampleapp/samples/flickr.rst:40
-#: ../doc/sampleapp/samples/hello_world.rst:49
-#: ../doc/sampleapp/samples/memo_application.rst:42
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:48
-#: ../doc/sampleapp/samples/twitter.rst:69
-msgid "``jQuery``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:47
-#: ../doc/sampleapp/samples/backend_memo.rst:62
-#: ../doc/sampleapp/samples/clock.rst:43
-#: ../doc/sampleapp/samples/facebook.rst:92
-#: ../doc/sampleapp/samples/flickr.rst:44
-#: ../doc/sampleapp/samples/hello_world.rst:54
-#: ../doc/sampleapp/samples/ibeacon.rst:75
-#: ../doc/sampleapp/samples/inmobi.rst:96
-#: ../doc/sampleapp/samples/memo_application.rst:48
-#: ../doc/sampleapp/samples/minimum_project.rst:39
-#: ../doc/sampleapp/samples/omikuji.rst:35
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:45
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:46
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:48
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:60
-#: ../doc/sampleapp/samples/shinkansen.rst:44
-#: ../doc/sampleapp/samples/todo.rst:43
-#: ../doc/sampleapp/samples/twitter.rst:81
-msgid "HTML Explanation"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:49
+#: ../doc/sampleapp/samples/age-calc.rst:51
 msgid "The following contents of the HTML body of :file:`index.html` file is for displaying 2 textboxes for the user to input his/her name and age, and a button to calculate his/her birthyear. (see screenshot below):"
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:77
-#: ../doc/sampleapp/samples/backend_memo.rst:185
-#: ../doc/sampleapp/samples/clock.rst:74
-#: ../doc/sampleapp/samples/facebook.rst:178
-#: ../doc/sampleapp/samples/flickr.rst:63
-#: ../doc/sampleapp/samples/hello_world.rst:97
-#: ../doc/sampleapp/samples/ibeacon.rst:156
-#: ../doc/sampleapp/samples/inmobi.rst:127
-#: ../doc/sampleapp/samples/memo_application.rst:132
-#: ../doc/sampleapp/samples/omikuji.rst:72
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:71
-#: ../doc/sampleapp/samples/shinkansen.rst:56
-#: ../doc/sampleapp/samples/todo.rst:59
-#: ../doc/sampleapp/samples/twitter.rst:155
-msgid "JavaScript Explanation"
-msgstr ""
-
-#: ../doc/sampleapp/samples/age-calc.rst:79
+#: ../doc/sampleapp/samples/age-calc.rst:81
 msgid "This code creates a function called ``calculate``."
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:81
+#: ../doc/sampleapp/samples/age-calc.rst:83
 msgid "After entering your age and name, it stores them in two variables called \"myname\" and \"myage\" respectively. It then goes on to calculate your birth year based on today's date, and stores it in a variable called \"birthyear\"."
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:83
+#: ../doc/sampleapp/samples/age-calc.rst:85
 msgid "Finally it stores the message contents in a variable called \"text\", calls the \"navigator.notification.alert\" function and displays the result as a popup."
 msgstr ""
 
-#: ../doc/sampleapp/samples/age-calc.rst:85
-msgid "The ``navigator.notification.alert`` function  is a PhoneGap function that displays a popup dialog box on the screen. The third argument displays the text \"Welcome to Monaca!\" as the title of the dialog box."
+#: ../doc/sampleapp/samples/age-calc.rst:87
+msgid "The ``navigator.notification.alert`` function  is a Core Cordova Plugins function that displays a popup dialog box on the screen. The third argument displays the text \"Welcome to Monaca!\" as the title of the dialog box."
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:5
@@ -213,169 +422,156 @@ msgid "*Tested Environments:* Android 4.1.1, iOS 7.1.1"
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:22
-#: ../doc/sampleapp/samples/facebook.rst:24
-#: ../doc/sampleapp/samples/ibeacon.rst:28
-#: ../doc/sampleapp/samples/twitter.rst:25
-msgid "Prerequisite"
+msgid ":download:`Click here to download the project <download/backend_memo.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:24
+#: ../doc/sampleapp/samples/backend_memo.rst:27
 msgid "You need to set-up a new backend and attach it to the project. After creating a new project, please follow :ref:`cloud_ide_adding_backend` for detailed instruction."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:26
+#: ../doc/sampleapp/samples/backend_memo.rst:29
 msgid "After you have created a new backend, please create a new ``Memo`` collection as follows:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:31
+#: ../doc/sampleapp/samples/backend_memo.rst:34
 msgid "Please check :guilabel:`Allow JavaScript API to insert data`. :guilabel:`Read` and :guilabel:`Write` options must not be selected."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:34
+#: ../doc/sampleapp/samples/backend_memo.rst:37
 msgid "For more details on how to create Backend, please read :doc:`../../manual/backend/control_panel`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:37
+#: ../doc/sampleapp/samples/backend_memo.rst:40
 msgid "In order to access Backend API, you need to register ``cloud.monaca.mobi`` in the whitelist by editing each OSs configuration file. For more details, please refer to :ref:`Access Origin (Android) <access_origin_android>` and :ref:`Access Origin (iOS) <access_origin>`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:48
-#: ../doc/sampleapp/samples/clock.rst:32
-#: ../doc/sampleapp/samples/hello_world.rst:32
-#: ../doc/sampleapp/samples/minimum_project.rst:33
+#: ../doc/sampleapp/samples/backend_memo.rst:51
+#: ../doc/sampleapp/samples/clock.rst:34
+#: ../doc/sampleapp/samples/hello_world.rst:34
+#: ../doc/sampleapp/samples/minimum_project.rst:35
 msgid "The Startup page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:49
-#: ../doc/sampleapp/samples/clock.rst:34
-#: ../doc/sampleapp/samples/facebook.rst:70
-#: ../doc/sampleapp/samples/ibeacon.rst:53
-#: ../doc/sampleapp/samples/memo_application.rst:35
-#: ../doc/sampleapp/samples/todo.rst:31
-msgid "``js/app.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/backend_memo.rst:49
+#: ../doc/sampleapp/samples/backend_memo.rst:52
 msgid "JavaScript file handling the interaction of the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:56
-#: ../doc/sampleapp/samples/inmobi.rst:92
-#: ../doc/sampleapp/samples/shinkansen.rst:39
-#: ../doc/sampleapp/samples/todo.rst:38
+#: ../doc/sampleapp/samples/backend_memo.rst:59
+#: ../doc/sampleapp/samples/shinkansen.rst:41
+#: ../doc/sampleapp/samples/todo.rst:41
 msgid "``jQuerymobile``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:64
+#: ../doc/sampleapp/samples/backend_memo.rst:67
 msgid "For the User Interface of this sample app, we use jQuery Mobile. In jQuery Mobile, multiple pages can be integrated to a single HTML file. In this app, for example, both login screen and register screen are defined within :file:`index.html`. Specifically, pages are expressed by ``div`` tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify as ``header``, ``content`` , or ``listview``. For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:66
-#: ../doc/sampleapp/samples/backend_memo.rst:98
+#: ../doc/sampleapp/samples/backend_memo.rst:69
+#: ../doc/sampleapp/samples/backend_memo.rst:101
 msgid "The following contents of the HTML body:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:90
+#: ../doc/sampleapp/samples/backend_memo.rst:93
 msgid "is corresponding to this screenshot which allows a user to login to Monaca Memo app if the user has already registered with the app:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:119
+#: ../doc/sampleapp/samples/backend_memo.rst:122
 msgid "is corresponding to this screenshot which allows a new user to register with the Monaca Memo app:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:125
+#: ../doc/sampleapp/samples/backend_memo.rst:128
 msgid "Likewise, there are several other pages defined in this HTML. Here are the screenshots of those pages."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:131
+#: ../doc/sampleapp/samples/backend_memo.rst:134
 msgid "List Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:137
+#: ../doc/sampleapp/samples/backend_memo.rst:140
 msgid "Confirm Logout Message"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:143
+#: ../doc/sampleapp/samples/backend_memo.rst:146
 msgid "Confirm Delete Message"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:151
+#: ../doc/sampleapp/samples/backend_memo.rst:154
 msgid "Add Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:157
+#: ../doc/sampleapp/samples/backend_memo.rst:160
 msgid "Successful Adding Message"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:165
+#: ../doc/sampleapp/samples/backend_memo.rst:168
 msgid "View Memo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:173
+#: ../doc/sampleapp/samples/backend_memo.rst:176
 msgid "Edit Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:179
+#: ../doc/sampleapp/samples/backend_memo.rst:182
 msgid "Successful Updating Message"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:187
+#: ../doc/sampleapp/samples/backend_memo.rst:190
 msgid "There are 7 main functionalities in the JavaScript code of this app which are *Login*, *Logout*, *Register*, *Adding Memo*, *Editing Memo*, *Deleting Memo* and *Viewing Memo* functions."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:190
+#: ../doc/sampleapp/samples/backend_memo.rst:193
 msgid "Register a New User"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:192
+#: ../doc/sampleapp/samples/backend_memo.rst:195
 msgid "``onRegisterBtn()`` is called when a user clicks on :guilabel:`Register` button in the *Register Page*. Then, both ``email`` and ``password`` from the input boxes are captured and used to call ``monaca.cloud.User.register()`` function. This function is used to register a new user to Monaca Backend. If the registration is successful, the user will be automatically logged-in. Below is the JavaScript code to register a user:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:215
+#: ../doc/sampleapp/samples/backend_memo.rst:218
 msgid "Login a User and Get Collection Data"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:217
+#: ../doc/sampleapp/samples/backend_memo.rst:220
 msgid "``onLoginBtn()`` is called when a user clicks on :guilabel:`Login` button. In this function, a Monaca Backend API called ``monaca.cloud.User.login()`` is used to login an existing user. If the user is found in the Monaca Backend, the user is redirected to the list page which displays a list of memo of the currently logged-in user by calling ``getMemoList()`` function. Inside ``getMemoList()`` function, a list of memo of currently logged-in users is retrieved by using ``monaca.cloud.Collection().findMine()`` function. In this example, we assume that you have already created a collection named ``Memo``. The memo is then dynamically added into the ``TopListView`` in the list page. Below is the JavaScript code of the these functions:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:269
+#: ../doc/sampleapp/samples/backend_memo.rst:272
 msgid "As a result, the list page like the one below will be displayed:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:277
+#: ../doc/sampleapp/samples/backend_memo.rst:280
 msgid "Logout a User"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:279
+#: ../doc/sampleapp/samples/backend_memo.rst:282
 msgid "``monaca.cloud.User.logout()`` function is used to logout the currently logged-in user. If the user is successfully logged out, the user will be redirected to the login page."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:299
+#: ../doc/sampleapp/samples/backend_memo.rst:302
 msgid "Adding a Memo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:301
+#: ../doc/sampleapp/samples/backend_memo.rst:304
 msgid "``onSaveBtn()`` is called when a user clicks on :guilabel:`Save` button in the add page. Then, both ``title`` and ``content`` of a new memo from the input boxes are captured and handed over to ``addMemo()`` function."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:303
+#: ../doc/sampleapp/samples/backend_memo.rst:306
 msgid "In this function, a Monaca Backend API of a collection called ``monaca.cloud.Collection().insert()`` is used to insert a new item into ``Memo`` collection."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:339
+#: ../doc/sampleapp/samples/backend_memo.rst:342
 msgid "Updating a Memo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:341
+#: ../doc/sampleapp/samples/backend_memo.rst:344
 msgid "When you update a memo, ``monaca.cloud.Collection().findMine()`` function is used to find the memo to update. In this case, we already know the ``_id`` property of the collection item. Then, we call ``monaca.cloud.collectionItem.update()`` function to update this item in ``Memo`` collection."
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:391
+#: ../doc/sampleapp/samples/backend_memo.rst:394
 msgid "Deleting a Memo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/backend_memo.rst:393
+#: ../doc/sampleapp/samples/backend_memo.rst:396
 msgid "Similar to updating a memo, the app calls ``monaca.cloud.Collection().findMine()`` function to get the collection item. Then, call ``monaca.cloud.collectionItem.delete()`` function to delete the memo."
 msgstr ""
 
@@ -391,70 +587,74 @@ msgstr ""
 msgid "*Tested Environments:* Android 4.4, iOS 8.1.1"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:30
-msgid "The Startup page (Home page)"
-msgstr ""
-
-#: ../doc/sampleapp/samples/break_the_bricks.rst:32
-#: ../doc/sampleapp/samples/flickr.rst:30
-msgid "``js/main.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/break_the_bricks.rst:32
-#: ../doc/sampleapp/samples/memo_application.rst:35
-msgid "A JavaScript file handling various implementation in the application"
+#: ../doc/sampleapp/samples/break_the_bricks.rst:23
+msgid ":download:`Click here to download the project <download/break_the_bricks.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
+msgid "The Startup page (Home page)"
+msgstr ""
+
+#: ../doc/sampleapp/samples/break_the_bricks.rst:36
+#: ../doc/sampleapp/samples/flickr.rst:33
+msgid "``js/main.js``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/break_the_bricks.rst:36
+#: ../doc/sampleapp/samples/memo_application.rst:37
+msgid "A JavaScript file handling various implementation in the application"
+msgstr ""
+
+#: ../doc/sampleapp/samples/break_the_bricks.rst:38
 msgid "Style Sheet for the whole application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:36
+#: ../doc/sampleapp/samples/break_the_bricks.rst:40
 msgid "``img/*.png``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:36
-#: ../doc/sampleapp/samples/clock.rst:38
+#: ../doc/sampleapp/samples/break_the_bricks.rst:40
+#: ../doc/sampleapp/samples/clock.rst:40
 msgid "All image files needed to use this template"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:38
+#: ../doc/sampleapp/samples/break_the_bricks.rst:42
 msgid "``res/VT323-Regular.ttf``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:38
+#: ../doc/sampleapp/samples/break_the_bricks.rst:42
 msgid "A true type font"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:45
+#: ../doc/sampleapp/samples/break_the_bricks.rst:49
 msgid "``Pixi``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:50
+#: ../doc/sampleapp/samples/break_the_bricks.rst:54
 msgid "Source Code Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:53
+#: ../doc/sampleapp/samples/break_the_bricks.rst:57
 msgid "js/main.js"
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:55
+#: ../doc/sampleapp/samples/break_the_bricks.rst:59
 msgid ":file:`main.js` is a JavaScript file handling various functionalities of the application."
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:57
+#: ../doc/sampleapp/samples/break_the_bricks.rst:61
 msgid "Below is the code of ``BB`` object which is the main object of this application. Its properties are screensize, paddle, balls, blocks, score and so on. Its methods are creating block map (``setMap()``), creating a ball (``addBall()``), creating a paddle (``addPaddle()``), resetting the game after it ended (``reset()``), calculating the score (``addScore()``), ending the game (``endGame()``) and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:317
+#: ../doc/sampleapp/samples/break_the_bricks.rst:321
 msgid "When this page is loading, ``init()`` function is called when Cordova is fully loaded or when it's failed to detect the type of the device."
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:329
+#: ../doc/sampleapp/samples/break_the_bricks.rst:333
 msgid "Here is the code of ``init()`` function. In this function, BB object is rendered according to the type of device you are using. Then, events listeners related the paddle are added. Also, it renders the paddle position according to each event."
 msgstr ""
 
-#: ../doc/sampleapp/samples/break_the_bricks.rst:397
+#: ../doc/sampleapp/samples/break_the_bricks.rst:401
 msgid "``getUa()`` function is used to detect the type of the device. It will return ``false`` when it failed to get this information."
 msgstr ""
 
@@ -470,264 +670,157 @@ msgstr ""
 msgid "This sample app is a clock app displaying current Date and time."
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:34
-msgid "The JavaScript file handling implementation in the project"
+#: ../doc/sampleapp/samples/clock.rst:24
+msgid ":download:`Click here to download the project <download/clock.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/clock.rst:36
-msgid "The style Sheet for the project"
+msgid "The JavaScript file handling implementation in the project"
 msgstr ""
 
 #: ../doc/sampleapp/samples/clock.rst:38
-#: ../doc/sampleapp/samples/flickr.rst:32
-#: ../doc/sampleapp/samples/omikuji.rst:30
+msgid "The style Sheet for the project"
+msgstr ""
+
+#: ../doc/sampleapp/samples/clock.rst:40
+#: ../doc/sampleapp/samples/flickr.rst:35
+#: ../doc/sampleapp/samples/omikuji.rst:33
 msgid "``images/*.png``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:46
-#: ../doc/sampleapp/samples/hello_world.rst:57
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:48
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:49
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:51
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:63
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:74
+#: ../doc/sampleapp/samples/clock.rst:48
+#: ../doc/sampleapp/samples/hello_world.rst:59
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:50
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:51
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:53
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:65
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:76
 #: ../doc/sampleapp/tips/media.rst:21
 #: ../doc/sampleapp/tips/media.rst:57
 msgid "index.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:48
+#: ../doc/sampleapp/samples/clock.rst:50
 msgid "The following HTML body of :file:`index.html` file is for displaying the current Date and time (see screenshot below):"
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:77
+#: ../doc/sampleapp/samples/clock.rst:79
 msgid "js/app.js"
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:79
+#: ../doc/sampleapp/samples/clock.rst:81
 msgid "When the application is loaded, the ``clock()`` function is called every 1 seconds (1000 ms) by this statement:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/clock.rst:87
+#: ../doc/sampleapp/samples/clock.rst:89
 msgid "The ``clock()`` function is used to display the current date and time. First, it gets the current time (hour, minute and second) and then display the images (digit image) according to the time. Next, it gets the current date (day, month and year) and then display it in the format as defined in ``renderDay()`` and ``renderMonth()`` functions (see below screenshot). Here is content of the ``clock()`` function:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:5
-msgid "Facebook Client"
+msgid "Facebook Demo"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:10
-msgid "This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
+#: ../doc/sampleapp/samples/facebook.rst:7
+msgid "This is a sample Monaca app used to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:13
-#: ../doc/sampleapp/samples/twitter.rst:13
-msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
+#: ../doc/sampleapp/samples/facebook.rst:22
+msgid ":download:`Click here to download the project <download/facebook.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:26
-msgid "You are required to have *App ID/App Key* and *App Secret* by registering your Monaca app with Facebook Developer:"
+#: ../doc/sampleapp/samples/facebook.rst:27
+msgid "In order to use this demo app, you are required to register your app with Facebook. Then, you will get its *App ID* and *App Secret* which will be used in this app later."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:28
-msgid "Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin with Facebook account. If you don't have one, please signup."
+#: ../doc/sampleapp/samples/facebook.rst:29
+msgid "Please follow the instruction below in order to register your app with Facebook:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:30
-msgid "Go to :guilabel:`Apps > Create a New App`."
+#: ../doc/sampleapp/samples/facebook.rst:31
+msgid "Go to `Facebook for Developers <https://developers.facebook.com/>`_ and log in with your Facebook account."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:35
-msgid "Fill in the display name and choose a category of your app. Then, click :guilabel:`Create App` button."
+#: ../doc/sampleapp/samples/facebook.rst:33
+msgid "Go to :menuselection:`My Apps --> Add a New App`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:40
-msgid "For security purpose, you will be asked to input some code. Click :guilabel:`Submit` button after input the shown code properly."
+#: ../doc/sampleapp/samples/facebook.rst:41
+msgid "Select ``Website`` as the platform of your app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:45
-msgid "After a successful registration, a similar screen shown below will appear. You can see the App ID and App Secret here. You will need them later."
+#: ../doc/sampleapp/samples/facebook.rst:49
+msgid "Fill in your app's name and click :guilabel:`Create New Facebook App ID`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:60
-#: ../doc/sampleapp/samples/ibeacon.rst:47
-msgid "Startup Page (Consists of Connect Screen)"
+#: ../doc/sampleapp/samples/facebook.rst:57
+msgid "Fill in your contact email and select a category of the app. Then, click :guilabel:`Create App ID`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:62
-msgid "``home_navigator.html``"
+#: ../doc/sampleapp/samples/facebook.rst:65
+msgid "Answer a security question."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:62
-msgid "Navigate to Connect Screen"
+#: ../doc/sampleapp/samples/facebook.rst:67
+msgid "Click :guilabel:`Skip Quick Start` button. Then, you will be forwarded to the app's Dashboard."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:64
-msgid "``connect.html``"
+#: ../doc/sampleapp/samples/facebook.rst:75
+msgid "Click on :guilabel:`Settings` and input your app domains and site URL. Then, click :guilabel:`Save Changes`. You can also find the *App ID* and *App Secret* here."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:64
-msgid "Connect Screen"
+#: ../doc/sampleapp/samples/facebook.rst:92
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
+msgid "Startup page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:66
-msgid "``profile.html``"
+#: ../doc/sampleapp/samples/facebook.rst:94
+msgid "JavaScript file handling app execution"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:66
-msgid "Facebook User Profile Screen"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:68
-msgid "``list.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:68
-msgid "Friends List Screen"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:70
-#: ../doc/sampleapp/samples/ibeacon.rst:53
-msgid "JavaScript file handling app interactions."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:72
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:34
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:34
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:36
+#: ../doc/sampleapp/samples/facebook.rst:96
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:36
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:36
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:38
 msgid "``styles/app.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:72
-#: ../doc/sampleapp/samples/ibeacon.rst:55
+#: ../doc/sampleapp/samples/facebook.rst:96
+#: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:80
-#: ../doc/sampleapp/samples/ibeacon.rst:62
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:41
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:42
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:43
-msgid "``Onsen UI``"
+#: ../doc/sampleapp/samples/facebook.rst:103
+msgid "``Onsen UI (AngularJS is included)``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:84
-#: ../doc/sampleapp/samples/ibeacon.rst:66
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:52
-#: ../doc/sampleapp/samples/twitter.rst:73
-msgid "Required Cordova Plugins"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:87
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:55
+#: ../doc/sampleapp/samples/facebook.rst:110
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:57
 #: ../doc/sampleapp/samples/twitter.rst:76
 msgid "``InAppBrowser``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:94
-#: ../doc/sampleapp/samples/ibeacon.rst:77
-msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
+#: ../doc/sampleapp/samples/facebook.rst:156
+msgid "Friend List page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:96
-msgid "The following contents of the HTML body of :file:`index.html` file loads the :file:`home_navigator.html` file at startup:"
+#: ../doc/sampleapp/samples/facebook.rst:158
+msgid "The following block code will show the friend list if the user is successfully logged in (see the screenshot below)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:105
-msgid "The following contents of the HTML body of :file:`home_navigator.html` file will direct to the :file:`connect.html` file which is the Connect Screen:"
+#: ../doc/sampleapp/samples/facebook.rst:185
+msgid "Friend List"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:114
-msgid "The following contents of the HTML body of :file:`connect.html` file:"
+#: ../doc/sampleapp/samples/facebook.rst:192
+msgid "In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`InAppBrowser plugin <inappbrower_plugin>`. The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside the app without opening of an external browser."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:126
-msgid "corresponds to the screenshot below which allows a user to connect to Facebook:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:133
-msgid "The following contents of the HTML body of :file:`profile.html` file:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:148
-msgid "corresponds to the screenshot below which shows the user's basic info and profile picture if the authentication is successful. When the :guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is shown:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:155
-msgid "The following contents of the HTML body of :file:`list.html` file:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:170
-msgid "corresponds to the screenshot below which shows the friends list of the authenticated user:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:180
-msgid "The logic behind this app is based on *Graph API* and *InAppBrowser*. The `Graph API <https://developers.facebook.com/docs/reference/api/>`_ is the primary way that data is retrieved from Facebook or posted on Facebook. We use *InAppBrowser* to open a Facebook authentication page inside our app. This prevents opening of an external browser."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:182
-msgid "The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 3 controller functions: :envvar:`Connect_Ctrl`, :envvar:`Profile_Ctrl` and :envvar:`List_Ctrl` correspond to :file:`connect.html` page, :file:`profile.html` page and :file:`list.html` page, respectively. In order to create global vairables used between these controller functions, you need to create a service function to store those global variables as follows:"
+#: ../doc/sampleapp/samples/facebook.rst:199
+msgid "Facebook Login using InAppBrowser"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:204
-msgid "Inside this service function, we are able to get and set the value of the ``property`` variable which is a JSON object. This variale contains various variables needed to use between different pages."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:207
-#: ../doc/sampleapp/samples/ibeacon.rst:247
-msgid "Next, we will explain each controller function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:210
-msgid "Connect_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:212
-msgid ":envvar:`Connect_Ctrl` controls the interactions and processes in :file:`connect.html` file. In other words, it handles the Facebook authentication process. In order to run this function, you will need to fill in your API Key, App Secret and a valid callback URL. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:291
-msgid "Inside this controller, there is :envvar:`connect` function which leads user through Facebook authentication. This function is called when the :guilabel:`Connect` button is pressed. In order to gain access to Facebook, the :envvar:`Connect()` function needs to open a Facebook authentication page first (as shown below) via a *InAppBrowser* using :envvar:`window.open()` function."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:297
-msgid "After the user inputs his/her login information and presses :guilabel:`Log in` button, the app redirects to your callback URL. From the callback URL, Facebook code can be found. Then, an ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/oauth/access_token?...\"`` in order to get access token."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:299
-msgid "If the request is successful, another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me?...\"`` in order to get some information of the authenticated user, in this case, ``Name`` and ``Profile picture URL``."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:301
-msgid "Next, if the request is successful, the retrieved info will then be stored in a JSON object (``info_obj``) for later use and another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me/friends?...\"`` in order to get a list of friends of the authenticated user. If the request is successful, the retrieved data (in JSON format) of friends list will also be stored in the ``info_obj`` and updates into the global variable (``property``) inside ``sharedProperties`` service for using between controllers (pages)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:303
-msgid "Then, finally, the app redirects to :file:`profile.html` page."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:307
-msgid "Profile_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:309
-msgid ":envvar:`Profile_Ctrl` controls the interactions and processes in the :file:`profile.html` file. In other words, it displays the retrieved data after a successful authentication. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:322
-msgid "This controller contains the assigment of some variables with the necessary data from the global variable inside the ``sharedProperties`` service."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:325
-msgid "List_Ctrl"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:327
-msgid ":envvar:`List_Ctrl` controls the interactions and processes in the :file:`list.html` file. In other words, it displays the retrieved data of friends list of the authenticated user. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:365
-msgid "Inside this controller, there is :envvar:`get_list()` function which displays the list of friends retrieved from global variable (``property``) of the ``sharedProperties`` service."
+msgid "We use AngularJS in our code execution. In this app, we only have one controller, called ``HomeCtrl``. This controller will handle the login, logout and friend list retrieval from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret."
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:5
@@ -738,53 +831,51 @@ msgstr ""
 msgid "This sample app shows how to retrieve pictures from Flickr and displays them as a slide show."
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:28
-#: ../doc/sampleapp/samples/omikuji.rst:29
-#: ../doc/sampleapp/samples/shinkansen.rst:29
-msgid "The startup page"
-msgstr ""
-
-#: ../doc/sampleapp/samples/flickr.rst:29
-msgid "A stylesheet for the project"
-msgstr ""
-
-#: ../doc/sampleapp/samples/flickr.rst:30
-msgid "A JavaScript file for this project"
-msgstr ""
-
-#: ../doc/sampleapp/samples/flickr.rst:31
-msgid "``js/jquery.bxslider.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/flickr.rst:31
-msgid "A Javascript file for photo sliding animation"
+#: ../doc/sampleapp/samples/flickr.rst:21
+msgid ":download:`Click here to download the project <download/flickr.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:32
+msgid "A stylesheet for the project"
+msgstr ""
+
+#: ../doc/sampleapp/samples/flickr.rst:33
+msgid "A JavaScript file for this project"
+msgstr ""
+
+#: ../doc/sampleapp/samples/flickr.rst:34
+msgid "``js/jquery.bxslider.js``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/flickr.rst:34
+msgid "A Javascript file for photo sliding animation"
+msgstr ""
+
+#: ../doc/sampleapp/samples/flickr.rst:35
 msgid "Image files used in the project"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:46
+#: ../doc/sampleapp/samples/flickr.rst:49
 msgid "The following HTML body of :file:`index.html` file is for the title bar, spinner and container for displaying the images (see screenshot below):"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:65
+#: ../doc/sampleapp/samples/flickr.rst:68
 msgid "There are 2 main functions in this sample app which will be explained as follows:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:68
+#: ../doc/sampleapp/samples/flickr.rst:71
 msgid "jsonFlickrFeed()"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:70
+#: ../doc/sampleapp/samples/flickr.rst:73
 msgid "``jsonFlickrFeed()`` is fired when the Flickr API is loaded. The Flickr API is called when the :file:`index.html` file is loaded. Inside the header of :file:`index.html` file, there is a line: ``<script src=\"http://api.flickr.com/services/feeds/photos_public.gne?format=json\" defer></script>``. This is where the Flickr API is called. In this function, the retrieved photos are then pushed into a local variable ``images`` and the photos are display as a slide show by calling ``displayPicture()`` function every *1 second*. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:91
+#: ../doc/sampleapp/samples/flickr.rst:94
 msgid "displayPicture()"
 msgstr ""
 
-#: ../doc/sampleapp/samples/flickr.rst:93
+#: ../doc/sampleapp/samples/flickr.rst:96
 msgid ":envvar:`displayPicture()` displays the photos stored inside ``images`` variable (photos retrieved from Flickr) in a container created by HTML code in :file:`index.html` file. Below is the JavaScript code of this function:"
 msgstr ""
 
@@ -793,195 +884,199 @@ msgid "Hello World App"
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:10
-msgid "This sample app is a PhoneGap Demo showing several device functionalities such as camera, contacts, compass and so on."
+msgid "This sample app is a Core Cordova Plugins Demo showing several device functionalities such as camera, contacts, compass and so on."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:34
+#: ../doc/sampleapp/samples/hello_world.rst:23
+msgid ":download:`Click here to download the project <download/hello_world.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "``phonegap-demo.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:34
-msgid "The PhoneGap Demo page"
+#: ../doc/sampleapp/samples/hello_world.rst:36
+msgid "The Core Cordova Plugins Demo page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:36
+#: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "``phonegap-demo/master.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:36
-msgid "The style sheet for the PhoneGap Demo page"
-msgstr ""
-
 #: ../doc/sampleapp/samples/hello_world.rst:38
-msgid "``phonegap-demo/main.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/hello_world.rst:38
-msgid "The JavaScript file handling implementation in the PhoneGap Demo page"
+msgid "The style sheet for the Core Cordova Plugins Demo page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:40
+msgid "``phonegap-demo/main.js``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:40
+msgid "The JavaScript file handling implementation in the Core Cordova Plugins Demo page"
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:42
 msgid "The style Sheet for the whole application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:42
+#: ../doc/sampleapp/samples/hello_world.rst:44
 msgid "``img/icon/*.png``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:42
+#: ../doc/sampleapp/samples/hello_world.rst:44
 msgid "All icon files needed to use this template"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:59
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:65
+#: ../doc/sampleapp/samples/hello_world.rst:61
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:67
 msgid ":file:`index.html` is the Startup page."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:69
+#: ../doc/sampleapp/samples/hello_world.rst:71
 msgid "The above html code inside the ``<body>`` tag is showing a ``HelloWorld!`` phrase and a :guilabel:`Start Demo` button as shown below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:77
+#: ../doc/sampleapp/samples/hello_world.rst:79
 msgid "phonegap-demo.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:79
-msgid ":file:`phonegap-demo.html` shows a PhoneGap Demo with the basic phone information and a list of functions as below:"
-msgstr ""
-
 #: ../doc/sampleapp/samples/hello_world.rst:81
-msgid "*Toggle Accelerometer*: Start or stop the measurement of the phone's movement."
-msgstr ""
-
-#: ../doc/sampleapp/samples/hello_world.rst:82
-msgid "*Get Location*: Get current location of the phone."
+msgid ":file:`phonegap-demo.html` shows a Core Cordova Plugins Demo with the basic phone information and a list of functions as below:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:83
-msgid "*Call 411*: Call ``411``."
+msgid "*Toggle Accelerometer*: Start or stop the measurement of the phone's movement."
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:84
-msgid "*Vibrate*: Vibrate the phone."
+msgid "*Get Location*: Get current location of the phone."
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:85
-msgid "*Get a Picture*: Turn on the phone's camera."
+msgid "*Call 411*: Call ``411``."
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:86
-msgid "*Get Phone's Contacts*: Get the total number of contacts in the phone and display the third contact name."
+msgid "*Vibrate*: Vibrate the phone."
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:87
-msgid "*Check Network*: Check the current type of network the phone is using."
+msgid "*Get a Picture*: Turn on the phone's camera."
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:88
+msgid "*Get Phone's Contacts*: Get the total number of contacts in the phone and display the third contact name."
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:89
+msgid "*Check Network*: Check the current type of network the phone is using."
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:90
 msgid "*Toggle Compass*: Start or stop the phone compass."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:94
+#: ../doc/sampleapp/samples/hello_world.rst:96
 msgid "The JavaScript code corresponds to these functions will be explained in the next section."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:99
-msgid "The :file:`main.js` is a JavaScript file handling the implementation of the PhoneGap Demo page. There are 8 main functions in this file:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/hello_world.rst:102
-msgid "Toggle Accelerometer"
+#: ../doc/sampleapp/samples/hello_world.rst:101
+msgid "The :file:`main.js` is a JavaScript file handling the implementation of the Core Cordova Plugins Demo page. There are 8 main functions in this file:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:104
+msgid "Toggle Accelerometer"
+msgstr ""
+
+#: ../doc/sampleapp/samples/hello_world.rst:106
 msgid "Start or stop the measurement of the phone's movement. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:138
+#: ../doc/sampleapp/samples/hello_world.rst:140
 msgid "When click on the :guilabel:`Toggle Accelerometer` button, you can either start or stop the measurement of the phone's movement. If it is started, the ``X``, ``Y`` & ``Z`` values change; otherwise, they will appear as ``0``."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:152
+#: ../doc/sampleapp/samples/hello_world.rst:154
 msgid "Get Location"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:154
+#: ../doc/sampleapp/samples/hello_world.rst:156
 msgid "Get current location of the phone. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:169
+#: ../doc/sampleapp/samples/hello_world.rst:171
 msgid "When click on the :guilabel:`Get Location` button, a message showing the current location of phone will appear as below:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:177
+#: ../doc/sampleapp/samples/hello_world.rst:179
 msgid "Call 411"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:179
+#: ../doc/sampleapp/samples/hello_world.rst:181
 msgid "Call ``411``. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:188
+#: ../doc/sampleapp/samples/hello_world.rst:190
 msgid "When click on the :guilabel:`Call 411` button, a confirmed message of the call is appeared."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:196
+#: ../doc/sampleapp/samples/hello_world.rst:198
 msgid "Vibrate"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:198
+#: ../doc/sampleapp/samples/hello_world.rst:200
 msgid "Vibrate the phone. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:208
+#: ../doc/sampleapp/samples/hello_world.rst:210
 msgid "When click on the :guilabel:`Vibrate` button, you will notice that your phone vibrates."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:212
+#: ../doc/sampleapp/samples/hello_world.rst:214
 msgid "Get a Picture"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:214
+#: ../doc/sampleapp/samples/hello_world.rst:216
 msgid "Turn on the phone's camera. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:240
+#: ../doc/sampleapp/samples/hello_world.rst:242
 msgid "When click on the :guilabel:`Get a Picture` button, the phone camera is turned on. If you take a picture and use it, it will be displayed in the page as shown below otherwise a message will be displayed (see below):"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:254
+#: ../doc/sampleapp/samples/hello_world.rst:256
 msgid "Get Phone's Contacts"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:255
+#: ../doc/sampleapp/samples/hello_world.rst:257
 msgid "Get the total number of contacts in the phone and display the third contact name. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:281
+#: ../doc/sampleapp/samples/hello_world.rst:283
 msgid "When click on the :guilabel:`Get Phone's Contacts` button, the total number of contacts in the phone and the third contact name will be displayed as follows:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:289
+#: ../doc/sampleapp/samples/hello_world.rst:291
 msgid "Check Network"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:291
+#: ../doc/sampleapp/samples/hello_world.rst:293
 msgid "Check the current type of network the phone is using. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:313
+#: ../doc/sampleapp/samples/hello_world.rst:315
 msgid "When click on the :guilabel:`Check Network` button, the current network type information will be displayed."
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:321
+#: ../doc/sampleapp/samples/hello_world.rst:323
 msgid "Toggle Compass"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:322
+#: ../doc/sampleapp/samples/hello_world.rst:324
 msgid "Start or stop the phone compass. Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/hello_world.rst:348
+#: ../doc/sampleapp/samples/hello_world.rst:350
 msgid "When click on the :guilabel:`Toggle Compass` button, you can either start or stop the phone compass. If the compass is started, the value of the compass heading changes; otherwise, it will appear as ``off``. For example:"
 msgstr ""
 
@@ -1005,234 +1100,132 @@ msgstr ""
 msgid "In order to test this application, you can either build the application or use the custom built Monaca Debugger."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:30
+#: ../doc/sampleapp/samples/ibeacon.rst:26
+msgid ":download:`Click here to download the project <download/ibeacon.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:31
 msgid "Download the iBeacon plugin from `here <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ and import it into Monaca Cloud IDE. See :ref:`import_cordova_plugin`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:32
+#: ../doc/sampleapp/samples/ibeacon.rst:33
 msgid "Find at least one iBeacon device."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:34
+#: ../doc/sampleapp/samples/ibeacon.rst:35
 msgid "Get information of each iBeacon device by using its conresponded utility software. In our case, we use `My Beacon Tool <https://itunes.apple.com/jp/app/mybeacon-tool/id848908053?mt=8>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:36
+#: ../doc/sampleapp/samples/ibeacon.rst:37
 msgid "Take note of the UUID of each iBeacon device."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:49
+#: ../doc/sampleapp/samples/ibeacon.rst:48
+msgid "Startup Page (Consists of Connect Screen)"
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:50
 msgid "``top_page.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:49
+#: ../doc/sampleapp/samples/ibeacon.rst:50
 msgid "Top page of the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:51
+#: ../doc/sampleapp/samples/ibeacon.rst:52
 msgid "``info_page.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:51
+#: ../doc/sampleapp/samples/ibeacon.rst:52
 msgid "The page showing information of each iBeacon"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:69
-msgid "`Proximity Beacon Plugin <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_"
+#: ../doc/sampleapp/samples/ibeacon.rst:54
+msgid "JavaScript file handling app interactions."
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:63
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
+msgid "``Onsen UI``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:70
+msgid "`Proximity Beacon Plugin <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_"
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:71
 msgid "``Bluetooth``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:79
+#: ../doc/sampleapp/samples/ibeacon.rst:78
+msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:80
 msgid "The following contents of the HTML body of :file:`index.html` file loads the :file:`top-page.html` file at startup:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:88
+#: ../doc/sampleapp/samples/ibeacon.rst:89
 msgid "The following contents of the HTML body of :file:`top-page.html` file:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:113
+#: ../doc/sampleapp/samples/ibeacon.rst:114
 msgid "corresponds to the screenshot below which allows a user to see a list of predefined iBeacon devices with its proximity:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:120
+#: ../doc/sampleapp/samples/ibeacon.rst:121
 msgid "The following contents of the HTML body of :file:`info-page.html` file:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:148
+#: ../doc/sampleapp/samples/ibeacon.rst:149
 msgid "corresponds to the screenshot below which shows the information (UUID) of the closest iBeacon device to the mobile."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:158
+#: ../doc/sampleapp/samples/ibeacon.rst:159
 msgid "The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 2 controller functions: :envvar:`TopPageCtrl` and :envvar:`InfoPageCtrl` corresponded to :file:`top-page.html` page and :file:`info-page.html` page, respectively. In order to create global vairables used between these controller functions, we create a service function to store those global variables as follows:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:241
+#: ../doc/sampleapp/samples/ibeacon.rst:242
 msgid "Inside this service function, we are able to:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:243
+#: ../doc/sampleapp/samples/ibeacon.rst:244
 msgid "create an array of all predefined iBeacon devices' information (UUID, proximity, name, icon file and so on)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:244
+#: ../doc/sampleapp/samples/ibeacon.rst:245
 msgid "create a function to search for iBeacon devices nearby and retrieve the UUID of the closest iBeacon devices."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:250
+#: ../doc/sampleapp/samples/ibeacon.rst:248
+msgid "Next, we will explain each controller function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/ibeacon.rst:251
 msgid "TopPageCtrl"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:252
+#: ../doc/sampleapp/samples/ibeacon.rst:253
 msgid ":envvar:`TopPageCtrl` controls the interactions and processes in :file:`top-page.html` file. In other words, it searching for nearby iBeacon devices. If the predefined iBeacon devices are in range, their proximity and rssi (received signal strength indicator) information will be updated. Otherwise, their proximity value will appear as ``ProximityUnknown`` and their rssi value will appear as ``-63 dBm`` (see below screenshot)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:259
-#: ../doc/sampleapp/samples/ibeacon.rst:316
+#: ../doc/sampleapp/samples/ibeacon.rst:260
+#: ../doc/sampleapp/samples/ibeacon.rst:317
 msgid "Below is the JavaScript code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:311
+#: ../doc/sampleapp/samples/ibeacon.rst:312
 msgid "InfoPageCtrl"
 msgstr ""
 
-#: ../doc/sampleapp/samples/ibeacon.rst:313
+#: ../doc/sampleapp/samples/ibeacon.rst:314
 msgid ":envvar:`InfoPageCtrl` controls the interactions and processes in :file:`info-page.html` file. This controller simply displays the UUID of the closest iBeacon device by using the UUID value passing by the ``iBeaconService``. By \"closest\", we mean that the proximity of the iBeacon device is \"Immediate\". Otherwise, the :file:`info-page.html` will not displayed."
 msgstr ""
 
 #: ../doc/sampleapp/samples/index.rst:5
 msgid "Sample Apps & Templates"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:5
-msgid "Inmobi Client"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:10
-msgid "In this page, we will show how to integrate the mobile ads using the mobile ads network Inmobi with Monaca. For more information about the Inmobi, please visit `Inmobi\\'s website <http://www.inmobi.com/>`_ and `Inmobi Mobile Web Integration Guide <https://support.inmobi.com/monetize/integration/mobile-web/>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:22
-msgid "Prerequisites"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:25
-msgid "Property ID from Inmobi"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:27
-msgid "To obtain a property ID from Inmobi, please follow the instruction below:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:29
-msgid "Create an Inmobi account at `Inmobi Site <https://www.inmobi.com/user/register.html?locale=en_us>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:31
-msgid "After succesfully created an Inmobi account, log in to your Inmobi account. In the menu bar, select :guilabel:`MONETIZE` and fill in the necessary information. There are 4 types of property: ``Windows Phone``, ``iOS``, ``Android`` and ``Mobile Web``. In this sample, we choose the ``Mobile Web``. Then, click on :guilabel:`Add Property` button."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:36
-msgid "Next, you need to verify the newly created property which is required by Inmobi. In the property list, click on the :guilabel:`Verification` button (see the screenshot below)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:41
-msgid "To complete the verification, please add the following meta tag within the HTML head tag of your property URL."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:54
-msgid "To find out about your property ID, click on the :guilabel:`Settings` button (see the screenshot below)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:59
-msgid "Then, a dialog showing information of the selected property will appear. You can find the property ID in that dialog."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:64
-msgid "After adding the above code snippet, click on :guilabel:`Verify Now` button."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:81
-msgid "``js/inmobi.js``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:81
-msgid "An Inmobi library."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:83
-#: ../doc/sampleapp/samples/twitter.rst:59
-msgid "A stylesheet file for the application"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:85
-msgid "``images/logo.png``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:85
-msgid "Monaca logo used in the application"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:98
-msgid "In the following code, we used *jQuery Mobile* for the header of the app. For more information on *jQuery Mobile* tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_. The remaining ``div`` tags are used to apply the CSS style we created earlier."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:129
-msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:131
-msgid "``siteid`` (string): the property ID."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:132
-msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:133
-msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:134
-msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:135
-msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:136
-msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:164
-msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:167
-msgid "onDeviceReady() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:169
-msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap is fully loaded. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:188
-msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after PhoneGap is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:191
-msgid "showAds() function"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:193
-msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/inmobi.rst:206
-msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/memo_application.rst:5
@@ -1243,98 +1236,102 @@ msgstr ""
 msgid "This sample app allows user to create a memo application using local storage."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:31
+#: ../doc/sampleapp/samples/memo_application.rst:23
+msgid ":download:`Click here to download the project <download/memo_application.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/memo_application.rst:33
 msgid "The Home screen"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:33
+#: ../doc/sampleapp/samples/memo_application.rst:35
 msgid "``js/memo.js``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:33
+#: ../doc/sampleapp/samples/memo_application.rst:35
 msgid "A JavaScript file handling data manipulation in local storage"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:43
+#: ../doc/sampleapp/samples/memo_application.rst:45
 msgid "``jQuery Mobile``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:50
+#: ../doc/sampleapp/samples/memo_application.rst:52
 msgid "This sample app's user interface is based on jQuery Mobile. In jQuery Mobile, multiple pages can be integrated to a single HTML file. In this app, for example, all pages (Top page, Add Memo page and Detail page) are defined within :file:`index.html`. Specifically, pages are expressed by ``div`` tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify as ``header``, ``content`` , or ``listview``. For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://demos.jquerymobile.com/>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:53
-#: ../doc/sampleapp/samples/memo_application.rst:79
+#: ../doc/sampleapp/samples/memo_application.rst:55
+#: ../doc/sampleapp/samples/memo_application.rst:81
 msgid "The following content of the HTML body tag of ``index.html`` file:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:73
+#: ../doc/sampleapp/samples/memo_application.rst:75
 msgid "corresponds to this screenshot of the Top page (Home screen) which allows a user to add, view or delete memos:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:100
+#: ../doc/sampleapp/samples/memo_application.rst:102
 msgid "corresponds to this screenshot of the Add Memo page which allows a user to add/save a memo:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:106
+#: ../doc/sampleapp/samples/memo_application.rst:108
 msgid "The following content of the HTML body tag of :file:`index.html` file:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:124
+#: ../doc/sampleapp/samples/memo_application.rst:126
 msgid "corresponds to this screenshot of the Detail page which allows a user to see the full content of each memo:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:135
+#: ../doc/sampleapp/samples/memo_application.rst:137
 msgid "app.js"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:137
+#: ../doc/sampleapp/samples/memo_application.rst:139
 msgid ":file:`app.js` is a JavaScript file handling various implementation of the application."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:139
+#: ../doc/sampleapp/samples/memo_application.rst:141
 msgid "As soon as the application starts, the ``initTopPage()`` function is called. This function is used to initialize the Top page (Home screen). The initialization process is to get all the previously stored memo(s) (using the ``getMemoList()`` function which is defined in the :file:`memo.js` file) and put them into a list view. If there is no previously created memo (when using the application for the first time), ``\"No memo found\"`` will be displayed (see below screenshot)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:145
-#: ../doc/sampleapp/samples/memo_application.rst:198
-#: ../doc/sampleapp/samples/memo_application.rst:219
+#: ../doc/sampleapp/samples/memo_application.rst:147
+#: ../doc/sampleapp/samples/memo_application.rst:200
+#: ../doc/sampleapp/samples/memo_application.rst:221
 msgid "Below is the source code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:174
+#: ../doc/sampleapp/samples/memo_application.rst:176
 msgid "On the Top page, when a user clicks on the :guilabel:`+Add` button, the Add Memo page will be shown. After filling in the Memo text box, the ``onSaveBtn()`` function is called when the :guilabel:`Save` button is clicked. In this function, the input text will be saved to local storage via the ``addMemo()`` function (defined in the :file:`memo.js` file) and then it goes back to the Top page with an updated list. Below is the source code of this function:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:192
+#: ../doc/sampleapp/samples/memo_application.rst:194
 msgid "On the Top page, when a user clicks on an item in the list, the ``onShowLink()`` function (defined in the :file:`memo.js` file) is called. In this function, the Detail page will be shown and either the title or the full content of the selected item will be displayed as shown below:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:213
+#: ../doc/sampleapp/samples/memo_application.rst:215
 msgid "On the Top page, a user can delete any item in the list by clicking on the :guilabel:`delete` icon at the end of each item. When the :guilabel:`delete` icon is clicked, the ``onDeleteLink()`` function is called. In this function, a message confirming the deleting action is shown (see below screenshot). If the :guilabel:`OK` button is clicked, the selected item will be deleted from the local storage via the ``deleteMemo()`` function (defined in the :file:`memo.js` file). Then, it will go back the Top page with an updated list."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:240
+#: ../doc/sampleapp/samples/memo_application.rst:242
 msgid "memo.js"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:242
+#: ../doc/sampleapp/samples/memo_application.rst:244
 msgid ":file:`memo.js` file is a JavaScript file handling data manipulation in local storage. Inside this file, there are 4 functions such as:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:244
+#: ../doc/sampleapp/samples/memo_application.rst:246
 msgid "``getMemoList()``: get the list of all memo stored in the local storage."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:245
+#: ../doc/sampleapp/samples/memo_application.rst:247
 msgid "``saveMemoList()``: save the list of all memo into the local storage."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:246
+#: ../doc/sampleapp/samples/memo_application.rst:248
 msgid "``AddMemo()``: add a new memo into the memo list and then save the new list into the local storage using ``saveMemoList()`` function."
 msgstr ""
 
-#: ../doc/sampleapp/samples/memo_application.rst:247
+#: ../doc/sampleapp/samples/memo_application.rst:249
 msgid "``deleteMemo()``: delete a specific memo from the memo list and then save the new list into the local storage using ``saveMemoList()`` function."
 msgstr ""
 
@@ -1346,24 +1343,84 @@ msgstr ""
 msgid "This is an empty template of a Monaca project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/minimum_project.rst:26
+#: ../doc/sampleapp/samples/minimum_project.rst:23
+msgid ":download:`Click here to download the project <download/minimum_project.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/minimum_project.rst:28
 msgid "When using the *Minimum Template*, the following files will be automatically created:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/minimum_project.rst:34
+#: ../doc/sampleapp/samples/minimum_project.rst:36
 msgid "The style sheet file for the project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/minimum_project.rst:45
+#: ../doc/sampleapp/samples/minimum_project.rst:47
 msgid "The above ``<meta>`` tag sets the display width to the actual width of the device screen. Some devices may display slight screen differences."
 msgstr ""
 
-#: ../doc/sampleapp/samples/minimum_project.rst:52
+#: ../doc/sampleapp/samples/minimum_project.rst:54
 msgid "The above ``loader.js`` and ``loader.css`` files are used to load the necessary files and style sheets for the components included in the project."
 msgstr ""
 
-#: ../doc/sampleapp/samples/minimum_project.rst:55
+#: ../doc/sampleapp/samples/minimum_project.rst:57
 msgid "The :file:`index.html` is the Startup page. Here is the screenshot of the Startup page:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:1
+msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:3
+msgid "``siteid`` (string): the property ID."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:4
+msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:5
+msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:6
+msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:7
+msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:8
+msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:36
+msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:39
+msgid "onDeviceReady() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:41
+msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core Cordova Plugins is fully loaded. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:60
+msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after Core Cordova Plugins is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:63
+msgid "showAds() function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:65
+msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/old_inmobi.rst:78
+msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
 msgstr ""
 
 #: ../doc/sampleapp/samples/omikuji.rst:5
@@ -1374,66 +1431,70 @@ msgstr ""
 msgid "Omikuji is a Japanese word means “random fortunes”. In Monaca, app development is done using HTML and JavaScript just like webpages. JavaScript is a scripting language with simple syntax and functions, and often used for smartphone development compared to other languages."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:30
-#: ../doc/sampleapp/samples/shinkansen.rst:31
+#: ../doc/sampleapp/samples/omikuji.rst:22
+msgid ":download:`Click here to download the project <download/omikuji.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/omikuji.rst:33
+#: ../doc/sampleapp/samples/shinkansen.rst:33
 msgid "Image files used in this application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:37
-#: ../doc/sampleapp/samples/todo.rst:45
+#: ../doc/sampleapp/samples/omikuji.rst:40
+#: ../doc/sampleapp/samples/todo.rst:48
 msgid "The contents of the HTML body section are shown below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:45
+#: ../doc/sampleapp/samples/omikuji.rst:48
 msgid "There are two ``div`` tags spanning lines 1 through 4 and lines 5 through 7, with their IDs set to ``hako`` and ``bottombar`` , respectively. These IDs are referenced in the style sheet, which is discussed below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:47
+#: ../doc/sampleapp/samples/omikuji.rst:50
 msgid "The ``div`` tag is used for grouping other tags. For example, the ``div`` tag with the ID ``hako`` contains img tags with the IDs ``saisyo`` and ``kekka`` .  ``img`` tag is used to display an image. These two tags display images for the omikuji box (displayed immediately after startup) and omikuji result, respectively."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:49
+#: ../doc/sampleapp/samples/omikuji.rst:52
 msgid "In order to display the image of the omikuji box when the app starts, the image is specified using the ``src`` attribute of the ``img`` tag with the ID ``saisyo``. In contrast, the ``kekka`` ``img`` tag has no ``src`` attribute. Instead, a ``style=\"display: none\"`` attribute has been provided. This is an example of how to include a style sheet definition (discussed below) in HTML, and this means that the image will not be displayed onscreen when the file is loaded. The fortune telling result image is set and displayed using the JavaScript program discussed below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:51
+#: ../doc/sampleapp/samples/omikuji.rst:54
 msgid "Similarly, the ``div`` tag with the ID ``bottombar`` also contains an ``img`` tag.  In addition to the ``src`` attribute, an ``onclick`` attribute has also been provided.  The ``onclick`` attribute contains JavaScript code to be called when the image is clicked or tapped. In this example, when the fortune telling start button is tapped, the JavaScript ``omikuji()`` function is called.  The `omikuji()` function prepares the fortune telling results and displays them onscreen."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:54
+#: ../doc/sampleapp/samples/omikuji.rst:57
 msgid "Style Sheet Explanation"
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:56
+#: ../doc/sampleapp/samples/omikuji.rst:59
 msgid "The style sheet is included in the HTML ``head`` tag using the ``style`` tag. The style sheet code itself is shown below. There are three main groups of definitions: definitions for the ``body`` tag, definitions for the tag with the ID ``hako`` , and definitions for the tag with the ID ``bottombar`` ."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:64
+#: ../doc/sampleapp/samples/omikuji.rst:67
 msgid "The four properties (``background`` ,  ``margin`` , ``padding`` , and ``text-align``) are applied to set the styling for the ``body`` tag.  The ``background`` property is used to set the background image. In this example, the image :file:`images/omikuji-bg.png` will be enlarged to fill the ``body`` tag, i.e., the entire page.  The margin and padding properties are used to specify the page margins. Since they are both set to ``0`` in this example, there are no margins.  The ``text-align`` property is used to set text alignment. In this example, text is center aligned."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:66
+#: ../doc/sampleapp/samples/omikuji.rst:69
 msgid "As mentioned in the HTML explanation,  ``#hako`` identifies the ``div`` tag used to display the omikuji box and result images, and ``#bottombar`` identifies the ``div`` tag used to display the start button. These style sheet definitions make use of the ``position`` ,  ``bottom`` ,  ``top`` , and ``width``  properties.  When the ``position`` property is set to ``absolute`` , positioning is done using absolute coordinates. In this example, both divs will use coordinates relative to their parent tag, the ``body`` tag.  The ``bottom`` and ``top`` properties set the position from the bottom or top."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:68
+#: ../doc/sampleapp/samples/omikuji.rst:71
 msgid "This app refers to the external style sheet  :file:`components/loader.css`. It contains style sheet definitions used by libraries loaded by Monaca plugins. However, it has no significance here since this sample app does not make use of Monaca plugins included in the style sheets."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:74
-#: ../doc/sampleapp/samples/todo.rst:61
+#: ../doc/sampleapp/samples/omikuji.rst:77
+#: ../doc/sampleapp/samples/todo.rst:64
 msgid "The JavaScript code is shown below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:83
+#: ../doc/sampleapp/samples/omikuji.rst:86
 msgid "Lines 1 through 16 contain the definition of the ``omikuji`` function. When the start button is tapped, this function will be executed. On line 2, the ``Math.floor`` and ``Math.random`` functions are combined to generate a random number from 0 to 3, which is assigned to the dice variable. On lines 4 through 11, the variable *image_name* is assigned an image file name according to the value of the ``dice`` variable."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:85
+#: ../doc/sampleapp/samples/omikuji.rst:88
 msgid "On lines 12 through 15, the ``document.getElementById`` function is used to modify the style sheet and replace images. This is referred to as DOM (Document Object Model) manipulation, and is used to dynamically update. In the following example, the ``src`` attribute of the element (HTML tag) with the ID ``kekka`` is modified."
 msgstr ""
 
-#: ../doc/sampleapp/samples/omikuji.rst:91
+#: ../doc/sampleapp/samples/omikuji.rst:94
 msgid "Since, as described above, the ``image_name`` variable is set to the name of the image file corresponding to the omikuji result, this technique can be used to display the image for the fortune telling result onscreen."
 msgstr ""
 
@@ -1445,70 +1506,74 @@ msgstr ""
 msgid "This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:31
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:23
+msgid ":download:`Click here to download the project <download/onsen_ui_minimum_project.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
 msgid "Home screen  (Startup page)"
-msgstr ""
-
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
-msgid "``page1.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
-msgid "Page 1"
-msgstr ""
-
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:33
-msgid "``page2.html``"
-msgstr ""
-
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:33
-msgid "Page 2"
 msgstr ""
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:34
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:34
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:36
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:34
+msgid "``page1.html``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:34
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:34
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:34
+msgid "Page 1"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:35
+msgid "``page2.html``"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:35
+msgid "Page 2"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:36
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:36
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:38
 msgid "Style sheet file of this project"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:50
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:52
 msgid ":file:`index.html` is the Startup page. It contains the page navigation ``<ons-navigator>`` which is a page stack manager and transition animator. The attribute ``page=\"page1.html\"`` denotes that :file:`page1.html` is the first page of the stack, in other words, it is the first page loaded when the app start."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:52
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:54
 msgid "Instead of using attibute ``page`` of ``<ons-navigator>``, you can also use <ons-page> component under <ons-navigator> to define the first page of the stack. In case of both options are used, the attribute ``page`` overwrites the ``<ons-page>`` component. In other words, the page from the ``page`` attribute is the first page of the stack while the ``<ons-page>`` component is ignored. For more information please refer to `Onsen UI Documentation <http://onsen.io/guide/overview.html#PageNavigation>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:55
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:66
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:66
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:57
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:68
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:68
 msgid "page1.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:57
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:59
 msgid ":file:`page1.html` has a line of text (``Page 1``) and a :guilabel:`Push Page 2` button. (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:62
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:64
 msgid "When the :guilabel:`Push Page 2` button is clicked, the Page 2 is shown horizontally with a :guilabel:`Welcome` back button on top-left of the page. In other words, the Page 2 is currently the second page in the page stack. When the :guilabel:`Welcome` back button is clicked, it goes back to the previous page which, in this case, is the Page 1."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:66
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:75
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:90
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:68
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:77
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:92
 msgid "page2.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:68
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:92
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:70
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:94
 msgid ":file:`page2.html` has only a line of text (``Page 2``). (See the screenshot below)"
 msgstr ""
 
@@ -1520,47 +1585,47 @@ msgstr ""
 msgid "This is a template using `Onsen UI sliding menu <http://onsenui.io/guide/overview.html#UsingSlidingMenu>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:30
-msgid "Startup page"
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:22
+msgid ":download:`Click here to download the project <download/onsen_ui_sliding_menu.zip>`"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:31
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
 msgid "``menu.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:31
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
 msgid "Menu Page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:37
 msgid "``images/ico_swipe_right_s.png``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:37
 msgid "Image file used in this project"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:51
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:53
 msgid ":file:`index.html` is the Startup page. It is the starting point of the app and contains the sliding menu component (``<ons-sliding-menu>`` tag). The ``ons-sliding-menu`` component has main page :file:`page1.html` and menu page :file:`menu.html`. When the :file:`index.html` is loaded at the start of the app, the :file:`page1.html` and :file:`menu.html` are loaded as the main page and menu page, respectively."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:54
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:56
 msgid "menu.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:56
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:58
 msgid ":file:`menu.html` is shown when the :guilabel:`Toggle Menu` button is clicked or when the user swipe the page right. This page contains a list of 2 items: Page 1 (``page1.html``) and Page 2 (``page2.html``). (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:62
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:64
 msgid "While the behind-page (:file:`menu.html`) of the sliding menu element is always the same, its above-page is changed to :file:`navigator1.html` or :file:`navigator2.html` when the :guilabel:`Page 1` or :guilabel:`Page 2` is selected, respectively."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:68
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:70
 msgid ":file:`page1.html` has several lines of text, a :guilabel:`Toggle Menu` button and an image file. (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:77
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:79
 msgid ":file:`page2.html` has only a line of text (``Page 2``) and a :guilabel:`Toggle Menu` button. (See the screenshot below)"
 msgstr ""
 
@@ -1572,71 +1637,75 @@ msgstr ""
 msgid "This is a template using `Onsen UI tabbar <http://onsenui.io/guide/overview.html#UsingTabBar>`_ and `navigator <http://onsenui.io/guide/overview.html#PageNavigation>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:30
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:22
+msgid ":download:`Click here to download the project <download/onsen_ui_tabbar_navigator.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
 msgid "Startup page (Home page)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:31
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:33
 msgid "``navigator.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:31
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:33
 msgid "Navigator page for Page 1"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:34
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:36
 msgid "``page3.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:34
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:36
 msgid "Page 3"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:37
 msgid "``new_page.html``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:35
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:37
 msgid "New page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:53
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:55
 msgid ":file:`index.html` is the Startup page. It contains a ``<ons-tabbar>`` component which consists of 3 tabs: Home (:file:`navigator1.html`), Camera (:file:`page2.html`) and Settings (:file:`page3.html`) tabs. (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:60
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:62
 msgid "navigator.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:62
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:64
 msgid ":file:`navigator.html` stores a navigator element (``<ons-navigator>`` tag) which manages the page navigation backed by page stack, horizontally. As shown in the :file:`navigator.html` file, the :file:`page1.html` is used in a navigator element. In other words, the Page 1 is the first page in the page stack."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:68
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:70
 msgid ":file:`page1.html` has a line of text (``Page 1``) and a :guilabel:`Push New Page` button. (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:75
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:77
 msgid "When the :guilabel:`Push New Page` button is clicked, the New page is shown and pushed into the page stack. In other words, it's the second page in the page stack after the page 1."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:78
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:80
 msgid "new_page.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:80
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:82
 msgid ":file:`new_page.html` has a line of text (``New Page``) and a :guilabel:`Pop Page` button. (See the screenshot below)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:87
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:89
 msgid "Either when the :guilabel:`Home` back button on the top-left corner of the New Page or the :guilabel:`Pop Page` button is clicked, it will go back to the previous page found in the page stack which, in this case, is the Page 1."
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:100
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:102
 msgid "page3.html"
 msgstr ""
 
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:102
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:104
 msgid ":file:`page3.html` has only a line of text (``Page 3``). (See the screenshot below)"
 msgstr ""
 
@@ -1648,75 +1717,79 @@ msgstr ""
 msgid "This is an RSS reader application using jQuery."
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:31
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:23
+msgid ":download:`Click here to download the project <download/sample_rss_reader.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
 msgid "The Startup page where RSS feeds will be loaded"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:35
 msgid "``loading.gif``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:33
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:35
 msgid "A loading image file"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:35
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:37
 msgid "``README.md``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:35
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:37
 msgid "A README file about this template"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:37
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:39
 msgid "``js/feed-reader.js``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:37
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:39
 msgid "A JavaScript file for retrieving the RSS feeds"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:39
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:41
 msgid "``js/phpjs_LICENSE.txt``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:39
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:41
 msgid "A license file (You can ignore this file.)"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:41
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:43
 msgid "Style Sheet for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:67
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:69
 msgid "The HTML body of this file is simply a placeholder of a ``loading.gif``, the feed list and error message."
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:76
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:78
 msgid "As soon as the application starts, the RSS feeds retrieval also begins. While loading the content of RSS feeds, :file:`loading.gif` file is displayed. The following JavaScript code is used to invoke the RSS feeds retrieval function. This function is defined in :file:`feed-reader.js` file which will be explained later in this page. You can try changing the RSS feeds URL."
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:92
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:94
 msgid "feed-reader.js"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:94
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:96
 msgid "When the RSS feeds retrieval function (``Feed.load()``) is called, the following JavaScript code is executed:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:129
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:131
 msgid "If the function is executed successfully, the retrieved RSS feeds are listed in the Home screen as shown in the screenshot below."
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:135
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:137
 msgid "The following JavaScript code corresponds to the display arrangment of RSS feeds in the Home screen (:file:`index.html`):"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:152
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:154
 msgid "The RSS feeds are displayed in a list view format. When click on each link of the feeds, it forwards to the corresponded URL in a ChildBrowser as shown below:"
 msgstr ""
 
-#: ../doc/sampleapp/samples/sample_rss_reader.rst:158
+#: ../doc/sampleapp/samples/sample_rss_reader.rst:160
 msgid "The following JavaScript code corresponds to the above function:"
 msgstr ""
 
@@ -1732,31 +1805,35 @@ msgstr ""
 msgid "*Tested Environments:* Android 4.0, iOS 7.1.1"
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:30
+#: ../doc/sampleapp/samples/shinkansen.rst:21
+msgid ":download:`Click here to download the project <download/shinkansen.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/shinkansen.rst:32
 msgid "The stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:31
+#: ../doc/sampleapp/samples/shinkansen.rst:33
 msgid "``images/¥*¥*¥*.jpg``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:46
+#: ../doc/sampleapp/samples/shinkansen.rst:48
 msgid "This sample uses the native function of Monaca. Therefore, there are multiple HTML pages. First, here is the body of the :file:`index.html`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:53
+#: ../doc/sampleapp/samples/shinkansen.rst:55
 msgid "This sample uses jQuery Mobile to display the list screen. Once you tap each column, ``showDetail`` function is called. This function will transit to the next page, which will be described later. Also ``a`` tag uses ``monaca.invokeBrowser`` function in ``onclick`` attributes. This function is used to launch the browser and display the specified URL."
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:58
+#: ../doc/sampleapp/samples/shinkansen.rst:60
 msgid "The JavaScript code of the Top Screen is not long."
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:65
+#: ../doc/sampleapp/samples/shinkansen.rst:67
 msgid "As mentioned before, ``showDetail`` is called when the column in the list is tapped. Take 2 arguments and assign them to``filename`` variable and ``trqinname`` variable."
 msgstr ""
 
-#: ../doc/sampleapp/samples/shinkansen.rst:67
+#: ../doc/sampleapp/samples/shinkansen.rst:69
 msgid "Display the next page with ``monaca.pushPage``  function. This function will open a new page natively by using Monaca native functions and the variable passed to the next page is defined in it's third argument. The passed value can be obtained by ``monaca.queryParams`` variable."
 msgstr ""
 
@@ -1768,39 +1845,43 @@ msgstr ""
 msgid "The application allows you to add a todo list."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:31
+#: ../doc/sampleapp/samples/todo.rst:22
+msgid ":download:`Click here to download the project <download/todo.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/todo.rst:34
 msgid "A JavaScript file used in the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:52
+#: ../doc/sampleapp/samples/todo.rst:55
 msgid "Since this sample uses jQuery Mobile, the HTML should be written accordingly. Specifically, attributes beginning with *data-*, such as *data-role* and *data-position*, serve special roles in jQuery Mobile."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:54
+#: ../doc/sampleapp/samples/todo.rst:57
 msgid "In jQuery Mobile, multiple pages can be described in a single HTML file. In this app, for example, both the List Screen and the Add Screen are defined within :file:`index.html`. Specifically, pages are expressed by ``div``  tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify ``header``, ``content`` , or ``listview``."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:56
+#: ../doc/sampleapp/samples/todo.rst:59
 msgid "For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:68
+#: ../doc/sampleapp/samples/todo.rst:71
 msgid "Here, the two functions, ``addTodoPicture`` and ``addTodo``, are defined. As the names imply, the first function shoots a photo and registers data while the second performs only data registration."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:70
-msgid "To shoot a photo, the *addTodoPicture* functions calls *navigator.camera.getPicture*,which is a function provide by PhoneGap. If the call is successful, the function *addTodo* is then executed. if it fails, an error message is generated. Photo shoot options such as fixing the image size and specifying the return type are also set."
+#: ../doc/sampleapp/samples/todo.rst:73
+msgid "To shoot a photo, the *addTodoPicture* functions calls *navigator.camera.getPicture*,which is a function provide by Core Cordova Plugins. If the call is successful, the function *addTodo* is then executed. if it fails, an error message is generated. Photo shoot options such as fixing the image size and specifying the return type are also set."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:72
+#: ../doc/sampleapp/samples/todo.rst:75
 msgid "The function ``addTodo`` takes an argument called ``camera_url``. When the function ``navigator.camera.getPicture`` is called and the photo shoot is successful, a reference to the graphic file is stored in this argument."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:74
+#: ../doc/sampleapp/samples/todo.rst:77
 msgid "DOM operations can easily be performed within these functions through the use of jQuery libraries. For example, in the following snippet, the value of the element with ID ``todo-title`` is acquired and assigned to the variable ``title``."
 msgstr ""
 
-#: ../doc/sampleapp/samples/todo.rst:80
+#: ../doc/sampleapp/samples/todo.rst:83
 msgid "Accordingly, in lines 14-19, the input values are read and assigned to the appropriate variables ``title``, ``body``, and ``img_tag``. Next, the function *$.mobile.changePage* transitions to the next page and adds a new row to the list. Finally, the list page is redrawn and the program ends."
 msgstr ""
 
@@ -1810,6 +1891,14 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:10
 msgid "This sample app is showing the Twitter Timeline of a specifice user. It allows user to connect to Twitter from Monaca app by using `OAuth protocol <https://dev.twitter.com/docs/auth/oauth>`_ and InAppBrowser. If you want to use other APIs, please refer `Twitter Documentation <https://dev.twitter.com/docs>`_ ."
+msgstr ""
+
+#: ../doc/sampleapp/samples/twitter.rst:13
+msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
+msgstr ""
+
+#: ../doc/sampleapp/samples/twitter.rst:22
+msgid ":download:`Click here to download the project <download/twitter.zip>`"
 msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:27
@@ -2315,7 +2404,7 @@ msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:11
 #: ../doc/sampleapp/tips/media.rst:46
-msgid "Use PhoneGap Media API."
+msgid "Use Core Cordova Plugins Media API."
 msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:13
@@ -2351,7 +2440,7 @@ msgid "Most iOS devices are capable of playing local sound files by using <audio
 msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:75
-msgid "Using PhoneGap Media API to Play Sound"
+msgid "Using Core Cordova Plugins Media API to Play Sound"
 msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:78
@@ -2380,7 +2469,7 @@ msgid ":download:`download/media/omikuji.zip`"
 msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:3
-msgid "PhoneGap app acceleration/UX Technique"
+msgid "Core Cordova Plugins app acceleration/UX Technique"
 msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:9
@@ -2388,11 +2477,11 @@ msgid "HTML5, CSS3, and Javascript code written in the Monaca app will operate o
 msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:13
-msgid "The article is written in relation to PhoneGap, but WebView operation is the same on both the Monaca app and the PhoneGap app, so you will be able to apply the techniques in the same way as written in the article."
+msgid "The article is written in relation to Core Cordova Plugins, but WebView operation is the same on both the Monaca app and the Core Cordova Plugins app, so you will be able to apply the techniques in the same way as written in the article."
 msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:15
-msgid "In addition, the following link contains an article, which has been translated by our staff, geared towards the PhoneGap app .  `English Article <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/>`_ \""
+msgid "In addition, the following link contains an article, which has been translated by our staff, geared towards the Core Cordova Plugins app .  `English Article <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/>`_ \""
 msgstr ""
 
 #: ../doc/sampleapp/tips/splashScreen.rst:3

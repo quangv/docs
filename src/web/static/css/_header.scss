@@ -269,6 +269,8 @@ header.navbar {
             }
             img {
                 width: 110px;
+                left: 20px;
+                position: absolute;
             }
         }
         .navbar-toggle {
@@ -591,6 +593,154 @@ html[lang=ja] {
 }
 
 
+<<<<<<< HEAD
+=======
+  .alternativeVersion {
+    padding: 0 0.25em;
+  }
+
+  .headcont {
+    box-sizing: border-box;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+  }
+  .site-logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 12px 0 0 0;
+  }
+  .version_selector {
+    position: absolute;
+    font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    top: 35px;
+    right: 20px;
+    select {
+      border-radius: 2px;
+      padding: 4px;
+    }
+  }
+
+  nav.global {
+    position: absolute;
+    top: 0;
+    left: 306px;
+    min-width: 610px;
+    div {
+      > ul {
+        @include clearfix-after;
+        > li {
+          $time: 180ms;
+          background-color: #ffffff;
+          color: white;
+          font-size: 16px;
+          float: left;
+          height: 100%;
+          width: auto;
+          position: relative;
+          text-align: center;
+          &.current {
+            > a {
+              border-bottom: 2px solid $monaca-blue;
+              color: $monaca-blue;
+              &:hover {color: $monaca-blue;}
+              &:visited {color: $monaca-blue;}
+              &:active {color: $monaca-blue;}
+            }
+            &:hover > a {
+              color: white;
+            }
+          }
+          > a {
+            border-bottom: 2px solid transparent;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            display: inline-block;
+            width: auto;width: auto;
+            height: 69px;
+            line-height: 28px;
+            padding: 23px 13px 0;
+            &:link {color: #333; text-decoration: none;}
+            &:visited {color: #333; text-decoration: none;}
+            &:hover {color: #fff; text-decoration: none;}
+            &:active {color: #333; text-decoration: none;}
+          }
+          ul {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            top: 70px;
+            left: 0px;
+            width: auto;
+            min-width: 200px;
+            //opacity: 0;
+            position: absolute;
+            text-align: left;
+            visibility: hidden;
+            z-index: 11;
+            -webkit-transition: visibility 0s linear $time, opacity $time;
+            -moz-transition: visibility 0s linear $time, opacity $time;
+            -o-transition: visibility 0s linear $time, opacity $time;
+            transition: visibility 0s linear $time, opacity $time;
+            > li {
+              padding: 0;
+              > a {
+                background-color: #f9f9f9;
+                border-bottom: 1px solid #e0e0e0;
+                display: block;
+                font-size: 16px;
+                line-height: 40px;
+                padding: 0 30px 0 20px;
+                height: 40px;
+                white-space: nowrap;
+                width: auto;
+                &, &:visited, &:hover {
+                  color: #666;
+                  text-decoration: none;
+                }
+              }
+              &:last-child > a {
+                border-bottom: 0px;
+                height: 41px;
+              }
+              &:hover > a {
+                border-bottom: 0px;
+                height: 41px;
+                background-color: $monaca-blue;
+                &, &:visited, &:hover {
+                  color: white;
+                }
+              }
+            }
+          }
+          &:hover {
+            background-color: $monaca-blue;
+            opacity: 1;
+            > a {
+              color: #fff;
+              font-weight: 700;
+            }
+            ul a {
+              font-weight: 400;
+            }
+            > ul {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+>>>>>>> master
 
 //Fix navigation width even when mouseon
 html[lang=en] header.global nav > div > ul > li {

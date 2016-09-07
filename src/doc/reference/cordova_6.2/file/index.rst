@@ -121,7 +121,7 @@ As of v1.2.0, URLs to important file-system directories are provided. Each URL i
 File System Layouts
 -------------------
 
-Although technically an implementation detail, it can be very useful to know how the ``cordova.file.\*`` properties map to physical paths on a real device.
+Although technically an implementation detail, it can be very useful to know how the ``cordova.file.*`` properties map to physical paths on a real device.
 
 iOS File System Layout
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -129,7 +129,7 @@ iOS File System Layout
 .. container:: scroll-table
 
   +----------------------------------+-----------------------------+-------------------------+------+-------------+-----------+------+---------+
-  | Device Path                      | ``cordova.file.\*``         | ``iOSExtraFileSystems`` | r/w? | persistent? | OS clears | sync | private |
+  | Device Path                      | ``cordova.file.*``          | ``iOSExtraFileSystems`` | r/w? | persistent? | OS clears | sync | private |
   +==================================+=============================+=========================+======+=============+===========+======+=========+
   | /var/mobile/Applications/<UUID>/ | applicationStorageDirectory | \-                      | r    | N/A         | N/A       | N/A  | Yes     |
   +----------------------------------+-----------------------------+-------------------------+------+-------------+-----------+------+---------+
@@ -164,7 +164,7 @@ Android File System Layout
 .. container:: scroll-table
 
   +------------------------+-------------------------------------+-----------------------------+------+-------------+-----------+---------+
-  | Device Path            | ``cordova.file.\*``                 | ``AndroidExtraFileSystems`` | r/w? | persistent? | OS clears | private |
+  | Device Path            | ``cordova.file.*``                  | ``AndroidExtraFileSystems`` | r/w? | persistent? | OS clears | private |
   +========================+=====================================+=============================+======+=============+===========+=========+
   | file:///android_asset/ | applicationDirectory                |                             | r    | N/A         | N/A       | Yes     |
   +------------------------+-------------------------------------+-----------------------------+------+-------------+-----------+---------+
@@ -189,7 +189,7 @@ Android File System Layout
 
 \** The OS does not clear this directory automatically; you are responsible for managing the contents yourself. Should the user purge the cache manually, the contents of the directory are removed.
 
-**Note**: If external storage can't be mounted, the ``cordova.file.external\*`` properties are ``null``.
+**Note**: If external storage can't be mounted, the ``cordova.file.external*`` properties are ``null``.
 
 BlackBerry 10 File System Layout
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -197,7 +197,7 @@ BlackBerry 10 File System Layout
 .. container:: scroll-table
 
   +-------------------------------------------+-----------------------------+------+-------------+-----------+---------+
-  | Device Path                               | ``cordova.file.\*``         | r/w? | persistent? | OS clears | private |
+  | Device Path                               | ``cordova.file.*``          | r/w? | persistent? | OS clears | private |
   +===========================================+=============================+======+=============+===========+=========+
   | file:///accounts/1000/appdata/<app id>/   | applicationStorageDirectory | r    | N/A         | N/A       | Yes     |
   +-------------------------------------------+-----------------------------+------+-------------+-----------+---------+
@@ -220,7 +220,7 @@ OS X File System Layout
 .. container:: scroll-table
 
   +--------------------------------------------+-------------------------------------+-------------------------+------+-----------+---------+
-  | Device Path                                | ``cordova.file.\*``                 | ``iOSExtraFileSystems`` | r/w? | OS clears | private |
+  | Device Path                                | ``cordova.file.*``                  | ``iOSExtraFileSystems`` | r/w? | OS clears | private |
   +============================================+=====================================+=========================+======+===========+=========+
   | /Applications/<appname>.app/               | \-                                  | bundle                  | r    | N/A       | Yes     |
   +--------------------------------------------+-------------------------------------+-------------------------+------+-----------+---------+
@@ -251,7 +251,7 @@ Windows File System Layout
 .. container:: scroll-table
 
   +----------------+----------------------+------+-------------+-----------+---------+
-  | Device Path    | ``cordova.file.\*``  | r/w? | persistent? | OS clears | private |
+  | Device Path    | ``cordova.file.*``   | r/w? | persistent? | OS clears | private |
   +================+======================+======+=============+===========+=========+
   | ms-appdata:/// | applicationDirectory | r    | N/A         | N/A       | Yes     |
   +----------------+----------------------+------+-------------+-----------+---------+

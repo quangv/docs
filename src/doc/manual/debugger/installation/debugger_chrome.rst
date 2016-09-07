@@ -44,7 +44,7 @@ Running Monaca Debugger
 
   .. rst-class:: clear
 
-2. You can also use Chrome App Launcher to access all of your Chrome Apps right from your desktop. Chrome App Launcher installs automatically when you add a Chrome App for the first time.
+2. You can also use Chrome App Launcher to access all of your Chrome Apps right from your desktop. You can install Chrome App Launcher from `Chrome Web Store <https://chrome.google.com/webstore>`_.
 
   .. figure:: images/debugger_chrome/4.png
      :width: 350px

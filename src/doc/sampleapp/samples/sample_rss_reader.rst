@@ -20,6 +20,8 @@ This is an RSS reader application using jQuery.
   </div>
 
 
+:download:`Click here to download the project <download/sample_rss_reader.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

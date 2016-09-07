@@ -24,9 +24,9 @@ module.exports = function(options) {
 
     for (file in files) {
       var rootpath = file.split("/")[0];
-      var path = nodePath.join(metalsmith.source(), rootpath, "/toctree.fjson");
+      var path = nodePath.join(metalsmith.source(), rootpath, '/toctree.fjson');
       if (nodeFs.existsSync(path)) {
-        files[file]["toctree"] = JSON.parse(nodeFs.readFileSync(path)).body.replace(/href="..\//g, 'href="/' + lang + '/' + rootpath + "/");
+        files[file]['toctree'] = JSON.parse(nodeFs.readFileSync(path)).body.replace(/href="..\//g, 'href="/' + lang + '/' + rootpath + '/');
       }
     }
     done();
@@ -37,7 +37,7 @@ module.exports = function(options) {
       "cordova_3.5": "3.5",
       "cordova_4.1": "4.1",
       "cordova_5.2": "5.2",
-      "cordova_6.2": "6.2",
+      "cordova_6.2": "6.2"
     };
     for (file in files) {
       var path = nodePath.join(metalsmith.source(), file);

@@ -32,7 +32,7 @@ In this example, we assume that you haven't registered your application to Googl
 
   .. rst-class:: clear
 
-3. Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project Overview page will appear.
+3. Input the project's name and click :guilabel:`Create`.
 
   .. figure:: images/gcm/1.png
     :width: 500px
@@ -40,7 +40,7 @@ In this example, we assume that you haven't registered your application to Googl
 
   .. rst-class:: clear
 
-4. From the Overview page, select :guilabel:`Google Cloud Messaging` under :guilabel:`Mobile APIs`.
+4. Go to Library panel and type ``Google Cloud Messaging`` in the search box. Then, select on ``Google Cloud Messaging`` in the search result as shown in the screenshot below.
 
   .. figure:: images/gcm/2.png
     :width: 700px

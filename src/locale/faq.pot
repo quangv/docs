@@ -132,7 +132,7 @@ msgid "Can I develop a full-screen app?"
 msgstr ""
 
 #: ../doc/faq/application.rst:110
-msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
+msgid "You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
 msgstr ""
 
 #: ../doc/faq/application.rst:116
@@ -224,7 +224,7 @@ msgid "Can I register the application made by Monaca to a marketplace (App Store
 msgstr ""
 
 #: ../doc/faq/build.rst:10
-msgid "Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.mobi/page/contact>`_."
+msgid "Registration to a marketplace is evaluated according to the application's purpose, development, etc. A submission for registration to the marketplace has never been rejected because the app was built using Monaca. In fact, many Monaca apps have been released. If the rejection has occurred because of Monaca, please `contact us <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
 #: ../doc/faq/build.rst:15
@@ -276,202 +276,210 @@ msgid "You can build an application just for iPhone by setting the target device
 msgstr ""
 
 #: ../doc/faq/build.rst:60
-msgid "Tell me how to upload to Apple App Store in order to submit the registration of the app that was built."
+msgid "How to upload the built app for App Store submission?"
 msgstr ""
 
 #: ../doc/faq/build.rst:62
-msgid "To upload iOS apps to the App Store, use the software called *Application Loader* which runs on OSX only. Application Loader can be downloaded for free from the Apple website (iTunes Connect). This information is as of September 2012."
+msgid "There are two ways to upload the built app to iTunes Connect for App Store submission:"
 msgstr ""
 
-#: ../doc/faq/build.rst:67
+#: ../doc/faq/build.rst:64
+msgid "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription plan <https://monaca.io/pricing.html>`_)"
+msgstr ""
+
+#: ../doc/faq/build.rst:65
+msgid "using Application Loader software (Mac OS X only)"
+msgstr ""
+
+#: ../doc/faq/build.rst:71
 msgid "Are there any examples of applications developed with Monaca that went through Apple's review, and are actually available on the App Store?"
 msgstr ""
 
-#: ../doc/faq/build.rst:69
+#: ../doc/faq/build.rst:73
 msgid "For example,  `Kobuta House <http://itunes.apple.com/us/app/kobutahausu/id553150583?mt=8>`_ is a sample app that we developed. It is a mini-game app that is available on the App Store. For more samples, please check `our showcase link <http://monaca.mobi/showcase>`_."
 msgstr ""
 
-#: ../doc/faq/build.rst:75
+#: ../doc/faq/build.rst:79
 msgid "Can I develop Windows Store apps?"
 msgstr ""
 
-#: ../doc/faq/build.rst:77
+#: ../doc/faq/build.rst:81
 msgid "It is possible to develop a Windows Store app as a debug build. But in this case, you can't release that app to the Windows Store. (We will to tackle this issue in the future.)"
 msgstr ""
 
-#: ../doc/faq/build.rst:83
+#: ../doc/faq/build.rst:87
 msgid "Can I develop Chrome Apps using Monana?"
 msgstr ""
 
-#: ../doc/faq/build.rst:85
+#: ../doc/faq/build.rst:89
 msgid "Yes, you can use Monaca to develop Chrome Apps. For more information, please refer to :doc:`../manual/build/build_chrome_app/`"
 msgstr ""
 
-#: ../doc/faq/build.rst:90
+#: ../doc/faq/build.rst:94
 msgid "I can't successfully register the iOS app to App Store/I can't pass the review."
 msgstr ""
 
-#: ../doc/faq/build.rst:91
+#: ../doc/faq/build.rst:95
 msgid "There may be various reasons for this but most of them lie in the certificates, provisioning  profile, and App ID. Please double-check the following points:"
 msgstr ""
 
-#: ../doc/faq/build.rst:93
+#: ../doc/faq/build.rst:97
 msgid "Are the established distribution certificate and provisioning profile currently valid on the Provisioning Portal?"
 msgstr ""
 
-#: ../doc/faq/build.rst:94
+#: ../doc/faq/build.rst:98
 msgid "Is the provisioing corresponded to the AppStore Distribution?"
 msgstr ""
 
-#: ../doc/faq/build.rst:95
+#: ../doc/faq/build.rst:99
 msgid "Are you using the latest version of the *Application Loader*?"
 msgstr ""
 
-#: ../doc/faq/build.rst:96
+#: ../doc/faq/build.rst:100
 msgid "In the case of uploading, are there any changes to the certificate and App ID from the previous version?"
 msgstr ""
 
-#: ../doc/faq/build.rst:98
+#: ../doc/faq/build.rst:102
 msgid "Using Monaca has never been the reason of a rejected review. If the review result was \"Incorrect API is used\", please notify our support staff."
 msgstr ""
 
-#: ../doc/faq/build.rst:103
+#: ../doc/faq/build.rst:107
 msgid "Tell me how to import/export private keys and certificates that are using Xcode."
 msgstr ""
 
-#: ../doc/faq/build.rst:105
+#: ../doc/faq/build.rst:109
 msgid "You can import private keys on your local Mac, and export Monaca's private keys and certificates. For details, please refer to  :doc:`../manual/build/ios/import_export`."
 msgstr ""
 
-#: ../doc/faq/build.rst:110
+#: ../doc/faq/build.rst:114
 msgid "The built application crashes right after starting up."
 msgstr ""
 
-#: ../doc/faq/build.rst:113
+#: ../doc/faq/build.rst:117
 msgid "The following points are the possibilities which could make the application crashes after starting up, please double-checked these points and rebuild your application."
 msgstr ""
 
-#: ../doc/faq/build.rst:115
+#: ../doc/faq/build.rst:119
 msgid "An inappropriate image may have been assigned to the splash screen."
 msgstr ""
 
-#: ../doc/faq/build.rst:116
-msgid "There may be a description error in the :file:`MonacaSkeleton-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android."
+#: ../doc/faq/build.rst:120
+msgid "There may be a description error in the :file:`MonacaApp-Info.plist` in case of iOS or :file:`AndroidManifest.xml` in case of Android."
 msgstr ""
 
-#: ../doc/faq/build.rst:117
+#: ../doc/faq/build.rst:121
 msgid "Please check in particular if there is an error in the specified permission, especially whether the required permission settings have been made. For example: even though  :file:`components/loader.js` file is loaded, \"ACCESS_NETWORK_STATE\" cannot be accessed or in the case that application uses *location information* but \"ACCESS_COARSE_LOCATION\" is not permitted and so on."
 msgstr ""
 
-#: ../doc/faq/build.rst:123
+#: ../doc/faq/build.rst:127
 msgid "Can I use Japanese for the app name?"
 msgstr ""
 
-#: ../doc/faq/build.rst:125
+#: ../doc/faq/build.rst:129
 msgid "You can use Japanese. Please set Japanese for the app name from Build Settings in Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/faq/build.rst:130
+#: ../doc/faq/build.rst:134
 msgid "What kind of character string should be used for iOS App ID?"
 msgstr ""
 
-#: ../doc/faq/build.rst:133
+#: ../doc/faq/build.rst:137
 msgid "You can set it with your own preference; however, we recommend that the App ID should be your own domain name but written in reverse. Please see `our blog article <http://blog.asial.co.jp/738>`_ (Japanese) for details."
 msgstr ""
 
-#: ../doc/faq/build.rst:138
+#: ../doc/faq/build.rst:142
 msgid "During the iOS build, an internal server error (71)."
 msgstr ""
 
-#: ../doc/faq/build.rst:140
+#: ../doc/faq/build.rst:144
 msgid "This is an error that occurs when your App ID or application name contains one-byte space. Please recheck them again."
 msgstr ""
 
-#: ../doc/faq/build.rst:145
+#: ../doc/faq/build.rst:149
 msgid "Application Loader raises following error when uploading iOS application."
 msgstr ""
 
-#: ../doc/faq/build.rst:147
+#: ../doc/faq/build.rst:151
 msgid "If your app raised one of the following errors:"
 msgstr ""
 
-#: ../doc/faq/build.rst:149
+#: ../doc/faq/build.rst:153
 msgid "**\"Application failed codesign verification\"**"
 msgstr ""
 
-#: ../doc/faq/build.rst:150
+#: ../doc/faq/build.rst:154
 msgid "**\"The signature was invalid\"**"
 msgstr ""
 
-#: ../doc/faq/build.rst:151
+#: ../doc/faq/build.rst:155
 msgid "**\"Contains disallowed entitlements\"**"
 msgstr ""
 
-#: ../doc/faq/build.rst:152
+#: ../doc/faq/build.rst:156
 msgid "**\"It was not signed with an iPhone Distribution Certificate\"**."
 msgstr ""
 
-#: ../doc/faq/build.rst:154
+#: ../doc/faq/build.rst:158
 msgid "Open Key Chain Access and delete certificates and private keys that have the same name."
 msgstr ""
 
-#: ../doc/faq/build.rst:159
+#: ../doc/faq/build.rst:163
 msgid "Can I share my iOS certificates and private key?"
 msgstr ""
 
-#: ../doc/faq/build.rst:161
+#: ../doc/faq/build.rst:165
 msgid "Yes, it is possible to share iOS private key and certificates among other users and environments. Please refer to :ref:`here <import_export_certificates_and_private_keys>`."
 msgstr ""
 
-#: ../doc/faq/build.rst:167
+#: ../doc/faq/build.rst:171
 msgid "Can I share my Android keystore?"
 msgstr ""
 
-#: ../doc/faq/build.rst:169
+#: ../doc/faq/build.rst:173
 msgid "Yes, you can share your Android keystore. You can download your Android keystore from Monaca Cloud IDE. Please always back up and keep the keystore which is used to sign application(s) because when a keystore is lost, it is impossible to use the same key to re-sign the signed package."
 msgstr ""
 
-#: ../doc/faq/build.rst:171
+#: ../doc/faq/build.rst:175
 msgid "How to create and export Android keystore are described in :ref:`Configure Android Keystore <config_android_keystore>`."
 msgstr ""
 
-#: ../doc/faq/build.rst:177
+#: ../doc/faq/build.rst:181
 msgid "Things to keep in mind when you register applications to the App Store"
 msgstr ""
 
-#: ../doc/faq/build.rst:179
+#: ../doc/faq/build.rst:183
 msgid "You can submit Monaca Apps to the App Store and many Monaca Apps have been accepted."
 msgstr ""
 
-#: ../doc/faq/build.rst:181
+#: ../doc/faq/build.rst:185
 msgid "Apple judges applications based on whether their designing, operational feeling, and quality meet Apple's standards or not. Apple will not reject registration requests for an application just because it relies heavily on WebView."
 msgstr ""
 
-#: ../doc/faq/build.rst:184
+#: ../doc/faq/build.rst:188
 msgid "`PhoneGap advice on dealing with Apple application rejections <http://www.adobe.com/devnet/phonegap/articles/apple-application-rejections-and-phonegap-advice.html>`_ recommends the following points as the criterion to pass the screening by Apple:"
 msgstr ""
 
-#: ../doc/faq/build.rst:186
+#: ../doc/faq/build.rst:190
 msgid "Providing of user experiences that are appropriate to applications"
 msgstr ""
 
-#: ../doc/faq/build.rst:187
+#: ../doc/faq/build.rst:191
 msgid "Blending into the ecosystem of the iOS"
 msgstr ""
 
-#: ../doc/faq/build.rst:188
+#: ../doc/faq/build.rst:192
 msgid "Differentiating from the mobile Web experience."
 msgstr ""
 
-#: ../doc/faq/build.rst:191
+#: ../doc/faq/build.rst:195
 msgid "Please refer to the above link for more details on what to keep in mind when developing applications that will pass the screening by Apple, so please refer to it when registering to the AppStore."
 msgstr ""
 
-#: ../doc/faq/build.rst:194
+#: ../doc/faq/build.rst:198
 msgid "If your application is targeting for iOS 6.0 or newer, and using Web SQL Database, the files created by the database are stored in the iCloud by default (when BackupWebStorage parameter is set to cloud). In such case, your app may be rejected if you did not declare the app to use iCloud when submitting for App Store. Accordingly, Web SQL Database files will not be stored in the iCloud backup storage when BackupWebStorage parameter is set to none. If you want to backup your data to iCloud, please set the parameter to cloud."
 msgstr ""
 
-#: ../doc/faq/build.rst:196
+#: ../doc/faq/build.rst:200
 msgid "For more detail, please refer ``BackupWebStorage`` in :doc:`../../reference/config/ios_configuration`"
 msgstr ""
 
@@ -512,7 +520,7 @@ msgid "Reset the cache: in Monaca debugger menu select \"Delete the sync data\" 
 msgstr ""
 
 #: ../doc/faq/debugger.rst:35
-msgid "If the issue still persists, please contact us via `Monaca Support <https://monaca.mobi/en/support/index>`_."
+msgid "If the issue still persists, please contact us via `Monaca Support <https://monaca.io/service/>`_."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:40
@@ -528,7 +536,7 @@ msgid "The debug log is not displayed."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:50
-msgid "For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.mobi/en/support/index>`_,  we will look into it and provide the solution as soon as possible."
+msgid "For some devices, such as devices from HTC, there are confirmed cases of which the debug log cannot be displayed. If possible, please inform us of any information about devices that have such problem via `Monaca Support <https://monaca.io/service/>`_,  we will look into it and provide the solution as soon as possible."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:55
@@ -552,7 +560,7 @@ msgid "Monaca Debugger is not working."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:74
-msgid "Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.mobi/en/support/inquiry>`_ ."
+msgid "Please try to reinstall Monaca Debugger. If it is still not working, please `contact us <https://monaca.io/service/>`_ ."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:79
@@ -676,7 +684,7 @@ msgid "Why can I develop smartphone applications with Monaca even without using 
 msgstr ""
 
 #: ../doc/faq/environment.rst:28
-msgid "Monaca utilizes `PhoneGap <http://phonegap.com/>`_ as the library for accessing unique features of mobile devices. Through PhoneGap, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
+msgid "Monaca utilizes `Apache Cordova <http://cordova.apache.org//>`_ as the library for accessing unique features of mobile devices. Through Cordova, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
 msgstr ""
 
 #: ../doc/faq/environment.rst:33
@@ -808,7 +816,7 @@ msgid "Can I use Monaca for free?"
 msgstr ""
 
 #: ../doc/faq/general.rst:76
-msgid "Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_."
+msgid "Yes, you can but there are limitation for free users. For more information related to types of Monaca accounts and their usage, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/faq/general.rst:78
@@ -816,11 +824,11 @@ msgid "If you are new to Monaca and interested to try it, please `sign up <https
 msgstr ""
 
 #: ../doc/faq/general.rst:83
-msgid "What is Cordova Core Plugins?"
+msgid "What is Cordova Core Plugin?"
 msgstr ""
 
 #: ../doc/faq/general.rst:84
-msgid "Cordova Core Plugins is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ ."
+msgid "Cordova Core Plugin is a mobile application development framework, based upon the open source Apache Cordova project. It was originally developed by Nitobi which was acquired by Adobe. Monaca utilizes Cordova Core Plugins to access the unique features of smartphones using JavaScript. For more information of Cordova Core Plugins usage in Monaca, please refer to :ref:`monaca_with_cordova` and `here <https://cordova.apache.org/docs/en/latest/>`_ ."
 msgstr ""
 
 #: ../doc/faq/general.rst:89
@@ -828,7 +836,7 @@ msgid "Can I develop commercial smartphone applications using Monaca?"
 msgstr ""
 
 #: ../doc/faq/general.rst:90
-msgid "Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.mobi/page/contact>`_ if you have any questions."
+msgid "Yes, please make the most use of Monaca. Currently, there is no restriction on commercial use. Please `contact us <https://monaca.io/support/inquiry.html>`_ if you have any questions."
 msgstr ""
 
 #: ../doc/faq/general.rst:95
@@ -836,7 +844,7 @@ msgid "I don't understand something about Monaca. Where can I ask questions?"
 msgstr ""
 
 #: ../doc/faq/general.rst:97
-msgid "Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.mobi/page/contact>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc."
+msgid "Please inquire using `Monaca Forum <https://monaca.mobi/en/forum>`_ or `contact form <https://monaca.io/support/inquiry.html>`_ for the issues concerning Monaca such as technical questions, requests, practical business use, and etc."
 msgstr ""
 
 #: ../doc/faq/general.rst:103
@@ -869,7 +877,7 @@ msgstr ""
 
 #: ../doc/faq/general.rst:112
 #: ../doc/faq/general.rst:127
-msgid "For more information, pleaser refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_."
+msgid "For more information, pleaser refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/faq/general.rst:118
@@ -893,7 +901,7 @@ msgid "If I change my plan, will my project data remain intact?"
 msgstr ""
 
 #: ../doc/faq/general.rst:143
-msgid "Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <http://monaca.mobi/pricing/>`_ about the number of projects allowed for each plan."
+msgid "Yes. There is no loss of project data or Monaca backend data due to plan changing. Please be aware that, in the case of the number of active projects exceeding the limit of the number of projects allowed by your plan, you will be able to create new project unless the number of active projects is reduced to within the range of the limitation by archiving or deleting them. Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about the number of projects allowed for each plan."
 msgstr ""
 
 #: ../doc/faq/general.rst:149
@@ -961,7 +969,7 @@ msgid "Login to `Monaca Dashboard <https://monaca.mobi/en/dashboard>`_."
 msgstr ""
 
 #: ../doc/faq/general.rst:208
-msgid "Go to :menuselection:`Plan Detail --> Manage Plan`. Then, Manage Plan page will appear."
+msgid "Go to :menuselection:`Manage Account`. Then, Manage Account page will appear."
 msgstr ""
 
 #: ../doc/faq/general.rst:209
@@ -1037,7 +1045,7 @@ msgid "Login into `Monaca website <https://monaca.io/>`_."
 msgstr ""
 
 #: ../doc/faq/subscription.rst:10
-msgid "Go to `Pricing page <https://monaca.mobi/en/pricing>`_."
+msgid "Go to `Pricing page <https://monaca.mobi/en/pricing?type=1>`_."
 msgstr ""
 
 #: ../doc/faq/subscription.rst:11
@@ -1185,42 +1193,38 @@ msgid "The easiest way is to use Monaca's built-in \"share\" feature. Then, two 
 msgstr ""
 
 #: ../doc/faq/usage.rst:76
-msgid "Another way is to set up a version control system and do the local development using Monaca Localkit or Monaca CLI. This requires a higher skill set, but more collaborative."
-msgstr ""
-
-#: ../doc/faq/usage.rst:78
 msgid "The last option is to use Monaca for Visual Studios. In this case, the files can be managed by VS's built in Team Explorer functionality. Git, TFS, Visual Studio Online and other supported version control system can be used in this case."
 msgstr ""
 
-#: ../doc/faq/usage.rst:80
+#: ../doc/faq/usage.rst:78
 msgid "Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in \"share\" feature, and share the project with the test members."
 msgstr ""
 
-#: ../doc/faq/usage.rst:83
-msgid "However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.mobi/en/pricing>`_."
+#: ../doc/faq/usage.rst:81
+msgid "However, if your usage plan is Basic or Personal, you can only join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:88
+#: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:90
-msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.mobi/page/contact>`_."
+#: ../doc/faq/usage.rst:88
+msgid "Currently, for general use, each user's resources are controlled by each account on the same server. We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). Please contact us `here <https://monaca.io/support/inquiry.html>`_."
 msgstr ""
 
-#: ../doc/faq/usage.rst:97
+#: ../doc/faq/usage.rst:95
 msgid "Are there any keyboard shortcuts or keybindings that can be used on the Monaca Cloud IDE?"
 msgstr ""
 
-#: ../doc/faq/usage.rst:99
+#: ../doc/faq/usage.rst:97
 msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/faq/usage.rst:105
+#: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
 msgstr ""
 
-#: ../doc/faq/usage.rst:107
+#: ../doc/faq/usage.rst:105
 msgid "For the changes to the Splash screen, you can configure from the \"Splash Screen Settings\" in :ref:`config_ios_app_monaca` and :ref:`config_android_app` for iOS and Android, respectively."
 msgstr ""
 

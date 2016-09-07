@@ -3,26 +3,24 @@
 -----------------------------------
 WebIntent Plugin (Android)
 -----------------------------------
-
-.. rst-class:: right-menu
-
    
 
-Using WebIntent plugin, Monaca apps can start another application installed in the devices. The following sample will start an app that will display a map.
+WebIntent plugin lets you start an installed application from within Monaca application. The following sample will start an app that will display a map.
+
+.. note:: This plugin is available only to Android platform.
+
 
 
 Enable Plugin in Monaca
 ===========================
 
-1. From the IDE menu, go to :menuselection:`File > Manage Cordova Plugins` or :menuselection:`Config > Manage Cordova Plugins`.
+1. From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`.
 
 2. Click :guilabel:`Enable` button of the WebIntent to add it into your project.
 
   .. image:: images/webintent/1.png  
-         :width: 600px
+         :width: 700px
 
-
-.. note:: It's available only to Android platform.
 
 WebIntent Plugin Demo
 ===========================
@@ -60,8 +58,17 @@ WebIntent Plugin Demo
 
 Using ``"url"`` attribute of the ``"startActivity"`` function, an app can specify the target app to be launched. Here are some examples:
 
-.. literalinclude:: webintent/en/index.html
-   :language: javascript
+.. code-block:: javascript
+
+    //Call to the specified phone number
+    url: 'tel: phone_number=' + '03-5875-6862'
+    
+    //Open the specified page in a browser
+        url: 'http://www.asial.co.jp'
+
+    //Open the information of the 1st person in the contact
+        url: 'content://contacts/people/1'
+
 
 
 

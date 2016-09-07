@@ -20,6 +20,8 @@ This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application.
   </div>
 
 
+:download:`Click here to download the project <download/onsen_ui_minimum_project.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

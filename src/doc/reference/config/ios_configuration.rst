@@ -1,4 +1,4 @@
-.. MonacaSkeleton-Info.plist:
+.. _ios_configuration_file:
 
 ===================================================================================================
 iOS Configuration
@@ -74,6 +74,7 @@ You can configure your iOS app in :file:`MonacaApp-Info.plist` file. For informa
     :width: 250px
     :align: center
 
+.. note:: For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from Monaca framework. Therefore, in order to config iOS application settings, use :ref:`custom_config_plugin`.
 
 :file:`MonacaApp-Info.plist` (Excerpt)
 
@@ -254,7 +255,7 @@ Statusbar Setting
 config.xml
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :file:`config.xml` file is a settings file controlling various settings of Cordova. It's located under ``www`` folder inside your monaca project. 
+The :file:`config.xml` file is a settings file controlling various settings of Cordova. 
 
 .. figure:: images/android/2.png
     :width: 250px

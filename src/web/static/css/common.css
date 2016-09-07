@@ -802,7 +802,9 @@ header.navbar {
         header.navbar .navbar-header .navbar-brand {
           padding-left: 16px; } }
       header.navbar .navbar-header .navbar-brand img {
-        width: 110px; }
+        width: 110px;
+        left: 20px;
+        position: absolute; }
     header.navbar .navbar-header .navbar-toggle {
       background-color: rgba(0, 0, 0, 0.16);
       border-radius: 0;
@@ -1035,6 +1037,174 @@ header.navbar {
     margin-top: -8px;
     margin-right: -8px; }
 
+<<<<<<< HEAD
+=======
+header.global {
+  background-color: #ffffff;
+  border-bottom: 1px solid #c2c0c1;
+  color: #333;
+  height: 70px;
+  z-index: 1;
+  position: inherit;
+  top: 50px;
+  left: 0px;
+  width: 100%; }
+  header.global:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    font-size: 0; }
+  header.global a:link {
+    color: #5d89cb;
+    text-decoration: none; }
+  header.global a:visited {
+    color: #5d89cb;
+    text-decoration: none; }
+  header.global a:hover {
+    color: #5d89cb;
+    text-decoration: underline;
+    width: auto; }
+  header.global a:active {
+    color: #5d89cb;
+    text-decoration: none; }
+  header.global .currentVersion {
+    font-weight: bold;
+    padding: 0 0.25em; }
+  header.global .alternativeVersion {
+    padding: 0 0.25em; }
+  header.global .headcont {
+    box-sizing: border-box;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative; }
+  header.global .site-logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 12px 0 0 0; }
+  header.global .version_selector {
+    position: absolute;
+    font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    top: 35px;
+    right: 20px; }
+    header.global .version_selector select {
+      border-radius: 2px;
+      padding: 4px; }
+  header.global nav.global {
+    position: absolute;
+    top: 0;
+    left: 306px;
+    min-width: 610px; }
+    header.global nav.global div > ul:after {
+      content: ".";
+      display: block;
+      clear: both;
+      height: 0px;
+      visibility: hidden;
+      font-size: 0; }
+    header.global nav.global div > ul > li {
+      background-color: #ffffff;
+      color: white;
+      font-size: 16px;
+      float: left;
+      height: 100%;
+      width: auto;
+      position: relative;
+      text-align: center; }
+      header.global nav.global div > ul > li.current > a {
+        border-bottom: 2px solid #5d89cb;
+        color: #5d89cb; }
+        header.global nav.global div > ul > li.current > a:hover {
+          color: #5d89cb; }
+        header.global nav.global div > ul > li.current > a:visited {
+          color: #5d89cb; }
+        header.global nav.global div > ul > li.current > a:active {
+          color: #5d89cb; }
+      header.global nav.global div > ul > li.current:hover > a {
+        color: white; }
+      header.global nav.global div > ul > li > a {
+        border-bottom: 2px solid transparent;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        width: auto;
+        width: auto;
+        height: 69px;
+        line-height: 28px;
+        padding: 23px 13px 0; }
+        header.global nav.global div > ul > li > a:link {
+          color: #333;
+          text-decoration: none; }
+        header.global nav.global div > ul > li > a:visited {
+          color: #333;
+          text-decoration: none; }
+        header.global nav.global div > ul > li > a:hover {
+          color: #fff;
+          text-decoration: none; }
+        header.global nav.global div > ul > li > a:active {
+          color: #333;
+          text-decoration: none; }
+      header.global nav.global div > ul > li ul {
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        top: 70px;
+        left: 0px;
+        width: auto;
+        min-width: 200px;
+        position: absolute;
+        text-align: left;
+        visibility: hidden;
+        z-index: 11;
+        -webkit-transition: visibility 0s linear 180ms, opacity 180ms;
+        -moz-transition: visibility 0s linear 180ms, opacity 180ms;
+        -o-transition: visibility 0s linear 180ms, opacity 180ms;
+        transition: visibility 0s linear 180ms, opacity 180ms; }
+        header.global nav.global div > ul > li ul > li {
+          padding: 0; }
+          header.global nav.global div > ul > li ul > li > a {
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #e0e0e0;
+            display: block;
+            font-size: 16px;
+            line-height: 40px;
+            padding: 0 30px 0 20px;
+            height: 40px;
+            white-space: nowrap;
+            width: auto; }
+            header.global nav.global div > ul > li ul > li > a, header.global nav.global div > ul > li ul > li > a:visited, header.global nav.global div > ul > li ul > li > a:hover {
+              color: #666;
+              text-decoration: none; }
+          header.global nav.global div > ul > li ul > li:last-child > a {
+            border-bottom: 0px;
+            height: 41px; }
+          header.global nav.global div > ul > li ul > li:hover > a {
+            border-bottom: 0px;
+            height: 41px;
+            background-color: #5d89cb; }
+            header.global nav.global div > ul > li ul > li:hover > a, header.global nav.global div > ul > li ul > li:hover > a:visited, header.global nav.global div > ul > li ul > li:hover > a:hover {
+              color: white; }
+      header.global nav.global div > ul > li:hover {
+        background-color: #5d89cb;
+        opacity: 1; }
+        header.global nav.global div > ul > li:hover > a {
+          color: #fff;
+          font-weight: 700; }
+        header.global nav.global div > ul > li:hover ul a {
+          font-weight: 400; }
+        header.global nav.global div > ul > li:hover > ul {
+          visibility: visible;
+          opacity: 1; }
+
+>>>>>>> master
 html[lang=en] header.global nav > div > ul > li:nth-child(1) {
   width: 120px; }
 
@@ -1327,7 +1497,7 @@ a.scrollup {
   height: 53px;
   position: fixed;
   bottom: 90px;
-  right: 12px;
+  right: 7px;
   display: none;
   text-indent: -9999px;
   background: url(../img/common/btn_top.png) no-repeat;
@@ -1337,13 +1507,37 @@ a.scrollup {
   a.scrollup:active {
     background: url(../img/common/btn_top_active.png) no-repeat; }
 
+aside.top-page {
+  float: right;
+  font-size: 16px;
+  padding: 15px 0px 40px 0px;
+  width: 288px;
+  box-sizing: border-box; }
+  aside.top-page div.aside-search {
+    padding: 0;
+    margin-right: 15px; }
+  aside.top-page .gsc-input-box {
+    height: 30px; }
+  aside.top-page div.aside-search .cse .gsc-control-cse, aside.top-page .gsc-control-cse {
+    padding: 0;
+    width: auto; }
+  aside.top-page div.aside-search .gsib_a {
+    width: 100%;
+    padding: 5px 6px 3px; }
+  aside.top-page div.aside-search .cse .gsc-search-button input.gsc-search-button-v2, aside.top-page input.gsc-search-button-v2 {
+    width: 56px;
+    height: 30px;
+    padding: 4px 18px 4px 18px;
+    min-width: 13px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #5d89cb; }
+
 aside.global {
   float: right;
   font-size: 16px;
   padding: 55px 0px 40px 0px;
   width: 288px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* css for google search */
   /* css for google search */
@@ -1351,7 +1545,8 @@ aside.global {
   aside.global ::-webkit-scrollbar {
     width: 8px; }
   aside.global div.aside-search {
-    padding: 0; }
+    padding: 0;
+    margin-right: 15px; }
   aside.global .gsc-input-box {
     height: 30px; }
   aside.global div.aside-search .cse .gsc-control-cse, aside.global .gsc-control-cse {
@@ -1366,11 +1561,14 @@ aside.global {
     padding: 4px 18px 4px 18px;
     min-width: 13px;
     margin-top: 5px;
-    margin-right: 5px; }
+    margin-right: 5px;
+    background-color: #5d89cb; }
   aside.global nav.aside-main {
     background-color: #f2f2f2;
-    padding-right: 10px;
-    padding-bottom: 20px; }
+    /*padding-right: 10px;*/
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px; }
     aside.global nav.aside-main > div.aside-search-result-info {
       background-color: #ffff80;
       color: #444;
@@ -1382,23 +1580,22 @@ aside.global {
       border-bottom: 1px solid #ccc; }
     aside.global nav.aside-main > div > ul {
       margin-left: 0;
-      padding-top: 10px; }
+      padding-top: 10px;
+      /*padding-right: 10px;*/ }
       aside.global nav.aside-main > div > ul > li > a {
         color: #444;
         text-decoration: none;
         font-weight: bold;
         padding: 10px; }
       aside.global nav.aside-main > div > ul > li > ul {
-        padding: 1em 1em 1em 0; }
+        padding: 1em 10px 1em 0; }
         aside.global nav.aside-main > div > ul > li > ul li {
           color: #5d89cb;
-          line-height: 1.5;
+          line-height: 1.8;
+          left: 5%;
           margin: 0;
-          padding: 6px 0 6px 0;
-          position: relative;
-          -webkit-transition: background-color 100ms;
-          -moz-transition: background-color 100ms;
-          transition: background-color 100ms; }
+          padding: 6px 2px 6px 0;
+          position: relative; }
           aside.global nav.aside-main > div > ul > li > ul li a:link, aside.global nav.aside-main > div > ul > li > ul li a:visited {
             color: #5d89cb;
             text-decoration: none; }
@@ -1432,6 +1629,8 @@ aside.global {
             text-decoration: none; }
             aside.global nav.aside-main > div > ul > li > ul li.current > a, aside.global nav.aside-main > div > ul > li > ul li.current > a:link, aside.global nav.aside-main > div > ul > li > ul li.current > a:hover, aside.global nav.aside-main > div > ul > li > ul li.current > a:visited {
               color: white; }
+          aside.global nav.aside-main > div > ul > li > ul li > ul {
+            padding: 1em 10px 1em 0; }
       aside.global nav.aside-main > div > ul > li li {
         font-size: 1.3rem;
         padding-top: 8px;
@@ -2218,7 +2417,7 @@ div.sampleapp {
   div.sampleapp p {
     padding-left: 5px;
     padding-right: 15px; }
-  div.sampleapp button {
+  div.sampleapp a, div.sampleapp button {
     margin: 20px 5px 5px 5px;
     font-size: 16px;
     border: 1px solid #373d47;
@@ -2226,6 +2425,11 @@ div.sampleapp {
     color: #fff;
     background-color: #505763;
     padding: 10px 10px 10px 10px; }
+  div.sampleapp a:link {
+    color: #fff; }
+  div.sampleapp a:hover {
+    color: #fff;
+    text-decoration: none; }
   div.sampleapp .column-left,
   div.sampleapp .column-center,
   div.sampleapp .column-right {

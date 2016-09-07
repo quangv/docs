@@ -18,6 +18,9 @@ Omikuji is a Japanese word means “random fortunes”. In Monaca, app developme
     <iframe src="https://monaca.github.io/project-templates/23-omikuji/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
+
+:download:`Click here to download the project <download/omikuji.zip>`
+
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -241,6 +241,7 @@
         </table>
     </div>
 
+<<<<<<< HEAD
     <script>
         $(function() {
             var lang = $("body").data("lang");
@@ -260,4 +261,25 @@
             });
         });
     </script>
+=======
+  <script>
+    $(function() {
+      var lang = $("body").data("lang");
+      var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=20&type=allnews";
+      $.get(url, function(data) {
+        $(".whatsnew-loading").hide();
+        var n = 0;
+        for (i in data.result) {
+          var news = data.result[i];
+          if (lang == "en") {
+              myDate = moment(news.date, "YYYY-MM-DD");
+              news.date = myDate.format("MMM D");
+          }
+          var tr = "<tr><th style='white-space:nowrap'>" + news.date + "</th><td>" + news.body + "</td></tr>";
+          $(".whatsnew table").append(tr);
+        }
+      });
+    });
+  </script>
+>>>>>>> master
 </div>

@@ -14,7 +14,7 @@ Version Control is now available within Monaca Cloud IDE with user-friendly inte
 
 In this section, we will guide you on how to integrate your GitHub account with your Monaca account and configuring your Monaca project with a GitHub repository.
 
-.. note:: Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
+.. note:: Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.io/pricing.html>`_.
 
 
 Prerequisites
@@ -25,6 +25,7 @@ In order to use version control in Monaca Cloud IDE, you will need:
 - a GitHub account. Register `here <https://github.com/join>`_.
 - a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__. 
 
+.. _github_integration:
 
 GitHub Integration
 ===============================================================
@@ -128,6 +129,8 @@ Therefore, in order to re-link your account in this case, please do as follows:
 
   .. rst-class:: clear
 
+
+.. _version_control_configuration:
 
 Version Control Configuration
 ===============================================================

@@ -18,6 +18,9 @@ This sample app allows user to create a memo app using Monaca Backend API.
     <iframe src="https://monaca.github.io/project-templates/16-backend-memo/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
+
+:download:`Click here to download the project <download/backend_memo.zip>`
+
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
