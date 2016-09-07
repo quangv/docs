@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the Monaca package.
 # 
 # Translators:
-# Ahmet Altınışık <aaltinisik@altinkaya.com.tr>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
 # Antonio Trueba, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
@@ -16,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-21 03:43+0000\n"
+"PO-Revision-Date: 2016-09-07 09:09+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -163,7 +164,7 @@ msgstr "config.xml"
 msgid ""
 "The :file:`config.xml` file is a settings file controlling various settings "
 "of Cordova. It's located under ``www`` folder inside your monaca project."
-msgstr ":file:`config.xml` 設定ファイルを使用して、Cordova のさまざまな設定を管理します。このファイルは、Monaca プロジェクトの ``www`` フォルダー下に置かれています。"
+msgstr ""
 
 #: ../doc/reference/config/android_configuration.rst:77
 msgid ""
@@ -7822,7 +7823,7 @@ msgstr "このプラグインでは、独自の File API ( 以後、「 ファ�
 msgid ""
 "This plugin is based on several specs, including : The HTML5 File API "
 "http://www.w3.org/TR/FileAPI/"
-msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。\n\n[ File API ] : http://www.w3.org/TR/FileAPI/ "
+msgstr "このプラグインは、次の仕様を含む、複数の仕様に準拠して構築されています。[ File API ] : http://www.w3.org/TR/FileAPI/"
 
 #: ../doc/reference/cordova_3.5/file/index.rst:44
 #: ../doc/reference/cordova_4.1/file/index.rst:46
@@ -10831,7 +10832,7 @@ msgstr "``options.type`` の値には、``decimal``、``percent``、``currency``
 msgid ""
 "When the browser is set to the ``en\\_US`` locale, this displays a popup "
 "dialog with text similar to ``number: 3.142``:"
-msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、\n``number: 3.142`` と表示されます。"
+msgstr "ブラウザーのロケール設定が ``en-US`` の場合、次の記述をすれば、ポップアップダイアログ上に、``number: 3.142`` と表示されます。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:539
 #: ../doc/reference/cordova_4.1/globalization/index.rst:695
@@ -14460,7 +14461,7 @@ msgid ""
 "Returns the BCP-47 compliant language identifier tag to the "
 "``successCallback`` with a ``properties`` object as a parameter. That object"
 " should have a ``value`` property with a ``String`` value."
-msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します 。\n\n( 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください。)。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
+msgstr "BCP-47 に準拠した言語識別用のタグが、``successCallback`` に渡されます。そのとき、``properties`` オブジェクトを引数として使用します [ 翻訳者メモ : properties オブジェクトとは、オブジェクトの名称ではなく、各種プロパティーを格納したオブジェクトを指します。ここでは、原文 「 a properties object 」 に従い、あたかも名称のように扱っています。また、単語 「 タグ 」 の意味に関しては、BCP-47 をご確認ください]。また、このオブジェクトは、``value`` プロパティーを持ち、その値の形式は ``文字列`` です。"
 
 #: ../doc/reference/cordova_4.1/globalization/index.rst:100
 #: ../doc/reference/cordova_5.2/globalization/index.rst:105
@@ -14974,7 +14975,7 @@ msgstr "``StatusBar`` オブジェクトを使用して、iOS と Android のス
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:64
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:51
 msgid "Preferences"
-msgstr "peference の設定"
+msgstr "peference を使用したカスタマイズ設定"
 
 #: ../doc/reference/cordova_4.1/statusbar/index.rst:61
 msgid ""
@@ -17185,7 +17186,7 @@ msgid ""
 "soon. If the capability is not available, the application generates a "
 "persistent guid that is maintained for the duration of the application's "
 "installation on the device."
-msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です」"
+msgstr "Windows Phone 7 の ``uuid`` を取得する場合には、``ID_CAP_IDENTITY_DEVICE`` の 「 機能 」 ( capability ) が必要です。なお、Microsoft 社は、このプロパティーのサポートを、近い将来に打ち切る可能性があります。この 「 機能 」 ( capability ) が利用できない場合、アプリ側では、固定の guid を生成します。端末上にアプリがインストールされている間は、この guid が保持されます。[ 翻訳者メモ : 「 機能 」 とは、WP におけるパーミッションの呼称です ]"
 
 #: ../doc/reference/cordova_5.2/device/index.rst:288
 #: ../doc/reference/cordova_6.2/device/index.rst:324
@@ -25257,7 +25258,7 @@ msgid ""
 "<import_cordova_plugin>` it. In order to import this plugin, you need to "
 "subscribe to a valid plan. Please refer to `Pricing "
 "<https://monaca.mobi/en/pricing>`_."
-msgstr "どの料金プラン ( Monaca ライセンス ) をご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインをインポートする場合には、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://monaca.mobi/en/pricing>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/reference/service_integration/repro.rst:16
 msgid "Add Repro Service to Monaca"
@@ -25513,7 +25514,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:25
 msgid "Please follow these steps to use this plugin."
@@ -25757,7 +25758,7 @@ msgstr "http://example.com/android-v1.0.0.zip"
 msgid ""
 "The server can be distributed in any environment at least the application "
 "has the connectivity."
-msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは配置可能です。"
+msgstr "アプリとサーバー間の接続が確立できれば、どんな環境下でも、サーバーは設置可能です。"
 
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:181
 msgid ""
@@ -25813,7 +25814,7 @@ msgstr ""
 msgid ""
 "This plugin provides an encrypted data storage function. If the application "
 "is uninstalled, saved data will also be deleted."
-msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このアプリをアンインストールする場合、保存されたデータも、共に消去されます。"
+msgstr "ストレージ内のデータの暗号化を行うプラグイン ( Monaca Secure Storage ) です。このプラグインを組み込んだアプリをアンインストールするときには、保存されたデータも、共に消去されます。"
 
 #: ../doc/reference/third_party_phonegap/secure_storage.rst:35
 msgid ""

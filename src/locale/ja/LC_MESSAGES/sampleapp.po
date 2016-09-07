@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-07-14 03:28+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-07 09:09+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -218,7 +218,7 @@ msgid ""
 "The ``navigator.notification.alert`` function  is a PhoneGap function that "
 "displays a popup dialog box on the screen. The third argument displays the "
 "text \"Welcome to Monaca!\" as the title of the dialog box."
-msgstr "この ``navigator.notification.alert`` 関数は、PhoneGap の関数で、使用すると、画面上にポップアップダイアログを表示します。今回は、第三引数に 「 Monaca へようこそ！ 」 を指定して、ダイアログのタイトルに表示しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:5
 msgid "Backend Memo"
@@ -227,7 +227,7 @@ msgstr "バックエンド メモ帳アプリ"
 #: ../doc/sampleapp/samples/backend_memo.rst:9
 msgid ""
 "This sample app allows user to create a memo app using Monaca Backend API."
-msgstr "Monaca バックエンド API を使用するメモ帳アプリの作成します。"
+msgstr "Monaca バックエンド API を使用するメモ帳アプリを作成します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:11
 #: ../doc/sampleapp/samples/flickr.rst:12
@@ -408,7 +408,7 @@ msgid ""
 "collection named ``Memo``. The memo is then dynamically added into the "
 "``TopListView`` in the list page. Below is the JavaScript code of the these "
 "functions:"
-msgstr ":guilabel:`Login` ボタンを押したときに、 ``onLoginBtn()`` を呼び出します。この関数では、 ``monaca.cloud.User.login()`` ( バックエンド API ) を使用して、既存ユーザーのログインを行います。Monaca バックエンド内にユーザーが存在する場合には、 ``getMemoList()`` 関数を使用して、そのユーザーに紐づけされているメモの一覧ページにリダイレクトします。 ``getMemoList()`` 関数内では、 ``monaca.cloud.Collection().findMine()`` 関数を使用して、対象のユーザーのメモの一覧を取得します。この例では、``Memo`` コレクションがすでに作成されていることを前提として、解説を進めます。メモは、動的に、一覧ページ中の ``TopListView`` に追加されます。この機能の JavaScript コードを次に記します。"
+msgstr ":guilabel:`Login` ボタンを押したときに、 ``onLoginBtn()`` を呼び出します。この関数では、 ``monaca.cloud.User.login()`` ( Monaca バックエンド API ) を使用して、既存ユーザーのログインを行います。Monaca バックエンド内にユーザーが存在する場合には、 ``getMemoList()`` 関数を使用して、そのユーザーに紐づけされているメモの一覧ページにリダイレクトします。 ``getMemoList()`` 関数内では、 ``monaca.cloud.Collection().findMine()`` 関数を使用して、対象のユーザーのメモの一覧を取得します。この例では、``Memo`` コレクションがすでに作成されていることを前提として、解説を進めます。メモは、動的に、一覧ページ中の ``TopListView`` に追加されます。この機能の JavaScript コードを次に記します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:269
 msgid "As a result, the list page like the one below will be displayed:"
@@ -441,7 +441,7 @@ msgid ""
 "In this function, a Monaca Backend API of a collection called "
 "``monaca.cloud.Collection().insert()`` is used to insert a new item into "
 "``Memo`` collection."
-msgstr "この関数では、 ``monaca.cloud.Collection().insert()`` ( バックエンド API ) を使用して、 ``Memo`` コレクションに、コレクションアイテムを挿入します。"
+msgstr "この関数では、 ``monaca.cloud.Collection().insert()`` ( Monaca バックエンド API ) を使用して、 ``Memo`` コレクションに、コレクションアイテムを挿入します。"
 
 #: ../doc/sampleapp/samples/backend_memo.rst:339
 msgid "Updating a Memo"
@@ -488,7 +488,7 @@ msgstr "*テスト環境 :* Android 4.4、iOS 8.1.1"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:30
 msgid "The Startup page (Home page)"
-msgstr "スタート画面のページ ( ホームページ )"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:32
 #: ../doc/sampleapp/samples/flickr.rst:30
@@ -527,7 +527,7 @@ msgstr "``Pixi``"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:50
 msgid "Source Code Explanation"
-msgstr "プログラムコードの解説"
+msgstr "ソースコードの解説"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:53
 msgid "js/main.js"
@@ -537,7 +537,7 @@ msgstr "js/main.js"
 msgid ""
 ":file:`main.js` is a JavaScript file handling various functionalities of the"
 " application."
-msgstr ":file:`main.js` は、アプリ内のさまざまな処理を定義した JavaScript ファイルです。"
+msgstr ":file:`main.js` は、アプリ内のさまざまな処理を定義している JavaScript ファイルです。"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:57
 msgid ""
@@ -547,7 +547,7 @@ msgid ""
 "(``addBall()``), creating a paddle (``addPaddle()``), resetting the game "
 "after it ended (``reset()``), calculating the score (``addScore()``), ending"
 " the game (``endGame()``) and so on."
-msgstr "``BB`` オブジェクトのコードを、次に記します。こちらが、アプリで使用する、メインのオブジェクトとなります。プロパティーには、スクリーンサイズ ( screensize )、パドル ( paddle )、ボール ( balls )、ブロック ( blocks )、スコア ( score ) などがあります。メソッドには、マップの作成用 ( ``setMap()`` )、ボールの配置用 ( ``addBall()`` )、パドルの配置用 ( ``addPaddle()`` )、ゲームのリセット用 ( ``reset()`` )、スコアの計算用 ( ``addScore()`` )、ゲームの終了用 ( ``endGame()`` ) などがあります。"
+msgstr "``BB`` オブジェクトのコードを、次に記します。こちらが、アプリで使用する、メインのオブジェクトとなります。プロパティーには、スクリーンサイズ ( screenSize )、パドル ( paddle )、ボール ( balls )、ブロック ( blocks )、スコア ( score ) などがあります。メソッドには、マップの作成用 ( ``setMap()`` )、ボールの配置用 ( ``addBall()`` )、パドルの配置用 ( ``addPaddle()`` )、ゲームのリセット用 ( ``reset()`` )、スコアの計算用 ( ``addScore()`` )、ゲームの終了用 ( ``endGame()`` ) などがあります。"
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:317
 msgid ""
@@ -632,17 +632,17 @@ msgid ""
 "date (day, month and year) and then display it in the format as defined in "
 "``renderDay()`` and ``renderMonth()`` functions (see below screenshot). Here"
 " is content of the ``clock()`` function:"
-msgstr "``clock()`` 関数を使用して、現在の日付と時間の表示を行います。最初に、現在の時間 ( 時間、分、秒 ) を取得して、時間に応じた画像 ( 数字画像 ) を表示します。次に、現在の日付 ( 日、月、年 ) を取得して、 ``renderDay()`` と ``renderMonth()`` 関数で定義した形式で表示します ( 下のスクリーンショットを参照のこと )。``clock()`` 関数の内容を次に示します。"
+msgstr "``clock()`` 関数を使用して、現在の日付と時間を表示します。最初に、現在の時間 ( 時間、分、秒 ) を取得して、時間に応じた画像 ( 数字画像 ) を表示します。次に、現在の日付 ( 日、月、年 ) を取得して、 ``renderDay()`` と ``renderMonth()`` 関数で定義した形式で表示します ( 下のスクリーンショットを参照のこと )。``clock()`` 関数の内容を次に示します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:5
 msgid "Facebook Client"
-msgstr "Facebook クライアント"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:10
 msgid ""
 "This sample app allows users to connect to Facebook from Monaca by using "
 "`Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
-msgstr "こちらのサンプルアプリでは、`Onsen UI <https://docs.monaca.io/en/onsenui/>`_ と InAppBrowser を使用して、Monaca から Facebook に接続する方法を紹介します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:13
 #: ../doc/sampleapp/samples/twitter.rst:13
@@ -653,35 +653,35 @@ msgstr "*テスト環境 :* Android 4.3、iOS 7.1.1"
 msgid ""
 "You are required to have *App ID/App Key* and *App Secret* by registering "
 "your Monaca app with Facebook Developer:"
-msgstr "Facebook Developer ページ上でアプリを登録して、*App ID/App Key* と *App Secret* を取得します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:28
 msgid ""
 "Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin "
 "with Facebook account. If you don't have one, please signup."
-msgstr "`Facebook Developer Site <https://developers.facebook.com/>`_ へ行き、Facebook アカウントにログインします。アカウントをお持ちでない方は、登録を行います。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:30
 msgid "Go to :guilabel:`Apps > Create a New App`."
-msgstr ":guilabel:`Apps > Create a New App` を選択します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:35
 msgid ""
 "Fill in the display name and choose a category of your app. Then, click "
 ":guilabel:`Create App` button."
-msgstr "Display Name ( 表示名 ) を入力して、アプリの Category ( カテゴリー ) を選択します。次に、:guilabel:`Create App` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:40
 msgid ""
 "For security purpose, you will be asked to input some code. Click "
 ":guilabel:`Submit` button after input the shown code properly."
-msgstr "認証コードを入力します。表示されたコードを適宜入力して、 :guilabel:`Submit` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:45
 msgid ""
 "After a successful registration, a similar screen shown below will appear. "
 "You can see the App ID and App Secret here. You will need them later."
-msgstr "登録完了後、次のような画面が表示されます。App ID と App Secret をご確認ください。こちらの 2 つの設定は、後から必要となります。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:60
 #: ../doc/sampleapp/samples/ibeacon.rst:47
@@ -690,35 +690,35 @@ msgstr "スタート画面のページ ( 接続画面で構成 )"
 
 #: ../doc/sampleapp/samples/facebook.rst:62
 msgid "``home_navigator.html``"
-msgstr "``home_navigator.html``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:62
 msgid "Navigate to Connect Screen"
-msgstr "接続画面へのナビゲーション"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:64
 msgid "``connect.html``"
-msgstr "``connect.html``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:64
 msgid "Connect Screen"
-msgstr "接続画面"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:66
 msgid "``profile.html``"
-msgstr "``profile.html``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:66
 msgid "Facebook User Profile Screen"
-msgstr "Facebook ユーザーのプロフィール画面"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:68
 msgid "``list.html``"
-msgstr "``list.html``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:68
 msgid "Friends List Screen"
-msgstr "友達リスト画面"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:70
 #: ../doc/sampleapp/samples/ibeacon.rst:53
@@ -764,33 +764,33 @@ msgid ""
 "The User Interface of this sample app is based on *Onsen UI*. For more "
 "information on *Onsen UI* tags and components, please refer to `Onsen UI "
 "Documentation <https://docs.monaca.io/en/onsenui/>`_."
-msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/en/onsenui/>`_ をご確認ください。"
+msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/facebook.rst:96
 msgid ""
 "The following contents of the HTML body of :file:`index.html` file loads the"
 " :file:`home_navigator.html` file at startup:"
-msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、 :file:`home_navigator.html` を起動時に読み込みます。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:105
 msgid ""
 "The following contents of the HTML body of :file:`home_navigator.html` file "
 "will direct to the :file:`connect.html` file which is the Connect Screen:"
-msgstr ":file:`home_navigator.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、接続画面の :file:`connect.html` に移動できます。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:114
 msgid "The following contents of the HTML body of :file:`connect.html` file:"
-msgstr ":file:`connect.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:126
 msgid ""
 "corresponds to the screenshot below which allows a user to connect to "
 "Facebook:"
-msgstr "次のスクリーンショット ( Facebook への接続画面 ) を表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:133
 msgid "The following contents of the HTML body of :file:`profile.html` file:"
-msgstr ":file:`profile.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:148
 msgid ""
@@ -798,17 +798,17 @@ msgid ""
 "profile picture if the authentication is successful. When the "
 ":guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is"
 " shown:"
-msgstr "次の画面を表示します。認証成功後に、ユーザーの基本情報とプロフィール写真を表示します。 :guilabel:`Show Friend List` をタップすると、 :file:`list.html` を表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:155
 msgid "The following contents of the HTML body of :file:`list.html` file:"
-msgstr ":file:`connect.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:170
 msgid ""
 "corresponds to the screenshot below which shows the friends list of the "
 "authenticated user:"
-msgstr "次のスクリーンショットのように、認証されたユーザーの友達リストを表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:180
 msgid ""
@@ -817,7 +817,7 @@ msgid ""
 "primary way that data is retrieved from Facebook or posted on Facebook. We "
 "use *InAppBrowser* to open a Facebook authentication page inside our app. "
 "This prevents opening of an external browser."
-msgstr "こちらのアプリのロジックには、 *Graph API* と *InAppBrowser* を使用しています。Facebook からの情報の取得と送信には、 `Graph API <https://developers.facebook.com/docs/reference/api/>`_ を使用するのが最も一般的な方法です。ここでは、 *InAppBrowser* を使用して、Facebook の認証ページをアプリ内で開きます。これにより、外部ブラウザーを立ち上げる必要がありません。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:182
 msgid ""
@@ -829,23 +829,23 @@ msgid ""
 ":file:`list.html` page, respectively. In order to create global vairables "
 "used between these controller functions, you need to create a service "
 "function to store those global variables as follows:"
-msgstr "このサンプルアプリの JavaScript には、AngularJS を使用しています。AngularJS では、コントローラー関数を、関連するページにそれぞれ設定する必要があります。このサンプルでは、:envvar:`Connect_Ctrl`、:envvar:`Profile_Ctrl`、:envvar:`List_Ctrl` の 3 つのコントローラー関数を使用しており、それぞれ、:file:`connect.html` ページ、:file:`profile.html` ページ、:file:`list.html` ページに関連付けしています。これらのコントローラー関数間で使用するグローバル変数を作成するため、グローバル変数を格納する service 関数を、次のように、1 つ作成する必要があります。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:204
 msgid ""
 "Inside this service function, we are able to get and set the value of the "
 "``property`` variable which is a JSON object. This variale contains various "
 "variables needed to use between different pages."
-msgstr "この service 関数で、 ``property`` 変数 ( JSON オブジェクト ) の値の取得と設定をします。この変数には、複数のページで共有する各種データを格納します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:207
 #: ../doc/sampleapp/samples/ibeacon.rst:247
 msgid "Next, we will explain each controller function:"
-msgstr "各コントローラーに関して解説していきます。"
+msgstr "各コントローラーに関して解説します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:210
 msgid "Connect_Ctrl"
-msgstr "Connect_Ctrl"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:212
 msgid ""
@@ -854,7 +854,7 @@ msgid ""
 "authentication process. In order to run this function, you will need to fill"
 " in your API Key, App Secret and a valid callback URL. Below is the "
 "JavaScript code of this function:"
-msgstr ":envvar:`Connect_Ctrl` コントローラーは、 :file:`connect.html` の挙動制御と各種処理を行います。処理の中には、Facebook への認証接続があります。この関数を実行する場合には、API Key、App Secret、有効なコールバック URL を設定します。この関数の JavaScript コードは、次のとおりです。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:291
 msgid ""
@@ -864,7 +864,7 @@ msgid ""
 "the :envvar:`Connect()` function needs to open a Facebook authentication "
 "page first (as shown below) via a *InAppBrowser* using "
 ":envvar:`window.open()` function."
-msgstr "こちらのコントローラーには、Facebook 認証処理を行う :envvar:`connect` 関数を定義しています。 :guilabel:`Connect` ボタンを押したときに、この関数が呼び出されます。:envvar:`Connect()` 関数では、Facebook の認証ページを開き ( 下のスクリーンショットを参照のこと )、:envvar:`window.open()` 関数を使用して、 *InAppBrowser* 経由で認証処理を行っています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:297
 msgid ""
@@ -874,7 +874,7 @@ msgid ""
 "parameters including the newly found Facebook code to "
 "``\"https://graph.facebook.com/oauth/access_token?...\"`` in order to get "
 "access token."
-msgstr "ログイン情報を入力して :guilabel:`Log in` ボタンを押すと、コールバック URL にリダイレクトされます。このコールバック URL から、Facebook コードを見つけることができます。次に、アクセストークンを取得するため、先ほど見つけた Facebook コードを含む、いくつかのパラメーターと共に、``https://graph.facebook.com/oauth/access_token?...`` へ ``HttpRequest`` を送ります。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:299
 msgid ""
@@ -883,7 +883,7 @@ msgid ""
 "``\"https://graph.facebook.com/me?...\"`` in order to get some information "
 "of the authenticated user, in this case, ``Name`` and ``Profile picture "
 "URL``."
-msgstr "リクエストが成功した場合、認証されたユーザーの情報を取得するため、Facebook コードを含む、いくつかのパラメーターと共に、``https://graph.facebook.com/me?...`` へ別の ``HttpRequest`` を送ります。このサンプルの場合、ユーザー情報は、``Name (名前)`` と ``Profile picture URL (プロフィール写真の URL)`` になります。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:301
 msgid ""
@@ -895,15 +895,15 @@ msgid ""
 "retrieved data (in JSON format) of friends list will also be stored in the "
 "``info_obj`` and updates into the global variable (``property``) inside "
 "``sharedProperties`` service for using between controllers (pages)."
-msgstr "リクエストが成功した場合、取得したデータを JSON オブジェクト ( ``info_obj`` ) にいったん格納します。次に、友達リストを取得するため、Facebook コードを含む、いくつかのパラメータと共に、 ``https://graph.facebook.com/me/friends?...`` へ別の ``HttpRequest`` を送ります。このリクエストも成功した場合、取得したデータ ( JSON 形式 ) も ``info_obj`` に格納します。次に、コントローラー ( ページ ) 間でデータを共有するため、取得した値を使用して、 ``sharedProperties`` サービス内のグローバル変数 （ ``property`` ） を更新します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:303
 msgid "Then, finally, the app redirects to :file:`profile.html` page."
-msgstr "最後に、 :file:`profile.html` ページにリダイレクトします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:307
 msgid "Profile_Ctrl"
-msgstr "Profile_Ctrl"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:309
 msgid ""
@@ -911,17 +911,17 @@ msgid ""
 ":file:`profile.html` file. In other words, it displays the retrieved data "
 "after a successful authentication. Below is the JavaScript code of this "
 "function:"
-msgstr ":envvar:`Profile_Ctrl` コントローラーは、 :file:`profile.html` の挙動制御と各種処理を行います。処理の中には、認証成功後に取得したデータの表示もあります。この関数の JavaScript コードは、次のとおりです。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:322
 msgid ""
 "This controller contains the assigment of some variables with the necessary "
 "data from the global variable inside the ``sharedProperties`` service."
-msgstr "このコントローラーでは、 ``sharedProperties`` サービスのグローバル変数から、必要なデータを取得して、変数に代入する処理をします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:325
 msgid "List_Ctrl"
-msgstr "List_Ctrl"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:327
 msgid ""
@@ -929,14 +929,14 @@ msgid ""
 ":file:`list.html` file. In other words, it displays the retrieved data of "
 "friends list of the authenticated user. Below is the JavaScript code of this"
 " function:"
-msgstr ":envvar:`List_Ctrl` コントローラーは、 :file:`list.html` の挙動制御と各種処理を行います。処理の中には、認証されたユーザーの友達リストのデータ表示もあります。この関数の JavaScript コードは、次のとおりです。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:365
 msgid ""
 "Inside this controller, there is :envvar:`get_list()` function which "
 "displays the list of friends retrieved from global variable (``property``) "
 "of the ``sharedProperties`` service."
-msgstr "このコントローラー内で、 :envvar:`get_list()` 関数を定義します。この関数で、``sharedProperties`` サービス内のグローバル変数 ( ``property`` ) から取得した友達リストを表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:5
 msgid "Flickr Sample"
@@ -978,7 +978,7 @@ msgstr "このプロジェクトで使用する画像ファイル"
 msgid ""
 "The following HTML body of :file:`index.html` file is for the title bar, "
 "spinner and container for displaying the images (see screenshot below):"
-msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、タイトルバー ( title-bar )、スピナー ( loadSpinner / 実行中画面 )、コンテナ ( container ) を使用して、画像の表示を行います ( 下のスクリーンショットを参照のこと )。"
+msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、タイトルバー ( title-bar )、スピナー ( loadSpinner / 「 処理中 」 を示す画像 )、コンテナ ( container ) を使用して、画像の表示を行います ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/sampleapp/samples/flickr.rst:65
 msgid ""
@@ -1021,7 +1021,7 @@ msgstr "Hello World アプリ"
 msgid ""
 "This sample app is a PhoneGap Demo showing several device functionalities "
 "such as camera, contacts, compass and so on."
-msgstr "このサンプルアプリでは、PhoneGap のデモンストレーションを行います。デモンストレーションとして、複数の端末機能 ( カメラ、連絡帳、コンパスなど ) を実装させています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:34
 msgid "``phonegap-demo.html``"
@@ -1029,7 +1029,7 @@ msgstr "``phonegap-demo.html``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:34
 msgid "The PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "``phonegap-demo/master.css``"
@@ -1037,7 +1037,7 @@ msgstr "``phonegap-demo/master.css``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "The style sheet for the PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページのスタイルシート"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "``phonegap-demo/main.js``"
@@ -1045,7 +1045,7 @@ msgstr "``phonegap-demo/main.js``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "The JavaScript file handling implementation in the PhoneGap Demo page"
-msgstr "PhoneGap デモ画面ページ上の一連の処理を行う JavaScript ファイル"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:40
 msgid "The style Sheet for the whole application"
@@ -1068,7 +1068,7 @@ msgstr ":file:`index.html` はスタート画面のページです。ソース�
 msgid ""
 "The above html code inside the ``<body>`` tag is showing a ``HelloWorld!`` "
 "phrase and a :guilabel:`Start Demo` button as shown below."
-msgstr "上記 HTML コードの ``<body>`` タグの記述で、``HelloWorld!`` と :guilabel:`Start Demo` ボタンの表示を 次のように行います。"
+msgstr "上記 HTML コードの ``<body>`` タグ内の記述で、``HelloWorld!`` と :guilabel:`Start Demo` ボタンの表示を、次のように行います。"
 
 #: ../doc/sampleapp/samples/hello_world.rst:77
 msgid "phonegap-demo.html"
@@ -1078,7 +1078,7 @@ msgstr "phonegap-demo.html"
 msgid ""
 ":file:`phonegap-demo.html` shows a PhoneGap Demo with the basic phone "
 "information and a list of functions as below:"
-msgstr ":file:`phonegap-demo.html` を使用して、携帯端末の基本情報と次に列挙した機能を、PhoneGap デモ画面ページに表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:81
 msgid ""
@@ -1126,7 +1126,7 @@ msgstr "これらの機能を記述した JavaScript コードに関しては、
 msgid ""
 "The :file:`main.js` is a JavaScript file handling the implementation of the "
 "PhoneGap Demo page. There are 8 main functions in this file:"
-msgstr ":file:`main.js` は、PhoneGap デモ画面ページで使用する一連の処理を記述した JavaScript ファイルです。このファイルでは、前述した 8 個の機能を記述しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:102
 msgid "Toggle Accelerometer"
@@ -1246,7 +1246,7 @@ msgstr "コンパスの切り替え"
 msgid ""
 "Start or stop the phone compass. Below is the JavaScript code of this "
 "function:"
-msgstr "携帯端末内臓のコンパスを開始または停止します。この関数の JavaScript コードを次に記します。"
+msgstr "携帯端末のコンパスを開始または停止します。この関数の JavaScript コードを次に記します。"
 
 #: ../doc/sampleapp/samples/hello_world.rst:348
 msgid ""
@@ -1269,7 +1269,7 @@ msgid ""
 "device. This Monaca app has `Onsen UI <https://docs.monaca.io/en/onsenui/>`_"
 " as its UI. When the mobile (running this app) gets close enough to a "
 "predefined iBeacon device, a new page showing its UUID will be displayed."
-msgstr "iBeacon ( アイビーコン ) サービスを組み込んだサンプルアプリです。iBeacon 発信機との距離を検知します。こちらの Monaca アプリでは、`Onsen UI <https://docs.monaca.io/en/onsenui/>`_ を使用して、UI を構築しています。iBeacon 発信機の射程内に携帯端末が入ると、発信機の UUID が画面上に表示されます ( このサンプルでは、アプリが起動中であること、発信機は端末側に登録済みであることが必要です )。"
+msgstr "iBeacon ( アイビーコン ) サービスを組み込んだサンプルアプリです。iBeacon 発信機との距離を検知します。こちらの Monaca アプリでは、`Onsen UI <https://docs.monaca.io/ja/onsenui/>`_ を使用して、UI を構築しています。iBeacon 発信機の射程内に携帯端末が入ると、発信機の UUID が画面上に表示されます ( このサンプルでは、アプリが起動中であること、発信機は端末側に登録済みであることが必要です )。"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:15
 msgid "*Tested Environments:* Android 4.4, iOS 8.0.2"
@@ -1286,7 +1286,7 @@ msgid ""
 "Download the iBeacon plugin from `here <https://github.com/petermetz"
 "/cordova-plugin-ibeacon.git>`_ and import it into Monaca Cloud IDE. See "
 ":ref:`import_cordova_plugin`."
-msgstr "iBeacon プラグインを `こちら <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ からダウンロードして、Monaca クラウド IDE 上でインポートします。詳細は、 :ref:`import_cordova_plugin` をご確認ください。"
+msgstr "iBeacon プラグインを `こちら <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ からダウンロードして、Monaca クラウド IDE 上にインポートします。詳細は、 :ref:`import_cordova_plugin` をご確認ください。"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:32
 msgid "Find at least one iBeacon device."
@@ -1422,7 +1422,7 @@ msgstr "サンプルアプリ & テンプレート"
 
 #: ../doc/sampleapp/samples/inmobi.rst:5
 msgid "Inmobi Client"
-msgstr "Inmobi クライアント"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:10
 msgid ""
@@ -1431,26 +1431,26 @@ msgid ""
 "please visit `Inmobi\\'s website <http://www.inmobi.com/>`_ and `Inmobi "
 "Mobile Web Integration Guide "
 "<https://support.inmobi.com/monetize/integration/mobile-web/>`_."
-msgstr "このページでは、Inmobi を例にして、Monaca へのモバイルアド ( 携帯端末への広告配信ネットワーク ) の組み込み方法を解説します。Inmobi の詳細に関しては、`Inmobi のウェブサイト <http://www.inmobi.com/>`_ と `Inmobi モバイルウェブの組み込みガイド <https://support.inmobi.com/monetize/integration/mobile-web/>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:22
 msgid "Prerequisites"
-msgstr "事前準備"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:25
 msgid "Property ID from Inmobi"
-msgstr "プロパティー ID の取得 ( Inmobi から )"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:27
 msgid ""
 "To obtain a property ID from Inmobi, please follow the instruction below:"
-msgstr "次の手順に従い、プロパティー ID を Inmobi から取得します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:29
 msgid ""
 "Create an Inmobi account at `Inmobi Site "
 "<https://www.inmobi.com/user/register.html?locale=en_us>`_."
-msgstr "`Inmobi サイト <https://www.inmobi.com/user/register.html?locale=en_us>`_ で、Inmobi アカウントを作成します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:31
 msgid ""
@@ -1459,45 +1459,45 @@ msgid ""
 "information. There are 4 types of property: ``Windows Phone``, ``iOS``, "
 "``Android`` and ``Mobile Web``. In this sample, we choose the ``Mobile "
 "Web``. Then, click on :guilabel:`Add Property` button."
-msgstr "Inmobi アカウント作成後、アカウントにログインします。メニューバー上の :guilabel:`プロパティ` ( MONETIZE ) を選択して、必要な情報を入力します。4 種類 ( ``Windows Phone``、``iOS``、``Android``、``Mobile Web`` ) のプロパティーがあります。ここでは、 ``Mobile Web`` を選択して、:guilabel:`プロパティの追加` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:36
 msgid ""
 "Next, you need to verify the newly created property which is required by "
 "Inmobi. In the property list, click on the :guilabel:`Verification` button "
 "(see the screenshot below)."
-msgstr "新規に作成したプロパティーの認証を得る必要があります ( Inmobi 側で要求している手順 ) 。プロパティー一覧上で、該当プロパティーの :guilabel:`認証` ( Verification ) ボタンをクリックします。詳細は、次のスクリーンショットをご確認ください。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:41
 msgid ""
 "To complete the verification, please add the following meta tag within the "
 "HTML head tag of your property URL."
-msgstr "HTML ( head タグ内 ) に、次の meta タグを追加すれば、認証処理は完了です ( 値は適宜変更 )。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:54
 msgid ""
 "To find out about your property ID, click on the :guilabel:`Settings` button"
 " (see the screenshot below)."
-msgstr "プロパティー ID を確認する場合、 :guilabel:`設定` ボタンをクリックします。詳細は、次のスクリーンショットをご確認ください。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:59
 msgid ""
 "Then, a dialog showing information of the selected property will appear. You"
 " can find the property ID in that dialog."
-msgstr "ボタンをクリックすると、プロパティーの詳細情報が表示されます。こちらから、プロパティー ID をご確認ください。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:64
 msgid ""
 "After adding the above code snippet, click on :guilabel:`Verify Now` button."
-msgstr "上記コードの追加後、 :guilabel:`今すぐ認証` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:81
 msgid "``js/inmobi.js``"
-msgstr "``js/inmobi.js``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:81
 msgid "An Inmobi library."
-msgstr "Inmobi ライブラリー"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:83
 #: ../doc/sampleapp/samples/twitter.rst:59
@@ -1506,11 +1506,11 @@ msgstr "アプリのスタイルシート"
 
 #: ../doc/sampleapp/samples/inmobi.rst:85
 msgid "``images/logo.png``"
-msgstr "``images/logo.png``"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:85
 msgid "Monaca logo used in the application"
-msgstr "アプリで使用する Monaca のロゴ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:98
 msgid ""
@@ -1518,7 +1518,7 @@ msgid ""
 "For more information on *jQuery Mobile* tags and components, please refer to"
 " `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_. The remaining"
 " ``div`` tags are used to apply the CSS style we created earlier."
-msgstr "次のコードでは、アプリのヘッダー部に *jQuery Mobile* を使用しています。 *jQuery Mobile* タグとコンポーネントの詳細に関しては、 `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_ をご確認ください。残りの ``div`` タグに関しては、CSS スタイルを適用するために使用しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:129
 msgid ""
@@ -1546,14 +1546,14 @@ msgid ""
 "``test`` (boolean): the state of your app. During development and testing, "
 "it should be set to true, to ensure that only test ads are sent. When you "
 "set test to false, you will receive live ads."
-msgstr "``test`` ( boolean ) : アプリの状態 ( 開発中またはテスト中 ) を示します。テストを行っている間は、この値は true に設定します。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
+msgstr "``test`` ( boolean ) : アプリの状態を設定します。開発または検証中は、この値を true に設定します ( テスト用広告が配信されます )。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:134
 msgid ""
 "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded "
 "automatically at page load. The ad can then be fetched at some other time in"
 " the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。 :envvar:`getNewAd()` 関数を使用すると、広告を表示できるようになります。"
+msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。なお、:envvar:`getNewAd()` 関数を使用すれば、広告を表示できるようになります。"
 
 #: ../doc/sampleapp/samples/inmobi.rst:135
 msgid ""
@@ -1584,7 +1584,7 @@ msgstr "onDeviceReady() 関数の解説"
 msgid ""
 "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap "
 "is fully loaded. Below is the JavaScript code of this function:"
-msgstr "PhoneGap 側の準備が完了した後、:envvar:`onDeviceReady()` 内で :file:`inmobi.js` を読み込みます。この関数の JavaScript コードを次に記します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:188
 msgid ""
@@ -1592,7 +1592,7 @@ msgid ""
 "(``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This "
 "file is needed to be included after PhoneGap is fully loaded inside "
 ":envvar:`onDeviceReady()` function as shown above."
-msgstr "「 <script type=\"text/javascript\" src=\"inmobi.js\"></script> 」 のような通常の手順で行う処理 ( ヘッダー部分の記述 ) を、:file:`inmobi.js` を読み込むときに使用しないでください。上記で示したように、このファイルは、必ず、PhoneGap 側の準備が完了した後、 :envvar:`onDeviceReady()` 関数内で読み込む必要があります。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/inmobi.rst:191
 msgid "showAds() function"
@@ -1608,7 +1608,7 @@ msgstr ":envvar:`showAds()` 関数を使用して、Inmobi に対して、新し
 msgid ""
 "For more information regarding *inmobi* JavaScript API, please refer to "
 "`this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
-msgstr "*inmobi* JavaScript APIに関しては、 `Inmobi JavaScript APIs <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
+msgstr "*inmobi* の JavaScript APIに関しては、 `こちら <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:5
 msgid "Memo Application"
@@ -1622,7 +1622,7 @@ msgstr "localStorage を使用して、メモ帳アプリを作成するサン�
 
 #: ../doc/sampleapp/samples/memo_application.rst:31
 msgid "The Home screen"
-msgstr "スタート画面のページ"
+msgstr "スタート/ホーム画面のページ"
 
 #: ../doc/sampleapp/samples/memo_application.rst:33
 msgid "``js/memo.js``"
@@ -1658,7 +1658,7 @@ msgstr "``index.html`` ファイル内の次の記述 ( HTML の <body> 内 ) �
 msgid ""
 "corresponds to this screenshot of the Top page (Home screen) which allows a "
 "user to add, view or delete memos:"
-msgstr "次のスクリーンショット ( スタート画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
+msgstr "次のスクリーンショット ( スタート/ホーム画面のページ ) のようになります。こちらのページから、メモの追加、閲覧、削除を行えます。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:100
 msgid ""
@@ -1695,7 +1695,7 @@ msgid ""
 " and put them into a list view. If there is no previously created memo (when"
 " using the application for the first time), ``\"No memo found\"`` will be "
 "displayed (see below screenshot)."
-msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( スタート画面ページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
+msgstr "アプリを起動すると ``initTopPage()`` 関数を直ちに呼び出します。この関数を使用して、トップページ ( ホーム画面のページ ) の初期化を行います。ここでの初期化処理とは、保存されているメモを取得して、一覧で表示することです ( 取得処理は、 :file:`memo.js` ファイル内で定義されている ``getMemoList()`` 関数を経由して行われます ) 。アプリの初回起動時など、既存のメモがない場合には、「 ``No memo found`` 」 が表示されます （ 下のスクリーンショットを参照のこと ）。"
 
 #: ../doc/sampleapp/samples/memo_application.rst:145
 #: ../doc/sampleapp/samples/memo_application.rst:198
@@ -1860,7 +1860,7 @@ msgid ""
 " fortune telling start button is tapped, the JavaScript ``omikuji()`` "
 "function is called.  The `omikuji()` function prepares the fortune telling "
 "results and displays them onscreen."
-msgstr "同様に、``bottombar`` に ID を指定した ``div`` タグでも ``img`` タグを囲っています。また、 ``src`` 属性に加えて、 ``onclick`` 属性も記述します。 ``onclick`` 属性には、画像をクリックまたはタップしたときに呼び出す JavaScript コードを指定します。このサンプルでは、おみくじ開始ボタンをタップしたときに、JavaScript の ``omikuji()`` 関数を呼び出します。 ``omikuji()`` 関数を使用し、おみくじ結果を計算して、結果を画面に表示します。"
+msgstr "同様に、``bottombar`` を ID に指定した ``div`` タグでも ``img`` タグを囲っています。また、 ``src`` 属性に加えて、 ``onclick`` 属性も記述します。 ``onclick`` 属性には、画像をクリックまたはタップしたときに呼び出す JavaScript コードを指定します。このサンプルでは、おみくじ開始ボタンをタップしたときに、JavaScript の ``omikuji()`` 関数を呼び出します。 ``omikuji()`` 関数を使用し、おみくじ結果を計算して、結果を画面に表示します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:54
 msgid "Style Sheet Explanation"
@@ -1898,7 +1898,7 @@ msgid ""
 "example, both divs will use coordinates relative to their parent tag, the "
 "``body`` tag.  The ``bottom`` and ``top`` properties set the position from "
 "the bottom or top."
-msgstr "上述の 「 HTML の解説 」 のとおり、おみくじ箱と結果画像の表示用の ``div`` タグと 「 はじめる 」 ボタンを表示するための ``div`` タグを識別するために、それぞれ、``#hako`` と ``#bottombar`` を使用しています。また、今回のスタイルシートの定義では、``position``、``bottom``、``top``、``width`` プロパティーを使用ています。 ``position`` プロパティーに ``absolute`` を指定すると、絶対座標を使用した配置になります。今回の場合、いずれも親タグである ``body`` タグに対する座標となります。 ``bottom`` と ``top`` プロパティーを使用して、下と上から始まる位置を、それぞれ指定します。"
+msgstr "上述の 「 HTML の解説 」 のとおり、おみくじ箱と結果画像の表示用の ``div`` タグと 「 はじめる 」 ボタンを表示するための ``div`` タグを識別するために、それぞれ、``#hako`` と ``#bottombar`` を使用しています。また、今回のスタイルシートの定義では、``position``、``bottom``、``top``、``width`` プロパティーを使用しています。 ``position`` プロパティーに ``absolute`` を指定すると、絶対座標を使用した配置になります。今回の場合、いずれも親タグである ``body`` タグに対する座標となります。 ``bottom`` と ``top`` プロパティーを使用して、下と上から始まる位置を、それぞれ指定します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:68
 msgid ""
@@ -1921,7 +1921,7 @@ msgid ""
 "random number from 0 to 3, which is assigned to the dice variable. On lines "
 "4 through 11, the variable *image_name* is assigned an image file name "
 "according to the value of the ``dice`` variable."
-msgstr "1～16 行目は、 ``omikuji`` 関数の定義です。[ はじめる ] ボタンをタップすると、この関数が実行されます。2 行目では ``Math.floor`` 関数と ``Math.random`` 関数を組み合わせ、0 から 3 までの乱数を生成し、 ``dice`` 変数に代入します。4～11 行目では、 ``dice`` 変数の値に応じて、画像ファイル名を、 *image_name* 変数に代入します。"
+msgstr "1～16 行目は、``omikuji`` 関数の定義です。[ はじめる ] ボタンをタップすると、この関数が実行されます。2 行目では ``Math.floor`` 関数と ``Math.random`` 関数を組み合わせ、0 から 3 までの乱数を生成し、 ``dice`` 変数に代入します。4～11 行目では、 ``dice`` 変数の値に応じて、画像ファイル名を、 *image_name* 変数に代入します。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:85
 msgid ""
@@ -1930,14 +1930,14 @@ msgid ""
 "(Document Object Model) manipulation, and is used to dynamically update. In "
 "the following example, the ``src`` attribute of the element (HTML tag) with "
 "the ID ``kekka`` is modified."
-msgstr "12～15 行目では、 ``document.getElementById`` 関数を使用して、スタイルシートの変更と画像の差し替えを行います。この処理は、DOM ( Document Object Model ) 操作と呼ばれ、HTML の内容を、動的に書き換える仕組みです。下記の例では、 ``kekka`` の ID を持つ要素 ( HTML タグ ) の ``src`` 属性を変更しています。"
+msgstr "12～15 行目では、 ``document.getElementById`` 関数を使用して、スタイルシートの変更と画像の差し替えを行います。この処理は、DOM ( Document Object Model ) 操作と呼ばれ、HTML の内容を、動的に書き換える仕組みです。次の例では、 ``kekka`` の ID を持つ要素 ( HTML タグ ) の ``src`` 属性を変更しています。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:91
 msgid ""
 "Since, as described above, the ``image_name`` variable is set to the name of"
 " the image file corresponding to the omikuji result, this technique can be "
 "used to display the image for the fortune telling result onscreen."
-msgstr "上述したように、 ``image_name`` 変数には、おみくじ結果を反映した画像ファイル名が指定されるため、この記法を使用して、おみくじ結果のイメージを、画面上に表示できます。"
+msgstr "上述したように、``image_name`` 変数には、おみくじ結果を反映した画像ファイル名が指定されるため、この記法を使用して、おみくじ結果のイメージを、画面上に表示できます。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:5
 msgid "Onsen UI Minimum Template"
@@ -1946,11 +1946,11 @@ msgstr "Onsen UI 最小限のテンプレート"
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:10
 msgid ""
 "This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application."
-msgstr "`Onsen UI <http://ja.onsenui.io/>`_ アプリの作成時に使用できる、最小限のテンプレートです。"
+msgstr "`Onsen UI <https://ja.onsen.io>`_ アプリの作成時に使用できる、最小限のテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:31
 msgid "Home screen  (Startup page)"
-msgstr "スタート画面のページ"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:32
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
@@ -2000,7 +2000,7 @@ msgid ""
 "attribute is the first page of the stack while the ``<ons-page>`` component "
 "is ignored. For more information please refer to `Onsen UI Documentation "
 "<http://onsen.io/guide/overview.html#PageNavigation>`_."
-msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <http://onsen.io/guide/overview.html#PageNavigation>`_ をご確認ください。"
+msgstr "``<ons-navigator>`` の ``page`` 属性を使用する代わりに、<ons-navigator> 下に <ons-page> を置き、スタックの最初のページを指定することもできます。両方の記法を併用すると、``<ons-page>`` コンポーネントよりも、 ``page`` 属性を使用した設定が優先されます。つまり、 ``page`` 属性で指定されたページが、スタックの最初のページとなり、 ``<ons-page>`` コンポーネントは無視されます。詳細に関しては、 `Onsen UI のマニュアル <https://ja.onsen.io/v1/guide.html#PageNavigation>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:55
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:66
@@ -2021,7 +2021,7 @@ msgid ""
 " In other words, the Page 2 is currently the second page in the page stack. "
 "When the :guilabel:`Welcome` back button is clicked, it goes back to the "
 "previous page which, in this case, is the Page 1."
-msgstr ":guilabel:`Push Page 2` ボタンをクリックすると、水平方向に、ページ 2 に遷移します。ページのトップ左に、 :guilabel:`Welcome` 戻るボタンが表示されます。これは、ページスタックの 2 番目に、ページ 2 が現在置かれていることを意味します。 :guilabel:`Welcome` 戻るボタンをクリックすると、前のページに戻ります。ここでは、ページ 1 となります。"
+msgstr ":guilabel:`Push Page 2` ボタンをクリックすると、水平方向に、ページ 2 に遷移します。また、ページのトップ左に、 :guilabel:`Welcome` 戻るボタンが表示されます。これは、ページスタックの 2 番目に、ページ 2 が現在置かれていることを意味します。 :guilabel:`Welcome` 戻るボタンをクリックすると、前のページに戻ります。ここでは、ページ 1 となります。"
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:66
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:75
@@ -2044,7 +2044,7 @@ msgstr "Onsen UI スライディングメニュー"
 msgid ""
 "This is a template using `Onsen UI sliding menu "
 "<http://onsenui.io/guide/overview.html#UsingSlidingMenu>`_."
-msgstr "`Onsen UI スライディングメニュー <http://ja.onsenui.io/guide/overview.html#UsingSlidingMenu>`_ を使用したテンプレートです。"
+msgstr "`Onsen UI スライディングメニュー <https://ja.onsen.io/v1/guide.html#UsingSlidingMenu>`_ を使用したテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:30
 msgid "Startup page"
@@ -2117,11 +2117,11 @@ msgid ""
 "This is a template using `Onsen UI tabbar "
 "<http://onsenui.io/guide/overview.html#UsingTabBar>`_ and `navigator "
 "<http://onsenui.io/guide/overview.html#PageNavigation>`_."
-msgstr "`Onsen UI タブバー <http://ja.onsenui.io/guide/overview.html#UsingTabBar>`_ と `ナビゲーター <http://ja.onsenui.io/guide/overview.html#PageNavigation>`_ を使用したテンプレートです。"
+msgstr "`Onsen UI タブバー <https://ja.onsen.io/v1/guide.html#UsingTabBar>`_ と `ナビゲーター <https://ja.onsen.io/v1/guide.html#PageNavigation>`_ を使用したテンプレートです。"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:30
 msgid "Startup page (Home page)"
-msgstr "スタート画面のページ ( ホームページ )"
+msgstr "スタート画面のページ ( ホーム画面のページ )"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:31
 msgid "``navigator.html``"
@@ -2153,7 +2153,7 @@ msgid ""
 "component which consists of 3 tabs: Home (:file:`navigator1.html`), Camera "
 "(:file:`page2.html`) and Settings (:file:`page3.html`) tabs. (See the "
 "screenshot below)"
-msgstr ":file:`index.html` は、スタート画面のページです。ここでは、 ``<ons-tabbar>`` コンポーネントを使用して、3 つのタブを指定します。タブは、Home ( :file:`navigator1.html` )、Camera ( :file:`page2.html` )、Settings ( :file:`page3.html` ) です ( 下のスクリーンショット参照のこと )。"
+msgstr ":file:`index.html` は、スタート/ホーム画面のページです。ここでは、 ``<ons-tabbar>`` コンポーネントを使用して、3 つのタブを指定します。タブは、Home ( :file:`navigator1.html` )、Camera ( :file:`page2.html` )、Settings ( :file:`page3.html` ) です ( 下のスクリーンショット参照のこと )。"
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:60
 msgid "navigator.html"
@@ -2261,7 +2261,7 @@ msgstr "アプリのスタイルシート"
 msgid ""
 "The HTML body of this file is simply a placeholder of a ``loading.gif``, the"
 " feed list and error message."
-msgstr "このファイルの HTML の <body> は、「 ``loading.gif`` 」、「 フィード一覧 」、「 エラーメッセージ 」の置き場所となります。"
+msgstr "このファイルの HTML の <body> は、「 ``loading.gif`` 」、「 フィード一覧 」、「 エラーメッセージ 」 の置き場所となります。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:76
 msgid ""
@@ -2271,7 +2271,7 @@ msgid ""
 "retrieval function. This function is defined in :file:`feed-reader.js` file "
 "which will be explained later in this page. You can try changing the RSS "
 "feeds URL."
-msgstr "アプリを起動すると、RSS フィードの取得処理が直ちに始まります。RSS フィードのコンテンツの読み込み中は、 :file:`loading.gif` ファイルが表示されます。次の JavaScript コードで、RSS フィードの取得を行う関数を呼び出します。取得処理を行う関数は :file:`feed-reader.js` 内で定義しています。このファイルの解説は、後ほどします。RSS フィードで使用している URL は変更可能ですので、他の URL もぜひお試しください。"
+msgstr "アプリを起動すると、RSS フィードの取得処理が直ちに始まります。RSS フィードのコンテンツの読み込み中は、 :file:`loading.gif` ファイルが表示されます。次の JavaScript コードで、RSS フィードの取得を行う関数を呼び出します。取得処理を行う関数は、:file:`feed-reader.js` 内で定義されています。このファイルの解説は、後ほどします。RSS フィードで使用している URL は変更可能ですので、他の URL もぜひお試しください。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:92
 msgid "feed-reader.js"
@@ -2287,13 +2287,13 @@ msgstr "RSS フィードを取得する関数 （ ``Feed.load()`` ） が呼ば�
 msgid ""
 "If the function is executed successfully, the retrieved RSS feeds are listed"
 " in the Home screen as shown in the screenshot below."
-msgstr "この関数の実行に成功した後、スタート画面のページ上で、取得した RSS フィードを一覧状に表示します。下のスクリーンショットをご確認ください。"
+msgstr "この関数の実行に成功すると、取得した RSS フィードが、スタート/ホーム画面のページ上に、一覧状に表示されます。下のスクリーンショットをご確認ください。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:135
 msgid ""
 "The following JavaScript code corresponds to the display arrangment of RSS "
 "feeds in the Home screen (:file:`index.html`):"
-msgstr "次の JavaScript で、スタート画面 ( :file:`index.html` ) の RSS フィードの配置と表示を行います。"
+msgstr "次の JavaScript で、スタート/ホーム画面 ( :file:`index.html` ) の RSS フィードの配置と表示を行います。"
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:152
 msgid ""
@@ -2341,7 +2341,7 @@ msgid ""
 "the next page, which will be described later. Also ``a`` tag uses "
 "``monaca.invokeBrowser`` function in ``onclick`` attributes. This function "
 "is used to launch the browser and display the specified URL."
-msgstr "このサンプルでは、jQuery Mobile を使用して、一覧画面を表示します。一覧画面の各行をタップすると、 ``showDetail`` 関数を呼び出します。この関数で、ページの遷移を行います。また、 ``a`` タグの ``onclick`` 属性内で、 ``monaca.invokeBrowser`` 関数を使用しています。この関数は、ブラウザーを起動して、指定した URL を表示します。"
+msgstr "このサンプルでは、jQuery Mobile を使用して、一覧画面を表示します。一覧画面の各行をタップすると、 ``showDetail`` 関数を呼び出します。この関数で、ページの遷移を行います。また、 ``a`` タグの ``onclick`` 属性内で、 ``monaca.invokeBrowser`` 関数を使用しています。この関数は、ブラウザーを起動させ、指定した URL を表示します。"
 
 #: ../doc/sampleapp/samples/shinkansen.rst:58
 msgid "The JavaScript code of the Top Screen is not long."
@@ -2360,7 +2360,7 @@ msgid ""
 " open a new page natively by using Monaca native functions and the variable "
 "passed to the next page is defined in it's third argument. The passed value "
 "can be obtained by ``monaca.queryParams`` variable."
-msgstr "``monaca.pushPage`` 関数を使用して、次のページを表示します。この関数では、Monaca のネイティブ関数を使用したページの表示処理と次ページへ渡す変数 ( 第三引数 ) の定義をしています。次ページへ渡す値は、 ``monaca.queryParams`` 変数を使用して取得します。"
+msgstr "``monaca.pushPage`` 関数を使用して、次のページを表示します。この関数では、Monaca のネイティブ関数を使用した、ページの表示処理と次ページへ渡す変数 ( 第三引数 ) の定義をしています。次ページへ渡す値は、 ``monaca.queryParams`` 変数を使用して取得します。"
 
 #: ../doc/sampleapp/samples/todo.rst:5
 msgid "TODO App"
@@ -2412,14 +2412,14 @@ msgid ""
 "the call is successful, the function *addTodo* is then executed. if it "
 "fails, an error message is generated. Photo shoot options such as fixing the"
 " image size and specifying the return type are also set."
-msgstr "``addTodoPicture`` 関数では、 ``navigator.camera.getPicture`` 関数を使用して、写真撮影を行います。この関数 ( getPicture ) は、PhoneGap 提供のものです。カメラの起動に成功した場合、``addTodo`` 関数を実行し、失敗の場合には、警告メッセージを表示します。また、撮影オプションとして、画像サイズの固定化および戻り値の型を指定しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/todo.rst:72
 msgid ""
 "The function ``addTodo`` takes an argument called ``camera_url``. When the "
 "function ``navigator.camera.getPicture`` is called and the photo shoot is "
 "successful, a reference to the graphic file is stored in this argument."
-msgstr "``addTodo`` 関数は、 ``camera_url`` を引数として取ります。 ``navigator.camera.getPicture`` 関数を呼び出し、撮影が成功した場合、画像への参照先がこの引数に格納されています。"
+msgstr "``addTodo`` 関数は、 ``camera_url`` を引数として取ります。 ``navigator.camera.getPicture`` 関数を呼び出し、撮影が成功した場合、画像の参照先がこの引数に格納されています。"
 
 #: ../doc/sampleapp/samples/todo.rst:74
 msgid ""
@@ -2479,7 +2479,7 @@ msgstr "アプリの詳細情報 ( アプリ名、説明、Web サイト、コ�
 msgid ""
 "Go to :guilabel:`Settings` tab and tick :guilabel:`Allow this application to"
 " be used to Sign in with Twitter`. (See screenshot below)"
-msgstr ":guilabel:`Settings` タブに行き、 :guilabel:`Allow this application to be used to Sign in with Twitter` ( アプリから Twitter への接続許可 ) にチェックを入れます ( 下記のスクリーンショットを参照のこと )。"
+msgstr ":guilabel:`Settings` タブに行き、 :guilabel:`Allow this application to be used to Sign in with Twitter` ( アプリから Twitter への接続許可 ) にチェックを入れます ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/sampleapp/samples/twitter.rst:43
 msgid ""
@@ -2501,7 +2501,7 @@ msgstr "``css/onsen-css-components-default.css``"
 
 #: ../doc/sampleapp/samples/twitter.rst:60
 msgid "A stylesheet file for `Onsen UI <http://onsenui.io/>`_ components"
-msgstr "`Onsen UI <http://ja.onsenui.io/>`_ コンポーネント用のスタイルシート ファイル"
+msgstr "`Onsen UI <https://ja.onsen.io>`_ コンポーネント用のスタイルシート ファイル"
 
 #: ../doc/sampleapp/samples/twitter.rst:61
 msgid "``js/jsoauth.js``"
@@ -2524,14 +2524,14 @@ msgid ""
 "A JavaScript library that provides a whole mess of useful functional "
 "programming helpers without extending any built-in objects. `See more about "
 "this library <http://underscorejs.org/>`_"
-msgstr "役立つプログラミング機能を複数提供してくれる、JavaScript ライブラリー ( 拡張せずに、実装済みオブジェクトをそのまま使用できます )。このライブラリーの詳細は、 `こちらのサイト <http://underscorejs.org/>`_ をご確認ください。"
+msgstr "役立つプログラミング機能を複数提供してくれる、JavaScript ライブラリー ( 拡張せずに、組み込み/ビルトイン オブジェクトをそのまま使用できます )。このライブラリーの詳細は、 `こちらのサイト <http://underscorejs.org/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/twitter.rst:83
 msgid ""
 "The User Interface for this sample app is based on *Onsen UI Components*. "
 "For more information on *Onsen UI* tags and components, please refer to "
 "`Onsen UI Documentation <https://docs.monaca.io/en/onsenui/>`_."
-msgstr "このサンプルのユーザー インターフェースは、*Onsen UI コンポーネント* で構築しています。*Onsen UI* のタグとコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/en/onsenui/>`_ をご確認ください。"
+msgstr "このサンプルのユーザー インターフェースは、*Onsen UI コンポーネント* で構築しています。*Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/twitter.rst:85
 msgid ""
@@ -2703,7 +2703,7 @@ msgid ""
 "``getPicture()`` function has 2 callback functions: ``onSuccess`` and "
 "``onFail``. Also, it can be used to pass an option object to specify picture"
 " quality and return type."
-msgstr "カメラ操作プラグインを使用する上で、 ``navigator.camera.getPicture()`` 関数が、最も使用頻度が多い関数になるかと思います。 ``getPicture()`` 関数では、 ``onSuccess`` と ``onFail`` の 2 つのコールバック関数を使用します。また、``getPicture()`` 関数に、オプションのオブジェクトを渡せば、戻り値の形式と写真の画質を指定できます。"
+msgstr "カメラ操作プラグインを使用する上で、 ``navigator.camera.getPicture()`` 関数が、最も使用頻度が多い関数になるかと思います。 ``getPicture()`` 関数では、 ``onSuccess`` と ``onFail`` の 2 つのコールバック関数が使用されています。また、``getPicture()`` 関数に、オプションのオブジェクトを渡せば、戻り値の形式と写真の画質を指定できます。"
 
 #: ../doc/sampleapp/tips/camera.rst:54
 msgid ""
@@ -2714,7 +2714,7 @@ msgid ""
 "return *jpeg/png* encoded string by default. The example above returns a "
 "picture with ``quality`` as ``\"50\"``, ``destinationType`` as "
 "``\"Camera.DestinationType.DATA_URL\"`` in a *Base64* format."
-msgstr "カメラを使用した写真のキャプチャー、および、その保存処理が終わった後、 ``onSuccess`` コールバック ( 第一引数 ) を呼び出します。次に、このコールバックは、写真を参照するためのリファレンスを受け取ります。カメラを使用中にエラーが発生した場合、 ``onFail`` コールバック ( 第二引数 ) を呼び出します。``オプション`` のオブジェクトは、デフォルトでは、 *jpeg/png* 形式にエンコードした文字列を返します。上記の例では、 quality として 「 50 」、 ``destinationType`` として 「 ``\"Camera.DestinationType.DATA_URL\"`` 」、 *Base64* 形式の写真を返します。"
+msgstr "カメラを使用した写真のキャプチャー、および、その保存処理が終わった後、 ``onSuccess`` コールバック ( 第一引数 ) を呼び出します。次に、このコールバックは、写真の参照先を受け取ります。カメラを使用中にエラーが発生した場合、 ``onFail`` コールバック ( 第二引数 ) を呼び出します。``オプション`` のオブジェクトは、デフォルトでは、 *jpeg/png* 形式にエンコードされた文字列を返します。上記の例では、 quality として 「 50 」、 ``destinationType`` として 「 ``\"Camera.DestinationType.DATA_URL\"`` 」、 *Base64* 形式の写真を返します。"
 
 #: ../doc/sampleapp/tips/camera.rst:58
 msgid "Take a Picture (FILE_URI Format)"
@@ -2734,7 +2734,7 @@ msgid ""
 "navigator.camera.PictureSourceType.SAVEDPHOTOALBUM\"`` which defines the "
 "picture source obtained from the device's album. This way, you can access "
 "the device's album."
-msgstr "``getPicture()`` 関数の第三引数には、「 ``sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM`` 」 を使用して、写真の取得方法を指定しています。この記法で、端末のアルバムにアクセスできます。"
+msgstr "``getPicture()`` 関数の第三引数には、「 ``sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM`` 」 を使用して、写真の取得方法を指定しています。ここでは、端末のアルバムにアクセスして、画像を取得します。"
 
 #: ../doc/sampleapp/tips/camera.rst:85
 msgid "Camera API Options"
@@ -2746,7 +2746,7 @@ msgid ""
 "API behavior by overriding the default values listed here. Please note that "
 "this is not fully documented. Please check :ref:`Camera <phone_gap_camera>` "
 "for more details."
-msgstr "``getPicture()`` 関数のオプションを次に記します。ここに示した値を変更することで、カメラ操作プラグインの挙動を操作できます。使用方法の詳細に関しては、ここでの説明を割愛しておりますので、別途、:ref:`カメラ操作プラグイン <phone_gap_camera>` をご確認ください。"
+msgstr "``getPicture()`` 関数のオプションを次に記します。ここに示した値を変更することで、カメラ操作プラグインの挙動を変更できます。使用方法の詳細に関しては、ここでの説明を割愛しておりますので、別途、:ref:`カメラ操作プラグイン <phone_gap_camera>` をご確認ください。"
 
 #: ../doc/sampleapp/tips/camera.rst:92
 msgid "Option"
@@ -2818,7 +2818,7 @@ msgstr "写真ライブラリーから画像を選択"
 
 #: ../doc/sampleapp/tips/camera.rst:103
 msgid "Take a picture from the device's camera."
-msgstr "端末内臓のカメラでの写真撮影"
+msgstr "端末のカメラでの写真撮影"
 
 #: ../doc/sampleapp/tips/camera.rst:104
 msgid "Select pictures from the album."
@@ -2909,7 +2909,7 @@ msgid ""
 "be called. The passed parameter will contain numeric value from 0 to 359 "
 "indicating device heading. Above example displays heading directly to the "
 "page by using innerHTML."
-msgstr "方位の取得に成功した場合には、onSuccess コールバック関数を呼び出します。端末の方位を示す 0-359 までの数値が、コールバック関数に渡されます。 上記の例では、innerHTML を使用して、直接、方位をページに表示します。"
+msgstr "方位の取得に成功した場合には、onSuccess コールバック関数を呼び出します。そのとき、端末の方位を示す 0-359 までの数値が、コールバック関数に渡されます。 上記の例では、innerHTML を使用して、直接、方位をページに表示します。"
 
 #: ../doc/sampleapp/tips/compass.rst:20
 msgid ""
@@ -2938,7 +2938,7 @@ msgstr "WebView 上に表示できるものであれば、広告ネットワー�
 msgid ""
 "Monacaアプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様提供の `nend "
 "<http://nend.net/>`_ とMonacaアプリへの広告掲載の方法を紹介します。なお、以下の手順は2013年5月現在のものです。"
-msgstr "Monaca アプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様 提供の `nend <http://nend.net/>`_ をご紹介します。併せて、掲載方法も解説します ( 掲載された手順は、2013年5月現在 )。"
+msgstr "Monaca アプリ上に掲載できる広告ネットワークサービスの例として、株式会社ファンコミュニケーションズ様 提供の `nend <http://nend.net/>`_ をご紹介します。併せて、掲載方法も解説します ( 手順は、2013年5月現在のものです )。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:16
 msgid "nendへの掲載アプリ審査登録"
@@ -2956,7 +2956,7 @@ msgstr "nend の 「 広告コード 」 の取得"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:27
 msgid "サイト/アプリの審査後、管理画面から「広告枠の管理」→「広告枠」で登録したサイト/アプリを表示します。"
-msgstr "サイト / アプリの審査後、管理画面から、[ 広告枠の管理 ] → [ 広告枠 ] で登録したサイト/アプリを表示します。"
+msgstr "サイト/アプリの審査後、管理画面から、[ 広告枠の管理 ] → [ 広告枠 ] で登録したサイト/アプリを表示します。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:34
 msgid "サイト/アプリ名の下にある「広告コード」をクリックすると広告掲載用のコードが表示されますので、そのコードをコピーしておきます。"
@@ -2989,7 +2989,7 @@ msgstr "nend 広告の表示方法 ( Onsen UI アプリの場合 )"
 msgid ""
 "Onsen UIアプリではSPA (シングルページアプリケーション) "
 "というUI構造が採用されているため、通常のようにbodyタグ直下に広告を表示しようとしてもできないことがあります。これを回避するためにはDOM操作を行い、nendの広告をSPAのページ上に表示するコードを記述する必要があります。"
-msgstr "Onsen UI アプリでは、SPA ( シングル ページ アプリケーション ) を原則として使用しているため、Onsen UI 不使用時のアプリと同じように、body タグ直下に、広告を置く場合、表示されないことがあります。回避策としては、DOM の操作を行い、nend の広告自体を、SPA のページ上に表示するように、コードを記述します。"
+msgstr "Onsen UI アプリでは、SPA ( シングル ページ アプリケーション ) を原則として使用しているため、通常のアプリと同じように、body タグ直下に広告を置く場合、表示されないことがあります。回避策としては、DOM の操作を行い、nend の広告自体を、SPA のページ上に表示するように、コードを記述します。"
 
 #: ../doc/sampleapp/tips/external_services/nend_ad.rst:96
 msgid "具体的には下記のように行います。"
@@ -3027,7 +3027,7 @@ msgid ""
 "When the call is successful, *onSuccess* callback (1st argument) will be "
 "called. An object containing various location sensor information (position "
 "object in this case) will be returned."
-msgstr "このメソッドは、3 つの引数を取ります。*onSuccess* 、 *onError* 、option オブジェクトです。処理が成功すると、 *onSuccess* コールバック ( 第一引数 ) を呼び出します。複数の位置センサー情報を格納したオブジェクトを返します ( ここでは、positin オブジェクト )。"
+msgstr "このメソッドは、3 つの引数を取ります。*onSuccess* 、 *onError* 、option オブジェクトです。処理が成功すると、 *onSuccess* コールバック ( 第一引数 ) を呼び出します。複数の位置センサー情報を格納したオブジェクトを返します ( ここでは、position オブジェクト )。"
 
 #: ../doc/sampleapp/tips/gps.rst:17
 msgid ""
@@ -3058,13 +3058,13 @@ msgstr "HTML 5 の <audio> タグを使用する。"
 
 #: ../doc/sampleapp/tips/media.rst:11 ../doc/sampleapp/tips/media.rst:46
 msgid "Use PhoneGap Media API."
-msgstr "Cordova の メディア操作プラグイン ( Media Plugin ) を使用する。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:13
 msgid ""
 "This is just a sample code and may not work correctly with some OS versions "
 "or devices."
-msgstr "端末、OS ごとに挙動が異なる場合があります。また、動作しない場合もあります。"
+msgstr "端末、OS ごとに挙動が異なる場合があります。"
 
 #: ../doc/sampleapp/tips/media.rst:16
 msgid "Playing Sound from External Source"
@@ -3095,7 +3095,7 @@ msgstr "Monaca プロジェクトの *www* ディレクトリー下に置いた�
 
 #: ../doc/sampleapp/tips/media.rst:52
 msgid "Using <audio> Tag and Locating Local Sound File"
-msgstr "<audio> タグを使用した、音声ファイルへの参照 ( ローカルに保存されたファイル )"
+msgstr "<audio> タグを使用した、音声ファイルへのアクセス ( ローカルに保存されたファイルを参照 )"
 
 #: ../doc/sampleapp/tips/media.rst:54
 msgid ""
@@ -3105,7 +3105,7 @@ msgstr "<audio> タグを使用した、音声ファイルの再生は、ほと�
 
 #: ../doc/sampleapp/tips/media.rst:75
 msgid "Using PhoneGap Media API to Play Sound"
-msgstr "Cordova のメディア操作プラグイン使用した、音の再生"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:78
 msgid ""
@@ -3129,7 +3129,7 @@ msgid ""
 "effect to it. This sample app will have different sounds for each fortune "
 "result. You will need to place *mp3* files and modify :file:`index.html` as "
 "follows."
-msgstr "このサンプルでは、`おみくじ占いアプリ <https://docs.monaca.io/en/sampleapp/samples/omikuji/>`_ に、新たに効果音を追加します。また、おみくじの結果に応じて、異なる効果音を使用しています。次のように、*mp3* ファイルを新たに追加して、:file:`index.html` の記述をサンプルのように修正します。"
+msgstr "このサンプルでは、`おみくじ占いアプリ <https://docs.monaca.io/ja/sampleapp/samples/omikuji/>`_ に、新たに効果音を追加します。また、おみくじの結果に応じて、異なる効果音を使用しています。次のように、*mp3* ファイルを新たに追加して、:file:`index.html` の記述をサンプルのように修正します。"
 
 #: ../doc/sampleapp/tips/media.rst:103
 msgid "You can download the complete source code here."
@@ -3141,7 +3141,7 @@ msgstr ":download:`download/media/omikuji.zip`"
 
 #: ../doc/sampleapp/tips/phonegap.rst:3
 msgid "PhoneGap app acceleration/UX Technique"
-msgstr "PhoneGap アプリの高速化・UX テクニック"
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:9
 msgid ""
@@ -3157,7 +3157,7 @@ msgid ""
 "The article is written in relation to PhoneGap, but WebView operation is the"
 " same on both the Monaca app and the PhoneGap app, so you will be able to "
 "apply the techniques in the same way as written in the article."
-msgstr "PhoneGap アプリを対象として、記事は書かれていますが、Monaca アプリでも、PhoneGap アプリでも、WebView 上での動作は同じですので、こちらの記事で紹介されているテクニックを、どちらにも適用できます。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:15
 msgid ""
@@ -3165,7 +3165,7 @@ msgid ""
 "translated by our staff, geared towards the PhoneGap app .  `English Article"
 " <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-"
 "successful-phonegap-apps/>`_ \""
-msgstr "なお、リンク先の記事は、PhoneGap アプリを対象として書かれた記事を、弊社スタッフが翻訳しました。この記事の `英語の原文は、こちら <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/>`_  になります。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/splashScreen.rst:3
 msgid "Control the Splash Screen"
@@ -3351,7 +3351,7 @@ msgstr "rows"
 msgid ""
 "Returns *ResultSetRowList* object. It represents the results of the sql "
 "execution."
-msgstr "*ResultSetRowList* オブジェクトを返します。SQL 実行時の処理結果を示します。"
+msgstr "*ResultSetRowList* オブジェクトを返します。SQL 実行時の処理結果です。"
 
 #: ../doc/sampleapp/tips/storage.rst:91
 msgid "Executing SQL (SQLite)"
