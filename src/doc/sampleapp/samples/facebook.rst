@@ -4,7 +4,7 @@
 Facebook Demo
 ============================================
 
-This is a sample app created in Monaca to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_. wser.
+This is a sample Monaca app used to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_.
 
 
 | *Tested Environments:* Android 6.2, iOS 9.3.5
@@ -12,14 +12,10 @@ This is a sample app created in Monaca to log into and log out of Facebook using
   .. figure:: images/facebook/5.png
      :width: 346px
      :align: left
-     
-     Banner Ads
 
   .. figure:: images/facebook/7.png
      :width: 346px
      :align: left
-     
-     Interstitial Ads
 
   .. rst-class:: clear
 
@@ -28,30 +24,61 @@ This is a sample app created in Monaca to log into and log out of Facebook using
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You are required to have *App ID/App Key* and *App Secret* by registering your Monaca app with Facebook Developer:
+In order to use this demo app, you are required to register your app with Facebook. Then, you will get its *App ID* and *App Secret* which will be used in this app later. 
+
+Please follow the instruction below in order to register your app with Facebook:
       
-1. Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin with Facebook account. If you don't have one, please signup.
+1. Go to `Facebook for Developers <https://developers.facebook.com/>`_ and log in with your Facebook account.
 
-2. Go to :guilabel:`Apps > Create a New App`.
+2. Go to :menuselection:`My Apps --> Add a New App`.
 
-  .. image:: images/facebook/1.png  
-         :width: 700px
-
-3. Fill in the display name and choose a category of your app. Then, click :guilabel:`Create App` button.
-
-  .. image:: images/facebook/2.png
-    :width: 500px
-
-4. For security purpose, you will be asked to input some code. Click :guilabel:`Submit` button after input the shown code properly.
-
-  .. image:: images/facebook/3.png
-    :width: 500px
-
-5. After a successful registration, a similar screen shown below will appear. You can see the App ID and App Secret here. You will need them later.
-
-  .. image:: images/facebook/4.png
+  .. figure:: images/facebook/1.png
     :width: 700px
+    :align: left
 
+  .. rst-class:: clear
+
+3. Select ``Website`` as the platform of your app.
+
+  .. figure:: images/facebook/2.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+4. Fill in your app's name and click :guilabel:`Create New Facebook App ID`.
+
+  .. figure:: images/facebook/3.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+5. Fill in your contact email and select a category of the app. Then, click :guilabel:`Create App ID`.
+
+  .. figure:: images/facebook/4.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+6. Answer a security question.
+
+7. Click :guilabel:`Skip Quick Start` button. Then, you will be forwarded to the app's Dashboard.
+
+  .. figure:: images/facebook/9.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+8. Click on :guilabel:`Settings` and input your app domains and site URL. Then, click :guilabel:`Save Changes`. You can also find the *App ID* and *App Secret* here.
+
+  .. figure:: images/facebook/10.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
 
 
 File Components
@@ -87,12 +114,12 @@ Required Cordova Plugins
 HTML Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app. 
+We are using `Onsen <https://onsen.io/>`_ for the user interface (UI) of this demo app.
 
 Startup Page
 ====================
 
-The following block code represents the UI of the startup page of the project (see the screenshot below).
+The following block code represents the UI of the startup page (see the screenshot below):
 
 .. code-block:: HTML
 
@@ -117,8 +144,8 @@ The following block code represents the UI of the startup page of the project (s
     ...
 
 .. figure:: images/facebook/5.png
-   :width: 346px
-   :align: center
+    :width: 346px
+    :align: center
      
     Startup Page
 
@@ -128,7 +155,7 @@ The following block code represents the UI of the startup page of the project (s
 Friend List page
 ====================
 
-The following block code will show the friend list if the user is successfully loged in. (see the screenshot below).
+The following block code will show the friend list if the user is successfully logged in (see the screenshot below).
 
 .. code-block:: HTML
 
@@ -152,29 +179,29 @@ The following block code will show the friend list if the user is successfully l
     ...
 
 .. figure:: images/facebook/7.png
-   :width: 346px
-   :align: center
+    :width: 346px
+    :align: center
      
-    Startup Page
+    Friend List
 
 .. rst-class:: clear
 
 JavaScript Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`inappbrower_plugin`.
-The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside our app. This prevents the opening of an external browser.
+In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`InAppBrowser plugin <inappbrower_plugin>`. The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside the app without opening of an external browser.
+
 
 .. figure:: images/facebook/6.png
-   :width: 346px
-   :align: center
+    :width: 346px
+    :align: center
      
-    Startup Page
+    Facebook Login using InAppBrowser
 
 .. rst-class:: clear
 
 
-We use AngularJS in our code execution. In this app we only have one controller called ``HomeCtrl``. This controller will handle the login, logout and retrieve friend list from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret.
+We use AngularJS in our code execution. In this app, we only have one controller, called ``HomeCtrl``. This controller will handle the login, logout and friend list retrieval from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret.
 
 .. code-block:: javascript
 

@@ -43,7 +43,7 @@ In order to register your application with AdMob, please do as follows:
 
   .. rst-class:: clear
 
-3. Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:
+3. Then, fill in the necessary information such your app name, platform, and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:
 
   .. figure:: images/admob/9.png
     :width: 630px
@@ -62,7 +62,7 @@ File Components
 .. rst-class:: clear
 
 ======================== ===================================================================================================================================== 
-``index.html``             The startup Page
+``index.html``             The startup page
 
 ``js/app.js``              JavaScript file handling app execution.
 
@@ -89,12 +89,12 @@ Required Cordova Plugins
 HTML Explanation
 =======================
 
-In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app. 
+We are using `Onsen <https://onsen.io/>`_ for the user interface (UI) of this demo app.
 
 Startup Page
 ^^^^^^^^^^^^^^^^^^^^^^
 
-The following block code represents the UI of the startup page of the project.
+The following block code represents the UI of the startup page (see the screenshot below):
 
 .. code-block:: HTML
 
@@ -142,8 +142,8 @@ The following block code represents the UI of the startup page of the project.
     ...
 
 .. figure:: images/admob/1.png
-   :width: 337px
-   :align: center
+    :width: 337px
+    :align: center
      
     Startup Page
 
@@ -191,8 +191,8 @@ The following block code represents the Ads Size dialog allowing users to select
 
 
 .. figure:: images/admob/3.png
-   :width: 337px
-   :align: center
+    :width: 337px
+    :align: center
      
     Ads Size Dialog
 
@@ -251,8 +251,8 @@ The following block code represents the Ads Position dialog allowing users to se
 
 
 .. figure:: images/admob/4.png
-   :width: 337px
-   :align: center
+    :width: 337px
+    :align: center
      
     Ads Position Dialog
 
@@ -289,15 +289,15 @@ From the very beginning, we start by initializing ``admobid`` object. The follow
         };
     }
 
-.. note:: All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there.
+.. note:: All of these ad unit ids are for testing only. For the real ad unit ids, you will need to register with AdMob and create your own ad unit ids there.
 
 initialization() Function
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:
+Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` function will be called. In this function, several other functions are called such as:
 
 - ``AdMob.getAdSettings()``: logging AdMob's ads setting information.
-- ``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on.
+- ``AdMob.setOptions()``: setting AdMob's ads setting such as position, bgColor and so on.
 - ``onAdFailLoad`` event handler: displaying error information when the ad is failed to load.
 
 .. code-block:: javascript

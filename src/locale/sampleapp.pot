@@ -33,12 +33,10 @@ msgid "*Tested Environments:* Android 6.2, iOS 9.3.5"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:16
-#: ../doc/sampleapp/samples/facebook.rst:16
 msgid "Banner Ads"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:22
-#: ../doc/sampleapp/samples/facebook.rst:22
 msgid "Interstitial Ads"
 msgstr ""
 
@@ -48,7 +46,7 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:30
 #: ../doc/sampleapp/samples/backend_memo.rst:25
-#: ../doc/sampleapp/samples/facebook.rst:29
+#: ../doc/sampleapp/samples/facebook.rst:25
 #: ../doc/sampleapp/samples/ibeacon.rst:29
 #: ../doc/sampleapp/samples/twitter.rst:25
 msgid "Prerequisite"
@@ -71,7 +69,7 @@ msgid "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` b
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:46
-msgid "Then, fill in the necessary information such your app name, platform and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
+msgid "Then, fill in the necessary information such your app name, platform, and type of ads. After completed, your will get an ad id for each ad unit. You will need to use this id to call each ad in your application. Here is an example:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:56
@@ -79,7 +77,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
 #: ../doc/sampleapp/samples/clock.rst:27
-#: ../doc/sampleapp/samples/facebook.rst:58
+#: ../doc/sampleapp/samples/facebook.rst:85
 #: ../doc/sampleapp/samples/flickr.rst:24
 #: ../doc/sampleapp/samples/hello_world.rst:26
 #: ../doc/sampleapp/samples/ibeacon.rst:41
@@ -101,7 +99,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 #: ../doc/sampleapp/samples/clock.rst:34
-#: ../doc/sampleapp/samples/facebook.rst:65
+#: ../doc/sampleapp/samples/facebook.rst:92
 #: ../doc/sampleapp/samples/flickr.rst:31
 #: ../doc/sampleapp/samples/hello_world.rst:34
 #: ../doc/sampleapp/samples/ibeacon.rst:48
@@ -119,15 +117,16 @@ msgid "``index.html``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:65
-#: ../doc/sampleapp/samples/age-calc.rst:35
-#: ../doc/sampleapp/samples/todo.rst:32
-msgid "The startup Page"
+#: ../doc/sampleapp/samples/flickr.rst:31
+#: ../doc/sampleapp/samples/omikuji.rst:32
+#: ../doc/sampleapp/samples/shinkansen.rst:31
+msgid "The startup page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
-#: ../doc/sampleapp/samples/facebook.rst:67
+#: ../doc/sampleapp/samples/facebook.rst:94
 #: ../doc/sampleapp/samples/ibeacon.rst:54
 #: ../doc/sampleapp/samples/memo_application.rst:37
 #: ../doc/sampleapp/samples/todo.rst:34
@@ -160,7 +159,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
-#: ../doc/sampleapp/samples/facebook.rst:73
+#: ../doc/sampleapp/samples/facebook.rst:100
 #: ../doc/sampleapp/samples/flickr.rst:40
 #: ../doc/sampleapp/samples/hello_world.rst:48
 #: ../doc/sampleapp/samples/ibeacon.rst:60
@@ -190,7 +189,7 @@ msgid "``Onsen``"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:81
-#: ../doc/sampleapp/samples/facebook.rst:80
+#: ../doc/sampleapp/samples/facebook.rst:107
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
 #: ../doc/sampleapp/samples/twitter.rst:73
@@ -205,7 +204,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
-#: ../doc/sampleapp/samples/facebook.rst:88
+#: ../doc/sampleapp/samples/facebook.rst:115
 #: ../doc/sampleapp/samples/flickr.rst:47
 #: ../doc/sampleapp/samples/hello_world.rst:56
 #: ../doc/sampleapp/samples/ibeacon.rst:76
@@ -223,20 +222,24 @@ msgid "HTML Explanation"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:92
-#: ../doc/sampleapp/samples/facebook.rst:90
-msgid "In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
+#: ../doc/sampleapp/samples/facebook.rst:117
+msgid "We are using `Onsen <https://onsen.io/>`_ for the user interface (UI) of this demo app."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:95
-#: ../doc/sampleapp/samples/facebook.rst:93
+#: ../doc/sampleapp/samples/admob.rst:148
+#: ../doc/sampleapp/samples/facebook.rst:120
+#: ../doc/sampleapp/samples/facebook.rst:150
 msgid "Startup Page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:97
-msgid "The following block code represents the UI of the startup page of the project."
+#: ../doc/sampleapp/samples/facebook.rst:122
+msgid "The following block code represents the UI of the startup page (see the screenshot below):"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:154
+#: ../doc/sampleapp/samples/admob.rst:197
 msgid "Ads Size Dialog"
 msgstr ""
 
@@ -245,6 +248,7 @@ msgid "The following block code represents the Ads Size dialog allowing users to
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:202
+#: ../doc/sampleapp/samples/admob.rst:257
 msgid "Ads Position Dialog"
 msgstr ""
 
@@ -256,7 +260,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
-#: ../doc/sampleapp/samples/facebook.rst:163
+#: ../doc/sampleapp/samples/facebook.rst:190
 #: ../doc/sampleapp/samples/flickr.rst:66
 #: ../doc/sampleapp/samples/hello_world.rst:99
 #: ../doc/sampleapp/samples/ibeacon.rst:157
@@ -282,7 +286,7 @@ msgid "From the very beginning, we start by initializing ``admobid`` object. The
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:292
-msgid "All of these ad unit ids are for testing only. For the ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
+msgid "All of these ad unit ids are for testing only. For the real ad unit ids, you will need to register with AdMob and create your own ad unit ids there."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:295
@@ -290,7 +294,7 @@ msgid "initialization() Function"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:297
-msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` Function will be called. In this function, several other functions are called such as:"
+msgid "Once Cordova and AdMob plugin pro are completely loaded, ``initialization()`` function will be called. In this function, several other functions are called such as:"
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:299
@@ -298,7 +302,7 @@ msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:300
-msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor and so on."
+msgid "``AdMob.setOptions()``: setting AdMob's ads setting such as position, bgColor and so on."
 msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:301
@@ -373,6 +377,11 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:25
 msgid ":download:`Click here to download the project <download/age-calc.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/todo.rst:32
+msgid "The startup Page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:37
@@ -712,86 +721,106 @@ msgid "Facebook Demo"
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:7
-msgid "This is a sample app created in Monaca to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_. wser."
+msgid "This is a sample Monaca app used to log into and log out of Facebook using `Graph API <https://developers.facebook.com/docs/reference/api/>`_."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:26
+#: ../doc/sampleapp/samples/facebook.rst:22
 msgid ":download:`Click here to download the project <download/facebook.zip>`"
 msgstr ""
 
+#: ../doc/sampleapp/samples/facebook.rst:27
+msgid "In order to use this demo app, you are required to register your app with Facebook. Then, you will get its *App ID* and *App Secret* which will be used in this app later."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:29
+msgid "Please follow the instruction below in order to register your app with Facebook:"
+msgstr ""
+
 #: ../doc/sampleapp/samples/facebook.rst:31
-msgid "You are required to have *App ID/App Key* and *App Secret* by registering your Monaca app with Facebook Developer:"
+msgid "Go to `Facebook for Developers <https://developers.facebook.com/>`_ and log in with your Facebook account."
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:33
-msgid "Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin with Facebook account. If you don't have one, please signup."
+msgid "Go to :menuselection:`My Apps --> Add a New App`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:35
-msgid "Go to :guilabel:`Apps > Create a New App`."
+#: ../doc/sampleapp/samples/facebook.rst:41
+msgid "Select ``Website`` as the platform of your app."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:40
-msgid "Fill in the display name and choose a category of your app. Then, click :guilabel:`Create App` button."
+#: ../doc/sampleapp/samples/facebook.rst:49
+msgid "Fill in your app's name and click :guilabel:`Create New Facebook App ID`."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:45
-msgid "For security purpose, you will be asked to input some code. Click :guilabel:`Submit` button after input the shown code properly."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:50
-msgid "After a successful registration, a similar screen shown below will appear. You can see the App ID and App Secret here. You will need them later."
+#: ../doc/sampleapp/samples/facebook.rst:57
+msgid "Fill in your contact email and select a category of the app. Then, click :guilabel:`Create App ID`."
 msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:65
+msgid "Answer a security question."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:67
+msgid "Click :guilabel:`Skip Quick Start` button. Then, you will be forwarded to the app's Dashboard."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:75
+msgid "Click on :guilabel:`Settings` and input your app domains and site URL. Then, click :guilabel:`Save Changes`. You can also find the *App ID* and *App Secret* here."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:92
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
 msgid "Startup page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:67
+#: ../doc/sampleapp/samples/facebook.rst:94
 msgid "JavaScript file handling app execution"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:69
+#: ../doc/sampleapp/samples/facebook.rst:96
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:38
 msgid "``styles/app.css``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:69
+#: ../doc/sampleapp/samples/facebook.rst:96
 #: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:76
+#: ../doc/sampleapp/samples/facebook.rst:103
 msgid "``Onsen UI (AngularJS is included)``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:83
+#: ../doc/sampleapp/samples/facebook.rst:110
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:57
 #: ../doc/sampleapp/samples/twitter.rst:76
 msgid "``InAppBrowser``"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:95
-msgid "The following block code represents the UI of the startup page of the project (see the screenshot below)."
-msgstr ""
-
-#: ../doc/sampleapp/samples/facebook.rst:129
+#: ../doc/sampleapp/samples/facebook.rst:156
 msgid "Friend List page"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:131
-msgid "The following block code will show the friend list if the user is successfully loged in. (see the screenshot below)."
+#: ../doc/sampleapp/samples/facebook.rst:158
+msgid "The following block code will show the friend list if the user is successfully logged in (see the screenshot below)."
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:165
-msgid "In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`inappbrower_plugin`. The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside our app. This prevents the opening of an external browser."
+#: ../doc/sampleapp/samples/facebook.rst:185
+msgid "Friend List"
 msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:177
-msgid "We use AngularJS in our code execution. In this app we only have one controller called ``HomeCtrl``. This controller will handle the login, logout and retrieve friend list from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret."
+#: ../doc/sampleapp/samples/facebook.rst:192
+msgid "In order to log into Facebook, we are using `Graph API <https://developers.facebook.com/docs/reference/api/>`_ and :ref:`InAppBrowser plugin <inappbrower_plugin>`. The Graph API is the primary way for apps to read and write to the Facebook social graph. We use InAppBrowser to open a Facebook authentication page inside the app without opening of an external browser."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:199
+msgid "Facebook Login using InAppBrowser"
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:204
+msgid "We use AngularJS in our code execution. In this app, we only have one controller, called ``HomeCtrl``. This controller will handle the login, logout and friend list retrieval from Facebook. Before running the app, please do not forget to fill in your App ID and App Secret."
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:5
@@ -804,12 +833,6 @@ msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:21
 msgid ":download:`Click here to download the project <download/flickr.zip>`"
-msgstr ""
-
-#: ../doc/sampleapp/samples/flickr.rst:31
-#: ../doc/sampleapp/samples/omikuji.rst:32
-#: ../doc/sampleapp/samples/shinkansen.rst:31
-msgid "The startup page"
 msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:32
