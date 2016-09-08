@@ -110,20 +110,20 @@
                 <h3>Monaca Documentation Feedback</h3>
             </div>
             <div class="modal-body">
-                <form action="" method="post">
+                <form>
                     <table width= "100%">
                         <tr>
                             <td width="45%">
                                 <h4>How helpful is this document?</h4>
                                 <div id="star_group" role="radiogroup" aria-required="true">
                                     <label> 
-                                        <input type="radio" name="helped" value="1" /> Very helpful
+                                        <input type="radio" name="helped" value="Very helpful" /> Very helpful
                                     </label><br />
                                     <label> 
-                                        <input type="radio" name="helped" value="2" /> Somewhat helpful
+                                        <input type="radio" name="helped" value="Somewhat helpful" /> Somewhat helpful
                                     </label><br />
                                     <label>
-                                        <input type="radio" name="helped" value="3" /> Not helpful
+                                        <input type="radio" name="helped" value="Not helpful" /> Not helpful
                                     </label><br />
                                 </div>
                             </td>
@@ -131,16 +131,16 @@
                                 <h4>How can we improve this document?</h4>
                                 <div id="improve">
                                     <label>
-                                        <input type="checkbox" name="typo" /> Fix typos or links
+                                        <input type="checkbox" name="improvement" id="typo" value ="Fix typos or links"/> Fix typos or links
                                     </label><br />
                                     <label>
-                                        <input type="checkbox" name="infoIncorrect" /> Fix incorrect information
+                                        <input type="checkbox" name="improvement" id="infoIncorrect" value="Fix incorrect information" /> Fix incorrect information
                                     </label><br />
                                     <label>
-                                        <input type="checkbox" name="needs_examples" /> Add or update code samples
+                                        <input type="checkbox" name="improvement" id="needs_examples" value="Add or update code samples" /> Add or update code samples
                                     </label><br />
                                     <label>
-                                        <input type="checkbox" name="needs_art" /> Add or update screenshots/figures
+                                        <input type="checkbox" name="improvement" id="needs_art" value="Add or update screenshots/figures" /> Add or update screenshots/figures
                                     </label><br />
                                 </div>
                             </td>
@@ -149,7 +149,8 @@
                             <td colspan="2" style="text-align: center">
                                 <br />
                                 <textarea id="comment" rows="4" placeholder="Please tell us more about your experience with our document" data-asterisk="a2" required></textarea><br />
-                                <input style="background-color: #5d89cb" type="submit" value="Submit" />
+                                <input style="background-color: #5d89cb" type="button" value="Submit" id="btn_send" />
+                                <!-- <input style="background-color: #5d89cb" type="button" id="test" value="Test" /> -->
                             </td>
                         </tr>
                     </table>
@@ -203,11 +204,80 @@
         //Feedback Dialog
         var modal = document.getElementById('FeedbackModal');
         var btn = document.getElementById("footer-nav-feedback");
+        var btn_send = document.getElementById("btn_send");
         var span = document.getElementsByClassName("close")[0];
 
         btn.onclick = function() {
             modal.style.display = "block";
         }
+
+        btn_send.onclick = function() {
+            var theUrl = "https://s2.monaca.mobi/ja/api/sendDocsFeedback";
+
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+            xmlHttp.send( null );
+            var token = JSON.parse(xmlHttp.responseText)['result']['initOK']['_csrf_token'];
+            var usefulness = $("input[name=helped]:checked").val();
+
+            var improvement = [];
+            $('#improve input:checked').each(function() {
+                improvement.push($(this).attr('value'));
+            });
+            var comment = document.getElementById("comment").value;
+
+            // var form = {"usefulness":usefulness, 
+            //             "improvement": improvement,
+            //             "comment": comment,
+            //             "_csrf_token": token
+            //         }
+
+//             form%5Bname%5D=test&form%5Burl_appstore%5D=&form%5Burl_googleplay%5D=&form%5B_csrf_token%5D=106d675f83b76d6c520109ae929ff23a
+// Name
+
+// encodeURIComponent(
+
+            var postData = "form%5Busefulness%5D=" + encodeURIComponent(usefulness) + 
+                            "&form%5Bimprovement%5D=" + encodeURIComponent(improvement) + 
+                            "&form%5Bcomment%5D=" + encodeURIComponent(comment) + 
+                            "&form%5B_csrf_token%5D=" + token;
+            //postData = encodeURIComponent(postData);
+            console.log(postData);
+
+            xmlHttp.open( "POST", theUrl, false );
+            xmlHttp.setRequestHeader("Content-Type", "text/html");
+            xmlHttp.send(postData);
+            console.log(xmlHttp.status);
+            console.log(xmlHttp.responseText);
+
+            //alert("usefulness: "+ usefulness + "- improvement: " + improvement + "- comment: " + comment);
+
+            //comment,usefulness,improvement, _csrf_token
+
+            // var xmlHttp = new XMLHttpRequest();
+            // xmlHttp.onreadystatechange = function() { 
+            //     if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            //         alert(xmlHttp.responseText);
+            // }
+            // xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+            // xmlHttp.send(null);
+            // var method = "GET";
+            // var postData = "Some data";
+            // var async = true;
+            // var request = new XMLHttpRequest();
+            // alert(request);
+            // request.onload = function () {
+            //     var status = request.status; // HTTP response status, e.g., 200 for "200 OK"
+            //     var data = request.responseText; // Returned data, e.g., an HTML document.
+            //     alert(data);
+            // }
+
+            // request.open(method, url, async);
+            // request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            // //request.send(postData);
+            // request.send();
+        }
+
         span.onclick = function() {
             modal.style.display = "none";
         }
