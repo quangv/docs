@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-07 09:00+0000\n"
+"PO-Revision-Date: 2016-09-08 05:41+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "このページでは、Monaca を使用して、`AdMob <https://www.goo
 #: ../doc/sampleapp/samples/admob.rst:10
 #: ../doc/sampleapp/samples/facebook.rst:10
 msgid "*Tested Environments:* Android 6.2, iOS 9.3.5"
-msgstr ""
+msgstr "*テスト環境 :* Android 6.2、iOS 9.3.5"
 
 #: ../doc/sampleapp/samples/admob.rst:16
 msgid "Banner Ads"
@@ -154,7 +154,7 @@ msgstr "``js/app.js``"
 
 #: ../doc/sampleapp/samples/admob.rst:67
 msgid "JavaScript file handling app execution."
-msgstr "アプリの実行時にさまざまな処理を行う  JavaScript ファイル"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/age-calc.rst:37
@@ -218,7 +218,7 @@ msgstr "必要な Cordova プラグイン"
 #: ../doc/sampleapp/samples/admob.rst:84
 msgid ""
 "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
-msgstr "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:90
 #: ../doc/sampleapp/samples/age-calc.rst:49
@@ -253,7 +253,7 @@ msgstr ""
 #: ../doc/sampleapp/samples/facebook.rst:120
 #: ../doc/sampleapp/samples/facebook.rst:150
 msgid "Startup Page"
-msgstr "起動時のページ"
+msgstr "スタート画面のページ"
 
 #: ../doc/sampleapp/samples/admob.rst:97
 #: ../doc/sampleapp/samples/facebook.rst:122
@@ -318,7 +318,7 @@ msgid ""
 "From the very beginning, we start by initializing ``admobid`` object. The "
 "following block code initializes the object based on the device's platform. "
 "The object contains two types of ads such as banner and interstitial ads."
-msgstr ""
+msgstr "最初に行う処理は、``admobid`` オブジェクトの初期化です。次に記述されているブロックでは、端末のプラットフォームに応じて、異なる広告ユニット ID ( Ad Unit ID ) を指定しています。いずれの場合でも、インタースティシャル広告とバナー広告の 2 種類を、オブジェクトに格納しています。"
 
 #: ../doc/sampleapp/samples/admob.rst:292
 msgid ""
