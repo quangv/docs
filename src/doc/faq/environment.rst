@@ -25,7 +25,7 @@ In order to develop mobile apps using Monaca, it is necessary to have some knowl
 Why can I develop smartphone applications with Monaca even without using Java or Objective-C?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-Monaca utilizes `Apache Cordova <http://cordova.apache.org//>`_ as the library for accessing unique features of mobile devices. Through Cordova, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad).
+Monaca utilizes `PhoneGap <http://phonegap.com/>`_ as the library for accessing unique features of mobile devices. Through PhoneGap, your app can access unique features of mobile device using JavaScript, so it is not necessary to use Java (Android) and Objective-C (iPhone/iPad).
 
 .. _faq02~004:
 

@@ -14,7 +14,7 @@ Custom Cordova Plugin
 
 Cordova Plugin provides a simple way to write a native code onto your program. In this page, we will describe how to create and add a custom Cordova plugin into your Monaca project.
 
-.. note:: You need to subscribe to a valid plan in order to use custom Cordova plugins. Please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_.
+.. note:: You need to subscribe to a valid plan in order to use custom Cordova plugins. Please refer to `Monaca Pricing <https://monaca.mobi/en/pricing>`_.
 
 Your custom Cordova plugin need to follow the requirements below:
 

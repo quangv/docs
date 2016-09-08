@@ -73,12 +73,14 @@ If your plan is Gold, Platinum or Enterprise, team development allows you to:
 
   - The easiest way is to use Monaca's built-in "share" feature. Then, two or more people can open the same project in the IDE. However, if there is any conflict, the previous version will be overwritten (still remains in the file history). 
 
+  - Another way is to set up a version control system and do the local development using Monaca Localkit or Monaca CLI. This requires a higher skill set, but more collaborative.
+
   - The last option is to use Monaca for Visual Studios. In this case, the files can be managed by VS's built in Team Explorer functionality. Git, TFS, Visual Studio Online and other supported version control system can be used in this case.
 
 3. Let multiple people to test the project (members are assigned as Testers): Use Monaca's built-in "share" feature, and share the project with the test members.
 
 
-However, if your usage plan is Basic or Personal, you can only join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_.
+However, if your usage plan is Basic or Personal, you can only chat and join a team as a Tester. For more information of the usage plan and its limitation, please refer to `Monaca Usage Plan <https://monaca.mobi/en/pricing>`_.
 
 .. _faq05~007:
 
@@ -87,7 +89,7 @@ In Monaca, how is the security of development assets maintained?
   
 Currently, for general use, each user's resources are controlled by each account on the same server. 
 We can handle on an individual basis of strengthening the security such as having an independent location of each resource or enforcing source IP restrictions for access (fee-based). 
-Please contact us `here <https://monaca.io/support/inquiry.html>`_. 
+Please contact us `here <https://monaca.mobi/page/contact>`_. 
 
 .. _faq05~08:
 

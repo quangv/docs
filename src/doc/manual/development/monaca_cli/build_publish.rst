@@ -4,14 +4,17 @@
 Remote Building and Publishing
 ==========================================
 
+.. rst-class:: right-menu
+
+
 Remote Building
 ==========================
 
 Inside :guilabel:`Remote Build`, there are several important functions such as:
 
-- Building application: Choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build.
-- Building configuration: Configure necessary information regarding the application and build for each platform.
-- Project dependencies: Include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project.
+- Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build.
+- Building configuration: configure necessary information regarding application and build for each platform.
+- Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project.
 
 
 Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app. 

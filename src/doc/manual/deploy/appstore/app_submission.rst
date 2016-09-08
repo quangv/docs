@@ -4,7 +4,7 @@
 Monaca Upload Feature
 ================================================
 
-.. note:: In order to use this upload feature, you are required to subscribe to a valid plan. Please refer to `Pricing <https://monaca.io/pricing.html>`_.
+.. note:: In order to use this upload feature, you are required to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
 
 .. warning:: If you use activation code to upgrade your account, you can use Monaca upload feature in case your plan supports this feature. Please `contact us <https://monaca.mobi/en/support/inquiry>`_ for more details.
 

@@ -107,7 +107,7 @@ For Windows Store app development, native JavaScript and HTML5 features are used
 Can I develop a full-screen app?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    
-You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ . 
+You can develop a full-screen app by using predefined configuration in *AndroidManifest* or :file:`MonacaSkeleton-Info.plist` file. For more details, please refer to `here <https://docs.monaca.io/en/reference/config/ios_configuration/>`_ . 
 
 .. _faq04~012:
 

@@ -19,8 +19,6 @@
        under the License.
    -->
 
-.. _inappbrower_plugin:
-
 ===============================
 InAppBrowser Plugin
 ===============================

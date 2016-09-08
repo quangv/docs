@@ -7,7 +7,7 @@ Hello World App
 .. rst-class:: right-menu
 
 
-This sample app is a Core Cordova Plugins Demo showing several device functionalities such as camera, contacts, compass and so on. 
+This sample app is a PhoneGap Demo showing several device functionalities such as camera, contacts, compass and so on. 
 
 
 | *Tested Environments:* Android 4.2.2, iOS 7.1.1
@@ -20,8 +20,6 @@ This sample app is a Core Cordova Plugins Demo showing several device functional
   </div>
 
 
-:download:`Click here to download the project <download/hello_world.zip>`
-
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -33,11 +31,11 @@ File Components
 ==================================================== ======================================================================================================
 ``index.html``                                        The Startup page
 
-``phonegap-demo.html``                                The Core Cordova Plugins Demo page
+``phonegap-demo.html``                                The PhoneGap Demo page
 
-``phonegap-demo/master.css``                          The style sheet for the Core Cordova Plugins Demo page
+``phonegap-demo/master.css``                          The style sheet for the PhoneGap Demo page
 
-``phonegap-demo/main.js``                             The JavaScript file handling implementation in the Core Cordova Plugins Demo page
+``phonegap-demo/main.js``                             The JavaScript file handling implementation in the PhoneGap Demo page
 
 ``css/style.css``                                     The style Sheet for the whole application
 
@@ -78,7 +76,7 @@ The above html code inside the ``<body>`` tag is showing a ``HelloWorld!`` phras
 phonegap-demo.html
 ==============================
 
-:file:`phonegap-demo.html` shows a Core Cordova Plugins Demo with the basic phone information and a list of functions as below:
+:file:`phonegap-demo.html` shows a PhoneGap Demo with the basic phone information and a list of functions as below:
 
 - *Toggle Accelerometer*: Start or stop the measurement of the phone's movement.
 - *Get Location*: Get current location of the phone.
@@ -98,7 +96,7 @@ The JavaScript code corresponds to these functions will be explained in the next
 JavaScript Explanation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :file:`main.js` is a JavaScript file handling the implementation of the Core Cordova Plugins Demo page. There are 8 main functions in this file:
+The :file:`main.js` is a JavaScript file handling the implementation of the PhoneGap Demo page. There are 8 main functions in this file:
 
 Toggle Accelerometer
 =================================

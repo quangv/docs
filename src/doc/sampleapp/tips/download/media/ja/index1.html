@@ -56,14 +56,14 @@
              return str.substring(0,i+1);
          }
 
-                 //Core Cordova Pluginsの読み込みが完了した際の「deviceready」イベント発生時にonDeviceReady()関数を呼び出すイベントを設定します。
+                 //PhoneGapの読み込みが完了した際の「deviceready」イベント発生時にonDeviceReady()関数を呼び出すイベントを設定します。
          document.addEventListener("deviceready", onDeviceReady, false);
 
 
          function onDeviceReady(){
 
-               //Core Cordova Pluginsの読み込みが完了した際に「Core Cordova Pluginsの読み込みが完了しました」と通知を出しています
-               alert("Core Cordova Pluginsの読み込みが完了しました");
+               //PhoneGapの読み込みが完了した際に「PhoneGapの読み込みが完了しました」と通知を出しています
+               alert("PhoneGapの読み込みが完了しました");
 
                            /*効果音を再生するための「オブジェクト」を生成してそれぞれ変数から利用できるようにします。
                            第１引数のurl指定を「getPath() + src」とすることで音源となるファイルへのパスを示すとともに

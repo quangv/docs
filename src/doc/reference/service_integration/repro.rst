@@ -10,7 +10,7 @@ Repro (iOS only)
 
 `Repro <https://repro.io/>`__ is a service which provides the confirmation of how a user handles an application by recording the user's actions. Currently, it supports iOS only.
 
-.. note:: This Repro service integration is available for all Monaca users. However, if you want to use the latest Repro plugin via `Github <https://github.com/reproio/repro-ios-sdk>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.io/pricing.html>`_. 
+.. note:: This Repro service integration is available for all Monaca users. However, if you want to use the latest Repro plugin via `Github <https://github.com/reproio/repro-ios-sdk>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_. 
 
 Add Repro Service to Monaca
 =======================================

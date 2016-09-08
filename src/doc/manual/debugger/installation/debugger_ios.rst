@@ -38,10 +38,10 @@ Monaca Debugger for iOS
   +---------------------------------+-------------------------------------------+-----------------------------------------------------------------------+
   | App ID (iOS:CFBundleIdentifier) | ``mobi.monaca.debugger``                  | App ID set by user                                                    |
   +---------------------------------+-------------------------------------------+-----------------------------------------------------------------------+
-  | Version Name                    | Fixed (currently 6.0.0)                   | Display version name set by user                                      |
+  | Version Name                    | Fixed (currently 5.0.0)                   | Display version name set by user                                      |
   | (iOS:CFBundleShortVersionString)|                                           |                                                                       |
   +---------------------------------+-------------------------------------------+-----------------------------------------------------------------------+
-  | App Version                     | Fixed (currently 6.0.0)                   | Version set by user                                                   |
+  | App Version                     | Fixed (currently 5.0.0)                   | Version set by user                                                   |
   | (iOS:CFBundleVersion)           |                                           |                                                                       |
   +---------------------------------+-------------------------------------------+-----------------------------------------------------------------------+
   | :ref:`usb_ios`                  | Not Available                             | Available (Safari's Web Inspector)                                    |

@@ -18,8 +18,6 @@ This sample app is a train catalog which displaying the types trains towards Tok
     <iframe src="https://monaca.github.io/project-templates/20-train-catalog/www/index.html" style="max-width: 150%;"></iframe>
   </div>
 
-:download:`Click here to download the project <download/shinkansen.zip>`
-
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

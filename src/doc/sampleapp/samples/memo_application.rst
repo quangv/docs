@@ -20,8 +20,6 @@ This sample app allows user to create a memo application using local storage.
   </div>
 
 
-:download:`Click here to download the project <download/memo_application.zip>`
-
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

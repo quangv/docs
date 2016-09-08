@@ -22,8 +22,6 @@ The app will calculate a user's birthyear and display it after he/she entered hi
   </div>
 
 
-:download:`Click here to download the project <download/age-calc.zip>`
-
 File Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -84,7 +82,7 @@ After entering your age and name, it stores them in two variables called "myname
 
 Finally it stores the message contents in a variable called "text", calls the "navigator.notification.alert" function and displays the result as a popup. 
 
-The ``navigator.notification.alert`` function  is a Core Cordova Plugins function that displays a popup dialog box on the screen. The third argument displays the text "Welcome to Monaca!" as the title of the dialog box.
+The ``navigator.notification.alert`` function  is a PhoneGap function that displays a popup dialog box on the screen. The third argument displays the text "Welcome to Monaca!" as the title of the dialog box.
 
 .. figure:: images/age-calc/4.png
      :width: 250px

@@ -23,7 +23,6 @@ This sample app uses iBeacon service to detect its proximity to iBeacon device. 
 
 .. note:: In order to test this application, you can either build the application or use the custom built Monaca Debugger.
 
-:download:`Click here to download the project <download/ibeacon.zip>`
 
 Prerequisite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

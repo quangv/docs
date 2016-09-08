@@ -22,7 +22,7 @@ Prerequisites
 In order to use Monaca for Visual Studio, you need:
 
 - Microsoft Visual Studio 2015 Community Edition, Professional Edition or higher editions.
-- a valid plan subscription. Please refer to `Pricing <https://monaca.io/pricing.html>`_.
+- a valid plan subscription. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_.
   
 .. _monaca_vs_installation:
 

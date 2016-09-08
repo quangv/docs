@@ -62,16 +62,7 @@ Step 1: Setting up an Android Virtual Device
 9. After completing the configurations, click :guilabel:`Finish`.
 
 
-.. _step_2:
-
-Step 2: Building Custom Monaca Debugger for Android
-==================================================================
-
-1. Go Monaca Cloud IDE and build custom Monaca Debugger for Android. For more information, please refer to :ref:`custom_debugger_and`.
-2. Download the debugger file and upload it to any file hosting services such as Google Drive, Dropbox and so on.
-3. Get a download link of the uploaded file. You will need to use this link later in the virtual device.
-
-Step 3: Installing Monaca Debugger
+Step 2: Installing Monaca Debugger
 ==========================================
 
 1. Go to :guilabel:`AVD Manager` and launch the virtual device.
@@ -82,7 +73,7 @@ Step 3: Installing Monaca Debugger
 
   .. rst-class:: clear
 
-2. From your virtual device, open a browser and go to the download link you created in :ref:`Step 2<step_2>` to download custom Monaca Debugger for Android.
+2. From your virtual device, open a browser and go to ``http://monaca.mobi/bin/MonacaDebugger.apk`` to download Monaca Debugger for emulator.
 
   .. figure:: images/debugger_emulator/6.png
     :width: 350px
@@ -115,7 +106,7 @@ Step 3: Installing Monaca Debugger
   .. rst-class:: clear
 
 
-Step 4: Running a Project on Monaca Debugger
+Step 3: Running a Project on Monaca Debugger
 ===================================================
 
 1. Open Monaca Debugger and sign in with your Monaca account.
