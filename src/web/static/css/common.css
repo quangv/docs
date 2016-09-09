@@ -31,7 +31,7 @@ h3 {
   clear: both; }
 
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   color: #000;
   clear: both; }
 
@@ -1086,7 +1086,8 @@ article.main {
   border: none;
   box-sizing: border-box;
   color: #444;
-  float: left;
+  /*float: left;*/
+  float: right;
   margin: 0;
   padding-top: 0;
   width: calc(100% - 288px); }
@@ -1338,7 +1339,8 @@ a.scrollup {
     background: url(../img/common/btn_top_active.png) no-repeat; }
 
 aside.global {
-  float: right;
+  /*float: right;*/
+  float: left;
   font-size: 16px;
   padding: 55px 0px 40px 0px;
   width: 288px;
@@ -1967,21 +1969,24 @@ table.products-guide {
   padding: 0; }
 
 div.api-box {
-  width: 170px;
+  width: 155px;
   border: 1px solid #1e629e;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  font-size: 20px; }
+  font-size: 18px; }
   div.api-box a.title {
     color: #000;
     text-decoration: none; }
-  div.api-box a.title:hover {
-    color: #1e629e;
-    text-decoration: underline; }
+
+div.api-box:hover {
+  background-color: #1e629e;
+  cursor: pointer; }
+  div.api-box:hover a.title {
+    color: #fff; }
 
 div.product-box {
-  width: 210px;
+  width: 200px;
   border: 1px solid #1e629e;
   margin: 10px;
   border-radius: 5px;
@@ -1989,7 +1994,7 @@ div.product-box {
   text-align: left; }
   div.product-box p {
     padding: 10px 10px 10px 70px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center; }
   div.product-box p.onsen {
     padding: 20px 10px 21px 70px; }
@@ -2015,8 +2020,16 @@ div.product-box {
     color: #000;
     text-decoration: none; }
   div.product-box a.title:hover {
-    color: #1e629e;
-    text-decoration: underline; }
+    color: #fff;
+    cursor: pointer;
+    /*text-decoration: underline;*/ }
+
+div.product-box:hover {
+  background-color: #c3c3c3;
+  cursor: pointer;
+  /*a.title {
+        color: #fff;
+    }*/ }
 
 img.product-logo {
   position: absolute;

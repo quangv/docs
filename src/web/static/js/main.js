@@ -102,7 +102,7 @@ $(function(){
       var see_also_element = document.getElementsByClassName('admonition seealso')[0];
       if(see_also_element) {
         see_also_element.style.top = contents_height - 45 + 'px';
-        see_also_element.style.left = contents_left + 'px';
+        see_also_element.style.right = contents_left + 'px';
       }
     }
   }

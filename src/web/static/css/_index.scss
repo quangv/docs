@@ -44,25 +44,29 @@ table.products-guide {
 }
 
 div.api-box {
-    width: 170px;
+    width: 155px;
     border: 1px solid #1e629e;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
 
     a.title {
         color: #000; 
         text-decoration: none;
     }
-    a.title:hover {
-        color: #1e629e; 
-        text-decoration: underline;
+}
+
+div.api-box:hover {
+    background-color: #1e629e;
+    cursor: pointer;
+    a.title {
+        color: #fff;
     }
 }
 
 div.product-box {
-    width: 210px;
+    width: 200px;
     border: 1px solid #1e629e;
     margin: 10px;
     border-radius: 5px;
@@ -71,7 +75,7 @@ div.product-box {
 
     p {
         padding: 10px 10px 10px 70px;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -108,11 +112,19 @@ div.product-box {
         text-decoration: none;
     }
     a.title:hover {
-        color: #1e629e; 
-        text-decoration: underline;
+        color: #fff; 
+        cursor: pointer;
+        /*text-decoration: underline;*/
     }
 }
 
+div.product-box:hover {
+    background-color: #c3c3c3;
+    cursor: pointer;
+    /*a.title {
+        color: #fff;
+    }*/
+}
 
 
 img.product-logo {
