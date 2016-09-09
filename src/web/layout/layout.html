@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/static/css/print.css?20150406" type="text/css" media="print" />
     <link rel="stylesheet" href="/static/css/spinner.css" type="text/css" />
 
+    <link rel="stylesheet" href="/static/css/feedback.css" type="text/css" />
+
     <!--[if lt IE 9]>
     <script type="text/javascript" src="/static/js/html5shiv.js"></script>
     <script type="text/javascript" src="/static/js/selectivizr-min.js"></script>
@@ -99,16 +101,30 @@
         {{> sidebar }}
     {{/if}}
 
+    <div id="feedback">
+        {{#is lang "ja"}}
+            {{> feedback.ja }}
+        {{else}}
+            {{> feedback.en }}
+        {{/is}}
+    </div>
+ 
+	<div style="display:none;">
+	    <div id="demo3_tip">
+	        
+	    </div>
+	</div>
+
     <a href="#top" class="scrollup">Scroll</a>
 
     <footer class="global">
         <div class="footer-nav">
             {{#is lang "ja"}}
-                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
-                <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a>
+                <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
+                <a id="footer-nav-feedback">フィードバック</a>
             {{else}}
-                <a id="footer-nav-feedback" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
-                <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a>
+                <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
+                <a id="footer-nav-feedback">Feedback</a>
             {{/is}}
         </div>
         <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
@@ -125,6 +141,12 @@
         if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {
             document.body.classList.add("home");
         }
+
+        //Feedback Dialog
+        var feedback = document.getElementById('feedback');
+        $( "#footer-nav-feedback" ).click(function() {
+            feedback.style.display = "block";
+        });        
     </script>
 
 </body>

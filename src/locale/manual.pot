@@ -497,7 +497,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:212
+#: ../doc/manual/monaca_ci/overview.rst:225
 #: ../doc/manual/monaca_ci/supported_services.rst:111
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -831,6 +831,7 @@ msgstr ""
 #: ../doc/manual/build/build_android.rst:80
 #: ../doc/manual/build/build_chrome_app.rst:27
 #: ../doc/manual/build/ios/build_ios.rst:28
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
 #: ../doc/manual/debugger/installation/debugger_ios.rst:34
 #: ../doc/manual/deploy/appstore/itunes_connect.rst:97
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:9
@@ -949,6 +950,7 @@ msgstr ""
 
 #: ../doc/manual/build/build_android.rst:18
 #: ../doc/manual/build/ios/build_ios.rst:28
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:14
 #: ../doc/manual/debugger/installation/debugger_ios.rst:32
 #: ../doc/manual/debugger/installation/index.rst:5
@@ -2615,6 +2617,131 @@ msgstr ""
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_and>`."
 msgstr ""
 
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+#: ../doc/manual/debugger/installation/debugger_ios.rst:30
+msgid "Debugger Type"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+msgid "Monaca Debugger (Store Version)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:28
+#: ../doc/manual/debugger/installation/debugger_ios.rst:30
+msgid "Custom Built Monaca Debugger"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
+#: ../doc/manual/debugger/installation/debugger_ios.rst:34
+msgid "Monaca Debugger available at the store."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:30
+#: ../doc/manual/debugger/installation/debugger_ios.rst:34
+msgid "Monaca Debugger built from Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
+msgid "`Play Store`__"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:33
+msgid "`Amazon App Store`__"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:32
+msgid "Refer to :ref:`custom_debugger_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+msgid ":ref:`cordova_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+#: ../doc/manual/debugger/installation/debugger_ios.rst:36
+msgid "Core and some third-party Cordova plugins are automatically included."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:35
+#: ../doc/manual/debugger/installation/debugger_ios.rst:36
+msgid "In addition to core and third-party Cordova plugins, user submitted plugins (of the current project) are included."
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+msgid "App ID (Android:PackageName)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+#: ../doc/manual/debugger/installation/debugger_ios.rst:39
+msgid "``mobi.monaca.debugger``"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:38
+#: ../doc/manual/debugger/installation/debugger_ios.rst:39
+msgid "App ID set by user"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+msgid "Version Name (Android:versionName)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+msgid "Fixed (currently 6.0.1)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:41
+#: ../doc/manual/debugger/installation/debugger_ios.rst:41
+msgid "Display version name set by user"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+msgid "App Version (Android:versionCode)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+msgid "Fixed (currently 600012)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:44
+#: ../doc/manual/debugger/installation/debugger_ios.rst:44
+msgid "Version set by user"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+msgid ":ref:`usb_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+#: ../doc/manual/debugger/installation/debugger_android.rst:47
+msgid "Available (Chrome Dev Tools)"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+msgid ":ref:`localkit_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+#: ../doc/manual/debugger/installation/debugger_android.rst:49
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+#: ../doc/manual/debugger/installation/debugger_ios.rst:49
+#: ../doc/manual/debugger/installation/debugger_ios.rst:51
+msgid "Available"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+msgid ":ref:`webview_and`"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+#: ../doc/manual/debugger/installation/debugger_android.rst:51
+msgid "Stock and Crosswalk"
+msgstr ""
+
+#: ../doc/manual/debugger/installation/debugger_android.rst:53
+msgid ":ref:`network_and`"
+msgstr ""
+
 #: ../doc/manual/debugger/installation/debugger_android.rst:67
 #: ../doc/manual/debugger/installation/debugger_ios.rst:63
 #: ../doc/manual/dependencies/cordova_plugin.rst:5
@@ -2912,14 +3039,6 @@ msgstr ""
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_ios>`."
 msgstr ""
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:30
-msgid "Debugger Type"
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:30
-msgid "Custom Built Monaca Debugger"
-msgstr ""
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:32
 msgid "`App Store`__"
 msgstr ""
@@ -2928,36 +3047,12 @@ msgstr ""
 msgid "Refer to :ref:`custom_debugger_ios`"
 msgstr ""
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:34
-msgid "Monaca Debugger available at the store."
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:34
-msgid "Monaca Debugger built from Monaca Cloud IDE."
-msgstr ""
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:36
 msgid ":ref:`cordova_ios`"
 msgstr ""
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:36
-msgid "Core and some third-party Cordova plugins are automatically included."
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:36
-msgid "In addition to core and third-party Cordova plugins, user submitted plugins (of the current project) are included."
-msgstr ""
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:39
 msgid "App ID (iOS:CFBundleIdentifier)"
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:39
-msgid "``mobi.monaca.debugger``"
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:39
-msgid "App ID set by user"
 msgstr ""
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:41
@@ -2969,16 +3064,8 @@ msgstr ""
 msgid "Fixed (currently 6.0.0)"
 msgstr ""
 
-#: ../doc/manual/debugger/installation/debugger_ios.rst:41
-msgid "Display version name set by user"
-msgstr ""
-
 #: ../doc/manual/debugger/installation/debugger_ios.rst:44
 msgid "App Version (iOS:CFBundleVersion)"
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:44
-msgid "Version set by user"
 msgstr ""
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:47
@@ -2997,11 +3084,6 @@ msgstr ""
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:49
 msgid ":ref:`localkit_ios`"
-msgstr ""
-
-#: ../doc/manual/debugger/installation/debugger_ios.rst:49
-#: ../doc/manual/debugger/installation/debugger_ios.rst:51
-msgid "Available"
 msgstr ""
 
 #: ../doc/manual/debugger/installation/debugger_ios.rst:51
@@ -8609,7 +8691,7 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:214
+#: ../doc/manual/monaca_ci/overview.rst:227
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
@@ -8707,10 +8789,10 @@ msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161
-msgid "Here is an example of a recipe script configured for a deploy service with 2 aliases."
+msgid "Here is an example of a recipe script configured for multiple deploy services and one service with multiple aliases."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:215
+#: ../doc/manual/monaca_ci/overview.rst:228
 #: ../doc/manual/monaca_ci/supported_services.rst:114
 #: ../doc/manual/monaca_ci/troubleshooting.rst:14
 msgid ":ref:`json_sample`"

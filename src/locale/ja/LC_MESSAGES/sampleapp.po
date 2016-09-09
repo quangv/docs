@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-01 02:51+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-09 06:21+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr "サンプル＆Tip"
 
 #: ../doc/sampleapp/samples/admob.rst:5
 msgid "AdMob Demo"
-msgstr "AdMob のデモ用アプリ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:8
 msgid ""
@@ -34,26 +34,69 @@ msgid ""
 "mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This "
 "sample app is based on a demo on `AdMob Plugin Pro on Github "
 "<https://github.com/floatinghotpot/cordova-admob-pro>`_."
-msgstr "このページでは、Monaca を使用して、`AdMob <https://www.google.com/admob/>`_ ( モバイルアド/広告ネットワーク ) の実装方法を解説します。この解説で使用しているデモ用アプリは、`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ ( Github 上 ) を参考にし、構築されています。"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:14
+#: ../doc/sampleapp/samples/admob.rst:10
+#: ../doc/sampleapp/samples/facebook.rst:10
+msgid "*Tested Environments:* Android 6.2, iOS 9.3.5"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:16
 msgid "Banner Ads"
-msgstr "バナー広告 ( 上部 ) とインタースティシャル広告 ( 下部 ) の設定"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:20
+#: ../doc/sampleapp/samples/admob.rst:22
 msgid "Interstitial Ads"
-msgstr "インタースティシャル広告 ( ページの遷移時などに表示される、全画面表示の広告 ) の表示"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:24
+#: ../doc/sampleapp/samples/admob.rst:26
 msgid ":download:`Click here to download the project <download/admob.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/admob.zip>`"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:28
+#: ../doc/sampleapp/samples/admob.rst:30
+#: ../doc/sampleapp/samples/backend_memo.rst:25
+#: ../doc/sampleapp/samples/facebook.rst:25
+#: ../doc/sampleapp/samples/ibeacon.rst:29
+#: ../doc/sampleapp/samples/twitter.rst:25
+msgid "Prerequisite"
+msgstr "事前準備"
+
+#: ../doc/sampleapp/samples/admob.rst:32
+msgid ""
+"In this demo, we are using AdMob's ad unit ids for testing only. If you want"
+" to use the ads with your real application, you are required to register "
+"your application with AdMob."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:34
+msgid ""
+"In order to register your application with AdMob, please do as follows:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:36
+msgid "Sign up with `AdMob <https://apps.admob.com>`_."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:38
+msgid ""
+"Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` "
+"button."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:46
+msgid ""
+"Then, fill in the necessary information such your app name, platform, and "
+"type of ads. After completed, your will get an ad id for each ad unit. You "
+"will need to use this id to call each ad in your application. Here is an "
+"example:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:56
 #: ../doc/sampleapp/samples/age-calc.rst:28
 #: ../doc/sampleapp/samples/backend_memo.rst:44
 #: ../doc/sampleapp/samples/break_the_bricks.rst:27
 #: ../doc/sampleapp/samples/clock.rst:27
-#: ../doc/sampleapp/samples/facebook.rst:54
+#: ../doc/sampleapp/samples/facebook.rst:85
 #: ../doc/sampleapp/samples/flickr.rst:24
 #: ../doc/sampleapp/samples/hello_world.rst:26
 #: ../doc/sampleapp/samples/ibeacon.rst:41
@@ -70,12 +113,12 @@ msgstr ":download:`こちらから、このプロジェクトをダウンロー�
 msgid "File Components"
 msgstr "ファイル構成"
 
-#: ../doc/sampleapp/samples/admob.rst:37
+#: ../doc/sampleapp/samples/admob.rst:65
 #: ../doc/sampleapp/samples/age-calc.rst:35
 #: ../doc/sampleapp/samples/backend_memo.rst:51
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 #: ../doc/sampleapp/samples/clock.rst:34
-#: ../doc/sampleapp/samples/facebook.rst:61
+#: ../doc/sampleapp/samples/facebook.rst:92
 #: ../doc/sampleapp/samples/flickr.rst:31
 #: ../doc/sampleapp/samples/hello_world.rst:34
 #: ../doc/sampleapp/samples/ibeacon.rst:48
@@ -92,27 +135,28 @@ msgstr "ファイル構成"
 msgid "``index.html``"
 msgstr "``index.html``"
 
-#: ../doc/sampleapp/samples/admob.rst:37
-#: ../doc/sampleapp/samples/age-calc.rst:35
-#: ../doc/sampleapp/samples/todo.rst:32
-msgid "The startup Page"
+#: ../doc/sampleapp/samples/admob.rst:65
+#: ../doc/sampleapp/samples/flickr.rst:31
+#: ../doc/sampleapp/samples/omikuji.rst:32
+#: ../doc/sampleapp/samples/shinkansen.rst:31
+msgid "The startup page"
 msgstr "スタート画面のページ"
 
-#: ../doc/sampleapp/samples/admob.rst:39
+#: ../doc/sampleapp/samples/admob.rst:67
 #: ../doc/sampleapp/samples/backend_memo.rst:52
 #: ../doc/sampleapp/samples/clock.rst:36
-#: ../doc/sampleapp/samples/facebook.rst:71
+#: ../doc/sampleapp/samples/facebook.rst:94
 #: ../doc/sampleapp/samples/ibeacon.rst:54
 #: ../doc/sampleapp/samples/memo_application.rst:37
 #: ../doc/sampleapp/samples/todo.rst:34
 msgid "``js/app.js``"
 msgstr "``js/app.js``"
 
-#: ../doc/sampleapp/samples/admob.rst:39
+#: ../doc/sampleapp/samples/admob.rst:67
 msgid "JavaScript file handling app execution."
-msgstr "アプリの実行時にさまざまな処理を行う  JavaScript ファイル"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:41
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/age-calc.rst:37
 #: ../doc/sampleapp/samples/break_the_bricks.rst:38
 #: ../doc/sampleapp/samples/clock.rst:38
@@ -125,16 +169,16 @@ msgstr "アプリの実行時にさまざまな処理を行う  JavaScript フ�
 msgid "``css/style.css``"
 msgstr "``css/style.css``"
 
-#: ../doc/sampleapp/samples/admob.rst:41
+#: ../doc/sampleapp/samples/admob.rst:69
 #: ../doc/sampleapp/samples/twitter.rst:59
 msgid "A stylesheet file for the application"
 msgstr "アプリのスタイルシート"
 
-#: ../doc/sampleapp/samples/admob.rst:45
+#: ../doc/sampleapp/samples/admob.rst:73
 #: ../doc/sampleapp/samples/age-calc.rst:41
 #: ../doc/sampleapp/samples/backend_memo.rst:56
 #: ../doc/sampleapp/samples/break_the_bricks.rst:46
-#: ../doc/sampleapp/samples/facebook.rst:77
+#: ../doc/sampleapp/samples/facebook.rst:100
 #: ../doc/sampleapp/samples/flickr.rst:40
 #: ../doc/sampleapp/samples/hello_world.rst:48
 #: ../doc/sampleapp/samples/ibeacon.rst:60
@@ -149,9 +193,8 @@ msgstr "アプリのスタイルシート"
 msgid "Required JS/CSS Components"
 msgstr "必要な JS/CSS コンポーネント"
 
-#: ../doc/sampleapp/samples/admob.rst:48
+#: ../doc/sampleapp/samples/admob.rst:76
 #: ../doc/sampleapp/samples/age-calc.rst:44
-#: ../doc/sampleapp/samples/facebook.rst:80
 #: ../doc/sampleapp/samples/flickr.rst:43
 #: ../doc/sampleapp/samples/hello_world.rst:51
 #: ../doc/sampleapp/samples/memo_application.rst:44
@@ -160,28 +203,28 @@ msgstr "必要な JS/CSS コンポーネント"
 msgid "``jQuery``"
 msgstr "``jQuery``"
 
-#: ../doc/sampleapp/samples/admob.rst:49
+#: ../doc/sampleapp/samples/admob.rst:77
 msgid "``Onsen``"
-msgstr "``Onsen``"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:53
-#: ../doc/sampleapp/samples/facebook.rst:85
+#: ../doc/sampleapp/samples/admob.rst:81
+#: ../doc/sampleapp/samples/facebook.rst:107
 #: ../doc/sampleapp/samples/ibeacon.rst:67
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:54
 #: ../doc/sampleapp/samples/twitter.rst:73
 msgid "Required Cordova Plugins"
 msgstr "必要な Cordova プラグイン"
 
-#: ../doc/sampleapp/samples/admob.rst:56
+#: ../doc/sampleapp/samples/admob.rst:84
 msgid ""
 "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
-msgstr "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:62
+#: ../doc/sampleapp/samples/admob.rst:90
 #: ../doc/sampleapp/samples/age-calc.rst:49
 #: ../doc/sampleapp/samples/backend_memo.rst:65
 #: ../doc/sampleapp/samples/clock.rst:45
-#: ../doc/sampleapp/samples/facebook.rst:93
+#: ../doc/sampleapp/samples/facebook.rst:115
 #: ../doc/sampleapp/samples/flickr.rst:47
 #: ../doc/sampleapp/samples/hello_world.rst:56
 #: ../doc/sampleapp/samples/ibeacon.rst:76
@@ -198,48 +241,56 @@ msgstr "`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`
 msgid "HTML Explanation"
 msgstr "HTML の解説"
 
-#: ../doc/sampleapp/samples/admob.rst:64
+#: ../doc/sampleapp/samples/admob.rst:92
+#: ../doc/sampleapp/samples/facebook.rst:117
 msgid ""
-"In this demo app, we use `Onsen <https://onsen.io/>`_ for the UI of the app."
-msgstr "このデモ用アプリでは、`Onsen UI <https://onsen.io/>`_ を使用して、UI を構築しています。"
+"We are using `Onsen <https://onsen.io/>`_ for the user interface (UI) of "
+"this demo app."
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:67
+#: ../doc/sampleapp/samples/admob.rst:95
+#: ../doc/sampleapp/samples/admob.rst:148
+#: ../doc/sampleapp/samples/facebook.rst:120
+#: ../doc/sampleapp/samples/facebook.rst:150
 msgid "Startup Page"
-msgstr "起動時のページ"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:69
+#: ../doc/sampleapp/samples/admob.rst:97
+#: ../doc/sampleapp/samples/facebook.rst:122
 msgid ""
-"The following block code represents the UI of the startup page of the "
-"project."
-msgstr "次のコードを使用して、プロジェクトの起動時に表示されるページを構築しています。"
+"The following block code represents the UI of the startup page (see the "
+"screenshot below):"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:126
+#: ../doc/sampleapp/samples/admob.rst:154
+#: ../doc/sampleapp/samples/admob.rst:197
 msgid "Ads Size Dialog"
-msgstr "広告サイズの設定ダイアログ"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:128
+#: ../doc/sampleapp/samples/admob.rst:156
 msgid ""
 "The following block code represents the Ads Size dialog allowing users to "
 "select various types of AdMob's ads size such as ``SMART_BANNER``, "
 "``MEDIUM_RECTANGLE``, ``FULL_BANNER`` and so on."
-msgstr "広告サイズの設定ダイアログの表示には、次のコードが使用されています。このダイアログ上では、AdMob の広告サイズ ( ``SMART_BANNER``、``MEDIUM_RECTANGLE``、``FULL_BANNER`` など ) を選択できます。"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:174
+#: ../doc/sampleapp/samples/admob.rst:202
+#: ../doc/sampleapp/samples/admob.rst:257
 msgid "Ads Position Dialog"
-msgstr "広告の表示位置の設定ダイアログ"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:176
+#: ../doc/sampleapp/samples/admob.rst:204
 msgid ""
 "The following block code represents the Ads Position dialog allowing users "
 "to select various positions to place the ads such as ``TOP_LEFT``, "
 "``CENTER``, ``BOTTOM_RIGHT`` and so on."
-msgstr "広告の表示位置の設定ダイアログには、次のコードが使用されています。このダイアログ上では、広告の表示位置 (  ``TOP_LEFT``、``CENTER``、``BOTTOM_RIGHT`` など ) を選択できます。"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:234
+#: ../doc/sampleapp/samples/admob.rst:262
 #: ../doc/sampleapp/samples/age-calc.rst:79
 #: ../doc/sampleapp/samples/backend_memo.rst:188
 #: ../doc/sampleapp/samples/clock.rst:76
-#: ../doc/sampleapp/samples/facebook.rst:179
+#: ../doc/sampleapp/samples/facebook.rst:190
 #: ../doc/sampleapp/samples/flickr.rst:66
 #: ../doc/sampleapp/samples/hello_world.rst:99
 #: ../doc/sampleapp/samples/ibeacon.rst:157
@@ -252,103 +303,103 @@ msgstr "広告の表示位置の設定ダイアログには、次のコードが
 msgid "JavaScript Explanation"
 msgstr "JavaScript の解説"
 
-#: ../doc/sampleapp/samples/admob.rst:236
+#: ../doc/sampleapp/samples/admob.rst:264
 msgid ""
 "In this section, we will explain some important functions (in ``app.js`` "
 "file) used in this sample app."
-msgstr "ここでは、``app.js`` ファイル内に記述されている、主な関数を解説します。"
-
-#: ../doc/sampleapp/samples/admob.rst:239
-msgid "admobid Object"
-msgstr "admobid オブジェクト"
-
-#: ../doc/sampleapp/samples/admob.rst:241
-msgid ""
-"From the very beginning, we start by initializing ``admobid`` object. The "
-"following block code initializes the object based on the device's platform. "
-"The object contains two tyeps of ads such as banner and interstitial ads."
-msgstr "最初に行う処理は、``admobid`` オブジェクトの初期化です。次に記述されているブロックでは、端末のプラットフォームに応じて、異なる広告ユニット ID ( Ad Unit ID ) を指定しています。いずれの場合でも、インタースティシャル広告とバナー広告の 2 種類を、オブジェクトに格納しています。"
-
-#: ../doc/sampleapp/samples/admob.rst:264
-msgid ""
-"All of these ad unit ids are for testing only. For the ad unit ids, you will"
-" need to register with AdMob and create your own ad unit ids there."
-msgstr "このデモで使用している広告ユニット ID ( Ad Unit ID ) は、検証用の ID です。製品版に使用する広告ユニット ID は、別途、AdMob サイトで作成する必要があります。AdMob サイトへ行き、アカウントの登録作業から行います。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:267
-msgid "initialization() Function"
-msgstr "initialization() 関数"
+msgid "admobid Object"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:269
 msgid ""
-"Once Cordova and AdMob plugin pro are completely loaded, "
-"``initialization()`` Function will be called. In this function, several "
-"other functions are called such as:"
-msgstr "Cordova と AdMob プラグインの読み込み完了後に、``initialization()`` 関数が呼び出されます。この関数内で、次の関数を呼び出しています。"
+"From the very beginning, we start by initializing ``admobid`` object. The "
+"following block code initializes the object based on the device's platform. "
+"The object contains two types of ads such as banner and interstitial ads."
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:271
-msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
-msgstr "``AdMob.getAdSettings()``: 広告の設定情報へアクセスします。"
-
-#: ../doc/sampleapp/samples/admob.rst:272
+#: ../doc/sampleapp/samples/admob.rst:292
 msgid ""
-"``AdMob.setOptions()``: setting AdMob's ads setting such as positon, bgColor"
-" and so on."
-msgstr "``AdMob.setOptions()``: 広告の表示設定 ( 表示位置、背景色など ) を行います。"
+"All of these ad unit ids are for testing only. For the real ad unit ids, you"
+" will need to register with AdMob and create your own ad unit ids there."
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:273
+#: ../doc/sampleapp/samples/admob.rst:295
+msgid "initialization() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:297
+msgid ""
+"Once Cordova and AdMob plugin pro are completely loaded, "
+"``initialization()`` function will be called. In this function, several "
+"other functions are called such as:"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:299
+msgid "``AdMob.getAdSettings()``: logging AdMob's ads setting information."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:300
+msgid ""
+"``AdMob.setOptions()``: setting AdMob's ads setting such as position, "
+"bgColor and so on."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:301
 msgid ""
 "``onAdFailLoad`` event handler: displaying error information when the ad is "
 "failed to load."
-msgstr "``onAdFailLoad`` イベントハンドラー: 広告の読み込み失敗時、エラーの詳細を表示します。"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:335
+#: ../doc/sampleapp/samples/admob.rst:363
 msgid "createSelectedBanner() Function"
-msgstr "createSelectedBanner() 関数"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:337
+#: ../doc/sampleapp/samples/admob.rst:365
 msgid "This function creates an ad based on the configuration."
-msgstr "この関数では、設定情報に基づき、広告を表示しています。"
-
-#: ../doc/sampleapp/samples/admob.rst:356
-msgid "showBannerAtPosition() Function"
-msgstr "showBannerAtPosition() 関数"
-
-#: ../doc/sampleapp/samples/admob.rst:358
-msgid "This function shows the ad based on the selected ad's position."
-msgstr "この関数では、選択された表示位置に基づき、広告を表示しています。"
-
-#: ../doc/sampleapp/samples/admob.rst:369
-msgid "prepareInt() Function"
-msgstr "prepareInt() 関数"
-
-#: ../doc/sampleapp/samples/admob.rst:371
-msgid ""
-"This function prepares an interstitial ad and then shows it once it's ready."
-msgstr "この関数では、インタースティシャル広告を読み込み、次に、表示しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:384
-msgid "showBannerSize() Function"
-msgstr "showBannerSize() 関数"
+msgid "showBannerAtPosition() Function"
+msgstr ""
 
 #: ../doc/sampleapp/samples/admob.rst:386
+msgid "This function shows the ad based on the selected ad's position."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:397
+msgid "prepareInt() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:399
+msgid ""
+"This function prepares an interstitial ad and then shows it once it's ready."
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:412
+msgid "showBannerSize() Function"
+msgstr ""
+
+#: ../doc/sampleapp/samples/admob.rst:414
 msgid ""
 "This function shows a Banner Size dialog (`OnsenUI dialog "
 "<https://onsen.io/v1/reference/ons-dialog.html>`_). Various types of ads "
 "size can be selected such as BANNER, SMART_BANNER, MEDIUM_RECTANGLE and so "
 "on. For more information, please refer to `Banner Size "
 "<https://firebase.google.com/docs/admob/android/banner>`_."
-msgstr "この関数を使用して、バナーサイズの設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。この設定ダイアログ上では、広告サイズ ( BANNER、SMART_BANNER、MEDIUM_RECTANGLE など ) を選択できます。バナーサイズの詳細は、`こちら <https://firebase.google.com/docs/admob/android/banner>`_ ( 「 Banner Size 」 欄 ) をご確認ください。"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:410
+#: ../doc/sampleapp/samples/admob.rst:438
 msgid "showBannerPos() Function"
-msgstr "showBannerPos() 関数"
+msgstr ""
 
-#: ../doc/sampleapp/samples/admob.rst:412
+#: ../doc/sampleapp/samples/admob.rst:440
 msgid ""
 "This function shows a Ad's Position dialog (`OnsenUI dialog "
 "<https://onsen.io/v1/reference/ons-dialog.html>`_)."
-msgstr "この関数を使用して、広告の表示位置の設定ダイアログ ( `OnsenUI のダイアログを使用 <https://onsen.io/v1/reference/ons-dialog.html>`_ ) を表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/age-calc.rst:5
 msgid "BirthYear App"
@@ -382,7 +433,12 @@ msgstr "*テスト環境 :* Android 4.2.2、iOS 7.1.1"
 
 #: ../doc/sampleapp/samples/age-calc.rst:25
 msgid ":download:`Click here to download the project <download/age-calc.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/age-calc.zip>`"
+msgstr ""
+
+#: ../doc/sampleapp/samples/age-calc.rst:35
+#: ../doc/sampleapp/samples/todo.rst:32
+msgid "The startup Page"
+msgstr "スタート画面のページ"
 
 #: ../doc/sampleapp/samples/age-calc.rst:37
 msgid "The stylesheet used in the application"
@@ -419,7 +475,7 @@ msgid ""
 "The ``navigator.notification.alert`` function  is a Core Cordova Plugins "
 "function that displays a popup dialog box on the screen. The third argument "
 "displays the text \"Welcome to Monaca!\" as the title of the dialog box."
-msgstr "この ``navigator.notification.alert`` 関数は、基本 Cordova プラグインの関数です。実行すると、画面上にポップアップダイアログを表示します。今回は、第三引数に 「 Monaca へようこそ！ 」 を指定して、ダイアログのタイトルに表示しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:5
 msgid "Backend Memo"
@@ -438,14 +494,7 @@ msgstr "*テスト環境 :* Android 4.1.1、 iOS 7.1.1"
 #: ../doc/sampleapp/samples/backend_memo.rst:22
 msgid ""
 ":download:`Click here to download the project <download/backend_memo.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/backend_memo.zip>`"
-
-#: ../doc/sampleapp/samples/backend_memo.rst:25
-#: ../doc/sampleapp/samples/facebook.rst:25
-#: ../doc/sampleapp/samples/ibeacon.rst:29
-#: ../doc/sampleapp/samples/twitter.rst:25
-msgid "Prerequisite"
-msgstr "事前準備"
+msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:27
 msgid ""
@@ -686,7 +735,7 @@ msgstr "*テスト環境 :* Android 4.4、iOS 8.1.1"
 msgid ""
 ":download:`Click here to download the project "
 "<download/break_the_bricks.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/break_the_bricks.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/break_the_bricks.rst:34
 msgid "The Startup page (Home page)"
@@ -787,7 +836,7 @@ msgstr "現在の日付と時間を表示する時計アプリのサンプルで
 
 #: ../doc/sampleapp/samples/clock.rst:24
 msgid ":download:`Click here to download the project <download/clock.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/clock.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/clock.rst:36
 msgid "The JavaScript file handling implementation in the project"
@@ -841,305 +890,140 @@ msgid ""
 msgstr "``clock()`` 関数を使用して、現在の日付と時間を表示します。最初に、現在の時間 ( 時間、分、秒 ) を取得して、時間に応じた画像 ( 数字画像 ) を表示します。次に、現在の日付 ( 日、月、年 ) を取得して、 ``renderDay()`` と ``renderMonth()`` 関数で定義した形式で表示します ( 下のスクリーンショットを参照のこと )。``clock()`` 関数の内容を次に示します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:5
-msgid "Facebook Client"
-msgstr "Facebook クライアント"
+msgid "Facebook Demo"
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:10
+#: ../doc/sampleapp/samples/facebook.rst:7
 msgid ""
-"This sample app allows users to connect to Facebook from Monaca by using "
-"`Onsen UI <https://docs.monaca.io/en/onsenui/>`_ and InAppBrowser."
-msgstr "こちらのサンプルアプリでは、`Onsen UI <https://docs.monaca.io/ja/onsenui/>`_ と InAppBrowser を使用して、Monaca から Facebook に接続する方法を紹介します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:13
-#: ../doc/sampleapp/samples/twitter.rst:13
-msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
-msgstr "*テスト環境 :* Android 4.3、iOS 7.1.1"
+"This is a sample Monaca app used to log into and log out of Facebook using "
+"`Graph API <https://developers.facebook.com/docs/reference/api/>`_."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:22
 msgid ":download:`Click here to download the project <download/facebook.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/facebook.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:27
 msgid ""
-"You are required to have *App ID/App Key* and *App Secret* by registering "
-"your Monaca app with Facebook Developer:"
-msgstr "Facebook Developer ページ上でアプリを登録して、*App ID/App Key* と *App Secret* を取得します。"
+"In order to use this demo app, you are required to register your app with "
+"Facebook. Then, you will get its *App ID* and *App Secret* which will be "
+"used in this app later."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:29
 msgid ""
-"Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin "
-"with Facebook account. If you don't have one, please signup."
-msgstr "`Facebook Developer Site <https://developers.facebook.com/>`_ へ行き、Facebook アカウントにログインします。アカウントをお持ちでない方は、登録を行います。"
+"Please follow the instruction below in order to register your app with "
+"Facebook:"
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:31
-msgid "Go to :guilabel:`Apps > Create a New App`."
-msgstr ":guilabel:`Apps > Create a New App` を選択します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:36
 msgid ""
-"Fill in the display name and choose a category of your app. Then, click "
-":guilabel:`Create App` button."
-msgstr "Display Name ( 表示名 ) を入力して、アプリの Category ( カテゴリー ) を選択します。次に、:guilabel:`Create App` ボタンをクリックします。"
+"Go to `Facebook for Developers <https://developers.facebook.com/>`_ and log "
+"in with your Facebook account."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:33
+msgid "Go to :menuselection:`My Apps --> Add a New App`."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:41
+msgid "Select ``Website`` as the platform of your app."
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:49
 msgid ""
-"For security purpose, you will be asked to input some code. Click "
-":guilabel:`Submit` button after input the shown code properly."
-msgstr "認証コードを入力します。表示されたコードを適宜入力して、 :guilabel:`Submit` ボタンをクリックします。"
+"Fill in your app's name and click :guilabel:`Create New Facebook App ID`."
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:46
+#: ../doc/sampleapp/samples/facebook.rst:57
 msgid ""
-"After a successful registration, a similar screen shown below will appear. "
-"You can see the App ID and App Secret here. You will need them later."
-msgstr "登録完了後、次のような画面が表示されます。App ID と App Secret をご確認ください。こちらの 2 つの設定は、後から必要となります。"
-
-#: ../doc/sampleapp/samples/facebook.rst:61
-#: ../doc/sampleapp/samples/ibeacon.rst:48
-msgid "Startup Page (Consists of Connect Screen)"
-msgstr "スタート画面のページ ( 接続画面で構成 )"
-
-#: ../doc/sampleapp/samples/facebook.rst:63
-msgid "``home_navigator.html``"
-msgstr "``home_navigator.html``"
-
-#: ../doc/sampleapp/samples/facebook.rst:63
-msgid "Navigate to Connect Screen"
-msgstr "接続画面へのナビゲーション"
+"Fill in your contact email and select a category of the app. Then, click "
+":guilabel:`Create App ID`."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:65
-msgid "``connect.html``"
-msgstr "``connect.html``"
-
-#: ../doc/sampleapp/samples/facebook.rst:65
-msgid "Connect Screen"
-msgstr "接続画面"
+msgid "Answer a security question."
+msgstr ""
 
 #: ../doc/sampleapp/samples/facebook.rst:67
-msgid "``profile.html``"
-msgstr "``profile.html``"
+msgid ""
+"Click :guilabel:`Skip Quick Start` button. Then, you will be forwarded to "
+"the app's Dashboard."
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:67
-msgid "Facebook User Profile Screen"
-msgstr "Facebook ユーザーのプロフィール画面"
+#: ../doc/sampleapp/samples/facebook.rst:75
+msgid ""
+"Click on :guilabel:`Settings` and input your app domains and site URL. Then,"
+" click :guilabel:`Save Changes`. You can also find the *App ID* and *App "
+"Secret* here."
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:69
-msgid "``list.html``"
-msgstr "``list.html``"
+#: ../doc/sampleapp/samples/facebook.rst:92
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
+msgid "Startup page"
+msgstr "スタート画面のページ"
 
-#: ../doc/sampleapp/samples/facebook.rst:69
-msgid "Friends List Screen"
-msgstr "友達リスト画面"
+#: ../doc/sampleapp/samples/facebook.rst:94
+msgid "JavaScript file handling app execution"
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:71
-#: ../doc/sampleapp/samples/ibeacon.rst:54
-msgid "JavaScript file handling app interactions."
-msgstr "アプリの動作を制御する JavaScript のファイル"
-
-#: ../doc/sampleapp/samples/facebook.rst:73
+#: ../doc/sampleapp/samples/facebook.rst:96
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:36
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:38
 msgid "``styles/app.css``"
 msgstr "``styles/app.css``"
 
-#: ../doc/sampleapp/samples/facebook.rst:73
+#: ../doc/sampleapp/samples/facebook.rst:96
 #: ../doc/sampleapp/samples/ibeacon.rst:56
 msgid "Stylesheet file for the application"
 msgstr "アプリのスタイルシート"
 
-#: ../doc/sampleapp/samples/facebook.rst:81
-#: ../doc/sampleapp/samples/ibeacon.rst:63
-#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
-#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
-msgid "``Onsen UI``"
-msgstr "``Onsen UI``"
+#: ../doc/sampleapp/samples/facebook.rst:103
+msgid "``Onsen UI (AngularJS is included)``"
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:88
+#: ../doc/sampleapp/samples/facebook.rst:110
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:57
 #: ../doc/sampleapp/samples/twitter.rst:76
 msgid "``InAppBrowser``"
 msgstr "``InAppBrowser``"
 
-#: ../doc/sampleapp/samples/facebook.rst:95
-#: ../doc/sampleapp/samples/ibeacon.rst:78
-msgid ""
-"The User Interface of this sample app is based on *Onsen UI*. For more "
-"information on *Onsen UI* tags and components, please refer to `Onsen UI "
-"Documentation <https://docs.monaca.io/en/onsenui/>`_."
-msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
-
-#: ../doc/sampleapp/samples/facebook.rst:97
-msgid ""
-"The following contents of the HTML body of :file:`index.html` file loads the"
-" :file:`home_navigator.html` file at startup:"
-msgstr ":file:`index.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、 :file:`home_navigator.html` を起動時に読み込みます。"
-
-#: ../doc/sampleapp/samples/facebook.rst:106
-msgid ""
-"The following contents of the HTML body of :file:`home_navigator.html` file "
-"will direct to the :file:`connect.html` file which is the Connect Screen:"
-msgstr ":file:`home_navigator.html` ファイル内の次の記述 ( HTML の <body> 内 ) で、接続画面の :file:`connect.html` に移動できます。"
-
-#: ../doc/sampleapp/samples/facebook.rst:115
-msgid "The following contents of the HTML body of :file:`connect.html` file:"
-msgstr ":file:`connect.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
-
-#: ../doc/sampleapp/samples/facebook.rst:127
-msgid ""
-"corresponds to the screenshot below which allows a user to connect to "
-"Facebook:"
-msgstr "次のスクリーンショット ( Facebook への接続画面 ) を表示します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:134
-msgid "The following contents of the HTML body of :file:`profile.html` file:"
-msgstr ":file:`profile.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
-
-#: ../doc/sampleapp/samples/facebook.rst:149
-msgid ""
-"corresponds to the screenshot below which shows the user's basic info and "
-"profile picture if the authentication is successful. When the "
-":guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is"
-" shown:"
-msgstr "次の画面を表示します。認証成功後に、ユーザーの基本情報とプロフィール写真を表示します。 :guilabel:`Show Friend List` をタップすると、 :file:`list.html` が表示されます。"
-
 #: ../doc/sampleapp/samples/facebook.rst:156
-msgid "The following contents of the HTML body of :file:`list.html` file:"
-msgstr ":file:`connect.html` ファイル内の次の記述 ( HTML の <body> 内 ) で ..."
+msgid "Friend List page"
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:171
+#: ../doc/sampleapp/samples/facebook.rst:158
 msgid ""
-"corresponds to the screenshot below which shows the friends list of the "
-"authenticated user:"
-msgstr "次のスクリーンショットのように、認証されたユーザーの友達リストを表示します。"
+"The following block code will show the friend list if the user is "
+"successfully logged in (see the screenshot below)."
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:181
+#: ../doc/sampleapp/samples/facebook.rst:185
+msgid "Friend List"
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:192
 msgid ""
-"The logic behind this app is based on *Graph API* and *InAppBrowser*. The "
-"`Graph API <https://developers.facebook.com/docs/reference/api/>`_ is the "
-"primary way that data is retrieved from Facebook or posted on Facebook. We "
-"use *InAppBrowser* to open a Facebook authentication page inside our app. "
-"This prevents opening of an external browser."
-msgstr "こちらのアプリのロジックには、 *Graph API* と *InAppBrowser* を使用しています。Facebook からの情報の取得と送信には、 `Graph API <https://developers.facebook.com/docs/reference/api/>`_ を使用するのが最も一般的な方法です。ここでは、 *InAppBrowser* を使用して、Facebook の認証ページをアプリ内で開きます。これにより、外部ブラウザーを立ち上げる必要がありません。"
+"In order to log into Facebook, we are using `Graph API "
+"<https://developers.facebook.com/docs/reference/api/>`_ and "
+":ref:`InAppBrowser plugin <inappbrower_plugin>`. The Graph API is the "
+"primary way for apps to read and write to the Facebook social graph. We use "
+"InAppBrowser to open a Facebook authentication page inside the app without "
+"opening of an external browser."
+msgstr ""
 
-#: ../doc/sampleapp/samples/facebook.rst:183
+#: ../doc/sampleapp/samples/facebook.rst:199
+msgid "Facebook Login using InAppBrowser"
+msgstr ""
+
+#: ../doc/sampleapp/samples/facebook.rst:204
 msgid ""
-"The JavaScript codes of this sample app is based on AngularJS. In AngularJS,"
-" each page, which requires interactions, contains its own controller "
-"function. In this sample, we have 3 controller functions: "
-":envvar:`Connect_Ctrl`, :envvar:`Profile_Ctrl` and :envvar:`List_Ctrl` "
-"correspond to :file:`connect.html` page, :file:`profile.html` page and "
-":file:`list.html` page, respectively. In order to create global vairables "
-"used between these controller functions, you need to create a service "
-"function to store those global variables as follows:"
-msgstr "このサンプルアプリの JavaScript には、AngularJS を使用しています。AngularJS では、コントローラー関数を、関連するページにそれぞれ設定する必要があります。このサンプルでは、:envvar:`Connect_Ctrl`、:envvar:`Profile_Ctrl`、:envvar:`List_Ctrl` の 3 つのコントローラー関数を使用しており、それぞれ、:file:`connect.html` ページ、:file:`profile.html` ページ、:file:`list.html` ページに関連付けしています。また、これらのコントローラー関数間で使用するグローバル変数を作成するため、グローバル変数を格納する service 関数を、次のように、1 つ作成する必要があります。"
-
-#: ../doc/sampleapp/samples/facebook.rst:205
-msgid ""
-"Inside this service function, we are able to get and set the value of the "
-"``property`` variable which is a JSON object. This variale contains various "
-"variables needed to use between different pages."
-msgstr "この service 関数で、``property`` 変数 ( JSON オブジェクト ) の値の取得と設定をします。この変数には、複数のページで共有する各種データを格納します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:208
-#: ../doc/sampleapp/samples/ibeacon.rst:248
-msgid "Next, we will explain each controller function:"
-msgstr "各コントローラーに関して解説します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:211
-msgid "Connect_Ctrl"
-msgstr "Connect_Ctrl"
-
-#: ../doc/sampleapp/samples/facebook.rst:213
-msgid ""
-":envvar:`Connect_Ctrl` controls the interactions and processes in "
-":file:`connect.html` file. In other words, it handles the Facebook "
-"authentication process. In order to run this function, you will need to fill"
-" in your API Key, App Secret and a valid callback URL. Below is the "
-"JavaScript code of this function:"
-msgstr ":envvar:`Connect_Ctrl` コントローラーは、 :file:`connect.html` の挙動制御と各種処理を行います。処理の中には、Facebook への認証接続があります。この関数を実行する場合には、API Key、App Secret、有効なコールバック URL を設定します。この関数の JavaScript コードは、次のとおりです。"
-
-#: ../doc/sampleapp/samples/facebook.rst:292
-msgid ""
-"Inside this controller, there is :envvar:`connect` function which leads user"
-" through Facebook authentication. This function is called when the "
-":guilabel:`Connect` button is pressed. In order to gain access to Facebook, "
-"the :envvar:`Connect()` function needs to open a Facebook authentication "
-"page first (as shown below) via a *InAppBrowser* using "
-":envvar:`window.open()` function."
-msgstr "こちらのコントローラーには、Facebook 認証処理を行う :envvar:`connect` 関数を定義しています。 :guilabel:`Connect` ボタンを押したときに、この関数が呼び出されます。:envvar:`Connect()` 関数では、Facebook の認証ページを開き ( 下のスクリーンショットを参照のこと )、:envvar:`window.open()` 関数を使用して、 *InAppBrowser* 経由で認証処理を行っています。"
-
-#: ../doc/sampleapp/samples/facebook.rst:298
-msgid ""
-"After the user inputs his/her login information and presses :guilabel:`Log "
-"in` button, the app redirects to your callback URL. From the callback URL, "
-"Facebook code can be found. Then, an ``HttpRequest`` is sent with several "
-"parameters including the newly found Facebook code to "
-"``\"https://graph.facebook.com/oauth/access_token?...\"`` in order to get "
-"access token."
-msgstr "ログイン情報を入力して :guilabel:`Log in` ボタンを押すと、コールバック URL にリダイレクトされます。このコールバック URL から、Facebook コードを見つけることができます。次に、アクセストークンを取得するため、先ほど見つけた Facebook コードを含む、いくつかのパラメーターと共に、``https://graph.facebook.com/oauth/access_token?...`` へ ``HttpRequest`` を送ります。"
-
-#: ../doc/sampleapp/samples/facebook.rst:300
-msgid ""
-"If the request is successful, another ``HttpRequest`` is sent with several "
-"parameters including the newly found Facebook code to "
-"``\"https://graph.facebook.com/me?...\"`` in order to get some information "
-"of the authenticated user, in this case, ``Name`` and ``Profile picture "
-"URL``."
-msgstr "リクエストが成功した場合、認証されたユーザーの情報を取得するため、Facebook コードを含む、いくつかのパラメーターと共に、``https://graph.facebook.com/me?...`` へ別の ``HttpRequest`` を送ります。このサンプルの場合、ユーザー情報は、``Name (名前)`` と ``Profile picture URL (プロフィール写真の URL)`` になります。"
-
-#: ../doc/sampleapp/samples/facebook.rst:302
-msgid ""
-"Next, if the request is successful, the retrieved info will then be stored "
-"in a JSON object (``info_obj``) for later use and another ``HttpRequest`` is"
-" sent with several parameters including the newly found Facebook code to "
-"``\"https://graph.facebook.com/me/friends?...\"`` in order to get a list of "
-"friends of the authenticated user. If the request is successful, the "
-"retrieved data (in JSON format) of friends list will also be stored in the "
-"``info_obj`` and updates into the global variable (``property``) inside "
-"``sharedProperties`` service for using between controllers (pages)."
-msgstr "リクエストが成功した場合、取得したデータを JSON オブジェクト ( ``info_obj`` ) にいったん格納します。次に、友達リストを取得するため、Facebook コードを含む、いくつかのパラメータと共に、 ``https://graph.facebook.com/me/friends?...`` へ別の ``HttpRequest`` を送ります。このリクエストも成功した場合、取得したデータ ( JSON 形式 ) も ``info_obj`` に格納します。次に、コントローラー ( ページ ) 間でデータを共有するため、取得した値を使用して、``sharedProperties`` サービス内のグローバル変数 （ ``property`` ） を更新します。"
-
-#: ../doc/sampleapp/samples/facebook.rst:304
-msgid "Then, finally, the app redirects to :file:`profile.html` page."
-msgstr "最後に、 :file:`profile.html` ページにリダイレクトします。"
-
-#: ../doc/sampleapp/samples/facebook.rst:308
-msgid "Profile_Ctrl"
-msgstr "Profile_Ctrl"
-
-#: ../doc/sampleapp/samples/facebook.rst:310
-msgid ""
-":envvar:`Profile_Ctrl` controls the interactions and processes in the "
-":file:`profile.html` file. In other words, it displays the retrieved data "
-"after a successful authentication. Below is the JavaScript code of this "
-"function:"
-msgstr ":envvar:`Profile_Ctrl` コントローラーは、 :file:`profile.html` の挙動制御と各種処理を行います。処理の中には、認証成功後に取得したデータの表示もあります。この関数の JavaScript コードは、次のとおりです。"
-
-#: ../doc/sampleapp/samples/facebook.rst:323
-msgid ""
-"This controller contains the assigment of some variables with the necessary "
-"data from the global variable inside the ``sharedProperties`` service."
-msgstr "このコントローラーでは、 ``sharedProperties`` サービスのグローバル変数から、必要なデータを取得して、変数に代入する処理をします。"
-
-#: ../doc/sampleapp/samples/facebook.rst:326
-msgid "List_Ctrl"
-msgstr "List_Ctrl"
-
-#: ../doc/sampleapp/samples/facebook.rst:328
-msgid ""
-":envvar:`List_Ctrl` controls the interactions and processes in the "
-":file:`list.html` file. In other words, it displays the retrieved data of "
-"friends list of the authenticated user. Below is the JavaScript code of this"
-" function:"
-msgstr ":envvar:`List_Ctrl` コントローラーは、 :file:`list.html` の挙動制御と各種処理を行います。処理の中には、認証されたユーザーの友達リストのデータ表示もあります。この関数の JavaScript コードは、次のとおりです。"
-
-#: ../doc/sampleapp/samples/facebook.rst:366
-msgid ""
-"Inside this controller, there is :envvar:`get_list()` function which "
-"displays the list of friends retrieved from global variable (``property``) "
-"of the ``sharedProperties`` service."
-msgstr "このコントローラー内で、 :envvar:`get_list()` 関数を定義します。この関数で、``sharedProperties`` サービス内のグローバル変数 ( ``property`` ) から取得した友達リストを表示します。"
+"We use AngularJS in our code execution. In this app, we only have one "
+"controller, called ``HomeCtrl``. This controller will handle the login, "
+"logout and friend list retrieval from Facebook. Before running the app, "
+"please do not forget to fill in your App ID and App Secret."
+msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:5
 msgid "Flickr Sample"
@@ -1153,13 +1037,7 @@ msgstr "このサンプルアプリでは、Flickr から画像を取得して�
 
 #: ../doc/sampleapp/samples/flickr.rst:21
 msgid ":download:`Click here to download the project <download/flickr.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/flickr.zip>`"
-
-#: ../doc/sampleapp/samples/flickr.rst:31
-#: ../doc/sampleapp/samples/omikuji.rst:32
-#: ../doc/sampleapp/samples/shinkansen.rst:31
-msgid "The startup page"
-msgstr "スタート画面のページ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/flickr.rst:32
 msgid "A stylesheet for the project"
@@ -1228,12 +1106,12 @@ msgstr "Hello World アプリ"
 msgid ""
 "This sample app is a Core Cordova Plugins Demo showing several device "
 "functionalities such as camera, contacts, compass and so on."
-msgstr "このサンプルアプリでは、基本 Cordova プラグインのデモンストレーションを行います。デモンストレーションとして、複数の端末機能 ( カメラ、連絡帳、コンパスなど ) を実装させています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:23
 msgid ""
 ":download:`Click here to download the project <download/hello_world.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/hello_world.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "``phonegap-demo.html``"
@@ -1241,7 +1119,7 @@ msgstr "``phonegap-demo.html``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:36
 msgid "The Core Cordova Plugins Demo page"
-msgstr "基本 Cordova プラグイン デモ画面ページ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "``phonegap-demo/master.css``"
@@ -1249,7 +1127,7 @@ msgstr "``phonegap-demo/master.css``"
 
 #: ../doc/sampleapp/samples/hello_world.rst:38
 msgid "The style sheet for the Core Cordova Plugins Demo page"
-msgstr "基本 Cordova プラグイン デモ画面ページのスタイルシート"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:40
 msgid "``phonegap-demo/main.js``"
@@ -1259,7 +1137,7 @@ msgstr "``phonegap-demo/main.js``"
 msgid ""
 "The JavaScript file handling implementation in the Core Cordova Plugins Demo"
 " page"
-msgstr "基本 Cordova プラグイン デモ画面ページ上の一連の処理を行う JavaScript ファイル"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:42
 msgid "The style Sheet for the whole application"
@@ -1292,7 +1170,7 @@ msgstr "phonegap-demo.html"
 msgid ""
 ":file:`phonegap-demo.html` shows a Core Cordova Plugins Demo with the basic "
 "phone information and a list of functions as below:"
-msgstr ":file:`phonegap-demo.html` を使用して、携帯端末の基本情報と次に列挙した機能を、基本 Cordova プラグイン デモ画面ページに表示します。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:83
 msgid ""
@@ -1340,7 +1218,7 @@ msgstr "これらの機能を記述した JavaScript コードに関しては、
 msgid ""
 "The :file:`main.js` is a JavaScript file handling the implementation of the "
 "Core Cordova Plugins Demo page. There are 8 main functions in this file:"
-msgstr ":file:`main.js` は、基本 Cordova プラグイン デモ画面ページで使用する一連の処理を記述した JavaScript ファイルです。このファイルでは、前述した 8 個の機能を記述しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/hello_world.rst:104
 msgid "Toggle Accelerometer"
@@ -1497,7 +1375,7 @@ msgstr "アプリをビルドするか、または、カスタムビルドされ
 
 #: ../doc/sampleapp/samples/ibeacon.rst:26
 msgid ":download:`Click here to download the project <download/ibeacon.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/ibeacon.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/ibeacon.rst:31
 msgid ""
@@ -1521,6 +1399,10 @@ msgstr "専用のユーティリティー ソフトウェアを使用して、iB
 msgid "Take note of the UUID of each iBeacon device."
 msgstr "iBeacon 発信機の UUID のメモを取ります。"
 
+#: ../doc/sampleapp/samples/ibeacon.rst:48
+msgid "Startup Page (Consists of Connect Screen)"
+msgstr "スタート画面のページ ( 接続画面で構成 )"
+
 #: ../doc/sampleapp/samples/ibeacon.rst:50
 msgid "``top_page.html``"
 msgstr "``top_page.html``"
@@ -1537,6 +1419,17 @@ msgstr "``info_page.html``"
 msgid "The page showing information of each iBeacon"
 msgstr "iBeacon 発信機側の情報を表示するページ"
 
+#: ../doc/sampleapp/samples/ibeacon.rst:54
+msgid "JavaScript file handling app interactions."
+msgstr "アプリの動作を制御する JavaScript のファイル"
+
+#: ../doc/sampleapp/samples/ibeacon.rst:63
+#: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:43
+#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:44
+#: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:45
+msgid "``Onsen UI``"
+msgstr "``Onsen UI``"
+
 #: ../doc/sampleapp/samples/ibeacon.rst:70
 msgid ""
 "`Proximity Beacon Plugin <https://github.com/petermetz/cordova-plugin-"
@@ -1546,6 +1439,13 @@ msgstr "`iBeacon Plugin <https://github.com/petermetz/cordova-plugin-ibeacon.git
 #: ../doc/sampleapp/samples/ibeacon.rst:71
 msgid "``Bluetooth``"
 msgstr "``Bluetooth``"
+
+#: ../doc/sampleapp/samples/ibeacon.rst:78
+msgid ""
+"The User Interface of this sample app is based on *Onsen UI*. For more "
+"information on *Onsen UI* tags and components, please refer to `Onsen UI "
+"Documentation <https://docs.monaca.io/en/onsenui/>`_."
+msgstr "ユーザー インターフェースには、*Onsen UI* を使用しています。 *Onsen UI* のタグとそのコンポーネントの詳細は、`Onsen UI ドキュメント <https://docs.monaca.io/ja/onsenui/>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/ibeacon.rst:80
 msgid ""
@@ -1601,6 +1501,10 @@ msgid ""
 " of the closest iBeacon devices."
 msgstr "近接する iBeacon 発信機の検知、および、最も近接する発信機の UUID の取得を行う関数の作成。"
 
+#: ../doc/sampleapp/samples/ibeacon.rst:248
+msgid "Next, we will explain each controller function:"
+msgstr "各コントローラーに関して解説します。"
+
 #: ../doc/sampleapp/samples/ibeacon.rst:251
 msgid "TopPageCtrl"
 msgstr "TopPageCtrl"
@@ -1652,7 +1556,7 @@ msgstr "localStorage を使用して、メモ帳アプリを作成するサン�
 msgid ""
 ":download:`Click here to download the project "
 "<download/memo_application.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/memo_application.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/memo_application.rst:33
 msgid "The Home screen"
@@ -1811,7 +1715,7 @@ msgstr "Monaca プロジェクトで使用する、基本のテンプレート�
 msgid ""
 ":download:`Click here to download the project "
 "<download/minimum_project.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/minimum_project.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/minimum_project.rst:28
 msgid ""
@@ -1841,97 +1745,6 @@ msgid ""
 "Startup page:"
 msgstr ":file:`index.html` は、スタート画面のページです。スタート画面のページは、次のスクリーンショットのようになります。"
 
-#: ../doc/sampleapp/samples/old_inmobi.rst:1
-msgid ""
-"The first part of this JavaScript code as shown below is about initializing "
-"an *inmobi* object called ``inmobi_conf``. There are several properties of "
-"this object such as:"
-msgstr "次の JavaScript コードでは、初めに、 *inmobi* オブジェクト ( ``inmobi_conf`` ) を初期化しています。このオブジェクトを使用して、次のプロパティーを格納します。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:3
-msgid "``siteid`` (string): the property ID."
-msgstr "``siteid`` ( string ) : プロパティー ID"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:4
-msgid ""
-"``slot`` (number):  dimensions of the slot or box where ads appear on your "
-"app. The recommended slot value for most publishers is ``15``, which is a "
-"``320x50`` slot that is compatible with rich media ads. For more information"
-" about other slot numbers, please refer to `Slot Sizes "
-"<https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-"
-"integration-guide#integrating-the-ad-code>`_."
-msgstr "``slot`` ( number ) : 広告が表示されるボックスまたはスロットの場所情報 ( 寸法 )。 スロットの推奨値は ``15`` であり、この場合、 ``320x50`` の広告が表示されます ( リッチメディア系の広告も対応 )。 スロットの値については、 `Slot Sizes ( 英語サイト ) <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_ をご確認ください。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:5
-msgid ""
-"``test`` (boolean): the state of your app. During development and testing, "
-"it should be set to true, to ensure that only test ads are sent. When you "
-"set test to false, you will receive live ads."
-msgstr "``test`` ( boolean ) : アプリの状態を設定します。開発または検証中は、この値を true に設定します ( テスト用広告が配信されます )。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:6
-msgid ""
-"``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded "
-"automatically at page load. The ad can then be fetched at some other time in"
-" the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。なお、:envvar:`getNewAd()` 関数を使用すれば、広告を表示できるようになります。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:7
-msgid ""
-"``autoRefresh`` (number): the duration of auto refresh of text and banner "
-"ads. The refresh interval is in seconds and its minimum accepted value is "
-"20. In this sample, the ads is auto refreshed every minute."
-msgstr "``autoRefresh`` ( number ) : バナー広告とテキストの自動更新 ( リフレッシュ ) の間隔を秒単位で設定します。最小値は 20 です。このサンプルでは、1 分毎に広告の自動更新を行います。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:8
-msgid ""
-"``targetWindow``: allows you this control whether to open a click "
-"URL/Landing Page in the same window or in a new window. To open click URLs "
-"in a new window, the parameter value must be set to ``\"_blank\"``. The "
-"default value is ``\"_top\"`` which opens the click URL in the same window."
-msgstr "``targetWindow`` : 新しいウィンドウで広告を開くか、それとも既存のページで広告を開くかを選択します。 新しいウィンドウで広告を開くには、値を ``_blank`` に設定します。 デフォルトでは、同じウィンドウで広告を開く ``_top`` に設定されています。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:36
-msgid ""
-"There are 2 functions in the JavaScript code of this app: "
-":envvar:`onDeviceReady()`, and :envvar:`showAds()`."
-msgstr "このアプリの JavaScript の関数は、 :envvar:`onDeviceReady()` と :envvar:`showAds()` の 2 つです。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:39
-msgid "onDeviceReady() function"
-msgstr "onDeviceReady() 関数の解説"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:41
-msgid ""
-"The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core "
-"Cordova Plugins is fully loaded. Below is the JavaScript code of this "
-"function:"
-msgstr "基本 Cordova プラグイン側の準備が完了した後、:envvar:`onDeviceReady()` 内で :file:`inmobi.js` を読み込みます。この関数の JavaScript コードを次に記します。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:60
-msgid ""
-":file:`inmobi.js` must not be included as usual in the header  by using "
-"(``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This "
-"file is needed to be included after Core Cordova Plugins is fully loaded "
-"inside :envvar:`onDeviceReady()` function as shown above."
-msgstr "「 <script type=\"text/javascript\" src=\"inmobi.js\"></script> 」 のような通常の手順で行う処理 ( ヘッダー部分の記述 ) を、:file:`inmobi.js` を読み込むときに使用しないでください。上記で示したように、このファイルは、必ず、基本 Cordova プラグイン側の準備が完了した後、 :envvar:`onDeviceReady()` 関数内で読み込む必要があります。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:63
-msgid "showAds() function"
-msgstr "showAds() 関数の解説"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:65
-msgid ""
-"The :envvar:`showAds()` function requests a new ads from the Inmobi. Below "
-"is the JavaScript code of this function:"
-msgstr ":envvar:`showAds()` 関数を使用して、Inmobi に対して、新しい広告のリクエストをします。この関数の JavaScript コードを次に記します。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:78
-msgid ""
-"For more information regarding *inmobi* JavaScript API, please refer to "
-"`this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
-msgstr "*inmobi* の JavaScript APIに関しては、 `こちら <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
-
 #: ../doc/sampleapp/samples/omikuji.rst:5
 msgid "Omikuji Fortune Telling App"
 msgstr "おみくじ占いアプリ"
@@ -1946,7 +1759,7 @@ msgstr "おみくじは、英語で 「 ランダムフォーチュン 」 と�
 
 #: ../doc/sampleapp/samples/omikuji.rst:22
 msgid ":download:`Click here to download the project <download/omikuji.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/omikuji.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/omikuji.rst:33
 #: ../doc/sampleapp/samples/shinkansen.rst:33
@@ -2087,7 +1900,7 @@ msgstr "`Onsen UI <https://ja.onsen.io>`_ アプリの作成時に使用でき�
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_minimum_project.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_minimum_project.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/onsen_ui_minimum_project.rst:33
 msgid "Home screen  (Startup page)"
@@ -2191,11 +2004,7 @@ msgstr "`Onsen UI スライディングメニュー <https://ja.onsen.io/v1/guid
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_sliding_menu.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_sliding_menu.zip>`"
-
-#: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
-msgid "Startup page"
-msgstr "スタート画面のページ"
+msgstr ""
 
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:33
 msgid "``menu.html``"
@@ -2270,7 +2079,7 @@ msgstr "`Onsen UI タブバー <https://ja.onsen.io/v1/guide.html#UsingTabBar>`_
 msgid ""
 ":download:`Click here to download the project "
 "<download/onsen_ui_tabbar_navigator.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/onsen_ui_tabbar_navigator.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/onsen_ui_tabbar_navigator.rst:32
 msgid "Startup page (Home page)"
@@ -2374,7 +2183,7 @@ msgstr "こちらは、jQuery を使用した、RSS リーダーのアプリで�
 msgid ""
 ":download:`Click here to download the project "
 "<download/sample_rss_reader.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/sample_rss_reader.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:33
 msgid "The Startup page where RSS feeds will be loaded"
@@ -2482,7 +2291,7 @@ msgstr "*テスト環境 :* Android 4.0、iOS 7.1.1"
 #: ../doc/sampleapp/samples/shinkansen.rst:21
 msgid ""
 ":download:`Click here to download the project <download/shinkansen.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/shinkansen.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/shinkansen.rst:32
 msgid "The stylesheet file for the application"
@@ -2536,7 +2345,7 @@ msgstr "TODO 一覧に、TODO を追加するアプリです。"
 
 #: ../doc/sampleapp/samples/todo.rst:22
 msgid ":download:`Click here to download the project <download/todo.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/todo.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/todo.rst:34
 msgid "A JavaScript file used in the application"
@@ -2580,7 +2389,7 @@ msgid ""
 "Plugins. If the call is successful, the function *addTodo* is then executed."
 " if it fails, an error message is generated. Photo shoot options such as "
 "fixing the image size and specifying the return type are also set."
-msgstr "*addTodoPicture* 関数では、*navigator.camera.getPicture* 関数を使用して、写真撮影を行います。この関数 ( getPicture ) は、基本 Cordova プラグイン提供のものです。カメラの起動・撮影に成功した場合、*addTodo* 関数を実行し、失敗の場合には、警告メッセージを表示します。また、撮影オプションとして、画像サイズの固定化および戻り値の型を指定しています。"
+msgstr ""
 
 #: ../doc/sampleapp/samples/todo.rst:75
 msgid ""
@@ -2618,9 +2427,13 @@ msgid ""
 "<https://dev.twitter.com/docs>`_ ."
 msgstr "このサンプルアプリでは、特定のユーザーの Twitter タイムラインの表示を行います。このアプリでは、 `OAuth プロトコル <https://dev.twitter.com/docs/auth/oauth>`_ と InAppBrowser を使用して、Monaca アプリから Twitter へ接続します。他の API を使用する場合には、 `Twitter Documentation <https://dev.twitter.com/docs>`_ をご確認ください。"
 
+#: ../doc/sampleapp/samples/twitter.rst:13
+msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
+msgstr "*テスト環境 :* Android 4.3、iOS 7.1.1"
+
 #: ../doc/sampleapp/samples/twitter.rst:22
 msgid ":download:`Click here to download the project <download/twitter.zip>`"
-msgstr ":download:`こちらから、このプロジェクトをダウンロードできます。 <download/twitter.zip>`"
+msgstr ""
 
 #: ../doc/sampleapp/samples/twitter.rst:27
 msgid ""
@@ -3230,7 +3043,7 @@ msgstr "HTML 5 の <audio> タグを使用する。"
 
 #: ../doc/sampleapp/tips/media.rst:11 ../doc/sampleapp/tips/media.rst:46
 msgid "Use Core Cordova Plugins Media API."
-msgstr "Cordova のメディア操作プラグイン ( Media プラグイン ) を使用する。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:13
 msgid ""
@@ -3277,7 +3090,7 @@ msgstr "<audio> タグを使用した、音声ファイルの再生は、ほと�
 
 #: ../doc/sampleapp/tips/media.rst:75
 msgid "Using Core Cordova Plugins Media API to Play Sound"
-msgstr "Cordova のメディア操作プラグインを使用した、音の再生"
+msgstr ""
 
 #: ../doc/sampleapp/tips/media.rst:78
 msgid ""
@@ -3313,7 +3126,7 @@ msgstr ":download:`download/media/omikuji.zip`"
 
 #: ../doc/sampleapp/tips/phonegap.rst:3
 msgid "Core Cordova Plugins app acceleration/UX Technique"
-msgstr "基本 Cordova プラグインを実装しているアプリの高速化・UX テクニック"
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:9
 msgid ""
@@ -3330,7 +3143,7 @@ msgid ""
 "operation is the same on both the Monaca app and the Core Cordova Plugins "
 "app, so you will be able to apply the techniques in the same way as written "
 "in the article."
-msgstr "Cordova アプリを対象として、上記の記事は書かれていますが、Monaca アプリ または Cordova アプリにおいても、WebView 上での動作に違いはありませんので、いずれの場合でも、こちらの記事で紹介しているテクニックを応用できます。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/phonegap.rst:15
 msgid ""
@@ -3338,7 +3151,7 @@ msgid ""
 "translated by our staff, geared towards the Core Cordova Plugins app .  "
 "`English Article <http://www.tricedesigns.com/2013/03/11/performance-ux-"
 "considerations-for-successful-phonegap-apps/>`_ \""
-msgstr "なお、上記のリンク先の記事は、Cordova アプリを対象として書いた記事を、弊社スタッフが翻訳したものです。この記事の原文 ( 英語 ) は `こちら <http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/>`_  をご確認ください。"
+msgstr ""
 
 #: ../doc/sampleapp/tips/splashScreen.rst:3
 msgid "Control the Splash Screen"

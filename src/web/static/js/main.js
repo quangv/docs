@@ -47,8 +47,6 @@ $(function(){
     modal: false
     });
 
-
-
   var tweakdocs = function() {
     $("a.external").each(function() {
         if ($(this).attr("href").indexOf("http") != -1) {
