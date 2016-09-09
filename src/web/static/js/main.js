@@ -47,7 +47,49 @@ $(function(){
     modal: false
     });
 
+  // FEEDBACK
+  var theUrl = "https://s2.monaca.mobi/ja/api/sendDocsFeedback";
+  var token;
+  
+  $.ajax({
+      type: "GET",
+         url: theUrl,
+         xhrFields: { withCredentials: true},
+         success: function(result){
+             console.log(result.result.initOK._csrf_token);
+              token = result.result.initOK._csrf_token;
+                 console.log('success');
+             },
+         error: function(){
+             console.log('error');
+         }
+  });
 
+  var postFeedback = function(){
+      alert('success');
+      // var postData = {"form": {"usefulness":'usefulness', 
+      //     "improvement": "improvement",
+      //     "comment": "comment",
+      //     "target_page": target_page,
+      //     "_csrf_token": token
+      // }};
+      // console.log(postData);
+      // console.log(theUrl);
+
+      // $.ajax({
+      //     type: "POST",
+      //     url: theUrl,
+      //     dataType: "json",
+      //     data: postData,
+      //     xhrFields: { withCredentials: true},
+      //     success: function(){
+      //         console.log('success');
+      //     },
+      //     error: function(){
+      //         console.log('error');
+      //     }
+      // });
+  }
 
   var tweakdocs = function() {
     $("a.external").each(function() {

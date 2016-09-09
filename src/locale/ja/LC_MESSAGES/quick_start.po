@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-09 02:24+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-09 05:42+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1400,7 +1400,7 @@ msgid ""
 "Otherwise, it will run in the evaluation mode for 30 days after the first "
 "login. Please refer to `Pricing <https://monaca.io/pricing.html>`_ for more "
 "details."
-msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/quick_start/localkit/index.rst:9
 msgid ""
@@ -1902,7 +1902,7 @@ msgid ""
 "is basic type. You can upgrade it later when you want. For detailed "
 "information of Monaca account types and its usages, please refer to `Monaca "
 "Pricing <https://monaca.io/pricing.html>`_."
-msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:125
 msgid "Monthly Plans:"
@@ -1936,11 +1936,11 @@ msgstr "年額料金プランの場合"
 
 #: ../doc/quick_start/monaca_intro.rst:134
 msgid "There is no trial period for annual plans."
-msgstr "年額料金プランには、無料トライアル期間はございません。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:135
 msgid "You will be charged annual price when starting the subscription."
-msgstr "ご登録後、直ちに年額をご請求します。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:136
 msgid ""
@@ -1948,7 +1948,7 @@ msgid ""
 "admission, unless you have switched Basic plan. For example, you subscribe "
 "to the annual plan on July 20th 2016. Then, your next charge will be on "
 "August 1st 2017."
-msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:138
 msgid "If you use Activation Code:"
@@ -2240,7 +2240,7 @@ msgid ""
 " Visual Studio 2015 Community Edition, Professional Edition or higher "
 "editions. Also, you need to subscribe to a valid plan. Please refer to "
 "`Pricing <https://monaca.io/pricing.html>`_."
-msgstr "Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community エディション、Professional エディション、または、それ以上のエディションが必要となります。また、対応するプランへの加入が必要です。詳細は、 `プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_vs/index.rst:10
 msgid "Before getting started with this tutorial, you will need to:"

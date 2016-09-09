@@ -212,77 +212,7 @@
         }
 
         btn_send.onclick = function() {
-            var theUrl = "https://s2.monaca.mobi/ja/api/sendDocsFeedback";
-
-            var xmlHttp = new XMLHttpRequest();
-            xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-            xmlHttp.send( null );
-            var token = JSON.parse(xmlHttp.responseText)['result']['initOK']['_csrf_token'];
-            var usefulness = $("input[name=helped]:checked").val();
-
-            var improvement = [];
-            $('#improve input:checked').each(function() {
-                improvement.push($(this).attr('value'));
-            });
-            var comment = document.getElementById("comment").value;
-
-            // var form = form: {"usefulness":usefulness, 
-            //             "improvement": improvement,
-            //             "comment": comment,
-            //             "_csrf_token": token
-            //         }
-
-//             form%5Bname%5D=test&form%5Burl_appstore%5D=&form%5Burl_googleplay%5D=&form%5B_csrf_token%5D=106d675f83b76d6c520109ae929ff23a
-// Name
-
-// encodeURIComponent(
-// var postData = {}
-//             var postData = "form%5Busefulness%5D=" + encodeURIComponent(usefulness) + 
-//                             "&form%5Bimprovement%5D=" + encodeURIComponent(improvement) + 
-//                             "&form%5Bcomment%5D=" + encodeURIComponent(comment) + 
-//                             "&form%5B_csrf_token%5D=" + token;
-//             //postData = encodeURIComponent(postData);
-            
-
-            var postData = {"form": {"usefulness":usefulness, 
-                        "improvement": improvement,
-                        "comment": comment,
-                        "_csrf_token": token
-                    }};
-            console.log(postData);
-            
-            xmlHttp.open( "POST", theUrl, false );
-            xmlHttp.setRequestHeader("Content-Type", "application/json");
-            xmlHttp.send(postData);
-            console.log(xmlHttp.status);
-            console.log(xmlHttp.responseText);
-
-            //alert("usefulness: "+ usefulness + "- improvement: " + improvement + "- comment: " + comment);
-
-            //comment,usefulness,improvement, _csrf_token
-
-            // var xmlHttp = new XMLHttpRequest();
-            // xmlHttp.onreadystatechange = function() { 
-            //     if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-            //         alert(xmlHttp.responseText);
-            // }
-            // xmlHttp.open("GET", theUrl, true); // true for asynchronous 
-            // xmlHttp.send(null);
-            // var method = "GET";
-            // var postData = "Some data";
-            // var async = true;
-            // var request = new XMLHttpRequest();
-            // alert(request);
-            // request.onload = function () {
-            //     var status = request.status; // HTTP response status, e.g., 200 for "200 OK"
-            //     var data = request.responseText; // Returned data, e.g., an HTML document.
-            //     alert(data);
-            // }
-
-            // request.open(method, url, async);
-            // request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-            // //request.send(postData);
-            // request.send();
+            postFeedback();
         }
 
         span.onclick = function() {
