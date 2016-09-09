@@ -226,7 +226,7 @@
             });
             var comment = document.getElementById("comment").value;
 
-            // var form = {"usefulness":usefulness, 
+            // var form = form: {"usefulness":usefulness, 
             //             "improvement": improvement,
             //             "comment": comment,
             //             "_csrf_token": token
@@ -236,16 +236,23 @@
 // Name
 
 // encodeURIComponent(
+// var postData = {}
+//             var postData = "form%5Busefulness%5D=" + encodeURIComponent(usefulness) + 
+//                             "&form%5Bimprovement%5D=" + encodeURIComponent(improvement) + 
+//                             "&form%5Bcomment%5D=" + encodeURIComponent(comment) + 
+//                             "&form%5B_csrf_token%5D=" + token;
+//             //postData = encodeURIComponent(postData);
+            
 
-            var postData = "form%5Busefulness%5D=" + encodeURIComponent(usefulness) + 
-                            "&form%5Bimprovement%5D=" + encodeURIComponent(improvement) + 
-                            "&form%5Bcomment%5D=" + encodeURIComponent(comment) + 
-                            "&form%5B_csrf_token%5D=" + token;
-            //postData = encodeURIComponent(postData);
+            var postData = {"form": {"usefulness":usefulness, 
+                        "improvement": improvement,
+                        "comment": comment,
+                        "_csrf_token": token
+                    }};
             console.log(postData);
-
+            
             xmlHttp.open( "POST", theUrl, false );
-            xmlHttp.setRequestHeader("Content-Type", "text/html");
+            xmlHttp.setRequestHeader("Content-Type", "application/json");
             xmlHttp.send(postData);
             console.log(xmlHttp.status);
             console.log(xmlHttp.responseText);
