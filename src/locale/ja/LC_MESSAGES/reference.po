@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-08 02:24+0000\n"
+"PO-Revision-Date: 2016-09-09 02:24+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -25135,7 +25135,7 @@ msgstr "iOS 端末であれば、 *true* を返します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:5
 msgid "Monaca HTML5 Resource Encryption"
-msgstr ""
+msgstr "アプリロジック暗号化 プラグイン"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:8
 msgid ""
@@ -25210,14 +25210,14 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr ""
+msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
 msgid ""
 "Next, you need to setup the encryption password. Find your newly added "
 "plugin under the *Enable Plugins* section. Then, hover the plugin and click "
 ":guilabel:`Config` button."
-msgstr ""
+msgstr "次に、 暗号用パスワードを設定します。*組み込まれたプラグイン* 欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:44
 msgid ""

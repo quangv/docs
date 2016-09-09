@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-08 03:41+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-09 02:24+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -197,7 +197,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr ""
+msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/ja/reference/config/ios_configuration/>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -332,7 +332,7 @@ msgid ""
 "has never been rejected because the app was built using Monaca. In fact, "
 "many Monaca apps have been released. If the rejection has occurred because "
 "of Monaca, please `contact us <https://monaca.io/support/inquiry.html>`_."
-msgstr ""
+msgstr "マーケット登録時の審査では、アプリの開発目的、作り方などが審査対象となります。Monaca で作成したことを理由に、マーケットへの登録申請が拒否されることはありません ( 数多くの Monaca アプリが、すでに公開されています )。登録拒否の理由が Monaca に起因するものでしたら、こちらの `お問い合わせフォーム <https://ja.monaca.io/support/inquiry.html>`_ より、情報をお寄せください。"
 
 #: ../doc/faq/build.rst:15
 msgid ""
@@ -415,23 +415,23 @@ msgstr "[ iOS アプリ設定 ] の [ 対象デバイス ] オプションで、
 
 #: ../doc/faq/build.rst:60
 msgid "How to upload the built app for App Store submission?"
-msgstr ""
+msgstr "ビルドしたアプリを App Store に申請したいのですが、アップロード方法を教えてください。"
 
 #: ../doc/faq/build.rst:62
 msgid ""
 "There are two ways to upload the built app to iTunes Connect for App Store "
 "submission:"
-msgstr ""
+msgstr "App Store への申請方法を、次に記します ( iTunes Connect へのアップロード方法 )。"
 
 #: ../doc/faq/build.rst:64
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr ""
+msgstr ":ref:`Monaca のアップロード機能を使用 <upload_via_ide>` ( `対応する Monaca プランへの加入 <https://ja.monaca.io/pricing.html>`_ が必要です )"
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
-msgstr ""
+msgstr "Application Loader ソフトウェアを使用 ( Mac OS X 専用のソフトウェア )"
 
 #: ../doc/faq/build.rst:71
 msgid ""
@@ -540,7 +540,7 @@ msgstr "スプラッシュ画面に使用している画像が適当か確認し
 msgid ""
 "There may be a description error in the :file:`MonacaApp-Info.plist` in case"
 " of iOS or :file:`AndroidManifest.xml` in case of Android."
-msgstr ""
+msgstr ":file:`MonacaApp-Info.plist` ( iOS の場合 )、または、:file:`AndroidManifest.xml` ( Android の場合 ) 内の記述が適当か確認してください。 "
 
 #: ../doc/faq/build.rst:121
 msgid ""
@@ -762,7 +762,7 @@ msgstr "キャッシュをクリアしてください。Monaca デバッガー�
 msgid ""
 "If the issue still persists, please contact us via `Monaca Support "
 "<https://monaca.io/service/>`_."
-msgstr ""
+msgstr "問題が解決できない場合には、 `Monaca 問い合わせ窓口 <https://ja.monaca.io/service/>`_ までご連絡ください。"
 
 #: ../doc/faq/debugger.rst:40
 msgid ""
@@ -789,7 +789,7 @@ msgid ""
 "any information about devices that have such problem via `Monaca Support "
 "<https://monaca.io/service/>`_,  we will look into it and provide the "
 "solution as soon as possible."
-msgstr ""
+msgstr "一部の端末 ( HTC 社製の端末など ) において、デバッグログが表示されないことが確認されています。弊社サポートチームでも解決策を講じますので、こちらの `Monaca 問い合わせ窓口 <https://ja.monaca.io/service/>`_ から、端末情報をご提供ください。"
 
 #: ../doc/faq/debugger.rst:55
 msgid ""
@@ -827,7 +827,7 @@ msgstr "Monaca デバッガーが動作しません。"
 msgid ""
 "Please try to reinstall Monaca Debugger. If it is still not working, please "
 "`contact us <https://monaca.io/service/>`_ ."
-msgstr ""
+msgstr "Monaca デバッガーを再インストールしてください。再インストールしても正常に動作しない場合には、 `問い合わせ窓口 <https://ja.monaca.io/service/>`_ までご連絡ください。"
 
 #: ../doc/faq/debugger.rst:79
 msgid "I cannot use CSS and JavaScript files in Live Preview."
@@ -1002,7 +1002,7 @@ msgid ""
 "library for accessing unique features of mobile devices. Through Cordova, "
 "your app can access unique features of mobile device using JavaScript, so it"
 " is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr ""
+msgstr "Monaca では、`Apache Cordova <http://cordova.apache.org//>`_ を活用しています。携帯端末搭載の機能にアクセスするときに、ライブラリーとして、Cordova を使用します。これにより、JavaScript を使用しても、Cordova 経由で、携帯端末の機能にアクセスできます。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を学ぶ必要がなくなりました。"
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1181,7 +1181,7 @@ msgid ""
 "Yes, you can but there are limitation for free users. For more information "
 "related to types of Monaca accounts and their usage, please refer to `Monaca"
 " Usage Plan <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "無料で使うことができます。無料・有料にかかわらず、各プランには、使用制限 ( 提供している機能の範囲など ) がありますので、詳細に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:78
 msgid ""
@@ -1191,7 +1191,7 @@ msgstr "Monaca を初めてお使いになる場合には、こちらから `登
 
 #: ../doc/faq/general.rst:83
 msgid "What is Cordova Core Plugin?"
-msgstr ""
+msgstr "基本 Cordova プラグイン ( Cordova コアプラグイン ) とは何ですか？"
 
 #: ../doc/faq/general.rst:84
 msgid ""
@@ -1202,7 +1202,7 @@ msgid ""
 "information of Cordova Core Plugins usage in Monaca, please refer to "
 ":ref:`monaca_with_cordova` and `here "
 "<https://cordova.apache.org/docs/en/latest/>`_ ."
-msgstr ""
+msgstr "基本 Cordova プラグイン ( 別名 「 Cordova コアプラグイン 」 ) とは、Apache Cordova プロジェクト提供のオープンソースを基礎とした、モバイルアプリ開発用のフレームワークです。Nitobi 社が開発に着手して、その後、Adobe 社が継続して開発を行っています ( Nitobi 社は、Adobe 社に吸収されました )。Monaca では、JavaScript を使用して、基本 Cordova プラグイン経由で、スマートフォン搭載の機能にアクセスします。Monaca における 基本 Cordova プラグインの使用方法に関しては、:ref:`monaca_with_cordova` と `こちら <https://cordova.apache.org/docs/en/latest/>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:89
 msgid "Can I develop commercial smartphone applications using Monaca?"
@@ -1213,7 +1213,7 @@ msgid ""
 "Yes, please make the most use of Monaca. Currently, there is no restriction "
 "on commercial use. Please `contact us "
 "<https://monaca.io/support/inquiry.html>`_ if you have any questions."
-msgstr ""
+msgstr "是非、ご活用ください。商用利用に関して、特に制限は設けていません。なにかございましたら、 `問い合わせ窓口 <https://ja.monaca.io/support/inquiry.html>`_ までご連絡ください。"
 
 #: ../doc/faq/general.rst:95
 msgid "I don't understand something about Monaca. Where can I ask questions?"
@@ -1225,7 +1225,7 @@ msgid ""
 "`contact form <https://monaca.io/support/inquiry.html>`_ for the issues "
 "concerning Monaca such as technical questions, requests, practical business "
 "use, and etc."
-msgstr ""
+msgstr "`Monaca コミュニティー フォーラム <https://monaca.mobi/ja/forum>`_ または `問い合わせ窓口 <https://ja.monaca.io/support/inquiry.html>`_ より、お問い合わせください。ビジネスソリューションのご提案、技術的な問題、ご意見、ご要望など、Monaca に関わる事でしたら、なんなりとお問い合わせください。"
 
 #: ../doc/faq/general.rst:103
 msgid ""
@@ -1261,7 +1261,7 @@ msgstr "**Enterprise プラン** は、大規模な開発に最適です。"
 msgid ""
 "For more information, pleaser refer to `Monaca Usage Plan "
 "<https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "詳細に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:118
 msgid "Which plan should I choose?"
@@ -1300,7 +1300,7 @@ msgid ""
 "reduced to within the range of the limitation by archiving or deleting them."
 " Please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_ about"
 " the number of projects allowed for each plan."
-msgstr ""
+msgstr "プランの変更後も、プロジェクトデータまたは Monaca バックエンドのデータは保持されます。ただし、変更後のプランにおいて、サポート範囲のプロジェクト数を超えている場合は、プロジェクトの削除、または、アーカイブ機能を使用して、プロジェクトの数を調整するまで、プロジェクトの新規作成ができなくなります。プロジェクト数の制限に関しては、 `料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/general.rst:149
 msgid ""
@@ -1391,7 +1391,7 @@ msgstr "Monaca にログインして、 `ダッシュボード <https://monaca.m
 msgid ""
 "Go to :menuselection:`Manage Account`. Then, Manage Account page will "
 "appear."
-msgstr ""
+msgstr ":menuselection:`アカウント設定` ( 画面左上の画像またはアカウント名をクリック ) を選択して、[ アカウント編集 ] ページを開きます。"
 
 #: ../doc/faq/general.rst:209
 msgid "Click on :guilabel:`Unregister`."
@@ -1484,7 +1484,7 @@ msgstr "`Monaca <https://ja.monaca.io/>`_ にログインします。"
 
 #: ../doc/faq/subscription.rst:10
 msgid "Go to `Pricing page <https://monaca.mobi/en/pricing?type=1>`_."
-msgstr ""
+msgstr "`料金プラン <https://monaca.mobi/ja/pricing?type=1>`_ のページへ移動します。"
 
 #: ../doc/faq/subscription.rst:11
 msgid ""
@@ -1700,7 +1700,7 @@ msgid ""
 "However, if your usage plan is Basic or Personal, you can only join a team "
 "as a Tester. For more information of the usage plan and its limitation, "
 "please refer to `Monaca Usage Plan <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "Basic または Personal をご利用の場合には、テスターとして、チームへの参加のみ行えます。各プランの機能制限に関しては、`料金プランの詳細 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/faq/usage.rst:86
 msgid "In Monaca, how is the security of development assets maintained?"
@@ -1713,7 +1713,7 @@ msgid ""
 "strengthening the security such as having an independent location of each "
 "resource or enforcing source IP restrictions for access (fee-based). Please "
 "contact us `here <https://monaca.io/support/inquiry.html>`_."
-msgstr ""
+msgstr "特別なご要望がない限り、各ユーザーのリソースは、同一サーバー上で、アカウント別に保管されています。有料とはなりますが、リソースの保存場所の新規設置、アクセスできる IP アドレスの制限など、ご要望に応じて、セキュリティー強化を別途行うこともできます。詳細につきましては、 `こちら <https://ja.monaca.io/support/inquiry.html>`_ からお問い合わせください。"
 
 #: ../doc/faq/usage.rst:95
 msgid ""
