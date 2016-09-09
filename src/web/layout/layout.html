@@ -101,71 +101,14 @@
         {{> sidebar }}
     {{/if}}
 
-    <!-- FEEDBACK DIALOG -->
-
-    <div id="FeedbackModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">×</span>
-                <h3>Monaca Documentation Feedback</h3>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <table width= "100%">
-                        <tr>
-                            <td width="45%">
-                                <h4>How helpful is this document?</h4>
-                                <div id="star_group" role="radiogroup" aria-required="true">
-                                    <label> 
-                                        <input type="radio" name="helped" value="Very helpful" /> Very helpful
-                                    </label><br />
-                                    <label> 
-                                        <input type="radio" name="helped" value="Somewhat helpful" /> Somewhat helpful
-                                    </label><br />
-                                    <label>
-                                        <input type="radio" name="helped" value="Not helpful" /> Not helpful
-                                    </label><br />
-                                </div>
-                            </td>
-                            <td width="55%">
-                                <h4>How can we improve this document?</h4>
-                                <div id="improve">
-                                    <label>
-                                        <input type="checkbox" name="improvement" id="typo" value ="Fix typos or links"/> Fix typos or links
-                                    </label><br />
-                                    <label>
-                                        <input type="checkbox" name="improvement" id="infoIncorrect" value="Fix incorrect information" /> Fix incorrect information
-                                    </label><br />
-                                    <label>
-                                        <input type="checkbox" name="improvement" id="needs_examples" value="Add or update code samples" /> Add or update code samples
-                                    </label><br />
-                                    <label>
-                                        <input type="checkbox" name="improvement" id="needs_art" value="Add or update screenshots/figures" /> Add or update screenshots/figures
-                                    </label><br />
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" style="text-align: center">
-                                <br />
-                                <textarea id="comment" rows="4" placeholder="Please tell us more about your experience with our document" data-asterisk="a2" required></textarea><br />
-                                <input style="background-color: #5d89cb" type="button" value="Submit" id="btn_send" />
-                                <!-- <input style="background-color: #5d89cb" type="button" id="test" value="Test" /> -->
-                            </td>
-                        </tr>
-                    </table>
-                    
-                </form>
-            </div>
-        </div>
+    <div id="feedback">
+        {{#is lang "ja"}}
+            {{> feedback.ja }}
+        {{else}}
+            {{> feedback.en }}
+        {{/is}}
     </div>
-
-<script>
-
-
-</script>
-
-
+ 
 	<div style="display:none;">
 	    <div id="demo3_tip">
 	        
@@ -178,12 +121,10 @@
         <div class="footer-nav">
             {{#is lang "ja"}}
                 <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','en')">English</a>
-                <!-- <a href="https://ja.monaca.io/service/" id="footer-nav-feedback">Feedback</a> -->
-                <a id="footer-nav-feedback" href="#" onclick="">Feedback</a>
+                <a id="footer-nav-feedback">フィードバック</a>
             {{else}}
                 <a id="footer-nav-lang" href="javascript:void(0)" onclick="switchLanguage('{{lang}}','ja')">日本語版</a>
-                <!-- <a href="https://monaca.io/service/" id="footer-nav-feedback">Feedback</a> -->
-                <a id="footer-nav-feedback" href="#" onclick="">Feedback</a>
+                <a id="footer-nav-feedback">Feedback</a>
             {{/is}}
         </div>
         <p class="copyright">Copyright &copy; 2011-2016 Asial Corporation. All rights reserved.</p>
@@ -202,27 +143,10 @@
         }
 
         //Feedback Dialog
-        var modal = document.getElementById('FeedbackModal');
-        var btn = document.getElementById("footer-nav-feedback");
-        var btn_send = document.getElementById("btn_send");
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        btn_send.onclick = function() {
-            postFeedback();
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
+        var feedback = document.getElementById('feedback');
+        $( "#footer-nav-feedback" ).click(function() {
+            feedback.style.display = "block";
+        });        
     </script>
 
 </body>

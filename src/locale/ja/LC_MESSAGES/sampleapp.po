@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-09 05:42+0000\n"
+"PO-Revision-Date: 2016-09-09 06:21+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1744,97 +1744,6 @@ msgid ""
 "The :file:`index.html` is the Startup page. Here is the screenshot of the "
 "Startup page:"
 msgstr ":file:`index.html` は、スタート画面のページです。スタート画面のページは、次のスクリーンショットのようになります。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:1
-msgid ""
-"The first part of this JavaScript code as shown below is about initializing "
-"an *inmobi* object called ``inmobi_conf``. There are several properties of "
-"this object such as:"
-msgstr "次の JavaScript コードでは、初めに、 *inmobi* オブジェクト ( ``inmobi_conf`` ) を初期化しています。このオブジェクトを使用して、次のプロパティーを格納します。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:3
-msgid "``siteid`` (string): the property ID."
-msgstr "``siteid`` ( string ) : プロパティー ID"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:4
-msgid ""
-"``slot`` (number):  dimensions of the slot or box where ads appear on your "
-"app. The recommended slot value for most publishers is ``15``, which is a "
-"``320x50`` slot that is compatible with rich media ads. For more information"
-" about other slot numbers, please refer to `Slot Sizes "
-"<https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-"
-"integration-guide#integrating-the-ad-code>`_."
-msgstr "``slot`` ( number ) : 広告が表示されるボックスまたはスロットの場所情報 ( 寸法 )。 スロットの推奨値は ``15`` であり、この場合、 ``320x50`` の広告が表示されます ( リッチメディア系の広告も対応 )。 スロットの値については、 `Slot Sizes ( 英語サイト ) <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_ をご確認ください。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:5
-msgid ""
-"``test`` (boolean): the state of your app. During development and testing, "
-"it should be set to true, to ensure that only test ads are sent. When you "
-"set test to false, you will receive live ads."
-msgstr "``test`` ( boolean ) : アプリの状態を設定します。開発または検証中は、この値を true に設定します ( テスト用広告が配信されます )。この値を false にすると、テスト用ではなく、本物の広告が表示されます。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:6
-msgid ""
-"``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded "
-"automatically at page load. The ad can then be fetched at some other time in"
-" the life cycle of the page, using the :envvar:`getNewAd()` function."
-msgstr "``manual`` ( boolean ) :  ``true`` に設定した場合、ページの読み込み時に、広告を読み込まなくなります。なお、:envvar:`getNewAd()` 関数を使用すれば、広告を表示できるようになります。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:7
-msgid ""
-"``autoRefresh`` (number): the duration of auto refresh of text and banner "
-"ads. The refresh interval is in seconds and its minimum accepted value is "
-"20. In this sample, the ads is auto refreshed every minute."
-msgstr "``autoRefresh`` ( number ) : バナー広告とテキストの自動更新 ( リフレッシュ ) の間隔を秒単位で設定します。最小値は 20 です。このサンプルでは、1 分毎に広告の自動更新を行います。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:8
-msgid ""
-"``targetWindow``: allows you this control whether to open a click "
-"URL/Landing Page in the same window or in a new window. To open click URLs "
-"in a new window, the parameter value must be set to ``\"_blank\"``. The "
-"default value is ``\"_top\"`` which opens the click URL in the same window."
-msgstr "``targetWindow`` : 新しいウィンドウで広告を開くか、それとも既存のページで広告を開くかを選択します。 新しいウィンドウで広告を開くには、値を ``_blank`` に設定します。 デフォルトでは、同じウィンドウで広告を開く ``_top`` に設定されています。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:36
-msgid ""
-"There are 2 functions in the JavaScript code of this app: "
-":envvar:`onDeviceReady()`, and :envvar:`showAds()`."
-msgstr "このアプリの JavaScript の関数は、 :envvar:`onDeviceReady()` と :envvar:`showAds()` の 2 つです。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:39
-msgid "onDeviceReady() function"
-msgstr "onDeviceReady() 関数の解説"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:41
-msgid ""
-"The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when Core "
-"Cordova Plugins is fully loaded. Below is the JavaScript code of this "
-"function:"
-msgstr ""
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:60
-msgid ""
-":file:`inmobi.js` must not be included as usual in the header  by using "
-"(``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This "
-"file is needed to be included after Core Cordova Plugins is fully loaded "
-"inside :envvar:`onDeviceReady()` function as shown above."
-msgstr ""
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:63
-msgid "showAds() function"
-msgstr "showAds() 関数の解説"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:65
-msgid ""
-"The :envvar:`showAds()` function requests a new ads from the Inmobi. Below "
-"is the JavaScript code of this function:"
-msgstr ":envvar:`showAds()` 関数を使用して、Inmobi に対して、新しい広告のリクエストをします。この関数の JavaScript コードを次に記します。"
-
-#: ../doc/sampleapp/samples/old_inmobi.rst:78
-msgid ""
-"For more information regarding *inmobi* JavaScript API, please refer to "
-"`this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
-msgstr "*inmobi* の JavaScript APIに関しては、 `こちら <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_ をご確認ください。"
 
 #: ../doc/sampleapp/samples/omikuji.rst:5
 msgid "Omikuji Fortune Telling App"

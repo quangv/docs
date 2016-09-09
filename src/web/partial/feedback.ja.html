@@ -1,0 +1,131 @@
+<div id="FeedbackDialog" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <h3>Monaca Docs フィードバック</h3>
+        </div>
+        <div class="modal-body">
+            <table width= "100%">
+                <tr>
+                    <td width="45%">
+                        <h4>このドキュメント ページは、お客様の問題解決に役立ちましたか。</h4>
+                        <div id="star_group" role="radiogroup" aria-required="true">
+                            <label> 
+                                <input type="radio" name="helped" value="Very helpful" /> 役に立った
+                            </label><br />
+                            <label> 
+                                <input type="radio" name="helped" value="Somewhat helpful" /> ある程度役に立った
+                            </label><br />
+                            <label>
+                                <input type="radio" name="helped" value="Not helpful" /> 役に立たなかった
+                            </label><br />
+                        </div>
+                    </td>
+                    <td width="55%">
+                        <h4>このドキュメント ページに、不備がありましたか？</h4>
+                        <div id="improve">
+                            <label>
+                                <input type="checkbox" name="improvement" id="typo" value ="Fix typos or links"/> 誤字またはリンク切れ
+                            </label><br />
+                            <label>
+                                <input type="checkbox" name="improvement" id="infoIncorrect" value="Fix incorrect information" /> 情報が古いまたは誤っている
+                            </label><br />
+                            <label>
+                                <input type="checkbox" name="improvement" id="needs_examples" value="Add or update code samples" /> サンプルコードの追加または更新が必要
+                            </label><br />
+                            <label>
+                                <input type="checkbox" name="improvement" id="needs_art" value="Add or update screenshots/figures" /> 図やイメージの追加または更新が必要
+                            </label><br />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <br />
+                        <textarea id="comment" rows="4" placeholder="Monaca Docsに対して、ご意見・ご要望がございましたらお聞かせください。" data-asterisk="a2" required></textarea><br />
+                        <input type="button" value="送信" id="btn_submit" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var modal = document.getElementById('FeedbackDialog');
+    var feedback = document.getElementById('feedback');
+    var span = document.getElementsByClassName("close")[0];
+
+    var theUrl = "https://s2.monaca.mobi/ja/api/sendDocsFeedback";
+    var token;
+
+    var success_text = "";
+    if(LANG =="en")
+        success_text = "Thank you very much for your feedback.";
+    else if(LANG =="ja")
+        success_text = "Monaca Docsへフィードバックいただきありがとうございます。";
+
+    $.ajax({
+        type: "GET",
+        url: theUrl,
+        xhrFields: { withCredentials: true},
+        success: function(result){
+            //console.log(result.result.initOK._csrf_token);
+            token = result.result.initOK._csrf_token;
+            console.log('success');
+        },
+        error: function(){
+            console.log('error');
+        }
+    });
+
+    var postFeedback = function(){
+        var usefulness = $("input[name=helped]:checked").val();
+        var improvement = "";
+        $('#improve input:checked').each(function() {
+            improvement = improvement + $(this).attr('value') + "\n";
+        });
+        var comment = $("#comment").val();
+        var target_page = document.URL;
+
+        var postData = {"form": {
+            "usefulness": usefulness, 
+            "improvement": improvement,
+            "comment": comment,
+            "target_page": target_page,
+            "_csrf_token": token
+        }};
+        // console.log(postData);
+        // console.log(theUrl);
+
+        $.ajax({
+            type: "POST",
+            url: theUrl,
+            dataType: "json",
+            data: postData,
+            xhrFields: { withCredentials: true},
+            success: function(){
+                console.log('success');
+                alert(success_text);
+                feedback.style.display = "none";    
+            },
+            error: function(){
+                console.log('error');
+                feedback.style.display = "none";
+            }
+        });
+
+    }
+
+    $( "#btn_submit" ).click(function() {
+        postFeedback();
+    });
+    span.onclick = function() {
+        feedback.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            feedback.style.display = "none";
+        }
+    }
+</script>
