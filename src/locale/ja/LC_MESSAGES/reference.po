@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-12 05:52+0000\n"
+"PO-Revision-Date: 2016-09-12 06:00+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -26173,45 +26173,45 @@ msgstr "``<platform>`` 要素のブロック 「 外 」 に置かれた prefere
 msgid ""
 "Preferences defined inside a ``<platform>`` element will apply only to the "
 "specified platform."
-msgstr ""
+msgstr "``<platform>`` 要素のブロック 「 内 」 に置かれた preference は、指定されているプラットフォームに対してのみ、適用されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:48
 msgid "Platform preferences take precedence over common preferences."
-msgstr ""
+msgstr "platform 要素のブロック内に置かれている preference は、置かれていないものより、優先されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:49
 msgid ""
 "Platform-specific preferences must be prefixed with the platform name (e.g. "
 "name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
-msgstr ""
+msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` 要素 ( 例 : name=\\\"ios-somepref\\\" ) のブロック内に置きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:53
 msgid "Config Blocks"
-msgstr ""
+msgstr "config-file を使用したカスタマイズ設定"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:55
 msgid ""
 "``<config-file>`` blocks allow platform-specific chunks of the configuration"
 " to be defined as an XML subtree in the ``config.xml`` file, which is then "
 "applied to the appropriate platform configuration file by the plugin."
-msgstr ""
+msgstr "``<config-file>`` ブロックを使用すれば、プラットフォーム別のカスタマイズ設定 ( 群 ) を、ひとまとめにして定義できます ( ``config.xml`` 内 )。適用先となるファイルでは、これらのカスタマイズ設定は、XML のサブツリーとして挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:57
 msgid ""
 "While setting the config blocks, please be aware of the following points:"
-msgstr ""
+msgstr "config-file の設定時には、次の点に注意が必要です。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:59
 msgid ""
 "``<config-file>`` elements must be defined inside a ``<platform>`` element, "
 "otherwise they will be ignored."
-msgstr ""
+msgstr "``<config-file>`` 要素は、``<platform>`` 要素のブロック内に置きます。これ以外の場合、設定は無視されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:60
 msgid ""
 "config-file ``target`` attributes specify the target file to update. "
 "(``AndroidManifest.xml`` or ``*-Info.plist``)"
-msgstr ""
+msgstr "config-file 要素の ``target`` 属性には、更新対象のファイルを指定します (``AndroidManifest.xml`` または ``*-Info.plist``)。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:61
 msgid ""
