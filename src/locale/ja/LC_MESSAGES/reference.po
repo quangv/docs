@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-12 06:00+0000\n"
+"PO-Revision-Date: 2016-09-12 06:04+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -26218,32 +26218,32 @@ msgid ""
 "config-file ``parent`` attributes specify the parent element "
 "(``AndroidManifest.xml``) or parent key (``*-Info.plist``) that the child "
 "data will replace or be appended to."
-msgstr ""
+msgstr "config-file の ``parent`` 属性には、親となる要素 ( Android の場合、``AndroidManifest.xml`` 内 )、または、親となる key ( iOS の場合、``*-Info.plist`` 内 ) を指定します。この親の子要素、または、key の value として、設定内容が挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:62
 msgid ""
 "``<config-file>`` elements are uniquely indexed by target and parent for "
 "each platform."
-msgstr ""
+msgstr "``<config-file>`` 要素に指定された target ( ファイル ) と parent ( ファイル内の位置 ) の組み合わせを使用して、カスタマイズ設定の適用場所を指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:63
 msgid ""
 "If there are multiple config-file's defined with the same target and parent,"
 " the last config-file will be used."
-msgstr ""
+msgstr "同一の target と parent 属性が設定された config-file が複数ある場合、最後の config-file が適用されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:64
 msgid ""
 "Elements defined within a config-file will replace or be appended to the "
 "same elements relative to the parent element."
-msgstr ""
+msgstr "config-file 内に定義された要素 ( ファイル、適用する箇所、適用する内容 ) を使用して、適用先ファイルの内容が上書きされます ( または、指定された内容が追加されます )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:65
 msgid ""
 "If a unique config-file contains multiples of the same elements (other than "
 "``<uses-permission>`` elements which are selected by by the uses-permission "
 "``name`` attribute), the last defined element will be retrieved."
-msgstr ""
+msgstr "config-file 内に定義されている要素が重複している場合、最後に定義されている要素が適用されます。ただし、``<uses-permission>`` 要素のように、``name`` 属性の設定で一意に識別できる場合を除きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:71
 msgid ""
@@ -26253,22 +26253,22 @@ msgid ""
 "<http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_. "
 "All Android-specific config should be placed inside the ``<platform "
 "name=\"android\">`` in ``config.xml`` file."
-msgstr ""
+msgstr "Android では、このプラグインを使用してカスタマイズできる対象は、現在、``platforms/android/AndroidManifest.xml`` 内の設定だけです。Manifest ファイル内の詳細は、`アプリ マニフェスト ( 外部サイト ) <http://developer.android.com/guide/topics/manifest/manifest-intro.html>`_ をご確認ください。なお、Android 向けの設定は、``config.xml`` ファイルの ``<platform name=\"android\">`` ブロック内に置きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:75
 msgid "Android Preferences"
-msgstr ""
+msgstr "Android 向けの preference の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:77
 msgid ""
 "``<preference>`` elements in ``config.xml`` are used to set attributes on "
 "elements in the ``AndroidManifest.xml``. For example, if you add the "
 "following element to the ``config.xml``:"
-msgstr ""
+msgstr "``config.xml`` 内の ``<preference>`` 要素を使用して、``AndroidManifest.xml`` 内の要素に、指定した属性を反映させます。たとえば、``config.xml`` に、次の要素を追加すると..."
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:83
 msgid "then the following line will be added to ``AndroidManifest.xml``:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` には、次の設定が追加されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:89
 msgid ""
@@ -26278,30 +26278,30 @@ msgid ""
 "if you add the following line in ``config.xml``, it will delete the existing"
 " node ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" "
 "/>`` within ``AndroidManifest.xml``:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` 内に定義されているデフォルトの設定を削除する場合には、``<preference>`` 要素に ``delete=\"true\"`` を設定します。たとえば、``config.xml`` に次の設定を追加した場合、``AndroidManifest.xml`` 内の ``<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />`` を削除できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:97
 msgid "Android Namespace Attribute"
-msgstr ""
+msgstr "名前空間の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:99
 msgid ""
 "In order to user the ``android:`` namespace in preferences within your "
 "``config.xml``, you must include the android namespace attribute on the root"
 " ``<widget>`` element."
-msgstr ""
+msgstr "``config.xml`` の preference に ``android:`` ( 名前空間を指定 ) を指定する場合、``<widget>`` 要素 ( ルート要素 ) にも、andorid の名前空間を設定する必要があります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:101
 msgid "The namespace attribute fragment is:"
-msgstr ""
+msgstr "名前空間を指定する属性は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:107
 msgid "so your ``<widget>`` element should look something like this:"
-msgstr ""
+msgstr "``<widget>`` 要素は、次のように記述します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:120
 msgid "XPath Preferences"
-msgstr ""
+msgstr "XPath 使用時の preference の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:122
 msgid ""
@@ -26310,35 +26310,35 @@ msgid ""
 "preference name should be prefixed with ``android-manifest`` then follow "
 "with an XPath which specifies the element and attribute to apply the value "
 "to. For example,"
-msgstr ""
+msgstr "Android のマニフェストに適用する preference には、XPath も使用できます。preference の name に、要素と属性を XPath 形式で指定して、カスタマイズ設定の適用先を示します。具体的には、preference の name に指定する値に、``android-manifest`` を先頭に付け、その後ろに、XPath 形式で要素と属性を指定して、value の値の適用先となる場所を示します。次に例を記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:128
 msgid ""
 "This preference specifies that the ``launchMode`` attribute should be given "
 "a value of ``singleTask`` which will be resulted as:"
-msgstr ""
+msgstr "上記の preference を適用すると、次のように、``launchMode`` 属性に、``singleTask`` が設定されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:135
 msgid ""
 "If your manifest contains other activities, you should specify the activity "
 "name in the XPath. For example:"
-msgstr ""
+msgstr "manifest 内に、複数の activity が存在する場合、XPath の記述内にも、activity の name を指定します。次に例を記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:141
 msgid ""
 "The activity name for Cordova 4.2.0 and below was ``\"CordovaApp\"`` whereas"
 " Cordova 4.3.0 and above is ``\"MainActivity\"``."
-msgstr ""
+msgstr "Cordova 4.2.0 以前のバージョンでは、プロジェクトの作成時、activity の name には、``\"CordovaApp\"`` が使用されていました。Cordova 4.3.0 以降では、``\"MainActivity\"`` となっています。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:143
 msgid ""
 "If the attribute you are setting is on the root ``<manifest>`` element, just"
 " omit the element name and specify the attribute. For example:"
-msgstr ""
+msgstr "``<manifest>`` 要素 ( ルート要素 ) 内にある属性を適用先とする場合、要素名は省略して、属性だけを指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:151
 msgid "Android Config Blocks"
-msgstr ""
+msgstr "Android 向けの config-file ブロックの設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:153
 msgid ""
@@ -26346,61 +26346,61 @@ msgid ""
 "XML subtree which will be inserted into ``AndroidManifest.xml``. The child "
 "elements inside the ``<config-file>`` block will be inserted under the "
 "parent element."
-msgstr ""
+msgstr "``AndroidManifest.xml`` に適用するカスタマイズ設定が複数ある場合は、``<config-file>`` を使用して定義します。これらのカスタマイズ設定は、``AndroidManifest.xml`` ファイル内で、XML のサブツリーに変換されます。``<config-file>`` 内の要素は、parent で指定されている要素の下に挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:155
 msgid "``<config-file>`` element has two attributes such as:"
-msgstr ""
+msgstr "``<config-file>`` 要素には、次の 2 種類の属性を指定できます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:157
 msgid "``target``: must be set to ``AndroidManifest.xml``."
-msgstr ""
+msgstr "``target``: ``AndroidManifest.xml`` を常に指定します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:158
 msgid ""
 "``parent``: defines an Xpath to the parent element in the "
 "``AndroidManifest.xml`` under which the XML subtree block should be "
 "inserted."
-msgstr ""
+msgstr "``parent``: XPath の記法を使用して、``AndroidManifest.xml`` 内の親となる要素を指定します。この要素下に、XML のサブツリーとして、指定された値が挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:160
 msgid ""
 "to insert a block under the root ``<manifest>`` element, use "
 "``parent=\"/*\"``"
-msgstr ""
+msgstr "``<manifest>`` 要素 ( ルート要素 ) にブロックを挿入する場合には、``parent=\"/*\"`` を使用します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:161
 msgid ""
 "to insert a block under a descendant of ``<manifest>``, use an Xpath "
 "prefixed with ``./``. For example, ``parent=\"./application/activity\"`` "
 "will insert the block under ``/manifest/application/activity``."
-msgstr ""
+msgstr "``<manifest>`` の子孫ノード下にブロックを挿入する場合には、``./`` 形式の記法も使用できます。たとえば、``parent=\"./application/activity\"`` を指定した場合、``/manifest/application/activity`` 下に、ブロックが挿入されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:172
 msgid "will result in ``AndroidManifest.xml`` with:"
-msgstr ""
+msgstr "``AndroidManifest.xml`` 内では、次のようになります。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:183
 msgid ""
 "If the specified parent element contains an existing child element of the "
 "same name as that defined in the XML subtree, the existing element will be "
 "overwritten."
-msgstr ""
+msgstr "parent 要素に指定された値が XML のサブツリー側に定義されている値と重複する場合、既存の要素は上書きされます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:193
 msgid ""
 "will replace the existing ``<application>`` element. In this case, it would "
 "be better to use a preference:"
-msgstr ""
+msgstr "上記の内容を使用すれば、既存の ``<application>`` 要素が書き換えられます。なお、このような場合には、preference の使用を推奨します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:200
 msgid "Android Example"
-msgstr ""
+msgstr "例"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:202
 msgid ""
 "Below is an example of a ``config.xml`` file for Android configuration:"
-msgstr ""
+msgstr "Android 向けの設定のサンプルを、次に記します ( ``config.xml`` ファイル内 )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:246
 msgid ""
@@ -26409,11 +26409,11 @@ msgid ""
 "(``project.pbxproj``) using preference elements. All iOS-specific config "
 "should be placed inside the ``<platform name=\"ios\">`` in ``config.xml`` "
 "file."
-msgstr ""
+msgstr "iOS では、このプラグインを使用してカスタマイズできる対象は、現在、プロジェクトの plist ( ``*-Info.plist``、config-file ブロックを使用 )、および、設定情報 ( ``project.pbxproj``、preference 要素を使用 ) です。なお、iOS 向けの設定は、``config.xml`` ファイルの ``<platform name=\"ios\">`` ブロック内に置きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:249
 msgid "iOS Preferences"
-msgstr ""
+msgstr "iOS 向けの preference の設定方法"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:251
 msgid ""
@@ -26421,18 +26421,18 @@ msgid ""
 "the ``*-Info.plist``. Preferences should be defined in the format: "
 "``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" "
 "/>``. For example:"
-msgstr ""
+msgstr "``config.xml`` の ``<preference>`` 要素を使用して、``*-Info.plist`` の設定を更新します。preference は、``<preference name=\"ios-SOME_BLOCK_TYPE-SOME_KEY\" value=\"SOME_VALUE\" />`` の形式で設定します。次に例を記します。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:259
 msgid "Build Configuration Preferences"
-msgstr ""
+msgstr "ビルド設定用の preferences"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:261
 msgid ""
 "Currently, ``XCBuildConfiguration`` is the only supported block type in the "
 "``project.pbxproj``. However, there is no constraint on the list of keys for"
 " which values may be set."
-msgstr ""
+msgstr "ビルド設定は、``project.pbxproj`` 内の ``XCBuildConfiguration`` を使用して、現在行っています。使用する key/value に関しては、制限はありません。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:263
 msgid ""
@@ -26441,7 +26441,7 @@ msgid ""
 "value. If no entry exists in any ``XCBuildConfiguration`` block for the "
 "specified key, a new key entry will be created in each "
 "``XCBuildConfiguration`` block with the specified value."
-msgstr ""
+msgstr "``XCBuildConfiguration`` ブロック内にすでに存在する key を指定した場合、key の value は上書きされます。指定した key がどの ``XCBuildConfiguration`` にも存在しない場合、指定した value とともに、各 ``XCBuildConfiguration`` に key が追加されます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:265
 msgid ""
@@ -26450,13 +26450,13 @@ msgid ""
 " adding a ``buildType`` attribute to the ``<preference>`` element in the "
 "``config.xml``. The value can be either ``debug`` or ``release``. For "
 "example:"
-msgstr ""
+msgstr "デフォルトでは、\"Release\" と \"Debug\" の両方の ``XCBuildConfiguration`` ブロックに value が適用されますが、``config.xml`` の ``<preference>`` 要素に、``buildType`` 属性を追加すれば、ビルドの種類を指定でき、ブロックを絞り込めます。この属性に指定できる値は、``debug`` または ``release`` です。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:271
 msgid ""
 "By default, both the key (preference name) and value will be quote-escaped "
 "when inserted into the ``XCBuildConfiguration`` block. For example:"
-msgstr ""
+msgstr "デフォルトでは、``XCBuildConfiguration`` への挿入時、key  と value は、ダブルクォーテーションで囲われます。たとえば、次の記述で..."
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:277
 #: ../doc/reference/third_party_phonegap/custom_config.rst:296
