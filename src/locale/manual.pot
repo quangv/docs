@@ -8613,6 +8613,7 @@ msgid "``branch``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
+#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "Github branch of the project you want to build."
 msgstr ""
 
@@ -8622,6 +8623,7 @@ msgid "``tag``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
+#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "Github tag of the project you want to build."
 msgstr ""
 
@@ -8697,7 +8699,7 @@ msgid ":ref:`supported_services`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:11
-msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on GitHub and many other Git services. For Monaca CI, every time you push your project code to GitHub, GitHub will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin."
+msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on Github and many other Git services. For Monaca CI, every time you push your project code to Github, Github will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:13
@@ -8705,15 +8707,15 @@ msgid "Therefore, Monaca CI lets developers focus more on the code and less on t
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:18
-msgid "In order to use Monaca CI, you will need to integrate GitHub with your Monaca account. If you haven't done it, please follow the instruction below:"
+msgid "In order to use Monaca CI, you will need to integrate Github with your Monaca account. If you haven't done it, please follow the instruction below:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:20
-msgid "Link your Monaca account to GitHub. Please refer to :ref:`github_integration`."
+msgid "Link your Monaca account to Github. Please refer to :ref:`github_integration`."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:21
-msgid "Connect your project to your GitHub repository. Please refer to :ref:`version_control_configuration`."
+msgid "Connect your project to your Github repository. Please refer to :ref:`version_control_configuration`."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:23
@@ -8725,7 +8727,7 @@ msgid "Getting Started with Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:29
-msgid "Assuming you have successfully linked a GitHub repository to your project, you are now ready to enable Monaca CI. Please do as follows:"
+msgid "Assuming you have successfully linked a Github repository to your project, you are now ready to enable Monaca CI. Please do as follows:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:31
@@ -8733,7 +8735,7 @@ msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous I
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:33
-msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`)."
+msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid Github's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:53
@@ -8765,7 +8767,7 @@ msgid "Go to Continuous Integration panel, you will see your newly added service
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:87
-msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the GitHub's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices. Therefore, your JSON script should look like this:"
+msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the Github's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices. Therefore, your JSON script should look like this:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:117
@@ -8778,14 +8780,6 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:125
 msgid "JSON Settings Configuration"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:139
-msgid "GitHub branch of the project you want to build."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:141
-msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161
