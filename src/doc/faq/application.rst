@@ -10,7 +10,7 @@ Can I use an external ad network?
 For Monaca, there is no particular restriction on installing an ad network in an application. Technically, ads can be posted on WebView, so please use them according to the agreements of each ad network company. 
 
  
-If they are InMobi, mediba (Japanese) or nend (Japanese), you can display the ads in apps created by Monaca. In regard to nend, please refer to :doc:`../sampleapp/tips/external_services/nend_ad`. Please refer to :ref:`inmobi_sample` regarding the sample app using InMobi.
+If they are InMobi, mediba (Japanese) or nend (Japanese), you can display the ads in apps created by Monaca. In regard to nend, please refer to :doc:`../sampleapp/tips/external_services/nend_ad`.
 
 
 Moreover, please note that in case of Android apps, the network ads will not be displayed if the permission *<uses-permission android:name="android.permission.INTERNET"></uses-permission>* in :file:`AndroidManifest.xml` was not allowed. For more information, please refer to :doc:`../reference/config/android_configuration`. 

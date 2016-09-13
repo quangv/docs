@@ -8739,7 +8739,7 @@ msgid "Under JSON Settings section, you will see the following default :ref:`JSO
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:53
-msgid "By default, Monaca CI is disable. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed."
+msgid "Monaca CI is disabled by default. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:63
@@ -8767,7 +8767,7 @@ msgid "Go to Continuous Integration panel, you will see your newly added service
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:87
-msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the Github's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices. Therefore, your JSON script should look like this:"
+msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the Github's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notification for iOS devices. Therefore, your JSON script should look like this:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:117
