@@ -21,7 +21,7 @@ Monaca Localkit can accelerate your app development process because it provides 
 - Remote build. Monaca Localkit allows you to build your app for various platforms with support from Monaca server.
 
 
-.. note:: Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely seperated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`.
+.. note:: Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely separated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`.
 
 
 .. note:: You are required to have a valid plan in order to use Monaca Localkit. Otherwise, Monaca Localkit will run in an evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ for more details of each Monaca plan.
