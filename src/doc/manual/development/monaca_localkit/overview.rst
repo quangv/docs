@@ -26,7 +26,7 @@ Monaca Localkit can accelerate your app development process because it provides 
 
 .. note:: You are required to have a valid plan in order to use Monaca Localkit. Otherwise, Monaca Localkit will run in an evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ for more details of each Monaca plan.
 
-.. warning:: Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet.
+.. warning:: Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet.
 
 Installation and Setup
 ===============================
