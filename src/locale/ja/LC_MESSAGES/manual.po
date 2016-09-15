@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 06:08+0000\n"
+"PO-Revision-Date: 2016-09-15 10:08+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -7242,7 +7242,7 @@ msgstr "Monaca CLI を使用して、Monaca クラウドからログアウトす
 
 #: ../doc/manual/development/monaca_cli/index.rst:5
 msgid "Getting Started with Monaca CLI"
-msgstr "Monaca CLI"
+msgstr ""
 
 #: ../doc/manual/development/monaca_cli/overview.rst:5
 msgid "Monaca CLI Overview"
@@ -7916,7 +7916,7 @@ msgstr ":ref:`emmet`"
 
 #: ../doc/manual/development/monaca_ide/index.rst:5
 msgid "Getting Started with Monaca Cloud IDE"
-msgstr "Monaca クラウド IDE"
+msgstr ""
 
 #: ../doc/manual/development/monaca_ide/index.rst:11
 msgid ""
@@ -9766,7 +9766,7 @@ msgstr ":doc:`troubleshooting`"
 
 #: ../doc/manual/development/monaca_localkit/index.rst:5
 msgid "Getting Started with Monaca Localkit"
-msgstr "Monaca Localkit"
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:5
 msgid "Monaca Localkit Overview"
@@ -9821,7 +9821,7 @@ msgid ""
 "IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are "
 "completely separated. However, you can :ref:`import projects from Monaca "
 "Cloud IDE to Monaca Localkit<localkit_import>`."
-msgstr ""
+msgstr ":ref:`Monaca クラウド IDE<monaca_ide_index>` と Monaca Localkit 間では、プロジェクトの同期は行われず、それぞれのツールに置かれているプロジェクトは、独立しています。ただし、 :ref:`Monaca クラウド IDE から Monaca Localkit へ、プロジェクトをインポート <localkit_import>` できます。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:27
 msgid ""
@@ -9837,7 +9837,7 @@ msgid ""
 "Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as "
 ":ref:`push_notification_index` are currently not available in Monaca "
 "Localkit yet."
-msgstr ""
+msgstr "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と :ref:`push_notification_index` は現在ご利用できません。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:32
 msgid "Installation and Setup"
@@ -10250,7 +10250,7 @@ msgstr ":doc:`../../../quick_start/monaca_vs/index`"
 
 #: ../doc/manual/development/monaca_vs/index.rst:4
 msgid "Getting Started with Monaca for Visual Studio"
-msgstr "Monaca for Visual Studio の概要"
+msgstr ""
 
 #: ../doc/manual/development/monaca_vs/overview.rst:3
 msgid "Monaca for Visual Studio Overview"

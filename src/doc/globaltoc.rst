@@ -1,7 +1,7 @@
 .. toctree::
   :maxdepth: 2
 
-  quick_start/index
+  manual/index
   sampleapp/index
   manual/index
   reference/index

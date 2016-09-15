@@ -1,187 +1,272 @@
+/*NEW UI CSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Product+Sans);
+
+body {
+    background-color: #fbfbfb;
+    color: #555;
+    font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*==================END OF NEW UI CSS======================*/
+
+/*INDEX*/
+.center {
+  text-align: center;
+  display: block;
+  /*hr {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }*/
+}
+
+div.overview-btn {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 250px;
+    border: 1px solid #1e629e;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #1e629e;
+    a.title {
+        color: #fff; 
+        text-decoration: none;
+    }
+}
+
+div.overview-btn:hover {
+    background-color: #fff;
+    cursor: pointer;
+    a.title {
+        color: #1e629e;
+    }
+}
+
+/*div.overview_btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #1e629e;
+    border-radius: 4px;
+    background-color: #1e629e;
+    a.title {
+        color: #fff; 
+        text-decoration: none;
+    }
+}
+div.overview_btn:hover {
+    a.title {
+        color: #1e629e;
+    }
+    cursor: pointer;
+    background-color: #fff;
+}*/
 
 #indexContents {
-  background-color: #fff;
-  margin: 0 auto;
-  max-width: 1020px;
-  height: 815px;
+    margin: 0 auto;
+    max-width: 1020px;
 
-  #shortcuts {
-    padding-top: 15px;
-    li {
-      background: none;
-      height: 231px;
-      padding: 0;
-      position: relative;
-      dt {
-        color: $h_color;
-        font-size: 18px;
-        font-weight: 700;
-        margin: 5px 0 5px;
-        a:link {color: $h_color; text-decoration: none;}
-        a:visited {color: $h_color; text-decoration: none;}
-        a:hover {color: #999; text-decoration: none;}
-        a:active {color: $h_color; text-decoration: none;}
-      }
-      dd {
-        font-size: 12px;
-        padding-bottom: 40px;
-        text-align: left;
-
-        .link-right {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-        }
-      }
+    footer {
+        margin: 30px auto 30px;
+        width: 952px;
+        float: none;
+        padding: 0px;
+        position: relative;
     }
-  }
+    footer-nav {
+        padding-top: 20px;
+    }
+    footer img {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
 
-  #index-local-nav {
-    float: left;
-    margin-right: 20px;
-    width: 240px;
-  }
+    h1 {
+        font-size: 40px;
+        color: #000;
+        clear: both;
+    }
 
-  .environment {
-    float: right;
-    margin-bottom: 40px;
-    width: calc(100% - 260px);
     h2 {
-      line-height: 24px;
-      margin-bottom: 10px;
-      padding-top: 0;
+        font-size: 36px;
+        color: #000;
+        clear: both;
     }
-  }
 
-  table.more-option {
-    float: right;
-    width: percentage((860px - 250px) / 880px);
-    tr {
-      td.leftimg {
-        vertical-align: top;
-        width: 60px;
-        padding: 7px 0 0 8px;
-      }
-      td {
-        padding-bottom: 20px;
-        padding-right: 10px;
-        dl {
-          border: none;
-          margin: 0;
-          dt {
-            color: $h_color;
-            background: url(../img/common/icon_triangle_black.png) no-repeat 0 8px;
-            font-size: 14px;
-            font-weight: 700;
-            margin: 0 0 2px 0;
-            padding-left: 13px;
-            &:hover {opacity: 0.7;}
-            a {
-              font-weight: bold;
-            }
-            a:link {color: $h_color; text-decoration: none;}
-            a:visited {color: $h_color; text-decoration: none;}
-            a:hover {color: #999; text-decoration: none;}
-            a:active {color: $h_color; text-decoration: none;}
-          }
-          dd {
-            border: 0;
-            font-size: 12px;
-            line-height: 1.5;
-            padding: 0;
-          }
-        }
-      }
+    h3 {
+        font-size: 32px;
+        color: #000;
+        clear: both;
     }
-  }
 
-  .whatsnew {
-    float: right;
-    width: calc(100% - 260px);
-    h2 {
-      line-height: 24px;
-      margin-bottom: 10px;
-      padding-top: 0;
+    h4 {
+        font-size: 24px;
+        color: #000;
+        clear: both;
     }
-    table {
-      font-size: 12px;
-      tr {
-        th {
-          color: $h_color;
-          font-weight: 700;
-          line-height: 20px;
-          padding-right: 20px;
-          padding-left: 6px;
-        }
-        td {
-          line-height: 1.5;
-          padding-bottom: 8px;
-          font-size: 13px;
-        }
-      }
-    }
-  }
-
-  h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 16px;
-    margin-bottom: 14px;
-    padding-bottom: 6px;
-  }
-
-  table.left-menu {
-    font-size: 12px;
-    width: 250px;
-    tr {
-      td {
-        padding-bottom: 20px;
-
-        ul {
-          margin-left: 20px;
-        }
-        li {
-          list-style-type: square;
-          line-height: 1.6;
-          display: list-item;
-        }
-
-        h2 {
-          font-size: 16px;
-          padding: 0;
-          margin-bottom: 0px;
-          border-bottom: none;
-        }
-
-        h3 {
-          padding: 0;
-          font-size: 14px;
-          color: #5E5E5E;
-          font-weight: bold;
-          line-height: 1.2;
-          margin-bottom: 3px;
-        }
-      }
-    }
-  }
-
-  
-
-  footer {
-    margin: 30px auto 30px;
-    width: 952px;
-    float: none;
-    padding: 0px;
-    position: relative;
-  }
-  footer-nav {
-    padding-top: 20px;
-  }
-  footer img {
-    position: absolute;
-    top: 0;
-    right: 0px;
-  }
 }
+
+table.products-guide {
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+}
+
+div.api-box {
+    width: 155px;
+    border: 1px solid #1e629e;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+
+    a.title {
+        color: #000; 
+        text-decoration: none;
+    }
+}
+
+div.api-box:hover {
+    background-color: #1e629e;
+    cursor: pointer;
+    a.title {
+        color: #fff;
+    }
+}
+
+div.product-box {
+    width: 200px;
+    border: 1px solid #1e629e;
+    margin: 10px;
+    border-radius: 5px;
+    color: #000;
+    text-align: left;
+
+    p {
+        padding: 10px 10px 10px 70px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p.onsen {
+        padding: 20px 10px 21px 70px;
+    }
+
+    hr {
+        border-bottom: 1px solid #1e629e;
+        margin: 0;
+    }
+
+    ul {
+        padding: 15px;
+        line-height: 150%;
+        li {
+            font-size: 16px;
+            list-style-type: square;
+            margin-left: 30px;
+
+           /* a, a:link, a:active {
+                color: #000; 
+                text-decoration: none;
+            }
+            a:hover {
+                color: #1e629e; 
+                text-decoration: underline;
+            }*/
+        }
+    }
+
+    a.title {
+        color: #000; 
+        text-decoration: none;
+    }
+    a.title:hover {
+        color: #fff; 
+        cursor: pointer;
+        /*text-decoration: underline;*/
+    }
+}
+
+div.product-box:hover {
+    background-color: #c3c3c3;
+    cursor: pointer;
+    a.title:hover {
+        cursor: pointer;
+    }
+}
+
+
+img.product-logo {
+    position: absolute;
+    width: 60px;
+    margin: 13px 10px;
+    padding: 0;
+}
+
+img.product-logo-v2 {
+    position: absolute;
+    width: 60px;
+    margin: 8px 10px;
+    padding: 0;
+}
+
+.supported-environment {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 150%;
+    p {
+        color: #000;
+    }
+
+    ul {
+        margin-left: 30px;
+        li {
+            list-style-type: disc;
+        }
+    }
+
+    ul.level-2 {
+        li {
+            list-style-type: square;
+        }   
+    }
+}
+
+.monaca-updates{
+    font-size: 14px;
+    margin: 20px 0 50px 50px;
+    text-align: left;
+    line-height: 150%;
+}
+
+p.updates-loading {
+    text-align: center;
+}
+
+
+/*============END OF INDEX=============*/
+
+
+
