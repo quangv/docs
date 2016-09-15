@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 05:45+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-15 06:08+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9834,10 +9834,10 @@ msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) 
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:29
 msgid ""
-"Please note that :ref:`Backend <monaca_backend_index>` as well as "
+"Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as "
 ":ref:`push_notification_index` are currently not available in Monaca "
 "Localkit yet."
-msgstr "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と :ref:`push_notification_index` は現在ご利用できません。"
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:32
 msgid "Installation and Setup"
