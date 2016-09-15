@@ -1882,15 +1882,6 @@ a.btn-big {
   line-height: 41px;
   padding: 0 18px 0; }
 
-/*NEW*/
-.center {
-  text-align: center;
-  display: block; }
-  .center hr {
-    margin-top: 0;
-    margin-bottom: 10px; }
-
-/*======*/
 #indexContents {
   background-color: #fff;
   margin: 0 auto;

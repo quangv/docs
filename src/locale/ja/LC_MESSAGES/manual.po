@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-13 11:31+0000\n"
+"PO-Revision-Date: 2016-09-15 04:03+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -9789,31 +9789,31 @@ msgstr "Monaca Localkit では、次のような、開発効率の向上に役�
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:15
 msgid ""
-"create and import Cordova project: You can create a new project based on "
-"templates provided by Monaca. Moreover, you can import either Monaca project"
-" from Monaca Cloud IDE or existing Cordova project."
-msgstr "Cordova プロジェクトの作成とインポート : Monaca が提供するテンプレートを使用して、プロジェクトを新規作成できます。または、既存の Monaca プロジェクト ( Monaca クラウド IDE 上 ) と 既存の Cordova プロジェクトをインポートできます。"
+"Create and import Cordova project. You can create a new project based on "
+"templates provided by Monaca. Moreover, you can import either a Monaca "
+"project from Monaca Cloud IDE or an existing Cordova project."
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:17
 msgid ""
-"live reload of project: By pairing with Monaca Debugger, you can run your "
-"project instantly on your device. All changes made to the source code of the"
-" project will be updated immediately after those changes are saved."
-msgstr "プロジェクトのライブリロード : Monaca デバッガーとペアリングすれば、端末上で、プロジェクトを即実行できます。また、ソースコードに対して行った変更も、保存後、端末側に即反映されます。"
+"Live reload of the project. By pairing with Monaca Debugger, you can run "
+"your project instantly on your device. All changes made to the source code "
+"of the project will be updated immediately after those changes are saved."
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:19
 msgid ""
-"integrate with Chrome DevTools: By connecting your device (running Monaca "
+"Integrate with Chrome DevTools. By connecting your device (running Monaca "
 "Debugger) to the host PC (running Monaca Localkit) via USB cable, you can "
-"debug your app using Chrome DevTools. With the DevTools, you can set "
-"breakpoint and perform JavaScript debugging and app inspection."
-msgstr "Chrome DevTools との連携 : 端末 ( Monaca デバッガー側 ) とホスト PC ( Monaca Localkit 側 ) を USB 接続し、Chrome DevTools を使用して、アプリをデバッグできます。また、DevTools では、ブレークポイントを設定して、JavaScript のデバッグ、アプリの検証などを行えます。"
+"debug your app using Chrome DevTools. With Chrome DevTools, you can set "
+"breakpoints, and implement JavaScript debugging and app inspection."
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:21
 msgid ""
-"remote build: Monaca Localkit allows you to build your app for various "
-"platforms with the support from Monaca server."
-msgstr "リモートビルド : Monaca Localkit を使用すれば、Monaca サーバーのサポートを介して、複数のプラットフォーム向けのアプリをビルドできます。"
+"Remote build. Monaca Localkit allows you to build your app for various "
+"platforms with support from Monaca server."
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:24
 msgid ""
