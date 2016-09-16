@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-16 09:31+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-16 09:38+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1086,13 +1086,13 @@ msgstr "Monaca アカウント。 `こちら <https://monaca.mobi/ja/register/st
 
 #: ../doc/quick_start/cloud_ide/index.rst:16
 msgid "a computer with the Internet connection"
-msgstr ""
+msgstr "インターネット接続とコンピューター"
 
 #: ../doc/quick_start/cloud_ide/index.rst:17
 msgid ""
 "a smart mobile device (either iOS or Android) if you want to test on a real "
 "device. [optional]"
-msgstr ""
+msgstr "スマートデバイス ( 任意、iOS または Android 端末 )。端末上で検証を行う場合には必要となります。"
 
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:5
 msgid "Part 5: Publishing Monaca App"
