@@ -1,9 +1,9 @@
 <div class="toctree-wrapper compound">
     <ul>
-        <li class="toctree-l1">
+        <li id="menu-products">
           <a href="#">Products Guide</a>
           <ul>
-            <li class="toctree-l2"><a href="/en/manual/development/monaca_ide/" class="reference internal">Monaca Cloud</a></li>
+            <li id="sub-menu-products" class="toctree-l2"><a href="/en/manual/development/monaca_ide/" class="reference internal">Monaca Cloud</a></li>
             <li class="toctree-l2"><a href="/en/manual/development/monaca_localkit/" class="reference internal">Monaca Localkit</a></li>
             <li class="toctree-l2"><a href="/en/manual/development/monaca_cli/" class="reference internal">Monaca CLI</a></li>
             <li class="toctree-l2"><a href="/en/manual/development/monaca_vs/" class="reference internal">Monaca for Visual Studio</a></li>
@@ -41,3 +41,39 @@
         </li> 
     </ul>   
 </div>
+
+<script type="text/javascript">
+//localStorage.setItem('selected_menu', 'toctree-l1');
+var selected = localStorage.getItem("selected_menu");
+alert(selected);
+$(document).ready(function(){
+  $("#menu-products").addClass(selected);
+  var className = $('#menu-products').attr('class');
+  alert(className);
+}
+
+
+  $( "#sub-menu-products" ).click(function() {
+    localStorage.setItem('selected_menu', 'toctree-l1 current');
+    //selected = localStorage.getItem("selected_menu");
+    alert('Yay');
+    //var className = $('.myclass').attr('class');
+    
+    // $("#menu-products").attr('class').removeClass();
+    // $("#menu-products").addClass("toctree-l1 current");
+    // $(document).ready(function(){
+    //   $('#menu-products').removeClass();
+    //   $("#menu-products").addClass("toctree-l1 current");
+    //   var className = $('#menu-products').attr('class');
+    //   alert(className);
+    // });
+    // $($("#menu-products").attr('class')).removeClass();
+    // $("#menu-products").addClass("toctree-l1 current");
+    // //
+
+    
+  });
+  // var d = document.getElementById("menu-products");
+  // d.className = d.className + " current";
+  // alert(d.className);
+</script>

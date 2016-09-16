@@ -83,7 +83,7 @@ aside.global {
   nav.aside-main {
     background-color: #f2f2f2;
     /*padding-right: 10px;*/
-    padding-left: 10px;
+    padding-left: 0px;
     padding-bottom: 20px;
     margin-right: 20px;
 
@@ -109,21 +109,28 @@ aside.global {
             color: #444;
             text-decoration: none;
             font-weight: bold;
-            padding: 10px;
+            padding-left: 10px;
           }
           > ul {
-            padding: 1em 10px 1em 0;
+            padding: 0px;
             li {
               color: #5d89cb;
               line-height: 1.8;
-              left: 5%;
+              /*left: 5%;*/
               margin: 0;
-              padding: 6px 2px 6px $aside-padding;
+              padding: 6px 0px 6px $aside-padding;
               position: relative;
               @include all-a(#5d89cb,none);
 
+              > ul {
+                padding:0;
+                > li {
+                  padding-left: 15px;
+                }
+              }
+
               a {
-                padding-left: 5px;
+                padding-left: 10px;
                 box-sizing: border-box;
                 display: inline-block;
                 width: 100%;
@@ -157,9 +164,9 @@ aside.global {
                   }
                 }
               }
-              > ul {
+/*              > ul {
                 padding: 1em 10px 1em 0;
-              }
+              }*/
             }
             
           }

@@ -30,12 +30,12 @@
         <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
         <nav class="global" data-pjax>
             {{#if toctree}}
-                <!-- {{{globaltoc}}} -->
-                {{#is lang "ja"}}
+                {{{globaltoc}}}
+                <!-- {{#is lang "ja"}}
                     {{> navigation.ja }}
                 {{else}}
                     {{> top_menu.en }}
-                {{/is}}
+                {{/is}} -->
             {{else}}
                 <div class="overview-btn">
                     <p><a class="title" href="/en/quick_start/monaca_intro/">Monaca Overview</a></p>
