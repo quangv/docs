@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-16 09:19+0000\n"
+"PO-Revision-Date: 2016-09-16 09:31+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -529,7 +529,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
 #: ../doc/quick_start/cloud_ide/starting_project.rst:108
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:115
 #: ../doc/quick_start/localkit/building_app.rst:230
 #: ../doc/quick_start/localkit/publishing_app.rst:26
 #: ../doc/quick_start/localkit/starting_project.rst:116
@@ -710,7 +710,7 @@ msgid "Part 2: Using Monaca Debugger"
 msgstr "パート 2 : Monaca デバッガーの使用方法"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:10
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:11
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:8
 #: ../doc/quick_start/localkit/testing_debugging.rst:10
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:11
 msgid ""
@@ -728,14 +728,14 @@ msgid ""
 msgstr "ローカル PC と Monaca デバッガーがペアリング済みであれば、PC 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:16
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:17
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:14
 #: ../doc/quick_start/localkit/testing_debugging.rst:19
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:17
 msgid "Before Getting Started"
 msgstr "事前準備"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:18
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:19
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:16
 #: ../doc/quick_start/localkit/testing_debugging.rst:21
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:19
 msgid ""
@@ -830,7 +830,7 @@ msgid "Step 3: Real-time Update between Monaca CLI and Debugger"
 msgstr "ステップ 3 : Monaca CLI と デバッガー間のリアルタイムでの同期"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:106
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:82
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:79
 #: ../doc/quick_start/localkit/testing_debugging.rst:85
 #: ../doc/quick_start/localkit/testing_debugging.rst:109
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:83
@@ -950,7 +950,7 @@ msgstr "ここまでの手順を行えば、バックエンドを使用したア
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:93
 #: ../doc/quick_start/cloud_ide/building_app.rst:224
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:27
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:120
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:117
 msgid ":ref:`cloud_ide_starting_project`"
 msgstr ":ref:`cloud_ide_starting_project`"
 
@@ -964,20 +964,20 @@ msgstr ":ref:`cloud_ide_testing_debugging`"
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:95
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:30
 #: ../doc/quick_start/cloud_ide/starting_project.rst:112
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:122
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:119
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:96
 #: ../doc/quick_start/cloud_ide/building_app.rst:227
 #: ../doc/quick_start/cloud_ide/starting_project.rst:113
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:123
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ":ref:`cloud_ide_publishing_app`"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:97
 #: ../doc/quick_start/cloud_ide/starting_project.rst:114
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:124
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
 msgid ":ref:`sample_apps_index`"
 msgstr ":ref:`sample_apps_index`"
 
@@ -1066,7 +1066,7 @@ msgstr "デバッグビルドのオプションを選択して、 :guilabel:`次
 #: ../doc/quick_start/cloud_ide/building_app.rst:226
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:29
 #: ../doc/quick_start/cloud_ide/starting_project.rst:111
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ":ref:`cloud_ide_adding_backend`"
 
@@ -1085,14 +1085,14 @@ msgid ""
 msgstr "Monaca アカウント。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録・作成できます。"
 
 #: ../doc/quick_start/cloud_ide/index.rst:16
-msgid "a computer with Internet connection"
-msgstr "インターネット接続とコンピューター"
+msgid "a computer with the Internet connection"
+msgstr ""
 
 #: ../doc/quick_start/cloud_ide/index.rst:17
 msgid ""
-"a smart mobile device (either iOS or Android) if you want to test on real "
+"a smart mobile device (either iOS or Android) if you want to test on a real "
 "device. [optional]"
-msgstr "スマートデバイス ( 任意、iOS または Android 端末 )。端末上で検証を行う場合には必要となります。"
+msgstr ""
 
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:5
 msgid "Part 5: Publishing Monaca App"
@@ -1125,10 +1125,10 @@ msgid ""
 "Monaca project based on various templates. On the other hand, if you choose "
 ":guilabel:`Import Project`, you will be able to create a new Monaca project "
 "by importing an existing project in 3 ways such as filling in the project's "
-"url, uploading the project package or selecting your existing Github "
-"repository. Please refer to :ref:`version_control` on how to set up Github "
+"URL, uploading the project package or selecting your existing  GitHub "
+"repository. Please refer to :ref:`version_control` on how to set up  GitHub "
 "integration with Monaca."
-msgstr ":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca プロジェクトを作成できます。一方、:guilabel:`Import Project` では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub の連携方法は、:ref:`version_control` をご確認ください。"
+msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:40
 msgid "Create Project Dialog"
@@ -1202,11 +1202,11 @@ msgstr "左側のプロジェクトツリー画面から、編集対象のファ
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:101
 msgid ""
-"Save the changes, then you will be able to see the updates constantly in the"
-" Preview window. Feel free to edit the project as you wish. For more "
-"detailed explanation about this template, please refer to :ref:`Explanation "
-"about jQuery TODO App <todo>`."
-msgstr "ファイルの編集後、変更を保存します。次に、プレビューウィンドウ上で、変更点が反映されていることを確認してみましょう。他の箇所も変更して、プレビュー上で確認してみましょう。今回使用したテンプレートの詳細は、:ref:`TODO 管理アプリの解説 ( jQuery 使用 ) <todo>` をご確認ください。"
+"Save the changes, then you will be able to see the updates instantly in the "
+"Preview window. Feel free to edit the project as you wish. For more detailed"
+" explanation about this template, please refer to :ref:`Explanation about "
+"jQuery TODO App <todo>`."
+msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:104
 msgid ""
@@ -1218,7 +1218,7 @@ msgstr "Monaca クラウド IDE に実装されているコードエディター
 msgid "Part 2: Running a Project on Monaca Debugger"
 msgstr "パート 2 : Monaca デバッガー上でのプロジェクトの実行"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:13
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:10
 msgid ""
 "When developing Monaca apps in Monaca Cloud IDE, assuming that the Internet "
 "connection is available, all changes made to your project files will be "
@@ -1226,20 +1226,20 @@ msgid ""
 "changes."
 msgstr "Monaca アプリ開発時、Monaca クラウド IDE ( PC 側 ) と Monaca デバッガー ( 端末側 ) がインターネットに接続されていれば、IDE 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:38
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:35
 #: ../doc/quick_start/localkit/testing_debugging.rst:39
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:37
 msgid "Step 1: Running the Project on Monaca Debugger"
 msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:40
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:37
 msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
 "for Monaca Cloud IDE."
 msgstr "Monaca デバッガーを起動し、Monaca に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca クラウド IDE のログイン時に使用したものと同じものを使用します。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:48
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:45
 msgid ""
 "Then, a project list will appear. All Monaca Cloud IDE projects are listed "
 "under ``Monaca.io Projects``. To run a project, you can just click on the "
@@ -1247,27 +1247,27 @@ msgid ""
 " Monaca Cloud IDE menu."
 msgstr "プロジェクトの一覧が表示されます。Monaca クラウド IDE 上のプロジェクトは、[ Monaca.io プロジェクト ] 欄に表示されます。プロジェクトを実行する場合、Monaca デバッガー上のプロジェクト名をタップするか、または、Monaca クラウド IDE のメニューから :guilabel:`実機デバッグ` をクリックします。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:56
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:53
 msgid ""
 "Then, your project should be running in the debugger. To go back to the "
 "Project List screen, go to Debugger Menu and click :guilabel:`Back` button."
 msgstr "デバッガー上でプロジェクトが実行されていることを確認します。プロジェクトの一覧画面に戻る場合には、[ デバッガーメニュー ] ボタンをタップして、次に、:guilabel:`戻る` ボタンをタップします。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:69
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:66
 msgid "Try and test your project by adding/deleting a memo."
 msgstr "再びアプリを起動させ、メモの追加と削除を行い、動作を確認してみましょう。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:78
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:75
 msgid "Step 2: Real-time Updates between Monaca Cloud IDE and Debugger"
 msgstr "ステップ 2 : Monaca クラウド IDE と Monaca デバッガー間のリアルタイム更新"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:80
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:77
 msgid ""
 "By now, you are able to run your Monaca project on the debugger. Next, let's"
 " try to edit this project and see how it is reflected on the debugger."
 msgstr "ここまでの手順で、Monaca デバッガー上でプロジェクトが実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca デバッガー側に反映されるか確認してみましょう。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:84
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:81
 msgid ""
 "On Monaca Cloud IDE, make some changes in a project file and save them "
 "(please refer to :ref:`Edit Project Files <monaca_cloud_ide_edit_project>`)."
@@ -1275,7 +1275,7 @@ msgid ""
 "from \"Monaca Memo\" to \"My Memo\". Then, save the change."
 msgstr "Monaca クラウド IDE 上で、プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 <monaca_cloud_ide_edit_project>` を参照のこと )。ここでは、:file:`index.html` 上で、ページのタイトルを 「 Monaca Memo 」 から 「 My Memo 」 へ変更してみます。次に、保存します。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:92
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:89
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:93
 msgid ""
 "The saved changes will be sent to Monaca Debugger on your device. You can "
@@ -1283,16 +1283,16 @@ msgid ""
 "your app in case the changes are not reflected."
 msgstr "保存された変更は、端末の Monaca デバッガー側に送られます。アプリ側で変更が反映されない場合には、デバッガーメニュー上の :guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:98
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:95
 msgid "Updated Page Title"
 msgstr "更新後のページタイトル"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:104
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:101
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:105
 msgid "Reload Button"
 msgstr "更新ボタン"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:109
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:106
 #: ../doc/quick_start/localkit/testing_debugging.rst:136
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:113
 msgid ""
@@ -1300,14 +1300,14 @@ msgid ""
 "functions provided by Monaca Debugger."
 msgstr "Monaca デバッガーが提供する機能に関しては、 :ref:`monaca_debugger_features` をご確認ください。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:111
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:108
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:110
 msgid ""
 "That's it! That's how easy it is to use Monaca Debugger. Please try to make "
 "more changes to your project and see how it runs on the debugger."
 msgstr "Monaca デバッガーの基本的な使用方法に関して、ここでは解説しました。試しに、他の箇所も変更して、デバッガー上で確認してみましょう。"
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:113
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:110
 msgid "PRACTICE MAKES PERFECT! Enjoy developing with Monaca!"
 msgstr "Monaca でのデバッグをお楽しみください！"
 
@@ -2017,19 +2017,19 @@ msgid ""
 "run on Windows runtime while Chrome apps run on Chrome runtime."
 msgstr "iOS・Android アプリは、Cordova 上で実行され、端末側のネイティブ機能にアクセスするときは、 `PhoneGap <http://phonegap.com/>`_ ( JavaScript ライブラリー ) を使用します。また、Windows アプリは、Windows ランタイム上で実行され、Chrome アプリは、Chrome ランタイム上で実行されます。"
 
-#: ../doc/quick_start/monaca_intro.rst:173
+#: ../doc/quick_start/monaca_intro.rst:170
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/quick_start/monaca_intro.rst:175
+#: ../doc/quick_start/monaca_intro.rst:172
 msgid ":ref:`monaca_app_index`"
 msgstr ":ref:`monaca_app_index`"
 
-#: ../doc/quick_start/monaca_intro.rst:176
+#: ../doc/quick_start/monaca_intro.rst:173
 msgid ":ref:`Monaca IDE<monaca_ide_index>`"
 msgstr ":ref:`Monaca クラウド IDE<monaca_ide_index>`"
 
-#: ../doc/quick_start/monaca_intro.rst:177
+#: ../doc/quick_start/monaca_intro.rst:174
 msgid ":ref:`monaca_debugger_index`"
 msgstr ":ref:`monaca_debugger_index`"
 
