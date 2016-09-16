@@ -1319,7 +1319,7 @@ aside.global {
   aside.global nav.aside-main {
     background-color: #f2f2f2;
     /*padding-right: 10px;*/
-    padding-left: 10px;
+    padding-left: 0px;
     padding-bottom: 20px;
     margin-right: 20px; }
     aside.global nav.aside-main > div.aside-search-result-info {
@@ -1339,16 +1339,19 @@ aside.global {
         color: #444;
         text-decoration: none;
         font-weight: bold;
-        padding: 10px; }
+        padding-left: 10px; }
       aside.global nav.aside-main > div > ul > li > ul {
-        padding: 1em 10px 1em 0; }
+        padding: 0px; }
         aside.global nav.aside-main > div > ul > li > ul li {
           color: #5d89cb;
           line-height: 1.8;
-          left: 5%;
+          /*left: 5%;*/
           margin: 0;
-          padding: 6px 2px 6px 0;
-          position: relative; }
+          padding: 6px 0px 6px 0;
+          position: relative;
+          /*              > ul {
+                padding: 1em 10px 1em 0;
+              }*/ }
           aside.global nav.aside-main > div > ul > li > ul li a:link, aside.global nav.aside-main > div > ul > li > ul li a:visited {
             color: #5d89cb;
             text-decoration: none; }
@@ -1358,8 +1361,12 @@ aside.global {
           aside.global nav.aside-main > div > ul > li > ul li a:active {
             color: #5d89cb;
             text-decoration: none; }
+          aside.global nav.aside-main > div > ul > li > ul li > ul {
+            padding: 0; }
+            aside.global nav.aside-main > div > ul > li > ul li > ul > li {
+              padding-left: 15px; }
           aside.global nav.aside-main > div > ul > li > ul li a {
-            padding-left: 5px;
+            padding-left: 10px;
             box-sizing: border-box;
             display: inline-block;
             width: 100%;
@@ -1382,8 +1389,6 @@ aside.global {
             text-decoration: none; }
             aside.global nav.aside-main > div > ul > li > ul li.current > a, aside.global nav.aside-main > div > ul > li > ul li.current > a:link, aside.global nav.aside-main > div > ul > li > ul li.current > a:hover, aside.global nav.aside-main > div > ul > li > ul li.current > a:visited {
               color: white; }
-          aside.global nav.aside-main > div > ul > li > ul li > ul {
-            padding: 1em 10px 1em 0; }
       aside.global nav.aside-main > div > ul > li li {
         font-size: 1.3rem;
         padding-top: 8px;

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 06:08+0000\n"
+"PO-Revision-Date: 2016-09-16 09:19+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1058,7 +1058,6 @@ msgstr "項目"
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Description"
@@ -7123,7 +7122,6 @@ msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:404
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "``platform``"
 msgstr "``platform``"
 
@@ -9821,7 +9819,7 @@ msgid ""
 "IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are "
 "completely separated. However, you can :ref:`import projects from Monaca "
 "Cloud IDE to Monaca Localkit<localkit_import>`."
-msgstr ""
+msgstr ":ref:`Monaca クラウド IDE<monaca_ide_index>` と Monaca Localkit 間では、プロジェクトの同期は行われず、それぞれのツールに置かれているプロジェクトは、独立しています。ただし、 :ref:`Monaca クラウド IDE から Monaca Localkit へ、プロジェクトをインポート <localkit_import>` できます。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:27
 msgid ""
@@ -9837,7 +9835,7 @@ msgid ""
 "Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as "
 ":ref:`push_notification_index` are currently not available in Monaca "
 "Localkit yet."
-msgstr ""
+msgstr "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と :ref:`push_notification_index` は現在ご利用できません。"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:32
 msgid "Installation and Setup"
@@ -10622,103 +10620,85 @@ msgid ""
 msgstr "レシピで使用するパラメーターは、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Param"
 msgstr "パラメーター"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "``task_name``"
 msgstr "``task_name``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "a name representing your build process."
 msgstr "ビルド処理に付ける名前を指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
-#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "``branch``"
 msgstr "``branch``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
-#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "Github branch of the project you want to build."
 msgstr "ビルドを行うプロジェクト用の GitHub ブランチ ( 作業するブランチ ) を指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
-#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "``tag``"
 msgstr "``tag``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
-#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "Github tag of the project you want to build."
 msgstr "ビルドを行うプロジェクト用の GitHub タグを指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid ""
 "The platform you want to build for. Valid values are: ``ios``, ``android`` &"
 " ``winrt``."
 msgstr "ビルドを行うプラットフォームを指定します。設定できる値は、``ios``、``android``、``winrt`` です。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "``build``"
 msgstr "``build``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr "ビルドの種類を指定します。設定できる値は、``debug``、``release`` です。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "``deploy``"
 msgstr "``deploy``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr "アプリの配信/配布に使用するデプロイサービス ( 複数設定可 )"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:30
-#: ../doc/manual/monaca_ci/overview.rst:149
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr "``type``: デプロイサービス名を指定します ( 大文字・小文字を区別 )。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:31
-#: ../doc/manual/monaca_ci/overview.rst:150
 msgid ""
 "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr "``alias``: デプロイサービスのエイリアス名/連携名を指定します ( 大文字・小文字を区別 )。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:32
-#: ../doc/manual/monaca_ci/overview.rst:151
 msgid ""
 "``default``: a block for default parameters you may need to use for the "
 "deployment service."
 msgstr "``default``: 各種オプション ( デプロイサービス提供の機能 ) を設定するブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:33
-#: ../doc/manual/monaca_ci/overview.rst:152
 msgid ""
 "``ios``: a block for iOS parameters you may need to use for the deployment "
 "service."
 msgstr "``ios``: iOS 向けのオプション設定 ( デプロイサービス提供の機能 ) 用のブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:34
-#: ../doc/manual/monaca_ci/overview.rst:153
 msgid ""
 "``android``: a block for Android parameters you may need to use for the "
 "deployment service."
 msgstr "``android``: Android 向けのオプション設定 ( デプロイサービス提供の機能 ) 用のブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
-#: ../doc/manual/monaca_ci/overview.rst:155
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
@@ -10746,12 +10726,12 @@ msgid ""
 "integrated within the current Monaca development environment stack to "
 "automate building and deployment cycles. This automation process is done by "
 "using webhooks. Webhooks allow you to build or set up integrations which "
-"subscribe to certain events (code commit, branch/tag creation and so on) on "
-"Github and many other Git services. For Monaca CI, every time you push your "
-"project code to Github, Github will send a HTTP POST payload to Monaca "
-"server. If the received information meets the Monaca CI configuration, the "
-"automation will begin."
-msgstr "Monaca CI ( Continuous Integration/継続的インテグレーション ) は、Monaca の開発環境に新しく組み込まれた、CI を実現するためのサービスです。このサービスを使用すると、プロジェクトのビルド処理の自動化、検証版アプリの配信/配布処理の自動化を行えるため、開発を大幅に効率化できます。自動化処理の基礎には、Webhook を使用しています。Webhook を使用することにより、GitHub または Git 系のサービスと容易に連携することができます ( Webhook 経由で、コードのコミット、ブランチ/タグの作成など、特定のイベントを処理できます )。Monaca CI の処理を、ここで簡単に解説します。最初に、ユーザーがプロジェクトを GitHub にプッシュすると、GitHub 側から Monaca サーバー側へ HTTP POST リクエストが発行されます。次に、このリクエスト内容が Monaca CI 側で保持している設定と一致する場合には、前述の処理 ( ビルド処理など ) が実行されます。"
+"subscribe to certain events (code commit, branch/tag creation and so on) on"
+"  GitHub and many other Git services. For Monaca CI, every time you push "
+"your project code to  GitHub,  GitHub will send a HTTP POST payload to "
+"Monaca server. If the received information meets the Monaca CI "
+"configuration, the automation will begin."
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:13
 msgid ""
@@ -10761,21 +10741,21 @@ msgstr "Monaca CI を使用することにより、ビルド処理、検証処�
 
 #: ../doc/manual/monaca_ci/overview.rst:18
 msgid ""
-"In order to use Monaca CI, you will need to integrate Github with your "
+"In order to use Monaca CI, you will need to integrate  GitHub with your "
 "Monaca account. If you haven't done it, please follow the instruction below:"
-msgstr "Monaca CI を使用する前に、Monaca アカウントと GitHub を連携させる必要があります。連携手順は、次のとおりです。"
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:20
 msgid ""
-"Link your Monaca account to Github. Please refer to "
-":ref:`github_integration`."
-msgstr "Monaca アカウントと GitHub を連携させます。詳細は、:ref:`github_integration` をご確認ください。"
+"Link your Monaca account to  GitHub. Please refer to :ref:` "
+"GitHub_integration`."
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:21
 msgid ""
-"Connect your project to your Github repository. Please refer to "
+"Connect your project to your  GitHub repository. Please refer to "
 ":ref:`version_control_configuration`."
-msgstr "GitHub レポジトリとプロジェクトを接続させます。詳細は、:ref:`version_control_configuration` をご確認ください。"
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:23
 msgid "In order to use Monaca CI, Cordova 6.2 or higher is required."
@@ -10787,7 +10767,7 @@ msgstr "Monaca CI の使用方法"
 
 #: ../doc/manual/monaca_ci/overview.rst:29
 msgid ""
-"Assuming you have successfully linked a Github repository to your project, "
+"Assuming you have successfully linked a  GitHub repository to your project, "
 "you are now ready to enable Monaca CI. Please do as follows:"
 msgstr ""
 
@@ -10803,11 +10783,11 @@ msgid ""
 "script <monaca_ci_json>`. This script controls the automation behaviours of "
 "Monaca CI. For example, with this default JSON script, Monaca CI will tell "
 "Monaca server to generate both debug and release builds of your project for "
-"iOS platform every time you push your project code to a valid Github's "
+"iOS platform every time you push your project code to a valid  GitHub's "
 "branch/tag as configured using regular expression inside the script. Once "
 "the build process is completed, you can find these built files under Build "
 "History panel (:menuselection:`Build --> Build History`)."
-msgstr "[ JSON 設定 ] 項目では、次のような設定がデフォルトで記述されています ( 詳細は、:ref:`JSON script <monaca_ci_json>` を参照のこと )。これらのパラメーターを使用して、Monaca CI の挙動を設定します。次の設定を使用すると、Monaca CI は、指定した GitHub ブランチ/タグ へプロジェクトコードをプッシュするたびに、デバッグビルドとリリースビルド版の iOS アプリをビルドするように、Monaca サーバー側へ命令します。ビルド完了後は、[ ビルド一覧 ] パネル上で、ビルド済みのファイルをダウンロードすることができます ( :menuselection:`ビルド --> ビルド結果一覧` )。"
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:53
 msgid ""
@@ -10854,11 +10834,11 @@ msgstr "[ 継続的インテグレーション ] パネルへ行き、[ デプ�
 msgid ""
 "Configure your deploy service in JSON script. Assuming that you want to "
 "generate debug build of your project for both iOS and Android platforms when"
-" you push the project code to the Github's branch called ``\"release\"``. "
+" you push the project code to the  GitHub's branch called ``\"release\"``. "
 "Then, distribute the built files to ``Deploy Gate`` service which has a "
 "release note and disable the email notification for iOS devices. Therefore, "
 "your JSON script should look like this:"
-msgstr "[ JSON 設定 ] 内に、デプロイサービス側の設定を追記します。次の JSON の記述では、GitHub のブランチ 「 ``\"release\"`` 」 にプロジェクトをプッシュして、デバッグビルド版の iOS と Android アプリをビルドします。そして、ビルドしたアプリの配信/配布には、``DeployGate`` サービスを使用します。付随するオプション設定 ( DeployGate サービス側で提供しているオプション機能 ) も行います。ここでは、リリースノートの作成を行い、email でのリリース通知 ( iOS 端末専用のオプション ) を無効にしています。"
+msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:117
 msgid "Once you are done with the configuration, click :guilabel:`Save`."

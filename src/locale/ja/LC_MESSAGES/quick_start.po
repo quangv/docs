@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 05:45+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-16 09:19+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1599,7 +1599,7 @@ msgid "Monaca Debugger"
 msgstr "Monaca デバッガー"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:55
-#: ../doc/quick_start/monaca_intro.rst:53
+#: ../doc/quick_start/monaca_intro.rst:52
 msgid "Monaca Localkit"
 msgstr "Monaca Localkit"
 
@@ -1695,20 +1695,20 @@ msgstr "Monaca とは？"
 msgid ""
 "Monaca is a development environment for smartphone and tablet applications "
 "provided by Asial Corporation. Monaca does not only provide you with a "
-"development environment at your fingertips, but also allows anyone to be "
-"able to develop smartphone applications easier."
-msgstr "Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発環境の呼称です。Monaca では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発環境に加え、各種ツール・サポートを提供しています。"
+"development environment at your fingertips but also allows anyone to be able"
+" to develop smartphone applications easier."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:18
 msgid ""
-"Monaca uses :ref:`hybrid <feature_hybrid_app>` approach to deliver mobile "
+"Monaca uses a :ref:`hybrid <feature_hybrid_app>` approach to deliver mobile "
 "apps. It makes :ref:`hybrid mobile app <feature_hybrid_app>` development "
 "process with PhoneGap/Cordova simpler and stress-free with our comprehensive"
 " cloud-powered app development tools and services. Monaca is framework-"
 "agnostic and adaptive, ready to be immediately plugged into your existing "
-"workflow and dev environment, creating the most open Cordova platform "
-"available."
-msgstr "Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` 技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツール・サービスを提供しています。これにより、「 :ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca が提供する開発ツール群は、特定のフレームワークには依存していないため、柔軟性があり、現在お使いの開発工程・開発環境でも、スムーズに導入できます。また、Cordova プラグインの組み込みも簡単に行えます。"
+"workflow and development environment, creating the most open Cordova "
+"platform available."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:23
 msgid "Why using Monaca?"
@@ -1740,55 +1740,55 @@ msgstr "組み合わせ自由 : Monaca は、設計から配布に至るまで�
 #: ../doc/quick_start/monaca_intro.rst:31
 msgid ""
 "Framework Agnostic: Our open source Angular-driven `Onsen Framework "
-"<http://onsen.io/>`_ is tightly integrated with Monaca tools. But use "
-"whatever framework you want. Ionic or PhoneGap developers, for example, can "
-"seamlessly use our :ref:`CLI <monaca_cli_index>` to take advantage of the "
-"cloud-powered services without switching or any complicated porting. We take"
-" OPEN seriously."
-msgstr "非依存型 ( フロントエンドのフレームワーク、各種開発ツール ) : 使用するフレームワークとツールは、開発者が自由に選択できます。現在開発者がお使いのツールと、たとえば、:ref:`Monaca CLI <monaca_cli_index>` は、併用でき、開発環境・ツールの切り替え処理、別環境への移植処理 ( ポーティング / porting ) などをせずとも、このツールを介して、Monaca のクラウドサービスを利用できます。また、HTML5 レイヤーのフレームワークに関しては、私たちが開発・提供しているオープンソースの 「 `Onsen フレームワーク <http://ja.onsen.io/>`_ 」 ( Angular が基盤 ) もぜひお試しください。Monaca が提供しているツールとも親和性があります。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
+"<http://onsen.io/>`_ is tightly integrated with Monaca tools. However, you "
+"can use whatever framework you want. Ionic or PhoneGap developers, for "
+"example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take "
+"advantages of the cloud-powered services without switching or any "
+"complicated porting. We take OPEN seriously."
+msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:37
+#: ../doc/quick_start/monaca_intro.rst:36
 msgid "Monaca Development Tools"
 msgstr "Monaca が提供する開発ツール"
 
-#: ../doc/quick_start/monaca_intro.rst:39
+#: ../doc/quick_start/monaca_intro.rst:38
 msgid ""
 "For your flexibility and convenience during app development process, Monaca "
 "provides four different development environments as shown in the following "
 "subsections."
 msgstr "Monaca では、アプリ開発の各工程で利用できる、次の 4 種類の開発環境を提供しています。これらの開発環境を活用すれば、より効果的に、より柔軟に、開発を行えます。"
 
-#: ../doc/quick_start/monaca_intro.rst:42
+#: ../doc/quick_start/monaca_intro.rst:41
 #: ../doc/quick_start/monaca_intro.rst:99
 msgid "Monaca Cloud IDE"
 msgstr "Monaca クラウド IDE"
 
-#: ../doc/quick_start/monaca_intro.rst:44
+#: ../doc/quick_start/monaca_intro.rst:43
 msgid ""
 "Monaca Cloud IDE provides a browser-based development environment as a "
 "service. Right from your Web browser, all of your Cordova development is "
 "done without any setup. Along with the :ref:`monaca_debugger_intro`, Live "
 "Preview (built-in function in Monaca Cloud IDE) allows you to easily check "
-"the effectiveness of your apps during development. Noticeably, there are "
-"neither Cordova plugins nor native functions in Live Preview. Therefore, the"
-" app required those functions and plugins can't be previewed properly. "
-":ref:`Read more <monaca_ide_index>`."
-msgstr "Monaca クラウド IDE は、ブラウザー上で動作する開発環境です。モバイルアプリ開発工程のほとんどを、Web ブラウザー上で行え、手間のかかる設定も必要ありません。また、:ref:`monaca_debugger_intro` とライブプレビュー ( Monaca クラウド IDE に実装されている機能 ) を併用して、開発中でも、アプリの動作検証を行えます。なお、ライブプレビュー機能では、Cordova プラグインまたはネイティブのプラグインをサポートしていないため ( 正しくプレビューできません )、検証・デバッグ時には、Monaca デバッガーも併用することを推奨します。:ref:`詳細はこちら。 <monaca_ide_index>`"
+"the progress of your apps during development. Noticeably, there are neither "
+"Cordova plugins nor native functions in Live Preview. Therefore, the app "
+"required those plugins and functions can't be previewed properly. :ref:`Read"
+" more <monaca_ide_index>`."
+msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:50
+#: ../doc/quick_start/monaca_intro.rst:49
 msgid "Overview of Monaca Cloud IDE"
 msgstr "Monaca クラウド IDE の画面"
 
-#: ../doc/quick_start/monaca_intro.rst:55
+#: ../doc/quick_start/monaca_intro.rst:54
 msgid ""
 "Monaca Localkit is a local environment development support tool offered "
 "through our app development platform, “Monaca”. You can achieve better "
 "security and peace-of-mind from your own app development environment by "
-"combining existing tools like the editor and version management system, with"
-" the versatile development support capabilities of Monaca. With Monaca "
+"combining existing tools such as code editors and version management system,"
+" with the versatile development support capabilities of Monaca. With Monaca "
 "Localkit, Monaca users are able to setup their preferred development "
 "environment on local PC. :ref:`Read more <monaca_localkit_index>`."
-msgstr "Monaca Localkit は、Monaca と連携して使用できる、ローカル環境用の開発ツールです。使い慣れたアプリ開発環境・ツール ( 各種エディター、バージョン管理システムなど ) と併用でき、よりセキュアで、ストレスフリーな開発を行えます。また、Monaca と連携することで、Monaca に実装されている、多様な開発サポート機能も活用できます。また、Monaca Localkit を使用すれば、ローカル PC　( Windows/Mac ) 上で、お好みの開発環境を使用して、開発を行えます。:ref:`詳細はこちら。 <monaca_localkit_index>`"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:61
 msgid "Overview of Monaca Localkit"
@@ -1800,12 +1800,11 @@ msgstr "Monaca CLI"
 
 #: ../doc/quick_start/monaca_intro.rst:66
 msgid ""
-"Monaca CLI provides command line interface for using Monaca cloud. It "
-"features the debugger connection and inspector integration, as well as "
-"creating and remote building the project. You can also import projects that "
-"exist on the cloud if you want to switch your environment to local. "
-":ref:`Read more <monaca_cli_index>`."
-msgstr "Monaca CLI は、コマンドライン形式のインターフェイスです。CLI を介して、Monaca がクラウドで提供しているサービスを利用できます。CLI を使用して、たとえば、デバッガーとの接続、インスペクタとの連携、プロジェクトの作成、プロジェクトのリモートビルドなど、多岐にわたる処理を行えます。また、クラウド上に保存されているプロジェクトをローカルにインポートできます。このインポート機能は、クラウドからローカルへ環境を切り替える場合に有用です。 :ref:`詳細はこちら <monaca_cli_index>`。"
+"Monaca CLI provides command line interface to use Monaca Cloud. It features "
+"the debugger connection, inspector integration, project creation and remote "
+"building. You can also import projects that exist in the cloud when you want"
+" to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:69
 msgid "Monaca for Visual Studio"
@@ -1825,14 +1824,14 @@ msgstr "Monaca for Visual Studio の画面"
 
 #: ../doc/quick_start/monaca_intro.rst:84
 msgid ""
-"On top of the flexibility in development environment, Monaca also provides "
-"high development efficiency by using Monaca Debugger. Monaca Debugger is an "
-"application used to test and debug your Monaca applications on real devices "
-"without building the applications during the development. It needs to be "
-"installed on your mobile devices. The app will automatically sync all your "
-"development projects and run them without the build process. :ref:`Read more"
-" <monaca_debugger_index>`."
-msgstr "上述のような多様な開発環境の提供に加えて、Monaca では、Monaca デバッガーを提供しています。Monaca デバッガーは、デバッグ用のアプリであり、このアプリを使用してデバッグを行えば、デバッグ効率を大幅に向上できます。このアプリでは、他の環境で開発中のプロジェクトと自動で同期が行われるので、プロジェクトの更新のたびにビルドをせずとも、コーディング中のアプリを端末上で実行できます ( よって、Monaca デバッガーでは、開発中のアプリの動作を端末上で、リアルタイムに検証できます )。他のアプリ同様、Monaca デバッガーアプリも端末にインストールして使用します。:ref:`詳細はこちら。 <monaca_debugger_index>`"
+"On top of the flexibility in the development environment, Monaca also "
+"provides high development efficiency by using Monaca Debugger. Monaca "
+"Debugger is an application used to test and debug your Monaca applications "
+"on real devices without building the applications during the development. It"
+" needs to be installed on your mobile devices. The app will automatically "
+"sync all your development projects and run them without the build process. "
+":ref:`Read more <monaca_debugger_index>`."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:90
 msgid "Monaca Debugger App"
@@ -1899,11 +1898,11 @@ msgstr "Monaca の登録プラン"
 #: ../doc/quick_start/monaca_intro.rst:123
 msgid ""
 "Monaca provides various account types to match with your needs ranging from "
-"basic (FREE) to enterprise level. After registration, your default account "
-"is basic type. You can upgrade it later when you want. For detailed "
-"information of Monaca account types and its usages, please refer to `Monaca "
-"Pricing <https://monaca.io/pricing.html>`_."
-msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+"basic (FREE) to enterprise plan. After registration, your default account "
+"has a basic plan. You can upgrade it later when you want. For detailed "
+"information of Monaca account types and theirs usages, please refer to "
+"`Monaca Pricing <https://monaca.io/pricing.html>`_."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:125
 msgid "Monthly Plans:"
@@ -1915,15 +1914,15 @@ msgstr "14 日間の無料トライアルがあります。"
 
 #: ../doc/quick_start/monaca_intro.rst:128
 msgid ""
-"You can switch plan to another monthly plan in the trial period for free. "
-"But trial period will not be extended."
-msgstr "無料トライアル期間中であれば、どの月額プランにでも変更できますが、トライアル期間は、都度、延長しません。"
+"You can switch to another monthly plan in the trial period for free. But the"
+" trial period will not be extended."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:129
 msgid ""
-"14 days after the subscription, you will be charged unless you have switched"
-" to Basic plan. The first charge is calculated on a daily basis."
-msgstr "トライアル期間の終了後に、課金が開始されます。トライアル後は、ご利用日数に応じて、月末まで、日割で課金されます。ただし、Basic プランに変更した場合は、この限りではありません。"
+"14 days after the subscription, you will be charged unless you switch to "
+"Basic plan. The first charge is calculated on a daily basis."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:130
 msgid ""
@@ -1946,9 +1945,9 @@ msgstr ""
 #: ../doc/quick_start/monaca_intro.rst:136
 msgid ""
 "Your next charge will be on the first day of the 13th month after your "
-"admission, unless you have switched Basic plan. For example, you subscribe "
-"to the annual plan on July 20th 2016. Then, your next charge will be on "
-"August 1st 2017."
+"admission unless you switch to Basic plan. For example, you subscribe to "
+"annual plan on July 20th, 2016. Then, your next charge will be on August "
+"1st, 2017."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:138
@@ -1957,13 +1956,14 @@ msgstr "アクティベーション コードを利用する場合"
 
 #: ../doc/quick_start/monaca_intro.rst:140
 msgid ""
-"If you want to upgrade plan or extend expiration date, please contact us "
-"with preferred plan name and term of months."
-msgstr "プランのアップグレードまたは使用期限を延長する場合には、ご希望のプラン名と延長期間を、お問い合わせ窓口までご連絡ください。"
+"If you want to upgrade plan or extend the expiration date, please contact us"
+" with preferred plan name and term of months."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:141
-msgid "On expiration date, your plan will be switched to Basic automatically."
-msgstr "使用期限日に、自動的に、Basic プランに移行します。"
+msgid ""
+"On the expiration date, your plan will be switched to Basic automatically."
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:146
 msgid "*Features/Structure of Hybrid Apps*"
@@ -1975,22 +1975,22 @@ msgstr "ハイブリッドアプリの特徴"
 
 #: ../doc/quick_start/monaca_intro.rst:150
 msgid ""
-"The app consists of Web app and native characteristics. (See the picture "
+"The apps consist of the Web and native characteristics. (See the picture "
 "below)"
-msgstr "Web アプリとネイティブの両方の性質を兼ね備えます ( 下の図を参照のこと )。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:151
 msgid ""
 "Regardless of operating systems, it will run on a browser component (cross-"
-"platform support). In other words, hybrid apps can run on iOS, Android and "
+"platform support). In other words, hybrid apps can run on iOS, Android, and "
 "other supported platforms, since it runs on WebView component of those "
 "platforms. Therefore, one source code can run on multiple supported "
 "platforms."
-msgstr "オペレーティングシステムの違いに関わらず、ハイブリッドアプリは、ブラウザーコンポーネント ( クロスプラットフォームをサポート ) 上で動作します。つまり、WebView コンポーネントをサポートしていれば、どのオペレーティングシステム ( iOS・Android・その他 ) でも、ハイブリッドアプリは、動作します。言い換えれば、ソースコードをひとつ組めば、複数のプラットフォームで実行できます。"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:157
-msgid "Differences between Native, Hybrid and Web Apps"
-msgstr "ネイティブ、ハイブリッド、Web アプリの構造の違い"
+msgid "Differences between Native, Hybrid, and Web Apps"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:160
 msgid "Required knowledge for hybrid app development:"
@@ -2001,8 +2001,8 @@ msgid "HTML and CSS for UI (User Interface) design"
 msgstr "HTML・CSS を使用した、ユーザー インターフェイス ( UI ) のデザイン"
 
 #: ../doc/quick_start/monaca_intro.rst:163
-msgid "JavaScript for controlling the app"
-msgstr "JavaScript を使用した各種処理"
+msgid "JavaScript for implementing the app"
+msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:164
 msgid ""
@@ -2017,19 +2017,19 @@ msgid ""
 "run on Windows runtime while Chrome apps run on Chrome runtime."
 msgstr "iOS・Android アプリは、Cordova 上で実行され、端末側のネイティブ機能にアクセスするときは、 `PhoneGap <http://phonegap.com/>`_ ( JavaScript ライブラリー ) を使用します。また、Windows アプリは、Windows ランタイム上で実行され、Chrome アプリは、Chrome ランタイム上で実行されます。"
 
-#: ../doc/quick_start/monaca_intro.rst:174
+#: ../doc/quick_start/monaca_intro.rst:173
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/quick_start/monaca_intro.rst:176
+#: ../doc/quick_start/monaca_intro.rst:175
 msgid ":ref:`monaca_app_index`"
 msgstr ":ref:`monaca_app_index`"
 
-#: ../doc/quick_start/monaca_intro.rst:177
+#: ../doc/quick_start/monaca_intro.rst:176
 msgid ":ref:`Monaca IDE<monaca_ide_index>`"
 msgstr ":ref:`Monaca クラウド IDE<monaca_ide_index>`"
 
-#: ../doc/quick_start/monaca_intro.rst:178
+#: ../doc/quick_start/monaca_intro.rst:177
 msgid ":ref:`monaca_debugger_index`"
 msgstr ":ref:`monaca_debugger_index`"
 
