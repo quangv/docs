@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 03:43+0000\n"
+"PO-Revision-Date: 2016-09-20 03:07+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgid ""
 "If they are InMobi, mediba (Japanese) or nend (Japanese), you can display "
 "the ads in apps created by Monaca. In regard to nend, please refer to "
 ":doc:`../sampleapp/tips/external_services/nend_ad`."
-msgstr ""
+msgstr "InMobi、mediba ( 日本の会社 )、nend ( 日本の会社 ) であれば、Monaca で作成したアプリ内に、広告を載せることができます。nend に関しては、 :doc:`../sampleapp/tips/external_services/nend_ad` をご確認ください。"
 
 #: ../doc/faq/application.rst:16
 msgid ""
@@ -427,11 +427,11 @@ msgstr "App Store への申請方法を、次に記します ( iTunes Connect �
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr ""
+msgstr ":ref:`Monaca 提供のアップロード機能 <upload_via_ide>` を使用する場合 ( `対応する料金プラン <https://monaca.io/pricing.html>`_ への加入が必要です )"
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
-msgstr ""
+msgstr "Application Loader ソフトウェアを使用する場合 ( Application Loader は、Mac OS X 専用のソフトウェアです )"
 
 #: ../doc/faq/build.rst:71
 msgid ""
@@ -540,7 +540,7 @@ msgstr "スプラッシュ画面に使用している画像が適当か確認し
 msgid ""
 "There may be a description error in the :file:`MonacaApp-Info.plist` in case"
 " of iOS or :file:`AndroidManifest.xml` in case of Android."
-msgstr ""
+msgstr ":file:`MonacaApp-Info.plist` ( iOS の場合 )、または、:file:`AndroidManifest.xml` ( Android の場合 ) 内の記述が適当か確認してください。"
 
 #: ../doc/faq/build.rst:121
 msgid ""
@@ -1002,7 +1002,7 @@ msgid ""
 "library for accessing unique features of mobile devices. Through Cordova, "
 "your app can access unique features of mobile device using JavaScript, so it"
 " is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr ""
+msgstr "Monaca では、`Apache Cordova <http://cordova.apache.org//>`_ を活用しています ( 携帯端末搭載の機能にアクセスするときに、ライブラリーとして、Cordova を使用します )。これにより、JavaScript を使用して、Cordova 経由で、携帯端末の機能にアクセスできるようになりました。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を使用しなくても、スマートフォン上で動作するアプリを開発できるようになりました。"
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1484,7 +1484,7 @@ msgstr "`Monaca <https://ja.monaca.io/>`_ にログインします。"
 
 #: ../doc/faq/subscription.rst:10
 msgid "Go to `Pricing page <https://monaca.mobi/en/pricing?type=1>`_."
-msgstr ""
+msgstr "`Pricing page <https://monaca.mobi/ja/pricing?type=1>`_ の画面を表示します。"
 
 #: ../doc/faq/subscription.rst:11
 msgid ""

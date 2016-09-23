@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-16 09:19+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-21 01:58+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3636,7 +3636,7 @@ msgid ""
 "You can also use Chrome App Launcher to access all of your Chrome Apps right"
 " from your desktop. You can install Chrome App Launcher from `Chrome Web "
 "Store <https://chrome.google.com/webstore>`_."
-msgstr ""
+msgstr "デスクトップ上からアプリを起動する場合には、Chrome 向けのアプリランチャーを使用することもできます。アプリランチャーは、`Chrome ウェブストア <https://chrome.google.com/webstore>`_ から入手できます。"
 
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:55
 msgid ""
@@ -6504,7 +6504,7 @@ msgstr ":ref:`monaca_transpile`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:18
 msgid "Transpiles project source code."
-msgstr ""
+msgstr "ソースコードを自動的に変換 ( トランスパイル/Transpile ) します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:19
 msgid ":ref:`monaca_debug`"
@@ -6871,7 +6871,7 @@ msgstr "プロジェクトフォルダーに移動して、次のコマンドを
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:239
 msgid "monaca transpile"
-msgstr ""
+msgstr "monaca transpile"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:241
 msgid ""
@@ -10702,7 +10702,7 @@ msgstr "``android``: Android 向けのオプション設定 ( デプロイサー
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
-msgstr ""
+msgstr "サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`supported_services` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:42
 msgid "Here is an example of a recipe script."
@@ -10731,31 +10731,31 @@ msgid ""
 "your project code to  GitHub,  GitHub will send a HTTP POST payload to "
 "Monaca server. If the received information meets the Monaca CI "
 "configuration, the automation will begin."
-msgstr ""
+msgstr "Monaca CI ( Continuous Integration/継続的インテグレーション ) は、Monaca の開発環境に新しく組み込まれた、CI を実現するためのサービスです。このサービスを使用すると、プロジェクトのビルド処理の自動化、検証版アプリの配信/配布処理の自動化を行えるため、開発を大幅に効率化できます。自動化処理の基礎には、Webhook を使用しています。Webhook を使用することにより、GitHub または Git 系のサービスと容易に連携することができます ( Webhook 経由で、コードのコミット、ブランチ/タグの作成など、特定のイベントを処理できます )。Monaca CI の処理を、ここで簡単に解説します。最初に、ユーザーがプロジェクトを GitHub にプッシュすると、GitHub 側から Monaca サーバー側へ HTTP POST リクエストが発行されます。このリクエスト内容が Monaca CI 側で保持している設定と一致する場合には、前述の処理 ( ビルド処理など ) が実行されます。"
 
 #: ../doc/manual/monaca_ci/overview.rst:13
 msgid ""
 "Therefore, Monaca CI lets developers focus more on the code and less on the "
 "backend process of building, testing and deploying an app."
-msgstr "Monaca CI を使用することにより、ビルド処理、検証処理、配信/配布処理をはじめとするバックエンドの処理から、開発者は解放され、アプリの内容・性能により注力できるようになります。"
+msgstr "Monaca CI を使用することにより、ビルド処理、検証処理、配信/配布処理をはじめとするバックエンドの処理から開発者は解放され、アプリの内容・性能に注力して、開発が行えるようになります。"
 
 #: ../doc/manual/monaca_ci/overview.rst:18
 msgid ""
 "In order to use Monaca CI, you will need to integrate  GitHub with your "
 "Monaca account. If you haven't done it, please follow the instruction below:"
-msgstr ""
+msgstr "Monaca CI を使用する前に、Monaca アカウントと GitHub を連携させる必要があります。連携手順は、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/overview.rst:20
 msgid ""
 "Link your Monaca account to  GitHub. Please refer to :ref:` "
 "GitHub_integration`."
-msgstr ""
+msgstr "Monaca アカウントと GitHub を連携させます。詳細は、:ref:`github_integration` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/overview.rst:21
 msgid ""
 "Connect your project to your  GitHub repository. Please refer to "
 ":ref:`version_control_configuration`."
-msgstr ""
+msgstr "GitHub レポジトリとプロジェクトを接続させます。詳細は、:ref:`version_control_configuration` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/overview.rst:23
 msgid "In order to use Monaca CI, Cordova 6.2 or higher is required."
@@ -10769,7 +10769,7 @@ msgstr "Monaca CI の使用方法"
 msgid ""
 "Assuming you have successfully linked a  GitHub repository to your project, "
 "you are now ready to enable Monaca CI. Please do as follows:"
-msgstr ""
+msgstr "次の手順に従い、Monaca CI を使用します。GitHub レポジトリとプロジェクトとの接続が完了していることを前提に、ここでは解説をします"
 
 #: ../doc/manual/monaca_ci/overview.rst:31
 msgid ""
@@ -10787,7 +10787,7 @@ msgid ""
 "branch/tag as configured using regular expression inside the script. Once "
 "the build process is completed, you can find these built files under Build "
 "History panel (:menuselection:`Build --> Build History`)."
-msgstr ""
+msgstr "[ JSON 設定 ] 項目では、次のような設定がデフォルトで記述されています ( 詳細は、:ref:`JSON script <monaca_ci_json>` を参照のこと )。これらのパラメーターを使用して、Monaca CI の挙動を設定します。次の設定を使用すると、Monaca CI は、指定した GitHub ブランチ/タグ へプロジェクトコードをプッシュするたびに、デバッグビルドとリリースビルド版の iOS アプリをビルドするように、Monaca サーバー側へ命令します。ビルド完了後は、[ ビルド一覧 ] パネル上で、ビルド済みのファイルをダウンロードすることができます ( :menuselection:`ビルド --> ビルド結果一覧` )。"
 
 #: ../doc/manual/monaca_ci/overview.rst:53
 msgid ""
@@ -10838,7 +10838,7 @@ msgid ""
 "Then, distribute the built files to ``Deploy Gate`` service which has a "
 "release note and disable the email notification for iOS devices. Therefore, "
 "your JSON script should look like this:"
-msgstr ""
+msgstr "[ JSON 設定 ] 内に、デプロイサービス側の設定を追記します。次の JSON の記述では、GitHub のブランチ 「 ``\"release\"`` 」 にプロジェクトをプッシュして、デバッグビルド版の iOS と Android アプリをビルドします。そして、ビルドしたアプリの配信/配布には、``DeployGate`` サービスを使用します。付随するオプション設定 ( DeployGate サービス側で提供しているオプション機能 ) も行います。ここでは、リリースノートの作成を行い、email でのリリース通知 ( iOS 端末専用のオプション ) を無効にしています。"
 
 #: ../doc/manual/monaca_ci/overview.rst:117
 msgid "Once you are done with the configuration, click :guilabel:`Save`."
@@ -10886,7 +10886,7 @@ msgid ""
 "development iOS and Android apps, allowing developers to seamlessly progress"
 " through the prototyping, development, testing, and marketing stages of app "
 "distribution."
-msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) におけるアプリの配信作業を、滞りなく行うことができます。"
+msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) におけるアプリの配信作業を、滞りなく行えます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:16
 msgid ""
@@ -10942,7 +10942,7 @@ msgstr "``distribution_key``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:29
 msgid "[Optional] Target Distribution Key"
-msgstr ""
+msgstr "[ 任意 ] 「 配布キー 」 ( Distribution Key ) を設定します。配布キーとは、「 配布ページ 」 を指し示す URL 内の hash 値です ( たとえば、https://deploygate.com/distributions/[ 配布キー ] )。また、配布ページとは、配布対象者向けに作成された、アプリのダウンロード用のページです。配布ページの作成は、deploygate サイト上から行えます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 msgid "``release_note``"
@@ -11012,7 +11012,7 @@ msgid ""
 "``mapping.txt`` (Android). Please note that the extension has to be "
 "``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to "
 "be ``mapping.txt`` for Android."
-msgstr ""
+msgstr "[ 任意 ] ``.dSYM.zip`` ファイル ( iOS・OS X の場合 ) または ``mapping.txt`` ( Android の場合 ) を指定します。iOS・OS X の場合、拡張子は ``.dsym.zip`` となります ( 大文字・小文字を区別します )。Andorid の場合には、ファイル名は ``mapping.txt`` となります。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:59
 msgid "``notes``"
@@ -11046,7 +11046,7 @@ msgstr "``notify``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:67
 msgid "[Optional] notify testers (can only be set with full-access tokens):"
-msgstr ""
+msgstr "[ 任意 ] テスターへ通知します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの [ API Token ] 項目をご確認ください。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:69
 msgid "``0`` to not notify testers"
@@ -11066,7 +11066,7 @@ msgstr "``status``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:73
 msgid "[Optional] download status (can only be set with full-access tokens):"
-msgstr ""
+msgstr "[ 任意 ] ダウンロードに関するパーミッションを設定します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの API 解説 「 API: Basics and Authentication 」 をご確認ください。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:75
 msgid "``1`` to not allow users to download the version"

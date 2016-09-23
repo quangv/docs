@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-16 09:38+0000\n"
+"PO-Revision-Date: 2016-09-21 01:58+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1128,7 +1128,7 @@ msgid ""
 "URL, uploading the project package or selecting your existing  GitHub "
 "repository. Please refer to :ref:`version_control` on how to set up  GitHub "
 "integration with Monaca."
-msgstr ""
+msgstr ":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca プロジェクトを作成できます。一方、:guilabel:`Import Project` では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub の連携方法は、:ref:`version_control` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:40
 msgid "Create Project Dialog"
@@ -1206,7 +1206,7 @@ msgid ""
 "Preview window. Feel free to edit the project as you wish. For more detailed"
 " explanation about this template, please refer to :ref:`Explanation about "
 "jQuery TODO App <todo>`."
-msgstr ""
+msgstr "ファイルの編集後、変更を保存します。次に、プレビューウィンドウ上で、変更点が反映されていることを確認してみましょう。他の箇所も変更して、プレビュー上で確認してみましょう。今回使用したテンプレートの詳細は、:ref:`TODO 管理アプリの解説 ( jQuery 使用 ) <todo>` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:104
 msgid ""
@@ -1697,7 +1697,7 @@ msgid ""
 "provided by Asial Corporation. Monaca does not only provide you with a "
 "development environment at your fingertips but also allows anyone to be able"
 " to develop smartphone applications easier."
-msgstr ""
+msgstr "Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発環境の呼称です。Monaca では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発環境に加え、各種ツール・サポートを提供しています。"
 
 #: ../doc/quick_start/monaca_intro.rst:18
 msgid ""
@@ -1708,7 +1708,7 @@ msgid ""
 "agnostic and adaptive, ready to be immediately plugged into your existing "
 "workflow and development environment, creating the most open Cordova "
 "platform available."
-msgstr ""
+msgstr "Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` 技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツール・サービスを提供しています。これにより、「 :ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca が提供する開発ツール群は、特定のフレームワークには依存していないため、柔軟性があり、現在の開発工程・開発環境にも、スムーズに導入できます。また、Cordova プラグインの組み込みも簡単に行えます。"
 
 #: ../doc/quick_start/monaca_intro.rst:23
 msgid "Why using Monaca?"
@@ -1773,7 +1773,7 @@ msgid ""
 "Cordova plugins nor native functions in Live Preview. Therefore, the app "
 "required those plugins and functions can't be previewed properly. :ref:`Read"
 " more <monaca_ide_index>`."
-msgstr ""
+msgstr "Monaca クラウド IDE は、ブラウザー上で動作する開発環境です。モバイルアプリ開発工程のほとんどを、Web ブラウザー上で行え、手間のかかる設定も必要ありません。また、:ref:`monaca_debugger_intro` とライブプレビュー ( Monaca クラウド IDE に実装されている機能 ) を併用して、開発中でも、アプリの動作検証を行えます。なお、ライブプレビュー機能では、Cordova プラグインまたはネイティブのプラグインをサポートしていないため ( 正しくプレビューできません )、検証・デバッグ時には、Monaca デバッガーも併用することを推奨します。:ref:`詳細はこちら。 <monaca_ide_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:49
 msgid "Overview of Monaca Cloud IDE"
@@ -1788,7 +1788,7 @@ msgid ""
 " with the versatile development support capabilities of Monaca. With Monaca "
 "Localkit, Monaca users are able to setup their preferred development "
 "environment on local PC. :ref:`Read more <monaca_localkit_index>`."
-msgstr ""
+msgstr "Monaca Localkit は、Monaca と連携して使用できる、ローカル環境用の開発ツールです。使い慣れたアプリ開発環境・ツール ( 各種エディター、バージョン管理システムなど ) と併用でき、よりセキュアで、ストレスフリーな開発を行えます。また、Monaca と連携することで、Monaca に実装されている、多様な開発サポート機能も活用できます。また、Monaca Localkit を使用すれば、ローカル PC　( Windows/Mac ) 上で、お好みの開発環境を使用して、開発を行えます。:ref:`詳細はこちら。 <monaca_localkit_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:61
 msgid "Overview of Monaca Localkit"
@@ -1804,7 +1804,7 @@ msgid ""
 "the debugger connection, inspector integration, project creation and remote "
 "building. You can also import projects that exist in the cloud when you want"
 " to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
-msgstr ""
+msgstr "Monaca CLI は、コマンドライン形式のインターフェイスです。CLI を介して、Monaca がクラウドで提供しているサービスを利用できます。CLI を使用して、たとえば、デバッガーとの接続、インスペクタとの連携、プロジェクトの作成、プロジェクトのリモートビルドなど、多岐にわたる処理を行えます。また、クラウド上に保存されているプロジェクトをローカルにインポートできます。このインポート機能は、クラウドからローカルへ環境を切り替える場合に有用です。 :ref:`詳細はこちら <monaca_cli_index>`。"
 
 #: ../doc/quick_start/monaca_intro.rst:69
 msgid "Monaca for Visual Studio"
@@ -1831,7 +1831,7 @@ msgid ""
 " needs to be installed on your mobile devices. The app will automatically "
 "sync all your development projects and run them without the build process. "
 ":ref:`Read more <monaca_debugger_index>`."
-msgstr ""
+msgstr "上述のような多様な開発環境の提供に加えて、Monaca では、Monaca デバッガーを提供しています。Monaca デバッガーは、デバッグ用のアプリであり、このアプリを使用してデバッグを行えば、デバッグ効率を大幅に向上できます。このアプリでは、他の環境で開発中のプロジェクトと自動で同期が行われるので、プロジェクトの更新のたびにビルドをせずとも、コーディング中のアプリを端末上で実行できます ( よって、Monaca デバッガーでは、開発中のアプリの動作を端末上で、リアルタイムに検証できます )。他のアプリ同様、Monaca デバッガーアプリも端末にインストールして使用します。:ref:`詳細はこちら。 <monaca_debugger_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:90
 msgid "Monaca Debugger App"
@@ -1902,7 +1902,7 @@ msgid ""
 "has a basic plan. You can upgrade it later when you want. For detailed "
 "information of Monaca account types and theirs usages, please refer to "
 "`Monaca Pricing <https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:125
 msgid "Monthly Plans:"
@@ -1916,13 +1916,13 @@ msgstr "14 日間の無料トライアルがあります。"
 msgid ""
 "You can switch to another monthly plan in the trial period for free. But the"
 " trial period will not be extended."
-msgstr ""
+msgstr "無料トライアル期間中であれば、どの月額プランにでも変更できますが、トライアル期間は、変更の都度、延長しません。"
 
 #: ../doc/quick_start/monaca_intro.rst:129
 msgid ""
 "14 days after the subscription, you will be charged unless you switch to "
 "Basic plan. The first charge is calculated on a daily basis."
-msgstr ""
+msgstr "トライアル期間の終了後に、課金が開始されます。トライアル後は、ご利用日数に応じて、月末まで、日割で課金されます。ただし、Basic プランに変更した場合は、この限りではありません。"
 
 #: ../doc/quick_start/monaca_intro.rst:130
 msgid ""
@@ -1940,7 +1940,7 @@ msgstr "年額料金プランには、無料トライアル期間はございま
 
 #: ../doc/quick_start/monaca_intro.rst:135
 msgid "You will be charged annual price when starting the subscription."
-msgstr ""
+msgstr "ご登録後、直ちに年額をご請求します。"
 
 #: ../doc/quick_start/monaca_intro.rst:136
 msgid ""
@@ -1948,7 +1948,7 @@ msgid ""
 "admission unless you switch to Basic plan. For example, you subscribe to "
 "annual plan on July 20th, 2016. Then, your next charge will be on August "
 "1st, 2017."
-msgstr ""
+msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
 
 #: ../doc/quick_start/monaca_intro.rst:138
 msgid "If you use Activation Code:"
@@ -1958,12 +1958,12 @@ msgstr "アクティベーション コードを利用する場合"
 msgid ""
 "If you want to upgrade plan or extend the expiration date, please contact us"
 " with preferred plan name and term of months."
-msgstr ""
+msgstr "プランのアップグレードまたは使用期限を延長する場合には、ご希望のプラン名と延長期間を、お問い合わせ窓口までご連絡ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:141
 msgid ""
 "On the expiration date, your plan will be switched to Basic automatically."
-msgstr ""
+msgstr "使用期限日に、自動的に、Basic プランに移行します。"
 
 #: ../doc/quick_start/monaca_intro.rst:146
 msgid "*Features/Structure of Hybrid Apps*"
@@ -1977,7 +1977,7 @@ msgstr "ハイブリッドアプリの特徴"
 msgid ""
 "The apps consist of the Web and native characteristics. (See the picture "
 "below)"
-msgstr ""
+msgstr "Web アプリとネイティブの両方の性質を兼ね備えます ( 下の図を参照のこと )。"
 
 #: ../doc/quick_start/monaca_intro.rst:151
 msgid ""
@@ -1986,11 +1986,11 @@ msgid ""
 "other supported platforms, since it runs on WebView component of those "
 "platforms. Therefore, one source code can run on multiple supported "
 "platforms."
-msgstr ""
+msgstr "オペレーティングシステムの違いに関わらず、ハイブリッドアプリは、ブラウザーコンポーネント ( クロスプラットフォームをサポート ) 上で動作します。つまり、WebView コンポーネントをサポートしていれば、どのオペレーティングシステム ( iOS・Android・その他 ) でも、ハイブリッドアプリは、動作します。言い換えれば、ソースコードをひとつ組めば、複数のプラットフォームで実行できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:157
 msgid "Differences between Native, Hybrid, and Web Apps"
-msgstr ""
+msgstr "ネイティブ、ハイブリッド、Web アプリの構造の違い"
 
 #: ../doc/quick_start/monaca_intro.rst:160
 msgid "Required knowledge for hybrid app development:"
@@ -2002,7 +2002,7 @@ msgstr "HTML・CSS を使用した、ユーザー インターフェイス ( UI 
 
 #: ../doc/quick_start/monaca_intro.rst:163
 msgid "JavaScript for implementing the app"
-msgstr ""
+msgstr "アプリ上の処理を行う JavaScript"
 
 #: ../doc/quick_start/monaca_intro.rst:164
 msgid ""

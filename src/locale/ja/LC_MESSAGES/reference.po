@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-16 08:15+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-21 01:58+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19928,7 +19928,7 @@ msgstr "**chunkedMode**"
 msgid ""
 "Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
 "(Boolean)"
-msgstr ""
+msgstr "チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かの設定。デフォルトは、``true`` です。 (Boolean)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid "**headers**"
@@ -21040,7 +21040,7 @@ msgstr "この設定は、プラグインではなく、``window.open()`` の呼
 
 #: ../doc/reference/index.rst:2
 msgid "API"
-msgstr ""
+msgstr "各種 API"
 
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"
@@ -24933,7 +24933,7 @@ msgstr "Monaca API を有効化して、アクセスするためには、.html �
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:5
 msgid "Monaca Cloud & Remote Build API Guide"
-msgstr ""
+msgstr "Monaca クラウド & リモートビルド API "
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:7
 msgid ""
@@ -24952,7 +24952,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:12
 msgid "Integrating Monaca Cloud & Remote Build API"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 の組み込み方法"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:14
 msgid ""
@@ -24963,7 +24963,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:16
 msgid "Install ``monaca-lib``."
-msgstr ""
+msgstr "``monaca-lib`` をインストールします。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:22
 msgid "Call this module in your js file:"
@@ -24977,7 +24977,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca Cloud & Remote Build API Usage"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 の使用方法"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:46
 msgid ""
@@ -24986,7 +24986,7 @@ msgstr ""
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:48
 msgid "Sign in / sign out to/from Monaca."
-msgstr ""
+msgstr "Monaca へのサインイン、Monaca からのサインアウト"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:49
 msgid "Creating a new project."
@@ -24994,21 +24994,21 @@ msgstr "プロジェクトの新規作成"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:50
 msgid "Compile and build the project."
-msgstr ""
+msgstr "プロジェクトのコンパイルとビルド"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:51
 msgid "Sync with Monaca Cloud project."
-msgstr ""
+msgstr "Monaca クラウド側のプロジェクトとの同期"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:52
 msgid "Transpile local project."
-msgstr ""
+msgstr "ローカルプロジェクトの変換処理 ( トランスパイル/Transpile )"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:55
 msgid ""
 "Please refer to ``src/monaca.js`` file in the ``monaca-lib`` regarding the "
 "list of all availabe APIs and their usage."
-msgstr ""
+msgstr "機能の詳細 ( 各 API の詳細 ) は、``monaca-lib/src/monaca.js`` ファイル内をご確認ください。"
 
 #: ../doc/reference/monaca_api/utility-34.rst:3
 msgid "Utilities"
@@ -25210,7 +25210,7 @@ msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`ファイ�
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr ""
+msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プロジェクトへ追加します。"
 
 #: ../doc/reference/power_plugins/html5_resource_encryption.rst:39
 msgid ""
@@ -25527,13 +25527,13 @@ msgstr "「 2.8 Apps that install or launch other executable code will be reject
 
 #: ../doc/reference/power_plugins/index.rst:5
 msgid "Monaca Power Plugins"
-msgstr ""
+msgstr "他のプラグイン ( Monaca 提供のプラグイン )"
 
 #: ../doc/reference/power_plugins/index.rst:7
 msgid ""
 "With Monaca Power Plugins, we deliver developers the ability to secure their"
 " work with the latest security technologies."
-msgstr ""
+msgstr "Monaca では、セキュリティー系のプラグインを含む、便利なプラグインを複数提供しています。セキュリティー系のプラグインを使用すれば、最先端のセキュリティー技術を、簡単にアプリに実装させることができます。"
 
 #: ../doc/reference/power_plugins/index.rst:9
 msgid ""
@@ -26094,7 +26094,7 @@ msgstr "BarcodeScanner プラグイン"
 msgid ""
 "From the IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or"
 " :menuselection:`Config --> Manage Cordova Plugins`."
-msgstr ""
+msgstr "IDE メニュー上で、 :menuselection:`ファイル > Cordova プラグインの管理` または :menuselection:`設定 > Cordova プラグインの管理` を選択します。"
 
 #: ../doc/reference/third_party_phonegap/barcode_scanner.rst:13
 msgid ""
@@ -26183,7 +26183,7 @@ msgstr "platform 要素のブロック内に置かれている preference は、
 msgid ""
 "Platform-specific preferences must be prefixed with the platform name (e.g. "
 "name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
-msgstr ""
+msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` 要素 ( 例 : name=\"ios-somepref\" ) のブロック内に置きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:53
 msgid "Config Blocks"
@@ -26236,7 +26236,7 @@ msgstr "同一の target と parent 属性が設定された config-file が複�
 msgid ""
 "Elements defined within a config-file will replace or be appended to the "
 "same elements relative to the parent element."
-msgstr ""
+msgstr "config-file 内に定義された要素 ( ファイル、適用する箇所、適用する内容 ) を使用して、適用先ファイルの内容が上書きされます ( または、指定された内容が追加されます )。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:65
 msgid ""
