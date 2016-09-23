@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-21 01:58+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-23 09:54+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6504,7 +6504,7 @@ msgstr ":ref:`monaca_transpile`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:18
 msgid "Transpiles project source code."
-msgstr "ソースコードを自動的に変換 ( トランスパイル/Transpile ) します。"
+msgstr "ソースコードをコード変換 ( トランスパイル/Transpile ) します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:19
 msgid ":ref:`monaca_debug`"
@@ -6528,7 +6528,7 @@ msgstr ":ref:`monaca_reconfigure`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid "Generates default project configurations."
-msgstr ""
+msgstr "設定ファイルを再作成/復旧します ( コマンドの 「 オプション 」 欄に記載されているファイルが対象です。該当するファイルが存在しない場合のみ、有効なコマンドです )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:22
 msgid ":ref:`monaca_remote_build`"
@@ -6614,7 +6614,7 @@ msgid ""
 "to choose a project template from a list of available templates provided by "
 "Monaca Cloud. The selected template will be created at the specified "
 "location."
-msgstr ""
+msgstr "指定してパス ( ローカル ) 上に、Monaca プラジェクトを新規に作成します。Monaca クラウドが提供しているテンプレートの中から、使用するテンプレートを選択します。指定された保存場所に、選択されたテンプレートが置かれます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:60
 msgid ":dfn:`$ monaca create path`"
@@ -6651,7 +6651,7 @@ msgid ""
 "location. You will be asked to select a project from a list of all your "
 "existing projects in Monaca Cloud and specify a location for the downloaded "
 "project."
-msgstr ""
+msgstr "Monaca クラウド上に置かれているプロジェクトを、ローカルへクローン ( Clone ) します。Monaca クラウド上に置かれているプロジェクトの一覧が表示されるので、プロジェクトを選択し、次に、保存先を指定します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:86
 msgid ""
@@ -6680,7 +6680,7 @@ msgid ""
 "Imports a project from Monaca Cloud. You will be asked to select a project "
 "from a list of all your existing projects in Monaca Cloud and specify a "
 "location for the downloaded project."
-msgstr ""
+msgstr "Monaca クラウド上に置かれているプロジェクトをインポート ( Import ) します。Monaca クラウド上に置かれているプロジェクトの一覧が表示されるので、プロジェクトを選択し、次に、保存先を指定します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:113
 msgid ""
@@ -6711,26 +6711,26 @@ msgid ""
 " compared with the corresponding remote files so that only the new and "
 "changed ones will be uploaded. The uploading process will be done in one of "
 "the following ways:"
-msgstr ""
+msgstr "ローカルのプロジェクトを Monaca クラウドへアップロードします ( プロジェクトが置かれたディレクトリーのルートへ移動して、コマンドを実行します )。ローカルとクラウド間 ( 既存のファイルがクラウド上にあれば ) のファイルは比較され、新規ファイルまたは更新ファイルがあれば、そのファイルのみアップロードされます。アップロード処理は、プロジェクトの種類により異なりますので、その詳細を、次に記します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:139
 msgid ""
 "If the current project is a new/imported project, this command will upload "
 "the whole project as a new project in Monaca Cloud."
-msgstr ""
+msgstr "アップロード対象のプロジェクトが 「 新規プロジェクト」 または 「 インポートしたプロジェクト 」 ( 上記コマンド ) の場合、新規のプロジェクトとして、関連するファイルのすべてが Monaca クラウドへアップロードされます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:140
 msgid ""
 "If the current project is a cloned project, this command will overwrite the "
 "same existing project in Monaca Cloud. In other words, only changed and new "
 "files will be uploaded."
-msgstr ""
+msgstr "アップロード対象のプロジェクトが 「 クローンしたプロジェクト 」 ( 上記コマンド ) の場合、Monaca クラウド上に置かれている、クローン元のプロジェクトが上書きされます ( 新規ファイルまたは更新ファイルのみ、アップロードされます )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:142
 msgid ""
 "For ReactJS and Angular2 projects, ``monaca upload`` command will transpile "
 "the project before uploading them."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca upload`` コマンドの実行時、アップロード処理が始まる前に、プロジェクトがコード変換 ( トランスパイル/Transpile ) されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:145
 msgid ":dfn:`$ monaca upload [options]`"
@@ -6879,7 +6879,7 @@ msgid ""
 "projects. For transpilable projects, the transpiling process is "
 "automatically included in some commands such as ``monaca upload``, ``monaca "
 "preview``, ``monaca debug`` and ``monaca remote build``."
-msgstr ""
+msgstr "プロジェクトをコード変換 ( トランスパイル/Transpile ) します。コード変換可能なプロジェクトには、たとえば、ReactJS プロジェクト、Angular2 プロジェクトなどがあります。コード変換可能なプロジェクトに関しては、各種コマンド ( ``monaca upload``、``monaca preview``、``monaca debug``、``monaca remote build`` ) の実行時に、自動でコード変換されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:243
 msgid ":dfn:`$ monaca transpile [options]`"
@@ -6901,7 +6901,7 @@ msgstr "``--generate-config``"
 msgid ""
 "Creates transpile configuration files for transpilable projects, in case "
 "they are missing."
-msgstr ""
+msgstr "コード変換用の設定ファイルが存在しない場合、これらのファイルを作成します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "``--install-dependencies``"
@@ -6909,13 +6909,13 @@ msgstr "``--install-dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "Installs the missing dependencies needed for transpiling."
-msgstr ""
+msgstr "依存関係のある、コード変換に必要なパッケージをインストールします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:252
 msgid ""
 "Navigate to your transpilable project folder and use ``monaca transpile`` "
 "command. Then, the transpiling will begin."
-msgstr ""
+msgstr "対象のプロジェクトフォルダーへ移動して、``monaca transpile`` コマンドを実行します ( コード変換が可能なプロジェクトであること )。実行後、コード変換が実行されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:271
 msgid "monaca preview"
@@ -6934,7 +6934,7 @@ msgid ""
 " the project in memory before launching the previewer. Additionally, if the "
 "preview is still running and you make a change, the transpile process should"
 " be triggered and the previewer will be served with the new files."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca preview`` コマンドの実行時、プレビュー画面の起動前に、メモリー上でプロジェクトがコード変換されます。また、プレビュー画面を起動させた状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がプレビュー画面上に反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:277
 msgid ":dfn:`$ monaca preview [options]`"
@@ -6989,7 +6989,7 @@ msgid ""
 "the project before serving the files to Monaca Debugger. Additionally, if "
 "the debug is still running and you make a change, the transpile process "
 "should be triggered and the debugger will be served with the new files."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca debug`` コマンドの実行時、Monaca デバッガーへプロジェクトファイルが送信される前に、プロジェクトがコード変換されます。また、デバッガーを実行している状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がデバッガー上に反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:315
 msgid ":dfn:`$ monaca debug [options]`"
@@ -7047,7 +7047,7 @@ msgstr "monaca reconfigure"
 msgid ""
 "Generates default project configurations and files. Running it without "
 "arguments will generate everything."
-msgstr ""
+msgstr "設定ファイルを復旧します。オプションを指定しない場合、該当するファイルのすべてを復旧 ( 再作成 ) します。該当するファイルに関しては、下の 「 オプション 」 欄をご確認ください。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:364
 msgid ":dfn:`$ monaca reconfigure [options]`"
@@ -7059,7 +7059,7 @@ msgstr "``--transpile``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:368
 msgid "Generates transpile configuration files (for both dev and prod)."
-msgstr ""
+msgstr "コード変換用の設定ファイルを再作成/復旧します ( webpack.dev.config ファイルと webpack.prod.config ファイルが対象 )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "``--dependencies``"
@@ -7067,7 +7067,7 @@ msgstr "``--dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "Installs required build dependencies."
-msgstr ""
+msgstr "依存関係のあるパッケージをインストールします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "``--components``"
@@ -7075,13 +7075,13 @@ msgstr "``--components``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "Generates ``components`` folder."
-msgstr ""
+msgstr "``components`` フォルダーを再作成/復旧します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:374
 msgid ""
 "Navigate to your transpilable project folder and try ``monaca reconfigure`` "
 "command with various parameters."
-msgstr ""
+msgstr "対象のプロジェクトフォルダーへ移動し、オプションを組み合わせて、``monaca reconfigure`` コマンドを実行してみましょう ( 対象のプロジェクトは、コード変換が可能なプロジェクトであること )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid "monaca remote build"
@@ -7240,7 +7240,7 @@ msgstr "Monaca CLI を使用して、Monaca クラウドからログアウトす
 
 #: ../doc/manual/development/monaca_cli/index.rst:5
 msgid "Getting Started with Monaca CLI"
-msgstr "Monaca CLI"
+msgstr ""
 
 #: ../doc/manual/development/monaca_cli/overview.rst:5
 msgid "Monaca CLI Overview"
@@ -7266,7 +7266,7 @@ msgstr "インスペクタを使用した、アプリのデバッグ"
 msgid ""
 "Support transpiler options for transpilable projects such as ReactJS and "
 "Angular2 projects."
-msgstr ""
+msgstr "プロジェクトのコード変換 ( トランスパイル/Transpile )。コード変換の対象となるプロジェクトは、ReactJS プロジェクト、Angular2 プロジェクトなどです。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:13
 msgid "Remote build your projects without any setups locally."
@@ -7284,7 +7284,7 @@ msgstr "ステップ 1 : インストール"
 msgid ""
 "You are required to have `Node.js <https://nodejs.org/>`_ installed on your "
 "PC in order to install Monaca CLI."
-msgstr ""
+msgstr "Monaca CLI のご利用には、`Node.js <https://nodejs.org/>`_ が必要です ( 事前に、PC にインストールされていること )。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:26
 msgid "Use the following command to install Monaca CLI:"
@@ -7914,7 +7914,7 @@ msgstr ":ref:`emmet`"
 
 #: ../doc/manual/development/monaca_ide/index.rst:5
 msgid "Getting Started with Monaca Cloud IDE"
-msgstr "Monaca クラウド IDE"
+msgstr ""
 
 #: ../doc/manual/development/monaca_ide/index.rst:11
 msgid ""
@@ -9764,7 +9764,7 @@ msgstr ":doc:`troubleshooting`"
 
 #: ../doc/manual/development/monaca_localkit/index.rst:5
 msgid "Getting Started with Monaca Localkit"
-msgstr "Monaca Localkit"
+msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:5
 msgid "Monaca Localkit Overview"
@@ -10248,7 +10248,7 @@ msgstr ":doc:`../../../quick_start/monaca_vs/index`"
 
 #: ../doc/manual/development/monaca_vs/index.rst:4
 msgid "Getting Started with Monaca for Visual Studio"
-msgstr "Monaca for Visual Studio の概要"
+msgstr ""
 
 #: ../doc/manual/development/monaca_vs/overview.rst:3
 msgid "Monaca for Visual Studio Overview"

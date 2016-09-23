@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-21 01:58+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-09-23 09:54+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21040,7 +21040,7 @@ msgstr "この設定は、プラグインではなく、``window.open()`` の呼
 
 #: ../doc/reference/index.rst:2
 msgid "API"
-msgstr "各種 API"
+msgstr ""
 
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"
@@ -24942,13 +24942,13 @@ msgid ""
 "able to use cloud services and remote build functions as if you are using "
 ":ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI "
 "<monaca_cli_index>`."
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 を組み込めば、Cordova アプリのビルド処理を始め、Monaca クラウドが提供する各種 Web サービスを使用することができます。:ref:`Monaca クラウド IDE <monaca_ide_index>` と :ref:`Monaca CLI <monaca_cli_index>` でも提供しているサービス・機能が、この API 経由で使用できるようになります。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
 msgid ""
 "In this page, we will talk about how to integrate Monaca Cloud & Remote "
 "Build API with Node.js projects and its usage."
-msgstr ""
+msgstr "ここでは、Node.js を使用したプロジェクトを例として、「 Monaca クラウド & リモートビルド API 」 の組み込み方法と使用方法を解説します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:12
 msgid "Integrating Monaca Cloud & Remote Build API"
@@ -24959,7 +24959,7 @@ msgid ""
 "Monaca Cloud & Remote Build API is wrapped in a npm library called `monaca-"
 "lib <https://github.com/monaca/monaca-lib>`_. In order to use the APIs in "
 "your Node.js project, please do as follows:"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 は、`monaca-lib ( GitHub 上 ) <https://github.com/monaca/monaca-lib>`_ のライブラリー内に置かれている API 群の総称を指します。プロジェクトの中で、この API ( 群 ) を使用する場合、次の手順に従います ( ここでは、Node.js を使用したプロジェクトを例にします )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:16
 msgid "Install ``monaca-lib``."
@@ -24967,13 +24967,13 @@ msgstr "``monaca-lib`` をインストールします。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:22
 msgid "Call this module in your js file:"
-msgstr ""
+msgstr "js ファイル内で、次のようにモジュールを呼び出します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:28
 msgid ""
 "You can now use any Monaca Cloud & Remote Build API in your js file now. For"
 " example:"
-msgstr ""
+msgstr "呼び出し後、次のようにして、「 Monaca クラウド & リモートビルド API 」 を使用できます ( ｊｓ ファイル内 )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca Cloud & Remote Build API Usage"
@@ -24982,7 +24982,7 @@ msgstr "「 Monaca クラウド & リモートビルド API 」 の使用方法"
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:46
 msgid ""
 "The supported features for Monaca Cloud & Remote Build API are as follows:"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 が提供しているサービス・機能の例を、次に記します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:48
 msgid "Sign in / sign out to/from Monaca."
