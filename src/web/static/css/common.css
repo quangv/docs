@@ -962,26 +962,35 @@ header.global {
           visibility: visible;
           opacity: 1; }
 
-html[lang=en] header.global nav > div > ul > li {
+html[lang=en] header.global nav > div > ul > li:nth-child(1) {
   width: 150px; }
 
+html[lang=en] header.global nav > div > ul > li:nth-child(2) {
+  width: 100px; }
+
+html[lang=en] header.global nav > div > ul > li:nth-child(3) {
+  width: 130px; }
+
+html[lang=en] header.global nav > div > ul > li:nth-child(4) {
+  width: 140px; }
+
+html[lang=en] header.global nav > div > ul > li:nth-child(5) {
+  width: 100px; }
+
 html[lang=ja] header.global nav > div > ul > li:nth-child(1) {
-  width: 170px; }
+  width: 150px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(2) {
-  width: 134px; }
+  width: 100px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(3) {
-  width: 103px; }
+  width: 120px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(4) {
-  width: 60px; }
+  width: 150px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(5) {
-  width: 95px; }
-
-html[lang=ja] header.global nav > div > ul > li:nth-child(6) {
-  width: 54px; }
+  width: 100px; }
 
 html[lang=ja] header.global nav > div > ul > li a {
   padding-left: 0px;

@@ -1,10 +1,11 @@
 .. toctree::
   :maxdepth: 2
 
-  products/index
+  products_guide/index
   tutorials/index
   reference/index
   sampleapp/index
+  faq/index
 
 
 

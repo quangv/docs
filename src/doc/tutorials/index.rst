@@ -7,8 +7,8 @@ Tutorials
 	:glob:
 	:maxdepth: 2
 
-  	../quick_start/cloud_ide/index
-  	../quick_start/localkit/index
-  	../quick_start/cli/index
-  	../quick_start/monaca_vs/index
+  	../monaca_ide/tutorial/index
+  	../monaca_localkit/tutorial/index
+  	../monaca_cli/tutorial/index
+  	../monaca_vs/tutorial/index
 

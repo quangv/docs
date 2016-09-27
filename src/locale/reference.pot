@@ -13153,6 +13153,7 @@ msgstr ""
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:61
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:141
 #: ../doc/reference/cordova_6.2/vibration/index.rst:83
+#: ../doc/reference/index.rst:2
 msgid "API Reference"
 msgstr ""
 
@@ -17839,10 +17840,6 @@ msgstr ""
 msgid "This whitelist does not apply to plugins, only hyperlinks and calls to ``window.open()``."
 msgstr ""
 
-#: ../doc/reference/index.rst:2
-msgid "API"
-msgstr ""
-
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"
 msgstr ""
@@ -21958,7 +21955,7 @@ msgid "\"2.8 Apps that install or launch other executable code will be rejected\
 msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:5
-msgid "Power Plugins"
+msgid "Monaca Power Plugins"
 msgstr ""
 
 #: ../doc/reference/power_plugins/index.rst:7

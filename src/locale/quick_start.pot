@@ -428,7 +428,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/building_app.rst:222
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:25
 #: ../doc/quick_start/cloud_ide/starting_project.rst:108
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:115
 #: ../doc/quick_start/localkit/building_app.rst:230
 #: ../doc/quick_start/localkit/publishing_app.rst:26
 #: ../doc/quick_start/localkit/starting_project.rst:116
@@ -585,7 +585,7 @@ msgid "Part 2: Using Monaca Debugger"
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:10
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:11
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:8
 #: ../doc/quick_start/localkit/testing_debugging.rst:10
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:11
 msgid ":ref:`monaca_debugger_index` is a powerful application for testing and debugging your Monaca applications on real devices in real-time by just saving the source code."
@@ -596,14 +596,14 @@ msgid "When developing Monaca apps on your local PC, assuming that your local PC
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:16
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:17
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:14
 #: ../doc/quick_start/localkit/testing_debugging.rst:19
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:17
 msgid "Before Getting Started"
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:18
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:19
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:16
 #: ../doc/quick_start/localkit/testing_debugging.rst:21
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:19
 msgid "Please install Monaca Debugger on your device. Please refer to :ref:`Monaca Debugger Installation <debugger_installation_index>` for other platforms."
@@ -674,7 +674,7 @@ msgid "Step 3: Real-time Update between Monaca CLI and Debugger"
 msgstr ""
 
 #: ../doc/quick_start/cli/testing_debugging.rst:106
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:82
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:79
 #: ../doc/quick_start/localkit/testing_debugging.rst:85
 #: ../doc/quick_start/localkit/testing_debugging.rst:109
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:83
@@ -756,7 +756,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:93
 #: ../doc/quick_start/cloud_ide/building_app.rst:224
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:27
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:120
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:117
 msgid ":ref:`cloud_ide_starting_project`"
 msgstr ""
 
@@ -770,20 +770,20 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:95
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:30
 #: ../doc/quick_start/cloud_ide/starting_project.rst:112
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:122
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:119
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:96
 #: ../doc/quick_start/cloud_ide/building_app.rst:227
 #: ../doc/quick_start/cloud_ide/starting_project.rst:113
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:123
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:97
 #: ../doc/quick_start/cloud_ide/starting_project.rst:114
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:124
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
 msgid ":ref:`sample_apps_index`"
 msgstr ""
 
@@ -847,7 +847,7 @@ msgstr ""
 #: ../doc/quick_start/cloud_ide/building_app.rst:226
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:29
 #: ../doc/quick_start/cloud_ide/starting_project.rst:111
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:121
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:118
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ""
 
@@ -864,11 +864,11 @@ msgid "a Monaca account. If you don’t have one, please register `here <https:/
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/index.rst:16
-msgid "a computer with Internet connection"
+msgid "a computer with the Internet connection"
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/index.rst:17
-msgid "a smart mobile device (either iOS or Android) if you want to test on real device. [optional]"
+msgid "a smart mobile device (either iOS or Android) if you want to test on a real device. [optional]"
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/publishing_app.rst:5
@@ -893,7 +893,7 @@ msgid "From Monaca Dashboard, click on :guilabel:`Create Project` or :guilabel:`
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:34
-msgid "If you choose :guilabel:`Create Project`, you will be able to create a new Monaca project based on various templates. On the other hand, if you choose :guilabel:`Import Project`, you will be able to create a new Monaca project by importing an existing project in 3 ways such as filling in the project's url, uploading the project package or selecting your existing Github repository. Please refer to :ref:`version_control` on how to set up Github integration with Monaca."
+msgid "If you choose :guilabel:`Create Project`, you will be able to create a new Monaca project based on various templates. On the other hand, if you choose :guilabel:`Import Project`, you will be able to create a new Monaca project by importing an existing project in 3 ways such as filling in the project's URL, uploading the project package or selecting your existing  GitHub repository. Please refer to :ref:`version_control` on how to set up  GitHub integration with Monaca."
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:40
@@ -949,7 +949,7 @@ msgid "From the File Tree panel, choose a file to edit. Let's make some changes 
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:101
-msgid "Save the changes, then you will be able to see the updates constantly in the Preview window. Feel free to edit the project as you wish. For more detailed explanation about this template, please refer to :ref:`Explanation about jQuery TODO App <todo>`."
+msgid "Save the changes, then you will be able to see the updates instantly in the Preview window. Feel free to edit the project as you wish. For more detailed explanation about this template, please refer to :ref:`Explanation about jQuery TODO App <todo>`."
 msgstr ""
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:104
@@ -960,70 +960,70 @@ msgstr ""
 msgid "Part 2: Running a Project on Monaca Debugger"
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:13
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:10
 msgid "When developing Monaca apps in Monaca Cloud IDE, assuming that the Internet connection is available, all changes made to your project files will be pushed into your Monaca Debugger in real-time as soon as you save those changes."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:38
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:35
 #: ../doc/quick_start/localkit/testing_debugging.rst:39
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:37
 msgid "Step 1: Running the Project on Monaca Debugger"
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:40
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:37
 msgid "Launch Monaca Debugger app and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:48
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:45
 msgid "Then, a project list will appear. All Monaca Cloud IDE projects are listed under ``Monaca.io Projects``. To run a project, you can just click on the project name in Monaca Debugger or click :guilabel:`Run on Device` button in Monaca Cloud IDE menu."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:56
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:53
 msgid "Then, your project should be running in the debugger. To go back to the Project List screen, go to Debugger Menu and click :guilabel:`Back` button."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:69
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:66
 msgid "Try and test your project by adding/deleting a memo."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:78
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:75
 msgid "Step 2: Real-time Updates between Monaca Cloud IDE and Debugger"
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:80
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:77
 msgid "By now, you are able to run your Monaca project on the debugger. Next, let's try to edit this project and see how it is reflected on the debugger."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:84
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:81
 msgid "On Monaca Cloud IDE, make some changes in a project file and save them (please refer to :ref:`Edit Project Files <monaca_cloud_ide_edit_project>`). In this example, we edit :file:`index.html` and change the title of page from \"Monaca Memo\" to \"My Memo\". Then, save the change."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:92
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:89
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:93
 msgid "The saved changes will be sent to Monaca Debugger on your device. You can also click on :guilabel:`Reload` button to retrieve the latest updates of your app in case the changes are not reflected."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:98
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:95
 msgid "Updated Page Title"
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:104
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:101
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:105
 msgid "Reload Button"
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:109
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:106
 #: ../doc/quick_start/localkit/testing_debugging.rst:136
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:113
 msgid "Please refer to :ref:`monaca_debugger_features` to explore the other functions provided by Monaca Debugger."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:111
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:108
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:110
 msgid "That's it! That's how easy it is to use Monaca Debugger. Please try to make more changes to your project and see how it runs on the debugger."
 msgstr ""
 
-#: ../doc/quick_start/cloud_ide/testing_debugging.rst:113
+#: ../doc/quick_start/cloud_ide/testing_debugging.rst:110
 msgid "PRACTICE MAKES PERFECT! Enjoy developing with Monaca!"
 msgstr ""
 
@@ -1254,7 +1254,7 @@ msgid "Monaca Debugger"
 msgstr ""
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:55
-#: ../doc/quick_start/monaca_intro.rst:53
+#: ../doc/quick_start/monaca_intro.rst:52
 msgid "Monaca Localkit"
 msgstr ""
 
@@ -1311,11 +1311,11 @@ msgid "What is Monaca?"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:15
-msgid "Monaca is a development environment for smartphone and tablet applications provided by Asial Corporation. Monaca does not only provide you with a development environment at your fingertips, but also allows anyone to be able to develop smartphone applications easier."
+msgid "Monaca is a development environment for smartphone and tablet applications provided by Asial Corporation. Monaca does not only provide you with a development environment at your fingertips but also allows anyone to be able to develop smartphone applications easier."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:18
-msgid "Monaca uses :ref:`hybrid <feature_hybrid_app>` approach to deliver mobile apps. It makes :ref:`hybrid mobile app <feature_hybrid_app>` development process with PhoneGap/Cordova simpler and stress-free with our comprehensive cloud-powered app development tools and services. Monaca is framework-agnostic and adaptive, ready to be immediately plugged into your existing workflow and dev environment, creating the most open Cordova platform available."
+msgid "Monaca uses a :ref:`hybrid <feature_hybrid_app>` approach to deliver mobile apps. It makes :ref:`hybrid mobile app <feature_hybrid_app>` development process with PhoneGap/Cordova simpler and stress-free with our comprehensive cloud-powered app development tools and services. Monaca is framework-agnostic and adaptive, ready to be immediately plugged into your existing workflow and development environment, creating the most open Cordova platform available."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:23
@@ -1335,32 +1335,32 @@ msgid "Mix-and-Match as You Like: We’ve got you covered all the way from desig
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:31
-msgid "Framework Agnostic: Our open source Angular-driven `Onsen Framework <http://onsen.io/>`_ is tightly integrated with Monaca tools. But use whatever framework you want. Ionic or PhoneGap developers, for example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take advantage of the cloud-powered services without switching or any complicated porting. We take OPEN seriously."
+msgid "Framework Agnostic: Our open source Angular-driven `Onsen Framework <http://onsen.io/>`_ is tightly integrated with Monaca tools. However, you can use whatever framework you want. Ionic or PhoneGap developers, for example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take advantages of the cloud-powered services without switching or any complicated porting. We take OPEN seriously."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:37
+#: ../doc/quick_start/monaca_intro.rst:36
 msgid "Monaca Development Tools"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:39
+#: ../doc/quick_start/monaca_intro.rst:38
 msgid "For your flexibility and convenience during app development process, Monaca provides four different development environments as shown in the following subsections."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:42
+#: ../doc/quick_start/monaca_intro.rst:41
 #: ../doc/quick_start/monaca_intro.rst:99
 msgid "Monaca Cloud IDE"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:44
-msgid "Monaca Cloud IDE provides a browser-based development environment as a service. Right from your Web browser, all of your Cordova development is done without any setup. Along with the :ref:`monaca_debugger_intro`, Live Preview (built-in function in Monaca Cloud IDE) allows you to easily check the effectiveness of your apps during development. Noticeably, there are neither Cordova plugins nor native functions in Live Preview. Therefore, the app required those functions and plugins can't be previewed properly. :ref:`Read more <monaca_ide_index>`."
+#: ../doc/quick_start/monaca_intro.rst:43
+msgid "Monaca Cloud IDE provides a browser-based development environment as a service. Right from your Web browser, all of your Cordova development is done without any setup. Along with the :ref:`monaca_debugger_intro`, Live Preview (built-in function in Monaca Cloud IDE) allows you to easily check the progress of your apps during development. Noticeably, there are neither Cordova plugins nor native functions in Live Preview. Therefore, the app required those plugins and functions can't be previewed properly. :ref:`Read more <monaca_ide_index>`."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:50
+#: ../doc/quick_start/monaca_intro.rst:49
 msgid "Overview of Monaca Cloud IDE"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:55
-msgid "Monaca Localkit is a local environment development support tool offered through our app development platform, “Monaca”. You can achieve better security and peace-of-mind from your own app development environment by combining existing tools like the editor and version management system, with the versatile development support capabilities of Monaca. With Monaca Localkit, Monaca users are able to setup their preferred development environment on local PC. :ref:`Read more <monaca_localkit_index>`."
+#: ../doc/quick_start/monaca_intro.rst:54
+msgid "Monaca Localkit is a local environment development support tool offered through our app development platform, “Monaca”. You can achieve better security and peace-of-mind from your own app development environment by combining existing tools such as code editors and version management system, with the versatile development support capabilities of Monaca. With Monaca Localkit, Monaca users are able to setup their preferred development environment on local PC. :ref:`Read more <monaca_localkit_index>`."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:61
@@ -1372,7 +1372,7 @@ msgid "Monaca CLI"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:66
-msgid "Monaca CLI provides command line interface for using Monaca cloud. It features the debugger connection and inspector integration, as well as creating and remote building the project. You can also import projects that exist on the cloud if you want to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
+msgid "Monaca CLI provides command line interface to use Monaca Cloud. It features the debugger connection, inspector integration, project creation and remote building. You can also import projects that exist in the cloud when you want to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:69
@@ -1388,7 +1388,7 @@ msgid "Overview of Monaca for Visual Studio"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:84
-msgid "On top of the flexibility in development environment, Monaca also provides high development efficiency by using Monaca Debugger. Monaca Debugger is an application used to test and debug your Monaca applications on real devices without building the applications during the development. It needs to be installed on your mobile devices. The app will automatically sync all your development projects and run them without the build process. :ref:`Read more <monaca_debugger_index>`."
+msgid "On top of the flexibility in the development environment, Monaca also provides high development efficiency by using Monaca Debugger. Monaca Debugger is an application used to test and debug your Monaca applications on real devices without building the applications during the development. It needs to be installed on your mobile devices. The app will automatically sync all your development projects and run them without the build process. :ref:`Read more <monaca_debugger_index>`."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:90
@@ -1444,7 +1444,7 @@ msgid "Monaca Registration Plan"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:123
-msgid "Monaca provides various account types to match with your needs ranging from basic (FREE) to enterprise level. After registration, your default account is basic type. You can upgrade it later when you want. For detailed information of Monaca account types and its usages, please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_."
+msgid "Monaca provides various account types to match with your needs ranging from basic (FREE) to enterprise plan. After registration, your default account has a basic plan. You can upgrade it later when you want. For detailed information of Monaca account types and theirs usages, please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:125
@@ -1456,11 +1456,11 @@ msgid "Free trial for the first 14 days"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:128
-msgid "You can switch plan to another monthly plan in the trial period for free. But trial period will not be extended."
+msgid "You can switch to another monthly plan in the trial period for free. But the trial period will not be extended."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:129
-msgid "14 days after the subscription, you will be charged unless you have switched to Basic plan. The first charge is calculated on a daily basis."
+msgid "14 days after the subscription, you will be charged unless you switch to Basic plan. The first charge is calculated on a daily basis."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:130
@@ -1480,7 +1480,7 @@ msgid "You will be charged annual price when starting the subscription."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:136
-msgid "Your next charge will be on the first day of the 13th month after your admission, unless you have switched Basic plan. For example, you subscribe to the annual plan on July 20th 2016. Then, your next charge will be on August 1st 2017."
+msgid "Your next charge will be on the first day of the 13th month after your admission unless you switch to Basic plan. For example, you subscribe to annual plan on July 20th, 2016. Then, your next charge will be on August 1st, 2017."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:138
@@ -1488,11 +1488,11 @@ msgid "If you use Activation Code:"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:140
-msgid "If you want to upgrade plan or extend expiration date, please contact us with preferred plan name and term of months."
+msgid "If you want to upgrade plan or extend the expiration date, please contact us with preferred plan name and term of months."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:141
-msgid "On expiration date, your plan will be switched to Basic automatically."
+msgid "On the expiration date, your plan will be switched to Basic automatically."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:146
@@ -1504,15 +1504,15 @@ msgid "Characteristics of hybrid apps:"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:150
-msgid "The app consists of Web app and native characteristics. (See the picture below)"
+msgid "The apps consist of the Web and native characteristics. (See the picture below)"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:151
-msgid "Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms."
+msgid "Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android, and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms."
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:157
-msgid "Differences between Native, Hybrid and Web Apps"
+msgid "Differences between Native, Hybrid, and Web Apps"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:160
@@ -1524,7 +1524,7 @@ msgid "HTML and CSS for UI (User Interface) design"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:163
-msgid "JavaScript for controlling the app"
+msgid "JavaScript for implementing the app"
 msgstr ""
 
 #: ../doc/quick_start/monaca_intro.rst:164
@@ -1535,19 +1535,19 @@ msgstr ""
 msgid "iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, a JavaScript library, to access native functions of a device. Windows apps run on Windows runtime while Chrome apps run on Chrome runtime."
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:174
+#: ../doc/quick_start/monaca_intro.rst:170
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:176
+#: ../doc/quick_start/monaca_intro.rst:172
 msgid ":ref:`monaca_app_index`"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:177
+#: ../doc/quick_start/monaca_intro.rst:173
 msgid ":ref:`Monaca IDE<monaca_ide_index>`"
 msgstr ""
 
-#: ../doc/quick_start/monaca_intro.rst:178
+#: ../doc/quick_start/monaca_intro.rst:174
 msgid ":ref:`monaca_debugger_index`"
 msgstr ""
 

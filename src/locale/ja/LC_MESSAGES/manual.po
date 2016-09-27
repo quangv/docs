@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 10:08+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-09-27 07:00+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1058,7 +1058,6 @@ msgstr "項目"
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Description"
@@ -3637,7 +3636,7 @@ msgid ""
 "You can also use Chrome App Launcher to access all of your Chrome Apps right"
 " from your desktop. You can install Chrome App Launcher from `Chrome Web "
 "Store <https://chrome.google.com/webstore>`_."
-msgstr ""
+msgstr "デスクトップ上からアプリを起動する場合には、Chrome 向けのアプリランチャーを使用することもできます。アプリランチャーは、`Chrome ウェブストア <https://chrome.google.com/webstore>`_ から入手できます。"
 
 #: ../doc/manual/debugger/installation/debugger_chrome.rst:55
 msgid ""
@@ -6505,7 +6504,7 @@ msgstr ":ref:`monaca_transpile`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:18
 msgid "Transpiles project source code."
-msgstr ""
+msgstr "ソースコードをコード変換 ( トランスパイル/Transpile ) します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:19
 msgid ":ref:`monaca_debug`"
@@ -6529,7 +6528,7 @@ msgstr ":ref:`monaca_reconfigure`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:21
 msgid "Generates default project configurations."
-msgstr ""
+msgstr "設定ファイルを再作成/復旧します ( コマンドの 「 オプション 」 欄に記載されているファイルが対象です。該当するファイルが存在しない場合のみ、有効なコマンドです )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:22
 msgid ":ref:`monaca_remote_build`"
@@ -6615,7 +6614,7 @@ msgid ""
 "to choose a project template from a list of available templates provided by "
 "Monaca Cloud. The selected template will be created at the specified "
 "location."
-msgstr ""
+msgstr "指定してパス ( ローカル ) 上に、Monaca プラジェクトを新規に作成します。Monaca クラウドが提供しているテンプレートの中から、使用するテンプレートを選択します。指定された保存場所に、選択されたテンプレートが置かれます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:60
 msgid ":dfn:`$ monaca create path`"
@@ -6652,7 +6651,7 @@ msgid ""
 "location. You will be asked to select a project from a list of all your "
 "existing projects in Monaca Cloud and specify a location for the downloaded "
 "project."
-msgstr ""
+msgstr "Monaca クラウド上に置かれているプロジェクトを、ローカルへクローン ( Clone ) します。Monaca クラウド上に置かれているプロジェクトの一覧が表示されるので、プロジェクトを選択し、次に、保存先を指定します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:86
 msgid ""
@@ -6681,7 +6680,7 @@ msgid ""
 "Imports a project from Monaca Cloud. You will be asked to select a project "
 "from a list of all your existing projects in Monaca Cloud and specify a "
 "location for the downloaded project."
-msgstr ""
+msgstr "Monaca クラウド上に置かれているプロジェクトをインポート ( Import ) します。Monaca クラウド上に置かれているプロジェクトの一覧が表示されるので、プロジェクトを選択し、次に、保存先を指定します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:113
 msgid ""
@@ -6712,26 +6711,26 @@ msgid ""
 " compared with the corresponding remote files so that only the new and "
 "changed ones will be uploaded. The uploading process will be done in one of "
 "the following ways:"
-msgstr ""
+msgstr "ローカルのプロジェクトを Monaca クラウドへアップロードします ( プロジェクトが置かれたディレクトリーのルートへ移動して、コマンドを実行します )。ローカルとクラウド間 ( 既存のファイルがクラウド上にあれば ) のファイルは比較され、新規ファイルまたは更新ファイルがあれば、そのファイルのみアップロードされます。アップロード処理は、プロジェクトの種類により異なりますので、その詳細を、次に記します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:139
 msgid ""
 "If the current project is a new/imported project, this command will upload "
 "the whole project as a new project in Monaca Cloud."
-msgstr ""
+msgstr "アップロード対象のプロジェクトが 「 新規プロジェクト」 または 「 インポートしたプロジェクト 」 ( 上記コマンド ) の場合、新規のプロジェクトとして、関連するファイルのすべてが Monaca クラウドへアップロードされます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:140
 msgid ""
 "If the current project is a cloned project, this command will overwrite the "
 "same existing project in Monaca Cloud. In other words, only changed and new "
 "files will be uploaded."
-msgstr ""
+msgstr "アップロード対象のプロジェクトが 「 クローンしたプロジェクト 」 ( 上記コマンド ) の場合、Monaca クラウド上に置かれている、クローン元のプロジェクトが上書きされます ( 新規ファイルまたは更新ファイルのみ、アップロードされます )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:142
 msgid ""
 "For ReactJS and Angular2 projects, ``monaca upload`` command will transpile "
 "the project before uploading them."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca upload`` コマンドの実行時、アップロード処理が始まる前に、プロジェクトがコード変換 ( トランスパイル/Transpile ) されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:145
 msgid ":dfn:`$ monaca upload [options]`"
@@ -6872,7 +6871,7 @@ msgstr "プロジェクトフォルダーに移動して、次のコマンドを
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:239
 msgid "monaca transpile"
-msgstr ""
+msgstr "monaca transpile"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:241
 msgid ""
@@ -6880,7 +6879,7 @@ msgid ""
 "projects. For transpilable projects, the transpiling process is "
 "automatically included in some commands such as ``monaca upload``, ``monaca "
 "preview``, ``monaca debug`` and ``monaca remote build``."
-msgstr ""
+msgstr "プロジェクトをコード変換 ( トランスパイル/Transpile ) します。コード変換可能なプロジェクトには、たとえば、ReactJS プロジェクト、Angular2 プロジェクトなどがあります。コード変換可能なプロジェクトに関しては、各種コマンド ( ``monaca upload``、``monaca preview``、``monaca debug``、``monaca remote build`` ) の実行時に、自動でコード変換されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:243
 msgid ":dfn:`$ monaca transpile [options]`"
@@ -6902,7 +6901,7 @@ msgstr "``--generate-config``"
 msgid ""
 "Creates transpile configuration files for transpilable projects, in case "
 "they are missing."
-msgstr ""
+msgstr "コード変換用の設定ファイルが存在しない場合、これらのファイルを作成します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "``--install-dependencies``"
@@ -6910,13 +6909,13 @@ msgstr "``--install-dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:248
 msgid "Installs the missing dependencies needed for transpiling."
-msgstr ""
+msgstr "依存関係のある、コード変換に必要なパッケージをインストールします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:252
 msgid ""
 "Navigate to your transpilable project folder and use ``monaca transpile`` "
 "command. Then, the transpiling will begin."
-msgstr ""
+msgstr "対象のプロジェクトフォルダーへ移動して、``monaca transpile`` コマンドを実行します ( コード変換が可能なプロジェクトであること )。実行後、コード変換が実行されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:271
 msgid "monaca preview"
@@ -6935,7 +6934,7 @@ msgid ""
 " the project in memory before launching the previewer. Additionally, if the "
 "preview is still running and you make a change, the transpile process should"
 " be triggered and the previewer will be served with the new files."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca preview`` コマンドの実行時、プレビュー画面の起動前に、メモリー上でプロジェクトがコード変換されます。また、プレビュー画面を起動させた状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がプレビュー画面上に反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:277
 msgid ":dfn:`$ monaca preview [options]`"
@@ -6990,7 +6989,7 @@ msgid ""
 "the project before serving the files to Monaca Debugger. Additionally, if "
 "the debug is still running and you make a change, the transpile process "
 "should be triggered and the debugger will be served with the new files."
-msgstr ""
+msgstr "ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca debug`` コマンドの実行時、Monaca デバッガーへプロジェクトファイルが送信される前に、プロジェクトがコード変換されます。また、デバッガーを実行している状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がデバッガー上に反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:315
 msgid ":dfn:`$ monaca debug [options]`"
@@ -7048,7 +7047,7 @@ msgstr "monaca reconfigure"
 msgid ""
 "Generates default project configurations and files. Running it without "
 "arguments will generate everything."
-msgstr ""
+msgstr "設定ファイルを復旧します。オプションを指定しない場合、該当するファイルのすべてを復旧 ( 再作成 ) します。該当するファイルに関しては、下の 「 オプション 」 欄をご確認ください。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:364
 msgid ":dfn:`$ monaca reconfigure [options]`"
@@ -7060,7 +7059,7 @@ msgstr "``--transpile``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:368
 msgid "Generates transpile configuration files (for both dev and prod)."
-msgstr ""
+msgstr "コード変換用の設定ファイルを再作成/復旧します ( webpack.dev.config ファイルと webpack.prod.config ファイルが対象 )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "``--dependencies``"
@@ -7068,7 +7067,7 @@ msgstr "``--dependencies``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:369
 msgid "Installs required build dependencies."
-msgstr ""
+msgstr "依存関係のあるパッケージをインストールします。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "``--components``"
@@ -7076,13 +7075,13 @@ msgstr "``--components``"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:370
 msgid "Generates ``components`` folder."
-msgstr ""
+msgstr "``components`` フォルダーを再作成/復旧します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:374
 msgid ""
 "Navigate to your transpilable project folder and try ``monaca reconfigure`` "
 "command with various parameters."
-msgstr ""
+msgstr "対象のプロジェクトフォルダーへ移動し、オプションを組み合わせて、``monaca reconfigure`` コマンドを実行してみましょう ( 対象のプロジェクトは、コード変換が可能なプロジェクトであること )。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid "monaca remote build"
@@ -7123,7 +7122,6 @@ msgstr ":dfn:`$ monaca remote build <platform> [options]`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:404
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "``platform``"
 msgstr "``platform``"
 
@@ -7242,7 +7240,7 @@ msgstr "Monaca CLI を使用して、Monaca クラウドからログアウトす
 
 #: ../doc/manual/development/monaca_cli/index.rst:5
 msgid "Getting Started with Monaca CLI"
-msgstr ""
+msgstr "Monaca CLI"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:5
 msgid "Monaca CLI Overview"
@@ -7268,7 +7266,7 @@ msgstr "インスペクタを使用した、アプリのデバッグ"
 msgid ""
 "Support transpiler options for transpilable projects such as ReactJS and "
 "Angular2 projects."
-msgstr ""
+msgstr "プロジェクトのコード変換 ( トランスパイル/Transpile )。コード変換の対象となるプロジェクトは、ReactJS プロジェクト、Angular2 プロジェクトなどです。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:13
 msgid "Remote build your projects without any setups locally."
@@ -7286,7 +7284,7 @@ msgstr "ステップ 1 : インストール"
 msgid ""
 "You are required to have `Node.js <https://nodejs.org/>`_ installed on your "
 "PC in order to install Monaca CLI."
-msgstr ""
+msgstr "Monaca CLI のご利用には、`Node.js <https://nodejs.org/>`_ が必要です ( 事前に、PC にインストールされていること )。"
 
 #: ../doc/manual/development/monaca_cli/overview.rst:26
 msgid "Use the following command to install Monaca CLI:"
@@ -7916,7 +7914,7 @@ msgstr ":ref:`emmet`"
 
 #: ../doc/manual/development/monaca_ide/index.rst:5
 msgid "Getting Started with Monaca Cloud IDE"
-msgstr ""
+msgstr "Monaca クラウド IDE"
 
 #: ../doc/manual/development/monaca_ide/index.rst:11
 msgid ""
@@ -9766,7 +9764,7 @@ msgstr ":doc:`troubleshooting`"
 
 #: ../doc/manual/development/monaca_localkit/index.rst:5
 msgid "Getting Started with Monaca Localkit"
-msgstr ""
+msgstr "Monaca Localkit"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:5
 msgid "Monaca Localkit Overview"
@@ -10250,7 +10248,7 @@ msgstr ":doc:`../../../quick_start/monaca_vs/index`"
 
 #: ../doc/manual/development/monaca_vs/index.rst:4
 msgid "Getting Started with Monaca for Visual Studio"
-msgstr ""
+msgstr "Monaca for Visual Studio の概要"
 
 #: ../doc/manual/development/monaca_vs/overview.rst:3
 msgid "Monaca for Visual Studio Overview"
@@ -10622,107 +10620,89 @@ msgid ""
 msgstr "レシピで使用するパラメーターは、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Param"
 msgstr "パラメーター"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "``task_name``"
 msgstr "``task_name``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "a name representing your build process."
 msgstr "ビルド処理に付ける名前を指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
-#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "``branch``"
 msgstr "``branch``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
-#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "Github branch of the project you want to build."
 msgstr "ビルドを行うプロジェクト用の GitHub ブランチ ( 作業するブランチ ) を指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
-#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "``tag``"
 msgstr "``tag``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
-#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "Github tag of the project you want to build."
 msgstr "ビルドを行うプロジェクト用の GitHub タグを指定します。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid ""
 "The platform you want to build for. Valid values are: ``ios``, ``android`` &"
 " ``winrt``."
 msgstr "ビルドを行うプラットフォームを指定します。設定できる値は、``ios``、``android``、``winrt`` です。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "``build``"
 msgstr "``build``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr "ビルドの種類を指定します。設定できる値は、``debug``、``release`` です。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "``deploy``"
 msgstr "``deploy``"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr "アプリの配信/配布に使用するデプロイサービス ( 複数設定可 )"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:30
-#: ../doc/manual/monaca_ci/overview.rst:149
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr "``type``: デプロイサービス名を指定します ( 大文字・小文字を区別 )。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:31
-#: ../doc/manual/monaca_ci/overview.rst:150
 msgid ""
 "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr "``alias``: デプロイサービスのエイリアス名/連携名を指定します ( 大文字・小文字を区別 )。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:32
-#: ../doc/manual/monaca_ci/overview.rst:151
 msgid ""
 "``default``: a block for default parameters you may need to use for the "
 "deployment service."
 msgstr "``default``: 各種オプション ( デプロイサービス提供の機能 ) を設定するブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:33
-#: ../doc/manual/monaca_ci/overview.rst:152
 msgid ""
 "``ios``: a block for iOS parameters you may need to use for the deployment "
 "service."
 msgstr "``ios``: iOS 向けのオプション設定 ( デプロイサービス提供の機能 ) 用のブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:34
-#: ../doc/manual/monaca_ci/overview.rst:153
 msgid ""
 "``android``: a block for Android parameters you may need to use for the "
 "deployment service."
 msgstr "``android``: Android 向けのオプション設定 ( デプロイサービス提供の機能 ) 用のブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
-#: ../doc/manual/monaca_ci/overview.rst:155
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
-msgstr ""
+msgstr "サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`supported_services` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:42
 msgid "Here is an example of a recipe script."
@@ -10746,34 +10726,34 @@ msgid ""
 "integrated within the current Monaca development environment stack to "
 "automate building and deployment cycles. This automation process is done by "
 "using webhooks. Webhooks allow you to build or set up integrations which "
-"subscribe to certain events (code commit, branch/tag creation and so on) on "
-"Github and many other Git services. For Monaca CI, every time you push your "
-"project code to Github, Github will send a HTTP POST payload to Monaca "
-"server. If the received information meets the Monaca CI configuration, the "
-"automation will begin."
-msgstr "Monaca CI ( Continuous Integration/継続的インテグレーション ) は、Monaca の開発環境に新しく組み込まれた、CI を実現するためのサービスです。このサービスを使用すると、プロジェクトのビルド処理の自動化、検証版アプリの配信/配布処理の自動化を行えるため、開発を大幅に効率化できます。自動化処理の基礎には、Webhook を使用しています。Webhook を使用することにより、GitHub または Git 系のサービスと容易に連携することができます ( Webhook 経由で、コードのコミット、ブランチ/タグの作成など、特定のイベントを処理できます )。Monaca CI の処理を、ここで簡単に解説します。最初に、ユーザーがプロジェクトを GitHub にプッシュすると、GitHub 側から Monaca サーバー側へ HTTP POST リクエストが発行されます。次に、このリクエスト内容が Monaca CI 側で保持している設定と一致する場合には、前述の処理 ( ビルド処理など ) が実行されます。"
+"subscribe to certain events (code commit, branch/tag creation and so on) on"
+"  GitHub and many other Git services. For Monaca CI, every time you push "
+"your project code to  GitHub,  GitHub will send a HTTP POST payload to "
+"Monaca server. If the received information meets the Monaca CI "
+"configuration, the automation will begin."
+msgstr "Monaca CI ( Continuous Integration/継続的インテグレーション ) は、Monaca の開発環境に新しく組み込まれた、CI を実現するためのサービスです。このサービスを使用すると、プロジェクトのビルド処理の自動化、検証版アプリの配信/配布処理の自動化を行えるため、開発を大幅に効率化できます。自動化処理の基礎には、Webhook を使用しています。Webhook を使用することにより、GitHub または Git 系のサービスと容易に連携することができます ( Webhook 経由で、コードのコミット、ブランチ/タグの作成など、特定のイベントを処理できます )。Monaca CI の処理を、ここで簡単に解説します。最初に、ユーザーがプロジェクトを GitHub にプッシュすると、GitHub 側から Monaca サーバー側へ HTTP POST リクエストが発行されます。このリクエスト内容が Monaca CI 側で保持している設定と一致する場合には、前述の処理 ( ビルド処理など ) が実行されます。"
 
 #: ../doc/manual/monaca_ci/overview.rst:13
 msgid ""
 "Therefore, Monaca CI lets developers focus more on the code and less on the "
 "backend process of building, testing and deploying an app."
-msgstr "Monaca CI を使用することにより、ビルド処理、検証処理、配信/配布処理をはじめとするバックエンドの処理から、開発者は解放され、アプリの内容・性能により注力できるようになります。"
+msgstr "Monaca CI を使用することにより、ビルド処理、検証処理、配信/配布処理をはじめとするバックエンドの処理から開発者は解放され、アプリの内容・性能に注力して、開発が行えるようになります。"
 
 #: ../doc/manual/monaca_ci/overview.rst:18
 msgid ""
-"In order to use Monaca CI, you will need to integrate Github with your "
+"In order to use Monaca CI, you will need to integrate  GitHub with your "
 "Monaca account. If you haven't done it, please follow the instruction below:"
 msgstr "Monaca CI を使用する前に、Monaca アカウントと GitHub を連携させる必要があります。連携手順は、次のとおりです。"
 
 #: ../doc/manual/monaca_ci/overview.rst:20
 msgid ""
-"Link your Monaca account to Github. Please refer to "
+"Link your Monaca account to  GitHub. Please refer to "
 ":ref:`github_integration`."
 msgstr "Monaca アカウントと GitHub を連携させます。詳細は、:ref:`github_integration` をご確認ください。"
 
 #: ../doc/manual/monaca_ci/overview.rst:21
 msgid ""
-"Connect your project to your Github repository. Please refer to "
+"Connect your project to your  GitHub repository. Please refer to "
 ":ref:`version_control_configuration`."
 msgstr "GitHub レポジトリとプロジェクトを接続させます。詳細は、:ref:`version_control_configuration` をご確認ください。"
 
@@ -10787,9 +10767,9 @@ msgstr "Monaca CI の使用方法"
 
 #: ../doc/manual/monaca_ci/overview.rst:29
 msgid ""
-"Assuming you have successfully linked a Github repository to your project, "
+"Assuming you have successfully linked a  GitHub repository to your project, "
 "you are now ready to enable Monaca CI. Please do as follows:"
-msgstr ""
+msgstr "次の手順に従い、Monaca CI を使用します。GitHub レポジトリとプロジェクトとの接続が完了していることを前提に、ここでは解説をします"
 
 #: ../doc/manual/monaca_ci/overview.rst:31
 msgid ""
@@ -10803,7 +10783,7 @@ msgid ""
 "script <monaca_ci_json>`. This script controls the automation behaviours of "
 "Monaca CI. For example, with this default JSON script, Monaca CI will tell "
 "Monaca server to generate both debug and release builds of your project for "
-"iOS platform every time you push your project code to a valid Github's "
+"iOS platform every time you push your project code to a valid  GitHub's "
 "branch/tag as configured using regular expression inside the script. Once "
 "the build process is completed, you can find these built files under Build "
 "History panel (:menuselection:`Build --> Build History`)."
@@ -10854,7 +10834,7 @@ msgstr "[ 継続的インテグレーション ] パネルへ行き、[ デプ�
 msgid ""
 "Configure your deploy service in JSON script. Assuming that you want to "
 "generate debug build of your project for both iOS and Android platforms when"
-" you push the project code to the Github's branch called ``\"release\"``. "
+" you push the project code to the  GitHub's branch called ``\"release\"``. "
 "Then, distribute the built files to ``Deploy Gate`` service which has a "
 "release note and disable the email notification for iOS devices. Therefore, "
 "your JSON script should look like this:"
@@ -10906,7 +10886,7 @@ msgid ""
 "development iOS and Android apps, allowing developers to seamlessly progress"
 " through the prototyping, development, testing, and marketing stages of app "
 "distribution."
-msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) におけるアプリの配信作業を、滞りなく行うことができます。"
+msgstr "`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) におけるアプリの配信作業を、滞りなく行えます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:16
 msgid ""
@@ -10962,7 +10942,7 @@ msgstr "``distribution_key``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:29
 msgid "[Optional] Target Distribution Key"
-msgstr ""
+msgstr "[ 任意 ] 「 配布キー 」 ( Distribution Key ) を設定します。配布キーとは、「 配布ページ 」 を指し示す URL 内の hash 値です ( たとえば、https://deploygate.com/distributions/[ 配布キー ] )。また、配布ページとは、配布対象者向けに作成された、アプリのダウンロード用のページです。配布ページの作成は、deploygate サイト上から行えます。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:31
 msgid "``release_note``"
@@ -11032,7 +11012,7 @@ msgid ""
 "``mapping.txt`` (Android). Please note that the extension has to be "
 "``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to "
 "be ``mapping.txt`` for Android."
-msgstr ""
+msgstr "[ 任意 ] ``.dSYM.zip`` ファイル ( iOS・OS X の場合 ) または ``mapping.txt`` ( Android の場合 ) を指定します。iOS・OS X の場合、拡張子は ``.dsym.zip`` となります ( 大文字・小文字を区別します )。Andorid の場合には、ファイル名は ``mapping.txt`` となります。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:59
 msgid "``notes``"
@@ -11066,7 +11046,7 @@ msgstr "``notify``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:67
 msgid "[Optional] notify testers (can only be set with full-access tokens):"
-msgstr ""
+msgstr "[ 任意 ] テスターへ通知します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの [ API Token ] 項目をご確認ください。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:69
 msgid "``0`` to not notify testers"
@@ -11086,7 +11066,7 @@ msgstr "``status``"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:73
 msgid "[Optional] download status (can only be set with full-access tokens):"
-msgstr ""
+msgstr "[ 任意 ] ダウンロードに関するパーミッションを設定します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン に関しては、HockeyAPP サイトの API 解説 「 API: Basics and Authentication 」 をご確認ください。"
 
 #: ../doc/manual/monaca_ci/supported_services.rst:75
 msgid "``1`` to not allow users to download the version"

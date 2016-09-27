@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-15 06:03+0000\n"
+"PO-Revision-Date: 2016-09-27 07:01+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "AdMob のデモ用アプリ"
 msgid ""
 "In this page, we will show how to integrate Monaca with the most common "
 "mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This "
-"sample app is based on a demo on `AdMob Plugin Pro on Github "
+"sample app is based on a demo on `AdMob Plugin Pro on GitHub "
 "<https://github.com/floatinghotpot/cordova-admob-pro>`_."
 msgstr "このページでは、Monaca を使用して、`AdMob <https://www.google.com/admob/>`_ ( モバイルアド/広告ネットワーク ) の実装方法を解説します。この解説で使用しているデモ用アプリは、`AdMob Plugin Pro <https://github.com/floatinghotpot/cordova-admob-pro>`_ ( Github 上 ) を参考にし、構築されています。"
 
@@ -67,22 +67,22 @@ msgid ""
 "In this demo, we are using AdMob's ad unit ids for testing only. If you want"
 " to use the ads with your real application, you are required to register "
 "your application with AdMob."
-msgstr ""
+msgstr "このデモで使用している AdMob の広告ユニット ID ( Ad Unit ID ) は検証用です。実際に使用する広告がある場合には、AdMob のサイト上でアプリを登録する必要があります。"
 
 #: ../doc/sampleapp/samples/admob.rst:34
 msgid ""
 "In order to register your application with AdMob, please do as follows:"
-msgstr ""
+msgstr "AdMob サイト上でのアプリの登録方法を、次に記します。"
 
 #: ../doc/sampleapp/samples/admob.rst:36
 msgid "Sign up with `AdMob <https://apps.admob.com>`_."
-msgstr ""
+msgstr "`AdMob <https://apps.admob.com>`_ にサインアップします。"
 
 #: ../doc/sampleapp/samples/admob.rst:38
 msgid ""
 "Go to :guilabel:`MONETIZE` tab and click :guilabel:`+ MONETIZE NEW APP` "
 "button."
-msgstr ""
+msgstr ":guilabel:`収益化` タブを選択して、:guilabel:`+ 新しいアプリを収益化` ボタンをクリックします ( 2 回目のアプリ登録であれば、こちらのボタンが表示されます )。"
 
 #: ../doc/sampleapp/samples/admob.rst:46
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 "type of ads. After completed, your will get an ad id for each ad unit. You "
 "will need to use this id to call each ad in your application. Here is an "
 "example:"
-msgstr ""
+msgstr "必要な情報 ( アプリ名、プラットフォーム、広告フォーマットなど ) を入力します。入力後、広告ユニットの ID が表示されます。アプリ上で広告を表示するときに、この ID が必要になります。"
 
 #: ../doc/sampleapp/samples/admob.rst:56
 #: ../doc/sampleapp/samples/age-calc.rst:28
@@ -892,13 +892,13 @@ msgstr "``clock()`` 関数を使用して、現在の日付と時間を表示し
 
 #: ../doc/sampleapp/samples/facebook.rst:5
 msgid "Facebook Demo"
-msgstr ""
+msgstr "Facebook のデモ用アプリ"
 
 #: ../doc/sampleapp/samples/facebook.rst:7
 msgid ""
 "This is a sample Monaca app used to log into and log out of Facebook using "
 "`Graph API <https://developers.facebook.com/docs/reference/api/>`_."
-msgstr ""
+msgstr "こちらのデモ用アプリでは、Facebook 提供の `Graph API <https://developers.facebook.com/docs/reference/api/>`_ を使用して、Facebook へのログインおよびログアウトを行っています。"
 
 #: ../doc/sampleapp/samples/facebook.rst:22
 msgid ":download:`Click here to download the project <download/facebook.zip>`"
@@ -909,55 +909,55 @@ msgid ""
 "In order to use this demo app, you are required to register your app with "
 "Facebook. Then, you will get its *App ID* and *App Secret* which will be "
 "used in this app later."
-msgstr ""
+msgstr "こちらのデモ用アプリを動作させるためには、最初に、Facebook の開発者向けのサイト上で、アプリを登録する必要があります。登録時に発行される *アプリ ID/App ID* と *App Secret* は、後から必要となりますので、手元に保存します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:29
 msgid ""
 "Please follow the instruction below in order to register your app with "
 "Facebook:"
-msgstr ""
+msgstr "次の手順に従い、Facebook 開発者向けサイト上で、アプリを登録します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:31
 msgid ""
 "Go to `Facebook for Developers <https://developers.facebook.com/>`_ and log "
 "in with your Facebook account."
-msgstr ""
+msgstr "`Facebook for Developers <https://developers.facebook.com/>`_ へ行き、Facebook アカウントを使用してログインします。"
 
 #: ../doc/sampleapp/samples/facebook.rst:33
 msgid "Go to :menuselection:`My Apps --> Add a New App`."
-msgstr ""
+msgstr ":menuselection:`マイアプリ --> 新しいアプリを追加` を選択します ( [ 新しいアプリを追加 ] サブメニューは、2回目以降にアプリを追加するときに表示されます )。"
 
 #: ../doc/sampleapp/samples/facebook.rst:41
 msgid "Select ``Website`` as the platform of your app."
-msgstr ""
+msgstr "プラットフォームとして、``ウェブサイト`` を選択します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:49
 msgid ""
 "Fill in your app's name and click :guilabel:`Create New Facebook App ID`."
-msgstr ""
+msgstr "アプリ名を入力して、:guilabel:`新しい Facebook アプリ ID を作成` をクリックします。"
 
 #: ../doc/sampleapp/samples/facebook.rst:57
 msgid ""
 "Fill in your contact email and select a category of the app. Then, click "
 ":guilabel:`Create App ID`."
-msgstr ""
+msgstr "連絡先メールアドレスとカテゴリを選択して、:guilabel:`アプリ ID を作成してください` をクリックします。"
 
 #: ../doc/sampleapp/samples/facebook.rst:65
 msgid "Answer a security question."
-msgstr ""
+msgstr "[ セキュリティチェック ] ページ上の質問に回答します。"
 
 #: ../doc/sampleapp/samples/facebook.rst:67
 msgid ""
 "Click :guilabel:`Skip Quick Start` button. Then, you will be forwarded to "
 "the app's Dashboard."
-msgstr ""
+msgstr ":guilabel:`Skip Quick Start` ボタンをクリックして、アプリのダッシュボードを表示させます。"
 
 #: ../doc/sampleapp/samples/facebook.rst:75
 msgid ""
 "Click on :guilabel:`Settings` and input your app domains and site URL. Then,"
 " click :guilabel:`Save Changes`. You can also find the *App ID* and *App "
 "Secret* here."
-msgstr ""
+msgstr ":guilabel:`設定` をクリックして、アプリドメインと各種 URL を入力します ( [ 設定 ] ページ上では、*アプリ ID/App ID* と *App Secret* を確認することもできます )。次に、:guilabel:`変更を保存` をクリックします。"
 
 #: ../doc/sampleapp/samples/facebook.rst:92
 #: ../doc/sampleapp/samples/onsen_ui_sliding_menu.rst:32
@@ -982,7 +982,7 @@ msgstr "アプリのスタイルシート"
 
 #: ../doc/sampleapp/samples/facebook.rst:103
 msgid "``Onsen UI (AngularJS is included)``"
-msgstr ""
+msgstr "``Onsen UI ( AngularJS も併用 )``"
 
 #: ../doc/sampleapp/samples/facebook.rst:110
 #: ../doc/sampleapp/samples/sample_rss_reader.rst:57
@@ -998,11 +998,11 @@ msgstr "友達リスト画面"
 msgid ""
 "The following block code will show the friend list if the user is "
 "successfully logged in (see the screenshot below)."
-msgstr ""
+msgstr "次のコードを使用して、友達リストを表示します ( ユーザーがログイン済みであることが前提 )。"
 
 #: ../doc/sampleapp/samples/facebook.rst:185
 msgid "Friend List"
-msgstr ""
+msgstr "友達リストの画面"
 
 #: ../doc/sampleapp/samples/facebook.rst:192
 msgid ""
@@ -1012,11 +1012,11 @@ msgid ""
 "primary way for apps to read and write to the Facebook social graph. We use "
 "InAppBrowser to open a Facebook authentication page inside the app without "
 "opening of an external browser."
-msgstr ""
+msgstr "このデモ用アプリでは、Facebook へのログイン時には、`Graph API <https://developers.facebook.com/docs/reference/api/>`_ と :ref:`InAppBrowser プラグイン <inappbrower_plugin>` を使用しています。Graph API は、Facebook の 「 ソーシャルグラフ 」 へのデータ操作 ( 読み込み・書き込み ) を行うときに使用する API です。一方、InAppBrowser プラグインは、外部のブラウザーを起動させずに、Facebook の認証をアプリ内で行うためのプラグインです。"
 
 #: ../doc/sampleapp/samples/facebook.rst:199
 msgid "Facebook Login using InAppBrowser"
-msgstr ""
+msgstr "Facebook ログインの画面 ( InAppBrowser を使用 )"
 
 #: ../doc/sampleapp/samples/facebook.rst:204
 msgid ""
@@ -1024,7 +1024,7 @@ msgid ""
 "controller, called ``HomeCtrl``. This controller will handle the login, "
 "logout and friend list retrieval from Facebook. Before running the app, "
 "please do not forget to fill in your App ID and App Secret."
-msgstr ""
+msgstr "このデモ用アプリでは、AngularJS も使用しています。``HomeCtrl`` と名付けたコントローラーを使用して、Facebook へのログインとログアウト、Facebook からの友達リストの取得を行っています。なお、アプリを実際に実行する場合には、コード内のアプリ ID/App ID と App Secret に、適宜、値を挿入する必要があります。"
 
 #: ../doc/sampleapp/samples/flickr.rst:5
 msgid "Flickr Sample"

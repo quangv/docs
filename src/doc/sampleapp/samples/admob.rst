@@ -5,7 +5,7 @@ AdMob Demo
 ============================================
 
 
-In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on Github <https://github.com/floatinghotpot/cordova-admob-pro>`_.
+In this page, we will show how to integrate Monaca with the most common mobile ads network called, `AdMob <https://www.google.com/admob/>`_. This sample app is based on a demo on `AdMob Plugin Pro on GitHub <https://github.com/floatinghotpot/cordova-admob-pro>`_.
 
 | *Tested Environments:* Android 6.2, iOS 9.3.5
 

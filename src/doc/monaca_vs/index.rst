@@ -1,0 +1,1 @@
+.. _monaca_vs_index:==========================================================Monaca for Visual Studio==========================================================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  tutorial/index  manual/index  samples/index  faq/index
