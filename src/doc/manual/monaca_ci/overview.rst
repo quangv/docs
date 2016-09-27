@@ -17,7 +17,7 @@ Prerequisite
 
 In order to use Monaca CI, you will need to integrate  GitHub with your Monaca account. If you haven't done it, please follow the instruction below:
 
-#. Link your Monaca account to  GitHub. Please refer to :ref:` GitHub_integration`.
+#. Link your Monaca account to  GitHub. Please refer to :ref:`github_integration`.
 #. Connect your project to your  GitHub repository. Please refer to :ref:`version_control_configuration`.
 
 .. note:: In order to use Monaca CI, Cordova 6.2 or higher is required. 
