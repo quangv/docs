@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-23 10:15+0000\n"
+"PO-Revision-Date: 2016-09-29 02:40+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -20009,7 +20009,7 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、この例では、FileEntry オブジェクトを指します )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:412
 msgid ""
@@ -20041,7 +20041,7 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
+msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blob オブジェクトを作成します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:483
 msgid ""
@@ -24973,7 +24973,7 @@ msgstr "js ファイル内で、次のようにモジュールを呼び出しま
 msgid ""
 "You can now use any Monaca Cloud & Remote Build API in your js file now. For"
 " example:"
-msgstr "呼び出し後、次のようにして、「 Monaca クラウド & リモートビルド API 」 を使用できます ( ｊｓ ファイル内 )。"
+msgstr "呼び出し後は、次のように、「 Monaca クラウド & リモートビルド API 」 を使用できます ( ｊｓ ファイル内 )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca Cloud & Remote Build API Usage"
@@ -25248,7 +25248,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:21
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
@@ -25353,7 +25353,7 @@ msgstr "更新用ファイルの作成"
 msgid ""
 "In order to use this plugin, you will need a :file:`update.json` file in "
 "addition to Android and/or iOS update files."
-msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
+msgstr "このプラグインを使用する場合、更新用ファイル ( 各プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:94
 msgid "File Name"

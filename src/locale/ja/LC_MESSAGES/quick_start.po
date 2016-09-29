@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-23 04:41+0000\n"
+"PO-Revision-Date: 2016-09-28 03:19+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1111,7 +1111,7 @@ msgstr "Monaca アカウント情報を入力します。"
 msgid ""
 "After a successful sign in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
-msgstr "サインイン後、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
+msgstr "サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:26
 msgid ""
@@ -1412,7 +1412,7 @@ msgstr "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_
 
 #: ../doc/quick_start/localkit/index.rst:12
 msgid "Before getting started with this tutorial, you need to:"
-msgstr "事前準備として、以下を行います。"
+msgstr "事前準備として、次の内容を行います。"
 
 #: ../doc/quick_start/localkit/index.rst:21
 msgid ""
@@ -1697,7 +1697,7 @@ msgid ""
 "provided by Asial Corporation. Monaca does not only provide you with a "
 "development environment at your fingertips but also allows anyone to be able"
 " to develop smartphone applications easier."
-msgstr "Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発環境の呼称です。Monaca では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発環境に加え、各種ツール・サポートを提供しています。"
+msgstr "Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発ツールなどの総称です。Monaca では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発ツールに加え、サポート ( StackOverFlow での議論の場、情報提供用のブログ、ツールの取扱説明書など ) も提供しています。"
 
 #: ../doc/quick_start/monaca_intro.rst:18
 msgid ""
@@ -1708,7 +1708,7 @@ msgid ""
 "agnostic and adaptive, ready to be immediately plugged into your existing "
 "workflow and development environment, creating the most open Cordova "
 "platform available."
-msgstr "Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` 技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツール・サービスを提供しています。これにより、「 :ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca が提供する開発ツール群は、特定のフレームワークには依存していないため、柔軟性があり、現在の開発工程・開発環境にも、スムーズに導入できます。また、Cordova プラグインの組み込みも簡単に行えます。"
+msgstr "Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` 技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツールおよび Web サービスを提供しています。これにより、「 :ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca が提供する開発ツールは、特定のフレームワークには依存していないため、柔軟性があり、現在の開発工程・開発環境にも、スムーズに導入できます。また、Cordova プラグインの組み込みも簡単に行えます。"
 
 #: ../doc/quick_start/monaca_intro.rst:23
 msgid "Why using Monaca?"
@@ -1745,7 +1745,7 @@ msgid ""
 "example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take "
 "advantages of the cloud-powered services without switching or any "
 "complicated porting. We take OPEN seriously."
-msgstr "非依存型 ( フロントエンドに使用する各種フレームワークからの独立 ) : 使用するフレームワークは、開発者が自由に選択できます。お勧めのフレームワークとして、私たちが開発している `Onsen フレームワーク <http://onsen.io/>`_ ( オープンソース、バージョン 1 は Angular に依存 ) がありますが、基本的に、使用するフレームワークは、開発者が自由に選択できます。また、お勧めのツールとしては、:ref:`Monaca CLI <monaca_cli_index>` があります。このツールを使用すれば、開発環境の切り替え、別環境への移植作業などをせずに、現在お使いの開発環境で、Monaca クラウドが提供している各種 Web サービスを利用することができます ( 特に、Ionic、Cordova を使用してきた開発者に、Monaca CLI の使用をお勧めします )。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
+msgstr "非依存型 ( フロントエンドに使用する各種フレームワークからの独立、併用可能な開発ツール群 ) : 使用するフレームワークは、開発者が自由に選択できます。お勧めの UI フレームワークとして、私たちが開発している `Onsen フレームワーク <http://onsen.io/>`_ ( オープンソース、バージョン 1 は Angular に依存 ) がありますが、基本的に、使用するフレームワークは、開発者が自由に選択できます。また、お勧めのツールとしては、:ref:`Monaca CLI <monaca_cli_index>` があります。このツールを使用すれば、開発環境の切り替え、別環境への移植作業などをせずに、現在お使いの開発環境で、Monaca クラウドが提供している各種 Web サービスを利用することができます ( 特に、Ionic、Cordova を使用してきた開発者の方に、Monaca CLI をお勧めします )。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
 
 #: ../doc/quick_start/monaca_intro.rst:36
 msgid "Monaca Development Tools"
