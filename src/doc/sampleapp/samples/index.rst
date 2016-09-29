@@ -342,7 +342,7 @@ Sample Apps & Templates
           <div class="column-center">
               <img src="/static/img/samples/admob.png" alt="" class="thumb">
               <div align="center">
-                  <h3>AdMob Demo</h3>
+                  <h3>AdMob のデモ用アプリ</h3>
                   <p align="left">モバイルアド ( 携帯端末への広告配信ネットワーク ) を Monaca に組み込んだアプリです。ここでは、モバイルアドとして、AdMob を使用します。</p>
                   <!-- <a href="download/admob.zip" download>ダウンロード</a>
                   &nbsp; -->
