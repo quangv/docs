@@ -838,7 +838,6 @@ msgstr ""
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Description"
@@ -5676,7 +5675,6 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:404
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "``platform``"
 msgstr ""
 
@@ -7954,23 +7952,23 @@ msgid "Monaca Localkit can accelerate your app development process because it pr
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:15
-msgid "create and import Cordova project: You can create a new project based on templates provided by Monaca. Moreover, you can import either Monaca project from Monaca Cloud IDE or existing Cordova project."
+msgid "Create and import Cordova project. You can create a new project based on templates provided by Monaca. Moreover, you can import either a Monaca project from Monaca Cloud IDE or an existing Cordova project."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:17
-msgid "live reload of project: By pairing with Monaca Debugger, you can run your project instantly on your device. All changes made to the source code of the project will be updated immediately after those changes are saved."
+msgid "Live reload of the project. By pairing with Monaca Debugger, you can run your project instantly on your device. All changes made to the source code of the project will be updated immediately after those changes are saved."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:19
-msgid "integrate with Chrome DevTools: By connecting your device (running Monaca Debugger) to the host PC (running Monaca Localkit) via USB cable, you can debug your app using Chrome DevTools. With the DevTools, you can set breakpoint and perform JavaScript debugging and app inspection."
+msgid "Integrate with Chrome DevTools. By connecting your device (running Monaca Debugger) to the host PC (running Monaca Localkit) via USB cable, you can debug your app using Chrome DevTools. With Chrome DevTools, you can set breakpoints, and implement JavaScript debugging and app inspection."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:21
-msgid "remote build: Monaca Localkit allows you to build your app for various platforms with the support from Monaca server."
+msgid "Remote build. Monaca Localkit allows you to build your app for various platforms with support from Monaca server."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:24
-msgid "Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely seperated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`."
+msgid "Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely separated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:27
@@ -7978,7 +7976,7 @@ msgid "You are required to have a valid plan in order to use Monaca Localkit. Ot
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:29
-msgid "Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet."
+msgid "Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet."
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:32
@@ -8591,24 +8589,20 @@ msgid "In the following table, there are necessary parameters you will need to u
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
-#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Param"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "``task_name``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
-#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "a name representing your build process."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
-#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "``branch``"
 msgstr ""
 
@@ -8617,7 +8611,6 @@ msgid "Github branch of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
-#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "``tag``"
 msgstr ""
 
@@ -8626,57 +8619,46 @@ msgid "Github tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
-#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "``build``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
-#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "``deploy``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
-#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:30
-#: ../doc/manual/monaca_ci/overview.rst:149
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:31
-#: ../doc/manual/monaca_ci/overview.rst:150
 msgid "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:32
-#: ../doc/manual/monaca_ci/overview.rst:151
 msgid "``default``: a block for default parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:33
-#: ../doc/manual/monaca_ci/overview.rst:152
 msgid "``ios``: a block for iOS parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:34
-#: ../doc/manual/monaca_ci/overview.rst:153
 msgid "``android``: a block for Android parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
-#: ../doc/manual/monaca_ci/overview.rst:155
 msgid "Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services."
 msgstr ""
 
@@ -8697,7 +8679,7 @@ msgid ":ref:`supported_services`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:11
-msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on GitHub and many other Git services. For Monaca CI, every time you push your project code to GitHub, GitHub will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin."
+msgid "Monaca CI (Continuous Integration & Deployment) is a service that has been integrated within the current Monaca development environment stack to automate building and deployment cycles. This automation process is done by using webhooks. Webhooks allow you to build or set up integrations which subscribe to certain events (code commit, branch/tag creation and so on) on  GitHub and many other Git services. For Monaca CI, every time you push your project code to  GitHub,  GitHub will send a HTTP POST payload to Monaca server. If the received information meets the Monaca CI configuration, the automation will begin."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:13
@@ -8705,15 +8687,15 @@ msgid "Therefore, Monaca CI lets developers focus more on the code and less on t
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:18
-msgid "In order to use Monaca CI, you will need to integrate GitHub with your Monaca account. If you haven't done it, please follow the instruction below:"
+msgid "In order to use Monaca CI, you will need to integrate  GitHub with your Monaca account. If you haven't done it, please follow the instruction below:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:20
-msgid "Link your Monaca account to GitHub. Please refer to :ref:`github_integration`."
+msgid "Link your Monaca account to  GitHub. Please refer to :ref:`github_integration`."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:21
-msgid "Connect your project to your GitHub repository. Please refer to :ref:`version_control_configuration`."
+msgid "Connect your project to your  GitHub repository. Please refer to :ref:`version_control_configuration`."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:23
@@ -8725,7 +8707,7 @@ msgid "Getting Started with Monaca CI"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:29
-msgid "Assuming you have successfully linked a GitHub repository to your project, you are now ready to enable Monaca CI. Please do as follows:"
+msgid "Assuming you have successfully linked a  GitHub repository to your project, you are now ready to enable Monaca CI. Please do as follows:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:31
@@ -8733,11 +8715,11 @@ msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Continuous I
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:33
-msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`)."
+msgid "Under JSON Settings section, you will see the following default :ref:`JSON script <monaca_ci_json>`. This script controls the automation behaviours of Monaca CI. For example, with this default JSON script, Monaca CI will tell Monaca server to generate both debug and release builds of your project for iOS platform every time you push your project code to a valid  GitHub's branch/tag as configured using regular expression inside the script. Once the build process is completed, you can find these built files under Build History panel (:menuselection:`Build --> Build History`)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:53
-msgid "By default, Monaca CI is disable. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed."
+msgid "Monaca CI is disabled by default. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:63
@@ -8765,7 +8747,7 @@ msgid "Go to Continuous Integration panel, you will see your newly added service
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:87
-msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the GitHub's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notfication for iOS devices. Therefore, your JSON script should look like this:"
+msgid "Configure your deploy service in JSON script. Assuming that you want to generate debug build of your project for both iOS and Android platforms when you push the project code to the  GitHub's branch called ``\"release\"``. Then, distribute the built files to ``Deploy Gate`` service which has a release note and disable the email notification for iOS devices. Therefore, your JSON script should look like this:"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:117
@@ -8778,14 +8760,6 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:125
 msgid "JSON Settings Configuration"
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:139
-msgid "GitHub branch of the project you want to build."
-msgstr ""
-
-#: ../doc/manual/monaca_ci/overview.rst:141
-msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161

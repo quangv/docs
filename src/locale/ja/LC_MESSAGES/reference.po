@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-12 06:15+0000\n"
+"PO-Revision-Date: 2016-09-29 02:40+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -19928,7 +19928,7 @@ msgstr "**chunkedMode**"
 msgid ""
 "Whether to upload the data in chunked streaming mode. Defaults to ``true``. "
 "(Boolean)"
-msgstr "チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かを設定します。デフォルトは、``true`` です。 (Boolean)"
+msgstr "チャンク/チャンクド形式のストリーミング ( chunked streaming mode ) を使用して、データのアップロードを行うか否かの設定。デフォルトは、``true`` です。 (Boolean)"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:117
 msgid "**headers**"
@@ -20009,7 +20009,7 @@ msgid ""
 "``resolveLocalFileSystemURL`` and calling ``fs.root`` in the success "
 "callback. Use the ``getFile`` method of DirectoryEntry to create the target "
 "file."
-msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、また、この例では FileEntry オブジェクトとなります )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
+msgstr "ファイル操作プラグイン ( File プラグイン ) とファイル転送プラグインを併用して、target の作成/取得とファイルのダウンロードを行います ( ダウンロード時の target とは、「 端末上のファイルの位置を指し示す、ファイルシステムの URL 」 であり、この例では、FileEntry オブジェクトを指します )。ファイルをダウンロードする前に、``resolveLocalFileSystemURL`` を使用して、DirectoryEntry オブジェクトを作成/取得します。成功時のコールバックでは、DirectoryEntry の ``fs.root.getFile`` メソッドを使用して、ダウンロード先となるファイル ( FileEntry ) を作成/取得します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:412
 msgid ""
@@ -20041,7 +20041,7 @@ msgid ""
 "``readAsArrayBuffer`` and pass the FileEntry object to the method. Once you "
 "read the file successfully, construct a Blob object using the result of the "
 "read."
-msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blog オブジェクトを作成します。"
+msgstr "バイナリーファイルの読み込み後に、なんらかの処理をする場合、FileReader の ``readAsBinaryString`` と ``readAsArrayBuffer`` の 2 つのメソッドを使用できます。ここでは、``readAsArrayBuffer`` を使用し、FileEntry オブジェクトをこのメソッドに渡します。ファイルの読み込み後は、その処理結果を使用して、Blob オブジェクトを作成します。"
 
 #: ../doc/reference/cordova_6.2/file-transfer/index.rst:483
 msgid ""
@@ -21040,7 +21040,7 @@ msgstr "この設定は、プラグインではなく、``window.open()`` の呼
 
 #: ../doc/reference/index.rst:2
 msgid "API"
-msgstr "API"
+msgstr "各種 API"
 
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"
@@ -24933,7 +24933,7 @@ msgstr "Monaca API を有効化して、アクセスするためには、.html �
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:5
 msgid "Monaca Cloud & Remote Build API Guide"
-msgstr ""
+msgstr "Monaca クラウド & リモートビルド API "
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:7
 msgid ""
@@ -24942,73 +24942,73 @@ msgid ""
 "able to use cloud services and remote build functions as if you are using "
 ":ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI "
 "<monaca_cli_index>`."
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 を組み込めば、Cordova アプリのビルド処理を始め、Monaca クラウドが提供する各種 Web サービスを使用することができます。:ref:`Monaca クラウド IDE <monaca_ide_index>` と :ref:`Monaca CLI <monaca_cli_index>` でも提供しているサービス・機能が、この API 経由で使用できるようになります。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
 msgid ""
 "In this page, we will talk about how to integrate Monaca Cloud & Remote "
 "Build API with Node.js projects and its usage."
-msgstr ""
+msgstr "ここでは、Node.js を使用したプロジェクトを例として、「 Monaca クラウド & リモートビルド API 」 の組み込み方法と使用方法を解説します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:12
 msgid "Integrating Monaca Cloud & Remote Build API"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 の組み込み方法"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:14
 msgid ""
 "Monaca Cloud & Remote Build API is wrapped in a npm library called `monaca-"
 "lib <https://github.com/monaca/monaca-lib>`_. In order to use the APIs in "
 "your Node.js project, please do as follows:"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 は、`monaca-lib ( GitHub 上 ) <https://github.com/monaca/monaca-lib>`_ のライブラリー内に置かれている API 群の総称を指します。プロジェクトの中で、この API ( 群 ) を使用する場合、次の手順に従います ( ここでは、Node.js を使用したプロジェクトを例にします )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:16
 msgid "Install ``monaca-lib``."
-msgstr ""
+msgstr "``monaca-lib`` をインストールします。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:22
 msgid "Call this module in your js file:"
-msgstr ""
+msgstr "js ファイル内で、次のようにモジュールを呼び出します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:28
 msgid ""
 "You can now use any Monaca Cloud & Remote Build API in your js file now. For"
 " example:"
-msgstr ""
+msgstr "呼び出し後は、次のように、「 Monaca クラウド & リモートビルド API 」 を使用できます ( ｊｓ ファイル内 )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca Cloud & Remote Build API Usage"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 の使用方法"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:46
 msgid ""
 "The supported features for Monaca Cloud & Remote Build API are as follows:"
-msgstr ""
+msgstr "「 Monaca クラウド & リモートビルド API 」 が提供しているサービス・機能の例を、次に記します。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:48
 msgid "Sign in / sign out to/from Monaca."
-msgstr ""
+msgstr "Monaca へのサインイン、Monaca からのサインアウト"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:49
 msgid "Creating a new project."
-msgstr ""
+msgstr "プロジェクトの新規作成"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:50
 msgid "Compile and build the project."
-msgstr ""
+msgstr "プロジェクトのコンパイルとビルド"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:51
 msgid "Sync with Monaca Cloud project."
-msgstr ""
+msgstr "Monaca クラウド側のプロジェクトとの同期"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:52
 msgid "Transpile local project."
-msgstr ""
+msgstr "ローカルプロジェクトの変換処理 ( トランスパイル/Transpile )"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:55
 msgid ""
 "Please refer to ``src/monaca.js`` file in the ``monaca-lib`` regarding the "
 "list of all availabe APIs and their usage."
-msgstr ""
+msgstr "機能の詳細 ( 各 API の詳細 ) は、``monaca-lib/src/monaca.js`` ファイル内をご確認ください。"
 
 #: ../doc/reference/monaca_api/utility-34.rst:3
 msgid "Utilities"
@@ -25248,7 +25248,7 @@ msgid ""
 "This plugin updates HTML5 assets contained in the app without rebuilding and"
 " packaging the app. You need a Web server to host the updated files which "
 "will be accessed from the app."
-msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
+msgstr "アプリで使用している HTML5 アセットを、再ビルド・再パッケージ化を行わずに、更新するためのプラグイン ( Monaca In-App Updater ) です。なお、更新ファイルをホストする Web サーバーが、別途、必要になります。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:21
 #: ../doc/reference/power_plugins/sqlcipher.rst:31
@@ -25353,7 +25353,7 @@ msgstr "更新用ファイルの作成"
 msgid ""
 "In order to use this plugin, you will need a :file:`update.json` file in "
 "addition to Android and/or iOS update files."
-msgstr "このプラグインを使用する場合、更新用ファイル ( 各 プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
+msgstr "このプラグインを使用する場合、更新用ファイル ( 各プラットフォーム向け ) に加え、 :file:`update.json` ファイルが必要です。"
 
 #: ../doc/reference/power_plugins/in-app_updater.rst:94
 msgid "File Name"
@@ -26183,7 +26183,7 @@ msgstr "platform 要素のブロック内に置かれている preference は、
 msgid ""
 "Platform-specific preferences must be prefixed with the platform name (e.g. "
 "name=\"ios-somepref\") and be defined inside a ``<platform>`` element."
-msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` 要素 ( 例 : name=\\\"ios-somepref\\\" ) のブロック内に置きます。"
+msgstr "特定のプラットフォーム向けの preference は、プラットフォーム名が指定された ``<platform>`` 要素 ( 例 : name=\"ios-somepref\" ) のブロック内に置きます。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:53
 msgid "Config Blocks"

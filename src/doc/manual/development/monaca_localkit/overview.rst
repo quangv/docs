@@ -12,21 +12,21 @@ Monaca Localkit is a tool to support local development environment for Monaca ap
 
 Monaca Localkit can accelerate your app development process because it provides the following functions:
 
-- create and import Cordova project: You can create a new project based on templates provided by Monaca. Moreover, you can import either Monaca project from Monaca Cloud IDE or existing Cordova project.
+- Create and import Cordova project. You can create a new project based on templates provided by Monaca. Moreover, you can import either a Monaca project from Monaca Cloud IDE or an existing Cordova project.
 
-- live reload of project: By pairing with Monaca Debugger, you can run your project instantly on your device. All changes made to the source code of the project will be updated immediately after those changes are saved.
+- Live reload of the project. By pairing with Monaca Debugger, you can run your project instantly on your device. All changes made to the source code of the project will be updated immediately after those changes are saved.
 
-- integrate with Chrome DevTools: By connecting your device (running Monaca Debugger) to the host PC (running Monaca Localkit) via USB cable, you can debug your app using Chrome DevTools. With the DevTools, you can set breakpoint and perform JavaScript debugging and app inspection.
+- Integrate with Chrome DevTools. By connecting your device (running Monaca Debugger) to the host PC (running Monaca Localkit) via USB cable, you can debug your app using Chrome DevTools. With Chrome DevTools, you can set breakpoints, and implement JavaScript debugging and app inspection.
 
-- remote build: Monaca Localkit allows you to build your app for various platforms with the support from Monaca server.
+- Remote build. Monaca Localkit allows you to build your app for various platforms with support from Monaca server.
 
 
-.. note:: Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely seperated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`.
+.. note:: Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely separated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`.
 
 
 .. note:: You are required to have a valid plan in order to use Monaca Localkit. Otherwise, Monaca Localkit will run in an evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ for more details of each Monaca plan.
 
-.. warning:: Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet.
+.. warning:: Please note that :ref:`Monaca Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet.
 
 Installation and Setup
 ===============================

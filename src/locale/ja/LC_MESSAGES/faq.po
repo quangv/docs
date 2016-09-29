@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-12 07:13+0000\n"
+"PO-Revision-Date: 2016-09-28 03:18+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -39,9 +39,8 @@ msgstr "アプリ上でのアドネットワークの掲載に関しては、Mon
 msgid ""
 "If they are InMobi, mediba (Japanese) or nend (Japanese), you can display "
 "the ads in apps created by Monaca. In regard to nend, please refer to "
-":doc:`../sampleapp/tips/external_services/nend_ad`. Please refer to "
-":ref:`inmobi_sample` regarding the sample app using InMobi."
-msgstr "InMobi、mediba ( 日本の会社 )、nend ( 日本の会社 ) であれば、Monaca で作成したアプリ内に、広告を載せることができます。nend に関しては、 :doc:`../sampleapp/tips/external_services/nend_ad` をご確認ください。InMobi を使用したサンプルアプリに関しては、 :ref:`inmobi_sample` をご確認ください。"
+":doc:`../sampleapp/tips/external_services/nend_ad`."
+msgstr "InMobi、mediba ( 日本の会社 )、nend ( 日本の会社 ) であれば、Monaca で作成したアプリ内に、広告を載せることができます。nend に関しては、 :doc:`../sampleapp/tips/external_services/nend_ad` をご確認ください。"
 
 #: ../doc/faq/application.rst:16
 msgid ""
@@ -170,7 +169,7 @@ msgid ""
 "provided by Monaca. However, In order to add Custom Cordova plugin, you will"
 " need to have a Gold or Platinum plan. To add a custom Cordova plugin, "
 "please refer to :ref:`custom_cordova_plugin`."
-msgstr "Basic と Personal プランでも、各種組み込み Cordova プラグイン ( 基本プラグイン、サードパーティー製プラグイン など ) をご利用いただけます。Monaca でご利用いただけるサードパーティー製の Cordova プラグインに関しては、 :ref:`third_party_cordova_index` をご確認ください。自作のユーザー Cordova プラグインを使用する場合には、Gold または Platinum プランが必要となります。ユーザー Cordova プラグインの追加方法に関しては、 :ref:`custom_cordova_plugin` をご確認ください。"
+msgstr "Basic と Personal プランでも、各種組み込み Cordova プラグイン ( 基本プラグイン、サードパーティー製プラグイン など ) をご利用いただけます。Monaca でご利用いただけるサードパーティー製の Cordova プラグインに関しては、 :ref:`third_party_cordova_index` をご確認ください。また、自作のユーザー Cordova プラグインを使用する場合には、Gold または Platinum プランが必要となります。ユーザー Cordova プラグインの追加方法に関しては、 :ref:`custom_cordova_plugin` をご確認ください。"
 
 #: ../doc/faq/application.rst:101
 msgid "Tell me about restrictions for developing Windows Store apps."
@@ -186,7 +185,7 @@ msgid ""
 "standard JavaScript and HTML5 that can't be used. For more details, please "
 "refer to `HTML, CSS, and JavaScript features and difference "
 "<http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_."
-msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能が使用されます。PhoneGap 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
+msgstr "Windows ストアアプリの開発では、JavaScript と HTML5 のネイティブ機能が使用されます。Cordova 側に実装されている機能は利用できません。そのため、Windows ( Windows ストアアプリ ) と他のプラットフォームの両方で動作するアプリを開発する場合、この点に留意する必要があります。なお、Windows ストアアプリでは、JavaScript と HTML5 の標準機能とプロパティーの一部に使用できないものがあります。詳しくは、 `HTML, CSS, and JavaScript features and difference ( 機能と相違点に関して ) <http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:108
 msgid "Can I develop a full-screen app?"
@@ -198,7 +197,7 @@ msgid ""
 "*AndroidManifest* or :file:`MonacaApp-Info.plist` file. For more details, "
 "please refer to `here "
 "<https://docs.monaca.io/en/reference/config/ios_configuration/>`_ ."
-msgstr ""
+msgstr "*AndroidManifest* または :file:`MonacaApp-Info.plist` ファイルに所定の記述を行うことで、全画面表示のアプリを作成できます。詳細に関しては、`こちら <https://docs.monaca.io/ja/reference/config/ios_configuration/>`_ をご確認ください。"
 
 #: ../doc/faq/application.rst:116
 msgid "Can I always use the latest version of Cordova?"
@@ -273,7 +272,7 @@ msgid ""
 "folder. If your project is created before that, ``config.xml`` file is "
 "located as ``android/config.xml`` and  ``ios/config.xml`` for Android and "
 "iOS respectively."
-msgstr "2014年4月2日から、 ``config.xml`` ファイルは、 ``www`` フォルダー下に置かれるように、仕様が変更されました。これより前に作成されたプロジェクトの場合、 ``android/config.xml`` ( Android の場合 ) と ``ios/config.xml`` ( iOS の場合 ) のように、``config.xml`` ファイルが置かれています。"
+msgstr "2014年4月2日から、仕様が変更され、``config.xml`` ファイルは、``www`` フォルダー下に置かれるようになりました。これより前に作成されたプロジェクトの場合、 ``android/config.xml`` ( Android の場合 ) と ``ios/config.xml`` ( iOS の場合 ) のように、``config.xml`` ファイルが置かれています。"
 
 #: ../doc/faq/application.rst:183
 msgid "Cordova APIs (such as camera, compass, and so on) are not working"
@@ -394,7 +393,7 @@ msgstr "証明書の期限切れ、証明書の再発行が必要になってい
 msgid ""
 "I don't know about how to build iOS apps or the certificates-related "
 "procedures."
-msgstr "iOS 向けアプリのビルド方法、関連した証明書の発行手続がわかりません。"
+msgstr "iOS 向けアプリのビルド方法、関連した証明書の発行手続などがわかりません。"
 
 #: ../doc/faq/build.rst:46
 msgid ""
@@ -428,11 +427,11 @@ msgstr "App Store への申請方法を、次に記します ( iTunes Connect �
 msgid ""
 "using :ref:`Monaca Upload <upload_via_ide>` (requires `a valid subscription "
 "plan <https://monaca.io/pricing.html>`_)"
-msgstr ""
+msgstr ":ref:`Monaca 提供のアップロード機能 <upload_via_ide>` を使用する場合 ( `対応する料金プラン <https://monaca.io/pricing.html>`_ への加入が必要です )"
 
 #: ../doc/faq/build.rst:65
 msgid "using Application Loader software (Mac OS X only)"
-msgstr ""
+msgstr "Application Loader ソフトウェアを使用する場合 ( Application Loader は、Mac OS X 専用のソフトウェアです )"
 
 #: ../doc/faq/build.rst:71
 msgid ""
@@ -541,7 +540,7 @@ msgstr "スプラッシュ画面に使用している画像が適当か確認し
 msgid ""
 "There may be a description error in the :file:`MonacaApp-Info.plist` in case"
 " of iOS or :file:`AndroidManifest.xml` in case of Android."
-msgstr ""
+msgstr ":file:`MonacaApp-Info.plist` ( iOS の場合 )、または、:file:`AndroidManifest.xml` ( Android の場合 ) 内の記述が適当か確認してください。"
 
 #: ../doc/faq/build.rst:121
 msgid ""
@@ -699,7 +698,7 @@ msgid ""
 "stored in the iCloud backup storage when BackupWebStorage parameter is set "
 "to none. If you want to backup your data to iCloud, please set the parameter"
 " to cloud."
-msgstr "iOS 6.0 またはそれ以降のバージョンを対象とする、Web SQL Database を使用した、アプリ開発を行っている場合、デフォルト ( BackupWebStorage パラメータが cloud に設定されている場合 ) では、データベースが作成したファイルは、iCloud 内に保存されます。その場合、iCloud を使用する旨を、App Store へのアプリの申請時に、宣言する必要があります。宣言をしない場合、申請が却下されることがあります。また、BackupWebStorage パラメータに none を設定した場合、Web SQL Database ファイルは、iCloud バックアップ ストレージに保存されません。データのバックアップを iCloud で行うには、パラメータを cloud に設定します。"
+msgstr "iOS 6.0 またはそれ以降のバージョンを対象とする、Web SQL Database を使用したアプリの開発を行っている場合、デフォルト ( BackupWebStorage パラメータが cloud に設定されている場合 ) では、データベースが作成したファイルは、iCloud 内に保存されます。その場合、iCloud を使用する旨を、App Store へのアプリの申請時に、宣言する必要があります。宣言をしない場合、申請が却下されることがあります。また、BackupWebStorage パラメータに none を設定した場合、Web SQL Database ファイルは、iCloud バックアップ ストレージに保存されません。データのバックアップを iCloud で行うには、パラメータを cloud に設定します。"
 
 #: ../doc/faq/build.rst:200
 msgid ""
@@ -969,7 +968,7 @@ msgid ""
 "IDE. This can be done by using :ref:`Monaca Localkit "
 "<monaca_localkit_index>`, :ref:`Monaca CLI <monaca_cli_index>` and "
 ":ref:`Monaca for Visual Studio <monaca_vs_index>`."
-msgstr "また、Monaca クラウド IDE ではなく、ローカル PC 上でも、開発を行えます。ローカル環境用の開発ツールとして、:ref:`Monaca Localkit <monaca_localkit_index>` 、:ref:`Monaca CLI <monaca_cli_index>`、:ref:`Monaca for Visual Studio <monaca_vs_index>` をご利用いただけます。"
+msgstr "また、Monaca クラウド IDE 以外にも、ローカル環境用の開発ツールとして、:ref:`Monaca Localkit <monaca_localkit_index>` 、:ref:`Monaca CLI <monaca_cli_index>`、:ref:`Monaca for Visual Studio <monaca_vs_index>` を提供しています。"
 
 #: ../doc/faq/environment.rst:14
 msgid ""
@@ -1003,7 +1002,7 @@ msgid ""
 "library for accessing unique features of mobile devices. Through Cordova, "
 "your app can access unique features of mobile device using JavaScript, so it"
 " is not necessary to use Java (Android) and Objective-C (iPhone/iPad)."
-msgstr ""
+msgstr "Monaca では、`Apache Cordova <http://cordova.apache.org//>`_ を活用しています ( 携帯端末搭載の機能にアクセスするときに、ライブラリーとして、Cordova を使用します )。これにより、JavaScript を使用して、Cordova 経由で、携帯端末の機能にアクセスできるようになりました。よって、Java ( Android ) または Objective-C ( iPhone/iPad ) を使用しなくても、スマートフォン上で動作するアプリを開発できます。"
 
 #: ../doc/faq/environment.rst:33
 msgid ""
@@ -1061,7 +1060,7 @@ msgid ""
 " you need an application uploader software provided by Apple which only runs"
 " on Mac. In other words, you will need Mac when uploading the app to the App"
 " Store."
-msgstr "Mac をお持ちでなくても、Monaca ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
+msgstr "Mac をお持ちでなくても、Monaca クラウド IDE ( Web ブラウザー上で動作 ) を使用すれば、iOS 向けアプリを PC で作成できます。iOS アプリのビルド、および、端末へのインストールに関しては、 `iOS Developer Program <https://developer.apple.com/programs/ios/>`_ に事前に登録する必要があります。また、リリースビルドを作成して、App Store へ申請する場合には、Application Loader ソフトウェアが必要であり ( Apple 社から無償提供 )、このソフトウェアは、Mac 上でのみ動作するため、Mac が必要となります。"
 
 #: ../doc/faq/environment.rst:60
 msgid "I can't open Monaca Cloud IDE."
@@ -1469,7 +1468,7 @@ msgstr "FAQ"
 msgid ""
 "Here is the list of frequently asked questions about Monaca. Please refer to"
 " it as a development resource."
-msgstr "Monacaに関するよくある質問を列挙しています。開発資料として参考にしてください。"
+msgstr "Monaca に関するよくある質問を列挙しています。開発資料として参考にしてください。"
 
 #: ../doc/faq/subscription.rst:2
 msgid "Subscription"
@@ -1485,7 +1484,7 @@ msgstr "`Monaca <https://ja.monaca.io/>`_ にログインします。"
 
 #: ../doc/faq/subscription.rst:10
 msgid "Go to `Pricing page <https://monaca.mobi/en/pricing?type=1>`_."
-msgstr ""
+msgstr "`料金プラン <https://monaca.mobi/ja/pricing?type=1>`_ の画面を表示します。"
 
 #: ../doc/faq/subscription.rst:11
 msgid ""
@@ -1576,7 +1575,7 @@ msgstr "HTML5/CSS3/JavaScript でコードを記述します。"
 
 #: ../doc/faq/usage.rst:21
 msgid "If needed, check application operations using Monaca Debugger."
-msgstr "Monaca デバッガーを必要に応じて使用し、アプリの確認を行う。"
+msgstr "Monaca デバッガーを必要に応じて使用し、アプリの動作確認を行います。"
 
 #: ../doc/faq/usage.rst:22
 msgid ""
@@ -1588,7 +1587,7 @@ msgstr "対象のプラットフォーム向けのビルド設定を行い、ア
 msgid ""
 "Download and install the built application file (.app/.apk) in a smartphone "
 "device."
-msgstr "ビルドされたアプリパッケージ （ .app または .apk ） をダウンロードし、端末にインストールする。"
+msgstr "ビルドされたアプリパッケージ （ .app または .apk ） をダウンロードし、端末にインストールします。"
 
 #: ../doc/faq/usage.rst:25
 msgid ""
@@ -1603,7 +1602,7 @@ msgstr "プロジェクトのテンプレートを自作できますか？"
 
 #: ../doc/faq/usage.rst:33
 msgid "We do not offer a template function for the projects."
-msgstr "プロジェクトのテンプレート機能は提供していません。"
+msgstr "プロジェクトのテンプレート自作機能は提供していません。"
 
 #: ../doc/faq/usage.rst:38
 msgid ""
@@ -1651,7 +1650,7 @@ msgid ""
 "Yes, Monaca supports team development. Users can share their projects to "
 "other registered users using the team function in Monaca Cloud IDE. For more"
 " detail, please refer to :ref:`team_tab`."
-msgstr "Monaca クラウド IDE のチーム管理機能を使用して、Monaca に登録したメンバー間で、プロジェクトを共有できます。詳細に関しては、 :ref:`team_tab` をご確認ください。"
+msgstr "Monaca クラウド IDE のチーム管理機能を使用して、Monaca に登録されたメンバー間で、プロジェクトを共有できます。詳細に関しては、 :ref:`team_tab` をご確認ください。"
 
 #: ../doc/faq/usage.rst:66
 msgid "The usability of this function depends on your usage plan with Monaca."
