@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-29 02:40+0000\n"
+"PO-Revision-Date: 2016-09-30 01:46+0000\n"
 "Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -15181,6 +15181,7 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:61
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:141
 #: ../doc/reference/cordova_6.2/vibration/index.rst:83
+#: ../doc/reference/index.rst:2
 msgid "API Reference"
 msgstr "API の解説"
 
@@ -21038,10 +21039,6 @@ msgid ""
 "``window.open()``."
 msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクだけに適用されます。"
 
-#: ../doc/reference/index.rst:2
-msgid "API"
-msgstr "各種 API"
-
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"
 msgstr "バックエンド API"
@@ -24942,7 +24939,7 @@ msgid ""
 "able to use cloud services and remote build functions as if you are using "
 ":ref:`Monaca Cloud IDE <monaca_ide_index>` or :ref:`Monaca CLI "
 "<monaca_cli_index>`."
-msgstr "「 Monaca クラウド & リモートビルド API 」 を組み込めば、Cordova アプリのビルド処理を始め、Monaca クラウドが提供する各種 Web サービスを使用することができます。:ref:`Monaca クラウド IDE <monaca_ide_index>` と :ref:`Monaca CLI <monaca_cli_index>` でも提供しているサービス・機能が、この API 経由で使用できるようになります。"
+msgstr "「 Monaca クラウド & リモートビルド API 」 を組み込めば、Cordova アプリのビルド処理を始め、Monaca クラウドが提供する各種 Web サービスを使用することができます ( :ref:`Monaca クラウド IDE <monaca_ide_index>` と :ref:`Monaca CLI <monaca_cli_index>` で提供しているサービス・機能が、この API 経由で使用できるようになります )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:9
 msgid ""
@@ -24973,7 +24970,7 @@ msgstr "js ファイル内で、次のようにモジュールを呼び出しま
 msgid ""
 "You can now use any Monaca Cloud & Remote Build API in your js file now. For"
 " example:"
-msgstr "呼び出し後は、次のように、「 Monaca クラウド & リモートビルド API 」 を使用できます ( ｊｓ ファイル内 )。"
+msgstr "呼び出し後は、次のように、「 Monaca クラウド & リモートビルド API 」 を使用できます ( js ファイル内 )。"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:44
 msgid "Monaca Cloud & Remote Build API Usage"
@@ -25002,7 +24999,7 @@ msgstr "Monaca クラウド側のプロジェクトとの同期"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:52
 msgid "Transpile local project."
-msgstr "ローカルプロジェクトの変換処理 ( トランスパイル/Transpile )"
+msgstr "プロジェクトのコード変換 ( トランスパイル/Transpile )"
 
 #: ../doc/reference/monaca_api/monaca_api_guide.rst:55
 msgid ""
@@ -26008,7 +26005,7 @@ msgid ""
 "<import_cordova_plugin>` it. In order to import this plugin, you need to "
 "subscribe to a valid plan. Please refer to `Pricing "
 "<https://monaca.io/pricing.html>`_."
-msgstr "どのプランをご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインのインポートには、対応するプランへの加入が必要です。プランの詳細は、 `こちら <https://ja.monaca.io/pricing.html>>`_ をご確認ください。"
+msgstr "どのプランをご利用の場合でも、こちらの Repro サービスをご利用いただけます。最新の Repro プラグインを使用する場合 ( `Github <https://github.com/reproio/repro-ios-sdk>`_ 経由で入手 ) には、こちらの :ref:`インポート <import_cordova_plugin>` 機能をご利用ください。なお、プラグインのインポートには、対応するプランへの加入が必要です。プランの詳細は、`こちら <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/reference/service_integration/repro.rst:16
 msgid "Add Repro Service to Monaca"
@@ -26049,7 +26046,7 @@ msgstr "Repro の管理画面へ移動して、 :guilabel:`設定 --> SDK セッ
 msgid ""
 "After you get the app's token, replace it in the following snippet of "
 "``onDeviceReady`` function. Then, add this snippet to your project."
-msgstr "アプリのトークンの確認後、下記の ``onDeviceReady`` 関数の 「 YOUR_APP_TOKEN 」 の箇所に、トークンを挿入します。挿入後、次のコードをプロジェクトに追加します。"
+msgstr "アプリのトークンの確認後、次の ``onDeviceReady`` 関数の 「 YOUR_APP_TOKEN 」 の箇所に、トークンを挿入します。挿入後、次のコードをプロジェクトに追加します。"
 
 #: ../doc/reference/service_integration/repro.rst:72
 msgid ""
@@ -26117,7 +26114,7 @@ msgid ""
 "Info.plist`` file respectively. However, for Cordova 6.2 or higher, both "
 ":file:`AndroidManifest.xml` and ``MonacaApp-Info.plist`` files are removed "
 "from Monaca framework."
-msgstr "Cordova 5.2 以前のバージョンをサポートする Monaca フレームワークでは、:file:`AndroidManifest.xml` ( Android の場合 ) または ``MonacaApp-Info.plist`` ( iOS の場合 ) を編集すれば、アプリのデフォルトの挙動を制御することができました。Cordova 6.2 以降のバージョンをサポートする Monaca フレームワークでは、仕様が変更され、:file:`AndroidManifest.xml` と ``MonacaApp-Info.plist`` のいずれのファイルも使用しなくなりました。"
+msgstr "Cordova 5.2 以前のバージョンをサポートしていた Monaca フレームワークでは、:file:`AndroidManifest.xml` ( Android の場合 ) または ``MonacaApp-Info.plist`` ( iOS の場合 ) を編集すれば、アプリのデフォルトの挙動を制御することができました。Cordova 6.2 以降のバージョンをサポートする Monaca フレームワークでは、仕様が変更され、:file:`AndroidManifest.xml` と ``MonacaApp-Info.plist`` のいずれのファイルも使用しなくなりました。"
 
 #: ../doc/reference/third_party_phonegap/custom_config.rst:9
 msgid ""

@@ -1,5 +1,5 @@
 
-FAQs
+FAQ
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here is the list of frequently asked questions about Monaca. Please refer to it as a development resource. 

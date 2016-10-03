@@ -29,8 +29,28 @@
     <div class="headcont">
         <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
         <nav class="global" data-pjax>
-            {{{globaltoc}}}
+            {{#if toctree}}
+                {{{globaltoc}}}
+                <!-- {{#is lang "ja"}}
+                    {{> navigation.ja }}
+                {{else}}
+                    {{> top_menu.en }}
+                {{/is}} -->
+            {{else}}
+                <div class="overview-btn">
+                    {{#is lang "ja"}}
+                        <p><a class="title" href="/ja/products_guide/monaca_intro/">Monaca での開発の概要</a></p>
+                    {{else}}
+                        <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Development Overview</a></p>
+                    {{/is}}
+                    
+                </div>
+                
+                
+            {{/if}}
         </nav>
+
+
         <p class="version_selector">
             {{#if cordovaVersions}}
                 {{#is lang "ja"}}Cordova {{else}}Cordova {{/is}}

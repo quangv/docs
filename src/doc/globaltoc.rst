@@ -1,10 +1,11 @@
 .. toctree::
   :maxdepth: 2
 
-  quick_start/index
-  sampleapp/index
-  manual/index
+  products_guide/index
+  tutorials/index
   reference/index
-  onsenui/index
+  sampleapp/index
   faq/index
+
+
 
