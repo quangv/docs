@@ -9,6 +9,7 @@ msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
 "Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,211 +19,211 @@ msgstr ""
 
 #: ../doc/monaca_ide/faq/index.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../doc/monaca_ide/faq/index.rst:5
 msgid ""
 "Here is the list of frequently asked questions about Monaca. Please refer to"
 " it as a development resource."
-msgstr ""
+msgstr "Monaca に関するよくある質問を列挙しています。開発資料として参考にしてください。"
 
 #: ../doc/monaca_ide/index.rst:5
 msgid "Monaca Cloud IDE"
-msgstr ""
+msgstr "Monaca クラウド IDE"
 
 #: ../doc/monaca_ide/manual/editor.rst:5
 msgid "Editor Shortcuts"
-msgstr ""
+msgstr "エディターのショートカット一覧"
 
 #: ../doc/monaca_ide/manual/editor.rst:12
 msgid "Editor Shortcuts List"
-msgstr ""
+msgstr "エディターのショートカット一覧"
 
 #: ../doc/monaca_ide/manual/editor.rst:15
 msgid "Windows/Linux"
-msgstr ""
+msgstr "Windows/Linux"
 
 #: ../doc/monaca_ide/manual/editor.rst:15
 msgid "Mac"
-msgstr ""
+msgstr "Mac OS"
 
 #: ../doc/monaca_ide/manual/editor.rst:15
 #: ../doc/monaca_ide/manual/zen_coding.rst:53
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../doc/monaca_ide/manual/editor.rst:17
 msgid "Ctrl-F"
-msgstr ""
+msgstr "Ctrl-F"
 
 #: ../doc/monaca_ide/manual/editor.rst:17
 msgid "Command-F"
-msgstr ""
+msgstr "Command-F"
 
 #: ../doc/monaca_ide/manual/editor.rst:17
 msgid "Find"
-msgstr ""
+msgstr "検索ボックスを表示します。"
 
 #: ../doc/monaca_ide/manual/editor.rst:18
 #: ../doc/monaca_ide/manual/editor.rst:18
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../doc/monaca_ide/manual/editor.rst:18
 msgid "Find next (when focusing on search box)"
-msgstr ""
+msgstr "次を検索します ( 検索ボックスがフォーカスされていること )。"
 
 #: ../doc/monaca_ide/manual/editor.rst:19
 #: ../doc/monaca_ide/manual/editor.rst:19
 msgid "Shift-Enter"
-msgstr ""
+msgstr "Shift-Enter"
 
 #: ../doc/monaca_ide/manual/editor.rst:19
 msgid "Find previous (when focusing on search box)"
-msgstr ""
+msgstr "前方向に、検索します ( 検索ボックスがフォーカスされていること )。"
 
 #: ../doc/monaca_ide/manual/editor.rst:20
 #: ../doc/monaca_ide/manual/editor.rst:20
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: ../doc/monaca_ide/manual/editor.rst:20
 msgid "Increase Indent"
-msgstr ""
+msgstr "インデントを上げます。"
 
 #: ../doc/monaca_ide/manual/editor.rst:21
 #: ../doc/monaca_ide/manual/editor.rst:21
 msgid "Shift-Tab"
-msgstr ""
+msgstr "Shift-Tab"
 
 #: ../doc/monaca_ide/manual/editor.rst:21
 msgid "Decrease Indent"
-msgstr ""
+msgstr "インデントを下げます。"
 
 #: ../doc/monaca_ide/manual/editor.rst:22
 msgid "Ctrl-I"
-msgstr ""
+msgstr "Ctrl-I"
 
 #: ../doc/monaca_ide/manual/editor.rst:22
 msgid "Command-I"
-msgstr ""
+msgstr "Command-I"
 
 #: ../doc/monaca_ide/manual/editor.rst:22
 msgid "Format the selected text (valid for JS, HTML and CSS.)"
-msgstr ""
+msgstr "選択した範囲を整形します ( JS、HTML、CSS が対象 )。"
 
 #: ../doc/monaca_ide/manual/editor.rst:23
 #: ../doc/monaca_ide/manual/editor.rst:23
 msgid "Ctrl-K"
-msgstr ""
+msgstr "Ctrl-K"
 
 #: ../doc/monaca_ide/manual/editor.rst:23
 msgid "Comment out"
-msgstr ""
+msgstr "対象の行を、コメントアウトします。"
 
 #: ../doc/monaca_ide/manual/editor.rst:24
 #: ../doc/monaca_ide/manual/editor.rst:24
 msgid "Ctrl-U"
-msgstr ""
+msgstr "Ctrl-U"
 
 #: ../doc/monaca_ide/manual/editor.rst:24
 msgid "Uncomment"
-msgstr ""
+msgstr "挿入したコメントを解除します。"
 
 #: ../doc/monaca_ide/manual/editor.rst:25
 msgid "Ctrl-Z"
-msgstr ""
+msgstr "Ctrl-Z"
 
 #: ../doc/monaca_ide/manual/editor.rst:25
 msgid "Command-Z"
-msgstr ""
+msgstr "Command-Z"
 
 #: ../doc/monaca_ide/manual/editor.rst:25
 #: ../doc/monaca_ide/manual/overview.rst:109
 msgid "Undo"
-msgstr ""
+msgstr "元に戻す"
 
 #: ../doc/monaca_ide/manual/editor.rst:26
 msgid "Ctrl-Shift-Z"
-msgstr ""
+msgstr "Ctrl-Shift-Z"
 
 #: ../doc/monaca_ide/manual/editor.rst:26
 msgid "Command-Shift-Z"
-msgstr ""
+msgstr "Command-Shift-Z"
 
 #: ../doc/monaca_ide/manual/editor.rst:26
 #: ../doc/monaca_ide/manual/overview.rst:111
 msgid "Redo"
-msgstr ""
+msgstr "やり直す"
 
 #: ../doc/monaca_ide/manual/editor.rst:27
 msgid "Ctrl-."
-msgstr ""
+msgstr "Ctrl-."
 
 #: ../doc/monaca_ide/manual/editor.rst:27
 msgid "Command-."
-msgstr ""
+msgstr "Command-."
 
 #: ../doc/monaca_ide/manual/editor.rst:27
 msgid "Increase font size"
-msgstr ""
+msgstr "フォントサイズを大きくします。"
 
 #: ../doc/monaca_ide/manual/editor.rst:28
 msgid "Ctrl-,"
-msgstr ""
+msgstr "Ctrl-,"
 
 #: ../doc/monaca_ide/manual/editor.rst:28
 msgid "Command-,"
-msgstr ""
+msgstr "Command-,"
 
 #: ../doc/monaca_ide/manual/editor.rst:28
 msgid "Decrease font size"
-msgstr ""
+msgstr "フォントサイズを小さくします。"
 
 #: ../doc/monaca_ide/manual/editor.rst:29
 msgid "Ctrl-["
-msgstr ""
+msgstr "Ctrl-["
 
 #: ../doc/monaca_ide/manual/editor.rst:29
 msgid "Command-["
-msgstr ""
+msgstr "Command-["
 
 #: ../doc/monaca_ide/manual/editor.rst:29
 msgid "Show previous tab"
-msgstr ""
+msgstr "左方向に、タブを移動します。"
 
 #: ../doc/monaca_ide/manual/editor.rst:30
 msgid "Ctrl-]"
-msgstr ""
+msgstr "Ctrl-]"
 
 #: ../doc/monaca_ide/manual/editor.rst:30
 msgid "Command-]"
-msgstr ""
+msgstr "Command-]"
 
 #: ../doc/monaca_ide/manual/editor.rst:30
 msgid "Show next tab"
-msgstr ""
+msgstr "右方向に、タブを移動します。"
 
 #: ../doc/monaca_ide/manual/editor.rst:31
 #: ../doc/monaca_ide/manual/editor.rst:31
 msgid "Ctrl-Q"
-msgstr ""
+msgstr "Ctrl-Q"
 
 #: ../doc/monaca_ide/manual/editor.rst:31
 msgid "Close current tab"
-msgstr ""
+msgstr "現在開いているタブを閉じます。"
 
 #: ../doc/monaca_ide/manual/editor.rst:32
 msgid "Ctrl-D"
-msgstr ""
+msgstr "Ctrl-D"
 
 #: ../doc/monaca_ide/manual/editor.rst:32
 msgid "Command-D"
-msgstr ""
+msgstr "Command-D"
 
 #: ../doc/monaca_ide/manual/editor.rst:32
 msgid "Remove the line"
-msgstr ""
+msgstr "行を削除します。"
 
 #: ../doc/monaca_ide/manual/editor.rst:33
 msgid "Ctrl-Shift-D"
