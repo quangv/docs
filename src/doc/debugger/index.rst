@@ -1,1 +1,1 @@
-.. _monaca_debugger_index:===============================Monaca Debugger===============================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  tutorial/index  manual/index  samples/index  faq/index
+.. _monaca_debugger_index:===============================Monaca Debugger===============================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  tutorial/index  manual/index  faq/index

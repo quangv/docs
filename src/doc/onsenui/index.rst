@@ -1,1 +1,1 @@
-.. _monaca_vs_index:==========================================================Onsen UI==========================================================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  tutorial/index  manual/index  samples/index
+.. _monaca_vs_index:==========================================================Onsen UI==========================================================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 1  tutorial/index  manual/index  samples/index

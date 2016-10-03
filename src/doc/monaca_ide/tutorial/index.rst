@@ -7,8 +7,8 @@ Before getting started with this tutorial, you will need:
 .. ifconfig:: language == 'ja'
 
 	- Monacaアカウント。アカウントを持っていない場合は、`こちら <https://monaca.mobi/ja/register/start>`_ から登録してください。
-	- a computer with Internet connection
-	- a smart mobile device (either iOS or Android) if you want to test on real device. [optional]
+	- インターネット接続とコンピューター
+	- スマートデバイス ( 任意、iOS または Android 端末 )。端末上で検証を行う場合には必要となります。
 
 .. ifconfig:: language == 'en'
 	

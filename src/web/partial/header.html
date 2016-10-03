@@ -38,8 +38,15 @@
                 {{/is}} -->
             {{else}}
                 <div class="overview-btn">
-                    <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Overview</a></p>
+                    {{#is lang "ja"}}
+                        <p><a class="title" href="/ja/products_guide/monaca_intro/">Monaca での開発の概要</a></p>
+                    {{else}}
+                        <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Development Overview</a></p>
+                    {{/is}}
+                    
                 </div>
+                
+                
             {{/if}}
         </nav>
 
