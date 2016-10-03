@@ -975,13 +975,13 @@ html[lang=en] header.global nav > div > ul > li:nth-child(4) {
   width: 140px; }
 
 html[lang=en] header.global nav > div > ul > li:nth-child(5) {
-  width: 100px; }
+  width: 90px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(1) {
   width: 150px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(2) {
-  width: 100px; }
+  width: 150px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(3) {
   width: 120px; }
@@ -990,7 +990,7 @@ html[lang=ja] header.global nav > div > ul > li:nth-child(4) {
   width: 150px; }
 
 html[lang=ja] header.global nav > div > ul > li:nth-child(5) {
-  width: 100px; }
+  width: 90px; }
 
 html[lang=ja] header.global nav > div > ul > li a {
   padding-left: 0px;
@@ -2084,6 +2084,10 @@ img.product-logo-v2 {
   margin: 20px 0 50px 50px;
   text-align: left;
   line-height: 150%; }
+  .monaca-updates table, .monaca-updates th {
+    border: 1px solid black;
+    padding-right: 15px;
+    color: #35527c; }
 
 p.updates-loading {
   text-align: center; }

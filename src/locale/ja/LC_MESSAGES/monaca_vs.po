@@ -9,6 +9,7 @@ msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
 "Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,43 +19,43 @@ msgstr ""
 
 #: ../doc/monaca_vs/faq/index.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../doc/monaca_vs/faq/index.rst:5
 msgid ""
 "Here is the list of frequently asked questions about Monaca. Please refer to"
 " it as a development resource."
-msgstr ""
+msgstr "Monaca に関するよくある質問を列挙しています。開発資料として参考にしてください。"
 
 #: ../doc/monaca_vs/index.rst:5
 msgid "Monaca for Visual Studio"
-msgstr ""
+msgstr "Monaca for Visual Studio"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:5
 msgid "Remote Building and Publishing"
-msgstr ""
+msgstr "リモートビルドと配布申請"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:11
 msgid "Remote Building"
-msgstr ""
+msgstr "リモートビルド"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:13
 msgid ""
 "Inside :guilabel:`Remote Build`, there are several important functions such "
 "as:"
-msgstr ""
+msgstr ":guilabel:`リモートビルド` の機能を解説します ( [ ビルド設定 ] 画面の各タブの解説 )。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:15
 msgid ""
 "Building application: choose a specific platform (among Android, iOS, Chrome"
 " Apps and Windows) to build."
-msgstr ""
+msgstr "ビルド : ビルド対象のプラットフォーム ( Android、iOS、Chrome Apps、Windows ) を選択します。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:16
 msgid ""
 "Building configuration: configure necessary information regarding "
 "application and build for each platform."
-msgstr ""
+msgstr "ビルド設定 : アプリおよび各プラットフォーム向けのビルドに必要な設定をします。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:17
 msgid ""
@@ -62,6 +63,8 @@ msgid ""
 "plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by "
 "the project."
 msgstr ""
+"依存関係の設定 : 必要なプラグイン （ :ref:`Cordova プラグイン<standard_plugins>` 、 :ref:`js_css` "
+"、外部サービスとの連携 など ） を設定します。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:20
 msgid ""
@@ -72,32 +75,34 @@ msgid ""
 "the markets (App Store, Google Play, ...), you will need to create a release"
 " build of your app."
 msgstr ""
+"ここまでの手順で、アプリの開発工程のすべてを終えました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
+" ( App Store、Google Play など ) 上で配布する前には、リリースビルド版のアプリが必要です。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:22
 msgid ""
 "Please refer to the following documentation on how to build your app "
 "according to each platform:"
-msgstr ""
+msgstr "各プラットフォーム向けアプリのビルド方法に関しては、次の解説をご確認ください。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:24
 msgid ":doc:`../../build/ios/index`"
-msgstr ""
+msgstr ":doc:`../../build/ios/index`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:25
 msgid ":doc:`../../build/build_android`"
-msgstr ""
+msgstr ":doc:`../../build/build_android`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:26
 msgid ":doc:`../../build/build_winrt`"
-msgstr ""
+msgstr ":doc:`../../build/build_winrt`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:27
 msgid ":doc:`../../build/build_chrome_app`."
-msgstr ""
+msgstr ":doc:`../../build/build_chrome_app`."
 
 #: ../doc/monaca_vs/manual/build_publish.rst:31
 msgid "Publishing"
-msgstr ""
+msgstr "配布申請"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:34
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:11
@@ -107,7 +112,7 @@ msgstr ""
 #: ../doc/monaca_vs/manual/build_publish.rst:36
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:13
 msgid "Please refer to :ref:`app_store_distribution`."
-msgstr ""
+msgstr ":ref:`app_store_distribution` をご確認ください。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:39
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:16
@@ -117,7 +122,7 @@ msgstr ""
 #: ../doc/monaca_vs/manual/build_publish.rst:41
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:18
 msgid "Please refer to :ref:`google_play_distribution`."
-msgstr ""
+msgstr ":ref:`google_play_distribution` をご確認ください。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:44
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:21
@@ -130,31 +135,31 @@ msgstr ""
 #: ../doc/monaca_vs/manual/overview.rst:264
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:89
 msgid "*See Also*"
-msgstr ""
+msgstr "*参考ページ*"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:51
 #: ../doc/monaca_vs/manual/overview.rst:266
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:91
 msgid ":doc:`../../../quick_start/monaca_vs/index`"
-msgstr ""
+msgstr ":doc:`../../../quick_start/monaca_vs/index`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:52
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:92
 msgid ":doc:`overview`"
-msgstr ""
+msgstr ":doc:`overview`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:53
 #: ../doc/monaca_vs/manual/overview.rst:268
 msgid ":doc:`pairing_debugging`"
-msgstr ""
+msgstr ":doc:`pairing_debugging`"
 
 #: ../doc/monaca_vs/manual/index.rst:3
 msgid "Manual"
-msgstr ""
+msgstr "マニュアル"
 
 #: ../doc/monaca_vs/manual/overview.rst:3
 msgid "Monaca for Visual Studio Overview"
-msgstr ""
+msgstr "Monaca for Visual Studio の概要"
 
 #: ../doc/monaca_vs/manual/overview.rst:9
 msgid ""
@@ -164,30 +169,35 @@ msgid ""
 "with Monaca for Visual Studio is very similar to the app development on "
 "Monaca Cloud IDE."
 msgstr ""
+"Monaca for Visual Studio は、拡張機能の 1 つです。この拡張機能を組み込めば、Microsoft Visual Studio "
+"IDE 上でも、Monaca アプリの開発ができます。この拡張機能には、Monaca クラウド IDE の機能の一部を移植しているので、Monaca "
+"クラウド IDE さながらに、Monaca for Visual Stuio をご使用いただけます。"
 
 #: ../doc/monaca_vs/manual/overview.rst:20
 msgid "Prerequisites"
-msgstr ""
+msgstr "事前準備"
 
 #: ../doc/monaca_vs/manual/overview.rst:22
 msgid "In order to use Monaca for Visual Studio, you need:"
-msgstr ""
+msgstr "Monaca for Visual Studio の使用前に確認する点を、次に記します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:24
 msgid ""
 "Microsoft Visual Studio 2015 Community Edition, Professional Edition or "
 "higher editions."
 msgstr ""
+"Microsoft Visual Studio 2015 の Community、または、Professional エディション以上 "
+"のバージョンがインストールされていること"
 
 #: ../doc/monaca_vs/manual/overview.rst:25
 msgid ""
 "a valid plan subscription. Please refer to `Pricing "
 "<https://monaca.io/pricing.html>`_."
-msgstr ""
+msgstr "対応するプランへの加入 ( `料金プラン <https://ja.monaca.io/pricing.html>`_ を参照のこと )"
 
 #: ../doc/monaca_vs/manual/overview.rst:30
 msgid "Installing Monaca for Visual Studio"
-msgstr ""
+msgstr "Monaca for Visual Studio のインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:32
 msgid ""
@@ -195,171 +205,194 @@ msgid ""
 "<install_tools_for_apache_cordova>` in Visual Studio in order to run Monaca "
 "for Visual Studio properly."
 msgstr ""
+"Monaca for Visual Studio を支障なく使用するためには、Visual Studio 上で、:ref:`Tools for "
+"Apache Corodva <install_tools_for_apache_cordova>` をインストールする必要があります。"
 
 #: ../doc/monaca_vs/manual/overview.rst:34
 msgid "There are two ways to install Monaca for Visual Studio such as:"
-msgstr ""
+msgstr "Monaca for Visual Studio のインストール方法は、2 通りあります。"
 
 #: ../doc/monaca_vs/manual/overview.rst:36
 msgid ":ref:`install_from_vs`"
-msgstr ""
+msgstr ":ref:`install_from_vs`"
 
 #: ../doc/monaca_vs/manual/overview.rst:37
 msgid ":ref:`install_from_web`"
-msgstr ""
+msgstr ":ref:`install_from_web`"
 
 #: ../doc/monaca_vs/manual/overview.rst:42
 msgid "Installing from Visual Studio"
-msgstr ""
+msgstr "Visual Studio からインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:44
 #: ../doc/monaca_vs/manual/overview.rst:146
 msgid ""
 "From Visual Studio menu, go to :menuselection:`Tools --> Extensions and "
 "Updates`."
-msgstr ""
+msgstr "Visual Studio メニューから、:menuselection:`ツール --> 拡張機能と更新プログラム...` を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:46
 msgid ""
 "Then, go to :menuselection:`Online --> Visual Studio Gallery`. Next, input "
 "``monaca`` in a search box on the top-right corner."
 msgstr ""
+"左側の一覧から、:menuselection:`オンライン --> Visual Studio ギャラリー` "
+"を選択します。次に、右上の検索ボックスに、「 monaca 」 と入力します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:48
 msgid ""
 "Select ``Monaca for Visual Studio 2015`` and click :guilabel:`Download`. "
 "Wait until the download is finished, then install it."
 msgstr ""
+"``Monaca for Visual Studio 2015`` を選択して、:guilabel:`ダウンロード` "
+"をクリックします。ダウンロード後、インストールします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:56
 msgid ""
 "If you want to have Onsen UI templates within Visual Studio, please download"
 " and install ``Onsen UI Templates for Visual Studio 2015``."
 msgstr ""
+"Onsen UI テンプレートを使用して、Visual Studio 上でプロジェクトを作成する場合には、``Onsen UI Templates "
+"for Visual Studio 2015`` をダウンロード・インストールします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:58
 msgid ""
 "When the installation is completed, restart Visual Studio. Then, "
 ":guilabel:`MONACA` menu can be found in the Visual Studio menu."
 msgstr ""
+"インストール後、Visual Studio を再起動します。再起動後、Visual Studio メニュー上に :guilabel:`MONACA` "
+"メニューが追加されていることを確認します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:71
 msgid "Installing from Web"
-msgstr ""
+msgstr "Web からインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:73
 msgid ""
 "Download Monaca for Visual Studion extension `here "
 "<https://visualstudiogallery.msdn.microsoft.com/21a7a495-5a24-4eab-a519-2f6e6d176049>`_."
 msgstr ""
+"`こちらのリンク ( Visual Studio ギャラリー ) "
+"<https://visualstudiogallery.msdn.microsoft.com/21a7a495-5a24-4eab-a519-2f6e6d176049>`_"
+" から、Monaca for Visual Studio 2015 をダウンロードします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:75
 msgid "Open the downloaded file and follow the installation instruction."
-msgstr ""
+msgstr "ダウンロードしたファイルを開き、インストールします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:77
 msgid ""
 "Restart Visual Studio if it is opened during installation. Then, "
 ":guilabel:`MONACA` menu can be found in Visual Studio menu."
 msgstr ""
+"Visual Studio を起動して、メニュー上に :guilabel:`MONACA` メニューが追加されていることを確認します ( "
+"インストール時、Visual Studio を起動していた場合には、いったん再起動されます ) 。"
 
 #: ../doc/monaca_vs/manual/overview.rst:83
 msgid "Installing Tools for Apache Cordova"
-msgstr ""
+msgstr "Tools for Apache Cordova のインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:85
 msgid ""
 "From Visual Studio menu, go to :menuselection:`File --> New --> Project`."
 msgstr ""
+"Visual Studio メニューから、:menuselection:`ファイル --> 新規作成 --> プロジェクト` を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:87
 msgid ""
 "Then, go to :menuselection:`Installed --> Templates --> JavaScript --> "
 "Apache Cordova Apps`."
 msgstr ""
+":menuselection:`インストール済み --> テンプレート --> JavaScript --> Apache Cordova Apps` "
+"を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:89
 msgid ""
 "Select ``Install Tools for Apache Cordova Update 7`` and click "
 ":guilabel:`OK`."
 msgstr ""
+"``Install Tools for Apache Cordova Update 7`` を選択して、:guilabel:`OK` をクリックします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:97
 msgid "Click :guilabel:`Install`."
-msgstr ""
+msgstr ":guilabel:`インストール` をクリックします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:105
 msgid ""
 "Please close Visual Studio before the update begins. Otherwise, the "
 "following dialog asking you to close the Visual Studio will appear."
 msgstr ""
+"更新処理がはじまる前に、Visual Studio をいったん終了させます。終了させない場合、次のダイアログが表示され、Visual Studio "
+"を終了させるように催促されます。"
 
 #: ../doc/monaca_vs/manual/overview.rst:113
 msgid "Click :guilabel:`Next`."
-msgstr ""
+msgstr ":guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:122
 msgid ""
 "Click :guilabel:`Update`. It will take sometimes until the installation "
 "completes. Please wait."
-msgstr ""
+msgstr ":guilabel:`Update` ボタンをクリックします。インストールが完了するまで、しばらく待ちます。"
 
 #: ../doc/monaca_vs/manual/overview.rst:134
 msgid "Uninstalling Monaca for Visual Studio"
-msgstr ""
+msgstr "Monaca for Visual Studio のアンインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:136
 msgid ""
 "To completely uninstall Monaca for Visual Studio, you need to perform the "
 "following steps:"
-msgstr ""
+msgstr "Monaca for Visual Studio を完全にアンインストールする場合には、次の両方の手順を行います。"
 
 #: ../doc/monaca_vs/manual/overview.rst:138
 msgid ":ref:`uninstall_from_vs`"
-msgstr ""
+msgstr ":ref:`uninstall_from_vs`"
 
 #: ../doc/monaca_vs/manual/overview.rst:139
 msgid ":ref:`uninstall_from_pc`"
-msgstr ""
+msgstr ":ref:`uninstall_from_pc`"
 
 #: ../doc/monaca_vs/manual/overview.rst:144
 msgid "Uninstalling from Visual Studio"
-msgstr ""
+msgstr "Visual Studio からアンインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:148
 msgid "Then, go to :menuselection:`Installed --> Tools`."
-msgstr ""
+msgstr ":menuselection:`インストール済み --> ツール` を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:150
 msgid "Select ``Monaca`` and click :guilabel:`Uninstall`."
-msgstr ""
+msgstr "``Monaca`` を選択して、:guilabel:`アンインストール` を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:162
 msgid "Uninstalling from Windows PC"
-msgstr ""
+msgstr "Windows PC 上でアンインストール"
 
 #: ../doc/monaca_vs/manual/overview.rst:164
 msgid ""
 "Go to :menuselection:`Control Panel --> Programs --> Uninstall a program`."
-msgstr ""
+msgstr ":menuselection:`コントロール パネル --> プログラム --> プログラムのアンインストール` を選択します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:166
 msgid "Select ``Monaca for Visual Studio`` and click :guilabel:`Uninstall`."
-msgstr ""
+msgstr "``Monaca for Visual Studio`` を選択して、:guilabel:`アンインストール` をクリックします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:171
 msgid "Monaca Panel Features"
-msgstr ""
+msgstr "Monaca パネルの概要"
 
 #: ../doc/monaca_vs/manual/overview.rst:173
 msgid ""
 "Once Monaca is successfully installed and added into Visual Studio IDE, "
 "please log in with a valid Monaca account."
 msgstr ""
+"Monaca のインストール後 ( Visual Studio IDE への組み込み後 )、Visual Studio IDE 上の Monaca "
+"パネルから、有効な Monaca アカウントを使用して、ログインします。"
 
 #: ../doc/monaca_vs/manual/overview.rst:183
 msgid "Run in Device"
-msgstr ""
+msgstr "デバイス上で実行"
 
 #: ../doc/monaca_vs/manual/overview.rst:185
 msgid ""
@@ -368,18 +401,22 @@ msgid ""
 "project in Monaca Debugger. Please refer to :ref:`How to Connect Monaca "
 "Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`."
 msgstr ""
+"この機能は、最低限 1 つの :ref:`monaca_debugger_index` がホスト PC ( Visual Studio を実行中の PC"
+" ) に接続されている場合に使用できます。この機能を使用すれば、Monaca デバッガー上でプロジェクトを実行できます。Monaca for "
+"Visual Studio と Monaca デバッガー間の接続方法に関しては、:ref:`こちら "
+"<monaca_vs_testing_debugging>` をご確認ください。"
 
 #: ../doc/monaca_vs/manual/overview.rst:191
 msgid "Monaca Debugger is not Connected"
-msgstr ""
+msgstr "Monaca デバッガーと未接続"
 
 #: ../doc/monaca_vs/manual/overview.rst:197
 msgid "Monaca Debugger is Connected"
-msgstr ""
+msgstr "Monaca デバッガーと接続中"
 
 #: ../doc/monaca_vs/manual/overview.rst:203
 msgid "Build Settings"
-msgstr ""
+msgstr "ビルド設定"
 
 #: ../doc/monaca_vs/manual/overview.rst:205
 msgid ""
@@ -387,34 +424,36 @@ msgid ""
 "window which allows you to configure project settings as well as build "
 "settings such as:"
 msgstr ""
+"Monaca クラウド IDE に実装されている各プラットフォーム向けの [ ビルド設定 ] "
+"と同じように、この機能を使用すると、ビルド設定用のウィンドウが表示され、次のビルド設定を行えます ( 加えて、アプリ設定も行えます )。"
 
 #: ../doc/monaca_vs/manual/overview.rst:207
 msgid ":ref:`Cordova Plugins<cordova_plugins_setting>`"
-msgstr ""
+msgstr ":ref:`Cordova プラグイン <cordova_plugins_setting>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:208
 msgid ":ref:`js_css`"
-msgstr ""
+msgstr ":ref:`js_css`"
 
 #: ../doc/monaca_vs/manual/overview.rst:209
 msgid ":ref:`service_integration_index`"
-msgstr ""
+msgstr ":ref:`service_integration_index`"
 
 #: ../doc/monaca_vs/manual/overview.rst:210
 msgid ":ref:`Android App and Build Settings<building_for_android>`"
-msgstr ""
+msgstr ":ref:`Android アプリ設定 と キーストア設定 <building_for_android>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:211
 msgid ":ref:`iOS App and Build Settings<building_for_ios>`"
-msgstr ""
+msgstr ":ref:`iOS アプリ設定 と ビルド設定 <building_for_ios>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:212
 msgid ":ref:`Windows App Settings<building_for_win8>`"
-msgstr ""
+msgstr ":ref:`Windows アプリ設定 <building_for_win8>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:213
 msgid ":ref:`Chrome Apps Settings<building_for_chrome_app>`"
-msgstr ""
+msgstr ":ref:`Chrome アプリ設定 <building_for_chrome_app>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:224
 msgid "Build"
@@ -425,6 +464,8 @@ msgid ""
 "This function will open a Build window which allows you to build your "
 "project for 4 different platforms as shown in the screenshot below:"
 msgstr ""
+"この機能を使用すると、ビルド用のウィンドウが表示され、お好みのプラットフォーム向けにプロジェクトのビルドができます ( "
+"下のスクリーンショットを参照のこと )。"
 
 #: ../doc/monaca_vs/manual/overview.rst:235
 msgid "Preferences"
@@ -437,33 +478,36 @@ msgid ""
 " Server. Please refer to :ref:`troubleshooting the "
 "Pairing<troubleshoot_pair>` on when this function is needed."
 msgstr ""
+"Monaca デバッガーとホスト PC ( Visual Studio 上で Monaca を実行中の PC ) のペアリング時に使用する、HTTP "
+"サーバーのポートとプロキシーサーバーは、自由に設定することもできます。ペアリングの詳細は、:ref:`こちら<troubleshoot_pair>` "
+"をご確認ください。"
 
 #: ../doc/monaca_vs/manual/overview.rst:239
 msgid ""
 "You can find this function by going to :menuselection:`MONACA --> "
 "Preferences`."
-msgstr ""
+msgstr ":menuselection:`MONACA --> 設定` を選択して、これらの設定を行います。"
 
 #: ../doc/monaca_vs/manual/overview.rst:247
 msgid "There are two ways to define the proxy server address as follows:"
-msgstr ""
+msgstr "プロキシサーバーのアドレスは、次のように設定します。"
 
 #: ../doc/monaca_vs/manual/overview.rst:249
 msgid "Proxy Server with basic authentication"
-msgstr ""
+msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用している場合"
 
 #: ../doc/monaca_vs/manual/overview.rst:255
 msgid "Proxy Server without basic authentication"
-msgstr ""
+msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用していない場合"
 
 #: ../doc/monaca_vs/manual/overview.rst:267
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:93
 msgid ":doc:`build_publish`"
-msgstr ""
+msgstr ":doc:`build_publish`"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:5
 msgid "Pairing and Debugging"
-msgstr ""
+msgstr "ペアリングとデバッグ"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:12
 msgid ""
@@ -471,6 +515,8 @@ msgid ""
 " your host PC (running Monaca for Visual Studio) with your device (running "
 "Monaca Debugger) first."
 msgstr ""
+"Monaca for Visual Studio を使用して、Monaca アプリをデバッグする場合、ホスト PC ( Monaca for "
+"Visual Studio が実行中であること ) と端末 ( Monaca デバッガーが実行中であること ) のペアリングを最初に行います。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:14
 msgid ""
@@ -478,10 +524,12 @@ msgid ""
 "connection (LAN or Wi-Fi). Some public networks do not allow connections "
 "between clients; therefore, pairing cannot be done in this case."
 msgstr ""
+"ホスト PC と携帯端末が、同じネットワーク ( LAN または Wi-Fi ) "
+"に接続されていることを確認してください。公共のネットワークなどでは、クライアント同士の通信が許可されていないことがあり、その場合、ペアリングはできません。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:19
 msgid "Start Pairing"
-msgstr ""
+msgstr "ペアリングの設定"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:21
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:39
@@ -490,6 +538,9 @@ msgid ""
 "information. Make sure you are using the same account information you use "
 "for Monaca within Visual Studio IDE."
 msgstr ""
+"Monaca デバッガーを起動し、Monaca "
+"に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Visual Studio IDE の Monaca "
+"メニューで入力したものと同じものを使用します。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:29
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:47
@@ -498,6 +549,10 @@ msgid ""
 "logged in, Monaca Debugger should be able to detect the host PC as shown "
 "below. Then, click :guilabel:`Pair` button to start the pairing."
 msgstr ""
+"Monaca デバッガーと ホスト PC ( Monaca for Visual Studio を起動中の PC ) をペアリングします。Monaca "
+"デバッガーおよび Monaca for Visual Studio の両方に、同一の Monaca アカウントでログインしていれば、Monaca "
+"デバッガー側で、ホスト PC を自動的に検知します ( 下のスクリーンショットを参照のこと )。次に、:guilabel:`ペアリング` "
+"ボタンをクリックします。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:37
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:55
@@ -508,16 +563,19 @@ msgid ""
 "host PC automatically, please refer to :ref:`troubleshooting the "
 "Pairing<troubleshoot_pair>`."
 msgstr ""
+"ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、一方、Monaca パネル上 ( Visual Studio ) "
+"には、接続されたデバッガーが表示されます ( 下のスクリーンショットを参照のこと )。Monaca デバッガーがホスト PC "
+"側を自動的に検知できない場合には、:ref:`ペアリングのトラブルシューティング <troubleshoot_pair>` をご確認ください。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:43
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:61
 msgid "Monaca Debugger"
-msgstr ""
+msgstr "Monaca デバッガー"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:49
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:67
 msgid "Monaca Panel within Visual Studio"
-msgstr ""
+msgstr "Visual Studio 上の Monaca パネル"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:53
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:71
@@ -527,22 +585,28 @@ msgid ""
 "Monaca panel within Visual Studio. Then, your project should be running in "
 "the debugger as shown below:"
 msgstr ""
+"Monaca デバッガー上でプロジェクトを実行する場合、デバッガー上に表示されたプロジェクト名をタップするか、または、Visual Studio の "
+"Monaca パネル上で :guilabel:`デバイス上で実行` "
+"ボタンをクリックします。次に、デバッガー上でプロジェクトが実行されていることを確認します。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:63
 msgid "Stop Pairing"
-msgstr ""
+msgstr "ペアリングの解除"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:65
 msgid ""
 "From Monaca Debugger, click on the toggle menu on the top-left corner and go"
 " to :guilabel:`Local Computers` button."
 msgstr ""
+"Monaca デバッガー画面の左上端に表示された切り替えメニューをクリックして、 :guilabel:`ローカルコンピュータ` を選択します。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:67
 msgid ""
 "Then, the connected PC will be shown. Click on the \"Information\" icon of "
 "the connected PC (see the screenshot below)."
 msgstr ""
+"接続されている PC が表示されます。PC の横に表示されているインフォーメーション アイコンをクリックします ( 下のスクリーンショットを参照のこと "
+")。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:75
 msgid ""
@@ -551,46 +615,49 @@ msgid ""
 "Once you unpair, you can't debug your local Monaca projects with this "
 "debugger anymore unless you pair it again."
 msgstr ""
+"接続されている PC の情報が表示されます。 :guilabel:`この PC を解除する` "
+"をクリックして、ペアリングを解除します。解除後は、ローカルに保存されている Monaca "
+"プロジェクトは、デバッガー上で、デバッグできません。デバッグを再度行う場合には、ペアリングをします。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:82
 msgid "Debugging Monaca Apps with Monaca for Visual Studio"
-msgstr ""
+msgstr "Monaca for Visual Studio を使用した、Monaca アプリのデバッグ"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:84
 msgid "Please refer to :ref:`debugger_with_local_tools`."
-msgstr ""
+msgstr ":ref:`debugger_with_local_tools` をご確認ください。"
 
 #: ../doc/monaca_vs/samples/index.rst:3
 msgid "Samples & Tips"
-msgstr ""
+msgstr "サンプル＆Tip"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:5
 msgid "Part 3: Building Monaca App"
-msgstr ""
+msgstr "パート 3 : Monaca アプリのビルド"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:10
 msgid ""
 "In this tutorial, we only cover how to build Monaca Apps for iOS and "
 "Android:"
-msgstr ""
+msgstr "こちらのチュートリアルでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:12
 msgid ":ref:`monaca_vs_building_for_ios`"
-msgstr ""
+msgstr ":ref:`monaca_vs_building_for_ios`"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:13
 msgid ":ref:`monaca_vs_building_for_android`"
-msgstr ""
+msgstr ":ref:`monaca_vs_building_for_android`"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:15
 msgid ""
 "For more information on how to build Monaca apps for other platforms, please"
 " refer to :ref:`build_index`."
-msgstr ""
+msgstr "他のプラットフォーム向けの Monaca アプリのビルドに関しては、 :ref:`build_index` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:21
 msgid "Building a Monaca App for iOS"
-msgstr ""
+msgstr "iOS 向け Monaca アプリのビルド"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:23
 msgid ""
@@ -599,47 +666,53 @@ msgid ""
 "device. For more information about other types of build, please refer to "
 ":ref:`types_of_build_ios`."
 msgstr ""
+"端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、ここでは解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_ios` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:25
 msgid "*Prerequisite*:"
-msgstr ""
+msgstr "*事前準備*"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:27
 msgid ""
 "You must enroll in `iOS Developer Program "
 "<https://developer.apple.com/programs/ios/>`_."
 msgstr ""
+"`iOS Developer Program <https://developer.apple.com/programs/ios/>`_ への登録 ( "
+"必須 )"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:29
 msgid "*Requirement*"
-msgstr ""
+msgstr "*必要事項*"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:31
 msgid ""
 "You are required to create the following items from iOS Provisioning Portal "
 "after enrolling iOS Developer Program:"
-msgstr ""
+msgstr "iOS Developer Program 登録後、iOS Provisioning Portal 上で、次のアイテムを作成します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:33
 msgid "``App ID`` (see :ref:`register_appID` and :ref:`register_dev_device`)"
 msgstr ""
+"``App ID`` ( :ref:`register_appID` と :ref:`register_dev_device` を参照のこと )"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:34
 msgid "``Developer Certificate`` (see :ref:`create_cer`)"
-msgstr ""
+msgstr "``デベロッパー証明書`` ( 別名 「 開発用証明書 」、 :ref:`create_cer` を参照のこと )"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:35
 msgid ""
 "``Development Provisioning Profile`` (see :ref:`register_provisioning`)"
-msgstr ""
+msgstr "``開発用 プロビジョニング プロファイル`` ( :ref:`register_provisioning` を参照のこと )"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:39
 msgid "Step 1: Configuring iOS App Settings"
-msgstr ""
+msgstr "ステップ 1 : iOS アプリの設定"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:41
 msgid "From Monaca panel, select :menuselection:`Build Settings --> iOS App`."
 msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> iOS アプリ ( 表示されるウィンドウの左下 )` を選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:43
 #: ../doc/monaca_vs/tutorial/building_app.rst:131
@@ -649,7 +722,7 @@ msgstr ""
 #: ../doc/monaca_vs/tutorial/building_app.rst:45
 #: ../doc/monaca_vs/tutorial/building_app.rst:133
 msgid "Application Name: a public name representing your app."
-msgstr ""
+msgstr "アプリケーション名 : 表示用のアプリ名です。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:46
 msgid ""
@@ -659,6 +732,9 @@ msgid ""
 "allowed. Each segment separated by a period should begin with an alphabetic "
 "character."
 msgstr ""
+"App ID : アプリを識別する一意の ID です。App ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) "
+"を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
+"は、ピリオドで区切られ、英字から始まります。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:47
 msgid ""
@@ -667,13 +743,16 @@ msgid ""
 "Connect later. It needs 3 numbers separated by dots (for example, 1.10.2). "
 "Each number should be in [0-99]."
 msgstr ""
+"バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) "
+"するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
+"の範囲にします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:48
 #: ../doc/monaca_vs/tutorial/building_app.rst:137
 msgid ""
 "The remaining information is optional. You can configure icon, splash screen"
 " and other configurations in this page."
-msgstr ""
+msgstr "他の設定項目は、任意です。こちらの設定画面では、アイコン、スプラッシュ画像などを設定できます。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:56
 msgid ""
@@ -681,6 +760,9 @@ msgid ""
 "registered in iOS Provisioning Portal. This App ID (in Monaca Build "
 "Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
 msgstr ""
+"Monaca のビルド設定で使用する App ID には、iOS Provisioning Portal で登録した App ID と同じ ID "
+"を使用します。なお、Monaca のビルド設定で使用する App ID には、アスタリスク ( ``*`` ) "
+"は使用できません。使用した場合、ビルドが失敗します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:58
 #: ../doc/monaca_vs/tutorial/building_app.rst:145
@@ -689,12 +771,13 @@ msgstr ""
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:62
 msgid "Step 2: Configuring iOS Build Settings"
-msgstr ""
+msgstr "ステップ 2 : iOS ビルドの設定"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:64
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> iOS Build`."
 msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> iOS ビルド ( 表示されるウィンドウの左下 )` を選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:66
 msgid ""
@@ -703,12 +786,17 @@ msgid ""
 "Key and CSR` button. You can also import an existing private key if you have"
 " one."
 msgstr ""
+"[ 秘密鍵と CSR ] 欄の :guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID "
+"の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` "
+"ボタンをクリックします。なお、既存の秘密鍵を使用する場合には、設定画面の :guilabel:`インポート...` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:74
 msgid ""
 "Export the Certificate Signing Request (CSR) file. It will be required to "
 "issue the certificates later in iOS Provisioning Portal."
 msgstr ""
+"CSR ( Certificate Signing Request/証明書署名要求 ) ファイルをエクスポートします。iOS Provisioning "
+"Portal 上で、証明書を発行するときに、このファイルが必要となります。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:82
 msgid ""
@@ -717,25 +805,27 @@ msgid ""
 "a new private key, you will need to use the new CRS file to issue new "
 "certificates."
 msgstr ""
+"既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書を使用する必要があります。一方、新規の秘密鍵を作成する場合、新規の CRS"
+" ファイルを使用して、証明書を新規発行します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:86
 #: ../doc/monaca_vs/tutorial/building_app.rst:181
 msgid "Step 3: Building the App"
-msgstr ""
+msgstr "パート 3 : アプリのビルド"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:88
 #: ../doc/monaca_vs/tutorial/building_app.rst:183
 msgid "From Monaca panel, select :guilabel:`Build`."
-msgstr ""
+msgstr "Monaca パネル上で :guilabel:`ビルド` を選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:90
 msgid "Select ``iOS`` platform."
-msgstr ""
+msgstr "``iOS`` プラットフォームを選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:92
 #: ../doc/monaca_vs/tutorial/building_app.rst:187
 msgid "Select :guilabel:`Debug Build` and click :guilabel:`Next` button."
-msgstr ""
+msgstr ":guilabel:`デバッグビルド` を選択して、:guilabel:`ビルド開始` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:100
 msgid ""
@@ -747,24 +837,24 @@ msgstr ""
 msgid ""
 "It may take several minutes for the build process to complete. Please wait. "
 "The following screen will appear after the build is completed."
-msgstr ""
+msgstr "ビルドが完了するまで数分かかる場合もありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:112
 #: ../doc/monaca_vs/tutorial/building_app.rst:204
 msgid "Step 4: Installing the App"
-msgstr ""
+msgstr "ステップ 4 : アプリのインストール"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:114
 msgid "Download the debug build version file of your app."
-msgstr ""
+msgstr "デバッグビルド版アプリのファイルをダウンロードします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:115
 msgid "Use iTunes to install it on your iOS device."
-msgstr ""
+msgstr "iTunes を使用して、iOS 端末にアプリをインストールします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:121
 msgid "Building a Monaca App for Android"
-msgstr ""
+msgstr "Android 向け Monaca アプリのビルド"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:123
 msgid ""
@@ -772,15 +862,19 @@ msgid ""
 "version of your app for Android. For more information about other types of "
 "build, please refer to :ref:`types_of_build_android`."
 msgstr ""
+"デバッグビルド版 Android 向けアプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_android` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:127
 msgid "Step 1: Configuring Android App Settings"
-msgstr ""
+msgstr "ステップ 1 : Android アプリの設定"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:129
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> Android App`."
 msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> Android アプリ ( 表示されるウィンドウの左下 )` "
+"を選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:134
 msgid ""
@@ -790,6 +884,9 @@ msgid ""
 "allowed. Each segment separated by a period should begin with an alphabetic "
 "character."
 msgstr ""
+"パッケージ名 : アプリを識別する一意の ID です。ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) "
+"の使用を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
+"は、ピリオドで区切られ、英字から始まります。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:135
 msgid ""
@@ -797,6 +894,8 @@ msgid ""
 "numbers separated by dots (for example, 1.10.2). Each number should be in "
 "[0-99]."
 msgstr ""
+"バージョン : アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
+"の範囲にします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:136
 msgid ""
@@ -808,10 +907,15 @@ msgid ""
 " be debugged due to the fact that they are tied to exact package names (for "
 "example, in-app purchase)."
 msgstr ""
+"ビルド種別ごとにパッケージ名を分ける : "
+"チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は"
+" ``.debug`` となり、カスタムビルド版デバッガーのパッケージ名の拡張子は ``.debugger`` "
+"となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase"
+" など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:149
 msgid "Step 2: Configuring Android KeyStore"
-msgstr ""
+msgstr "ステップ 2 : Android キーストア ( Keystore ) の設定"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:151
 msgid ""
@@ -821,16 +925,21 @@ msgid ""
 " contain multiple aliases, but only one alias is used for code signing an "
 "application."
 msgstr ""
+"Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) "
+"を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 "
+"つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時に使用するエイリアスは 1 つだけです。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:153
 msgid ""
 "In order to configure Android keystore in Monaca, please do as follows:"
-msgstr ""
+msgstr "Monaca での Android キーストアの設定方法は、次のとおりです。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:155
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> Android Build`."
 msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> Android ビルド ( 表示されるウィンドウの左下 )` "
+"を選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:157
 msgid ""
@@ -839,42 +948,44 @@ msgid ""
 "need to create a new keystore. Therefore, click on :guilabel:`Clear and "
 "Generate New...` button."
 msgstr ""
+"キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、:guilabel:`初期化して作成"
+" ...` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:165
 msgid "Fill in the necessary information related to the keystore such as:"
-msgstr ""
+msgstr "キーストアに関する情報を入力します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:167
 msgid ""
 "Alias: key information stored in the keystore which is used to sign an app "
 "package."
-msgstr ""
+msgstr "エイリアス : キーストアに格納する鍵情報です。パッケージの署名時に、使用します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:168
 msgid "Password: password for the alias."
-msgstr ""
+msgstr "エイリアスのパスワード : エイリアス用のパスワードです。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:169
 msgid "KeyStore Password: password for the new keystore."
-msgstr ""
+msgstr "キーストアのパスワード : キーストア用のパスワードです。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:177
 msgid "Then, click :guilabel:`Generate KeyStore and Alias` button."
-msgstr ""
+msgstr ":guilabel:`キーストアとエイリアスを作成する` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:185
 msgid "Select ``Android`` platform."
-msgstr ""
+msgstr "``Android`` プラットフォームを選択します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:195
 msgid ""
 "It may take several minutes for the build process to complete. Please wait. "
 "The following screen will appear after the build is successfully completed."
-msgstr ""
+msgstr "ビルドが完了するまで数分かかる場合もありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:206
 msgid "There are several ways you can install the built app:"
-msgstr ""
+msgstr "ビルドしたアプリのインストール方法は、数通りあります。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:208
 msgid ":ref:`network_and`"
@@ -882,52 +993,54 @@ msgstr ""
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:209
 msgid "use QR Barcode"
-msgstr ""
+msgstr "QR コードを使用します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:210
 msgid "download the built app directly to your computer"
-msgstr ""
+msgstr "コンピューターに、ビルド済みアプリを直接ダウンロードします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:211
 msgid ""
 "send the URL to download the built app  to your email address (registered "
 "with Monaca)."
-msgstr ""
+msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載されたメールを、Monaca に登録されているメールアドレスに送信します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:216
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:25
 #: ../doc/monaca_vs/tutorial/starting_project.rst:126
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:118
 msgid "*See Also*:"
-msgstr ""
+msgstr "*参考ページ*:"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:218
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:27
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:120
 msgid ":ref:`monaca_vs_starting_project`"
-msgstr ""
+msgstr ":ref:`monaca_vs_starting_project`"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:219
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:28
 #: ../doc/monaca_vs/tutorial/starting_project.rst:128
 msgid ":ref:`monaca_vs_testing_debugging`"
-msgstr ""
+msgstr ":ref:`monaca_vs_testing_debugging`"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:220
 #: ../doc/monaca_vs/tutorial/starting_project.rst:130
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:122
 msgid ":ref:`monaca_vs_publishing_app`"
-msgstr ""
+msgstr ":ref:`monaca_vs_publishing_app`"
 
 #: ../doc/monaca_vs/tutorial/index.rst:3
 msgid "Monaca for Visual Studio Tutorial"
-msgstr ""
+msgstr "Monaca for Visual Studio チュートリアル"
 
 #: ../doc/monaca_vs/tutorial/index.rst:6
 msgid ""
 "Monaca for Visual Studio is an extension which allows you to develop Monaca "
 "applications using Microsoft Visual Studio IDE."
 msgstr ""
+"Monaca for Visual Studio は、Visual Studio の拡張機能です。この拡張機能を使用すれば、Microsoft "
+"Visual Studio IDE を使用して、Monaca アプリを開発できます。"
 
 #: ../doc/monaca_vs/tutorial/index.rst:8
 msgid ""
@@ -936,92 +1049,101 @@ msgid ""
 "editions. Also, you need to subscribe to a valid plan. Please refer to "
 "`Pricing <https://monaca.io/pricing.html>`_."
 msgstr ""
+"Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community "
+"エディション、Professional エディション、または、それ以上のエディションが必要となります。また、対応するプランへの加入が必要です。詳細は、 "
+"`プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/index.rst:10
 msgid "Before getting started with this tutorial, you will need to:"
-msgstr ""
+msgstr "事前準備として、次の内容を行います。"
 
 #: ../doc/monaca_vs/tutorial/index.rst:19
 msgid ""
 "get a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
 msgstr ""
+"Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/monaca_vs/tutorial/index.rst:20
 msgid ""
 "install Monaca for Visual Studio extension. Please follow the installation "
 "instruction :ref:`here <monaca_vs_installation>`."
 msgstr ""
+"拡張機能 「 Monaca for Visual Studio 」 をインストールする。インストール手順に関しては、 :ref:`こちら "
+"<monaca_vs_installation>` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:5
 msgid "Part 4: Publishing Monaca App"
-msgstr ""
+msgstr "パート 4 : Monaca アプリの配布申請"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:29
 #: ../doc/monaca_vs/tutorial/starting_project.rst:129
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:121
 msgid ":ref:`monaca_vs_building_app`"
-msgstr ""
+msgstr ":ref:`monaca_vs_building_app`"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:5
 msgid "Part 1: Starting a Project"
-msgstr ""
+msgstr "パート 1 : プロジェクトの作成"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:11
 msgid "Step 1: Logging into Monaca"
-msgstr ""
+msgstr "ステップ 1 : Monaca へのログイン"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:13
 msgid ""
 "Before starting to develop Monaca app within Visual Studio IDE, please log "
 "into Monaca first:"
-msgstr ""
+msgstr "Visual Studio IDE 上で Monaca アプリを開発する場合には、最初に、Monaca にログインします。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:15
 msgid ""
 "From Microsoft Visual Studio IDE menu, go to :menuselection:`MONACA --> Sign"
 " In`."
 msgstr ""
+"Microsoft Visual Studio IDE のメニューから、:menuselection:`Monaca --> ログイン` を選択します。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:17
 msgid "Input your Monaca account information."
-msgstr ""
+msgstr "Monaca アカウント情報を入力します。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:27
 msgid "Step 2: Starting a Project"
-msgstr ""
+msgstr "パート 2 : プロジェクトの作成"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:29
 msgid "There are 3 ways to start a Monaca project in Visual Studio:"
-msgstr ""
+msgstr "Visual Studio 上で Monaca プロジェクトを作成する方法は、次のとおりです ( 3 パターン )。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:31
 msgid ""
 ":ref:`creating a new project based on templates provided by "
 "Monaca<monaca_vs_new_project>`"
-msgstr ""
+msgstr ":ref:`Monaca 提供のテンプレートを使用して、プロジェクトを新規作成 <monaca_vs_new_project>`"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:32
 msgid "opening an existing Cordova project"
-msgstr ""
+msgstr "既存の Cordova プロジェクトを使用"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:33
 msgid ""
 ":ref:`importing an existing Monaca "
 "project<monaca_vs_import_existing_project>`."
-msgstr ""
+msgstr ":ref:`既存の Monaca プロジェクトをインポート <monaca_vs_import_existing_project>`"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:39
 msgid "Creating a New Project"
-msgstr ""
+msgstr "プロジェクトの新規作成"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:41
 msgid "In order to create a new project, please follow the instruction below:"
-msgstr ""
+msgstr "プロジェクトを新規作成する場合、次の手順に従います。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:43
 msgid "From Monaca panel, choose :guilabel:`Create a new project`."
 msgstr ""
+"Monaca パネル ( 前述の Monaca のログイン時に使用したパネル ) 上で、 :guilabel:`新しいプロジェクトの作成` "
+"を選択します。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:45
 msgid ""
@@ -1030,6 +1152,11 @@ msgid ""
 "project's information such as project name, project directory and solution "
 "name. Then, click :guilabel:`OK`."
 msgstr ""
+"[ 新しいプロジェクト ] ウィンドウの左枠内から、 :menuselection:`テンプレート --> JavaScript --> Apache "
+"Cordova アプリ` を選択します。次に、プロジェクトのテンプレートを選択します ( プロジェクトの名前、場所、ソリューション名を入力 "
+")。次に、:guilabel:`OK` をクリックします。なお、クリーンインストール後、そのままの状態では表示されるテンプレートはありません。Onsen"
+" UI のテンプレートを使用する場合には、[ 拡張機能と更新プログラム ] から [ Onsen UI Templates for Visual "
+"Studio 2015 ] をあらかじめダウンロードしておきます。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:53
 msgid ""
@@ -1038,20 +1165,27 @@ msgid ""
 " :menuselection:`Debug --> Start Debugging` or click the debug button as "
 "shown in the screenshot."
 msgstr ""
+"ここまでの手順でプロジェクトの新規作成が完了しました。Visual Studio では、Ripple "
+"エミュレーター上でプロジェクトの確認を行えるプレビュー機能を提供しています。この機能を使用する場合、Visual Studio "
+"のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択するか、または、デバッグボタン ( "
+"下のスクリーンショットを参照のこと ) を実行します。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:61
 msgid "Then, the emulator window will appear."
-msgstr ""
+msgstr "エミュレーター用のウィンドウが表示されます。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:69
 msgid ""
 "You can change the debugging device within Ripple Emulator by clicking on "
 "the dropdown menu of the debug button as shown below:"
 msgstr ""
+"Ripple "
+"エミュレーターがサポートしている端末であれば、デバッグする端末を変更することもできます。変更する場合には、デバッグボタンのドロップダウンメニューから端末を選択します"
+" ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:80
 msgid "Importing a Existing Monaca Project"
-msgstr ""
+msgstr "既存の Monaca プロジェクトのインポート"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:82
 msgid ""
@@ -1059,6 +1193,8 @@ msgid ""
 "projects into Visual Studio. However, you can open existing Monaca projects "
 "as follows:"
 msgstr ""
+"現時点では、既存の Monaca プロジェクトを Visual Studio に直接インポートするための機能を提供していませんが、次のようにして、既存の"
+" Monaca プロジェクトを Visual Studio 上で開くことができます。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:84
 msgid ""
@@ -1067,6 +1203,10 @@ msgid ""
 "Apps`. Then, choose :guilabel:`Blank App (Apache Cordova)` and click "
 ":guilabel:`OK`."
 msgstr ""
+"Apache Cordova の空のプロジェクトを作成します。[ 新しいプロジェクト ] ウィンドウ画面から、 "
+":menuselection:`インストール済み --> テンプレート --> JavaScript --> Apache Cordova Apps` "
+"を選択します。次に、:guilabel:`空のアプリ ( Apache Cordova )` を選択して、:guilabel:`OK` "
+"をクリックします。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:93
 msgid ""
@@ -1074,6 +1214,8 @@ msgid ""
 " folder inside your newly created project. After that, you can run the "
 "existing Monaca project within Visual Studio."
 msgstr ""
+"既存の Monaca プロジェクトの ``www`` フォルダーを使用して、上記で作成したプロジェクトの ``www`` "
+"フォルダーを、丸ごと置き換えれば、Visual Studio 上でも、既存の Monaca プロジェクトを実行できます。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:95
 msgid ""
@@ -1082,26 +1224,32 @@ msgid ""
 "Debugging` or click the debug button as shown in the screenshot. Then, the "
 "emulator window will appear."
 msgstr ""
+"移植した既存のプロジェクトが Visual Studio 上でも正しく動作することを確認しましょう。Visual Studio "
+"のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択して、または、デバッグボタン ( "
+"下のスクリーンショットを参照のこと ) を実行して、エミュレータ用のウィンドウを表示させ、動作確認してみましょう。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:107
 msgid "Step 3: Editing the Project Files"
-msgstr ""
+msgstr "ステップ 3 : プロジェクトファイルの編集"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:109
 msgid ""
 "Go to Solution Explorer panel in order to see all of the project files. All "
 "editable project files are listed under ``www`` folder."
 msgstr ""
+"ソリューション エクスプローラーのパネルを選択して、プロジェクトファイルを表示させます。``www`` 下に置かれているファイルのみ、編集できます。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:117
 msgid "Choose a file to edit and make some changes."
-msgstr ""
+msgstr "ファイルを選択して開き、変更を加えてみましょう。"
 
 #: ../doc/monaca_vs/tutorial/starting_project.rst:119
 msgid ""
 "Save the changes. You will be able to see the changes reflected immediately "
 "on the emulator window or Monaca debugger (if it's connected)."
 msgstr ""
+"変更箇所を保存すると、Monaca デバッガー上または Ripple エミュレーター上にも、変更が即座に反映されます ( Monaca "
+"デバッガーに関しては、ペアリング済みであること )。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:5
 msgid "Part 2: Running Monaca Debugger with Monaca for Visual Studio"
@@ -1113,6 +1261,7 @@ msgid ""
 "debugging your Monaca applications on real devices in real-time by just "
 "saving the source code."
 msgstr ""
+":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:13
 msgid ""
@@ -1121,28 +1270,32 @@ msgid ""
 "pushed into your Monaca Debugger in real-time as soon as you save those "
 "changes."
 msgstr ""
+"プロジェクトファイルに加えた変更は、保存後、即座に Monaca デバッガーに 「 プッシュ 」 されます ( Visual Studio IDE "
+"上での Monaca アプリ開発時に、インターネットに接続されていること )。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:17
 msgid "Before Getting Started"
-msgstr ""
+msgstr "事前準備"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:19
 msgid ""
 "Please install Monaca Debugger on your device. Please refer to :ref:`Monaca "
 "Debugger Installation <debugger_installation_index>` for other platforms."
 msgstr ""
+"Monaca デバッガーを端末にインストールします。詳細は、:ref:`各プラットフォーム向けの Monaca デバッガーのインストール方法 "
+"<debugger_installation_index>` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:37
 msgid "Step 1: Running the Project on Monaca Debugger"
-msgstr ""
+msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:81
 msgid "Step 2: Real-time Updates between Your Project and Monaca Debugger"
-msgstr ""
+msgstr "ステップ 2 : Monaca デバッガーとプロジェクト間のリアルタイムでの同期"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:83
 msgid "Run the project on the debugger."
-msgstr ""
+msgstr "Monaca デバッガー上で、プロジェクトを実行します。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:85
 msgid ""
@@ -1151,6 +1304,9 @@ msgid ""
 "edit :file:`index.html` and change the title of each list item from \"Rorem "
 "Ipsum\" to \"Monaca and OnsenUI\". Then, save the change."
 msgstr ""
+"プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 <monaca_vs_edit_project>` "
+"を参照のこと )。ここでは、:file:`index.html` 上で、各欄の見出しを 「 Rorem Ipsum 」 から 「 Monaca and "
+"OnsenUI 」 へ変更してみます。次に、保存します。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:93
 msgid ""
@@ -1158,23 +1314,25 @@ msgid ""
 "also click on :guilabel:`Reload` button to retrieve the latest updates of "
 "your app in case the changes are not reflected."
 msgstr ""
+"保存された変更は、端末の Monaca デバッガー側に送られます。アプリ側で変更が反映されない場合には、デバッガーメニュー上の "
+":guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:99
 msgid "Updated List Item Titles"
-msgstr ""
+msgstr "更新後の見出し"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:105
 msgid "Reload Button"
-msgstr ""
+msgstr "更新ボタン"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:110
 msgid ""
 "That's it! That's how easy it is to use Monaca Debugger. Please try to make "
 "more changes to your project and see how it runs on the debugger."
-msgstr ""
+msgstr "Monaca デバッガーの基本的な使用方法に関して、ここでは解説しました。試しに、他の箇所も変更して、デバッガー上で確認してみましょう。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:113
 msgid ""
 "Please refer to :ref:`monaca_debugger_features` to explore the other "
 "functions provided by Monaca Debugger."
-msgstr ""
+msgstr "Monaca デバッガーが提供する機能に関しては、 :ref:`monaca_debugger_features` をご確認ください。"

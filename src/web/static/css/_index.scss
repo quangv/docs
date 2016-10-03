@@ -259,6 +259,12 @@ img.product-logo-v2 {
     margin: 20px 0 50px 50px;
     text-align: left;
     line-height: 150%;
+
+    table, th {
+       border: 1px solid black;
+       padding-right: 15px;
+       color: #35527c;
+    }
 }
 
 p.updates-loading {

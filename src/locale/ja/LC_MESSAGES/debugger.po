@@ -9,6 +9,7 @@ msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
 "Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,18 +19,18 @@ msgstr ""
 
 #: ../doc/debugger/faq/index.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../doc/debugger/faq/index.rst:5
 msgid ""
 "Here is the list of frequently asked questions about Monaca. Please refer to"
 " it as a development resource."
-msgstr ""
+msgstr "Monaca に関するよくある質問を列挙しています。開発資料として参考にしてください。"
 
 #: ../doc/debugger/index.rst:5
 #: ../doc/debugger/manual/installation/debugger_ios.rst:30
 msgid "Monaca Debugger"
-msgstr ""
+msgstr "Monaca デバッガー"
 
 #: ../doc/debugger/manual/debug.rst:5
 msgid "Usage"
@@ -41,14 +42,16 @@ msgid ""
 "IDE and other Monaca local development tools such as Monaca Localkit, Monaca"
 " CLI and Monaca for Visual Studio:"
 msgstr ""
+"Monaca 提供の各種開発ツール ( Monaca クラウド IDE、Monaca Localkit、Monaca CLI、Monaca for "
+"Visual Studio ) と Monaca デバッガーの連携方法に関して、ここでは解説します。"
 
 #: ../doc/debugger/manual/debug.rst:11
 msgid ":ref:`by_debugger_ide`"
-msgstr ""
+msgstr ":ref:`by_debugger_ide`"
 
 #: ../doc/debugger/manual/debug.rst:12
 msgid ":ref:`debugger_with_local_tools`"
-msgstr ""
+msgstr ":ref:`debugger_with_local_tools`"
 
 #: ../doc/debugger/manual/debug.rst:15
 msgid ""
@@ -56,29 +59,31 @@ msgid ""
 "Please refer to :ref:`How to Install Monaca Debugger "
 "<debugger_installation_index>` for more information."
 msgstr ""
+"最初に、端末またはエミュレーター上に、Monaca デバッガーをインストールします。詳細は、:ref:`Monaca デバッガーのインストール方法 "
+"<debugger_installation_index>` をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:21
 msgid "Monaca Debugger with Monaca Cloud IDE"
-msgstr ""
+msgstr "Monaca クラウド IDE と Monaca デバッガーとの連携 ( Web 経由 )"
 
 #: ../doc/debugger/manual/debug.rst:23
 msgid ""
 "There are 2 main debugging mechanism can be used to debug Monaca apps with "
 "Monaca Cloud IDE such as:"
-msgstr ""
+msgstr "Monaca クラウド IDE および各ブラウザー標準のリモートデバッグ機能を使用した、Monaca アプリのデバッグ方法を紹介します。"
 
 #: ../doc/debugger/manual/debug.rst:25
 msgid ":ref:`debugger_debug_panel`: DOM inspection and console debugging."
-msgstr ""
+msgstr ":ref:`debugger_debug_panel`: DOM の解析、Console を使用したデバッグ"
 
 #: ../doc/debugger/manual/debug.rst:26
 msgid ""
 ":ref:`by_debugger_usb`: DOM inspection, console and JavaScript debugging."
-msgstr ""
+msgstr ":ref:`by_debugger_usb`: DOM の解析、Console を使用したデバッグ、JavaScript のデバッグ"
 
 #: ../doc/debugger/manual/debug.rst:32
 msgid "Monaca Debug Panel"
-msgstr ""
+msgstr "Monaca デバッグパネル"
 
 #: ../doc/debugger/manual/debug.rst:34
 msgid ""
@@ -90,21 +95,21 @@ msgstr ""
 
 #: ../doc/debugger/manual/debug.rst:40
 msgid "Debug Panel inside Monaca Cloud IDE"
-msgstr ""
+msgstr "Monaca クラウド IDE 上の デバッグパネル"
 
 #: ../doc/debugger/manual/debug.rst:44
 msgid ""
 "In order to start debugging your app by using Monaca Debugger with Monaca "
 "Cloud IDE, please follow the following instruction:"
-msgstr ""
+msgstr "Monaca デバッガーと Monaca クラウド IDE を併用して、デバッグを行う手順を、次に記します。"
 
 #: ../doc/debugger/manual/debug.rst:46
 msgid "Open a project in Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca クラウド IDE 上で、プロジェクトを開きます。"
 
 #: ../doc/debugger/manual/debug.rst:48
 msgid "Run the project in Monaca Debugger."
-msgstr ""
+msgstr "Monaca デバッガー上で、プロジェクトを実行します。"
 
 #: ../doc/debugger/manual/debug.rst:50
 msgid ""
@@ -114,48 +119,54 @@ msgid ""
 "the connection is successfully made. After your device is connected to the "
 "IDE, you can start debugging your app."
 msgstr ""
+"IDE と端末が接続されていることを確認します。デバッグパネル上に、端末情報が表示されていれば、接続されています ( 下のスクリーンショットを参照のこと"
+" )。表示されない場合、IDE またはデバッガーをいったんリフレッシュさせます。IDE と端末の接続後に、アプリのデバッグを IDE 上で行えます。"
 
 #: ../doc/debugger/manual/debug.rst:60
 msgid "Console Debugging"
-msgstr ""
+msgstr "Console を使用したデバッグ"
 
 #: ../doc/debugger/manual/debug.rst:62
 msgid ""
 "Console API allows you to write/display message to the Console using "
 "Javascript."
-msgstr ""
+msgstr "Console API と JavaScript を併用して、Console ( コンソール ) 上に、メッセージを出力します。"
 
 #: ../doc/debugger/manual/debug.rst:64
 msgid "Here are some common used Console APIs:"
-msgstr ""
+msgstr "Console API を、次に記します。"
 
 #: ../doc/debugger/manual/debug.rst:66
 msgid "``console.log()``: displays a message to the console."
-msgstr ""
+msgstr "``console.log()`` : Console 上にメッセージを出力します。"
 
 #: ../doc/debugger/manual/debug.rst:68
 msgid ""
 "``console.debug()``: displays a message as debug level (you can see the "
 "message in the debug tab)."
 msgstr ""
+"``console.debug()`` : デバッグ用と通常のログを明示的に分けたい場合には、こちらを使用します。メッセージは、Debug タブ "
+"上に表示されます。"
 
 #: ../doc/debugger/manual/debug.rst:70
 msgid "``console.warn()``: displays a message with yellow warning icon."
-msgstr ""
+msgstr "``console.warn()`` : 黄色の警告マークと共に、メッセージが表示されます。"
 
 #: ../doc/debugger/manual/debug.rst:73
 msgid ""
 "For more information about Console APIs, please refer to `Console API "
 "references <https://developer.chrome.com/devtools/docs/console-api>`_."
 msgstr ""
+"Console API の詳細に関しては、 `Console API references ( Google Developers ) "
+"<https://developer.chrome.com/devtools/docs/console-api>`_ をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:75
 msgid "Here is an example of using Console APIs:"
-msgstr ""
+msgstr "Console API を使用したサンプルコードを、次に記します。"
 
 #: ../doc/debugger/manual/debug.rst:77
 msgid "Copy and paste the following code into the ``index.html`` file."
-msgstr ""
+msgstr "次のコードをコピーして、``index.html`` ファイルに貼り付けます。"
 
 #: ../doc/debugger/manual/debug.rst:107
 msgid ""
@@ -163,107 +174,119 @@ msgid ""
 "project in Monaca Cloud IDE. Now you can see those messages in the debug "
 "panel in Monaca Cloud IDE and in the app log inside the Monaca Debugger."
 msgstr ""
+"ファイルを保存して、Monaca デバッガーと Monaca クラウド IDE を接続します。次に、Monaca クラウド IDE "
+"上で、プロジェクトを実行します ( [ 実機デバッグ ] メニューをクリック )。次に、下の 2 "
+"つのスクリーンショットのようなメッセージが、Monaca クラウド IDE のデバッグパネル上および Monaca "
+"デバッガーのアプリログ上に、それぞれ表示されていることを確認します。"
 
 #: ../doc/debugger/manual/debug.rst:113
 msgid "Debug Panel in Monaca Cloud IDE"
-msgstr ""
+msgstr "Monaca クラウド IDE の デバッグパネル上"
 
 #: ../doc/debugger/manual/debug.rst:119
 msgid "App Log in Monaca Debugger"
-msgstr ""
+msgstr "Monaca デバッガーのアプリログ上"
 
 #: ../doc/debugger/manual/debug.rst:123
 msgid ""
 "This debug panel also allows you to see the error log of your app as well."
-msgstr ""
+msgstr "デバッグパネル上で、次のように、アプリのエラーログも確認できます。"
 
 #: ../doc/debugger/manual/debug.rst:132
 msgid "DOM Inspection"
-msgstr ""
+msgstr "DOM の解析"
 
 #: ../doc/debugger/manual/debug.rst:134
 msgid "DOM (Document Object Model) Inspection allows you to:"
-msgstr ""
+msgstr "DOM ( Document Object Model ) の解析ツールを使用して、次の処理ができます。"
 
 #: ../doc/debugger/manual/debug.rst:136
 msgid "view DOM structure of the currently active page."
-msgstr ""
+msgstr "現在開いているページの DOM 構造が表示されます。"
 
 #: ../doc/debugger/manual/debug.rst:137
 msgid "modify the DOM structure as well as CSS of the page with live update."
-msgstr ""
+msgstr "現在開いているページの DOM 構造と CSS を修正でき、ページ側にもリアルタイムで反映されます。"
 
 #: ../doc/debugger/manual/debug.rst:139
 msgid ""
 "For more information, please refer to `DOM Inspection and Style Editing "
 "<https://developer.chrome.com/devtools/docs/dom-and-styles>`_."
 msgstr ""
+"詳細に関しては、 `スタイルと DOM の修正 ( 英語サイト ) "
+"<https://developer.chrome.com/devtools/docs/dom-and-styles>`_ をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:145
 msgid "DOM Inspection inside Debug Panel"
-msgstr ""
+msgstr "デバッグパネル上での DOM 解析"
 
 #: ../doc/debugger/manual/debug.rst:152
 #: ../doc/debugger/manual/installation/debugger_android.rst:81
 #: ../doc/debugger/manual/installation/debugger_ios.rst:77
 msgid "USB Debugging"
-msgstr ""
+msgstr "USB デバッグ"
 
 #: ../doc/debugger/manual/debug.rst:154
 msgid "With USB debugging, you can:"
-msgstr ""
+msgstr "USB デバッグを有効化すると、次の操作を行えます。"
 
 #: ../doc/debugger/manual/debug.rst:156
 msgid ""
 "Console debugging: uses console to diplay messages and set debugging "
 "sessions."
-msgstr ""
+msgstr "Console を使用したデバッグ : Console 上で、メッセージの出力とデバッグセッションを行えます。"
 
 #: ../doc/debugger/manual/debug.rst:157
 msgid "DOM inspection: views and modifies DOM structures with live updates."
-msgstr ""
+msgstr "DOM の解析 : DOM の構造の確認と修正を行えます。また、リアルタイムで、更新を反映できます。"
 
 #: ../doc/debugger/manual/debug.rst:158
 msgid ""
 "JavaScript debugging: profiles JavaScript performance, sets breakpoint and "
 "execution control."
 msgstr ""
+"JavaScript のデバッグ : JavaScript パフォーマンスの分析、分析ポイント ( ブレークポイント ) "
+"のセット、実行処理の制御を行えます。"
 
 #: ../doc/debugger/manual/debug.rst:160
 msgid ""
 "There are two ways to implement USB debugging depends on what kind of device"
 " you use:"
-msgstr ""
+msgstr "USB デバッグ使用時に利用できるデバッグ方法は、次のとおりです。"
 
 #: ../doc/debugger/manual/debug.rst:162
 msgid ""
 "If you are using iOS device, you can use :ref:`Safari Remote Debugging "
 "<usb_debugging_ios>`."
 msgstr ""
+"iOS 端末を使用している場合には、:ref:`Safari のリモートデバッグ機能 <usb_debugging_ios>` を利用できます。"
 
 #: ../doc/debugger/manual/debug.rst:163
 msgid ""
 "If you are using Android device, you can use :ref:`Chrome Remote Debugging "
 "<usb_debugging_android>`."
 msgstr ""
+"Android 端末を使用している場合には、:ref:`Chrome のリモートデバッグ機能 <usb_debugging_android>` "
+"を利用できます。"
 
 #: ../doc/debugger/manual/debug.rst:169
 msgid "Safari Remote Debugging (for iOS and Mac only)"
-msgstr ""
+msgstr "Safari のリモートデバッグ機能 ( iOS と Mac が対象 )"
 
 #: ../doc/debugger/manual/debug.rst:171 ../doc/debugger/manual/debug.rst:200
 msgid ""
 "You are required to do some setups before using USB debugging with Monaca. "
 "Please refer to :ref:`pre_debug_app`."
 msgstr ""
+"USB デバッグを使用してデバッグをする場合、事前に行う設定がいくつかあります。詳細は、:ref:`pre_debug_app` をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:173
 msgid "Connect your iOS device to your Mac via a USB cable."
-msgstr ""
+msgstr "USB ケーブルを使用して、iOS 端末と Mac を接続します。"
 
 #: ../doc/debugger/manual/debug.rst:175
 msgid "Run your Monaca project in your Monaca custom built debugger."
-msgstr ""
+msgstr "カスタムビルド版 Monaca デバッガー上で、Monaca プロジェクトを実行します。"
 
 #: ../doc/debugger/manual/debug.rst:177
 msgid ""
@@ -271,6 +294,8 @@ msgid ""
 "should be shown in the list. Then, you can select each available page of "
 "Monaca app from a submenu belonged to your device's name."
 msgstr ""
+"Safari を開いて、 :guilabel:`開発` メニューを選択します。表示されるリスト内に、開発者の iOS "
+"端末名が表示されますので、選択します。表示されたサブメニューから、Monaca アプリ内で使用しているページを選択します。"
 
 #: ../doc/debugger/manual/debug.rst:186
 msgid ""
@@ -280,28 +305,35 @@ msgid ""
 "Web Inspector "
 "<https://developer.apple.com/library/ios/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874>`_."
 msgstr ""
+"Web インスペクタ画面が表示されます。ここでは、総合的にアプリを検証できます ( HTTP リクエストのタイムライン表示、JavaScript "
+"のプロファイリング、DOM ツリーの操作など )。Web インスペクタの使用方法に関しては、こちらの `Safari Web インスペクタの使用方法 ("
+" 英語サイト ) "
+"<https://developer.apple.com/library/ios/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874>`_"
+" をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:198
 msgid "Chrome Remote Debugging (for Android with Google Chrome Browser)"
-msgstr ""
+msgstr "Chrome のリモートデバッグ機能 ( Google Chrome ブラウザーを使用した Android アプリ開発が対象 )"
 
 #: ../doc/debugger/manual/debug.rst:202
 msgid "Connect your Android device to your PC via a USB cable."
-msgstr ""
+msgstr "USB ケーブルを使用して、Android 端末と PC を接続します。"
 
 #: ../doc/debugger/manual/debug.rst:204
 msgid "Run your Monaca project in Monaca Debugger."
-msgstr ""
+msgstr "Monaca デバッガー上で、Monoca プロジェクトを実行します。"
 
 #: ../doc/debugger/manual/debug.rst:206
 msgid "In Chrome address bar, enter ``chrome://inspect/``."
-msgstr ""
+msgstr "Chrome のアドレスバーに、 ``chrome://inspect/`` と入力します。"
 
 #: ../doc/debugger/manual/debug.rst:208
 msgid ""
 "Then, the Devices page appears as shown below. Your connected Android device"
 " should be shown there. Click :guilabel:`inspect` belonged to your device."
 msgstr ""
+"「 Devices 」 ページが表示されます。次に、接続した Android 端末が表示されていることを確認して、端末情報の下に表示されている "
+":guilabel:`inspect` をクリックします。"
 
 #: ../doc/debugger/manual/debug.rst:216
 msgid ""
@@ -309,56 +341,62 @@ msgid ""
 "debugging your Monaca app. For more information, please refer to `How to Use"
 " Chrome DevTools <https://developer.chrome.com/devtools>`_."
 msgstr ""
+"Chrome DevTools が起動します。ここまでの手順で、Monaca アプリをデバッグする準備が整いました。Chrome DevTools "
+"の使用方法は、`こちら ( 英語サイト ) <https://developer.chrome.com/devtools>`_ をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:228
 msgid "Monaca Debugger with Monaca Local Development Tools"
-msgstr ""
+msgstr "Monaca 提供のローカル環境用の開発ツールと Monaca デバッガーとの連携"
 
 #: ../doc/debugger/manual/debug.rst:230
 msgid ""
 "Monaca local development tools are Monaca CLI, Monaca Localkit and Monaca "
 "for Visual Studio."
 msgstr ""
+"Monaca 提供のローカル環境用の開発ツールには、Monaca CLI、Monaca Localkit、Monaca for Visual "
+"Studio があります。"
 
 #: ../doc/debugger/manual/debug.rst:235
 msgid "Prerequisite for USB Debugging with Monaca"
-msgstr ""
+msgstr "USB デバッグの事前準備"
 
 #: ../doc/debugger/manual/debug.rst:240
 msgid "*Platform*"
-msgstr ""
+msgstr "*プラットフォーム*"
 
 #: ../doc/debugger/manual/debug.rst:240
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: ../doc/debugger/manual/debug.rst:240
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: ../doc/debugger/manual/debug.rst:242
 msgid "*Monaca Debugger*"
-msgstr ""
+msgstr "*Monaca デバッガー*"
 
 #: ../doc/debugger/manual/debug.rst:242
 msgid ":ref:`Custom built Monaca Debugger only <custom_debugger_ios>`"
-msgstr ""
+msgstr ":ref:`カスタムビルド版 Monaca デバッガーのみ <custom_debugger_ios>`"
 
 #: ../doc/debugger/manual/debug.rst:242
 msgid ""
 "Either store version or custom built :ref:`Monaca Debugger "
 "<debugger_on_android>`"
-msgstr ""
+msgstr "ストア版またはカスタムビルド版の :ref:`Monaca デバッガー <debugger_on_android>`"
 
 #: ../doc/debugger/manual/debug.rst:245
 msgid "*Install Driver*"
-msgstr ""
+msgstr "*ドライバーのインストール*"
 
 #: ../doc/debugger/manual/debug.rst:245
 msgid ""
 "For Windows, please install iTunes to install the driver for iOS devices. "
 "For Mac OS X, necessary drivers should be already installed."
 msgstr ""
+"Windows の場合、iTunes をインストールして、iOS 端末用のドライバーを入手します。Mac OS X "
+"の場合、必要なドライバーは、インストールされています。"
 
 #: ../doc/debugger/manual/debug.rst:245
 msgid ""
@@ -366,60 +404,62 @@ msgid ""
 "appropriate driver for the device. For Mac OS X, the system will "
 "automatically find the device without any installation."
 msgstr ""
+"Windows の場合、端末製造元の Web サイトから、端末用の対象のドライバーを入手します。Mac OS X "
+"の場合、必要なドライバーを、システム側で自動で検知してくれます。"
 
 #: ../doc/debugger/manual/debug.rst:249
 msgid "*Enable USB Debug*"
-msgstr ""
+msgstr "*USB デバッグ の有効化*"
 
 #: ../doc/debugger/manual/debug.rst:249
 msgid "Enable \"Web Inspector\" in iOS device:"
-msgstr ""
+msgstr "iOS 端末上で、[ Web インスペクタ ] を有効化します。"
 
 #: ../doc/debugger/manual/debug.rst:251
 msgid "Go to :menuselection:`Settings --> Safari`."
-msgstr ""
+msgstr ":menuselection:`設定 --> Safari` を選択します。"
 
 #: ../doc/debugger/manual/debug.rst:252
 msgid "Scroll down and select :guilabel:`Advanced`."
-msgstr ""
+msgstr "下にスクロールして、 :guilabel:`詳細` を選択します。"
 
 #: ../doc/debugger/manual/debug.rst:253
 msgid "Switch on :guilabel:`Web Inspector`."
-msgstr ""
+msgstr ":guilabel:`Web インスペクタ` を ON にします。"
 
 #: ../doc/debugger/manual/debug.rst:249
 msgid "Enable \"USB debugging\" in Android device:"
-msgstr ""
+msgstr "Android 端末上で、[ USB デバッグ ( USB debugging ) ] を有効化します。"
 
 #: ../doc/debugger/manual/debug.rst:251
 msgid "Go to :menuselection:`Settings --> More`."
-msgstr ""
+msgstr ":menuselection:`設定 --> 端末情報 / タブレット情報` を選択して、ビルド番号を数回タップします。"
 
 #: ../doc/debugger/manual/debug.rst:252
 msgid "Select :guilabel:`Developer options`."
-msgstr ""
+msgstr ":guilabel:`開発者向けオプション` を選択します。"
 
 #: ../doc/debugger/manual/debug.rst:253
 msgid "Tick :guilabel:`USB Debugging`."
-msgstr ""
+msgstr ":guilabel:`USB デバッグ` を選択します。"
 
 #: ../doc/debugger/manual/debug.rst:255
 msgid "*Trust Connection*"
-msgstr ""
+msgstr "*コネクションの信頼*"
 
 #: ../doc/debugger/manual/debug.rst:255 ../doc/debugger/manual/debug.rst:255
 msgid ""
 "The connected device should display if you trust the host computer. Please "
 "trust the computer in order to get connected."
-msgstr ""
+msgstr "端末上に、コンピューターの信頼性を確認する画面が表示されます。[ 信頼する ] を選択して、コンピューター側と接続します。"
 
 #: ../doc/debugger/manual/debug.rst:262
 msgid "USB Debugging with Monaca Local Development Tools"
-msgstr ""
+msgstr "Monaca 提供のローカル環境用の開発ツールと USB デバッグ"
 
 #: ../doc/debugger/manual/debug.rst:264
 msgid "In order to start this debugging, please do as follows:"
-msgstr ""
+msgstr "デバッグの手順を、次に記します。"
 
 #: ../doc/debugger/manual/debug.rst:266
 msgid ""
@@ -427,30 +467,33 @@ msgid ""
 "Monaca Localkit, Monaca CLI or Monaca for Visual Studio). You may want to "
 "refer to:"
 msgstr ""
+"Monaca デバッガーとホスト PC をペアリングします。ホスト PC とは、Monaca 提供のローカル環境用の開発ツール ( Monaca "
+"Localkit、Monaca CLI、Monaca for Visual Studio ) を実行している PC "
+"を指します。各開発ツール上でのペアリング方法は、次のリンク先をご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:268
 msgid ":ref:`Pairing in Monaca Localkit <localkit_pairing_debugging>`"
-msgstr ""
+msgstr ":ref:`Monaca Localkit 上でのペアリング方法 <localkit_pairing_debugging>`"
 
 #: ../doc/debugger/manual/debug.rst:269
 msgid ":ref:`Pairing in Monaca CLI <cli_pairing>`"
-msgstr ""
+msgstr ":ref:`Monaca CLI 上でのペアリング方法 <cli_pairing>`"
 
 #: ../doc/debugger/manual/debug.rst:270
 msgid ":ref:`Pairing in Monaca for Visual Studio <monaca_vs_pairing>`"
-msgstr ""
+msgstr ":ref:`Monaca for Visual Studio 上でのペアリング方法 <monaca_vs_pairing>`"
 
 #: ../doc/debugger/manual/debug.rst:272
 msgid "Choose a project to run."
-msgstr ""
+msgstr "実行するプロジェクトを選択します。"
 
 #: ../doc/debugger/manual/debug.rst:274
 msgid "Click on the debugger menu as shown below:"
-msgstr ""
+msgstr "下のスクリーンショット内で、赤色で示された、デバッガーのメニューをクリックします。"
 
 #: ../doc/debugger/manual/debug.rst:282
 msgid "Click the Inspector button to start the USB debugging."
-msgstr ""
+msgstr "[ インスペクタ ] ボタンをクリックして、USB デバッグを開始します。"
 
 #: ../doc/debugger/manual/debug.rst:291
 msgid ""
@@ -458,16 +501,22 @@ msgid ""
 "otherwise, please refer to :ref:`troubleshoot_inspector`. For more "
 "information, please refer to:"
 msgstr ""
+"Chrome DevTools または Safari の Web インスペクタがホスト PC "
+"側で起動されているか確認します。起動されていない場合、:ref:`troubleshoot_inspector` "
+"をご確認ください。また、併せて、次のリンク先もご確認ください。"
 
 #: ../doc/debugger/manual/debug.rst:293
 msgid ""
 "`How to Use Safari Web Inspector "
 "<https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html>`_"
 msgstr ""
+"`Safari の Web インスペクタの使用方法 ( 外部サイト ) "
+"<https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html>`_"
 
 #: ../doc/debugger/manual/debug.rst:294
 msgid "`How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_"
 msgstr ""
+"`Chrome DevTools の使用方法 ( 外部サイト ) <https://developer.chrome.com/devtools>`_"
 
 #: ../doc/debugger/manual/debug.rst:307
 #: ../doc/debugger/manual/features.rst:163
@@ -476,26 +525,26 @@ msgstr ""
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:148
 #: ../doc/debugger/manual/installation/debugger_ios.rst:170
 msgid "*See Also*"
-msgstr ""
+msgstr "*参考ページ*"
 
 #: ../doc/debugger/manual/debug.rst:309
 #: ../doc/debugger/manual/installation/debugger_android.rst:160
 #: ../doc/debugger/manual/installation/debugger_ios.rst:172
 msgid ":ref:`monaca_debugger_features`"
-msgstr ""
+msgstr ":ref:`monaca_debugger_features`"
 
 #: ../doc/debugger/manual/debug.rst:310
 #: ../doc/debugger/manual/features.rst:165
 msgid ":ref:`debugger_installation_index`"
-msgstr ""
+msgstr ":ref:`debugger_installation_index`"
 
 #: ../doc/debugger/manual/features.rst:5
 msgid "Functionalities"
-msgstr ""
+msgstr "機能の概要"
 
 #: ../doc/debugger/manual/features.rst:10
 msgid "Debugger Functions"
-msgstr ""
+msgstr "デバッガーの機能"
 
 #: ../doc/debugger/manual/features.rst:12
 msgid ""
@@ -503,30 +552,33 @@ msgid ""
 "You can find Debugger Functions button when you run a project in Monaca "
 "Debugger. When you click on Debugger Functions button, you will see:"
 msgstr ""
+"Monaca デバッガーでは、アプリの検証に役立つ、多彩な機能を提供しています。Monaca デバッガー上でプロジェクトを実行すると、画面の右下に [ "
+"デバッガーメニュー ] "
+"ボタンが表示されます。メニューボタンをクリックすると、次のようなメニュー画面が表示されます。現在使用できる機能は、次のとおりです。"
 
 #: ../doc/debugger/manual/features.rst:14
 msgid "Back button"
-msgstr ""
+msgstr "戻るボタン"
 
 #: ../doc/debugger/manual/features.rst:15
 msgid "Reload button"
-msgstr ""
+msgstr "更新ボタン"
 
 #: ../doc/debugger/manual/features.rst:16
 msgid ":ref:`Screenshot button <screenshot>`"
-msgstr ""
+msgstr ":ref:`スクリーンショット ボタン <screenshot>`"
 
 #: ../doc/debugger/manual/features.rst:17
 msgid ":ref:`App Log button <app_log>`"
-msgstr ""
+msgstr ":ref:`アプリログの表示ボタン <app_log>`"
 
 #: ../doc/debugger/manual/features.rst:18
 msgid ":ref:`Inspector button <debugger_inspector>`"
-msgstr ""
+msgstr ":ref:`インスぺタの実行ボタン <debugger_on_ios>`"
 
 #: ../doc/debugger/manual/features.rst:35
 msgid "Screenshot"
-msgstr ""
+msgstr "スクリーンショット機能"
 
 #: ../doc/debugger/manual/features.rst:37
 msgid ""
@@ -534,36 +586,38 @@ msgid ""
 "specific screenshot of your project to Monaca Cloud IDE and share it with "
 "your team members."
 msgstr ""
+"Monaca デバッガーでのプロジェクトの検証時、プロジェクトのスクリーンショットをキャプチャーして、他のチームメンバーと共有したい場合に使用します ("
+" Monaca クラウド IDE 経由で共有 )。"
 
 #: ../doc/debugger/manual/features.rst:40
 msgid "In the screenshot screen, you can:"
-msgstr ""
+msgstr "スクリーンショット機能では、次の操作・処理が行えます。"
 
 #: ../doc/debugger/manual/features.rst:42
 msgid "edit the screenshot."
-msgstr ""
+msgstr "Edit : スクリーンショットのキャプチャー、コメントの手書き入力"
 
 #: ../doc/debugger/manual/features.rst:43
 msgid "upload to Cloud IDE."
-msgstr ""
+msgstr "Upload : クラウド IDE へのアップロード ( チャット機能を使用 )"
 
 #: ../doc/debugger/manual/features.rst:44
 msgid "save to phone storage."
-msgstr ""
+msgstr "Save : ストレージへの保存"
 
 #: ../doc/debugger/manual/features.rst:55
 msgid "App Log"
-msgstr ""
+msgstr "アプリログ"
 
 #: ../doc/debugger/manual/features.rst:57
 msgid ""
 "Monaca Debugger allows you to see the log of the app which will show the "
 "progress and errors of the app while running."
-msgstr ""
+msgstr "Monaca デバッガー上で、アプリのログを確認できます。ログには、実行中のアプリのエラーと進行状況が出力されます。"
 
 #: ../doc/debugger/manual/features.rst:68
 msgid "Inspector"
-msgstr ""
+msgstr "インスペクタ機能"
 
 #: ../doc/debugger/manual/features.rst:70
 msgid ""
@@ -571,6 +625,8 @@ msgid ""
 "Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, "
 "you need to enable USB debugging on your device."
 msgstr ""
+"インスペクタ機能では、`Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_"
+" を使用して、プロジェクトをデバッグ・検証できます。なお、使用時には、端末上の [ USB デバッグ ] を有効化する必要があります。"
 
 #: ../doc/debugger/manual/features.rst:78
 msgid ""
@@ -580,24 +636,30 @@ msgid ""
 "<localkit_debug_app>` or :ref:`USB debugging with Monaca CLI "
 "<cli_debug_app>`."
 msgstr ""
+":ref:`Monaca Localkit <monaca_localkit_index>` または :ref:`Monaca CLI "
+"<monaca_cli_index>` の使用時のみ、このインスペクタ機能を利用できます。詳細は、:ref:`Monaca Localkit "
+"を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <localkit_debug_app>` または :ref:`Monaca "
+"CLI を使用して、アプリをデバッグする方法 ( USB デバッグの解説箇所 ) <cli_debug_app>` をご確認ください。"
 
 #: ../doc/debugger/manual/features.rst:84
 msgid "Debugger Menu"
-msgstr ""
+msgstr "デバッガーのメニュー"
 
 #: ../doc/debugger/manual/features.rst:92
 msgid "Inside Debugger Menu, there are:"
-msgstr ""
+msgstr "デバッガーのメニューでは、次の操作・設定を行えます。"
 
 #: ../doc/debugger/manual/features.rst:94
 msgid ""
 "*All Projects*: shows a list of all Monaca projects which can be run on "
 "Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
 msgstr ""
+"*すべてのプロジェクト* : Monaca デバッガー上で実行可能な Monaca プロジェクトの一覧を表示します。一覧上のプロジェクトには、2 "
+"つのサブカテゴリーがあります。"
 
 #: ../doc/debugger/manual/features.rst:96
 msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca.io プロジェクト : Monaca クラウド IDE 上で作成されたプロジェクトの一覧を表示します。"
 
 #: ../doc/debugger/manual/features.rst:97
 msgid ""
@@ -606,6 +668,10 @@ msgid ""
 "in your local PC. Local projects appear only when the debugger is paired "
 "with Monaca Localkit/CLI."
 msgstr ""
+"ローカルプロジェクト : ローカル環境用の開発ツール ( :ref:`Monaca Localkit <monaca_localkit_index>` "
+"または :ref:`Monaca CLI <monaca_cli_index>` ) "
+"を使用して作成し、ローカルに保存されているプロジェクトの一覧です。なお、Monaca Localkit ( または Monaca CLI ) "
+"とデバッガーがペアリングされているときのみ、ローカルプロジェクトの一覧は表示されます。"
 
 #: ../doc/debugger/manual/features.rst:104
 msgid ""
@@ -614,22 +680,28 @@ msgid ""
 "and currently connected to the debugger. You may want to refer to the "
 "following pages:"
 msgstr ""
+"*ローカルコンピュータ* : ペアリング済み、または、利用可能 ( 未接続 ) "
+"なコンピューターの一覧を表示します。ペアリング済みのコンピューターとは、Monaca Locakit または Monaca CLI "
+"がインストールされ、デバッガーに現在接続されているローカルのコンピューターです。各開発ツールとのペアリング方法は、次のリンクをご確認ください。"
 
 #: ../doc/debugger/manual/features.rst:106
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca Localkit "
 "<localkit_pairing_debugging>`"
 msgstr ""
+":ref:`Monaca Localkit と Monaca デバッガーのペアリング方法 <localkit_pairing_debugging>`"
 
 #: ../doc/debugger/manual/features.rst:107
 msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
-msgstr ""
+msgstr ":ref:`Monaca CLI  と Monaca デバッガーのペアリング方法 <connect_to_debugger>`"
 
 #: ../doc/debugger/manual/features.rst:108
 msgid ""
 ":ref:`Pairing Monaca Debugger with Monaca for Visual "
 "Studio<monaca_vs_testing_debugging>`"
 msgstr ""
+":ref:`Monaca for Visual Studio と Monaca デバッガーのペアリング方法 "
+"<monaca_vs_testing_debugging>`"
 
 #: ../doc/debugger/manual/features.rst:115
 msgid ""
@@ -640,6 +712,10 @@ msgid ""
 " is previously stored data (local storage data) created by your projects on "
 "your device's memory."
 msgstr ""
+"*設定* : デバッガー側の各種設定を行えます。設定可能な項目は、[ スリープを許可する ]、[ メモリー使用量表示 ]、[ スプラッシュ表示 ] ( "
+"Android のみ )、[ アプリの復帰時にプロジェクトを再実行 ]、[ ネットワーク再接続時にプロジェクトを再実行 ]、[ 同期データを削除する "
+"]、[ Local Storage を削除する ] です。同期データとは、ローカル側と同期を行ったプロジェクトファイルを指します。また、Local "
+"Storage とは、端末のメモリー ( LocalStorage ) 上に、プロジェクト側で作成・保存したデータを指します。"
 
 #: ../doc/debugger/manual/features.rst:122
 msgid ""
@@ -647,34 +723,40 @@ msgid ""
 "version, platform, CLI version, WebView Engine (Android only) and available "
 "plugins."
 msgstr ""
+"*このデバッガーについて* : デバッガーの詳細情報を表示します。表示する情報は、デバッガーのバージョン番号、プラットフォーム情報、CLI "
+"バージョン番号、WebView エンジン ( Android のみ )、利用可能なプラグインの一覧などです。"
 
 #: ../doc/debugger/manual/features.rst:132
 msgid "Project Options"
-msgstr ""
+msgstr "プロジェクトオプション"
 
 #: ../doc/debugger/manual/features.rst:134
 msgid ""
 "From the project list inside Monaca Debugger, there is a Project Options "
 "button for each Monaca.io project."
 msgstr ""
+"Monaca デバッガー上のプロジェクト一覧の [ Monaca.io プロジェクト ] では、各プロジェクトの右側に [ プロジェクトオプション ] "
+"アイコンが表示されています。"
 
 #: ../doc/debugger/manual/features.rst:148
 msgid "Inside this Project Options button, you can:"
-msgstr ""
+msgstr "[ プロジェクトオプション ] 上では、次の設定が行えます。"
 
 #: ../doc/debugger/manual/features.rst:150
 msgid "favorite current project: moves it to the top of the project list."
 msgstr ""
+"スター : スター ( 星マーク ) を付けると、「 お気に入り 」 プロジェクトとして、Monaca クラウド IDE "
+"上のプロジェクト一覧の最上位に表示されます。"
 
 #: ../doc/debugger/manual/features.rst:152
 msgid "lunch app: runs current project in the debugger."
-msgstr ""
+msgstr "実行する : デバッガー上で、プロジェクトを実行します。"
 
 #: ../doc/debugger/manual/features.rst:154
 msgid ""
 "network install: installs a built app of the current project directly from "
 "Monaca debugger."
-msgstr ""
+msgstr "インスト ( ネットワークインストール ) : Monaca デバッガー経由で、ビルド済みアプリを、端末にインストールします。"
 
 #: ../doc/debugger/manual/features.rst:156
 msgid ""
@@ -683,6 +765,10 @@ msgid ""
 "iOS <types_of_build_ios>` or :ref:`debug build for Android "
 "<types_of_build_android>`."
 msgstr ""
+"ネットワークインストールを行う前に、Monaca クラウド IDE "
+"上で、プロジェクトをビルドして、デバッグビルド版のアプリを作成する必要があります。詳細は、:ref:`iOS 向けアプリのデバッグビルド "
+"<types_of_build_ios>` または :ref:`Android 向けアプリのデバッグビルド "
+"<types_of_build_android>` をご確認ください。"
 
 #: ../doc/debugger/manual/features.rst:158
 msgid ""
@@ -690,16 +776,18 @@ msgid ""
 "built debugger <custom_debugger_ios>`. The App store version doesn't have "
 "this function."
 msgstr ""
+"ネットワークインストールは、iOS デバッガーでは、:ref:`カスタムビルド版デバッガー <custom_debugger_ios>` "
+"でのみ使用できます。App Store 版のデバッガーでは、ネットワークインストールは使用できません。"
 
 #: ../doc/debugger/manual/features.rst:166
 #: ../doc/debugger/manual/installation/debugger_android.rst:161
 #: ../doc/debugger/manual/installation/debugger_ios.rst:173
 msgid ":ref:`debugging_monaca_app`"
-msgstr ""
+msgstr ":ref:`debugging_monaca_app`"
 
 #: ../doc/debugger/manual/index.rst:3
 msgid "Manual"
-msgstr ""
+msgstr "マニュアル"
 
 #: ../doc/debugger/manual/index.rst:5
 msgid ""
@@ -707,11 +795,13 @@ msgid ""
 " using Monaca Debugger, you can test the actual operations of the "
 "application on the device without building it."
 msgstr ""
+"Monaca デバッガーは、Monaca アプリの開発時に使用するツールです。Monaca "
+"デバッガーを使うと、アプリをビルドせずとも、端末にて、アプリの動作確認を行えます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:5
 #: ../doc/debugger/manual/installation/debugger_android.rst:15
 msgid "Monaca Debugger for Android"
-msgstr ""
+msgstr "Android 向けの Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:20
 #: ../doc/debugger/manual/installation/debugger_ios.rst:20
@@ -719,52 +809,56 @@ msgid ""
 "If the Cordova version of your project is lower than 5.2, it might not work "
 "properly with Monaca Debugger 5.X.X. There are two ways to fix this issue:"
 msgstr ""
+"Cordova 5.2 より前のバージョンを実装したプロジェクトを、Monaca デバッガー 5 "
+"系上で実行する場合、不具合が生じることがあります。修復方法を次に記します。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:22
 #: ../doc/debugger/manual/installation/debugger_ios.rst:22
 msgid ""
 ":ref:`upgrade Cordova version <changing_cordova_version>` of your project."
-msgstr ""
+msgstr "プロジェクトに実装されている :ref:`Cordova のバージョンを更新 <changing_cordova_version>`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:23
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_and>`."
 msgstr ""
+":ref:`カスタムビルド版 Monaca デバッガー <custom_debugger_and>` を使用 ( 旧バージョンの Cordova "
+"に対応するため )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:28
 #: ../doc/debugger/manual/installation/debugger_ios.rst:30
 msgid "Debugger Type"
-msgstr ""
+msgstr "デバッガーの種類"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:28
 msgid "Monaca Debugger (Store Version)"
-msgstr ""
+msgstr "ストア版 Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:28
 #: ../doc/debugger/manual/installation/debugger_ios.rst:30
 msgid "Custom Built Monaca Debugger"
-msgstr ""
+msgstr "カスタムビルド版 Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:30
 #: ../doc/debugger/manual/installation/debugger_ios.rst:34
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:30
 #: ../doc/debugger/manual/installation/debugger_ios.rst:34
 msgid "Monaca Debugger available at the store."
-msgstr ""
+msgstr "ストアで入手する Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:30
 #: ../doc/debugger/manual/installation/debugger_ios.rst:34
 msgid "Monaca Debugger built from Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca クラウド IDE からインストールする Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:32
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:14
 #: ../doc/debugger/manual/installation/debugger_ios.rst:32
 #: ../doc/debugger/manual/installation/index.rst:5
 msgid "Installation"
-msgstr ""
+msgstr "インストール方法"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:32
 msgid "`Play Store`__"
@@ -780,12 +874,12 @@ msgstr ""
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:35
 msgid ":ref:`cordova_and`"
-msgstr ""
+msgstr ":ref:`cordova_and`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:35
 #: ../doc/debugger/manual/installation/debugger_ios.rst:36
 msgid "Core and some third-party Cordova plugins are automatically included."
-msgstr ""
+msgstr "基本 Cordova プラグインおよび複数のサードパーティー製 Cordova プラグインがあらかじめ実装されています。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:35
 #: ../doc/debugger/manual/installation/debugger_ios.rst:36
@@ -793,20 +887,22 @@ msgid ""
 "In addition to core and third-party Cordova plugins, user submitted plugins "
 "(of the current project) are included."
 msgstr ""
+"基本 Cordova プラグインおよびサードパーティー製 Cordova プラグインに加えて、別途、ユーザー Cordova "
+"プラグインなどが実装できます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:38
 msgid "App ID (Android:PackageName)"
-msgstr ""
+msgstr "パッケージ名 ( Android:PackageName )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:38
 #: ../doc/debugger/manual/installation/debugger_ios.rst:39
 msgid "``mobi.monaca.debugger``"
-msgstr ""
+msgstr "``mobi.monaca.debugger``"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:38
 #: ../doc/debugger/manual/installation/debugger_ios.rst:39
 msgid "App ID set by user"
-msgstr ""
+msgstr "ユーザー側で設定"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:41
 msgid "Version Name (Android:versionName)"
@@ -814,12 +910,12 @@ msgstr ""
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:41
 msgid "Fixed (currently 6.0.1)"
-msgstr ""
+msgstr "固定 ( 現在は 6.0.1 )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:41
 #: ../doc/debugger/manual/installation/debugger_ios.rst:41
 msgid "Display version name set by user"
-msgstr ""
+msgstr "ユーザー側で設定"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:44
 msgid "App Version (Android:versionCode)"
@@ -827,16 +923,16 @@ msgstr ""
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:44
 msgid "Fixed (currently 600012)"
-msgstr ""
+msgstr "固定 ( 現在は 600012 )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:44
 #: ../doc/debugger/manual/installation/debugger_ios.rst:44
 msgid "Version set by user"
-msgstr ""
+msgstr "ユーザー側で設定"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:47
 msgid ":ref:`usb_and`"
-msgstr ""
+msgstr ":ref:`usb_and`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:47
 #: ../doc/debugger/manual/installation/debugger_android.rst:47
@@ -845,7 +941,7 @@ msgstr ""
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:49
 msgid ":ref:`localkit_and`"
-msgstr ""
+msgstr ":ref:`localkit_and`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:49
 #: ../doc/debugger/manual/installation/debugger_android.rst:49
@@ -854,11 +950,11 @@ msgstr ""
 #: ../doc/debugger/manual/installation/debugger_ios.rst:49
 #: ../doc/debugger/manual/installation/debugger_ios.rst:51
 msgid "Available"
-msgstr ""
+msgstr "可"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:51
 msgid ":ref:`webview_and`"
-msgstr ""
+msgstr ":ref:`webview_and`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:51
 #: ../doc/debugger/manual/installation/debugger_android.rst:51
@@ -872,7 +968,7 @@ msgstr ""
 #: ../doc/debugger/manual/installation/debugger_android.rst:67
 #: ../doc/debugger/manual/installation/debugger_ios.rst:63
 msgid "Cordova Plugins"
-msgstr ""
+msgstr "Cordova プラグイン"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:69
 #: ../doc/debugger/manual/installation/debugger_ios.rst:65
@@ -880,6 +976,8 @@ msgid ""
 "In Monaca Debugger, core and third-party Cordova plugins are automatically "
 "included."
 msgstr ""
+"Monaca デバッガーには、「 基本 Cordova プラグイン 」 および 「 サードパーティー製 Cordova プラグイン 」 "
+"が、あらかじめ実装されています。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:71
 #: ../doc/debugger/manual/installation/debugger_ios.rst:67
@@ -888,6 +986,8 @@ msgid ""
 " Battery Status, Camera, Contacts, Device and so on. For a complete list of "
 "core Cordova plugins, please refer to :ref:`cordova_core_plugins`."
 msgstr ""
+"基本 Cordova プラグインとは、バッテリー情報の取得 API、カメラ API、住所録の取得 API、端末情報の取得 API "
+"などを指します。詳細は、:ref:`cordova_core_plugins` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:73
 msgid ""
@@ -896,6 +996,8 @@ msgid ""
 "included third-party Cordova plugins, please refer to "
 ":ref:`third_party_cordova_index`."
 msgstr ""
+"また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも、Monaca "
+"に実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:75
 msgid ""
@@ -907,22 +1009,30 @@ msgid ""
 "Built Monaca Debugger is a debugger which is built from a Monaca Project "
 "within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_and`."
 msgstr ""
+"これ以外の第三者提供 ( 「 外部の Cordova プラグイン 」 ) または自作のプラグイン ( 「 :ref:`ユーザー Cordova "
+"プラグイン <custom_cordova_plugin>` 」 ) をプロジェクトに追加することもできます。ストア版の Monaca "
+"デバッガーには、これらのプラグインはデフォルトでは実装されていないため、このデバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の"
+" Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca "
+"デバッガーですが、カスタムビルド版のデバッガーは、Monaca クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca"
+" デバッガーは、アプリです )。詳細は、:ref:`custom_debugger_and` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:83
 msgid ""
 "Monaca Debugger for Android supports USB debugging functions with Google "
 "Chrome browser such as:"
 msgstr ""
+"Android 向けの Monaca デバッガーでは、USB デバッグをサポートしており、Google Chrome "
+"ブラウザーを使用したリモートデバッグが行えます。リモートデバッグで行える主な処理は、次のとおりです。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:85
 #: ../doc/debugger/manual/installation/debugger_ios.rst:81
 msgid "console debugging: using console to diplay message."
-msgstr ""
+msgstr "Console を使用したデバッグ : Console を使用して、各種メッセージを出力できます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:86
 #: ../doc/debugger/manual/installation/debugger_ios.rst:82
 msgid "DOM inspection: viewing and modifying DOM structure with live updates."
-msgstr ""
+msgstr "DOM の解析 : DOM の構造の確認と修正を行えます。また、リアルタイムで、更新を反映できます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:87
 #: ../doc/debugger/manual/installation/debugger_ios.rst:83
@@ -930,26 +1040,30 @@ msgid ""
 "JavaScript debugging: profiling JavaScript performance, setting breakpoint "
 "and execution control."
 msgstr ""
+"JavaScript のデバッグ : JavaScript パフォーマンスのプロファイリング、分析ポイント ( ブレークポイント ) "
+"のセット、実行処理の制御を行います。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:89
 msgid ""
 "For more information, please refer to :ref:`USB Debugging with Monaca "
 "Debugger for Android Apps<usb_debugging_android>`."
 msgstr ""
+"詳細は、:ref:`Android 向けアプリのデバッグ方法 ( Monaca デバッガーと USB デバッグを使用 ) "
+"<usb_debugging_android>` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:94
 #: ../doc/debugger/manual/installation/debugger_ios.rst:91
 msgid "Localkit Inspector Function"
-msgstr ""
+msgstr "Localkit のインスぺクタ機能"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:96
 #: ../doc/debugger/manual/installation/debugger_ios.rst:93
 msgid "Inspector can be used when developing either on Windows or Mac OS."
-msgstr ""
+msgstr "Windows と Mac OS の両方で、このインスペクタ機能を使用できます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:101
 msgid "WebView"
-msgstr ""
+msgstr "WebView"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:103
 msgid ""
@@ -957,11 +1071,13 @@ msgid ""
 "engines. The WebView is switched automatically depending on the type of "
 "WebView is used in each application."
 msgstr ""
+"Android 向けのデバッガーには、Stock と Crosswalk の両方の WebView エンジンが実装されています。アプリ側で使用する "
+"WebView の種類により、自動で、WebView が切り替わります。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:108
 #: ../doc/debugger/manual/installation/debugger_ios.rst:99
 msgid "Network Install"
-msgstr ""
+msgstr "ネットワーク インストール"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:110
 msgid ""
@@ -970,10 +1086,13 @@ msgid ""
 " For more information, please refer to :ref:`how to use Network Install "
 "feature<debugger_project_options>`."
 msgstr ""
+"Android 向けの Monaca デバッガーでは、デバッガー経由で、ビルド済みのアプリ ( デバッグビルド版のみ ) "
+"を端末にインストールできます。詳細は、 :ref:`ネットワーク インストール ( [ インスト ] の解説  ) "
+"<debugger_project_options>` 機能を、ご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:116
 msgid "Build and Install Custom Built Monaca Debugger"
-msgstr ""
+msgstr "カスタムビルド版 Monaca デバッガーのビルドとインストール"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:118
 #: ../doc/debugger/manual/installation/debugger_ios.rst:127
@@ -981,10 +1100,11 @@ msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca "
 "Debugger`."
 msgstr ""
+"Monaca クラウド IDE メニューから、 :menuselection:`デバッグ --> デバッガーの説明とインストール` を選択します。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:120
 msgid "Select :menuselection:`Debugger for Android --> Build and Install`."
-msgstr ""
+msgstr ":menuselection:`Android 向けデバッガーインストール --> ビルドしてインストール` を選択します。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:128
 msgid ""
@@ -993,6 +1113,8 @@ msgid ""
 "use the QR code to install the debugger on your device or download the built"
 " file to your PC."
 msgstr ""
+"ビルドが完了するまで、数分かかる場合がありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。ビルドしたアプリは、QR "
+"コードを使用して、端末にインストールするか、または、ファイルを PC へダウンロードすることができます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:136
 #: ../doc/debugger/manual/installation/debugger_ios.rst:148
@@ -1001,6 +1123,9 @@ msgid ""
 "account. Then, tick :guilabel:`I've installed Monaca Debugger and logged in`"
 " and click :guilabel:`Next`."
 msgstr ""
+"デバッガーを端末へインストールした後、Monaca アカウントを使用して、デバッガーにログインします。次に、IDE "
+"の画面に戻り、:guilabel:`Monaca デバッガーをインストールして、ログインしました。` にチェックを入れ、:guilabel:`次へ` "
+"をクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:138
 #: ../doc/debugger/manual/installation/debugger_ios.rst:151
@@ -1009,6 +1134,8 @@ msgid ""
 " connected, click :guilabel:`Run on Device` to start running the current app"
 " in your debugger right away."
 msgstr ""
+"Monaca クラウド IDE とデバッガー間が接続されます。接続後、:guilabel:`実機デバッグ` "
+"をクリックすると、デバッガー上でアプリが同期・実行されます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:146
 #: ../doc/debugger/manual/installation/debugger_ios.rst:159
@@ -1017,18 +1144,20 @@ msgid ""
 "the debugger and making some changes in the IDE. You will be able to see the"
 " changes reflected in the debugger once you save the changes."
 msgstr ""
+"デバッガー上でアプリが実行されていることを確認します。この状態で、アプリの検証を行えます。また、IDE "
+"に一度戻り、アプリを修正・保存してみましょう。修正箇所は、保存後、直ちにデバッガー側にも反映されます。"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:158
 msgid ":ref:`Debugger Installation on Emulator<debugger_on_emulator>`"
-msgstr ""
+msgstr ":ref:`エミュレーター上へのデバッガーのインストール <debugger_on_emulator>`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:159
 msgid ":ref:`Debugger Installation on iOS<debugger_on_ios>`"
-msgstr ""
+msgstr ":ref:`iOS 上へのデバッガーのインストール <debugger_on_ios>`"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:5
 msgid "Monaca Debugger for Chrome Apps"
-msgstr ""
+msgstr "Chrome 向け Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:10
 msgid ""
@@ -1036,6 +1165,8 @@ msgid ""
 " can also be used offline. All Chrome Apps are published in Chrome Web "
 "Store."
 msgstr ""
+"Chrome アプリは、Web アプリの一種であり、Chrome エンジン上で実行されます。また、インストール後の Chrome "
+"アプリは、オフラインでも使用できます。Chrome アプリは、Chrome ウェブストアから入手できます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:16
 msgid ""
@@ -1044,22 +1175,26 @@ msgid ""
 " Or from Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca"
 " Debugger --> Debugger for Chrome Apps`."
 msgstr ""
+"Chrome 向けの Monaca デバッガーは、`Chrome ウェブストア "
+"<https://chrome.google.com/webstore/detail/eampeimhpjmnimjbfajnbegjnafjadld>`_"
+" から入手できます。または、Monaca クラウド IDE のメニューから、:menuselection:`デバッグ --> "
+"デバッガーの説明とインストール --> Chrome 向けデバッガー インストール` を選択します。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:24
 msgid ""
 "Click on :guilabel:`ADD TO CHROME` button to add Monaca Debugger to your "
 "Chrome."
-msgstr ""
+msgstr ":guilabel:`CHROME に追加` ボタンをクリックして、Monaca デバッガーを Chrome に追加します。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:32
 msgid ""
 "Then, a dialog will appear. Click :guilabel:`Add app` button to finalize the"
 " installation process."
-msgstr ""
+msgstr "ダイアログが表示されるので、 :guilabel:`アプリを追加` ボタンをクリックして、インストールを完了させます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:37
 msgid "Running Monaca Debugger"
-msgstr ""
+msgstr "Monaca デバッガーの実行"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:39
 msgid ""
@@ -1067,6 +1202,8 @@ msgid ""
 ":guilabel:`chrome://apps` from the address bar. A list of installed Chrome "
 "Apps will appear."
 msgstr ""
+"ブックマークバー左端の :guilabel:`アプリ` をクリックするか、または、アドレスバーに :guilabel:`chrome://apps` "
+"と入力して、インストールされた Chrome アプリの一覧を表示させます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:47
 msgid ""
@@ -1080,6 +1217,8 @@ msgid ""
 "After launching the app, log into Monaca with your Monaca account. Then, the"
 " list of your Monaca projects will be shown in the debugger."
 msgstr ""
+"Monaca デバッガーアプリを起動して、Monaca アカウントを使用し、ログインします。ログイン後、Monaca "
+"プロジェクトの一覧が、デバッガー上に表示されます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:63
 msgid ""
@@ -1087,12 +1226,15 @@ msgid ""
 "you run that project, you will be asked to set a working directory "
 "representing a location to store your downloaded projects from the cloud."
 msgstr ""
+"デバッガー上で、プロジェクトを選択すれば、実行されます。プロジェクトを初めて実行する場合には、ワーキングディレクトリー ( 作業用ディレクトリー ) "
+"を指定する必要があります。以後、このプロジェクト関連のファイル ( クラウドからダウンロードされるファイルも含む ) "
+"は、このディレクトリーに置かれます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:71
 msgid ""
 "Wait for the selected project to be downloaded. When the download is "
 "completed, the following screen will appear."
-msgstr ""
+msgstr "ワーキングディレクトリーの設定後、プロジェクトファイルのダウンロードが開始されます。ダウンロードの完了後、次の画面が表示されます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:79
 msgid ""
@@ -1100,30 +1242,34 @@ msgid ""
 "address bar. Then, go to the downloaded project folder. Then, drag and drop "
 "that folder into Chrome Extensions page."
 msgstr ""
+"Chrome ブラウザーを開き、アドレスバーに  :guilabel:`chrome://extensions` "
+"と入力して、ページを開きます。次に、プロジェクトをダウンロードしたフォルダーへ移動して、プロジェクト名が付いたフォルダーを Chrome "
+"の拡張機能のページ上へドラッグ&ドロップします。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:87
 msgid ""
 "Now your app is installed and ready to launch. Click :guilabel:`Launch` to "
 "run the app."
 msgstr ""
+"ここまでの手順で、アプリのインストールが完了し、起動できる状態になりました。:guilabel:`起動` をクリックして、アプリを起動します。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:95
 msgid "It can also be found in Chrome App Launcher."
-msgstr ""
+msgstr "または、アプリランチャー上から起動できます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:108
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:150
 msgid ":ref:`Debugger's Functionalities <monaca_debugger_features>`"
-msgstr ""
+msgstr ":ref:`デバッガーの機能 <monaca_debugger_features>`"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:109
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:151
 msgid ":ref:`Debugger's Usage <debugging_monaca_app>`"
-msgstr ""
+msgstr ":ref:`デバッガーの使用例 <debugging_monaca_app>`"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:5
 msgid "Monaca Debugger for Android Emulator"
-msgstr ""
+msgstr "Android エミュレーター向け Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:10
 msgid ""
@@ -1132,50 +1278,58 @@ msgid ""
 " apps on a PC. Moreover, it is useful when you want to test your apps on "
 "more than one Android device."
 msgstr ""
+"ここでは 「 Android SDK 」 の AVD ( Android Virtual Device/Android 仮想端末 ) と呼ばれる "
+"Android エミュレーター上で、Monaca デバッガーを動作させる方法を紹介します。これを使えば、Android アプリのシミュレートを PC "
+"上で行えます。また、複数の Android 端末でアプリの検証を行いたい場合もこの方法が有用です。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:12
 msgid ""
 "In this page, the instruction is made on a Mac OS X. Internet is needed in "
 "order to run Monaca Debugger on emulator."
 msgstr ""
+"この解説では、Mac OS X を使用しています。また、エミュレーター上で Monaca デバッガーを実行する場合、インターネット接続が必要です。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:15
 msgid "Step 1: Setting up an Android Virtual Device"
-msgstr ""
+msgstr "ステップ 1 : Android 仮想端末のセットアップ"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:17
 msgid ""
 "Download and install `Android Studio "
 "<http://developer.android.com/sdk/index.html>`_."
 msgstr ""
+"`Android Studio <http://developer.android.com/sdk/index.html>`_ "
+"をダウンロードして、インストールします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:19
 msgid "Run Android Studio."
-msgstr ""
+msgstr "Android Studio を起動します。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:21
 msgid "Create a new project or open an existing one."
-msgstr ""
+msgstr "新規のプロジェクトを作成するか、または、既存のプロジェクトを開きます。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:23
 msgid ""
 "Click on :guilabel:`AVD Manager`. Then, Android Virtual Device Manager "
 "dialog will appear."
 msgstr ""
+":guilabel:`AVD Manager` をクリックして、[ Android Virtual Device Manager ] "
+"ダイアログを表示します。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:31
 msgid "Click :guilabel:`+ Create Virtual Device`."
-msgstr ""
+msgstr ":guilabel:`+ Create Virtual Device` をクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:33
 msgid "Select an Android device and click :guilabel:`Next`."
-msgstr ""
+msgstr "使用する Android 端末を選択して、:guilabel:`Next` をクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:41
 msgid ""
 "Select a system image (you may need to download it first) and click "
 ":guilabel:`Next`."
-msgstr ""
+msgstr "システムイメージを選択して ( 場合によっては、最初にダウンロード )、:guilabel:`Next` をクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:49
 msgid ""
@@ -1183,40 +1337,46 @@ msgid ""
 "Settings` for other settings such as Memory and Storage, Device Frame and "
 "Keyboard."
 msgstr ""
+"仮想端末の設定を行います。:guilabel:`Show Advanced Settings` をクリックして、仮想端末の詳細設定 ( "
+"メモリーとストレージのサイズ、端末のフレーム設定、キーボード入力の可否など ) を行います。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:62
 msgid "After completing the configurations, click :guilabel:`Finish`."
-msgstr ""
+msgstr "設定後、 :guilabel:`Finish` をクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:68
 msgid "Step 2: Building Custom Monaca Debugger for Android"
-msgstr ""
+msgstr "ステップ 2 : Android 向けのカスタムビルド版 Monaca デバッガーのビルド"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:70
 msgid ""
 "Go Monaca Cloud IDE and build custom Monaca Debugger for Android. For more "
 "information, please refer to :ref:`custom_debugger_and`."
 msgstr ""
+"Monaca クラウド IDE へ行き、Android 向けのカスタムビルド版 Monaca "
+"デバッガーをビルドします。詳細は、:ref:`custom_debugger_and` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:71
 msgid ""
 "Download the debugger file and upload it to any file hosting services such "
 "as Google Drive, Dropbox and so on."
 msgstr ""
+"ビルドされたデバッガーのファイルをダウンロードして、Google Drive、Dropbox "
+"などのクラウドストレージへ、ダウンロードしたファイルをアップロードします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:72
 msgid ""
 "Get a download link of the uploaded file. You will need to use this link "
 "later in the virtual device."
-msgstr ""
+msgstr "アップロードしたファイルのダウンロードリンクを確認しておきます ( 仮想端末上で、後ほど、このリンクを使用します )。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:75
 msgid "Step 3: Installing Monaca Debugger"
-msgstr ""
+msgstr "ステップ 3 : Monaca デバッガーのインストール"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:77
 msgid "Go to :guilabel:`AVD Manager` and launch the virtual device."
-msgstr ""
+msgstr ":guilabel:`AVD Manager` を選択して、対象の仮想端末を起動します。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:85
 msgid ""
@@ -1224,34 +1384,36 @@ msgid ""
 "created in :ref:`Step 2<step_2>` to download custom Monaca Debugger for "
 "Android."
 msgstr ""
+"仮想端末上でブラウザーを起動させ、:ref:`ステップ 2 <step_2>` で確認したダウンロードリンクを開き、Android "
+"向けのカスタムビルド版 Monaca デバッガーをダウンロードします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:93
 msgid ""
 "After the download is completed, click on the downloaded file to start "
 "installing the debugger."
-msgstr ""
+msgstr "ダウンロードしたファイルをクリックして、デバッガーをインストールします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:101
 msgid "Follow the installation wizard."
-msgstr ""
+msgstr "インストール ウィザードが起動します。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:109
 msgid ""
 "Once the installation is completed, you can find Monaca Debugger in your "
 "apps page."
-msgstr ""
+msgstr "インストール後、アプリの一覧画面に、Monaca デバッガーが表示されていることを確認します。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:119
 msgid "Step 4: Running a Project on Monaca Debugger"
-msgstr ""
+msgstr "ステップ 4 : Monaca デバッガー上でのプロジェクトの起動"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:121
 msgid "Open Monaca Debugger and sign in with your Monaca account."
-msgstr ""
+msgstr "Monaca デバッガーを起動させ、Monaca アカウントを使用して、サインインします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:129
 msgid "Click on a project you want to run in Monaca Debugger."
-msgstr ""
+msgstr "Monaca デバッガー上で、実行するプロジェクトをクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_emulator.rst:137
 msgid ""
@@ -1260,66 +1422,71 @@ msgid ""
 "what you can do with Monaca Debugger in order to help enhancing your app "
 "development processes."
 msgstr ""
+"これで、プロジェクトの検証の準備が整いました。アプリの開発における Monaca "
+"デバッガーの使用方法・具体例に関しては、:ref:`monaca_debugger_features` と "
+":ref:`debugging_monaca_app` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:5
 #: ../doc/debugger/manual/installation/debugger_ios.rst:15
 msgid "Monaca Debugger for iOS"
-msgstr ""
+msgstr "iOS 向け Monaca デバッガー"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:23
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_ios>`."
 msgstr ""
+":ref:`カスタムビルド版 Monaca デバッガー <custom_debugger_ios>` を使用する ( 旧バージョンの Cordova "
+"に対応するため )"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:32
 msgid "`App Store`__"
-msgstr ""
+msgstr "`App Store`__"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:32
 msgid "Refer to :ref:`custom_debugger_ios`"
-msgstr ""
+msgstr ":ref:`custom_debugger_ios` を参照のこと"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:36
 msgid ":ref:`cordova_ios`"
-msgstr ""
+msgstr ":ref:`cordova_ios`"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:39
 msgid "App ID (iOS:CFBundleIdentifier)"
-msgstr ""
+msgstr "App ID ( iOS:CFBundleIdentifier )"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:41
 msgid "Version Name (iOS:CFBundleShortVersionString)"
-msgstr ""
+msgstr "アプリのリリース番号 ( 外部向け/iOS:CFBundleShortVersionString)"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:41
 #: ../doc/debugger/manual/installation/debugger_ios.rst:44
 msgid "Fixed (currently 6.0.0)"
-msgstr ""
+msgstr "固定 ( 現在は 6.0.0 )"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:44
 msgid "App Version (iOS:CFBundleVersion)"
-msgstr ""
+msgstr "アプリのビルド番号 ( 内部向け/iOS:CFBundleVersion )"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:47
 msgid ":ref:`usb_ios`"
-msgstr ""
+msgstr ":ref:`usb_ios`"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:47
 #: ../doc/debugger/manual/installation/debugger_ios.rst:49
 #: ../doc/debugger/manual/installation/debugger_ios.rst:51
 msgid "Not Available"
-msgstr ""
+msgstr "不可"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:47
 msgid "Available (Safari's Web Inspector)"
-msgstr ""
+msgstr "可 ( Safari の Web インスペクタ )"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:49
 msgid ":ref:`localkit_ios`"
-msgstr ""
+msgstr ":ref:`localkit_ios`"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:51
 msgid ":ref:`network_ios`"
-msgstr ""
+msgstr ":ref:`network_ios`"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:69
 msgid ""
@@ -1328,6 +1495,8 @@ msgid ""
 "currently included third-party Cordova plugins, please refer to "
 ":ref:`third_party_cordova_index`."
 msgstr ""
+"また、DatePicker、BarcodeScanner など、サードパーティー製 ( 第三者提供 ) の Cordova プラグインも、Monaca "
+"に実装されています。詳細は、 :ref:`third_party_cordova_index` をご確認ください。."
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:71
 msgid ""
@@ -1339,18 +1508,28 @@ msgid ""
 "Built Monaca Debugger is a debugger which is built from a Monaca Project "
 "within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_ios`."
 msgstr ""
+"これ以外の第三者提供 ( 「 外部の Cordova プラグイン 」 ) または自作のプラグイン ( 「 :ref:`ユーザー Cordova "
+"プラグイン <custom_cordova_plugin>` 」 ) をプロジェクトに追加することもできます。ストア版の Monaca "
+"デバッガーには、これらのプラグインはデフォルトでは実装されていないため、デバッガー上でアプリをそのまま実行しても、正しく動作しません。そこで、ストア版のデバッガーの代わりに、カスタムビルド版の"
+" Monaca デバッガーを使用します。カスタムビルド版も、ストア版も、どちらも Monaca デバッガーですが、こちらのデバッガーは、Monaca "
+"クラウド IDE 上で 「 ビルド 」 して、端末にインストールします ( Monaca デバッガーは、アプリです "
+")。詳細は、:ref:`custom_debugger_ios` をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:79
 msgid ""
 "Monaca Debugger for iOS supports USB debugging functions with Safari browser"
 " such as:"
 msgstr ""
+"iOS 向けの Monaca デバッガーでは、USB デバッグをサポートしており、 Safari "
+"ブラウザーを使用したリモートデバッグが行えます。リモートデバッグで行える主な処理は、次のとおりです。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:85
 msgid ""
 "For more information, please refer to :ref:`USB Debugging with Monaca "
 "Debugger for iOS Apps<usb_debugging_ios>`."
 msgstr ""
+"詳細は、:ref:`iOS アプリのデバッグ方法 ( Monaca デバッガーと USB デバッグを使用 ) <usb_debugging_ios>` "
+"をご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:101
 msgid ""
@@ -1359,28 +1538,31 @@ msgid ""
 "debugger. For more information, please refer to :ref:`how to use Network "
 "Install feature<debugger_project_options>`."
 msgstr ""
+"iOS 向けの Monaca デバッガーでは、デバッガー経由で、ビルド済みのアプリ ( デバッグビルド版のみ ) をインストールできます。詳細は、 "
+":ref:`ネットワーク インストール ( [ インスト ] の解説  ) <debugger_project_options>` "
+"機能を、ご確認ください。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:103
 msgid ""
 "This feature is not available for Monaca Debugger for iOS available at App "
 "Store."
-msgstr ""
+msgstr "App Store から入手した iOS 向けの Monaca デバッガーでは、この機能は使用できません。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:110
 msgid "How to Build Custom Built Monaca Debugger"
-msgstr ""
+msgstr "カスタムビルド版 Monaca デバッガーのビルド方法"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:114
 msgid "Preparation"
-msgstr ""
+msgstr "事前準備"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:116
 msgid "You are required to have:"
-msgstr ""
+msgstr "必要なアイテムを、次に記します。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:118
 msgid "a valid private key"
-msgstr ""
+msgstr "有効な秘密鍵"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:119
 msgid "Developer certificate"
@@ -1388,7 +1570,7 @@ msgstr ""
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:120
 msgid "Development provisioning profile"
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイル"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:122
 msgid ""
@@ -1397,14 +1579,16 @@ msgid ""
 "custom debugger. After obtaining the above necessary files, start building "
 "with the following instruction:"
 msgstr ""
+"カスタム版デバッガーのビルド前に、上記のアイテムの準備と必要な設定を行います。詳細は、:ref:`building_for_ios` ( "
+"参照先のステップ 1 と 2 ) をご確認ください。完了後、次の手順に従い、ビルドを行います。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:125
 msgid "Start Building"
-msgstr ""
+msgstr "アプリのビルド"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:129
 msgid "Select :menuselection:`Debugger for iOS --> Build and Install`."
-msgstr ""
+msgstr ":menuselection:`iOS 向けデバッガー インストール --> ビルドしてインストール` を選択します。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:138
 msgid ""
@@ -1419,26 +1603,30 @@ msgid ""
 "download the built file to your PC and install it to your iOS device using "
 "iTune."
 msgstr ""
+"ビルドが完了するまでには、しばらくかかります。ビルドが完了すると、次の画面が表示されます。ビルドしたアプリは、iTune "
+"を使用して、端末にインストールするか、または、ファイルを PC へダウンロードすることができます。"
 
 #: ../doc/debugger/manual/installation/index.rst:7
 msgid ""
 "Monaca Debugger can be installed in several platforms such as Android, "
 "Android Emulator, iOS and Chrome App."
 msgstr ""
+"複数のプラットフォーム ( Android、Android 仮想端末、iOS、Chrome など ) 上に、Monaca "
+"デバッガーをインストールできます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:5
 msgid "Debugger Troubleshooting Guide"
-msgstr ""
+msgstr "デバッガーのトラブルシューティング ガイド"
 
 #: ../doc/debugger/manual/troubleshooting.rst:14
 msgid "Fail to Pair Monaca Debugger"
-msgstr ""
+msgstr "Monaca デバッガーとのペアリングが失敗する場合"
 
 #: ../doc/debugger/manual/troubleshooting.rst:16
 msgid ""
 "Several reasons can be considered when Monaca Debugger fails to pair with "
 "the host PC such as:"
-msgstr ""
+msgstr "Monaca デバッガーと ホスト PC のペアリングが失敗する場合、いくつかの理由が考えられます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:18
 msgid ""
@@ -1448,6 +1636,10 @@ msgid ""
 "port in :ref:`Preferences dialog<localkit_preference>`. Please change the "
 "port or configure your firewall settings to try agian."
 msgstr ""
+"Monaca デバッガー側は、ホスト PC を認識しているが、ペアリングが失敗する場合 : 多くの場合、ホスト PC "
+"側のファイアーウォールに起因します。なお、ホスト PC とデバッガー間の通信には、TCP 接続を使用します。ポート番号は、`8001` "
+"です。待ち受けポートの変更方法に関しては、 :ref:`設定ダイアログ <localkit_preference>` "
+"をご確認ください。ポート番号またはファイアーウォール設定の変更後は、再度、ペアリングをする必要があります。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:20
 msgid ""
@@ -1456,32 +1648,38 @@ msgid ""
 "connected to the same network but Monaca Debugger still can't detect the "
 "host PC, please do a manual pairing."
 msgstr ""
+"Monaca デバッガーが ホスト PC を認識していない場合 : ホスト PC "
+"と端末が、同じネットワークに接続されているか確認します。同じネットワークに接続されているが、Monaca デバッガー側で、ホスト PC "
+"を検知できない場合には、次のように、手動でペアリングをします。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:22
 msgid "You can manually pair Monaca Debugger with the host PC as follows:"
-msgstr ""
+msgstr "Monaca デバッガーと ホスト PC を、次の手順に従い、手動でペアリングします。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:24
 msgid ""
 "From Monaca Debugger, click on the toggle menu on the top-left corner and "
 "select :guilabel:`Local Computers` button."
 msgstr ""
+"Monaca デバッガー画面の左上端に表示された切り替えメニューをタップして、次に、 :guilabel:`ローカルコンピュータ` "
+"ボタンをタップします。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:32
 msgid "Click :guilabel:`Pair the New Computer` button."
-msgstr ""
+msgstr ":guilabel:`コンピュータを手動で追加する` ボタンをタップします。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:34
 msgid ""
 "Input :ref:`the IP address of the host PC and port number<ip_port>`. Then, "
 "click :guilabel:`Pair` button."
 msgstr ""
+":ref:`ホスト PC の IP アドレスとポート番号 <ip_port>` を入力して、 :guilabel:`ペアリング` ボタンをタップします。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:42
 msgid ""
 "Once the pairing is successfully completed, the host PC should appear under "
 "\"Paired computers\" as shown below:"
-msgstr ""
+msgstr "ペアリング後、[ ペアリング済み ] タブ下に、次のように、ホスト PC が表示されます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:50
 msgid ""
@@ -1489,10 +1687,11 @@ msgid ""
 " allow the connected clients to communicate each other. In this case, please"
 " try pairing on another local network."
 msgstr ""
+"公共の Wi-Fi アクセスポイントでは、まれに、クライアント同士の接続を禁止しています。この場合、別のネットワーク環境を使用してください。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:54
 msgid "*IP Address and Port Number*"
-msgstr ""
+msgstr "*IP アドレス と ポート番号*"
 
 #: ../doc/debugger/manual/troubleshooting.rst:56
 msgid ""
@@ -1503,6 +1702,11 @@ msgid ""
 "note that the communication can't be established if the port number you use "
 "is not opened or is already used."
 msgstr ""
+"Monaca デバッガーと ホスト PC を接続する場合、IP アドレスとポート番号が必要です。IP アドレスは、ホスト PC "
+"の識別に使用するもので、ポート番号 ( デフォルトでは、8001 ) は、Monaca 提供のローカル環境用の開発ツール ( Monaca "
+"CLI、Monaca Localkit、Monaca for Visual Studio など ) "
+"側が通信に使用するものです。また、ポートは、未使用であること ( 競合していないこと "
+")、開放されていることが必要です。これ以外の場合、通信は確立できません。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:58
 msgid ""
@@ -1510,112 +1714,116 @@ msgid ""
 "the same time on the same host PC, you are required to use different port "
 "for each tool. Otherwise, the pair will fail."
 msgstr ""
+"種類の異なる、Monaca 提供の開発ツールを、１台の PC "
+"上で、複数起動させる場合、デフォルトのままでは、ポート番号が競合します。競合を避けるため、各ツールが使用するポート番号を適宜変更してください。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:61
 msgid "*OS*"
-msgstr ""
+msgstr "*OS*"
 
 #: ../doc/debugger/manual/troubleshooting.rst:61
 msgid "Mac"
-msgstr ""
+msgstr "Mac OS"
 
 #: ../doc/debugger/manual/troubleshooting.rst:61
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../doc/debugger/manual/troubleshooting.rst:63
 msgid "*IP Address*"
-msgstr ""
+msgstr "*IP アドレス*"
 
 #: ../doc/debugger/manual/troubleshooting.rst:63
 #: ../doc/debugger/manual/troubleshooting.rst:63
 msgid "Find IP address:"
-msgstr ""
+msgstr "IP アドレスの確認方法"
 
 #: ../doc/debugger/manual/troubleshooting.rst:65
 #: ../doc/debugger/manual/troubleshooting.rst:70
 msgid "Open \"Terminal\" window."
-msgstr ""
+msgstr "ターミナルを開きます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:66
 msgid "Type ``ifconfig``."
-msgstr ""
+msgstr "``ifconfig`` と入力して、実行します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:65
 #: ../doc/debugger/manual/troubleshooting.rst:70
 msgid "Open \"Command Prompt\" window."
-msgstr ""
+msgstr "コマンドプロンプトを開きます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:66
 msgid "Type ``ipconfig``."
-msgstr ""
+msgstr "``ipconfig`` と入力して、実行します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:68
 msgid "*Port Number*"
-msgstr ""
+msgstr "*ポート番号*"
 
 #: ../doc/debugger/manual/troubleshooting.rst:68
 #: ../doc/debugger/manual/troubleshooting.rst:68
 msgid "Check if a port number is available:"
-msgstr ""
+msgstr "ポート状態の確認方法"
 
 #: ../doc/debugger/manual/troubleshooting.rst:71
 msgid "Type ``lsof -i :PORT_NUMBER``."
-msgstr ""
+msgstr "``lsof -i :PORT_NUMBER`` と入力して、実行します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:71
 msgid "type ``netstat``."
-msgstr ""
+msgstr "``netstat`` と入力して、実行します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:77
 msgid "Inspector Isn't Loaded"
-msgstr ""
+msgstr "インスペクタが起動しない場合"
 
 #: ../doc/debugger/manual/troubleshooting.rst:79
 msgid "If the inspector does not open, please try the following actions:"
-msgstr ""
+msgstr "インスペクタが開かない場合は、次の点を確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:81
 msgid ""
 "verify if you have done all necessary setups described "
 ":ref:`here<localkit_debug_app>`."
-msgstr ""
+msgstr "こちらの :ref:`手順 <localkit_debug_app>` を参考にして、行っていない箇所がないか、再確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:82
 msgid "verify that you are running the application on the debugger."
-msgstr ""
+msgstr "デバッガー上でアプリが実行されているか確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:83
 msgid "try plug off & in to see if the computer can find the device."
-msgstr ""
+msgstr "ケーブルを抜き差しして、コンピューターが端末を正しく認識するか確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:84
 msgid "check if the device and the host PC are connected via USB cable."
-msgstr ""
+msgstr "端末と ホスト PC 間が、USB ケーブルで接続されているか確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:85
 msgid ""
 "check if you use the right Monaca Debugger. :ref:`Read "
 "more<localkit_debug_app>`."
-msgstr ""
+msgstr ":ref:`指定された <localkit_debug_app>` Monaca デバッガーを使用しているか確認します。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:86
 msgid "kill all ``adb`` processes if multiple of them are running."
-msgstr ""
+msgstr "``adb`` プロセスを終了 ( kill ) させます。複数の ``adb`` プロセスが実行されている場合、すべてを終了させます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:87
 msgid ""
 "kill all ``iosWebKitDebugProxy`` processes if multiple of them are running."
 msgstr ""
+"``iosWebKitDebugProxy`` プロセスを終了 ( kill ) させます。複数の ``iosWebKitDebugProxy`` "
+"プロセスが実行されている場合、すべてを終了させます。"
 
 #: ../doc/debugger/manual/troubleshooting.rst:88
 msgid "restart the host PC."
-msgstr ""
+msgstr "ホスト PC 側を再起動します。"
 
 #: ../doc/debugger/samples/index.rst:3
 msgid "Samples & Tips"
-msgstr ""
+msgstr "サンプル＆Tip"
 
 #: ../doc/debugger/tutorial/index.rst:3
 msgid "Monaca Debugger Tutorial"
-msgstr ""
+msgstr "Monaca デバッガーチュートリアル"
