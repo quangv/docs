@@ -2,7 +2,6 @@ Products Guide
 ==========================
 
 .. toctree::
-  :glob:
   :maxdepth: 2
 
   monaca_intro

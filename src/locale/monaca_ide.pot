@@ -27,6 +27,56 @@ msgstr ""
 msgid "Monaca Cloud IDE"
 msgstr ""
 
+#: ../doc/monaca_ide/manual/build_publish.rst:5
+msgid "Remote Building and Publishing"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:12
+msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:14
+msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:15
+msgid "Building configuration: configure necessary information regarding application and build for each platform."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:16
+msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:19
+msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:21
+msgid "Please refer to the following documentation on how to build and distribute your app according to each platform:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:61
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:34
+msgid ":doc:`../../../quick_start/localkit/index`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:35
+msgid ":doc:`overview`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:36
+msgid ":doc:`pairing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build_publish.rst:37
+msgid ":doc:`troubleshooting`"
+msgstr ""
+
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr ""
@@ -448,11 +498,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:56
 msgid "We cannot guarantee that the all of the above shortcuts are working properly since the operations may differ depending on each version of OSs and browsers."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/code_editor/editor.rst:61
-#: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
-msgid "*See Also*"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:63

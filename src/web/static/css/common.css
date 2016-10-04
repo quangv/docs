@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Product+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,8 +53,8 @@ html {
 
 body {
   background-color: #f9f9f9;
-  color: #444;
-  font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #000;
+  font-family: 'Raleway', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 200;
   line-height: 21px;
@@ -61,7 +63,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #35527c;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+
+a {
+  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
 
 h1 {
   font-size: 38px;
@@ -1013,8 +1019,8 @@ article.main {
   background-color: #fff;
   border: none;
   box-sizing: border-box;
-  color: #444;
-  float: left;
+  color: #000;
+  float: right;
   margin: 0;
   padding: 80px 30px 50px 30px;
   width: calc(100% - 288px); }
@@ -1257,7 +1263,7 @@ a.scrollup {
     background: url(../img/common/btn_top_active.png) no-repeat; }
 
 aside.top-page {
-  float: right;
+  float: left;
   font-size: 16px;
   padding: 15px 0px 40px 0px;
   width: 288px;
@@ -1282,6 +1288,14 @@ aside.top-page {
     margin-right: 5px;
     background-color: #5d89cb; }
 
+div.aside-search-left {
+  position: absolute;
+  width: 288px;
+  right: 10px;
+  float: right;
+  padding: 0;
+  margin-right: 10px; }
+
 aside.global {
   float: right;
   font-size: 16px;
@@ -1295,7 +1309,8 @@ aside.global {
     width: 8px; }
   aside.global div.aside-search {
     padding: 0;
-    margin-right: 15px; }
+    margin-right: 0px;
+    margin-left: 10px; }
   aside.global .gsc-input-box {
     height: 30px; }
   aside.global div.aside-search .cse .gsc-control-cse, aside.global .gsc-control-cse {
@@ -1310,14 +1325,17 @@ aside.global {
     padding: 4px 18px 4px 18px;
     min-width: 13px;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
     background-color: #5d89cb; }
   aside.global nav.aside-main {
     background-color: #f2f2f2;
     /*padding-right: 10px;*/
     padding-left: 0px;
     padding-bottom: 20px;
-    margin-right: 20px; }
+    margin-right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 600px; }
     aside.global nav.aside-main > div.aside-search-result-info {
       background-color: #ffff80;
       color: #444;
@@ -1444,7 +1462,7 @@ div.admonition {
     background: #fae8e8 url(../img/common/icon_warning.png) 20px center no-repeat; }
   div.admonition.seealso {
     position: absolute;
-    width: 267px;
+    width: 288px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1452,7 +1470,7 @@ div.admonition {
     border-top: 3px solid #35527c;
     /*background-color: #f9f9f9;*/
     background-color: #f2f2f2;
-    font-family: 'Open Sans';
+    /*font-family: 'Open Sans';*/
     /*font-family: "Open Sans Condensed"*/
     font-size: 16px;
     color: #35527c;
@@ -1884,16 +1902,16 @@ a.btn-big {
   padding: 0 18px 0; }
 
 /*NEW UI CSS*/
-body {
-  background-color: #fbfbfb;
-  color: #555;
-  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 200;
-  line-height: 21px;
-  letter-spacing: 0;
-  font-size: 16px; }
-
+/*body {
+    background-color: #fbfbfb;
+    color: #555;
+    font-family: 'Raleway','Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0;
+    font-size: 16px;
+}*/
 hr {
   border-bottom: 1px solid #ccc; }
 

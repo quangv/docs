@@ -1,1 +1,1 @@
-.. _monaca_localkit_index:===========================================Monaca Localkit===========================================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  tutorial/index  manual/index  samples/index  faq/index
+.. _monaca_localkit_index:===========================================Monaca Localkit===========================================.. rst-class:: clear.. toctree::  :maxdepth: 2  tutorial/index  manual/index  samples/index  faq/index
