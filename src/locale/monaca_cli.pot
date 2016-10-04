@@ -32,107 +32,58 @@ msgid "Remote Building and Publishing"
 msgstr ""
 
 #: ../doc/monaca_cli/manual/build_publish.rst:8
-msgid "Remote Building"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:10
 msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:12
+#: ../doc/monaca_cli/manual/build_publish.rst:10
 msgid "Building application: Choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:13
+#: ../doc/monaca_cli/manual/build_publish.rst:11
 msgid "Building configuration: Configure necessary information regarding the application and build for each platform."
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:14
+#: ../doc/monaca_cli/manual/build_publish.rst:12
 msgid "Project dependencies: Include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:17
+#: ../doc/monaca_cli/manual/build_publish.rst:15
 msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:19
-msgid "Please refer to the following documentation on how to build your app according to each platform:"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:21
-msgid ":doc:`../../build/ios/index`"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:22
-msgid ":doc:`../../build/build_android`"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:23
-msgid ":doc:`../../build/build_winrt`"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:24
-msgid ":doc:`../../build/build_chrome_app`."
+#: ../doc/monaca_cli/manual/build_publish.rst:17
+msgid "Please refer to the following documentation on how to build and distribute your app according to each platform:"
 msgstr ""
 
 #: ../doc/monaca_cli/manual/build_publish.rst:28
-msgid "Publishing"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:31
-#: ../doc/monaca_cli/tutorial/publishing_app.rst:11
-msgid "Publishing for App Store"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:33
-#: ../doc/monaca_cli/tutorial/publishing_app.rst:13
-msgid "Please refer to :ref:`app_store_distribution`."
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:36
-#: ../doc/monaca_cli/tutorial/publishing_app.rst:16
-msgid "Publishing for Google Play"
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:38
-#: ../doc/monaca_cli/tutorial/publishing_app.rst:18
-msgid "Please refer to :ref:`google_play_distribution`."
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:41
-#: ../doc/monaca_cli/tutorial/publishing_app.rst:21
-msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
-msgstr ""
-
-#: ../doc/monaca_cli/manual/build_publish.rst:46
 #: ../doc/monaca_cli/manual/overview.rst:90
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:89
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:48
+#: ../doc/monaca_cli/manual/build_publish.rst:30
 #: ../doc/monaca_cli/manual/overview.rst:92
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:91
 msgid ":doc:`../../../quick_start/cli/index`"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:49
+#: ../doc/monaca_cli/manual/build_publish.rst:31
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:93
 msgid ":doc:`overview`"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:50
+#: ../doc/monaca_cli/manual/build_publish.rst:32
 #: ../doc/monaca_cli/manual/overview.rst:93
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:92
 msgid ":doc:`cli_commands`"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:51
+#: ../doc/monaca_cli/manual/build_publish.rst:33
 #: ../doc/monaca_cli/manual/overview.rst:94
 msgid ":doc:`pairing_debugging`"
 msgstr ""
 
-#: ../doc/monaca_cli/manual/build_publish.rst:52
+#: ../doc/monaca_cli/manual/build_publish.rst:34
 msgid ":ref:`troubleshoot_pair`"
 msgstr ""
 
@@ -1313,6 +1264,26 @@ msgstr ""
 
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:5
 msgid "Part 4: Publishing Monaca App"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/publishing_app.rst:11
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/publishing_app.rst:13
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/publishing_app.rst:16
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/publishing_app.rst:18
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/publishing_app.rst:21
+msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
 msgstr ""
 
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:30

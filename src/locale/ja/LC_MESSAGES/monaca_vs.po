@@ -35,29 +35,25 @@ msgstr "Monaca for Visual Studio"
 msgid "Remote Building and Publishing"
 msgstr "リモートビルドと配布申請"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:11
-msgid "Remote Building"
-msgstr "リモートビルド"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:13
+#: ../doc/monaca_vs/manual/build_publish.rst:8
 msgid ""
 "Inside :guilabel:`Remote Build`, there are several important functions such "
 "as:"
 msgstr ":guilabel:`リモートビルド` の機能を解説します ( [ ビルド設定 ] 画面の各タブの解説 )。"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:15
+#: ../doc/monaca_vs/manual/build_publish.rst:10
 msgid ""
 "Building application: choose a specific platform (among Android, iOS, Chrome"
 " Apps and Windows) to build."
 msgstr "ビルド : ビルド対象のプラットフォーム ( Android、iOS、Chrome Apps、Windows ) を選択します。"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:16
+#: ../doc/monaca_vs/manual/build_publish.rst:11
 msgid ""
 "Building configuration: configure necessary information regarding "
 "application and build for each platform."
 msgstr "ビルド設定 : アプリおよび各プラットフォーム向けのビルドに必要な設定をします。"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:17
+#: ../doc/monaca_vs/manual/build_publish.rst:12
 msgid ""
 "Project dependencies: include necessary dependencies (:ref:`Cordova "
 "plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by "
@@ -66,7 +62,7 @@ msgstr ""
 "依存関係の設定 : 必要なプラグイン （ :ref:`Cordova プラグイン<standard_plugins>` 、 :ref:`js_css` "
 "、外部サービスとの連携 など ） を設定します。"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:20
+#: ../doc/monaca_vs/manual/build_publish.rst:15
 msgid ""
 "Until this step, we assume that you have successfully developed a complete "
 "application. Then, you can try building your app and installing it on your "
@@ -78,77 +74,30 @@ msgstr ""
 "ここまでの手順で、アプリの開発工程のすべてを終えました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
 " ( App Store、Google Play など ) 上で配布する前には、リリースビルド版のアプリが必要です。"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:22
+#: ../doc/monaca_vs/manual/build_publish.rst:17
 msgid ""
-"Please refer to the following documentation on how to build your app "
-"according to each platform:"
-msgstr "各プラットフォーム向けアプリのビルド方法に関しては、次の解説をご確認ください。"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:24
-msgid ":doc:`../../build/ios/index`"
-msgstr ":doc:`../../build/ios/index`"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:25
-msgid ":doc:`../../build/build_android`"
-msgstr ":doc:`../../build/build_android`"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:26
-msgid ":doc:`../../build/build_winrt`"
-msgstr ":doc:`../../build/build_winrt`"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:27
-msgid ":doc:`../../build/build_chrome_app`."
-msgstr ":doc:`../../build/build_chrome_app`."
-
-#: ../doc/monaca_vs/manual/build_publish.rst:31
-msgid "Publishing"
-msgstr "配布申請"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:34
-#: ../doc/monaca_vs/tutorial/publishing_app.rst:11
-msgid "Publishing for App Store"
+"Please refer to the following documentation on how to build and distribute "
+"your app according to each platform:"
 msgstr ""
 
-#: ../doc/monaca_vs/manual/build_publish.rst:36
-#: ../doc/monaca_vs/tutorial/publishing_app.rst:13
-msgid "Please refer to :ref:`app_store_distribution`."
-msgstr ":ref:`app_store_distribution` をご確認ください。"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:39
-#: ../doc/monaca_vs/tutorial/publishing_app.rst:16
-msgid "Publishing for Google Play"
-msgstr ""
-
-#: ../doc/monaca_vs/manual/build_publish.rst:41
-#: ../doc/monaca_vs/tutorial/publishing_app.rst:18
-msgid "Please refer to :ref:`google_play_distribution`."
-msgstr ":ref:`google_play_distribution` をご確認ください。"
-
-#: ../doc/monaca_vs/manual/build_publish.rst:44
-#: ../doc/monaca_vs/tutorial/publishing_app.rst:21
-msgid ""
-"For more information regarding the distribution of Monaca Apps for other "
-"platforms, please refer to :ref:`distribution_index`."
-msgstr ""
-
-#: ../doc/monaca_vs/manual/build_publish.rst:49
+#: ../doc/monaca_vs/manual/build_publish.rst:28
 #: ../doc/monaca_vs/manual/overview.rst:264
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:89
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:51
+#: ../doc/monaca_vs/manual/build_publish.rst:30
 #: ../doc/monaca_vs/manual/overview.rst:266
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:91
 msgid ":doc:`../../../quick_start/monaca_vs/index`"
 msgstr ":doc:`../../../quick_start/monaca_vs/index`"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:52
+#: ../doc/monaca_vs/manual/build_publish.rst:31
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:92
 msgid ":doc:`overview`"
 msgstr ":doc:`overview`"
 
-#: ../doc/monaca_vs/manual/build_publish.rst:53
+#: ../doc/monaca_vs/manual/build_publish.rst:32
 #: ../doc/monaca_vs/manual/overview.rst:268
 msgid ":doc:`pairing_debugging`"
 msgstr ":doc:`pairing_debugging`"
@@ -1075,6 +1024,28 @@ msgstr ""
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:5
 msgid "Part 4: Publishing Monaca App"
 msgstr "パート 4 : Monaca アプリの配布申請"
+
+#: ../doc/monaca_vs/tutorial/publishing_app.rst:11
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_vs/tutorial/publishing_app.rst:13
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ":ref:`app_store_distribution` をご確認ください。"
+
+#: ../doc/monaca_vs/tutorial/publishing_app.rst:16
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_vs/tutorial/publishing_app.rst:18
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ":ref:`google_play_distribution` をご確認ください。"
+
+#: ../doc/monaca_vs/tutorial/publishing_app.rst:21
+msgid ""
+"For more information regarding the distribution of Monaca Apps for other "
+"platforms, please refer to :ref:`distribution_index`."
+msgstr ""
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:29
 #: ../doc/monaca_vs/tutorial/starting_project.rst:129

@@ -1,1 +1,0 @@
-.. _monaca_cli_index:===========================================Getting Started with Monaca CLI===========================================.. toctree::  :glob:  :maxdepth: 2  ../../../quick_start/cli/index  overview  cli_commands  pairing_debugging  build_publish

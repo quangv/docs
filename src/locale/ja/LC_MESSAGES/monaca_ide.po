@@ -31,444 +31,1185 @@ msgstr "Monaca に関するよくある質問を列挙しています。開発�
 msgid "Monaca Cloud IDE"
 msgstr "Monaca クラウド IDE"
 
-#: ../doc/monaca_ide/manual/editor.rst:5
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr "エディターのショートカット一覧"
 
-#: ../doc/monaca_ide/manual/editor.rst:12
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:12
 msgid "Editor Shortcuts List"
 msgstr "エディターのショートカット一覧"
 
-#: ../doc/monaca_ide/manual/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
 msgid "Windows/Linux"
 msgstr "Windows/Linux"
 
-#: ../doc/monaca_ide/manual/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
 msgid "Mac"
 msgstr "Mac OS"
 
-#: ../doc/monaca_ide/manual/editor.rst:15
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
 msgid "Description"
 msgstr "説明"
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Ctrl-F"
 msgstr "Ctrl-F"
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Command-F"
 msgstr "Command-F"
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Find"
 msgstr "検索ボックスを表示します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:18
-#: ../doc/monaca_ide/manual/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
 msgid "Enter"
 msgstr "Enter"
 
-#: ../doc/monaca_ide/manual/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
 msgid "Find next (when focusing on search box)"
 msgstr "次を検索します ( 検索ボックスがフォーカスされていること )。"
 
-#: ../doc/monaca_ide/manual/editor.rst:19
-#: ../doc/monaca_ide/manual/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
 msgid "Shift-Enter"
 msgstr "Shift-Enter"
 
-#: ../doc/monaca_ide/manual/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
 msgid "Find previous (when focusing on search box)"
 msgstr "前方向に、検索します ( 検索ボックスがフォーカスされていること )。"
 
-#: ../doc/monaca_ide/manual/editor.rst:20
-#: ../doc/monaca_ide/manual/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
 msgid "Tab"
 msgstr "Tab"
 
-#: ../doc/monaca_ide/manual/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
 msgid "Increase Indent"
 msgstr "インデントを上げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:21
-#: ../doc/monaca_ide/manual/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
 msgid "Shift-Tab"
 msgstr "Shift-Tab"
 
-#: ../doc/monaca_ide/manual/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
 msgid "Decrease Indent"
 msgstr "インデントを下げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Ctrl-I"
 msgstr "Ctrl-I"
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Command-I"
 msgstr "Command-I"
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Format the selected text (valid for JS, HTML and CSS.)"
 msgstr "選択した範囲を整形します ( JS、HTML、CSS が対象 )。"
 
-#: ../doc/monaca_ide/manual/editor.rst:23
-#: ../doc/monaca_ide/manual/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
 msgid "Ctrl-K"
 msgstr "Ctrl-K"
 
-#: ../doc/monaca_ide/manual/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
 msgid "Comment out"
 msgstr "対象の行を、コメントアウトします。"
 
-#: ../doc/monaca_ide/manual/editor.rst:24
-#: ../doc/monaca_ide/manual/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
 msgid "Ctrl-U"
 msgstr "Ctrl-U"
 
-#: ../doc/monaca_ide/manual/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
 msgid "Uncomment"
 msgstr "挿入したコメントを解除します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 msgid "Ctrl-Z"
 msgstr "Ctrl-Z"
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 msgid "Command-Z"
 msgstr "Command-Z"
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 #: ../doc/monaca_ide/manual/overview.rst:109
 msgid "Undo"
 msgstr "元に戻す"
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 msgid "Ctrl-Shift-Z"
 msgstr "Ctrl-Shift-Z"
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 msgid "Command-Shift-Z"
 msgstr "Command-Shift-Z"
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 #: ../doc/monaca_ide/manual/overview.rst:111
 msgid "Redo"
 msgstr "やり直す"
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Ctrl-."
 msgstr "Ctrl-."
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Command-."
 msgstr "Command-."
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Increase font size"
 msgstr "フォントサイズを大きくします。"
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Ctrl-,"
 msgstr "Ctrl-,"
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Command-,"
 msgstr "Command-,"
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Decrease font size"
 msgstr "フォントサイズを小さくします。"
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Ctrl-["
 msgstr "Ctrl-["
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Command-["
 msgstr "Command-["
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Show previous tab"
 msgstr "左方向に、タブを移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Ctrl-]"
 msgstr "Ctrl-]"
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Command-]"
 msgstr "Command-]"
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Show next tab"
 msgstr "右方向に、タブを移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:31
-#: ../doc/monaca_ide/manual/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
 msgid "Ctrl-Q"
 msgstr "Ctrl-Q"
 
-#: ../doc/monaca_ide/manual/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
 msgid "Close current tab"
 msgstr "現在開いているタブを閉じます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Ctrl-D"
 msgstr "Ctrl-D"
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Command-D"
 msgstr "Command-D"
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Remove the line"
 msgstr "行を削除します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Ctrl-Shift-D"
 msgstr "Ctrl-Shift-D"
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Command-Shift-D"
 msgstr "Command-Shift-D"
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Duplicate the selection"
 msgstr "タブ単位で、選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Alt-Down"
 msgstr "Alt-Down"
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Option-Down"
 msgstr "Option-Down"
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Move the line down"
 msgstr "下方向に、行を移動させます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Alt-Up"
 msgstr "Alt-Up"
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Option-Up"
 msgstr "Option-Up"
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Move the line up"
 msgstr "上方向に、行を移動させます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Ctrl-R"
 msgstr "Ctrl-R"
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Command-Option-F"
 msgstr "Command-Option-F"
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Replace"
 msgstr "対象文字列を、指定の文字で置き換えます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Ctrl-Shift-R"
 msgstr "Ctrl-Shift-R"
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Command-ShiftOption-F"
 msgstr "Command-ShiftOption-F"
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Replace all"
 msgstr "対象文字列を、指定の文字で、すべて置き換えます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Ctrl-A"
 msgstr "Ctrl-A"
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Command-A"
 msgstr "Command-A"
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Select all"
 msgstr "選択範囲を全体に広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:39
-#: ../doc/monaca_ide/manual/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
 msgid "Shift-Down"
 msgstr "Shift-Down"
 
-#: ../doc/monaca_ide/manual/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
 msgid "Select downward"
 msgstr "下方向に、1行分だけ移動して、選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:40
-#: ../doc/monaca_ide/manual/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
 msgid "Shift-Right"
 msgstr "Shift-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
 msgid "Select right"
 msgstr "右方向に、1文字分だけ移動して、選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:41
-#: ../doc/monaca_ide/manual/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
 msgid "Shift-Left"
 msgstr "Shift-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
 msgid "Select left"
 msgstr "左方向に、1文字分だけ移動して、選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:42
-#: ../doc/monaca_ide/manual/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
 msgid "Shift-up"
 msgstr "Shift-up"
 
-#: ../doc/monaca_ide/manual/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
 msgid "Select upward"
 msgstr "1行上まで移動して、選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Alt-Shift-Right"
 msgstr "Alt-Shift-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Command-Shift-Right"
 msgstr "Command-Shift-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Select to the end"
 msgstr "単語の末尾まで選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Alt-Shift-Left"
 msgstr "Alt-Shift-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Command-Shift-Left"
 msgstr "Command-Shift-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Select to the start"
 msgstr "単語の先頭まで選択範囲を広げます。"
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Ctrl-L"
 msgstr "Ctrl-L"
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Command-L"
 msgstr "Command-L"
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Go to the line"
 msgstr "指定した行に移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Alt-Right"
 msgstr "Alt-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Command-Right"
 msgstr "Command-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Go to the end of the line"
 msgstr "行末まで移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Alt-Left"
 msgstr "Alt-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Command-Left"
 msgstr "Command-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Go to the beginning of the line"
 msgstr "行の先頭まで移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Ctrl-Right"
 msgstr "Ctrl-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Option-Right"
 msgstr "Option-Right"
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Align text right"
 msgstr "右方向へ、単語単位で移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Ctrl-Left"
 msgstr "Ctrl-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Option-Left"
 msgstr "Option-Left"
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Align text left"
 msgstr "左方向へ、単語単位で移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:50
-#: ../doc/monaca_ide/manual/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
 msgid "Ctrl-Alt-Up"
 msgstr "Ctrl-Alt-Up"
 
-#: ../doc/monaca_ide/manual/editor.rst:50
-#: ../doc/monaca_ide/manual/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
 msgid "Add multi-cursor above"
 msgstr "マルチカーソルを、上方向に伸ばします。"
 
-#: ../doc/monaca_ide/manual/editor.rst:51
-#: ../doc/monaca_ide/manual/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
 msgid "Ctrl-Alt-Down"
 msgstr "Ctrl-Alt-Down"
 
-#: ../doc/monaca_ide/manual/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
 msgid "Add multi-cursor below"
 msgstr "マルチカーソルを、下方向に伸ばします。"
 
-#: ../doc/monaca_ide/manual/editor.rst:52
-#: ../doc/monaca_ide/manual/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
 msgid "Ctrl-Alt-Shift-Up"
 msgstr "Ctrl-Alt-Shift-Up"
 
-#: ../doc/monaca_ide/manual/editor.rst:53
-#: ../doc/monaca_ide/manual/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
 msgid "Ctrl-Alt-Shift-Down"
 msgstr "Ctrl-Alt-Shift-Down"
 
-#: ../doc/monaca_ide/manual/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
 msgid "Move multi-cursor from current line to the line below"
 msgstr "マルチカーソルは維持したまま、別カーソルで行を移動します。"
 
-#: ../doc/monaca_ide/manual/editor.rst:56
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:56
 msgid ""
 "We cannot guarantee that the all of the above shortcuts are working properly"
 " since the operations may differ depending on each version of OSs and "
 "browsers."
 msgstr "OS のバージョン・ブラウザーによっては、一部のショートカットが動作しない場合もあります。"
 
-#: ../doc/monaca_ide/manual/editor.rst:61
-#: ../doc/monaca_ide/manual/type_script.rst:313
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:61
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
-#: ../doc/monaca_ide/manual/editor.rst:63
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:63
 msgid ":ref:`typescript_manual`"
 msgstr ":ref:`typescript_manual`"
 
-#: ../doc/monaca_ide/manual/editor.rst:64
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:64
 msgid ":ref:`emmet`"
 msgstr ":ref:`emmet`"
+
+#: ../doc/monaca_ide/manual/code_editor/index.rst:3
+#: ../doc/monaca_ide/manual/overview.rst:365
+msgid "Code Editor"
+msgstr "コードエディター"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:5
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:12
+msgid "What is TypeScript?"
+msgstr "TypeScript の概要"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:14
+msgid ""
+"`TypeScript <http://www.typescriptlang.org/>`_  , developed by Microsoft, is"
+" a free and open source programming language. It is a typed superset for "
+"JavaScript that compiles into plain JavaScript. TypeScript focuses on "
+"providing useful tools for large scale applications by implementing features"
+" such as:"
+msgstr ""
+"`TypeScript <http://www.typescriptlang.org/>`_  は、Microsoft が開発した、無償のオープンソース"
+" プログラミング言語です。JavaScript の文法を基に、機能拡張した、新しい言語であり、TypeScript "
+"をコンパイルすると、JavaScript になります。TypeScript の機能の一部を、次に解説します。大規模開発において、特に有用な言語です。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:16
+msgid ":ref:`annotation`"
+msgstr ":ref:`annotation`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:17
+msgid ":ref:`interface`"
+msgstr ":ref:`interface`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:18
+msgid ":ref:`arrow`"
+msgstr ":ref:`arrow`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:19
+msgid ":ref:`modifier`"
+msgstr ":ref:`modifier`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:20
+msgid ":ref:`inheritance`"
+msgstr ":ref:`inheritance`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:22
+msgid "In Monaca, Code Suggestion does not support TypeScript."
+msgstr "Monaca に実装されているコード補完機能は、TypeScript には適用されません。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:24
+msgid ""
+":file:`.ts` is the extension of TypeScript files. In Monaca, the TypeScript "
+"file is automatically compiled and creates its JavaScript version after it "
+"is saved. For example, let's create a TypeScript file in Monaca Cloud IDE "
+"under ``www`` folder and name it as :file:`test.ts` with the following "
+"content."
+msgstr ""
+":file:`.ts` は、TypeScript ファイルの拡張子です。Monaca では、:file:`.ts` "
+"ファイルの保存時に、自動的にコンパイルを行い、同時に、同名の JavaScript ( .js ) "
+"ファイルを作成します。次のコードを使用して、Monaca クラウド IDE 上で、TypeScript ファイルを作成してみましょう。 ファイルは、 "
+"``www`` フォルダー下に置き、 :file:`test.ts` と名付けましょう。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:31
+msgid ""
+"After saving this file, you can see that the :file:`test.js` file is "
+"created. You will be able to find it in the project tree with the same level"
+" of :file:`test.ts`."
+msgstr ":file:`test.ts` の保存時に、 :file:`test.js` が同じ階層に作成されることを確認します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:33
+msgid ""
+"The TypeScript compiler is running when you save a TypeScript file. This "
+"compiler will overwrite the JavaScript file without any prompt. Please be "
+"careful not to edit the JavaScript file directly."
+msgstr ""
+"TypeScript ファイルの保存時に、TypeScript コンパイラーを実行します。JavaScript "
+"ファイルは、コンパイル時に、自動的に上書きされるため、JavaScript ファイルは、直接、編集してはいけません。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:35
+msgid ""
+"When you save .ts file, please close .js file that will be generated. If you"
+" save main.ts file with main.js file open, main.js file will not be "
+"refreshed."
+msgstr ""
+".ts ファイルを保存する場合、対応する .js ファイルがすでに作成され、開いているときは、これをいったん閉じてください。たとえば、 "
+":file:`main.js` ファイルを開いたまま、 :file:`main.ts` ファイルを保存した場合、 :file:`main.js` "
+"には、更新した内容は反映されません。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:41
+msgid "Type Annotations"
+msgstr "型注釈 ( Type Annotation )"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:44
+msgid ""
+"Type Annotations enable us to check and express our intent in the programs "
+"we write during compile time. In other words, Type Annotations are expressed"
+" as part of the function parameters; they indicate what types of values you "
+"can pass to the function. For large-scale applications, this feature is "
+"extremely helpful since we are able to pin point the compile-time error."
+msgstr ""
+"型注釈を使用すれば、開発者の意図どおりに、プログラムが記述されているか、コンパイル時に確認できます。型注釈は、関数の引数の定義時に適用します ( "
+"関数に渡す値の型を指定します。静的型付けと呼ばれます )。コンパイルエラーの内容を確認できるので、大規模なアプリ開発の場合には、型注釈は有用です。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:46
+msgid ""
+"To demonstrate this feature, let's create a function as below inside the "
+":file:`test.ts` file. In the below code the ``num1`` and ``num2`` parameters"
+" are designated as numeric values."
+msgstr ""
+":file:`test.ts` ファイルに、関数を 1 つ作成して、動作を確認してみましょう。次のコードでは、 ``num1`` と ``num2`` "
+"の引数を、数値とします。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:59
+msgid "Then, call the :file:`test.js` in the :file:`index.html` as follow:"
+msgstr "次に、 :file:`test.js` を :file:`index.html` から呼び出します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:69
+msgid ""
+"Please do not specify TypeScript file as a src attribute in HTML file. "
+"Please load as JavaScript file compiled from \".ts file\" as above."
+msgstr ""
+"HTML の src 属性には、.ts ファイルではなく、.js ファイル ( .ts ファイルからコンパイルされたファイル ) を指定してください。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:71
+msgid ""
+"Afer running the app, the result will be displayed correctly in the "
+":file:`index.html` file since there are no errors found. Now, let's "
+"intentionally create an error while calling the ``sum`` function in the "
+":file:`test.ts` file. Please change its content as follows:"
+msgstr ""
+"アプリを実行すると、問題なく、結果が表示されます。今度は、 :file:`test.ts` ファイルの ``sum`` 関数に、バグを交ぜてみましょう。"
+" :file:`test.ts` ファイルを、次のように変更します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:89
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:143
+msgid ""
+"When you save :file:`test.ts` with this error, a notification icon of that "
+"error is shown on the left side of the editor at the line containing the "
+"error. Mouse-over that notification icon to see the error message. In this "
+"case, the error message is:"
+msgstr ""
+":file:`test.ts` にバグがあると、ファイルの保存時に、警告アイコン ( X ) "
+"が左側に表示されます。警告アイコンにカーソルを当てると、エラーメッセージが表示されます。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:99
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:151
+msgid ""
+"Please note that despite the error, the :file:`test.js` is still created and"
+" the app is running normally but giving the wrong result."
+msgstr "バグが存在しても、 :file:`test.js` ファイルは作成され、アプリも実行できますが、実行結果には障害があります。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:104
+msgid "Interfaces"
+msgstr "インターフェース ( Interface )"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:106
+msgid ""
+"With TypeScript, not only that we can declare an interface, but we can also "
+"use it as a type annotation. In the following example, we create a simple "
+"interface which is used as an object type. Replace the following code into "
+":file:`test.ts` file."
+msgstr ""
+"TypeScript "
+"では、インターフェースを定義できるだけではなく、型注釈にも使用できます。次の例では、単純なインターフェースを作成して、オブジェクト型として使用します。 "
+":file:`test.ts` ファイルの内容を、次のコードに差し替えてください。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:123
+msgid ""
+"After saving it, there are no errors found. Let's make an error by calling "
+"the ``info`` with just one parameter as below:"
+msgstr "バグがないので、保存時に、エラーは表示されません。今度は、引数を 1 つ省いて、 ``info`` を呼び出し、エラーを発生させます。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:156
+msgid "Arrow Function Expressions"
+msgstr "アロー関数式 ( Arrow Function Expression )"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:158
+msgid ""
+"Arrow Function Expressions are compact ways of defining JavaScript "
+"functions. Especially, Arrow Function Expressions help you handle the scope "
+"of the ``this`` keyword.please see the code example below."
+msgstr ""
+"アロー関数式は、JavaScript の function よりも、コンパクトです。アロー関数式では、 ``this`` "
+"のスコープの取り扱いが、JavaScript とは異なります。次のコードを使用します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:178
+msgid ""
+"Then, save it and run the application. Let's observe the output. We can see "
+"that the value of ``this.name`` is empty. In order to handle the value of "
+"``this`` keyword, use arrow function  ``=>`` . Therefore, please replace "
+"``function()`` in the ``setTimeout`` function by the arrow function as "
+"follow:"
+msgstr ""
+"保存して実行します。出力を確認すると、 ``this.name`` の値が空になっています。 ``this`` の値を処理するためには、アロー ( 矢印"
+" ) 関数式を使います ( ``=>`` )。 ``setTimeout`` 関数内の ``function()``  "
+"を、次のように、アロー関数式に置き換えます。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:197
+msgid ""
+"Now, save it and run the application again. This time the value of "
+"``this.name`` is displayed correctly."
+msgstr "保存して、アプリを再度実行します。 ``this.name`` が正しく表示されます。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:203
+msgid "Access Modifiers"
+msgstr "アクセス修飾子 ( Access Modifier )"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:205
+msgid ""
+"TypeScript also supports classes and their access modifiers. With "
+"TypeScript, it is easier for you to control access to Members and Classes in"
+" JavaScript. Please pay attention to the accessibility of the class "
+"properties in the code below."
+msgstr ""
+"TypeScript は、クラスとそのアクセス修飾子もサポートします。TypeScript を使用すれば、JavaScript "
+"のメンバーとクラスへのアクセスを、簡単に制御できます。クラスプロパティーへのアクセスに注目して、次のコードを検証します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:225
+msgid ""
+"As we could see, the last line of code is the source of the error since it "
+"tried to access the ``secretID`` which is the private variable of the "
+"``Customer`` Class. In this case, the error message is:"
+msgstr ""
+"最後の行は、上記のようなエラーになります。これは、 ``Customer`` クラスの private な ``secretID`` "
+"へのアクセスを試みているためです。エラーメッセージは、次の内容になります。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:234
+msgid ""
+"Now, let's try using the access modifier to those variables as shown below "
+"and observe the differences."
+msgstr "今度は、次のアクセス修飾子を使います。結果の違いを確認してみましょう。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:253
+msgid "Inheritance"
+msgstr "継承 ( Inheritance )"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:255
+msgid ""
+"You can also extend an existing class and create a derived class from it by "
+"using ``extends`` keyword. The following example shows how to use this "
+"keyword."
+msgstr "``extends`` を使用して、既存クラスを拡張する、派生クラスを作成できます。使用例を次に記します。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:304
+msgid ""
+"Let's analyze the above code. There are 3 main things happening up there:"
+msgstr "コードを解説します。ポイントが 3 つあります。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:306
+msgid ""
+"``Customer`` class automatically has ``name`` and ``age`` properties since "
+"it is derived from ``People`` class."
+msgstr ""
+"``Customer`` クラスには、定義をしなくても、 ``name`` と ``age`` プロパティーがあります。このクラスが、 "
+"``People`` クラスから派生しているためです。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:307
+msgid ""
+"The ``super`` method used in the constructor method of ``Customer`` class is"
+" used to call the constructor method of ``People`` class."
+msgstr ""
+"``Customer`` クラス内の constructor メソッドの ``super`` メソッドを使用して、 ``People`` クラスの "
+"contructor メソッドを呼び出しています。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:308
+msgid ""
+"``info()`` method in ``Customer`` class overrides the base (``People``) "
+"class's implementation while ``peopleInfo()`` method directly calls the "
+"``info()`` method of the base class."
+msgstr ""
+"``Customer`` クラスの ``info`` メソッドを使用して、親クラス ( ``People`` クラス ) の ``info`` "
+"メソッドを、オーバーライド ( override ) しています。また、 ``peopleInfo()`` メソッドを使用して、親クラスの "
+"``info`` メソッドを、直接、呼び出しています。"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:315
+msgid ":ref:`editor_functions`"
+msgstr ":ref:`editor_functions`"
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:316
+#: ../doc/monaca_ide/manual/overview.rst:15
+msgid ":ref:`code_editor`"
+msgstr ":ref:`code_editor`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:5
+msgid "Emmet"
+msgstr "Emmet"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:11
+msgid "What is Emmet?"
+msgstr "Emmet とは"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:13
+msgid ""
+"`Emmet (formerly Zen Coding) <http://docs.emmet.io/>`_  is an editor plugin "
+"for high-speed CSS, HTML (or any other structured code format) coding and "
+"editing. It was formerly called as Zen Coding. Monaca Emmet plugin contains "
+"a powerful abbreviation engine which allows you to expand expressions "
+"(similar to CSS selectors) into HTML code. For example, type the following "
+"line in ``<body>`` tag of an HTML file on the Monaca Cloud IDE and then "
+"press :kbd:`tab`  key."
+msgstr ""
+"`Emmet ( 旧 Zen Coding ) <http://docs.emmet.io/>`_ "
+"は、HTML、CSS、または、他の構造体型の言語を、高速に記述・編集できるエディター系プラグインの 1 つです。以前は、Zen Coding "
+"と呼ばれていました。Monaca の Emmet プラグインは、HTML・CSS の短縮記法をサポートした、強力なエンジンを実装しており、CSS "
+"のセレクターに類似した記法で、HTML を記述・展開できます。たとえば、Monaca クラウド IDE 上で、HTML ファイルの ``<body>``"
+" タグの中に、次のコードを記述して、 :kbd:`tab` キーを押してください。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:21
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:89
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:114
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:140
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:165
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:190
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:221
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:248
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:279
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:310
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:337
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:362
+msgid ""
+"After pressing the :kbd:`tab`  key, the above line will be expanded into:"
+msgstr ":kbd:`tab`  キーを押すと、上のコードが、下のように展開されます。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:36
+msgid ""
+"The following Emmet actions along with keyboard shortcuts are supported in "
+"Monaca:"
+msgstr "Monaca でサポートしている Emmet の操作は、次のとおりです。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:38
+msgid ":ref:`expandAbbr`"
+msgstr ":ref:`expandAbbr`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:39
+msgid ":ref:`wrapAbbr`"
+msgstr ":ref:`wrapAbbr`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:40
+msgid ":ref:`matchTag`"
+msgstr ":ref:`matchTag`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:41
+msgid ":ref:`matchTagInward`."
+msgstr ":ref:`matchTagInward`."
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:43
+msgid ""
+"Please note that almost every action highly depends on current cursor "
+"position inside the editor."
+msgstr "操作を行うときは、エディター上のカーソルの開始位置にご注意ください。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:48
+msgid "Expand Abbreviation (TAB)"
+msgstr "短縮形を展開する ( TAB )"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:49
+msgid ""
+"It searches abbreviation from your current cursor position and expands it "
+"into HTML or CSS code. Here is a syntax list of properties and operators "
+"supported by Emmet:"
+msgstr ""
+"カーソルが置かれた位置を元に、適当な短縮形を割り出し、HTML・CSS コードへと展開します。Emmet "
+"でサポートされている短縮形の一覧は、次のとおりです。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:78
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:103
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:129
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:154
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:179
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:210
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:237
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:268
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:299
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:326
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:354
+msgid "Syntax"
+msgstr "文法"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:93
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:119
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:144
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:169
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:199
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:227
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:258
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:289
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:314
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:344
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:356
+msgid "Example"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid "``E``"
+msgstr "``E``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid ":ref:`elementName`"
+msgstr ":ref:`elementName`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid "``div``"
+msgstr "``div``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid "``E#id``"
+msgstr "``E#id``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid ":ref:`elementId`"
+msgstr ":ref:`elementId`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid "``div#content``"
+msgstr "``div#content``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid "``E.class``"
+msgstr "``E.class``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid ":ref:`elementClass`"
+msgstr ":ref:`elementClass`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid "``div.header``"
+msgstr "``div.header``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid "``E#id.class``"
+msgstr "``E#id.class``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid ":ref:`elementIdClass`"
+msgstr ":ref:`elementIdClass`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid "``div#content.column.width``"
+msgstr "``div#content.column.width``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid "``E>N``"
+msgstr "``E>N``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid ":ref:`childElement`"
+msgstr ":ref:`childElement`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid "``div>p``"
+msgstr "``div>p``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid "``E+N``"
+msgstr "``E+N``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid ":ref:`siblingElement`"
+msgstr ":ref:`siblingElement`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid "``h1+p``"
+msgstr "``h1+p``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid "``E*N``"
+msgstr "``E*N``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid ":ref:`elementMult`"
+msgstr ":ref:`elementMult`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid "``ul#nav>li*5>a``"
+msgstr "``ul#nav>li*5>a``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid "``E$*N``"
+msgstr "``E$*N``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid ":ref:`itemNum`"
+msgstr ":ref:`itemNum`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid "``ul#nav>li.item-$*5``"
+msgstr "``ul#nav>li.item-$*5``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid "``E[attr]``"
+msgstr "``E[attr]``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid ":ref:`elementAttr`"
+msgstr ":ref:`elementAttr`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid "``p[title]``"
+msgstr "``p[title]``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid "``E|filter``"
+msgstr "``E|filter``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid ":ref:`elementFilter`"
+msgstr ":ref:`elementFilter`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid "``p.title|e``"
+msgstr "``p.title|e``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid "``P:V (CSS)``"
+msgstr "``P:V (CSS)``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid ":ref:`propertyValues`"
+msgstr ":ref:`propertyValues`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid "``fl:r+d:b+w:300+h:600``"
+msgstr "``fl:r+d:b+w:300+h:600``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:75
+msgid "Element Name"
+msgstr "要素名"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:78
+msgid ":dfn:`E`"
+msgstr ":dfn:`E`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:82
+msgid "``div``, ``p``, ``h1``, etc."
+msgstr "例: ``div``, ``p``, ``h1``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:100
+msgid "Element with Identifier"
+msgstr "ID 付き要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:103
+msgid ":dfn:`E#id`"
+msgstr ":dfn:`E#id`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:107
+msgid "``div#content``, ``p#intro``, ``span#error``, etc."
+msgstr "例: ``div#content``, ``p#intro``, ``span#error``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:126
+msgid "Element with Class"
+msgstr "クラス付き要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:129
+msgid ":dfn:`E.class`"
+msgstr ":dfn:`E.class`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:133
+msgid "``div.header``, ``p.error.critial``, etc."
+msgstr "例: ``div.header``, ``p.error.critial``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:151
+msgid "Element with ID and Class"
+msgstr "ID とクラス付きの要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:154
+msgid ":dfn:`E#id.class`"
+msgstr ":dfn:`E#id.class`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:158
+msgid "``div#content.column.width``, etc."
+msgstr "例: ``div#content.column.width``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:176
+msgid "Child Element"
+msgstr "子要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:179
+msgid ":dfn:`E>N`"
+msgstr ":dfn:`E>N`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:183
+msgid "``div>p``, ``div#footer>p>span``, etc."
+msgstr "例: ``div>p``, ``div#footer>p>span``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:206
+msgid "Sibling Element"
+msgstr "兄弟要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:209
+msgid ":dfn:`E+N`"
+msgstr ":dfn:`E+N`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:214
+msgid "``h1+p``, ``div#header+div#content+div#footer``, etc."
+msgstr "例: ``h1+p``, ``div#header+div#content+div#footer``, etc."
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:234
+msgid "Element Multiplication"
+msgstr "要素の操作"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:237
+msgid ":dfn:`E*N`"
+msgstr ":dfn:`E*N`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:241
+msgid "``ul#nav>li*5>a``, etc."
+msgstr "例: ``ul#nav>li*5>a``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:265
+msgid "Item Numbering"
+msgstr "連番の割り当て"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:268
+msgid ":dfn:`E$*N`"
+msgstr ":dfn:`E$*N`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:272
+msgid "``ul#nav>li.item-$*5``, etc."
+msgstr "例: ``ul#nav>li.item-$*5``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:296
+msgid "Element with Attribute"
+msgstr "属性付き要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:299
+msgid ":dfn:`E[attr]`"
+msgstr ":dfn:`E[attr]`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:303
+msgid "``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``, etc."
+msgstr "例: ``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:321
+msgid "Element with Filter"
+msgstr "フィルター付き要素"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:323
+msgid ""
+"For more information about ``Filter``, please refer to `Zen Coding Filter "
+"Wiki  <https://code.google.com/p/zen-coding/wiki/Filters>`_ ."
+msgstr ""
+"``フィルター`` の詳細に関しては、 `Zen Coding Filter Wiki  <https://code.google.com/p/zen-"
+"coding/wiki/Filters>`_ をご確認ください。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:326
+msgid ":dfn:`E|filter`"
+msgstr ":dfn:`E|filter`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:330
+msgid "``p.title|e``, etc."
+msgstr "例: ``p.title|e``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:344
+msgid ""
+"``<`` and ``>`` was escaped into HTML Entities, such as``&lt;`` and "
+"``&gt;``."
+msgstr "「 ``<`` 」 と 「 ``>`` 」 は、 ``<`` と ``>`` に、それぞれ、エンティティー化されます。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:351
+msgid "CSS Abbreviation"
+msgstr "CSS の短縮形"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:354
+msgid ":dfn:`P:V`"
+msgstr ":dfn:`P:V`"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:359
+msgid "``fl:r+d:b+w:300+h:600``, etc."
+msgstr "例: ``fl:r+d:b+w:300+h:600``"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:369
+msgid ""
+"For more information about ``CSS Abbreviation``, please refer to `Zen Coding"
+" CSS Wiki  <https://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn>`_ "
+"."
+msgstr ""
+"CSS 短縮形の詳細に関しては、 `Zen Coding CSS Wiki  <https://code.google.com/p/zen-"
+"coding/wiki/ZenCSSPropertiesEn>`_ をご確認ください。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:374
+msgid "Wrap with Abbreviation (CTRL+SHIFT+A)"
+msgstr "短縮形で囲む ( CTRL+SHIFT+A )"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:376
+msgid "Currently, this action work correctly only with Windows."
+msgstr "2013年4月現在、この機能は、Windows 上でのみ動作します。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:378
+msgid ""
+"It boosts coding speed with proper coding indentation. It takes Emmet "
+"abbreviation, expands it and places currently selected content or current "
+"cursor position in the last element of expanded abbreviation. For example, "
+"we have the following HTML code:"
+msgstr ""
+"この機能では、インデントも自動で付与されるので、プログラミングのスピードも向上します。使用方法を解説します。対象の行を選択するかまたは対象の行にカーソルを置き、``CTRL+SHIFT+A``"
+" を押します。次に、表示された入力ダイアログ上で、Emmet の短縮形を入力すると、対象の行を囲むように、短縮形が展開されます。次の HTML "
+"コードをご確認ください。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:390
+msgid ""
+"We want to wrap ``<h1>`` into a class called \"chapter1\". With Emmet, we "
+"can either select the whole ``<h1></h1>`` tag or put the cursor inside "
+"``<h1>`` tag and press ``CTRL+SHIFT+A``. Then, an input form will appear "
+"asking us to input the Emmet abbreviation. Please input \"div.chapter1\" and"
+" press \"OK\". The following snippet is the result of this action:"
+msgstr ""
+"``<h1>`` を \"chapter1\" クラスで囲んでみましょう。 ``<h1> ~ </h1>`` タグを囲むか、 ``<h1> ~ "
+"</h1>`` タグの中にカーソルをおいて、 ``CTRL+SHIFT+A`` を押します。入力フォームが表示されるので、Emmet "
+"の短縮形を入力します。ここでは、 \"div.chapter1\" と入力して \"OK\" を押します。結果は、次のようになります。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:404
+msgid ""
+"However, if you select ``<h1>`` content only or the current cursor is inside"
+" the content, then only the content is wrapped inside the class \"chapter1\""
+" under ``<h1>`` tag."
+msgstr ""
+"``<h1>`` 内のコンテンツだけを選択したり、コンテンツ上にカーソルを置いた場合には、 ``<h1>`` タグの内側に、 \"chapter1\" "
+"クラスが展開されます。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:423
+msgid "Match Tag Pair (CTRL+D)"
+msgstr "対となるタグを検索する ( 外側に向けて、CTRL+D )"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:426
+msgid ""
+"It selects the whole content of the element which contains the current "
+"cursor."
+msgstr "現在のカーソルが置かれた要素内の、コンテンツ全体を選択します。さらにボタンを押すと、外側に向かって、対となるタグを選択します。"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:432
+msgid "Match Tag Pair Inward (CTRL+SHIFT+D)"
+msgstr "対となるタグを検索する ( 内側に向けて、CTRL+SHIFT+D )"
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:435
+msgid ""
+"It selects the whole content of the child element insides the element which "
+"contains the current cursor."
+msgstr "現在のカーソルが置かれた要素内の、コンテンツ全体を選択します。さらにボタンを押すと、内側に向かって、対となるタグを選択します。"
 
 #: ../doc/monaca_ide/manual/index.rst:3
 msgid "Manual"
@@ -506,11 +1247,6 @@ msgstr ":ref:`debug_panel`"
 #: ../doc/monaca_ide/manual/overview.rst:14
 msgid ":ref:`preview_team_panel`"
 msgstr ":ref:`preview_team_panel`"
-
-#: ../doc/monaca_ide/manual/overview.rst:15
-#: ../doc/monaca_ide/manual/type_script.rst:316
-msgid ":ref:`code_editor`"
-msgstr ":ref:`code_editor`"
 
 #: ../doc/monaca_ide/manual/overview.rst:29
 msgid "Menu Bar"
@@ -1268,10 +2004,6 @@ msgid ""
 " below"
 msgstr "プロジェクトからメンバーを除外するには、 :guilabel:`×` のアイコンをクリックします。"
 
-#: ../doc/monaca_ide/manual/overview.rst:365
-msgid "Code Editor"
-msgstr "コードエディター"
-
 #: ../doc/monaca_ide/manual/overview.rst:367
 msgid ""
 "Views and edits the selected file from the file tree. Various settings such "
@@ -1332,279 +2064,6 @@ msgstr "エディターショートカット : キーボード ショートカ�
 #: ../doc/monaca_ide/manual/overview.rst:396
 msgid "search for a string inside the currently opened file."
 msgstr "文字列を検索します ( タブが選択されているファイルが対象 )。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:5
-msgid "TypeScript"
-msgstr "TypeScript"
-
-#: ../doc/monaca_ide/manual/type_script.rst:12
-msgid "What is TypeScript?"
-msgstr "TypeScript の概要"
-
-#: ../doc/monaca_ide/manual/type_script.rst:14
-msgid ""
-"`TypeScript <http://www.typescriptlang.org/>`_  , developed by Microsoft, is"
-" a free and open source programming language. It is a typed superset for "
-"JavaScript that compiles into plain JavaScript. TypeScript focuses on "
-"providing useful tools for large scale applications by implementing features"
-" such as:"
-msgstr ""
-"`TypeScript <http://www.typescriptlang.org/>`_  は、Microsoft が開発した、無償のオープンソース"
-" プログラミング言語です。JavaScript の文法を基に、機能拡張した、新しい言語であり、TypeScript "
-"をコンパイルすると、JavaScript になります。TypeScript の機能の一部を、次に解説します。大規模開発において、特に有用な言語です。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:16
-msgid ":ref:`annotation`"
-msgstr ":ref:`annotation`"
-
-#: ../doc/monaca_ide/manual/type_script.rst:17
-msgid ":ref:`interface`"
-msgstr ":ref:`interface`"
-
-#: ../doc/monaca_ide/manual/type_script.rst:18
-msgid ":ref:`arrow`"
-msgstr ":ref:`arrow`"
-
-#: ../doc/monaca_ide/manual/type_script.rst:19
-msgid ":ref:`modifier`"
-msgstr ":ref:`modifier`"
-
-#: ../doc/monaca_ide/manual/type_script.rst:20
-msgid ":ref:`inheritance`"
-msgstr ":ref:`inheritance`"
-
-#: ../doc/monaca_ide/manual/type_script.rst:22
-msgid "In Monaca, Code Suggestion does not support TypeScript."
-msgstr "Monaca に実装されているコード補完機能は、TypeScript には適用されません。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:24
-msgid ""
-":file:`.ts` is the extension of TypeScript files. In Monaca, the TypeScript "
-"file is automatically compiled and creates its JavaScript version after it "
-"is saved. For example, let's create a TypeScript file in Monaca Cloud IDE "
-"under ``www`` folder and name it as :file:`test.ts` with the following "
-"content."
-msgstr ""
-":file:`.ts` は、TypeScript ファイルの拡張子です。Monaca では、:file:`.ts` "
-"ファイルの保存時に、自動的にコンパイルを行い、同時に、同名の JavaScript ( .js ) "
-"ファイルを作成します。次のコードを使用して、Monaca クラウド IDE 上で、TypeScript ファイルを作成してみましょう。 ファイルは、 "
-"``www`` フォルダー下に置き、 :file:`test.ts` と名付けましょう。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:31
-msgid ""
-"After saving this file, you can see that the :file:`test.js` file is "
-"created. You will be able to find it in the project tree with the same level"
-" of :file:`test.ts`."
-msgstr ":file:`test.ts` の保存時に、 :file:`test.js` が同じ階層に作成されることを確認します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:33
-msgid ""
-"The TypeScript compiler is running when you save a TypeScript file. This "
-"compiler will overwrite the JavaScript file without any prompt. Please be "
-"careful not to edit the JavaScript file directly."
-msgstr ""
-"TypeScript ファイルの保存時に、TypeScript コンパイラーを実行します。JavaScript "
-"ファイルは、コンパイル時に、自動的に上書きされるため、JavaScript ファイルは、直接、編集してはいけません。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:35
-msgid ""
-"When you save .ts file, please close .js file that will be generated. If you"
-" save main.ts file with main.js file open, main.js file will not be "
-"refreshed."
-msgstr ""
-".ts ファイルを保存する場合、対応する .js ファイルがすでに作成され、開いているときは、これをいったん閉じてください。たとえば、 "
-":file:`main.js` ファイルを開いたまま、 :file:`main.ts` ファイルを保存した場合、 :file:`main.js` "
-"には、更新した内容は反映されません。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:41
-msgid "Type Annotations"
-msgstr "型注釈 ( Type Annotation )"
-
-#: ../doc/monaca_ide/manual/type_script.rst:44
-msgid ""
-"Type Annotations enable us to check and express our intent in the programs "
-"we write during compile time. In other words, Type Annotations are expressed"
-" as part of the function parameters; they indicate what types of values you "
-"can pass to the function. For large-scale applications, this feature is "
-"extremely helpful since we are able to pin point the compile-time error."
-msgstr ""
-"型注釈を使用すれば、開発者の意図どおりに、プログラムが記述されているか、コンパイル時に確認できます。型注釈は、関数の引数の定義時に適用します ( "
-"関数に渡す値の型を指定します。静的型付けと呼ばれます )。コンパイルエラーの内容を確認できるので、大規模なアプリ開発の場合には、型注釈は有用です。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:46
-msgid ""
-"To demonstrate this feature, let's create a function as below inside the "
-":file:`test.ts` file. In the below code the ``num1`` and ``num2`` parameters"
-" are designated as numeric values."
-msgstr ""
-":file:`test.ts` ファイルに、関数を 1 つ作成して、動作を確認してみましょう。次のコードでは、 ``num1`` と ``num2`` "
-"の引数を、数値とします。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:59
-msgid "Then, call the :file:`test.js` in the :file:`index.html` as follow:"
-msgstr "次に、 :file:`test.js` を :file:`index.html` から呼び出します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:69
-msgid ""
-"Please do not specify TypeScript file as a src attribute in HTML file. "
-"Please load as JavaScript file compiled from \".ts file\" as above."
-msgstr ""
-"HTML の src 属性には、.ts ファイルではなく、.js ファイル ( .ts ファイルからコンパイルされたファイル ) を指定してください。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:71
-msgid ""
-"Afer running the app, the result will be displayed correctly in the "
-":file:`index.html` file since there are no errors found. Now, let's "
-"intentionally create an error while calling the ``sum`` function in the "
-":file:`test.ts` file. Please change its content as follows:"
-msgstr ""
-"アプリを実行すると、問題なく、結果が表示されます。今度は、 :file:`test.ts` ファイルの ``sum`` 関数に、バグを交ぜてみましょう。"
-" :file:`test.ts` ファイルを、次のように変更します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:89
-#: ../doc/monaca_ide/manual/type_script.rst:143
-msgid ""
-"When you save :file:`test.ts` with this error, a notification icon of that "
-"error is shown on the left side of the editor at the line containing the "
-"error. Mouse-over that notification icon to see the error message. In this "
-"case, the error message is:"
-msgstr ""
-":file:`test.ts` にバグがあると、ファイルの保存時に、警告アイコン ( X ) "
-"が左側に表示されます。警告アイコンにカーソルを当てると、エラーメッセージが表示されます。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:99
-#: ../doc/monaca_ide/manual/type_script.rst:151
-msgid ""
-"Please note that despite the error, the :file:`test.js` is still created and"
-" the app is running normally but giving the wrong result."
-msgstr "バグが存在しても、 :file:`test.js` ファイルは作成され、アプリも実行できますが、実行結果には障害があります。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:104
-msgid "Interfaces"
-msgstr "インターフェース ( Interface )"
-
-#: ../doc/monaca_ide/manual/type_script.rst:106
-msgid ""
-"With TypeScript, not only that we can declare an interface, but we can also "
-"use it as a type annotation. In the following example, we create a simple "
-"interface which is used as an object type. Replace the following code into "
-":file:`test.ts` file."
-msgstr ""
-"TypeScript "
-"では、インターフェースを定義できるだけではなく、型注釈にも使用できます。次の例では、単純なインターフェースを作成して、オブジェクト型として使用します。 "
-":file:`test.ts` ファイルの内容を、次のコードに差し替えてください。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:123
-msgid ""
-"After saving it, there are no errors found. Let's make an error by calling "
-"the ``info`` with just one parameter as below:"
-msgstr "バグがないので、保存時に、エラーは表示されません。今度は、引数を 1 つ省いて、 ``info`` を呼び出し、エラーを発生させます。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:156
-msgid "Arrow Function Expressions"
-msgstr "アロー関数式 ( Arrow Function Expression )"
-
-#: ../doc/monaca_ide/manual/type_script.rst:158
-msgid ""
-"Arrow Function Expressions are compact ways of defining JavaScript "
-"functions. Especially, Arrow Function Expressions help you handle the scope "
-"of the ``this`` keyword.please see the code example below."
-msgstr ""
-"アロー関数式は、JavaScript の function よりも、コンパクトです。アロー関数式では、 ``this`` "
-"のスコープの取り扱いが、JavaScript とは異なります。次のコードを使用します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:178
-msgid ""
-"Then, save it and run the application. Let's observe the output. We can see "
-"that the value of ``this.name`` is empty. In order to handle the value of "
-"``this`` keyword, use arrow function  ``=>`` . Therefore, please replace "
-"``function()`` in the ``setTimeout`` function by the arrow function as "
-"follow:"
-msgstr ""
-"保存して実行します。出力を確認すると、 ``this.name`` の値が空になっています。 ``this`` の値を処理するためには、アロー ( 矢印"
-" ) 関数式を使います ( ``=>`` )。 ``setTimeout`` 関数内の ``function()``  "
-"を、次のように、アロー関数式に置き換えます。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:197
-msgid ""
-"Now, save it and run the application again. This time the value of "
-"``this.name`` is displayed correctly."
-msgstr "保存して、アプリを再度実行します。 ``this.name`` が正しく表示されます。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:203
-msgid "Access Modifiers"
-msgstr "アクセス修飾子 ( Access Modifier )"
-
-#: ../doc/monaca_ide/manual/type_script.rst:205
-msgid ""
-"TypeScript also supports classes and their access modifiers. With "
-"TypeScript, it is easier for you to control access to Members and Classes in"
-" JavaScript. Please pay attention to the accessibility of the class "
-"properties in the code below."
-msgstr ""
-"TypeScript は、クラスとそのアクセス修飾子もサポートします。TypeScript を使用すれば、JavaScript "
-"のメンバーとクラスへのアクセスを、簡単に制御できます。クラスプロパティーへのアクセスに注目して、次のコードを検証します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:225
-msgid ""
-"As we could see, the last line of code is the source of the error since it "
-"tried to access the ``secretID`` which is the private variable of the "
-"``Customer`` Class. In this case, the error message is:"
-msgstr ""
-"最後の行は、上記のようなエラーになります。これは、 ``Customer`` クラスの private な ``secretID`` "
-"へのアクセスを試みているためです。エラーメッセージは、次の内容になります。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:234
-msgid ""
-"Now, let's try using the access modifier to those variables as shown below "
-"and observe the differences."
-msgstr "今度は、次のアクセス修飾子を使います。結果の違いを確認してみましょう。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:253
-msgid "Inheritance"
-msgstr "継承 ( Inheritance )"
-
-#: ../doc/monaca_ide/manual/type_script.rst:255
-msgid ""
-"You can also extend an existing class and create a derived class from it by "
-"using ``extends`` keyword. The following example shows how to use this "
-"keyword."
-msgstr "``extends`` を使用して、既存クラスを拡張する、派生クラスを作成できます。使用例を次に記します。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:304
-msgid ""
-"Let's analyze the above code. There are 3 main things happening up there:"
-msgstr "コードを解説します。ポイントが 3 つあります。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:306
-msgid ""
-"``Customer`` class automatically has ``name`` and ``age`` properties since "
-"it is derived from ``People`` class."
-msgstr ""
-"``Customer`` クラスには、定義をしなくても、 ``name`` と ``age`` プロパティーがあります。このクラスが、 "
-"``People`` クラスから派生しているためです。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:307
-msgid ""
-"The ``super`` method used in the constructor method of ``Customer`` class is"
-" used to call the constructor method of ``People`` class."
-msgstr ""
-"``Customer`` クラス内の constructor メソッドの ``super`` メソッドを使用して、 ``People`` クラスの "
-"contructor メソッドを呼び出しています。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:308
-msgid ""
-"``info()`` method in ``Customer`` class overrides the base (``People``) "
-"class's implementation while ``peopleInfo()`` method directly calls the "
-"``info()`` method of the base class."
-msgstr ""
-"``Customer`` クラスの ``info`` メソッドを使用して、親クラス ( ``People`` クラス ) の ``info`` "
-"メソッドを、オーバーライド ( override ) しています。また、 ``peopleInfo()`` メソッドを使用して、親クラスの "
-"``info`` メソッドを、直接、呼び出しています。"
-
-#: ../doc/monaca_ide/manual/type_script.rst:315
-msgid ":ref:`editor_functions`"
-msgstr ":ref:`editor_functions`"
 
 #: ../doc/monaca_ide/manual/version_control.rst:5
 msgid "Version Control (GitHub)"
@@ -2037,464 +2496,6 @@ msgid ""
 msgstr ""
 "ローカルコミットとは、Monaca クラウド IDE 上で行ったコミットを指します。:menuselection:`バージョン管理 --> "
 "コミット履歴` を選択すれば、ローカルコミットの履歴を表示できます。各コミットの内容を確認する場合には、コミットメッセージ横の ID をクリックします。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:5
-msgid "Emmet"
-msgstr "Emmet"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:11
-msgid "What is Emmet?"
-msgstr "Emmet とは"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:13
-msgid ""
-"`Emmet (formerly Zen Coding) <http://docs.emmet.io/>`_  is an editor plugin "
-"for high-speed CSS, HTML (or any other structured code format) coding and "
-"editing. It was formerly called as Zen Coding. Monaca Emmet plugin contains "
-"a powerful abbreviation engine which allows you to expand expressions "
-"(similar to CSS selectors) into HTML code. For example, type the following "
-"line in ``<body>`` tag of an HTML file on the Monaca Cloud IDE and then "
-"press :kbd:`tab`  key."
-msgstr ""
-"`Emmet ( 旧 Zen Coding ) <http://docs.emmet.io/>`_ "
-"は、HTML、CSS、または、他の構造体型の言語を、高速に記述・編集できるエディター系プラグインの 1 つです。以前は、Zen Coding "
-"と呼ばれていました。Monaca の Emmet プラグインは、HTML・CSS の短縮記法をサポートした、強力なエンジンを実装しており、CSS "
-"のセレクターに類似した記法で、HTML を記述・展開できます。たとえば、Monaca クラウド IDE 上で、HTML ファイルの ``<body>``"
-" タグの中に、次のコードを記述して、 :kbd:`tab` キーを押してください。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:21
-#: ../doc/monaca_ide/manual/zen_coding.rst:89
-#: ../doc/monaca_ide/manual/zen_coding.rst:114
-#: ../doc/monaca_ide/manual/zen_coding.rst:140
-#: ../doc/monaca_ide/manual/zen_coding.rst:165
-#: ../doc/monaca_ide/manual/zen_coding.rst:190
-#: ../doc/monaca_ide/manual/zen_coding.rst:221
-#: ../doc/monaca_ide/manual/zen_coding.rst:248
-#: ../doc/monaca_ide/manual/zen_coding.rst:279
-#: ../doc/monaca_ide/manual/zen_coding.rst:310
-#: ../doc/monaca_ide/manual/zen_coding.rst:337
-#: ../doc/monaca_ide/manual/zen_coding.rst:362
-msgid ""
-"After pressing the :kbd:`tab`  key, the above line will be expanded into:"
-msgstr ":kbd:`tab`  キーを押すと、上のコードが、下のように展開されます。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:36
-msgid ""
-"The following Emmet actions along with keyboard shortcuts are supported in "
-"Monaca:"
-msgstr "Monaca でサポートしている Emmet の操作は、次のとおりです。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:38
-msgid ":ref:`expandAbbr`"
-msgstr ":ref:`expandAbbr`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:39
-msgid ":ref:`wrapAbbr`"
-msgstr ":ref:`wrapAbbr`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:40
-msgid ":ref:`matchTag`"
-msgstr ":ref:`matchTag`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:41
-msgid ":ref:`matchTagInward`."
-msgstr ":ref:`matchTagInward`."
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:43
-msgid ""
-"Please note that almost every action highly depends on current cursor "
-"position inside the editor."
-msgstr "操作を行うときは、エディター上のカーソルの開始位置にご注意ください。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:48
-msgid "Expand Abbreviation (TAB)"
-msgstr "短縮形を展開する ( TAB )"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:49
-msgid ""
-"It searches abbreviation from your current cursor position and expands it "
-"into HTML or CSS code. Here is a syntax list of properties and operators "
-"supported by Emmet:"
-msgstr ""
-"カーソルが置かれた位置を元に、適当な短縮形を割り出し、HTML・CSS コードへと展開します。Emmet "
-"でサポートされている短縮形の一覧は、次のとおりです。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
-#: ../doc/monaca_ide/manual/zen_coding.rst:78
-#: ../doc/monaca_ide/manual/zen_coding.rst:103
-#: ../doc/monaca_ide/manual/zen_coding.rst:129
-#: ../doc/monaca_ide/manual/zen_coding.rst:154
-#: ../doc/monaca_ide/manual/zen_coding.rst:179
-#: ../doc/monaca_ide/manual/zen_coding.rst:210
-#: ../doc/monaca_ide/manual/zen_coding.rst:237
-#: ../doc/monaca_ide/manual/zen_coding.rst:268
-#: ../doc/monaca_ide/manual/zen_coding.rst:299
-#: ../doc/monaca_ide/manual/zen_coding.rst:326
-#: ../doc/monaca_ide/manual/zen_coding.rst:354
-msgid "Syntax"
-msgstr "文法"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
-#: ../doc/monaca_ide/manual/zen_coding.rst:93
-#: ../doc/monaca_ide/manual/zen_coding.rst:119
-#: ../doc/monaca_ide/manual/zen_coding.rst:144
-#: ../doc/monaca_ide/manual/zen_coding.rst:169
-#: ../doc/monaca_ide/manual/zen_coding.rst:199
-#: ../doc/monaca_ide/manual/zen_coding.rst:227
-#: ../doc/monaca_ide/manual/zen_coding.rst:258
-#: ../doc/monaca_ide/manual/zen_coding.rst:289
-#: ../doc/monaca_ide/manual/zen_coding.rst:314
-#: ../doc/monaca_ide/manual/zen_coding.rst:344
-#: ../doc/monaca_ide/manual/zen_coding.rst:356
-msgid "Example"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid "``E``"
-msgstr "``E``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid ":ref:`elementName`"
-msgstr ":ref:`elementName`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid "``div``"
-msgstr "``div``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid "``E#id``"
-msgstr "``E#id``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid ":ref:`elementId`"
-msgstr ":ref:`elementId`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid "``div#content``"
-msgstr "``div#content``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid "``E.class``"
-msgstr "``E.class``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid ":ref:`elementClass`"
-msgstr ":ref:`elementClass`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid "``div.header``"
-msgstr "``div.header``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid "``E#id.class``"
-msgstr "``E#id.class``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid ":ref:`elementIdClass`"
-msgstr ":ref:`elementIdClass`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid "``div#content.column.width``"
-msgstr "``div#content.column.width``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid "``E>N``"
-msgstr "``E>N``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid ":ref:`childElement`"
-msgstr ":ref:`childElement`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid "``div>p``"
-msgstr "``div>p``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid "``E+N``"
-msgstr "``E+N``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid ":ref:`siblingElement`"
-msgstr ":ref:`siblingElement`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid "``h1+p``"
-msgstr "``h1+p``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid "``E*N``"
-msgstr "``E*N``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid ":ref:`elementMult`"
-msgstr ":ref:`elementMult`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid "``ul#nav>li*5>a``"
-msgstr "``ul#nav>li*5>a``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid "``E$*N``"
-msgstr "``E$*N``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid ":ref:`itemNum`"
-msgstr ":ref:`itemNum`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid "``ul#nav>li.item-$*5``"
-msgstr "``ul#nav>li.item-$*5``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid "``E[attr]``"
-msgstr "``E[attr]``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid ":ref:`elementAttr`"
-msgstr ":ref:`elementAttr`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid "``p[title]``"
-msgstr "``p[title]``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid "``E|filter``"
-msgstr "``E|filter``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid ":ref:`elementFilter`"
-msgstr ":ref:`elementFilter`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid "``p.title|e``"
-msgstr "``p.title|e``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid "``P:V (CSS)``"
-msgstr "``P:V (CSS)``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid ":ref:`propertyValues`"
-msgstr ":ref:`propertyValues`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid "``fl:r+d:b+w:300+h:600``"
-msgstr "``fl:r+d:b+w:300+h:600``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:75
-msgid "Element Name"
-msgstr "要素名"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:78
-msgid ":dfn:`E`"
-msgstr ":dfn:`E`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:82
-msgid "``div``, ``p``, ``h1``, etc."
-msgstr "例: ``div``, ``p``, ``h1``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:100
-msgid "Element with Identifier"
-msgstr "ID 付き要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:103
-msgid ":dfn:`E#id`"
-msgstr ":dfn:`E#id`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:107
-msgid "``div#content``, ``p#intro``, ``span#error``, etc."
-msgstr "例: ``div#content``, ``p#intro``, ``span#error``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:126
-msgid "Element with Class"
-msgstr "クラス付き要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:129
-msgid ":dfn:`E.class`"
-msgstr ":dfn:`E.class`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:133
-msgid "``div.header``, ``p.error.critial``, etc."
-msgstr "例: ``div.header``, ``p.error.critial``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:151
-msgid "Element with ID and Class"
-msgstr "ID とクラス付きの要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:154
-msgid ":dfn:`E#id.class`"
-msgstr ":dfn:`E#id.class`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:158
-msgid "``div#content.column.width``, etc."
-msgstr "例: ``div#content.column.width``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:176
-msgid "Child Element"
-msgstr "子要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:179
-msgid ":dfn:`E>N`"
-msgstr ":dfn:`E>N`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:183
-msgid "``div>p``, ``div#footer>p>span``, etc."
-msgstr "例: ``div>p``, ``div#footer>p>span``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:206
-msgid "Sibling Element"
-msgstr "兄弟要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:209
-msgid ":dfn:`E+N`"
-msgstr ":dfn:`E+N`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:214
-msgid "``h1+p``, ``div#header+div#content+div#footer``, etc."
-msgstr "例: ``h1+p``, ``div#header+div#content+div#footer``, etc."
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:234
-msgid "Element Multiplication"
-msgstr "要素の操作"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:237
-msgid ":dfn:`E*N`"
-msgstr ":dfn:`E*N`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:241
-msgid "``ul#nav>li*5>a``, etc."
-msgstr "例: ``ul#nav>li*5>a``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:265
-msgid "Item Numbering"
-msgstr "連番の割り当て"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:268
-msgid ":dfn:`E$*N`"
-msgstr ":dfn:`E$*N`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:272
-msgid "``ul#nav>li.item-$*5``, etc."
-msgstr "例: ``ul#nav>li.item-$*5``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:296
-msgid "Element with Attribute"
-msgstr "属性付き要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:299
-msgid ":dfn:`E[attr]`"
-msgstr ":dfn:`E[attr]`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:303
-msgid "``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``, etc."
-msgstr "例: ``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:321
-msgid "Element with Filter"
-msgstr "フィルター付き要素"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:323
-msgid ""
-"For more information about ``Filter``, please refer to `Zen Coding Filter "
-"Wiki  <https://code.google.com/p/zen-coding/wiki/Filters>`_ ."
-msgstr ""
-"``フィルター`` の詳細に関しては、 `Zen Coding Filter Wiki  <https://code.google.com/p/zen-"
-"coding/wiki/Filters>`_ をご確認ください。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:326
-msgid ":dfn:`E|filter`"
-msgstr ":dfn:`E|filter`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:330
-msgid "``p.title|e``, etc."
-msgstr "例: ``p.title|e``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:344
-msgid ""
-"``<`` and ``>`` was escaped into HTML Entities, such as``&lt;`` and "
-"``&gt;``."
-msgstr "「 ``<`` 」 と 「 ``>`` 」 は、 ``<`` と ``>`` に、それぞれ、エンティティー化されます。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:351
-msgid "CSS Abbreviation"
-msgstr "CSS の短縮形"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:354
-msgid ":dfn:`P:V`"
-msgstr ":dfn:`P:V`"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:359
-msgid "``fl:r+d:b+w:300+h:600``, etc."
-msgstr "例: ``fl:r+d:b+w:300+h:600``"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:369
-msgid ""
-"For more information about ``CSS Abbreviation``, please refer to `Zen Coding"
-" CSS Wiki  <https://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn>`_ "
-"."
-msgstr ""
-"CSS 短縮形の詳細に関しては、 `Zen Coding CSS Wiki  <https://code.google.com/p/zen-"
-"coding/wiki/ZenCSSPropertiesEn>`_ をご確認ください。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:374
-msgid "Wrap with Abbreviation (CTRL+SHIFT+A)"
-msgstr "短縮形で囲む ( CTRL+SHIFT+A )"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:376
-msgid "Currently, this action work correctly only with Windows."
-msgstr "2013年4月現在、この機能は、Windows 上でのみ動作します。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:378
-msgid ""
-"It boosts coding speed with proper coding indentation. It takes Emmet "
-"abbreviation, expands it and places currently selected content or current "
-"cursor position in the last element of expanded abbreviation. For example, "
-"we have the following HTML code:"
-msgstr ""
-"この機能では、インデントも自動で付与されるので、プログラミングのスピードも向上します。使用方法を解説します。対象の行を選択するかまたは対象の行にカーソルを置き、``CTRL+SHIFT+A``"
-" を押します。次に、表示された入力ダイアログ上で、Emmet の短縮形を入力すると、対象の行を囲むように、短縮形が展開されます。次の HTML "
-"コードをご確認ください。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:390
-msgid ""
-"We want to wrap ``<h1>`` into a class called \"chapter1\". With Emmet, we "
-"can either select the whole ``<h1></h1>`` tag or put the cursor inside "
-"``<h1>`` tag and press ``CTRL+SHIFT+A``. Then, an input form will appear "
-"asking us to input the Emmet abbreviation. Please input \"div.chapter1\" and"
-" press \"OK\". The following snippet is the result of this action:"
-msgstr ""
-"``<h1>`` を \"chapter1\" クラスで囲んでみましょう。 ``<h1> ~ </h1>`` タグを囲むか、 ``<h1> ~ "
-"</h1>`` タグの中にカーソルをおいて、 ``CTRL+SHIFT+A`` を押します。入力フォームが表示されるので、Emmet "
-"の短縮形を入力します。ここでは、 \"div.chapter1\" と入力して \"OK\" を押します。結果は、次のようになります。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:404
-msgid ""
-"However, if you select ``<h1>`` content only or the current cursor is inside"
-" the content, then only the content is wrapped inside the class \"chapter1\""
-" under ``<h1>`` tag."
-msgstr ""
-"``<h1>`` 内のコンテンツだけを選択したり、コンテンツ上にカーソルを置いた場合には、 ``<h1>`` タグの内側に、 \"chapter1\" "
-"クラスが展開されます。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:423
-msgid "Match Tag Pair (CTRL+D)"
-msgstr "対となるタグを検索する ( 外側に向けて、CTRL+D )"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:426
-msgid ""
-"It selects the whole content of the element which contains the current "
-"cursor."
-msgstr "現在のカーソルが置かれた要素内の、コンテンツ全体を選択します。さらにボタンを押すと、外側に向かって、対となるタグを選択します。"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:432
-msgid "Match Tag Pair Inward (CTRL+SHIFT+D)"
-msgstr "対となるタグを検索する ( 内側に向けて、CTRL+SHIFT+D )"
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:435
-msgid ""
-"It selects the whole content of the child element insides the element which "
-"contains the current cursor."
-msgstr "現在のカーソルが置かれた要素内の、コンテンツ全体を選択します。さらにボタンを押すと、内側に向かって、対となるタグを選択します。"
 
 #: ../doc/monaca_ide/samples/index.rst:3
 msgid "Samples & Tips"

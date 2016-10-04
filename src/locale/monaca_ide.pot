@@ -27,440 +27,1009 @@ msgstr ""
 msgid "Monaca Cloud IDE"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:5
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:12
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:12
 msgid "Editor Shortcuts List"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
 msgid "Windows/Linux"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
 msgid "Mac"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:15
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:15
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
 msgid "Description"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Ctrl-F"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Command-F"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:17
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:17
 msgid "Find"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:18
-#: ../doc/monaca_ide/manual/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
 msgid "Enter"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:18
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:18
 msgid "Find next (when focusing on search box)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:19
-#: ../doc/monaca_ide/manual/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
 msgid "Shift-Enter"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:19
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:19
 msgid "Find previous (when focusing on search box)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:20
-#: ../doc/monaca_ide/manual/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
 msgid "Tab"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:20
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:20
 msgid "Increase Indent"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:21
-#: ../doc/monaca_ide/manual/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
 msgid "Shift-Tab"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:21
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:21
 msgid "Decrease Indent"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Ctrl-I"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Command-I"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:22
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:22
 msgid "Format the selected text (valid for JS, HTML and CSS.)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:23
-#: ../doc/monaca_ide/manual/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
 msgid "Ctrl-K"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:23
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:23
 msgid "Comment out"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:24
-#: ../doc/monaca_ide/manual/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
 msgid "Ctrl-U"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:24
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:24
 msgid "Uncomment"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 msgid "Ctrl-Z"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 msgid "Command-Z"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:25
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:25
 #: ../doc/monaca_ide/manual/overview.rst:109
 msgid "Undo"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 msgid "Ctrl-Shift-Z"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 msgid "Command-Shift-Z"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:26
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:26
 #: ../doc/monaca_ide/manual/overview.rst:111
 msgid "Redo"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Ctrl-."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Command-."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:27
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:27
 msgid "Increase font size"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Ctrl-,"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Command-,"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:28
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:28
 msgid "Decrease font size"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Ctrl-["
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Command-["
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:29
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:29
 msgid "Show previous tab"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Ctrl-]"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Command-]"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:30
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:30
 msgid "Show next tab"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:31
-#: ../doc/monaca_ide/manual/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
 msgid "Ctrl-Q"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:31
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:31
 msgid "Close current tab"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Ctrl-D"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Command-D"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:32
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:32
 msgid "Remove the line"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Ctrl-Shift-D"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Command-Shift-D"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:33
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:33
 msgid "Duplicate the selection"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Alt-Down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Option-Down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:34
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:34
 msgid "Move the line down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Alt-Up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Option-Up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:35
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:35
 msgid "Move the line up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Ctrl-R"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Command-Option-F"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:36
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:36
 msgid "Replace"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Ctrl-Shift-R"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Command-ShiftOption-F"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:37
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:37
 msgid "Replace all"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Ctrl-A"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Command-A"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:38
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:38
 msgid "Select all"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:39
-#: ../doc/monaca_ide/manual/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
 msgid "Shift-Down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:39
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:39
 msgid "Select downward"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:40
-#: ../doc/monaca_ide/manual/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
 msgid "Shift-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:40
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:40
 msgid "Select right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:41
-#: ../doc/monaca_ide/manual/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
 msgid "Shift-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:41
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:41
 msgid "Select left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:42
-#: ../doc/monaca_ide/manual/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
 msgid "Shift-up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:42
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:42
 msgid "Select upward"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Alt-Shift-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Command-Shift-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:43
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:43
 msgid "Select to the end"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Alt-Shift-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Command-Shift-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:44
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:44
 msgid "Select to the start"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Ctrl-L"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Command-L"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:45
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:45
 msgid "Go to the line"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Alt-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Command-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:46
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:46
 msgid "Go to the end of the line"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Alt-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Command-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:47
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:47
 msgid "Go to the beginning of the line"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Ctrl-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Option-Right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:48
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:48
 msgid "Align text right"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Ctrl-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Option-Left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:49
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:49
 msgid "Align text left"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:50
-#: ../doc/monaca_ide/manual/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
 msgid "Ctrl-Alt-Up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:50
-#: ../doc/monaca_ide/manual/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:50
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
 msgid "Add multi-cursor above"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:51
-#: ../doc/monaca_ide/manual/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
 msgid "Ctrl-Alt-Down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:51
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:51
 msgid "Add multi-cursor below"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:52
-#: ../doc/monaca_ide/manual/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:52
 msgid "Ctrl-Alt-Shift-Up"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:53
-#: ../doc/monaca_ide/manual/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
 msgid "Ctrl-Alt-Shift-Down"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:53
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:53
 msgid "Move multi-cursor from current line to the line below"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:56
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:56
 msgid "We cannot guarantee that the all of the above shortcuts are working properly since the operations may differ depending on each version of OSs and browsers."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:61
-#: ../doc/monaca_ide/manual/type_script.rst:313
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:61
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:63
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:63
 msgid ":ref:`typescript_manual`"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/editor.rst:64
+#: ../doc/monaca_ide/manual/code_editor/editor.rst:64
 msgid ":ref:`emmet`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/index.rst:3
+#: ../doc/monaca_ide/manual/overview.rst:365
+msgid "Code Editor"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:5
+msgid "TypeScript"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:12
+msgid "What is TypeScript?"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:14
+msgid "`TypeScript <http://www.typescriptlang.org/>`_  , developed by Microsoft, is a free and open source programming language. It is a typed superset for JavaScript that compiles into plain JavaScript. TypeScript focuses on providing useful tools for large scale applications by implementing features such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:16
+msgid ":ref:`annotation`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:17
+msgid ":ref:`interface`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:18
+msgid ":ref:`arrow`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:19
+msgid ":ref:`modifier`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:20
+msgid ":ref:`inheritance`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:22
+msgid "In Monaca, Code Suggestion does not support TypeScript."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:24
+msgid ":file:`.ts` is the extension of TypeScript files. In Monaca, the TypeScript file is automatically compiled and creates its JavaScript version after it is saved. For example, let's create a TypeScript file in Monaca Cloud IDE under ``www`` folder and name it as :file:`test.ts` with the following content."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:31
+msgid "After saving this file, you can see that the :file:`test.js` file is created. You will be able to find it in the project tree with the same level of :file:`test.ts`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:33
+msgid "The TypeScript compiler is running when you save a TypeScript file. This compiler will overwrite the JavaScript file without any prompt. Please be careful not to edit the JavaScript file directly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:35
+msgid "When you save .ts file, please close .js file that will be generated. If you save main.ts file with main.js file open, main.js file will not be refreshed."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:41
+msgid "Type Annotations"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:44
+msgid "Type Annotations enable us to check and express our intent in the programs we write during compile time. In other words, Type Annotations are expressed as part of the function parameters; they indicate what types of values you can pass to the function. For large-scale applications, this feature is extremely helpful since we are able to pin point the compile-time error."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:46
+msgid "To demonstrate this feature, let's create a function as below inside the :file:`test.ts` file. In the below code the ``num1`` and ``num2`` parameters are designated as numeric values."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:59
+msgid "Then, call the :file:`test.js` in the :file:`index.html` as follow:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:69
+msgid "Please do not specify TypeScript file as a src attribute in HTML file. Please load as JavaScript file compiled from \".ts file\" as above."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:71
+msgid "Afer running the app, the result will be displayed correctly in the :file:`index.html` file since there are no errors found. Now, let's intentionally create an error while calling the ``sum`` function in the :file:`test.ts` file. Please change its content as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:89
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:143
+msgid "When you save :file:`test.ts` with this error, a notification icon of that error is shown on the left side of the editor at the line containing the error. Mouse-over that notification icon to see the error message. In this case, the error message is:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:99
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:151
+msgid "Please note that despite the error, the :file:`test.js` is still created and the app is running normally but giving the wrong result."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:104
+msgid "Interfaces"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:106
+msgid "With TypeScript, not only that we can declare an interface, but we can also use it as a type annotation. In the following example, we create a simple interface which is used as an object type. Replace the following code into :file:`test.ts` file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:123
+msgid "After saving it, there are no errors found. Let's make an error by calling the ``info`` with just one parameter as below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:156
+msgid "Arrow Function Expressions"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:158
+msgid "Arrow Function Expressions are compact ways of defining JavaScript functions. Especially, Arrow Function Expressions help you handle the scope of the ``this`` keyword.please see the code example below."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:178
+msgid "Then, save it and run the application. Let's observe the output. We can see that the value of ``this.name`` is empty. In order to handle the value of ``this`` keyword, use arrow function  ``=>`` . Therefore, please replace ``function()`` in the ``setTimeout`` function by the arrow function as follow:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:197
+msgid "Now, save it and run the application again. This time the value of ``this.name`` is displayed correctly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:203
+msgid "Access Modifiers"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:205
+msgid "TypeScript also supports classes and their access modifiers. With TypeScript, it is easier for you to control access to Members and Classes in JavaScript. Please pay attention to the accessibility of the class properties in the code below."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:225
+msgid "As we could see, the last line of code is the source of the error since it tried to access the ``secretID`` which is the private variable of the ``Customer`` Class. In this case, the error message is:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:234
+msgid "Now, let's try using the access modifier to those variables as shown below and observe the differences."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:253
+msgid "Inheritance"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:255
+msgid "You can also extend an existing class and create a derived class from it by using ``extends`` keyword. The following example shows how to use this keyword."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:304
+msgid "Let's analyze the above code. There are 3 main things happening up there:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:306
+msgid "``Customer`` class automatically has ``name`` and ``age`` properties since it is derived from ``People`` class."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:307
+msgid "The ``super`` method used in the constructor method of ``Customer`` class is used to call the constructor method of ``People`` class."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:308
+msgid "``info()`` method in ``Customer`` class overrides the base (``People``) class's implementation while ``peopleInfo()`` method directly calls the ``info()`` method of the base class."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:315
+msgid ":ref:`editor_functions`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/type_script.rst:316
+#: ../doc/monaca_ide/manual/overview.rst:15
+msgid ":ref:`code_editor`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:5
+msgid "Emmet"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:11
+msgid "What is Emmet?"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:13
+msgid "`Emmet (formerly Zen Coding) <http://docs.emmet.io/>`_  is an editor plugin for high-speed CSS, HTML (or any other structured code format) coding and editing. It was formerly called as Zen Coding. Monaca Emmet plugin contains a powerful abbreviation engine which allows you to expand expressions (similar to CSS selectors) into HTML code. For example, type the following line in ``<body>`` tag of an HTML file on the Monaca Cloud IDE and then press :kbd:`tab`  key."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:21
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:89
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:114
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:140
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:165
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:190
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:221
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:248
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:279
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:310
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:337
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:362
+msgid "After pressing the :kbd:`tab`  key, the above line will be expanded into:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:36
+msgid "The following Emmet actions along with keyboard shortcuts are supported in Monaca:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:38
+msgid ":ref:`expandAbbr`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:39
+msgid ":ref:`wrapAbbr`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:40
+msgid ":ref:`matchTag`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:41
+msgid ":ref:`matchTagInward`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:43
+msgid "Please note that almost every action highly depends on current cursor position inside the editor."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:48
+msgid "Expand Abbreviation (TAB)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:49
+msgid "It searches abbreviation from your current cursor position and expands it into HTML or CSS code. Here is a syntax list of properties and operators supported by Emmet:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:78
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:103
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:129
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:154
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:179
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:210
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:237
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:268
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:299
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:326
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:354
+msgid "Syntax"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:93
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:119
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:144
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:169
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:199
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:227
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:258
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:289
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:314
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:344
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:356
+msgid "Example"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid "``E``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid ":ref:`elementName`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
+msgid "``div``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid "``E#id``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid ":ref:`elementId`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:56
+msgid "``div#content``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid "``E.class``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid ":ref:`elementClass`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:57
+msgid "``div.header``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid "``E#id.class``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid ":ref:`elementIdClass`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:58
+msgid "``div#content.column.width``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid "``E>N``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid ":ref:`childElement`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:59
+msgid "``div>p``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid "``E+N``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid ":ref:`siblingElement`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:60
+msgid "``h1+p``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid "``E*N``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid ":ref:`elementMult`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:61
+msgid "``ul#nav>li*5>a``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid "``E$*N``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid ":ref:`itemNum`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:62
+msgid "``ul#nav>li.item-$*5``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid "``E[attr]``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid ":ref:`elementAttr`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:63
+msgid "``p[title]``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid "``E|filter``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid ":ref:`elementFilter`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:64
+msgid "``p.title|e``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid "``P:V (CSS)``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid ":ref:`propertyValues`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:65
+msgid "``fl:r+d:b+w:300+h:600``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:75
+msgid "Element Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:78
+msgid ":dfn:`E`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:82
+msgid "``div``, ``p``, ``h1``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:100
+msgid "Element with Identifier"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:103
+msgid ":dfn:`E#id`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:107
+msgid "``div#content``, ``p#intro``, ``span#error``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:126
+msgid "Element with Class"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:129
+msgid ":dfn:`E.class`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:133
+msgid "``div.header``, ``p.error.critial``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:151
+msgid "Element with ID and Class"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:154
+msgid ":dfn:`E#id.class`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:158
+msgid "``div#content.column.width``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:176
+msgid "Child Element"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:179
+msgid ":dfn:`E>N`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:183
+msgid "``div>p``, ``div#footer>p>span``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:206
+msgid "Sibling Element"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:209
+msgid ":dfn:`E+N`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:214
+msgid "``h1+p``, ``div#header+div#content+div#footer``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:234
+msgid "Element Multiplication"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:237
+msgid ":dfn:`E*N`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:241
+msgid "``ul#nav>li*5>a``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:265
+msgid "Item Numbering"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:268
+msgid ":dfn:`E$*N`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:272
+msgid "``ul#nav>li.item-$*5``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:296
+msgid "Element with Attribute"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:299
+msgid ":dfn:`E[attr]`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:303
+msgid "``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:321
+msgid "Element with Filter"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:323
+msgid "For more information about ``Filter``, please refer to `Zen Coding Filter Wiki  <https://code.google.com/p/zen-coding/wiki/Filters>`_ ."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:326
+msgid ":dfn:`E|filter`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:330
+msgid "``p.title|e``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:344
+msgid "``<`` and ``>`` was escaped into HTML Entities, such as``&lt;`` and ``&gt;``."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:351
+msgid "CSS Abbreviation"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:354
+msgid ":dfn:`P:V`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:359
+msgid "``fl:r+d:b+w:300+h:600``, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:369
+msgid "For more information about ``CSS Abbreviation``, please refer to `Zen Coding CSS Wiki  <https://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn>`_ ."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:374
+msgid "Wrap with Abbreviation (CTRL+SHIFT+A)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:376
+msgid "Currently, this action work correctly only with Windows."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:378
+msgid "It boosts coding speed with proper coding indentation. It takes Emmet abbreviation, expands it and places currently selected content or current cursor position in the last element of expanded abbreviation. For example, we have the following HTML code:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:390
+msgid "We want to wrap ``<h1>`` into a class called \"chapter1\". With Emmet, we can either select the whole ``<h1></h1>`` tag or put the cursor inside ``<h1>`` tag and press ``CTRL+SHIFT+A``. Then, an input form will appear asking us to input the Emmet abbreviation. Please input \"div.chapter1\" and press \"OK\". The following snippet is the result of this action:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:404
+msgid "However, if you select ``<h1>`` content only or the current cursor is inside the content, then only the content is wrapped inside the class \"chapter1\" under ``<h1>`` tag."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:423
+msgid "Match Tag Pair (CTRL+D)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:426
+msgid "It selects the whole content of the element which contains the current cursor."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:432
+msgid "Match Tag Pair Inward (CTRL+SHIFT+D)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:435
+msgid "It selects the whole content of the child element insides the element which contains the current cursor."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/index.rst:3
@@ -493,11 +1062,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/overview.rst:14
 msgid ":ref:`preview_team_panel`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/overview.rst:15
-#: ../doc/monaca_ide/manual/type_script.rst:316
-msgid ":ref:`code_editor`"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/overview.rst:29
@@ -1146,10 +1710,6 @@ msgstr ""
 msgid "To remove a member from the project, you can just click on the :guilabel:`delete` icon at the end of the row of that member's info as shown below"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/overview.rst:365
-msgid "Code Editor"
-msgstr ""
-
 #: ../doc/monaca_ide/manual/overview.rst:367
 msgid "Views and edits the selected file from the file tree. Various settings such as Preferences is also shown and can be edited here. Once you open a file, you can select it from the tab."
 msgstr ""
@@ -1192,164 +1752,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/overview.rst:396
 msgid "search for a string inside the currently opened file."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:5
-msgid "TypeScript"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:12
-msgid "What is TypeScript?"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:14
-msgid "`TypeScript <http://www.typescriptlang.org/>`_  , developed by Microsoft, is a free and open source programming language. It is a typed superset for JavaScript that compiles into plain JavaScript. TypeScript focuses on providing useful tools for large scale applications by implementing features such as:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:16
-msgid ":ref:`annotation`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:17
-msgid ":ref:`interface`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:18
-msgid ":ref:`arrow`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:19
-msgid ":ref:`modifier`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:20
-msgid ":ref:`inheritance`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:22
-msgid "In Monaca, Code Suggestion does not support TypeScript."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:24
-msgid ":file:`.ts` is the extension of TypeScript files. In Monaca, the TypeScript file is automatically compiled and creates its JavaScript version after it is saved. For example, let's create a TypeScript file in Monaca Cloud IDE under ``www`` folder and name it as :file:`test.ts` with the following content."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:31
-msgid "After saving this file, you can see that the :file:`test.js` file is created. You will be able to find it in the project tree with the same level of :file:`test.ts`."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:33
-msgid "The TypeScript compiler is running when you save a TypeScript file. This compiler will overwrite the JavaScript file without any prompt. Please be careful not to edit the JavaScript file directly."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:35
-msgid "When you save .ts file, please close .js file that will be generated. If you save main.ts file with main.js file open, main.js file will not be refreshed."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:41
-msgid "Type Annotations"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:44
-msgid "Type Annotations enable us to check and express our intent in the programs we write during compile time. In other words, Type Annotations are expressed as part of the function parameters; they indicate what types of values you can pass to the function. For large-scale applications, this feature is extremely helpful since we are able to pin point the compile-time error."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:46
-msgid "To demonstrate this feature, let's create a function as below inside the :file:`test.ts` file. In the below code the ``num1`` and ``num2`` parameters are designated as numeric values."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:59
-msgid "Then, call the :file:`test.js` in the :file:`index.html` as follow:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:69
-msgid "Please do not specify TypeScript file as a src attribute in HTML file. Please load as JavaScript file compiled from \".ts file\" as above."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:71
-msgid "Afer running the app, the result will be displayed correctly in the :file:`index.html` file since there are no errors found. Now, let's intentionally create an error while calling the ``sum`` function in the :file:`test.ts` file. Please change its content as follows:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:89
-#: ../doc/monaca_ide/manual/type_script.rst:143
-msgid "When you save :file:`test.ts` with this error, a notification icon of that error is shown on the left side of the editor at the line containing the error. Mouse-over that notification icon to see the error message. In this case, the error message is:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:99
-#: ../doc/monaca_ide/manual/type_script.rst:151
-msgid "Please note that despite the error, the :file:`test.js` is still created and the app is running normally but giving the wrong result."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:104
-msgid "Interfaces"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:106
-msgid "With TypeScript, not only that we can declare an interface, but we can also use it as a type annotation. In the following example, we create a simple interface which is used as an object type. Replace the following code into :file:`test.ts` file."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:123
-msgid "After saving it, there are no errors found. Let's make an error by calling the ``info`` with just one parameter as below:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:156
-msgid "Arrow Function Expressions"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:158
-msgid "Arrow Function Expressions are compact ways of defining JavaScript functions. Especially, Arrow Function Expressions help you handle the scope of the ``this`` keyword.please see the code example below."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:178
-msgid "Then, save it and run the application. Let's observe the output. We can see that the value of ``this.name`` is empty. In order to handle the value of ``this`` keyword, use arrow function  ``=>`` . Therefore, please replace ``function()`` in the ``setTimeout`` function by the arrow function as follow:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:197
-msgid "Now, save it and run the application again. This time the value of ``this.name`` is displayed correctly."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:203
-msgid "Access Modifiers"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:205
-msgid "TypeScript also supports classes and their access modifiers. With TypeScript, it is easier for you to control access to Members and Classes in JavaScript. Please pay attention to the accessibility of the class properties in the code below."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:225
-msgid "As we could see, the last line of code is the source of the error since it tried to access the ``secretID`` which is the private variable of the ``Customer`` Class. In this case, the error message is:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:234
-msgid "Now, let's try using the access modifier to those variables as shown below and observe the differences."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:253
-msgid "Inheritance"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:255
-msgid "You can also extend an existing class and create a derived class from it by using ``extends`` keyword. The following example shows how to use this keyword."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:304
-msgid "Let's analyze the above code. There are 3 main things happening up there:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:306
-msgid "``Customer`` class automatically has ``name`` and ``age`` properties since it is derived from ``People`` class."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:307
-msgid "The ``super`` method used in the constructor method of ``Customer`` class is used to call the constructor method of ``People`` class."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:308
-msgid "``info()`` method in ``Customer`` class overrides the base (``People``) class's implementation while ``peopleInfo()`` method directly calls the ``info()`` method of the base class."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/type_script.rst:315
-msgid ":ref:`editor_functions`"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/version_control.rst:5
@@ -1600,407 +2002,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/version_control.rst:246
 msgid "Every commit you made in your Monaca Cloud IDE is called Local Commit. You are able to view your local commit history through :menuselection:`Version Control --> Show Commit History`. To view the changes in each commit, click on the commit on the left panel."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:5
-msgid "Emmet"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:11
-msgid "What is Emmet?"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:13
-msgid "`Emmet (formerly Zen Coding) <http://docs.emmet.io/>`_  is an editor plugin for high-speed CSS, HTML (or any other structured code format) coding and editing. It was formerly called as Zen Coding. Monaca Emmet plugin contains a powerful abbreviation engine which allows you to expand expressions (similar to CSS selectors) into HTML code. For example, type the following line in ``<body>`` tag of an HTML file on the Monaca Cloud IDE and then press :kbd:`tab`  key."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:21
-#: ../doc/monaca_ide/manual/zen_coding.rst:89
-#: ../doc/monaca_ide/manual/zen_coding.rst:114
-#: ../doc/monaca_ide/manual/zen_coding.rst:140
-#: ../doc/monaca_ide/manual/zen_coding.rst:165
-#: ../doc/monaca_ide/manual/zen_coding.rst:190
-#: ../doc/monaca_ide/manual/zen_coding.rst:221
-#: ../doc/monaca_ide/manual/zen_coding.rst:248
-#: ../doc/monaca_ide/manual/zen_coding.rst:279
-#: ../doc/monaca_ide/manual/zen_coding.rst:310
-#: ../doc/monaca_ide/manual/zen_coding.rst:337
-#: ../doc/monaca_ide/manual/zen_coding.rst:362
-msgid "After pressing the :kbd:`tab`  key, the above line will be expanded into:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:36
-msgid "The following Emmet actions along with keyboard shortcuts are supported in Monaca:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:38
-msgid ":ref:`expandAbbr`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:39
-msgid ":ref:`wrapAbbr`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:40
-msgid ":ref:`matchTag`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:41
-msgid ":ref:`matchTagInward`."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:43
-msgid "Please note that almost every action highly depends on current cursor position inside the editor."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:48
-msgid "Expand Abbreviation (TAB)"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:49
-msgid "It searches abbreviation from your current cursor position and expands it into HTML or CSS code. Here is a syntax list of properties and operators supported by Emmet:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
-#: ../doc/monaca_ide/manual/zen_coding.rst:78
-#: ../doc/monaca_ide/manual/zen_coding.rst:103
-#: ../doc/monaca_ide/manual/zen_coding.rst:129
-#: ../doc/monaca_ide/manual/zen_coding.rst:154
-#: ../doc/monaca_ide/manual/zen_coding.rst:179
-#: ../doc/monaca_ide/manual/zen_coding.rst:210
-#: ../doc/monaca_ide/manual/zen_coding.rst:237
-#: ../doc/monaca_ide/manual/zen_coding.rst:268
-#: ../doc/monaca_ide/manual/zen_coding.rst:299
-#: ../doc/monaca_ide/manual/zen_coding.rst:326
-#: ../doc/monaca_ide/manual/zen_coding.rst:354
-msgid "Syntax"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
-#: ../doc/monaca_ide/manual/zen_coding.rst:93
-#: ../doc/monaca_ide/manual/zen_coding.rst:119
-#: ../doc/monaca_ide/manual/zen_coding.rst:144
-#: ../doc/monaca_ide/manual/zen_coding.rst:169
-#: ../doc/monaca_ide/manual/zen_coding.rst:199
-#: ../doc/monaca_ide/manual/zen_coding.rst:227
-#: ../doc/monaca_ide/manual/zen_coding.rst:258
-#: ../doc/monaca_ide/manual/zen_coding.rst:289
-#: ../doc/monaca_ide/manual/zen_coding.rst:314
-#: ../doc/monaca_ide/manual/zen_coding.rst:344
-#: ../doc/monaca_ide/manual/zen_coding.rst:356
-msgid "Example"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid "``E``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid ":ref:`elementName`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:55
-msgid "``div``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid "``E#id``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid ":ref:`elementId`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:56
-msgid "``div#content``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid "``E.class``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid ":ref:`elementClass`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:57
-msgid "``div.header``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid "``E#id.class``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid ":ref:`elementIdClass`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:58
-msgid "``div#content.column.width``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid "``E>N``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid ":ref:`childElement`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:59
-msgid "``div>p``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid "``E+N``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid ":ref:`siblingElement`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:60
-msgid "``h1+p``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid "``E*N``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid ":ref:`elementMult`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:61
-msgid "``ul#nav>li*5>a``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid "``E$*N``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid ":ref:`itemNum`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:62
-msgid "``ul#nav>li.item-$*5``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid "``E[attr]``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid ":ref:`elementAttr`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:63
-msgid "``p[title]``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid "``E|filter``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid ":ref:`elementFilter`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:64
-msgid "``p.title|e``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid "``P:V (CSS)``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid ":ref:`propertyValues`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:65
-msgid "``fl:r+d:b+w:300+h:600``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:75
-msgid "Element Name"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:78
-msgid ":dfn:`E`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:82
-msgid "``div``, ``p``, ``h1``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:100
-msgid "Element with Identifier"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:103
-msgid ":dfn:`E#id`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:107
-msgid "``div#content``, ``p#intro``, ``span#error``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:126
-msgid "Element with Class"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:129
-msgid ":dfn:`E.class`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:133
-msgid "``div.header``, ``p.error.critial``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:151
-msgid "Element with ID and Class"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:154
-msgid ":dfn:`E#id.class`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:158
-msgid "``div#content.column.width``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:176
-msgid "Child Element"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:179
-msgid ":dfn:`E>N`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:183
-msgid "``div>p``, ``div#footer>p>span``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:206
-msgid "Sibling Element"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:209
-msgid ":dfn:`E+N`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:214
-msgid "``h1+p``, ``div#header+div#content+div#footer``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:234
-msgid "Element Multiplication"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:237
-msgid ":dfn:`E*N`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:241
-msgid "``ul#nav>li*5>a``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:265
-msgid "Item Numbering"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:268
-msgid ":dfn:`E$*N`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:272
-msgid "``ul#nav>li.item-$*5``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:296
-msgid "Element with Attribute"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:299
-msgid ":dfn:`E[attr]`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:303
-msgid "``p[title]``, ``td[colspan=2]``, ``span[title=\"Hello\" rel]``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:321
-msgid "Element with Filter"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:323
-msgid "For more information about ``Filter``, please refer to `Zen Coding Filter Wiki  <https://code.google.com/p/zen-coding/wiki/Filters>`_ ."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:326
-msgid ":dfn:`E|filter`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:330
-msgid "``p.title|e``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:344
-msgid "``<`` and ``>`` was escaped into HTML Entities, such as``&lt;`` and ``&gt;``."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:351
-msgid "CSS Abbreviation"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:354
-msgid ":dfn:`P:V`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:359
-msgid "``fl:r+d:b+w:300+h:600``, etc."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:369
-msgid "For more information about ``CSS Abbreviation``, please refer to `Zen Coding CSS Wiki  <https://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn>`_ ."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:374
-msgid "Wrap with Abbreviation (CTRL+SHIFT+A)"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:376
-msgid "Currently, this action work correctly only with Windows."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:378
-msgid "It boosts coding speed with proper coding indentation. It takes Emmet abbreviation, expands it and places currently selected content or current cursor position in the last element of expanded abbreviation. For example, we have the following HTML code:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:390
-msgid "We want to wrap ``<h1>`` into a class called \"chapter1\". With Emmet, we can either select the whole ``<h1></h1>`` tag or put the cursor inside ``<h1>`` tag and press ``CTRL+SHIFT+A``. Then, an input form will appear asking us to input the Emmet abbreviation. Please input \"div.chapter1\" and press \"OK\". The following snippet is the result of this action:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:404
-msgid "However, if you select ``<h1>`` content only or the current cursor is inside the content, then only the content is wrapped inside the class \"chapter1\" under ``<h1>`` tag."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:423
-msgid "Match Tag Pair (CTRL+D)"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:426
-msgid "It selects the whole content of the element which contains the current cursor."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:432
-msgid "Match Tag Pair Inward (CTRL+SHIFT+D)"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/zen_coding.rst:435
-msgid "It selects the whole content of the child element insides the element which contains the current cursor."
 msgstr ""
 
 #: ../doc/monaca_ide/samples/index.rst:3

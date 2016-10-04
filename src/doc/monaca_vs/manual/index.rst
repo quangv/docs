@@ -5,8 +5,8 @@ Manual
 .. toctree::
   :maxdepth: 2
 
-  ../../../quick_start/monaca_vs/index
   overview
+  ../../share/dependencies/index
   pairing_debugging
   build_publish
 

@@ -4,11 +4,6 @@
 Remote Building and Publishing
 ==========================================
 
-.. rst-class:: right-menu
-
-
-Remote Building
-==========================
 
 Inside :guilabel:`Remote Build`, there are several important functions such as:
 
@@ -19,29 +14,13 @@ Inside :guilabel:`Remote Build`, there are several important functions such as:
 
 Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app. 
 
-Please refer to the following documentation on how to build your app according to each platform:
+Please refer to the following documentation on how to build and distribute your app according to each platform:
 
-- :doc:`../../build/ios/index`
-- :doc:`../../build/build_android`
-- :doc:`../../build/build_winrt`
-- :doc:`../../build/build_chrome_app`.
+.. toctree::
+  :maxdepth: 2
 
-
-Publishing
-==================================
-
-Publishing for App Store
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Please refer to :ref:`app_store_distribution`.
-
-Publishing for Google Play
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Please refer to :ref:`google_play_distribution`.
-
-
-For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`.
+  ../../share/build/index
+  ../../share/deploy/index
 
 
 .. seealso::
