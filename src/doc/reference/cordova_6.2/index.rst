@@ -4,6 +4,19 @@
 Core Cordova Plugins
 ===========================
 
+Build Environment
+======================================
+
+- Android
+
+  - AndroidSDK version: 23
+
+  - Crosswalk version: It depends on :ref:`Crosswalk Plugin <cordova_crosswalk>`
+
+- iOS
+
+  - Xcode version: 7
+
 .. toctree::
   :maxdepth: 2
 

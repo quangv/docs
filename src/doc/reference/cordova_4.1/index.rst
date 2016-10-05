@@ -2,6 +2,19 @@
 Cordova Core Plugins
 ===========================
 
+Build Environment
+======================================
+
+- Android
+
+  - AndroidSDK version: 21
+
+  - Crosswalk version: 13.42.319.11
+
+- iOS
+
+  - Xcode version: 6.2
+
 .. toctree::
   :maxdepth: 2
 
