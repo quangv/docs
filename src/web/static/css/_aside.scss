@@ -99,9 +99,9 @@ aside.global {
     padding-left: 0px;
     padding-bottom: 20px;
     margin-right: 0;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    height: 600px;
+    /*height: 600px;*/
 
     > div.aside-search-result-info {
       background-color: #ffff80;

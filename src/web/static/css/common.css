@@ -1333,9 +1333,9 @@ aside.global {
     padding-left: 0px;
     padding-bottom: 20px;
     margin-right: 0;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    height: 600px; }
+    /*height: 600px;*/ }
     aside.global nav.aside-main > div.aside-search-result-info {
       background-color: #ffff80;
       color: #444;

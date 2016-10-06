@@ -91,6 +91,13 @@ $(function(){
       $(".body").highlight(keywords[i]);
   }
 
+  var sideMenuScroll = function() {
+    if ($('.aside-main').innerHeight() > 600){
+      $('.aside-main').innerHeight(600);
+      $('.aside-main').css({"overflow-y": "scroll"});
+    }
+  }
+
   var loadLocalTocs = function() {
     var contents_element_aside = document.getElementsByClassName('aside-main')[0];
     var contents_element_main = document.getElementsByClassName('main')[0];
@@ -145,6 +152,7 @@ $(function(){
   }
 
   loadLocalTocs();
+  sideMenuScroll();
   setNavCurrent(location.href);
 
   $(window).scroll(function () {
