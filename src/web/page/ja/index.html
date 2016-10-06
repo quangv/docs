@@ -1,11 +1,11 @@
 <div id="indexContents">
     <div class="center">
-        <h3>Products Guide</h3>
+        <h3 style="padding-top: 0">Products Guide</h3>
 
         <table class="products-guide">
             <tr>   
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="monaca_ide">
                         <img class="product-logo" src="/static/img/index/cloud_ide.png" />
                         <p><a href="/ja/monaca_ide/" class="title">Monaca <br> クラウド IDE</a></p>
                         <hr>
@@ -18,7 +18,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="monaca_localkit">
                         <img class="product-logo" src="/static/img/index/localkit.png" />
                         <p><a href="/ja/monaca_localkit/" class="title">Monaca <br> Localkit</a></p>
                         <hr>
@@ -31,7 +31,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="monaca_cli">
                         <img class="product-logo" src="/static/img/index/cli.png" />
                         <p><a href="/ja/monaca_cli/" class="title">Monaca <br> CLI</a></p>
                         <hr>
@@ -44,7 +44,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="monaca_vs">
                         <img class="product-logo" src="/static/img/index/vs.png" />
                         <p><a href="/ja/monaca_vs/" class="title">Monaca for <br> Visual Studio</a></p>
                         <hr>
@@ -60,7 +60,7 @@
 
             <tr>   
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="debugger">
                         <img class="product-logo-v2" src="/static/img/index/debugger.png" />
                         <p><a href="/ja/debugger/" class="title">Monaca <br> デバッガー</a></p>
                         <hr>
@@ -73,7 +73,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="backend">
                         <img class="product-logo-v2" src="/static/img/index/backend.png" />
                         <p><a href="/ja/backend/" class="title">Monaca <br> バックエンド</a></p>
                         <hr>
@@ -86,7 +86,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="power_plugins">
                         <img class="product-logo-v2" src="/static/img/index/power_plugin.png" />
                         <p><a href="/ja/power_plugins/" class="title">Monaca <br>  提供の<br>プラグイン</a></p>
                         <hr>
@@ -98,7 +98,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="product-box">
+                    <div class="product-box" id="onsenui">
                         <img class="product-logo-v2" src="/static/img/index/onsen.png" />
                         <p class="onsen"><a href="/ja/onsenui/" class="title">Onsen UI</a></p>
                         <hr>
@@ -114,31 +114,31 @@
 
 
         <hr>
-        <h3>API の解説</h3>
+        <h3 style="padding-top: 20px">API の解説</h3>
         <table class="products-guide">
             <tr>   
                 <td>
-                    <div class="api-box" style="width: 120px">
+                    <div class="api-box" style="width: 120px" id="monaca_api">
                         <p><a href="/ja/reference/monaca_api/" class="title">Monaca <br> APIs</a></p>
                     </div>
                 </td>
                 <td>
-                    <div class="api-box" style="width: 150px">
+                    <div class="api-box" style="width: 150px" id="core_plugin">
                         <p><a href="/ja/reference/cordova_6.2/" class="title">Cordova のコア プラグイン</a></p>
                     </div>
                 </td>
                 <td>
-                    <div class="api-box" style="width: 200px">
+                    <div class="api-box" style="width: 200px" id="external_plugin">
                         <p><a href="/ja/reference/third_party_phonegap/" class="title">サードパーティー製 Cordova プラグイン</a></p>
                     </div>
                 </td>
                 <td>
-                    <div class="api-box" style="width: 150px">
+                    <div class="api-box" style="width: 150px" id="service_integration">
                         <p><a href="/ja/reference/service_integration/" class="title">外部サービス<br>との連携</a></p>
                     </div>
                 </td>
                 <td>
-                    <div class="api-box" style="width: 120px">
+                    <div class="api-box" style="width: 120px" id="config_files">
                         <p><a href="/ja/reference/config/" class="title">設定<br>ファイル</a></p>
                     </div>
                 </td>
@@ -149,7 +149,7 @@
         <table style="width:100%">
             <tr>
                 <td style="width:30%">
-                    <h4>対応環境</h4>
+                    <h4 style="padding-top: 10px">対応環境</h4>
                     <div class="supported-environment">
                         <p>Monaca クラウド IDE</p>
                         <ul>
@@ -226,7 +226,7 @@
                     </div>
                 </td>
                 <td style="width:70%">
-                    <h4>更新履歴</h4>
+                    <h4 style="padding-top: 10px">更新履歴</h4>
                     <div class="monaca-updates">
                         <p class="updates-loading">読み込み中...</p>
                         <table></table>
@@ -253,6 +253,48 @@
                     $(".monaca-updates table").append(tr);
                 }
             });
+        });
+
+        $("#monaca_ide").click(function() {
+            window.location.href = '/ja/monaca_ide/';
+        });
+        $("#monaca_localkit").click(function() {
+            window.location.href = '/ja/monaca_localkit/';
+        });
+        $("#monaca_cli").click(function() {
+            window.location.href = '/ja/monaca_cli/';
+        });
+        $("#monaca_vs").click(function() {
+            window.location.href = '/ja/monaca_vs/';
+        });
+        $("#debugger").click(function() {
+            window.location.href = '/ja/debugger/';
+        });
+        $("#backend").click(function() {
+            window.location.href = '/ja/backend/';
+        });
+        $("#power_plugins").click(function() {
+            window.location.href = '/ja/power_plugins/';
+        });
+        $("#onsenui").click(function() {
+            window.location.href = '/ja/onsenui/';
+        });
+
+
+        $("#monaca_api").click(function() {
+            window.location.href = '/ja/reference/monaca_api/';
+        });
+        $("#core_plugin").click(function() {
+            window.location.href = '/ja/reference/cordova_6.2/';
+        });
+        $("#external_plugin").click(function() {
+            window.location.href = '/ja/reference/third_party_phonegap/';
+        });
+        $("#service_integration").click(function() {
+            window.location.href = '/ja/reference/service_integration/';
+        });
+        $("#config_files").click(function() {
+            window.location.href = '/ja/reference/config/';
         });
     </script>
 </div>

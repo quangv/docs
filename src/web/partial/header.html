@@ -37,7 +37,7 @@
                     {{> top_menu.en }}
                 {{/is}} -->
             {{else}}
-                <div class="overview-btn">
+                <div class="overview-btn" id="monaca_overview">
                     {{#is lang "ja"}}
                         <p><a class="title" href="/ja/products_guide/monaca_intro/">Monaca での開発の概要</a></p>
                     {{else}}
@@ -86,3 +86,12 @@
     
   </div>
 </header>
+
+<script type="text/javascript">
+    $("#monaca_overview").click(function() {
+        if (LANG == "ja")
+            window.location.href = '/ja/products_guide/monaca_intro/';
+        else
+            window.location.href = '/en/products_guide/monaca_intro/';
+    });
+</script>
