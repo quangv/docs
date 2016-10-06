@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-09-30 01:45+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-10-06 02:51+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -830,7 +830,7 @@ msgid ""
 "Monaca sends push notifications via GCM (Google Cloud Messaging). GCM is a "
 "mechanism offered by Google to send push notifications to Android "
 "applications."
-msgstr "Monaca では、GCM ( Google Cloud Messaging ) を使用して、プッシュ通知を行います。GCM は、Android アプリへプッシュ通知を送るためのメカニズムです ( Google 社が提供 )。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:14
 msgid ""
@@ -844,102 +844,102 @@ msgstr "ここでは、Google アカウントを使用します。"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:21
 msgid "Step 1: Enable GCM in the Google API Console"
-msgstr "ステップ 1 : GCM の有効化 ( Google API Console 上  )"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:23
 msgid ""
 "In this example, we assume that you haven't registered your application to "
 "Google Developer Console yet."
-msgstr "ここでは、Google Developer Console 上にアプリを登録していないことを前提で解説をします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:25
 msgid ""
 "Go to `Google API Console <https://console.developers.google.com/>`_. and "
 "sign in with a valid Google account."
-msgstr "`Google API Console <https://console.developers.google.com/>`_ へ行き、Google アカウントを使用して、サインインします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:27
 msgid "Click on :guilabel:`Create a project`."
-msgstr ":guilabel:`プロジェクトを作成` をクリックします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:35
 msgid "Input the project's name and click :guilabel:`Create`."
-msgstr "プロジェクト名を入力して、:guilabel:`作成` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:43
 msgid ""
 "Go to Library panel and type ``Google Cloud Messaging`` in the search box. "
 "Then, select on ``Google Cloud Messaging`` in the search result as shown in "
 "the screenshot below."
-msgstr "[ ライブラリ ] パネルを選択して、表示されたページ上の検索ボックスに、``Google Cloud Messaging`` と入力します。次のスクリーンショットのように、検索結果の一覧から、``Google Cloud Messaging`` を選択します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:51
 msgid "Click :guilabel:`Enable`."
-msgstr ":guilabel:`有効にする` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:60
 msgid "Step 2: Obtain the Sender ID and Server API Key"
-msgstr "ステップ 2 : Sender ID ( Monaca クラウド IDE ) と サーバー API キー ( Google API Console 上 )"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:64
 msgid "Find Sender ID"
-msgstr "Sender ID の確認"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:66
 msgid ""
 "Sender ID is the Project Number which can be found in Settings page as shown"
 " below:"
-msgstr "プッシュ通知の Sender ID ( Monaca クラウド IDE ) には、Google APIs Console のプロジェクト番号を使用します。プロジェクト番号の確認方法は、次のとおりです。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:69
 msgid "Click on Google APIs menu."
-msgstr "[ Google APIs ] 横の切り替えメニューをクリックします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:77
 msgid "Go to :guilabel:`IAM & Admin`."
-msgstr ":guilabel:`IAM と 管理` を選択します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:85
 msgid ""
 "Then, go to :guilabel:`Settings`. There you can find the project number."
-msgstr "次に、:guilabel:`設定` を選択します。表示された画面上で、プロジェクト番号を確認します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:95
 msgid "Find Server API Key"
-msgstr "サーバー API キーの確認"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:97
 msgid "From the API Manager page, go to :guilabel:`Credentials`."
-msgstr "[ Google APIs ] 横の切り替えメニューから [ API Manager ] を選択して、次に、:guilabel:`認証情報` を選択します ( Google APIs Console 上 )。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:99
 msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
-msgstr ":guilabel:`認証情報を作成` をクリックして、:guilabel:`API キー` を選択します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:107
 msgid "Select :guilabel:`Server key`."
-msgstr ":guilabel:`サーバーキー` を選択します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:109
 msgid "Name your Server key and click :guilabel:`Create`."
-msgstr "サーバーキーの名前を入力して、:guilabel:`作成` ボタンをクリックします。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:118
 msgid ""
 "Then, Server API key will be created and displayed as shown below. Copy it. "
 "You will need to use this key in Monaca Cloud IDE later."
-msgstr "API キーが作成・表示されます。後ほど、Monaca クラウド IDE 上で使用するので、キーをコピーして、手元に保存します。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:121
 msgid "Step 3: Configure GCM Parameters in Monaca"
-msgstr "ステップ 3 : GCM パラメーターの設定 ( Monaca 上 )"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:131
 msgid ""
 "Under Android section, input the Sender ID and Server API Key and click "
 ":guilabel:`Save`. Then, the setup processes for Android app notifications "
 "are completed."
-msgstr "[ Android ] 項目上で、Sender ID と Server API Key ( 先ほどのサーバー API キー ) を入力して、:guilabel:`保存する` ボタンをクリックします。これで、Android アプリ向けの通知設定が完了しました。"
+msgstr ""
 
 #: ../doc/manual/backend/push_notification/index.rst:5
 msgid "Push Notification"
