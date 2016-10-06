@@ -222,14 +222,21 @@ em {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px; }
+  padding: 5px; }
 
 .menuselection {
   font-weight: bold;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px; }
+  padding: 5px; }
+
+code {
+  padding: 5px;
+  font-size: 100%;
+  color: #c7254e;
+  background-color: #fff;
+  border-radius: 4px; }
 
 a:link, a:visited {
   color: #3372ff;
@@ -1322,7 +1329,7 @@ aside.global {
   aside.global div.aside-search .cse .gsc-search-button input.gsc-search-button-v2, aside.global input.gsc-search-button-v2 {
     width: 56px;
     height: 30px;
-    padding: 4px 18px 4px 18px;
+    padding: 4px 18px  4px 18px;
     min-width: 13px;
     margin-top: 5px;
     margin-left: 0px;

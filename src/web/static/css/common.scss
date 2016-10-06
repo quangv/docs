@@ -228,7 +228,7 @@ em {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px;
+  padding: 5px;
 }
 
 .menuselection {
@@ -236,7 +236,15 @@ em {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px;
+  padding: 5px;
+}
+
+code {
+    padding: 5px;
+    font-size: 100%;
+    color: #c7254e;
+    background-color: #fff;
+    border-radius: 4px;
 }
 
 @include all-a($link_color,underline);
