@@ -94,7 +94,7 @@ $(function(){
   var sideMenuScroll = function() {
     if ($('.aside-main').innerHeight() > 600){
       $('.aside-main').innerHeight(600);
-      $('.aside-main').css({"overflow-y": "scroll"});
+      $('.aside-main').css({"overflow-y": "scroll"}); 
     }
   }
 
@@ -106,7 +106,11 @@ $(function(){
       var contents_right = contents_element_main.offsetWidth;
       var see_also_element = document.getElementsByClassName('admonition seealso')[0];
       if(see_also_element) {
-        see_also_element.style.top = contents_height + 55 + 'px';
+        if ($('.aside-main').innerHeight() > 600)
+          see_also_element.style.top = '770px';  
+        else
+          see_also_element.style.top = contents_height + 55 + 'px';
+        
         see_also_element.style.right = contents_right + 'px';
       }
     }
