@@ -1,4 +1,5 @@
 .. _cordova_crosswalk:
+.. _cordova_crosswalk_6_2:
 
 =====================================
 Crosswalk Plugin (Android Only)
