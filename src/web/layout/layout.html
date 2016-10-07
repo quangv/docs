@@ -56,15 +56,18 @@
     {{> header }}
 
     <article id="body-container" class="main">
+        {{#if toctree}}
+            <nav class="header-nav">
+                {{#if fjson.prev}}
+                    <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
+                {{/if}}
+                {{#if fjson.next}}
+                    <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
+                {{/if}}
+            </nav>
+        {{else}}
 
-        <nav class="header-nav">
-            {{#if fjson.prev}}
-                <p class="prev"><a href="{{{fjson.prev.link}}}"><span>{{{fjson.prev.title}}}</span></a></p>
-            {{/if}}
-            {{#if fjson.next}}
-                <p class="next"><a href="{{{fjson.next.link}}}"><span>{{{fjson.next.title}}}</span></a></p>
-            {{/if}}
-        </nav>
+        {{/if}}
 
         <!-- {{#if fjson.title}}     -->
         <div class="title_breadcrumb">
@@ -109,11 +112,11 @@
         {{/is}}
     </div>
  
-	<div style="display:none;">
+<!-- 	<div style="display:none;">
 	    <div id="demo3_tip">
 	        
 	    </div>
-	</div>
+	</div> -->
 
     <a href="#top" class="scrollup">Scroll</a>
 

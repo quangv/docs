@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-, Asial Corporation
+# This file is distributed under the same license as the Monaca package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monaca 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../doc/products_guide/index.rst:2
+msgid "Products Guide"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:5
+msgid "Monaca Development Overview"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:13
+msgid "What is Monaca?"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:15
+msgid "Monaca is a development environment for smartphone and tablet applications provided by Asial Corporation. Monaca does not only provide you with a development environment at your fingertips but also allows anyone to be able to develop smartphone applications easier."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:18
+msgid "Monaca uses a :ref:`hybrid <feature_hybrid_app>` approach to deliver mobile apps. It makes :ref:`hybrid mobile app <feature_hybrid_app>` development process with PhoneGap/Cordova simpler and stress-free with our comprehensive cloud-powered app development tools and services. Monaca is framework-agnostic and adaptive, ready to be immediately plugged into your existing workflow and development environment, creating the most open Cordova platform available."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:23
+msgid "Why using Monaca?"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:25
+msgid "Monaca's top 3 benefits are:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:27
+msgid "Cloud-Empowered Development: Our tools are designed to utilize the cloud to supercharge your app development in two ways. The complete cloud development environment gives you flexibility with no setup required. And the cloud-synced local development enables you to use your own environment but enjoy features like device live-sync and remote build. It’s the best of both worlds."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:29
+msgid "Mix-and-Match as You Like: We’ve got you covered all the way from design, app development, backend development, testing & debugging to build & distribution. Monaca can be used as a whole or a piece, working with your favorite tools like Sublime Text or Git. Just pick what you need. We will seamlessly plug into your workflow."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:31
+msgid "Framework Agnostic: Our open source Angular-driven `Onsen Framework <http://onsen.io/>`_ is tightly integrated with Monaca tools. However, you can use whatever framework you want. Ionic or PhoneGap developers, for example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take advantages of the cloud-powered services without switching or any complicated porting. We take OPEN seriously."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:36
+msgid "Monaca Development Tools"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:38
+msgid "For your flexibility and convenience during app development process, Monaca provides four different development environments as shown in the following subsections."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:41
+#: ../doc/products_guide/monaca_intro.rst:99
+msgid "Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:43
+msgid "Monaca Cloud IDE provides a browser-based development environment as a service. Right from your Web browser, all of your Cordova development is done without any setup. Along with the :ref:`monaca_debugger_intro`, Live Preview (built-in function in Monaca Cloud IDE) allows you to easily check the progress of your apps during development. Noticeably, there are neither Cordova plugins nor native functions in Live Preview. Therefore, the app required those plugins and functions can't be previewed properly. :ref:`Read more <monaca_ide_index>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:49
+msgid "Overview of Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:52
+msgid "Monaca Localkit"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:54
+msgid "Monaca Localkit is a local environment development support tool offered through our app development platform, “Monaca”. You can achieve better security and peace-of-mind from your own app development environment by combining existing tools such as code editors and version management system, with the versatile development support capabilities of Monaca. With Monaca Localkit, Monaca users are able to setup their preferred development environment on local PC. :ref:`Read more <monaca_localkit_index>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:61
+msgid "Overview of Monaca Localkit"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:64
+msgid "Monaca CLI"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:66
+msgid "Monaca CLI provides command line interface to use Monaca Cloud. It features the debugger connection, inspector integration, project creation and remote building. You can also import projects that exist in the cloud when you want to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:69
+msgid "Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:71
+msgid "Monaca for Visual Studio is another local development tool provided by Monaca. With this tool, Monaca users are able to develop an app using Visual Studio as the development environment. It’s free if you are a Visual Studio Community user. :ref:`Read more <monaca_vs_index>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:77
+msgid "Overview of Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:82
+msgid "Monaca Debugger"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:84
+msgid "On top of the flexibility in the development environment, Monaca also provides high development efficiency by using Monaca Debugger. Monaca Debugger is an application used to test and debug your Monaca applications on real devices without building the applications during the development. It needs to be installed on your mobile devices. The app will automatically sync all your development projects and run them without the build process. :ref:`Read more <monaca_debugger_index>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:90
+msgid "Monaca Debugger App"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:93
+msgid "Here is a table summarizing the debugging options between Monaca Debugger and Monaca development tools. For more information, please refer to :ref:`Debugging Monaca Apps <debugging_monaca_app>`."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:99
+msgid "*Monaca Development Tools*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:99
+msgid "Monaca CLI/Monaca Localkit/Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:101
+msgid "*Requirement*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:101
+msgid "Internet connection"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:101
+msgid "Internet connection and pairing"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:103
+msgid "*Monaca Debug Panel*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:103
+msgid "The OS of your device and PC isn't a problem. You can use this debug option whether you have a Mac/Windows and your device can either be an iOS or Android."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:103
+msgid "Not available"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:107
+msgid "*USB Debugging*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:107
+msgid "If you have an iOS device, you need a Mac because Safari (Safari remote debugging) is only available on Mac. If you have an Android device, you can use either a Mac/Windows as long as you have a Chrome Browser (Chrome DevTools)."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:116
+msgid "Relationship between Monaca Debugger and Monaca Development Tools"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:121
+msgid "Monaca Registration Plan"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:123
+msgid "Monaca provides various account types to match with your needs ranging from basic (FREE) to enterprise plan. After registration, your default account has a basic plan. You can upgrade it later when you want. For detailed information of Monaca account types and theirs usages, please refer to `Monaca Pricing <https://monaca.io/pricing.html>`_."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:125
+msgid "Monthly Plans:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:127
+msgid "Free trial for the first 14 days"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:128
+msgid "You can switch to another monthly plan in the trial period for free. But the trial period will not be extended."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:129
+msgid "14 days after the subscription, you will be charged unless you switch to Basic plan. The first charge is calculated on a daily basis."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:130
+msgid "After that, you will be charged monthly price on every first day of the month."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:132
+msgid "Annual Plans:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:134
+msgid "There is no trial period for annual plans."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:135
+msgid "You will be charged annual price when starting the subscription."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:136
+msgid "Your next charge will be on the first day of the 13th month after your admission unless you switch to Basic plan. For example, you subscribe to annual plan on July 20th, 2016. Then, your next charge will be on August 1st, 2017."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:138
+msgid "If you use Activation Code:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:140
+msgid "If you want to upgrade plan or extend the expiration date, please contact us with preferred plan name and term of months."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:141
+msgid "On the expiration date, your plan will be switched to Basic automatically."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:146
+msgid "*Features/Structure of Hybrid Apps*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:148
+msgid "Characteristics of hybrid apps:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:150
+msgid "The apps consist of the Web and native characteristics. (See the picture below)"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:151
+msgid "Regardless of operating systems, it will run on a browser component (cross-platform support). In other words, hybrid apps can run on iOS, Android, and other supported platforms, since it runs on WebView component of those platforms. Therefore, one source code can run on multiple supported platforms."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:157
+msgid "Differences between Native, Hybrid, and Web Apps"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:160
+msgid "Required knowledge for hybrid app development:"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:162
+msgid "HTML and CSS for UI (User Interface) design"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:163
+msgid "JavaScript for implementing the app"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:164
+msgid "JavaScript libraries for accessing the native functions of a device and additional plugins"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:166
+msgid "iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, a JavaScript library, to access native functions of a device. Windows apps run on Windows runtime while Chrome apps run on Chrome runtime."
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:170
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:172
+msgid ":ref:`monaca_app_index`"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:173
+msgid ":ref:`Monaca IDE<monaca_ide_index>`"
+msgstr ""
+
+#: ../doc/products_guide/monaca_intro.rst:174
+msgid ":ref:`monaca_debugger_index`"
+msgstr ""
+

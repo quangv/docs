@@ -64,10 +64,13 @@ html {
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans:400,700);
 
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
 body {
   background-color: #f9f9f9;
-  color: #444;
-  font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #000;
+  font-family: 'Raleway', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 200;
   line-height: 21px;
@@ -78,6 +81,11 @@ body {
 h1,h2,h3,h4,h5,h6 {
   color: $h_color;
   font-weight: 600;
+  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+a {
+  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; 
 }
 
 h1 {
@@ -220,7 +228,7 @@ em {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px;
+  padding: 3px 5px;
 }
 
 .menuselection {
@@ -228,7 +236,15 @@ em {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  padding: 0 2px;
+  padding: 3px 5px;
+}
+
+code {
+    padding: 3px 5px;
+    font-size: 100%;
+    color: #c7254e;
+    background-color: #fff;
+    border-radius: 4px;
 }
 
 @include all-a($link_color,underline);

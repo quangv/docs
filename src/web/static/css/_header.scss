@@ -436,8 +436,9 @@ header.global {
 
   nav.global {
     position: absolute;
-    top: 0;
-    left: 306px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     min-width: 610px;
     div {
       > ul {
@@ -548,22 +549,20 @@ header.global {
 
 //Fix navigation width even when mouseon
 html[lang=en] header.global nav > div > ul > li {
-  &:nth-child(1) {width: 120px;}
-  &:nth-child(2) {width: 150px;}
-  &:nth-child(3) {width: 88px;}
-  &:nth-child(4) {width: 62px;}
-  &:nth-child(5) {width: 104px;}
-  &:nth-child(6) {width: 70px;}
+    &:nth-child(1) {width: 150px;}
+    &:nth-child(2) {width: 100px;}
+    &:nth-child(3) {width: 130px;}
+    &:nth-child(4) {width: 140px;}
+    &:nth-child(5) {width: 90px;}
 }
 
 //Fix navigation width even when mouseon
 html[lang=ja] header.global nav > div > ul > li {
-  &:nth-child(1) {width: 170px;}
-  &:nth-child(2) {width: 134px;}
-  &:nth-child(3) {width: 103px;}
-  &:nth-child(4) {width: 100px;}
-  &:nth-child(5) {width: 95px;}
-  &:nth-child(6) {width: 54px;}
+  &:nth-child(1) {width: 150px;}
+  &:nth-child(2) {width: 150px;}
+  &:nth-child(3) {width: 120px;}
+  &:nth-child(4) {width: 150px;}
+  &:nth-child(5) {width: 90px;}
   a {
     padding-left: 0px;
     padding-right: 0px;
