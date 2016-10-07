@@ -128,7 +128,6 @@ $(function(){
       if (url == itemUrl) {
         $(this).addClass("current");
         //$(this).parent().show();
-        //console.log(this)
       }
     })
   }
