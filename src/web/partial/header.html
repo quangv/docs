@@ -29,28 +29,8 @@
     <div class="headcont">
         <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
         <nav class="global" data-pjax>
-            {{#if toctree}}
-                {{{globaltoc}}}
-                <!-- {{#is lang "ja"}}
-                    {{> navigation.ja }}
-                {{else}}
-                    {{> top_menu.en }}
-                {{/is}} -->
-            {{else}}
-                <div class="overview-btn" id="monaca_overview">
-                    {{#is lang "ja"}}
-                        <p><a class="title" href="/ja/products_guide/monaca_intro/">Monaca での開発の概要</a></p>
-                    {{else}}
-                        <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Development Overview</a></p>
-                    {{/is}}
-                    
-                </div>
-                
-                
-            {{/if}}
+            {{{globaltoc}}}
         </nav>
-
-
         <p class="version_selector">
             {{#if cordovaVersions}}
                 {{#is lang "ja"}}Cordova {{else}}Cordova {{/is}}
@@ -67,7 +47,7 @@
         {{#if toctree}}
         {{else}}
             <aside class="top-page">
-                <div class="aside-search-left">
+                <div class="aside-search">
                     <script>
                         (function() {
                             var cx = (LANG === "ja") ? "007288577541380389757:mty_rw-k5qy" : " 007288577541380389757:dbehy9uu97o";
@@ -86,12 +66,3 @@
     
   </div>
 </header>
-
-<script type="text/javascript">
-    $("#monaca_overview").click(function() {
-        if (LANG == "ja")
-            window.location.href = '/ja/products_guide/monaca_intro/';
-        else
-            window.location.href = '/en/products_guide/monaca_intro/';
-    });
-</script>

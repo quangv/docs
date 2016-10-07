@@ -1,7 +1,7 @@
 $aside-padding: 0;
 
 aside.top-page {
-  float: left;
+  float: right;
   font-size: 16px;
   padding: 15px 0px 40px 0px;
   width: 288px;
@@ -36,15 +36,6 @@ aside.top-page {
   }
 }
 
-div.aside-search-left {
-    position: absolute;
-    width: 288px;
-    right: 10px;
-    float: right;
-    padding: 0;
-    margin-right: 10px;
-}
-
 aside.global {
   float: right;
   font-size: 16px;
@@ -59,11 +50,8 @@ aside.global {
   /* css for google search */
   div.aside-search {
     padding: 0;
-    margin-right: 0px;
-    margin-left: 10px;
+    margin-right: 15px;
   }
-
-
 
   .gsc-input-box {
       height: 30px;
@@ -72,7 +60,6 @@ aside.global {
   div.aside-search .cse .gsc-control-cse, .gsc-control-cse {
     padding: 0;
     width: auto;
-
   }
 
   div.aside-search .gsib_a {
@@ -83,10 +70,10 @@ aside.global {
   div.aside-search .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
     width: 56px;
     height: 30px;
-    padding: 4px 18px  4px 18px;
+    padding: 4px 18px 4px 18px;
     min-width: 13px;
     margin-top: 5px;
-    margin-left: 0px;
+    margin-right: 5px;
     background-color: $monaca-blue;
   }
 
@@ -98,10 +85,7 @@ aside.global {
     /*padding-right: 10px;*/
     padding-left: 0px;
     padding-bottom: 20px;
-    margin-right: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    /*height: 600px;*/
+    margin-right: 20px;
 
     > div.aside-search-result-info {
       background-color: #ffff80;
@@ -266,7 +250,7 @@ div.admonition {
   /*See Also*/
   &.seealso {
     position: absolute;
-    width: 288px;
+    width: 267px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -274,7 +258,7 @@ div.admonition {
     border-top: 3px solid #35527c;
     /*background-color: #f9f9f9;*/
     background-color: #f2f2f2;
-    /*font-family: 'Open Sans';*/
+    font-family: 'Open Sans';
     /*font-family: "Open Sans Condensed"*/
     font-size: 16px;
     color: #35527c;

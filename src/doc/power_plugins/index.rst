@@ -1,1 +1,0 @@
-.. _power_plugins_index:======================================Monaca Power Plugins======================================.. rst-class:: clear.. toctree::  :glob:  :maxdepth: 2  manual/index  faq/index

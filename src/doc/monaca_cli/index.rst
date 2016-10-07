@@ -1,1 +1,0 @@
-.. _monaca_cli_index:===========================================Monaca CLI===========================================.. rst-class:: clear.. toctree::  :maxdepth: 2  tutorial/index  manual/index  samples/index  faq/index

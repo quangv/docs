@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-06 02:51+0000\n"
+"PO-Revision-Date: 2016-10-07 02:28+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -712,7 +712,7 @@ msgstr "ステップ 1 : CSR ファイルの作成 ( Monaca クラウド IDE 上
 
 #: ../doc/manual/backend/push_notification/apns.rst:30
 #: ../doc/manual/backend/push_notification/apns.rst:105
-#: ../doc/manual/backend/push_notification/gcm.rst:123
+#: ../doc/manual/backend/push_notification/gcm.rst:62
 msgid ""
 "From the Backend Panel in Monaca Cloud IDE, go to :menuselection:`Push "
 "Notification --> Backend Settings --> Push Configuration`."
@@ -827,9 +827,12 @@ msgstr "Android アプリへのプッシュ通知設定"
 
 #: ../doc/manual/backend/push_notification/gcm.rst:12
 msgid ""
-"Monaca sends push notifications via GCM (Google Cloud Messaging). GCM is a "
-"mechanism offered by Google to send push notifications to Android "
-"applications."
+"Monaca sends push notifications via FCM (Firebase Cloud Messaging). FCM is a"
+" cross-platform messaging solution that lets you reliably deliver messages "
+"at no cost. Using FCM, you can notify a client app that new email or other "
+"data is available to sync. You can send notification messages to drive user "
+"reengagement and retention. For use cases such as instant messaging, a "
+"message can transfer a payload of up to 4KB to a client app."
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:14
@@ -838,107 +841,59 @@ msgid ""
 "notifications service for Android applications with Monaca."
 msgstr "ここでは、Android アプリ向けにプッシュ通知を行うための手順を解説します。"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:17
+#: ../doc/manual/backend/push_notification/gcm.rst:16
 msgid "You are required to have a Google account for this configuration."
 msgstr "ここでは、Google アカウントを使用します。"
 
-#: ../doc/manual/backend/push_notification/gcm.rst:21
-msgid "Step 1: Enable GCM in the Google API Console"
+#: ../doc/manual/backend/push_notification/gcm.rst:20
+msgid "Step 1: Get API Key from Firebase Console"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:23
+#: ../doc/manual/backend/push_notification/gcm.rst:22
 msgid ""
-"In this example, we assume that you haven't registered your application to "
-"Google Developer Console yet."
+"In order to integrate Monaca with FCM, API key is required. Please follow "
+"the instruction below to get an API key from the Firebase Console:"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:25
+#: ../doc/manual/backend/push_notification/gcm.rst:24
 msgid ""
-"Go to `Google API Console <https://console.developers.google.com/>`_. and "
-"sign in with a valid Google account."
+"Go to `Firebase Console <https://console.firebase.google.com/>`_. and sign "
+"in with a valid Google account."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:27
-msgid "Click on :guilabel:`Create a project`."
+#: ../doc/manual/backend/push_notification/gcm.rst:26
+msgid "Click on :guilabel:`CREATE NEW PROJECT`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:35
-msgid "Input the project's name and click :guilabel:`Create`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:43
+#: ../doc/manual/backend/push_notification/gcm.rst:34
 msgid ""
-"Go to Library panel and type ``Google Cloud Messaging`` in the search box. "
-"Then, select on ``Google Cloud Messaging`` in the search result as shown in "
-"the screenshot below."
+"Input a project's name and choose your country/region. Then, click "
+":guilabel:`CREATE PROJECT`."
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:51
-msgid "Click :guilabel:`Enable`."
+#: ../doc/manual/backend/push_notification/gcm.rst:42
+msgid ""
+"Once your project is created, go to :guilabel:`Project settings` from the "
+"left menu."
+msgstr ""
+
+#: ../doc/manual/backend/push_notification/gcm.rst:50
+msgid ""
+"In the Settings page, go to :guilabel:`CLOUD MESSAGING`. Then, you will be "
+"able to see the ``Server Key`` and ``Sender ID`` which will be used in "
+"Monaca later. The ``Server Key`` is used as an API key for the push "
+"notification and the ``Sender ID`` represents a sender."
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/gcm.rst:60
-msgid "Step 2: Obtain the Sender ID and Server API Key"
+msgid "Step 2: Configure FCM Parameters in Monaca"
 msgstr ""
 
-#: ../doc/manual/backend/push_notification/gcm.rst:64
-msgid "Find Sender ID"
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:66
-msgid ""
-"Sender ID is the Project Number which can be found in Settings page as shown"
-" below:"
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:69
-msgid "Click on Google APIs menu."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:77
-msgid "Go to :guilabel:`IAM & Admin`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:85
-msgid ""
-"Then, go to :guilabel:`Settings`. There you can find the project number."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:95
-msgid "Find Server API Key"
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:97
-msgid "From the API Manager page, go to :guilabel:`Credentials`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:99
-msgid "Click :guilabel:`Create credentials` and choose :guilabel:`API key`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:107
-msgid "Select :guilabel:`Server key`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:109
-msgid "Name your Server key and click :guilabel:`Create`."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:118
-msgid ""
-"Then, Server API key will be created and displayed as shown below. Copy it. "
-"You will need to use this key in Monaca Cloud IDE later."
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:121
-msgid "Step 3: Configure GCM Parameters in Monaca"
-msgstr ""
-
-#: ../doc/manual/backend/push_notification/gcm.rst:131
+#: ../doc/manual/backend/push_notification/gcm.rst:70
 msgid ""
 "Under Android section, input the Sender ID and Server API Key and click "
-":guilabel:`Save`. Then, the setup processes for Android app notifications "
-"are completed."
+":guilabel:`Save`. Now, the Android push notification is enabled and ready to"
+" use."
 msgstr ""
 
 #: ../doc/manual/backend/push_notification/index.rst:5

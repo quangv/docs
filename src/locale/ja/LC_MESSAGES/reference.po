@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-06 05:52+0000\n"
+"PO-Revision-Date: 2016-10-07 02:29+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1319,7 +1319,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:224
 #: ../doc/reference/cordova_5.2/camera/index.rst:653
 #: ../doc/reference/cordova_5.2/contacts/index.rst:820
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:110
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:109
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:226
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:275
 #: ../doc/reference/cordova_5.2/device/index.rst:320
@@ -1340,7 +1340,7 @@ msgstr "カテゴリー名です。"
 #: ../doc/reference/cordova_6.2/camera/index.rst:863
 #: ../doc/reference/cordova_6.2/console/index.rst:114
 #: ../doc/reference/cordova_6.2/contacts/index.rst:879
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:103
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:102
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:218
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:266
 #: ../doc/reference/cordova_6.2/device/index.rst:362
@@ -2102,7 +2102,7 @@ msgstr "このプラグインを使用して、端末の加速度センサーに
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:50
 #: ../doc/reference/cordova_5.2/camera/index.rst:55
 #: ../doc/reference/cordova_5.2/contacts/index.rst:55
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:34
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:33
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:56
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:59
 #: ../doc/reference/cordova_5.2/device/index.rst:53
@@ -2123,7 +2123,7 @@ msgstr "このプラグインを使用して、端末の加速度センサーに
 #: ../doc/reference/cordova_6.2/camera/index.rst:48
 #: ../doc/reference/cordova_6.2/console/index.rst:48
 #: ../doc/reference/cordova_6.2/contacts/index.rst:48
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:27
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:26
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:49
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:52
 #: ../doc/reference/cordova_6.2/device/index.rst:46
@@ -2352,7 +2352,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ../doc/reference/cordova_5.2/contacts/index.rst:549
 #: ../doc/reference/cordova_5.2/contacts/index.rst:628
 #: ../doc/reference/cordova_5.2/contacts/index.rst:733
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:41
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:40
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:70
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:73
 #: ../doc/reference/cordova_5.2/device/index.rst:86
@@ -2426,7 +2426,7 @@ msgstr "このプラグインを使用するには ``org.apache.cordova.device-m
 #: ../doc/reference/cordova_6.2/contacts/index.rst:587
 #: ../doc/reference/cordova_6.2/contacts/index.rst:660
 #: ../doc/reference/cordova_6.2/contacts/index.rst:759
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:34
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:33
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:63
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:66
 #: ../doc/reference/cordova_6.2/device/index.rst:80
@@ -15096,7 +15096,7 @@ msgstr "振動を即時に停止します。"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:58
 #: ../doc/reference/cordova_5.2/camera/index.rst:63
 #: ../doc/reference/cordova_5.2/contacts/index.rst:62
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:47
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:46
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:64
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:67
 #: ../doc/reference/cordova_5.2/device/index.rst:61
@@ -15117,7 +15117,7 @@ msgstr "振動を即時に停止します。"
 #: ../doc/reference/cordova_6.2/camera/index.rst:56
 #: ../doc/reference/cordova_6.2/console/index.rst:56
 #: ../doc/reference/cordova_6.2/contacts/index.rst:55
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:40
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:39
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:57
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:60
 #: ../doc/reference/cordova_6.2/device/index.rst:54
@@ -15181,7 +15181,6 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 #: ../doc/reference/cordova_6.2/splashscreen/index.rst:61
 #: ../doc/reference/cordova_6.2/statusbar/index.rst:141
 #: ../doc/reference/cordova_6.2/vibration/index.rst:83
-#: ../doc/reference/index.rst:2
 msgid "API Reference"
 msgstr "API の解説"
 
@@ -15396,7 +15395,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:226
 #: ../doc/reference/cordova_5.2/camera/index.rst:655
 #: ../doc/reference/cordova_5.2/contacts/index.rst:822
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:112
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:111
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:228
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:277
 #: ../doc/reference/cordova_5.2/device/index.rst:322
@@ -15417,7 +15416,7 @@ msgstr "Windows Phone 8.1 では、isPlugged が使用できないため、充�
 #: ../doc/reference/cordova_6.2/camera/index.rst:865
 #: ../doc/reference/cordova_6.2/console/index.rst:116
 #: ../doc/reference/cordova_6.2/contacts/index.rst:881
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:105
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:104
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:220
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:268
 #: ../doc/reference/cordova_6.2/device/index.rst:364
@@ -15449,7 +15448,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_5.2/battery-status/index.rst:227
 #: ../doc/reference/cordova_5.2/camera/index.rst:656
 #: ../doc/reference/cordova_5.2/contacts/index.rst:823
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:113
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:112
 #: ../doc/reference/cordova_5.2/device-motion/index.rst:229
 #: ../doc/reference/cordova_5.2/device-orientation/index.rst:278
 #: ../doc/reference/cordova_5.2/device/index.rst:323
@@ -15470,7 +15469,7 @@ msgstr ":ref:`third_party_cordova_index`"
 #: ../doc/reference/cordova_6.2/camera/index.rst:866
 #: ../doc/reference/cordova_6.2/console/index.rst:117
 #: ../doc/reference/cordova_6.2/contacts/index.rst:882
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:106
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:105
 #: ../doc/reference/cordova_6.2/device-motion/index.rst:221
 #: ../doc/reference/cordova_6.2/device-orientation/index.rst:269
 #: ../doc/reference/cordova_6.2/device/index.rst:365
@@ -16895,33 +16894,33 @@ msgstr "**name** と **title** 項目は、**org** と **jobTitle** に格納さ
 msgid "**type**: Not supported, returning ``null``."
 msgstr "**type**: iOS 端末では使用できず、``null`` を返します。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:6
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:6
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:5
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:5
 msgid "Crosswalk Plugin (Android Only)"
 msgstr "Crosswalk プラグイン ( Android 専用 )"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:21
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:14
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:20
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:13
 msgid ""
 "This document is based on the original Cordova docs available at `Cordova "
 "Docs <https://github.com/crosswalk-project/cordova-plugin-crosswalk-"
 "webview>`_."
 msgstr "このプラグインの詳細は、`こちらの原文 ( GitHub ) <https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview>`_ をご確認ください。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:24
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:17
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:23
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:16
 msgid ""
 "This plugin makes your Cordova application uses the `Crosswalk WebView "
 "<https://crosswalk-project.org/>`__ instead of the System WebView."
 msgstr "このプラグインを Cordova アプリに組み込むと、System WebView の代わりに、`Crosswalk WebView <https://crosswalk-project.org/>`__ を使用できます。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:27
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:20
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:26
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:19
 msgid "What is Crosswalk?"
 msgstr "Crosswalk とは？"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:29
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:22
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:28
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:21
 msgid ""
 "There are many versions of Android from many manufacturers, this makes it "
 "very difficult to develop a Cordova app that works consistently across all "
@@ -16931,8 +16930,8 @@ msgid ""
 " outdated Android WebViews. Crosswalk can solve this problem."
 msgstr "Android の製造元は、複数あり、バージョンも多様です。このため、複数の Android のバージョンで、安定して動作する Cordova アプリの開発には、多くの苦労があります。よく知られている事として、端末に標準装備されている WebView のバージョンの違いにより、表示、挙動などに影響がでることがあります。また、WebView の更新は、Android 4.4 までは、OS の更新時に行われていました。このため、諸事情により、端末の更新ができない場合には、古いバージョンの Android 標準装備の WebView をいつまでも使用することになりました。Crosswalk の導入により、このような問題を解決することができます。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:31
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:24
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:30
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:23
 msgid ""
 "Crosswalk is a web runtime based on Google Chromium and has better HTML5 "
 "feature support compared to the default WebView available in Android. By "
@@ -16942,120 +16941,120 @@ msgid ""
 "device."
 msgstr "Crosswalk は、「 Web ランタイム 」 と呼ばれるものの 1 つであり、Google Chromium を基礎として使用しています。Crosswalk では、Android に標準装備されている WebView と比較しても、より多くの HTML の機能をサポートしています。また、Crosswalk に移行した場合、Chromium のバージョンも同時に更新されます。よって、端末の製造元または Android のバージョンの違いによる影響がなくなるため、アプリの動作が安定します。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:43
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:36
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:42
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:35
 msgid "Android 4.0.0 or higher"
 msgstr "Android 4.0.0 以上"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:44
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:43
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:59
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:37
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:36
 msgid "Cordova 5.2 or higher"
 msgstr "Cordova 5.2 以上"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:49
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:42
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:48
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:41
 msgid ""
 "In order to use this plugin, you need to enable ``Crosswalk`` plugin in "
 "Monaca Cloud IDE first."
 msgstr "このプラグインを使用する場合、Monaca クラウド IDE 上で、``Crosswalk WebView Engine`` プラグインを有効化します。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:51
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:44
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:50
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:43
 msgid ""
 "From Monaca Cloud IDE, go to :menuselection:`Config --> Cordova Plugins`."
 msgstr "Monaca クラウド IDE から、:menuselection:`設定 --> Cordova プラグインの管理` を選択します。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:53
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:46
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:52
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:45
 msgid "Enable the Crosswalk WebView Engine (see the screenshot below)."
 msgstr "Crosswalk WebView Engine を有効化します ( 下のスクリーンショットを参照 )。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:61
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:54
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:60
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:53
 msgid ""
 "After enabling the Crosswalk WebView Engine, you can also change its version"
 " by clicking on :guilabel:`Settings` button."
 msgstr "プラグインのバージョンと Crosswalk のバージョンを変更する場合、プラグインを有効にした後、:guilabel:`設定` ボタンをクリックします。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:69
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:62
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:68
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:61
 msgid ""
 "Then, the following dialog will appear. After finishing your configuration, "
 "click OK."
 msgstr "次のダイアログが表示されます。設定後、OK ボタンをクリックします。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:71
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:64
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:70
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:63
 msgid ""
 "You can change both plugin version or Crosswalk version. However, not all "
 "version combination between the two are applicable."
 msgstr "プラグインと Crosswalk のどちらのバージョンも変更できますが、組み合わせによっては、正常に動作しない場合があります。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:80
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:73
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:79
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:72
 msgid "Pros and Cons of Crosswalk Plugin"
 msgstr "Crosswalk プラグインのメリット・デメリット"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:85
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:78
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:84
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:77
 msgid "Advantages"
 msgstr "メリット"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:85
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:78
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:84
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:77
 msgid "Disadvantages"
 msgstr "デメリット"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:87
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:80
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:86
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:79
 msgid ""
 "WebView installed on each device has the same version. The problem due to "
 "different operations of API has been solved."
 msgstr "同一バージョンの WebView を各端末にインストールできます。これにより、API の動作の差異に起因する問題を解決できます。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:91
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:84
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:90
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:83
 msgid ""
 "The latest version of WebView (Android 4 is not supported) is being used, "
 "performance improvement is expected."
 msgstr "最新の WebView を使用するため、パフォーマンスの向上を期待できます。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:87
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:80
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:86
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:79
 msgid ""
 "Building a Crosswalk app results in 2 APK files: one arm and one for x86 CPU"
 " architecture. Both of them need to be uploaded to GooglePlay."
 msgstr "Crosswalk を実装したアプリをビルドすると、2 つの APK ファイルが作成されるため、Google Play に、2 つとも、アップロードする必要があります。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:91
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:84
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:90
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:83
 msgid ""
 "When there is bugs in Crosswalk (Chromium), all devices will be having the "
 "same bugs."
 msgstr "Crosswalk ( Chromium ) 自体にバグがある場合には、インストール先のすべての端末上に、同じバグが存在することになります。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:94
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:87
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:93
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:86
 msgid "App size can be +20MB bigger."
 msgstr "+20MB ほど、アプリのサイズが大きくなります。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:96
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:89
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:95
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:88
 msgid ""
 "When there is a serious bug occurs in Crosswalk, the app might stop working "
 "until it is solved."
 msgstr "Crosswalk 自体に重大なバグがある場合、バグが解消されるまで、アプリが正常に動作しないことが考えられます。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:99
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:92
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:98
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:91
 msgid ""
 "If there is vulnerability occurrs in Crosswalk(Chromium), there will be a "
 "warning in Google Play that the app may be publicly unavailable."
 msgstr "セキュリティーの脆弱性が Crosswalk ( Chromium ) 内で見つかった場合には、Google Play との販売・配布契約に基づき、アプリの配布を停止・終了されることがあります。"
 
-#: ../doc/reference/cordova_5.2/crosswalk/index.rst:103
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:96
+#: ../doc/reference/cordova_5.2/crosswalk/index.rst:102
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:95
 msgid ""
 "For Android 5.0 or higher, WebView is made as another app, so it will always"
 " needed to be updated. Therefore, Crosswalk’s WebView version maybe out of "
@@ -19778,7 +19777,7 @@ msgstr "``navigator.contacts.fieldType.title``"
 msgid "``navigator.contacts.fieldType.urls``"
 msgstr "``navigator.contacts.fieldType.urls``"
 
-#: ../doc/reference/cordova_6.2/crosswalk/index.rst:10
+#: ../doc/reference/cordova_6.2/crosswalk/index.rst:9
 msgid ""
 "Tested Version: `1.3.0 <https://github.com/crosswalk-project/cordova-plugin-"
 "crosswalk-webview/releases/tag/1.3.0>`_"
@@ -21038,6 +21037,10 @@ msgid ""
 "This whitelist does not apply to plugins, only hyperlinks and calls to "
 "``window.open()``."
 msgstr "この設定は、プラグインではなく、``window.open()`` の呼び出し時とハイパーリンクだけに適用されます。"
+
+#: ../doc/reference/index.rst:2
+msgid "API"
+msgstr ""
 
 #: ../doc/reference/monaca_api/cloud.rst:5
 msgid "Backend API"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-06 02:51+0000\n"
+"PO-Revision-Date: 2016-10-07 02:28+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -18,19 +18,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../doc/onsenui/index.rst:5
+#: ../doc/onsenui/index.rst:2
 msgid "Onsen UI"
 msgstr "Onsen UI"
 
-#: ../doc/onsenui/manual/index.rst:2
-msgid "Manual"
-msgstr ""
-
-#: ../doc/onsenui/manual/index.rst:12
+#: ../doc/onsenui/index.rst:12
 msgid "HTML5 Framework for Building Mobile App Front End"
 msgstr "携帯端末用アプリのフロントエンドを構築するための HTML5 フレームワークです。"
 
-#: ../doc/onsenui/manual/index.rst:17
+#: ../doc/onsenui/index.rst:17
 msgid ""
 "**Onsen UI** is a front-end development tool that radically improves "
 "PhoneGap/Cordova apps. Differing from previous frameworks, it is highly "
@@ -39,29 +35,29 @@ msgid ""
 "support, resulting in a publishable app."
 msgstr "**Onsen UI** はフロントエンド開発用のツールです。**Onsen UI** が提供する UI を使用すれば、PhoneGap/Cordova アプリの外観と操作性を飛躍的に改善できます。他のフレームワークよりも洗練された柔軟性を持ち、ハイブリッドアプリにおいても、ネイティブ並みの外観と操作性を、すべてのプラットフォーム上で実現できます。Monaca と共に使用すれば、バックエンド機能の追加と各種端末のサポートを容易に行え、配布可能なアプリを簡単に作成できます。"
 
-#: ../doc/onsenui/manual/index.rst:22
+#: ../doc/onsenui/index.rst:22
 msgid ""
 "For more information on **Onsen UI**, please go to `Onsen UI home page "
 "<http://onsenui.io>`_."
 msgstr "**Onsen UI** の詳細に関しては `Onsen UI ホームページ <https://ja.onsen.io>`_ をご確認ください。"
 
-#: ../doc/onsenui/manual/index.rst:25
+#: ../doc/onsenui/index.rst:25
 msgid "Starting a new Onsen UI project in Monaca"
 msgstr "Onsen UI を使用した、新規プロジェクトの作成"
 
-#: ../doc/onsenui/manual/index.rst:28
+#: ../doc/onsenui/index.rst:28
 msgid "Go to Dashboard"
 msgstr "ダッシュボード画面の表示"
 
-#: ../doc/onsenui/manual/index.rst:30
+#: ../doc/onsenui/index.rst:30
 msgid "Go to Dashboard and click *Create Project*"
 msgstr "ダッシュボードへ移動して、*新規プロジェクトの作成* を選択します。"
 
-#: ../doc/onsenui/manual/index.rst:36
+#: ../doc/onsenui/index.rst:36
 msgid "Choose one Onsen UI template that best fit your project type"
 msgstr "用途に合ったテンプレートを 1 つ選択"
 
-#: ../doc/onsenui/manual/index.rst:43
+#: ../doc/onsenui/index.rst:43
 msgid ""
 "Currently, Monaca Cloud IDE does not support Onsen UI with Angular 2 "
 "framework type since it requires to transpile the source code to Javascript."
@@ -69,33 +65,13 @@ msgid ""
 "CLI<cli_overview>`."
 msgstr "現在、Monaca クラウド IDE 上では、Onsen UI コンポーネントと Angular 2 フレームワークを併用したテンプレートを提供していません。Monaca クラウド IDE では、ソースコースから JavaScript への変換処理 ( トランスパイル/transpile ) を現在サポートしていないためです。なお、:ref:`Monaca CLI<cli_overview>` ( ローカル環境用の開発ツール ) では、このタイプのテンプレートをリリースしています。"
 
-#: ../doc/onsenui/manual/index.rst:46
+#: ../doc/onsenui/index.rst:46
 msgid "Where to go from here"
 msgstr "テンプレート選択後の手順に関して"
 
-#: ../doc/onsenui/manual/index.rst:48
+#: ../doc/onsenui/index.rst:48
 msgid ""
 "Now you have Onsen UI installed. See examples in `Onsen UI Docs "
 "<http://onsenui.io/guide/overview.html>`_  for how to use Onsen UI "
 "components."
 msgstr "ここまでの手順で、Onsen UI のインストールが完了しました。Onsen UI コンポーネントの使用方法とサンプルに関しては `Onsen UI ドキュメント <https://ja.onsen.io/v1/guide.html>`_  をご確認ください。"
-
-#: ../doc/onsenui/samples/index.rst:3
-msgid "Samples"
-msgstr ""
-
-#: ../doc/onsenui/samples/index.rst:5
-msgid ""
-"Please refer to `the samples on Onsen UI website "
-"<https://onsen.io/samples/>`_."
-msgstr ""
-
-#: ../doc/onsenui/tutorial/index.rst:3
-msgid "Onsen UI Tutorial"
-msgstr ""
-
-#: ../doc/onsenui/tutorial/index.rst:5
-msgid ""
-"Please refer to `the tutorial on Onsen UI website "
-"<https://onsen.io/tutorial/>`_."
-msgstr ""

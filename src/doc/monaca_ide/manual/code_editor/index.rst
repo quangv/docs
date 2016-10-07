@@ -1,1 +1,0 @@
-===========================================Code Editor===========================================.. toctree::  :glob:  :maxdepth: 2  editor  type_script  zen_coding
