@@ -23,8 +23,8 @@ Please refer to the following documentation on how to build and distribute your 
 .. toctree::
   :maxdepth: 2
 
-  ../../share/build/index
-  ../../share/deploy/index
+  ../../monaca_ide/manual/build/index
+  ../../monaca_ide/manual/deploy/index
 
 
 .. seealso::

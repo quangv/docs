@@ -1,1 +1,1 @@
-===========================================Manual===========================================.. toctree::  :glob:  :maxdepth: 2  overview  cli_commands  ../../share/dependencies/index  pairing_debugging  build_publish
+===========================================Manual===========================================.. toctree::  :maxdepth: 2  overview  cli_commands  ../../monaca_ide/manual/dependencies/index  pairing_debugging  build_publish

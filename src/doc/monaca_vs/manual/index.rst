@@ -6,7 +6,7 @@ Manual
   :maxdepth: 2
 
   overview
-  ../../share/dependencies/index
+  ../../monaca_ide/manual/dependencies/index
   pairing_debugging
   build_publish
 
