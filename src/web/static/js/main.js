@@ -105,17 +105,6 @@ $(function(){
     }
   }
 
-  // remove breadcrumb in top page
-  // var RemoveBreadcrumb = function(){
-  //   var current_url = document.URL;
-  //   if (current_url.endsWith('en/') || current_url.endsWith('ja/')) {
-  //     $('.breadcrumb').remove();
-  //   }
-    
-  // }
-
-  //RemoveBreadcrumb();
-
   var setNavCurrent = function(url) {
     var parser = document.createElement('a');
     parser.href = url;

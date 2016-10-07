@@ -5,6 +5,7 @@
 # Translators:
 # fabbygoh <fabbygoh@gmail.com>, 2016
 # fabbygoh <fabbygoh@gmail.com>, 2016
+# fabbygoh <fabbygoh@gmail.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016
 # Hotellook, 2014
 # Masakazu Watabe <watabe08@gmail.com>, 2016
@@ -12,7 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-07 02:28+0000\n"
+
+"PO-Revision-Date: 2016-10-07 05:35+0000\n"
+
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -833,12 +836,9 @@ msgid ""
 "data is available to sync. You can send notification messages to drive user "
 "reengagement and retention. For use cases such as instant messaging, a "
 "message can transfer a payload of up to 4KB to a client app."
-msgstr ""
-"Monaca では、FCM ( Firebase Cloud Messaging ) 経由でプッシュ通知を行っています。"
-"FCM とは、Google 社が提供する Firebase ( MBaas の一種 ) を基盤とした、クロスプラットフォーム向けの"
-"メッセージング サービスです。このサービスを使用すれば、費用をかけずに、通知タイプ "
-"( プッシュ通知、案内メールなど ) およびデータ転送タイプ ( ペイロードサイズの上限は 4 KB ) のメッセージを、"
-"クライアント側アプリに対して配信できます ( 通知とデータを併せて使用することもできます )。"
+
+msgstr "Monaca では、FCM ( Firebase Cloud Messaging ) 経由でプッシュ通知を行っています。FCM とは、Google 社が提供する Firebase ( MBaas の一種 ) を基盤とした、クロスプラットフォーム向けのメッセージング サービスです。このサービスを使用すれば、費用をかけずに、通知タイプ ( プッシュ通知、案内メールなど ) およびデータ転送タイプ ( ペイロードサイズの上限は 4 KB ) のメッセージを、クライアント側アプリに対して配信できます ( 通知とデータを併せて使用することもできます )。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:14
 msgid ""
@@ -858,17 +858,17 @@ msgstr "ステップ 1 : API Key の取得 ( Firebase Console 上 )"
 msgid ""
 "In order to integrate Monaca with FCM, API key is required. Please follow "
 "the instruction below to get an API key from the Firebase Console:"
-msgstr ""
-"Monaca と FCM との連携には、API Key が必要です。"
-"次の手順に従い、Firebase Console から API Key を取得します。"
+
+msgstr "Monaca と FCM との連携には、API Key が必要です。次の手順に従い、Firebase Console から API Key を取得します。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:24
 msgid ""
 "Go to `Firebase Console <https://console.firebase.google.com/>`_. and sign "
 "in with a valid Google account."
-msgstr ""
-"`Firebase Console <https://console.firebase.google.com/>`_ へ行き、"
-"Google アカウントを使用してサインインします。"
+
+msgstr "`Firebase Console <https://console.firebase.google.com/>`_ へ行き、Google アカウントを使用してサインインします。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:26
 msgid "Click on :guilabel:`CREATE NEW PROJECT`."
@@ -878,17 +878,17 @@ msgstr ":guilabel:`新規プロジェクトを作成` をクリックします�
 msgid ""
 "Input a project's name and choose your country/region. Then, click "
 ":guilabel:`CREATE PROJECT`."
-msgstr ""
-"[ プロジェクト名 ] と [ 国/地域 ] を入力して、"
-":guilabel:`プロジェクトを作成` をクリックします。"
+
+msgstr "[ プロジェクト名 ] と [ 国/地域 ] を入力して、:guilabel:`プロジェクトを作成` をクリックします。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:42
 msgid ""
 "Once your project is created, go to :guilabel:`Project settings` from the "
 "left menu."
-msgstr ""
-"プロジェクトの作成後、表示されたダッシュボード上の左メニューから、"
-"[ Settings/歯車 ] のアイコンをクリックし、:guilabel:`プロジェクトの設定` を選択します。"
+
+msgstr "プロジェクトの作成後、表示されたダッシュボード上の左メニューから、[ Settings/歯車 ] のアイコンをクリックし、:guilabel:`プロジェクトの設定` を選択します。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:50
 msgid ""
@@ -896,11 +896,9 @@ msgid ""
 "able to see the ``Server Key`` and ``Sender ID`` which will be used in "
 "Monaca later. The ``Server Key`` is used as an API key for the push "
 "notification and the ``Sender ID`` represents a sender."
-msgstr ""
-"[ 設定 ] 画面上で、:guilabel:`クラウドメッセージング` タブをクリックします。"
-"このタブ上に表示されている ``サーバーキー`` と ``送信者 ID `` は、後ほど Monaca 上で使用するので、手元に保存しておきます。"
-"こちらの ``サーバーキー`` は、プッシュ通知用の API Key として使用されます。"
-"また、``送信者 ID `` は、送信者を識別するための ID です。"
+
+msgstr "[ 設定 ] 画面上で、:guilabel:`クラウドメッセージング` タブをクリックします。このタブ上に表示されている ``サーバーキー`` と ``送信者 ID `` は、後ほど Monaca 上で使用するので、手元に保存しておきます。こちらの ``サーバーキー`` は、プッシュ通知用の API Key として使用されます。また、``送信者 ID `` は、送信者を識別するための ID です。"
+
 
 #: ../doc/manual/backend/push_notification/gcm.rst:60
 msgid "Step 2: Configure FCM Parameters in Monaca"
@@ -911,10 +909,9 @@ msgid ""
 "Under Android section, input the Sender ID and Server API Key and click "
 ":guilabel:`Save`. Now, the Android push notification is enabled and ready to"
 " use."
-msgstr ""
-"[ Android ] 項目上の Sender ID と Server API Key に、先ほどの ``送信者 ID `` と ``サーバーキー`` を、"
-"それぞれ入力して、:guilabel:`保存する` ボタンをクリックします。ここまでの手順で、"
-"Andori 向けプッシュ通知の準備が整いました。"
+
+msgstr "[ Android ] 項目上の Sender ID と Server API Key に、先ほどの ``送信者 ID `` と ``サーバーキー`` を、それぞれ入力して、:guilabel:`保存する` ボタンをクリックします。ここまでの手順で、Andori 向けプッシュ通知の準備が整いました。"
+
 
 #: ../doc/manual/backend/push_notification/index.rst:5
 msgid "Push Notification"
