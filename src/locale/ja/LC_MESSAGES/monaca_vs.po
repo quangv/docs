@@ -89,8 +89,8 @@ msgstr "*参考ページ*"
 #: ../doc/monaca_vs/manual/build_publish.rst:30
 #: ../doc/monaca_vs/manual/overview.rst:266
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:91
-msgid ":doc:`../../../quick_start/monaca_vs/index`"
-msgstr ":doc:`../../../quick_start/monaca_vs/index`"
+msgid ":ref:`monaca_vs_tutorial`"
+msgstr ""
 
 #: ../doc/monaca_vs/manual/build_publish.rst:31
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:92
@@ -979,11 +979,11 @@ msgstr ":ref:`monaca_vs_testing_debugging`"
 msgid ":ref:`monaca_vs_publishing_app`"
 msgstr ":ref:`monaca_vs_publishing_app`"
 
-#: ../doc/monaca_vs/tutorial/index.rst:3
+#: ../doc/monaca_vs/tutorial/index.rst:5
 msgid "Monaca for Visual Studio Tutorial"
 msgstr "Monaca for Visual Studio チュートリアル"
 
-#: ../doc/monaca_vs/tutorial/index.rst:6
+#: ../doc/monaca_vs/tutorial/index.rst:8
 msgid ""
 "Monaca for Visual Studio is an extension which allows you to develop Monaca "
 "applications using Microsoft Visual Studio IDE."
@@ -991,7 +991,7 @@ msgstr ""
 "Monaca for Visual Studio は、Visual Studio の拡張機能です。この拡張機能を使用すれば、Microsoft "
 "Visual Studio IDE を使用して、Monaca アプリを開発できます。"
 
-#: ../doc/monaca_vs/tutorial/index.rst:8
+#: ../doc/monaca_vs/tutorial/index.rst:10
 msgid ""
 "In order to use Monaca for Visual Studio, you are required to have Microsoft"
 " Visual Studio 2015 Community Edition, Professional Edition or higher "
@@ -1002,18 +1002,18 @@ msgstr ""
 "エディション、Professional エディション、または、それ以上のエディションが必要となります。また、対応するプランへの加入が必要です。詳細は、 "
 "`プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
-#: ../doc/monaca_vs/tutorial/index.rst:10
+#: ../doc/monaca_vs/tutorial/index.rst:12
 msgid "Before getting started with this tutorial, you will need to:"
 msgstr "事前準備として、次の内容を行います。"
 
-#: ../doc/monaca_vs/tutorial/index.rst:19
+#: ../doc/monaca_vs/tutorial/index.rst:21
 msgid ""
 "get a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
 msgstr ""
 "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
-#: ../doc/monaca_vs/tutorial/index.rst:20
+#: ../doc/monaca_vs/tutorial/index.rst:22
 msgid ""
 "install Monaca for Visual Studio extension. Please follow the installation "
 "instruction :ref:`here <monaca_vs_installation>`."

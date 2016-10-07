@@ -13,7 +13,7 @@ Chrome Apps are web apps running by Chrome Engine. The installed Chrome Apps can
 Installation
 ==============================
 
-1. You can install Monaca debugger for Chrome Apps via `Chrome Web Store <https://chrome.google.com/webstore/detail/eampeimhpjmnimjbfajnbegjnafjadld>`_. Or from Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca Debugger --> Debugger for Chrome Apps`.
+1. You can install `Monaca debugger for Chrome Apps via Chrome Web Store <https://chrome.google.com/webstore/detail/eampeimhpjmnimjbfajnbegjnafjadld>`_. Or from Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca Debugger --> Debugger for Chrome Apps`.
 
   .. figure:: images/debugger_chrome/1.png
      :width: 400px

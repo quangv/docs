@@ -16,13 +16,13 @@ For your flexibility and convenience during app development process, Monaca prov
 
 You can choose your desired platform and start building your application. The following steps are the mobile app development steps using Monaca:
 
-* Register user in Monaca `here <https://monaca.mobi/en/register/start>`_. 
+* Register a user in `Monaca <https://monaca.mobi/en/register/start>`_. 
 * Write HTML5/CSS3/JavaScript in your desired platform. 
 * If needed, check application operations using Monaca Debugger. 
 * Configure your target device build settings and start building the application. 
 * Download and install the built application file (.app/.apk) in a smartphone device. 
 
-Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :doc:`../manual/build/ios/index/`.
+Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :ref:`building_for_ios`.
 
 
 .. _faq05~002:
@@ -94,7 +94,7 @@ Please contact us `here <https://monaca.io/support/inquiry.html>`_.
 Are there any keyboard shortcuts or keybindings that can be used on the Monaca Cloud IDE? 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE. 
+Shortcuts that can be used on Monaca Cloud IDE are listed in  :ref:`editor_functions`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE. 
 
 
 .. _faq05~09:

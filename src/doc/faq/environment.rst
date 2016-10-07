@@ -73,7 +73,7 @@ Yes, Monaca comes with :ref:`Monaca Localkit <monaca_localkit_index>` and :ref:`
 I am a Visual Studio user, can I use Visual Studio to develop Monaca apps?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are familiar with Visual Studio, Monaca provides an extension :doc:`../../manual/development/monaca_vs/index` to develop Monaca apps. This extension allows to develop as in Monaca Cloud IDE except using the functionalities of Visual Studio.
+If you are familiar with Visual Studio, Monaca provides an extension :ref:`monaca_vs_index` to develop Monaca apps. This extension allows to develop as in Monaca Cloud IDE except using the functionalities of Visual Studio.
 
 .. _faq02~010:
 

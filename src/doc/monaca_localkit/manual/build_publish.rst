@@ -31,7 +31,7 @@ Please refer to the following documentation on how to build and distribute your 
 
   *See Also*
 
-  - :doc:`../../../quick_start/localkit/index`
+  - :ref:`monaca_localkit_tutorial`
   - :doc:`overview`
   - :doc:`pairing_debugging`
   - :doc:`troubleshooting`

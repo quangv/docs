@@ -27,7 +27,7 @@ Please refer to the following documentation on how to build and distribute your 
 
   *See Also*
 
-  - :doc:`../../../quick_start/cli/index`
+  - :ref:`monaca_cli_tutorial`
   - :doc:`overview`
   - :doc:`cli_commands`
   - :doc:`pairing_debugging`

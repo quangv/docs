@@ -89,8 +89,8 @@ msgstr "*参考ページ*"
 #: ../doc/monaca_cli/manual/build_publish.rst:30
 #: ../doc/monaca_cli/manual/overview.rst:92
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:91
-msgid ":doc:`../../../quick_start/cli/index`"
-msgstr ":doc:`../../../quick_start/cli/index`"
+msgid ":ref:`monaca_cli_tutorial`"
+msgstr ""
 
 #: ../doc/monaca_cli/manual/build_publish.rst:31
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:93
@@ -1665,11 +1665,11 @@ msgstr ":ref:`cli_testing_debugging`"
 msgid ":ref:`cli_publishing_app`"
 msgstr ":ref:`cli_publishing_app`"
 
-#: ../doc/monaca_cli/tutorial/index.rst:3
+#: ../doc/monaca_cli/tutorial/index.rst:5
 msgid "Monaca CLI Tutorial"
 msgstr "Monaca CLI チュートリアル"
 
-#: ../doc/monaca_cli/tutorial/index.rst:5
+#: ../doc/monaca_cli/tutorial/index.rst:7
 msgid ""
 "Monaca CLI is one of the local deveopment environments which can be used to "
 "develop Monaca apps locally. Monaca CLI provides command line interface for "
@@ -1687,18 +1687,18 @@ msgstr ""
 "などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら "
 "<monaca_cli_index>` をご確認ください。"
 
-#: ../doc/monaca_cli/tutorial/index.rst:7
+#: ../doc/monaca_cli/tutorial/index.rst:9
 msgid "Before getting started, you need to:"
 msgstr "事前準備として、次の事を行います。"
 
-#: ../doc/monaca_cli/tutorial/index.rst:16
+#: ../doc/monaca_cli/tutorial/index.rst:18
 msgid ""
 "get a Monaca account. If you don't have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
 msgstr ""
 "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
-#: ../doc/monaca_cli/tutorial/index.rst:17
+#: ../doc/monaca_cli/tutorial/index.rst:19
 msgid ""
 "install Monaca CLI. Please follow the installation instruction :ref:`here "
 "<install_monaca_cli>`."

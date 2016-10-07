@@ -1,3 +1,5 @@
+.. _monaca_localkit_tutorial:
+
 ==============================
 Monaca Localkit Tutorial
 ==============================

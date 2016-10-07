@@ -67,7 +67,7 @@ msgstr ""
 #: ../doc/monaca_localkit/manual/overview.rst:235
 #: ../doc/monaca_localkit/manual/pairing_debugging.rst:75
 #: ../doc/monaca_localkit/manual/troubleshooting.rst:68
-msgid ":doc:`../../../quick_start/localkit/index`"
+msgid ":ref:`monaca_localkit_tutorial`"
 msgstr ""
 
 #: ../doc/monaca_localkit/manual/build_publish.rst:35
@@ -771,31 +771,31 @@ msgstr ""
 msgid ":ref:`localkit_publishing_app`"
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:3
+#: ../doc/monaca_localkit/tutorial/index.rst:5
 msgid "Monaca Localkit Tutorial"
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:5
+#: ../doc/monaca_localkit/tutorial/index.rst:7
 msgid "Monaca Localkit is a local development environment tool for Monaca apps. It can be used with various development tools including editors, source code management system, task runner and so on. It also allows you to develop offline and provides a faster synchronization with Monaca Debugger. :ref:`Read more<monaca_localkit_index>`."
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:7
+#: ../doc/monaca_localkit/tutorial/index.rst:9
 msgid "You are required to have a valid plan in order to use Monaca Localkit. Otherwise, it will run in the evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.io/pricing.html>`_ for more details."
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:9
+#: ../doc/monaca_localkit/tutorial/index.rst:11
 msgid "Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet."
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:12
+#: ../doc/monaca_localkit/tutorial/index.rst:14
 msgid "Before getting started with this tutorial, you need to:"
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:21
+#: ../doc/monaca_localkit/tutorial/index.rst:23
 msgid "get a Monaca account. Register `here <https://monaca.mobi/en/register/start>`__."
 msgstr ""
 
-#: ../doc/monaca_localkit/tutorial/index.rst:22
+#: ../doc/monaca_localkit/tutorial/index.rst:24
 msgid "install Monaca Localkit. Download `here <https://monaca.io/localkit.html>`__."
 msgstr ""
 

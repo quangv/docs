@@ -263,7 +263,7 @@ There are two ways to define the proxy server address as follows:
 
   *See Also*
 
-  - :doc:`../../../quick_start/monaca_vs/index`
+  - :ref:`monaca_vs_tutorial`
   - :doc:`build_publish`
   - :doc:`pairing_debugging`
 

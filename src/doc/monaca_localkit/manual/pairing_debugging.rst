@@ -72,7 +72,7 @@ Please refer to :ref:`debugger_with_local_tools`.
 
   *See Also*
 
-  - :doc:`../../../quick_start/localkit/index`
+  - :ref:`monaca_localkit_tutorial`
   - :doc:`overview`
   - :doc:`build_publish`
   - :doc:`troubleshooting`

@@ -37,7 +37,7 @@ Android application settings files are stored inside the ``android`` folder.
 ``AndroidManifest.xml``           Manifest file used when running Android applications
 =============================== =================================================================================================================================
 
-For more information about how to use this file, please see :doc:`../../reference/config/android_configuration`. 
+For more information about how to use this file, please see :ref:`android_configuration_file`. 
 
 .. note:: For Cordova 6.2 or higher, ``AndroidManifest.xml`` file is removed from Monaca framework. Therefore, in order to config Android application settings, use :ref:`custom_config_plugin`. 
 
@@ -62,7 +62,7 @@ iOS application settings files are stored inside the ``ios`` folder.
 | ``MonacaApp-Info.plist``                 | :file:`Info.plist` file used when running iOS applications      |
 +------------------------------------------+-----------------------------------------------------------------+
 
-For more information about how to use this file, please see :doc:`../../reference/config/ios_configuration`. 
+For more information about how to use this file, please see :ref:`ios_configuration_file`. 
 
 .. note:: For Cordova 6.2 or higher, ``MonacaApp-Info.plist`` file is removed from Monaca framework. Therefore, in order to config iOS application settings, use :ref:`custom_config_plugin`.
 

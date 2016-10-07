@@ -92,8 +92,8 @@ msgstr "*参考ページ*"
 #: ../doc/monaca_localkit/manual/overview.rst:235
 #: ../doc/monaca_localkit/manual/pairing_debugging.rst:75
 #: ../doc/monaca_localkit/manual/troubleshooting.rst:68
-msgid ":doc:`../../../quick_start/localkit/index`"
-msgstr ":doc:`../../../quick_start/localkit/index`"
+msgid ":ref:`monaca_localkit_tutorial`"
+msgstr ""
 
 #: ../doc/monaca_localkit/manual/build_publish.rst:35
 #: ../doc/monaca_localkit/manual/pairing_debugging.rst:76
@@ -1114,11 +1114,11 @@ msgstr ":ref:`localkit_testing_debugging`"
 msgid ":ref:`localkit_publishing_app`"
 msgstr ":ref:`localkit_publishing_app`"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:3
+#: ../doc/monaca_localkit/tutorial/index.rst:5
 msgid "Monaca Localkit Tutorial"
 msgstr "Monaca Localkit チュートリアル"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:5
+#: ../doc/monaca_localkit/tutorial/index.rst:7
 msgid ""
 "Monaca Localkit is a local development environment tool for Monaca apps. It "
 "can be used with various development tools including editors, source code "
@@ -1131,7 +1131,7 @@ msgstr ""
 "を使用すれば、オフラインでの開発も行え、また、Monaca デバッガーとのスピーディーな同期も行えます。詳細は、:ref:`こちら "
 "<monaca_localkit_index>` をご確認ください。"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:7
+#: ../doc/monaca_localkit/tutorial/index.rst:9
 msgid ""
 "You are required to have a valid plan in order to use Monaca Localkit. "
 "Otherwise, it will run in the evaluation mode for 30 days after the first "
@@ -1142,7 +1142,7 @@ msgstr ""
 "を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 "
 "<https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:9
+#: ../doc/monaca_localkit/tutorial/index.rst:11
 msgid ""
 "Please note that :ref:`Backend <monaca_backend_index>` as well as "
 ":ref:`push_notification_index` are currently not available in Monaca "
@@ -1151,18 +1151,18 @@ msgstr ""
 "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と "
 ":ref:`push_notification_index` は現在ご利用できません。"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:12
+#: ../doc/monaca_localkit/tutorial/index.rst:14
 msgid "Before getting started with this tutorial, you need to:"
 msgstr "事前準備として、次の内容を行います。"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:21
+#: ../doc/monaca_localkit/tutorial/index.rst:23
 msgid ""
 "get a Monaca account. Register `here "
 "<https://monaca.mobi/en/register/start>`__."
 msgstr ""
 "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
-#: ../doc/monaca_localkit/tutorial/index.rst:22
+#: ../doc/monaca_localkit/tutorial/index.rst:24
 msgid ""
 "install Monaca Localkit. Download `here "
 "<https://monaca.io/localkit.html>`__."

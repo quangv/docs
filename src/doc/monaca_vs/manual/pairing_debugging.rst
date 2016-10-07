@@ -88,6 +88,6 @@ Please refer to :ref:`debugger_with_local_tools`.
 
   *See Also*
 
-  - :doc:`../../../quick_start/monaca_vs/index`
+  - :ref:`monaca_vs_tutorial`
   - :doc:`overview`
   - :doc:`build_publish`

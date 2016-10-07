@@ -28,7 +28,7 @@ In this case, please run and check the application again after stopping all appl
 I can't successfully build iOS (iPhone/iPad) apps. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In iOS apps developing, you need to follow the instructions provided by Apple. Register properly the information of the device and developer, and then prepare the necessary files. For a step-by-step guide, please refer to :doc:`../manual/build/ios/index/`. 
+In iOS apps developing, you need to follow the instructions provided by Apple. Register properly the information of the device and developer, and then prepare the necessary files. For a step-by-step guide, please refer to :ref:`building_for_ios`. 
 
 .. _faq03~005:
 
@@ -43,7 +43,7 @@ This may caused by the expiry of certificates, reissuing certificates requiremen
 I don't know about how to build iOS apps or the certificates-related procedures. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The procedures can be found in  :doc:`../manual/build/ios/index/`.  Please visit `our blog <http://blog.asial.co.jp/732>`_ for other explanation about various issues. 
+The procedures can be found in  :ref:`building_for_ios`.  Please visit `our blog <http://blog.asial.co.jp/732>`_ for other explanation about various issues. 
 
 
 .. _faq03~006:
@@ -86,7 +86,7 @@ It is possible to develop a Windows Store app as a debug build. But in this case
 Can I develop Chrome Apps using Monana?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes, you can use Monaca to develop Chrome Apps. For more information, please refer to :doc:`../manual/build/build_chrome_app/`
+Yes, you can use Monaca to develop Chrome Apps. For more information, please refer to :ref:`building_for_chrome_app`.
 
 .. _faq03~010:
 
@@ -106,7 +106,7 @@ Using Monaca has never been the reason of a rejected review. If the review resul
 Tell me how to import/export private keys and certificates that are using Xcode. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can import private keys on your local Mac, and export Monaca's private keys and certificates. For details, please refer to  :doc:`../manual/build/ios/import_export`. 
+You can import private keys on your local Mac, and export Monaca's private keys and certificates. For details, please refer to  :ref:`import_export_certificates_and_private_keys`. 
 
 .. _faq03~012:
 

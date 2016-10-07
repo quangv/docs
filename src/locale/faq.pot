@@ -248,7 +248,7 @@ msgid "I can't successfully build iOS (iPhone/iPad) apps."
 msgstr ""
 
 #: ../doc/faq/build.rst:31
-msgid "In iOS apps developing, you need to follow the instructions provided by Apple. Register properly the information of the device and developer, and then prepare the necessary files. For a step-by-step guide, please refer to :doc:`../manual/build/ios/index/`."
+msgid "In iOS apps developing, you need to follow the instructions provided by Apple. Register properly the information of the device and developer, and then prepare the necessary files. For a step-by-step guide, please refer to :ref:`building_for_ios`."
 msgstr ""
 
 #: ../doc/faq/build.rst:36
@@ -264,7 +264,7 @@ msgid "I don't know about how to build iOS apps or the certificates-related proc
 msgstr ""
 
 #: ../doc/faq/build.rst:46
-msgid "The procedures can be found in  :doc:`../manual/build/ios/index/`.  Please visit `our blog <http://blog.asial.co.jp/732>`_ for other explanation about various issues."
+msgid "The procedures can be found in  :ref:`building_for_ios`.  Please visit `our blog <http://blog.asial.co.jp/732>`_ for other explanation about various issues."
 msgstr ""
 
 #: ../doc/faq/build.rst:52
@@ -312,7 +312,7 @@ msgid "Can I develop Chrome Apps using Monana?"
 msgstr ""
 
 #: ../doc/faq/build.rst:89
-msgid "Yes, you can use Monaca to develop Chrome Apps. For more information, please refer to :doc:`../manual/build/build_chrome_app/`"
+msgid "Yes, you can use Monaca to develop Chrome Apps. For more information, please refer to :ref:`building_for_chrome_app`."
 msgstr ""
 
 #: ../doc/faq/build.rst:94
@@ -348,7 +348,7 @@ msgid "Tell me how to import/export private keys and certificates that are using
 msgstr ""
 
 #: ../doc/faq/build.rst:109
-msgid "You can import private keys on your local Mac, and export Monaca's private keys and certificates. For details, please refer to  :doc:`../manual/build/ios/import_export`."
+msgid "You can import private keys on your local Mac, and export Monaca's private keys and certificates. For details, please refer to  :ref:`import_export_certificates_and_private_keys`."
 msgstr ""
 
 #: ../doc/faq/build.rst:114
@@ -492,7 +492,7 @@ msgid "What is the Monaca Debugger?"
 msgstr ""
 
 #: ../doc/faq/debugger.rst:10
-msgid "Monaca Debugger is an application for debugging that can check the functionality of the app on an actual device without building. When using Monaca Debugger, any changes made to the code immediately reflect to the actual running device. No build and run process are required. This would help to speed up the development and testing process. For more details, please refer to  :doc:`../manual/debugger/index`."
+msgid "Monaca Debugger is an application for debugging that can check the functionality of the app on an actual device without building. When using Monaca Debugger, any changes made to the code immediately reflect to the actual running device. No build and run process are required. This would help to speed up the development and testing process. For more details, please refer to  :ref:`monaca_debugger_index`."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:18
@@ -616,7 +616,7 @@ msgid "Plugins included in the debugger: Monaca Debugger contains all core Cordo
 msgstr ""
 
 #: ../doc/faq/debugger.rst:114
-msgid "USB debugging support (iOS Only): For iOS devices, USB debugging can be only enabled when the app is debug built. Therefore, you cannot do USB debugging on Monaca Debugger downloaded from App Store. For more details, please see :doc:`../manual/debugger/installation/debugger_ios`."
+msgid "USB debugging support (iOS Only): For iOS devices, USB debugging can be only enabled when the app is debug built. Therefore, you cannot do USB debugging on Monaca Debugger downloaded from App Store. For more details, please see :ref:`debugger_on_ios`."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:119
@@ -640,7 +640,7 @@ msgid "Debug using Monaca Debugger with USB debugging"
 msgstr ""
 
 #: ../doc/faq/debugger.rst:127
-msgid "For more details, please refer to :doc:`../manual/debugger/debug`."
+msgid "For more details, please refer to :ref:`debugging_monaca_app`."
 msgstr ""
 
 #: ../doc/faq/debugger.rst:132
@@ -752,7 +752,7 @@ msgid "I am a Visual Studio user, can I use Visual Studio to develop Monaca apps
 msgstr ""
 
 #: ../doc/faq/environment.rst:76
-msgid "If you are familiar with Visual Studio, Monaca provides an extension :doc:`../../manual/development/monaca_vs/index` to develop Monaca apps. This extension allows to develop as in Monaca Cloud IDE except using the functionalities of Visual Studio."
+msgid "If you are familiar with Visual Studio, Monaca provides an extension :ref:`monaca_vs_index` to develop Monaca apps. This extension allows to develop as in Monaca Cloud IDE except using the functionalities of Visual Studio."
 msgstr ""
 
 #: ../doc/faq/environment.rst:81
@@ -1109,7 +1109,7 @@ msgid "You can choose your desired platform and start building your application.
 msgstr ""
 
 #: ../doc/faq/usage.rst:19
-msgid "Register user in Monaca `here <https://monaca.mobi/en/register/start>`_."
+msgid "Register a user in `Monaca <https://monaca.mobi/en/register/start>`_."
 msgstr ""
 
 #: ../doc/faq/usage.rst:20
@@ -1129,7 +1129,7 @@ msgid "Download and install the built application file (.app/.apk) in a smartpho
 msgstr ""
 
 #: ../doc/faq/usage.rst:25
-msgid "Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :doc:`../manual/build/ios/index/`."
+msgid "Moreover, note that in order to install the built application on iPhone or iPad, you need to register iOS Developer Program. For more details, please refer to  :ref:`building_for_ios`."
 msgstr ""
 
 #: ../doc/faq/usage.rst:31
@@ -1217,7 +1217,7 @@ msgid "Are there any keyboard shortcuts or keybindings that can be used on the M
 msgstr ""
 
 #: ../doc/faq/usage.rst:97
-msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :doc:`../manual/development/monaca_ide/editor`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
+msgid "Shortcuts that can be used on Monaca Cloud IDE are listed in  :ref:`editor_functions`. Also, Monaca can use keybindings like *vim*. You can set the keybinding from the Environment Settings of the File menu on the top of the page of Monaca Cloud IDE."
 msgstr ""
 
 #: ../doc/faq/usage.rst:103

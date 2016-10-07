@@ -232,7 +232,7 @@ Preference Dialog
 
   *See Also*
 
-  - :doc:`../../../quick_start/localkit/index`
+  - :ref:`monaca_localkit_tutorial`
   - :doc:`pairing_debugging`
   - :doc:`build_publish`
   - :doc:`troubleshooting`

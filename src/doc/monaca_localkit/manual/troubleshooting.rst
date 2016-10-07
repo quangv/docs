@@ -65,7 +65,7 @@ While uninstalling Monaca Localkit, you might not be able to remove its remainin
 
   *See Also*
 
-  - :doc:`../../../quick_start/localkit/index`
+  - :ref:`monaca_localkit_tutorial`
   - :doc:`overview`
   - :doc:`pairing_debugging`
   - :doc:`build_publish`

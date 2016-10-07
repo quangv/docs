@@ -64,7 +64,7 @@ msgstr ""
 #: ../doc/monaca_cli/manual/build_publish.rst:30
 #: ../doc/monaca_cli/manual/overview.rst:92
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:91
-msgid ":doc:`../../../quick_start/cli/index`"
+msgid ":ref:`monaca_cli_tutorial`"
 msgstr ""
 
 #: ../doc/monaca_cli/manual/build_publish.rst:31
@@ -1242,23 +1242,23 @@ msgstr ""
 msgid ":ref:`cli_publishing_app`"
 msgstr ""
 
-#: ../doc/monaca_cli/tutorial/index.rst:3
+#: ../doc/monaca_cli/tutorial/index.rst:5
 msgid "Monaca CLI Tutorial"
 msgstr ""
 
-#: ../doc/monaca_cli/tutorial/index.rst:5
+#: ../doc/monaca_cli/tutorial/index.rst:7
 msgid "Monaca CLI is one of the local deveopment environments which can be used to develop Monaca apps locally. Monaca CLI provides command line interface for using Monaca Cloud from your local PC. You can create new local projects, import or clone existing projects from Monaca Cloud to your local PC and start developing Monaca apps with any editors you prefer. Monaca CLI allows you to debug your app with inspector integration and remote build your projects without any setups locally. Read more :ref:`here <monaca_cli_index>`."
 msgstr ""
 
-#: ../doc/monaca_cli/tutorial/index.rst:7
+#: ../doc/monaca_cli/tutorial/index.rst:9
 msgid "Before getting started, you need to:"
 msgstr ""
 
-#: ../doc/monaca_cli/tutorial/index.rst:16
+#: ../doc/monaca_cli/tutorial/index.rst:18
 msgid "get a Monaca account. If you don't have one, please register `here <https://monaca.mobi/en/register/start>`_."
 msgstr ""
 
-#: ../doc/monaca_cli/tutorial/index.rst:17
+#: ../doc/monaca_cli/tutorial/index.rst:19
 msgid "install Monaca CLI. Please follow the installation instruction :ref:`here <install_monaca_cli>`."
 msgstr ""
 

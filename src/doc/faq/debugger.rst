@@ -9,7 +9,7 @@ What is the Monaca Debugger?
 
 Monaca Debugger is an application for debugging that can check the functionality of the app on an actual device without building. 
 When using Monaca Debugger, any changes made to the code immediately reflect to the actual running device. No build and run process are required.
-This would help to speed up the development and testing process. For more details, please refer to  :doc:`../manual/debugger/index`. 
+This would help to speed up the development and testing process. For more details, please refer to  :ref:`monaca_debugger_index`. 
 
 
 .. _faq06~002:
@@ -111,7 +111,7 @@ Here are some important differences:
 
 2. Plugins included in the debugger: Monaca Debugger contains all core Cordova plugins. Custom build debugger will contain the plugins user submitted from Cordova Plugins configuration page.
 
-3. USB debugging support (iOS Only): For iOS devices, USB debugging can be only enabled when the app is debug built. Therefore, you cannot do USB debugging on Monaca Debugger downloaded from App Store. For more details, please see :doc:`../manual/debugger/installation/debugger_ios`.
+3. USB debugging support (iOS Only): For iOS devices, USB debugging can be only enabled when the app is debug built. Therefore, you cannot do USB debugging on Monaca Debugger downloaded from App Store. For more details, please see :ref:`debugger_on_ios`.
 
 .. _faq06~014:
 
@@ -124,7 +124,7 @@ We are providing 3 different ways to debug your application.
 2. Debug using Monaca Debugger with Monaca IDE (Weinre)
 3. Debug using Monaca Debugger with USB debugging
 
-For more details, please refer to :doc:`../manual/debugger/debug`.
+For more details, please refer to :ref:`debugging_monaca_app`.
 
 .. _faq06~15:
 

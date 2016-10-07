@@ -27,7 +27,7 @@ Please refer to the following documentation on how to build and distribute your 
 
   *See Also*
 
-  - :doc:`../../../quick_start/monaca_vs/index`
+  - :ref:`monaca_vs_tutorial`
   - :doc:`overview`
   - :doc:`pairing_debugging`
 

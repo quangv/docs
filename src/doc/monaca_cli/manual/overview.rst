@@ -89,7 +89,7 @@ Step 3: Connecting to Monaca Debugger
 
   *See Also*
 
-  - :doc:`../../../quick_start/cli/index`
+  - :ref:`monaca_cli_tutorial`
   - :doc:`cli_commands`
   - :doc:`pairing_debugging`
   - :doc:`build_publish`

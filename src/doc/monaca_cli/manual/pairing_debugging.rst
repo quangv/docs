@@ -88,7 +88,7 @@ Please refer to :ref:`debugger_with_local_tools`.
 
   *See Also*
 
-  - :doc:`../../../quick_start/cli/index`
+  - :ref:`monaca_cli_tutorial`
   - :doc:`cli_commands`
   - :doc:`overview`
   - :doc:`build_publish`

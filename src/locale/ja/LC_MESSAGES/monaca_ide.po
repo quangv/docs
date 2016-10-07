@@ -56,6 +56,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:53
 #: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:97
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:16
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:135
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
 msgid "Description"
@@ -406,7 +407,6 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:166
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:296
 #: ../doc/monaca_ide/manual/build/ios/import_export.rst:154
-#: ../doc/monaca_ide/manual/build_publish.rst:32
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:61
 #: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:115
@@ -1584,67 +1584,6 @@ msgstr ""
 msgid "Building for iOS"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build_publish.rst:5
-msgid "Remote Building and Publishing"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:12
-msgid ""
-"Inside :guilabel:`Remote Build`, there are several important functions such "
-"as:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:14
-msgid ""
-"Building application: choose a specific platform (among Android, iOS, Chrome"
-" Apps and Windows) to build."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:15
-msgid ""
-"Building configuration: configure necessary information regarding "
-"application and build for each platform."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:16
-msgid ""
-"Project dependencies: include necessary dependencies (:ref:`Cordova "
-"plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by "
-"the project."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:19
-msgid ""
-"Until this step, we assume that you have successfully developed a complete "
-"application. Then, you can try building your app and installing it on your "
-"device. Once the app development and testing are completed, your app is "
-"ready for market submission. Before releasing or distributing your app into "
-"the markets (App Store, Google Play, ...), you will need to create a release"
-" build of your app."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:21
-msgid ""
-"Please refer to the following documentation on how to build and distribute "
-"your app according to each platform:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:34
-msgid ":doc:`../../../quick_start/localkit/index`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:35
-msgid ":doc:`overview`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:36
-msgid ":doc:`pairing_debugging`"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build_publish.rst:37
-msgid ":doc:`troubleshooting`"
-msgstr ""
-
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr "エディターのショートカット一覧"
@@ -2074,7 +2013,7 @@ msgstr ":ref:`typescript_manual`"
 msgid ":ref:`emmet`"
 msgstr ":ref:`emmet`"
 
-#: ../doc/monaca_ide/manual/code_editor/index.rst:3
+#: ../doc/monaca_ide/manual/code_editor/index.rst:5
 #: ../doc/monaca_ide/manual/overview.rst:365
 msgid "Code Editor"
 msgstr "コードエディター"
@@ -3454,7 +3393,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:40
 msgid ""
 "For more information about how to use this file, please see "
-":doc:`../../reference/config/android_configuration`."
+":ref:`android_configuration_file`."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:42
@@ -3508,7 +3447,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:65
 msgid ""
 "For more information about how to use this file, please see "
-":doc:`../../reference/config/ios_configuration`."
+":ref:`ios_configuration_file`."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:67
@@ -4961,20 +4900,24 @@ msgid ""
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:16
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:135
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
 msgid "Param"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:18
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:137
 msgid "``task_name``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:18
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:137
 msgid "a name representing your build process."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:20
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:139
 msgid "``branch``"
 msgstr ""
 
@@ -4983,6 +4926,7 @@ msgid "Github branch of the project you want to build."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:22
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:141
 msgid "``tag``"
 msgstr ""
 
@@ -4991,59 +4935,71 @@ msgid "Github tag of the project you want to build."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:24
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:143
 msgid "``platform``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:24
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:143
 msgid ""
 "The platform you want to build for. Valid values are: ``ios``, ``android`` &"
 " ``winrt``."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:26
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:145
 msgid "``build``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:26
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:145
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:28
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:147
 msgid "``deploy``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:28
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:147
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:30
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:149
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:31
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:150
 msgid ""
 "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:32
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:151
 msgid ""
 "``default``: a block for default parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:33
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:152
 msgid ""
 "``ios``: a block for iOS parameters you may need to use for the deployment "
 "service."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:34
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:153
 msgid ""
 "``android``: a block for Android parameters you may need to use for the "
 "deployment service."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:36
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:155
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
@@ -5203,6 +5159,14 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:125
 msgid "JSON Settings Configuration"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:139
+msgid "GitHub branch of the project you want to build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:141
+msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:161
@@ -6318,9 +6282,9 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/overview.rst:371
 msgid ""
-"Please refer to :doc:`editor` for the list of all shortcuts available in "
-"Monaca code editor."
-msgstr "コードエディター上で利用できるショートカットキーに関しては、:doc:`editor` をご確認ください。"
+"Please refer to :ref:`editor_functions` for the list of all shortcuts "
+"available in Monaca code editor."
+msgstr ""
 
 #: ../doc/monaca_ide/manual/overview.rst:379
 msgid ""

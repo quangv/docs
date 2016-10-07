@@ -368,7 +368,7 @@ Views and edits the selected file from the file tree. Various settings such as P
 
 The editor supports the syntax highlight of JavaScript/HTML5/CSS3. The editor also supports JavaScript and CSS autocomplete function, :ref:`Emmet (Zen Coding) <emmet>` and :ref:`typescript_manual`. 
 
-.. note:: Please refer to :doc:`editor` for the list of all shortcuts available in Monaca code editor. 
+.. note:: Please refer to :ref:`editor_functions` for the list of all shortcuts available in Monaca code editor. 
 
 .. figure:: images/overview/12.png
     :width: 500px
