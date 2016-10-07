@@ -940,9 +940,9 @@ msgid ""
 "Monaca later. The ``Server Key`` is used as an API key for the push "
 "notification and the ``Sender ID`` represents a sender."
 msgstr ""
-"[ 設定 ] 画面上で、:guilabel:`クラウドメッセージング` タブをクリックします。このタブ上に表示されている ``サーバーキー`` と "
-"``送信者 ID `` は、後ほど Monaca 上で使用するので、手元に保存しておきます。こちらの ``サーバーキー`` は、プッシュ通知用の API"
-" Key として使用されます。また、``送信者 ID `` は、送信者を識別するための ID です。"
+"[ 設定 ] 画面上で、:guilabel:`CLOUD MESSAGING` タブをクリックします。このタブ上に表示されている ``Server "
+"Key` と ``Sender ID`` は、後ほど Monaca 上で使用するので、手元に保存しておきます。こちらの ``Server Key`` "
+"は、プッシュ通知用の API Key として使用されます。また、``Sender ID`` は、送信者を識別するための ID です。"
 
 #: ../doc/backend/manual/push_notification/gcm.rst:60
 msgid "Step 2: Configure FCM Parameters in Monaca"
