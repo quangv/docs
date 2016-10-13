@@ -456,7 +456,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/collection_item.rst:14
 #: ../doc/reference/monaca_api/cloud_management/push.rst:13
 #: ../doc/reference/monaca_api/cloud_management/user.rst:14
-#: ../doc/reference/monaca_api/utility-34.rst:11
+#: ../doc/reference/monaca_api/utility.rst:11
 #: ../doc/reference/third_party_phonegap/datepicker.rst:30
 #: ../doc/reference/third_party_phonegap/share.rst:27
 msgid "Description"
@@ -486,7 +486,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:421
 #: ../doc/reference/monaca_api/cloud/user.rst:567
 #: ../doc/reference/monaca_api/cloud/user.rst:616
-#: ../doc/reference/monaca_api/utility-34.rst:69
+#: ../doc/reference/monaca_api/utility.rst:69
 msgid "Example:"
 msgstr ""
 
@@ -3182,9 +3182,9 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/user.rst:667
 #: ../doc/reference/monaca_api/cloud/user.rst:711
 #: ../doc/reference/monaca_api/cloud/user.rst:728
-#: ../doc/reference/monaca_api/utility-34.rst:41
-#: ../doc/reference/monaca_api/utility-34.rst:100
-#: ../doc/reference/monaca_api/utility-34.rst:123
+#: ../doc/reference/monaca_api/utility.rst:41
+#: ../doc/reference/monaca_api/utility.rst:100
+#: ../doc/reference/monaca_api/utility.rst:123
 msgid "Example"
 msgstr ""
 
@@ -16361,7 +16361,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:140
 #: ../doc/reference/monaca_api/cloud_management/user.rst:169
 #: ../doc/reference/monaca_api/cloud_management/user.rst:197
-#: ../doc/reference/monaca_api/utility-34.rst:61
+#: ../doc/reference/monaca_api/utility.rst:61
 msgid "Parameter"
 msgstr ""
 
@@ -17844,7 +17844,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud/device.rst:14
 #: ../doc/reference/monaca_api/cloud/other.rst:11
 #: ../doc/reference/monaca_api/cloud/user.rst:17
-#: ../doc/reference/monaca_api/utility-34.rst:11
+#: ../doc/reference/monaca_api/utility.rst:11
 msgid "Method/Property"
 msgstr ""
 
@@ -17981,10 +17981,10 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:145
 #: ../doc/reference/monaca_api/cloud_management/user.rst:174
 #: ../doc/reference/monaca_api/cloud_management/user.rst:202
-#: ../doc/reference/monaca_api/utility-34.rst:33
-#: ../doc/reference/monaca_api/utility-34.rst:67
-#: ../doc/reference/monaca_api/utility-34.rst:93
-#: ../doc/reference/monaca_api/utility-34.rst:116
+#: ../doc/reference/monaca_api/utility.rst:33
+#: ../doc/reference/monaca_api/utility.rst:67
+#: ../doc/reference/monaca_api/utility.rst:93
+#: ../doc/reference/monaca_api/utility.rst:116
 msgid "Return Value"
 msgstr ""
 
@@ -18721,7 +18721,7 @@ msgstr ""
 #: ../doc/reference/monaca_api/cloud_management/user.rst:144
 #: ../doc/reference/monaca_api/cloud_management/user.rst:173
 #: ../doc/reference/monaca_api/cloud_management/user.rst:196
-#: ../doc/reference/monaca_api/utility-34.rst:65
+#: ../doc/reference/monaca_api/utility.rst:65
 msgid "``None``"
 msgstr ""
 
@@ -19810,7 +19810,7 @@ msgid ":dfn:`monaca.cloud.Push.setHandler(callback: Function) : void`"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud/push.rst:35
-#: ../doc/reference/monaca_api/utility-34.rst:60
+#: ../doc/reference/monaca_api/utility.rst:60
 msgid "``callback``"
 msgstr ""
 
@@ -21482,124 +21482,124 @@ msgstr ""
 msgid "Please refer to ``src/monaca.js`` file in the ``monaca-lib`` regarding the list of all availabe APIs and their usage."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:3
+#: ../doc/reference/monaca_api/utility.rst:3
 msgid "Utilities"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:8
+#: ../doc/reference/monaca_api/utility.rst:8
 msgid "We describe other functions provided by Monaca."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:13
+#: ../doc/reference/monaca_api/utility.rst:13
 msgid ":ref:`monaca.getDeviceId()<getDeviceId>`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:13
+#: ../doc/reference/monaca_api/utility.rst:13
 msgid "Get the unique device ID"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:14
+#: ../doc/reference/monaca_api/utility.rst:14
 msgid ":ref:`monaca.baseUrl<baseUrl>`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:14
+#: ../doc/reference/monaca_api/utility.rst:14
 msgid "Get absolute URL to www folder."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:15
+#: ../doc/reference/monaca_api/utility.rst:15
 msgid ":ref:`monaca.isAndroid<isAndroid>`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:15
+#: ../doc/reference/monaca_api/utility.rst:15
 msgid "Check whether the device is Android or not"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:16
+#: ../doc/reference/monaca_api/utility.rst:16
 msgid ":ref:`monaca.isIOS<isIOS>`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:16
+#: ../doc/reference/monaca_api/utility.rst:16
 msgid "Check the device is iOS or not"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:24
+#: ../doc/reference/monaca_api/utility.rst:24
 msgid "monaca.baseUrl - Get absolute URL to www folder."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:26
+#: ../doc/reference/monaca_api/utility.rst:26
 msgid "Get an absolute URL to *www* folder."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:28
+#: ../doc/reference/monaca_api/utility.rst:28
 msgid ":dfn:`monaca.baseUrl`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:32
+#: ../doc/reference/monaca_api/utility.rst:32
 msgid "``Absolute URI``"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:32
+#: ../doc/reference/monaca_api/utility.rst:32
 msgid "The absolute URL of application"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:48
+#: ../doc/reference/monaca_api/utility.rst:48
 msgid "monaca.getDeviceId() - Get the unique device ID"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:50
+#: ../doc/reference/monaca_api/utility.rst:50
 msgid "Get the unique device ID which has been created randomly."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:52
+#: ../doc/reference/monaca_api/utility.rst:52
 msgid "Monaca framework automatically creates a unique device ID at the first time app launch."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:55
+#: ../doc/reference/monaca_api/utility.rst:55
 msgid ":dfn:`monaca.getDeviceId(callback)`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:60
+#: ../doc/reference/monaca_api/utility.rst:60
 msgid "Function"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:60
+#: ../doc/reference/monaca_api/utility.rst:60
 msgid "A callback function where device ID is the first parameter"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:84
+#: ../doc/reference/monaca_api/utility.rst:84
 msgid "monaca.isAndroid - Check whether the device is Android or not"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:86
+#: ../doc/reference/monaca_api/utility.rst:86
 msgid "Check whether the device is an Android device or not."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:88
+#: ../doc/reference/monaca_api/utility.rst:88
 msgid ":dfn:`monaca.isAndroid`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:92
-#: ../doc/reference/monaca_api/utility-34.rst:115
+#: ../doc/reference/monaca_api/utility.rst:92
+#: ../doc/reference/monaca_api/utility.rst:115
 msgid "``boolean`` value"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:92
+#: ../doc/reference/monaca_api/utility.rst:92
 msgid "The device is Android device if the return value is *true*."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:107
+#: ../doc/reference/monaca_api/utility.rst:107
 msgid "monaca.isIOS - Check whether the device is iOS or not"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:109
+#: ../doc/reference/monaca_api/utility.rst:109
 msgid "Check whether the device is an iOS device or not ."
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:111
+#: ../doc/reference/monaca_api/utility.rst:111
 msgid ":dfn:`monaca.isIOS`"
 msgstr ""
 
-#: ../doc/reference/monaca_api/utility-34.rst:115
+#: ../doc/reference/monaca_api/utility.rst:115
 msgid "The device is iOS device if the return value is *true*."
 msgstr ""
 

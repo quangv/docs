@@ -59,7 +59,7 @@ msgstr ":ref:`プッシュ通知 <push_notification_manual>`"
 
 #: ../doc/backend/manual/control_operations.rst:19
 msgid "User Management"
-msgstr ""
+msgstr "ユーザー管理"
 
 #: ../doc/backend/manual/control_operations.rst:21
 msgid "In Backend Control Panel, you can manually manage users data."
@@ -249,6 +249,8 @@ msgid ""
 "From Backend Control Panel, click on :guilabel:`Options Menu` icon. Then, "
 "choose :guilabel:`New Collection...`."
 msgstr ""
+"バックエンド管理パネルから、:guilabel:`オプションメニュー` アイコンをクリックして、:guilabel:`コレクションの作成...` "
+"を選択します。"
 
 #: ../doc/backend/manual/control_operations.rst:127
 msgid ""
@@ -418,6 +420,8 @@ msgid ""
 "Owner refers to the user who create the Collection. Owner will always be "
 "granted read and write permissions."
 msgstr ""
+"「 所有者 」 は、コレクションを作成したユーザーを指します。所有者には、read ( 読み取り )・write ( 書き込み ) "
+"のパーミッションが常に付与されます。"
 
 #: ../doc/backend/manual/control_operations.rst:266
 msgid ""
@@ -527,6 +531,8 @@ msgid ""
 "menu to go to the Backend Control Panel. Then, click :guilabel:`Start Using "
 "Backend` button."
 msgstr ""
+"Monaca クラウド IDE の左側のツリーメニューから、 :guilabel:`クラウド` ( 雲 ) "
+"アイコンをクリックして、バックエンド管理パネルを開きます。次に、:guilabel:`バックエンドを利用する` ボタンをクリックします。"
 
 #: ../doc/backend/manual/control_panel.rst:31
 msgid ""
@@ -534,12 +540,14 @@ msgid ""
 " existing one which is used in a different project. Then, click "
 ":guilabel:`Apply` to attach the Backend to your project."
 msgstr ""
+"次のダイアログが表示されます。ここでは、バックエンドの新規作成、または、他のプロジェクトで使用しているバックエンドの再利用を選択できます。選択後、:guilabel:`適用`"
+" ボタンをクリックして、プロジェクトにバックエンドを紐付けします。"
 
 #: ../doc/backend/manual/control_panel.rst:39
 msgid ""
 "After attaching the Backend, your Backend Control Panel will look similar to"
 " this:"
-msgstr ""
+msgstr "バックエンドの適用後、次のようなバックエンド管理パネルが表示されます。"
 
 #: ../doc/backend/manual/control_panel.rst:49
 msgid "Backend Configuration"
@@ -1109,7 +1117,7 @@ msgstr "iOS 限定です。この設定を有効にして、1 以上の整数を
 
 #: ../doc/backend/manual/push_notification/overview.rst:66
 msgid "JSON Data"
-msgstr ""
+msgstr "JSON データ"
 
 #: ../doc/backend/manual/push_notification/overview.rst:66
 msgid ""

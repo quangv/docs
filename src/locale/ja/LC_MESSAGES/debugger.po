@@ -34,7 +34,7 @@ msgstr "Monaca デバッガー"
 
 #: ../doc/debugger/manual/debug.rst:5
 msgid "Usage"
-msgstr ""
+msgstr "使用例"
 
 #: ../doc/debugger/manual/debug.rst:9
 msgid ""
@@ -92,6 +92,10 @@ msgid ""
 "debug panel of Monaca Cloud IDE. This tool allows you to debug your app "
 "using console debugging and DOM inspection."
 msgstr ""
+"Monaca クラウド IDE の デバッグパネルには、Web アプリ向けのデバッグツールとして人気のある `Weinre ( WEb "
+"INspector REmote ) "
+"<https://people.apache.org/~pmuellr/weinre/docs/latest/>`_ "
+"が実装されています。このツールを使用して、Cosole を使用したデバッグと DOM の解析が行えます。"
 
 #: ../doc/debugger/manual/debug.rst:40
 msgid "Debug Panel inside Monaca Cloud IDE"
@@ -862,15 +866,15 @@ msgstr "インストール方法"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:32
 msgid "`Play Store`__"
-msgstr ""
+msgstr "`Play Store`__"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:33
 msgid "`Amazon App Store`__"
-msgstr ""
+msgstr "`Amazon App Store`__"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:32
 msgid "Refer to :ref:`custom_debugger_and`"
-msgstr ""
+msgstr ":ref:`custom_debugger_and` を参照のこと"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:35
 msgid ":ref:`cordova_and`"
@@ -906,7 +910,7 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:41
 msgid "Version Name (Android:versionName)"
-msgstr ""
+msgstr "アプリのリリース番号 ( 表示用 / Android:versionName )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:41
 msgid "Fixed (currently 6.0.1)"
@@ -919,7 +923,7 @@ msgstr "ユーザー側で設定"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:44
 msgid "App Version (Android:versionCode)"
-msgstr ""
+msgstr "アプリのビルド番号 ( 内部処理用 / Android:versionCode )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:44
 msgid "Fixed (currently 600012)"
@@ -937,7 +941,7 @@ msgstr ":ref:`usb_and`"
 #: ../doc/debugger/manual/installation/debugger_android.rst:47
 #: ../doc/debugger/manual/installation/debugger_android.rst:47
 msgid "Available (Chrome Dev Tools)"
-msgstr ""
+msgstr "利用可 ( Chrome DevTools )"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:49
 msgid ":ref:`localkit_and`"
@@ -959,11 +963,11 @@ msgstr ":ref:`webview_and`"
 #: ../doc/debugger/manual/installation/debugger_android.rst:51
 #: ../doc/debugger/manual/installation/debugger_android.rst:51
 msgid "Stock and Crosswalk"
-msgstr ""
+msgstr "Stock と Crosswalk"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:53
 msgid ":ref:`network_and`"
-msgstr ""
+msgstr ":ref:`network_and`"
 
 #: ../doc/debugger/manual/installation/debugger_android.rst:67
 #: ../doc/debugger/manual/installation/debugger_ios.rst:63
@@ -1211,6 +1215,8 @@ msgid ""
 " from your desktop. You can install Chrome App Launcher from `Chrome Web "
 "Store <https://chrome.google.com/webstore>`_."
 msgstr ""
+"デスクトップ上からアプリを起動する場合には、Chrome 向けのアプリランチャーを使用することもできます。アプリランチャーは、`Chrome "
+"ウェブストア <https://chrome.google.com/webstore>`_ から入手できます。"
 
 #: ../doc/debugger/manual/installation/debugger_chrome.rst:55
 msgid ""
@@ -1566,7 +1572,7 @@ msgstr "有効な秘密鍵"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:119
 msgid "Developer certificate"
-msgstr ""
+msgstr "開発用証明書"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:120
 msgid "Development provisioning profile"
@@ -1594,7 +1600,7 @@ msgstr ":menuselection:`iOS 向けデバッガー インストール --> ビル�
 msgid ""
 "Upload the development provisioning profile and click :guilabel:`Next` "
 "button."
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイルをアップロードします。 :guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/debugger/manual/installation/debugger_ios.rst:140
 msgid ""

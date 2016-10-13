@@ -134,7 +134,7 @@ msgstr ""
 #: ../doc/monaca_ide/tutorial/building_app.rst:43
 #: ../doc/monaca_ide/tutorial/building_app.rst:141
 msgid "Fill in the necessary information of your app:"
-msgstr ""
+msgstr "アプリに関する情報を入力します。"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:41
 msgid "General settings:"
@@ -297,7 +297,7 @@ msgstr "画面の向き"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:94
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:94
 msgid ""
@@ -312,7 +312,7 @@ msgstr "Landscape または Portrait を指定できます ( アプリ実行時�
 #: ../doc/monaca_ide/tutorial/building_app.rst:58
 #: ../doc/monaca_ide/tutorial/building_app.rst:155
 msgid "After finishing the configurations, click :guilabel:`Save`."
-msgstr ""
+msgstr "設定後、 :guilabel:`保存する` をクリックします。"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:104
 msgid "Step 2: Configure Android Keystore"
@@ -640,6 +640,9 @@ msgid ""
 "Everytime you build your app through Monaca IDE, Monaca saves your build "
 "history where you can see your build detail and error logs."
 msgstr ""
+"Monaca クラウドサービスを 「 介して 」、アプリのビルド ( ローカル環境用の開発ツールから、または、クラウド IDE 上で直接 ) "
+"を行うたびに、Monaca 側には、ビルド結果の履歴が保存されます。[ ビルド結果一覧] では、これらのビルドの処理情報 ( エラーログなど ) "
+"を確認できます。"
 
 #: ../doc/monaca_ide/manual/build/build_history.rst:11
 msgid "View build history"
@@ -887,11 +890,11 @@ msgstr "アプリをクリックして、起動します。"
 #: ../doc/monaca_ide/manual/build/index.rst:5
 #: ../doc/monaca_ide/manual/overview.rst:163
 msgid "Build"
-msgstr ""
+msgstr "ビルド"
 
 #: ../doc/monaca_ide/manual/build/index.rst:7
 msgid "*Build Environment*"
-msgstr ""
+msgstr " *ビルド環境*"
 
 #: ../doc/monaca_ide/manual/build/index.rst:10
 msgid "Android"
@@ -907,17 +910,17 @@ msgstr "*Cordova 6.2*"
 
 #: ../doc/monaca_ide/manual/build/index.rst:12
 msgid "AndroidSDK version : 23"
-msgstr ""
+msgstr "AndroidSDK バージョン: 23"
 
 #: ../doc/monaca_ide/manual/build/index.rst:13
 msgid ""
 "Crosswalk version : It depends on :ref:`Crosswalk Plugin "
 "<cordova_crosswalk_6_2>`"
-msgstr ""
+msgstr "Crosswalk バージョン : :ref:`プラグイン <cordova_crosswalk_6_2>`に依存します"
 
 #: ../doc/monaca_ide/manual/build/index.rst:12
 msgid "Xcode version : 7"
-msgstr ""
+msgstr "Xcode バージョン : 7"
 
 #: ../doc/monaca_ide/manual/build/index.rst:15
 msgid "*Cordova 5.2*"
@@ -925,17 +928,17 @@ msgstr "*Cordova 5.2*"
 
 #: ../doc/monaca_ide/manual/build/index.rst:15
 msgid "AndroidSDK version : 22"
-msgstr ""
+msgstr "AndroidSDK バージョン: 22"
 
 #: ../doc/monaca_ide/manual/build/index.rst:16
 msgid ""
 "Crosswalk version : It depends on :ref:`Crosswalk Plugin "
 "<cordova_crosswalk_5_2>`"
-msgstr ""
+msgstr "Crosswalk バージョン : :ref:`プラグイン <cordova_crosswalk_5_2>`に依存します"
 
 #: ../doc/monaca_ide/manual/build/index.rst:15
 msgid "Xcode version : 6.4"
-msgstr ""
+msgstr "Xcode バージョン : 6.4"
 
 #: ../doc/monaca_ide/manual/build/index.rst:18
 msgid "*Cordova 4.1*"
@@ -943,15 +946,15 @@ msgstr "*Cordova 4.1*"
 
 #: ../doc/monaca_ide/manual/build/index.rst:18
 msgid "AndroidSDK version : 21"
-msgstr ""
+msgstr "AndroidSDK バージョン: 21"
 
 #: ../doc/monaca_ide/manual/build/index.rst:19
 msgid "Crosswalk version : 13.42.319.11"
-msgstr ""
+msgstr "Crosswalk バージョン : 13.42.319.11"
 
 #: ../doc/monaca_ide/manual/build/index.rst:18
 msgid "Xcode version : 6.2"
-msgstr ""
+msgstr "Xcode バージョン : 6.2"
 
 #: ../doc/monaca_ide/manual/build/index.rst:21
 msgid "*Cordova 3.5*"
@@ -959,15 +962,15 @@ msgstr "*Cordova 3.5*"
 
 #: ../doc/monaca_ide/manual/build/index.rst:21
 msgid "AndroidSDK version : 19"
-msgstr ""
+msgstr "AndroidSDK バージョン: 19"
 
 #: ../doc/monaca_ide/manual/build/index.rst:22
 msgid "Crosswalk version : 7.36.154.15"
-msgstr ""
+msgstr "Crosswalk バージョン : 7.36.154.15"
 
 #: ../doc/monaca_ide/manual/build/index.rst:21
 msgid "Xcode version : 6.0.1"
-msgstr ""
+msgstr "Xcode バージョン : 6.0.1"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:5
 msgid "Building an iOS App"
@@ -1006,7 +1009,7 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:28
 msgid "Requirement"
-msgstr ""
+msgstr "要件 ( 準備するアイテム )"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:30
 msgid "Build the app to be installed on a development device."
@@ -2562,7 +2565,7 @@ msgstr "文法"
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:40
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:159
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../doc/monaca_ide/manual/code_editor/zen_coding.rst:55
 msgid "``E``"
@@ -3565,7 +3568,7 @@ msgstr "``android/``"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:12
 msgid "Storage folder for Android application settings"
-msgstr ""
+msgstr "Android アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:13
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:22
@@ -3575,7 +3578,7 @@ msgstr "``chrome/``"
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:13
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:22
 msgid "Storage folder for Chrome application settings"
-msgstr ""
+msgstr "Chrome アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:14
 msgid "``ios/``"
@@ -3583,7 +3586,7 @@ msgstr "``ios/``"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:14
 msgid "Storage folder for iOS application settings"
-msgstr ""
+msgstr "iOS アプリ向けの設定を保存しているフォルダー"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:15
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:25
@@ -3593,7 +3596,7 @@ msgstr "``www/``"
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:15
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:25
 msgid "Storage folder for the main body of the application"
-msgstr ""
+msgstr "アプリの中核となるファイル ( 群 ) を保存しているフォルダー"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:16
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:26
@@ -3647,6 +3650,8 @@ msgid ""
 "For more information about how to use this file, please see "
 ":ref:`android_configuration_file`."
 msgstr ""
+"Androidの設定ファイルについては、 :doc:`../../reference/config/android_configuration` "
+"をご確認ください。"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:42
 msgid ""
@@ -3703,7 +3708,7 @@ msgstr "iOS アプリの実行時に使用する :file:`Info.plist` ファイル
 msgid ""
 "For more information about how to use this file, please see "
 ":ref:`ios_configuration_file`."
-msgstr ""
+msgstr "詳細は、:doc:`../../reference/config/ios_configuration` をご確認ください。"
 
 #: ../doc/monaca_ide/manual/dependencies/file_dir.rst:67
 msgid ""
@@ -4951,14 +4956,14 @@ msgstr "TestFlight Beta Testing ( Beta 版アプリの検証アプリ )"
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:34
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:36
 msgid "Yes"
-msgstr ""
+msgstr "可"
 
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:28
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:32
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:34
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:36
 msgid "No"
-msgstr ""
+msgstr "不可"
 
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:30
 msgid "Ad Hoc Distribution"
@@ -5311,6 +5316,8 @@ msgid ""
 "words, you will need to configure the JSON settings according to what you "
 "want Monaca CI to do for you."
 msgstr ""
+"Monaca CI では、JSON のレシピ ( アプリの設定に使用する、JSON のフィールドとその値の集合体 ) "
+"を使用して、処理を自動化しています。よって、行う処理は、JSON 形式で指定します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:11
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:130
