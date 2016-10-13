@@ -136,9 +136,9 @@ In the following table, there are necessary parameters you will need to use in t
 +=================+==================================================================================================================+
 |``task_name``    |  a name representing your build process.                                                                         |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
-|``branch``       |   GitHub branch of the project you want to build.                                                                 |
+|``branch``       |   GitHub branch of the project you want to build.                                                                |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
-|``tag``          |   GitHub tag of the project you want to build.                                                                    |
+|``tag``          |   GitHub tag of the project you want to build.                                                                   |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
 |``platform``     |  The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``.                         |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
