@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-13 08:09+0000\n"
+"PO-Revision-Date: 2016-10-13 08:17+0000\n"
 "Last-Translator: Masahiro Tanaka <masahiro@asial.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -519,7 +519,7 @@ msgstr ":guilabel:`JavaScript からのアイテム追加を許可する` にチ
 #: ../doc/sampleapp/samples/backend_memo.rst:37
 msgid ""
 "For more details on how to create Backend, please read "
-":doc:`../../manual/backend/control_panel`"
+":ref::`backend_control_panel`."
 msgstr ""
 
 #: ../doc/sampleapp/samples/backend_memo.rst:40
