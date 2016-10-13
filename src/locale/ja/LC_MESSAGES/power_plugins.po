@@ -119,6 +119,8 @@ msgstr ""
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
 msgstr ""
+"``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。\n"
+"Click Enable button of Encrypt to add it into your project."
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:39
 msgid ""
@@ -189,7 +191,7 @@ msgstr ""
 #: ../doc/power_plugins/manual/in-app_updater.rst:21
 #: ../doc/power_plugins/manual/sqlcipher.rst:31
 msgid "Usage"
-msgstr ""
+msgstr "使用例"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:23
 msgid "Please follow these steps to use this plugin."
@@ -282,7 +284,7 @@ msgstr "説明"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:74
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:74
 msgid "Allow the application to run even the update process cannot be done."
@@ -724,7 +726,7 @@ msgstr "``2`` : *Library/LocalDatabase* - iTunes 側から認識不可、iCloud 
 
 #: ../doc/power_plugins/manual/sqlcipher.rst:93
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../doc/power_plugins/manual/sqlcipher.rst:57
 msgid ""

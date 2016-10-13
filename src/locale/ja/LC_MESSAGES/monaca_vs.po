@@ -90,7 +90,7 @@ msgstr "*参考ページ*"
 #: ../doc/monaca_vs/manual/overview.rst:266
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:91
 msgid ":ref:`monaca_vs_tutorial`"
-msgstr ""
+msgstr ":ref:`monaca_vs_tutorial`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:31
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:92
@@ -406,7 +406,7 @@ msgstr ":ref:`Chrome アプリ設定 <building_for_chrome_app>`"
 
 #: ../doc/monaca_vs/manual/overview.rst:224
 msgid "Build"
-msgstr ""
+msgstr "ビルド"
 
 #: ../doc/monaca_vs/manual/overview.rst:226
 msgid ""
@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../doc/monaca_vs/manual/overview.rst:235
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #: ../doc/monaca_vs/manual/overview.rst:237
 msgid ""
@@ -666,7 +666,7 @@ msgstr ""
 #: ../doc/monaca_vs/tutorial/building_app.rst:43
 #: ../doc/monaca_vs/tutorial/building_app.rst:131
 msgid "Fill in the necessary information of your app:"
-msgstr ""
+msgstr "必要なアプリ情報を入力します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:45
 #: ../doc/monaca_vs/tutorial/building_app.rst:133
@@ -716,7 +716,7 @@ msgstr ""
 #: ../doc/monaca_vs/tutorial/building_app.rst:58
 #: ../doc/monaca_vs/tutorial/building_app.rst:145
 msgid "After finishing the configurations, click :guilabel:`Save`."
-msgstr ""
+msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:62
 msgid "Step 2: Configuring iOS Build Settings"
@@ -780,7 +780,7 @@ msgstr ":guilabel:`デバッグビルド` を選択して、:guilabel:`ビルド
 msgid ""
 "Upload the development provisioning profile and click :guilabel:`Next` "
 "button."
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイルをアップロードして、 :guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:102
 msgid ""
@@ -938,7 +938,7 @@ msgstr "ビルドしたアプリのインストール方法は、数通りあり
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:208
 msgid ":ref:`network_and`"
-msgstr ""
+msgstr ":ref:`network_and`"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:209
 msgid "use QR Barcode"
@@ -1027,7 +1027,7 @@ msgstr "パート 4 : Monaca アプリの配布申請"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:11
 msgid "Publishing for App Store"
-msgstr ""
+msgstr "App Store への申請"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:13
 msgid "Please refer to :ref:`app_store_distribution`."
@@ -1035,7 +1035,7 @@ msgstr ":ref:`app_store_distribution` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:16
 msgid "Publishing for Google Play"
-msgstr ""
+msgstr "Google Play への申請"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:18
 msgid "Please refer to :ref:`google_play_distribution`."
@@ -1046,6 +1046,7 @@ msgid ""
 "For more information regarding the distribution of Monaca Apps for other "
 "platforms, please refer to :ref:`distribution_index`."
 msgstr ""
+"他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
 
 #: ../doc/monaca_vs/tutorial/publishing_app.rst:29
 #: ../doc/monaca_vs/tutorial/starting_project.rst:129
@@ -1224,7 +1225,7 @@ msgstr ""
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:5
 msgid "Part 2: Running Monaca Debugger with Monaca for Visual Studio"
-msgstr ""
+msgstr "パート 2 : Monaca for Visual Studio と Monaca デバッガーとの連携"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:11
 msgid ""

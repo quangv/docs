@@ -93,7 +93,7 @@ msgstr "*参考ページ*"
 #: ../doc/monaca_localkit/manual/pairing_debugging.rst:75
 #: ../doc/monaca_localkit/manual/troubleshooting.rst:68
 msgid ":ref:`monaca_localkit_tutorial`"
-msgstr ""
+msgstr ":ref:`monaca_localkit_tutorial`"
 
 #: ../doc/monaca_localkit/manual/build_publish.rst:35
 #: ../doc/monaca_localkit/manual/pairing_debugging.rst:76
@@ -177,6 +177,8 @@ msgid ""
 "Remote build. Monaca Localkit allows you to build your app for various "
 "platforms with support from Monaca server."
 msgstr ""
+"リモートビルド : Monaca Localkit を使用すれば、Monaca "
+"サーバーのサポートを介して、複数のプラットフォーム向けのアプリをビルドできます。"
 
 #: ../doc/monaca_localkit/manual/overview.rst:24
 msgid ""
@@ -241,7 +243,7 @@ msgstr ""
 
 #: ../doc/monaca_localkit/manual/overview.rst:49
 msgid "Usage"
-msgstr ""
+msgstr "使用例"
 
 #: ../doc/monaca_localkit/manual/overview.rst:52
 msgid "Starting Monaca Localkit"
@@ -273,7 +275,7 @@ msgstr ""
 #: ../doc/monaca_localkit/manual/overview.rst:86
 #: ../doc/monaca_localkit/tutorial/starting_project.rst:41
 msgid "Fill in the necessary information such as:"
-msgstr ""
+msgstr "次のように、必要な情報を入力します。"
 
 #: ../doc/monaca_localkit/manual/overview.rst:88
 #: ../doc/monaca_localkit/manual/overview.rst:137
@@ -282,7 +284,7 @@ msgstr ""
 msgid ""
 "Project Name: create a name to represent your new project which will be "
 "shown in the project list."
-msgstr ""
+msgstr "プロジェクト名 : プロジェクト一覧に表示される、プロジェクトの名前"
 
 #: ../doc/monaca_localkit/manual/overview.rst:89
 #: ../doc/monaca_localkit/manual/overview.rst:126
@@ -308,7 +310,7 @@ msgstr ""
 msgid ""
 "If the project is created successfully, the new project will be shown in the"
 " project list."
-msgstr ""
+msgstr "プロジェクトの作成後、プロジェクト一覧上に、作成したプロジェクトが表示されていることを確認します。"
 
 #: ../doc/monaca_localkit/manual/overview.rst:104
 msgid "Importing a Project"
@@ -793,7 +795,7 @@ msgstr ":guilabel:`iOS アプリ` を選択します。"
 #: ../doc/monaca_localkit/tutorial/building_app.rst:45
 #: ../doc/monaca_localkit/tutorial/building_app.rst:144
 msgid "Fill in the necessary information of your app:"
-msgstr ""
+msgstr "必要なアプリ情報を入力します。"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:47
 #: ../doc/monaca_localkit/tutorial/building_app.rst:146
@@ -845,7 +847,7 @@ msgstr ""
 #: ../doc/monaca_localkit/tutorial/building_app.rst:60
 #: ../doc/monaca_localkit/tutorial/building_app.rst:158
 msgid "After finishing the configurations, click :guilabel:`Save`."
-msgstr ""
+msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:64
 msgid "Step 2: Configuring iOS Build Settings"
@@ -913,7 +915,7 @@ msgstr "[ デバッグビルド ] を選択して、 :guilabel:`次へ` ボタ�
 msgid ""
 "Upload the development provisioning profile and click :guilabel:`Next` "
 "button."
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイルをアップロードして、 :guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:114
 msgid ""
@@ -1073,7 +1075,7 @@ msgstr "ビルドしたアプリのインストール方法は、数通りあり
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:222
 msgid ":ref:`network_and`"
-msgstr ""
+msgstr ":ref:`network_and`"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:223
 msgid "use QR Barcode"
@@ -1176,7 +1178,7 @@ msgstr "パート 4 : Monaca アプリの配布申請"
 
 #: ../doc/monaca_localkit/tutorial/publishing_app.rst:11
 msgid "Publishing for App Store"
-msgstr ""
+msgstr "App Store への申請"
 
 #: ../doc/monaca_localkit/tutorial/publishing_app.rst:13
 msgid "Please refer to :ref:`app_store_distribution`."
@@ -1184,7 +1186,7 @@ msgstr ":ref:`app_store_distribution` をご確認ください。"
 
 #: ../doc/monaca_localkit/tutorial/publishing_app.rst:16
 msgid "Publishing for Google Play"
-msgstr ""
+msgstr "Google Play への申請"
 
 #: ../doc/monaca_localkit/tutorial/publishing_app.rst:18
 msgid "Please refer to :ref:`google_play_distribution`."
@@ -1195,6 +1197,7 @@ msgid ""
 "For more information regarding the distribution of Monaca Apps for other "
 "platforms, please refer to :ref:`distribution_index`."
 msgstr ""
+"他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
 
 #: ../doc/monaca_localkit/tutorial/publishing_app.rst:30
 #: ../doc/monaca_localkit/tutorial/starting_project.rst:119
@@ -1336,7 +1339,7 @@ msgstr ""
 
 #: ../doc/monaca_localkit/tutorial/testing_debugging.rst:5
 msgid "Part 2: Running Monaca Debugger with Monaca Localkit"
-msgstr ""
+msgstr "パート 2 : Monaca Localkit と Monaca デバッガーとの連携"
 
 #: ../doc/monaca_localkit/tutorial/testing_debugging.rst:10
 msgid ""

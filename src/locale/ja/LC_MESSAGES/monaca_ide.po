@@ -5436,6 +5436,7 @@ msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
 msgstr ""
+"サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`supported_services` をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:42
 msgid "Here is an example of a recipe script."
@@ -5483,6 +5484,8 @@ msgid ""
 "Therefore, Monaca CI lets developers focus more on the code and less on the "
 "backend process of building, testing and deploying an app."
 msgstr ""
+"Monaca CI "
+"を使用することにより、ビルド処理・検証処理・配信/配布処理をはじめとする、手間のかかる処理から開発者は解放され、アプリの内容・性能に注力して、開発が行えるようになります。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:18
 msgid ""
@@ -5558,7 +5561,7 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:63
 msgid "Automating Deploy Services"
-msgstr ""
+msgstr "配信/配布支援サービス ( デプロイサービス ) の組み込み"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:65
 msgid ""
@@ -5588,7 +5591,7 @@ msgstr ""
 msgid ""
 "Go to Continuous Integration panel, you will see your newly added service "
 "under Configured Deploy Services."
-msgstr ""
+msgstr "[ 継続的インテグレーション ] パネルへ行き、[ デプロイサービス一覧 ] 上に、追加したサービスが表示されていることを確認します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:87
 msgid ""
@@ -5616,6 +5619,10 @@ msgid ""
 ":ref:`supported_services` regarding currently supported and upcoming deploy "
 "services."
 msgstr ""
+"Monaca CI では、複数のデプロイサービス ( 検証版アプリの配信/配布支援サービス ) "
+"を組み込むことができます。また、各デプロイサービスには、単数・複数のエイリアス ( alias ) "
+"を割り当てることもできます。サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`supported_services`"
+" をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:125
 msgid "JSON Settings Configuration"
@@ -5633,7 +5640,7 @@ msgstr "ビルドを行うプロジェクト用の GitHub タグを指定しま�
 msgid ""
 "Here is an example of a recipe script configured for multiple deploy "
 "services and one service with multiple aliases."
-msgstr ""
+msgstr "複数のデプロイサービスの組み込み方法、および、1 つのデプロイサービスに複数のエイリアスを割り当てる方法を、次に記します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:228
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:114
@@ -5643,7 +5650,7 @@ msgstr ":ref:`json_sample`"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:5
 msgid "Deploy Services"
-msgstr ""
+msgstr "検証版アプリなどの配信/配布支援サービス ( デプロイサービス )"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:8
 msgid "Currently Supported Deploy Services"
@@ -5660,6 +5667,9 @@ msgid ""
 " through the prototyping, development, testing, and marketing stages of app "
 "distribution."
 msgstr ""
+"`DeployGate <https://deploygate.com/>`_ を使用すれば、開発中の iOS と Android "
+"アプリを、参加メンバー間で簡単に共有できます。また、このサービスを使用すれば、さまざまな段階 ( プロトタイプ、開発、検証、マーケティングなど ) "
+"におけるアプリの配信作業を、滞りなく行えます。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:16
 msgid ""
@@ -5667,6 +5677,8 @@ msgid ""
 "Monaca CI. For more information, please refer to `DeployGate API "
 "documentation <https://deploygate.com/docs/api>`_."
 msgstr ""
+"Monaca CI では、次のパラメーターをサポートしています ( JSON 形式 )。詳細は、`DeployGate API ドキュメント ( "
+"日本語サイト ) <https://deploygate.com/docs/api>`_ をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
@@ -5720,6 +5732,10 @@ msgstr "``distribution_key``"
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:29
 msgid "[Optional] Target Distribution Key"
 msgstr ""
+"[ 任意 ] 配布キー ( Distribution Key ) を設定します。配布キーとは、配布ページを指し示す URL に使用されている hash "
+"値です ( たとえば、https://deploygate.com/distributions/[ 配布キー ] "
+")。また、配布ページとは、配布対象者向けに作成された、アプリのダウンロード用のページです。配布ページの作成は、deploygate "
+"のサイト上から行えます。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:31
 msgid "``release_note``"
@@ -5773,6 +5789,8 @@ msgid ""
 "Monaca CI. For more information, please refer to `HockeyApp API "
 "documentation <https://support.hockeyapp.net/kb/api/api-apps>`_."
 msgstr ""
+"Monaca CI では、次のパラメーターをサポートしています ( JSON 形式 )。詳細は、`HockeyApp API ドキュメント ( "
+"英語サイト ) <https://support.hockeyapp.net/kb/api/api-apps>`_ をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:51
 msgid "``ipa``"
@@ -5797,6 +5815,9 @@ msgid ""
 "``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to "
 "be ``mapping.txt`` for Android."
 msgstr ""
+"[ 任意 ] ``.dSYM.zip`` ファイル ( iOS・OS X の場合 ) または ``mapping.txt`` ( Android の場合"
+" ) を指定します。iOS・OS X の場合、拡張子は ``.dsym.zip`` となります ( 大文字・小文字を区別します )。Andorid "
+"の場合には、ファイル名は ``mapping.txt`` となります。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:59
 msgid "``notes``"
@@ -5833,6 +5854,8 @@ msgstr "``notify``"
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:67
 msgid "[Optional] notify testers (can only be set with full-access tokens):"
 msgstr ""
+"[ 任意 ] テスターへ通知します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-Access トークン "
+"に関しては、HockeyAPP サイトの [ API Token ] 項目をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:69
 msgid "``0`` to not notify testers"
@@ -5853,6 +5876,9 @@ msgstr "``status``"
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:73
 msgid "[Optional] download status (can only be set with full-access tokens):"
 msgstr ""
+"[ 任意 ] ダウンロードに関するパーミッションを設定します。「 Full-Access トークン 」 を設定した場合だけ、有効となります。Full-"
+"Access トークン に関しては、HockeyAPP サイトの API 解説 「 API: Basics and Authentication 」 "
+"をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:75
 msgid "``1`` to not allow users to download the version"
@@ -5953,7 +5979,7 @@ msgstr "サポート予定の支援サービス"
 msgid ""
 "In addition to the above services, we are planning to add more deployment "
 "services. Currently, we are working the following services:"
-msgstr ""
+msgstr "上述のサービス以外にも、今後、配信/配布支援サービス ( デプロイサービス ) を追加していく予定です。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:106
 msgid "`Test Flight <https://developer.apple.com/testflight/>`_"
@@ -7280,6 +7306,8 @@ msgid ""
 "menu to go to the Backend Control Panel. Then, click :guilabel:`Start Using "
 "Backend` button."
 msgstr ""
+"Monaca クラウド IDE のメニュー上で、左側のツリーメニューの上部に表示された :guilabel:`クラウド` ( 雲 ) "
+"アイコンをクリックして、バックエンド管理画面へ行きます。次に、 :guilabel:`バックエンドを利用する` ボタンをクリックします。"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:45
 msgid ""
@@ -7287,12 +7315,14 @@ msgid ""
 " existing one which is used in a different project. Then, click "
 ":guilabel:`Apply` to attach the Backend to your project."
 msgstr ""
+"次のダイアログが表示されます。バックエンドの新規作成、または、既存バックエンド ( 他のプロジェクトで使用中 ) "
+"の再利用のどちらかを選択できます。次に、 :guilabel:`適用` をクリックして、バックエンドとプロジェクトの紐付け処理を行います。"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:53
 msgid ""
 "After attaching the Backend, your Backend Control Panel will look similar to"
 " this:"
-msgstr ""
+msgstr "バックエンドの紐付けが完了すると、バックエンド管理画面が次のようになります。"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:63
 msgid "Step 3: Creating a New Collection"
@@ -7307,6 +7337,8 @@ msgid ""
 "From Backend Control Panel, click on :guilabel:`Options Menu` icon. Then, "
 "choose :guilabel:`New Collection...`."
 msgstr ""
+"バックエンド管理画面上で、 :guilabel:`オプションメニュー` アイコンをクリックして、 :guilabel:`コレクションの作成...` "
+"を選択します。"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:76
 msgid ""
@@ -7792,7 +7824,7 @@ msgstr "パート 5 : Monaca アプリの配布申請"
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:11
 msgid "Publishing for App Store"
-msgstr ""
+msgstr "App Store への申請"
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:13
 msgid "Please refer to :ref:`app_store_distribution`."
@@ -7800,7 +7832,7 @@ msgstr ":ref:`app_store_distribution` をご確認ください。"
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:16
 msgid "Publishing for Google Play"
-msgstr ""
+msgstr "Google Play への申請"
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:18
 msgid "Please refer to :ref:`google_play_distribution`."
@@ -7811,6 +7843,7 @@ msgid ""
 "For more information regarding the distribution of Monaca Apps for other "
 "platforms, please refer to :ref:`distribution_index`."
 msgstr ""
+"他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:5
 msgid "Part 1: Starting a Project"
@@ -7960,7 +7993,7 @@ msgstr "Monaca クラウド IDE に実装されているコードエディター
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:5
 msgid "Part 2: Running Monaca Debugger with Monaca Cloud IDE"
-msgstr ""
+msgstr "パート 2 : Monaca クラウド IDE と Monaca デバッガーとの連携"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:8
 msgid ""
