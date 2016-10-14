@@ -447,7 +447,8 @@ div.section div.figure {
     font-weight: bold;
     text-align: center; }
   div.section div.figure img {
-    box-shadow: none;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    /*border: 1px solid #808080;*/
     border: none;
     margin: 10px auto 3px; }
 
