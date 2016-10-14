@@ -790,6 +790,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_ide/editor.rst:15
 #: ../doc/manual/development/monaca_ide/zen_coding.rst:53
 #: ../doc/manual/monaca_ci/json_sample.rst:16
+#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Description"
@@ -5627,6 +5628,7 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:404
 #: ../doc/manual/monaca_ci/json_sample.rst:24
+#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "``platform``"
 msgstr ""
 
@@ -8541,20 +8543,24 @@ msgid "In the following table, there are necessary parameters you will need to u
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:16
+#: ../doc/manual/monaca_ci/overview.rst:135
 #: ../doc/manual/monaca_ci/supported_services.rst:19
 #: ../doc/manual/monaca_ci/supported_services.rst:49
 msgid "Param"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
+#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "``task_name``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:18
+#: ../doc/manual/monaca_ci/overview.rst:137
 msgid "a name representing your build process."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:20
+#: ../doc/manual/monaca_ci/overview.rst:139
 msgid "``branch``"
 msgstr ""
 
@@ -8563,6 +8569,7 @@ msgid "Github branch of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:22
+#: ../doc/manual/monaca_ci/overview.rst:141
 msgid "``tag``"
 msgstr ""
 
@@ -8571,46 +8578,57 @@ msgid "Github tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:24
+#: ../doc/manual/monaca_ci/overview.rst:143
 msgid "The platform you want to build for. Valid values are: ``ios``, ``android`` & ``winrt``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
+#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "``build``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:26
+#: ../doc/manual/monaca_ci/overview.rst:145
 msgid "The build type. Valid values are: ``debug`` & ``release``."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
+#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "``deploy``"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:28
+#: ../doc/manual/monaca_ci/overview.rst:147
 msgid "The deployment service(s) you will use to deliver your app."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:30
+#: ../doc/manual/monaca_ci/overview.rst:149
 msgid "``type``: name of the deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:31
+#: ../doc/manual/monaca_ci/overview.rst:150
 msgid "``alias``: alias name of the selected deployment service (case sensitive)."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:32
+#: ../doc/manual/monaca_ci/overview.rst:151
 msgid "``default``: a block for default parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:33
+#: ../doc/manual/monaca_ci/overview.rst:152
 msgid "``ios``: a block for iOS parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:34
+#: ../doc/manual/monaca_ci/overview.rst:153
 msgid "``android``: a block for Android parameters you may need to use for the deployment service."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
+#: ../doc/manual/monaca_ci/overview.rst:155
 msgid "Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services."
 msgstr ""
 
@@ -8712,6 +8730,14 @@ msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:125
 msgid "JSON Settings Configuration"
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:139
+msgid "GitHub branch of the project you want to build."
+msgstr ""
+
+#: ../doc/manual/monaca_ci/overview.rst:141
+msgid "GitHub tag of the project you want to build."
 msgstr ""
 
 #: ../doc/manual/monaca_ci/overview.rst:161

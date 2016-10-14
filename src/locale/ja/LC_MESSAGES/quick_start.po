@@ -1,21 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011-, Asial Corporation
 # This file is distributed under the same license as the Monaca package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# fabbygoh <fabbygoh@gmail.com>, 2016
-# fabbygoh <fabbygoh@gmail.com>, 2016
-# fabbygoh <fabbygoh@gmail.com>, 2016
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016
-# Masahiro Tanaka <masahiro@asial.co.jp>, 2016
-# Masakazu Watabe <watabe08@gmail.com>, 2016
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Monaca Docs\n"
+"Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-03 02:55+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
+"Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -67,7 +62,9 @@ msgid ""
 "version of your app for iOS which will be installed on the development "
 "device. For more information about other types of build, please refer to "
 ":ref:`types_of_build_ios`."
-msgstr "端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 :ref:`types_of_build_ios` をご確認ください。"
+msgstr ""
+"端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_ios` をご確認ください。"
 
 #: ../doc/quick_start/cli/building_app.rst:25
 #: ../doc/quick_start/cloud_ide/building_app.rst:25
@@ -83,7 +80,9 @@ msgstr "*事前準備*"
 msgid ""
 "You must enroll in `iOS Developer Program "
 "<https://developer.apple.com/programs/ios/>`_."
-msgstr "`iOS Developer Program <https://developer.apple.com/programs/ios/>`_ への登録 ( 必須 )"
+msgstr ""
+"`iOS Developer Program <https://developer.apple.com/programs/ios/>`_ への登録 ( "
+"必須 )"
 
 #: ../doc/quick_start/cli/building_app.rst:29
 #: ../doc/quick_start/cloud_ide/building_app.rst:29
@@ -107,7 +106,8 @@ msgstr "iOS Developer Program 登録後、iOS Provisioning Portal 上で、次�
 #: ../doc/quick_start/localkit/building_app.rst:33
 #: ../doc/quick_start/monaca_vs/building_app.rst:33
 msgid "``App ID`` (see :ref:`register_appID` and :ref:`register_dev_device`)"
-msgstr "``App ID`` ( :ref:`register_appID` と :ref:`register_dev_device` を参照のこと )"
+msgstr ""
+"``App ID`` ( :ref:`register_appID` と :ref:`register_dev_device` を参照のこと )"
 
 #: ../doc/quick_start/cli/building_app.rst:34
 #: ../doc/quick_start/cloud_ide/building_app.rst:34
@@ -137,7 +137,10 @@ msgid ""
 ":ref:`monaca_remote_build` command. This command will automatically upload "
 "your local project files to Monaca Cloud. Please type the following command "
 "to open an interactive build interface in your browser."
-msgstr "コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動します。次の :ref:`monaca_remote_build` コマンド ( --browser オプション ) を実行して、[ ビルド設定 ] 画面を開きます。こちらのコマンドとオプションで、Monaca クラウド側へのローカルのプロジェクトのアップロード、および、ビルド設定画面の表示が行われます。"
+msgstr ""
+"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動します。次の :ref:`monaca_remote_build` コマンド ( "
+"--browser オプション ) を実行して、[ ビルド設定 ] 画面を開きます。こちらのコマンドとオプションで、Monaca "
+"クラウド側へのローカルのプロジェクトのアップロード、および、ビルド設定画面の表示が行われます。"
 
 #: ../doc/quick_start/cli/building_app.rst:47
 msgid ""
@@ -177,7 +180,10 @@ msgid ""
 "alphanumeric characters and periods (at least one period must be used) are "
 "allowed. Each segment separated by a period should begin with an alphabetic "
 "character."
-msgstr "App ID : アプリを識別する一意の ID です。App ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) は、ピリオドで区切られ、英字から始まります。"
+msgstr ""
+"App ID : アプリを識別する一意の ID です。App ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) "
+"を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
+"は、ピリオドで区切られ、英字から始まります。"
 
 #: ../doc/quick_start/cli/building_app.rst:53
 #: ../doc/quick_start/localkit/building_app.rst:49
@@ -187,7 +193,10 @@ msgid ""
 "required when uploading (publishing process) your application via iTune "
 "Connect later. It needs 3 numbers separated by dots (for example, 1.10.2). "
 "Each number should be in [0-99]."
-msgstr "バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] の範囲にします。"
+msgstr ""
+"バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) "
+"するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
+"の範囲にします。"
 
 #: ../doc/quick_start/cli/building_app.rst:54
 #: ../doc/quick_start/cli/building_app.rst:160
@@ -208,7 +217,10 @@ msgid ""
 "The App ID in Monaca Build Settings must be the same as the App ID you have "
 "registered in iOS Provisioning Portal. This App ID (in Monaca Build "
 "Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
-msgstr "Monaca のビルド設定で使用する App ID には、iOS Provisioning Portal で登録した App ID と同じ ID を使用します。なお、Monaca のビルド設定で使用する App ID には、アスタリスク ( ``*`` ) は使用できません。使用した場合、ビルドが失敗します。"
+msgstr ""
+"Monaca のビルド設定で使用する App ID には、iOS Provisioning Portal で登録した App ID と同じ ID "
+"を使用します。なお、Monaca のビルド設定で使用する App ID には、アスタリスク ( ``*`` ) "
+"は使用できません。使用した場合、ビルドが失敗します。"
 
 #: ../doc/quick_start/cli/building_app.rst:64
 #: ../doc/quick_start/cli/building_app.rst:168
@@ -242,7 +254,10 @@ msgid ""
 "ID information (user name and email address). Then, click "
 ":guilabel:`Generate Key and CSR` button. You can also import an existing "
 "Private Key if you have one."
-msgstr ":guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` ボタンをクリックします。既存の秘密鍵がある場合には、[ インポート... ] を選択します。"
+msgstr ""
+":guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID "
+"の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` "
+"ボタンをクリックします。既存の秘密鍵がある場合には、[ インポート... ] を選択します。"
 
 #: ../doc/quick_start/cli/building_app.rst:80
 #: ../doc/quick_start/cloud_ide/building_app.rst:74
@@ -257,7 +272,8 @@ msgstr "認証が成功すると、次のダイアログボックスが表示さ
 msgid ""
 "Export the CSR file. It will be required to issue the certificates later in "
 "iOS Provisioning Portal."
-msgstr "CSR ファイルをエクスポートします。iOS Provisioning Portal 上で、証明書を発行するときに、このファイルが必要となります。"
+msgstr ""
+"CSR ファイルをエクスポートします。iOS Provisioning Portal 上で、証明書を発行するときに、このファイルが必要となります。"
 
 #: ../doc/quick_start/cli/building_app.rst:97
 #: ../doc/quick_start/cloud_ide/building_app.rst:90
@@ -267,7 +283,9 @@ msgid ""
 "which are issued based on that imported private key. However, if you create "
 "a new private key and CRS file, you will need to use the new CRS file to "
 "issue new certificates."
-msgstr "既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書が必要になります。また、秘密鍵と CRS ファイルを新規作成する場合、新規作成した CRS ファイルを使用して、証明書を新規発行する必要があります。"
+msgstr ""
+"既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書が必要になります。また、秘密鍵と CRS "
+"ファイルを新規作成する場合、新規作成した CRS ファイルを使用して、証明書を新規発行する必要があります。"
 
 #: ../doc/quick_start/cli/building_app.rst:100
 #: ../doc/quick_start/cli/building_app.rst:203
@@ -342,7 +360,9 @@ msgid ""
 "This section will cover an instruction of how to create a Debug Build "
 "version of your app for Android. For more information about other types of "
 "build, please refer to :ref:`types_of_build_android`."
-msgstr "デバッグビルド版 Android アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 :ref:`types_of_build_android` をご確認ください。"
+msgstr ""
+"デバッグビルド版 Android アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_android` をご確認ください。"
 
 #: ../doc/quick_start/cli/building_app.rst:144
 #: ../doc/quick_start/cloud_ide/building_app.rst:137
@@ -357,7 +377,10 @@ msgid ""
 ":ref:`monaca_remote_build` command. This command will automatically upload "
 "your local project files to Monaca Cloud and open an interactive build "
 "interface in your browser."
-msgstr "コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、 :ref:`monaca_remote_build` コマンドを実行します。このコマンドを実行すると、ローカルから Monaca クラウドへプロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます。"
+msgstr ""
+"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、 :ref:`monaca_remote_build` "
+"コマンドを実行します。このコマンドを実行すると、ローカルから Monaca "
+"クラウドへプロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます。"
 
 #: ../doc/quick_start/cli/building_app.rst:152
 msgid ""
@@ -375,7 +398,10 @@ msgid ""
 "alphanumeric characters and periods (at least one period must be used) are "
 "allowed. Each segment separated by a period should begin with an alphabetic "
 "character."
-msgstr "パッケージ名 : アプリを識別する一意の ID です。ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) の使用を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) は、ピリオドで区切られ、英字から始まります。"
+msgstr ""
+"パッケージ名 : アプリを識別する一意の ID です。ID には、逆ドメイン形式 ( 例 : mobi.monaca.appname ) "
+"の使用を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
+"は、ピリオドで区切られ、英字から始まります。"
 
 #: ../doc/quick_start/cli/building_app.rst:158
 #: ../doc/quick_start/cloud_ide/building_app.rst:145
@@ -385,7 +411,9 @@ msgid ""
 "Version Number: a number representing the version of your app. It needs 3 "
 "numbers separated by dots (for example, 1.10.2). Each number should be in "
 "[0-99]."
-msgstr "バージョン : アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] の範囲にします。"
+msgstr ""
+"バージョン : アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
+"の範囲にします。"
 
 #: ../doc/quick_start/cli/building_app.rst:159
 #: ../doc/quick_start/cloud_ide/building_app.rst:146
@@ -398,7 +426,12 @@ msgid ""
 "option is disable by default because it made some plugins impossible to be "
 "debugged due to the fact that they are tied to exact package names (eg. in-"
 "app purchase)."
-msgstr "ビルド種別ごとにパッケージ名を分ける : チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は ``.debug`` となり、プロジェクトのデバッガーのパッケージ名の拡張子は ``.debugger`` となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
+msgstr ""
+"ビルド種別ごとにパッケージ名を分ける : "
+"チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は"
+" ``.debug`` となり、プロジェクトのデバッガーのパッケージ名の拡張子は ``.debugger`` "
+"となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase"
+" など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
 
 #: ../doc/quick_start/cli/building_app.rst:172
 #: ../doc/quick_start/cloud_ide/building_app.rst:158
@@ -416,7 +449,10 @@ msgid ""
 "it is impossible to re-sign the signed package with the same key. One "
 "KeyStore can contain multiple Alias, but only one Alias is used for code-"
 "sign an application."
-msgstr "Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時には、エイリアスを 1 つのみ、使用します。"
+msgstr ""
+"Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) "
+"を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 "
+"つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時には、エイリアスを 1 つのみ、使用します。"
 
 #: ../doc/quick_start/cli/building_app.rst:176
 #: ../doc/quick_start/cloud_ide/building_app.rst:162
@@ -437,7 +473,9 @@ msgid ""
 "yet. The KeyStore can either be created or imported. In this tutorial, we "
 "assume that you need to create a new KeyStore. Therefore, click on "
 ":guilabel:`Clear and Generate New...` button."
-msgstr "キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、 :guilabel:`初期化して作成 ...` ボタンをクリックします。"
+msgstr ""
+"キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、"
+" :guilabel:`初期化して作成 ...` ボタンをクリックします。"
 
 #: ../doc/quick_start/cli/building_app.rst:188
 #: ../doc/quick_start/cloud_ide/building_app.rst:174
@@ -572,7 +610,13 @@ msgid ""
 "you to debug your app with inspector integration and remote build your "
 "projects without any setups locally. Read more :ref:`here "
 "<monaca_cli_index>`."
-msgstr "Monaca CLI は、Monaca アプリ向けのローカル環境用の開発ツールです。Monaca CLI は、コマンドライン形式のインターフェイスであり、Monaca CLI を使用すれば、Monaca クラウドが提供するサービスをローカル PC から使用できます。Monaca CLI の機能は多岐にわたり、ローカルプロジェクトの作成、既存のプロジェクトのインポートまたはクローン ( Monaca クラウドからローカル PC へ )、インスペクタと連携したデバッグ、リモートビルド ( ローカルでの各種設定は不要 ) などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら <monaca_cli_index>` をご確認ください。"
+msgstr ""
+"Monaca CLI は、Monaca アプリ向けのローカル環境用の開発ツールです。Monaca CLI "
+"は、コマンドライン形式のインターフェイスであり、Monaca CLI を使用すれば、Monaca クラウドが提供するサービスをローカル PC "
+"から使用できます。Monaca CLI の機能は多岐にわたり、ローカルプロジェクトの作成、既存のプロジェクトのインポートまたはクローン ( Monaca"
+" クラウドからローカル PC へ )、インスペクタと連携したデバッグ、リモートビルド ( ローカルでの各種設定は不要 ) "
+"などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら "
+"<monaca_cli_index>` をご確認ください。"
 
 #: ../doc/quick_start/cli/index.rst:7
 msgid "Before getting started, you need to:"
@@ -582,13 +626,16 @@ msgstr "事前準備として、次の事を行います。"
 msgid ""
 "get a Monaca account. If you don't have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
+msgstr ""
+"Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/cli/index.rst:17
 msgid ""
 "install Monaca CLI. Please follow the installation instruction :ref:`here "
 "<install_monaca_cli>`."
-msgstr "Monaca CLI をインストールします。インストール手順に関しては、:ref:`こちら <install_monaca_cli>` をご確認ください。"
+msgstr ""
+"Monaca CLI をインストールします。インストール手順に関しては、:ref:`こちら <install_monaca_cli>` "
+"をご確認ください。"
 
 #: ../doc/quick_start/cli/publishing_app.rst:5
 #: ../doc/quick_start/localkit/publishing_app.rst:5
@@ -631,7 +678,8 @@ msgstr ":ref:`google_play_distribution` をご確認ください。"
 msgid ""
 "For more information regarding the distribution of Monaca Apps for other "
 "platforms, please refer to :ref:`distribution_index`."
-msgstr "他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
+msgstr ""
+"他のプラットフォーム向けの Monaca アプリの配布申請に関しては、 :ref:`distribution_index` をご確認ください。"
 
 #: ../doc/quick_start/cli/publishing_app.rst:30
 #: ../doc/quick_start/cli/starting_project.rst:62
@@ -682,19 +730,26 @@ msgid ""
 "Then, you will be asked to choose either ``Sample Apps`` or ``Templates`` to"
 " create a new Monaca project. In this tutorial, let's choose the ``Sample "
 "Apps`` option. Then, select ``jQuery TODO App``."
-msgstr "次に、Monaca プロジェクトを新規作成します。いずれかのテンプレート または ``Sample Apps`` を選択します。ここでは、``Sample Apps`` オプションを選択します。次に、``jQuery TODO App`` を選択します。"
+msgstr ""
+"次に、Monaca プロジェクトを新規作成します。いずれかのテンプレート または ``Sample Apps`` "
+"を選択します。ここでは、``Sample Apps`` オプションを選択します。次に、``jQuery TODO App`` を選択します。"
 
 #: ../doc/quick_start/cli/starting_project.rst:46
 msgid ""
 "After creating the project, the project's folder will be created on your PC."
 " You can then use any local editors to develop your Monaca projects."
-msgstr "プロジェクトを作成すると、プロジェクトフォルダーが PC 上に作成されます。これ以後は、お好みのエディターを使用して、Monaca プロジェクトを開くことができます。"
+msgstr ""
+"プロジェクトを作成すると、プロジェクトフォルダーが PC 上に作成されます。これ以後は、お好みのエディターを使用して、Monaca "
+"プロジェクトを開くことができます。"
 
 #: ../doc/quick_start/cli/starting_project.rst:54
 msgid ""
 "You can also use Monaca CLI to :ref:`import<monaca_import>` or "
 ":ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
-msgstr "上記では、サンプルアプリを使用したプロジェクトの作成方法を示しましたが、他にも、Monaca CLI を使用して、Monaca クラウドから既存のプロジェクトを :ref:`インポート <monaca_import>` または :ref:`クローン <monaca_clone>` できます。"
+msgstr ""
+"上記では、サンプルアプリを使用したプロジェクトの作成方法を示しましたが、他にも、Monaca CLI を使用して、Monaca "
+"クラウドから既存のプロジェクトを :ref:`インポート <monaca_import>` または :ref:`クローン <monaca_clone>`"
+" できます。"
 
 #: ../doc/quick_start/cli/starting_project.rst:63
 #: ../doc/quick_start/localkit/building_app.rst:234
@@ -717,7 +772,8 @@ msgid ""
 ":ref:`monaca_debugger_index` is a powerful application for testing and "
 "debugging your Monaca applications on real devices in real-time by just "
 "saving the source code."
-msgstr ":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
+msgstr ""
+":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:12
 msgid ""
@@ -725,7 +781,9 @@ msgid ""
 " successfully paired with Monaca Debugger, all changes made to your project "
 "files will be pushed into your Monaca Debugger in real-time as soon as you "
 "save those changes."
-msgstr "ローカル PC と Monaca デバッガーがペアリング済みであれば、PC 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
+msgstr ""
+"ローカル PC と Monaca デバッガーがペアリング済みであれば、PC 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 "
+"プッシュ 」 されます。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:16
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:14
@@ -741,7 +799,9 @@ msgstr "事前準備"
 msgid ""
 "Please install Monaca Debugger on your device. Please refer to :ref:`Monaca "
 "Debugger Installation <debugger_installation_index>` for other platforms."
-msgstr "Monaca デバッガーを端末にインストールします。詳細は、:ref:`各プラットフォーム向けの Monaca デバッガーのインストール方法 <debugger_installation_index>` をご確認ください。"
+msgstr ""
+"Monaca デバッガーを端末にインストールします。詳細は、:ref:`各プラットフォーム向けの Monaca デバッガーのインストール方法 "
+"<debugger_installation_index>` をご確認ください。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:37
 msgid "Step 1: Pairing Monaca Debugger with Local PC"
@@ -751,7 +811,9 @@ msgstr "ステップ 1 : Monaca デバッガーとローカル PC のペアリ�
 msgid ""
 "In order to debug/test a local Monaca app, you need to pair local PC with "
 "Monaca Debugger."
-msgstr "ローカル PC 上で作成した Monaca アプリを、Monaca デバッガー上でデバッグ・検証をする場合には、ローカル PC と Monaca デバッガーをペアリングする必要があります。"
+msgstr ""
+"ローカル PC 上で作成した Monaca アプリを、Monaca デバッガー上でデバッグ・検証をする場合には、ローカル PC と Monaca "
+"デバッガーをペアリングする必要があります。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:41
 msgid ""
@@ -779,14 +841,19 @@ msgid ""
 "In the command window, navigate to your project folder and type "
 ":ref:`monaca_debug` command to connect to your Monaca Debugger. Then, Monaca"
 " CLI will wait for requests from debugger."
-msgstr "コマンドウィンドウ上で、プロジェクトのフォルダーまで移動し、 :ref:`monaca_debug` コマンドを実行して、Monaca デバッガーに接続します。実行すると、Monaca CLI 側では、デバッガーからのリクエストの待ち受けを開始します。"
+msgstr ""
+"コマンドウィンドウ上で、プロジェクトのフォルダーまで移動し、 :ref:`monaca_debug` コマンドを実行して、Monaca "
+"デバッガーに接続します。実行すると、Monaca CLI 側では、デバッガーからのリクエストの待ち受けを開始します。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:56
 msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
 "for Monaca CLI earlier."
-msgstr "Monaca デバッガーを起動し、Monaca に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca CLI のログイン時に使用したものと同じものを使用します。"
+msgstr ""
+"Monaca デバッガーを起動し、Monaca "
+"に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca CLI "
+"のログイン時に使用したものと同じものを使用します。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:64
 msgid ""
@@ -799,7 +866,10 @@ msgid ""
 "If your pairing is successful, your local project's name will appear under "
 "``Local Projects`` in in Monaca Debugger. However, if you fail the pairing, "
 "please refer to :ref:`troubleshoot_pair`."
-msgstr "ペアリング後、Monaca デバッガーの ``ローカルプロジェクト`` 欄に、ローカルに置かれているプロジェクト名が表示されます。なお、ペアリングが失敗する場合には、:ref:`troubleshoot_pair` をご確認ください。"
+msgstr ""
+"ペアリング後、Monaca デバッガーの ``ローカルプロジェクト`` "
+"欄に、ローカルに置かれているプロジェクト名が表示されます。なお、ペアリングが失敗する場合には、:ref:`troubleshoot_pair` "
+"をご確認ください。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:82
 msgid "Step 2: Running the Project on Monaca Debugger"
@@ -815,7 +885,9 @@ msgstr "Monaca デバッガーの [ ローカルプロジェクト ] 上に表�
 msgid ""
 "Now the project should run as in screenshot below. Use :guilabel:`Back` "
 "button within Debugger Menu button to go back to the Project List screen."
-msgstr "下のスクリーンショットのように、プロジェクトが実行されます。プロジェクト一覧へ戻る場合には、デバッガーのメニュー画面へいったん戻り、 :guilabel:`戻る` ボタンをタップします。"
+msgstr ""
+"下のスクリーンショットのように、プロジェクトが実行されます。プロジェクト一覧へ戻る場合には、デバッガーのメニュー画面へいったん戻り、 "
+":guilabel:`戻る` ボタンをタップします。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:92
 msgid "Monaca Debugger Menu Button"
@@ -844,13 +916,18 @@ msgid ""
 "open the ``index.html`` file. Then, change the ``main-page`` attribute "
 "(inside <ons-sliding-menu> tag) to ``page2.html`` and save your change. Your"
 " code should look like this:"
-msgstr "ファイル内のコードを変更してみます。たとえば、アプリの起動時に表示するページを 「 Page 2 」 に変更してみましょう。変更を行うには、最初に、 ``index.html`` を開き、次に、<ons-sliding-menu> タグ内の ``main-page`` 属性の値を ``page2.html`` に変更・保存します。変更後のコードは、次のとおりです。"
+msgstr ""
+"ファイル内のコードを変更してみます。たとえば、アプリの起動時に表示するページを 「 Page 2 」 に変更してみましょう。変更を行うには、最初に、 "
+"``index.html`` を開き、次に、<ons-sliding-menu> タグ内の ``main-page`` 属性の値を "
+"``page2.html`` に変更・保存します。変更後のコードは、次のとおりです。"
 
 #: ../doc/quick_start/cli/testing_debugging.rst:123
 msgid ""
 "If your PC is still connected to Monaca Debugger, it will automatically "
 "refresh the updates. Now your starting page should be Page 2."
-msgstr "Monaca デバッガーと PC が接続されていれば、変更箇所は自動的にデバッガー側に反映されます。起動時のページが Page 2 になっていることを確認しましょう。"
+msgstr ""
+"Monaca デバッガーと PC が接続されていれば、変更箇所は自動的にデバッガー側に反映されます。起動時のページが Page 2 "
+"になっていることを確認しましょう。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:5
 msgid "Part 3: Setting up Monaca Backend"
@@ -865,26 +942,34 @@ msgid ""
 "In order to use Monaca Backend, you need to add `jQuery library "
 "<https://jquery.com/>`_ into your project. If you haven't added jQuery into "
 "your project yet, please do as follows:"
-msgstr "Monaca バックエンドを使用する場合、`jQuery ライブラリー <https://jquery.com/>`_ をプロジェクトに追加します。追加する場合には、次の手順に従います。"
+msgstr ""
+"Monaca バックエンドを使用する場合、`jQuery ライブラリー <https://jquery.com/>`_ "
+"をプロジェクトに追加します。追加する場合には、次の手順に従います。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:15
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Manage JS/CSS "
 "Components`."
-msgstr "Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> JS/CSS コンポーネントの追加と削除...` を選択します。"
+msgstr ""
+"Monaca クラウド IDE メニュー上で、 :menuselection:`設定 --> JS/CSS コンポーネントの追加と削除...` "
+"を選択します。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:17
 msgid ""
 "Then, \"Add or Remove JS/CSS Components\" page will be shown. Select "
 ":guilabel:`Add` button of jQuery (Monaca Version) to add it to your project."
-msgstr "[ JS/CSS コンポーネントの追加と削除 ] ページが表示されるので、jQuery ( Monaca Version ) の :guilabel:`追加` ボタンをクリックします。"
+msgstr ""
+"[ JS/CSS コンポーネントの追加と削除 ] ページが表示されるので、jQuery ( Monaca Version ) の "
+":guilabel:`追加` ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:25
 msgid ""
 "In this dialog, you can choose which version of jQuery library you want to "
 "install. Then, click :guilabel:`Start Install` button. Next, click "
 ":guilabel:`OK` button."
-msgstr "次のダイアログが表示されます。使用する jQuery ライブラリーのバージョンを選択して、:guilabel:`インストール開始` ボタンをクリックします。次に、:guilabel:`OK` ボタンをクリックします。"
+msgstr ""
+"次のダイアログが表示されます。使用する jQuery ライブラリーのバージョンを選択して、:guilabel:`インストール開始` "
+"ボタンをクリックします。次に、:guilabel:`OK` ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:35
 msgid "Step 2: Attaching Backend to Your Project"
@@ -895,14 +980,18 @@ msgid ""
 "From Monaca Cloud IDE, click on :guilabel:`Cloud` icon above the file tree "
 "menu to go to the Backend Control Panel. Then, click :guilabel:`Start Using "
 "Backend` button."
-msgstr "Monaca クラウド IDE のメニュー上で、左側のツリーメニューの上部に表示された :guilabel:`クラウド` ( 雲 ) アイコンをクリックして、バックエンド管理画面へ行きます。次に、 :guilabel:`バックエンドを利用する` ボタンをクリックします。"
+msgstr ""
+"Monaca クラウド IDE のメニュー上で、左側のツリーメニューの上部に表示された :guilabel:`クラウド` ( 雲 ) "
+"アイコンをクリックして、バックエンド管理画面へ行きます。次に、 :guilabel:`バックエンドを利用する` ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:45
 msgid ""
 "The following dialog will appear. You can create a new Backend, or select an"
 " existing one which is used in a different project. Then, click "
 ":guilabel:`Apply` to attach the Backend to your project."
-msgstr "次のダイアログが表示されます。バックエンドの新規作成、または、既存バックエンド ( 他のプロジェクトで使用中 ) の再利用のどちらかを選択できます。次に、 :guilabel:`適用` をクリックして、バックエンドとプロジェクトの紐付け処理を行います。"
+msgstr ""
+"次のダイアログが表示されます。バックエンドの新規作成、または、既存バックエンド ( 他のプロジェクトで使用中 ) "
+"の再利用のどちらかを選択できます。次に、 :guilabel:`適用` をクリックして、バックエンドとプロジェクトの紐付け処理を行います。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:53
 msgid ""
@@ -922,7 +1011,9 @@ msgstr "コレクションとは、バックエンドの使用時に、データ
 msgid ""
 "From Backend Control Panel, click on :guilabel:`Options Menu` icon. Then, "
 "choose :guilabel:`New Collection...`."
-msgstr "バックエンド管理画面上で、 :guilabel:`オプションメニュー` アイコンをクリックして、 :guilabel:`コレクションの作成...` を選択します。"
+msgstr ""
+"バックエンド管理画面上で、 :guilabel:`オプションメニュー` アイコンをクリックして、 :guilabel:`コレクションの作成...` "
+"を選択します。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:76
 msgid ""
@@ -936,7 +1027,10 @@ msgid ""
 " you want to insert data from your app. For more details about collection "
 "management, please refer to "
 ":ref:`backend_control_panel_collection_management`."
-msgstr "データの追加をアプリから行う場合、 :guilabel:`JavaScript からのアイテム追加を許可する` にチェックを入れます。コレクション管理の詳細に関しては、 :ref:`backend_control_panel_collection_management` をご確認ください。"
+msgstr ""
+"データの追加をアプリから行う場合、 :guilabel:`JavaScript からのアイテム追加を許可する` "
+"にチェックを入れます。コレクション管理の詳細に関しては、 "
+":ref:`backend_control_panel_collection_management` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:87
 msgid ""
@@ -945,7 +1039,10 @@ msgid ""
 " a step-by-step instruction on how to manipulate Monaca Backend in an "
 "application. Please refer to it and start coding your app with Monaca "
 "Backend."
-msgstr "ここまでの手順を行えば、バックエンドを使用したアプリの開発ができます。また、 :ref:`backend_database_memo` には、実際のアプリを使用した、Monaca バックエンドの操作に関する記述がありますので、Monaca バックエンドを使用したアプリのコーディングを始める前に、こちらの内容もご確認ください。"
+msgstr ""
+"ここまでの手順を行えば、バックエンドを使用したアプリの開発ができます。また、 :ref:`backend_database_memo` "
+"には、実際のアプリを使用した、Monaca バックエンドの操作に関する記述がありますので、Monaca "
+"バックエンドを使用したアプリのコーディングを始める前に、こちらの内容もご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/adding_backend.rst:93
 #: ../doc/quick_start/cloud_ide/building_app.rst:224
@@ -1005,7 +1102,10 @@ msgid ""
 "required when uploading (publishing process) your application via iTunes "
 "Connect later. It needs 3 numbers separated by dots (for example, 1.10.2). "
 "Each number should be in [0-99]."
-msgstr "バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] の範囲にします。"
+msgstr ""
+"バージョン : iTune Connect 経由で、アプリをアップロード ( 配布のため ) "
+"するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
+"の範囲にします。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:64
 msgid ""
@@ -1029,19 +1129,24 @@ msgstr "適当なビルドの種類を選択して ( この場合、デバッグ
 msgid ""
 "Upload an appropriate provisioning profile (in this case your development "
 "provisioning profile) and click :guilabel:`Next` button."
-msgstr "適当なプロビジョニング プロファイルをアップロードして ( ここでは、開発用 プロビジョニング プロファイルを使用 )、 :guilabel:`次に` ボタンをクリックします。"
+msgstr ""
+"適当なプロビジョニング プロファイルをアップロードして ( ここでは、開発用 プロビジョニング プロファイルを使用 )、 :guilabel:`次に` "
+"ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:139
 msgid ""
 "From Monaca Cloud IDE menu, go to :menuselection:`Config --> Android App "
 "Settings...`"
-msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Android アプリ設定...` を選択します。"
+msgstr ""
+"Monaca クラウド IDE のメニューから、 :menuselection:`設定 --> Android アプリ設定...` を選択します。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:164
 msgid ""
 "Go to :guilabel:`Config` then :guilabel:`Android KeyStore Settings...` from "
 "Monaca Cloud IDE menu as shown below:"
-msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`設定` を選択して、次に、 :guilabel:`Android キーストア設定...` を選択します。"
+msgstr ""
+"Monaca クラウド IDE のメニューから、 :guilabel:`設定` を選択して、次に、 :guilabel:`Android "
+"キーストア設定...` を選択します。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:166
 #: ../doc/quick_start/localkit/building_app.rst:172
@@ -1051,13 +1156,17 @@ msgid ""
 "assume that you need to create a new KeyStore. Therefore, click on "
 ":guilabel:`Clear and Generate New...` button. Then, the following screen "
 "will appear:"
-msgstr "これまでにキーストアを作成したことがない場合、キーストアを新規に作成します。新規作成の他にも、既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアを新規に作成することを前提として解説します。 :guilabel:`初期化して作成 ...` ボタンをクリックして、[ エイリアスの追加 ] ダイアログを表示させます。"
+msgstr ""
+"これまでにキーストアを作成したことがない場合、キーストアを新規に作成します。新規作成の他にも、既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアを新規に作成することを前提として解説します。"
+" :guilabel:`初期化して作成 ...` ボタンをクリックして、[ エイリアスの追加 ] ダイアログを表示させます。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:191
 msgid ""
 "From the Monaca Cloud IDE menu, select :guilabel:`Build` then choose "
 ":guilabel:`Build App for Android`."
-msgstr "Monaca クラウド IDE のメニューから、 :guilabel:`ビルド` を選択して、次に、 :guilabel:`Android アプリのビルド` を選択します。"
+msgstr ""
+"Monaca クラウド IDE のメニューから、 :guilabel:`ビルド` を選択して、次に、 :guilabel:`Android "
+"アプリのビルド` を選択します。"
 
 #: ../doc/quick_start/cloud_ide/building_app.rst:193
 msgid "Select Debug Build option and click :guilabel:`Next` button."
@@ -1082,7 +1191,8 @@ msgstr "事前準備として、次のアイテムを用意します。"
 msgid ""
 "a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウント。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録・作成できます。"
+msgstr ""
+"Monaca アカウント。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録・作成できます。"
 
 #: ../doc/quick_start/cloud_ide/index.rst:16
 msgid "a computer with the Internet connection"
@@ -1111,13 +1221,16 @@ msgstr "Monaca アカウント情報を入力します。"
 msgid ""
 "After a successful sign in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
-msgstr "サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
+msgstr ""
+"サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:26
 msgid ""
 "From Monaca Dashboard, click on :guilabel:`Create Project` or "
 ":guilabel:`Import Project` to create a new Monaca project."
-msgstr "Monaca ダッシュボードから、:guilabel:`新規プロジェクトの作成` または :guilabel:`Import Project` を選択して、プロジェクトを新規に作成します。"
+msgstr ""
+"Monaca ダッシュボードから、:guilabel:`新規プロジェクトの作成` または :guilabel:`Import Project` "
+"を選択して、プロジェクトを新規に作成します。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:34
 msgid ""
@@ -1128,7 +1241,12 @@ msgid ""
 "URL, uploading the project package or selecting your existing  GitHub "
 "repository. Please refer to :ref:`version_control` on how to set up  GitHub "
 "integration with Monaca."
-msgstr ":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca プロジェクトを作成できます。一方、:guilabel:`Import Project` では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub の連携方法は、:ref:`version_control` をご確認ください。"
+msgstr ""
+":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca "
+"プロジェクトを作成できます。一方、:guilabel:`Import Project` "
+"では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ "
+"プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub "
+"の連携方法は、:ref:`version_control` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:40
 msgid "Create Project Dialog"
@@ -1144,7 +1262,10 @@ msgid ""
 "Create Project dialog, select :guilabel:`Sample Applications` and choose "
 "``jQuery TODO App`` template by clicking on its :guilabel:`Create New` "
 "button."
-msgstr "ここでは、:guilabel:`新規プロジェクトの作成` を選択します。表示される [ 新規プロジェクトの作成 ] ダイアログ上で、:guilabel:`サンプルアプリ` を選択して、次に、``jQuery TODO App`` テンプレートの :guilabel:`作成` ボタンをクリックします。"
+msgstr ""
+"ここでは、:guilabel:`新規プロジェクトの作成` を選択します。表示される [ 新規プロジェクトの作成 ] "
+"ダイアログ上で、:guilabel:`サンプルアプリ` を選択して、次に、``jQuery TODO App`` テンプレートの "
+":guilabel:`作成` ボタンをクリックします。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:58
 msgid ""
@@ -1174,13 +1295,17 @@ msgid ""
 " the Preview window has several limitations such as Ajax requests, Cordova "
 "plugin APIs and so on. For more information, please refer to :ref:`usage and"
 " limitation of Live Preview <preview_tab>`."
-msgstr "プレビューウィンドウを使用して、実際に検証できる機能には、制限があります。制限としては、たとえば、使用できる Cordova プラグイン/API の種類、Ajax リクエストなどがあります。詳細は、 :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
+msgstr ""
+"プレビューウィンドウを使用して、実際に検証できる機能には、制限があります。制限としては、たとえば、使用できる Cordova プラグイン/API "
+"の種類、Ajax リクエストなどがあります。詳細は、 :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:76
 msgid ""
 "From the Monaca Dashboard, open the project. Then, Monaca Cloud IDE will be "
 "open. You can find the Preview window on the right panel of the IDE."
-msgstr "Monaca ダッシュボード上でプロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE が起動します。Monaca クラウド IDE の右側に、プレビューウィンドウが表示されます。"
+msgstr ""
+"Monaca ダッシュボード上でプロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE が起動します。Monaca"
+" クラウド IDE の右側に、プレビューウィンドウが表示されます。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:84
 msgid "Try adding some TODO items in the Preview window."
@@ -1198,7 +1323,9 @@ msgstr "編集対象は、``www`` 下に置かれているファイルのみで�
 msgid ""
 "From the File Tree panel, choose a file to edit. Let's make some changes in "
 ":file:`index.html` file in the code editor."
-msgstr "左側のプロジェクトツリー画面から、編集対象のファイルを選択します。コードエディター ( 画面中央の領域 ) を使用して、:file:`index.html` ファイルの内容を変更してみましょう。"
+msgstr ""
+"左側のプロジェクトツリー画面から、編集対象のファイルを選択します。コードエディター ( 画面中央の領域 ) "
+"を使用して、:file:`index.html` ファイルの内容を変更してみましょう。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:101
 msgid ""
@@ -1206,7 +1333,9 @@ msgid ""
 "Preview window. Feel free to edit the project as you wish. For more detailed"
 " explanation about this template, please refer to :ref:`Explanation about "
 "jQuery TODO App <todo>`."
-msgstr "ファイルの編集後、変更を保存します。次に、プレビューウィンドウ上で、変更点が反映されていることを確認してみましょう。他の箇所も変更して、プレビュー上で確認してみましょう。今回使用したテンプレートの詳細は、:ref:`TODO 管理アプリの解説 ( jQuery 使用 ) <todo>` をご確認ください。"
+msgstr ""
+"ファイルの編集後、変更を保存します。次に、プレビューウィンドウ上で、変更点が反映されていることを確認してみましょう。他の箇所も変更して、プレビュー上で確認してみましょう。今回使用したテンプレートの詳細は、:ref:`TODO"
+" 管理アプリの解説 ( jQuery 使用 ) <todo>` をご確認ください。"
 
 #: ../doc/quick_start/cloud_ide/starting_project.rst:104
 msgid ""
@@ -1224,7 +1353,9 @@ msgid ""
 "connection is available, all changes made to your project files will be "
 "pushed into your Monaca Debugger in real-time as soon as you save those "
 "changes."
-msgstr "Monaca アプリ開発時、Monaca クラウド IDE ( PC 側 ) と Monaca デバッガー ( 端末側 ) がインターネットに接続されていれば、IDE 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
+msgstr ""
+"Monaca アプリ開発時、Monaca クラウド IDE ( PC 側 ) と Monaca デバッガー ( 端末側 ) "
+"がインターネットに接続されていれば、IDE 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:35
 #: ../doc/quick_start/localkit/testing_debugging.rst:39
@@ -1237,7 +1368,10 @@ msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
 "for Monaca Cloud IDE."
-msgstr "Monaca デバッガーを起動し、Monaca に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca クラウド IDE のログイン時に使用したものと同じものを使用します。"
+msgstr ""
+"Monaca デバッガーを起動し、Monaca "
+"に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca クラウド IDE "
+"のログイン時に使用したものと同じものを使用します。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:45
 msgid ""
@@ -1245,13 +1379,18 @@ msgid ""
 "under ``Monaca.io Projects``. To run a project, you can just click on the "
 "project name in Monaca Debugger or click :guilabel:`Run on Device` button in"
 " Monaca Cloud IDE menu."
-msgstr "プロジェクトの一覧が表示されます。Monaca クラウド IDE 上のプロジェクトは、[ Monaca.io プロジェクト ] 欄に表示されます。プロジェクトを実行する場合、Monaca デバッガー上のプロジェクト名をタップするか、または、Monaca クラウド IDE のメニューから :guilabel:`実機デバッグ` をクリックします。"
+msgstr ""
+"プロジェクトの一覧が表示されます。Monaca クラウド IDE 上のプロジェクトは、[ Monaca.io プロジェクト ] "
+"欄に表示されます。プロジェクトを実行する場合、Monaca デバッガー上のプロジェクト名をタップするか、または、Monaca クラウド IDE "
+"のメニューから :guilabel:`実機デバッグ` をクリックします。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:53
 msgid ""
 "Then, your project should be running in the debugger. To go back to the "
 "Project List screen, go to Debugger Menu and click :guilabel:`Back` button."
-msgstr "デバッガー上でプロジェクトが実行されていることを確認します。プロジェクトの一覧画面に戻る場合には、[ デバッガーメニュー ] ボタンをタップして、次に、:guilabel:`戻る` ボタンをタップします。"
+msgstr ""
+"デバッガー上でプロジェクトが実行されていることを確認します。プロジェクトの一覧画面に戻る場合には、[ デバッガーメニュー ] "
+"ボタンをタップして、次に、:guilabel:`戻る` ボタンをタップします。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:66
 msgid "Try and test your project by adding/deleting a memo."
@@ -1265,7 +1404,9 @@ msgstr "ステップ 2 : Monaca クラウド IDE と Monaca デバッガー間�
 msgid ""
 "By now, you are able to run your Monaca project on the debugger. Next, let's"
 " try to edit this project and see how it is reflected on the debugger."
-msgstr "ここまでの手順で、Monaca デバッガー上でプロジェクトが実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca デバッガー側に反映されるか確認してみましょう。"
+msgstr ""
+"ここまでの手順で、Monaca デバッガー上でプロジェクトが実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca "
+"デバッガー側に反映されるか確認してみましょう。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:81
 msgid ""
@@ -1273,7 +1414,10 @@ msgid ""
 "(please refer to :ref:`Edit Project Files <monaca_cloud_ide_edit_project>`)."
 " In this example, we edit :file:`index.html` and change the title of page "
 "from \"Monaca Memo\" to \"My Memo\". Then, save the change."
-msgstr "Monaca クラウド IDE 上で、プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 <monaca_cloud_ide_edit_project>` を参照のこと )。ここでは、:file:`index.html` 上で、ページのタイトルを 「 Monaca Memo 」 から 「 My Memo 」 へ変更してみます。次に、保存します。"
+msgstr ""
+"Monaca クラウド IDE 上で、プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 "
+"<monaca_cloud_ide_edit_project>` を参照のこと )。ここでは、:file:`index.html` "
+"上で、ページのタイトルを 「 Monaca Memo 」 から 「 My Memo 」 へ変更してみます。次に、保存します。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:89
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:93
@@ -1281,7 +1425,9 @@ msgid ""
 "The saved changes will be sent to Monaca Debugger on your device. You can "
 "also click on :guilabel:`Reload` button to retrieve the latest updates of "
 "your app in case the changes are not reflected."
-msgstr "保存された変更は、端末の Monaca デバッガー側に送られます。アプリ側で変更が反映されない場合には、デバッガーメニュー上の :guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
+msgstr ""
+"保存された変更は、端末の Monaca デバッガー側に送られます。アプリ側で変更が反映されない場合には、デバッガーメニュー上の "
+":guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
 
 #: ../doc/quick_start/cloud_ide/testing_debugging.rst:95
 msgid "Updated Page Title"
@@ -1393,7 +1539,11 @@ msgid ""
 "management system, task runner and so on. It also allows you to develop "
 "offline and provides a faster synchronization with Monaca Debugger. "
 ":ref:`Read more<monaca_localkit_index>`."
-msgstr "Monaca Localkit は、Monaca アプリ向けのローカル環境用の開発ツールです。ソースコード管理システム ( バージョン管理システム )、タスク実行ツール ( Task Runner )、各種エディターなど、多岐にわたる開発ツールと併用できます。Monaca Localkit を使用すれば、オフラインでの開発も行え、また、Monaca デバッガーとのスピーディーな同期も行えます。詳細は、:ref:`こちら <monaca_localkit_index>` をご確認ください。"
+msgstr ""
+"Monaca Localkit は、Monaca アプリ向けのローカル環境用の開発ツールです。ソースコード管理システム ( バージョン管理システム "
+")、タスク実行ツール ( Task Runner )、各種エディターなど、多岐にわたる開発ツールと併用できます。Monaca Localkit "
+"を使用すれば、オフラインでの開発も行え、また、Monaca デバッガーとのスピーディーな同期も行えます。詳細は、:ref:`こちら "
+"<monaca_localkit_index>` をご確認ください。"
 
 #: ../doc/quick_start/localkit/index.rst:7
 msgid ""
@@ -1401,14 +1551,19 @@ msgid ""
 "Otherwise, it will run in the evaluation mode for 30 days after the first "
 "login. Please refer to `Pricing <https://monaca.io/pricing.html>`_ for more "
 "details."
-msgstr "30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
+"30 日間のトライアル期間 ( 初回ログイン時から起算 ) を設けておりますが、Monaca Localkit "
+"を長期でご利用になる場合には、対応するプランへの加入が必要です。詳細は、 `各プランの解説 "
+"<https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/quick_start/localkit/index.rst:9
 msgid ""
 "Please note that :ref:`Backend <monaca_backend_index>` as well as "
 ":ref:`push_notification_index` are currently not available in Monaca "
 "Localkit yet."
-msgstr "Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と :ref:`push_notification_index` は現在ご利用できません。"
+msgstr ""
+"Monaca Localkit では、:ref:`バックエンド機能 <monaca_backend_index>` と "
+":ref:`push_notification_index` は現在ご利用できません。"
 
 #: ../doc/quick_start/localkit/index.rst:12
 msgid "Before getting started with this tutorial, you need to:"
@@ -1418,13 +1573,16 @@ msgstr "事前準備として、次の内容を行います。"
 msgid ""
 "get a Monaca account. Register `here "
 "<https://monaca.mobi/en/register/start>`__."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
+msgstr ""
+"Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/localkit/index.rst:22
 msgid ""
 "install Monaca Localkit. Download `here "
 "<https://monaca.io/localkit.html>`__."
-msgstr "Monaca Localkit のインストール。`こちら <https://ja.monaca.io/localkit.html>`__ からダウンロードできます。"
+msgstr ""
+"Monaca Localkit のインストール。`こちら <https://ja.monaca.io/localkit.html>`__ "
+"からダウンロードできます。"
 
 #: ../doc/quick_start/localkit/publishing_app.rst:30
 #: ../doc/quick_start/localkit/starting_project.rst:119
@@ -1443,7 +1601,11 @@ msgid ""
 "provided by Monaca. You can also import projects you have in Monaca Cloud "
 "IDE or other existing Cordova projects into Monaca Localkit as well. Please "
 "refer to :ref:`localkit_import`."
-msgstr ":ref:`memo_application` のテンプレート ( Monaca 提供 ) を使用して、プロジェクトをローカルに新規作成します。この方法以外にも、Monaca クラウド IDE に保存されているプロジェクトを、または、既存の Cordova プロジェクトを、Monaca Localkit にインポートすることもできます。詳細は、 :ref:`localkit_import` をご確認ください。"
+msgstr ""
+":ref:`memo_application` のテンプレート ( Monaca 提供 ) "
+"を使用して、プロジェクトをローカルに新規作成します。この方法以外にも、Monaca クラウド IDE に保存されているプロジェクトを、または、既存の "
+"Cordova プロジェクトを、Monaca Localkit にインポートすることもできます。詳細は、 :ref:`localkit_import` "
+"をご確認ください。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:14
 msgid ""
@@ -1493,7 +1655,9 @@ msgstr "作業ディレクトリ : プロジェクトファイルの保存先と
 msgid ""
 "Select Template: choose a template for your new project. Please use "
 ":guilabel:`Preview` button to see how each template looks like."
-msgstr "テンプレートを選択 : プロジェクトで使用するテンプレート。 :guilabel:`プレビュー` ボタンをクリックすると、選択されているテンプレートを確認できます。"
+msgstr ""
+"テンプレートを選択 : プロジェクトで使用するテンプレート。 :guilabel:`プレビュー` "
+"ボタンをクリックすると、選択されているテンプレートを確認できます。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:53
 msgid ""
@@ -1511,7 +1675,10 @@ msgid ""
 "without real devices. However, some functionalitlies of some applications "
 "might not be properly previewed. For more information, please refer to "
 ":ref:`usage and limitation of Live Preview <preview_tab>`."
-msgstr "Monaca Localkit では、端末を用意しなくても、アプリの外観と動作を検証できるように、ライブプレビュー機能を提供しています。ただし、ライブプレビューを使用して、実際に検証できる機能には、制限があります。詳細は、 :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
+msgstr ""
+"Monaca Localkit "
+"では、端末を用意しなくても、アプリの外観と動作を検証できるように、ライブプレビュー機能を提供しています。ただし、ライブプレビューを使用して、実際に検証できる機能には、制限があります。詳細は、"
+" :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:60
 msgid "In order to preview a project, please do as follows:"
@@ -1542,7 +1709,11 @@ msgid ""
 "Browse your project files from Monaca Localkit dashboard. To do this, you "
 "can either click :guilabel:`Open` button or right-click on the Memo "
 "Application project, then click :guilabel:`Open in` (see screenshot below)."
-msgstr "Monaca Localkit ダッシュボード上から、プロジェクトを保存しているディレクトリーを参照できます。参照する場合、プロジェクト一覧上で、対象プロジェクトの選択後 ( ここでは、メモ帳アプリのプロジェクト )、メニューアイコンの :guilabel:`開く` ボタンをクリックするか、または、右クリックをして、 :guilabel:`開く` を選択します ( 下のスクリーンショットを参照のこと )。"
+msgstr ""
+"Monaca Localkit "
+"ダッシュボード上から、プロジェクトを保存しているディレクトリーを参照できます。参照する場合、プロジェクト一覧上で、対象プロジェクトの選択後 ( "
+"ここでは、メモ帳アプリのプロジェクト )、メニューアイコンの :guilabel:`開く` ボタンをクリックするか、または、右クリックをして、 "
+":guilabel:`開く` を選択します ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:101
 msgid ""
@@ -1551,20 +1722,27 @@ msgid ""
 "``components`` folder consists of project's dependencies such as jQuery "
 "Mobile. Please ignore this folder. Use any code editors you prefer to edit "
 "the rest of the project files such as JavaScript, CSS and HTML files."
-msgstr "新しいウィンドウが開き、プロジェクトファイルの保存先とそのコンテンツが表示されます。 ``www`` フォルダー内のプロジェクトファイルが、編集対象のファイルです。 ``components`` フォルダーには、jQuery Mobile など、プロジェクトで必要なファイルが保存されているため、編集はできません。他の JavaScript、CSS、HTML ファイルは、お好みのエディターを使用して、自由に編集できます。"
+msgstr ""
+"新しいウィンドウが開き、プロジェクトファイルの保存先とそのコンテンツが表示されます。 ``www`` "
+"フォルダー内のプロジェクトファイルが、編集対象のファイルです。 ``components`` フォルダーには、jQuery Mobile "
+"など、プロジェクトで必要なファイルが保存されているため、編集はできません。他の JavaScript、CSS、HTML "
+"ファイルは、お好みのエディターを使用して、自由に編集できます。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:109
 msgid ""
 "Now, let's edit the ``index.html`` file. This HTML file consists of multiple"
 " pages using `OnsenUI framework <https://onsen.io/>`_. Try changing some "
 "lines in this page and save them."
-msgstr "試しに、 ``index.html`` ファイルを編集してみましょう。この HTML ファイルには、複数のページがまとめて記述されています ( `OnsenUI フレームワーク <https://ja.onsen.io/>`_ を使用 )。お好きな箇所を変更して、保存してみましょう。"
+msgstr ""
+"試しに、 ``index.html`` ファイルを編集してみましょう。この HTML ファイルには、複数のページがまとめて記述されています ( "
+"`OnsenUI フレームワーク <https://ja.onsen.io/>`_ を使用 )。お好きな箇所を変更して、保存してみましょう。"
 
 #: ../doc/quick_start/localkit/starting_project.rst:111
 msgid ""
 "Use Preview function to see the change. If your Preview is already opened, "
 "the change will be updated immediately after you save the changes."
-msgstr "プレビュー機能を使用して、変更点が反映されているか確認してみましょう。プレビューウィンドウがすでに開いている場合には、変更点の保存後、即時に、画面が更新されます。"
+msgstr ""
+"プレビュー機能を使用して、変更点が反映されているか確認してみましょう。プレビューウィンドウがすでに開いている場合には、変更点の保存後、即時に、画面が更新されます。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:14
 msgid "run the project on Monaca Debugger"
@@ -1582,7 +1760,9 @@ msgstr "Chrome DevTools を使用して、プロジェクトをデバッグし�
 msgid ""
 "Pair the Monaca Debugger with the PC hosting Monaca Localkit. Please refer "
 "to :ref:`localkit_pairing_debugging`."
-msgstr "Monaca デバッガーと PC ( Monaca Localkit が実行中であること ) をペアリングします。詳細は、 :ref:`localkit_pairing_debugging` をご確認ください。"
+msgstr ""
+"Monaca デバッガーと PC ( Monaca Localkit が実行中であること ) をペアリングします。詳細は、 "
+":ref:`localkit_pairing_debugging` をご確認ください。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:43
 msgid ""
@@ -1590,7 +1770,10 @@ msgid ""
 "and the connected debugger will appear in the Monaca Localkit (see a "
 "screenshot below as an example). However, if you failed the pairing, please "
 "refer to :ref:`troubleshoot the Pairing <troubleshoot_pair>`."
-msgstr "ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、Monaca Localkit 上には、接続されたデバッガーが表示されます ( 下のスクリーンショットを参照のこと )。ペアリングが失敗する場合には、 :ref:`ペアリングのトラブルシューティング <troubleshoot_pair>` をご確認ください。"
+msgstr ""
+"ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、Monaca Localkit 上には、接続されたデバッガーが表示されます "
+"( 下のスクリーンショットを参照のこと )。ペアリングが失敗する場合には、 :ref:`ペアリングのトラブルシューティング "
+"<troubleshoot_pair>` をご確認ください。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:49
 #: ../doc/quick_start/monaca_intro.rst:82
@@ -1608,14 +1791,18 @@ msgid ""
 "Then, run the project on Monaca Debugger. To do this, you can either click "
 "on the project name in Monaca Debugger or click :guilabel:`Run` button in "
 "Monaca Localkit."
-msgstr "Monaca デバッガー上で、プロジェクトを実行します。実行する場合には、Monaca デバッガー上に表示されたプロジェクト名をタップするか、または、Monaca Localkit の :guilabel:`実行` ボタンをクリックします。"
+msgstr ""
+"Monaca デバッガー上で、プロジェクトを実行します。実行する場合には、Monaca "
+"デバッガー上に表示されたプロジェクト名をタップするか、または、Monaca Localkit の :guilabel:`実行` ボタンをクリックします。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:61
 msgid ""
 "Now the screen on your device should look like a screenshot below. Use "
 ":guilabel:`Back` button within Debugger Menu button to go back to the "
 "Project List screen."
-msgstr "下のスクリーンショットのような画面が、端末に表示されます。デバッガーメニュー上の :guilabel:`戻る` ボタンをタップすれば、プロジェクト一覧画面に戻ります。"
+msgstr ""
+"下のスクリーンショットのような画面が、端末に表示されます。デバッガーメニュー上の :guilabel:`戻る` "
+"ボタンをタップすれば、プロジェクト一覧画面に戻ります。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:73
 msgid ""
@@ -1636,7 +1823,13 @@ msgid ""
 "button is enable by default. This allows the real-time updates between the "
 "debugger and Monaca Localkit. Turn this off if you want to disable this "
 "real-time update."
-msgstr "プロジェクトファイルに変更を加えて、保存しましょう ( 詳細は、 :ref:`プロジェクトファイルの編集 <edit_project_localkit>` を参照のこと )。たとえば、 ``index.html`` ファイル内に記述されたアプリのタイトルを変更したり、または、 ``style.css`` ファイル内で、ページのスタイルを変更してみましょう。また、Monaca Localkit の :guilabel:`ライブリロード` 機能は、デフォルトで有効化されています。よって、Monaca Localkit とデバッガー間で、リアルタイムの同期が行われます。オフにした場合、リアルタイムでの同期は行われません。"
+msgstr ""
+"プロジェクトファイルに変更を加えて、保存しましょう ( 詳細は、 :ref:`プロジェクトファイルの編集 "
+"<edit_project_localkit>` を参照のこと )。たとえば、 ``index.html`` "
+"ファイル内に記述されたアプリのタイトルを変更したり、または、 ``style.css`` "
+"ファイル内で、ページのスタイルを変更してみましょう。また、Monaca Localkit の :guilabel:`ライブリロード` "
+"機能は、デフォルトで有効化されています。よって、Monaca Localkit "
+"とデバッガー間で、リアルタイムの同期が行われます。オフにした場合、リアルタイムでの同期は行われません。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:95
 msgid ""
@@ -1644,7 +1837,9 @@ msgid ""
 "Debugger on your device. You can also click on :guilabel:`Refresh` button to"
 " retrieve the latest updates of your app in case the changes are not "
 "reflected."
-msgstr "保存された変更点は、Monaca デバッガー上のアプリに、即時に反映されます。反映されない場合には、デバッガーメニュー上の :guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
+msgstr ""
+"保存された変更点は、Monaca デバッガー上のアプリに、即時に反映されます。反映されない場合には、デバッガーメニュー上の :guilabel:`更新`"
+" ボタンをタップすれば、最新の内容を反映できます。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:105
 msgid "Step 3: Debug the project with Monaca Debugger"
@@ -1657,7 +1852,11 @@ msgid ""
 "starting this USB debugging, please make sure to :ref:`enable USB Debugging "
 "option <pre_debug_app>` on your device with appropriate version of Monaca "
 "Debugger."
-msgstr "Monaca Localkit では、 `Chrome DevTools <https://developer.chrome.com/devtools>`_ を使用して、アプリをデバッグできます ( USB 接続を使用 )。USB デバッグを始める前に、 :ref:`USB デバッグの有効化 <pre_debug_app>` の内容を読み、このデバッグ方法をサポートする Monaca デバッガーのバージョンをご確認ください。"
+msgstr ""
+"Monaca Localkit では、 `Chrome DevTools "
+"<https://developer.chrome.com/devtools>`_ を使用して、アプリをデバッグできます ( USB 接続を使用 "
+")。USB デバッグを始める前に、 :ref:`USB デバッグの有効化 <pre_debug_app>` の内容を読み、このデバッグ方法をサポートする"
+" Monaca デバッガーのバージョンをご確認ください。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:111
 msgid ""
@@ -1674,14 +1873,22 @@ msgid ""
 "<https://developer.chrome.com/devtools/docs/javascript-debugging>`_ with "
 "Chrome DevTools. However, if the Chrome DevTools are failed to open, please "
 "refer to :ref:`troubleshoot_inspector`."
-msgstr "Chrome DevTools が、ホスト PC 側で起動します。ここで、アプリの検証とデバッグを行えます。詳細は、Chrome DevTools の各機能の解説 ( `DOM/スタイルの検証 <https://developer.chrome.com/devtools/docs/dom-and-styles>`_ 、 `JavaScript のデバッグ <https://developer.chrome.com/devtools/docs/javascript-debugging>`_ など ) をご確認ください。また、Chrome DevTools を起動できない場合には、 :ref:`troubleshoot_inspector` をご確認ください。"
+msgstr ""
+"Chrome DevTools が、ホスト PC 側で起動します。ここで、アプリの検証とデバッグを行えます。詳細は、Chrome DevTools "
+"の各機能の解説 ( `DOM/スタイルの検証 <https://developer.chrome.com/devtools/docs/dom-and-"
+"styles>`_ 、 `JavaScript のデバッグ <https://developer.chrome.com/devtools/docs"
+"/javascript-debugging>`_ など ) をご確認ください。また、Chrome DevTools を起動できない場合には、 "
+":ref:`troubleshoot_inspector` をご確認ください。"
 
 #: ../doc/quick_start/localkit/testing_debugging.rst:127
 msgid ""
 "You can also open the Chrome DevTools directly from Monaca Localkit. Select "
 "a project you want to debug and then click on :guilabel:`Inspector` button "
 "of the paired debugger (see the screenshot below)."
-msgstr "Chrome DevTools は、Monaca Localkit から、直接、起動することもできます。その場合、Monaca Localkit 上で、デバッグ対象のプロジェクトを選択して、次に、[ ペアリング済みのデバッガー ] に表示されたデバッガーの :guilabel:`インスペクタ` ボタンをタップします ( 下のスクリーンショットを参照のこと )。"
+msgstr ""
+"Chrome DevTools は、Monaca Localkit から、直接、起動することもできます。その場合、Monaca Localkit "
+"上で、デバッグ対象のプロジェクトを選択して、次に、[ ペアリング済みのデバッガー ] に表示されたデバッガーの :guilabel:`インスペクタ` "
+"ボタンをタップします ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/quick_start/monaca_intro.rst:5
 msgid "Monaca Development Overview"
@@ -1697,7 +1904,10 @@ msgid ""
 "provided by Asial Corporation. Monaca does not only provide you with a "
 "development environment at your fingertips but also allows anyone to be able"
 " to develop smartphone applications easier."
-msgstr "Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発ツール、Web サービスなどの総称です。Monaca では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発ツール・ Web サービスに加え、サポート ( StackOverFlow での議論の場、情報提供用のブログ、ツールの取扱説明書など ) も提供しています。"
+msgstr ""
+"Monaca は、アシアル株式会社が提供する、スマートフォン・タブレット向けアプリの開発ツール、Web サービスなどの総称です。Monaca "
+"では、スマートフォン向けのアプリ開発が、誰でも簡単にできるように、各種開発ツール・ Web サービスに加え、サポート ( StackOverFlow "
+"での議論の場、情報提供用のブログ、ツールの取扱説明書など ) も提供しています。"
 
 #: ../doc/quick_start/monaca_intro.rst:18
 msgid ""
@@ -1708,7 +1918,14 @@ msgid ""
 "agnostic and adaptive, ready to be immediately plugged into your existing "
 "workflow and development environment, creating the most open Cordova "
 "platform available."
-msgstr "Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` 技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツールおよび Web サービスを提供しています。これにより、「 :ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca が提供する開発ツールは、特定のフレームワークには依存していないため、柔軟性があり、現在の開発工程・開発環境にも、スムーズに導入できます。また、Cordova プラグインの組み込みも簡単に行えます。"
+msgstr ""
+"Monaca では、:ref:`ハイブリッド <feature_hybrid_app>` "
+"技術を駆使して、モバイルアプリを開発できます。また、Monaca では、HTML5 "
+"を使用した、クロスプラットフォーム開発を実現するため、PhoneGap/Cordova "
+"を採用し、加えて、開発効率を向上させるため、クラウド技術を使用した、統合的な開発ツールおよび Web サービスを提供しています。これにより、「 "
+":ref:`ハイブリッド モバイル アプリ <feature_hybrid_app>` 」 の開発を、容易に開始できます。また、Monaca "
+"が提供する開発ツールは、特定のフレームワークには依存していないため、柔軟性があり、現在の開発工程・開発環境にも、スムーズに導入できます。また、Cordova"
+" プラグインの組み込みも簡単に行えます。"
 
 #: ../doc/quick_start/monaca_intro.rst:23
 msgid "Why using Monaca?"
@@ -1726,7 +1943,9 @@ msgid ""
 "synced local development enables you to use your own environment but enjoy "
 "features like device live-sync and remote build. It’s the best of both "
 "worlds."
-msgstr "クラウドを活用した開発環境 : Monaca が提供するツールは、クラウド技術を活用して、さまざまな側面で、アプリの開発をサポートしてくれます。開発環境をクラウド上に構築したことで、特別なセットアップをせずとも、さまざまな柔軟性を引き出すことができます。たとえば、クラウド経由で、ローカル環境との同期ができ、現在お使いの環境をそのまま利用して、開発を行えます。また、クラウド経由で、モバイル端末とのリアルタイムの同期、リモードビルドなども行えます。よって、クラウドとローカル環境の両方を活用できます。"
+msgstr ""
+"クラウドを活用した開発環境 : Monaca "
+"が提供するツールは、クラウド技術を活用して、さまざまな側面で、アプリの開発をサポートしてくれます。開発環境をクラウド上に構築したことで、特別なセットアップをせずとも、さまざまな柔軟性を引き出すことができます。たとえば、クラウド経由で、ローカル環境との同期ができ、現在お使いの環境をそのまま利用して、開発を行えます。また、クラウド経由で、モバイル端末とのリアルタイムの同期、リモードビルドなども行えます。よって、クラウドとローカル環境の両方を活用できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:29
 msgid ""
@@ -1735,7 +1954,11 @@ msgid ""
 "distribution. Monaca can be used as a whole or a piece, working with your "
 "favorite tools like Sublime Text or Git. Just pick what you need. We will "
 "seamlessly plug into your workflow."
-msgstr "組み合わせ自由 : Monaca は、設計から配布に至るまで、すべての工程 ( 設計・開発・バックエンド開発・検証・デバッグ・ビルド・配布 ) をカバーしています。全工程で もしくは ある工程だけで、または、全機能を もしくは ある機能だけを、お好みでチョイスして、Monaca を使用できます。また、他のツール ( Sublime Text、Git など ) との組み合わせも自由自在です。よって、どの開発工程からでも、Monaca をスムーズに導入できます。"
+msgstr ""
+"組み合わせ自由 : Monaca は、設計から配布に至るまで、すべての工程 ( 設計・開発・バックエンド開発・検証・デバッグ・ビルド・配布 ) "
+"をカバーしています。全工程で もしくは ある工程だけで、または、全機能を もしくは ある機能だけを、お好みでチョイスして、Monaca "
+"を使用できます。また、他のツール ( Sublime Text、Git など ) "
+"との組み合わせも自由自在です。よって、どの開発工程からでも、Monaca をスムーズに導入できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:31
 msgid ""
@@ -1745,7 +1968,15 @@ msgid ""
 "example, can seamlessly use our :ref:`CLI <monaca_cli_index>` to take "
 "advantages of the cloud-powered services without switching or any "
 "complicated porting. We take OPEN seriously."
-msgstr "非依存型 ( フロントエンドに使用する各種フレームワークからの独立、併用可能な開発ツール群 ) : 使用するフレームワークは、開発者が自由に選択できます。お勧めの UI フレームワークとして、私たちが開発している `Onsen フレームワーク <http://onsen.io/>`_ ( オープンソース、バージョン 1 は Angular に依存 ) がありますが、基本的に、使用するフレームワークは、開発者が自由に選択できます。また、お勧めのツールとしては、:ref:`Monaca CLI <monaca_cli_index>` があります。このツールを使用すれば、開発環境の切り替え、別環境への移植作業などをせずに、現在お使いの開発環境で、Monaca クラウドが提供している各種 Web サービスを利用することができます ( 特に、Ionic、Cordova を使用してきた開発者の方に、Monaca CLI をお勧めします )。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
+msgstr ""
+"非依存型 ( フロントエンドに使用する各種フレームワークからの独立、併用可能な開発ツール群 ) : "
+"使用するフレームワークは、開発者が自由に選択できます。お勧めの UI フレームワークとして、私たちが開発している `Onsen フレームワーク "
+"<http://onsen.io/>`_ ( オープンソース、バージョン 1 は Angular に依存 ) "
+"がありますが、基本的に、使用するフレームワークは、開発者が自由に選択できます。また、お勧めのツールとしては、:ref:`Monaca CLI "
+"<monaca_cli_index>` "
+"があります。このツールを使用すれば、開発環境の切り替え、別環境への移植作業などをせずに、現在お使いの開発環境で、Monaca クラウドが提供している各種"
+" Web サービスを利用することができます ( 特に、Ionic、Cordova を使用してきた開発者の方に、Monaca CLI をお勧めします "
+")。Monaca は、「 開発者の自由度の向上 」 を真剣に考えています !"
 
 #: ../doc/quick_start/monaca_intro.rst:36
 msgid "Monaca Development Tools"
@@ -1756,7 +1987,9 @@ msgid ""
 "For your flexibility and convenience during app development process, Monaca "
 "provides four different development environments as shown in the following "
 "subsections."
-msgstr "Monaca では、アプリ開発の各工程で利用できる、次の 4 種類の開発環境を提供しています。これらの開発環境を活用すれば、より効果的に、より柔軟に、開発を行えます。"
+msgstr ""
+"Monaca では、アプリ開発の各工程で利用できる、次の 4 "
+"種類の開発環境を提供しています。これらの開発環境を活用すれば、より効果的に、より柔軟に、開発を行えます。"
 
 #: ../doc/quick_start/monaca_intro.rst:41
 #: ../doc/quick_start/monaca_intro.rst:99
@@ -1773,7 +2006,13 @@ msgid ""
 "Cordova plugins nor native functions in Live Preview. Therefore, the app "
 "required those plugins and functions can't be previewed properly. :ref:`Read"
 " more <monaca_ide_index>`."
-msgstr "Monaca クラウド IDE は、ブラウザー上で動作する開発環境です。モバイルアプリ開発工程のほとんどを、Web ブラウザー上で行え、手間のかかる設定も必要ありません。また、:ref:`monaca_debugger_intro` とライブプレビュー ( Monaca クラウド IDE に実装されている機能 ) を併用して、開発中でも、アプリの動作検証を行えます。なお、ライブプレビュー機能では、Cordova プラグインまたはネイティブのプラグインをサポートしていないため ( 正しくプレビューできません )、検証・デバッグ時には、Monaca デバッガーも併用することを推奨します。:ref:`詳細はこちら。 <monaca_ide_index>`"
+msgstr ""
+"Monaca クラウド IDE は、ブラウザー上で動作する開発環境です。モバイルアプリ開発工程のほとんどを、Web "
+"ブラウザー上で行え、手間のかかる設定も必要ありません。また、:ref:`monaca_debugger_intro` とライブプレビュー ( "
+"Monaca クラウド IDE に実装されている機能 ) "
+"を併用して、開発中でも、アプリの動作検証を行えます。なお、ライブプレビュー機能では、Cordova "
+"プラグインまたはネイティブのプラグインをサポートしていないため ( 正しくプレビューできません )、検証・デバッグ時には、Monaca "
+"デバッガーも併用することを推奨します。:ref:`詳細はこちら。 <monaca_ide_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:49
 msgid "Overview of Monaca Cloud IDE"
@@ -1788,7 +2027,12 @@ msgid ""
 " with the versatile development support capabilities of Monaca. With Monaca "
 "Localkit, Monaca users are able to setup their preferred development "
 "environment on local PC. :ref:`Read more <monaca_localkit_index>`."
-msgstr "Monaca Localkit は、Monaca と連携して使用できる、ローカル環境用の開発ツールです。使い慣れたアプリ開発環境・ツール ( 各種エディター、バージョン管理システムなど ) と併用でき、よりセキュアで、ストレスフリーな開発を行えます。また、Monaca と連携することで、Monaca に実装されている、多様な開発サポート機能も活用できます。また、Monaca Localkit を使用すれば、ローカル PC　( Windows/Mac ) 上で、お好みの開発環境を使用して、開発を行えます。:ref:`詳細はこちら。 <monaca_localkit_index>`"
+msgstr ""
+"Monaca Localkit は、Monaca と連携して使用できる、ローカル環境用の開発ツールです。使い慣れたアプリ開発環境・ツール ( "
+"各種エディター、バージョン管理システムなど ) と併用でき、よりセキュアで、ストレスフリーな開発を行えます。また、Monaca "
+"と連携することで、Monaca に実装されている、多様な開発サポート機能も活用できます。また、Monaca Localkit を使用すれば、ローカル "
+"PC　( Windows/Mac ) 上で、お好みの開発環境を使用して、開発を行えます。:ref:`詳細はこちら。 "
+"<monaca_localkit_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:61
 msgid "Overview of Monaca Localkit"
@@ -1804,7 +2048,11 @@ msgid ""
 "the debugger connection, inspector integration, project creation and remote "
 "building. You can also import projects that exist in the cloud when you want"
 " to switch your environment to local. :ref:`Read more <monaca_cli_index>`."
-msgstr "Monaca CLI は、コマンドライン形式のインターフェイスです。CLI を介して、Monaca がクラウドで提供しているサービスを利用できます。CLI を使用して、たとえば、デバッガーとの接続、インスペクタとの連携、プロジェクトの作成、プロジェクトのリモートビルドなど、多岐にわたる処理を行えます。また、クラウド上に保存されているプロジェクトをローカルにインポートできます。このインポート機能は、クラウドからローカルへ環境を切り替える場合に有用です。 :ref:`詳細はこちら <monaca_cli_index>`。"
+msgstr ""
+"Monaca CLI は、コマンドライン形式のインターフェイスです。CLI を介して、Monaca "
+"がクラウドで提供しているサービスを利用できます。CLI "
+"を使用して、たとえば、デバッガーとの接続、インスペクタとの連携、プロジェクトの作成、プロジェクトのリモートビルドなど、多岐にわたる処理を行えます。また、クラウド上に保存されているプロジェクトをローカルにインポートできます。このインポート機能は、クラウドからローカルへ環境を切り替える場合に有用です。"
+" :ref:`詳細はこちら <monaca_cli_index>`。"
 
 #: ../doc/quick_start/monaca_intro.rst:69
 msgid "Monaca for Visual Studio"
@@ -1816,7 +2064,11 @@ msgid ""
 "Monaca. With this tool, Monaca users are able to develop an app using Visual"
 " Studio as the development environment. It’s free if you are a Visual Studio"
 " Community user. :ref:`Read more <monaca_vs_index>`."
-msgstr "Monaca for Visual Studio は、Monaca が提供する、もう一つのローカル環境用の開発ツールです。こちらのツールを使用すれば、開発環境として、Visual Studio を利用して、アプリを開発できます。また、Visual Studio Community のユーザーであれば、無料で使用できます。:ref:`詳細はこちら。 <monaca_vs_index>`"
+msgstr ""
+"Monaca for Visual Studio は、Monaca "
+"が提供する、もう一つのローカル環境用の開発ツールです。こちらのツールを使用すれば、開発環境として、Visual Studio "
+"を利用して、アプリを開発できます。また、Visual Studio Community "
+"のユーザーであれば、無料で使用できます。:ref:`詳細はこちら。 <monaca_vs_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:77
 msgid "Overview of Monaca for Visual Studio"
@@ -1831,7 +2083,11 @@ msgid ""
 " needs to be installed on your mobile devices. The app will automatically "
 "sync all your development projects and run them without the build process. "
 ":ref:`Read more <monaca_debugger_index>`."
-msgstr "上述のような多様な開発環境の提供に加えて、Monaca では、Monaca デバッガーを提供しています。Monaca デバッガーは、デバッグ用のアプリであり、このアプリを使用してデバッグを行えば、デバッグ効率を大幅に向上できます。このアプリでは、他の環境で開発中のプロジェクトと自動で同期が行われるので、プロジェクトの更新のたびにビルドをせずとも、コーディング中のアプリを端末上で実行できます ( よって、Monaca デバッガーでは、開発中のアプリの動作を端末上で、リアルタイムに検証できます )。他のアプリ同様、Monaca デバッガーアプリも端末にインストールして使用します。:ref:`詳細はこちら。 <monaca_debugger_index>`"
+msgstr ""
+"上述のような多様な開発環境の提供に加えて、Monaca では、Monaca デバッガーを提供しています。Monaca "
+"デバッガーは、デバッグ用のアプリであり、このアプリを使用してデバッグを行えば、デバッグ効率を大幅に向上できます。このアプリでは、他の環境で開発中のプロジェクトと自動で同期が行われるので、プロジェクトの更新のたびにビルドをせずとも、コーディング中のアプリを端末上で実行できます"
+" ( よって、Monaca デバッガーでは、開発中のアプリの動作を端末上で、リアルタイムに検証できます )。他のアプリ同様、Monaca "
+"デバッガーアプリも端末にインストールして使用します。:ref:`詳細はこちら。 <monaca_debugger_index>`"
 
 #: ../doc/quick_start/monaca_intro.rst:90
 msgid "Monaca Debugger App"
@@ -1842,7 +2098,9 @@ msgid ""
 "Here is a table summarizing the debugging options between Monaca Debugger "
 "and Monaca development tools. For more information, please refer to "
 ":ref:`Debugging Monaca Apps <debugging_monaca_app>`."
-msgstr "Monaca 使用時のデバッグ方法の概要を、表と図で記します ( デバッグパネル・USB デバッグ・Monaca デバッガーを使用 )。詳細は、:ref:`Monaca アプリのデバッグ方法と具体例  <debugging_monaca_app>` をご確認ください。"
+msgstr ""
+"Monaca 使用時のデバッグ方法の概要を、表と図で記します ( デバッグパネル・USB デバッグ・Monaca デバッガーを使用 "
+")。詳細は、:ref:`Monaca アプリのデバッグ方法と具体例  <debugging_monaca_app>` をご確認ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:99
 msgid "*Monaca Development Tools*"
@@ -1869,7 +2127,9 @@ msgid ""
 "The OS of your device and PC isn't a problem. You can use this debug option "
 "whether you have a Mac/Windows and your device can either be an iOS or "
 "Android."
-msgstr "Monaca が推奨するブラウザーを使用しているのであれば、この機能を使用できます ( OS による影響は受けません )。いずれの OS ( Mac または Windows ) と端末 ( iOS または Android ) の組み合わせでも使用できます。"
+msgstr ""
+"Monaca が推奨するブラウザーを使用しているのであれば、この機能を使用できます ( OS による影響は受けません )。いずれの OS ( Mac "
+"または Windows ) と端末 ( iOS または Android ) の組み合わせでも使用できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:103
 msgid "Not available"
@@ -1885,7 +2145,10 @@ msgid ""
 "debugging) is only available on Mac. If you have an Android device, you can "
 "use either a Mac/Windows as long as you have a Chrome Browser (Chrome "
 "DevTools)."
-msgstr "このデバッグ方法の場合、iOS 端末をお持ちのときには Safari ( Safari のリモートデバッグ機能 ) が使用できる Mac 環境、一方、Android 端末をお持ちのときには Chrome ブラウザー ( Chrome DevTools のリモートデバッグ機能 ) が使用できる Mac または Windows 環境が必要となります。"
+msgstr ""
+"このデバッグ方法の場合、iOS 端末をお持ちのときには Safari ( Safari のリモートデバッグ機能 ) が使用できる Mac "
+"環境、一方、Android 端末をお持ちのときには Chrome ブラウザー ( Chrome DevTools のリモートデバッグ機能 ) "
+"が使用できる Mac または Windows 環境が必要となります。"
 
 #: ../doc/quick_start/monaca_intro.rst:116
 msgid "Relationship between Monaca Debugger and Monaca Development Tools"
@@ -1902,7 +2165,11 @@ msgid ""
 "has a basic plan. You can upgrade it later when you want. For detailed "
 "information of Monaca account types and theirs usages, please refer to "
 "`Monaca Pricing <https://monaca.io/pricing.html>`_."
-msgstr "Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca 料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
+"Monaca では、お客様の多様なニーズにお応えできるように、企業開発向けから Basic ( 無料 ) "
+"まで、さまざまな種類のアカウントをご用意しております。登録後のデフォルトのアカウントは、「 Basic タイプ 」 "
+"となります。追加機能をご希望される場合には、ご登録後にアップグレードできます。Monaca アカウントの種類とサービスに関しては、 `Monaca "
+"料金プラン <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/quick_start/monaca_intro.rst:125
 msgid "Monthly Plans:"
@@ -1922,7 +2189,9 @@ msgstr "無料トライアル期間中であれば、どの月額プランにで
 msgid ""
 "14 days after the subscription, you will be charged unless you switch to "
 "Basic plan. The first charge is calculated on a daily basis."
-msgstr "トライアル期間の終了後に、課金が開始されます。トライアル後は、ご利用日数に応じて、月末まで、日割で課金されます。ただし、Basic プランに変更した場合は、この限りではありません。"
+msgstr ""
+"トライアル期間の終了後に、課金が開始されます。トライアル後は、ご利用日数に応じて、月末まで、日割で課金されます。ただし、Basic "
+"プランに変更した場合は、この限りではありません。"
 
 #: ../doc/quick_start/monaca_intro.rst:130
 msgid ""
@@ -1948,7 +2217,10 @@ msgid ""
 "admission unless you switch to Basic plan. For example, you subscribe to "
 "annual plan on July 20th, 2016. Then, your next charge will be on August "
 "1st, 2017."
-msgstr "ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic プランに変更した場合は、この限りではありません )。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
+msgstr ""
+"ご契約の更新日は、登録月から起算して、13 ヶ月目の 1 日となります ( ただし、契約途中で Basic "
+"プランに変更した場合は、この限りではありません "
+")。たとえば、2016年7月20日に、年額プランにご登録された場合、更新日は、2017年8月1日になります。"
 
 #: ../doc/quick_start/monaca_intro.rst:138
 msgid "If you use Activation Code:"
@@ -1986,7 +2258,10 @@ msgid ""
 "other supported platforms, since it runs on WebView component of those "
 "platforms. Therefore, one source code can run on multiple supported "
 "platforms."
-msgstr "オペレーティングシステムの違いに関わらず、ハイブリッドアプリは、ブラウザーコンポーネント ( クロスプラットフォームをサポート ) 上で動作します。つまり、WebView コンポーネントをサポートしていれば、どのオペレーティングシステム ( iOS・Android・その他 ) でも、ハイブリッドアプリは、動作します。言い換えれば、ソースコードをひとつ組めば、複数のプラットフォームで実行できます。"
+msgstr ""
+"オペレーティングシステムの違いに関わらず、ハイブリッドアプリは、ブラウザーコンポーネント ( クロスプラットフォームをサポート ) "
+"上で動作します。つまり、WebView コンポーネントをサポートしていれば、どのオペレーティングシステム ( iOS・Android・その他 ) "
+"でも、ハイブリッドアプリは、動作します。言い換えれば、ソースコードをひとつ組めば、複数のプラットフォームで実行できます。"
 
 #: ../doc/quick_start/monaca_intro.rst:157
 msgid "Differences between Native, Hybrid, and Web Apps"
@@ -2015,7 +2290,10 @@ msgid ""
 "iOS/Android apps run on Cordova and use `PhoneGap <http://phonegap.com/>`_, "
 "a JavaScript library, to access native functions of a device. Windows apps "
 "run on Windows runtime while Chrome apps run on Chrome runtime."
-msgstr "iOS・Android アプリは、Cordova 上で実行され、端末側のネイティブ機能にアクセスするときは、 `PhoneGap <http://phonegap.com/>`_ ( JavaScript ライブラリー ) を使用します。また、Windows アプリは、Windows ランタイム上で実行され、Chrome アプリは、Chrome ランタイム上で実行されます。"
+msgstr ""
+"iOS・Android アプリは、Cordova 上で実行され、端末側のネイティブ機能にアクセスするときは、 `PhoneGap "
+"<http://phonegap.com/>`_ ( JavaScript ライブラリー ) を使用します。また、Windows "
+"アプリは、Windows ランタイム上で実行され、Chrome アプリは、Chrome ランタイム上で実行されます。"
 
 #: ../doc/quick_start/monaca_intro.rst:170
 msgid "*See Also*"
@@ -2059,11 +2337,14 @@ msgid ""
 "version of your app for iOS which will be installed on the development "
 "device. For more information about other types of build, please refer to "
 ":ref:`types_of_build_ios`."
-msgstr "端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、ここでは解説します。ビルドの種類に関する詳細は、 :ref:`types_of_build_ios` をご確認ください。"
+msgstr ""
+"端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、ここでは解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_ios` をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:41
 msgid "From Monaca panel, select :menuselection:`Build Settings --> iOS App`."
-msgstr "Monaca パネル上で :menuselection:`ビルド設定 --> iOS アプリ ( 表示されるウィンドウの左下 )` を選択します。"
+msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> iOS アプリ ( 表示されるウィンドウの左下 )` を選択します。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:45
 #: ../doc/quick_start/monaca_vs/building_app.rst:133
@@ -2080,7 +2361,8 @@ msgstr "他の設定項目は、任意です。こちらの設定画面では、
 #: ../doc/quick_start/monaca_vs/building_app.rst:64
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> iOS Build`."
-msgstr "Monaca パネル上で :menuselection:`ビルド設定 --> iOS ビルド ( 表示されるウィンドウの左下 )` を選択します。"
+msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> iOS ビルド ( 表示されるウィンドウの左下 )` を選択します。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:66
 msgid ""
@@ -2088,13 +2370,18 @@ msgid ""
 "information (user name and email address). Then, click :guilabel:`Generate "
 "Key and CSR` button. You can also import an existing private key if you have"
 " one."
-msgstr "[ 秘密鍵と CSR ] 欄の :guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` ボタンをクリックします。なお、既存の秘密鍵を使用する場合には、設定画面の :guilabel:`インポート...` ボタンをクリックします。"
+msgstr ""
+"[ 秘密鍵と CSR ] 欄の :guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID "
+"の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` "
+"ボタンをクリックします。なお、既存の秘密鍵を使用する場合には、設定画面の :guilabel:`インポート...` ボタンをクリックします。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:74
 msgid ""
 "Export the Certificate Signing Request (CSR) file. It will be required to "
 "issue the certificates later in iOS Provisioning Portal."
-msgstr "CSR ( Certificate Signing Request/証明書署名要求 ) ファイルをエクスポートします。iOS Provisioning Portal 上で、証明書を発行するときに、このファイルが必要となります。"
+msgstr ""
+"CSR ( Certificate Signing Request/証明書署名要求 ) ファイルをエクスポートします。iOS Provisioning "
+"Portal 上で、証明書を発行するときに、このファイルが必要となります。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:82
 msgid ""
@@ -2102,7 +2389,9 @@ msgid ""
 "which are issued based on that imported private key. However, if you create "
 "a new private key, you will need to use the new CRS file to issue new "
 "certificates."
-msgstr "既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書を使用する必要があります。一方、新規の秘密鍵を作成する場合、新規の CRS ファイルを使用して、証明書を新規発行します。"
+msgstr ""
+"既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書を使用する必要があります。一方、新規の秘密鍵を作成する場合、新規の CRS"
+" ファイルを使用して、証明書を新規発行します。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:88
 #: ../doc/quick_start/monaca_vs/building_app.rst:183
@@ -2138,12 +2427,16 @@ msgid ""
 "This section will cover an instruction of how to create a debug build "
 "version of your app for Android. For more information about other types of "
 "build, please refer to :ref:`types_of_build_android`."
-msgstr "デバッグビルド版 Android 向けアプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 :ref:`types_of_build_android` をご確認ください。"
+msgstr ""
+"デバッグビルド版 Android 向けアプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
+":ref:`types_of_build_android` をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:129
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> Android App`."
-msgstr "Monaca パネル上で :menuselection:`ビルド設定 --> Android アプリ ( 表示されるウィンドウの左下 )` を選択します。"
+msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> Android アプリ ( 表示されるウィンドウの左下 )` "
+"を選択します。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:136
 msgid ""
@@ -2154,7 +2447,12 @@ msgid ""
 "this option is disable by default because it made some plugins impossible to"
 " be debugged due to the fact that they are tied to exact package names (for "
 "example, in-app purchase)."
-msgstr "ビルド種別ごとにパッケージ名を分ける : チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は ``.debug`` となり、カスタムビルド版デバッガーのパッケージ名の拡張子は ``.debugger`` となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
+msgstr ""
+"ビルド種別ごとにパッケージ名を分ける : "
+"チェックをした場合、デバッグビルド版アプリのパッケージ名とカスタムビルド版デバッガーのパッケージ名は、異なる名になります。デバッグビルド版アプリのパッケージ名の拡張子は"
+" ``.debug`` となり、カスタムビルド版デバッガーのパッケージ名の拡張子は ``.debugger`` "
+"となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase"
+" など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:151
 msgid ""
@@ -2163,7 +2461,10 @@ msgid ""
 "impossible to re-sign the signed package with the same key. One keystore can"
 " contain multiple aliases, but only one alias is used for code signing an "
 "application."
-msgstr "Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時に使用するエイリアスは 1 つだけです。"
+msgstr ""
+"Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) "
+"を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 "
+"つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時に使用するエイリアスは 1 つだけです。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:153
 msgid ""
@@ -2173,7 +2474,9 @@ msgstr "Monaca での Android キーストアの設定方法は、次のとお�
 #: ../doc/quick_start/monaca_vs/building_app.rst:155
 msgid ""
 "From Monaca panel, select :menuselection:`Build Settings --> Android Build`."
-msgstr "Monaca パネル上で :menuselection:`ビルド設定 --> Android ビルド ( 表示されるウィンドウの左下 )` を選択します。"
+msgstr ""
+"Monaca パネル上で :menuselection:`ビルド設定 --> Android ビルド ( 表示されるウィンドウの左下 )` "
+"を選択します。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:157
 msgid ""
@@ -2181,7 +2484,9 @@ msgid ""
 " can also import an existing keystore. In this tutorial, we assume that you "
 "need to create a new keystore. Therefore, click on :guilabel:`Clear and "
 "Generate New...` button."
-msgstr "キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、:guilabel:`初期化して作成 ...` ボタンをクリックします。"
+msgstr ""
+"キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、:guilabel:`初期化して作成"
+" ...` ボタンをクリックします。"
 
 #: ../doc/quick_start/monaca_vs/building_app.rst:165
 msgid "Fill in the necessary information related to the keystore such as:"
@@ -2233,7 +2538,9 @@ msgstr "Monaca for Visual Studio チュートリアル"
 msgid ""
 "Monaca for Visual Studio is an extension which allows you to develop Monaca "
 "applications using Microsoft Visual Studio IDE."
-msgstr "Monaca for Visual Studio は、Visual Studio の拡張機能です。この拡張機能を使用すれば、Microsoft Visual Studio IDE を使用して、Monaca アプリを開発できます。"
+msgstr ""
+"Monaca for Visual Studio は、Visual Studio の拡張機能です。この拡張機能を使用すれば、Microsoft "
+"Visual Studio IDE を使用して、Monaca アプリを開発できます。"
 
 #: ../doc/quick_start/monaca_vs/index.rst:8
 msgid ""
@@ -2241,7 +2548,10 @@ msgid ""
 " Visual Studio 2015 Community Edition, Professional Edition or higher "
 "editions. Also, you need to subscribe to a valid plan. Please refer to "
 "`Pricing <https://monaca.io/pricing.html>`_."
-msgstr "Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community エディション、Professional エディション、または、それ以上のエディションが必要となります。また、対応するプランへの加入が必要です。詳細は、 `プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
+msgstr ""
+"Monaca for Visual Studio のご利用には、Microsoft Visual Studio 2015 Community "
+"エディション、Professional エディション、または、それ以上のエディションが必要となります。また、対応するプランへの加入が必要です。詳細は、 "
+"`プランの解説 <https://ja.monaca.io/pricing.html>`_ をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/index.rst:10
 msgid "Before getting started with this tutorial, you will need to:"
@@ -2251,13 +2561,16 @@ msgstr "事前準備として、次の内容を行います。"
 msgid ""
 "get a Monaca account. If you don’t have one, please register `here "
 "<https://monaca.mobi/en/register/start>`_."
-msgstr "Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
+msgstr ""
+"Monaca アカウントの作成。 `こちら <https://monaca.mobi/ja/register/start>`_ から登録できます。"
 
 #: ../doc/quick_start/monaca_vs/index.rst:20
 msgid ""
 "install Monaca for Visual Studio extension. Please follow the installation "
 "instruction :ref:`here <monaca_vs_installation>`."
-msgstr "拡張機能 「 Monaca for Visual Studio 」 をインストールする。インストール手順に関しては、 :ref:`こちら <monaca_vs_installation>` をご確認ください。"
+msgstr ""
+"拡張機能 「 Monaca for Visual Studio 」 をインストールする。インストール手順に関しては、 :ref:`こちら "
+"<monaca_vs_installation>` をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/publishing_app.rst:29
 #: ../doc/quick_start/monaca_vs/starting_project.rst:129
@@ -2275,7 +2588,8 @@ msgstr "Visual Studio IDE 上で Monaca アプリを開発する場合には、�
 msgid ""
 "From Microsoft Visual Studio IDE menu, go to :menuselection:`MONACA --> Sign"
 " In`."
-msgstr "Microsoft Visual Studio IDE のメニューから、:menuselection:`Monaca --> ログイン` を選択します。"
+msgstr ""
+"Microsoft Visual Studio IDE のメニューから、:menuselection:`Monaca --> ログイン` を選択します。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:27
 msgid "Step 2: Starting a Project"
@@ -2311,7 +2625,9 @@ msgstr "プロジェクトを新規作成する場合、次の手順に従いま
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:43
 msgid "From Monaca panel, choose :guilabel:`Create a new project`."
-msgstr "Monaca パネル ( 前述の Monaca のログイン時に使用したパネル ) 上で、 :guilabel:`新しいプロジェクトの作成` を選択します。"
+msgstr ""
+"Monaca パネル ( 前述の Monaca のログイン時に使用したパネル ) 上で、 :guilabel:`新しいプロジェクトの作成` "
+"を選択します。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:45
 msgid ""
@@ -2319,7 +2635,12 @@ msgid ""
 "--> Apache Cordova Apps`. Then, choose a project template. Fill in the "
 "project's information such as project name, project directory and solution "
 "name. Then, click :guilabel:`OK`."
-msgstr "[ 新しいプロジェクト ] ウィンドウの左枠内から、 :menuselection:`テンプレート --> JavaScript --> Apache Cordova アプリ` を選択します。次に、プロジェクトのテンプレートを選択します ( プロジェクトの名前、場所、ソリューション名を入力 )。次に、:guilabel:`OK` をクリックします。なお、クリーンインストール後、そのままの状態では表示されるテンプレートはありません。Onsen UI のテンプレートを使用する場合には、[ 拡張機能と更新プログラム ] から [ Onsen UI Templates for Visual Studio 2015 ] をあらかじめダウンロードしておきます。"
+msgstr ""
+"[ 新しいプロジェクト ] ウィンドウの左枠内から、 :menuselection:`テンプレート --> JavaScript --> Apache "
+"Cordova アプリ` を選択します。次に、プロジェクトのテンプレートを選択します ( プロジェクトの名前、場所、ソリューション名を入力 "
+")。次に、:guilabel:`OK` をクリックします。なお、クリーンインストール後、そのままの状態では表示されるテンプレートはありません。Onsen"
+" UI のテンプレートを使用する場合には、[ 拡張機能と更新プログラム ] から [ Onsen UI Templates for Visual "
+"Studio 2015 ] をあらかじめダウンロードしておきます。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:53
 msgid ""
@@ -2327,7 +2648,11 @@ msgid ""
 "preview your project through Ripple Emulator. From Visual Studio menu, go to"
 " :menuselection:`Debug --> Start Debugging` or click the debug button as "
 "shown in the screenshot."
-msgstr "ここまでの手順でプロジェクトの新規作成が完了しました。Visual Studio では、Ripple エミュレーター上でプロジェクトの確認を行えるプレビュー機能を提供しています。この機能を使用する場合、Visual Studio のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択するか、または、デバッグボタン ( 下のスクリーンショットを参照のこと ) を実行します。"
+msgstr ""
+"ここまでの手順でプロジェクトの新規作成が完了しました。Visual Studio では、Ripple "
+"エミュレーター上でプロジェクトの確認を行えるプレビュー機能を提供しています。この機能を使用する場合、Visual Studio "
+"のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択するか、または、デバッグボタン ( "
+"下のスクリーンショットを参照のこと ) を実行します。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:61
 msgid "Then, the emulator window will appear."
@@ -2337,7 +2662,10 @@ msgstr "エミュレーター用のウィンドウが表示されます。"
 msgid ""
 "You can change the debugging device within Ripple Emulator by clicking on "
 "the dropdown menu of the debug button as shown below:"
-msgstr "Ripple エミュレーターがサポートしている端末であれば、デバッグする端末を変更することもできます。変更する場合には、デバッグボタンのドロップダウンメニューから端末を選択します ( 下のスクリーンショットを参照のこと )。"
+msgstr ""
+"Ripple "
+"エミュレーターがサポートしている端末であれば、デバッグする端末を変更することもできます。変更する場合には、デバッグボタンのドロップダウンメニューから端末を選択します"
+" ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:80
 msgid "Importing a Existing Monaca Project"
@@ -2348,7 +2676,9 @@ msgid ""
 "Currently, we don't have a direct importing feature for existing Monaca "
 "projects into Visual Studio. However, you can open existing Monaca projects "
 "as follows:"
-msgstr "現時点では、既存の Monaca プロジェクトを Visual Studio に直接インポートするための機能を提供していませんが、次のようにして、既存の Monaca プロジェクトを Visual Studio 上で開くことができます。"
+msgstr ""
+"現時点では、既存の Monaca プロジェクトを Visual Studio に直接インポートするための機能を提供していませんが、次のようにして、既存の"
+" Monaca プロジェクトを Visual Studio 上で開くことができます。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:84
 msgid ""
@@ -2356,14 +2686,20 @@ msgid ""
 ":menuselection:`Installed --> Templates --> JavaScript --> Apache Cordova "
 "Apps`. Then, choose :guilabel:`Blank App (Apache Cordova)` and click "
 ":guilabel:`OK`."
-msgstr "Apache Cordova の空のプロジェクトを作成します。[ 新しいプロジェクト ] ウィンドウ画面から、 :menuselection:`インストール済み --> テンプレート --> JavaScript --> Apache Cordova Apps` を選択します。次に、:guilabel:`空のアプリ ( Apache Cordova )` を選択して、:guilabel:`OK` をクリックします。"
+msgstr ""
+"Apache Cordova の空のプロジェクトを作成します。[ 新しいプロジェクト ] ウィンドウ画面から、 "
+":menuselection:`インストール済み --> テンプレート --> JavaScript --> Apache Cordova Apps` "
+"を選択します。次に、:guilabel:`空のアプリ ( Apache Cordova )` を選択して、:guilabel:`OK` "
+"をクリックします。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:93
 msgid ""
 "Copy ``www`` folder from the existing Monaca project and replace the ``www``"
 " folder inside your newly created project. After that, you can run the "
 "existing Monaca project within Visual Studio."
-msgstr "既存の Monaca プロジェクトの ``www`` フォルダーを使用して、上記で作成したプロジェクトの ``www`` フォルダーを、丸ごと置き換えれば、Visual Studio 上でも、既存の Monaca プロジェクトを実行できます。"
+msgstr ""
+"既存の Monaca プロジェクトの ``www`` フォルダーを使用して、上記で作成したプロジェクトの ``www`` "
+"フォルダーを、丸ごと置き換えれば、Visual Studio 上でも、既存の Monaca プロジェクトを実行できます。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:95
 msgid ""
@@ -2371,7 +2707,10 @@ msgid ""
 "expect. From Visual Studio menu, go to :menuselection:`Debug --> Start "
 "Debugging` or click the debug button as shown in the screenshot. Then, the "
 "emulator window will appear."
-msgstr "移植した既存のプロジェクトが Visual Studio 上でも正しく動作することを確認しましょう。Visual Studio のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択して、または、デバッグボタン ( 下のスクリーンショットを参照のこと ) を実行して、エミュレータ用のウィンドウを表示させ、動作確認してみましょう。"
+msgstr ""
+"移植した既存のプロジェクトが Visual Studio 上でも正しく動作することを確認しましょう。Visual Studio "
+"のメニューから、:menuselection:`デバッグ --> デバッグの開始` を選択して、または、デバッグボタン ( "
+"下のスクリーンショットを参照のこと ) を実行して、エミュレータ用のウィンドウを表示させ、動作確認してみましょう。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:107
 msgid "Step 3: Editing the Project Files"
@@ -2381,7 +2720,8 @@ msgstr "ステップ 3 : プロジェクトファイルの編集"
 msgid ""
 "Go to Solution Explorer panel in order to see all of the project files. All "
 "editable project files are listed under ``www`` folder."
-msgstr "ソリューション エクスプローラーのパネルを選択して、プロジェクトファイルを表示させます。``www`` 下に置かれているファイルのみ、編集できます。"
+msgstr ""
+"ソリューション エクスプローラーのパネルを選択して、プロジェクトファイルを表示させます。``www`` 下に置かれているファイルのみ、編集できます。"
 
 #: ../doc/quick_start/monaca_vs/starting_project.rst:117
 msgid "Choose a file to edit and make some changes."
@@ -2391,7 +2731,9 @@ msgstr "ファイルを選択して開き、変更を加えてみましょう。
 msgid ""
 "Save the changes. You will be able to see the changes reflected immediately "
 "on the emulator window or Monaca debugger (if it's connected)."
-msgstr "変更箇所を保存すると、Monaca デバッガー上または Ripple エミュレーター上にも、変更が即座に反映されます ( Monaca デバッガーに関しては、ペアリング済みであること )。"
+msgstr ""
+"変更箇所を保存すると、Monaca デバッガー上または Ripple エミュレーター上にも、変更が即座に反映されます ( Monaca "
+"デバッガーに関しては、ペアリング済みであること )。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:13
 msgid ""
@@ -2399,21 +2741,30 @@ msgid ""
 " connection is available, all changes made to your project files will be "
 "pushed into your Monaca Debugger in real-time as soon as you save those "
 "changes."
-msgstr "プロジェクトファイルに加えた変更は、保存後、即座に Monaca デバッガーに 「 プッシュ 」 されます ( Visual Studio IDE 上での Monaca アプリ開発時に、インターネットに接続されていること )。"
+msgstr ""
+"プロジェクトファイルに加えた変更は、保存後、即座に Monaca デバッガーに 「 プッシュ 」 されます ( Visual Studio IDE "
+"上での Monaca アプリ開発時に、インターネットに接続されていること )。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:39
 msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
 "for Monaca within Visual Studio IDE."
-msgstr "Monaca デバッガーを起動し、Monaca に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Visual Studio IDE の Monaca メニューで入力したものと同じものを使用します。"
+msgstr ""
+"Monaca デバッガーを起動し、Monaca "
+"に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Visual Studio IDE の Monaca "
+"メニューで入力したものと同じものを使用します。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:47
 msgid ""
 "Pair the Monaca Debugger with the PC hosting Monaca for Visual Studio. Once "
 "logged in, Monaca Debugger should be able to detect the host PC as shown "
 "below. Then, click :guilabel:`Pair` button to start the pairing."
-msgstr "Monaca デバッガーと ホスト PC ( Monaca for Visual Studio を起動中の PC ) をペアリングします。Monaca デバッガーおよび Monaca for Visual Studio の両方に、同一の Monaca アカウントでログインしていれば、Monaca デバッガー側で、ホスト PC を自動的に検知します ( 下のスクリーンショットを参照のこと )。次に、:guilabel:`ペアリング` ボタンをクリックします。"
+msgstr ""
+"Monaca デバッガーと ホスト PC ( Monaca for Visual Studio を起動中の PC ) をペアリングします。Monaca "
+"デバッガーおよび Monaca for Visual Studio の両方に、同一の Monaca アカウントでログインしていれば、Monaca "
+"デバッガー側で、ホスト PC を自動的に検知します ( 下のスクリーンショットを参照のこと )。次に、:guilabel:`ペアリング` "
+"ボタンをクリックします。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:55
 msgid ""
@@ -2422,7 +2773,10 @@ msgid ""
 " below as an example). However, if Monaca Debugger is unable to detect the "
 "host PC automatically, please refer to :ref:`troubleshooting the "
 "Pairing<troubleshoot_pair>`."
-msgstr "ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、一方、Monaca パネル上 ( Visual Studio ) には、接続されたデバッガーが表示されます ( 下のスクリーンショットを参照のこと )。Monaca デバッガーがホスト PC 側を自動的に検知できない場合には、:ref:`ペアリングのトラブルシューティング <troubleshoot_pair>` をご確認ください。"
+msgstr ""
+"ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、一方、Monaca パネル上 ( Visual Studio ) "
+"には、接続されたデバッガーが表示されます ( 下のスクリーンショットを参照のこと )。Monaca デバッガーがホスト PC "
+"側を自動的に検知できない場合には、:ref:`ペアリングのトラブルシューティング <troubleshoot_pair>` をご確認ください。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:67
 msgid "Monaca Panel within Visual Studio"
@@ -2434,7 +2788,10 @@ msgid ""
 "project name in the debugger or click :guilabel:`Run in Device` button in "
 "Monaca panel within Visual Studio. Then, your project should be running in "
 "the debugger as shown below:"
-msgstr "Monaca デバッガー上でプロジェクトを実行する場合、デバッガー上に表示されたプロジェクト名をタップするか、または、Visual Studio の Monaca パネル上で :guilabel:`デバイス上で実行` ボタンをクリックします。次に、デバッガー上でプロジェクトが実行されていることを確認します。"
+msgstr ""
+"Monaca デバッガー上でプロジェクトを実行する場合、デバッガー上に表示されたプロジェクト名をタップするか、または、Visual Studio の "
+"Monaca パネル上で :guilabel:`デバイス上で実行` "
+"ボタンをクリックします。次に、デバッガー上でプロジェクトが実行されていることを確認します。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:81
 msgid "Step 2: Real-time Updates between Your Project and Monaca Debugger"
@@ -2446,7 +2803,10 @@ msgid ""
 ":ref:`Edit Project Files <monaca_vs_edit_project>`). In this example, we "
 "edit :file:`index.html` and change the title of each list item from \"Rorem "
 "Ipsum\" to \"Monaca and OnsenUI\". Then, save the change."
-msgstr "プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 <monaca_vs_edit_project>` を参照のこと )。ここでは、:file:`index.html` 上で、各欄の見出しを 「 Rorem Ipsum 」 から 「 Monaca and OnsenUI 」 へ変更してみます。次に、保存します。"
+msgstr ""
+"プロジェクトファイルの内容を変更し、保存してみましょう ( :ref:`プロジェクトファイルの編集 <monaca_vs_edit_project>` "
+"を参照のこと )。ここでは、:file:`index.html` 上で、各欄の見出しを 「 Rorem Ipsum 」 から 「 Monaca and "
+"OnsenUI 」 へ変更してみます。次に、保存します。"
 
 #: ../doc/quick_start/monaca_vs/testing_debugging.rst:99
 msgid "Updated List Item Titles"
