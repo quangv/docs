@@ -5435,7 +5435,7 @@ msgstr ""
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:91
 #: ../doc/monaca_ide/tutorial/building_app.rst:222
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:25
-#: ../doc/monaca_ide/tutorial/starting_project.rst:108
+#: ../doc/monaca_ide/tutorial/starting_project.rst:112
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:115
 msgid "*See Also*:"
 msgstr ""
@@ -5450,26 +5450,26 @@ msgstr ""
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:94
 #: ../doc/monaca_ide/tutorial/building_app.rst:225
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:28
-#: ../doc/monaca_ide/tutorial/starting_project.rst:110
+#: ../doc/monaca_ide/tutorial/starting_project.rst:114
 msgid ":ref:`cloud_ide_testing_debugging`"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:95
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:30
-#: ../doc/monaca_ide/tutorial/starting_project.rst:112
+#: ../doc/monaca_ide/tutorial/starting_project.rst:116
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:119
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:96
 #: ../doc/monaca_ide/tutorial/building_app.rst:227
-#: ../doc/monaca_ide/tutorial/starting_project.rst:113
+#: ../doc/monaca_ide/tutorial/starting_project.rst:117
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:97
-#: ../doc/monaca_ide/tutorial/starting_project.rst:114
+#: ../doc/monaca_ide/tutorial/starting_project.rst:118
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:121
 msgid ":ref:`sample_apps_index`"
 msgstr ""
@@ -5716,7 +5716,7 @@ msgstr ""
 
 #: ../doc/monaca_ide/tutorial/building_app.rst:226
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:29
-#: ../doc/monaca_ide/tutorial/starting_project.rst:111
+#: ../doc/monaca_ide/tutorial/starting_project.rst:115
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:118
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ""
@@ -5738,7 +5738,7 @@ msgid "a computer with the Internet connection"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/index.rst:17
-msgid "a smart mobile device (either iOS or Android) if you want to test on a real device. [optional]"
+msgid "[optional] a smart mobile device (either iOS or Android) if you want to test on a real device."
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:5
@@ -5786,7 +5786,7 @@ msgid "Step 2: Creating a New Project"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:24
-msgid "After a successful sign in, you will be directed to Monaca Dashboard. You are now ready to create your first Monaca project. Please do as follows:"
+msgid "After a successful sign-in, you will be directed to Monaca Dashboard. You are now ready to create your first Monaca project. Please do as follows:"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:26
@@ -5794,66 +5794,78 @@ msgid "From Monaca Dashboard, click on :guilabel:`Create Project` or :guilabel:`
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:34
-msgid "If you choose :guilabel:`Create Project`, you will be able to create a new Monaca project based on various templates. On the other hand, if you choose :guilabel:`Import Project`, you will be able to create a new Monaca project by importing an existing project in 3 ways such as filling in the project's URL, uploading the project package or selecting your existing  GitHub repository. Please refer to :ref:`version_control` on how to set up  GitHub integration with Monaca."
+msgid "If you choose :guilabel:`Create Project`, you will be able to create a new Monaca project based on various templates. On the other hand, if you choose :guilabel:`Import Project`, you will be able to create a new Monaca project by importing an existing project in 3 ways such as:"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:40
+#: ../doc/monaca_ide/tutorial/starting_project.rst:36
+msgid "filling in a project's URL"
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:37
+msgid "uploading a project package"
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:38
+msgid "or selecting your existing  GitHub repository. Please refer to :ref:`version_control` on how to set up  GitHub integration with Monaca."
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:44
 msgid "Create Project Dialog"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:46
+#: ../doc/monaca_ide/tutorial/starting_project.rst:50
 msgid "Import Project Dialog"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:50
-msgid "In this tutorial, we will choose :guilabel:`Create Project` option. In the Create Project dialog, select :guilabel:`Sample Applications` and choose ``jQuery TODO App`` template by clicking on its :guilabel:`Create New` button."
+#: ../doc/monaca_ide/tutorial/starting_project.rst:54
+msgid "In this tutorial, we will choose the :guilabel:`Create Project` option. In the Create Project dialog, select :guilabel:`Sample Applications` and choose ``jQuery TODO App`` template by clicking on its :guilabel:`Create New` button."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:58
+#: ../doc/monaca_ide/tutorial/starting_project.rst:62
 msgid "Fill in the project's information and click on :guilabel:`Make Project` button."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:66
-msgid "Then, you will see your newly created project listed under the :guilabel:`Online` tab."
+#: ../doc/monaca_ide/tutorial/starting_project.rst:70
+msgid "Then, you will see your newly created project listed under the :guilabel:`Online` tab of the Dashboard."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:70
+#: ../doc/monaca_ide/tutorial/starting_project.rst:74
 msgid "Step 3: Previewing a Project"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:71
+#: ../doc/monaca_ide/tutorial/starting_project.rst:75
 msgid "Monaca Cloud IDE allows you to preview your project through a Preview window without any real devices."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:73
+#: ../doc/monaca_ide/tutorial/starting_project.rst:77
 msgid "Some functionalities of applications might not be properly previewed because the Preview window has several limitations such as Ajax requests, Cordova plugin APIs and so on. For more information, please refer to :ref:`usage and limitation of Live Preview <preview_tab>`."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:76
-msgid "From the Monaca Dashboard, open the project. Then, Monaca Cloud IDE will be open. You can find the Preview window on the right panel of the IDE."
+#: ../doc/monaca_ide/tutorial/starting_project.rst:80
+msgid "From the Monaca Dashboard, open a project. Then, Monaca Cloud IDE will be open. You can find the Preview window on the right panel of the IDE."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:84
+#: ../doc/monaca_ide/tutorial/starting_project.rst:88
 msgid "Try adding some TODO items in the Preview window."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:95
-msgid "Step 4: Editing your Project"
-msgstr ""
-
-#: ../doc/monaca_ide/tutorial/starting_project.rst:97
-msgid "All editable files are listed under ``www`` folder."
-msgstr ""
-
 #: ../doc/monaca_ide/tutorial/starting_project.rst:99
-msgid "From the File Tree panel, choose a file to edit. Let's make some changes in :file:`index.html` file in the code editor."
+msgid "Step 4: Editing a Project"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:101
+msgid "All editable files are listed under ``www`` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:103
+msgid "From the File Tree panel, choose a file to edit. Let's make some changes in :file:`index.html` file in the code editor."
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:105
 msgid "Save the changes, then you will be able to see the updates instantly in the Preview window. Feel free to edit the project as you wish. For more detailed explanation about this template, please refer to :ref:`Explanation about jQuery TODO App <todo>`."
 msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:104
+#: ../doc/monaca_ide/tutorial/starting_project.rst:108
 msgid "For more information regarding the code editor in Monaca Cloud IDE, please refer to :ref:`code_editor`."
 msgstr ""
 
@@ -5878,7 +5890,7 @@ msgid "Please install Monaca Debugger on your device. Please refer to :ref:`Mona
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:35
-msgid "Step 1: Running the Project on Monaca Debugger"
+msgid "Step 1: Running a Project on Monaca Debugger"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:37

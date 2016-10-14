@@ -7372,7 +7372,7 @@ msgstr ""
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:91
 #: ../doc/monaca_ide/tutorial/building_app.rst:222
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:25
-#: ../doc/monaca_ide/tutorial/starting_project.rst:108
+#: ../doc/monaca_ide/tutorial/starting_project.rst:112
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:115
 msgid "*See Also*:"
 msgstr "*参考ページ*:"
@@ -7387,26 +7387,26 @@ msgstr ":ref:`cloud_ide_starting_project`"
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:94
 #: ../doc/monaca_ide/tutorial/building_app.rst:225
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:28
-#: ../doc/monaca_ide/tutorial/starting_project.rst:110
+#: ../doc/monaca_ide/tutorial/starting_project.rst:114
 msgid ":ref:`cloud_ide_testing_debugging`"
 msgstr ":ref:`cloud_ide_testing_debugging`"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:95
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:30
-#: ../doc/monaca_ide/tutorial/starting_project.rst:112
+#: ../doc/monaca_ide/tutorial/starting_project.rst:116
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:119
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:96
 #: ../doc/monaca_ide/tutorial/building_app.rst:227
-#: ../doc/monaca_ide/tutorial/starting_project.rst:113
+#: ../doc/monaca_ide/tutorial/starting_project.rst:117
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ":ref:`cloud_ide_publishing_app`"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:97
-#: ../doc/monaca_ide/tutorial/starting_project.rst:114
+#: ../doc/monaca_ide/tutorial/starting_project.rst:118
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:121
 msgid ":ref:`sample_apps_index`"
 msgstr ":ref:`sample_apps_index`"
@@ -7788,7 +7788,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 
 #: ../doc/monaca_ide/tutorial/building_app.rst:226
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:29
-#: ../doc/monaca_ide/tutorial/starting_project.rst:111
+#: ../doc/monaca_ide/tutorial/starting_project.rst:115
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:118
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ":ref:`cloud_ide_adding_backend`"
@@ -7814,9 +7814,9 @@ msgstr "インターネット接続とコンピューター"
 
 #: ../doc/monaca_ide/tutorial/index.rst:17
 msgid ""
-"a smart mobile device (either iOS or Android) if you want to test on a real "
-"device. [optional]"
-msgstr "スマートデバイス ( 任意、iOS または Android 端末 )。端末上で検証を行う場合には必要となります。"
+"[optional] a smart mobile device (either iOS or Android) if you want to test"
+" on a real device."
+msgstr ""
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:5
 msgid "Part 5: Publishing Monaca App"
@@ -7867,10 +7867,9 @@ msgstr "ステップ 2 : プロジェクトの新規作成"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:24
 msgid ""
-"After a successful sign in, you will be directed to Monaca Dashboard. You "
+"After a successful sign-in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
 msgstr ""
-"サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:26
 msgid ""
@@ -7885,59 +7884,62 @@ msgid ""
 "If you choose :guilabel:`Create Project`, you will be able to create a new "
 "Monaca project based on various templates. On the other hand, if you choose "
 ":guilabel:`Import Project`, you will be able to create a new Monaca project "
-"by importing an existing project in 3 ways such as filling in the project's "
-"URL, uploading the project package or selecting your existing  GitHub "
-"repository. Please refer to :ref:`version_control` on how to set up  GitHub "
-"integration with Monaca."
+"by importing an existing project in 3 ways such as:"
 msgstr ""
-":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca "
-"プロジェクトを作成できます。一方、:guilabel:`Import Project` "
-"では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、[ URL を指定してインポート ]、[ "
-"プロジェクトのパッケージをアップロード ]、[ GitHub のレポジトリからインポート ] の中から、選択できます。Monaca と GitHub "
-"の連携方法は、:ref:`version_control` をご確認ください。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:40
+#: ../doc/monaca_ide/tutorial/starting_project.rst:36
+msgid "filling in a project's URL"
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:37
+msgid "uploading a project package"
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:38
+msgid ""
+"or selecting your existing  GitHub repository. Please refer to "
+":ref:`version_control` on how to set up  GitHub integration with Monaca."
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/starting_project.rst:44
 msgid "Create Project Dialog"
 msgstr "[ 新規プロジェクトの作成 ] ダイアログ"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:46
+#: ../doc/monaca_ide/tutorial/starting_project.rst:50
 msgid "Import Project Dialog"
 msgstr "[ プロジェクトのインポート ] ダイアログ"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:50
+#: ../doc/monaca_ide/tutorial/starting_project.rst:54
 msgid ""
-"In this tutorial, we will choose :guilabel:`Create Project` option. In the "
-"Create Project dialog, select :guilabel:`Sample Applications` and choose "
-"``jQuery TODO App`` template by clicking on its :guilabel:`Create New` "
+"In this tutorial, we will choose the :guilabel:`Create Project` option. In "
+"the Create Project dialog, select :guilabel:`Sample Applications` and choose"
+" ``jQuery TODO App`` template by clicking on its :guilabel:`Create New` "
 "button."
 msgstr ""
-"ここでは、:guilabel:`新規プロジェクトの作成` を選択します。表示される [ 新規プロジェクトの作成 ] "
-"ダイアログ上で、:guilabel:`サンプルアプリ` を選択して、次に、``jQuery TODO App`` テンプレートの "
-":guilabel:`作成` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:58
+#: ../doc/monaca_ide/tutorial/starting_project.rst:62
 msgid ""
 "Fill in the project's information and click on :guilabel:`Make Project` "
 "button."
 msgstr "プロジェクト情報を入力して、:guilabel:`プロジェクトを作成する` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:66
+#: ../doc/monaca_ide/tutorial/starting_project.rst:70
 msgid ""
 "Then, you will see your newly created project listed under the "
-":guilabel:`Online` tab."
-msgstr ":guilabel:`オンライン` タブ上に、新規作成したプロジェクトが表示されます。"
+":guilabel:`Online` tab of the Dashboard."
+msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:70
+#: ../doc/monaca_ide/tutorial/starting_project.rst:74
 msgid "Step 3: Previewing a Project"
 msgstr "ステップ 3 : プロジェクトのプレビュー"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:71
+#: ../doc/monaca_ide/tutorial/starting_project.rst:75
 msgid ""
 "Monaca Cloud IDE allows you to preview your project through a Preview window"
 " without any real devices."
 msgstr "端末を使用しなくても、「 プレビューウィンドウ 」 を使用すれば、Monaca クラウド IDE 上で、プロジェクトをプレビューできます。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:73
+#: ../doc/monaca_ide/tutorial/starting_project.rst:77
 msgid ""
 "Some functionalities of applications might not be properly previewed because"
 " the Preview window has several limitations such as Ajax requests, Cordova "
@@ -7947,27 +7949,25 @@ msgstr ""
 "プレビューウィンドウを使用して、実際に検証できる機能には、制限があります。制限としては、たとえば、使用できる Cordova プラグイン/API "
 "の種類、Ajax リクエストなどがあります。詳細は、 :ref:`ライブプレビューの機能と制限 <preview_tab>` をご確認ください。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:76
+#: ../doc/monaca_ide/tutorial/starting_project.rst:80
 msgid ""
-"From the Monaca Dashboard, open the project. Then, Monaca Cloud IDE will be "
+"From the Monaca Dashboard, open a project. Then, Monaca Cloud IDE will be "
 "open. You can find the Preview window on the right panel of the IDE."
 msgstr ""
-"Monaca ダッシュボード上でプロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE が起動します。Monaca"
-" クラウド IDE の右側に、プレビューウィンドウが表示されます。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:84
+#: ../doc/monaca_ide/tutorial/starting_project.rst:88
 msgid "Try adding some TODO items in the Preview window."
 msgstr "プレビューウィンドウ上で、TODO をいくつか追加してみましょう。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:95
-msgid "Step 4: Editing your Project"
-msgstr "ステップ 4 : プロジェクトの編集"
+#: ../doc/monaca_ide/tutorial/starting_project.rst:99
+msgid "Step 4: Editing a Project"
+msgstr ""
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:97
+#: ../doc/monaca_ide/tutorial/starting_project.rst:101
 msgid "All editable files are listed under ``www`` folder."
 msgstr "編集対象は、``www`` 下に置かれているファイルのみです。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:99
+#: ../doc/monaca_ide/tutorial/starting_project.rst:103
 msgid ""
 "From the File Tree panel, choose a file to edit. Let's make some changes in "
 ":file:`index.html` file in the code editor."
@@ -7975,7 +7975,7 @@ msgstr ""
 "左側のプロジェクトツリー画面から、編集対象のファイルを選択します。コードエディター ( 画面中央の領域 ) "
 "を使用して、:file:`index.html` ファイルの内容を変更してみましょう。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:101
+#: ../doc/monaca_ide/tutorial/starting_project.rst:105
 msgid ""
 "Save the changes, then you will be able to see the updates instantly in the "
 "Preview window. Feel free to edit the project as you wish. For more detailed"
@@ -7985,7 +7985,7 @@ msgstr ""
 "ファイルの編集後、変更を保存します。次に、プレビューウィンドウ上で、変更点が反映されていることを確認してみましょう。他の箇所も変更して、プレビュー上で確認してみましょう。今回使用したテンプレートの詳細は、:ref:`TODO"
 " 管理アプリの解説 ( jQuery 使用 ) <todo>` をご確認ください。"
 
-#: ../doc/monaca_ide/tutorial/starting_project.rst:104
+#: ../doc/monaca_ide/tutorial/starting_project.rst:108
 msgid ""
 "For more information regarding the code editor in Monaca Cloud IDE, please "
 "refer to :ref:`code_editor`."
@@ -8026,8 +8026,8 @@ msgstr ""
 "<debugger_installation_index>` をご確認ください。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:35
-msgid "Step 1: Running the Project on Monaca Debugger"
-msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
+msgid "Step 1: Running a Project on Monaca Debugger"
+msgstr ""
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:37
 msgid ""

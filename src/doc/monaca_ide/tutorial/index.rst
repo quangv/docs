@@ -14,7 +14,7 @@ Before getting started with this tutorial, you will need:
 	
 	- a Monaca account. If you don’t have one, please register `here <https://monaca.mobi/en/register/start>`_. 
 	- a computer with the Internet connection
-	- a smart mobile device (either iOS or Android) if you want to test on a real device. [optional]
+	- [optional] a smart mobile device (either iOS or Android) if you want to test on a real device. 
 
 
 .. toctree::
