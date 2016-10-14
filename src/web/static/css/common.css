@@ -1909,16 +1909,6 @@ a.btn-big {
   padding: 0 18px 0; }
 
 /*NEW UI CSS*/
-/*body {
-    background-color: #fbfbfb;
-    color: #555;
-    font-family: 'Raleway','Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 200;
-    line-height: 21px;
-    letter-spacing: 0;
-    font-size: 16px;
-}*/
 hr {
   border-bottom: 1px solid #ccc; }
 
@@ -1926,61 +1916,33 @@ hr {
 /*INDEX*/
 .center {
   text-align: center;
-  display: block;
-  /*hr {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }*/ }
+  display: block; }
 
 div.overview-btn {
+  background-color: #47b98f;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  touch-action: manipulation;
   position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 300px;
-  border: 1px solid #1e629e;
   margin-top: 40px;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 18px;
-  background-color: #1e629e;
-  background-color: #6496c8;
-  border: none;
-  /*border-radius: 15px;*/
-  box-shadow: 0 5px #27496d; }
+  padding: 10px; }
   div.overview-btn a.title {
     color: #fff;
     text-decoration: none; }
 
 div.overview-btn:hover {
   background-color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid #1e629e; }
   div.overview-btn:hover a.title {
     color: #1e629e; }
 
-/*div.overview_btn{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 250px;
-    padding: 10px;
-    border: 1px solid #1e629e;
-    border-radius: 4px;
-    background-color: #1e629e;
-    a.title {
-        color: #fff; 
-        text-decoration: none;
-    }
-}
-div.overview_btn:hover {
-    a.title {
-        color: #1e629e;
-    }
-    cursor: pointer;
-    background-color: #fff;
-}*/
 #indexContents {
   margin: 0 auto;
   max-width: 1020px; }
