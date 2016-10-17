@@ -95,7 +95,7 @@ aside.global {
   /* toc */
   nav.aside-main {
     background-color: #f2f2f2;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     padding-left: 0px;
     padding-bottom: 20px;
     margin-right: 0;
@@ -147,6 +147,7 @@ aside.global {
 
               a {
                 padding-left: 10px;
+                padding-right: 10px;
                 box-sizing: border-box;
                 display: inline-block;
                 width: 100%;
