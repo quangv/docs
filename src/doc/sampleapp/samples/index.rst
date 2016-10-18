@@ -483,7 +483,7 @@ Sample Apps & Templates
 
 
 .. toctree::
-  :titlesonly:
+  :hidden:
 
   hello_world
   sample_rss_reader

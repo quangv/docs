@@ -52,7 +52,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:16
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:135
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:71
 msgid "Description"
 msgstr ""
 
@@ -349,8 +349,8 @@ msgstr ""
 #: ../doc/monaca_ide/manual/deploy/google_play.rst:171
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:227
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:93
-#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:225
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:111
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:275
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:162
 #: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
 msgstr ""
@@ -3932,7 +3932,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:16
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:135
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:71
 msgid "Param"
 msgstr ""
 
@@ -4029,13 +4029,13 @@ msgid "Here is an example of a recipe script."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:95
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:113
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:164
 #: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:13
 msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:96
-#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:227
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:277
 #: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
@@ -4140,10 +4140,44 @@ msgstr ""
 msgid "Here is an example of a recipe script configured for multiple deploy services and one service with multiple aliases."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:228
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:114
-#: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:14
-msgid ":ref:`json_sample`"
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:225
+msgid "Monaca CI Execution Procedure"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:227
+msgid "Code is pushed to GitHub."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:229
+msgid "If the code is pushed to a valid GitHub’s branch/tag as configured in JSON recipe script, Monaca server will start building your project. Please go to :menuselection:`Build --> CI History` to see the live process of Monaca CI."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:235
+msgid "Preparing to Build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:241
+msgid "Start Building"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:247
+msgid "Building and Distribution Complete"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:253
+msgid "Build Complete"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:257
+msgid "When the build process is successfully completed in Monaca server, the build files will be sent to the configured deployment services."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:263
+msgid "DeployGate Dashboard"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/overview.rst:269
+msgid "HockeyApp Dashboard"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:5
@@ -4167,7 +4201,7 @@ msgid "You may need to use the following parameters in the JSON recipe script fo
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:19
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:49
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:71
 msgid "Remark"
 msgstr ""
 
@@ -4192,7 +4226,7 @@ msgid "App file binary"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:25
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:51
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:73
 msgid "Automatically populated."
 msgstr ""
 
@@ -4236,180 +4270,215 @@ msgstr ""
 msgid "[Optional] Set a new application's privacy setting by specifying ``private`` (default) or ``public``. If you are using Personal Free account, you have to specify ``public`` to upload a new app since it doesn't have a slot for private app. No effect when updating."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:42
-msgid "HockeyApp"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:43
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:124
+msgid "How to Get API Key"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:44
-msgid "`HockeyApp <https://hockeyapp.net/>`_ brings mobile DevOps to your apps with beta distribution, crash reporting, user metrics, feedback, and powerful workflow integrations."
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:45
+msgid "Log into `DeployGate <https://deploygate.com/>`_."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:46
-msgid "You may need to use the following parameters in the JSON recipe script for Monaca CI. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_."
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:47
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:128
+msgid "Go to :guilabel:`Account Settings`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:51
-msgid "``ipa``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:51
-msgid "file data of the ``.ipa`` for iOS, ``.app.zip`` for OS X, or ``.apk`` file for Android."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:54
-msgid "``dsym``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:54
-msgid "[Optional] file data of the ``.dSYM.zip`` file (iOS and OS X) or ``mapping.txt`` (Android). Please note that the extension has to be ``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to be ``mapping.txt`` for Android."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:59
-msgid "``notes``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:59
-msgid "[Optional] release notes as Textile or Markdown (after 5k characters note are truncated)."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:62
-msgid "``notes_type``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:62
-msgid "[Optional] type of release notes:"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:55
+msgid "Then, a Profile page will be shown. You will be able to find the API key at the end of the page."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:64
-msgid "``0`` for Textile"
+msgid "HockeyApp"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:65
-msgid "``1`` for Markdown"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:66
+msgid "`HockeyApp <https://hockeyapp.net/>`_ brings mobile DevOps to your apps with beta distribution, crash reporting, user metrics, feedback, and powerful workflow integrations."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:67
-msgid "``notify``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:67
-msgid "[Optional] notify testers (can only be set with full-access tokens):"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:69
-msgid "``0`` to not notify testers"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:70
-msgid "``1`` to notify all testers that can install this app"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:71
-msgid "``2`` to notify all testers"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:68
+msgid "You may need to use the following parameters in the JSON recipe script for Monaca CI. For more information, please refer to `HockeyApp API documentation <https://support.hockeyapp.net/kb/api/api-apps>`_."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:73
-msgid "``status``"
+msgid "``ipa``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:73
-msgid "[Optional] download status (can only be set with full-access tokens):"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:75
-msgid "``1`` to not allow users to download the version"
+msgid "file data of the ``.ipa`` for iOS, ``.app.zip`` for OS X, or ``.apk`` file for Android."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:76
-msgid "``2`` to make the version available for download"
+msgid "``dsym``"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:78
-msgid "``tags``"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:76
+msgid "[Optional] file data of the ``.dSYM.zip`` file (iOS and OS X) or ``mapping.txt`` (Android). Please note that the extension has to be ``.dsym.zip`` (case-insensitive) for iOS and OS X and the file name has to be ``mapping.txt`` for Android."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:78
-msgid "[Optional] restrict download to comma-separated list of tags"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:81
+msgid "``notes``"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:80
-msgid "``teams``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:80
-msgid "[Optional] restrict download to comma-separated list of team IDs. For example:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:82
-msgid "``teams=12,23,42`` with 12, 23, and 42 being the database IDs of your teams"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:81
+msgid "[Optional] release notes as Textile or Markdown (after 5k characters note are truncated)."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:84
-msgid "``users``"
+msgid "``notes_type``"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:84
-msgid "[Optional] restrict download to comma-separated list of user IDs. For example:"
+msgid "[Optional] type of release notes:"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:86
-msgid "``users=1224,5678`` with 1224 and 5678 being the database IDs of your users"
+msgid "``0`` for Textile"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:88
-msgid "``mandatory``"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:87
+msgid "``1`` for Markdown"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:88
-msgid "[Optional] set version as mandatory:"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:89
+msgid "``notify``"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:90
-msgid "``0`` for not mandatory"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:89
+msgid "[Optional] notify testers (can only be set with full-access tokens):"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:91
-msgid "``1`` for mandatory"
+msgid "``0`` to not notify testers"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:92
+msgid "``1`` to notify all testers that can install this app"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:93
-msgid "``release_type``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:93
-msgid "[Optional] set the release type of the app:"
+msgid "``2`` to notify all testers"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:95
-msgid "``2`` for alpha"
+msgid "``status``"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:96
-msgid "``0`` for beta [default]"
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:95
+msgid "[Optional] download status (can only be set with full-access tokens):"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:97
-msgid "``1`` for store"
+msgid "``1`` to not allow users to download the version"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:98
-msgid "``3`` for enterprise"
+msgid "``2`` to make the version available for download"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:100
+msgid "``tags``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:100
+msgid "[Optional] restrict download to comma-separated list of tags"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:102
-msgid "Upcoming Supported Deploy Services"
+msgid "``teams``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:102
+msgid "[Optional] restrict download to comma-separated list of team IDs. For example:"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:104
-msgid "In addition to the above services, we are planning to add more deployment services. Currently, we are working the following services:"
+msgid "``teams=12,23,42`` with 12, 23, and 42 being the database IDs of your teams"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:106
+msgid "``users``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:106
+msgid "[Optional] restrict download to comma-separated list of user IDs. For example:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:108
+msgid "``users=1224,5678`` with 1224 and 5678 being the database IDs of your users"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:110
+msgid "``mandatory``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:110
+msgid "[Optional] set version as mandatory:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:112
+msgid "``0`` for not mandatory"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:113
+msgid "``1`` for mandatory"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:115
+msgid "``release_type``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:115
+msgid "[Optional] set the release type of the app:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:117
+msgid "``2`` for alpha"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:118
+msgid "``0`` for beta [default]"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:119
+msgid "``1`` for store"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:120
+msgid "``3`` for enterprise"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:126
+msgid "Log into `HockeyApp <https://hockeyapp.net/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:136
+msgid "In the Account Settings page, go to :guilabel:`API Tokens` tab. In this page, you can find all of your API tokens or create a new one. Assuming you haven't created an API token yet, let's create one as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:144
+msgid "Once the API token is successfully created, you will be able to see it at the bottom of the page."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:153
+msgid "Upcoming Supported Deploy Services"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:155
+msgid "In addition to the above services, we are planning to add more deployment services. Currently, we are working the following services:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:157
 msgid "`Test Flight <https://developer.apple.com/testflight/>`_"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:107
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:158
 msgid "`Appetize.io <https://appetize.io/>`_"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:165
+#: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:14
+msgid ":ref:`json_sample`"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/monaca_ci/troubleshooting.rst:5

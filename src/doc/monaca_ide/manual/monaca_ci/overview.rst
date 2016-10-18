@@ -59,6 +59,8 @@ Assuming you have successfully linked a  GitHub repository to your project, you 
   .. rst-class:: clear
 
 
+.. warning:: For release build (iOS & Android), you have to start building manually in the IDE first before the Monaca CI can start the automatic build later.
+
 Automating Deploy Services
 ============================================
 
@@ -220,9 +222,58 @@ Here is an example of a recipe script configured for multiple deploy services an
     ]
 
 
+
+Monaca CI Execution Procedure
+============================================
+
+1. Code is pushed to GitHub.
+
+2. If the code is pushed to a valid GitHub’s branch/tag as configured in JSON recipe script, Monaca server will start building your project. Please go to :menuselection:`Build --> CI History` to see the live process of Monaca CI.
+
+  .. figure:: images/overview/5.png
+      :width: 700px
+      :align: left
+
+      Preparing to Build
+
+  .. figure:: images/overview/6.png
+      :width: 700px
+      :align: left
+
+      Start Building
+
+  .. figure:: images/overview/7.png
+      :width: 700px
+      :align: left
+
+      Building and Distribution Complete
+
+  .. figure:: images/overview/8.png
+      :width: 700px
+      :align: left
+
+      Build Complete
+
+  .. rst-class:: clear
+
+3. When the build process is successfully completed in Monaca server, the build files will be sent to the configured deployment services.
+
+  .. figure:: images/overview/9.png
+      :width: 700px
+      :align: left
+
+      DeployGate Dashboard
+
+  .. figure:: images/overview/10.png
+      :width: 700px
+      :align: left
+
+      HockeyApp Dashboard
+
+  .. rst-class:: clear
+
 .. seealso::
 
   *See Also*
 
   - :ref:`supported_services`
-  - :ref:`json_sample`
