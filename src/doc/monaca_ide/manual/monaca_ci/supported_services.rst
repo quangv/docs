@@ -38,6 +38,7 @@ You may need to use the following parameters in the JSON recipe script for Monac
 |                      | app. No effect when updating.                                                    |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 
+.. _api_key_deploygate:
 
 How to Get API Key
 ---------------------------
@@ -119,6 +120,8 @@ You may need to use the following parameters in the JSON recipe script for Monac
 |                      |   - ``1`` for store                                                              |                                 |
 |                      |   - ``3`` for enterprise                                                         |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
+
+.. _api_key_hockeyapp:
 
 How to Get API Key
 ---------------------------
