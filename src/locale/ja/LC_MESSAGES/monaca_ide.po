@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>, 2016\n"
 "Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5436,7 +5436,8 @@ msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
 msgstr ""
-"サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`supported_services` をご確認ください。"
+"サポートしているデプロイサービス ( またはサポート予定 ) に関しては、:ref:`こちら <supported_services>` "
+"をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/json_sample.rst:42
 msgid "Here is an example of a recipe script."
@@ -5567,6 +5568,9 @@ msgid ""
 "Android) and upload the right provisioning profile (for iOS) for release "
 "build."
 msgstr ""
+"リリースビルド版アプリ ( iOS および Android 向け ) の場合、「 初回 」 のビルドは、IDE "
+"上で、手動で、行う必要があります。初回のビルド以降は、Monaca CI を使用して、自動でビルドを行えます。リリースビルド版の場合、Android "
+"では、有効なキーストアの入力が必要になり、iOS では、有効なプロビジョニングプロファイルのアップロードが必要になるためです。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:65
 msgid "Automating Deploy Services"
@@ -5593,16 +5597,17 @@ msgid ""
 "Choose a deploy service and fill in the required information. Then, click "
 ":guilabel:`Add`. Here is the information you will need to input:"
 msgstr ""
+"デプロイサービスを選択して、詳細設定を入力します。入力後、:guilabel:`追加` をクリックします。詳細設定で入力する項目は、次のとおりです。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:75
 msgid "Config Alias: a unique identifier for each service."
-msgstr ""
+msgstr "エイリアス名 : 各サービスの管理に使用する、一意の識別子を入力します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:76
 msgid ""
 "Username (DeployGate only): app's owner's username or organization name "
 "registered in DeployGate."
-msgstr ""
+msgstr "ユーザー名 ( DeployGate 専用 ) : アプリ所有者のユーザー名または組織名を入力します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:77
 msgid ""
@@ -5612,6 +5617,10 @@ msgid ""
 "<api_key_deploygate>` and :ref:`How to Get API Key from HockeyApp "
 "<api_key_hockeyapp>`."
 msgstr ""
+"API キー ( DeployGate の場合 ) または API トークン ( HockeyApp の場合 ) : API キー ( または API "
+"トークン ) は、デプロイサービスのプロバイダーから入手できます。入手方法に関しては、:ref:`DeployGate からの API キーの入手方法 "
+"<api_key_deploygate>` または :ref:`HockeyApp からの API トークンの入手方法 "
+"<api_key_hockeyapp>` をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:83
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:11
@@ -5668,11 +5677,11 @@ msgstr "JSON 設定"
 msgid ""
 "GitHub branch of the project you want to build. It has to be written in a "
 "regular expression format."
-msgstr ""
+msgstr "プロジェクトをビルドするときに使用する、GitHub のブランチを指定します。JSON の正しい記法を使用します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:155
 msgid "GitHub tag of the project you want to build."
-msgstr "ビルドを行うプロジェクト用の GitHub タグを指定します。"
+msgstr "プロジェクトをビルドするときに使用する、GitHub タグを指定します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:175
 msgid ""
@@ -5682,7 +5691,7 @@ msgstr "複数のデプロイサービスの組み込み方法、および、1 �
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:227
 msgid "Monaca CI Execution Procedure"
-msgstr ""
+msgstr "Monaca CI 側の処理"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:229
 msgid ""
@@ -5692,16 +5701,20 @@ msgid ""
 "services such as DeployGate and HockeyApp. For this reason, your JSON recipe"
 " should look like this:"
 msgstr ""
+"ここでは、Monaca CI を使用して、iOS 向け および Android "
+"向けのリリースビルド版アプリをビルドする例を紹介します。プロジェクトコードのプッシュ ( Push ) 先には、``master`` "
+"ブランチを指定しています。また、Monaca CI を使用して、DeployGate と HockeyAPP の 2 "
+"つのデプロイサービス上へ、ビルド済みファイルを送ります。JSON レシピは、次のようになります。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:266
 msgid ""
 "Here is the execution procedure for Monaca CI corresponding to the above "
 "JSON setting:"
-msgstr ""
+msgstr "上記の JSON 設定を実行した場合、Monaca CI 側では、次の処理が実行されます。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:268
 msgid "Code is pushed to GitHub."
-msgstr ""
+msgstr "GitHub へコードをプッシュ ( Push ) します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:270
 msgid ""
@@ -5711,32 +5724,36 @@ msgid ""
 "Then, you can find the built files in :menuselection:`Build --> Build "
 "History`."
 msgstr ""
+"GitHub 上のブランチ/タグ ( JSON レシピ内で指定されたブランチ/タグ ) へコードがプッシュされた後、Monaca "
+"サーバー側では、プロジェクトのビルドを開始します。ビルドの進捗状況を確認する場合には、IDE 上の :menuselection:`ビルド --> "
+"継続的インテグレーション結果一覧` をご確認ください。また、ビルド済みのファイルを確認・ダウンロードする場合には、:menuselection:`ビルド"
+" --> ビルド結果一覧` をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:276
 msgid "Preparing to Build"
-msgstr ""
+msgstr "ビルド準備時"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:282
 msgid "Building Complete"
-msgstr ""
+msgstr "ビルド完了時"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:288
 msgid "Build Complete"
-msgstr ""
+msgstr "ビルド済みファイルの一覧"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:292
 msgid ""
 "When the build process is successfully completed in Monaca server, the build"
 " files will be sent to the configured deployment services."
-msgstr ""
+msgstr "ビルド処理の完了後、Monaca サーバー側から、指定されたデプロイサービス側へ、ビルド済みファイルを送ります。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:298
 msgid "DeployGate Dashboard"
-msgstr ""
+msgstr "DeployGate のダッシュボード"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:304
 msgid "HockeyApp Dashboard"
-msgstr ""
+msgstr "HockeyApp のダッシュボード"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:5
 msgid "Deploy Services"
@@ -5859,22 +5876,22 @@ msgstr ""
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:44
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:127
 msgid "How to Get API Key"
-msgstr ""
+msgstr "API Key または API トークンの取得方法"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:46
 msgid "Log into `DeployGate <https://deploygate.com/>`_."
-msgstr ""
+msgstr "`DeployGate <https://deploygate.com/>`_ にログインします。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:48
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:131
 msgid "Go to :guilabel:`Account Settings`."
-msgstr ""
+msgstr ":guilabel:`アカウント設定/Account Settings` を選択します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:56
 msgid ""
 "Then, a Profile page will be shown. You will be able to find the API key at "
 "the end of the page."
-msgstr ""
+msgstr "[ プロフィール ] 画面が表示されます。ページの最下部まで移動して、[ API key ] を確認します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:67
 msgid ""
@@ -6075,7 +6092,7 @@ msgstr "エンタープライズ版の場合、``3`` を設定します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:129
 msgid "Log into `HockeyApp <https://hockeyapp.net/>`_."
-msgstr ""
+msgstr "`HockeyApp <https://hockeyapp.net/>`_ にログインします。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:139
 msgid ""
@@ -6084,12 +6101,15 @@ msgid ""
 "haven't created an API token yet, let's create one as shown in the "
 "screenshot below:"
 msgstr ""
+"[ Account Settings ] 画面の左側に表示された一覧から、:guilabel:`API Tokens` "
+"を選択します。次に表示される画面上では、既存の API トークン の確認、および、API "
+"トークンの新規作成を行えます。ここでは、既存のトークンが存在しないことを前提に解説します。次の赤枠で囲まれた項目を指定して、トークンを作成します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:147
 msgid ""
 "Once the API token is successfully created, you will be able to see it at "
 "the bottom of the page."
-msgstr ""
+msgstr "API トークンの作成後、画面の最下部まで移動して、作成されたトークンが表示されていることを確認します。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/supported_services.rst:156
 msgid "Upcoming Supported Deploy Services"
@@ -7941,7 +7961,7 @@ msgstr "インターネット接続とコンピューター"
 msgid ""
 "[optional] a smart mobile device (either iOS or Android) if you want to test"
 " on a real device."
-msgstr ""
+msgstr "スマートデバイス ( こちらは任意。iOS または Android 端末 )。端末上で検証を行う場合には必要となります。"
 
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:5
 msgid "Part 5: Publishing Monaca App"
@@ -7995,6 +8015,7 @@ msgid ""
 "After a successful sign-in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
 msgstr ""
+"サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:26
 msgid ""
@@ -8011,20 +8032,24 @@ msgid ""
 ":guilabel:`Import Project`, you will be able to create a new Monaca project "
 "by importing an existing project in 3 ways such as:"
 msgstr ""
+":guilabel:`新規プロジェクトの作成` では、多種多様なテンプレートを使用して、Monaca "
+"プロジェクトを作成できます。一方、:guilabel:`Import Project` "
+"では、既存のプロジェクトをインポートして、プロジェクトに使用できます。インポート方法は、次の 3 つの中から選べます。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:36
 msgid "filling in a project's URL"
-msgstr ""
+msgstr "URL を指定してインポート"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:37
 msgid "uploading a project package"
-msgstr ""
+msgstr "プロジェクトのパッケージをアップロード"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:38
 msgid ""
 "or selecting your existing  GitHub repository. Please refer to "
 ":ref:`version_control` on how to set up  GitHub integration with Monaca."
 msgstr ""
+"GitHub のレポジトリからインポート。GitHub への接続方法に関しては、:ref:`version_control` をご確認ください。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:44
 msgid "Create Project Dialog"
@@ -8041,6 +8066,9 @@ msgid ""
 " ``jQuery TODO App`` template by clicking on its :guilabel:`Create New` "
 "button."
 msgstr ""
+"ここでは、:guilabel:`新規プロジェクトの作成` を選択します。表示される [ 新規プロジェクトの作成 ] "
+"ダイアログ上で、:guilabel:`サンプルアプリ` を選択して、次に、``jQuery TODO App`` テンプレートの "
+":guilabel:`作成` ボタンをクリックします。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:62
 msgid ""
@@ -8052,7 +8080,7 @@ msgstr "プロジェクト情報を入力して、:guilabel:`プロジェクト�
 msgid ""
 "Then, you will see your newly created project listed under the "
 ":guilabel:`Online` tab of the Dashboard."
-msgstr ""
+msgstr "ダッシュボードの :guilabel:`オンライン` タブ上に、新規作成したプロジェクトが表示されます。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:74
 msgid "Step 3: Previewing a Project"
@@ -8079,6 +8107,8 @@ msgid ""
 "From the Monaca Dashboard, open a project. Then, Monaca Cloud IDE will be "
 "open. You can find the Preview window on the right panel of the IDE."
 msgstr ""
+"Monaca ダッシュボード上で、プロジェクトを選択 ( [ 開く ] をクリック ) すると、Monaca クラウド IDE "
+"が起動します。Monaca クラウド IDE の右側には、プレビューウィンドウが表示されています。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:88
 msgid "Try adding some TODO items in the Preview window."
@@ -8086,7 +8116,7 @@ msgstr "プレビューウィンドウ上で、TODO をいくつか追加して�
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:99
 msgid "Step 4: Editing a Project"
-msgstr ""
+msgstr "ステップ 4 : プロジェクトファイルの編集"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:101
 msgid "All editable files are listed under ``www`` folder."
@@ -8152,7 +8182,7 @@ msgstr ""
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:35
 msgid "Step 1: Running a Project on Monaca Debugger"
-msgstr ""
+msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:37
 msgid ""
