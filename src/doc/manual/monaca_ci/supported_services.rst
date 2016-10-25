@@ -38,6 +38,29 @@ You may need to use the following parameters in the JSON recipe script for Monac
 |                      | app. No effect when updating.                                                    |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
 
+.. _api_key_deploygate:
+
+How to Get API Key
+---------------------------
+
+1. Log into `DeployGate <https://deploygate.com/>`_.
+
+2. Go to :guilabel:`Account Settings`.
+
+  .. figure:: images/supported_services/1.png
+      :width: 238px
+      :align: left
+
+  .. rst-class:: clear
+
+3. Then, a Profile page will be shown. You will be able to find the API key at the end of the page.
+
+  .. figure:: images/supported_services/2.png
+      :width: 700px
+      :align: left
+
+  .. rst-class:: clear
+
 HockeyApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -97,6 +120,37 @@ You may need to use the following parameters in the JSON recipe script for Monac
 |                      |   - ``1`` for store                                                              |                                 |
 |                      |   - ``3`` for enterprise                                                         |                                 |
 +----------------------+----------------------------------------------------------------------------------+---------------------------------+
+
+.. _api_key_hockeyapp:
+
+How to Get API Key
+---------------------------
+
+1. Log into `HockeyApp <https://hockeyapp.net/>`_.
+
+2. Go to :guilabel:`Account Settings`.
+
+  .. figure:: images/supported_services/3.png
+      :width: 183px
+      :align: left
+
+  .. rst-class:: clear
+
+3. In the Account Settings page, go to :guilabel:`API Tokens` tab. In this page, you can find all of your API tokens or create a new one. Assuming you haven't created an API token yet, let's create one as shown in the screenshot below:
+
+  .. figure:: images/supported_services/4.png
+      :width: 700px
+      :align: left
+
+  .. rst-class:: clear
+
+4. Once the API token is successfully created, you will be able to see it at the bottom of the page.
+
+  .. figure:: images/supported_services/5.png
+      :width: 700px
+      :align: left
+
+  .. rst-class:: clear
 
 Upcoming Supported Deploy Services
 =========================================
