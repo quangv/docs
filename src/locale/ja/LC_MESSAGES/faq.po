@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-10-14 06:49+0000\n"
+"PO-Revision-Date: 2016-10-25 09:13+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -371,7 +371,7 @@ msgid ""
 "Apple. Register properly the information of the device and developer, and "
 "then prepare the necessary files. For a step-by-step guide, please refer to "
 ":ref:`building_for_ios`."
-msgstr ""
+msgstr "iOS 向けアプリの開発においては、Apple 社の規定に従い、端末情報・開発者情報の登録、必要なファイルの準備などが必要です。詳細は、 :ref:`building_for_ios` をご確認ください。"
 
 #: ../doc/faq/build.rst:36
 msgid ""
@@ -400,7 +400,7 @@ msgid ""
 "The procedures can be found in  :ref:`building_for_ios`.  Please visit `our "
 "blog <http://blog.asial.co.jp/732>`_ for other explanation about various "
 "issues."
-msgstr ""
+msgstr "各種手続に関しては、 :ref:`building_for_ios` をご確認ください。併せて、 `弊社のブログ <http://blog.asial.co.jp/732>`_ もご確認ください。各種ファイルの取り扱い方法に関して、解説しています。"
 
 #: ../doc/faq/build.rst:52
 msgid "Can I build an application for only iPhone using Monaca?"
@@ -467,7 +467,7 @@ msgstr "Monaca を使用して、Chrome アプリの開発はできますか？"
 msgid ""
 "Yes, you can use Monaca to develop Chrome Apps. For more information, please"
 " refer to :ref:`building_for_chrome_app`."
-msgstr ""
+msgstr "Monaca を使用して、Chrome アプリを開発できます。詳細に関しては、 :ref:`building_for_chrome_app` をご確認ください。"
 
 #: ../doc/faq/build.rst:94
 msgid ""
@@ -519,7 +519,7 @@ msgid ""
 "You can import private keys on your local Mac, and export Monaca's private "
 "keys and certificates. For details, please refer to  "
 ":ref:`import_export_certificates_and_private_keys`."
-msgstr ""
+msgstr "ローカルの Mac 上にある秘密鍵を、Monaca にインポートしたり、Monaca の秘密鍵や証明書を、外部へエクスポートできます。詳細は、 :ref:`import_export_certificates_and_private_keys` をご確認ください。"
 
 #: ../doc/faq/build.rst:114
 msgid "The built application crashes right after starting up."
@@ -722,7 +722,7 @@ msgid ""
 "actual running device. No build and run process are required. This would "
 "help to speed up the development and testing process. For more details, "
 "please refer to  :ref:`monaca_debugger_index`."
-msgstr ""
+msgstr "Monaca デバッガーとは、デバッグ用のアプリです。Monaca デバッガーを使用すれば、アプリを毎回ビルドせずに、アプリの動作を端末上で確認できます。また、コードを修正した場合にも、端末上のアプリに即座に反映されます。これにより、ビルドと実行処理を省略することができ、スピーディーに開発と検証を行えます。詳細は、 :ref:`monaca_debugger_index` をご確認ください。"
 
 #: ../doc/faq/debugger.rst:18
 msgid ""
@@ -907,7 +907,7 @@ msgid ""
 " enabled when the app is debug built. Therefore, you cannot do USB debugging"
 " on Monaca Debugger downloaded from App Store. For more details, please see "
 ":ref:`debugger_on_ios`."
-msgstr ""
+msgstr "USB デバッグのサポート ( iOS のみ ) : デバックビルド版のアプリが対象です。App Store から入手した Monaca デバッガーでは、USB デバッグはできません。詳細に関しては、 :ref:`debugger_on_ios` をご確認ください。"
 
 #: ../doc/faq/debugger.rst:119
 msgid "How can I debug my application?"
@@ -931,7 +931,7 @@ msgstr "USB デバッグと Monaca デバッガーを使用したデバッグ"
 
 #: ../doc/faq/debugger.rst:127
 msgid "For more details, please refer to :ref:`debugging_monaca_app`."
-msgstr ""
+msgstr "詳細については、 :ref:`debugging_monaca_app` をご確認ください。"
 
 #: ../doc/faq/debugger.rst:132
 msgid "What is a network install?"
@@ -1095,7 +1095,7 @@ msgid ""
 ":ref:`monaca_vs_index` to develop Monaca apps. This extension allows to "
 "develop as in Monaca Cloud IDE except using the functionalities of Visual "
 "Studio."
-msgstr ""
+msgstr "Monaca for Visual Studio を使うと、Visual Studio を使用して、Monaca アプリの開発ができます。この拡張機能には、Monaca クラウド IDE の機能が移植されています。詳細は、:ref:`monaca_vs_index`  をご確認ください。"
 
 #: ../doc/faq/environment.rst:81
 msgid "Application does not run on preview in the IDE"
@@ -1462,7 +1462,7 @@ msgstr "Monaca エンタープライズプランは、企業単位でのお申�
 
 #: ../doc/faq/index.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../doc/faq/index.rst:5
 msgid ""
@@ -1566,7 +1566,7 @@ msgstr "これらのツールを使用すれば、お好みのプラットフォ
 
 #: ../doc/faq/usage.rst:19
 msgid "Register a user in `Monaca <https://monaca.mobi/en/register/start>`_."
-msgstr ""
+msgstr "`こちら <https://monaca.mobi/ja/register/start>`_ から Monaca に登録します。"
 
 #: ../doc/faq/usage.rst:20
 msgid "Write HTML5/CSS3/JavaScript in your desired platform."
@@ -1593,7 +1593,7 @@ msgid ""
 "Moreover, note that in order to install the built application on iPhone or "
 "iPad, you need to register iOS Developer Program. For more details, please "
 "refer to  :ref:`building_for_ios`."
-msgstr ""
+msgstr "ビルドしたアプリを、iPhone または iPad にインストールする場合には、iOS Developer Program に登録する必要があります。詳細に関しては、 :ref:`building_for_ios` をご確認ください。"
 
 #: ../doc/faq/usage.rst:31
 msgid "Can I create my own project template?"
@@ -1726,7 +1726,7 @@ msgid ""
 ":ref:`editor_functions`. Also, Monaca can use keybindings like *vim*. You "
 "can set the keybinding from the Environment Settings of the File menu on the"
 " top of the page of Monaca Cloud IDE."
-msgstr ""
+msgstr "Monaca クラウド IDE で利用できるショートカットに関しては、 :ref:`editor_functions` をご確認ください。また、 *vim* のようなキーバインドも、Monaca では使用できます。[ ファイル ] メニューの [ エディター環境設定... ] で、キーバンド設定を行えます。"
 
 #: ../doc/faq/usage.rst:103
 msgid "I want to change the background color of the Splash screen."
