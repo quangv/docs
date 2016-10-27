@@ -244,7 +244,7 @@ Assuming that you want to use Monaca CI to create release build for iOS and Andr
       "deploy": [
         {
           "type": "DeployGate",
-          "alias": "InsiderTest",
+          "alias": "Insider Test",
           "default": {
             "release_note": "This is a beta test for insider testing."
           },
