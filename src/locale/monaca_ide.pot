@@ -302,7 +302,7 @@ msgid "When a keystore is lost, it is impossible to use the same key to re-sign 
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:142
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:277
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:284
 msgid "Step 3: Start Building"
 msgstr ""
 
@@ -311,7 +311,7 @@ msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:146
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:281
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:288
 msgid "Select appropriate type of build you want and click :guilabel:`Next`."
 msgstr ""
 
@@ -330,7 +330,7 @@ msgid "Click :guilabel:`Next`."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:166
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:291
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:298
 msgid "It may take several minutes for the build to complete. Please wait."
 msgstr ""
 
@@ -338,7 +338,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:96
 #: ../doc/monaca_ide/manual/build/build_history.rst:32
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:166
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:296
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:303
 #: ../doc/monaca_ide/manual/build/ios/import_export.rst:154
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:61
 #: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
@@ -368,7 +368,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_android.rst:176
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:100
 #: ../doc/monaca_ide/manual/build/build_history.rst:36
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:301
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:308
 msgid ":ref:`building_for_win8`"
 msgstr ""
 
@@ -391,7 +391,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_android.rst:179
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:102
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:172
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:302
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:309
 msgid ":ref:`build_history`"
 msgstr ""
 
@@ -487,7 +487,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:98
 #: ../doc/monaca_ide/manual/build/build_history.rst:35
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:169
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:300
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:307
 #: ../doc/monaca_ide/manual/deploy/amazon_store.rst:142
 #: ../doc/monaca_ide/manual/deploy/google_play.rst:173
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:230
@@ -897,19 +897,19 @@ msgid "Step 2: Configure iOS App in iOS Dev Center"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:119
-msgid "From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Member Center`."
+msgid "From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Account`."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:121
-msgid "Sign in using Apple ID and password you used to enroll in the iOS Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/ios/>`_."
+msgid "Sign in using Apple ID and password you used to enroll in the Apple Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/>`_."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:123
-msgid "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear. All actions we need to do (in order to build an iOS app) are inside :guilabel:`iOS` panel."
+msgid "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:131
-msgid "In this page, we are going to do 3 important things:"
+msgid "In this page, we are going to do 4 important things:"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:133
@@ -924,220 +924,230 @@ msgstr ""
 msgid ":ref:`register_dev_device`"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:142
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:136
+msgid ":ref:`register_provisioning`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:143
 msgid "Generate Certificates"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:144
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:145
 msgid "There are two types of certificates which can be issued in iOS Dev Center:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:146
-msgid "Development certificate: required for Debug build"
-msgstr ""
-
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:147
-msgid "Production certificate: required for either Ad Hoc or Release build."
+msgid "Development: required for Debug build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:150
-msgid "After you have downloaded the CSR (refer to :ref:`config_ios_build`), you are now able to issue and download the certificates in iOS Dev Center. In this example, we will show you how to issue and download a Development certificate. To do this, please follow the instruction below:"
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:148
+msgid "Production: required for either Ad Hoc or Release build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:152
-msgid "Under iOS Apps section, go to :menuselection:`Certificates --> Development`."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:151
+msgid "After downloading the CSR file (refer to :ref:`config_ios_build`), you are now able to issue and download the certificates in iOS Dev Center."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:154
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:184
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:224
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:256
-msgid "Click the Add button (+) in the upper-right corner."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:153
+msgid "In the following example, we will show you how to issue and download a Development certificate:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:162
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:258
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:155
+msgid "Under :guilabel:`Certificates` section, go to :guilabel:`Development`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:157
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:187
+msgid "Click the Add button :guilabel:`+` in the upper-right corner (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:165
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
 msgid "Choose :guilabel:`iOS App Development` and click :guilabel:`Continue`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:164
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:167
 msgid "Choose :guilabel:`App Store and Ad Hoc` if you want to issue Production certificate."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:166
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:169
 msgid "Click :guilabel:`Continue` again and upload the CSR file that you've downloaded from Monaca Cloud IDE earlier. Then, click :guilabel:`Generate`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:168
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:171
 msgid "By now, your development certificate has been issued. Please download this certificate. You will need to upload it to Monaca Cloud IDE later."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:170
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:173
 msgid "Follow similar instruction in order to create a Production certificate."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:176
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:179
 msgid "Register App ID"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:178
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:181
 msgid "App IDs are primarily used when creating development and distribution provisioning profiles. You can create a wildcard App ID that matches one or more apps or an explicit App ID that exactly matches your bundle ID."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:180
-msgid "In order to register your App ID, please follow these instructions:"
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:183
+msgid "In order to register your App ID, please follow the instruction below:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:182
-msgid "Under iOS Apps section, go to :menuselection:`Identifiers --> App IDs`."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:185
+msgid "Under :guilabel:`Identifiers` section, go to :guilabel:`App IDs`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:186
-msgid "Fill in the information of your App ID such as:"
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:195
+msgid "The App ID string contains two parts (Prefix and Suffix) separated by a period (``.``). Fill in the information of your App ID such as:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:188
-msgid "The App ID string contains two parts (Prefix and Suffix) separated by a period (``.``)"
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:197
+msgid "App ID Description: Description of your App ID. You cannot use special characters such as ``@, &, *, ', \"``."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:190
-msgid "App ID Description: Description of your App ID. You cannot use special characters such as ``@, &, *, ', \"``"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:192
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
 msgid "App ID Prefix: It is defined as your Team ID by default."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:194
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:201
 msgid "App ID Suffix: It is defined as a Bundle ID search string. There are two types of App ID Suffixes:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:206
 msgid "Explicit App ID"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:206
 msgid "Register an explicit App ID if you plan to incorporate app services such as a Game Center, In-App Purchase, Data Protection, and iCloud, or just want a provisioning profile unique to a single app. Enter a unique string in the Bundle ID field of Explicit App ID which should match with the Bundle ID of your app. The App ID must match the one you set in Monaca Cloud IDE as shown in :ref:`config_ios_app_monaca`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:204
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:211
 msgid "Wildcard App ID"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:204
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:211
 msgid "Register a wildcard App ID if you want to use a single App ID for building and installing multiple applications. Enter an asterisk (``*``) as the last digit in the Bundle ID field of wildcard App ID."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:208
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:215
 msgid "App Services: Select the services you want to enable in your app."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:210
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:217
 msgid "Then, click :guilabel:`Continue`. After reviewing your App ID’s info, click :guilabel:`Submit`. By now, you have completed your App ID registration into iOS Dev Center."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:216
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:223
 msgid "Register Development Devices"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:218
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:225
 msgid "You are required to register your development device(s) before creating development and distribution provisioning profiles."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:220
-msgid "In order to register a device that you will be using during your app development, please follow these instructions:"
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:227
+msgid "In order to register a device that you will be using during your app development, please follow the instruction below:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:222
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:229
 msgid "Under iOS Apps section, go to :guilabel:`Devices`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:226
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:231
+msgid "Click the Add button (+) in the upper-right corner."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:233
 msgid "Fill in the information of your device."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:228
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:235
 msgid "Name: a name represent your device (Example: MyiPhone)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:230
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:237
 msgid "UDID: a unique device identifier of your device. You can find this identifier by connecting your iOS device to your computer. Then, open iTunes and see the summary of your device. After that, click on the device’s *Serial Number* to reveal the UDID which consists of *40* characters. Right-click on it to copy this UDID. (See below)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:239
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:246
 msgid "Then, press :guilabel:`Continue`. After reviewing your device’s info, click :guilabel:`Register`. By now, you have completed your device registration into iOS Dev Center."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:245
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:252
 msgid "Create Provisioning Profiles"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:247
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:254
 msgid "One last step before building your iOS app is creating a provisioning profile. There are two types of provisioning profile:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:249
-msgid "Development provisioning profile: used with Development certificate for debug build."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:256
+msgid "Development: used with Development certificate for Debug build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:250
-msgid "Distribution provisioning profile: used with Production certificate for ad hoc and release build."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:257
+msgid "Distribution: used with Production certificate for Ad Hoc and Release build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:252
-msgid "In this example, we will show you how to create a Development provisioning profile. To do this, please follow the instruction below:"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:254
-msgid "Under iOS Apps section, go to :menuselection:`Provisioning Profiles --> Development`."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:260
-msgid "Choose :guilabel:`Ad Hoc` if you want to create Distribution provisioning profile for Ad Hoc build."
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:259
+msgid "In the following example, we will show you how to create a Development provisioning profile:"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:261
-msgid "Choose :guilabel:`App Store` if you want to create Distribution provisioning profile for Release build."
+msgid "Under :guilabel:`Provisioning Profiles` section, go to :guilabel:`Development`."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:263
-msgid "Select your App ID and click :guilabel:`Continue`."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
-msgid "Select the certificate(s) you want to include in this profile and click :guilabel:`Continue`."
+msgid "Click the Add button :guilabel:`+` in the upper-right corner."
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:267
+msgid "Choose :guilabel:`Ad Hoc` if you want to create Distribution provisioning profile for Ad Hoc build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:268
+msgid "Choose :guilabel:`App Store` if you want to create Distribution provisioning profile for Release build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:270
+msgid "Select your App ID and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:272
+msgid "Select the certificate(s) you want to include in this profile and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:274
 msgid "Select the device you have previously registered for development and click :guilabel:`Continue`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:269
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:276
 msgid "Input a name for the provisioning profile and click :guilabel:`Generate`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:271
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:278
 msgid "Now your Development provisioning profile is ready. Please download it. You will need this file when building your iOS app in Monaca later."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:273
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:280
 msgid "Follow similar instruction in order to create a Distribution provisioning profile."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:279
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:286
 #: ../doc/monaca_ide/tutorial/building_app.rst:95
 msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App for iOS`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:289
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:296
 msgid "Upload the appropriate provisioning profile (refer to :ref:`types_of_build_ios`) and click :guilabel:`Next` button."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:298
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:305
 msgid ":ref:`import_export_certificates_and_private_keys`"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:299
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:306
 #: ../doc/monaca_ide/manual/deploy/amazon_store.rst:144
 #: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:76
 #: ../doc/monaca_ide/manual/deploy/google_play.rst:174

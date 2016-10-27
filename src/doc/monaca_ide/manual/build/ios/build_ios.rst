@@ -116,23 +116,24 @@ Configure iOS Build Settings
 Step 2: Configure iOS App in iOS Dev Center
 ==================================================================
 
-1. From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Member Center`.
+1. From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Account`.
 
-2. Sign in using Apple ID and password you used to enroll in the iOS Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/ios/>`_.
+2. Sign in using Apple ID and password you used to enroll in the Apple Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/>`_.
 
-3. Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear. All actions we need to do (in order to build an iOS app) are inside :guilabel:`iOS` panel.
+3. Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear.
 
   .. figure:: images/build_ios/4.png
-    :width: 600px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
 
-3. In this page, we are going to do 3 important things:
+3. In this page, we are going to do 4 important things:
 
   - :ref:`create_cer`
   - :ref:`register_appID`
   - :ref:`register_dev_device`
+  - :ref:`register_provisioning`
 
 
 
@@ -143,18 +144,20 @@ Generate Certificates
 
 There are two types of certificates which can be issued in iOS Dev Center:
 
-- Development certificate: required for Debug build
-- Production certificate: required for either Ad Hoc or Release build.
+- Development: required for Debug build
+- Production: required for either Ad Hoc or Release build
 
 
-After you have downloaded the CSR (refer to :ref:`config_ios_build`), you are now able to issue and download the certificates in iOS Dev Center. In this example, we will show you how to issue and download a Development certificate. To do this, please follow the instruction below:
+After downloading the CSR file (refer to :ref:`config_ios_build`), you are now able to issue and download the certificates in iOS Dev Center. 
 
-1. Under iOS Apps section, go to :menuselection:`Certificates --> Development`.
+In the following example, we will show you how to issue and download a Development certificate:
 
-2. Click the Add button (+) in the upper-right corner.
+1. Under :guilabel:`Certificates` section, go to :guilabel:`Development`.
+
+2. Click the Add button :guilabel:`+` in the upper-right corner (see the screenshot below).
 
   .. figure:: images/build_ios/5.png
-    :width: 600px
+    :width: 700px
     :align: left
 
   .. rst-class:: clear
@@ -177,17 +180,21 @@ Register App ID
 
 App IDs are primarily used when creating development and distribution provisioning profiles. You can create a wildcard App ID that matches one or more apps or an explicit App ID that exactly matches your bundle ID.
 
-In order to register your App ID, please follow these instructions:
+In order to register your App ID, please follow the instruction below:
 
-1. Under iOS Apps section, go to :menuselection:`Identifiers --> App IDs`.
+1. Under :guilabel:`Identifiers` section, go to :guilabel:`App IDs`.
 
-2. Click the Add button (+) in the upper-right corner.
+2. Click the Add button :guilabel:`+` in the upper-right corner (see the screenshot below).
 
-3. Fill in the information of your App ID such as:
+  .. figure:: images/build_ios/8.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
+
+3. The App ID string contains two parts (Prefix and Suffix) separated by a period (``.``). Fill in the information of your App ID such as:
   
-  The App ID string contains two parts (Prefix and Suffix) separated by a period (``.``)
-  
-  - App ID Description: Description of your App ID. You cannot use special characters such as ``@, &, *, ', "``
+  - App ID Description: Description of your App ID. You cannot use special characters such as ``@, &, *, ', "``.
 
   - App ID Prefix: It is defined as your Team ID by default.
 
@@ -217,11 +224,17 @@ Register Development Devices
 
 You are required to register your development device(s) before creating development and distribution provisioning profiles.
 
-In order to register a device that you will be using during your app development, please follow these instructions:
+In order to register a device that you will be using during your app development, please follow the instruction below:
 
-1. Under iOS Apps section, go to :guilabel:`Devices`.
+1. Under :guilabel:`Devices` section, select a type of device(s) you want to register.
 
-2. Click the Add button (+) in the upper-right corner.
+2. Click the Add button (+) in the upper-right corner (see the screenshot below).
+
+  .. figure:: images/build_ios/9.png
+    :width: 700px
+    :align: left
+
+  .. rst-class:: clear
 
 3. Fill in the information of your device.
 
@@ -246,14 +259,14 @@ Create Provisioning Profiles
 
 One last step before building your iOS app is creating a provisioning profile. There are two types of provisioning profile:
 
-- Development provisioning profile: used with Development certificate for debug build.
-- Distribution provisioning profile: used with Production certificate for ad hoc and release build.
+- Development: used with Development certificate for Debug build
+- Distribution: used with Production certificate for Ad Hoc and Release build
 
-In this example, we will show you how to create a Development provisioning profile. To do this, please follow the instruction below:
+In the following example, we will show you how to create a Development provisioning profile:
 
-1. Under iOS Apps section, go to :menuselection:`Provisioning Profiles --> Development`.
+1. Under :guilabel:`Provisioning Profiles` section, go to :guilabel:`Development`.
 
-2. Click the Add button (+) in the upper-right corner.
+2. Click the Add button :guilabel:`+` in the upper-right corner.
 
 3. Choose :guilabel:`iOS App Development` and click :guilabel:`Continue`.
 
