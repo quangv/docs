@@ -397,7 +397,7 @@ msgstr ""
 " ボタンをクリックします。"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:142
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:284
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:290
 msgid "Step 3: Start Building"
 msgstr "ステップ 3 : アプリのビルド"
 
@@ -409,7 +409,7 @@ msgstr ""
 "Monaca クラウド IDE のメニューから、 :menuselection:`ビルド -->Android アプリのビルド` を選択します。"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:146
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:288
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:294
 msgid "Select appropriate type of build you want and click :guilabel:`Next`."
 msgstr "目的に応じたビルドの種類を選択し、:guilabel:`次へ` ボタンをクリックします。"
 
@@ -431,7 +431,7 @@ msgid "Click :guilabel:`Next`."
 msgstr ":guilabel:`次へ` ボタンをクリックします。"
 
 #: ../doc/monaca_ide/manual/build/build_android.rst:166
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:298
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:304
 msgid "It may take several minutes for the build to complete. Please wait."
 msgstr "ビルドが完了するまで、多少の時間がかかりますので、しばらく待ちます。"
 
@@ -439,7 +439,7 @@ msgstr "ビルドが完了するまで、多少の時間がかかりますので
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:96
 #: ../doc/monaca_ide/manual/build/build_history.rst:32
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:166
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:303
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:309
 #: ../doc/monaca_ide/manual/build/ios/import_export.rst:154
 #: ../doc/monaca_ide/manual/code_editor/editor.rst:61
 #: ../doc/monaca_ide/manual/code_editor/type_script.rst:313
@@ -469,7 +469,7 @@ msgstr ":ref:`building_for_ios`"
 #: ../doc/monaca_ide/manual/build/build_android.rst:176
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:100
 #: ../doc/monaca_ide/manual/build/build_history.rst:36
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:308
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:314
 msgid ":ref:`building_for_win8`"
 msgstr ":ref:`building_for_win8`"
 
@@ -492,7 +492,7 @@ msgstr ":ref:`building_for_chrome_app`"
 #: ../doc/monaca_ide/manual/build/build_android.rst:179
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:102
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:172
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:309
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:315
 msgid ":ref:`build_history`"
 msgstr ":ref:`build_history`"
 
@@ -623,7 +623,7 @@ msgstr ""
 #: ../doc/monaca_ide/manual/build/build_chrome_app.rst:98
 #: ../doc/monaca_ide/manual/build/build_history.rst:35
 #: ../doc/monaca_ide/manual/build/build_winrt.rst:169
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:307
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:313
 #: ../doc/monaca_ide/manual/deploy/amazon_store.rst:142
 #: ../doc/monaca_ide/manual/deploy/google_play.rst:173
 #: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:230
@@ -1255,7 +1255,7 @@ msgid ""
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:165
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:271
 msgid "Choose :guilabel:`iOS App Development` and click :guilabel:`Continue`."
 msgstr ""
 ":guilabel:`iOS App Development` を選択し、 :guilabel:`Continue` ボタンをクリックします。"
@@ -1392,22 +1392,26 @@ msgid ""
 msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:229
-msgid "Under iOS Apps section, go to :guilabel:`Devices`."
-msgstr "[ iOS Apps ] 下で、:guilabel:`Devices` を選択します。"
+msgid ""
+"Under :guilabel:`Devices` section, select a type of device(s) you want to "
+"register."
+msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:231
-msgid "Click the Add button (+) in the upper-right corner."
-msgstr "ページの右上に表示された追加ボタン (+) をクリックします。"
+msgid ""
+"Click the Add button (+) in the upper-right corner (see the screenshot "
+"below)."
+msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:233
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:239
 msgid "Fill in the information of your device."
 msgstr "端末の情報を入力します。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:235
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:241
 msgid "Name: a name represent your device (Example: MyiPhone)"
 msgstr "Name : 端末を識別するための名前を入力します ( 例 : MyiPhone )"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:237
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:243
 msgid ""
 "UDID: a unique device identifier of your device. You can find this "
 "identifier by connecting your iOS device to your computer. Then, open iTunes"
@@ -1419,7 +1423,7 @@ msgstr ""
 "を起動して、端末情報を表示させます。端末情報の *シリアル番号* をクリックして、UDID ( *40* 文字 ) を表示させます。次に、UDID "
 "を右クリックし、コピーします ( 下のスクリーンショットを参照のこと )。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:246
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:252
 msgid ""
 "Then, press :guilabel:`Continue`. After reviewing your device’s info, click "
 ":guilabel:`Register`. By now, you have completed your device registration "
@@ -1428,75 +1432,75 @@ msgstr ""
 "入力後、 :guilabel:`Continue` をクリックします。次の画面で入力情報を確認して、 :guilabel:`Register` "
 "をクリックします。iOS Dev Center 上での開発用端末の登録は、これで完了です。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:252
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:258
 msgid "Create Provisioning Profiles"
 msgstr "プロビジョニング プロファイルの作成"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:254
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:260
 msgid ""
 "One last step before building your iOS app is creating a provisioning "
 "profile. There are two types of provisioning profile:"
 msgstr "アプリのビルドの最終工程として、プロビジョニング プロファイルを作成します。プロビジョニング プロファイルには、次の2種類があります。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:256
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:262
 msgid "Development: used with Development certificate for Debug build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:257
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:263
 msgid ""
 "Distribution: used with Production certificate for Ad Hoc and Release build"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:259
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
 msgid ""
 "In the following example, we will show you how to create a Development "
 "provisioning profile:"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:261
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:267
 msgid ""
 "Under :guilabel:`Provisioning Profiles` section, go to "
 ":guilabel:`Development`."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:263
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:269
 msgid "Click the Add button :guilabel:`+` in the upper-right corner."
 msgstr ""
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:267
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:273
 msgid ""
 "Choose :guilabel:`Ad Hoc` if you want to create Distribution provisioning "
 "profile for Ad Hoc build."
 msgstr "Ad Hoc ビルド用に、配布用 プロビジョニング プロファイルを作成する場合には、:guilabel:`Ad Hoc` を選択します。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:268
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:274
 msgid ""
 "Choose :guilabel:`App Store` if you want to create Distribution provisioning"
 " profile for Release build."
 msgstr "リリースビルド用に、配布用 プロビジョニング プロファイルを作成する場合には、:guilabel:`App Store` を選択します。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:270
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:276
 msgid "Select your App ID and click :guilabel:`Continue`."
 msgstr "対象の App ID を選択して、:guilabel:`Continue` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:272
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:278
 msgid ""
 "Select the certificate(s) you want to include in this profile and click "
 ":guilabel:`Continue`."
 msgstr "このプロファイルに紐付けする証明書を選択して、:guilabel:`Continue` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:274
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:280
 msgid ""
 "Select the device you have previously registered for development and click "
 ":guilabel:`Continue`."
 msgstr "先ほど登録した開発用の端末を選択して、:guilabel:`Continue` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:276
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:282
 msgid ""
 "Input a name for the provisioning profile and click :guilabel:`Generate`."
 msgstr "プロビジョニング プロファイルの名前を入力して、:guilabel:`Generate` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:278
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:284
 msgid ""
 "Now your Development provisioning profile is ready. Please download it. You "
 "will need this file when building your iOS app in Monaca later."
@@ -1504,20 +1508,20 @@ msgstr ""
 "開発用 プロビジョニング プロファイルの準備が完了しました。プロファイルをダウンロードします。後ほど、Monaca 上で、iOS "
 "アプリをビルドするときに、このファイルを使用します。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:280
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:286
 msgid ""
 "Follow similar instruction in order to create a Distribution provisioning "
 "profile."
 msgstr "配布用 プロビジョニング プロファイルの作成も、ほぼ同様の手順で行えます。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:286
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:292
 #: ../doc/monaca_ide/tutorial/building_app.rst:95
 msgid ""
 "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App "
 "for iOS`."
 msgstr "Monaca クラウド IDE のメニューから、 :menuselection:`ビルド --> iOS アプリのビルド` を選択します。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:296
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:302
 msgid ""
 "Upload the appropriate provisioning profile (refer to "
 ":ref:`types_of_build_ios`) and click :guilabel:`Next` button."
@@ -1525,11 +1529,11 @@ msgstr ""
 "ビルドの種類に応じたプロビジョニング プロファイルをアップロードして ( :ref:`types_of_build_ios` を参照のこと )、 "
 ":guilabel:`次へ` ボタンをクリックします。"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:305
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:311
 msgid ":ref:`import_export_certificates_and_private_keys`"
 msgstr ":ref:`import_export_certificates_and_private_keys`"
 
-#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:306
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:312
 #: ../doc/monaca_ide/manual/deploy/amazon_store.rst:144
 #: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:76
 #: ../doc/monaca_ide/manual/deploy/google_play.rst:174
