@@ -81,13 +81,13 @@ msgid ""
 msgstr ""
 
 #: ../doc/monaca_vs/manual/build_publish.rst:28
-#: ../doc/monaca_vs/manual/overview.rst:264
+#: ../doc/monaca_vs/manual/overview.rst:279
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:89
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:30
-#: ../doc/monaca_vs/manual/overview.rst:266
+#: ../doc/monaca_vs/manual/overview.rst:281
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:91
 msgid ":ref:`monaca_vs_tutorial`"
 msgstr ":ref:`monaca_vs_tutorial`"
@@ -98,7 +98,7 @@ msgid ":doc:`overview`"
 msgstr ":doc:`overview`"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:32
-#: ../doc/monaca_vs/manual/overview.rst:268
+#: ../doc/monaca_vs/manual/overview.rst:283
 msgid ":doc:`pairing_debugging`"
 msgstr ":doc:`pairing_debugging`"
 
@@ -112,15 +112,12 @@ msgstr "Monaca for Visual Studio の概要"
 
 #: ../doc/monaca_vs/manual/overview.rst:9
 msgid ""
-"Monaca for Visual Studio is an extension which allows you to develop Monaca "
+"Monaca for Visual Studio is an extension allowing you to develop Monaca "
 "applications using Microsoft Visual Studio IDE. Several features found in "
 "Monaca Cloud IDE are included in this extension. Therefore, app development "
 "with Monaca for Visual Studio is very similar to the app development on "
 "Monaca Cloud IDE."
 msgstr ""
-"Monaca for Visual Studio は、拡張機能の 1 つです。この拡張機能を組み込めば、Microsoft Visual Studio "
-"IDE 上でも、Monaca アプリの開発ができます。この拡張機能には、Monaca クラウド IDE の機能の一部を移植しているので、Monaca "
-"クラウド IDE さながらに、Monaca for Visual Stuio をご使用いただけます。"
 
 #: ../doc/monaca_vs/manual/overview.rst:20
 msgid "Prerequisites"
@@ -339,11 +336,31 @@ msgstr ""
 "Monaca のインストール後 ( Visual Studio IDE への組み込み後 )、Visual Studio IDE 上の Monaca "
 "パネルから、有効な Monaca アカウントを使用して、ログインします。"
 
+#: ../doc/monaca_vs/manual/overview.rst:181
+msgid "In Monaca panel, there are several features such as:"
+msgstr ""
+
 #: ../doc/monaca_vs/manual/overview.rst:183
+msgid ":ref:`run_in_device`"
+msgstr ""
+
+#: ../doc/monaca_vs/manual/overview.rst:184
+msgid ":ref:`monaca_panel_build_settings`"
+msgstr ""
+
+#: ../doc/monaca_vs/manual/overview.rst:185
+msgid ":ref:`monaca_panel_build`"
+msgstr ""
+
+#: ../doc/monaca_vs/manual/overview.rst:186
+msgid ":ref:`monaca_panel_preferences`"
+msgstr ""
+
+#: ../doc/monaca_vs/manual/overview.rst:192
 msgid "Run in Device"
 msgstr "デバイス上で実行"
 
-#: ../doc/monaca_vs/manual/overview.rst:185
+#: ../doc/monaca_vs/manual/overview.rst:194
 msgid ""
 "This function is available when at least one :ref:`monaca_debugger_index` is"
 " connected to the host PC (running Visual Studio). It will run the current "
@@ -355,19 +372,19 @@ msgstr ""
 "Visual Studio と Monaca デバッガー間の接続方法に関しては、:ref:`こちら "
 "<monaca_vs_testing_debugging>` をご確認ください。"
 
-#: ../doc/monaca_vs/manual/overview.rst:191
+#: ../doc/monaca_vs/manual/overview.rst:200
 msgid "Monaca Debugger is not Connected"
 msgstr "Monaca デバッガーと未接続"
 
-#: ../doc/monaca_vs/manual/overview.rst:197
+#: ../doc/monaca_vs/manual/overview.rst:206
 msgid "Monaca Debugger is Connected"
 msgstr "Monaca デバッガーと接続中"
 
-#: ../doc/monaca_vs/manual/overview.rst:203
+#: ../doc/monaca_vs/manual/overview.rst:214
 msgid "Build Settings"
 msgstr "ビルド設定"
 
-#: ../doc/monaca_vs/manual/overview.rst:205
+#: ../doc/monaca_vs/manual/overview.rst:216
 msgid ""
 "Just like in Monaca Cloud IDE, this function will open a Build Settings "
 "window which allows you to configure project settings as well as build "
@@ -376,39 +393,39 @@ msgstr ""
 "Monaca クラウド IDE に実装されている各プラットフォーム向けの [ ビルド設定 ] "
 "と同じように、この機能を使用すると、ビルド設定用のウィンドウが表示され、次のビルド設定を行えます ( 加えて、アプリ設定も行えます )。"
 
-#: ../doc/monaca_vs/manual/overview.rst:207
+#: ../doc/monaca_vs/manual/overview.rst:218
 msgid ":ref:`Cordova Plugins<cordova_plugins_setting>`"
 msgstr ":ref:`Cordova プラグイン <cordova_plugins_setting>`"
 
-#: ../doc/monaca_vs/manual/overview.rst:208
+#: ../doc/monaca_vs/manual/overview.rst:219
 msgid ":ref:`js_css`"
 msgstr ":ref:`js_css`"
 
-#: ../doc/monaca_vs/manual/overview.rst:209
+#: ../doc/monaca_vs/manual/overview.rst:220
 msgid ":ref:`service_integration_index`"
 msgstr ":ref:`service_integration_index`"
 
-#: ../doc/monaca_vs/manual/overview.rst:210
+#: ../doc/monaca_vs/manual/overview.rst:221
 msgid ":ref:`Android App and Build Settings<building_for_android>`"
 msgstr ":ref:`Android アプリ設定 と キーストア設定 <building_for_android>`"
 
-#: ../doc/monaca_vs/manual/overview.rst:211
+#: ../doc/monaca_vs/manual/overview.rst:222
 msgid ":ref:`iOS App and Build Settings<building_for_ios>`"
 msgstr ":ref:`iOS アプリ設定 と ビルド設定 <building_for_ios>`"
 
-#: ../doc/monaca_vs/manual/overview.rst:212
+#: ../doc/monaca_vs/manual/overview.rst:223
 msgid ":ref:`Windows App Settings<building_for_win8>`"
 msgstr ":ref:`Windows アプリ設定 <building_for_win8>`"
 
-#: ../doc/monaca_vs/manual/overview.rst:213
+#: ../doc/monaca_vs/manual/overview.rst:224
 msgid ":ref:`Chrome Apps Settings<building_for_chrome_app>`"
 msgstr ":ref:`Chrome アプリ設定 <building_for_chrome_app>`"
 
-#: ../doc/monaca_vs/manual/overview.rst:224
+#: ../doc/monaca_vs/manual/overview.rst:237
 msgid "Build"
 msgstr "ビルド"
 
-#: ../doc/monaca_vs/manual/overview.rst:226
+#: ../doc/monaca_vs/manual/overview.rst:239
 msgid ""
 "This function will open a Build window which allows you to build your "
 "project for 4 different platforms as shown in the screenshot below:"
@@ -416,11 +433,11 @@ msgstr ""
 "この機能を使用すると、ビルド用のウィンドウが表示され、お好みのプラットフォーム向けにプロジェクトのビルドができます ( "
 "下のスクリーンショットを参照のこと )。"
 
-#: ../doc/monaca_vs/manual/overview.rst:235
+#: ../doc/monaca_vs/manual/overview.rst:250
 msgid "Preferences"
 msgstr "設定"
 
-#: ../doc/monaca_vs/manual/overview.rst:237
+#: ../doc/monaca_vs/manual/overview.rst:252
 msgid ""
 "While trying to pair/connect Monaca Debugger with the PC hosting Monaca "
 "within Visual Studio, you might need to configure HTTP Server Port and Proxy"
@@ -431,25 +448,25 @@ msgstr ""
 "サーバーのポートとプロキシーサーバーは、自由に設定することもできます。ペアリングの詳細は、:ref:`こちら<troubleshoot_pair>` "
 "をご確認ください。"
 
-#: ../doc/monaca_vs/manual/overview.rst:239
+#: ../doc/monaca_vs/manual/overview.rst:254
 msgid ""
 "You can find this function by going to :menuselection:`MONACA --> "
 "Preferences`."
 msgstr ":menuselection:`MONACA --> 設定` を選択して、これらの設定を行います。"
 
-#: ../doc/monaca_vs/manual/overview.rst:247
+#: ../doc/monaca_vs/manual/overview.rst:262
 msgid "There are two ways to define the proxy server address as follows:"
 msgstr "プロキシサーバーのアドレスは、次のように設定します。"
 
-#: ../doc/monaca_vs/manual/overview.rst:249
+#: ../doc/monaca_vs/manual/overview.rst:264
 msgid "Proxy Server with basic authentication"
 msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用している場合"
 
-#: ../doc/monaca_vs/manual/overview.rst:255
+#: ../doc/monaca_vs/manual/overview.rst:270
 msgid "Proxy Server without basic authentication"
 msgstr "Basic 認証 ( 基本認証 ) をプロキシサーバーで使用していない場合"
 
-#: ../doc/monaca_vs/manual/overview.rst:267
+#: ../doc/monaca_vs/manual/overview.rst:282
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:93
 msgid ":doc:`build_publish`"
 msgstr ":doc:`build_publish`"
@@ -504,16 +521,14 @@ msgstr ""
 "ボタンをクリックします。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:37
+#: ../doc/monaca_vs/tutorial/testing_debugging.rst:57
 msgid ""
-"If your pairing is success, a project list will appear in Monaca Debugger "
-"and the connected debugger will appear in the Monaca panel (see a screenshot"
+"If your pairing is successful, a project list will appear in Monaca Debugger"
+" and the connected debugger will appear in the Monaca panel (see screenshots"
 " below as an example). However, if Monaca Debugger is unable to detect the "
 "host PC automatically, please refer to :ref:`troubleshooting the "
 "Pairing<troubleshoot_pair>`."
 msgstr ""
-"ペアリング後、Monaca デバッガー上には、プロジェクトの一覧が表示され、一方、Monaca パネル上 ( Visual Studio ) "
-"には、接続されたデバッガーが表示されます ( 下のスクリーンショットを参照のこと )。Monaca デバッガーがホスト PC "
-"側を自動的に検知できない場合には、:ref:`ペアリングのトラブルシューティング <troubleshoot_pair>` をご確認ください。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:43
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:63
@@ -1237,15 +1252,6 @@ msgstr ""
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:39
 msgid "Step 1: Running the Project on Monaca Debugger"
 msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
-
-#: ../doc/monaca_vs/tutorial/testing_debugging.rst:57
-msgid ""
-"If your pairing is successful, a project list will appear in Monaca Debugger"
-" and the connected debugger will appear in the Monaca panel (see screenshots"
-" below as an example). However, if Monaca Debugger is unable to detect the "
-"host PC automatically, please refer to :ref:`troubleshooting the "
-"Pairing<troubleshoot_pair>`."
-msgstr ""
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:83
 msgid "Step 2: Real-time Updates between Your Project and Monaca Debugger"
