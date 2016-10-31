@@ -6,7 +6,7 @@ Monaca for Visual Studio Overview
 
 
 
-Monaca for Visual Studio is an extension which allows you to develop Monaca applications using Microsoft Visual Studio IDE. Several features found in Monaca Cloud IDE are included in this extension. Therefore, app development with Monaca for Visual Studio is very similar to the app development on Monaca Cloud IDE.
+Monaca for Visual Studio is an extension allowing you to develop Monaca applications using Microsoft Visual Studio IDE. Several features found in Monaca Cloud IDE are included in this extension. Therefore, app development with Monaca for Visual Studio is very similar to the app development on Monaca Cloud IDE.
 
   .. figure:: images/introduction/1.png
     :alt: Monaca for Visual Studio
@@ -178,6 +178,15 @@ Once Monaca is successfully installed and added into Visual Studio IDE, please l
 
 .. rst-class:: clear
 
+In Monaca panel, there are several features such as:
+
+- :ref:`run_in_device`
+- :ref:`monaca_panel_build_settings`
+- :ref:`monaca_panel_build`
+- :ref:`monaca_panel_preferences`
+
+
+.. _run_in_device:
 
 Run in Device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -198,6 +207,8 @@ This function is available when at least one :ref:`monaca_debugger_index` is con
 
   .. rst-class:: clear
 
+
+.. _monaca_panel_build_settings:
 
 Build Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -220,6 +231,8 @@ Just like in Monaca Cloud IDE, this function will open a Build Settings window w
 
 .. rst-class:: clear
 
+.. _monaca_panel_build:
+
 Build
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -230,6 +243,8 @@ This function will open a Build window which allows you to build your project fo
     :align: center
 
 .. rst-class:: clear
+
+.. _monaca_panel_preferences:
 
 Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

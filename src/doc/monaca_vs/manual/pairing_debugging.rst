@@ -34,7 +34,7 @@ Start Pairing
 
   .. rst-class:: clear
 
-3. If your pairing is success, a project list will appear in Monaca Debugger and the connected debugger will appear in the Monaca panel (see a screenshot below as an example). However, if Monaca Debugger is unable to detect the host PC automatically, please refer to :ref:`troubleshooting the Pairing<troubleshoot_pair>`.
+3. If your pairing is successful, a project list will appear in Monaca Debugger and the connected debugger will appear in the Monaca panel (see screenshots below as an example). However, if Monaca Debugger is unable to detect the host PC automatically, please refer to :ref:`troubleshooting the Pairing<troubleshoot_pair>`.
 
   .. figure:: images/pairing_debugging/3.png
       :width: 250px 

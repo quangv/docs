@@ -19,8 +19,8 @@ Please refer to the following documentation on how to build and distribute your 
 .. toctree::
   :maxdepth: 2
 
-  ../../monaca_ide/manual/build/index
-  ../../monaca_ide/manual/deploy/index
+  Building Monaca Apps <../tutorial/building_app>
+  Publishing Monaca Apps <../../monaca_ide/manual/deploy/index>
 
 
 .. seealso::
