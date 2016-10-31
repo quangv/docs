@@ -81,13 +81,13 @@ msgid ""
 msgstr ""
 
 #: ../doc/monaca_cli/manual/build_publish.rst:28
-#: ../doc/monaca_cli/manual/overview.rst:90
+#: ../doc/monaca_cli/manual/overview.rst:57
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:89
 msgid "*See Also*"
 msgstr "*参考ページ*"
 
 #: ../doc/monaca_cli/manual/build_publish.rst:30
-#: ../doc/monaca_cli/manual/overview.rst:92
+#: ../doc/monaca_cli/manual/overview.rst:59
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:91
 msgid ":ref:`monaca_cli_tutorial`"
 msgstr ":ref:`monaca_cli_tutorial`"
@@ -98,13 +98,13 @@ msgid ":doc:`overview`"
 msgstr ":doc:`overview`"
 
 #: ../doc/monaca_cli/manual/build_publish.rst:32
-#: ../doc/monaca_cli/manual/overview.rst:93
+#: ../doc/monaca_cli/manual/overview.rst:60
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:92
 msgid ":doc:`cli_commands`"
 msgstr ":doc:`cli_commands`"
 
 #: ../doc/monaca_cli/manual/build_publish.rst:33
-#: ../doc/monaca_cli/manual/overview.rst:94
+#: ../doc/monaca_cli/manual/overview.rst:61
 msgid ":doc:`pairing_debugging`"
 msgstr ":doc:`pairing_debugging`"
 
@@ -982,15 +982,18 @@ msgstr "マニュアル"
 msgid "Monaca CLI Overview"
 msgstr "Monaca CLI の概要"
 
-#: ../doc/monaca_cli/manual/overview.rst:8
-msgid ""
-"Monaca CLI provides command line interface for using Monaca Cloud from your "
-"host PC. With Monaca CLI, you can:"
+#: ../doc/monaca_cli/manual/overview.rst:9
+msgid "Introduction"
 msgstr ""
-"Monaca CLI は、コマンドライン形式のインターフェイスです。Monaca CLI を使用すれば、Monaca "
-"クラウドが提供するサービスを、ローカル PC から使用できます。機能の概要を、次に記します。"
 
-#: ../doc/monaca_cli/manual/overview.rst:10
+#: ../doc/monaca_cli/manual/overview.rst:11
+msgid ""
+"Monaca CLI is one of the local deveopment environments which can be used to "
+"develop Monaca apps locally. Monaca CLI provides command line interface for "
+"using Monaca Cloud from your local PC. With Monaca CLI, you can:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:13
 msgid ""
 "Create new local projects, import or clone existing projects in Monaca Cloud"
 " into your host PC."
@@ -998,11 +1001,15 @@ msgstr ""
 "ローカル上でのプロジェクトの新規作成、Monaca クラウド上に保存されたプロジェクトのインポート ( クラウドからローカルへ ) またはクローン ( "
 "clone )"
 
-#: ../doc/monaca_cli/manual/overview.rst:11
+#: ../doc/monaca_cli/manual/overview.rst:14
+msgid "Develope Monaca apps with any local code editors you prefer."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:15
 msgid "Debug your app with inspector integration."
 msgstr "インスペクタを使用した、アプリのデバッグ"
 
-#: ../doc/monaca_cli/manual/overview.rst:12
+#: ../doc/monaca_cli/manual/overview.rst:16
 msgid ""
 "Support transpiler options for transpilable projects such as ReactJS and "
 "Angular2 projects."
@@ -1010,19 +1017,19 @@ msgstr ""
 "プロジェクトのコード変換 ( トランスパイル/Transpile )。コード変換の対象となるプロジェクトは、ReactJS "
 "プロジェクト、Angular2 プロジェクトなどです。"
 
-#: ../doc/monaca_cli/manual/overview.rst:13
+#: ../doc/monaca_cli/manual/overview.rst:17
 msgid "Remote build your projects without any setups locally."
 msgstr "プロジェクトのリモートビルド ( ローカル上での各種セットアップは必要ありません )"
 
-#: ../doc/monaca_cli/manual/overview.rst:17
+#: ../doc/monaca_cli/manual/overview.rst:21
 msgid "Getting Started"
 msgstr "事前準備"
 
-#: ../doc/monaca_cli/manual/overview.rst:22
-msgid "Step 1: Installation"
-msgstr "ステップ 1 : インストール"
-
 #: ../doc/monaca_cli/manual/overview.rst:24
+msgid "Prerequisite"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:26
 msgid ""
 "You are required to have `Node.js <https://nodejs.org/>`_ installed on your "
 "PC in order to install Monaca CLI."
@@ -1030,17 +1037,21 @@ msgstr ""
 "Monaca CLI のご利用には、`Node.js <https://nodejs.org/>`_ が必要です ( 事前に、PC "
 "にインストールされていること )。"
 
-#: ../doc/monaca_cli/manual/overview.rst:26
+#: ../doc/monaca_cli/manual/overview.rst:31
+msgid "Step 1: CLI Installation"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:33
 msgid "Use the following command to install Monaca CLI:"
 msgstr "次のコマンドを使用して、Monaca CLI をインストールします。"
 
-#: ../doc/monaca_cli/manual/overview.rst:32
+#: ../doc/monaca_cli/manual/overview.rst:39
 msgid ""
 "On some systems you may have to prefix the command with ``sudo`` because of "
 "permission issue:"
 msgstr "いくつかのシステムでは、インストールする権限が必要になるため、コマンドの前に sudo を追加する必要があります。"
 
-#: ../doc/monaca_cli/manual/overview.rst:39
+#: ../doc/monaca_cli/manual/overview.rst:46
 msgid ""
 "In order to check the currently installed Monaca CLI's version, use "
 "``monaca`` command. Moreover, if you want to update Monaca CLI, just re-"
@@ -1049,72 +1060,17 @@ msgstr ""
 "現在インストールされている Monaca CLI のバージョンを確認する場合には、 ``monaca`` コマンドを使用します。また、最新の "
 "Monaca CLI にアップグレードする場合には、上記のコマンドを使用して、再度、インストールを行います。"
 
-#: ../doc/monaca_cli/manual/overview.rst:43
-msgid "Step 2: Creating a New Project and Run on Browser"
-msgstr "ステップ 2 : プロジェクトの新規作成とブラウザー上での実行"
-
-#: ../doc/monaca_cli/manual/overview.rst:45
-msgid ""
-"you can also :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your"
-" existing projects from Monaca Cloud."
+#: ../doc/monaca_cli/manual/overview.rst:50
+msgid "Step 2: Following CLI Tutorial"
 msgstr ""
-"新規作成以外にも、Monaca クラウドから既存のプロジェクトを :ref:`インポート ( monaca import "
-")<monaca_import>` または :ref:`クローン ( monaca clone )<monaca_clone>` できます。"
 
-#: ../doc/monaca_cli/manual/overview.rst:47
-#: ../doc/monaca_cli/tutorial/starting_project.rst:32
-msgid "Create a new project by using the command below:"
-msgstr "次のコマンドを使用して、新規のプロジェクトを作成します。"
-
-#: ../doc/monaca_cli/manual/overview.rst:53
-msgid "Choose a project template. Please see the example below:"
-msgstr "使用するプロジェクト テンプレートを選択します。下に例を示します。"
-
-#: ../doc/monaca_cli/manual/overview.rst:61
-msgid "Run it on the browser."
-msgstr "ブラウザー上で実行します。"
-
-#: ../doc/monaca_cli/manual/overview.rst:71
-msgid "Step 3: Connecting to Monaca Debugger"
-msgstr "ステップ 3 : Monaca デバッガーへの接続"
-
-#: ../doc/monaca_cli/manual/overview.rst:73
-msgid "Use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
-msgstr ":ref:`monaca_debug` コマンドを実行して、Monaca デバッガーに接続します。"
-
-#: ../doc/monaca_cli/manual/overview.rst:79
+#: ../doc/monaca_cli/manual/overview.rst:52
 msgid ""
-"Then, a popup message, prompting you to pair Monaca Debugger with the host "
-"PC, will appear in the debugger. This message will only be displayed if it’s"
-" the first time you are connecting to the device. After this, your "
-"application should be running on the debugger."
+"After successfully install Monaca CLI, please follow :ref:`our simple and "
+"easy tutorial on how to use Monaca CLI <monaca_cli_tutorial>`."
 msgstr ""
-"Monaca デバッガー上に、ポップアップメッセージが表示され、ローカル PC とデバッガーをペアリング ( Pair ) "
-"するかを聞かれます。このメッセージは、端末と PC を初めて接続させたときのみ、表示されます。ペアリング後、Monaca "
-"デバッガー上で、アプリを起動できます。"
 
-#: ../doc/monaca_cli/manual/overview.rst:81
-msgid ""
-"Before connecting Monaca Debugger to the host PC, please pay attention to "
-"the following points:"
-msgstr "Monaca デバッガーとローカル PC を接続する前に、次の点をご確認ください。"
-
-#: ../doc/monaca_cli/manual/overview.rst:83
-msgid ""
-"Monaca Debugger and the host PC have to connect to the same WiFi network."
-msgstr "同一 WiFi ネットワーク上に、Monaca デバッガーと ローカル PC が接続されていること。"
-
-#: ../doc/monaca_cli/manual/overview.rst:84
-#: ../doc/monaca_cli/manual/pairing_debugging.rst:12
-msgid "Use the same Monaca account for both Monaca Debugger and the host PC."
-msgstr "Monaca デバッガーとローカル PC では、同一の Monaca アカウントを使用すること。"
-
-#: ../doc/monaca_cli/manual/overview.rst:85
-#: ../doc/monaca_cli/manual/pairing_debugging.rst:13
-msgid "Disable the host PC's firewall."
-msgstr "ローカル PC 側のファイアーウォールを無効化すること。"
-
-#: ../doc/monaca_cli/manual/overview.rst:95
+#: ../doc/monaca_cli/manual/overview.rst:62
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:94
 msgid ":doc:`build_publish`"
 msgstr ":doc:`build_publish`"
@@ -1146,6 +1102,14 @@ msgstr ""
 "Monaca デバッガーとローカル PC が、同一ネットワーク ( LAN または Wi-Fi ) "
 "に接続されていること。公共のネットワークでは、クライアント同士の通信が許可されていないことがあり、その場合には、ペアリングはできません。"
 
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:12
+msgid "Use the same Monaca account for both Monaca Debugger and the host PC."
+msgstr "Monaca デバッガーとローカル PC では、同一の Monaca アカウントを使用すること。"
+
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:13
+msgid "Disable the host PC's firewall."
+msgstr "ローカル PC 側のファイアーウォールを無効化すること。"
+
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:19
 msgid "Start Pairing"
 msgstr "ペアリングの設定"
@@ -1169,12 +1133,10 @@ msgstr ""
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:29
 msgid ""
-"Then, a popup message, prompting you to pair Monaca Debugger with the host "
-"PC, will appear in the debugger. After this, your application should be "
-"running on the debugger."
+"Then, a popup message prompting you to pair Monaca Debugger with the host PC"
+"　will appear. After this, your application should be running on the "
+"debugger."
 msgstr ""
-"Monaca デバッガー上に、ポップアップメッセージが表示され、ローカル PC とデバッガーをペアリングするか聞かれます。[ ペアリング ] "
-"ボタンをタップします。"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:37
 msgid ""
@@ -1195,8 +1157,8 @@ msgid "There are two ways to stop the pairing:"
 msgstr "ペアリングの解除方法は、2 通りあります。"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:52
-msgid "From the PC"
-msgstr "PC から解除"
+msgid "1. From the PC"
+msgstr ""
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:54
 msgid ""
@@ -1208,8 +1170,8 @@ msgstr ""
 "PC 間のペアリングとデバッグ処理を停止できます。"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:62
-msgid "From Monaca Debugger"
-msgstr "Monaca デバッガー上で解除"
+msgid "2. From Monaca Debugger"
+msgstr ""
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:64
 msgid ""
@@ -1252,81 +1214,73 @@ msgstr "サンプル＆Tip"
 msgid "Part 3: Building Monaca App"
 msgstr "パート 3 : Monaca アプリのビルド"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:10
-msgid ""
-"In this tutorial, we only cover the building of Monaca Apps for iOS and "
-"Android:"
-msgstr "こちらのチュートリアルでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
+#: ../doc/monaca_cli/tutorial/building_app.rst:8
+msgid "In this page, we will cover the two following topics:"
+msgstr ""
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:12
+#: ../doc/monaca_cli/tutorial/building_app.rst:10
 msgid ":ref:`cli_building_for_ios`"
 msgstr ":ref:`cli_building_for_ios`"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:13
+#: ../doc/monaca_cli/tutorial/building_app.rst:11
 msgid ":ref:`cli_building_for_android`"
 msgstr ":ref:`cli_building_for_android`"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:15
+#: ../doc/monaca_cli/tutorial/building_app.rst:13
 msgid ""
-"For more information regarding the building of Monaca Apps for other "
-"platforms, please refer to :ref:`build_index`."
-msgstr "他のプラットフォーム向けの Monaca アプリのビルドに関しては、 :ref:`build_index` をご確認ください。"
+"For more information on how to build Monaca Apps for other platforms, please"
+" refer to :ref:`build_index`."
+msgstr ""
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:21
+#: ../doc/monaca_cli/tutorial/building_app.rst:19
 msgid "Building a Monaca App for iOS"
 msgstr "iOS 向け Monaca アプリのビルド"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:23
+#: ../doc/monaca_cli/tutorial/building_app.rst:21
 msgid ""
-"This section will cover an instruction of how to create a Debug Build "
-"version of your app for iOS which will be installed on the development "
-"device. For more information about other types of build, please refer to "
+"In this section, we will talk about how to create a Debug Build of your "
+"Monaca app for iOS which will be installed on a development device. For more"
+" information about other types of build, please refer to "
 ":ref:`types_of_build_ios`."
 msgstr ""
-"端末にインストールできるデバッグビルド版 iOS アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
-":ref:`types_of_build_ios` をご確認ください。"
+
+#: ../doc/monaca_cli/tutorial/building_app.rst:23
+msgid "*Prerequisite*"
+msgstr ""
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:25
-msgid "*Prerequisite*:"
-msgstr "*事前準備*"
+msgid ""
+"You must enroll in `Apple Developer Program "
+"<https://developer.apple.com/programs/>`_."
+msgstr ""
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:27
 msgid ""
-"You must enroll in `iOS Developer Program "
-"<https://developer.apple.com/programs/ios/>`_."
+"After enrolling in the program, you will be able to create the following "
+"items which are required to create a Debug build in Monaca:"
 msgstr ""
-"`iOS Developer Program <https://developer.apple.com/programs/ios/>`_ への登録 ( "
-"必須 )"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:29
-msgid "*Requirement*"
-msgstr "*必要事項*"
+msgid "``App ID`` (see :ref:`How to Register App ID <register_appID>`)"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/building_app.rst:30
+msgid ""
+"``Development Certificate`` (see :ref:`How to Generate Certificates "
+"<create_cer>`)"
+msgstr ""
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:31
 msgid ""
-"You are required to create the following items from iOS Provisioning Portal "
-"after enrolling iOS Developer Program:"
-msgstr "iOS Developer Program 登録後、iOS Provisioning Portal 上で、次のアイテムを作成します。"
-
-#: ../doc/monaca_cli/tutorial/building_app.rst:33
-msgid "``App ID`` (see :ref:`register_appID` and :ref:`register_dev_device`)"
+"``Development Provisioning Profile`` (see :ref:`How to Create Provisioning "
+"Profiles<register_provisioning>`)"
 msgstr ""
-"``App ID`` ( :ref:`register_appID` と :ref:`register_dev_device` を参照のこと )"
-
-#: ../doc/monaca_cli/tutorial/building_app.rst:34
-msgid "``Developer Certificate`` (see :ref:`create_cer`)"
-msgstr "``デベロッパー証明書`` ( 別名 「 開発用証明書 」、 :ref:`create_cer` を参照のこと )"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:35
-msgid ""
-"``Development Provisioning Profile`` (see :ref:`register_provisioning`)"
-msgstr "``開発用 プロビジョニング プロファイル`` ( :ref:`register_provisioning` を参照のこと )"
-
-#: ../doc/monaca_cli/tutorial/building_app.rst:39
 msgid "Step 1: Configuring iOS App Settings"
 msgstr "ステップ 1 : iOS アプリの設定"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:41
+#: ../doc/monaca_cli/tutorial/building_app.rst:37
 msgid ""
 "In the command window, navigate to your project folder and use "
 ":ref:`monaca_remote_build` command. This command will automatically upload "
@@ -1337,25 +1291,25 @@ msgstr ""
 "--browser オプション ) を実行して、[ ビルド設定 ] 画面を開きます。こちらのコマンドとオプションで、Monaca "
 "クラウド側へのローカルのプロジェクトのアップロード、および、ビルド設定画面の表示が行われます。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:47
+#: ../doc/monaca_cli/tutorial/building_app.rst:43
 msgid ""
 "From the build interface, go to :menuselection:`Build Configuration --> iOS "
 "App`."
 msgstr "ビルドの設定画面から、:menuselection:`ビルド設定 --> iOS アプリ` ( 左枠 ) を選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:49
-#: ../doc/monaca_cli/tutorial/building_app.rst:154
+#: ../doc/monaca_cli/tutorial/building_app.rst:45
+#: ../doc/monaca_cli/tutorial/building_app.rst:142
 msgid "Fill in the necessary information of your app:"
 msgstr "必要なアプリ情報を入力します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:51
-#: ../doc/monaca_cli/tutorial/building_app.rst:156
+#: ../doc/monaca_cli/tutorial/building_app.rst:47
+#: ../doc/monaca_cli/tutorial/building_app.rst:144
 msgid ""
 "Application Name: a name representing your app publicly such as in the "
 "Market."
 msgstr "アプリケーション名 : マーケット上で公開されるアプリ名です。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:52
+#: ../doc/monaca_cli/tutorial/building_app.rst:48
 msgid ""
 "App ID: a unique ID representing your app. It is recommended to use reverse-"
 "domain style (for example, mobi.monaca.appname) for App ID. Only "
@@ -1367,7 +1321,7 @@ msgstr ""
 "を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
 "は、ピリオドで区切られ、英字から始まります。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:53
+#: ../doc/monaca_cli/tutorial/building_app.rst:49
 msgid ""
 "Version Number: a number representing the version of your app which will be "
 "required when uploading (publishing process) your application via iTune "
@@ -1378,62 +1332,51 @@ msgstr ""
 "するときに必要となる、アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
 "の範囲にします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:54
-#: ../doc/monaca_cli/tutorial/building_app.rst:160
+#: ../doc/monaca_cli/tutorial/building_app.rst:50
+#: ../doc/monaca_cli/tutorial/building_app.rst:148
 msgid ""
-"The remaining information is optional. You can configure icon, splash screen"
-" and other configurations in the page."
-msgstr "他の設定項目は、任意です。こちらの設定画面では、アイコン、スプラッシュ画像などを設定できます。"
+"The remaining information is optional. In this page, you can also configure "
+"icon, splash screen and other configurations."
+msgstr ""
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:62
+#: ../doc/monaca_cli/tutorial/building_app.rst:58
 msgid ""
 "The App ID in Monaca Build Settings must be the same as the App ID you have "
 "registered in iOS Provisioning Portal. This App ID (in Monaca Build "
-"Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
+"Settings) cannot contain an asterisk (``*``); otherwise, the build will "
+"fail."
 msgstr ""
-"Monaca のビルド設定で使用する App ID には、iOS Provisioning Portal で登録した App ID と同じ ID "
-"を使用します。なお、Monaca のビルド設定で使用する App ID には、アスタリスク ( ``*`` ) "
-"は使用できません。使用した場合、ビルドが失敗します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:64
-#: ../doc/monaca_cli/tutorial/building_app.rst:168
+#: ../doc/monaca_cli/tutorial/building_app.rst:60
+#: ../doc/monaca_cli/tutorial/building_app.rst:156
 msgid "After finishing the configurations, click :guilabel:`Save`."
 msgstr "設定後、 :guilabel:`保存する` ボタンをクリックします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:68
+#: ../doc/monaca_cli/tutorial/building_app.rst:64
 msgid "Step 2: Configuring iOS Build Settings"
 msgstr "ステップ 2 : iOS ビルドの設定"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:70
+#: ../doc/monaca_cli/tutorial/building_app.rst:66
 msgid ""
 "From the build interface, go to :menuselection:`Build Configuration --> iOS "
 "Build`."
 msgstr "ビルドの設定画面から、 :menuselection:`ビルド設定 --> iOS ビルド` ( 左枠 ) を選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:72
+#: ../doc/monaca_cli/tutorial/building_app.rst:68
 msgid ""
 "Click on :guilabel:`Generate Key and CSR...` button and fill in your Apple "
 "ID information (user name and email address). Then, click "
-":guilabel:`Generate Key and CSR` button. You can also import an existing "
-"Private Key if you have one."
+":guilabel:`Generate Key and CSR` button. You can also :ref:`import an "
+"existing Private Key <import_into_monaca>` if you have one."
 msgstr ""
-":guilabel:`秘密鍵と CSR の作成...` ボタンをクリックします。Apple ID "
-"の登録時に使用したユーザー名とメールアドレスを入力して、 :guilabel:`秘密鍵と CSR の作成する` "
-"ボタンをクリックします。既存の秘密鍵がある場合には、[ インポート... ] を選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:80
-msgid ""
-"The following dialog box will appear if your authentication is successful."
-msgstr "認証が成功すると、次のダイアログボックスが表示されます。"
-
-#: ../doc/monaca_cli/tutorial/building_app.rst:88
+#: ../doc/monaca_cli/tutorial/building_app.rst:76
 msgid ""
 "Export the CSR file. It will be required to issue the certificates later in "
-"iOS Provisioning Portal."
+"the iOS Provisioning Portal."
 msgstr ""
-"CSR ファイルをエクスポートします。iOS Provisioning Portal 上で、証明書を発行するときに、このファイルが必要となります。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:97
+#: ../doc/monaca_cli/tutorial/building_app.rst:85
 msgid ""
 "If you import an existing private key, you need to use the certificates "
 "which are issued based on that imported private key. However, if you create "
@@ -1443,80 +1386,76 @@ msgstr ""
 "既存の秘密鍵をインポートする場合、インポートする秘密鍵を使用して発行した証明書が必要になります。また、秘密鍵と CRS "
 "ファイルを新規作成する場合、新規作成した CRS ファイルを使用して、証明書を新規発行する必要があります。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:100
-#: ../doc/monaca_cli/tutorial/building_app.rst:203
+#: ../doc/monaca_cli/tutorial/building_app.rst:88
+#: ../doc/monaca_cli/tutorial/building_app.rst:192
 msgid "Step 3: Building the App"
 msgstr "パート 3 : アプリのビルド"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:102
+#: ../doc/monaca_cli/tutorial/building_app.rst:90
 msgid "From the build interface, Select ``iOS`` platform."
 msgstr "ビルドの設定画面から、 :menuselection:`ビルド --> iOS` プラットフォームを選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:110
-#: ../doc/monaca_cli/tutorial/building_app.rst:207
+#: ../doc/monaca_cli/tutorial/building_app.rst:98
+#: ../doc/monaca_cli/tutorial/building_app.rst:196
 msgid "Select Debug Build and click :guilabel:`Next` button."
 msgstr "[ デバッグビルド ] を選択して、 :guilabel:`次へ` ボタンをクリックします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:118
+#: ../doc/monaca_cli/tutorial/building_app.rst:106
 msgid ""
 "Upload the development provisioning profile and click :guilabel:`Next` "
 "button."
 msgstr "開発用 プロビジョニング プロファイルをアップロードして、 :guilabel:`次へ` ボタンをクリックします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:120
+#: ../doc/monaca_cli/tutorial/building_app.rst:108
+#: ../doc/monaca_cli/tutorial/building_app.rst:204
 msgid ""
 "It may take several minutes for the build to complete. Please wait. The "
-"following screen will appear after the build is complete."
+"following screen will appear after the build is successfully completed."
 msgstr "ビルドが完了するまで数分かかる場合もありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:129
-#: ../doc/monaca_cli/tutorial/building_app.rst:224
+#: ../doc/monaca_cli/tutorial/building_app.rst:117
+#: ../doc/monaca_cli/tutorial/building_app.rst:213
 msgid "Step 4: Installing the Built App"
 msgstr "ステップ 4 : ビルドしたアプリのインストール"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:131
+#: ../doc/monaca_cli/tutorial/building_app.rst:119
 msgid "Download the built app."
 msgstr "ビルドしたアプリをダウンロードします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:132
+#: ../doc/monaca_cli/tutorial/building_app.rst:120
 msgid "Use iTunes to install the built app on your iOS device."
 msgstr "iTunes を使用して、ビルド済みアプリを iOS 端末にインストールします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:138
+#: ../doc/monaca_cli/tutorial/building_app.rst:126
 msgid "Building a Monaca App for Android"
 msgstr "Android 向け Monaca アプリのビルド"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:140
+#: ../doc/monaca_cli/tutorial/building_app.rst:128
 msgid ""
-"This section will cover an instruction of how to create a Debug Build "
-"version of your app for Android. For more information about other types of "
-"build, please refer to :ref:`types_of_build_android`."
+"In this section, we will talk about how to create a Debug Build of your "
+"Monaca app for Android. For more information about other types of build, "
+"please refer to :ref:`types_of_build_android`."
 msgstr ""
-"デバッグビルド版 Android アプリの作成方法に関して、解説します。ビルドの種類に関する詳細は、 "
-":ref:`types_of_build_android` をご確認ください。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:144
+#: ../doc/monaca_cli/tutorial/building_app.rst:132
 msgid "Step 1: Configuring Android App Settings"
 msgstr "ステップ 1 : Android アプリの設定"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:146
+#: ../doc/monaca_cli/tutorial/building_app.rst:134
 msgid ""
 "In the command window, navigate to your project folder and type "
 ":ref:`monaca_remote_build` command. This command will automatically upload "
-"your local project files to Monaca Cloud and open an interactive build "
-"interface in your browser."
+"your local project files to Monaca Cloud. Please type the following command "
+"to open an interactive build interface in your browser."
 msgstr ""
-"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、 :ref:`monaca_remote_build` "
-"コマンドを実行します。このコマンドを実行すると、ローカルから Monaca "
-"クラウドへプロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:152
+#: ../doc/monaca_cli/tutorial/building_app.rst:140
 msgid ""
 "From the build interface, go to :menuselection:`Build Configuration --> "
 "Android App`."
 msgstr "ビルドの設定画面から、 :menuselection:`ビルド設定 --> Android アプリ` を選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:157
+#: ../doc/monaca_cli/tutorial/building_app.rst:145
 msgid ""
 "Package Name: a unique ID representing your app. It is recommended to use "
 "reverse-domain style (for example, mobi.monaca.appname) for App ID. Only "
@@ -1528,7 +1467,7 @@ msgstr ""
 "の使用を推奨します。英数字とピリオドのみ使用できます ( ピリオドは、最低限、1 つ使用 )。各レベルのドメイン ( 各節 ) "
 "は、ピリオドで区切られ、英字から始まります。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:158
+#: ../doc/monaca_cli/tutorial/building_app.rst:146
 msgid ""
 "Version Number: a number representing the version of your app. It needs 3 "
 "numbers separated by dots (for example, 1.10.2). Each number should be in "
@@ -1537,7 +1476,7 @@ msgstr ""
 "バージョン : アプリのバージョン番号です。ドットで区切った、3 つの数字 ( 例 : 1.10.2 ) を使用します。各数字は、[0-99] "
 "の範囲にします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:159
+#: ../doc/monaca_cli/tutorial/building_app.rst:147
 msgid ""
 "Use Different Package Name for Debug Build: if checked, the package name of "
 "the debug-built app and custom-built debugger are different. In other words,"
@@ -1553,34 +1492,31 @@ msgstr ""
 "となります。ただし、デフォルトでは、このオプションは無効になっています。常時有効にしてしまうと、決まったパッケージ名 ( In-App Purchase"
 " など ) に紐付けされているプラグインが存在する場合、デバッグができなくなるためです。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:172
+#: ../doc/monaca_cli/tutorial/building_app.rst:160
 msgid "Step 2: Configuring Android KeyStore"
 msgstr "ステップ 2 : Android キーストア ( Keystore ) の設定"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:174
+#: ../doc/monaca_cli/tutorial/building_app.rst:162
 msgid ""
 "Android KeyStore is used for storing the keys (Alias) needed to sign a "
 "package. When a KeyStore is lost or it is overwritten by another KeyStore, "
 "it is impossible to re-sign the signed package with the same key. One "
-"KeyStore can contain multiple Alias, but only one Alias is used for code-"
+"KeyStore can contain multiple aliases, but only one alias is used for code-"
 "sign an application."
 msgstr ""
-"Android キーストアを使用して、パッケージの署名に必要な鍵 ( エイリアス ) "
-"を格納します。キーストアを紛失した場合、または、別のキーストアで上書きした場合は、既に署名されているパッケージは、同じ鍵では再署名できません。1 "
-"つのキーストアには、複数のエイリアスを格納できますが、アプリのコード署名 ( Code Sign ) 時には、エイリアスを 1 つのみ、使用します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:176
+#: ../doc/monaca_cli/tutorial/building_app.rst:165
 msgid ""
 "In order to configure Android KeyStore in Monaca, please do as follows:"
 msgstr "Monaca での Android キーストアの設定方法は、次のとおりです。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:178
+#: ../doc/monaca_cli/tutorial/building_app.rst:167
 msgid ""
 "From the build interface, go to :menuselection:`Build Configuration --> "
 "Android Build`."
 msgstr "ビルドの設定画面から、 :menuselection:`ビルド設定 --> Android ビルド` ( 左枠 ) を選択します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:180
+#: ../doc/monaca_cli/tutorial/building_app.rst:169
 msgid ""
 "Now, you will need to generate a new KeyStore if you haven't created one "
 "yet. The KeyStore can either be created or imported. In this tutorial, we "
@@ -1590,81 +1526,75 @@ msgstr ""
 "キーストアを事前に作成していない場合、キーストアを新規作成します。既存のキーストアがあれば、インポートもできます。このチュートリアルでは、キーストアの新規作成を前提としますので、"
 " :guilabel:`初期化して作成 ...` ボタンをクリックします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:188
+#: ../doc/monaca_cli/tutorial/building_app.rst:177
 msgid "Fill in the necessary information related to the KeyStore such as:"
 msgstr "キーストアに関する情報を入力します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:190
+#: ../doc/monaca_cli/tutorial/building_app.rst:179
 msgid ""
 "Alias: key information stored in the KeyStore which is used to sign an app "
 "package."
 msgstr "エイリアス : キーストアに格納された鍵情報を指します。パッケージの署名時に使用します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:191
+#: ../doc/monaca_cli/tutorial/building_app.rst:180
 msgid "Password: password for the Alias."
 msgstr "エイリアスのパスワード : エイリアス用のパスワードです。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:192
+#: ../doc/monaca_cli/tutorial/building_app.rst:181
 msgid "KeyStore Password: password for the new KeyStore."
 msgstr "キーストアのパスワード : 新規のキーストア用のパスワードです。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:200
+#: ../doc/monaca_cli/tutorial/building_app.rst:189
 msgid "Then, click :guilabel:`Generate KeyStore and Alias` button."
 msgstr ":guilabel:`キーストアとエイリアスを作成する` ボタンをクリックします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:205
+#: ../doc/monaca_cli/tutorial/building_app.rst:194
 msgid "From the build interface, Select ``Android`` platform."
 msgstr "ビルドの設定画面から、 :menuselection:`ビルド --> Android` プラットフォームを選択します。"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:215
-msgid ""
-"It may take several minutes for the build to complete. Please wait. The "
-"following screen will appear after the build is successfully completed."
-msgstr "ビルドが完了するまで数分かかる場合もありますので、しばらく待ちます。ビルドが完了すると、次の画面が表示されます。"
-
-#: ../doc/monaca_cli/tutorial/building_app.rst:226
 msgid "There are several ways you can install the built app:"
 msgstr "ビルドしたアプリのインストール方法は、数通りあります。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:228
+#: ../doc/monaca_cli/tutorial/building_app.rst:217
 msgid ":ref:`network_and`"
 msgstr ":ref:`network_and`"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:229
+#: ../doc/monaca_cli/tutorial/building_app.rst:218
 msgid "use QR Barcode"
 msgstr "QR コードを使用します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:230
+#: ../doc/monaca_cli/tutorial/building_app.rst:219
 msgid "download the built app directly to your computer"
 msgstr "コンピューターに、ビルド済みアプリを直接ダウンロードします。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:231
+#: ../doc/monaca_cli/tutorial/building_app.rst:220
 msgid ""
 "send the URL to download the built app  to your email address (registered "
 "with Monaca)."
 msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載されたメールを、Monaca に登録されているメールアドレスに送信します。"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:236
+#: ../doc/monaca_cli/tutorial/building_app.rst:225
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:26
 #: ../doc/monaca_cli/tutorial/starting_project.rst:59
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:132
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:130
 msgid "*See Also*:"
 msgstr "*参考ページ*:"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:238
+#: ../doc/monaca_cli/tutorial/building_app.rst:227
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:28
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:134
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:132
 msgid ":ref:`cli_starting_project`"
 msgstr ":ref:`cli_starting_project`"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:239
+#: ../doc/monaca_cli/tutorial/building_app.rst:228
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:29
 #: ../doc/monaca_cli/tutorial/starting_project.rst:61
 msgid ":ref:`cli_testing_debugging`"
 msgstr ":ref:`cli_testing_debugging`"
 
-#: ../doc/monaca_cli/tutorial/building_app.rst:240
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:136
+#: ../doc/monaca_cli/tutorial/building_app.rst:229
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:134
 msgid ":ref:`cli_publishing_app`"
 msgstr ":ref:`cli_publishing_app`"
 
@@ -1674,21 +1604,15 @@ msgstr "Monaca CLI チュートリアル"
 
 #: ../doc/monaca_cli/tutorial/index.rst:7
 msgid ""
-"Monaca CLI is one of the local deveopment environments which can be used to "
-"develop Monaca apps locally. Monaca CLI provides command line interface for "
-"using Monaca Cloud from your local PC. You can create new local projects, "
+"Monaca CLI is one of the local development environments which can be used to"
+" develop Monaca apps locally. Monaca CLI provides command line interface for"
+" using Monaca Cloud from your local PC. You can create new local projects, "
 "import or clone existing projects from Monaca Cloud to your local PC and "
 "start developing Monaca apps with any editors you prefer. Monaca CLI allows "
 "you to debug your app with inspector integration and remote build your "
 "projects without any setups locally. Read more :ref:`here "
 "<monaca_cli_index>`."
 msgstr ""
-"Monaca CLI は、Monaca アプリ向けのローカル環境用の開発ツールです。Monaca CLI "
-"は、コマンドライン形式のインターフェイスであり、Monaca CLI を使用すれば、Monaca クラウドが提供するサービスをローカル PC "
-"から使用できます。Monaca CLI の機能は多岐にわたり、ローカルプロジェクトの作成、既存のプロジェクトのインポートまたはクローン ( Monaca"
-" クラウドからローカル PC へ )、インスペクタと連携したデバッグ、リモートビルド ( ローカルでの各種設定は不要 ) "
-"などができます。また、使い慣れたエディターと Monaca CLI を併用して、開発も行えます。詳細は、 :ref:`こちら "
-"<monaca_cli_index>` をご確認ください。"
 
 #: ../doc/monaca_cli/tutorial/index.rst:9
 msgid "Before getting started, you need to:"
@@ -1738,7 +1662,7 @@ msgstr ""
 
 #: ../doc/monaca_cli/tutorial/publishing_app.rst:30
 #: ../doc/monaca_cli/tutorial/starting_project.rst:62
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:135
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:133
 msgid ":ref:`cli_building_app`"
 msgstr ":ref:`cli_building_app`"
 
@@ -1768,6 +1692,10 @@ msgstr "Monaca に登録していない場合には、``monaca signup`` コマ�
 #: ../doc/monaca_cli/tutorial/starting_project.rst:30
 msgid "Step 2: Creating a New Project"
 msgstr "ステップ 2 : プロジェクトの新規作成"
+
+#: ../doc/monaca_cli/tutorial/starting_project.rst:32
+msgid "Create a new project by using the command below:"
+msgstr "次のコマンドを使用して、新規のプロジェクトを作成します。"
 
 #: ../doc/monaca_cli/tutorial/starting_project.rst:38
 msgid ""
@@ -1803,41 +1731,39 @@ msgstr ":ref:`localkit_publishing_app`"
 msgid "Part 2: Running Monaca Debugger with Monaca CLI"
 msgstr "パート 2 : Monaca CLI と Monaca デバッガーとの連携"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:10
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:7
 msgid ""
 ":ref:`monaca_debugger_index` is a powerful application for testing and "
-"debugging your Monaca applications on real devices in real-time by just "
-"saving the source code."
+"debugging your Monaca applications on real devices in real time."
 msgstr ""
-":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:12
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:9
 msgid ""
 "When developing Monaca apps on your local PC, assuming that your local PC is"
 " successfully paired with Monaca Debugger, all changes made to your project "
-"files will be pushed into your Monaca Debugger in real-time as soon as you "
-"save those changes."
+"files will be pushed into your Monaca Debugger  as soon as you save those "
+"changes."
 msgstr ""
-"ローカル PC と Monaca デバッガーがペアリング済みであれば、PC 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 "
-"プッシュ 」 されます。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:16
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:13
 msgid "Before Getting Started"
 msgstr "事前準備"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:18
-msgid ""
-"Please install Monaca Debugger on your device. Please refer to :ref:`Monaca "
-"Debugger Installation <debugger_installation_index>` for other platforms."
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:15
+msgid "Please install Monaca Debugger on your device."
 msgstr ""
-"Monaca デバッガーを端末にインストールします。詳細は、:ref:`各プラットフォーム向けの Monaca デバッガーのインストール方法 "
-"<debugger_installation_index>` をご確認ください。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:37
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:32
+msgid ""
+"Please refer to :ref:`Monaca Debugger Installation "
+"<debugger_installation_index>` for other platforms."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:35
 msgid "Step 1: Pairing Monaca Debugger with Local PC"
 msgstr "ステップ 1 : Monaca デバッガーとローカル PC のペアリング"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:39
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:37
 msgid ""
 "In order to debug/test a local Monaca app, you need to pair local PC with "
 "Monaca Debugger."
@@ -1845,28 +1771,28 @@ msgstr ""
 "ローカル PC 上で作成した Monaca アプリを、Monaca デバッガー上でデバッグ・検証をする場合には、ローカル PC と Monaca "
 "デバッガーをペアリングする必要があります。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:41
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:39
 msgid ""
 "Before connecting Monaca Debugger to the local PC, please pay attention to "
 "the following points:"
 msgstr "Monaca デバッガーとローカル PC を接続する前に、次の点をご確認ください。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:43
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:41
 msgid ""
 "Monaca Debugger and the local PC have to connect to the same network "
 "connection (LAN or Wi-Fi)."
 msgstr "同じ WiFi または LAN ネットワーク上に、Monaca デバッガーとローカル PC が接続されていること。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:44
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:42
 msgid ""
 "Use the same Monaca account for either Monaca Debugger and the local PC."
 msgstr "同じ Monaca アカウントを使用して、Monaca デバッガーとローカル PC にサインインしていること。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:45
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:43
 msgid "Disable the local PC's firewall."
 msgstr "ローカル PC 側のファイアーウォールを無効化していること。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:48
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:46
 msgid ""
 "In the command window, navigate to your project folder and type "
 ":ref:`monaca_debug` command to connect to your Monaca Debugger. Then, Monaca"
@@ -1875,7 +1801,7 @@ msgstr ""
 "コマンドウィンドウ上で、プロジェクトのフォルダーまで移動し、 :ref:`monaca_debug` コマンドを実行して、Monaca "
 "デバッガーに接続します。実行すると、Monaca CLI 側では、デバッガーからのリクエストの待ち受けを開始します。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:56
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:54
 msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
@@ -1885,69 +1811,62 @@ msgstr ""
 "に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca CLI "
 "のログイン時に使用したものと同じものを使用します。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:64
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:62
 msgid ""
-"Then, a popup message, prompting you to pair the debugger with the local PC,"
-" will appear in the debugger."
-msgstr "ローカル PC とデバッガーをペアリングするか確認するメッセージがデバッガー上に表示されます。"
+"Then, a popup message prompting you to pair the debugger with the local PC "
+"will appear."
+msgstr ""
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:72
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:70
 msgid ""
-"If your pairing is successful, your local project's name will appear under "
-"``Local Projects`` in in Monaca Debugger. However, if you fail the pairing, "
+"If your pairing is successful, your local project name will appear under "
+"``Local Projects`` in Monaca Debugger. However, if you fail the pairing, "
 "please refer to :ref:`troubleshoot_pair`."
 msgstr ""
-"ペアリング後、Monaca デバッガーの ``ローカルプロジェクト`` "
-"欄に、ローカルに置かれているプロジェクト名が表示されます。なお、ペアリングが失敗する場合には、:ref:`troubleshoot_pair` "
-"をご確認ください。"
+
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:80
+msgid "Step 2: Running a Project on Monaca Debugger"
+msgstr ""
 
 #: ../doc/monaca_cli/tutorial/testing_debugging.rst:82
-msgid "Step 2: Running the Project on Monaca Debugger"
-msgstr "ステップ 2 : Monaca デバッガー上でのプロジェクトの実行"
+msgid ""
+"From the Local Projects list in Monaca Debugger, click on your project name "
+"to run it."
+msgstr ""
 
 #: ../doc/monaca_cli/tutorial/testing_debugging.rst:84
 msgid ""
-"From the Local Projects list in Monaca Debugger, click on your project's "
-"name to run it."
-msgstr "Monaca デバッガーの [ ローカルプロジェクト ] 上に表示されたプロジェクト名をタップして、アプリを実行します。"
-
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:86
-msgid ""
-"Now the project should run as in screenshot below. Use :guilabel:`Back` "
-"button within Debugger Menu button to go back to the Project List screen."
+"Now the project should be running as shown in the screenshot below. Use "
+":guilabel:`Back` button within Debugger Menu button to go back to the "
+"Project List screen."
 msgstr ""
-"下のスクリーンショットのように、プロジェクトが実行されます。プロジェクト一覧へ戻る場合には、デバッガーのメニュー画面へいったん戻り、 "
-":guilabel:`戻る` ボタンをタップします。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:92
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:90
 msgid "Monaca Debugger Menu Button"
 msgstr "アプリ実行中の画面 ( 右下 : デバッガーメニューへの [ 戻る ] ボタン )"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:98
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:96
 msgid "Monaca Debuger Back Button"
 msgstr "デバッガーのメニュー画面 ( 赤字 : プロジェクト一覧への [ 戻る ] ボタン )"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:104
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:102
 msgid "Step 3: Real-time Update between Monaca CLI and Debugger"
 msgstr "ステップ 3 : Monaca CLI と デバッガー間のリアルタイムでの同期"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:106
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:104
 msgid "Run the project on the debugger."
 msgstr "Monaca デバッガー上で、プロジェクトを実行します。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:108
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:106
 msgid ""
-"You can now try make some changes to your file. For example, try changing "
+"You can now try making some changes to your file. For example, try changing "
 "the starting page of the sample app to Page 2. In order to do this, please "
 "open the ``index.html`` file. Then, change the ``main-page`` attribute "
-"(inside <ons-sliding-menu> tag) to ``page2.html`` and save your change. Your"
-" code should look like this:"
+"(inside ``<ons-sliding-menu>`` tag) to ``page2.html`` and save your changes."
+" The updated code should look like this:"
 msgstr ""
-"ファイル内のコードを変更してみます。たとえば、アプリの起動時に表示するページを 「 Page 2 」 に変更してみましょう。変更を行うには、最初に、 "
-"``index.html`` を開き、次に、<ons-sliding-menu> タグ内の ``main-page`` 属性の値を "
-"``page2.html`` に変更・保存します。変更後のコードは、次のとおりです。"
 
-#: ../doc/monaca_cli/tutorial/testing_debugging.rst:123
+#: ../doc/monaca_cli/tutorial/testing_debugging.rst:121
 msgid ""
 "If your PC is still connected to Monaca Debugger, it will automatically "
 "refresh the updates. Now your starting page should be Page 2."

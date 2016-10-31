@@ -26,7 +26,7 @@ Start Pairing
 
         $ monaca debug
 
-3. Then, a popup message, prompting you to pair Monaca Debugger with the host PC, will appear in the debugger. After this, your application should be running on the debugger.
+3. Then, a popup message prompting you to pair Monaca Debugger with the host PC will appear. After this, your application should be running on the debugger.
 
   .. figure:: images/pairing_debugging/1.png
       :width: 250px
@@ -48,7 +48,7 @@ Stop Pairing
 
 There are two ways to stop the pairing:
 
-From the PC
+1. From the PC
 ^^^^^^^^^^^^^^^^^^^^
 
 In the same command window on your PC which you are running :ref:`monaca_debug` command, please use the following command to stop the pairing/break the debug process between your PC and Monaca Debugger:
@@ -58,7 +58,7 @@ In the same command window on your PC which you are running :ref:`monaca_debug` 
         ctrl + c
 
 
-From Monaca Debugger
+2. From Monaca Debugger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. click on the toggle menu on the top-left corner and go to :guilabel:`Local Computers` button.

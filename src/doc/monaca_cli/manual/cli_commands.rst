@@ -36,7 +36,7 @@ Signs into Monaca Cloud. You will be prompted to input your Monaca account infor
 :dfn:`$ monaca login`
 
 Example
-  Here is an example of how you log in to Monaca Cloud with Monaca CLI:
+  Here is an example of how to log into Monaca Cloud with Monaca CLI:
 
   .. code-block:: bash
 
