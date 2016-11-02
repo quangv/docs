@@ -34,21 +34,21 @@ Assuming you have successfully linked a  GitHub repository to your project, you 
 
   .. code-block:: javascript
 
-      [
-          {
-              "task_name": "Default",
-              "branch": "/release-[0-9]/",
-              "tag": "/^\\d.\\d$/",
-              "platform": [
-                  "ios"
-              ],
-              "build": [
-                  "debug",
-                  "release"
-              ],
-              "deploy": []
-          }
-      ]
+    [
+		    {
+		        "task_name": "Default",
+		        "branch": "/master/",
+		        "platform": [
+		            "android",
+		            "ios"
+		        ],
+		        "build": [
+		            "debug",
+		            "release"
+		        ],
+		        "deploy": []
+		    }
+		]
 
 3. Monaca CI is disabled by default. To enable it, click :guilabel:`Enable` and then :guilabel:`Save` it. That's it! Now your Monaca CI is ready. You can start pushing your project code to the valid branch or tag as configured in JSON settings. Then, you should be able to find the built files under Build History panel. It may take some time for the build process to be completed.
 
@@ -166,7 +166,7 @@ In the following table, there are necessary parameters you will need to use in t
 |                 |  - ``ios``: a block for iOS parameters you may need to use for the deployment service.                           |
 |                 |  - ``android``: a block for Android parameters you may need to use for the deployment service.                   |
 |                 |                                                                                                                  |
-|                 |  Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services.       |
+|                 |  Please refer to :ref:`here <supported_services>` for configuration parameters of each deploy service.           |
 +-----------------+------------------------------------------------------------------------------------------------------------------+
 
 Example
@@ -179,8 +179,7 @@ Here is an example of a recipe script configured for multiple deploy services an
     [
         {
             "task_name": "test",
-            "branch": "/release-[0-9]/",
-            "tag": "/^\\d.\\d$/",
+            "branch": "/master/",
             "platform": [
                 "ios",
                 "android"
