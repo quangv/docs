@@ -7522,14 +7522,14 @@ msgstr ""
 #: ../doc/monaca_ide/tutorial/building_app.rst:222
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:25
 #: ../doc/monaca_ide/tutorial/starting_project.rst:112
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:115
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:118
 msgid "*See Also*:"
 msgstr "*参考ページ*:"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:93
 #: ../doc/monaca_ide/tutorial/building_app.rst:224
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:27
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:117
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:120
 msgid ":ref:`cloud_ide_starting_project`"
 msgstr ":ref:`cloud_ide_starting_project`"
 
@@ -7543,20 +7543,20 @@ msgstr ":ref:`cloud_ide_testing_debugging`"
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:95
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:30
 #: ../doc/monaca_ide/tutorial/starting_project.rst:116
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:119
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:122
 msgid ":ref:`cloud_ide_building_app`"
 msgstr ":ref:`cloud_ide_building_app`"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:96
 #: ../doc/monaca_ide/tutorial/building_app.rst:227
 #: ../doc/monaca_ide/tutorial/starting_project.rst:117
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:120
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:123
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ":ref:`cloud_ide_publishing_app`"
 
 #: ../doc/monaca_ide/tutorial/adding_backend.rst:97
 #: ../doc/monaca_ide/tutorial/starting_project.rst:118
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:121
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:124
 msgid ":ref:`sample_apps_index`"
 msgstr ":ref:`sample_apps_index`"
 
@@ -7938,7 +7938,7 @@ msgstr "ビルド済みアプリのダウンロード元 ( URL ) が記載され
 #: ../doc/monaca_ide/tutorial/building_app.rst:226
 #: ../doc/monaca_ide/tutorial/publishing_app.rst:29
 #: ../doc/monaca_ide/tutorial/starting_project.rst:115
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:118
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:121
 msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ":ref:`cloud_ide_adding_backend`"
 
@@ -8157,10 +8157,8 @@ msgstr "パート 2 : Monaca クラウド IDE と Monaca デバッガーとの�
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:8
 msgid ""
 ":ref:`monaca_debugger_index` is a powerful application for testing and "
-"debugging your Monaca applications on real devices in real-time by just "
-"saving the source code."
+"debugging your Monaca applications on real devices in real time."
 msgstr ""
-":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:10
 msgid ""
@@ -8177,18 +8175,20 @@ msgid "Before Getting Started"
 msgstr "事前準備"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:16
-msgid ""
-"Please install Monaca Debugger on your device. Please refer to :ref:`Monaca "
-"Debugger Installation <debugger_installation_index>` for other platforms."
+msgid "Please install Monaca Debugger on your device."
 msgstr ""
-"Monaca デバッガーを端末にインストールします。詳細は、:ref:`各プラットフォーム向けの Monaca デバッガーのインストール方法 "
-"<debugger_installation_index>` をご確認ください。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:35
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:33
+msgid ""
+"Please refer to :ref:`Monaca Debugger Installation "
+"<debugger_installation_index>` for other platforms."
+msgstr ""
+
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:38
 msgid "Step 1: Running a Project on Monaca Debugger"
 msgstr "ステップ 1 : Monaca デバッガー上でのプロジェクトの実行"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:37
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:40
 msgid ""
 "Launch Monaca Debugger app and sign in using your Monaca account "
 "information. Make sure you are using the same account information you use "
@@ -8198,7 +8198,7 @@ msgstr ""
 "に登録したユーザー名とパスワードを使用して、サインインします。なお、ユーザー名とパスワードは、Monaca クラウド IDE "
 "のログイン時に使用したものと同じものを使用します。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:45
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:48
 msgid ""
 "Then, a project list will appear. All Monaca Cloud IDE projects are listed "
 "under ``Monaca.io Projects``. To run a project, you can just click on the "
@@ -8209,7 +8209,7 @@ msgstr ""
 "欄に表示されます。プロジェクトを実行する場合、Monaca デバッガー上のプロジェクト名をタップするか、または、Monaca クラウド IDE "
 "のメニューから :guilabel:`実機デバッグ` をクリックします。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:53
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:56
 msgid ""
 "Then, your project should be running in the debugger. To go back to the "
 "Project List screen, go to Debugger Menu and click :guilabel:`Back` button."
@@ -8217,15 +8217,15 @@ msgstr ""
 "デバッガー上でプロジェクトが実行されていることを確認します。プロジェクトの一覧画面に戻る場合には、[ デバッガーメニュー ] "
 "ボタンをタップして、次に、:guilabel:`戻る` ボタンをタップします。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:66
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:69
 msgid "Try and test your project by adding/deleting a memo."
 msgstr "再びアプリを起動させ、メモの追加と削除を行い、動作を確認してみましょう。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:75
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:78
 msgid "Step 2: Real-time Updates between Monaca Cloud IDE and Debugger"
 msgstr "ステップ 2 : Monaca クラウド IDE と Monaca デバッガー間のリアルタイム更新"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:77
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:80
 msgid ""
 "By now, you are able to run your Monaca project on the debugger. Next, let's"
 " try to edit this project and see how it is reflected on the debugger."
@@ -8233,11 +8233,11 @@ msgstr ""
 "ここまでの手順で、Monaca デバッガー上でプロジェクトが実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca "
 "デバッガー側に反映されるか確認してみましょう。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:79
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:82
 msgid "Run the project on the debugger."
 msgstr "Monaca デバッガー上で、プロジェクトを実行します。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:81
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:84
 msgid ""
 "On Monaca Cloud IDE, make some changes in a project file and save them "
 "(please refer to :ref:`Edit Project Files <monaca_cloud_ide_edit_project>`)."
@@ -8248,7 +8248,7 @@ msgstr ""
 "<monaca_cloud_ide_edit_project>` を参照のこと )。ここでは、:file:`index.html` "
 "上で、ページのタイトルを 「 Monaca Memo 」 から 「 My Memo 」 へ変更してみます。次に、保存します。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:89
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:92
 msgid ""
 "The saved changes will be sent to Monaca Debugger on your device. You can "
 "also click on :guilabel:`Reload` button to retrieve the latest updates of "
@@ -8257,26 +8257,26 @@ msgstr ""
 "保存された変更は、端末の Monaca デバッガー側に送られます。アプリ側で変更が反映されない場合には、デバッガーメニュー上の "
 ":guilabel:`更新` ボタンをタップすれば、最新の内容を反映できます。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:95
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:98
 msgid "Updated Page Title"
 msgstr "更新後のページタイトル"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:101
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:104
 msgid "Reload Button"
 msgstr "更新ボタン"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:106
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:109
 msgid ""
 "Please refer to :ref:`monaca_debugger_features` to explore the other "
 "functions provided by Monaca Debugger."
 msgstr "Monaca デバッガーが提供する機能に関しては、 :ref:`monaca_debugger_features` をご確認ください。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:108
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:111
 msgid ""
 "That's it! That's how easy it is to use Monaca Debugger. Please try to make "
 "more changes to your project and see how it runs on the debugger."
 msgstr "Monaca デバッガーの基本的な使用方法に関して、ここでは解説しました。試しに、他の箇所も変更して、デバッガー上で確認してみましょう。"
 
-#: ../doc/monaca_ide/tutorial/testing_debugging.rst:110
+#: ../doc/monaca_ide/tutorial/testing_debugging.rst:113
 msgid "PRACTICE MAKES PERFECT! Enjoy developing with Monaca!"
 msgstr "Monaca でのデバッグをお楽しみください！"
