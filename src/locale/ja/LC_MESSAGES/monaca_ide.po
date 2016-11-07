@@ -1180,6 +1180,8 @@ msgid ""
 "From `Apple Developer page <https://developer.apple.com/>`_, go to "
 ":guilabel:`Account`."
 msgstr ""
+"`Apple Developer ページ <https://developer.apple.com/>`_ "
+"へ行き、:guilabel:`メンバーセンター ( Account )` をクリックします。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:121
 msgid ""
@@ -1187,16 +1189,19 @@ msgid ""
 "Developer Program. If you haven’t enrolled in this program yet, please "
 "subscribe at `here <https://developer.apple.com/programs/>`_."
 msgstr ""
+"iOS Developer Program に登録した、Apple ID "
+"とパスワードを使用して、サインインします。このプログラムに未登録の場合には、`こちら "
+"<https://developer.apple.com/programs/>`_ で登録します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:123
 msgid ""
 "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following "
 "page will appear."
-msgstr ""
+msgstr ":guilabel:`Certificates, Identifiers/IDs & Profiles` へ行き、次のページを表示します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:131
 msgid "In this page, we are going to do 4 important things:"
-msgstr ""
+msgstr "このページ上で行う処理は、次のとおりです。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:133
 msgid ":ref:`create_cer`"
@@ -1212,7 +1217,7 @@ msgstr ":ref:`register_dev_device`"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:136
 msgid ":ref:`register_provisioning`"
-msgstr ""
+msgstr ":ref:`register_provisioning`"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:143
 msgid "Generate Certificates"
@@ -1225,34 +1230,36 @@ msgstr "iOS Dev Center では、2 種類の証明書を発行できます。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:147
 msgid "Development: required for Debug build"
-msgstr ""
+msgstr "開発用証明書 : デバッグビルドを行うときに、必要となります。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:148
 msgid "Production: required for either Ad Hoc or Release build"
-msgstr ""
+msgstr "配布用証明書 : リリースビルドまたは Ad Hoc ビルドを行うときに、必要となります。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:151
 msgid ""
 "After downloading the CSR file (refer to :ref:`config_ios_build`), you are "
 "now able to issue and download the certificates in iOS Dev Center."
 msgstr ""
+"CSR ファイルのダウンロード後 ( :ref:`config_ios_build` を参照のこと )、iOS Dev Center "
+"で証明書を発行して、ダウンロードします。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:153
 msgid ""
 "In the following example, we will show you how to issue and download a "
 "Development certificate:"
-msgstr ""
+msgstr "開発用証明書の発行とダウンロードを、次の手順で行います。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:155
 msgid "Under :guilabel:`Certificates` section, go to :guilabel:`Development`."
-msgstr ""
+msgstr ":guilabel:`Certificates` 項目の :guilabel:`Development` を選択します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:157
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:187
 msgid ""
 "Click the Add button :guilabel:`+` in the upper-right corner (see the "
 "screenshot below)."
-msgstr ""
+msgstr "ページの右上に表示された追加ボタン 「 :guilabel:`+` 」 をクリックします ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:165
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:271
@@ -1301,23 +1308,26 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:183
 msgid "In order to register your App ID, please follow the instruction below:"
-msgstr ""
+msgstr "App ID の登録を、次の手順で行います。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:185
 msgid "Under :guilabel:`Identifiers` section, go to :guilabel:`App IDs`."
-msgstr ""
+msgstr ":guilabel:`Identifiers` 項目の :guilabel:`App IDs` を選択します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:195
 msgid ""
 "The App ID string contains two parts (Prefix and Suffix) separated by a "
 "period (``.``). Fill in the information of your App ID such as:"
 msgstr ""
+"App ID は、「 ``.`` 」 で区切られた、2 つの文字列 ( Prefix と Suffix ) "
+"で構成されています。次の内容を参考にして、App ID の情報を入力します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:197
 msgid ""
 "App ID Description: Description of your App ID. You cannot use special "
 "characters such as ``@, &, *, ', \"``."
 msgstr ""
+"App ID Description : App ID の説明を入力します。「 ``@、&、*、'、\"`` 」 などの特殊文字は使用できません。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
 msgid "App ID Prefix: It is defined as your Team ID by default."
@@ -1389,19 +1399,19 @@ msgstr "開発用と配布用のプロビジョニング プロファイルを�
 msgid ""
 "In order to register a device that you will be using during your app "
 "development, please follow the instruction below:"
-msgstr ""
+msgstr "アプリ開発時に使用する端末を、次の手順で登録します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:229
 msgid ""
 "Under :guilabel:`Devices` section, select a type of device(s) you want to "
 "register."
-msgstr ""
+msgstr ":guilabel:`Devices` 項目から、登録する端末の種類を選択します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:231
 msgid ""
 "Click the Add button (+) in the upper-right corner (see the screenshot "
 "below)."
-msgstr ""
+msgstr "ページの右上に表示された追加ボタン 「 `+` 」 をクリックします ( 下のスクリーンショットを参照のこと )。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:239
 msgid "Fill in the information of your device."
@@ -1444,28 +1454,28 @@ msgstr "アプリのビルドの最終工程として、プロビジョニング
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:262
 msgid "Development: used with Development certificate for Debug build"
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイル : デバッグビルドを行うときに、開発用証明書と共に使用します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:263
 msgid ""
 "Distribution: used with Production certificate for Ad Hoc and Release build"
-msgstr ""
+msgstr "配布用 プロビジョニング プロファイル : Ad Hoc または配布 ( 実稼働 ) 用ビルドを行うときに、配布用証明書と共に使用します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
 msgid ""
 "In the following example, we will show you how to create a Development "
 "provisioning profile:"
-msgstr ""
+msgstr "開発用 プロビジョニング プロファイルを、次の手順で作成します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:267
 msgid ""
 "Under :guilabel:`Provisioning Profiles` section, go to "
 ":guilabel:`Development`."
-msgstr ""
+msgstr ":guilabel:`Provisioning Profiles` 項目の :guilabel:`Development` を選択します。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:269
 msgid "Click the Add button :guilabel:`+` in the upper-right corner."
-msgstr ""
+msgstr "ページの右上に表示された追加ボタン 「 :guilabel:`+` 」 をクリックします。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:273
 msgid ""
@@ -5685,7 +5695,7 @@ msgstr "プロジェクトをビルドするときに使用する、GitHub タ�
 msgid ""
 "Please refer to :ref:`here <supported_services>` for configuration "
 "parameters of each deploy service."
-msgstr ""
+msgstr "デプロイサービスごとのオプション設定は、:ref:`こちら <supported_services>` をご確認ください。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:175
 msgid ""
@@ -8019,7 +8029,7 @@ msgid ""
 "After a successful sign-in, you will be directed to Monaca Dashboard. You "
 "are now ready to create your first Monaca project. Please do as follows:"
 msgstr ""
-"サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう"
+"サインインすると、Monaca ダッシュボードへ自動的に遷移します。次の手順に従い、初めての Monaca プロジェクトを早速作ってみましょう。"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:26
 msgid ""
@@ -8053,7 +8063,7 @@ msgid ""
 "or selecting your existing  GitHub repository. Please refer to "
 ":ref:`version_control` on how to set up  GitHub integration with Monaca."
 msgstr ""
-"GitHub のレポジトリからインポート。GitHub への接続方法に関しては、:ref:`version_control` をご確認ください。"
+"GitHub のレポジトリからインポート ( GitHub への接続方法に関しては、:ref:`version_control` を参照のこと )"
 
 #: ../doc/monaca_ide/tutorial/starting_project.rst:44
 msgid "Create Project Dialog"
@@ -8159,6 +8169,7 @@ msgid ""
 ":ref:`monaca_debugger_index` is a powerful application for testing and "
 "debugging your Monaca applications on real devices in real time."
 msgstr ""
+":ref:`monaca_debugger_index` は、Monaca アプリの検証とデバッグを、端末上で、リアルタイムに行うためのアプリです。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:10
 msgid ""
@@ -8176,13 +8187,15 @@ msgstr "事前準備"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:16
 msgid "Please install Monaca Debugger on your device."
-msgstr ""
+msgstr "Monaca デバッガーを端末にインストールします。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:33
 msgid ""
 "Please refer to :ref:`Monaca Debugger Installation "
 "<debugger_installation_index>` for other platforms."
 msgstr ""
+"Monaca デバッガーのインストール方法 ( プラットフォーム別 ) は、:ref:`こちら "
+"<debugger_installation_index>` をご確認ください。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:38
 msgid "Step 1: Running a Project on Monaca Debugger"
