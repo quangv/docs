@@ -35,6 +35,11 @@ var ImagePreloader = function(arr) {
 
 $(function(){
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    alert('Browse from Mobile.');
+}
+
+
   new ImagePreloader(["/static/img/common/btn_top.png", "/static/img/common/btn_top_hover.png", "/static/img/common/btn_top_active.png"]).load();
 
   var highlight = {};
