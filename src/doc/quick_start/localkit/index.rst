@@ -1,10 +1,12 @@
+.. _monaca_localkit_tutorial:
+
 ==============================
 Monaca Localkit Tutorial
 ==============================
 
 Monaca Localkit is a local development environment tool for Monaca apps. It can be used with various development tools including editors, source code management system, task runner and so on. It also allows you to develop offline and provides a faster synchronization with Monaca Debugger. :ref:`Read more<monaca_localkit_index>`.
 
-.. note:: You are required to have a valid plan in order to use Monaca Localkit. Otherwise, it will run in the evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.io/pricing.html>`_ for more details. 
+.. note:: You are required to have a valid plan in order to use Monaca Localkit. Otherwise, it will run in an evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.io/pricing.html>`_ for more details. 
 
 .. note:: Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet.
 

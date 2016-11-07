@@ -497,7 +497,7 @@ msgstr ""
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:310
+#: ../doc/manual/monaca_ci/overview.rst:309
 #: ../doc/manual/monaca_ci/supported_services.rst:165
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -8628,7 +8628,6 @@ msgid "``android``: a block for Android parameters you may need to use for the d
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
-#: ../doc/manual/monaca_ci/overview.rst:169
 msgid "Please refer to :ref:`here <supported_services>` on currently supported and upcoming deployment services."
 msgstr ""
 
@@ -8643,7 +8642,7 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ""
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:312
+#: ../doc/manual/monaca_ci/overview.rst:311
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ""
@@ -8766,51 +8765,55 @@ msgstr ""
 msgid "GitHub tag of the project you want to build."
 msgstr ""
 
+#: ../doc/manual/monaca_ci/overview.rst:169
+msgid "Please refer to :ref:`here <supported_services>` for configuration parameters of each deploy service."
+msgstr ""
+
 #: ../doc/manual/monaca_ci/overview.rst:175
 msgid "Here is an example of a recipe script configured for multiple deploy services and one service with multiple aliases."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:227
+#: ../doc/manual/monaca_ci/overview.rst:226
 msgid "Monaca CI Execution Procedure"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:229
+#: ../doc/manual/monaca_ci/overview.rst:228
 msgid "Assuming that you want to use Monaca CI to create release build for iOS and Android when you push the project code to a branch called ``master``. Moreover, you want Monaca CI to distribute the built files to 2 deployment services such as DeployGate and HockeyApp. For this reason, your JSON recipe should look like this:"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:266
+#: ../doc/manual/monaca_ci/overview.rst:265
 msgid "Here is the execution procedure for Monaca CI corresponding to the above JSON setting:"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:268
+#: ../doc/manual/monaca_ci/overview.rst:267
 msgid "Code is pushed to GitHub."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:270
+#: ../doc/manual/monaca_ci/overview.rst:269
 msgid "If the code is pushed to a valid GitHub’s branch/tag as configured in JSON recipe script, Monaca server will start building your project. Please go to :menuselection:`Build --> CI History` to see the live process of Monaca CI. Then, you can find the built files in :menuselection:`Build --> Build History`."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:276
+#: ../doc/manual/monaca_ci/overview.rst:275
 msgid "Preparing to Build"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:282
+#: ../doc/manual/monaca_ci/overview.rst:281
 msgid "Building Complete"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:288
+#: ../doc/manual/monaca_ci/overview.rst:287
 msgid "Build Complete"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:292
+#: ../doc/manual/monaca_ci/overview.rst:291
 msgid "When the build process is successfully completed in Monaca server, the build files will be sent to the configured deployment services."
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:298
+#: ../doc/manual/monaca_ci/overview.rst:297
 msgid "DeployGate Dashboard"
 msgstr ""
 
-#: ../doc/manual/monaca_ci/overview.rst:304
+#: ../doc/manual/monaca_ci/overview.rst:303
 msgid "HockeyApp Dashboard"
 msgstr ""
 

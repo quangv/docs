@@ -678,7 +678,7 @@ msgstr ":guilabel:`作成する` ボタンをクリックして、API キーを�
 #: ../doc/manual/development/monaca_vs/overview.rst:264
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:89
 #: ../doc/manual/monaca_ci/json_sample.rst:93
-#: ../doc/manual/monaca_ci/overview.rst:310
+#: ../doc/manual/monaca_ci/overview.rst:309
 #: ../doc/manual/monaca_ci/supported_services.rst:165
 #: ../doc/manual/monaca_ci/troubleshooting.rst:11
 msgid "*See Also*"
@@ -11836,7 +11836,6 @@ msgid ""
 msgstr "``android``: Android 向けのオプション設定 ( デプロイサービス提供の機能 ) 用のブロックです。"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:36
-#: ../doc/manual/monaca_ci/overview.rst:169
 msgid ""
 "Please refer to :ref:`here <supported_services>` on currently supported and "
 "upcoming deployment services."
@@ -11854,7 +11853,7 @@ msgid ":ref:`monaca_ci_overview`"
 msgstr ":ref:`monaca_ci_overview`"
 
 #: ../doc/manual/monaca_ci/json_sample.rst:96
-#: ../doc/manual/monaca_ci/overview.rst:312
+#: ../doc/manual/monaca_ci/overview.rst:311
 #: ../doc/manual/monaca_ci/troubleshooting.rst:15
 msgid ":ref:`supported_services`"
 msgstr ":ref:`supported_services`"
@@ -12083,17 +12082,23 @@ msgstr "プロジェクトをビルドするときに使用する、GitHub の�
 msgid "GitHub tag of the project you want to build."
 msgstr "プロジェクトをビルドするときに使用する、GitHub タグを指定します。"
 
+#: ../doc/manual/monaca_ci/overview.rst:169
+msgid ""
+"Please refer to :ref:`here <supported_services>` for configuration "
+"parameters of each deploy service."
+msgstr "デプロイサービスごとのオプション設定は、:ref:`こちら <supported_services>` をご確認ください。"
+
 #: ../doc/manual/monaca_ci/overview.rst:175
 msgid ""
 "Here is an example of a recipe script configured for multiple deploy "
 "services and one service with multiple aliases."
 msgstr "複数のデプロイサービスの組み込み方法、および、1 つのデプロイサービスに複数のエイリアスを割り当てる方法を、次に記します。"
 
-#: ../doc/manual/monaca_ci/overview.rst:227
+#: ../doc/manual/monaca_ci/overview.rst:226
 msgid "Monaca CI Execution Procedure"
 msgstr "Monaca CI 側の処理"
 
-#: ../doc/manual/monaca_ci/overview.rst:229
+#: ../doc/manual/monaca_ci/overview.rst:228
 msgid ""
 "Assuming that you want to use Monaca CI to create release build for iOS and "
 "Android when you push the project code to a branch called ``master``. "
@@ -12106,17 +12111,17 @@ msgstr ""
 "ブランチを指定しています。また、Monaca CI を使用して、DeployGate と HockeyAPP の 2 "
 "つのデプロイサービス上へ、ビルド済みファイルを送ります。JSON レシピは、次のようになります。"
 
-#: ../doc/manual/monaca_ci/overview.rst:266
+#: ../doc/manual/monaca_ci/overview.rst:265
 msgid ""
 "Here is the execution procedure for Monaca CI corresponding to the above "
 "JSON setting:"
 msgstr "上記の JSON 設定を実行した場合、Monaca CI 側では、次の処理が実行されます。"
 
-#: ../doc/manual/monaca_ci/overview.rst:268
+#: ../doc/manual/monaca_ci/overview.rst:267
 msgid "Code is pushed to GitHub."
 msgstr "GitHub へコードをプッシュ ( Push ) します。"
 
-#: ../doc/manual/monaca_ci/overview.rst:270
+#: ../doc/manual/monaca_ci/overview.rst:269
 msgid ""
 "If the code is pushed to a valid GitHub’s branch/tag as configured in JSON "
 "recipe script, Monaca server will start building your project. Please go to "
@@ -12129,29 +12134,29 @@ msgstr ""
 "継続的インテグレーション結果一覧` をご確認ください。また、ビルド済みのファイルを確認・ダウンロードする場合には、:menuselection:`ビルド"
 " --> ビルド結果一覧` をご確認ください。"
 
-#: ../doc/manual/monaca_ci/overview.rst:276
+#: ../doc/manual/monaca_ci/overview.rst:275
 msgid "Preparing to Build"
 msgstr "ビルド準備時"
 
-#: ../doc/manual/monaca_ci/overview.rst:282
+#: ../doc/manual/monaca_ci/overview.rst:281
 msgid "Building Complete"
 msgstr "ビルド完了時"
 
-#: ../doc/manual/monaca_ci/overview.rst:288
+#: ../doc/manual/monaca_ci/overview.rst:287
 msgid "Build Complete"
 msgstr "ビルド済みファイルの一覧"
 
-#: ../doc/manual/monaca_ci/overview.rst:292
+#: ../doc/manual/monaca_ci/overview.rst:291
 msgid ""
 "When the build process is successfully completed in Monaca server, the build"
 " files will be sent to the configured deployment services."
 msgstr "ビルド処理の完了後、Monaca サーバー側から、指定されたデプロイサービス側へ、ビルド済みファイルを送ります。"
 
-#: ../doc/manual/monaca_ci/overview.rst:298
+#: ../doc/manual/monaca_ci/overview.rst:297
 msgid "DeployGate Dashboard"
 msgstr "DeployGate のダッシュボード"
 
-#: ../doc/manual/monaca_ci/overview.rst:304
+#: ../doc/manual/monaca_ci/overview.rst:303
 msgid "HockeyApp Dashboard"
 msgstr "HockeyApp のダッシュボード"
 
