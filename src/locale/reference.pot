@@ -20970,6 +20970,10 @@ msgstr ""
 msgid ":ref:`Collection Item API<collection_item_api>`"
 msgstr ""
 
+#: ../doc/reference/monaca_api/cloud_management/push.rst:7
+msgid "For release and ad-hoc builds on Cordova 6.2 platform, please select the release build option when sending push notifications."
+msgstr ""
+
 #: ../doc/reference/monaca_api/cloud_management/push.rst:10
 msgid "Below are Monaca Backend Management APIs for Push Notifications."
 msgstr ""
@@ -20995,7 +20999,7 @@ msgid "Push.send - Send Push Notification"
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:26
-msgid "Send push notification to applications or debuggers."
+msgid "Send push notification to applications."
 msgstr ""
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:28

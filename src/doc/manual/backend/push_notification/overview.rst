@@ -4,7 +4,7 @@
 Introduction to Push Notification
 ================================================
 
-.. rst-class:: right-menu
+.. note:: For release and ad-hoc builds on Cordova 6.2 platform, please select the release build option when sending push notifications.
 
 
 What is Push Notification?

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-11-07 05:26+0000\n"
+"PO-Revision-Date: 2016-11-25 03:42+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -24420,6 +24420,12 @@ msgstr "新しいパーミッション ( 権限 ) です。"
 msgid ":ref:`Collection Item API<collection_item_api>`"
 msgstr ":ref:`Collection Item API<collection_item_api>`"
 
+#: ../doc/reference/monaca_api/cloud_management/push.rst:7
+msgid ""
+"For release and ad-hoc builds on Cordova 6.2 platform, please select the "
+"release build option when sending push notifications."
+msgstr "Cordova6.2プロジェクトでアドホックビルドしたアプリに対しては、リリースを選択する必要があります。"
+
 #: ../doc/reference/monaca_api/cloud_management/push.rst:10
 msgid "Below are Monaca Backend Management APIs for Push Notifications."
 msgstr "プッシュ通知に使用する Monaca バックエンド マネジメント API を、次に記します。"
@@ -24445,8 +24451,8 @@ msgid "Push.send - Send Push Notification"
 msgstr "Push.send - プッシュ通知の送信"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:26
-msgid "Send push notification to applications or debuggers."
-msgstr "デバッガーまたはアプリに、プッシュ通知を送信します。"
+msgid "Send push notification to applications."
+msgstr "アプリに、プッシュ通知を送信します。"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:28
 msgid ":dfn:`Push.send`"
