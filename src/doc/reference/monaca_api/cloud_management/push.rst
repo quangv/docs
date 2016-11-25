@@ -4,7 +4,7 @@
 Push Notification
 =================================
 
-.. rst-class:: right-menu
+.. note:: For release and ad-hoc builds on Cordova 6.2 platform, please select the release build option when sending push notifications.
 
 
 Below are Monaca Backend Management APIs for Push Notifications. 
@@ -23,7 +23,7 @@ Method                           Description
 Push.send - Send Push Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Send push notification to applications or debuggers. 
+Send push notification to applications.
 
 :dfn:`Push.send`
 

@@ -1,4 +1,4 @@
-header.navbar {
+header.navbar{
     position: absolute;
     top: 0;
     left: 0;
@@ -11,14 +11,10 @@ header.navbar {
     font-size: 14px;
     a:link {text-decoration: none;}
     a:visited {text-decoration: none;}
+
     .container {
-        width: $width;
-        @media screen and (max-width: $break-xl) {
-            width: 100%;
-        }
-        @media screen and (max-width: $break) {
-            padding: 0;
-        }
+        padding: 0px 15px;
+        
         .header-accordion {
           background-color: #222;
           max-height: 0;
@@ -45,8 +41,8 @@ header.navbar {
         .header-accordion.loggedin.on:lang(ja) {
           max-height: 1420px;
         }
-    }
-    .navbar-header {
+
+        .navbar-header {
         margin: 0;
         .navbar-brand {
             margin: 0;
@@ -57,7 +53,7 @@ header.navbar {
             img {
                 width: 110px;
                 left: 20px;
-                position: absolute;
+                /*position: absolute;*/
             }
         }
         .navbar-toggle {
@@ -116,6 +112,12 @@ header.navbar {
         }
     }
     .navbar-collapse {
+        .navbar-right {
+            margin-right: 0;
+        }
+        .navbar-left {
+            margin-left: 0;
+        }
         border-top: none;
         box-shadow: none;
         float: none;
@@ -136,7 +138,8 @@ header.navbar {
             text-decoration: underline;
         }
         .nav-title {
-            color: #80d4ff;
+            /*color: #80d4ff;*/
+            color: #fff;
             display: inline-block;
             height: 50px;
             line-height: 51px;
@@ -194,7 +197,7 @@ header.navbar {
                 text-align: left;
             }
             .dropdown-toggle {
-                color: white;
+                color: #fff;
             }
             > li > a {
                 color: #0088cc;
@@ -204,7 +207,7 @@ header.navbar {
             }
             .dropdown:hover > .dropdown-toggle {
                 background-color: transparent;
-                color: #ffffff;
+                color: #fff;
             }
         }
     }
@@ -262,11 +265,17 @@ header.navbar {
             line-height: 39px;
         }
     }
+    }
+    
 }
 
+    
+
 // Desktop header toolbar: margin fix
+
 @media screen and (min-width: $break) {
     html[lang=en] {
+
         .navbar-nav > li > a {
             @media screen and (max-width: 860px) {
                 font-size: 14px;
@@ -288,6 +297,7 @@ header.navbar {
         }
     }
 }
+
 html[lang=ja] {
     .navbar-nav > li > a {
         @media screen and (max-width: $width) {
@@ -383,7 +393,7 @@ header.global {
   background-color: #ffffff;
   border-bottom: 1px solid #c2c0c1;
   color: #333;
-  height: 70px;
+  /*height: 70px;*/
   z-index: 1;
   position: inherit;
   top: 50px;
@@ -406,14 +416,15 @@ header.global {
 
   .headcont {
     box-sizing: border-box;
-    height: 70px;
+    /*height: 70px;*/
     margin: 0 auto;
     padding: 0 20px;
+    /*left: 200px;*/
     position: relative;
   }
   .site-logo {
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 20px;
     color: white;
     font-size: 16px;
@@ -421,12 +432,12 @@ header.global {
     height: 32px;
     line-height: 32px;
     margin: 0;
-    padding: 12px 0 0 0;
+    padding: 5px;
   }
   .version_selector {
     position: absolute;
     font-family: 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-    top: 35px;
+    top: 15px;
     right: 20px;
     select {
       border-radius: 2px;
@@ -435,11 +446,12 @@ header.global {
   }
 
   nav.global {
-    position: absolute;
-    top: 50%;
+    /*top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 610px;
+    transform: translate(-50%, -50%);*/
+    position: absolute;
+    left: 200px;
+    min-width: 400px;
     div {
       > ul {
         @include clearfix-after;
@@ -546,7 +558,7 @@ header.global {
     }
   }
 }
-
+/*
 //Fix navigation width even when mouseon
 html[lang=en] header.global nav > div > ul > li {
     &:nth-child(1) {width: 150px;}
@@ -567,4 +579,4 @@ html[lang=ja] header.global nav > div > ul > li {
     padding-left: 0px;
     padding-right: 0px;
   }
-}
+}*/

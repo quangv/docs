@@ -1,5 +1,6 @@
 body {
-  min-width: 1020px;
+  min-width: 400px;
+  width: 100%;
   position: relative;
 }
 
@@ -11,6 +12,9 @@ body.no-sidebar {
 }
 
 article.main {
+  @media screen and (max-width: $break) {
+    width: 100%;
+  }
   @include all-box-shadow(-1px,0,1px,rgba(0,0,0,0.05));
   @include clearfix-after;
   background-color: #fff;
@@ -23,7 +27,7 @@ article.main {
   width: calc(100% - 288px);
 
   > .body {
-    margin-right: 223px;
+    /*margin-right: 223px;*/
   }
   table.field-list {
     margin-bottom: 20px;

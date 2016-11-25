@@ -289,7 +289,7 @@ input:focus, textarea:focus {
   padding-right: 0;
   /*min-width: $width;*/
   width: auto;
-  @media screen and (max-width: $break-xl) {
+  @media screen and (max-width: $break) {
     padding-left: 4.4%;
     padding-right: 4.4%;
     width: 100%;

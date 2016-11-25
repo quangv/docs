@@ -983,14 +983,14 @@ msgstr "事前準備"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:13
 msgid "Before getting started, you are required to:"
-msgstr "ビルド開始前に準備しておくことを、次に記します。"
+msgstr "事前準備として、次の内容を行います。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:15
 msgid ""
 "subscribe to `iOS Developer Program "
 "<https://developer.apple.com/programs/ios/>`_."
 msgstr ""
-"`iOS Developer Program <https://developer.apple.com/programs/ios/>`_ への登録"
+"`Apple Developer Program <https://developer.apple.com/programs/ios/>`_ への登録"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:16
 msgid ""
@@ -1189,7 +1189,7 @@ msgid ""
 "Developer Program. If you haven’t enrolled in this program yet, please "
 "subscribe at `here <https://developer.apple.com/programs/>`_."
 msgstr ""
-"iOS Developer Program に登録した、Apple ID "
+"Apple Developer Program に登録した、Apple ID "
 "とパスワードを使用して、サインインします。このプログラムに未登録の場合には、`こちら "
 "<https://developer.apple.com/programs/>`_ で登録します。"
 
@@ -1304,7 +1304,7 @@ msgid ""
 "more apps or an explicit App ID that exactly matches your bundle ID."
 msgstr ""
 "App ID は、開発用と配布用のプロビジョニング プロファイルの作成時に、主に、使用します。Wildcard App ID ( 複数の アプリで共通 "
-") または Explicit App ID ( いアプリを識別する、一意の Bundle ID と一致 ) を作成できます。"
+") または Explicit App ID ( アプリを識別する、一意の Bundle ID と一致 ) を作成できます。"
 
 #: ../doc/monaca_ide/manual/build/ios/build_ios.rst:183
 msgid "In order to register your App ID, please follow the instruction below:"
@@ -5577,7 +5577,7 @@ msgid ""
 msgstr ""
 "リリースビルド版アプリ ( iOS および Android 向け ) の場合、「 初回 」 のビルドは、IDE "
 "上で、手動で、行う必要があります。初回のビルド以降は、Monaca CI を使用して、自動でビルドを行えます ( "
-"リリースビルド版をビルドする場合、Android では、有効なキーストアの入力が必要になり、iOS "
+"リリースビルド版を初めてビルドする場合、Android では、有効なキーストアの入力が必要になり、iOS "
 "では、有効なプロビジョニングプロファイルのアップロードが必要になるためです )。"
 
 #: ../doc/monaca_ide/manual/monaca_ci/overview.rst:65
@@ -8178,7 +8178,7 @@ msgid ""
 "pushed into your Monaca Debugger in real-time as soon as you save those "
 "changes."
 msgstr ""
-"Monaca アプリ開発時、Monaca クラウド IDE ( PC 側 ) と Monaca デバッガー ( 端末側 ) "
+"Monaca アプリの開発時、Monaca クラウド IDE ( PC 側 ) と Monaca デバッガー ( 端末側 ) "
 "がインターネットに接続されていれば、IDE 上でプロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:14
@@ -8243,7 +8243,7 @@ msgid ""
 "By now, you are able to run your Monaca project on the debugger. Next, let's"
 " try to edit this project and see how it is reflected on the debugger."
 msgstr ""
-"ここまでの手順で、Monaca デバッガー上でプロジェクトが実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca "
+"ここまでの手順で、Monaca デバッガー上でプロジェクトを実行できることを確認しました。次に、このプロジェクトを編集し、 Monaca "
 "デバッガー側に反映されるか確認してみましょう。"
 
 #: ../doc/monaca_ide/tutorial/testing_debugging.rst:82

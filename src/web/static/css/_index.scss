@@ -18,6 +18,7 @@ hr {
 
 div.overview-btn {
     background-color: #47b98f;
+    border: 1px solid #47b98f;
     color: #fff;
     font-size: 18px;
     border-radius: 4px;
@@ -94,7 +95,7 @@ div.overview-btn:hover {
 table.products-guide {
     width: 900px;
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 0;
 }
 

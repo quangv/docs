@@ -72,7 +72,7 @@ msgid ""
 "the markets (App Store, Google Play, ...), you will need to create a release"
 " build of your app."
 msgstr ""
-"ここまでの手順で、アプリの開発工程のすべてを終えました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
+"ここまでの手順で、アプリの開発工程のすべてが完了しました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
 " ( App Store、Google Play など ) 上で配布する前には、リリースビルド版のアプリが必要です。"
 
 #: ../doc/monaca_localkit/manual/build_publish.rst:21
@@ -275,7 +275,7 @@ msgstr ""
 #: ../doc/monaca_localkit/manual/overview.rst:86
 #: ../doc/monaca_localkit/tutorial/starting_project.rst:41
 msgid "Fill in the necessary information such as:"
-msgstr "次のように、必要な情報を入力します。"
+msgstr "必要な情報を入力します。"
 
 #: ../doc/monaca_localkit/manual/overview.rst:88
 #: ../doc/monaca_localkit/manual/overview.rst:137
@@ -709,7 +709,7 @@ msgstr "パート 3 : Monaca アプリのビルド"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:7
 msgid "In this page, we will cover the two following topics:"
-msgstr "こちらのチュートリアルでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
+msgstr "このパートでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:9
 msgid ":ref:`localkit_building_for_ios`"
@@ -776,8 +776,8 @@ msgid ""
 "``Development Provisioning Profile`` (see :ref:`How to Create Provisioning "
 "Profiles<register_provisioning>`)"
 msgstr ""
-"``開発用プロビジョニングプロファイル`` ( see :ref:`プロビジョニングプロファイル の作成方法 "
-"<register_provisioning>` を参照のこと )"
+"``開発用プロビジョニングプロファイル`` ( :ref:`プロビジョニングプロファイル の作成方法 <register_provisioning>` "
+"を参照のこと )"
 
 #: ../doc/monaca_localkit/tutorial/building_app.rst:34
 msgid "Step 1: Configuring iOS App Settings"
@@ -1340,7 +1340,7 @@ msgid ""
 " you save those changes."
 msgstr ""
 "Monaca Localkit を使用して、ローカル PC 上で Monaca "
-"アプリを開発する場合、プロジェクトファイルへ行った修正は、保存後、Monaca デバッガーへ即座にプッシュされます ( ペアリング済みであること )。"
+"アプリを開発する場合、プロジェクトファイルへの変更は、保存後、Monaca デバッガーへ即座にプッシュされます ( ペアリング済みであること )。"
 
 #: ../doc/monaca_localkit/tutorial/testing_debugging.rst:13
 msgid "run the project on Monaca Debugger."

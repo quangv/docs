@@ -43,9 +43,13 @@ div.aside-search-left {
     float: right;
     padding: 0;
     margin-right: 10px;
+    top: 6px;
 }
 
 aside.global {
+  @media screen and (max-width: $break) {
+      display: none;
+  }
   float: right;
   font-size: 16px;
   padding: 55px 0px 40px 0px;

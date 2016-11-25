@@ -71,7 +71,7 @@ msgid ""
 "the markets (App Store, Google Play, ...), you will need to create a release"
 " build of your app."
 msgstr ""
-"ここまでの手順で、アプリの開発工程のすべてを終えました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
+"ここまでの手順で、アプリの開発工程のすべてが完了しました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
 " ( App Store、Google Play など ) 上で配布する前には、リリースビルド版のアプリが必要です。"
 
 #: ../doc/monaca_vs/manual/build_publish.rst:17
@@ -135,7 +135,7 @@ msgid ""
 "Microsoft Visual Studio 2015 Community Edition, Professional Edition or "
 "higher editions."
 msgstr ""
-"Microsoft Visual Studio 2015 の Community、または、Professional エディション以上 "
+"Microsoft Visual Studio 2015 の Community、Professional エディション、または、それ以上 "
 "のバージョンがインストールされていること"
 
 #: ../doc/monaca_vs/manual/overview.rst:25
@@ -521,7 +521,7 @@ msgstr ""
 "Monaca デバッガーと ホスト PC ( Monaca for Visual Studio を起動中の PC ) をペアリングします。Monaca "
 "デバッガーおよび Monaca for Visual Studio の両方に、同一の Monaca アカウントでログインしていれば、Monaca "
 "デバッガー側で、ホスト PC を自動的に検知します ( 下のスクリーンショットを参照のこと )。次に、:guilabel:`ペアリング` "
-"ボタンをクリックします。"
+"ボタンをタップします。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:37
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:57
@@ -567,14 +567,14 @@ msgid ""
 "From Monaca Debugger, click on the toggle menu on the top-left corner and go"
 " to :guilabel:`Local Computers` button."
 msgstr ""
-"Monaca デバッガー画面の左上端に表示された切り替えメニューをクリックして、 :guilabel:`ローカルコンピュータ` を選択します。"
+"Monaca デバッガー画面の左上端に表示された切り替えメニューをタップして、 :guilabel:`ローカルコンピュータ` を選択します。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:67
 msgid ""
 "Then, the connected PC will be shown. Click on the \"Information\" icon of "
 "the connected PC (see the screenshot below)."
 msgstr ""
-"接続されている PC が表示されます。PC の横に表示されているインフォーメーション アイコンをクリックします ( 下のスクリーンショットを参照のこと "
+"接続されている PC が表示されます。PC の横に表示されているインフォーメーション アイコンをタップします ( 下のスクリーンショットを参照のこと "
 ")。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:75
@@ -585,8 +585,8 @@ msgid ""
 "debugger anymore unless you pair it again."
 msgstr ""
 "接続されている PC の情報が表示されます。 :guilabel:`この PC を解除する` "
-"をクリックして、ペアリングを解除します。解除後は、ローカルに保存されている Monaca "
-"プロジェクトは、デバッガー上で、デバッグできません。デバッグを再度行う場合には、ペアリングをします。"
+"をタップして、ペアリングを解除します。解除後は、ローカルに保存されている Monaca "
+"プロジェクトは、デバッガー上でデバッグできません。デバッグを再度行う場合には、ペアリングをします。"
 
 #: ../doc/monaca_vs/manual/pairing_debugging.rst:82
 msgid "Debugging Monaca Apps with Monaca for Visual Studio"
@@ -606,7 +606,7 @@ msgstr "パート 3 : Monaca アプリのビルド"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:7
 msgid "In this page, we will cover the two following topics:"
-msgstr "こちらのチュートリアルでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
+msgstr "こちらのパートでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:9
 msgid ":ref:`monaca_vs_building_for_ios`"
@@ -673,8 +673,8 @@ msgid ""
 "``Development Provisioning Profile`` (see :ref:`How to Create Provisioning "
 "Profiles<register_provisioning>`)"
 msgstr ""
-"``開発用プロビジョニングプロファイル`` ( see :ref:`プロビジョニングプロファイル の作成方法 "
-"<register_provisioning>` を参照のこと )"
+"``開発用プロビジョニングプロファイル`` ( :ref:`プロビジョニングプロファイル の作成方法 <register_provisioning>` "
+"を参照のこと )"
 
 #: ../doc/monaca_vs/tutorial/building_app.rst:34
 msgid "Step 1: Configuring iOS App Settings"
@@ -1265,8 +1265,8 @@ msgid ""
 "files will be pushed into your Monaca Debugger as soon as you save those "
 "changes."
 msgstr ""
-"ローカル PC 上で Monaca アプリを開発する場合、プロジェクトファイルへ行った修正は、保存後、Monaca デバッガーへ即座にプッシュされます "
-"( ペアリング済みであること )。"
+"ローカル PC 上で Monaca アプリを開発する場合、プロジェクトファイルへの変更は、保存後、Monaca デバッガーへ即座に 「 プッシュ 」 "
+"されます ( ペアリング済みであること )。"
 
 #: ../doc/monaca_vs/tutorial/testing_debugging.rst:17
 msgid "Before Getting Started"

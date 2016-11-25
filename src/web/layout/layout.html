@@ -2,7 +2,7 @@
 <html lang="{{lang}}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/static/img/index/favicon.png"/>
 
     {{#if fjson.title}}
@@ -36,6 +36,9 @@
     <script type="text/javascript">
         var LANG = "{{lang}}";
         var VERSION = "{{VERSION}}";
+        $( document ).ready(function() {
+        });
+        
     </script>
     <script type="text/javascript" src="/static/js/main.js"></script>
     <script type="text/javascript" src="/static/js/google_search_en.js"></script>
@@ -46,6 +49,7 @@
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-526750-24', 'auto');
         ga('send', 'pageview');
+
     </script>
 
 </head>
@@ -53,7 +57,9 @@
 <body id="" data-lang="{{lang}}" class="{{#unless toctree}}no-sidebar{{/unless}} {{#if fjson.body}}from-rst{{/if}}">
     <a name="top"></a>
 
-    {{> header }}
+        {{> header }}
+
+    
 
     <article id="body-container" class="main">
         {{#if toctree}}
@@ -111,12 +117,6 @@
             {{> feedback.en }}
         {{/is}}
     </div>
- 
-<!-- 	<div style="display:none;">
-	    <div id="demo3_tip">
-	        
-	    </div>
-	</div> -->
 
     <a href="#top" class="scrollup">Scroll</a>
 
@@ -139,6 +139,7 @@
         }
         function switchVersion(switchVersion) {
             var currentVersion = "{{cordovaVersion.versionPath}}";
+            console.log("TEST");
             location.href = location.href.replace(currentVersion, switchVersion);
         }
         if (["/en/", "/ja/"].indexOf(location.pathname) >= 0) {

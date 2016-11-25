@@ -35,11 +35,6 @@ var ImagePreloader = function(arr) {
 
 $(function(){
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    alert('Browse from Mobile.');
-}
-
-
   new ImagePreloader(["/static/img/common/btn_top.png", "/static/img/common/btn_top_hover.png", "/static/img/common/btn_top_active.png"]).load();
 
   var highlight = {};
@@ -71,6 +66,27 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   };
   tweakdocs();
 
+  var redirectPages = function(url){
+    console.log(url.includes("cordova_4.1/device-orientation/"));
+    var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+    console.log("test: " + test);
+    //window.location.href = test;
+    //device orientaion plugins are not existed in Cordova 3.5 or 4.1
+    if(url.includes("cordova_4.1/device-orientation/")){
+      var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+      console.log("test: " + test);
+      window.location.href = test;
+    } else if(url.includes("cordova_3.5/device-orientation/")) {
+      var test = window.location.origin + "/" + LANG + "/reference/cordova_3.5/";
+      console.log("test: " + test);
+      window.location.href = test;
+    }
+      
+    
+  }
+
+  //redirectPages(location.href);
+
   var highlighter = function() {
     //console.log(highlight[clicked_classname]);
     if(jQuery.isEmptyObject(highlight)) return;
@@ -96,13 +112,6 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
       $(".body").highlight(keywords[i]);
   }
 
-  // var sideMenuScroll = function() {
-  //   if ($('.aside-main').innerHeight() > 600){
-  //     $('.aside-main').innerHeight(600);
-  //     $('.aside-main').css({"overflow-y": "scroll"}); 
-  //   }
-  // }
-
   var loadLocalTocs = function() {
     var contents_element_aside = document.getElementsByClassName('aside-main')[0];
     var contents_element_main = document.getElementsByClassName('main')[0];
@@ -111,26 +120,12 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
       var contents_right = contents_element_main.offsetWidth;
       var see_also_element = document.getElementsByClassName('admonition seealso')[0];
       if(see_also_element) {
-        // if ($('.aside-main').innerHeight() > 600)
-        //   see_also_element.style.top = '770px';  
-        // else
           see_also_element.style.top = contents_height + 45 + 'px';
         
         see_also_element.style.right = contents_right + 'px';
       }
     }
   }
-
-  // remove breadcrumb in top page
-  // var RemoveBreadcrumb = function(){
-  //   var current_url = document.URL;
-  //   if (current_url.endsWith('en/') || current_url.endsWith('ja/')) {
-  //     $('.breadcrumb').remove();
-  //   }
-    
-  // }
-
-  //RemoveBreadcrumb();
 
   var setNavCurrent = function(url) {
     var parser = document.createElement('a');
@@ -161,7 +156,6 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
 
   loadLocalTocs();
-  // sideMenuScroll();
   setNavCurrent(location.href);
 
   $(window).scroll(function () {

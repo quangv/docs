@@ -71,7 +71,7 @@ msgid ""
 "the markets (App Store, Google Play, ...), you will need to create a release"
 " build of your app."
 msgstr ""
-"ここまでの手順で、アプリの開発工程のすべてを終えました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
+"ここまでの手順で、アプリの開発工程のすべてが完了しました。次の工程では、アプリのビルド、端末へのインストールなど、配布に向けた準備をします。これらの工程まで行えば、マーケットで配布できるアプリが完成します。なお、実際に、マーケット"
 " ( App Store、Google Play など ) 上で配布する前には、リリースビルド版のアプリが必要です。"
 
 #: ../doc/monaca_cli/manual/build_publish.rst:17
@@ -1067,7 +1067,7 @@ msgstr ""
 
 #: ../doc/monaca_cli/manual/overview.rst:50
 msgid "Step 2: Following CLI Tutorial"
-msgstr "ステップ 2 : チュートリアルの活用"
+msgstr "ステップ 2 : チュートリアルの確認"
 
 #: ../doc/monaca_cli/manual/overview.rst:52
 msgid ""
@@ -1205,7 +1205,7 @@ msgid ""
 msgstr ""
 "接続されている PC の情報が表示されます。 :guilabel:`この PC を解除する` "
 "をクリックして、ペアリングを解除します。解除後は、ローカルに保存されている Monaca "
-"プロジェクトは、デバッガー上で、デバッグできません。デバッグを再度行う場合には、ペアリングをします。"
+"プロジェクトは、デバッガー上でデバッグできません。デバッグを再度行う場合には、ペアリングをします。"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:82
 msgid "Debugging Monaca Apps with Monaca CLI"
@@ -1225,7 +1225,7 @@ msgstr "パート 3 : Monaca アプリのビルド"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:8
 msgid "In this page, we will cover the two following topics:"
-msgstr "こちらのチュートリアルでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
+msgstr "こちらのパートでは、iOS 向けと Android 向けの Monaca アプリのビルド方法を解説します。"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:10
 msgid ":ref:`cli_building_for_ios`"
@@ -1292,8 +1292,8 @@ msgid ""
 "``Development Provisioning Profile`` (see :ref:`How to Create Provisioning "
 "Profiles<register_provisioning>`)"
 msgstr ""
-"``開発用プロビジョニングプロファイル`` ( see :ref:`プロビジョニングプロファイル の作成方法 "
-"<register_provisioning>` を参照のこと )"
+"``開発用プロビジョニングプロファイル`` ( :ref:`プロビジョニングプロファイル の作成方法 <register_provisioning>` "
+"を参照のこと )"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:35
 msgid "Step 1: Configuring iOS App Settings"
@@ -1306,7 +1306,7 @@ msgid ""
 "your local project files to Monaca Cloud. Please type the following command "
 "to open an interactive build interface in your browser."
 msgstr ""
-"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動します。次の :ref:`monaca_remote_build` コマンド ( "
+"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動します。:ref:`monaca_remote_build` コマンド ( "
 "--browser オプション ) を実行して、[ ビルド設定 ] 画面を開きます。こちらのコマンドとオプションで、Monaca "
 "クラウド側へのローカルのプロジェクトのアップロード、および、ビルド設定画面の表示が行われます。"
 
@@ -1463,7 +1463,7 @@ msgid ""
 "Monaca app for Android. For more information about other types of build, "
 "please refer to :ref:`types_of_build_android`."
 msgstr ""
-"端末にインストールできる、デバッグビルド版 Android "
+"デバッグビルド版 Android "
 "アプリの作成方法に関して、ここでは解説します。ビルドの種類に関する詳細は、:ref:`types_of_build_android` をご確認ください。"
 
 #: ../doc/monaca_cli/tutorial/building_app.rst:132
@@ -1477,8 +1477,8 @@ msgid ""
 "your local project files to Monaca Cloud. Please type the following command "
 "to open an interactive build interface in your browser."
 msgstr ""
-"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、:ref:`monaca_remote_build` "
-"コマンドを実行します。このコマンドを実行すると、ローカルから Monaca "
+"コマンドウィンドウ上で、プロジェクトの保存先のフォルダーまで移動し、:ref:`monaca_remote_build` コマンドを実行します ( "
+"--browser オプション )。このコマンドを実行すると、ローカルから Monaca "
 "クラウドへ、プロジェクトファイルが自動的にアップロードされると共に、ブラウザーが立ち上がり、ビルドの設定画面が表示されます ( "
 "下のスクリーンショットを参照のこと )。"
 
@@ -1787,7 +1787,7 @@ msgid ""
 "files will be pushed into your Monaca Debugger  as soon as you save those "
 "changes."
 msgstr ""
-"Monaca アプリ開発時、ローカル PC ( Monaca CLI 側 ) と Monaca デバッガー ( 端末側 ) "
+"Monaca アプリの開発時、Monaca CLI ( ローカル PC 側 ) と Monaca デバッガー ( 端末側 ) "
 "がペアリングされていれば、プロジェクトファイルに加えた変更は、保存後、デバッガー側に即座に 「 プッシュ 」 されます。"
 
 #: ../doc/monaca_cli/tutorial/testing_debugging.rst:13
@@ -1919,7 +1919,7 @@ msgid ""
 "(inside ``<ons-sliding-menu>`` tag) to ``page2.html`` and save your changes."
 " The updated code should look like this:"
 msgstr ""
-"ファイル内のコードを変更してみます。たとえば、アプリの起動時に表示するページを 「 Page 2 」 "
+"ファイル内のコードを変更してみましょう。たとえば、アプリの起動時に表示するページを 「 Page 2 」 "
 "に変更してみましょう。変更を行うには、最初に、``index.html`` ファイルを開き、次に、``<ons-sliding-menu>`` タグ内の"
 " ``main-page`` 属性の値を、``page2.html`` に変更・保存します。変更後のコードは、次のとおりです。"
 

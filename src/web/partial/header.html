@@ -26,29 +26,31 @@
 
 <!-- Docs local header -->
 <header class="global">
+    
     <div class="headcont">
-        <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
-        <nav class="global" data-pjax>
+            <a href="/{{lang}}/"><img class="site-logo" src="/static/img/common/header_logo_docs.png" alt="Monaca Docs" /></a>
             {{#if toctree}}
-                {{{globaltoc}}}
-                <!-- {{#is lang "ja"}}
-                    {{> navigation.ja }}
-                {{else}}
-                    {{> top_menu.en }}
-                {{/is}} -->
-            {{else}}
-                <div class="overview-btn" id="monaca_overview">
-                    {{#is lang "ja"}}
-                        <p><a class="title" href="/ja/products_guide/monaca_intro/">Monaca での開発の概要</a></p>
-                    {{else}}
-                        <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Development Overview</a></p>
-                    {{/is}}
-                    
+                <!-- {{{globaltoc}}} -->
+                <div class="navbar-header" id="header-top">
+                    <button style="margin-right: 0" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toctree-menu">
+                        <span style="background-color: #000" class="icon-bar"></span>
+                        <span style="background-color: #000" class="icon-bar"></span>
+                        <span style="background-color: #000" class="icon-bar-left"></span>
+                        <span style="background-color: #000" class="icon-bar-right"></span>
+                    </button>
                 </div>
-                
-                
+
+                <div class="navbar-collapse collapse" id="toctree-menu">
+                    <ul style="padding-left: 200px" class="nav navbar-nav navbar-left">
+                        {{#is lang "ja"}}
+                            {{> navigation.ja }}
+                        {{else}}
+                            {{> globaltoc.en }}
+                        {{/is}}
+                    </ul>
+                </div>
+
             {{/if}}
-        </nav>
 
 
         <p class="version_selector">
@@ -88,6 +90,9 @@
 </header>
 
 <script type="text/javascript">
+
+
+
     $("#monaca_overview").click(function() {
         if (LANG == "ja")
             window.location.href = '/ja/products_guide/monaca_intro/';
