@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-11-22 07:37+0000\n"
+"PO-Revision-Date: 2016-11-25 03:01+0000\n"
 "Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -24390,7 +24390,7 @@ msgstr ":ref:`Collection Item API<collection_item_api>`"
 msgid ""
 "For release and ad-hoc builds on Cordova 6.2 platform, please select the "
 "release build option when sending push notifications."
-msgstr ""
+msgstr "Cordova6.2プロジェクトでアドホックビルドしたアプリに対しては、リリースを選択する必要があります。"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:10
 msgid "Below are Monaca Backend Management APIs for Push Notifications."
@@ -24418,7 +24418,7 @@ msgstr "Push.send - プッシュ通知の送信"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:26
 msgid "Send push notification to applications."
-msgstr ""
+msgstr "アプリに、プッシュ通知を送信します。"
 
 #: ../doc/reference/monaca_api/cloud_management/push.rst:28
 msgid ":dfn:`Push.send`"
