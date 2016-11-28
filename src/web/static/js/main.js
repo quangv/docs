@@ -66,20 +66,24 @@ $(function(){
   };
   tweakdocs();
 
+  	
+
   var redirectPages = function(url){
-    console.log(url.includes("cordova_4.1/device-orientation/"));
-    var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+    console.log(url.includes("cordova_5.2/device-orientation/"));
+    var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/"; 
+    
     console.log("test: " + test);
     //window.location.href = test;
     //device orientaion plugins are not existed in Cordova 3.5 or 4.1
-    if(url.includes("cordova_4.1/device-orientation/")){
+    if(url.includes("cordova_5.2/device-orientation/")){
       var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
       console.log("test: " + test);
-      window.location.href = test;
+      //window.location = test;
+      location.replace(test);
     } else if(url.includes("cordova_3.5/device-orientation/")) {
       var test = window.location.origin + "/" + LANG + "/reference/cordova_3.5/";
       console.log("test: " + test);
-      window.location.href = test;
+      window.location = test;
     }
       
     

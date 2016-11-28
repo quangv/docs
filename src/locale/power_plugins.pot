@@ -27,14 +27,16 @@ msgstr ""
 msgid "Monaca Power Plugins"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:5
-msgid "Monaca HTML5 Resource Encryption"
+#: ../doc/power_plugins/manual/encryption_6.2.rst:5
+msgid "New Encryption Plugin"
 msgstr ""
 
+#: ../doc/power_plugins/manual/encryption_6.2.rst:8
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:8
 msgid "This plugin provides the encryption function for HTML5 assets bundled up with the built app in Monaca and the decoding function for application execution time."
 msgstr ""
 
+#: ../doc/power_plugins/manual/encryption_6.2.rst:10
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:10
 #: ../doc/power_plugins/manual/in-app_updater.rst:10
 #: ../doc/power_plugins/manual/secure_storage.rst:10
@@ -42,107 +44,204 @@ msgstr ""
 msgid "This plugin is available to Enterprise users only."
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:14
+#: ../doc/power_plugins/manual/encryption_6.2.rst:14
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:23
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:92
 #: ../doc/power_plugins/manual/in-app_updater.rst:13
 #: ../doc/power_plugins/manual/secure_storage.rst:13
 #: ../doc/power_plugins/manual/sqlcipher.rst:14
 msgid "Supported Platforms"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:16
+#: ../doc/power_plugins/manual/encryption_6.2.rst:16
 #: ../doc/power_plugins/manual/in-app_updater.rst:15
 #: ../doc/power_plugins/manual/secure_storage.rst:15
 msgid "Cordova 4.1 or later"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:17
+#: ../doc/power_plugins/manual/encryption_6.2.rst:17
 #: ../doc/power_plugins/manual/in-app_updater.rst:16
 msgid "iOS 7 or later"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:18
+#: ../doc/power_plugins/manual/encryption_6.2.rst:18
 #: ../doc/power_plugins/manual/in-app_updater.rst:17
 #: ../doc/power_plugins/manual/sqlcipher.rst:18
 msgid "Android 4.0 or later"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:21
+#: ../doc/power_plugins/manual/encryption_6.2.rst:21
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:30
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:99
 #: ../doc/power_plugins/manual/secure_storage.rst:20
 msgid "Encryption Scheme"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:24
+#: ../doc/power_plugins/manual/encryption_6.2.rst:24
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:33
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:102
 #: ../doc/power_plugins/manual/secure_storage.rst:23
 msgid "Encryption Method"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:24
+#: ../doc/power_plugins/manual/encryption_6.2.rst:24
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:33
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:102
 #: ../doc/power_plugins/manual/secure_storage.rst:23
 msgid "AES"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:25
+#: ../doc/power_plugins/manual/encryption_6.2.rst:25
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:34
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:103
 #: ../doc/power_plugins/manual/secure_storage.rst:24
 msgid "Key Length"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:25
+#: ../doc/power_plugins/manual/encryption_6.2.rst:25
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:34
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:103
 #: ../doc/power_plugins/manual/secure_storage.rst:24
 msgid "256bit"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:30
+#: ../doc/power_plugins/manual/encryption_6.2.rst:30
 #: ../doc/power_plugins/manual/sqlcipher.rst:21
 msgid "Enable the Plugin in Monaca"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:32
+#: ../doc/power_plugins/manual/encryption_6.2.rst:32
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:41
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:110
 #: ../doc/power_plugins/manual/in-app_updater.rst:42
 #: ../doc/power_plugins/manual/secure_storage.rst:31
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`File --> Manage Cordova Plugins` or :menuselection:`Config --> Manage Cordova Plugins`."
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:34
+#: ../doc/power_plugins/manual/encryption_6.2.rst:34
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:43
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:112
 msgid "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:39
+#: ../doc/power_plugins/manual/encryption_6.2.rst:39
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:48
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:117
 msgid "Next, you need to setup the encryption password. Find your newly added plugin under the *Enable Plugins* section. Then, hover the plugin and click :guilabel:`Config` button."
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:44
+#: ../doc/power_plugins/manual/encryption_6.2.rst:44
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:122
 msgid "Enter the password for this encryption. Then, click :guilabel:`OK` button."
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:51
+#: ../doc/power_plugins/manual/encryption_6.2.rst:51
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:79
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:129
 #: ../doc/power_plugins/manual/in-app_updater.rst:177
 #: ../doc/power_plugins/manual/secure_storage.rst:82
 msgid "App Store Submission"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:53
+#: ../doc/power_plugins/manual/encryption_6.2.rst:53
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:81
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:131
 msgid "In this plugin, we use the encryption library of iOS SDK. Therefore, in order to release the built app embedded this plugin to the AppStore, you need to set 2 options when you submit your app for a review. Under the Export Compliance section, please choose \"Yes\" for both questions as shown in the screenshot below:"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:63
+#: ../doc/power_plugins/manual/encryption_6.2.rst:63
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:141
 #: ../doc/power_plugins/manual/in-app_updater.rst:189
 #: ../doc/power_plugins/manual/secure_storage.rst:93
 #: ../doc/power_plugins/manual/sqlcipher.rst:125
 msgid "*See Also*"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:65
+#: ../doc/power_plugins/manual/encryption_6.2.rst:65
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:143
 #: ../doc/power_plugins/manual/in-app_updater.rst:191
 #: ../doc/power_plugins/manual/secure_storage.rst:95
 #: ../doc/power_plugins/manual/sqlcipher.rst:127
 msgid ":ref:`third_party_cordova_index`"
 msgstr ""
 
-#: ../doc/power_plugins/manual/html5_resource_encryption.rst:66
+#: ../doc/power_plugins/manual/encryption_6.2.rst:66
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:144
 #: ../doc/power_plugins/manual/in-app_updater.rst:192
 #: ../doc/power_plugins/manual/secure_storage.rst:96
 #: ../doc/power_plugins/manual/sqlcipher.rst:128
 msgid ":ref:`cordova_core_plugins`"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:5
+msgid "Monaca HTML5 Resource Encryption"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:12
+msgid "The plugin has different features depending on the Cordova version of your project:"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:14
+msgid ":ref:`cordova_6_2_projects`"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:15
+msgid ":ref:`cordova_5_2_and_lower_projects`"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:20
+msgid "For Cordova 6.2 Projects"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:25
+msgid "Cordova 6.2"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:26
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:95
+msgid "iOS 7 or higher"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:27
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:96
+msgid "Android 4.0 or higher"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:39
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:108
+msgid "Enabling the Plugin in Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:53
+msgid "Enter parameter(s) for this encryption. Then, click :guilabel:`OK` button. Available parameters are as follows:"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:55
+msgid "SECRET: [Required](String) Password/secret for the encryption."
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:56
+msgid "TARGETS: [Optional](String) Target folder of the project files to be encrypted."
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:57
+msgid "AUTO_DECRYPT: [Optional](Boolean) ``1`` for enabling Auto Decryption while ``0`` for disabling Auto Decryption."
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:64
+msgid "Manually Decryption"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:66
+msgid "You can manually decrypt the configured target folder by setting the ``AUTO_DECRYPT=0`` and use the following code to decrypt the files:"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:89
+msgid "For Cordova 5.2 and Lower Projects"
+msgstr ""
+
+#: ../doc/power_plugins/manual/html5_resource_encryption.rst:94
+msgid "Cordova 5.2 or lower"
 msgstr ""
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:5

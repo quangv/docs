@@ -36,7 +36,42 @@
     <script type="text/javascript">
         var LANG = "{{lang}}";
         var VERSION = "{{VERSION}}";
+
+        // var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+        // location.href = test;
+
+        function urlExists(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    callback(xhr.status < 400);
+                }
+            };
+            xhr.open('HEAD', url);
+            xhr.send();
+        }
+
+        urlExists(location.href, function(exists) {
+            if (exists){
+                console.log('"%s" exists?', location.href, exists); 
+                var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+                //location.href = test;
+            } else{
+                var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+                //console.log("test: " + test);
+                location.href = test;
+            }
+            
+        });
+    
         $( document ).ready(function() {
+            // var url = window.location.href;
+            // console.log(url);
+            // if(url.includes("cordova_4.1/device-orientation/")){
+            //   var test = window.location.origin + "/" + LANG + "/reference/cordova_4.1/";        
+            //   console.log("test: " + test);
+            //   window.location = test;
+            // }
         });
         
     </script>
