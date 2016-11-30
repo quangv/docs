@@ -53,8 +53,8 @@ html {
 
 body {
   background-color: #f9f9f9;
-  color: #000;
-  font-family: 'Raleway', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #333;
+  font-family: 'Helvetica Neue', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 200;
   line-height: 21px;
@@ -64,10 +64,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #35527c;
   font-weight: 600;
-  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+  font-family: 'Helvetica Neue', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
 
 a {
-  font-family: 'Product Sans', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+  font-family: 'Helvetica Neue', 'Open Sans', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
 
 h1 {
   font-size: 38px;
@@ -538,7 +538,8 @@ header.navbar {
   header.navbar a:visited {
     text-decoration: none; }
   header.navbar .container {
-    padding: 0px 15px; }
+    padding: 0px 80px;
+    background-color: #2687ea; }
     header.navbar .container .header-accordion {
       background-color: #222;
       max-height: 0;
@@ -617,6 +618,7 @@ header.navbar {
             transform: rotate(0);
             width: 12px; }
     header.navbar .container .navbar-collapse {
+      background-color: #2687ea;
       border-top: none;
       box-shadow: none;
       float: none; }
@@ -648,6 +650,8 @@ header.navbar {
         text-decoration: none; }
     header.navbar .container .navbar-nav > li > a {
       color: #ffffff;
+      font-weight: 300;
+      font-size: 16px;
       padding: 16px 10px 14px;
       -webkit-font-smoothing: antialiased; }
       header.navbar .container .navbar-nav > li > a.login {
@@ -810,6 +814,7 @@ header.navbar {
     margin-right: -8px; }
 
 header.global {
+  padding: 0px 80px;
   background-color: #ffffff;
   border-bottom: 1px solid #c2c0c1;
   color: #333;
@@ -848,13 +853,13 @@ header.global {
     box-sizing: border-box;
     /*height: 70px;*/
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     /*left: 200px;*/
     position: relative; }
   header.global .site-logo {
     position: absolute;
     top: 10px;
-    left: 20px;
+    /*left: 20px;*/
     color: white;
     font-size: 16px;
     font-weight: 400;
@@ -1017,7 +1022,7 @@ article.main {
   background-color: #fff;
   border: none;
   box-sizing: border-box;
-  color: #000;
+  color: #333;
   float: right;
   margin: 0;
   padding: 80px 30px 50px 30px;
@@ -1292,10 +1297,10 @@ aside.top-page {
 div.aside-search-left {
   position: absolute;
   width: 288px;
-  right: 10px;
+  right: 0;
   float: right;
   padding: 0;
-  margin-right: 10px;
+  margin-right: 0px;
   top: 6px; }
 
 aside.global {
@@ -1918,34 +1923,34 @@ hr {
   display: block; }
 
 div.overview-btn {
+  border-radius: 5px;
   background-color: #47b98f;
-  border: 1px solid #47b98f;
+  width: 350px;
+  height: 60px;
+  vertical-align: center;
   color: #fff;
   font-size: 18px;
-  border-radius: 4px;
-  touch-action: manipulation;
+  line-height: 60px;
+  text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-  width: 300px;
-  margin-top: 40px;
-  padding: 10px; }
+  margin-top: 50px; }
   div.overview-btn a.title {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Open Sans'; }
 
 div.overview-btn:hover {
-  background-color: #fff;
-  cursor: pointer;
-  border: 1px solid #1e629e; }
-  div.overview-btn:hover a.title {
-    color: #1e629e; }
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  cursor: pointer; }
 
 #indexContents {
   margin: 0 auto;
-  max-width: 1020px; }
+  max-width: 1020px;
+  color: #333; }
   #indexContents footer {
     margin: 30px auto 30px;
     width: 952px;
@@ -1960,20 +1965,23 @@ div.overview-btn:hover {
     right: 0px; }
   #indexContents h1 {
     font-size: 40px;
-    color: #000;
-    clear: both; }
+    clear: both;
+    color: #333; }
   #indexContents h2 {
     font-size: 36px;
-    color: #000;
+    color: #333;
     clear: both; }
   #indexContents h3 {
     font-size: 32px;
-    color: #000;
-    clear: both; }
+    color: #333;
+    clear: both;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300; }
   #indexContents h4 {
+    color: #333;
     font-size: 24px;
-    color: #000;
-    clear: both; }
+    clear: both;
+    font-weight: 300; }
 
 table.products-guide {
   width: 900px;
@@ -1983,13 +1991,14 @@ table.products-guide {
 
 div.api-box {
   width: 155px;
-  border: 1px solid #1e629e;
+  border: 2px solid #3d6089;
+  background-color: #dcebf9;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
   font-size: 18px; }
   div.api-box a.title {
-    color: #000;
+    color: #333;
     text-decoration: none; }
 
 div.api-box:hover {
@@ -1999,11 +2008,12 @@ div.api-box:hover {
     color: #fff; }
 
 div.product-box {
+  background-color: #dcebf8;
   width: 200px;
-  border: 1px solid #1e629e;
+  border: 2px solid #3d6089;
   margin: 10px;
-  border-radius: 5px;
-  color: #000;
+  border-radius: 10px;
+  color: #333;
   text-align: left; }
   div.product-box p {
     padding: 10px 10px 10px 70px;
@@ -2030,20 +2040,25 @@ div.product-box {
                 text-decoration: underline;
             }*/ }
   div.product-box a.title {
-    color: #000;
+    color: #337ab7;
+    font-weight: 400;
     text-decoration: none; }
   div.product-box a.title:hover {
-    color: #fff;
+    color: #3d6089;
     cursor: pointer;
-    /*text-decoration: underline;*/ }
+    font-weight: 400;
+    text-decoration: underline; }
 
 div.product-box:hover {
-  background-color: #c3c3c3;
+  /*opacity: 0.5;
+    filter: alpha(opacity=50);*/
   cursor: pointer; }
   div.product-box:hover a.title:hover {
     cursor: pointer; }
 
 img.product-logo {
+  opacity: 1;
+  filter: alpha(opacity=100);
   position: absolute;
   width: 60px;
   margin: 13px 10px;
@@ -2081,6 +2096,24 @@ img.product-logo-v2 {
 
 p.updates-loading {
   text-align: center; }
+
+div.container-updates {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f8f6f2;
+  position: absolute;
+  left: 0;
+  right: 0; }
+  div.container-updates h4 {
+    color: #333;
+    font-size: 24px;
+    clear: both;
+    font-weight: 300; }
+  div.container-updates table.box-updates {
+    max-width: 1020px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center; }
 
 /*============END OF INDEX=============*/
 article.main .comments {

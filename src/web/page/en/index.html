@@ -3,7 +3,7 @@
         <h3 style="padding-top: 0">Products Guide</h3>
 
         <div class="overview-btn" id="monaca_overview">
-            <p><a class="title" href="/en/products_guide/monaca_intro/">Monaca Development Overview</a></p>
+            <a class="title" href="/en/products_guide/monaca_intro/">MONACA DEVELOPMENT OVERVIEW</a>
         </div>
 
         <table class="products-guide">
@@ -92,10 +92,10 @@
                 <td>
                     <div class="product-box" id="power_plugins">
                         <img class="product-logo-v2" src="/static/img/index/power_plugin.png" />
-                        <p><a href="/en/power_plugins/" class="title">Monaca <br> Power <br>Plugins</a></p>
+                        <p><a href="/en/power_plugins/" class="title">Monaca <br> Power Plugins</a></p>
                         <hr>
                         <ul>
-                            <!-- <li><a href="/en/power_plugins/tutorial" class="title">Tutorial</a></li> -->
+                            <li><a href="/en/power_plugins/tutorial/" class="title">Tutorial</a></li>
                             <li><a href="/en/power_plugins/manual/" class="title">Manual</a></li>
                             <li><a href="/en/power_plugins/faq/" class="title">FAQ</a></li>
                         </ul>
@@ -117,8 +117,8 @@
         </table>
 
 
-        <hr>
-        <h3 style="padding-top: 20px">API Reference</h3>
+<!--         <hr> -->
+        <h3 style="padding: 50px 0 10px 0">API Reference</h3>
         <table class="products-guide">
             <tr>   
                 <td>
@@ -148,118 +148,121 @@
                 </td>
             </tr>
         </table>
-
-        <hr>
-        <table style="width:100%">
-            <tr>
-                <td style="width:30%">
-                    <h4 style="padding-top: 10px">Supported Environment</h4>
-                    <div class="supported-environment">
-                        <p>Monaca Cloud IDE</p>
-                        <ul>
-                            <li>Browser: Latest Chrome</li>
-                            <li>Stable Internet connection</li>
-                        </ul>
-
-                        <p>Monaca Debugger</p>
-                        <ul>
-                            <li>iOS 8 or higher</li>
-                            <li>Android 4.0 or higher</li>
-                            <li>Wi-Fi connection is preferred</li>
-                        </ul>
-
-                        <p>Built App</p>
-                        <ul>
-                            <li>iOS 8 or higher</li>
-                            <li>Android 4.0 or higher</li>
-                            <li>Windows 8.1</li>
-                        </ul>
-
-                        <p>Cordova 6.2 <a href="/en/share/build/">Build Environment</a></p>
-                        <ul>
-                            <li>Android</li>
-                            <ul class="level-2">
-                                <li>AndroidSDK version : 23</li>
-                                <li>Crosswalk version : It depends on <a href="/en/reference/cordova_6.2/crosswalk/">Crosswalk Plugin</a></li>
-                            </ul>
-                            
-                            <li>iOS</li>
-                            <ul class="level-2">
-                                <li>Xcode version : 7</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </td>
-                <td style="width:70%">
-                    <h4 style="padding-top: 10px">Monaca Updates/News</h4>
-                    <div class="monaca-updates">
-                        <p class="updates-loading">(Loading the updates...)</p>
-                        <table></table>
-                    </div>
-                </td> 
-            </tr>
-        </table>
     </div>
-
-    <script>
-        $(function() {
-            var lang = $("body").data("lang");
-            var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=10&type=allnews";
-            $.get(url, function(data) {
-                $(".updates-loading").hide();
-                var n = 0;
-                for (i in data.result) {
-                    var news = data.result[i];
-                    if (lang == "en") {
-                        myDate = moment(news.date, "YYYY-MM-DD");
-                        news.date = myDate.format("MMM D");
-                    }
-                    var tr = "<tr><th style='white-space:nowrap'>" + news.date + "</th><td>" + news.body + "</td></tr>";
-                    $(".monaca-updates table").append(tr);
-                }
-            });
-        });
-
-        $("#monaca_ide").click(function() {
-            window.location.href = '/en/monaca_ide/';
-        });
-        $("#monaca_localkit").click(function() {
-            window.location.href = '/en/monaca_localkit/';
-        });
-        $("#monaca_cli").click(function() {
-            window.location.href = '/en/monaca_cli/';
-        });
-        $("#monaca_vs").click(function() {
-            window.location.href = '/en/monaca_vs/';
-        });
-        $("#debugger").click(function() {
-            window.location.href = '/en/debugger/';
-        });
-        $("#backend").click(function() {
-            window.location.href = '/en/backend/';
-        });
-        $("#power_plugins").click(function() {
-            window.location.href = '/en/power_plugins/';
-        });
-        $("#onsenui").click(function() {
-            window.location.href = '/en/onsenui/';
-        });
-
-
-        $("#monaca_api").click(function() {
-            window.location.href = '/en/reference/monaca_api/';
-        });
-        $("#core_plugin").click(function() {
-            window.location.href = '/en/reference/cordova_6.2/';
-        });
-        $("#external_plugin").click(function() {
-            window.location.href = '/en/reference/third_party_phonegap/';
-        });
-        $("#service_integration").click(function() {
-            window.location.href = '/en/reference/service_integration/';
-        });
-        $("#config_files").click(function() {
-            window.location.href = '/en/reference/config/';
-        });
-    </script>
 </div>
+
+<div class="container-updates">
+    <div class="center">
+    <table class="box-updates">
+        <tr>
+            <td style="width:30%">
+                <h4 style="padding-top: 10px">Supported Environment</h4>
+                <div class="supported-environment">
+                    <p>Monaca Cloud IDE</p>
+                    <ul>
+                        <li>Browser: Latest Chrome</li>
+                        <li>Stable Internet connection</li>
+                    </ul>
+
+                    <p>Monaca Debugger</p>
+                    <ul>
+                        <li>iOS 8 or higher</li>
+                        <li>Android 4.0 or higher</li>
+                        <li>Wi-Fi connection is preferred</li>
+                    </ul>
+
+                    <p>Built App</p>
+                    <ul>
+                        <li>iOS 8 or higher</li>
+                        <li>Android 4.0 or higher</li>
+                        <li>Windows 8.1</li>
+                    </ul>
+
+                    <p>Cordova 6.2 <a href="/en/share/build/">Build Environment</a></p>
+                    <ul>
+                        <li>Android</li>
+                        <ul class="level-2">
+                            <li>AndroidSDK version : 23</li>
+                            <li>Crosswalk version : It depends on <a href="/en/reference/cordova_6.2/crosswalk/">Crosswalk Plugin</a></li>
+                        </ul>
+                        
+                        <li>iOS</li>
+                        <ul class="level-2">
+                            <li>Xcode version : 7</li>
+                        </ul>
+                    </ul>
+                </div>
+            </td>
+            <td style="width:70%">
+                <h4 style="padding-top: 10px">Monaca Updates/News</h4>
+                <div class="monaca-updates">
+                    <p class="updates-loading">(Loading the updates...)</p>
+                    <table></table>
+                </div>
+            </td> 
+        </tr>
+    </table>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        var lang = $("body").data("lang");
+        var url = "https://monaca.mobi/" + lang + "/api/news/list?limit=10&type=allnews";
+        $.get(url, function(data) {
+            $(".updates-loading").hide();
+            var n = 0;
+            for (i in data.result) {
+                var news = data.result[i];
+                if (lang == "en") {
+                    myDate = moment(news.date, "YYYY-MM-DD");
+                    news.date = myDate.format("MMM D");
+                }
+                var tr = "<tr><th style='white-space:nowrap'>" + news.date + "</th><td>" + news.body + "</td></tr>";
+                $(".monaca-updates table").append(tr);
+            }
+        });
+    });
+
+    $("#monaca_ide").click(function() {
+        window.location.href = '/en/monaca_ide/';
+    });
+    $("#monaca_localkit").click(function() {
+        window.location.href = '/en/monaca_localkit/';
+    });
+    $("#monaca_cli").click(function() {
+        window.location.href = '/en/monaca_cli/';
+    });
+    $("#monaca_vs").click(function() {
+        window.location.href = '/en/monaca_vs/';
+    });
+    $("#debugger").click(function() {
+        window.location.href = '/en/debugger/';
+    });
+    $("#backend").click(function() {
+        window.location.href = '/en/backend/';
+    });
+    $("#power_plugins").click(function() {
+        window.location.href = '/en/power_plugins/';
+    });
+    $("#onsenui").click(function() {
+        window.location.href = '/en/onsenui/';
+    });
+
+
+    $("#monaca_api").click(function() {
+        window.location.href = '/en/reference/monaca_api/';
+    });
+    $("#core_plugin").click(function() {
+        window.location.href = '/en/reference/cordova_6.2/';
+    });
+    $("#external_plugin").click(function() {
+        window.location.href = '/en/reference/third_party_phonegap/';
+    });
+    $("#service_integration").click(function() {
+        window.location.href = '/en/reference/service_integration/';
+    });
+    $("#config_files").click(function() {
+        window.location.href = '/en/reference/config/';
+    });
+</script>

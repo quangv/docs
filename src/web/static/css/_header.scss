@@ -13,8 +13,8 @@ header.navbar{
     a:visited {text-decoration: none;}
 
     .container {
-        padding: 0px 15px;
-        
+        padding: 0px 80px;
+        background-color: #2687ea;
         .header-accordion {
           background-color: #222;
           max-height: 0;
@@ -112,6 +112,7 @@ header.navbar{
         }
     }
     .navbar-collapse {
+        background-color: #2687ea;
         .navbar-right {
             margin-right: 0;
         }
@@ -150,6 +151,8 @@ header.navbar{
         }
         > li > a {
             color: #ffffff;
+            font-weight: 300;
+            font-size: 16px;
             padding: 16px 10px 14px;
             -webkit-font-smoothing: antialiased;
             &.login {
@@ -390,6 +393,7 @@ html[lang=ja] {
 }
 
 header.global {
+    padding: 0px 80px;
   background-color: #ffffff;
   border-bottom: 1px solid #c2c0c1;
   color: #333;
@@ -418,14 +422,14 @@ header.global {
     box-sizing: border-box;
     /*height: 70px;*/
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     /*left: 200px;*/
     position: relative;
   }
   .site-logo {
     position: absolute;
     top: 10px;
-    left: 20px;
+    /*left: 20px;*/
     color: white;
     font-size: 16px;
     font-weight: 400;
