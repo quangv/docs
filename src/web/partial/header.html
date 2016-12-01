@@ -41,13 +41,13 @@
                 </div>
 
                 <div class="navbar-collapse collapse" id="toctree-menu">
-                    <ul style="padding-left: 200px" class="nav navbar-nav navbar-left">
+                    <!-- <ul style="padding-left: 200px" class="nav navbar-nav navbar-left"> -->
                         {{#is lang "ja"}}
-                            {{> navigation.ja }}
+                            {{> globaltoc.ja }}
                         {{else}}
                             {{> globaltoc.en }}
                         {{/is}}
-                    </ul>
+                    <!-- </ul> -->
                 </div>
 
             {{/if}}
@@ -68,7 +68,7 @@
 
         {{#if toctree}}
         {{else}}
-            <aside class="top-page">
+            <!-- <aside class="top-page">
                 <div class="aside-search-left">
                     <script>
                         (function() {
@@ -83,7 +83,7 @@
                     </script>
                     <gcse:search style="padding: 0"></gcse:search>
                 </div>
-            </aside>
+            </aside> -->
         {{/if}}
     
   </div>

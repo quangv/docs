@@ -137,13 +137,17 @@ $(function(){
     url = parser.pathname;
 
     // Global menu
-    var $items = $("nav.global > div > ul > li");
-    $items.removeClass("current");
+    var $items = $(".sub-menu-parent");
+    $(this).removeClass("current");
     $items.each(function() {
-      var itemUrl = $("a", this).attr("href");
-      if (url.indexOf(itemUrl) != -1) {
-        $(this).addClass("current");
-      }
+      var id = $(this).attr("id");
+      var $subItems = $("ul > li", this);
+        $subItems.each(function() {
+          var itemUrl = $("a", this).attr("href");
+          if (url.endsWith(itemUrl)){
+            document.getElementById(id).className += " current";
+          }
+        })
     })
 
     // Side menu
@@ -153,8 +157,6 @@ $(function(){
       var itemUrl = $("a", this).attr("href");
       if (url == itemUrl) {
         $(this).addClass("current");
-        //$(this).parent().show();
-        //console.log(this)
       }
     })
   }
