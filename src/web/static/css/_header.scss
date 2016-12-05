@@ -15,7 +15,7 @@ header.navbar{
     
 
     .container {
-        padding: 0px 80px;
+        /*padding: 0px 80px;*/
         background-color: #2687ea;
         .header-accordion {
           background-color: #222;
@@ -44,18 +44,121 @@ header.navbar{
           max-height: 1420px;
         }
 
+
+        /*new menu bar*/
+        .nav-sub-menu-parent { 
+            @media screen and (min-width: $break) {
+                position: relative;
+            }
+
+            @media screen and (max-width: $break) {
+                color: #fff;
+            }
+
+        }
+
+        .sub-menu { 
+            text-align: left;
+            @media screen and (min-width: $break) {
+                position: absolute;
+                visibility: hidden; /* hides sub-menu */
+                opacity: 0;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                transform: translateY(-2em);
+                z-index: -1;
+                transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+                border: 1px solid #ebebeb;
+                background: #FFF;
+                border-radius: 3px;
+                width: 167px;
+                padding: 10px 0;
+                margin-left: 0px;
+                margin-top: 5px ;
+    
+                li > a {
+                    color: #333; 
+                    font-size: 13px; 
+                    font-weight: normal;
+                }
+                li > a:hover {
+                    color: #333; 
+                    background-color: #ebebeb;
+                }
+            }
+            @media screen and (max-width: $break) {
+                background: none;
+                margin-left: 25px;
+                a {
+                    color: #c0c0c0; 
+                    font-weight: normal;
+                }
+            }
+          
+        }
+
+        .nav-sub-menu-parent:hover .sub-menu {
+          visibility: visible; /* shows sub-menu */
+          opacity: 1;
+          z-index: 1;
+          transform: translateY(0%);
+          transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+        }
+
+        nav a { 
+            @media screen and (max-width: $break) {
+                color: #fff;
+                text-align: left;
+            }
+            color: #c0c0c0; 
+            /*color: #fff;*/
+            font-size: 15px;
+            font-weight: bold;
+            display: block; 
+            padding: 0.5em 1em; 
+            text-decoration: none; 
+        }
+        nav a:hover { color: #FFF;}
+
+        nav ul,
+        nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+        nav > ul { text-align: center; margin: 5px 0;}
+        nav > ul > li { 
+            @media screen and (min-width: $break) {
+                display: inline-block;     
+            }
+        }
+        nav > ul > li:first-child { border-left: none; }
+
+        /*.sub-menu {
+            border: 1px solid #ebebeb;
+            background: #FFF;
+            border-radius: 3px;
+            width: 167px;
+            padding: 10px 0;
+            margin-left: 0px;
+            margin-top: 5px ;
+            text-align: left;
+            li > a {color: #333; font-size: 13px; font-weight: normal;}
+            li > a:hover {background-color: #ebebeb}
+        }*/
+
+
+
+        /*new menu bar*/
+
         .navbar-header {
         margin: 0;
         .navbar-brand {
             margin: 0;
             padding: 13px 0;
             @media screen and (max-width: $break) {
-                padding-left: 16px;
             }
             img {
                 width: 110px;
                 left: 20px;
-                /*position: absolute;*/
             }
         }
         .navbar-toggle {
@@ -115,25 +218,16 @@ header.navbar{
     }
     .navbar-collapse {
         background-color: #2687ea;
+        margin-bottom: 10px;
+        @media screen and (max-width: $break) {
+            background-color: #2c2c2c;
+            border-top: none;
+            box-shadow: none;
+            float: none;
+            margin: 0;
+        }
         .navbar-right {
             margin-right: 0;
-        }
-        .navbar-left {
-            margin-left: 0;
-        }
-        border-top: none;
-        box-shadow: none;
-        float: none;
-        @media screen and (max-width: $break - 1px) {
-            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.16), #2c2c2c);
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.16), #2c2c2c 60%);
-            float: none;
-            margin-left: 0;
-            margin-right: 0;
-        }
-        @media screen and (min-width: 641px) {
-            padding-left: 15px;
-            padding-right: 0;
         }
     }
     .navbar-nav {
@@ -252,7 +346,7 @@ header.navbar{
             left: -110px;
         }
     }
-    //bootstrap init
+    /*//bootstrap init*/
     ul.nav li.dropdown:hover > ul.dropdown-menu {
         display: block;
     }
@@ -274,11 +368,30 @@ header.navbar{
     
 }
 
-    
+/*SCREEN SETTING*/    
+/*html[lang=en] {*/
+    /*PC version*/
+    @media screen and (min-width: $break) {
+        div.container, header.global {
+            padding: 0 80px;
+        }
 
-// Desktop header toolbar: margin fix
+    }
 
-@media screen and (min-width: $break) {
+    @media screen and (max-width: $break) {
+        header.global {
+            padding: 30px 25px 15px 25px
+        }
+
+        div.container {
+            padding: 10px 25px 25px 25px
+        }
+    }
+/*}
+
+// Desktop header toolbar: margin fix*/
+
+/*@media screen and (min-width: $break) {
     html[lang=en] {
 
         .navbar-nav > li > a {
@@ -301,9 +414,9 @@ header.navbar{
             }
         }
     }
-}
+}*/
 
-html[lang=ja] {
+/*html[lang=ja] {
     .navbar-nav > li > a {
         @media screen and (max-width: $width) {
             font-size: 14px;
@@ -339,7 +452,7 @@ html[lang=ja] {
             //padding-right: 2px;
         }
     }
-}
+}*/
 
 #language-switch-container {
     z-index: 9;
@@ -396,7 +509,7 @@ html[lang=ja] {
 
 header.global {
     font-family: 'Open Sans';
-    padding: 0px 80px;
+    /*padding: 0px 80px;*/
     background-color: #2687ea;
   border-bottom: 1px solid #c2c0c1;
   color: #333;
@@ -412,7 +525,6 @@ header.global {
   /*a:hover {color: $monaca-blue; text-decoration: underline; width: auto;}*/
   /*a:active {color: $monaca-blue; text-decoration: none;}*/
 
-  /*new menu bar*/
     .sub-menu-parent { 
         position: relative; 
     }
@@ -426,15 +538,44 @@ header.global {
 
 
     .sub-menu { 
-      visibility: hidden; /* hides sub-menu */
-      opacity: 0;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      transform: translateY(-2em);
-      z-index: -1;
-      transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+        text-align: left;
+        @media screen and (min-width: $break) {
+            position: absolute;
+            visibility: hidden; /* hides sub-menu */
+            opacity: 0;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-2em);
+            z-index: -1;
+            transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+            border: 1px solid #ebebeb;
+            background: #FFF;
+            border-radius: 3px;
+            width: 167px;
+            padding: 10px 0;
+            margin-left: 0px;
+            margin-top: 5px ;
+
+            li > a {
+                color: #333; 
+                font-size: 13px; 
+                font-weight: normal;
+            }
+            li > a:hover {
+                color: #333; 
+                background-color: #ebebeb;
+            }
+        }
+        @media screen and (max-width: $break) {
+            background: none;
+            margin-left: 25px;
+            a {
+                color: #c0c0c0; 
+                font-weight: normal;
+            }
+        }
+      
     }
 
     .sub-menu-parent:hover .sub-menu {
@@ -446,6 +587,10 @@ header.global {
     }
 
     nav a { 
+        @media screen and (max-width: $break) {
+            color: #fff;
+            text-align: left;
+        }
         color: #c0c0c0; 
         /*color: #fff;*/
         font-size: 15px;
@@ -459,24 +604,85 @@ header.global {
     nav ul,
     nav ul li { list-style-type: none; padding: 0; margin: 0; }
 
-    nav > ul { text-align: center; margin: 20px 0;}
-    nav > ul > li { display: inline-block; }
+    nav > ul { text-align: center; margin: 5px 0;}
+    nav > ul > li { 
+        @media screen and (min-width: $break) {
+            display: inline-block;     
+        }
+    }
     nav > ul > li:first-child { border-left: none; }
 
-    .sub-menu {
-        border: 1px solid #ebebeb;
-        background: #FFF;
-        border-radius: 3px;
-        width: 167px;
-        padding: 10px 0;
-        margin-left: 0px;
-        margin-top: 5px ;
+    
+
+    .navbar-toggle {
+        background-color: rgba(0, 0, 0, 0.16);
+        border-radius: 0;
+        border: none;
+        height: 50px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        position: relative;
         text-align: left;
-        li > a {color: #333; font-size: 13px; font-weight: normal;}
-        li > a:hover {background-color: #ebebeb}
+        width: 52px;
+        .icon-bar {
+            opacity: 0;
+            transition: opacity 140ms;
+        }
+        .icon-bar-left, .icon-bar-right {
+            position: absolute;
+            background-color: #ffffff;
+            transition: transform 140ms cubic-bezier(.34, .94, .69, 1);
+            transform-origin: bottom center;
+            float: left;
+            width: 14px;
+            height: 2px;
+        }
+        .icon-bar-left {
+            top: 24px;
+            left: 15px;
+            border-radius: 1px 0 0 1px;
+            transform: rotate(-45deg);
+        }
+        .icon-bar-right {
+            top: 24px;
+            right: 15px;
+            border-radius: 0 1px 1px 0;
+            transform: rotate(45deg);
+        }
+        .icon-bar + .icon-bar {
+            clear: both;
+            margin-top: 10px;
+        }
+        &.collapsed {
+            background-color: transparent;
+            .icon-bar {
+                opacity: 1;
+            }
+            .icon-bar-left {
+                transform: rotate(0);
+                width: 12px;
+            }
+            .icon-bar-right {
+                transform: rotate(0);
+                width: 12px;
+            }
+        }
     }
 
-
+    .navbar-collapse {
+        background-color: #2687ea;
+        @media screen and (max-width: $break) {
+            background-color: #2c2c2c;
+            border-top: none;
+            box-shadow: none;
+            float: none;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .navbar-right {
+            margin-right: 0;
+        }
+    }
 
     /*new menu bar*/
 
@@ -492,7 +698,7 @@ header.global {
   .headcont {
     box-sizing: border-box;
     /*height: 70px;*/
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     /*left: 200px;*/
     position: relative;
@@ -507,7 +713,7 @@ header.global {
     height: 32px;
     line-height: 32px;
     margin: 0;
-    padding: 5px;
+    padding: 5px 0;
   }
   .version_selector {
     position: absolute;

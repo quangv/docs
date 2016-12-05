@@ -95,13 +95,22 @@ div.overview-btn:hover {
 }
 
 table.products-guide {
-    width: 900px;
+    @media screen and (max-width: $break) {
+        display: block;
+        width: 100%;
+    }
+    
+    width: auto;
     text-align: center;
     margin: 0px auto;
     padding: 0;
 }
 
 div.api-box {
+    @media screen and (max-width: $break) {
+        display: block;
+        width: 40%;
+    }
     width: 155px;
     border: 2px solid #3d6089;
     background-color: #dcebf9;
@@ -125,6 +134,13 @@ div.api-box:hover {
 }
 
 div.product-box {
+    @media screen and (max-width: $break) {
+        width: 40%;
+        p {
+            font-size: 14px;
+        }
+    }
+
     background-color: #dcebf8;
     width: 200px;
     border: 2px solid #3d6089;
@@ -253,6 +269,10 @@ div.container-updates{
     position: absolute;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 
     h4 {
         color: #333;
@@ -262,8 +282,11 @@ div.container-updates{
     }
 
     table.box-updates{
-        max-width: 1020px;
+        @media screen and (max-width: $break) {
+            width: auto;
+        }
         width: 900px;
+        max-width: 1020px;
         margin: 0 auto;
         text-align: center;
     }
