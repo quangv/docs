@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Monaca 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>, 2016\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>, 2016\n"
 "Language-Team: Japanese (https://www.transifex.com/monaca/teams/61343/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr "他のプラグイン ( Monaca 提供のプラグイン )"
 
 #: ../doc/power_plugins/manual/encryption_6.2.rst:5
 msgid "New Encryption Plugin"
-msgstr ""
+msgstr "新たな暗号化プラグイン"
 
 #: ../doc/power_plugins/manual/encryption_6.2.rst:8
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:8
@@ -43,7 +43,7 @@ msgid ""
 "execution time."
 msgstr ""
 "このプラグイン ( Monaca HTML5 Resource Encryption ) を使用して、アプリに組み込まれている HTML5 "
-"アセットを、暗号化 ( アプリのビルド時 )・複合化 ( アプリの実行時 ) します。"
+"アセットを、暗号化 ( アプリのビルド時 )・復号化 ( アプリの実行時 ) します。"
 
 #: ../doc/power_plugins/manual/encryption_6.2.rst:10
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:10
@@ -134,9 +134,7 @@ msgstr ""
 #: ../doc/power_plugins/manual/encryption_6.2.rst:34
 msgid ""
 "Click :guilabel:`Enable` button of ``Encrypt`` to add it into your project."
-msgstr ""
-"``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。\n"
-"Click Enable button of Encrypt to add it into your project."
+msgstr "``Encrypt`` の :guilabel:`有効` ボタンをクリックして、プラグインへ追加します。"
 
 #: ../doc/power_plugins/manual/encryption_6.2.rst:39
 msgid ""
@@ -145,7 +143,7 @@ msgid ""
 ":guilabel:`Config` button."
 msgstr ""
 "次に、 暗号用パスワードを設定します。*組み込まれたプラグイン* "
-"欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
+"欄へ行き、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/encryption_6.2.rst:44
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:206
@@ -207,70 +205,75 @@ msgstr "アプリロジック暗号化 プラグイン"
 msgid ""
 "The plugin has different features depending on the Cordova version of your "
 "project:"
-msgstr ""
+msgstr "このプラグインは、プロジェクトで使用する Cordova のバージョンによって、使用できる機能が異なります。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:14
 msgid ":ref:`cordova_6_2_projects`"
-msgstr ""
+msgstr ":ref:`cordova_6_2_projects`"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:15
 msgid ":ref:`cordova_5_2_and_lower_projects`"
-msgstr ""
+msgstr ":ref:`cordova_5_2_and_lower_projects`"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:21
 msgid "For Cordova 6.2 Projects"
-msgstr ""
+msgstr "Cordova 6.2 向けのプロジェクトで使用する場合"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:23
 msgid "The plugin for Cordova 6.2 projects has two additional features:"
-msgstr ""
+msgstr "Cordova 6.2 向けのプロジェクトで、このプラグインを使用する場合、次の機能が追加されます。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:25
 msgid ""
 "Developers can choose the encrypted directories other than www. For example,"
 " “www/data, www/js” etc."
 msgstr ""
+"暗号化の対象として、www 配下のディレクトリーを、細かく指定することができます。たとえば、 “www/data、www/js” を指定できます。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:26
 msgid ""
 "The decryption can now be done manually. In other words, the encrypted "
 "folder can't be read unless the decrypt function is called."
-msgstr ""
+msgstr "復号化を 「 手動 」 で行うことができます。復号化用の関数を実行するまで、暗号化されたフォルダーを読み込むことができません。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:31
 msgid "Cordova 6.2"
-msgstr ""
+msgstr "Cordova 6.2"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:32
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:173
 msgid "iOS 7 or higher"
-msgstr ""
+msgstr "iOS 7 以降"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:33
 msgid "Android 6.0 or higher"
-msgstr ""
+msgstr "Android 6.0 以降"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:45
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:186
 msgid "Enabling the Plugin in Monaca Cloud IDE"
-msgstr ""
+msgstr "プラグインの追加方法 ( Monaca クラウド IDE 上での処理 )"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:49
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:190
 msgid "Click :guilabel:`Enable` button of the ``Encrypt`` plugin."
-msgstr ""
+msgstr "``Encrypt`` プラグインの :guilabel:`有効` ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:57
 msgid ""
 "Find the newly added plugin under the *Enabled Plugins* section. Then, hover"
 " the plugin and click :guilabel:`Configure` button."
 msgstr ""
+"次に、*有効なプラグイン* 欄へ行き、先ほど追加したプラグイン上に、マウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` "
+"ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:65
 msgid ""
 "Enter parameter(s) for this plugin. Then, click :guilabel:`OK` button. "
 "Available parameters are as follows:"
 msgstr ""
+"プラグインの設定に必要なパラメーターを入力します。入力後、:guilabel:`OK` "
+"ボタンをクリックします。入力できるパラメーターは、次のとおりです。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:68
 #: ../doc/power_plugins/manual/sqlcipher.rst:54
@@ -286,41 +289,41 @@ msgstr "説明"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:70
 msgid "SECRET"
-msgstr ""
+msgstr "SECRET"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:70
 msgid "[Required] (String) Password/secret for the encryption."
-msgstr ""
+msgstr "[ 必須 ] ( 文字列 ) 暗号化に必要なパスワード ( SECRET ) を入力します。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:72
 msgid "TARGETS"
-msgstr ""
+msgstr "TARGETS"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:72
 msgid ""
 "[Optional] (String) Target folder of the project files to be encrypted. "
 "Default folder is ``www``."
-msgstr ""
+msgstr "[ 任意 ] ( 文字列 ) 暗号化対象のファイルが格納されているフォルダーを指定します。デフォルトは、``www`` です。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:74
 msgid "AUTO_DECRYPT"
-msgstr ""
+msgstr "AUTO_DECRYPT"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:74
 msgid "[Optional] (Boolean) Auto decryption options:"
-msgstr ""
+msgstr "[ 任意 ] ( 真偽値 ) 「 自動復号化 」 機能を有効・無効にします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:76
 msgid "``1``: (default) for enabling auto decryption"
-msgstr ""
+msgstr "``1``: ( デフォルト ) 自動復号化機能を有効にします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:77
 msgid "``0``: for disabling auto decryption"
-msgstr ""
+msgstr "``0``: 自動復号化機能を無効にします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:88
 msgid "Manual Decryption"
-msgstr ""
+msgstr "手動での復号化"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:90
 msgid ""
@@ -329,24 +332,30 @@ msgid ""
 "``monaca.Encrypt.setDecryptHash()`` function is executed. In other words, it"
 " can not be read with the script tag in :file:`index.html` file."
 msgstr ""
+"上記の 「 自動復号化 」 "
+"機能を使用する以外にも、手動でも、フォルダーの復号化を行えます。この場合、``monaca.Encrypt.setDecryptHash()`` "
+"を実行するまで、対象のフォルダー ( 暗号化されているフォルダー ) は、読み込むことができません。つまり、:file:`index.html` "
+"ファイル上で、script タグを使用しても、対象のファイルを読み込むことができません。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:92
 msgid "Please follow the steps below on how to use manual decryption:"
-msgstr ""
+msgstr "手動で復号化を行う場合には、次の手順に従います。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:95
 msgid "Step 1: Enabling the Manual Decryption Option"
-msgstr ""
+msgstr "ステップ 1 : 手動での復号化を有効にする"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:97
 msgid ""
 "In order to enable manual decryption, please set ``AUTO_DECRYPT`` to ``0`` "
 "in the plugin configuration (Step 4 in the previous section)."
 msgstr ""
+"手動での復号化を有効にする場合、上記の手順 ( 「 プラグインの追加方法 」 の 4 番目の手順 ) で解説した ``AUTO_DECRYPT`` を "
+"``0`` に設定します。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:107
 msgid "Step 2: Getting the Hash Code for Decryption"
-msgstr ""
+msgstr "ステップ 2 : ハッシュ値を取得する"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:109
 msgid ""
@@ -354,30 +363,32 @@ msgid ""
 "function to decrypt the target folder(s). In order to find the hash code, "
 "please do as follows:"
 msgstr ""
+"``monaca.Encrypt.setDecryptHash()`` 関数 ( フォルダーの復号化 用 ) "
+"を呼ぶときには、次のハッシュ値が必要となります。ハッシュ値の取得方法を、次に記します。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:111
 msgid "Build your project."
-msgstr ""
+msgstr "プロジェクトをビルドします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:112
 msgid "Once your build is completed, click on :guilabel:`Download` button."
-msgstr ""
+msgstr "ビルド完了後、:guilabel:`ダウンロード` ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:120
 msgid ""
 "Click on :guilabel:`here` (as shown in the screenshot below). Then, the "
 "build log will be shown."
-msgstr ""
+msgstr "次のダイアログが表示されるので、:guilabel:`こちらをクリック` をクリックして、ビルドログを表示させます。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:128
 msgid ""
 "Copy the build log and paste it in any text editor and find the hash code "
 "which looks like this:"
-msgstr ""
+msgstr "お好きなテキストエディターを開き、ビルドログの内容をコピー&ペーストして、ハッシュ値を検索します。次の箇所が、ハッシュ値となります。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:137
 msgid "Step 3: Calling the Decryption Function"
-msgstr ""
+msgstr "ステップ 3 : 復号化 用の関数を実行する"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:139
 msgid ""
@@ -385,6 +396,8 @@ msgid ""
 "The function needs to be called inside the ``deviceready`` event. For "
 "example:"
 msgstr ""
+"上記の手順までで、復号化 用の関数を使用する準備ができました。なお、この関数は、次のように、``deviceready`` "
+"イベント内で、実行する必要があります。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:151
 msgid ""
@@ -392,18 +405,20 @@ msgid ""
 "For security concern, you can also hide it by loading the value from the "
 "server and use it under a parameter."
 msgstr ""
+"上記の例では、ハッシュ値を、直接、関数内に記述しています。セキュリティーを強化する場合には、適宜、処理 ( "
+"サーバー側からこの値を取得し、なんらかのパラメーターに代入し、隠してから使用するなど ) を工夫する必要があります。"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:167
 msgid "For Cordova 5.2 or Lower Projects"
-msgstr ""
+msgstr "Cordova 5.2、または、それ以前のバージョン向けのプロジェクトで使用する場合"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:172
 msgid "Cordova 5.2 or lower"
-msgstr ""
+msgstr "Cordova 5.2 以前"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:174
 msgid "Android 4.0 or higher"
-msgstr ""
+msgstr "Android 4.0 以降"
 
 #: ../doc/power_plugins/manual/html5_resource_encryption.rst:198
 msgid ""
@@ -411,6 +426,8 @@ msgid ""
 " under the *Enabled Plugins* section. Then, hover the plugin and click "
 ":guilabel:`Config` button."
 msgstr ""
+"次に、暗号化用のパスワードを設定します。*有効なプラグイン* "
+"欄へ行き、先ほど追加したプラグイン上に、マウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:5
 msgid "Monaca In-App Updater"
@@ -469,7 +486,7 @@ msgstr ""
 #: ../doc/power_plugins/manual/in-app_updater.rst:40
 #: ../doc/power_plugins/manual/secure_storage.rst:29
 msgid "Enable Plugin in Monaca"
-msgstr "プラグインの追加方法 ( Monaca 上での処理 )"
+msgstr "プラグインの追加方法 ( Monaca クラウド IDE 上での処理 )"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:44
 msgid ""
@@ -483,7 +500,7 @@ msgid ""
 " newly added plugin under the *Enable Plugins* section. Then, hover the "
 "plugin and click :guilabel:`Config` button."
 msgstr ""
-"次に、プラグインの使用時に必要となる情報を設定します。*組み込まれたプラグイン* "
+"次に、プラグインの使用時に必要となる情報を設定します。*有効なプラグイン* "
 "欄へ移動して、先ほど追加したプラグイン上にマウスポインターを持っていきます。表示された画面上で、:guilabel:`設定` ボタンをクリックします。"
 
 #: ../doc/power_plugins/manual/in-app_updater.rst:54
