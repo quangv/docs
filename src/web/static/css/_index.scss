@@ -1,5 +1,8 @@
 /*NEW UI CSS*/
 
+$monaca_dark: #3d6089;
+$monaca_light: #2687ea;
+
 @import url(https://fonts.googleapis.com/css?family=Product+Sans);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
@@ -17,7 +20,7 @@ hr {
 }
 
 div.overview-btn{
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #47b98f;
     width: 350px;
     height: 60px;
@@ -94,9 +97,14 @@ div.overview-btn:hover {
     }
 }
 
+div.pc_style {
+    @media screen and (max-width: $break) {
+        display: none;
+    }
+}
+
 table.products-guide {
     @media screen and (max-width: $break) {
-        display: block;
         width: 100%;
     }
     
@@ -263,6 +271,9 @@ p.updates-loading {
 }
 
 div.container-updates{
+    @media screen and (max-width: $break) {
+        display: none;
+    }
     margin-top: 20px;
     width:100%; 
     background-color: #f8f6f2;
@@ -296,4 +307,67 @@ div.container-updates{
 /*============END OF INDEX=============*/
 
 
+.mobile_style {
+    @media screen and (min-width: $break) {
+        display: none;
+    }
+    width: 100%;
+    /*left: 0; right: 0;*/
+    text-align: center;
+    margin: 0px 10%;
+    padding: 0;
+}
 
+.Tablist {
+    /*@media screen and (min-width: $break) {
+        display: none;
+    }*/
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    /*width: 100%;
+    left: 0; right: 0;
+    text-align: center;
+    margin: 0px 10%;
+    padding: 0;*/
+}
+
+.Tab {
+    flex-wrap: wrap;
+    font-size: 80%;
+    width: auto;
+    padding: 0.6em 1em;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    background-color: #FFF;
+    border: solid 3px $monaca_dark;
+    border-bottom-width: 0;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    color: darken($monaca_dark,20%);
+    text-decoration: none;
+    transition: background-color 0.1s;
+    cursor: pointer;
+    &:hover, &:focus {
+    background-color: mix(white,$monaca_dark,10%);
+    border-color: mix(white,$monaca_dark,10%);
+    outline: none;
+    }
+
+    &[aria-selected="false"]:active {
+        margin-top: 0.2em;
+        padding-bottom: 0.4em;
+    }
+
+    &[aria-selected="true"] {
+        background: $monaca_dark;
+        cursor: default;
+        color: #FFF;
+    }
+}
+
+.products-tab {
+    width: 100%;
+    margin: -10px auto;
+    border: solid 2px $monaca_dark;
+}

@@ -2168,7 +2168,7 @@ hr {
   display: block; }
 
 div.overview-btn {
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #47b98f;
   width: 350px;
   height: 60px;
@@ -2228,6 +2228,10 @@ div.overview-btn:hover {
     clear: both;
     font-weight: 300; }
 
+@media screen and (max-width: 767px) {
+  div.pc_style {
+    display: none; } }
+
 table.products-guide {
   width: auto;
   text-align: center;
@@ -2235,7 +2239,6 @@ table.products-guide {
   padding: 0; }
   @media screen and (max-width: 767px) {
     table.products-guide {
-      display: block;
       width: 100%; } }
 
 div.api-box {
@@ -2366,6 +2369,9 @@ div.container-updates {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap; }
+  @media screen and (max-width: 767px) {
+    div.container-updates {
+      display: none; } }
   div.container-updates h4 {
     color: #333;
     font-size: 24px;
@@ -2381,6 +2387,57 @@ div.container-updates {
         width: auto; } }
 
 /*============END OF INDEX=============*/
+.mobile_style {
+  width: 100%;
+  /*left: 0; right: 0;*/
+  text-align: center;
+  margin: 0px 10%;
+  padding: 0; }
+  @media screen and (min-width: 767px) {
+    .mobile_style {
+      display: none; } }
+
+.Tablist {
+  /*@media screen and (min-width: $break) {
+        display: none;
+    }*/
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+
+.Tab {
+  flex-wrap: wrap;
+  font-size: 80%;
+  width: auto;
+  padding: 0.6em 1em;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  background-color: #FFF;
+  border: solid 3px #3d6089;
+  border-bottom-width: 0;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+  color: #1e2f42;
+  text-decoration: none;
+  transition: background-color 0.1s;
+  cursor: pointer; }
+  .Tab:hover, .Tab:focus {
+    background-color: #507095;
+    border-color: #507095;
+    outline: none; }
+  .Tab[aria-selected="false"]:active {
+    margin-top: 0.2em;
+    padding-bottom: 0.4em; }
+  .Tab[aria-selected="true"] {
+    background: #3d6089;
+    cursor: default;
+    color: #FFF; }
+
+.products-tab {
+  width: 100%;
+  margin: -10px auto;
+  border: solid 2px #3d6089; }
+
 article.main .comments {
   background-color: #F1F2EB;
   color: #777;
