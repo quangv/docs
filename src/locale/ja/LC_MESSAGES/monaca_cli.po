@@ -424,7 +424,7 @@ msgid ""
 "For ReactJS and Angular2 projects, ``monaca upload`` command will transpile "
 "the project before uploading them."
 msgstr ""
-"ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca upload`` "
+"React.js プロジェクトと Angular2 プロジェクトに関しては、``monaca upload`` "
 "コマンドの実行時、アップロード処理が始まる前に、プロジェクトがコード変換 ( トランスパイル/Transpile ) されます。"
 
 #: ../doc/monaca_cli/manual/cli_commands.rst:145
@@ -582,7 +582,7 @@ msgid ""
 "automatically included in some commands such as ``monaca upload``, ``monaca "
 "preview``, ``monaca debug`` and ``monaca remote build``."
 msgstr ""
-"プロジェクトをコード変換 ( トランスパイル/Transpile ) します。コード変換可能なプロジェクトには、たとえば、ReactJS "
+"プロジェクトをコード変換 ( トランスパイル/Transpile ) します。コード変換可能なプロジェクトには、たとえば、React.js "
 "プロジェクト、Angular2 プロジェクトなどがあります。なお、コード変換可能なプロジェクトに関しては、各種コマンド ( ``monaca "
 "upload``、``monaca preview``、``monaca debug``、``monaca remote build`` ) "
 "の実行時に、自動でコード変換が行われます。"
@@ -645,7 +645,7 @@ msgid ""
 "preview is still running and you make a change, the transpile process should"
 " be triggered and the previewer will be served with the new files."
 msgstr ""
-"ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca preview`` "
+"React.js プロジェクトと Angular2 プロジェクトに関しては、``monaca preview`` "
 "コマンドの実行時、プレビュー画面の起動前に、メモリー上でプロジェクトがコード変換されます。また、プレビュー画面を起動させた状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がプレビュー画面上に反映されます。"
 
 #: ../doc/monaca_cli/manual/cli_commands.rst:277
@@ -706,7 +706,7 @@ msgid ""
 "the debug is still running and you make a change, the transpile process "
 "should be triggered and the debugger will be served with the new files."
 msgstr ""
-"ReactJS プロジェクトと Angular2 プロジェクトに関しては、``monaca debug`` コマンドの実行時、Monaca "
+"React.js プロジェクトと Angular2 プロジェクトに関しては、``monaca debug`` コマンドの実行時、Monaca "
 "デバッガーへプロジェクトファイルが送信される前に、プロジェクトがコード変換 ( トランスパイル/Transpile ) "
 "されます。また、デバッガーを実行している状態で、プロジェクトファイルを修正したときにも、コード変換処理が行われ、修正されたファイルの内容がデバッガー上に反映されます。"
 
@@ -1019,7 +1019,7 @@ msgid ""
 "Support transpiler options for transpilable projects such as ReactJS and "
 "Angular2 projects."
 msgstr ""
-"プロジェクトのコード変換 ( トランスパイル/Transpile )。コード変換の対象となるプロジェクトは、ReactJS "
+"プロジェクトのコード変換 ( トランスパイル/Transpile )。コード変換の対象となるプロジェクトは、React.js "
 "プロジェクト、Angular2 プロジェクトなどです。"
 
 #: ../doc/monaca_cli/manual/overview.rst:17
@@ -1167,7 +1167,7 @@ msgstr "ペアリングの解除方法は、2 通りあります。"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:52
 msgid "1. From the PC"
-msgstr "1. PC 上からの解除"
+msgstr "PC 上からの解除"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:54
 msgid ""
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:62
 msgid "2. From Monaca Debugger"
-msgstr "2. Monaca デバッガー上での解除"
+msgstr "Monaca デバッガー上での解除"
 
 #: ../doc/monaca_cli/manual/pairing_debugging.rst:64
 msgid ""
