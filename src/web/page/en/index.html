@@ -2,11 +2,12 @@
     <div class="center">
         
 
+        
+
+        <div class="pc_style">
         <div class="overview-btn" id="monaca_overview">
             <a class="title" href="/en/products_guide/monaca_intro/">MONACA DEVELOPMENT OVERVIEW</a>
         </div>
-
-        <div class="pc_style">
         <h3 style="padding-top: 0">Products Guide</h3><br/>
 
         <table class="products-guide">
@@ -158,41 +159,97 @@
 
         <div class="mobile_style">
 
+        <div class="overview-btn" id="monaca_overview">
+            <a class="title" href="/en/products_guide/monaca_intro/">MONACA DEVELOPMENT OVERVIEW</a>
+        </div>
+
         <div class="Tablist" role="tablist"> 
-		    <button class="Tab" role="tab" aria-selected="true">Products Guide</button>
-		    <button class="Tab" role="tab" aria-selected="false">API Reference</button>
+		    <button id="products-btn" class="Tab" role="tab" aria-selected="true">Products Guide</button>
+		    <button id="api-btn" class="Tab" role="tab" aria-selected="false">API Reference</button>
 		</div>
 
 			<div class="products-tab">
-				<ul>
-			    	<li>Monaca Cloud IDE
-			    		<ul>
-			    			<li>Tutorial</li>
-			    			<li>Manual</li>
-			    			<li>Samples & Tips</li>
-			    			<li>FAQ</li>
-			    		</ul>
+				<ul style="column-width: 35%; column-count: 2">
+                    <li><a href="/en/monaca_ide/" class="title">Monaca Cloud IDE</a>
+                        <ul>
+                            <li><a href="/en/monaca_ide/tutorial/" class="title">Tutorial</a></li>
+                            <li><a href="/en/monaca_ide/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/monaca_ide/samples/" class="title">Samples & Tips</a></li>
+                            <li><a href="/en/monaca_ide/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
+        
+                    <li><a href="/en/monaca_localkit/" class="title">Monaca Localkit</a>
+                        <ul>
+                            <li><a href="/en/monaca_localkit/tutorial/" class="title">Tutorial</a></li>
+                            <li><a href="/en/monaca_localkit/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/monaca_localkit/samples/" class="title">Samples & Tips</a></li>
+                            <li><a href="/en/monaca_localkit/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul style="column-width: 35%; column-count: 2">
+			    	<li><a href="/en/monaca_cli/" class="title">Monaca CLI</a>
+                        <ul>
+                            <li><a href="/en/monaca_cli/tutorial" class="title">Tutorial</a></li>
+                            <li><a href="/en/monaca_cli/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/monaca_cli/samples/" class="title">Samples & Tips</a></li>
+                            <li><a href="/en/monaca_cli/faq/" class="title">FAQ</a></li>
+                        </ul>
 			    	</li>
-
-			    	<li>Monaca Cloud IDE
-			    		<ul>
-			    			<li>Tutorial</li>
-			    			<li>Manual</li>
-			    			<li>Samples & Tips</li>
-			    			<li>FAQ</li>
-			    		</ul>
-			    	</li>
-
-			    	<li>Monaca Cloud IDE
-			    		<ul>
-			    			<li>Tutorial</li>
-			    			<li>Manual</li>
-			    			<li>Samples & Tips</li>
-			    			<li>FAQ</li>
-			    		</ul>
-			    	</li>
+                    <li><a href="/en/monaca_vs/" class="title">Monaca for Visual Studio</a>
+                        <ul>
+                            <li><a href="/en/monaca_vs/tutorial/" class="title">Tutorial</a></li>
+                            <li><a href="/en/monaca_vs/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/monaca_vs/samples/" class="title">Samples & Tips</a></li>
+                            <li><a href="/en/monaca_vs/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul style="column-width: 35%; column-count: 2">
+                    <li><a href="/en/debugger/" class="title">Monaca Debugger</a>
+                        <ul>
+                            <li><a href="/en/debugger/tutorial/" class="title">Tutorial</a></li>
+                            <li><a href="/en/debugger/manual/" class="title">Manual</a></li>
+                            <!-- <li><a href="/en/debugger/samples/" class="title">Samples</a></li> -->
+                            <li><a href="/en/debugger/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/en/backend/" class="title">Monaca Backend</a>
+                        <ul>
+                            <li><a href="/en/backend/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/backend/samples/" class="title">Samples</a></li>
+                            <li><a href="/en/backend/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul style="column-width: 35%; column-count: 2">
+                    <li><a href="/en/onsenui/" class="title">Onsen UI</a>
+                        <ul>
+                            <li><a href="/en/onsenui/tutorial" class="title">Tutorial</a></li>
+                            <li><a href="/en/onsenui/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/onsenui/samples/" class="title">Samples</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/en/power_plugins/" class="title">Monaca Power Plugins</a>
+                        <ul>
+                            <li><a href="/en/power_plugins/tutorial/" class="title">Tutorial</a></li>
+                            <li><a href="/en/power_plugins/manual/" class="title">Manual</a></li>
+                            <li><a href="/en/power_plugins/faq/" class="title">FAQ</a></li>
+                        </ul>
+                    </li>
 			    </ul>
 			</div>
+
+            <div class="api-tab hide">
+                <ul>
+                    <li><a href="">Monaca Cloud IDE</a></li>
+                    <li><a href="">Core Cordova Plugins</a></li>
+                    <li><a href="">Third-party Cordova Plugins</a></li>
+                    <li><a href="">Service Integration</a></li>
+                    <li><a href="">Configuration Files</a></li>
+                </ul>
+            </div>
 		</div>
 
     </div>
@@ -202,6 +259,58 @@
 
 <div class="container-updates">
     <div class="center">
+    <div class="mobile-box-updates">
+        <div class="Tablist" role="tablist"> 
+            <button id="environment-btn" class="Tab" role="tab" aria-selected="true">Supported Environment</button>
+            <button id="update-btn" class="Tab" role="tab" aria-selected="false">Monaca Updates/News</button>
+        </div>
+
+        <div class="environment-tab">
+            <ul>
+                <li>Monaca Cloud IDE
+                    <ul>
+                        <li>Browser: Latest Chrome</li>
+                        <li>Stable Internet connection</li>
+                    </ul>
+                </li>
+                <li>Monaca Debugger
+                    <ul>
+                        <li>iOS 8 or higher</li>
+                        <li>Android 4.0 or higher</li>
+                        <li>Wi-Fi connection is preferred</li>
+                    </ul>
+                </li>
+                <li>Built App
+                    <ul>
+                        <li>iOS 8 or higher</li>
+                        <li>Android 4.0 or higher</li>
+                        <li>Windows 8.1</li>
+                    </ul>
+                </li>
+                <li>Cordova 6.2 <a href="/en/share/build/">Build Environment</a>
+                    <ul>
+                        <li>Android</li>
+                        <ul class="level-2">
+                            <li>AndroidSDK version : 23</li>
+                            <li>Crosswalk version : It depends on <a href="/en/reference/cordova_6.2/crosswalk/">Crosswalk Plugin</a></li>
+                        </ul>
+                        
+                        <li>iOS</li>
+                        <ul class="level-2">
+                            <li>Xcode version : 7</li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="update-tab hide">
+            <div class="monaca-updates">
+                <p class="updates-loading">(Loading the updates...)</p>
+                <table></table>
+            </div>
+        </div>
+    </div>
         
     <table class="box-updates">
         <tr>
@@ -255,6 +364,8 @@
     </div>
 </div>
 
+
+
 <script>
     $(function() {
         var lang = $("body").data("lang");
@@ -272,6 +383,30 @@
                 $(".monaca-updates table").append(tr);
             }
         });
+    });
+
+    $( "#api-btn").click(function() {
+        $(".api-tab").removeClass("hide");
+        $(".products-tab").addClass("hide");
+        $(this).attr("aria-selected","true").siblings().attr("aria-selected","false");
+    });
+    $( "#products-btn").click(function() {
+        $(".products-tab").removeClass("hide");
+        $(".api-tab").addClass("hide");
+        $(this).attr("aria-selected","true").siblings().attr("aria-selected","false");
+    });
+
+    $( "#update-btn").click(function() {
+        console.log('T');
+        $(".update-tab").removeClass("hide");
+        $(".environment-tab").addClass("hide");
+        $(this).attr("aria-selected","true").siblings().attr("aria-selected","false");
+    });
+    $( "#environment-btn").click(function() {
+        console.log('S');
+        $(".environment-tab").removeClass("hide");
+        $(".update-tab").addClass("hide");
+        $(this).attr("aria-selected","true").siblings().attr("aria-selected","false");
     });
 
     $("#monaca_ide").click(function() {
