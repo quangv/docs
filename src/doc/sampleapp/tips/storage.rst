@@ -10,7 +10,7 @@ HTML5 Web SQL Database connects to the device database. This section describes W
 Web SQL Database
 ==========================
 
-You need to create a new Database object before accessing to it. *window.openDatabase* function creates a new SQLite database. 
+You need to create a new Database object before accessing to it. *window.openDatabase* function creates a new Web SQL database.
 
 .. code-block:: javascript
 
@@ -18,7 +18,7 @@ You need to create a new Database object before accessing to it. *window.openDat
 
 
 ------------------------------------------------------
-Creating a Database (SQLite)
+Creating a Database (Web SQL)
 ------------------------------------------------------
 
 ::
@@ -87,7 +87,7 @@ rows                            Returns *ResultSetRowList* object. It represents
 
 
 ---------------------------------------------------------------------------
-Executing SQL (SQLite)
+Executing SQL (Web SQL)
 ---------------------------------------------------------------------------
 
 .. literalinclude:: download/storage/en/index.html
